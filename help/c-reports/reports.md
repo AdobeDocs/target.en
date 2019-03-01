@@ -68,4 +68,4 @@ In addition to the general reporting information in this topic and its subtopics
 
 1. (Optional) Click the **[!UICONTROL Table View]** and **[!UICONTROL Graph View]** icons to switch between reporting formats.
 
-   For Multivariate tests only, click the **[!UICONTROL Location Contribution]** ( ![Location Contribution icon](assets/icon_location_contribution.png) ) icon to switch the report to show contribution by location.
+   For Multivariate tests only, click the **[!UICONTROL Location Contribution]** (![Location Contribution icon](assets/icon_location_contribution.png)) icon to switch the report to show contribution by location.
