@@ -278,7 +278,7 @@ To update a feed (for example, to make changes to your feed configuration or fee
 
 >[!IMPORTANT]
 >
->Uploaded entities expire after 61 days. This means that your feed file should be uploaded at least every 60 days to avoid a disruption to your recommendations activities. If an item is not included in a feed file (or other entity update method) at least once every 60 days, Adobe Target infers the item is no longer relevant and removes it from the catalog.
+>Uploaded feeds expire after 61 days. This means that recommendations will no longer be returned if a feed file has not been processed in the last 60 days. 
 
 ### Feed Status Indicators {#section_3C8A236C5CB84C769A9E9E36B8BFABA4}
 
