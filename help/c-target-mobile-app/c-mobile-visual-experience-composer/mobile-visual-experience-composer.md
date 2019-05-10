@@ -13,77 +13,11 @@ uuid: 83702f9c-40ff-441b-b773-46b01155a6f2
 
 The Visual Experience Composer (VEC) for Native Mobile Apps lets you create activities and personalize content on native mobile apps in a do-it-yourself fashion without continuous development dependencies and app-release cycles.
 
->[!NOTE]
->
->The Visual Experience Composer for Native Mobile Apps is currently offered as a Beta feature available to select customers to obtain feedback to help us improve the feature before making it available to all customers. Please talk to your Customer Success Manager or Adobe Client Care to participate in this Beta program.
-
 ## Overview {#section_C94BC5378FE8440F8C58D96575562EE4}
 
-The existing [Visual Experience Composer](../../c-experiences/experiences.md#section_34265986611B4AB8A0E4D6ACC25EF91D) gives you a do-it-yourself capability to create activities and personalize experiences that can be dynamically delivered to your web properties via Target's Global Mbox without any developer intervention. You can now take advantage of the VEC to do the same for native mobile applications. The Mobile VEC can be used to create [A/B Test](../../c-activities/t-test-ab/test-ab.md#task_05E33EB15C4D4459B5EAFF90A94A7977) and [Experience Targeting (XT)](../../c-activities/t-experience-target/experience-target.md#task_A53DF336CB9F4D7BB87EF2106099EFC4) activities for mobile apps. Support for other activity types will be available in the future.
+The existing [Visual Experience Composer](../../c-experiences/experiences.md#section_34265986611B4AB8A0E4D6ACC25EF91D) gives you a do-it-yourself capability to create activities and personalize experiences that can be dynamically delivered to your web properties via Target's Global Mbox without any developer intervention. You can now take advantage of the VEC to do the same for native mobile applications. The Mobile VEC, available on [AEP SDK v5](https://aep-sdks.gitbook.io/docs/using-mobile-extensions/adobe-target-vec), can be used to create [A/B Test](../../c-activities/t-test-ab/test-ab.md#task_05E33EB15C4D4459B5EAFF90A94A7977) and [Experience Targeting (XT)](../../c-activities/t-experience-target/experience-target.md#task_A53DF336CB9F4D7BB87EF2106099EFC4) activities for mobile apps. Support for other activity types will be available in the future.
 
 The Mobile VEC supports the browsers listed in [Target Standard/Premium Interface in Supported Browsers](../../c-implementing-target/c-considerations-before-you-implement-target/supported-browsers.md#reference_01B4BF99E7D545A7998773202A2F6100).
-
-## Target Views & Mobile Applications {#section_9B3941F6EE854F87917611D2A8AF8868}
-
-The Target VEC 2.0 takes advantage of a new concept of Views: a logical group of visual elements that together make up a mobile app experience.
-
-**Introducing Target Views**
-
-Let's consider a shopping app for flowers as an example. The app lets users perform the following tasks:
-
-* List available flowers and bouquets 
-* View details 
-* Order flowers 
-* Control settings, such as payment options and addresses
-
-In this application, each of these tasks can be achieved on a separate screen of the mobile app. As users browse through the app, a screen is rendered allowing them to perform one of the following tasks. If you are an Android developer, you will most likely create four different Android Activity Classes with each class associated with one of these tasks.
-
-In this case, each of these tasks can be considered as Views that your mobile app transitions through. We will refer to these are Target Views—each uniquely characterized. A Target View, or View in short, is a logical container of visual elements that are displayed on the mobile screen. Examples of a View is a screen or an Activity Class in Android.
-
-Mobile apps are rarely made this simple. Let's make it a little more realistic. In the first task, which lists available flowers and bouquets, let's add the ability to create multiple layouts and, therefore, different screens. For example, let's add a "Sort By" feature that has three options:
-
-* By Popularity 
-* Price - Low to High 
-* Price - High to Low
-
-In this example, whenever a user selects a different "Sort By" option, a new screen displays, even when the Activity Class is the same. Each of these screens can therefore be considered different Target Views.
-
-As a marketer, you're interested in creating different experiences and running distinct offers on each of these views, without asking your developers to set up local mboxes or go through an app release cycle.
-
-## Setting Up the Mobile App {#section_65156B7D335B451D9D98A529D55B9BFC}
-
-Developers must do the following to use the Mobile VEC:
-
-* Depending on your OS:
-
-    * Android - Install the [latest version of Android Studio](https://developer.android.com/studio/index.html) on your machine and know how to build applications in it. 
-    * iOS - Install the [latest version of XCode](https://developer.apple.com/xcode/) on your machine and know how to build applications on it.
-
-* Have basic knowledge of how to unzip a zipped-compressed file.
-
-For more information and step-by-step instructions, see:
-
-* [Android - Setting Up the Mobile App](../../c-target-mobile-app/c-mobile-visual-experience-composer/mobile-visual-experience-composer-android.md#concept_3DD4DC02DCFD45CF91AFC13FFC3BB634) 
-* [iOS - Setting Up the Mobile App](../../c-target-mobile-app/c-mobile-visual-experience-composer/mobile-visual-experience-composer-ios.md#concept_A7B6F56076B049B497262B971A793D4A)
-
-## General Guidelines for Target API Calls {#section_C7276795F02540DCA230AEEDF882A833}
-
-To properly add Target Views for Android, here's a simple table that outlines the correct locations to put the `targetView` calls:
-
-| Acceptable TargetView Location | Under the Correct Additions |
-|--- |--- |
-|At the end of `Activity::onStart`, `Activity::onResume`|It is up to the developer whether to consider `OnStart` and `OnResume` to be the same or different `targetViews`. If the same, use the same `viewName`. If different, use different `viewNames`. These events are automatically added by the SDK.|
-|Immediately after an `Activity::SetContent` call|If the UI doesn't change, we can insert a  `targetView` call.|
-|Inside of `View::willAppear`|If the selected view that appears in uniquely in one specific view hierarchy.|
-|Immediately after an `Activity::SetContentView` call|If the activity doesn't change/amend any of its content in the following code.|
-
-For Android, here's a table for incorrect locations to put the `targetView` calls:
-
-| Unacceptable TargetView Location | Reason |
-|--- |--- |
-|Within `Activity::onCreate`|The activity has been created, but the view associated with activity is not guaranteed to be complete, and/or attached to the window. This placement might lead to the authoring screen being not sampled or incompletely sampled, and/or the offers being applied in a non-deterministic manner.|
-|Inside of `View::didAppear`|The view has already appeared and the application of the offer will create a poor UI experience with flicker.|
-|Inside of `View::didLoad`|The view is not attached to the main view hierarchy, and might be instantiated, but are not guaranteed to be shown on the app UI.|
 
 ## Using the Visual Experience Composer for Native Mobile Apps {#section_A9FC975468E74FA8AC7CF2B1EFE1B59B}
 
@@ -149,6 +83,83 @@ Your internet connection might have dropped. Relaunch the application after the 
 
 Click the [!UICONTROL Refresh] button in the VEC to sync the display.
 
+## Target Views & Mobile Applications {#section_9B3941F6EE854F87917611D2A8AF8868}
+
+The Target VEC 2.0 takes advantage of a new concept of Views: a logical group of visual elements that together make up a mobile app experience.
+
+**Introducing Target Views**
+
+Let's consider a shopping app for flowers as an example. The app lets users perform the following tasks:
+
+* List available flowers and bouquets 
+* View details 
+* Order flowers 
+* Control settings, such as payment options and addresses
+
+In this application, each of these tasks can be achieved on a separate screen of the mobile app. As users browse through the app, a screen is rendered allowing them to perform one of the following tasks. If you are an Android developer, you will most likely create four different Android Activity Classes with each class associated with one of these tasks.
+
+In this case, each of these tasks can be considered as Views that your mobile app transitions through. We will refer to these are Target Views—each uniquely characterized. A Target View, or View in short, is a logical container of visual elements that are displayed on the mobile screen. Examples of a View is a screen or an Activity Class in Android.
+
+Mobile apps are rarely made this simple. Let's make it a little more realistic. In the first task, which lists available flowers and bouquets, let's add the ability to create multiple layouts and, therefore, different screens. For example, let's add a "Sort By" feature that has three options:
+
+* By Popularity 
+* Price - Low to High 
+* Price - High to Low
+
+In this example, whenever a user selects a different "Sort By" option, a new screen displays, even when the Activity Class is the same. Each of these screens can therefore be considered different Target Views.
+
+As a marketer, you're interested in creating different experiences and running distinct offers on each of these views, without asking your developers to set up local mboxes or go through an app release cycle.
+
+## Setting Up Target VEC {#section_65156B7D335B451D9D98A529D55B9BFC}
+
+Developers must do the following to enable the Mobile VEC for a mobile app:
+* Configure the Adobe Target - VEC extension in Launch
+    * The VEC extension is dependent on the Adobe Target Extension. Make sure Adobe Target extension is already configured and enabled.
+* Add the Target VEC Extension to your app.
+    * [Android - Setting Up the Mobile App](../../c-target-mobile-app/c-mobile-visual-experience-composer/mobile-visual-experience-composer-android.md#concept_3DD4DC02DCFD45CF91AFC13FFC3BB634) 
+    * [iOS - Setting Up the Mobile App](../../c-target-mobile-app/c-mobile-visual-experience-composer/mobile-visual-experience-composer-ios.md#concept_A7B6F56076B049B497262B971A793D4A)
+
+## Implementation Methods for Target VEC
+The Target VEC extension retrieves the relevant Target experiences for your app through a network request. Offers are retrieved via this network call and applied automatically on the targeted screens. No subsequent network requests are made to retrieve VEC experiences as the user navigates through multiple screens of the app.
+
+The default behavior of the extension is to make a synchronous network request (blocking call) at the time of Application launch. You can use Launch to control the behavior of this network request to meet your application behavior.
+
+### Auto-Fetch Target Activities
+This is the default behavior where a network request is initiated automatically by the Target VEC extension. You can use one of the following options to make this request a blocking call or an asynchronous request.
+
+   * Fetch in a synchronous call (background is OFF)
+     When selected, Target VEC extension makes a network request as a blocking call on App launch. Offers are applied immediately and there is no flicker in the app. This is the default behavior of the extension.
+
+   * Fetch in an asynchronous call (background is ON)
+     When selected, Target VEC extension makes a network request in the background on App launch but does not block the app from loading. If your experiences are authored on the home screen of your app, the offers may not apply for the home screen if the screen is rendered before the call completes. The app screen rendering is typically identified via the lifecycle events `didFinishLaunchingWithOptions` and `onActivityResumed`  on iOS and Android respectively. Offers will be automatically apply on all subsequent screens.
+
+### Fetch Target Activities Programmatically
+You can disable the Target VEC extension to make the network request automatically and decide to programmatically call the Extension API. This gives your developers control on how they want to integrate Target VEC offers in the App. The Target VEC extension has two static methods `prefetchOffers` and `prefetchOffersBackground` that can used to programmatically retrieve Target VEC offers.
+   * `prefetchOffers` method will hide the current screen until Target VEC offers are fetched. The offers are automatically applied to the current screen if applicable and the screen is visible again.
+   * `prefetchOffersBackground` method will not hide the current screen and a call will be made to retrieve the relevant Target offers. Target offers will *not* be applied on the current screen and there will not be a flicker. As the user navigates to subsequent screens, offers will be automatically applied as applicable.
+
+### Handle Target Workspace Restrictions
+You can set the `at_property` value for your workspace using the Launch interface. This ensures only activities in that workspace will be delivered to your Mobile App.
+
+## General Guidelines for Target API Calls {#section_C7276795F02540DCA230AEEDF882A833}
+
+To properly add Target Views for Android, here's a simple table that outlines the correct locations to put the `targetView` calls:
+
+| Acceptable TargetView Location | Under the Correct Additions |
+|--- |--- |
+|At the end of `Activity::onStart`, `Activity::onResume`|It is up to the developer whether to consider `OnStart` and `OnResume` to be the same or different `targetViews`. If the same, use the same `viewName`. If different, use different `viewNames`. These events are automatically added by the SDK.|
+|Immediately after an `Activity::SetContent` call|If the UI doesn't change, we can insert a  `targetView` call.|
+|Inside of `View::willAppear`|If the selected view that appears in uniquely in one specific view hierarchy.|
+|Immediately after an `Activity::SetContentView` call|If the activity doesn't change/amend any of its content in the following code.|
+
+For Android, here's a table for incorrect locations to put the `targetView` calls:
+
+| Unacceptable TargetView Location | Reason |
+|--- |--- |
+|Within `Activity::onCreate`|The activity has been created, but the view associated with activity is not guaranteed to be complete, and/or attached to the window. This placement might lead to the authoring screen being not sampled or incompletely sampled, and/or the offers being applied in a non-deterministic manner.|
+|Inside of `View::didAppear`|The view has already appeared and the application of the offer will create a poor UI experience with flicker.|
+|Inside of `View::didLoad`|The view is not attached to the main view hierarchy, and might be instantiated, but are not guaranteed to be shown on the app UI.|
+
 ## Delivery {#section_DCBF906097704D519FDF88EEB0720760}
 
 Target activities authored using the Mobile VEC are automatically delivered in mobile apps. These activities are prefetched on app launch and applied as the user navigates through different Target Views, often mapped directly to the screens.
@@ -164,8 +175,7 @@ Note that each time Target offers are prefetched, the offers for the last Target
 ## Known Limitations {#section_DF5148F9CFEB48AF9187F38175D7DEF2}
 
 * Although the normal UI can be targeted with the current implementation, Target View cannot be defined for dialog boxes and alerts. In Android, support for dialog boxes and Alert Target Views will be added into the full release. 
-* The Mobile VEC can currently be used to create [A/B Test](../../c-activities/t-test-ab/test-ab.md#task_05E33EB15C4D4459B5EAFF90A94A7977) and [Experience Targeting](../../c-activities/t-experience-target/experience-target.md#task_A53DF336CB9F4D7BB87EF2106099EFC4) (XT) activities for Mobile Apps. Support for other activity types will be available in the future. 
-* While authoring your activity in the Mobile VEC, currently the Swap Image and Change Text actions are supported. Support for other actions will be available in the future. 
+* The Mobile VEC can currently be used to create [A/B Test](../../c-activities/t-test-ab/test-ab.md#task_05E33EB15C4D4459B5EAFF90A94A7977) and [Experience Targeting](../../c-activities/t-experience-target/experience-target.md#task_A53DF336CB9F4D7BB87EF2106099EFC4) (XT) activities for Mobile Apps. Support for other activity types will be available in the future.
 * You must close the mobile app from the recent apps section and not by pressing the [!UICONTROL Back] button while trying to reconnect the app to the Mobile VEC.
 
   If the mobile app is already open during any of the scenarios listed below, you must close the app and then reopen it. However, you *must* close the app by closing it from the recent apps section and *not* by pressing the Back button. There might be intermittent connection issues if the app is closed by pressing the Back button.
@@ -176,5 +186,5 @@ Note that each time Target offers are prefetched, the offers for the last Target
     * The device dialog box displays when you start editing an activity. If the app is already open, you must close and then relaunch the app to get its device shown as available for selection. 
     * The device dialog box displays when you navigate from the "Goals & Settings" step back to the "Authoring" step (Step 1). If the app is already open, you must close and then relaunch the app to connect back to the Mobile VEC.
 
-  Ensure that you close the app by closing it from the recent apps section and not by pressing the [!UICONTROL Back] button. (KB-1714)
+  Ensure that you close the app by closing it from the recent apps section and not by pressing the [!UICONTROL Back] button.
 
