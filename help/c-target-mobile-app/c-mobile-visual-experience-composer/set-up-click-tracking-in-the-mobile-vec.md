@@ -11,13 +11,7 @@ uuid: 7e4ce7c0-0027-417c-8dae-45b6f5045e65
 
 # Set up click tracking in the Mobile VEC{#set-up-click-tracking-in-the-mobile-vec}
 
-Information about how Target mobile customers can track when a user clicked an element.
-
->[!NOTE]
->
->The Visual Experience Composer for Native Mobile Apps is currently offered as a Beta feature available to select customers to obtain feedback to help us improve the feature before making it available to all customers. Please talk to your Customer Success Manager or Adobe Client Care to participate in this Beta program.
-
-After views are set up and the SDK is integrated in a mobile app. No steps are needed in the Mobile SDK. The workflow for setting up click tracking is similar to the functionality provided in the Web domain.
+The Mobile VEC supports setting up of click tracking goals for the Target Activities.
 
 1. When setting your goals on the Goals & Settings page for your activity , select the [!UICONTROL Conversion] success metric.
 
@@ -45,11 +39,9 @@ When an activity entrant clicks a selected element, that click is counted as a c
 
 ## Considerations {#section_916EF60AC56A4764931B21BEA0C8B87B}
 
-There are several things to consider when selecting elements:
-
-* If you select more than one element, if an entrant clicks any one of the chosen elements, the click is counted. To count each item separately, set up individual success metrics for each element. 
+* When more than one element is selected and if a visitor clicks any one of these elements, the click is counted. To count each click separately, set up individual success metrics for each element. 
 * Click events are sent to Target as soon as the user clicks the element. 
-* While selecting elements, only those elements that have the click handler attached are allowed to be selected. Other elements won't be available for selection. 
+* In VEC, only those elements that have a click handler attached are allowed to be selected.
 * You can browse to any section of the app, but make sure that [views](../../c-target-mobile-app/c-mobile-visual-experience-composer/mobile-visual-experience-composer.md#section_9B3941F6EE854F87917611D2A8AF8868) are defined for the section where you are selecting elements for click tracking. 
 * While editing an activity, if the device is already selected in Step1, you don't need to select the device again. However, if you land directly on the click track page, you will be shown the device selection screen to select an authorized device.
 
