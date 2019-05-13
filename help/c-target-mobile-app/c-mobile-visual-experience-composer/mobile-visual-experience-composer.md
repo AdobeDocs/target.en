@@ -1,6 +1,6 @@
 ---
 description: The Visual Experience Composer (VEC) for Native Mobile Apps lets you create activities and personalize content on native mobile apps in a do-it-yourself fashion without continuous development dependencies and app-release cycles.
-keywords: mobile vec;mobile visual experience composer;mobile experience composer options;mobile experience options;target view
+keywords: mobile vec;mobile visual experience composer;mobile experience composer options;mobile experience options;target view; target mobile
 seo-description: The Visual Experience Composer (VEC) for Native Mobile Apps lets you create activities and personalize content on native mobile apps in a do-it-yourself fashion without continuous development dependencies and app-release cycles.
 seo-title: Mobile App Visual Experience Composer
 solution: Target
@@ -27,7 +27,7 @@ The following illustration represents the process of using the Mobile VEC:
 
 | Process | Details |
 |--- |--- |
-|Paring|Securely authorize your mobile app and device to work with Target.|
+|Paring|Securely authorize your mobile app and device to work with Target. This step is required only once for a device.|
 |Authoring|Author a [Target activity](/help/c-activities/activities.md), with real-time preview of actions performed in the Target UI.|
 |Delivery|Target automatically delivers activities in your native mobile app.|
 
@@ -66,8 +66,9 @@ After the app is connected and a real-time view of the app appears in the VEC, y
 
 | Action | Details |
 |--- |--- |
-|Swap Image|Replace an image in the app with an alternate image. These images will be served via [Adobe Scene7](/help/administrating-target/scene7-settings.md).|
-|Change Text|Change the text content, color, and font-size in a Text element.|
+|Swap Image|Swap an image with another one by selecting a different Image Offer or directly setting the CDN URL of an image. Image Offers in Target will be served via [Adobe Scene7](/help/administrating-target/scene7-settings.md).|
+|Change Text|Change the text content, color, and font-size in a Text element, Button or Label.|
+|Change Background|Change the content or element background for Text area or Buttons.|
 
 Actions performed in the VEC are visible in real-time in the app, thereby allowing for a real-time preview capability during authoring. Actions are associated with relevant Mobile Screens or Views and are associated appropriately.
 
@@ -174,9 +175,8 @@ Note that each time Target offers are prefetched, the offers for the last Target
 
 ## Known Limitations {#section_DF5148F9CFEB48AF9187F38175D7DEF2}
 
-* Although the normal UI can be targeted with the current implementation, Target View cannot be defined for dialog boxes and alerts. In Android, support for dialog boxes and Alert Target Views will be added into the full release. 
 * The Mobile VEC can currently be used to create [A/B Test](../../c-activities/t-test-ab/test-ab.md#task_05E33EB15C4D4459B5EAFF90A94A7977) and [Experience Targeting](../../c-activities/t-experience-target/experience-target.md#task_A53DF336CB9F4D7BB87EF2106099EFC4) (XT) activities for Mobile Apps. Support for other activity types will be available in the future.
-* You must close the mobile app from the recent apps section and not by pressing the [!UICONTROL Back] button while trying to reconnect the app to the Mobile VEC.
+* When trying to reconnect the app to Mobile VEC, you must exit the app completely and relaunch it.
 
   If the mobile app is already open during any of the scenarios listed below, you must close the app and then reopen it. However, you *must* close the app by closing it from the recent apps section and *not* by pressing the Back button. There might be intermittent connection issues if the app is closed by pressing the Back button.
 
