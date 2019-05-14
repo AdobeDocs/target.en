@@ -11,15 +11,7 @@ uuid: 6db4f06a-d8f4-4192-af6f-917594e721e6
 
 # iOS - set up the mobile app{#ios-set-up-the-mobile-app}
 
-Target's new SDK Library allows developers to do a one-time setup on their iOS mobile apps and enable marketers to use the capabilities of the Mobile Visual Experience Composer (VEC).
-
->[!NOTE]
->
->The Visual Experience Composer for Native Mobile Apps is currently offered as a Beta feature available to select customers to obtain feedback to help us improve the feature before making it available to all customers. Please talk to your Customer Success Manager or Adobe Client Care to participate in this Beta program.
-
-The Mobile VEC can now be used along with the recently released Adobe Experience Cloud SDK. To do this, customers must use the Adobe Launch integration, the recommended method for using SDKs. For more information, see [Adobe Experience Platform SDKs](https://aep-sdks.gitbook.io/docs).
-
-To set up the Target VEC extension from Launch, see [Use Adobe Launch to set up the Mobile App VEC](../../c-target-mobile-app/c-mobile-visual-experience-composer/use-adobe-launch-to-set-up-the-mobile-app-vec.md#concept_630A05151EF1487193BAE670B59F8CAC).
+Target's new SDK Library allows developers to do a one-time setup on their iOS mobile apps and enable marketers to use the capabilities of the Mobile Visual Experience Composer (VEC). For more information on enabling the Adobe Target VEC extension, see [Adobe Experience Platform SDKs](https://aep-sdks.gitbook.io/docs).
 
 ## Include the Mobile SDK & the Target Library {#section_FD969A63C4F74603B2F31B82881422A4}
 
@@ -54,7 +46,7 @@ To set up the Target VEC extension from Launch, see [Use Adobe Launch to set up 
 
    If you are using Swift, add the following line:
 
-   `import ACPTargetVEC_iOS` 
+   `import ACPTargetVEC` 
 
 1. In your [!DNL AppDelegate] file, add the following line to `AppDelegate::application:didFinishLaunchingWithOptions:`. If the delegate function is not defined, create it and add the following line for Objective-C or Swift application, respectively:
 
@@ -67,11 +59,10 @@ To set up the Target VEC extension from Launch, see [Use Adobe Launch to set up 
    [ACPUserProfile registerExtension]; 
    [ACPTarget registerExtension];
 
-   [ACPTargetVEC registerExtension]; 
-   [ACPTargetVEC allowDebugLogging:YES]; //To see debug logs for target VEC 
-     
-   [ACPCore start:nil]; 
-   [ACPCore lifecycleStart:nil]; 
+   [ACPTargetVEC registerExtension];
+   [ACPCore start:^{
+        [ACPCore lifecycleStart:nil];
+   }];
       
    // CONFIGURATION LINE FOR SWIFT ONLY: 
    ACPCore.configure(withAppId: "YOUR_ADOBE_LAUNCH_APP_ID") 
@@ -82,11 +73,10 @@ To set up the Target VEC extension from Launch, see [Use Adobe Launch to set up 
    ACPTarget.registerExtension() 
      
    ACPTargetVEC.registerExtension() 
-   ACPTargetVEC.allowDebugLogging(true) //To see debug logs for Target VEC 
      
-   ACPCore.start(nil) 
-   ACPCore.lifecycleStart(nil)
-
+   [ACPCore start:^{
+        [ACPCore lifecycleStart:nil];
+   }];
    ```
 
    As a example, the method should resemble the following sample:
