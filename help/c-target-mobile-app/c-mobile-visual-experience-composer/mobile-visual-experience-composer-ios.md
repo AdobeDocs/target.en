@@ -74,9 +74,9 @@ The Adobe Target Mobile Visual Experience Composer (VEC) lets developers do a on
      
    ACPTargetVEC.registerExtension() 
      
-   [ACPCore start:^{
-        [ACPCore lifecycleStart:nil];
-   }];
+   ACPCore.start {
+     ACPCore.lifecycleStart(nil)
+   }
    ```
 
    As a example, the method should resemble the following sample:
