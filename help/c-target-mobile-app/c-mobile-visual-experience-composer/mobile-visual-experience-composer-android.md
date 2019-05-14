@@ -51,7 +51,7 @@ Target's new SDK Library allows developers to do a one-time setup on their Andro
            /* Put Your App's implementation */ 
            MobileCore.setApplication(this); 
            MobileCore.setLogLevel(LoggingMode.DEBUG); 
-           MobileCore.configureWithAppID("launch-EN13b512d3e5f44948b7055c168ec2407c-development"); 
+           MobileCore.configureWithAppID("YOUR_ADOBE_LAUNCH_APP_ID"); 
              
            ... 
            try { 
