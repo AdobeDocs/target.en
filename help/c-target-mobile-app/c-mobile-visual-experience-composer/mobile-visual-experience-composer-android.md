@@ -21,6 +21,16 @@ Target's new SDK Library allows developers to do a one-time setup on their Andro
    ```
    implementation 'com.adobe.marketing.mobile:target-vec:1.+'
    ```
+1. VEC requires following artifacts to be included as a dependency in build.gradle
+   
+   ```
+    implementation 'com.google.code.gson:gson:2.8.2'
+    implementation 'android.arch.lifecycle:extensions:1.1.1'
+    implementation('io.github.sac:SocketclusterClientJava:1.7.5')
+    implementation 'com.android.support:support-annotations:28.0.0'
+    implementation 'com.android.support:support-compat:28.0.0'
+    implementation 'com.android.support:design:28.0.0'
+   ```
 
 1. Add an intent filter in your [!DNL AndroidManifest.XML] file, choosing a unique deep-link scheme for Mobile VEC authoring (for example, `[sdkbetabus://com.adobe.sdkbetabus](sdkbetabus://com.adobe.sdkbetabus)`):
 
