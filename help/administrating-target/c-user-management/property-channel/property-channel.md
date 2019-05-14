@@ -247,17 +247,33 @@ Consider the following when using or configuring properties and permissions in T
 
 * The Enterprise User Permissions functionality is not supported in [Adobe I/O API calls](https://developers.adobetarget.com).
 
-## Frequently Asked Questions {#section_31D3450ADEAE4A29963A34F8E8C19FE0}
+## Frequently Asked Questions {#faqs}
 
-**Can I move an activity from one workspace to another?**
+FAQs about enterprise permissions include the following:
+
+### Can I move an activity from one workspace to another?
 
 Unfortunately, you cannot move activities from one workspace to another. However, you can copy an activity to any workspace knowing that reporting data will not carry over. For more information, see "Copying/Editing an Activity When Using Workspaces" in [Copying/Editing an Activity When Using Workspaces](../../../c-activities/edit-activity.md#section_45A92E1DD3934523B07E71EF90C4F8B6).
 
 Activities created before the migration continue to run the same way in the Default Workspace unless they are edited and assigned properties. Activities under a specific workspace will honor properties assigned to that workspace and, therefore, behavior might not remain same as before the migration.
 
-**Why do I get an error message indicating that no property is associated with this activity, even though there is a property assigned?**
+### Why do I get an error message indicating that no property is associated with this activity, even though there is a property assigned?
 
 If you implemented [!DNL Target] with [!DNL Adobe Launch] and get an error message indicating that there is no property associated with the activity, pass the `at_property` parameter with the `targetPageParams` function.
+
+### Are click-track conversions recorded if a redirect page and the activity URL belong to different properties?
+
+Click tracking is not recorded on pages where the page and activity URL belong to different properties.
+
+Consider the following scenario (applies to both at.js and mbox.js):
+
+* Page1 belongs to Property1.
+* Page2 belongs to Property2.
+* In the activity, Page1 redirects to Page2, which contains clicktracks.
+
+When a visitor opens Page1 in a browser, he or she is redirected to Page2. Because Page2 does not qualify to deliver the activity, its Target call does not contain clicktracks in its response. 
+
+If the redirect page and the activity URL belong to the same property, clicktracks work as expected. For more information, see [Click tracking](/help/c-activities/r-success-metrics/click-tracking.md).
 
 ## Training video: Enterprise Permissions Training Video {#section_2FA080303A064242B63FF16CFA6DB31D}
 

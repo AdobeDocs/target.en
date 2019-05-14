@@ -19,7 +19,16 @@ This page lists important changes made to the [!DNL Adobe Target] documentation.
 
 |Date|Topic|Changes|
 | --- | --- | --- |
+|May 13, 2019|[Activity QA](/help/c-activities/c-activity-qa/activity-qa.md)|Added item to the Considerations list about using QA Mode in a multi-page activity.|
+||[Include the Same Experience on Similar Pages](/help/c-experiences/c-visual-experience-composer/temtest.md)|Updated steps to match the UI.|
+||[at.js Frequently Asked Questions](/help/c-implementing-target/c-implementing-target-for-client-side-web/c-target-atjs-faq/target-atjs-faq.md)|Added new FAQ: "What HTML doctype does at.js require?"|
+|May 10, 2019|[Preferences](/help/administrating-target/r-target-account-preferences/target-account-preferences.md)|Updated text and image.|
+||[Activity QA](/help/c-activities/c-activity-qa/activity-qa.md)|Updated text.|
+|May 9, 2019|[A4T reporting](/help/c-integrating-target-with-mac/a4t/reporting.md#reports-in-analysis-workspace)|Added new section: "Reports in Analysis Workspace."|
+||[View reports - A4T FAQ](/help/c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-viewing-reports.md)|Added new FAQ: "Can I view my Target activity data in Adobe Analysis Workspace?"|
+||[Enterprise user permissions](/help/administrating-target/c-user-management/property-channel/property-channel.md#faqs)|Added new FAQ: "Are click-track conversions recorded if a redirect page and the activity URL belong to different properties?"|
 |May 8, 2019|[Training videos for Adobe Target Standard and Premium](/help/c-intro/target-standard-premium-training-videos.md)|Updated content and links.|
+||[Entity attributes](/help/c-recommendations/c-products/entity-attributes.md)|Updated text in the note under the `entity.id` variable.|
 |May 1, 2019|[Entity attributes](/help/c-recommendations/c-products/entity-attributes.md)|Corrected capitalization in the following variable names:<br>Changed `pageURL` to `pageUrl`.<br>Changed `thumbnailURL` to `thumbnailUrl`.|
 |April 30, 2019|[Visual Experience Composer Options](/help/c-experiences/c-visual-experience-composer/viztarget-options.md)|<ul><li>Added new section: "Styles."</li><li>Added table listing HTML5 tags that can be nested.</li></ul>|
 ||[Click tracking](/help/c-activities/r-success-metrics/click-tracking.md)|Added information about the DOM path feature to the "Considerations" section.|

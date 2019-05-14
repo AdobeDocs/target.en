@@ -13,7 +13,7 @@ uuid: 39938ec2-b12e-44cf-9218-69195fba0ff7
 
 Target's new SDK Library allows developers to do a one-time setup on their Android mobile apps and enable marketers to use the capabilities of the Mobile Visual Experience Composer (VEC).For more information on enabling the Adobe Target VEC extension, see [Adobe Experience Platform SDKs](https://aep-sdks.gitbook.io/docs).
 
-## Include the Mobile SDK & the Target Library {#section_481F9644C71B4CB7AE3FC526D281D1D2}
+## Include the Mobile SDK & the Target Library {#sdk-library}
 
 1. For information about SDK V5 initialization, see [Initialize the SDK and Set Up Tracking](https://aep-sdks.gitbook.io/docs/getting-started/initialize-the-sdk). 
 1. Add the following line to the dependencies section:
@@ -90,11 +90,15 @@ Target's new SDK Library allows developers to do a one-time setup on their Andro
     1. [!DNL AndroidManifest.XML] 
     1. `build.gradle` of the Android Application
 
-## Set Up Target Views on Your Mobile App {#section_93AE7797B603465BBFBEC34E5A0A91E3}
+## Set Up Target Views on Your Mobile App {#views}
 
-The Adobe Mobile SDK exposes a new method for developers to trigger whenever a new View is rendered. As a developer, you must ensure that the views are named uniquely, and the `targetView` call is on the UI main thread. In this section, we will first demonstrate how to properly insert these calls with two different demonstration applications and discuss general guidelines on how to properly insert the Target View API calls for any Android app.
+The Adobe Mobile SDK exposes a new method for developers to trigger whenever a new View is rendered. As a developer, you must ensure that the views are named uniquely, and the `targetView` call is on the UI main thread. In this section, we will first demonstrate how to insert these calls with two different demonstration applications and discuss general guidelines on how to properly insert the Target View API calls for any Android app.
 
-The integration of the Target Views on your mobile app is straight forward. There's only one call to be made:
+>[!NOTE]
+>
+>If the `targetView function` is not triggered, the VEC extension tries to identify View from the Android activity. For applications that do not have dynamic views, this can be an optional step.
+
+A Target View can be triggered with a function call. Any targeting parameters can be optionally provided with the view.
 
 ```
 public class TargetVEC { 
@@ -207,82 +211,7 @@ public class OfferDetailsActivity extends AppCompatActivity {
 }
 ```
 
-Our second example project is a instrumentation of a well-known, open-source and realistic movie application called MovieGuide ( [https://github.com/esoxjem/MovieGuide](https://github.com/esoxjem/MovieGuide)).
-
-To set up this application for use in the Mobile VEC:
-
-1. In Android Studio, open the project with the [!DNL build.gradle] file in the package subdirectory [!DNL MovieGuide]. 
-1. Follow to directions on [https://github.com/AshishKayastha/Movie-Guide](https://github.com/AshishKayastha/Movie-Guide) to get your API key and enable access to its movie database. Modify the [!DNL local.properties] files as per the instructions. 
-1. In the `BaseApplication::OnCreate` method, add `TargetVEC.registerExtension()` after following [Launch integration steps](../../c-target-mobile-app/c-mobile-visual-experience-composer/use-adobe-launch-to-set-up-the-mobile-app-vec.md#concept_630A05151EF1487193BAE670B59F8CAC). 
-1. Build and run the application. 
-1. To enter the Mobile VEC authoring mode, use the [!DNL sdkbeta://com.adobe.sdkbeta] as its URL scheme, and open the generated deep link on the device (see directions below).
-
-All activity starts/resumes are already automatically marked as Target Views by the Target Mobile library extension. Moreover, our first example inserts the `TargetView` call into the application open source movie guide application. In our test application, we insert a Target View directly after a movie listing is about to appear (`com/esoxjem/movieguide/listing/MovieListingFragment.java:90`) for the first time.
-
-Target View Call Insertion:
-
-```
-public class MoviesListingFragment extends Fragment implements MoviesListingView { 
-    /* ... */ 
-   
-    @Override 
-    public void onViewCreated(View view, Bundle savedInstanceState) { 
-        super.onViewCreated(view, savedInstanceState); 
-        if (savedInstanceState != null) { 
-            movies = savedInstanceState.getParcelableArrayList(Constants.MOVIE); 
-            adapter.notifyDataSetChanged(); 
-            moviesListing.setVisibility(View.VISIBLE); 
-        } else { 
-            TargetVEC.targetView("MOVIE_LISTINGS"); 
-            moviesPresenter.setView(this); 
-        } 
-    } 
-   
-    /* ... */ 
-}
-```
-
-Our second example inserts the `TargetView` call onto a unique view element, so that we can directly target a screen associated with that view element ( [!DNL com/esoxjem/movieguide/details/MovieDetailsFragment.java:108]). Because this element is used only once in unique layout inflation, the label can be used to represent the layout as a whole and can target the screen for reviews inside of Android Fragment.
-
-Unique View Tagging:
-
-```
-public class MovieDetailsFragment extends Fragment implements MovieDetailsView, View.OnClickListener 
-   
-{ 
-   /* ... */ 
-    @Override 
-    public View onCreateView(LayoutInflater inflater, ViewGroup container, 
-                             Bundle savedInstanceState) 
-    { 
-        View rootView = inflater.inflate(R.layout.fragment_movie_details, container, false); 
-        unbinder = ButterKnife.bind(this, rootView); 
-        setToolbar(); 
-   
-        /* Added TargetVEC Code */ 
-        View reviewerLabel =  rootView.findViewById(R.id.reviews_label); 
-        if(reviewerLabel != null) { 
-            reviewerLabel.addOnAttachStateChangeListener(new View.OnAttachStateChangeListener() { 
-                @Override 
-                public void onViewAttachedToWindow(View v) { 
-                    TargetVEC.targetView("REVIEW_LABEL_SHOWN"); 
-                } 
-   
-                @Override 
-                public void onViewDetachedFromWindow(View v) { 
-   
-                } 
-            }); 
-        } 
-   
-        return rootView; 
-    } 
-   
-   /* ... */ 
-}
-```
-
-## Setting Up Profile Parameters and Other Global Parameters {#section_886332781A4847A78640DCD1005E937F}
+## Setting Up Profile Parameters and Other Global Parameters {#parameters}
 
 We now support setting global parameters that will be passed in each and every API call as well as passing mbox/view parameters to corresponding views.
 
@@ -293,7 +222,7 @@ Parameters include:
 * Product parameters 
 * Order parameters
 
-Global parameter support:
+**Global parameter support:**
 
 ```
 Map<String, String> mboxParams = new HashMap<>();  //Mbox or view params 
@@ -309,7 +238,7 @@ TargetVEC.setGlobalRequestParameters(new TargetParameters.Builder()
         .build());
 ```
 
-Passing parameters for next view trigger:
+**Passing parameters for next view trigger:**
 
 We have provided some automatic views that are created by default, such as "AUTO_<activity|fragment name>" for each activity and fragment present in your app. If you want to pass these parameters, you can call the following API:
 
@@ -327,7 +256,7 @@ TargetVEC.setRequestParameters(new TargetParameters.Builder()
         .build());
 ```
 
-Passing parameters to specific view:
+**Passing parameters to specific view:**
 
 We have seen the API to trigger Views via `TargetVEC.targetView("view_name")`. You can also pass parameters that are specific to the particular view, as shown below:
 

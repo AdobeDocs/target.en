@@ -48,7 +48,7 @@ In addition to the general reporting information in this topic and its subtopics
 
    ![](assets/report_menu_bar.png)
 
-   The legend displays:
+   The legend displays the following information:
 
     * The activity status, including the date range when the activity ran.
     * The projected winning experience. 

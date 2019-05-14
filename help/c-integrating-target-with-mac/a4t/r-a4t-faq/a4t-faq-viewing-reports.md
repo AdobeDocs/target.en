@@ -135,3 +135,9 @@ Virtual report suites are *not* included in the Report Suite list and audiences 
 Changing the traffic allocation percentage in an activity after activation can cause inconsistent reporting in Analytics because the change impacts only new visitors. Returning visitors are not impacted. 
 
 As best practice, you should stop the existing activity and then create a new activity instead of changing the percentage after activation. Reporting for the new activity starts with new visitors and data from returning visitors will not cause inconsistent reporting.
+
+## Can I view my Target activity data in Adobe Analysis Workspace?
+
+You can use [!DNL Adobe Analysis Workspace] to dig deeper and to visualize the data or uncover insights hidden beneath the surface.
+
+For detailed information and examples, open the [Analytics & Target: Best Practices for Analysis tutorial](https://spark.adobe.com/page/Lo3Spm4oBOvwF/), provided by Adobe Experience League.

@@ -328,14 +328,14 @@ Yes, at.js 2.x supports A4T for SPA via the `triggerView()` function given that 
 
 |Activity Type|Supported?|
 | --- | --- |
-|A/B Test|Yes|
+|[A/B Test](/help/c-activities/t-test-ab/test-ab.md)|Yes|
 |[Recommendations as an offer](/help/c-recommendations/recommendations-as-an-offer.md)<br>in A/B Test and Experience Targeting (XT) activities|Yes|
-|Auto-Allocate|Yes|
-|Experience Targeting|Yes|
-|Multivariate Test|No|
-|Auto-Target|No|
-|Automated Personalization|No|
-|Recommendations|No|
+|[Auto-Allocate](/help/c-activities/automated-traffic-allocation/automated-traffic-allocation.md)|Yes|
+|[Experience Targeting](/help/c-activities/t-experience-target/experience-target.md)|Yes|
+|[Multivariate Test](/help/c-activities/c-multivariate-testing/multivariate-testing.md)|No|
+|[Auto-Target](/help/c-activities/auto-target-to-optimize.md)|No|
+|[Automated Personalization](/help/c-activities/t-automated-personalization/automated-personalization.md)|No|
+|[Recommendations](/help/c-recommendations/recommendations.md)|No|
 
 **If we installed at.js 2.x and implemented `triggerView()` on our sites, how do we run Auto-Target A/B activities because the SPA VEC doesn't support Auto-Target?**
 
@@ -345,22 +345,22 @@ If you want to use Auto-Target A/B activities, you can move all of your actions 
 
 |Integration|Supported?|
 | --- | --- |
-|Analytics for Target (A4T)|Yes|
-|Experience Cloud Audiences|Yes|
-|Customer Attributes|Yes|
-|AEM Experience Fragments|Yes|
+|[Analytics for Target (A4T)](/help/c-integrating-target-with-mac/a4t/a4t.md)|Yes|
+|[Experience Cloud Audiences](/help/c-integrating-target-with-mac/mmp.md)|Yes|
+|[Customer Attributes](/help/c-target/c-visitor-profile/working-with-customer-attributes.md)|Yes|
+|[AEM Experience Fragments](/help/c-experiences/c-manage-content/aem-experience-fragments.md)|Yes|
 
-## Supported features
+## Supported features {#supported-features}
 
 |Feature|Supported?|
 | --- | --- |
-|Workspaces and Properties|Yes|
-|QA Links|Yes|
-|Form-based Experience Composer|No|
-|Custom Code|Yes|
-|VEC options|All|
-|Click-tracking|Yes|
-|Multi-Activity Delivery|Yes|
+|[Workspaces and Properties](/help/administrating-target/c-user-management/property-channel/property-channel.md)|Yes|
+|[QA Links](/help/c-activities/c-activity-qa/activity-qa.md)|Yes|
+|[Form-based Experience Composer](/help/c-experiences/form-experience-composer.md)|No|
+|[Custom Code](/help/c-experiences/c-visual-experience-composer/c-vec-code-editor/vec-code-editor.md)|Yes|
+|[VEC options](/help/c-experiences/c-visual-experience-composer/viztarget-options.md)|All|
+|[Click-tracking](/help/c-activities/r-success-metrics/click-tracking.md)|Yes|
+|[Multi-Activity Delivery](/help/c-experiences/c-visual-experience-composer/multipage-activity.md)|Yes|
 
 ## Training video: Using the VEC for SPAs in Adobe Target
 

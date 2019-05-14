@@ -128,7 +128,6 @@ user-guide-url: /content/help/en/target/using/target-home.html
          + [Mobile App Visual Experience Composer](c-target-mobile-app/c-mobile-visual-experience-composer/mobile-visual-experience-composer.md)
          + [Android - set up the mobile app](c-target-mobile-app/c-mobile-visual-experience-composer/mobile-visual-experience-composer-android.md)
          + [iOS - set up the mobile app](c-target-mobile-app/c-mobile-visual-experience-composer/mobile-visual-experience-composer-ios.md)
-         + [Use Adobe Launch to set up the Mobile App VEC](c-target-mobile-app/c-mobile-visual-experience-composer/use-adobe-launch-to-set-up-the-mobile-app-vec.md)
          + [Set up click tracking in the Mobile VEC](c-target-mobile-app/c-mobile-visual-experience-composer/set-up-click-tracking-in-the-mobile-vec.md)
    + Server Side: implement Target {#server-side}
       + [Server Side: implement Target overview](c-implementing-target/c-api-and-sdk-overview/api-and-sdk-overview.md)

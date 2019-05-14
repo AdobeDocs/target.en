@@ -62,7 +62,7 @@ There are several things to consider when selecting elements:
 
 * If you use [!DNL at.js] click tracking and you also use Analytics AppMeasurement, [!DNL at.js] click tracking cancels all other click event handlers. As a result, the AppMeasurement click handler never executes.
 
-[!DNL at.js] has special handling for click tracking when the underlying element is an `A` (link) tag or `FORM` tag.
+  [!DNL at.js] has special handling for click tracking when the underlying element is an `A` (link) tag or `FORM` tag.
 
   The following steps are executed by [!DNL at.js] when the click tracking event is attached to an `A` (link) tag or a `FORM` tag:
 
@@ -76,6 +76,8 @@ There are several things to consider when selecting elements:
      * `FORM` tag: The default behavior is to submit the form.
 
   This default behavior might interfere with Analytics click tracking. If you are using Analytics, you should rely on Analytics for click tracking rather than Target.
+
+* Click tracking is not recorded on pages where the page and activity URL belong to different properties. Enterprise user permissions is a Target Premium feature. For more information, see [Enterprise user permissions](/help/administrating-target/c-user-management/property-channel/property-channel.md).
 
 ## Training Video {#section_36607204DAE146E3B8E2C609D244EDB1}
 

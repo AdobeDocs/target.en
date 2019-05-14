@@ -9,7 +9,7 @@ topic: Premium
 uuid: 055b276e-2492-40d8-b48e-849dffa93f35
 ---
 
-# Include the Same Experience on Similar Pages{#include-the-same-experience-on-similar-pages}
+# Include the same experience on similar pages{#include-the-same-experience-on-similar-pages}
 
 If you use a page template to provide structure to your pages, or if your pages contain similar elements, this feature makes it possible to test variations in similarly structured page elements.
 
@@ -31,8 +31,8 @@ The following demo video includes information about using a template:
 You can specify pages that include the change elements, or apply the change across your site. 
 
 1. Create an activity as described in [Activities](../../c-activities/activities.md#concept_D317A95A1AB54674BA7AB65C7985BA03).
-1. To specify the pages where the experience will appear, in the Visual Experience Composer click the gear icon, then select **[!UICONTROL URL]**.
-1. Click **[!UICONTROL Add Rule]**, then specify the criteria for the pages you want to add the experience to.
+1. To specify the pages where the experience will appear, in the Visual Experience Composer click the gear icon, then select **[!UICONTROL Page Delivery]**.
+1. Click **[!UICONTROL Add Template Rule]**, then specify the criteria for the pages you want to add the experience to.
 
 1. Specify the page range. The page range can be one of the following:
 
@@ -41,7 +41,7 @@ You can specify pages that include the change elements, or apply the change acro
     * Path 
     * Hash (#) Fragment (Target the part of a URL that follows the # symbol.) 
     * Query 
-    * Mbox parameter
+    * Parameter
 
 1. Choose an operator.
 
@@ -49,12 +49,14 @@ You can specify pages that include the change elements, or apply the change acro
 
     * Contains 
     * Does not contain 
-    * Is 
+    * Is (case sensitive)
     * Is not
+    * Starts with
+    * Ends with
 
 1. Type the strings that define where the experience is added, such as the domain or the strings contained in the page name.
 
-   For example, if you select **[!UICONTROL Domain]** and **[!UICONTROL Is]**, type the domain where you want the experience added to all pages.
+   For example, if you select **[!UICONTROL Domain]** and **[!UICONTROL Is (case sensitive)]**, type the domain where you want the experience added to all pages.
 
    You can include multiple items.
 
@@ -62,7 +64,7 @@ You can specify pages that include the change elements, or apply the change acro
    >
    >Multiple items use `OR` logic, meaning that any single item in the list makes the condition true.
 
-1. If desired, enter additional criteria by clicking **[!UICONTROL Add Criteria]** and repeating the procedure in the previous step.
+1. If desired, enter additional criteria by clicking **[!UICONTROL Add Template Rule]** and repeating the procedure in the previous step.
 
    Multiple criteria are joined with AND logic. Adobe Target adds the experience to all pages that match the specified criteria. 
 

@@ -224,4 +224,14 @@ The Target timeout is five seconds. A user loads a page that has an activity to 
 
 At this stage, would it be possible for the alternative version to be shown? So after four seconds, the hero image could be swapped out and the user could notice this image swap?
 
-Initially, the image hero DOM element is hidden. After a response from Target is received, at.js applies the DOM changes, such as replacing the IMG and displaying the customized hero image. 
+Initially, the image hero DOM element is hidden. After a response from Target is received, at.js applies the DOM changes, such as replacing the IMG and displaying the customized hero image.
+
+## What HTML doctype does at.js require?
+
+at.js requires the HTML 5 doctype.
+
+This syntax is:
+
+`<!DOCTYPE html>`
+
+The HTML 5 doctype ensures that the page loads in standard mode. When loading in quirks mode, some JS APIs that at.js depends on are disabled. Target disables at.js in quirks mode.

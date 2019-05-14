@@ -62,6 +62,12 @@ You can apply the metric or audience to the report in Target after the test has 
 
 Click to view the full Analytics report directly from the activity report page.
 
+## Reports in Analysis Workspace {#reports-in-analysis-workspace}
+
+You can use [!DNL Adobe Analysis Workspace] to dig deeper and to visualize the data or uncover insights hidden beneath the surface.
+
+For detailed information and examples, open the [Analytics & Target: Best Practices for Analysis tutorial](https://spark.adobe.com/page/Lo3Spm4oBOvwF/), provided by Adobe Experience League.
+
 ## Activity Creation {#section_311586E3FF5541E7A91D1A3CE5F9ACE3}
 
 During activity creation, you must specify a goal for the activity on the [!UICONTROL Settings] page. This goal becomes the default metric for the report and is always listed as the first option in the metrics selector. You cannot select segments for reporting like you would for a regular Target activity. A test with Analytics uses Adobe Analytics segments rather than Target Standard audiences.

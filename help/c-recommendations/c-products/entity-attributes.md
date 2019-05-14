@@ -148,7 +148,7 @@ Custom entity attributes support multiple values. See [Custom entity attributes]
 
 Example: `'entity.secondary=["band1",&nbsp;"band2"]'`
 
->[!NOTE]>
+>[!NOTE]
 >
 >Multi-value custom entity attributes require valid JSON arrays. For correct syntax information, see Custom Entity Attributes.
 
@@ -233,6 +233,6 @@ mboxCreate('productPage',
 
 If the mbox is on a product page, you can include both the product ID and category ID. The selected algorithm determines which displays. The product ID is used for affinity algorithms and the category ID is used for category algorithms. 
 
->[!MORE_LIKE_THIS]
->
->* [Custom Entity Attributes](../../c-recommendations/c-products/custom-entity-attributes.md#concept_E5CF39BCAC8140309A73828706288322)
+## Related topics:
+
+* [Custom Entity Attributes](../../c-recommendations/c-products/custom-entity-attributes.md#concept_E5CF39BCAC8140309A73828706288322)
