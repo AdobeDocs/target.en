@@ -11,11 +11,7 @@ uuid: 39938ec2-b12e-44cf-9218-69195fba0ff7
 
 # Android - set up the mobile app{#android-set-up-the-mobile-app}
 
-Target's new SDK Library allows developers to do a one-time setup on their Android mobile apps and enable marketers to use the capabilities of the Mobile Visual Experience Composer (VEC).
-
-The Mobile VEC can now be used along with the recently released [!DNL Adobe Experience Cloud SDK]. To do this, customers must use the [!DNL Adobe Launch] integration, the recommended method for using SDKs. For more information, see [Adobe Experience Platform SDKs](https://aep-sdks.gitbook.io/docs).
-
-To set up the Target VEC extension from Launch, see [Use Adobe Launch to set up the Mobile App VEC](../../c-target-mobile-app/c-mobile-visual-experience-composer/use-adobe-launch-to-set-up-the-mobile-app-vec.md#concept_630A05151EF1487193BAE670B59F8CAC).
+Target's new SDK Library allows developers to do a one-time setup on their Android mobile apps and enable marketers to use the capabilities of the Mobile Visual Experience Composer (VEC).For more information on enabling the Adobe Target VEC extension, see [Adobe Experience Platform SDKs](https://aep-sdks.gitbook.io/docs).
 
 ## Include the Mobile SDK & the Target Library {#section_481F9644C71B4CB7AE3FC526D281D1D2}
 
@@ -23,7 +19,7 @@ To set up the Target VEC extension from Launch, see [Use Adobe Launch to set up 
 1. Add the following line to the dependencies section:
 
    ```
-   implementation 'com.adobe.marketing.mobile:target-vec:0.+'
+   implementation 'com.adobe.marketing.mobile:target-vec:1.+'
    ```
 
 1. Add an intent filter in your [!DNL AndroidManifest.XML] file, choosing a unique deep-link scheme for Mobile VEC authoring (for example, `[sdkbetabus://com.adobe.sdkbetabus](sdkbetabus://com.adobe.sdkbetabus)`):
@@ -59,18 +55,20 @@ To set up the Target VEC extension from Launch, see [Use Adobe Launch to set up 
              
            ... 
            try { 
-               TargetVEC.registerExtension(); 
-               Target.registerExtension(); 
-               UserProfile.registerExtension(); 
-               Identity.registerExtension(); 
-               Lifecycle.registerExtension(); 
-               TargetVEC.registerExtension();  // Single line code to initialize TargetVEC
-               Signal.registerExtension(); 
+               TargetVEC.registerExtension(); //Single line code to initialize TargetVEC
+               Target.registerExtension();
+               Identity.registerExtension();
+               Lifecycle.registerExtension();
+               Signal.registerExtension();
+               MobileCore.start(new AdobeCallback () {
+                  @Override
+                  public void call(Object o) {
+                     MobileCore.configureWithAppID("launch-EN4e833d644d1949e39e985ddad4f52bd4-development");
+                  }
+               });
            } catch (InvalidInitException e) { 
              .. 
-           } 
-            
-           MobileCore.start(null); 
+           }
        }
 
    /* Rest of Application test goes here ... */
@@ -187,12 +185,14 @@ public class OfferDetailsActivity extends AppCompatActivity {
    
     @Override 
     protected void onPause() { 
-        super.onPause(); 
+        super.onPause();
+        MobileCore.lifecyclePause();
     } 
    
     @Override 
     protected void onResume() { 
-        super.onResume(); 
+        super.onResume();
+        MobileCore.lifecycleStart(null);
     } 
 }
 ```
