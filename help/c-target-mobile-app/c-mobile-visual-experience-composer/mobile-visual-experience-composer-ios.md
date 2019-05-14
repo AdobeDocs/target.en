@@ -11,7 +11,7 @@ uuid: 6db4f06a-d8f4-4192-af6f-917594e721e6
 
 # iOS - set up the mobile app{#ios-set-up-the-mobile-app}
 
-Target's new SDK Library allows developers to do a one-time setup on their iOS mobile apps and enable marketers to use the capabilities of the Mobile Visual Experience Composer (VEC). For more information on enabling the Adobe Target VEC extension, see [Adobe Experience Platform SDKs](https://aep-sdks.gitbook.io/docs).
+The Adobe Target Mobile Visual Experience Composer (VEC) lets developers do a one-time setup on their iOS mobile apps and enable marketers to use the capabilities of the Mobile VEC. For more information on enabling the Adobe Target VEC extension, see [Target VEC on Adobe Experience Platform SDKs](https://aep-sdks.gitbook.io/docs/using-mobile-extensions/adobe-target-vec).
 
 ## Include the Mobile SDK & the Target Library {#sdk-library}
 
