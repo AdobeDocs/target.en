@@ -13,10 +13,6 @@ uuid: 39938ec2-b12e-44cf-9218-69195fba0ff7
 
 Target's new SDK Library allows developers to do a one-time setup on their Android mobile apps and enable marketers to use the capabilities of the Mobile Visual Experience Composer (VEC).
 
->[!NOTE]
->
->The Visual Experience Composer for Native Mobile Apps is currently offered as a Beta feature available to select customers to obtain feedback to help us improve the feature before making it available to all customers. Please talk to your Customer Success Manager or Adobe Client Care to participate in this Beta program.
-
 The Mobile VEC can now be used along with the recently released [!DNL Adobe Experience Cloud SDK]. To do this, customers must use the [!DNL Adobe Launch] integration, the recommended method for using SDKs. For more information, see [Adobe Experience Platform SDKs](https://aep-sdks.gitbook.io/docs).
 
 To set up the Target VEC extension from Launch, see [Use Adobe Launch to set up the Mobile App VEC](../../c-target-mobile-app/c-mobile-visual-experience-composer/use-adobe-launch-to-set-up-the-mobile-app-vec.md#concept_630A05151EF1487193BAE670B59F8CAC).
@@ -68,11 +64,12 @@ To set up the Target VEC extension from Launch, see [Use Adobe Launch to set up 
                UserProfile.registerExtension(); 
                Identity.registerExtension(); 
                Lifecycle.registerExtension(); 
+               TargetVEC.registerExtension();  // Single line code to initialize TargetVEC
                Signal.registerExtension(); 
            } catch (InvalidInitException e) { 
              .. 
            } 
-           TargetVEC.registerExtension(this);  // Single line code to initialize TargetVEC 
+            
            MobileCore.start(null); 
        }
 
@@ -298,9 +295,7 @@ TargetVEC.setGlobalRequestParameters(new TargetParameters.Builder()
         .parameters(mboxParams) 
         .profileParameters(profileParams) 
         .product(new TargetProduct("1234", "furniture")) 
-        .order(new TargetOrder("12343", 
-                new BigDecimal(123.45).setScale(2, BigDecimal.ROUND_UP), 
-                Arrays.asList("100", "200"))) 
+        .order(new TargetOrder("12343", 123.45, Arrays.asList("100", "200"))) 
         .build());
 ```
 
@@ -310,17 +305,15 @@ We have provided some automatic views that are created by default, such as "AUTO
 
 ```
 Map<String, String> mboxParams = new HashMap<>();  //Mbox or view params 
-mboxParams.put("view1param", "view1param"); 
+mboxParams.put("viewKey1", "viewparam1"); 
 Map<String, String> profileParams = new HashMap<>();  //Profile params 
-profileParams.put("profilekeyforview1", "profilekeyforview1"); 
+profileParams.put("profilekeyforview1", "profilevalueforview1"); 
   
 TargetVEC.setRequestParameters(new TargetParameters.Builder() 
         .parameters(mboxParams) 
         .profileParameters(profileParams) 
         .product(new TargetProduct("1234", "furniture")) 
-        .order(new TargetOrder("12343", 
-                new BigDecimal(123.45).setScale(2, BigDecimal.ROUND_UP), 
-                Arrays.asList("100", "200"))) 
+        .order(new TargetOrder("12343", 123.45, Arrays.asList("100", "200"))) 
         .build());
 ```
 
