@@ -182,10 +182,9 @@ Note that each time Target offers are prefetched, the offers for the last Target
 
 ## Known Limitations {#limitations}
 
-* The Mobile VEC can currently be used to create [A/B Test](../../c-activities/t-test-ab/test-ab.md#task_05E33EB15C4D4459B5EAFF90A94A7977) and [Experience Targeting](../../c-activities/t-experience-target/experience-target.md#task_A53DF336CB9F4D7BB87EF2106099EFC4) (XT) activities for Mobile Apps. Support for other activity types will be available in the future. 
+* The Mobile VEC can currently be used to create [A/B Test](/help/c-activities/t-test-ab/test-ab.md) and [Experience Targeting (XT)](/help/c-activities/t-experience-target/experience-target.md) activities for Mobile Apps. Support for other activity types will be available in the future. 
 * Preview feature is not supported yet. It will be made available in upcoming release.
-* While authoring your activity in the Mobile VEC, currently the Swap Image and Change Text actions are supported. Support for other actions will be available in the future. 
-* You must close the mobile app from the recent apps section and not by pressing the [!UICONTROL Back] button while trying to reconnect the app to the Mobile VEC.
+* When trying to reconnect the app to the Mobile VEC, you must exit the app completely and relaunch it.
 
   If the mobile app is already open during any of the scenarios listed below, you must close the app and then reopen it. However, you *must* close the app by closing it from the recent apps section and *not* by pressing the Back button. There might be intermittent connection issues if the app is closed by pressing the Back button.
 
