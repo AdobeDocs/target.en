@@ -151,7 +151,7 @@ Target activities authored using the Mobile VEC are automatically delivered in m
 
 When calling the `TargetVEC.prefetchOffersBackground()` API method, Target offers are fetched from the Target Edge and cached locally.. This allows for a smoother user experience, as Target offers are immediately applied from cache when Target views are triggered with `targetView()` calls, instead of being fetched over the network.
 
-For additional flexibility, you can also call `TargetVEC.prefetchOffersBackground()` API, which will prehide the current layout until Target offers are prefetched and applied to visible Target view(possibly causing flicker).
+For additional flexibility, you can also call `TargetVEC.prefetchOffers()` API, which will prehide the current layout until Target offers are prefetched and applied to visible Target view(possibly causing flicker).
 
 `TargetVEC.prefetchOffersBackground()` can also be called repeatedly as the user navigates a customer app to refresh the local Target offer cache with the most appropriate content (following the latest updates of the current user's Target profile).
 
