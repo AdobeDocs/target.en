@@ -11,7 +11,7 @@ uuid: 7e4ce7c0-0027-417c-8dae-45b6f5045e65
 
 # Set up click tracking in the Mobile VEC{#set-up-click-tracking-in-the-mobile-vec}
 
-The Mobile VEC supports setting up of click tracking goals for Target activities.
+The Mobile VEC supports setting up of click tracking goals for [!DNL Target] activities.
 
 1. When setting your goals on the Goals & Settings page for your activity , select the [!UICONTROL Conversion] success metric.
 
