@@ -11,13 +11,7 @@ uuid: 7e4ce7c0-0027-417c-8dae-45b6f5045e65
 
 # Set up click tracking in the Mobile VEC{#set-up-click-tracking-in-the-mobile-vec}
 
-Information about how Target mobile customers can track when a user clicked an element.
-
->[!NOTE]
->
->The Visual Experience Composer for Native Mobile Apps is currently offered as a Beta feature available to select customers to obtain feedback to help us improve the feature before making it available to all customers. Please talk to your Customer Success Manager or Adobe Client Care to participate in this Beta program.
-
-After views are set up and the SDK is integrated in a mobile app. No steps are needed in the Mobile SDK. The workflow for setting up click tracking is similar to the functionality provided in the Web domain.
+The Mobile VEC supports setting up of click tracking goals for Target activities.
 
 1. When setting your goals on the Goals & Settings page for your activity , select the [!UICONTROL Conversion] success metric.
 
