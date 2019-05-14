@@ -192,20 +192,20 @@ Global parameter support:
 NSDictionary *mboxParams = @{@"mboxparam1":@"mboxvalue1"}; //mbox or view params 
 NSDictionary *profileParams = @{@"profilekey1":@"profilevalue1"}; //profile params 
   
-TargetProduct *product = [[TargetProduct alloc] initWithProductId:@"1234" categoryId:@"furniture"]; 
-TargetOrder *order = [[TargetOrder alloc] initWithOrderId:@"12343" total:@(123.45) purchasedProductIds:@[@"100",@"200"]]; 
-TargetParameters *targetParams = [[TargetParameters alloc] initWithParameters:mboxParams 
-                                                            profileParameters:profileParams 
-                                                                      product:product 
-                                                                        order:order]; 
+ACPTargetProduct *product = [ACPTargetProduct targetProductWithId:@"1234" categoryId:@"furniture"]; 
+ACPTargetOrder *order = [ACPTargetOrder targetOrderWithId:@"12343" total:@(123.45) purchasedProductIds:@[@"100",@"200"]]; 
+ACPTargetParameters *targetParams = [ACPTargetParameters targetParametersWithParameters:mboxParams 
+                                                                      profileParameters:profileParams 
+                                                                                product:product 
+                                                                                  order:order]; 
 [ACPTargetVEC setGlobalRequestParameters:targetParams];
 
 //For Swift 
 var mboxParams = ["mboxparam1":"mboxvalue1"] 
 var profileParams = ["profilekey1":"profilevalue1"] 
-var product : TargetProduct = TargetProduct.init(productId: "1234", categoryId: "furniture") 
-var order : TargetOrder = TargetOrder.init(orderId: "12345", total: 123.45, purchasedProductIds: ["100", "200"]) 
-var targetParams : TargetParameters = TargetParameters.init(parameters: mboxParams, profileParameters: profileParams, product: product, order: order) 
+var product : ACPTargetProduct = ACPTargetProduct.init(id: "1234", categoryId: "furniture") 
+var order : ACPTargetOrder = ACPTargetOrder.init(id: "12345", total: 123.45, purchasedProductIds: ["100", "200"]) 
+var targetParams : ACPTargetParameters = ACPTargetParameters.init(parameters: mboxParams, profileParameters: profileParams, product: product, order: order) 
 ACPTargetVEC.setGlobalRequest(targetParams)
 ```
 
@@ -218,20 +218,20 @@ We have provided some automatic views that are created by default, such as "AUTO
 NSDictionary *mboxParams = @{@"viewparam1":@"viewvalue1"}; //mbox or view params 
 NSDictionary *profileParams = @{@"profilekeyforview1":@"profilevalueforview1"}; //profile params 
   
-TargetProduct *product = [[TargetProduct alloc] initWithProductId:@"1234" categoryId:@"furniture"]; 
-TargetOrder *order = [[TargetOrder alloc] initWithOrderId:@"12343" total:@(123.45) purchasedProductIds:@[@"100",@"200"]]; 
-TargetParameters *targetParams = [[TargetParameters alloc] initWithParameters:mboxParams 
-                                                            profileParameters:profileParams 
-                                                                      product:product 
-                                                                        order:order]; 
+ACPTargetProduct *product = [ACPTargetProduct targetProductWithId:@"1234" categoryId:@"furniture"]; 
+ACPTargetOrder *order = [ACPTargetOrder targetOrderWithId:@"12343" total:@(123.45) purchasedProductIds:@[@"100",@"200"]]; 
+ACPTargetParameters *targetParams = [ACPTargetParameters targetParametersWithParameters:mboxParams 
+                                                                      profileParameters:profileParams 
+                                                                                product:product 
+                                                                                  order:order]; 
 [ACPTargetVEC setGlobalRequestParameters:targetParams];
 
 //For Swift 
 var mboxParams = ["mboxparam1":"mboxvalue1"] 
 var profileParams = ["profilekey1":"profilevalue1"] 
-var product : TargetProduct = TargetProduct.init(productId: "1234", categoryId: "furniture") 
-var order : TargetOrder = TargetOrder.init(orderId: "12345", total: 123.45, purchasedProductIds: ["100", "200"]) 
-var targetParams : TargetParameters = TargetParameters.init(parameters: mboxParams, profileParameters: profileParams, product: product, order: order) 
+var product : ACPTargetProduct = ACPTargetProduct.init(id: "1234", categoryId: "furniture") 
+var order : ACPTargetOrder = ACPTargetOrder.init(id: "12345", total: 123.45, purchasedProductIds: ["100", "200"]) 
+var targetParams : ACPTargetParameters = ACPTargetParameters.init(parameters: mboxParams, profileParameters: profileParams, product: product, order: order) 
 ACPTargetVEC.setRequest(targetParams)
 ```
 
