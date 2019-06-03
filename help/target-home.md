@@ -7,6 +7,8 @@ topic: Premium
 uuid: 8755e622-8a31-4106-ba90-b1128a0cf89c
 ---
 
+Disregard this update, I just want to see the Contributor's guide. (Hi Mark!)
+
 # [!DNL Adobe Target] product documentation{#adobe-target-product-documentation}
 
  [!DNL Adobe Target] is the [!DNL Adobe Experience Cloud] solution that provides everything you need to tailor and personalize your customers' experience so you can maximize revenue on your web and mobile sites, apps, social media, and other digital channels.
