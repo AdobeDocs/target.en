@@ -215,6 +215,12 @@ recs/t_feeds_create.xml
 
    If you select FTP, provide the FTP server information, the login credentials, the filename, and the FTP directory. You have the option to use FTP with SSL (FTPS) for more secure uploads.
 
+    Supported FTP server settings:
+
+    * FTP and FTPS must be set to use Passive FTP.
+    * For FTPS, configure server to accept Explicit FTPS connections.
+    * SFTP is not supported.
+
    If you select URL, specify the URL. 
 1. Click the **[!UICONTROL Next]** arrow to display the [!UICONTROL Schedule] options.
 
