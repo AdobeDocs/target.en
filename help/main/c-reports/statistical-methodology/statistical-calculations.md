@@ -3,6 +3,7 @@ keywords: reports;statistical methodology;statistical calculations;stats;mean;co
 description: Learn about the statistical calculations used in manual [!UICONTROL A/B Test] activities in [!DNL Adobe Target].
 title: How Can I Learn About the Statistical Calculations Used in [!UICONTROL A/B Test] Activities?
 feature: Reports
+exl-id: 5f7377b9-0567-4b6f-8968-4696b2088d0a
 ---
 # Statistical calculations in A/Bn tests
 

@@ -3,6 +3,7 @@ keywords: vec;visual experience composer; vec;iframe;extension;browser
 description: Discover why some websites might not open reliably in the [!UICONTROL Visual Experience Composer] (VEC). The [!UICONTROL Visual Editing Helper] browser extension lets you load websites reliably within the VEC.
 title: How Do I Use the [!UICONTROL Visual Editing Helper] Extension?
 feature: Visual Experience Composer (VEC)
+exl-id: e5aeb8b9-fab5-4ad4-882e-2106d2c9daab
 ---
 # [!UICONTROL Visual Editing Helper] extension
 
@@ -51,7 +52,3 @@ Using the [Enhanced Experience Composer](/help/main/administrating-target/visual
   * If you attempt to load a website using the VEC that fails to load, a message displays suggesting that you install the [!UICONTROL Visual Editing Helper] browser extension.
   * If at.js or alloy.js is not yet implemented on the website, a message displays in the VEC suggesting that you install the extension.
 * If you try using the new extension and then go back to the [old extension](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/vec-helper-browser-extension.md) and [!DNL Target] fails to load your website, clear all browser data and disable the new extension.
-
-
-
-
