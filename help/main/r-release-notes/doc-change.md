@@ -13,6 +13,11 @@ This page lists significant changes made to the [!DNL Adobe Target] product docu
 
 |Date|Topic|Changes|
 | --- | --- | --- |
+|November 8|[How long should you run an A/B Test?](/help/main/c-activities/t-test-ab/sample-size-determination.md#section_6B8725BD704C4AFE939EF2A6B6E834E6)|Added important note that to get accurate results you must reload the page before changing any parameter numbers in the [!DNL Adobe Target] [!UICONTROL Sample Size Calculator]. Also added a note in the actual [calculator](https://experienceleague.adobe.com/tools/calculator/testcalculator.html){target=_blank}.|
+||[Redirect offers - A4T FAQ](/help/main/c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-redirect-offers.md#section_BA73E8B3CFCC4CBEB5BE3F76B2BC8682)|Updated the description for the `adobe_mc_sdid` parameter in the table.|
+||[Troubleshooting activities](/help/main/c-activities/c-troubleshooting-activities/troubleshooting-activities.md)|Added new section: "After activity conversion, the visitor is not in any experience."|
+||[Custom parameters](/help/main/c-target/c-audiences/c-target-rules/custom-parameters.md)|Added note that the mbox you select from the [!UICONTROL Filter By] drop-down list is not saved on activity creation. This option lets you filter the parameters based on the selected mbox.|
+||[Target limits](/help/main/r-troubleshooting-target/target-limits.md#mbox-parameters)|Corrected the profile parameter value max length. The limit is 256 characters.|
 |November 2|Known issues and resolved issues|Removed page and relocated relevant issues to the appropriate pages so that information will be in context.|
 |October 25|[Target release notes (current)](/help/main/r-release-notes/release-notes.md)|Added release notes for the [!DNL Target Standard/Premium] 22.10.3 release.|
 |October 19|[Category affinity](/help/main/c-target/c-visitor-profile/category-affinity.md#section_8B86C7FF50294208866ABF16F07D5EB9)|Added a note explaining scoring when several categories are are passed within a single mbox call.|

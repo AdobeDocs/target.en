@@ -24,6 +24,10 @@ When creating a custom audience based on an mbox parameter, `mboxParameter` no l
 
    Using either method, there is no link between the mbox and the parameter. The audience works based on the parameter across all mboxes that pass that parameter.
 
+   >[!NOTE]
+   >
+   >The mbox you select from the [!UICONTROL Filter By] drop-down list is not saved on activity creation. This option lets you filter the parameters based on the selected mbox.
+
    If you edit an existing audience, the filtering criteria displays with the mbox name that was supplied during creation.
 
 1. Choose an evaluator:
