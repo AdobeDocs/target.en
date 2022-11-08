@@ -43,7 +43,7 @@ It is important to determine an adequate sample size (number of visitors) before
 
 This can result in many false positives, which leads to implementation of offers that do not deliver the predicted lift in the end. Poor lift itself is a dissatisfying outcome, but an even more serious consequence is that, over time, the inability to accurately predict lift erodes organizational trust in testing as a practice.
 
-This article discusses the factors that must be balanced when a sample size is determined and introduces a spreadsheet calculator for estimating an adequate sample size. Calculating the sample size using the sample size calculator (link provided above) before any A/B test begins ensures that you always run high-quality A/B tests that comply with statistical standards.
+This article discusses the factors that must be balanced when a sample size is determined and introduces a calculator for estimating an adequate sample size. Calculating the sample size using the sample size calculator (link provided above) before any A/B test begins ensures that you always run high-quality A/B tests that comply with statistical standards.
 
 There are five user-defined parameters that define an A/B test. These parameters are interlinked so when four of them are established, the fifth can be calculated:
 
@@ -52,6 +52,11 @@ There are five user-defined parameters that define an A/B test. These parameters
 * Minimum reliably detectable lift
 * Baseline conversion rate
 * Number of visitors
+
+>[!IMPORTANT]
+>
+>To get accurate results you must reload the page before changing any parameter numbers.
+
 
 For an A/B test, the statistical significance, statistical power, minimum reliably detectable lift, and baseline conversion rate are set by the analyst and then the required number of visitors is calculated from these numbers. This article discusses these elements and gives guidelines for how to determine these metrics for a specific test.
 
