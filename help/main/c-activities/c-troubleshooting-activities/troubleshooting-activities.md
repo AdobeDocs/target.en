@@ -128,8 +128,8 @@ Do one of the following:
 
 When you perform certain actions, such as activating an activity outside of the UI using the [!DNL Target] API, the update can take up to ten minutes to propagate to the UI.
 
-## After activity conversion, the visitor is not in any experience. 
+## After activity conversion, the visitor is not in any experience.
 
-If the activity's conversion metric to qualify for an experience is sent in the same [!DNL Target] request as activity qualification, the visitor might not be in any experience after the request is sent. In this situation, the visitor sees default content. [!DNL Adobe] recommends not sending activity conversion and qualification in the same request. 
+In rare cases, if the activity's conversion metric to qualify for an experience is sent in the same request as activity qualification, the visitor might not be in any experience after the request is sent. In this situation, the visitor sees default content and experience ID captured via tokens would be -1. [!DNL Adobe] doesn't recommend sending activity qualification and conversion in the same [!DNL Target] request.
 
-If you want to send both settings in the same request, you can use [!UICONTROL Advanced Settings] to specify that the visitor stays in the same experience after conversion. 
+If you want to send both metrics in the same request, you can use [!UICONTROL Advanced Settings] to specify that the visitor stays in the same experience after conversion.
