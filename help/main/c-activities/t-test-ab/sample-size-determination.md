@@ -37,7 +37,7 @@ If you choose to use a manual [!UICONTROL A/B Test] activity rather than [!UICON
 
 Before setting up your A/B test, access the [!DNL Adobe Target] [Sample Size Calculator](/help/main/c-activities/t-test-ab/sample-size-determination.md#section_6B8725BD704C4AFE939EF2A6B6E834E6).
 
-![Adobe Target Sample Size Calculator](/help/main/c-activities/t-test-ab/assets/sample_size_calculator-new.png)
+![Adobe Target Sample Size Calculator](https://experienceleague.adobe.com/tools/calculator/testcalculator.html)
 
 It is important to determine an adequate sample size (number of visitors) before doing any A/B test in order to establish the time that the activity should run before evaluating the results. Simply monitoring the activity until statistical significance is achieved causes the confidence interval to be vastly underestimated, making the test unreliable. The intuition behind this result is that, in the event a statistically significant result is detected, the test is stopped and a winner is declared. However, if the result is not statistically significant the test is allowed to continue. This procedure strongly favors the positive outcome, which increases the false positive rate, and so distorts the effective significance level of the test.
 
