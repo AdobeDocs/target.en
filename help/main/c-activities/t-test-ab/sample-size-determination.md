@@ -1,6 +1,6 @@
 ---
 keywords: AB;A/B;AB...n;sample size;sample size calculator;auto-allocate;auto allocate;calculator
-description: Learn how long to run an A/B test. A successful A/B test in Adobe [!DNL Target] requires enough visitors (sample size) to improve your conversion rate.
+description: Learn how long to run an A/B test. A successful A/B test in [!DNL Adobe Target] requires enough visitors (sample size) to improve your conversion rate.
 title: How Long Should I Run an A/B Test?
 feature: A/B Tests
 exl-id: 4f4ce387-bbbe-44af-965b-affc3ee09d74
@@ -35,9 +35,9 @@ For more information, see [Auto-Allocate overview](/help/main/c-activities/autom
 
 If you choose to use a manual [!UICONTROL A/B Test] activity rather than [!UICONTROL Auto-Allocate], the [!DNL Target] Sample Size Calculator helps you determine the sample size needed for a successful test. A manual A/B test is a fixed horizon test, so the calculator is helpful. Using the calculator for an [!UICONTROL Auto-Allocate] activity is optional because [!UICONTROL Auto-Allocate] declares a winner for you. The calculator gives you a rough estimate of the sample size needed. Continue reading for more information about how to use the calculator.
 
-Before setting up your A/B test, access the [!DNL Adobe Target] [Sample Size Calculator](/help/main/c-activities/t-test-ab/sample-size-determination.md#section_6B8725BD704C4AFE939EF2A6B6E834E6).
+Before setting up your A/B test, access the [!DNL Adobe Target] [Sample Size Calculator](https://experienceleague.adobe.com/tools/calculator/testcalculator.html).
 
-![Adobe Target Sample Size Calculator](https://experienceleague.adobe.com/tools/calculator/testcalculator.html)
+![Adobe Target Sample Size Calculator](help/main/c-activities/t-test-ab/assets/sample_size_calculator-new.png)
 
 It is important to determine an adequate sample size (number of visitors) before doing any A/B test in order to establish the time that the activity should run before evaluating the results. Simply monitoring the activity until statistical significance is achieved causes the confidence interval to be vastly underestimated, making the test unreliable. The intuition behind this result is that, in the event a statistically significant result is detected, the test is stopped and a winner is declared. However, if the result is not statistically significant the test is allowed to continue. This procedure strongly favors the positive outcome, which increases the false positive rate, and so distorts the effective significance level of the test.
 
