@@ -1,7 +1,7 @@
 ---
 keywords: variables;profiles;parameters;built in profiles;methods;url variables;geo profiles;third party profiles;mbox variables;campaign variables;customer attributes
 description: View a list of various profiles, variables, and parameters that are useful in profile scripts in Adobe Target.
-title: Which Profiles, Variables, and Parameters Are Used in Target?
+title: Which Profiles, Variables, and Parameters Are Used in [!DNL Target]?
 feature: Audiences
 exl-id: 96ef9a56-fe76-428e-a164-c01829fdf45d
 ---
@@ -32,7 +32,8 @@ This page lists profiles, variables, and parameters that are useful in profile s
 |user.header('accept')|Visitor language and character encoding|
 |user.header('connection')|Server connection. For example:  keep-live|
 |user.header('referrer')|Website URL of visitor current page. Does not work for Internet Explorer.|
-|user.getLocal('param_name','value');||
+|user.getLocal('param_name');|Retrieve the value that you set using `user.setLocal`.|
+|user.setLocal('param_name','value')|Create persisted profile values within a profile script. These values persist just like a profile script, but you only have access to it within the script it was set.|
 |user.get('param_name')||
 |user.parameter|Persistent profile attributes created from profile scripts. Also references "system" profiles like geolocation, visit count, etc.|
 |profile.get('param_name')|The correct way to obtain a profile parameter to use in a profile script is the profile.get('param_name') method.|
