@@ -13,6 +13,7 @@ This page lists significant changes made to the [!DNL Adobe Target] product docu
 
 |Date|Topic|Changes|
 | --- | --- | --- |
+|November 16|[Adobe Target announcements and events](/help/main/r-release-notes/target-announcements.md)|Added registration information for the following event:<ul><li>[!DNL Adobe Target] Community Q&A coffee break (November 29)</li></ul>|
 |November 8|[How long should you run an A/B Test?](/help/main/c-activities/t-test-ab/sample-size-determination.md#section_6B8725BD704C4AFE939EF2A6B6E834E6)|Added important note that to get accurate results you must reload the page before changing any parameter numbers in the [!DNL Adobe Target] [!UICONTROL Sample Size Calculator]. Also added a note in the actual [calculator](https://experienceleague.adobe.com/tools/calculator/testcalculator.html){target=_blank}.|
 ||[Redirect offers - A4T FAQ](/help/main/c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-redirect-offers.md#section_BA73E8B3CFCC4CBEB5BE3F76B2BC8682)|Updated the description for the `adobe_mc_sdid` parameter in the table.|
 ||[Troubleshooting activities](/help/main/c-activities/c-troubleshooting-activities/troubleshooting-activities.md)|Added new section: "After activity conversion, the visitor is not in any experience."|
