@@ -15,6 +15,22 @@ Gartner has named [!DNL Adobe Target] a leader in its latest Magic Quadrant for 
 
 For more information, see the [Adobe Experience Cloud Blog post](https://business.adobe.com/blog/the-latest/adobe-once-again-named-a-leader-in-the-2022-gartner-magic-quadrant-for-personalization-engines-report?mkt_tok=MDgyLVZMTi0zMzcAAAGGHqjw1DEtV7p2v7f1c2eB4fKlit9iqFUHbMFAjxcNgBw6KBEUjUk670zmlm4hCMQ3R-Cw0eEnAwSthQ1K_I8c1-Yj7vtwUFMqCp6FisLA){target=_blank}.
 
+## [!DNL Adobe Target] Community Q&A coffee break (November 29)
+
+* **Tuesday, November 29, 2022**
+* **8:00 to 9:00 a.m. (PST GMT-8)**
+* **[Registration information](https://adobe.ly/3UtQoxv){target=_blank}**
+
+We'll be joined by Cristinel Anastasoaie, Senior Product Manager for [!DNL Adobe Target], who will answer your questions related to the [!DNL Adobe Target] webinar on [AI-Driven Personalization and Recommendations](#AI).
+
+Be sure to review the webinar recording and then bring your follow-up questions for comprehensive insights, deeper explanations, and strategic suggestions for your unique use cases.
+
+* Optimize real-time recommendations, one-click personalization activities, and automated offers
+* Create and launch AI-driven personalization activities using the [!UICONTROL Visual Experience Composer] (VEC)
+* Integrate with [!DNL Adobe Experience Platform] (AEP) for real-time segment and profile attribute sharing
+
+[!DNL Adobe] Technical Support Engineer Simon Chen will provide additional insights and answers to your questions.
+
 ## [!DNL Adobe Target] webinar series {#webinar-series}
 
 Register for the following webinars to see how customers are using [!DNL Adobe Target] to achieve their personalization and optimization goals:
@@ -46,7 +62,7 @@ We are excited to share some "very big," ground-breaking news in terms of person
 
   +++
 
-### [!DNL Adobe Target] Skill Builders – AI-Driven Personalization and Recommendations (September 15, 2022)
+### [!DNL Adobe Target] Skill Builders – AI-Driven Personalization and Recommendations (September 15, 2022) {#AI}
 
 Automation in experimentation and personalization continues to drive the highest conversions and ROI for marketing, engineering, and product teams. Join the [!DNL Adobe] Skill Builders session and learn how to use [!DNL Adobe Target] advanced AI-driven use cases and capabilities with product and content recommendations to stay ahead of competition and win on every experience.
 
