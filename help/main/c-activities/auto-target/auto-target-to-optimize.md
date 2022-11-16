@@ -5,7 +5,7 @@ title: What Is an Auto-Target Activity?
 feature: Auto-Target
 exl-id: 59ca30dc-45a0-4129-b832-84e1132d3b69
 ---
-# ![PREMIUM](/help/main/assets/premium.png) Auto-Target overview
+# ![PREMIUM](/help/main/assets/premium.png) [!UICONTROL Auto-Target] overview
 
 [!UICONTROL Auto-Target] activities in [!DNL Adobe Target] use advanced machine learning to select from multiple high-performing marketer-defined experiences to personalize content and drive conversions. Auto-Target serves the most tailored experience to each visitor based on the individual customer profile and the behavior of previous visitors with similar profiles. 
 
@@ -40,7 +40,7 @@ Unlike an A/B activity in which the experience allocation for a given visitor is
 There are a few important considerations to keep in mind when using [!UICONTROL Auto-Target]:
 
 * You cannot switch a specific activity from [!UICONTROL Auto-Target] to Automated Personalization, and vice versa. 
-* You cannot switch from Manual traffic allocation (traditional A/B Test) to [!UICONTROL Auto-Target], and vice versa after an activity is live. 
+* You cannot switch from Manual traffic allocation (traditional A/B Test) to [!UICONTROL Auto-Target], and vice versa after an activity is saved as draft. 
 * One model is built to identify the performance of the personalized strategy vs. randomly served traffic vs. sending all traffic to the overall winning experience. This model considers hits and conversions in the default environment only. 
 
   Traffic from a second set of models is built for each modeling group (AP) or experience (AT). For each of these models, hits and conversions across all environments are considered. 
