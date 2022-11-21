@@ -263,7 +263,7 @@ The following size limits apply to offers:
 
 * **Recommended limit**: 2,000 characters.
 
-  Depends on the size of the encoded string, which could be much longer than the raw string. If the string is too large, it fails before it gets to Adobe Target.
+  Depends on the size of the encoded string, which could be much longer than the raw string. If the string is too large, it fails before it gets to [!DNL Adobe Target].
 
 ## Script profiles
 
