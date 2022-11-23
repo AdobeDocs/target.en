@@ -19,7 +19,7 @@ Before you decide to use this integration, review the following sections and con
 
 >[!IMPORTANT]
 >
->Before you can begin using A4T, you must request that your account is provisioned for the integration. Use the [Marketing Cloud Integrations Provisioning Form](https://www.adobe.com/go/audiences) to request to be provisioned.
+>Before you can begin using A4T, you must request that your account is provisioned for the integration. Use the [Marketing Cloud Integrations Provisioning Form](https://survey.adobe.com/jfe/form/SV_ekBHTLSoP5Zki2y){target=_blank} to request to be provisioned.
 
 This A4T integration requires that you implement the following library versions (or newer), depending on whether you want to use redirect offers with A4T or not.
 
@@ -91,7 +91,7 @@ There are cases when you might want to have more control on when and how to send
 
 ## Shared audiences
 
-While filling in the [Marketing Cloud Integrations Provisioning Form](https://www.adobe.com/go/audiences), be aware of the following important information concerning the [!UICONTROL Shared Audiences] option listed under "[!UICONTROL For which capabilities are you requesting provisioning]?" 
+While filling in the [Marketing Cloud Integrations Provisioning Form](https://survey.adobe.com/jfe/form/SV_ekBHTLSoP5Zki2y){target=_blank}, be aware of the following important information concerning the [!UICONTROL Shared Audiences] option listed under "[!UICONTROL For which capabilities are you requesting provisioning]?" 
 
 ![Request form](/help/main/c-integrating-target-with-mac/a4t/assets/request-form.png)
 

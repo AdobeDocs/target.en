@@ -42,7 +42,7 @@ The following sections describe the steps required to deploy this integration to
 
 ### Step 1: Request provisioning for Analytics and Target
 
-After you implement [!DNL Analytics] as the reporting source for [!DNL Target], you must be provisioned for [!DNL Analytics] and [!DNL Target]. [Use this form to request to be provisioned](https://www.adobe.com/go/audiences).
+After you implement [!DNL Analytics] as the reporting source for [!DNL Target], you must be provisioned for [!DNL Analytics] and [!DNL Target]. [Use this form to request to be provisioned](https://survey.adobe.com/jfe/form/SV_ekBHTLSoP5Zki2y){target=_blank}.
 
 ### Step 2: Set up user permissions
 
