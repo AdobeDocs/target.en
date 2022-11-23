@@ -15,7 +15,7 @@ The following sections describe the steps required to deploy this integration to
 
 ### Step 1: Request provisioning for [!DNL Analytics] and [!DNL Target]
 
-Before you implement A4T, you must be provisioned for [!DNL Analytics] and [!DNL Target]. [Use this form to request to be provisioned](https://adobe.allegiancetech.com/cgi-bin/qwebcorporate.dll?idx=X8SVES).
+Before you implement A4T, you must be provisioned for [!DNL Analytics] and [!DNL Target]. [Use this form to request to be provisioned](https://survey.adobe.com/jfe/form/SV_ekBHTLSoP5Zki2y).
 
 ### Step 2: Set up user permissions
 
