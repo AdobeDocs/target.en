@@ -12,6 +12,12 @@ These release notes provide information about features, enhancements, and fixes 
 
 (The issue numbers in parentheses are for internal [!DNL Adobe] use.)
 
+## Models API release (November 23, 2022)
+
+The new [!DNL Adobe Target] Models API, also called the Blocklist API, lets users view and manage the list of features used in machine learning models for [!UICONTROL Automated Personalization] (AP) and [!UICONTROL Auto-Target] (AT) activities.
+
+For more information, see [Models API Overview](https://developer.adobe.com/target/before-administer/models-api/){target=_blank} in the *Adobe Target Developer Guide*.
+
 ## [!DNL Target] Standard/Premium 22.10.3 (staggered release October 25-27, 2022)
 
 This release will be available according to the following staggered schedule:

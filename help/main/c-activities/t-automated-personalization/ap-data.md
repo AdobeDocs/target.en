@@ -42,7 +42,7 @@ The following table shows the customer-provided data collected by by [!UICONTROL
 
 Features can be blocked from [!DNL Target] machine-learning algorithms, preventing them from being used in any [!UICONTROL Auto-Target] or [!UICONTROL Automated Personalization] model or activity. 
 
-For more information, see [Models API (Blocklisting) Overview](https://developer-stage.adobe.com/target/before-administer/models-api/){target=_blank} in the *Adobe Target Developer Guide*. 
+For more information, see [Models API (Blocklisting) Overview](https://developer.adobe.com/target/before-administer/models-api/){target=_blank} in the *Adobe Target Developer Guide*. 
 
 ## Device and mobile data {#device-mobile}
 
