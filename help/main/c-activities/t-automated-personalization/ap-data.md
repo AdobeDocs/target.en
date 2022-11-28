@@ -17,9 +17,9 @@ The following table shows the data collected by [!UICONTROL Automated Personaliz
 
 |Data category|System prefix|Description|Display name in [!UICONTROL Insights] reports|
 | --- | --- | --- | --- |
-|Environment parameters|ENV|Information about a user’s environment, including operating system, browser, and time of day/day of week.|Browser - [Attribute Name]<br>Operating System - [Value]|
-|Geography|GEO|Information about a user’s geography, obtained via IP lookup.|Geo - [geo attribute]|
-|Mobile device|MOB|Information about a user’s mobile device.|Device - [device attribute]<br>Mobile - [mobile attribute]|
+|Environment parameters|ENV|Information about a user's environment, including operating system, browser, and time of day/day of week.|Browser - [Attribute Name]<br>Operating System - [Value]|
+|Geography|GEO|Information about a user's geography, obtained via IP lookup.|Geo - [geo attribute]|
+|Mobile device|MOB|Information about a user's mobile device.|Device - [device attribute]<br>Mobile - [mobile attribute]|
 |Target reporting segments|SEG|Reporting segments configured in [!DNL Target] reporting.|Reporting Segment -[Segment Name]|
 |Session behavior|SES|Information about user behavior, such as number of pages viewed.|Visitor Profile - [Attribute Name]|
 
@@ -29,7 +29,7 @@ The following table shows the customer-provided data collected by by [!UICONTROL
 
 |Data category|System prefix|Description|Display name in [!UICONTROL Insights] reports|
 | --- | --- | --- | --- |
-|Page parameters|BOX|Custom page parameters (“mbox parameters”) passed in the call to [!DNL Target].|Custom - Mbox Parameter - [parameter name]|
+|Page parameters|BOX|Custom page parameters ("mbox parameters") passed in the call to [!DNL Target].|Custom - Mbox Parameter - [parameter name]|
 |[!DNL Target] profile|PRO|Custom profile attributes directly uploaded to the [!DNL Target] profile via API or page parameter and [!DNL Target] profile scripts.|Custom - Visitor Profile - [attribute name]|
 |Customer attributes|CRS|Customer Attributes uploaded to the [!DNL Target] profile via the [Adobe Experience Cloud Customer Attributes Service](https://experienceleague.adobe.com/docs/core-services/interface/services/customer-attributes/attributes.html){target=_blank}.|Custom - Visitor Profile - [attribute name]|
 |URL parameters|URL|URL and any URL parameters for the currently-viewed page.|Custom - URL Parameter - [URL Parameter]|
@@ -42,9 +42,7 @@ The following table shows the customer-provided data collected by by [!UICONTROL
 
 Features can be blocked from [!DNL Target] machine-learning algorithms, preventing them from being used in any [!UICONTROL Auto-Target] or [!UICONTROL Automated Personalization] model or activity. 
 
-To block a category of features from [!DNL Target] machine-learning algorithms, contact [Adobe Customer Care](/help/main/cmp-resources-and-contact-information.md#section_CC8B206F58D6495C9372D5C0D4055CF6) and specify the feature categories you want blocked, using the above provided System Prefix(es). 
-
-To block one or more specific features from [!DNL Target] machine-learning algorithms, contact [Adobe Customer Care](/help/main/cmp-resources-and-contact-information.md#section_CC8B206F58D6495C9372D5C0D4055CF6) and specify the specific feature names that should be blocked, using the below provided system name(s). The following sections contain detailed information about the various data types, including attribute names, descriptions, and sample values. 
+For more information, see [Models API (Blocklisting) Overview](https://developer-stage.adobe.com/target/before-administer/models-api/){target=_blank} in the *Adobe Target Developer Guide*. 
 
 ## Device and mobile data {#device-mobile}
 
