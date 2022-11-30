@@ -13,6 +13,7 @@ This page lists significant changes made to the [!DNL Adobe Target] product docu
 
 |Date|Topic|Changes|
 | --- | --- | --- |
+|November 29|[Geo](/help/main/c-target/c-audiences/c-target-rules/geo.md)|Clarified text by adding the following paragraph:<ul><li>A visitor's geo information is determined from the originating IP address of a [!DNL Target] location request (mbox request). The IP-to-geo resolution is done for the first call of a new session. This means, if the IP address of a visitor changes mid session of a visit, the geo information is still based on the IP address of the first call.</li></ul>|
 |November 28|[Models API (Blocklisting) Overview](https://developer.adobe.com/target/before-administer/models-api/){target=_blank} in the *Adobe Target Developer Guide*.|New Models API.<br>Features can be blocked from [!DNL Target] machine-learning algorithms, preventing them from being used in any [!UICONTROL Auto-Target] or [!UICONTROL Automated Personalization] model or activity.|
 ||[Target release notes (current)](/help/main/r-release-notes/release-notes.md)|Added information about the Models API release (November 23, 2022).|
 |November 23|[Before you implement Analytics for Target (A4T) with at.js](/help/main/c-integrating-target-with-mac/a4t/before-implement.md)|Updated the link to the [Marketing Cloud Integrations Provisioning Form](https://survey.adobe.com/jfe/form/SV_ekBHTLSoP5Zki2y){target=_blank}.|
