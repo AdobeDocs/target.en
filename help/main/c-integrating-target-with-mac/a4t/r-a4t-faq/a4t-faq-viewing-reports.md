@@ -11,36 +11,52 @@ This topic contains answers to questions that are frequently asked about viewing
 
 ## Can I view my [!DNL Target] activity data in [!DNL Analysis Workspace]? {#workspace}
 
++++Answer
 You can use [!DNL Analysis Workspace] to analyze your [!DNL Target] activities and experiences. The [Analytics for Target panel](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/panels/a4t-panel.html) lets you see lift & confidence for as many as three success metrics. You can also dig deeper using tables and visualizations.
 
 For detailed information and examples, open the [Analytics & Target: Best Practices for Analysis tutorial](https://spark.adobe.com/page/Lo3Spm4oBOvwF/), provided by [!UICONTROL Adobe Experience League].
 
++++
+
 ## Where can segments be applied in [!DNL Analysis Workspace]? {#segmentation}
 
++++Answer
 Segments are most commonly used at the top of a panel in the segment drop zone. The segment is applied to all tables and visualizations in the panel. This technique is most useful for seeing how the test affects a subset of people (for example, how did this test perform for people in the UK)?
 
 A segment can also be layered directly within the freeform table, but note that you must overlay it across the entire table to preserve the lift & confidence calculations within the A4T Panel. Column level segments are not currently supported within the panel.
 
++++
+
 ## Can I apply the "Same Touch" Attribution IQ model in [!DNL Analysis Workspace]? 
 
++++Answer
 When using [!DNL Target] activity impressions and conversions in [!DNL Analysis Workspace], apply the "Same Touch" Attribution IQ model to the metrics to ensure accurate counting. To apply a [non-default attribution model](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/build-workspace-project/column-row-settings/column-settings.html), right-click on the metric to **modify Column Settings > enable Use non-default attribution model > select Same Touch model**. Without this model applied, the metrics are overstated. 
 
 All current [!DNL Adobe Analytics] packages can add this model with [!UICONTROL Attribution IQ]. If you do not have access to [!UICONTROL Attribution IQ], please rely on A4T data in [!UICONTROL Reports & Analytics].
 
++++
+
 ## When I apply a hit segment for a specific [!DNL Target] activity, why are unrelated experiences returned? {#activity-segmentation}
 
++++Answer
 The [!DNL Target] variable sent to [!DNL Analytics] has a default 90-day expiration period. (Note: this expiration period can be adjusted by Customer Care if needed). As visitors navigate the site throughout this expiration window, they are part of many [!DNL Target] activities, all of which collect in the dimension. 
 
 When you segment for an activity to be present in a hit, you get all the experiences that are part of that activity *plus* any other experiences that are persisting on that hit. 
 
++++
+
 ## While configuring my [!UICONTROL Goal Metrics], why can't I access [!UICONTROL Advanced Settings]?
 
++++Answer
 For activities using [!DNL Analytics] as the reporting source (A4T), the goal metric uses the "[!UICONTROL Increment Count & Keep User in Activity]" and "[!UICONTROL On Every Impression]" settings. These settings are *not* configurable. 
 
 For more information, see "While configuring my goal metrics, why can't I access the Advanced Settings options?" in [Metric definitions - A4T FAQ](/help/main/c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-metric-definition.md).
 
++++
+
 ## Should I use visitors, visits, or activity impressions as my normalizing metric (i.e. counting methodology)? {#metrics}
 
++++Answer
 There are several options for normalizing metrics in A4T reporting. This metric, also referred to as the counting methodology, becomes the denominator of the lift calculation. It also affects how the data is aggregated before the confidence calculation is applied.
 
 * ***Unique visitors*** increment once when a user first qualifies for an activity. 
@@ -56,26 +72,38 @@ Consider the following:
 
 For more information, see [How to set up A4T reports in Analysis Workspace for Auto-Target activities](https://experienceleague.adobe.com/docs/target-learn/tutorials/integrations/set-up-a4t-reports-in-analysis-workspace-for-auto-target-activities.html) in *Adobe Target Tutorials*.
 
++++
+
 ## Why are "activity impressions" and "activity conversions" higher in [!DNL Analysis Workspace] than [!UICONTROL Reports & Analytics]? {#sametouch}
 
++++Answer
 [!DNL Reports & Analytics] applies a same-touch attribution model to "activity impressions" and "activity conversions," whereas [!DNL Analysis Workspace] displays the raw metrics, which can appear inflated due to persistence of the [!DNL Target] dimension.
 
 To evaluate accurate [!UICONTROL Activity Impressions] and [!UICONTROL Activity Conversions] metrics in [!DNL Analysis Workspace], ensure that both metrics have [!UICONTROL Same Touch] attribution models applied. Models can be applied by clicking the column settings gear, enabling [!UICONTROL Non-default attribution models], then selecting [!UICONTROL Same Touch]. Learn more about attribution in [Attributes IQ overview](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/panels/attribution.html) in the *Analytics Tools Guide*.
 
++++
+
 ## What does "activity conversions" mean if the marketer picks an [!DNL Analytics] metric during activity setup? {#section_F3EBACF85AF846E9B366A549AAB64356}
 
++++Answer
 "Activity conversions" are empty if an [!DNL Analytics] metric was selected as the conversion metric for the activity.
+
++++
 
 ## Why do I see "unspecified" in the [!DNL Analytics] reports? What does it mean? {#unspecified}
 
++++Answer
 In other reports, "unspecified" means data did not meet a classification rule, but in A4T this should never happen. If you see "unspecified," then the classification service hasn't run yet. It generally takes between 24 to 72 hours for activity data to appear in the reports. Even though the activities do not appear in this report until that time, all visitor data tied to those activities is captured and appear when the classification is complete.
 
 After the classification period, data appears in these reports approximately an hour after it is collected from the website. All metrics, segments, and values in the reports come from the report suite you selected when you set up the activity.
 
 In case classification was done for that activity, and you still see an "Unspecified" row in the report, make sure that the report isn't using a non-[!DNL Target] metric to display the data. Unless the report is using a [!DNL Target]-specific metric, that "Unspecified" row contains events for calls that are not associated with [!DNL Target]. That row will not contain any [!DNL Target]-associated information (for example, visitors/visits/impressions).
 
++++
+
 ## Why are [!DNL Target] metrics sent to [!DNL Analytics] even after the activity has been deactivated? {#section_38AA8380A4D54A18972F1EF3E73E22EF}
 
++++Answer
 The [!DNL Target] variable sent to [!DNL Analytics] has a default 90-day expiration period. This expiration period can be adjusted by Customer Care if needed. This setting is global for all activities; however, so it should not be adjusted for one case.
 
 You might see [!DNL Target] variables sent to [!DNL Analytics] after the expiration period because the expiration is 90 days, but only if that user never sees another A4T-enabled [!DNL Target] activity. If a user comes back to the site on day 45 and sees another activity, the entire A4T eVar value has its counter reset to 90 days. That means the first campaign from day 1 now could be persisting for up to 45 + 90 = 135 days. If the user keeps coming back, you might get to the point where you see metrics sent to [!DNL Analytics] in your reporting from much older activities. As users delete cookies and don't return to the site, the numbers in that activity drop, but you can still see them.
@@ -119,12 +147,18 @@ Because both experiences were seen before the conversion, they both get "credit"
 
 For more information, see [Conversion Variables (eVar](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/conversion-variables/conversion-var-admin.html)) in the *Analytics Admin Guide*.
 
++++
+
 ## Why do I continue to see more impressions after my activity has been deactivated? {#deactivated}
 
-A source of impressions to an A4T activity's report after deactivation can be QA-mode traffic. Target normally doesn't log events for a deactivated activity, but Analytics doesn't have a way to know that impressions are coming from QA mode. When the Target activity report is retrieved from Analytics, it shows these impressions. This is working as designed because customers need a way to check A4T reports even if the activity is not active using QA mode. 
++++Answer
+A source of impressions to an A4T activity's report after deactivation can be QA-mode traffic. Target normally doesn't log events for a deactivated activity, but Analytics doesn't have a way to know that impressions are coming from QA mode. When the Target activity report is retrieved from Analytics, it shows these impressions. This is working as designed because customers need a way to check A4T reports even if the activity is not active using QA mode.
+
++++
 
 ## Why do [!DNL Analytics] and [!UICONTROL Analytics for Adobe Target] (A4T) calculate numbers for the [!UICONTROL Unique Visitors] metric differently? {#section_0C3B648AB54041F9A2AA839D51791883}
 
++++Answer
 When you run an A/B test, which uses the [Welch's t-test](https://en.wikipedia.org/wiki/Welch%27s_t-test){target=_blank} (the confidence metric) to choose a winner of a test, one of the assumptions is that there is a fixed time horizon. The test isn't statistically valid unless you are looking at that fixed sample size.
 
 The [!UICONTROL Unique Visitors] metric is different in [!DNL Analytics] and [!DNL Target] only when you are looking at a period that is shorter than the actual test. If you haven't reached your sample size, the test isn't as reliable. See [How Not to Run an A/B Test](https://www.evanmiller.org/how-not-to-run-an-ab-test.html) on [Evan Miller's website](https://www.evanmiller.org/index.html) for more information.
@@ -133,26 +167,38 @@ The [!UICONTROL Unique Visitors] metric displays the number of people who have b
 
 You can shorten the amount of time the [!DNL Target] variable persists down to a session; however, that is problematic for tests where the conversion event isn't as likely to happen within the same session.
 
++++
+
 ## Why is the same visitor sometimes counted in multiple experiences in [!DNL Analytics]? {#section_1397E972D31C4207A142E4D2D6D794A2}
 
++++Answer
 The following list explains reasons why the same visitor could be counted in multiple experiences in [!DNL Analytics]:
 
 * The [!DNL Target] profile expired but the [!DNL Analytics] cookie is still there. In this situation, [!DNL Target] reevaluates the user but [!DNL Analytics] considers the visitor to be the same person. 
 * If the visitor is using the `mbox3rdPartyId`, when the anonymous visitor is merged with the 3rd-party ID profile, [!DNL Target] could put the visitor into a different experience to match up with the 3rd-party ID. For more information, see [Real-Time Profile Syncing for mbox3rdPartyID](/help/main/c-target/c-visitor-profile/3rd-party-id.md#concept_BF4113593F614987B1D3E359AE1C5732). 
 * [!DNL Analytics] might be tracking different devices as the same visitor in a different way than [!DNL Target] tracks those devices: the 3rd-party ID setup in [!DNL Target] is different than in Analytics.
 
++++
+
 ## Does A4T support virtual report suites? {#virtual}
 
++++Answer
 Although virtual report suites are not included in the [!UICONTROL Report Suite] list, any A4T data shared with a report suite that is linked to a virtual report suite in [!DNL Analytics] has access to that data. Note that any audience created from a virtual report suites cannot be shared back to [!DNL Target].
+
++++
 
 ## Can I change the percentage of traffic allocation in an activity that uses A4T after the activity has been activated?
 
++++Answer
 Changing the traffic allocation percentage in an activity after activation can cause inconsistent reporting in [!DNL Analytics] because the change impacts only new visitors. Returning visitors are not impacted. 
 
 As best practice, you should stop the existing activity and then create a new activity instead of changing the percentage after activation. Reporting for the new activity starts with new visitors and data from returning visitors do not cause inconsistent reporting.
 
++++
+
 ## How are visits counted in [!DNL Analytics] and conversion credit allocated in an [!UICONTROL Auto-Target] activity that uses A4T?
 
++++Answer
 When a visitor qualifies for, views content, or converts in an A4T activity, [!DNL Target] sends event data to [!DNL Analytics]. This event data allows [!DNL Analytics] to attribute conversion events and other clickstream events happening on the page to the relevant [!DNL Target] activities and experiences.
 
 Here a few points to keep in mind when viewing [!DNL Analytics] reports:
@@ -161,3 +207,5 @@ Here a few points to keep in mind when viewing [!DNL Analytics] reports:
 * If a conversion happens outside the report's window, the conversion is not visible in [!DNL Analytics].
 * When in the "targeted" portion of traffic for [!UICONTROL Auto-Target] activities, visitors might see different experiences from one session to the next. For example, if their profile or context has changed and [!DNL Target]'s machine-learning algorithms decide they are more likely to convert on a new experience. As visitors move from experience to experience, the visit count increments for each experience seen. This is unlike regular A/B Testing activities where experiences are sticky to a visitor across visits.
 * If a visitor sees multiple experiences across visits, any conversion is always attributed to the last experience that the visitor saw. As mentioned, the visit count increments for each experience that the visitor saw. This can artificially depress the per-experience conversion rates when viewing experiences under the "[!UICONTROL Targeted]" dimension in [!DNL Adobe Analytics] reports.
+
++++
