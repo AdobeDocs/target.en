@@ -11,10 +11,14 @@ This topic contains answers to questions that are frequently asked about using r
 
 ## Does Analytics for Adobe Target (A4T) support redirect offers? {#section_46B8B03ED4D542C6AD875F5F61176298}
 
++++Answer
 Yes, if your implementation uses [!DNL at.js]. However, your implementation must meet the minimum requirements listed below in order to use [redirect offers](/help/main/c-experiences/c-manage-content/offer-redirect.md#task_33C80CD722564303B687948261484F94) in activities that use Analytics as the reporting source.
+
++++
 
 ## What are the minimum requirements to use redirect offers with A4T? {#section_FA9384C2AA9D41EDBCE263FFFD1D9B58}
 
++++Answer
 Your implementation must meet the following minimum requirements:
 
 * Experience Cloud Visitor ID Service: [!DNL visitorAPI.js] version 2.3.0 or later. 
@@ -23,12 +27,18 @@ Your implementation must meet the following minimum requirements:
 
 The three libraries must be included on both the page with the redirect offer and the page to which the visitor is redirected.
 
++++
+
 ## Why are there sometimes data discrepancies between A4T and Analytics?
 
++++Answer
 Some data discrepancies are expected. For more information, see [Expected data variances between Target and Analytics when using and not using A4T](/help/main/c-integrating-target-with-mac/a4t/understanding-expected-data-variances.md).
+
++++
 
 ## How can I minimize discrepancies in traffic distribution when using redirect offers in A4T activities? {#discrepancies}
 
++++Answer
 A limited number of customers have reported higher degrees of variance in traffic distribution when using redirect offers in activities configured with [!UICONTROL Analytics for Target] (A4T).
 
 Consider the following:
@@ -42,8 +52,11 @@ Consider the following:
 
   Running the redirect activity on the first [!DNL Target] location request reduces the chances of any activity qualifications happening on other [!DNL Target] location requests and getting counted in the report. Visitors who are redirected need not be counted in the reports of other activities as they will not see the experiences.
 
++++
+
 ## Why are page views on the original page and on the redirect page sometimes counted? {#section_B8F6CC2190B84CF08D945E797C5AF07B}
 
++++Answer
 When using at.js version 1.6.3 or later, counting page views on both pages is not an issue. This race condition affects only customers using earlier versions. The Target team maintains two versions of at.js: the current version and the second-latest version. Upgrade at.js as necessary to ensure that you are running a [supported version](https://developer.adobe.com/target/implement/client-side/atjs/target-atjs-versions/){target=_blank}.
 
 If you are using an earlier, non-supported version of at.js, there is a possibility that a race condition can occur that might cause the Analytics call to fire before the redirect executes on the first page. This situation can cause page views on the original page and on the redirect page to all be counted. This situation results in an extra page view on the first page, when the visitor never really "saw" this first page.
@@ -52,14 +65,20 @@ Using the form-based composer to build a redirect activity is recommended to inc
 
 One reason you might want to use redirect offers for all experiences in the activity, including the default (control) experience, is to put the same conditions on all experiences. For example, if the default experience does not have a redirect offer but the other experiences have redirect offers, the speed of the experience without the redirect offer has an inherent advantage. Redirect offers are recommended for temporary scenarios only, such as testing. Redirect offers are not recommended for permanent scenarios, such as personalization. After you determine the "winner," you should remove the redirect to improve page-load performance.
 
++++
+
 ## Are both the Visual Experience Composer (VEC) and Form-Based Experience Composer supported? {#section_FDA26FE7909B48539DA770559E687677}
 
++++Answer
 Yes, both composers are supported as long as you use the built-in redirect offers.
 
 If you use your own custom code for the redirect, you must ensure that you populate the two new parameters associated with redirect URLs ( `adobe_mc_sdid` and `adobe_mc_ref`, explained below).
 
++++
+
 ## What are the new query string parameters added to the redirect URLs? {#section_BA73E8B3CFCC4CBEB5BE3F76B2BC8682}
 
++++Answer
 The following query string parameters are associated with redirect offers:
 
 | Parameter | Description |
@@ -69,12 +88,18 @@ The following query string parameters are associated with redirect offers:
 
 These parameters are automatically added to the redirect URLs when using the built-in redirect offers in the VEC and Form-Based Experience Composer when the Visitor Id service is implemented on the page. If you are using your own custom redirect code in the VEC or Form-Based Composer, you must be sure to pass these parameters with your custom code.
 
++++
+
 ## My web servers are stripping these parameters from my URLs, what should I do? {#section_0C2DDB72939F4875B6D0428B8DCB38E5}
 
++++Answer
 Work with your IT team to have these parameters ( `adobe_mc_sdid` and `adobe_mc_ref`) allowlisted.
+
++++
 
 ## What if I am not using A4T with my redirect activity and don't want to have these extra parameters added to my URLs? {#section_9E608D75FF9349FE96C65FEDD7539F45}
 
++++Answer
 Use a custom-coded redirect if:
 
 * You are not using A4T with your redirect activity
@@ -83,25 +108,36 @@ Use a custom-coded redirect if:
 
 However, as best practice, you might want to keep the `adobe_mc_ref` parameter in the URL in order to report the referrer information to [!DNL Analytics] correctly.
 
++++
+
 ## Why are the adobe_mc_ref and adobe_mc_sdid parameters double URL encoded in my implementation? {#section_5EFE5F012B944C40865731EA18E7E79E}
 
++++Answer
 If you use A4T and redirect offers, Target appends the `adobe_mc_ref` and `adobe_mc_sdid` parameters to the URL. These values are already URL encoded. Most of the time everything works as expected, however, some customers might have load balancers or WEB servers that try to encode the query string parameters one more time.
 
 Because of this double encoding when the Visitor API tries to decode the `adobe_mc_sdid` value, it can't extract the SDID value and generates a new SDID. This process leads to incorrect SDID values being sent to Target and Analytics and you see uneven split for redirects in Analytics reports.
 
 Adobe recommends that you talk to your IT team to ensure that `adobe_mc_ref` and `adobe_mc_sdid` are allowlisted so that these values are not transformed in any way.
 
++++
+
 ## Why must the referring URL be passed to the new page? {#section_91AB8B0891F6416CBF7E973DCAF54EB5}
 
++++Answer
 Suppose that a visitor clicks a link on [!DNL `www.google.com`] to your homepage (`www.mysite.com/index.html`) on which a redirect activity is live and is then redirected to a new page (`www.mysite.com/index2.html`).
 
 Previously, the [!DNL Analytics] request on the new page would report a referring URL of [!DNL `www.mysite.com/index.html`] instead of [!DNL `www.google.com`]. This caused inaccurate reporting in [!DNL Analytics] associated with the referring URLs (Marketing Channel reports, for example). The reports had lost the fact that you came to the site from [!DNL `www.google.com`].
 
 With [!DNL at.js] version 0.9.6 (or later) and [!DNL AppMeasurement.js] 2.1 (or later), the [!DNL Analytics] request on the new page reports a referring URL of [!DNL `www.google.com`].
 
++++
+
 ## Can I use custom/HTML redirect offers? {#section_E49F9A83A286488C8F1098A040203D7E}
 
++++Answer
 No, you must use a built-in redirect offer for activities that use [!DNL Analytics] as the reporting source (A4T). From the [!DNL Target] perspective, HTML offers are opaque: [!DNL Target] can't know that a particular piece of HTML contains JavaScript that instantiates a redirect.
+
++++
 
 ## ![Adobe Experience Platform Web SDK badge](/help/main/assets/platform.png) Does the [!DNL Adobe Experience Platform Web SDK] support redirect offers for A4T? {#platform}
 
@@ -109,12 +145,21 @@ The following FAQs provide more information about using A4T and redirect offers 
 
 ### Does Analytics for Target (A4T) support redirect offers?
 
++++Answer
 Yes, A4T via the Platform Web SDK supports [redirect offers](/help/main/c-experiences/c-manage-content/offer-redirect.md).
+
++++
 
 ### Are the [!UICONTROL Visual Experience Composer] (VEC) and [!UICONTROL Form-Based Experience Composer] supported? 
 
++++Answer
 Yes, the [[!UICONTROL Visual Experience Composer]](/help/main/c-experiences/c-visual-experience-composer/visual-experience-composer.md) (VEC) and the [[!UICONTROL Form-Based Experience Composer]](/help/main/c-experiences/form-experience-composer.md) are supported if you use built-in redirect offers.
+
++++
 
 ### Can I use custom/HTML redirect offers with the [!DNL Platform Web SDK]? 
 
++++Answer
 No, you must use a built-in redirect offer for activities that use A4T. From the [!DNL Target] perspective, HTML offers are opaque. [!DNL Target] can't know that a particular piece of HTML contains JavaScript that instantiates a redirect.
+
++++

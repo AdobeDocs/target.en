@@ -11,14 +11,14 @@ This topic contains answers to questions that are frequently asked about activit
 
 ## Which activity types are support Analytics as the reporting source (A4T)? {#section_5E4F58CD25A5424E869E6FE0803968EF}
 
-+++More details
++++Answer
 For a full list, see "Supported Activity Types" in [Adobe Analytics as the Reporting Source for Adobe Target (A4T)](/help/main/c-integrating-target-with-mac/a4t/a4t.md#concept_7540C8C04259434AB6EE33B09F47A1DE).
 
 +++
 
 ## While configuring my Goal Metrics, why can't I access Advanced Settings?
 
-+++More details
++++Answer
 For activities using [!DNL Analytics] as the reporting source (A4T), the goal metric uses the "[!UICONTROL Increment Count & Keep User in Activity]" and "[!UICONTROL On Every Impression]" settings. These settings are *not* configurable. 
 
 For more information, see "While configuring my goal metrics, why can't I access the Advanced Settings options?" in [Metric definitions - A4T FAQ](/help/main/c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-metric-definition.md).
@@ -27,14 +27,15 @@ For more information, see "While configuring my goal metrics, why can't I access
 
 ## I just created an activity. Why don't I see any data coming in? {#section_9F8092BE4225442896F926540292F221}
 
-+++More details
+
++++Answer
 When an activity is created, [!DNL Target] sends a classification file to [!DNL Analytics]. Although [!DNL Analytics] is capturing and processing the data, it does not show that in the reports until the classification file has been updated. This process can take up to 24 hours. If after 48 hours you don't see your data, please [contact Client Care](/help/main/cmp-resources-and-contact-information.md#reference_ACA3391A00EF467B87930A450050077C). Alternately, if you know you launch an activity, you can create the activity a few days beforehand and the classifications are sent when the activity is saved. That way, data appears in the reports upon launch. Please note that it takes 45-90 minutes for data to be processed in [!DNL Analytics].
 
 +++
 
 ## Why can't I select Analytics as my reporting source when I create an activity? {#section_9F4F69C3085F4C2480AF439127EB27CD}
 
-+++More details
++++Answer
 You can change your [!UICONTROL Reporting Settings] options in [!UICONTROL Administration].
 
 1. In [!DNL Target], click **[!UICONTROL Administration]**. 
@@ -50,7 +51,7 @@ To always use [!DNL Analytics] as the reporting source, select **[!UICONTROL Ado
 
 ## Can a visitor switch between targeted and controlled experiences in different visits in an Auto-Target activity that uses A4T?
 
-+++More details
++++Answer
 The following is true assuming the visitorId does not change for a visitor between visits.
 
 If the traffic-allocation percentage is adjusted mid-activity, it's possible that a visitor could move between targeted and control experiences. 
@@ -64,7 +65,7 @@ If the percentages are not adjusted mid-activity, a visitor who initially sees t
 
 ## Can I use a binomial [!DNL Analytics] metric with a segment applied as the optimizing goal in an [!UICONTROL Auto-Allocate] activity? {#binomial}
 
-+++More details
++++Answer
 You cannot use an [!DNL Analytics] metric with a segment applied as the optimizing goal in an [!UICONTROL Auto-Allocate] activity. As a workaround you can define a Custom Event that achieves the same objective and use that as the optimizing goal metric.
 
 +++

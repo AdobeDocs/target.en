@@ -11,8 +11,11 @@ This topic contains answers to questions that are frequently asked about the leg
 
 ## Why do I see an Activities report and a Campaign>Recipe report in Analytics? {#section_ECF18A7E759A4E7F93553DB187A677E9}
 
++++Answer
 The SiteCatalyst to Test&Target integration (the old integration) and Analytics for Target (A4T) are different.
 
 The Activities report is for the newer A4T integration.
 
 The Campaign>Recipes report is for the legacy SiteCatelyst to Test&Target integration. Contact Client Care if you want to turn off this report. They can immediately turn off the report. The report is hidden, but the underlying data is still available if it must be re-enabled.
+
++++
