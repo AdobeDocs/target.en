@@ -7,33 +7,17 @@ exl-id: 02bbc049-ab41-469b-8f7b-dc93ffb8ae73
 ---
 # [!DNL Adobe Target] announcements and events
 
-Announcements and information about upcoming [!DNL Adobe Target] events, including [!DNL Target] Coffee Break sessions, [!DNL Target] webinar series, [!DNL Target] Skill Builder sessions, developer chats, and more. Links to past recordings are included if available.
+Announcements and information about [!DNL Adobe Target] events, including [!DNL Target] Coffee Break sessions, [!DNL Target] webinar series, [!DNL Target] Skill Builder sessions, developer chats, and more. Links to past recordings are included if available.
 
 ## [!DNL Target] named leader in Gartner Magic Quadrant for Personalization Engines (2022)
 
-Gartner has named [!DNL Adobe Target] a leader in its latest Magic Quadrant for Personalization Engines (PE) for the fifth year in a row. [!DNL Adobe] also received top scores and significant year-over-year increases across all three primary use cases: Digital Marketing, Digital Commerce, and Service and Support. [!DNL Target] received the highest scores for our testing capabilities among all vendors evaluated.
+Gartner named [!DNL Adobe Target] a leader in its latest Magic Quadrant for Personalization Engines (PE) for the fifth year in a row. [!DNL Adobe] also received top scores and significant year-over-year increases across all three primary use cases: Digital Marketing, Digital Commerce, and Service and Support. [!DNL Target] received the highest scores for our testing capabilities among all vendors evaluated.
 
 For more information, see the [Adobe Experience Cloud Blog post](https://business.adobe.com/blog/the-latest/adobe-once-again-named-a-leader-in-the-2022-gartner-magic-quadrant-for-personalization-engines-report?mkt_tok=MDgyLVZMTi0zMzcAAAGGHqjw1DEtV7p2v7f1c2eB4fKlit9iqFUHbMFAjxcNgBw6KBEUjUk670zmlm4hCMQ3R-Cw0eEnAwSthQ1K_I8c1-Yj7vtwUFMqCp6FisLA){target=_blank}.
 
-## [!DNL Adobe Target] Community Q&A coffee break (November 29)
-
-* **Tuesday, November 29, 2022**
-* **8:00 to 9:00 a.m. (PST GMT-8)**
-* **[Registration information](https://adobe.ly/3UtQoxv){target=_blank}**
-
-We'll be joined by Cristinel Anastasoaie, Senior Product Manager for [!DNL Adobe Target], who will answer your questions related to the [!DNL Adobe Target] webinar on [AI-Driven Personalization and Recommendations](#AI).
-
-Be sure to review the webinar recording and then bring your follow-up questions for comprehensive insights, deeper explanations, and strategic suggestions for your unique use cases.
-
-* Optimize real-time recommendations, one-click personalization activities, and automated offers
-* Create and launch AI-driven personalization activities using the [!UICONTROL Visual Experience Composer] (VEC)
-* Integrate with [!DNL Adobe Experience Platform] (AEP) for real-time segment and profile attribute sharing
-
-[!DNL Adobe] Technical Support Engineer Simon Chen will provide additional insights and answers to your questions.
-
 ## [!DNL Adobe Target] webinar series {#webinar-series}
 
-Register for the following webinars to see how customers are using [!DNL Adobe Target] to achieve their personalization and optimization goals:
+Register for the following webinars to see how customers are using [!DNL Target] to achieve their personalization and optimization goals:
 
 None scheduled at this time.
 
@@ -278,6 +262,6 @@ View tool kit and use cases for implementing cross-functional personalization st
 
 ### [!DNL Adobe Target] Skill Builder: Developer chat, migrate [!DNL Adobe Target]'s mbox.js to at.js {#skill-builder}
 
-With the deprecation of mbox.js on March 31, 2021, David Son, Adobe Target Product Manager recently hosted a developer chat to discuss the benefits of migrating mbox.js to at.js.
+With the deprecation of mbox.js on March 31, 2021, David Son, Adobe Target Product Manager hosted a developer chat to discuss the benefits of migrating mbox.js to at.js.
 
 * **[Recording link](https://seminars.adobeconnect.com/ptdo6mfo6qn6/?proto=true)**
