@@ -139,17 +139,22 @@ Select the desired methodology:
 
 Select the control experience to use when calculating and comparing lift.
 
-### Environment
+### Environment {#environment}
 
 Select the environment (host group) to use for the report. For more information, see [Hosts](/help/main/administrating-target/hosts.md#concept_516BB01EBFBD4449AB03940D31AEB66E).
+
+>[!NOTE]
+>
+>If your organization is using [Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/landing/home.html){target=_blank} (AEP) to send metrics data to [!DNL Target], the environment in the AEP Datastream should match the environment in your [!DNL Target] report settings.
+
 
 ### Reset Report Data
 
 Reset reporting data to remove old data. Current visitors will remain in the activity.  This option is available only for those with [!UICONTROL Approver] permissions.
 
-  >[!IMPORTANT]
-  >
-  >This is a permanent action and cannot be undone.
+>[!IMPORTANT]
+>
+>This is a permanent action and cannot be undone.
 
 ### Exclude Extreme Values
 
