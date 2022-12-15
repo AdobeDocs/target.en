@@ -24,7 +24,7 @@ To sort visitors into groups that each see a different activity, you must create
 
 ```javascript
 if (!user.get('twogroups')) { 
-    var ran_number = Math.floor(Math.random() * 99); 
+    var ran_number = Math.floor(Math.random() * 100); 
     if (ran_number <= 49) { 
         return 'GroupA'; 
     } else { 
@@ -35,9 +35,9 @@ if (!user.get('twogroups')) {
 
 * `if (!user.get('twogroups'))` determines whether the *twogroups* profile attribute is set for the current visitor. If they do, no further action is required.
 
-* `var ran_number=Math.floor(Math.random() *99)` declares a new variable called ran_number, sets its value to a random decimal between 0 and 1, then multiplies it by 99 and rounds it down to create a range of 100 (0-99), useful for specifying a percentage of visitors who see the activity.
+* `var ran_number=Math.floor(Math.random() *100)` declares a new variable called ran_number, sets its value to a random decimal between 0 and 1, then multiplies it by 100 and rounds it down to create a range of 100 (0-100), useful for specifying a percentage of visitors who see the activity.
 
-* `if (ran_number <= 49)` begins a routine that determines which group the visitor belongs to. If the number returned is 0-49, the visitor is assigned to GroupA. If the number is 50-99, the visitor is assigned to GroupB. The group determines which activity the visitor sees.
+* `if (ran_number <= 49)` begins a routine that determines which group the visitor belongs to. If the number returned is 0-49, the visitor is assigned to GroupA. If the number is 50-100, the visitor is assigned to GroupB. The group determines which activity the visitor sees.
 
 After you create the profile attribute, set up the first activity to target the desired population by requiring that the user profile parameter `user.twogroups` matches the value specified for GroupA.
 
@@ -55,7 +55,7 @@ For example, to create four groups, use the following JavaScript:
 
 ```javascript
 if (!user.get('fourgroups')) { 
-    var ran_number = Math.floor​(Math.random() * 99); 
+    var ran_number = Math.floor​(Math.random() * 100); 
     if (ran_number <= 24) { 
         return 'GroupA'; 
     } else if (ran_number <= 49) { 
@@ -72,17 +72,17 @@ In this example, the math used to generate the random number that assigns a visi
 
 If you create an odd number of groups, or any number that 100 does not divide evenly into, you should not round the decimal down to an integer. Not rounding the decimal enables you to specify non-integer ranges. You do this by changing this line:
 
-`var ran_number=Math.floor(Math.random()*99);`
+`var ran_number=Math.floor(Math.random()*100);`
 
 to:
 
-`var ran_number=Math.random()*99;`
+`var ran_number=Math.random()*100;`
 
 For example, to place visitors in three equal groups, use the following code:
 
 ```javascript
 if (!user.get('threegroups')) { 
-    var ran_number = Math.random() * 99; 
+    var ran_number = Math.random() * 100; 
     if (ran_number <= 32.33) { 
         return 'GroupA'; 
     } else if (ran_number <= 65.66) { 
