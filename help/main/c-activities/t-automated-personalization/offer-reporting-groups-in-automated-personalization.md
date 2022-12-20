@@ -57,11 +57,11 @@ For information about targeting an offer to specific audiences, see [Target AP O
 
 * AP activities have combinations of location+offer (modellables). When Target records data in reports, Target considers such combinations so it is clear from which event (display, click, and so forth) the offer came.
 
-For example, an activity might have several locations and several offers, which might overlap. If a visitor sees more than one of these offers in different locations, Target records data for those offers only. If the same visitor later clicks an offer, Target records an event from that combination only (not for all combinations).
+  For example, an activity might have several locations and several offers, which might overlap. If a visitor sees more than one of these offers in different locations, Target records data for those offers only. If the same visitor later clicks an offer, Target records an event from that combination only (not for all combinations).
 
-Similarly, if the click comes from a different location, which is present in a metric, but doesn't display an offer, this event is logged under the activity, but not for any offer+location combination. As a result, this offer does not appear in the offer reporting group.
+  Similarly, if the click comes from a different location, which is present in a metric, but doesn't display an offer, this event is logged under the activity, but not for any offer+location combination. As a result, this offer does not appear in the offer reporting group.
 
-This behavior is due to the fact that the click might be made from a different mbox and not the mbox that served the offer. Because of this, the metric is associated with the activity, but not with the offer. 
+  This behavior is due to the fact that the click might be made from a different mbox and not the mbox that served the offer. Because of this, the metric is associated with the activity, but not with the offer. 
 
 ## View offers in a reporting group 
 
