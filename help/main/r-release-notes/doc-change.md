@@ -13,6 +13,7 @@ This page lists significant changes made to the [!DNL Adobe Target] product docu
 
 |Date|Topic|Changes|
 | --- | --- | --- |
+|December 20|[Offer reporting groups in [!UICONTROL Automated Personalization]](/help/main/c-activities/t-automated-personalization/offer-reporting-groups-in-automated-personalization.md)|Added additional information about reporting groups under "Caveats."|
 |December 14|[Report settings](/help/main/c-reports/c-report-settings/report-settings.md#environment)|Added note under the "Environment" section about using [!DNL Adobe Experience Platform] (AEP) to send metric data to [!DNL Target].|
 |November 29|[Geo](/help/main/c-target/c-audiences/c-target-rules/geo.md)|Clarified text by adding the following paragraph:<ul><li>A visitor's geo information is determined from the originating IP address of a [!DNL Target] location request (mbox request). The IP-to-geo resolution is done for the first call of a new session. This means, if the IP address of a visitor changes mid session of a visit, the geo information is still based on the IP address of the first call.</li></ul>|
 |November 28|[Models API (Blocklisting) Overview](https://developer.adobe.com/target/before-administer/models-api/){target=_blank} in the *Adobe Target Developer Guide*.|New Models API.<br>Features can be blocked from [!DNL Target] machine-learning algorithms, preventing them from being used in any [!UICONTROL Auto-Target] or [!UICONTROL Automated Personalization] model or activity.|
