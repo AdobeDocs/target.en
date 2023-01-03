@@ -15,22 +15,24 @@ Information about Velocity can be found at [https://velocity.apache.org](https:/
 
 All Velocity logic, syntax, and so on can be used for a recommendation design. This means that you can create *for* loops, *if* statements, and other code using Velocity rather than JavaScript.
 
-Any variable sent to [!DNL Recommendations] in the `productPage` mbox or the CSV upload can be displayed in a design. These values are referenced with the following syntax:
+Entity attributes sent to [!DNL Recommendations] in the `productPage` mbox or the CSV upload can be displayed in a design, with the exception of "multi-value" attributes. Any type of attribute can be sent; however, [!DNL Target] does not pass attributes of type "multi-value" as an array over which a template can iterate (for example `entityN.categoriesList`).
+
+These values are referenced with the following syntax:
 
 ```
 $entityN.variable
 ```
 
-Variable names must follow Velocity shorthand notation, which consists of a leading *$* character, followed by a Velocity Template Language (VTL) Identifier. The VTL Identifier must start with an alphabetic character (a-z or A-Z).
+Entity attribute names must follow Velocity shorthand notation, which consists of a leading *$* character, followed by a Velocity Template Language (VTL) Identifier. The VTL Identifier must start with an alphabetic character (a-z or A-Z).
 
-Velocity variable names are restricted to the following types of characters:
+Velocity entity attribute names are restricted to the following types of characters:
 
 * Alphabetic (a-z, A-Z) 
 * Numeric (0-9) 
 * Hyphen ( - ) 
 * Underscore ( _ )
 
-The following variables are available as Velocity arrays. As such, they can be iterated over or referenced via index.
+The following attributes are available as Velocity arrays. As such, they can be iterated over or referenced via index.
 
 * `entities` 
 * `entityN.categoriesList`
@@ -51,7 +53,7 @@ $entities[0].categoriesList[2]
 #end
 ```
 
-For more information about Velocity variables, see [https://velocity.apache.org/engine/releases/velocity-1.7/user-guide.html#variables](https://velocity.apache.org/engine/releases/velocity-1.7/user-guide.html#variables).
+For more information about Velocity variables (attributes), see [https://velocity.apache.org/engine/releases/velocity-1.7/user-guide.html#variables](https://velocity.apache.org/engine/releases/velocity-1.7/user-guide.html#variables).
 
 If you use a profile script in your design, the $ preceding the script name must be escaped with a \. For example, `\${user.script_name}`.
 
@@ -112,16 +114,16 @@ sku: $entity3.prodId<br/> Price: $$entity3.value
 
 >[!NOTE]
 >
->If you want to add text after the value of a variable before a tag that indicates the variable name has finished, you can do so using formal notation to enclose the name of the variable. For example: `${entity1.thumbnailUrl}.gif`.
+>If you want to add text after the value of an attribute before a tag that indicates the attribute name has finished, you can do so using formal notation to enclose the name of the attribute. For example: `${entity1.thumbnailUrl}.gif`.
 
-You can also use `algorithm.name` and `algorithm.dayCount` as variables in designs, so one design can be used to test multiple criteria, and the criteria name can be dynamically displayed in the design. This shows the visitor that he or she is looking at "top sellers" or "people who viewed this bought that." You can even use these variables to display the `dayCount` (number of days of data used in the criteria, like "top sellers over the last 2 days," etc.
+You can also use `algorithm.name` and `algorithm.dayCount` as entity attributes in designs, so one design can be used to test multiple criteria, and the criteria name can be dynamically displayed in the design. This shows the visitor that he or she is looking at "top sellers" or "people who viewed this bought that." You can even use these attributes to display the `dayCount` (number of days of data used in the criteria, like "top sellers over the last 2 days," etc.
 
 ## Working with numbers in Velocity templates
 
 By default, Velocity templates treat all entity attributes as string values. You might want to treat an entity attribute as a numeric value in order to perform a math operation or compare it to another numerical value. To treat an entity attribute as a numeric value, follow these steps:
 
 1. Declare a dummy variable and initialize it to an arbitrary integer or double value.
-1. Ensure that the entity attribute you want to use is not blank (required for Target Recommendations' template parser to validate and save the template).
+1. Ensure that the entity attribute you want to use is not blank (required for [!DNL Target Recommendations]' template parser to validate and save the template).
 1. Pass the entity attribute into the `parseInt` or `parseDouble` method on the dummy variable you created in step 1 to turn the string into an integer or double value.
 1. Perform the math operation or comparison on the new numeric value.
 
@@ -208,7 +210,7 @@ You can modify your design to replace values within a string. For example, repla
 The following code shows a single line in a conditional sale pricing example:
 
 ```
-<span class="price">$entity1.value.replace(".", ",") €</span><br>
+<span class="price">$entity1.value.replace(".", ",") &euro;</span><br>
 ```
 
 The following code is a complete conditional example of a sale price:
@@ -216,9 +218,9 @@ The following code is a complete conditional example of a sale price:
 ```
 <div class="price"> 
     #if($entity1.hasSalesprice==true) 
-    <span class="old">Statt <s>$entity1.salesprice.replace(".", ",") €</s></span><br> 
-    <span style="font-size: 10px; float: left;">jetzt nur</span> $entity1.value.replace(".", ",") €<br> #else 
-    <span class="price">$entity1.value.replace(".", ",") €</span><br> #end 
+    <span class="old">Statt <s>$entity1.salesprice.replace(".", ",") &euro;</s></span><br> 
+    <span style="font-size: 10px; float: left;">jetzt nur</span> $entity1.value.replace(".", ",") &euro;<br> #else 
+    <span class="price">$entity1.value.replace(".", ",") &euro;</span><br> #end 
     <span style="font-weight:normal; font-size:10px;"> 
                                         $entity1.vatclassDisplay 
                                         <br/> 
