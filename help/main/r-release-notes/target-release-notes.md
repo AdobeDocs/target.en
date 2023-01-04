@@ -23,7 +23,7 @@ This release contains the following new features, enhancements, and fixes:
 
 * Added support for JSON offers in [!UICONTROL Automated Personalization] (AP) activities using the Form-Based Experience Composer. (TGT-41460)
 * Added the ability to search and filter offers by AEM tags. (TGT-43837)
-* Renamed the "[!UICONTROL Experience Fragment]" option in the Visual Experience Composer workflow. The option is now "[!UICONTROL HTML XF]".
+* Renamed the "[!UICONTROL Experience Fragment]" option in the Visual Experience Composer workflow. The option is now "[!UICONTROL HTML XF]." (TGT-44132)
 * Added the ability to view experience fragment offer metadata in the offer info tooltip. (TGT-43838)
 * Removed the 45-day and 90-day calendar options from the AP and [!UICONTROL Auto-Target] [!UICONTROL Personalization Insights] and [!UICONTROL Important Attributes] reports in the [!DNL Target] UI. Because of usage patterns and to improve performance, these date ranges have been deprecated. The UI has been updated to reflect the currently allowed ranges: 15, 30, and 60 days. (TGT-39357)
 * Removed the ability to change the [!UICONTROL Same as Optimization Goal] setting on the [!UICONTROL Goals & Settings] page after the activity is live. (TGT-43923)
