@@ -13,7 +13,7 @@ exl-id: 59ca30dc-45a0-4129-b832-84e1132d3b69
 >
 >* [!UICONTROL Auto-Target] is available as part of the [!DNL Target Premium] solution. This feature is not available in [!DNL Target Standard] without a [!DNL Target Premium] license. For more information about the advanced features this license provides, see [Target Premium](/help/main/c-intro/intro.md).
 >
->* [!UICONTROL Analytics for Target] (A4T) supports [!UICONTROL Auto-Target] activities. For more information, see [A4T support for Auto-Allocate and Auto-Target activities](/c-integrating-target-with-mac/a4t/a4t-at-aa.md).
+>* [!UICONTROL Analytics for Target] (A4T) supports [!UICONTROL Auto-Target] activities. For more information, see [A4T support for Auto-Allocate and Auto-Target activities](/help/main/c-integrating-target-with-mac/a4t/a4t-at-aa.md).
 
 ## Real-world success story using Auto-Target {#success}
 
