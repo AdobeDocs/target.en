@@ -157,7 +157,7 @@ For [!UICONTROL Auto-Target], simple rules of thumb can be used to understand tr
 
 For more information, see [Reporting and Auto-Target](/help/main/c-activities/auto-target/reporting-and-auto-target.md).
 
-## Training video: Understanding [!UICONTROL Auto-Target] Activities ![Overview badge](/help/main/assets/overview.png)
+## Training video: Understanding Auto-Target Activities ![Overview badge](/help/main/assets/overview.png)
 
 This video explains how to set up an [!UICONTROL Auto-Target] A/B activity.
 
