@@ -13,7 +13,7 @@ This article contains prerelease information. Release dates, features, and other
 
 To view information about the current release, see [Target Release Notes](release-notes.md). The information on these pages could be the same, depending on the timing of releases. The issue numbers in parentheses are for internal [!DNL Adobe] use.
 
-## [!DNL Target] Standard/Premium 23.1.1 (January 23, 2023)
+## [!DNL Target] Standard/Premium 23.1.1 (January 25-26, 2023)
 
 This release contains the following new features, enhancements, and fixes:
 
