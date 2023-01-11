@@ -17,10 +17,6 @@ To view information about the current release, see [Target Release Notes](releas
 
 This release contains the following new features, enhancements, and fixes:
 
-|Feature|Details|
-| --- | --- |
-|AEM content fragments<br>(Exact release date for this feature to be determined.)|Use content fragments created in [!DNL Adobe Experience Manager] (AEM) in [!DNL Target] activities to aid optimization or personalization.<br>Using content fragments created in AEM in [!DNL Target] activities lets you combine the ease-of-use and power of AEM with powerful Artificial Intelligence (AI) and Machine Learning (ML) capabilities in [!DNL Target] to test and personalize experiences at scale.|
-
 * Added support for JSON offers in [!UICONTROL Automated Personalization] (AP) activities using the Form-Based Experience Composer. (TGT-41460)
 * Added the ability to search and filter offers by AEM tags. (TGT-43837)
 * Renamed the "[!UICONTROL Experience Fragment]" option in the Visual Experience Composer workflow. The option is now "[!UICONTROL HTML XF]." (TGT-44132)
