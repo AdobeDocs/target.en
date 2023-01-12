@@ -117,7 +117,7 @@ feature-set: Target
    + Auto-Target {#auto-target}
       + [Auto-Target overview](/help/main/c-activities/auto-target/auto-target-to-optimize.md)
       + [Create an Auto-Target activity](/help/main/c-activities/auto-target/create-auto-target.md)
-      + [Auto-Target troubleshooting and FAQs](/help/main/c-activities/auto-target/auto-target-troubleshooting-faqs.md)
+      + [Auto-Target FAQs and troubleshooting](/help/main/c-activities/auto-target/auto-target-troubleshooting-faqs.md)
       + [Reporting and Auto-Target](/help/main/c-activities/auto-target/reporting-and-auto-target.md)
    + Automated Personalization {#automated-personalization}
       + [Automated Personalization overview](c-activities/t-automated-personalization/automated-personalization.md)
