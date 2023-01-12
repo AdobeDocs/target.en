@@ -14,6 +14,7 @@ This page lists significant changes made to the [!DNL Adobe Target] product docu
 |Date|Topic|Changes|
 | --- | --- | --- |
 |January 12|[Visual Experience Composer helper extension](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/vec-helper-browser-extension.md)|Updated Important note explaining the status of the current [!UICONTROL Visual Experience Composer] helper extension. |
+||[Targets and audiences FAQ](/help/main/c-target/c-troubleshooting-targets-and-audiences/troubleshooting-targets-and-audiences.md)|Added information explaining that audience URL targeting and URL targeting added via [!UICONTROL Template Rules] are evaluated as URL targeting.|
 ||[Target release notes (prerelease)](/help/main/r-release-notes/target-release-notes.md)|Added prerelease notes for the 22.13.3 release.|
 |December 21|[Customize a design using Velocity](/help/main/c-recommendations/c-design-overview/customizing-a-template.md)|Clarified that entity attributes sent to [!DNL Recommendations] in the `productPage` mbox or the CSV upload can be displayed in a design, with the exception of "multi-value" attributes.|
 |December 20|[Offer reporting groups in [!UICONTROL Automated Personalization]](/help/main/c-activities/t-automated-personalization/offer-reporting-groups-in-automated-personalization.md)|Added additional information about reporting groups under "Caveats."|
