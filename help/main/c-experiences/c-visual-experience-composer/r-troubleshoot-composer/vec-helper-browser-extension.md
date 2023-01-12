@@ -13,14 +13,16 @@ The VEC Helper browser is a Chrome extension. This extension is not necessary wh
 
 >[!IMPORTANT]
 >
->Starting in January 2023, the current [!DNL Target] VEC Helper extension will stop working in Google Chrome because Google won't allow extensions using Manifest V2. Download the new extension to continue to visually author your websites in [!DNL Target] starting with the new year. For more information, see [Visual Editing Helper extension](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/visual-editing-helper-extension.md).
+>The current [!DNL Target] VEC Helper extension documented in this article was created using Manifest v2. Google recently announced that it will no longer allow new extensions created using Manifest v2. 
+>
+>The existing extension still works in Google Chrome. In the future, [!DNL Adobe] will deprecate the helper extension documented in this topic and require customers to move to the newer [Visual Editing Helper extension](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/visual-editing-helper-extension.md). You will be notified via release notes and text in this article when this extension will stop working. However, because of security enhancements in Manifest v3, [!DNL Adobe] recommends downloading the new extension to continue to visually author your websites in [!DNL Target].  
 
 ## Reasons why some websites might not open reliably in the VEC
 
 * The website has strict security policies.
 * The website is in an iframe.
 * The at.js library is not yet implemented on the website.
-* The customer's QA and/or stage site is not available to the outside world (the site is internal).
+* The customer's QA or stage site is not available to the outside world (the site is internal).
 * There are some current limitations when trying to use the VEC to open a website that is using [Service Workers](https://developer.mozilla.org/en-US/docs/Web/API/Service_Worker_API){target=_blank} (SW).
 
 A SW is a web technology that can be used to intercept requests for the domain they are installed on by a web page. The SW survives the page visit and activates itself on subsequent visits. The SW decides which requests go through and which ones are intercepted and served from a cache instead.
