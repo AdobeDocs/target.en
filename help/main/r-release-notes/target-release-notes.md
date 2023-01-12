@@ -9,7 +9,7 @@ exl-id: f2783042-f6ee-4f73-b487-ede11d55d530
 
 This article contains prerelease information. Release dates, features, and other information are subject to change without notice. 
 
-**Last Updated: January 4, 2023**
+**Last Updated: January 12, 2023**
 
 To view information about the current release, see [Target Release Notes](release-notes.md). The information on these pages could be the same, depending on the timing of releases. The issue numbers in parentheses are for internal [!DNL Adobe] use.
 
@@ -18,7 +18,7 @@ To view information about the current release, see [Target Release Notes](releas
 This release contains the following new features, enhancements, and fixes:
 
 * Added support for JSON offers in [!UICONTROL Automated Personalization] (AP) activities using the Form-Based Experience Composer. (TGT-41460)
-* Implemented [QA mode](/help/main/c-activities/c-activity-qa/activity-qa.md) for AP activities.
+* Implemented [QA mode](/help/main/c-activities/c-activity-qa/activity-qa.md) for AP activities. (TGT-44341)
 * Experience names in [!DNL Recommendations] activities now display with friendly names so that customers can better correlate data in [!DNL Adobe Analytics] with that in the [!DNL Target] UI. (TGT-41853)
 * Fixed an issue that caused a "500 error" in [!UICONTROL A/B Test] and [!UICONTROL Experience Targeting] (XT) activities that contain recommendations. This issue was caused when [!DNL Target] failed to properly delete criteria objects from the [!DNL Target] UI and [!DNL Recommendations] backend that are no longer in use. (TGT-44383)
 * Removed the location from the displayed offer name in the [!UICONTROL Offer Level] report for [!UICONTROL Automated Personalization] activities. This change makes the report more readable. (TGT-44294)
