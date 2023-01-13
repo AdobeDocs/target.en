@@ -13,6 +13,7 @@ This page lists significant changes made to the [!DNL Adobe Target] product docu
 
 |Date|Topic|Changes|
 | --- | --- | --- |
+|January 13|[Visual Editing Helper extension](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/visual-editing-helper-extension.md)|Added a Frequently Asked Questions section.|
 |January 12|[Visual Experience Composer helper extension](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/vec-helper-browser-extension.md)|Updated Important note explaining the status of the current [!UICONTROL Visual Experience Composer] helper extension. |
 ||[Targets and audiences FAQ](/help/main/c-target/c-troubleshooting-targets-and-audiences/troubleshooting-targets-and-audiences.md)|Added information explaining that audience URL targeting and URL targeting added via [!UICONTROL Template Rules] are evaluated as URL targeting.|
 ||[Target release notes (prerelease)](/help/main/r-release-notes/target-release-notes.md)|Added prerelease notes for the 22.13.3 release.|

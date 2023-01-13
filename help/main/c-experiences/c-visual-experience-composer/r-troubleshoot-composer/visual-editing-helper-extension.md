@@ -1,5 +1,5 @@
 ---
-keywords: vec;visual experience composer; vec;iframe;extension;browser
+keywords: vec;visual experience composer; vec;iframe;extension;browser;faq
 description: Discover why some websites might not open reliably in the [!UICONTROL Visual Experience Composer] (VEC). The [!UICONTROL Visual Editing Helper] browser extension lets you load websites reliably within the VEC.
 title: How Do I Use the [!UICONTROL Visual Editing Helper] Extension?
 feature: Visual Experience Composer (VEC)
@@ -11,7 +11,7 @@ The [!DNL Adobe Experience Cloud] [!UICONTROL Visual Editing Helper] browser ext
 
 >[!IMPORTANT]
 >
->This new extension replaces the previous [Target VEC Helper browser extension](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/vec-helper-browser-extension.md).
+>This new extension replaces the previous [Target VEC Helper browser extension](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/vec-helper-browser-extension.md). See the Important note at the top of that article.
 
 ## Reasons why some websites might not open reliably in the VEC
 
@@ -52,3 +52,13 @@ Using the [Enhanced Experience Composer](/help/main/administrating-target/visual
   * If you attempt to load a website using the VEC that fails to load, a message displays suggesting that you install the [!UICONTROL Visual Editing Helper] browser extension.
   * If at.js or alloy.js is not yet implemented on the website, a message displays in the VEC suggesting that you install the extension.
 * If you try using the new extension and then go back to the [old extension](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/vec-helper-browser-extension.md) and [!DNL Target] fails to load your website, clear all browser data and disable the new extension.
+
+## Frequently Asked Questions
+
+### Does the extension, when active, do anything when used outside of [!DNL Adobe Target] or [!UICONTROL Adobe Journey Optimizer] (AJO)?
+
+The extension activates only when the website in question is loaded inside an iFrame in [!DNL Adobe] products ([!DNL Target], [!DNL AJO]). Outside of this flow, the extension does not try to add, remove, or modify any headers and the extension does not try to inject any code inside the website.
+ 
+### What does the extension do when it is active in the [!DNL Adobe Target] VEC?
+
+When a website is loaded inside an iFrame in [!DNL Adobe] products ([!DNL Target], [!DNL AJO]), the extension injects code (bundled with the extension) on the website and downloads helper files from the [!DNL Adobe] CDN to enable visual authoring.

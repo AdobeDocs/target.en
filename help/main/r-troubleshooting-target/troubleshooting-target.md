@@ -153,4 +153,5 @@ The following sections contain troubleshooting information about implementing Ta
 * [Troubleshooting the Visual Experience Composer](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/troubleshoot-composer.md)
 * [Visual Experience Composer best practices and limitations](/help/main/c-experiences/c-visual-experience-composer/experience-composer-best-practices.md)
 * [Modifications](/help/main/c-experiences/c-visual-experience-composer/c-vec-code-editor/vec-code-editor.md)
+* [Visual Editing Helper extension](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/visual-editing-helper-extension.md)
 * "Office Hours" video, an initiative led by the Adobe Customer Care team. See [Visual Experience Composer (VEC)](/help/main/c-experiences/c-visual-experience-composer/visual-experience-composer.md).
