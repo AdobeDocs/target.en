@@ -9,11 +9,11 @@ exl-id: f2783042-f6ee-4f73-b487-ede11d55d530
 
 This article contains prerelease information. Release dates, features, and other information are subject to change without notice. 
 
-**Last Updated: January 12, 2023**
+**Last Updated: January 19, 2023**
 
 To view information about the current release, see [Target Release Notes](release-notes.md). The information on these pages could be the same, depending on the timing of releases. The issue numbers in parentheses are for internal [!DNL Adobe] use.
 
-## [!DNL Target] Standard/Premium 22.13.3 (January 25-26, 2023)
+## [!DNL Target] Standard/Premium 22.13.3 (January 25, 2023)
 
 This release contains the following new features, enhancements, and fixes:
 
