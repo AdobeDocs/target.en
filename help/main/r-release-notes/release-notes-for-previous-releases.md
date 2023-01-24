@@ -17,6 +17,43 @@ Release notes are arraigned in descending order by month and year of release.
 
 ## Release notes - 2022
 
+### Models API release (November 23, 2022)
+
+The new [!DNL Adobe Target] Models API, also called the Blocklist API, lets users view and manage the list of features used in machine learning models for [!UICONTROL Automated Personalization] (AP) and [!UICONTROL Auto-Target] (AT) activities.
+
+For more information, see [Models API Overview](https://developer.adobe.com/target/before-administer/models-api/){target=_blank} in the *Adobe Target Developer Guide*.
+
+### [!DNL Target] Standard/Premium 22.10.3 (staggered release October 25-27, 2022)
+
+This release contains the following new features, enhancements, and fixes:
+
+|Feature|Details|
+| --- | --- |
+|Optimized A4T metrics for [!UICONTROL Auto-Allocate] and [!UICONTROL Auto-Target]<br>(Available to select customers for testing. Will be available to all customers in a future release.)|Be aware of the following changes:<ul><li>Added support for non-binary and maximization metrics in [!UICONTROL Analytics for Target] A4T reporting for [!UICONTROL Auto-Allocate] and [!UICONTROL Auto-Target] activities</li><li>Preserved behavior for existing activities until February 2023. After this date, activities will be discontinued to force existing activity migration to new behavior</li><li>Starting February 20, 2023, support for `averagetimespentonsite`, `bouncerate`, and `entries` metrics in [!DNL Target] activities will be deprecated.</li></ul>|
+
+* Added tooltips in the [!DNL Target] UI to help customers navigate the audience builder more efficiently and to learn how to use features that might be unfamiliar. (TGT-44139)
+* Added functionality to prevent customers from editing an activity that was disabled by [!DNL Target] because it uses unsupported metrics. A message in the UI directs customers to duplicate the activity and then update the conversion metric.
+
+  With this release `averagetimespentonsite`, `bouncerate`, and `entries` metrics in [!DNL Target] activities will be deprecated for new activities. Existing activities can continue using these metrics until May 2023.
+
+* Added a tooltip in the [!DNL Target] UI to help customers select an optimization criteria while creating or editing an [!UICONTROL Auto-Target] activity that uses A4T. 
+
+### [!DNL Target] Standard/Premium 22.10.1 (staggered release October 10-13, 2022)
+
+This release contains the following new features, enhancements, and fixes:
+
+|Feature|Details|
+| --- | --- |
+|[!DNL Adobe Experience Manager] (AEM) experience fragments|Updates to the AEM experience fragments functionality include the following:<ul><li>Added the ability to filter AEM experience fragments by type (HTML or JSON) in the [!UICONTROL Offers] list. (TGT-43121)</li><li>Fixed an issue that allowed customers to insert JSON [!UICONTROL Experience Fragment] offers when using the VEC, which is not supported. JSON offers can be inserted only when using the [!UICONTROL Form-Based Experience] composer. (TGT-43846)</li></ul>For more information, see AEM [experience fragments](/help/main/c-experiences/c-manage-content/aem-experience-fragments.md).|
+|New [!UICONTROL Visual Experience Composer] extension for Google Chrome|A new [!DNL Adobe Target] [!UICONTROL Visual Experience Composer] (VEC) extension for Chrome is available in the Chrome Web Store.<br>Starting in January 2023, the current [!DNL Target] VEC Helper extension will stop working in Google Chrome because Google won't allow extensions using Manifest V2. Download the new extension to continue to visually author your websites in [!DNL Target] starting with the new year.<br>The following links show the two extensions in the Chrome Web Store:<ul><li>[New extension](https://chrome.google.com/webstore/detail/adobe-experience-cloud-vi/kgmjjkfjacffaebgpkpcllakjifppnca){target=_blank}</li><li>[Old Extension](https://chrome.google.com/webstore/detail/adobe-target-vec-helper/ggjpideecfnbipkacplkhhaflkdjagak){target=_blank}</li></ul>For more information, see [Visual Editing Helper extension](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/visual-editing-helper-extension.md).|
+|Documentation updates|Major documentation updates include the following:<ul><li>New and updated [Adobe Target Admin and Reporting API documentation](https://developer.adobe.com/target/administer/admin-api/){target=_blank} includes comprehensive coverage of Admin and Reporting API endpoints, including properties, offers, hosts, environments, clients, audiences, activities, and more.<br>See this and additional developer content in the [[!DNL Adobe Target] [!UICONTROL Developer Guide]](https://developer.adobe.com/target/){target=_blank}.</li><li>[Statistical calculations in A/Bn tests](/help/main/c-reports/statistical-methodology/statistical-calculations.md)<br>This article documents the detailed statistical calculations used in manual A/Bn tests in [!DNL Adobe Target].<br>The information in this article replaces the *Adobe Target Calculations for A/B Testing* pdf file that was previously available for download on this site.</li></ul>|
+ 
+* Fixed an issue that prevented audience rule information from displaying properly in the [!UICONTROL Audiences Refinements] information window. (TGT-43917)
+* Improved the performance of the [!DNL Target] UI when loading audiences that approach the [recommended limit of targeting rules](/help/main/r-troubleshooting-target/target-limits.md#targeting-rules). (TGT-43675)
+* Fixed an issue that caused some components to not display properly in the [!UICONTROL Modifications] panel on the [!UICONTROL Experiences] page when creating or editing activities in the VEC after switching from [!UICONTROL Compose] to [!UICONTROL Browse] mode. (TGT-43300)
+* Fixed an issue that prevented some customers from archiving [!UICONTROL A/B Test] activities that use [!UICONTROL Auto-Target]. (TGT-40978)
+* Added the ability to automatically use a single offer in multiple locations within a single reporting group. (TGT-40689)
+
 ### [!DNL Target] Standard/Premium 22.9.1 (staggered release September 13-15, 2022)
 
 This release will be available according to the following staggered schedule:
