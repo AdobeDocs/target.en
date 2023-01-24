@@ -9,6 +9,14 @@ exl-id: 36d19598-eb46-4be6-a652-658b653287cb
 
 This page lists significant changes made to the [!DNL Adobe Target] product documentation.
 
+## [!DNL Target] Standard/Premium 22.13.3 (January 25, 2023)
+
+|Date|Topic|Changes|
+| --- | --- | --- |
+|January 25|[Create JSON offers](/help/main/c-experiences/c-manage-content/create-json-offer.md)|Indicated that support for JSON offers in [!UICONTROL Automated Personalization] (AP) activities using the Form-Based Experience Composer is now available.|
+||[Adobe Target announcements and events](/help/main/r-release-notes/target-announcements.md)|Added information about the following event:<ul><li>[!DNL Adobe Target] Community Q&A Coffee Break: Mobile & Authenticated Use Cases for Experience Optimization</li></ul>|
+||[Target release notes (current)](/help/main/r-release-notes/release-notes.md)|Added release notes for the [!DNL Target Standard/Premium] 22.10.1 release.|
+
 ## [!DNL Adobe Target] Standard/Premium 22.10.1 (staggered release October 10-13, 2022)
 
 |Date|Topic|Changes|

@@ -14,7 +14,7 @@ Use QA URLs in [!DNL Adobe Target] to perform easy end-to-end activity QA with p
 * Links to share with team members that never change or require regeneration, regardless of updates made to the experiences or activities. This feature lets you fully test your activities across the entire user journey.
 * Audience conditions optionally respected so marketers can test targeting criteria or ignore targeting criteria to QA the appearance of experiences without having to meet the audience conditions. 
 * QA reporting is captured so that marketers can confirm that metrics are incrementing as expected and the QA report data is kept separate from production reporting (for non-A4T reporting). 
-* The ability to preview an experience in isolation or with other live activities satisfying the delivery criteria (page/Target request/audience). 
+* The ability to preview an experience in isolation or with other live activities satisfying the delivery criteria (page/[!DNL Target] request/audience). 
 * The ability to QA the entire user journey. You can access your site once with the QA link and then browse the entire site while in Activity QA. You remain in Activity QA until you end the session or until you use the [QA Target bookmarklet](/help/main/c-activities/c-activity-qa/activity-qa-bookmark.md#concept_A8A3551A4B5342079AFEED5ECF93E879) to force yourself out of [!UICONTROL Activity QA]. This feature is useful if you have an activity spanning multiple web pages.
 
   >[!NOTE]
@@ -23,7 +23,7 @@ Use QA URLs in [!DNL Adobe Target] to perform easy end-to-end activity QA with p
 
 ## Accessing and Sharing a QA URL {#section_1C59BAA247B247BDB125D1BE8EAD4547}
 
-1. From an activity's [!UICONTROL Overview] page, click the **[!UICONTROL Activity QA]** link.
+1. From an activity's [!UICONTROL Overview] page, click **[!UICONTROL Activity QA]**.
 
    ![Activity QA link](assets/qa_link.png)
 
@@ -45,7 +45,7 @@ Use QA URLs in [!DNL Adobe Target] to perform easy end-to-end activity QA with p
 1. Click **[!UICONTROL Done]** to save your changes. 
 1. Share the activity link URLs with members of your organization for testing.
 
-   Activity links never expire and you do not need to resend links if someone changes an activity or experience. However, if you apply a different audience from the [!UICONTROL Audience Library], rather than simply editing the activity, a new link is generated that you must reshare.
+   Activity links never expire and you do not need to resend links if someone changes an activity or experience. However, if you apply a different audience from the [!UICONTROL Audience Library], rather than simply editing the activity, a new link is generated that you must share again.
 
    Each Activity link URL (for Experience A, Experience B, and so forth) lets you start the user journey from the corresponding experience. Click the URL generated for an experience and then proceed with normal site browsing to see experiences on multiple pages (if multiple pages exist). Only one URL is generated per experience, even if the experience spans multiple pages (template testing or multi-page testing). 
    
@@ -55,9 +55,14 @@ Use QA URLs in [!DNL Adobe Target] to perform easy end-to-end activity QA with p
 
 ## Considerations {#section_B256EDD7BFEC4A6DA72A8A6ABD196D78}
 
-* The [!UICONTROL Activity QA] link displays on the [!UICONTROL Overview] page of all activity types except for [!UICONTROL Auto-Target] and [!UICONTROL Automated Personalization] (AP).
+* The [!UICONTROL Activity QA] link displays on the [!UICONTROL Overview] page of all activity types except for [!UICONTROL Automated Personalization] (AP).
+
+  >[!NOTE]
+  >
+  >[Activity QA](/help/main/c-activities/c-activity-qa/activity-qa.md) for AP activities is currently available for select customers in a Beta program. This functionality will be available to all customers after an initial testing phase.
+
 * [!UICONTROL Activity QA] preview links for saved activities might not load if there are too many saved activities in your account. Retrying the preview links should work. To prevent this situation from continuing to happen, archive saved activities that are no longer actively used.
-* [!UICONTROL Activity QA] URLs are available with activities with Analytics as the reporting source (A4T). Hits generated while performing QA using [!UICONTROL Activity QA] flow to the same report suite where the activity's data flows even after the activity goes live. 
+* [!UICONTROL Activity QA] URLs are available with activities with [Analytics as the reporting source](/help/main/c-integrating-target-with-mac/a4t/a4t.md) (A4T). Hits generated while performing QA using [!UICONTROL Activity QA] flow to the same report suite where the activity's data flows even after the activity goes live. 
 * [!UICONTROL Activity QA] does not display content for archived activities or activities that are past their end dates. If you deactivate an ended activity, you must save the activity again for [!UICONTROL Activity QA] to work. 
 * Activities imported into [!DNL Target Standard/Premium] (from [!DNL Target Classic], for example) do not support QA URLs. 
 * In [!UICONTROL Auto-Allocate] and [!UICONTROL Recommendations] activities, the model is not affected by the visits captured in [!UICONTROL Activity QA]. 
@@ -72,7 +77,7 @@ Use QA URLs in [!DNL Adobe Target] to perform easy end-to-end activity QA with p
 
   Because of this double encoding, when [!DNL Target] tries to decode the `at_preview_token`, [!DNL Target] can't extract the correct token value, resulting in preview not working.
 
-  Adobe recommends that you talk to your IT team to ensure that all preview parameters are allowlisted so that these values are not transformed in any way.
+  [!DNL Adobe] recommends that you talk to your IT team to ensure that all preview parameters are allowlisted so that these values are not transformed in any way.
 
   The following table lists the parameters that can be allowlisted in your domain:
 
@@ -108,6 +113,10 @@ The following table lists the various activity types and indicates whether [!UIC
 |[!UICONTROL Experience Targeting] (XT)|Yes|Yes|Yes|
 |[!UICONTROL Multivariate Test] (MVT)|Yes|Yes|Yes|
 |[!UICONTROL Recommendations]|Yes|Yes|Yes|
+
+>[!NOTE]
+>
+>[Activity QA](/help/main/c-activities/c-activity-qa/activity-qa.md) for AP activities is currently available for select customers in a Beta program. This functionality will be available to all customers after an initial testing phase.
 
 ## Preview URLs {#preview}
 

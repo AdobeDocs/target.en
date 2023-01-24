@@ -1,6 +1,6 @@
 ---
 keywords: remote offer;create remote offer
-description: Learn how to create JSON offers in Adobe [!DNL Target] for use in the Form-based Experience Composer. JSON offers are useful for SPA frameworks or server-side integrations.
+description: Learn how to create JSON offers in Adobe [!DNL Target] for use in the Form-based Experience Composer.
 title: How Do I Create JSON Offers?
 feature: Experiences and Offers
 exl-id: 793665a4-4cd6-458f-8225-ba23e503a115
@@ -9,15 +9,15 @@ exl-id: 793665a4-4cd6-458f-8225-ba23e503a115
 
 Create JSON offers in the [!UICONTROL Offer Library] in [!DNL Adobe Target] for use in the [!UICONTROL Form-Based Experience Composer].
 
-JSON offers can be used in form-based activities whereby enabling use cases where [!DNL Target]'s decisioning is required to send an offer in JSON format for consumption in SPA framework or server-side integrations.
+JSON offers can be used in form-based activities whereby enabling use cases where [!DNL Target] decisioning is required to send an offer in JSON format for consumption in SPA framework or server-side integrations.
 
 ## JSON considerations
 
 Consider the following information as you work with JSON offers:
 
-* JSON offers are currently available only for [!UICONTROL A/B Test] and [!UICONTROL Experience Targeting] (XT) activities. 
+* JSON offers are currently available only for [!UICONTROL A/B Test], Automated Personalization (AP), and [!UICONTROL Experience Targeting] (XT) activities. 
 * JSON offers can be used in [form-based activities](/help/main/c-experiences/form-experience-composer.md) only. 
-* JSON offer can be retrieved directly when you are using the Server Side API, Mobile SDK, or NodeJS SDK. 
+* JSON offer can be retrieved directly when you are using the [Server Side APIs and Mobile Node.js, Java, .NET, and Python SDKs](https://developer.adobe.com/target/implement/server-side/){target=_blank}. 
 * In the browser, JSON offers can be retrieved ONLY via at.js 1.2.3 (or later) and using [getOffer()](https://developer.adobe.com/target/implement/client-side/atjs/atjs-functions/adobe-target-getoffer/){target=_blank} by filtering actions using the `setJson` action. 
 * JSON offers are delivered as native JSON objects rather than as strings. Consumers of these objects are no longer required to handle objects as strings and convert them to JSON objects. 
 * JSON offers are not applied automatically as opposed to other offers (such as HTML offers) because JSON offers are non-visual offers. Developers must write code to explicitly get the offer using [getOffer()](https://developer.adobe.com/target/implement/client-side/atjs/atjs-functions/adobe-target-getoffer/){target=_blank}. 
@@ -38,7 +38,7 @@ Consider the following information as you work with JSON offers:
 
 ## JSON example {#section_A54F7BB2B55D4B7ABCD5002E0C72D8C9}
 
-JSON offers are supported only in activities created using the [Form-Based Experience Composer](/help/main/c-experiences/form-experience-composer.md). Currently the only way to be able to use JSON offers is via direct API calls.
+JSON offers are supported only in activities created using the [Form-Based Experience Composer](/help/main/c-experiences/form-experience-composer.md). Currently the only way to be able to use JSON offers is via direct API/SDK calls.
 
 Here is an example:
 
@@ -62,7 +62,7 @@ The actions passed to success callback is an array of object. Assuming that we h
 }
 ```
 
-The actions array will have this structure:
+The actions array has this structure:
 
 ```json
 [ 
@@ -75,7 +75,7 @@ The actions array will have this structure:
 ]
 ```
 
-To extract the JSON offer you iterate through actions and find the action with the `setJson` action and then iterate through the content array.
+To extract the JSON offer, you iterate through actions and find the action with the `setJson` action, and then iterate through the content array.
 
 ## Use case {#section_85B07907B51A43239C8E3498EF58B1E5}
 
@@ -127,13 +127,13 @@ adobe.target.getOffer({
 
 ## JSON offer example using Real-time CDP Profile Attributes
 
-Real-time CDP Profile Attributes may be shared with Target for use in HTML offer and JSON offers. (Note this feature is currently in Beta.)
+Real-time CDP Profile Attributes can be shared with [!DNL Target] for use in HTML offer and JSON offers. (Note this feature is currently in Beta.)
 
-Sample use case: As an online marketer, Grace wants the AEP/Unified Profile to share attribute values with Target in order to provide real-time personalization. By using Real-time CDP Profile Attributes, Grace can display the value of the AEP attribute in a Target offer using token replace. For example, she can personalize according to a customer's favorite color using `${aep.profile.favoriteColor}`, or their loyalty tier and loyalty point value using the tokens `${aep.loyalty.tier}` and `${aep.loyalty.points}`.
+Sample use case: As an online marketer, Grace wants the AEP/Unified Profile to share attribute values with [!DNL Target] in order to provide real-time personalization. By using Real-time CDP Profile Attributes, Grace can display the value of the AEP attribute in a [!DNL Target] offer using token replace. For example, she can personalize according to a customer's favorite color using `${aep.profile.favoriteColor}`, or their loyalty tier and loyalty point value using the tokens `${aep.loyalty.tier}` and `${aep.loyalty.points}`.
 
 ![offer-json-aep-shared-attribute image](assets/offer-json-aep-shared-attribute.png)
 
-In the example shown above, note that assigning default values is optional.
+Note that assigning default values is optional.
 
 ## Filtering offers by the JSON offer type {#section_52533555BCE6420C8A95EB4EB8907BDE}
 
