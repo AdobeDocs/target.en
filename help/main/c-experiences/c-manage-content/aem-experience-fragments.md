@@ -15,7 +15,7 @@ Use experience fragments created in [!DNL Adobe Experience Manager] (AEM) in [!D
 
 Using experience fragments created in [!DNL AEM] in [!DNL Target] activities lets you combine the ease-of-use and power of [!DNL AEM] with powerful Artificial Intelligence (AI) and Machine Learning (ML) capabilities in [!DNL Target] to test and personalize experiences at scale.
 
-[!DNL AEM] brings together all of your content and assets in a central location to fuel your personalization strategy. [!DNL AEM] lets you easily create content for desktops, tablets, and mobile devices in one location without writing code. There’s no need to create pages for every device. [!DNL AEM] automatically adjusts each experience using your content.
+[!DNL AEM] brings together all of your content and assets in a central location to fuel your personalization strategy. [!DNL AEM] lets you easily create content for desktops, tablets, and mobile devices in one location without writing code. There's no need to create pages for every device. [!DNL AEM] automatically adjusts each experience using your content.
 
 [!DNL Target] lets you deliver personalized experiences at scale based on a combination of rules-based and AI-driven machine learning approaches that incorporate behavioral, contextual, and offline variables. With [!DNL Target], you can easily set up and run [A/B Test](/help/main/c-activities/t-test-ab/test-ab.md) and [Multivariate](/help/main/c-activities/c-multivariate-testing/multivariate-testing.md) (MVT) activities to determine the best offers, content, and experiences.
 
@@ -85,6 +85,8 @@ After performing the preceding tasks, the experience fragment displays on the [!
 >* [!DNL Target] currently looks for experience fragments to import every ten minutes. The imported experience fragment should be available in [!DNL Target] within ten minutes, but this time frame should shorten going forward.
 >
 >* The experience fragment is imported into [!DNL Target] as an HTML or JSON offer. That experience fragment "primary" version remains in [!DNL AEM]. You cannot edit the experience fragment in [!DNL Target].
+
+You can filter and search by [!UICONTROL HTML XF] and [!UICONTROL JSON XF] to help you distinguish between experience fragment types that are exported to [!DNL Target]. 
 
 You can hover over an experience fragment in the list, then click the [!UICONTROL View] icon ![View icon](assets/icon_info.png) to see additional information about the experience fragment, including its public offer delivery URL and its [!DNL AEM] path.
 
