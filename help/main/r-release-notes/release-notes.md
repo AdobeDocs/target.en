@@ -12,7 +12,13 @@ These release notes provide information about features, enhancements, and fixes 
 
 (The issue numbers in parentheses are for internal [!DNL Adobe] use.)
 
-## [!DNL Target] Standard/Premium 22.13.3 (January 25, 2023)
+## [!DNL Target] Standard/Premium 22.13.3 (January 25-26, 2023)
+
+This release will be available according to the following staggered schedule:
+
+* **January 25**: Europe, Middle East, and Africa (EMEA) region
+* **January 25**: Asia-Pacific (APAC) region
+* **January 26**: Americas region
 
 This release contains the following new features, enhancements, and fixes:
 
@@ -21,7 +27,6 @@ This release contains the following new features, enhancements, and fixes:
 |Automated Personalization (AP)|Added support for JSON offers in [!UICONTROL Automated Personalization] (AP) activities using the Form-Based Experience Composer.<br>For more information, see [Create JSON offers](/help/main/c-experiences/c-manage-content/create-json-offer.md). (TGT-41460)|
 |Recommendations|Friendly names in [!UICONTROL Analytics for Target] A4T reporting is now available. Previously, [!DNL Target] listed experience IDs only. This enhancement aligns reporting between [!DNL Adobe Analytics] and [!DNL Target] and helps customers streamline building reports in A4T. (TGT-41853)|
 |AEM experience fragments|Added the ability to distinguish between [!DNL Adobe Experience Manager] fragment (AEM XF) types that are exported to [!DNL Target]. Instead of the "Experience Fragment" option, [!DNL Target] now lets you filter and search by "HTML XF" and "JSON XF." <br>For more information, see [AEM experience fragments](/help/main/c-experiences/c-manage-content/aem-experience-fragments.md). (TGT-44132)|
-|Activity QA|Implemented [QA mode](/help/main/c-activities/c-activity-qa/activity-qa.md) for AP activities for select customers. This functionality will be available to all customers after an initial testing phase. (TGT-44341)|
 
 * Fixed an issue that caused a "500 error" in [!UICONTROL A/B Test] and [!UICONTROL Experience Targeting] (XT) activities that contain recommendations. This issue was caused when [!DNL Target] failed to properly delete criteria objects from the [!DNL Target] UI and [!DNL Recommendations] backend that are no longer in use. (TGT-44383)
 * Removed the location from the displayed offer name in the [!UICONTROL Offer Level] report for [!UICONTROL Automated Personalization] activities. This change makes the report more readable. (TGT-44294)
