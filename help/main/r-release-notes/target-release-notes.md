@@ -25,9 +25,9 @@ This release contains the following new features, enhancements, and fixes:
 
 |Feature|Details|
 | --- | --- |
-|Automated Personalization (AP)|Added support for JSON offers in [!UICONTROL Automated Personalization] (AP) activities using the Form-Based Experience Composer.<br>For more information, see [Create JSON offers](/help/main/c-experiences/c-manage-content/create-json-offer.md). (TGT-41460)|
+|[JSON offer](/help/main/c-experiences/c-manage-content/create-json-offer.md) support in Automated Personalization (AP)|Added support for JSON offers in [!UICONTROL Automated Personalization] (AP) activities using the Form-Based Experience Composer. (TGT-41460)|
 |Recommendations|Friendly names in [!UICONTROL Analytics for Target] A4T reporting is now available. Previously, [!DNL Target] listed experience IDs only. This enhancement aligns reporting between [!DNL Adobe Analytics] and [!DNL Target] and helps customers streamline building reports in A4T. (TGT-41853)|
-|AEM experience fragments|Added the ability to distinguish between [!DNL Adobe Experience Manager] fragment (AEM XF) types that are exported to [!DNL Target]. Instead of the "Experience Fragment" option, [!DNL Target] now lets you filter and search by "HTML XF" and "JSON XF." <br>For more information, see [AEM experience fragments](/help/main/c-experiences/c-manage-content/aem-experience-fragments.md). (TGT-44132)|
+|[AEM experience fragments](/help/main/c-experiences/c-manage-content/aem-experience-fragments.md)|Added the ability to distinguish between [!DNL Adobe Experience Manager] fragment (AEM XF) types that are exported to [!DNL Target]. Instead of the "Experience Fragment" option, [!DNL Target] now lets you filter and search by "HTML XF" and "JSON XF." (TGT-44132)|
 
 * Fixed an issue that caused a "500 error" in [!UICONTROL A/B Test] and [!UICONTROL Experience Targeting] (XT) activities that contain recommendations. This issue was caused when [!DNL Target] failed to properly delete criteria objects from the [!DNL Target] UI and [!DNL Recommendations] backend that are no longer in use. (TGT-44383)
 * Removed the location from the displayed offer name in the [!UICONTROL Offer Level] report for [!UICONTROL Automated Personalization] activities. This change makes the report more readable. (TGT-44294)
