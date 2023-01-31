@@ -159,11 +159,15 @@ Character limits and other limits (offer size, audiences, profiles, values, para
 
 For Delivery API (at.js 2.*x*), Batch mbox V2, and AEP Web SDK (alloy.js) integrations, mbox names *can* contain alphanumeric characters (A-Z, a-z, 0-9) and any of the following characters:
 
+```
 - , . _ / = ` : ; & ! @ # $ % ^ & * ( ) _ + | ? ~ [ ] { }
+```
 
 For at.js 1.*x* integrations, mbox names *cannot* contain any of the following characters:
 
+```
 ' " %22 %27 < > %3C %3E 
+```
 
 ### mbox parameters {#mbox-parameters}
 
