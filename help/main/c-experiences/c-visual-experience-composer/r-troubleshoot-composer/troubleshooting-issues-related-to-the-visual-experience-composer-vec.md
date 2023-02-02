@@ -115,4 +115,8 @@ After setting up an extension, open Target. Your pages should now load in the Vi
 
 ## The VEC appears broken when I use browse mode. (VEC only) {#section_FA2A18E8FD6A4274B2E395DBAA2FB407}
 
-While using browse mode, if you access a URL that does not have target.js or contains a frame-buster header, the Visual Experience Composer appears broken. Due to browser security concerns, Target cannot access the URL you navigated to.
+While using browse mode, if you access a URL that does not have [!DNL Target] libraries implemented ([at.js](https://developer.adobe.com/target/implement/client-side/){target=_blank} or [Adobe Experience Platform Web SDK](https://developer.adobe.com/target/implement/client-side/aep-web-sdk/){target=_blank}) or contains a frame-buster header, the VEC appears broken. Due to browser security concerns, [!DNL Target] cannot properly access the URL you navigated to or the VEC URL does not update consistently if the page loads.
+
+This issue occurs because VEC loads the web page in an <iframe>. The current security mechanisms of browsers prevent the [!DNL Target] UI from accessing the elements of the given frame because of the same-origin policy. Browsers block scripts trying to access a frame with a different origin and that includes information such as the `location.href`.
+
+You must use the new [Visual Editing Helper extension](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/visual-editing-helper-extension.md) (recommended) or the [old extension](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/vec-helper-browser-extension.md) to inject the [!DNL Target] library into the pages in order to browse them optimally.
