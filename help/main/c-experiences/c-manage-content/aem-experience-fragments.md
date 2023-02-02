@@ -7,15 +7,18 @@ exl-id: 3dd811a4-c7be-443d-a5ad-5b9adcaf1a2c
 ---
 # AEM experience fragments
 
-Use experience fragments created in [!DNL Adobe Experience Manager] (AEM) in [!DNL Target] activities to aid optimization or personalization.
+Use experience fragments (XFs) created in [!DNL Adobe Experience Manager] (AEM) in [!DNL Target] activities to aid optimization or personalization.
 
 >[!NOTE]
 >
->This feature requires that you are an [!DNL Adobe Experience Manager] (AEM) customer. For more information, see [Requirements](#section_AE6F0971E1574B3AA324003599B96E5A) below.
+>Consider the following as you work with AEM experience fragments in [!DNL Target]:
+> 
+>* This feature requires that you are an [!DNL Adobe Experience Manager] (AEM) customer. For more information, see [Requirements](#section_AE6F0971E1574B3AA324003599B96E5A) below.
+>* This feature is available for the following activity types: [!UICONTROL A/B Test], [!UICONTROL Auto-Allocate], [!UICONTROL Auto-Target], [!UICONTROL Automated Personalization] (AP), and [!UICONTROL Experience Targeting] (XT). This feature is not available in [!UICONTROL Multivariate Test] (MVT) and [!UICONTROL Recommendations] activities.
 
 Using experience fragments created in [!DNL AEM] in [!DNL Target] activities lets you combine the ease-of-use and power of [!DNL AEM] with powerful Artificial Intelligence (AI) and Machine Learning (ML) capabilities in [!DNL Target] to test and personalize experiences at scale.
 
-[!DNL AEM] brings together all of your content and assets in a central location to fuel your personalization strategy. [!DNL AEM] lets you easily create content for desktops, tablets, and mobile devices in one location without writing code. There's no need to create pages for every device. [!DNL AEM] automatically adjusts each experience using your content.
+[!DNL AEM] brings together all of your content and assets in a central location to fuel your personalization strategy. [!DNL AEM] lets you easily create content for desktops, tablets, and mobile devices in one location without writing code. There's no need to create pages for every device. [!DNL AEM] automatically adjusts each experience for each device using your content.
 
 [!DNL Target] lets you deliver personalized experiences at scale based on a combination of rules-based and AI-driven machine learning approaches that incorporate behavioral, contextual, and offline variables. With [!DNL Target], you can easily set up and run [A/B Test](/help/main/c-activities/t-test-ab/test-ab.md) and [Multivariate](/help/main/c-activities/c-multivariate-testing/multivariate-testing.md) (MVT) activities to determine the best offers, content, and experiences.
 
@@ -86,9 +89,13 @@ After performing the preceding tasks, the experience fragment displays on the [!
 >
 >* The experience fragment is imported into [!DNL Target] as an HTML or JSON offer. That experience fragment "primary" version remains in [!DNL AEM]. You cannot edit the experience fragment in [!DNL Target].
 
-You can filter and search by [!UICONTROL HTML XF] and [!UICONTROL JSON XF] to help you distinguish between experience fragment types that are exported to [!DNL Target]. 
+You can filter and search by [!UICONTROL HTML XFs] and [!UICONTROL JSON XFs] to help you distinguish between experience fragment types that are exported to [!DNL Target].
 
-You can hover over an experience fragment in the list, then click the [!UICONTROL View] icon ![View icon](assets/icon_info.png) to see additional information about the experience fragment, including its public offer delivery URL and its [!DNL AEM] path.
+![Filter by experience fragment types: HTML or JSON in the Target UI](/help/main/c-experiences/c-manage-content/assets/fragment-types.png)
+
+You can hover over an experience fragment in the list, then click the [!UICONTROL View] icon ![View icon](assets/icon_info.png) to see additional information about the experience fragment, including its Name, Type, Offer ID, Offer path, and last modifications information. Click the Offer Usage tab to see the activities that reference this offer.
+
+![Experience fragment information pop-up](/help/main/c-experiences/c-manage-content/assets/xf-info-popup.png)
 
 You can consume experience fragments in [!DNL Target] activities using the [Visual Experience Composer](/help/main/c-experiences/c-visual-experience-composer/visual-experience-composer.md) (VEC) or the [Form-Based Experience Composer](/help/main/c-experiences/form-experience-composer.md).
 
@@ -124,8 +131,6 @@ You can consume experience fragments in [!DNL Target] activities using the [Visu
     * **Auto-Target:** [Auto-Target](/help/main/c-activities/auto-target/auto-target-to-optimize.md)
     * **Automated Personalization (AP):** [Creating an Automated Personalization Activity](/help/main/c-activities/t-automated-personalization/create-ap-activity.md#task_8AAF837796D74CF893CA2F88BA1491C9) 
     * **Experience Targeting (XT):** [Create an Experience Targeting Activity](/help/main/c-activities/t-experience-target/t-xt-create/xt-create.md#task_D6B3429AC31549E1A70EDF04B3DDC765) 
-    * **Multivariate Test (MVT):** [Create a Multivariate Test](/help/main/c-activities/c-multivariate-testing/t-create-multivariate-test/create-multivariate-test.md#task_BF870FA60A8245AB8F0B775BE32EA710) 
-    * **Recommendations:** [Create a Recommendations Activity](/help/main/c-recommendations/t-create-recs-activity/create-recs-activity.md#task_6874328773C64C44A73F0A130AD3F96F)
 
 >[!NOTE]
 >
