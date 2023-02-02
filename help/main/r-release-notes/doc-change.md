@@ -13,6 +13,7 @@ This page lists significant changes made to the [!DNL Adobe Target] product docu
 
 |Date|Topic|Changes|
 | --- | --- | --- |
+|February 2|[Troubleshooting issues related to the Visual Experience Composer](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/troubleshooting-issues-related-to-the-visual-experience-composer-vec.md#section_FA2A18E8FD6A4274B2E395DBAA2FB407)|Updated the following section:<ul><li>The VEC appears broken when I use browse mode</li></ul>|
 |January 31|[Limits](/help/main/r-troubleshooting-target/target-limits.md#mbox-names)|Added list of allowed and disallowed characters in mbox names.|
 |January 25|[Create JSON offers](/help/main/c-experiences/c-manage-content/create-json-offer.md)|Indicated that support for JSON offers in [!UICONTROL Automated Personalization] (AP) activities using the Form-Based Experience Composer is now available.|
 ||[Adobe Target announcements and events](/help/main/r-release-notes/target-announcements.md)|Added information about the following event:<ul><li>[!DNL Adobe Target] Community Q&A Coffee Break: Mobile & Authenticated Use Cases for Experience Optimization</li></ul>|
