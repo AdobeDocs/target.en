@@ -40,6 +40,15 @@ For example, the following rule targets visitors who use either Chrome *or* Fire
    To copy an existing audience, from the [!UICONTROL Audiences] list, click the **[!UICONTROL More Actions]** icon (the ellipsis icon), then click **[!UICONTROL Duplicate]**. You can then edit the audience to create a similar audience. 
 
 1. Type a unique, descriptive audience name and an optional description.
+
+   Audience names cannot start with the following characters:
+
+   `=  +  -  !  @`
+
+   Audience names cannot contain any of the following character sequences:
+
+   `;=  ;+  ;-  ;@  ,=  ,+  ,-  ,@  ["  "]  [  ]`
+
 1. Drag and drop the desired attributes from the **[!UICONTROL Attributes]** list on the right to the audience builder pane.
 
    ![Drag and drop attributes](assets/drag-attribute.png)
