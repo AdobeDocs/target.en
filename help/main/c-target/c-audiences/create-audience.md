@@ -47,7 +47,7 @@ For example, the following rule targets visitors who use either Chrome *or* Fire
 
    Audience names cannot contain any of the following character sequences:
 
-   `;=  ;+  ;-  ;@  ,=  ,+  ,-  ,@  ["  "]  [  ]`
+   `;=  ;+  ;-  ;@  ,=  ,+  ,-  ,@  ["  "]  ['  ]'`
 
 1. Drag and drop the desired attributes from the **[!UICONTROL Attributes]** list on the right to the audience builder pane.
 
