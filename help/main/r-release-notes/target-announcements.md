@@ -15,20 +15,6 @@ Gartner named [!DNL Adobe Target] a leader in its latest Magic Quadrant for Pers
 
 For more information, see the [Adobe Experience Cloud Blog post](https://business.adobe.com/blog/the-latest/adobe-once-again-named-a-leader-in-the-2022-gartner-magic-quadrant-for-personalization-engines-report?mkt_tok=MDgyLVZMTi0zMzcAAAGGHqjw1DEtV7p2v7f1c2eB4fKlit9iqFUHbMFAjxcNgBw6KBEUjUk670zmlm4hCMQ3R-Cw0eEnAwSthQ1K_I8c1-Yj7vtwUFMqCp6FisLA){target=_blank}.
 
-## [!DNL Adobe Target] Community Q&A Coffee Break
-
-* **Mobile & Authenticated Use Cases for Experience Optimization**
-* **Wednesday, February 1, 2023**
-* **8:00 - 9:00 a.m. (PST, GMT-8)**
-* **[Registration](https://adobe.ly/3IWsAiX){target=_blank}**
-
-We'll be joined by Brent Kostak, Product Marketing Manager for [!DNL Adobe Target], who will chat directly with you in this thread about your [!DNL Target] questions related to Mobile & Authenticated Use Cases for Experience Optimization:
-
-* Workflows for activity setup in [!DNL Target]
-* Customer lifecycle metrics for testing and targeting mobile experiences
-* Leverage AI/ML for cross-channel personalization in web and app
-* Mobile SDKs and APIs for flexible implementations supporting iOS and Android platforms
-
 ## [!DNL Adobe Target] webinar series {#webinar-series}
 
 Register for the following webinars to see how customers are using [!DNL Target] to achieve their personalization and optimization goals:
