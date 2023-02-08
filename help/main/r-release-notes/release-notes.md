@@ -12,6 +12,13 @@ These release notes provide information about features, enhancements, and fixes 
 
 (The issue numbers in parentheses are for internal [!DNL Adobe] use.)
 
+## at.js version 2.10.1 (February 2, 2023)
+
+* Fixed a bug in which activities involving audience rules containing parameters with dots in their names were not returning the expected experience, for on-device decisioning.
+* Fixed a bug in at.js 2.6.0 in which at.js was firing a delivery call, even when `mboxDisable` was enabled.
+
+For information about all at.js releases, see [at.js version details](https://developer.adobe.com/target/implement/client-side/atjs/target-atjs-versions/){target=_blank} in the [Adobe Target Developer Guide](https://developer.adobe.com/target/){target=_blank}.
+
 ## [!DNL Target] Standard/Premium 22.13.3 (January 25-26, 2023)
 
 This release will be available according to the following staggered schedule:
