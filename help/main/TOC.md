@@ -88,7 +88,7 @@ feature-set: Target
    + Integrate Target with Adobe Journey Optimizer {#ajo}
       + [Use offer decisions](/help/main/c-integrating-target-with-mac/ajo/offer-decision.md)
    + [Experience Cloud Audiences](/help/main/c-integrating-target-with-mac/mmp.md)
-   + Integrate Target with Adobe Experience Manager
+   + Integrate Target with Adobe Experience Manager {#aem}
       + [Integrate [!DNL Target] with [!DNL Adobe Experience Manager] (AEM)](/help/main/c-integrating-target-with-mac/aem/aem-target-integration.md)
          + [AEM Experience Fragments](/help/main/c-integrating-target-with-mac/aem/experience-fragments-aem.md)
          + [AEM Content Fragments](/help/main/c-integrating-target-with-mac/aem/content-fragments-aem.md)
