@@ -28,9 +28,7 @@ You must be provisioned with the Experience Fragments functionality within [!DNL
 * [!DNL Adobe Experience Manager] 6.4.  
 * [!DNL Adobe Target Standard] or [!DNL Adobe Target Premium] account. 
 
->[!NOTE]
->
->[!DNL Adobe Experience Manager] 6.3 and 6.4 have reached end-of-life and are no longer supported (except for customers who purchased extended support).
+[!DNL Adobe Experience Manager] 6.3 and 6.4 have reached end-of-life and are no longer supported (except for customers who purchased extended support).
 
 Contact [Adobe Target Customer Care](/help/main/cmp-resources-and-contact-information.md#reference_ACA3391A00EF467B87930A450050077C) to enable the integration and to provide you with authentication details.
 
@@ -60,9 +58,7 @@ Experience Fragments are created in [!DNL AEM]. For more information, see:
 1. From within [!DNL AEM], select the desired Experience Fragment or its containing folder, then click **[!UICONTROL Properties]**.
 2. Click the **[!UICONTROL Cloud Services]** tab, then from the **[!UICONTROL Cloud Service Configuration]** drop-down list, select **[!UICONTROL Adobe Target]**.
 
-   >[!NOTE]
-   >
-   >The previous step assumes that someone in your organization has created the [!DNL Adobe Target] configuration.
+   The previous step assumes that someone in your organization has created the [!DNL Adobe Target] configuration.
 
 3. Click **[!UICONTROL Save & Close]**.
 
@@ -78,11 +74,9 @@ Depending on your [!DNL AEM] version, see the following links for step-by-step i
 
 After performing the preceding tasks, the Experience Fragment displays on the [!UICONTROL Offers] page in [!DNL Target].
 
->[!NOTE]
->
->* [!DNL Target] currently looks for Experience Fragments to import every ten minutes. The imported Experience Fragment should be available in [!DNL Target] within ten minutes, but this time frame should shorten going forward.
->
->* The Experience Fragment is imported into [!DNL Target] as an HTML or JSON offer. That experience fragment "primary" version remains in [!DNL AEM]. You cannot edit the experience fragment in [!DNL Target].
+[!DNL Target] currently looks for Experience Fragments to import every ten minutes. The imported Experience Fragment should be available in [!DNL Target] within ten minutes, but this time frame should shorten going forward.
+
+The Experience Fragment is imported into [!DNL Target] as an HTML or JSON offer. That experience fragment "primary" version remains in [!DNL AEM]. You cannot edit the experience fragment in [!DNL Target].
 
 You can filter and search by [!UICONTROL HTML XFs] and [!UICONTROL JSON XFs] to help you distinguish between Experience Fragment types that are exported to [!DNL Target].
 
@@ -94,11 +88,14 @@ You can hover over an Experience Fragment in the list, then click the [!UICONTRO
 
 You can consume Experience Fragments in [!DNL Target] activities using the [Visual Experience Composer](/help/main/c-experiences/c-visual-experience-composer/visual-experience-composer.md) (VEC) or the [Form-Based Experience Composer](/help/main/c-experiences/form-experience-composer.md).
 
->[!NOTE]
+
+>[!TIP]
 >
->To fully use the [!DNL Target] AI and ML functionality, you can select [Auto-Allocate](/help/main/c-activities/automated-traffic-allocation/automated-traffic-allocation.md#concept_A1407678796B4C569E94CBA8A9F7F5D4) or [Auto-Target](/help/main/c-activities/auto-target/auto-target-to-optimize.md) while creating an A/B Test.
+>Use Artificial Intelligence, Machine Learning, and recommendations with Experience Fragments:
 >
->Experience Fragments are not supported in [!DNL Recommendations] activities. However, to use Experience Fragments for recommendations you can create an [!UICONTROL A/B Test] activity (including [!UICONTROL Auto-Allocate] and [!UICONTROL Auto-Target]) or an [!UICONTROL Experience Targeting] (XT) activity and [include recommendations as an offer](/help/main/c-recommendations/recommendations-as-an-offer.md). 
+>* To fully use the [!DNL Target] AI and ML functionality, you can select [Auto-Allocate](/help/main/c-activities/automated-traffic-allocation/automated-traffic-allocation.md#concept_A1407678796B4C569E94CBA8A9F7F5D4) or [Auto-Target](/help/main/c-activities/auto-target/auto-target-to-optimize.md) while creating an A/B Test.
+>
+>* Experience Fragments are not supported in [!DNL Recommendations] activities. However, to use Experience Fragments for recommendations you can create an [!UICONTROL A/B Test] activity (including [!UICONTROL Auto-Allocate] and [!UICONTROL Auto-Target]) or an [!UICONTROL Experience Targeting] (XT) activity and [include recommendations as an offer](/help/main/c-recommendations/recommendations-as-an-offer.md). 
 
 **To consume Experience Fragments using the VEC:**
 
@@ -128,9 +125,7 @@ You can consume Experience Fragments in [!DNL Target] activities using the [Visu
     * **Experience Targeting (XT):** [Create an Experience Targeting Activity](/help/main/c-activities/t-experience-target/t-xt-create/xt-create.md#task_D6B3429AC31549E1A70EDF04B3DDC765)
     * **Recommendations in an A/B Test or XT activity:** [Recommendations as an offer](/help/main/c-recommendations/recommendations-as-an-offer.md)   
 
->[!NOTE]
->
->Experience Fragments exported as JSON in [!DNL Target] cannot be used in activities created using the VEC; only HTML Experience Fragments are supported in VEC-based activities. If you would like to use JSON Experience Fragments, use them in activities created using the [Form-based experience composer](/help/main/c-experiences/form-experience-composer.md).
+   Experience Fragments exported as JSON in [!DNL Target] cannot be used in activities created using the VEC; only HTML Experience Fragments are supported in VEC-based activities. If you would like to use JSON Experience Fragments, use them in activities created using the [Form-based experience composer](/help/main/c-experiences/form-experience-composer.md).
 
 **To consume Experience Fragments using the Form-based Experience Composer:**
 

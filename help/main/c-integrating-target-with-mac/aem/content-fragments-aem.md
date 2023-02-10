@@ -48,9 +48,7 @@ Content Fragments are created in [!DNL AEM]. For more information, see:
 1. From within [!DNL AEM], select the desired Content Fragment or its containing folder, then click **[!UICONTROL Properties]**.
 2. Click the **[!UICONTROL Cloud Services]** tab, then from the **[!UICONTROL Cloud Service Configuration]** drop-down list, select **[!UICONTROL Adobe Target]**.
 
-   >[!NOTE]
-   >
-   >The previous step assumes that someone in your organization has created the [!DNL Adobe Target] configuration.
+   The previous step assumes that someone in your organization has created the [!DNL Adobe Target] configuration.
 
 3. Click **[!UICONTROL Save & Close]**.
 
@@ -64,11 +62,9 @@ See the following links for step-by-step instructions:
 
 After performing the preceding tasks, the Content Fragment displays on the [!UICONTROL Offers] page in [!DNL Target].
 
->[!NOTE]
->
->* [!DNL Target] currently looks for Content Fragments to import every ten minutes. The imported Content Fragment should be available in [!DNL Target] within ten minutes, but this time frame should shorten going forward.
->
->* The Content Fragment is imported into [!DNL Target] as a JSON offer. That Content Fragment "primary" version remains in [!DNL AEM]. You cannot edit the Content Fragment in [!DNL Target].
+[!DNL Target] currently looks for Content Fragments to import every ten minutes. The imported Content Fragment should be available in [!DNL Target] within ten minutes, but this time frame should shorten going forward.
+
+The Content Fragment is imported into [!DNL Target] as a JSON offer. That Content Fragment "primary" version remains in [!DNL AEM]. You cannot edit the Content Fragment in [!DNL Target].
 
 You can filter and search by [!UICONTROL HTML XFs] and [!UICONTROL JSON XFs] to help you distinguish between Content and Experience Fragment types that are exported to [!DNL Target].
 
@@ -80,11 +76,13 @@ You can hover over a Content Fragment in the list, then click the [!UICONTROL Vi
 
 You can consume Content Fragments in [!DNL Target] activities using the [Form-Based Experience Composer](/help/main/c-experiences/form-experience-composer.md) only. You *cannot* consume Content Fragments in [!DNL Target] activities using the [Visual Experience Composer](/help/main/c-experiences/c-visual-experience-composer/visual-experience-composer.md) (VEC). Content Fragments are exported as JSON in [!DNL Target] and cannot be used in activities created using the VEC.
 
->[!NOTE]
+>[!TIP]
 >
->To fully use the [!DNL Target] AI and ML functionality, you can select [Auto-Allocate](/help/main/c-activities/automated-traffic-allocation/automated-traffic-allocation.md#concept_A1407678796B4C569E94CBA8A9F7F5D4) or [Auto-Target](/help/main/c-activities/auto-target/auto-target-to-optimize.md) while creating an A/B Test.
+>Use Artificial Intelligence, Machine Learning, and recommendations with Content Fragments:
 >
->Content Fragments are not supported in [!DNL Recommendations] activities. However, to use Content Fragments for recommendations you can create an [!UICONTROL A/B Test] activity (including [!UICONTROL Auto-Allocate] and [!UICONTROL Auto-Target]) or an [!UICONTROL Experience Targeting] (XT) activity and [include recommendations as an offer](/help/main/c-recommendations/recommendations-as-an-offer.md). 
+>* To fully use the [!DNL Target] AI and ML functionality, you can select [Auto-Allocate](/help/main/c-activities/automated-traffic-allocation/automated-traffic-allocation.md#concept_A1407678796B4C569E94CBA8A9F7F5D4) or [Auto-Target](/help/main/c-activities/auto-target/auto-target-to-optimize.md) while creating an A/B Test.
+>
+>* Content Fragments are not supported in [!DNL Recommendations] activities. However, to use Content Fragments for recommendations you can create an [!UICONTROL A/B Test] activity (including [!UICONTROL Auto-Allocate] and [!UICONTROL Auto-Target]) or an [!UICONTROL Experience Targeting] (XT) activity and [include recommendations as an offer](/help/main/c-recommendations/recommendations-as-an-offer.md). 
 
 **To consume Content Fragments using the Form-based Experience Composer:**
 
