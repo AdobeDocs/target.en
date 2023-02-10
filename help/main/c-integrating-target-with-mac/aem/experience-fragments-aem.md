@@ -19,7 +19,7 @@ Use Experience Fragments (XFs) created in [!DNL Adobe Experience Manager] (AEM) 
 
 To learn more about AEM Experience Fragments and Content Fragments, see [AEM Experience Fragments and Content Fragments overview](/help/main/c-integrating-target-with-mac/aem/aem-experience-and-content-fragments.md).
 
-## Requirements {#section_AE6F0971E1574B3AA324003599B96E5A}
+## Requirements {#requirements}
 
 You must be provisioned with the Experience Fragments functionality within [!DNL Target]. In addition, you must be using [!DNL AEM] as a Cloud Service or [!DNL AEM] 6.4 (or later). Your account representative can help ensure that you meet the requirements to use this feature:
 
@@ -88,7 +88,7 @@ You can filter and search by [!UICONTROL HTML XFs] and [!UICONTROL JSON XFs] to 
 
 ![Filter by Experience Fragment types: HTML or JSON in the Target UI](/help/main/c-integrating-target-with-mac/aem/assets/fragment-types.png)
 
-You can hover over an Experience Fragment in the list, then click the [!UICONTROL View] icon to see additional information about the Experience Fragment, including its [!UICONTROL Name], [!UICONTROL Type], [!UICONTROL Offer ID], [!UICONTROL Offer path], and last modifications information. Click the [!UICONTROL Offer Usage] tab to see the activities that reference this offer.
+You can hover over an Experience Fragment in the list, then click the [!UICONTROL View] icon ![Info icon](/help/main/c-integrating-target-with-mac/aem/assets/icon-info.png) to see additional information about the Experience Fragment, including its [!UICONTROL Name], [!UICONTROL Type], [!UICONTROL Offer ID], [!UICONTROL Offer path], and last modifications information. Click the [!UICONTROL Offer Usage] tab to see the activities that reference this offer.
 
 ![Experience Fragment information pop-up](/help/main/c-integrating-target-with-mac/aem/assets/xf-info-popup.png)
 

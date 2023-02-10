@@ -74,7 +74,7 @@ You can filter and search by [!UICONTROL HTML XFs] and [!UICONTROL JSON XFs] to 
 
 ![Filter by Experience Fragment types: HTML or JSON in the Target UI](/help/main/c-integrating-target-with-mac/aem/assets/fragment-types.png)
 
-You can hover over a Content Fragment in the list, then click the [!UICONTROL View] icon to see additional information about the Content Fragment, including its [!UICONTROL Name], [!UICONTROL Type], [!UICONTROL Offer ID], [!UICONTROL Offer path], and last modifications information. Click the [!UICONTROL Offer Usage] tab to see the activities that reference this offer.
+You can hover over a Content Fragment in the list, then click the [!UICONTROL View] icon ![Info icon](/help/main/c-integrating-target-with-mac/aem/assets/icon-info.png) to see additional information about the Content Fragment, including its [!UICONTROL Name], [!UICONTROL Type], [!UICONTROL Offer ID], [!UICONTROL Offer path], and last modifications information. Click the [!UICONTROL Offer Usage] tab to see the activities that reference this offer.
 
 ![Experience Fragment information pop-up](/help/main/c-integrating-target-with-mac/aem/assets/xf-info-popup.png)
 

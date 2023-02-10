@@ -12,7 +12,7 @@ Use Experience Fragments (XFs) and Content Fragments (CFs) created in [!DNL Adob
 >
 >Consider the following as you work with AEM Experience Fragments and Content Fragments in [!DNL Target]:
 > 
->* These features require that you are an [!DNL Adobe Experience Manager] (AEM) customer. Ensure that you meet the requirements for each fragment type: [Experience Fragment](/help/main/c-integrating-target-with-mac/aem/experience-fragments-aem.md) or [Content Fragment](/help/main/c-integrating-target-with-mac/aem/content-fragments-aem.md).
+>* These features require that you are an [!DNL Adobe Experience Manager] (AEM) customer. Ensure that you meet the requirements for each fragment type: [Experience Fragment](/help/main/c-integrating-target-with-mac/aem/experience-fragments-aem.md#requirements) or [Content Fragment](/help/main/c-integrating-target-with-mac/aem/content-fragments-aem.md#requirements).
 >
 >* These features are available for the following activity types: [!UICONTROL A/B Test], [!UICONTROL Auto-Allocate], [!UICONTROL Auto-Target], [!UICONTROL Automated Personalization] (AP), and [!UICONTROL Experience Targeting] (XT). This feature is not available in [!UICONTROL Multivariate Test] (MVT) and [!UICONTROL Recommendations] activities.
 >* You can consume Experience Fragments in [!DNL Target] activities using the [Visual Experience Composer](/help/main/c-experiences/c-visual-experience-composer/visual-experience-composer.md) (VEC) or the [Form-Based Experience Composer](/help/main/c-experiences/form-experience-composer.md).
