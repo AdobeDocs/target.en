@@ -12,6 +12,19 @@ These release notes provide information about features, enhancements, and fixes 
 
 (The issue numbers in parentheses are for internal [!DNL Adobe] use.)
 
+## [!DNL Target] Standard/Premium 22.14.5 (February 13-15, 2023)
+
+This release will be available according to the following staggered schedule:
+
+* **February 13**: Americas region
+* **February 15**: Europe, Middle East, and Africa (EMEA) region
+* **February 15**: Asia-Pacific (APAC) region
+
+This release contains the following fixes:
+
+* Fixed an issue that caused the following error message even though a property was specified in Automated Personalization (AP) activities: "Errors: At least one property has to belong to a non-default workspace" (TGT-44607)
+* Fixed a potential security issue impacting server-side Recommendations feeds. (TGT-43769) 
+
 ## at.js version 2.10.1 (February 2, 2023)
 
 * Fixed a bug in which activities involving audience rules containing parameters with dots in their names were not returning the expected experience, for on-device decisioning.
