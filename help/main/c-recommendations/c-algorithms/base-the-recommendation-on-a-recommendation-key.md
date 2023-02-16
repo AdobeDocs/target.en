@@ -28,7 +28,7 @@ Different recommendations algorithms lend themselves to placement on different t
 
 ## Cart-Based {#cart-based}
 
-The [!UICONTROL Cart-Based] algorithm type lets recommend items based on the contents of the visitor’s current cart. The recommendation keys are supplied through mbox parameter `cartIds` in comma-separated values. Only the first 10 values are considered.
+The [!UICONTROL Cart-Based] algorithm type lets recommend items based on the contents of the visitor's current cart. The recommendation keys are supplied through [mbox parameter `cartIds`](https://developer.adobe.com/target/implement/recommendations/#cart-addscart-viewscheckout-pages){target=_blank} in comma-separated values. Only the first 10 values are considered.
 
 Cart-based recommendation logic is similar to the "[!UICONTROL Recommended For You]"  user-based algorithm and to the "[!UICONTROL People Who Viewed These, Bought Those]" and "[!UICONTROL People Who Bought These, Bought Those]" item-based algorithms. 
 
@@ -162,7 +162,7 @@ If you select the Most Viewed by Category algorithm, you can select the followin
 
 ### Top by Analytics Metric
 
-Displays the “Top x” where *x* is an arbitrary [!DNL Analytics] metric. When using behavioral data from mboxes, you can use Top Sold or Top Viewed (x = “Sold” or x = “Viewed”). If you’re using behavioral data from [!DNL Adobe Analytics], you could use  x = “Cart Adds” or some other [!DNL Analytics] metric.
+Displays the "Top x" where *x* is an arbitrary [!DNL Analytics] metric. When using behavioral data from mboxes, you can use Top Sold or Top Viewed (x = "Sold" or x = "Viewed"). If you're using behavioral data from [!DNL Adobe Analytics], you could use  x = "Cart Adds" or some other [!DNL Analytics] metric.
 
 ## [!UICONTROL Item-Based]
 
@@ -350,22 +350,22 @@ Use the [!UICONTROL Last Purchased Item] recommendations key on your site on:
 
 You can base recommendations on the value of a custom profile attribute. For example, suppose that you want to display recommended movies based on the movie that a visitor most recently added to his or her queue.
 
-1. Select your custom profile attribute from the **[!UICONTROL Recommendation Key]** drop-down list (for example, “Last Show Added to Watchlist”).
+1. Select your custom profile attribute from the **[!UICONTROL Recommendation Key]** drop-down list (for example, "Last Show Added to Watchlist").
 1. Then select your **[!UICONTROL Recommendation Logic]** (for example "People Who Viewed This, Viewed That").
 
    ![Create new criteria dialog box](/help/main/c-recommendations/c-algorithms/assets/create-new-criteria-1.png)
 
-If your custom profile attribute doesn't directly match to a single entity ID, it is necessary to explain to [!DNL Recommendations] how you want the match to an entity to occur. For example, suppose that you want to display the top selling items from a visitor’s favorite brand.
+If your custom profile attribute doesn't directly match to a single entity ID, it is necessary to explain to [!DNL Recommendations] how you want the match to an entity to occur. For example, suppose that you want to display the top selling items from a visitor's favorite brand.
 
-1. Select your custom profile attribute from the **[!UICONTROL Recommendation Key]** drop-down list (for example, “Favorite Brand”).
+1. Select your custom profile attribute from the **[!UICONTROL Recommendation Key]** drop-down list (for example, "Favorite Brand").
 
 1. Then select the **[!UICONTROL Recommendation Logic]** you want to use with this key (for example, "Top Sellers").
 
    The [!UICONTROL Group By Unique Value Of] option displays. 
 
-1. Select the entity attribute that matches to the key you’ve chosen. In this case “Favorite Brand” matches to `entity.brand`.
+1. Select the entity attribute that matches to the key you've chosen. In this case "Favorite Brand" matches to `entity.brand`.
 
-   [!DNL Recommendations] now produces a “Top Sellers” list for each brand and shows the visitor the appropriate “Top Sellers” list based on the value stored in the visitor's Favorite Brand profile attribute.
+   [!DNL Recommendations] now produces a "Top Sellers" list for each brand and shows the visitor the appropriate "Top Sellers" list based on the value stored in the visitor's Favorite Brand profile attribute.
 
    ![Create new criteria dialog box 2](/help/main/c-recommendations/c-algorithms/assets/create-new-criteria-2.png)
 
