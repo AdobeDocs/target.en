@@ -35,13 +35,13 @@ In order to use [!DNL AEM] Experience Fragments in [!DNL Target], you must perfo
 
 For more information, see:
 
-* **AEM as a Cloud Service**: Integrating with Adobe Target link in the *Experience Manager as a Cloud Service* guide. 
+* **AEM as a Cloud Service**: [Integrating with Adobe Target](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/sites/integrations/integrating-adobe-target.html){target=_blank} link in the *Experience Manager as a Cloud Service* guide. 
 
 ### Step 2: Create the Content Fragment
 
 Content Fragments are created in [!DNL AEM]. For more information, see:
 
-* **AEM as a Cloud Service**: Content Fragments link in the *Experience Manager as a Cloud Service* guide.
+* **AEM as a Cloud Service**: [Content Fragments](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/sites/authoring/fundamentals/content-fragments.html){target=_blank} in the *Experience Manager as a Cloud Service* guide.
 
 ### Step 3: Configure [!DNL AEM] to share the Content Fragment with [!DNL Target]
 
