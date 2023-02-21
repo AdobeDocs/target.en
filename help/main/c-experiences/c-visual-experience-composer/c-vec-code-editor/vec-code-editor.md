@@ -133,7 +133,7 @@ Use the **[!UICONTROL Custom Code]** tab to:
 
 * Swap on DOM-ready, using jQuery
 
-The following example using JQuery assumes that the customer's website has jQuery available on the page when [!DNL Target] executes the offers.
+  The following example using JQuery assumes that the customer's website has jQuery available on the page when [!DNL Target] executes the offers.
 
   ```javascript
   <style>#default_content {visibility:hidden;}</style> 
