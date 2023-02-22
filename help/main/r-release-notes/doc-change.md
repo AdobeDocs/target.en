@@ -13,6 +13,8 @@ This page lists significant changes made to the [!DNL Adobe Target] product docu
 
 |Date|Topic|Changes|
 | --- | --- | --- |
+|February 21|[Allowlist Target edge nodes](https://developer.adobe.com/target/before-implement/privacy/allowlist-edges/){target=_blank}|Updated list of IP addresses to allowlist for all regions in the [Adobe Target Developer Guide](https://developer.adobe.com/target/){target=_blank}.|
+||[Modifications](/help/main/c-experiences/c-visual-experience-composer/c-vec-code-editor/vec-code-editor.md)|Added text explaining that the example using JQuery assumes that the customer's website has jQuery available on the page when [!DNL Target] executes the offers.|
 |February 10|[Target release notes (current)](/help/main/r-release-notes/release-notes.md)|Added release notes for the [!DNL Target Standard/Premium] 22.14.5 release.|
 |February 8|[Target release notes (current)](/help/main/r-release-notes/release-notes.md)|Added release notes for at.js 2.10.1.|
 |February 2|[Troubleshooting issues related to the Visual Experience Composer](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/troubleshooting-issues-related-to-the-visual-experience-composer-vec.md#section_FA2A18E8FD6A4274B2E395DBAA2FB407)|Updated the following section:<ul><li>The VEC appears broken when I use browse mode</li></ul>|
