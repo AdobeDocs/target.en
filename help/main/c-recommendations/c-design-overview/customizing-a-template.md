@@ -55,7 +55,9 @@ $entities[0].categoriesList[2]
 
 For more information about Velocity variables (attributes), see [https://velocity.apache.org/engine/releases/velocity-1.7/user-guide.html#variables](https://velocity.apache.org/engine/releases/velocity-1.7/user-guide.html#variables).
 
-If you use a profile script in your design, the $ preceding the script name must be escaped with a \. For example, `\${user.script_name}`.
+If you use a profile script in your design, the $ preceding the script name must be escaped with a `\` (backslash). For example:
+
+`\${user.script_name}`
 
 >[!NOTE]
 >
