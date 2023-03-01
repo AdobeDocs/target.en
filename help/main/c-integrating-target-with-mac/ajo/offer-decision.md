@@ -21,7 +21,7 @@ For more information about [!DNL Adobe Journey Optimizer] and offer decisions, s
 
 To use offer decisions in [!DNL Target], you need the following:
 
-* [!DNL Adobe Target Standard] or [!DNL Adobe Target Premium] implemented using the [Adobe Experience Platform Web SDK](https://experienceleague.corp.adobe.com/docs/target-dev/developer/client-side/aep-web-sdk.html){target=_blank}.
+* [!DNL Adobe Target Standard] or [!DNL Adobe Target Premium] implemented using the [Adobe Experience Platform Web SDK](https://developer.adobe.com/target/implement/client-side/aep-web-sdk/){target=_blank}.
 
   The feature is not available when implementing [!DNL Target] with at.js or other [!DNL Target] SDKs.
 
@@ -35,7 +35,7 @@ The following examples are use cases of how you can use the [!DNL Target]/[!DNL 
 
 As a marketer for a sporting league, you want to personalize content on your homepage (on both desktop and mobile website). You want to personalize content based multiple dimensions and present an offer to shop related franchise merchandise. You are interested in:
 
-* The visitor's favorite team
+* The visitor’s favorite team
 * Recent athlete / player activity (for example, team movement, contract updates, or injuries)
 
 For example, you want to deliver a personalized experience for each of the following regions: Dortmund, Frankfurt, and Bochum and for users that are implicit and explicit fans of these teams. As metrics, you want to look at visits and clicks to the merchandise site.
@@ -94,7 +94,7 @@ In [!DNL Adobe Journey Optimizer], you can create a personalized homepage hero o
 
 Consider the following information as you work with offer decisions:
 
-* The offer decisioning integration works for [!DNL Target] implementations based on the [Adobe Experience Platform Web SDK](https://experienceleague.corp.adobe.com/docs/target-dev/developer/client-side/aep-web-sdk.html){target=_blank}. This feature is not available when implementing [!DNL Target] with at.js or other [!DNL Target] SDKs.
+* The offer decisioning integration works for [!DNL Target] implementations based on the [Adobe Experience Platform Web SDK](https://developer.adobe.com/target/implement/client-side/aep-web-sdk/){target=_blank}. This feature is not available when implementing [!DNL Target] with at.js or other [!DNL Target] SDKs.
 
 * The Target/Adobe Journey Optimizer integration supports [manual [!UICONTROL A/B Test]](/help/main/c-activities/t-test-ab/test-ab.md#types) and [[!UICONTROL Experience Targeting]](/help/main/c-activities/t-experience-target/experience-target.md) (XT) activities only. This feature is not available for other activity types.
 
