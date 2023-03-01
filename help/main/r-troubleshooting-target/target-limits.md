@@ -60,17 +60,33 @@ Character limits and other limits (offer size, audiences, profiles, values, para
 
   If a customer exceeds 100 concurrent [!DNL Target] content delivery requests for a given user session, all subsequent requests for that user session are blocked. Two or more requests are considered to be concurrent if they are all sent to the [!DNL Target] server before the response is received for any of them. [!DNL Target] processes concurrent requests for the same session sequentially. 
 
-* **Error behavior**:
+  * **Error behavior**:
+  
+    * Delivery API and Batch Mbox v2:
+      * Error code: HTTP 420 Too Many Requests
+      * Error message: "Too many requests with same session ID"
 
-  * Delivery API and Batch Mbox v2:
-    * Error code: HTTP 420 Too Many Requests
-    * Error message: "Too many requests with same session ID"
-  
-  * Legacy mbox API:
-    * Default content with comment "Too many requests with same session ID"
-  
-  * at.js:
-    * Default content displayed
+    * Legacy mbox API:
+      * Default content with comment "Too many requests with same session ID"
+
+    * at.js:
+      * Default content displayed
+
+* **Limit**: 50 mboxes per [!DNL Target] content delivery batch mbox request.
+
+  Exceeding 50 mboxes per [!DNL Target] content delivery batch mbox request results in a response error code `HTTP 400` with error message `size must be between 0 and 50`.
+
+  Batch mbox requests are processed sequentially, increasing the overall response time with each iteration. The more mboxes on the batch request, the more response latency can be expected, and therefore potential for timeouts. If experience rendering is blocked on these high latency batch requests, the latency could result in a degraded user experience as users wait for experiences to render.
+
+* **Limit**: 60 MB HTTP POST body size for [!DNL Target] content delivery requests.
+
+  Exceeding 60 MB on the HTTP POST body size of a [!DNL Target] content delivery request results in a response error code `HTTP 413 Request Entity Too Large`.
+
+* **Recommended limit**: 50 notifications per [!DNL Target] delivery batch request.
+
+  Exceeding 50 notifications per [!DNL Target] delivery batch request likely results in increased response latency and timeouts.
+
+  Batch notification requests are processed sequentially, increasing the overall response time with each iteration. The more notifications on the batch request, the more response latency can be expected, and therefore potential for timeouts. Some additional latency on batch notification requests might be acceptable for some customers, but be aware that timeouts and any subsequent retries could cause even more latency.
 
 ## Customer attributes
 
