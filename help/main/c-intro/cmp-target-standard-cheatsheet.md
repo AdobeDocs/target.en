@@ -27,7 +27,7 @@ Check out the [Target Community Forum](/help/main/cmp-resources-and-contact-info
 
 **Which browsers does Target support?**
 
-Please read our [Supported Browsers](https://experienceleague.corp.adobe.com/docs/target-dev/developer/implementation/supported-browsers.html?lang=en){target=_blank} matrix for more details. Notice that there are two aspects: the Target Standard/Premium Experience Cloud interface support and the end-user browser support on desktop/devices.
+Please read our [Supported Browsers](https://developer.adobe.com/target/before-implement/supported-browsers/){target=_blank} matrix for more details. Notice that there are two aspects: the Target Standard/Premium Experience Cloud interface support and the end-user browser support on desktop/devices.
 
 ## Activities {#section_CB95B3BF9934445DB98E8A7E22FC2CF6}
 
@@ -149,7 +149,7 @@ Use the percentage allocation controls available from [Step 2 of the Target thre
 Check out following aspects of the product:
 
 * [Analytics for Target (A4T)](/help/main/c-integrating-target-with-mac/a4t/a4t.md#concept_7540C8C04259434AB6EE33B09F47A1DE)
-* [Customer Attributes](https://experienceleague.corp.adobe.com/docs/target-dev/developer/implementation/methods/customer-attributes.html)
+* [Customer Attributes](https://developer.adobe.com/target/before-implement/methods-to-get-data-into-target/customer-attributes/)
 * [Audiences](/help/main/c-integrating-target-with-mac/mmp.md)
 
 ## Experiences {#section_5959536B8D6A4BEA8FAA1273338F3451}
@@ -252,7 +252,7 @@ Check out following aspects of the product:
 
 *   [Analytics for Target (A4T)](/help/main/c-integrating-target-with-mac/a4t/a4t.md#concept_7540C8C04259434AB6EE33B09F47A1DE)
     
-*   [Customer Attributes](https://experienceleague.corp.adobe.com/docs/target-dev/developer/implementation/methods/customer-attributes.html)
+*   [Customer Attributes](https://developer.adobe.com/target/before-implement/methods-to-get-data-into-target/customer-attributes/)
     
 *   [Audiences](/help/main/c-integrating-target-with-mac/mmp.md)
     
@@ -303,10 +303,10 @@ We are sorry to hear that you are having problems. Check out [Troubleshooting Ta
 
 **We have a mobile SKU. Can I create mobile activities?**
 
-For optimization and personalization on mobile, you need to use [form-based activities](/help/main/c-experiences/form-experience-composer.md#task_FAC842A6535045B68B4C1AD3E657E56E) along with the [Adobe SDK](https://experienceleague.corp.adobe.com/docs/target-dev/developer/mobile-apps/enable-target-in-sdk.html){target=_blank}. Check out more details about [Target for mobile apps](https://experienceleague.corp.adobe.com/docs/target-dev/developer/mobile-apps/overview.html){target=_blank}.
+For optimization and personalization on mobile, you need to use [form-based activities](/help/main/c-experiences/form-experience-composer.md#task_FAC842A6535045B68B4C1AD3E657E56E) along with the [Adobe SDK](https://developer.adobe.com/target/implement/mobile/enable-target-in-sdk/){target=_blank}. Check out more details about [Target for mobile apps](https://developer.adobe.com/target/implement/mobile/){target=_blank}.
 
 ## Target APIs {#section_714E85EFF6E3400389EF2E40D538E1DA}
 
 **Where can I learn more about Target APIs?**
 
-We have exhaustive documentation around APIs. See [Delivery APIs, NodeJS SDK, and Recommendations APIs documentation](https://experienceleague.corp.adobe.com/docs/target-dev/developer/server-side/server-side-overview.html){target=_blank}.
+We have exhaustive documentation around APIs. See [Delivery APIs, NodeJS SDK, and Recommendations APIs documentation](https://developer.adobe.com/target/implement/server-side/){target=_blank}.
