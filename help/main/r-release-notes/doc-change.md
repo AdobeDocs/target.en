@@ -13,6 +13,9 @@ This page lists significant changes made to the [!DNL Adobe Target] product docu
 
 |Date|Topic|Changes|
 | --- | --- | --- |
+|March 6|[[!DNL Target] release notes (current)](/help/main/r-release-notes/release-notes.md)|Added information about the [!DNL Target] [!UICONTROL Content Fragments] integration with [!DNL Adobe Experience Manager].|
+||[AEM [!UICONTROL Content Fragments]](/help/main/c-integrating-target-with-mac/aem/content-fragments-aem.md)|New article.|
+||[AEM Experience Fragments and Content Fragments overview](/help/main/c-integrating-target-with-mac/aem/aem-experience-and-content-fragments.md)|New article.|
 |February 21|[Allowlist Target edge nodes](https://developer.adobe.com/target/before-implement/privacy/allowlist-edges/){target=_blank}|Updated list of IP addresses to allowlist for all regions in the [Adobe Target Developer Guide](https://developer.adobe.com/target/){target=_blank}.|
 ||[Modifications](/help/main/c-experiences/c-visual-experience-composer/c-vec-code-editor/vec-code-editor.md)|Added text explaining that the example using JQuery assumes that the customer's website has jQuery available on the page when [!DNL Target] executes the offers.|
 |February 10|[Target release notes (current)](/help/main/r-release-notes/release-notes.md)|Added release notes for the [!DNL Target Standard/Premium] 22.14.5 release.|

@@ -12,6 +12,12 @@ These release notes provide information about features, enhancements, and fixes 
 
 (The issue numbers in parentheses are for internal [!DNL Adobe] use.)
 
+## [!DNL Target] Standard/Premium [!UICONTROL Content Fragments] integration with [!DNL Adobe Experience Manager] (AEM) (March 6, 2023)
+
+|Resource|Details|
+|--- |--- |
+|AEM content fragments|Use AEM content fragments in Target activities. Combine the ease-of-use and power of AEM with powerful Artificial Intelligence (AI) and Machine Learning (ML) capabilities in [!DNL Target] to test and personalize experiences at scale.<P>For more information, see [AEM Experience Fragments and Content Fragments overview](/help/main/c-integrating-target-with-mac/aem/aem-experience-and-content-fragments.md) and [AEM Content Fragments](/help/main/c-integrating-target-with-mac/aem/content-fragments-aem.md).|
+
 ## [!DNL Target] Standard/Premium 22.14.5 (February 13-15, 2023)
 
 This release will be available according to the following staggered schedule:

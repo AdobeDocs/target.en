@@ -40,13 +40,13 @@ After performing the preceding tasks, the [!UICONTROL Content Fragment] displays
 
 The [!UICONTROL Content Fragment] is imported into [!DNL Target] as a JSON offer. That [!UICONTROL Content Fragment] "primary" version remains in [!DNL AEM]. You cannot edit the [!UICONTROL Content Fragment] in [!DNL Target].
 
-You can filter and search by [!UICONTROL HTML XFs] and [!UICONTROL JSON XFs] to help you distinguish between [!UICONTROL Content Fragments] and [!UICONTROL Experience Fragment] types that are exported to [!DNL Target].
+You can filter and search by [!UICONTROL HTML XFs], [!UICONTROL JSON XFs] and [!UICONTROL Content Fragments] to help you distinguish between different offers types that are exported to [!DNL Target].
 
 ![Filter by Content Fragment types: HTML or JSON in the Target UI](/help/main/c-integrating-target-with-mac/aem/assets/fragment-types.png)
 
-You can hover over a [!UICONTROL Content Fragment] in the list, then click the [!UICONTROL View] icon ![Info icon](/help/main/c-integrating-target-with-mac/aem/assets/icon-info.png) to see additional information about the [!UICONTROL Content Fragment], including its [!UICONTROL Name], [!UICONTROL Type], [!UICONTROL Offer ID], [!UICONTROL Offer path], and last modifications information. Click the [!UICONTROL Offer Usage] tab to see the activities that reference this offer.
+You can hover over a [!UICONTROL Content Fragment] in the list, then click the [!UICONTROL View] icon ![Info icon](/help/main/c-integrating-target-with-mac/aem/assets/icon-info.png) to see additional information about the [!UICONTROL Content Fragment], including its [!UICONTROL AEM path] and [!UICONTROL AEM deep link]. Click the [!UICONTROL Offer Usage] tab to see the activities that reference this offer.
 
-![Content Fragment information pop-up](/help/main/c-integrating-target-with-mac/aem/assets/xf-info-popup.png)
+![Content Fragment information pop-up](/help/main/c-integrating-target-with-mac/aem/assets/cf-info-popup.png)
 
 You can consume [!UICONTROL Content Fragments] in [!DNL Target] activities using the [Form-Based Experience Composer](/help/main/c-experiences/form-experience-composer.md) only. You *cannot* consume [!UICONTROL Content Fragments] in [!DNL Target] activities using the [Visual Experience Composer](/help/main/c-experiences/c-visual-experience-composer/visual-experience-composer.md) (VEC). [!UICONTROL Content Fragments] are exported as JSON in [!DNL Target] and cannot be used in activities created using the VEC.
 
@@ -62,7 +62,7 @@ You can consume [!UICONTROL Content Fragments] in [!DNL Target] activities using
 
 1. In [!DNL Target], while creating or editing an experience in the [Form-Based Experience Composer](/help/main/c-experiences/form-experience-composer.md#task_FAC842A6535045B68B4C1AD3E657E56E), select the location on the page where you want to insert [!DNL AEM] content, then select **[!UICONTROL Change Content Fragment]** to display the [!UICONTROL Choose a Content Fragment] list.
 
-   ![experience_fragment_list image](/help/main/c-integrating-target-with-mac/aem/assets/experience_fragment_list.png)
+   ![content_fragment_list image](/help/main/c-integrating-target-with-mac/aem/assets/choose-content-fragment.png)
 
    The [!UICONTROL Content Fragment] list displays the content created in [!DNL AEM] that is now natively available from within [!DNL Target]. 
 
