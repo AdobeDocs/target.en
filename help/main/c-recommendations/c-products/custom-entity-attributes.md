@@ -30,7 +30,7 @@ A custom entity attribute with a single value is formed the same way as a single
 
 A multi-value custom entity attribute must be sent as a valid JSON array:
 
-`entity.genre=[“genre1”, “genre2”]`
+`entity.genre=["genre1", "genre2"]`
 
 Examples of valid JSON arrays supported by [!DNL Recommendations]:
 
@@ -120,7 +120,7 @@ You can pass multi-value attributes using the Delivery API in an mbox parameter 
   }
 ```
 
-See the [Adobe Recommendations API documentation](https://developer.adobe.com/target/implement/recommendations/){target=_blank} for information about using the Delivery and Save entities APIs.
+See the [Adobe Recommendations API documentation](https://experienceleague.corp.adobe.com/docs/target-dev/developer/recommendations.html){target=_blank} for information about using the Delivery and Save entities APIs.
 
 ## Using operators with multi-value attributes {#section_83C2288A805242D9A02EBC4F07DEE945}
 
