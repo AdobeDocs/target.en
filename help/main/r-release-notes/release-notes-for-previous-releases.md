@@ -15,6 +15,54 @@ Release notes are arraigned in descending order by month and year of release.
 >
 >See [Target release notes (current)](/help/main/r-release-notes/release-notes.md#reference_8FE40B43A5A34DDF8F26A53D55EE036A) for information about the current month's Target releases (platform and Target Standard/Premium).
 
+## Release notes - 2023
+
+### [!DNL Target] Standard/Premium 22.14.5 (February 13-15, 2023)
+
+This release will be available according to the following staggered schedule:
+
+* **February 13**: Americas region
+* **February 15**: Europe, Middle East, and Africa (EMEA) region
+* **February 15**: Asia-Pacific (APAC) region
+
+This release contains the following fixes:
+
+* Fixed an issue that caused the following error message even though a property was specified in Automated Personalization (AP) activities: "Errors: At least one property has to belong to a non-default workspace" (TGT-44607)
+* Fixed a potential security issue impacting server-side Recommendations feeds. (TGT-43769) 
+
+### at.js version 2.10.1 (February 2, 2023)
+
+* Fixed a bug in which activities involving audience rules containing parameters with dots in their names were not returning the expected experience, for on-device decisioning.
+* Fixed a bug introduced in at.js 2.6.0 in which at.js was firing a delivery call, even when `mboxDisable` was enabled.
+
+For information about all at.js releases, see [at.js version details](https://developer.adobe.com/target/implement/client-side/atjs/target-atjs-versions/){target=_blank} in the [Adobe Target Developer Guide](https://developer.adobe.com/target/){target=_blank}.
+
+### [!DNL Target] Standard/Premium 22.13.3 (January 25-26, 2023)
+
+This release will be available according to the following staggered schedule:
+
+* **January 25**: Europe, Middle East, and Africa (EMEA) region
+* **January 25**: Asia-Pacific (APAC) region
+* **January 26**: Americas region
+
+This release contains the following new features, enhancements, and fixes:
+
+|Feature|Details|
+| --- | --- |
+|[JSON offer](/help/main/c-experiences/c-manage-content/create-json-offer.md) support in Automated Personalization (AP)|Added support for JSON offers in [!UICONTROL Automated Personalization] (AP) activities using the Form-Based Experience Composer. (TGT-41460)|
+|[AEM experience fragments](/help/main/c-experiences/c-manage-content/aem-experience-fragments.md)|Added the ability to distinguish between [!DNL Adobe Experience Manager] fragment (AEM XF) types that are exported to [!DNL Target]. Instead of the "Experience Fragment" option, [!DNL Target] now lets you filter and search by "HTML XF" and "JSON XF." (TGT-44132)|
+
+* Fixed an issue that caused a "500 error" in [!UICONTROL A/B Test] and [!UICONTROL Experience Targeting] (XT) activities that contain recommendations. This issue was caused when [!DNL Target] failed to properly delete criteria objects from the [!DNL Target] UI and [!DNL Recommendations] backend that are no longer in use. (TGT-44383)
+* Removed the location from the displayed offer name in the [!UICONTROL Offer Level] report for [!UICONTROL Automated Personalization] activities. This change makes the report more readable. (TGT-44294)
+* Removed the 45-day and 90-day calendar options from the AP and [!UICONTROL Auto-Target] [!UICONTROL Personalization Insights] and [!UICONTROL Important Attributes] reports in the [!DNL Target] UI. Because of usage patterns and to improve performance, these date ranges have been deprecated. The UI has been updated to reflect the currently allowed ranges: 15, 30, and 60 days. (TGT-39357)
+* Disallowed the ability to change the [!UICONTROL Same as Optimization Goal] setting on the [!UICONTROL Goals & Settings] page after the activity is live. (TGT-43923)
+* Fixed an issue that caused issues with the default workplace in the [!DNL Target] backend when upgrading from [!DNL Target Standard] to [!DNL Target Premium]. (TGT-44081 & TGT-44306)
+* Made a change to allow [!DNL Analytics] report suites that contain a dot character "." in their names to be used in the [!DNL Target] UI to create [!DNL Analytics] classification feeds.
+* Changed the link on the [!UICONTROL Implementation] page ([!UICONTROL Administration] > [!UICONTROL Implementation]) for "Implementation Methods with On-Device Decisioning" to point to the page that explains how to use on-device decisioning for all supported SDKs: Node.js, Java, .NET, and Python. For more information, see [Getting Started with Target SDKs](https://developer.adobe.com/target/implement/server-side/sdk-guides/getting-started/){target=_blank} in the [Adobe Target Developer Guide](https://developer.adobe.com/target/){target=_blank}.
+* Fixed an issue that caused file-upload issues when using [!DNL Scene7] and [!DNL Target].
+* Enhanced the accessibility of the [!DNL Target] UI for persons with disabilities by using results from an internal usability audit. These accessibility enhancements include access to features that were previously not accessible via the keyboard, alt text enhancements, the ability to zoom parts of the UI to be more usable, improved keyboard focus, and more.   (TGT-42759) 
+* Made various localization fixes throughout the [!DNL Target] UI.
+
 ## Release notes - 2022
 
 ### Models API release (November 23, 2022)
@@ -25,11 +73,7 @@ For more information, see [Models API Overview](https://developer.adobe.com/targ
 
 ### [!DNL Target] Standard/Premium 22.10.3 (staggered release October 25-27, 2022)
 
-This release contains the following new features, enhancements, and fixes:
-
-|Feature|Details|
-| --- | --- |
-|Optimized A4T metrics for [!UICONTROL Auto-Allocate] and [!UICONTROL Auto-Target]<br>(Available to select customers for testing. Will be available to all customers in a future release.)|Be aware of the following changes:<ul><li>Added support for non-binary and maximization metrics in [!UICONTROL Analytics for Target] A4T reporting for [!UICONTROL Auto-Allocate] and [!UICONTROL Auto-Target] activities</li><li>Preserved behavior for existing activities until February 2023. After this date, activities will be discontinued to force existing activity migration to new behavior</li><li>Starting February 20, 2023, support for `averagetimespentonsite`, `bouncerate`, and `entries` metrics in [!DNL Target] activities will be deprecated.</li></ul>|
+This release contains the following fixes:
 
 * Added tooltips in the [!DNL Target] UI to help customers navigate the audience builder more efficiently and to learn how to use features that might be unfamiliar. (TGT-44139)
 * Added functionality to prevent customers from editing an activity that was disabled by [!DNL Target] because it uses unsupported metrics. A message in the UI directs customers to duplicate the activity and then update the conversion metric.
