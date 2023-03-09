@@ -30,7 +30,7 @@ Contact [Adobe Target Customer Care](/help/main/cmp-resources-and-contact-inform
 
 In order to export [!UICONTROL Content Fragments] to use in [!DNL Target] activities, you must perform some preliminary steps in AEM. For more information, see *Exporting Content Fragments to Adobe Target* in the [Experience Manager as a Cloud Service documentation](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/home.html){target=_blank}.
 
-For information about designing, creating, curating, and publishing [!UICONTROL Content Fragments], see [Working with Content Fragments](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/assets/content-fragments/content-fragments.html){target=_blank} in the [Experience Manager as a Cloud Service documentation](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/home.html){target=_blank}.
+For information about designing, creating, curating, and publishing [!UICONTROL Content Fragments], see [Working with Content Fragments](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/sites/integrations/content-fragments-target.html){target=_blank} in the [Experience Manager as a Cloud Service documentation](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/home.html){target=_blank}.
 
 ## Using [!UICONTROL Content Fragments] in [!DNL Target] activities {#section_17CE4BE6B2B74CCEBAE0C68DEB84ABB9}
 
