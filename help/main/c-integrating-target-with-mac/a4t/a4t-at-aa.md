@@ -70,25 +70,25 @@ To get started:
 
 |Metric name|No longer supported in:|
 | --- | --- |
-|[!UICONTROL averagepagedepth]|Conversion Rate, RPV|
-|[!UICONTROL averagetimespentonsite]|Conversion Rate, RPV|
-|[!UICONTROL bouncerate]|Conversion Rate, RPV|
-|[!UICONTROL bounces]|Conversion Rate, RPV|
-|[!UICONTROL entries]|Conversion Rate, RPV|
-|[!UICONTROL exits]|Conversion Rate, RPV|
-|[!UICONTROL pageviews]|RPV|
-|[!UICONTROL reloads]|RPV|
-|[!UICONTROL visitors]|Conversion Rate, RPV|
-|[!UICONTROL visits]|RPV|
+|[!UICONTROL averagepagedepth]|Conversion Rate, Maximize Metric Value|
+|[!UICONTROL averagetimespentonsite]|Conversion Rate, Maximize Metric Value|
+|[!UICONTROL bouncerate]|Conversion Rate, Maximize Metric Value|
+|[!UICONTROL bounces]|Conversion Rate, Maximize Metric Value|
+|[!UICONTROL entries]|Conversion Rate, Maximize Metric Value|
+|[!UICONTROL exits]|Conversion Rate, Maximize Metric Value|
+|[!UICONTROL pageviews]|Maximize Metric Value|
+|[!UICONTROL reloads]|Maximize Metric Value|
+|[!UICONTROL visitors]|Conversion Rate, Maximize Metric Value|
+|[!UICONTROL visits]|Maximize Metric Value|
 
 ### Impact to [!UICONTROL Auto-Target] activities
 
 |Metric name|No longer supported in:|
 | --- | --- |
-|[!UICONTROL cartremovals]|RPV|
-|[!UICONTROL pageviews]|RPV|
-|[!UICONTROL visitors]|Conversion Rate, RPV|
-|[!UICONTROL visits]|RPV|
+|[!UICONTROL cartremovals]|Maximize Metric Value|
+|[!UICONTROL pageviews]|Maximize Metric Value|
+|[!UICONTROL visitors]|Conversion Rate, Maximize Metric Value|
+|[!UICONTROL visits]|Maximize Metric Value|
 
 ## Limitations and notes
 
