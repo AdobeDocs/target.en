@@ -9,28 +9,31 @@ exl-id: f2783042-f6ee-4f73-b487-ede11d55d530
 
 This article contains prerelease information. Release dates, features, and other information are subject to change without notice. 
 
-**Last Updated: March 6, 2023**
+**Last Updated: March 8, 2023**
 
 To view information about the current release, see [Target Release Notes](release-notes.md). The information on these pages could be the same, depending on the timing of releases. The issue numbers in parentheses are for internal [!DNL Adobe] use.
 
-## [!DNL Target] Standard/Premium [!UICONTROL Content Fragments] integration with [!DNL Adobe Experience Manager] (AEM) (March 6, 2023)
-
-|Resource|Details|
-|--- |--- |
-|AEM content fragments|Use AEM content fragments in Target activities. Combine the ease-of-use and power of AEM with powerful Artificial Intelligence (AI) and Machine Learning (ML) capabilities in [!DNL Target] to test and personalize experiences at scale.<P>For more information, see [AEM Experience Fragments and Content Fragments overview](/help/main/c-integrating-target-with-mac/aem/aem-experience-and-content-fragments.md) and [AEM Content Fragments](/help/main/c-integrating-target-with-mac/aem/content-fragments-aem.md).|
-
-## [!DNL Target] Standard/Premium 22.14.5 (February 13-15, 2023)
+## [!DNL Target] Standard/Premium 22.15.1 (March 8 & 9, 2023)
 
 This release will be available according to the following staggered schedule:
 
-* **February 13**: Americas region
-* **February 15**: Europe, Middle East, and Africa (EMEA) region
-* **February 15**: Asia-Pacific (APAC) region
+* **March 8**: Americas region
+* **March 9**: Europe, Middle East, and Africa (EMEA) region
+* **March 9**: Asia-Pacific (APAC) region
 
-This release contains the following fixes:
+This release contains the following new features and enhancements:
 
-* Fixed an issue that caused the following error message even though a property was specified in Automated Personalization (AP) activities: "Errors: At least one property has to belong to a non-default workspace" (TGT-44607)
-* Fixed a potential security issue impacting server-side Recommendations feeds. (TGT-43769) 
+|Feature|Details|
+| --- | --- |
+|Optimized A4T metrics for [!UICONTROL Auto-Allocate] and [!UICONTROL Auto-Target]|[!DNL Target] lets you choose metrics based on binomial events or metrics based on continuous events when using [!UICONTROL A4T] for [!UICONTROL Auto-Allocate] and [!UICONTROL Auto-Target] activities.<P>Be aware of the following change in supported metrics:<ul><li>[!DNL Target] preserved the previous behavior for existing activities until (DATE TO BE DETERMINED). After this date, activities using non-supported metrics will be discontinued to force existing activity migration to the new behavior.</li></ul>For more information, see [Supported goal metrics](/help/main/c-integrating-target-with-mac/a4t/a4t-at-aa.md#supported) in *A4T support for Auto-Allocate and Auto-Target activities*.|
+|[!UICONTROL Auto-Allocate] using [!UICONTROL Analytics for Target] (A4T)|New tutorial:<ul><li>[Setting up A4T reports in [!DNL Analysis Workspace] for [!UICONTROL Auto-Allocate] activities](https://experienceleague.adobe.com/docs/target-learn/tutorials/integrations/set-up-a4t-reports-in-analysis-workspace-for-auto-allocate-activities.html){target=_blank}</li></ul>|
+|[!UICONTROL Auto-Target] using [!UICONTROL Analytics for Target] (A4T)|New tutorial:<ul><li>[Setting up A4T reports in [!DNL Analysis Workspace] for [!UICONTROL Auto-Target] activities](https://experienceleague.adobe.com/docs/target-learn/tutorials/integrations/set-up-a4t-reports-in-analysis-workspace-for-auto-target-activities.html){target=_blank}</li></ul>|
+
+## at.js version 2.10.2 (March 7, 2023)
+
+* Fixed an issue that caused the `trackEvent` function to always return an error.
+
+For information about all at.js releases, see [at.js version details](https://developer.adobe.com/target/implement/client-side/atjs/target-atjs-versions/){target=_blank} in the [Adobe Target Developer Guide](https://developer.adobe.com/target/){target=_blank}.
 
 ## Additional release notes and version details
 

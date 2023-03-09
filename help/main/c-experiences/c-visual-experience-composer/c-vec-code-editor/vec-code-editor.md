@@ -205,6 +205,10 @@ If you use the custom code feature for two activities that target the same URL, 
 
 ## Troubleshooting Custom Code {#section_6C965CBC31C348D7AA5B57B63DAB9E7F}
 
+**Custom code is not executed when using `triggerView`.**
+
+Custom Code offers in the VEC are not re-rendered when `triggerView()` is called with `{page: false}` as the option.
+
 **I received a warning that an action cannot be applied due to structural changes in a page. What does this mean?**
 
 This message indicates that the structure of your page has changed since the activity was last saved.

@@ -9,13 +9,21 @@ exl-id: 36d19598-eb46-4be6-a652-658b653287cb
 
 This page lists significant changes made to the [!DNL Adobe Target] product documentation.
 
+## [!DNL Target] Standard/Premium 22.15.1 (March 8 & 9, 2023)
+
+|Date|Topic|Changes|
+| --- | --- | --- |
+|March 8|[A4T support for [!UICONTROL Auto-Allocate] and [!UICONTROL Auto-Target] activities](/help/main/c-integrating-target-with-mac/a4t/a4t-at-aa.md#supported)|Updated section to include information about the supported (and unsupported) metrics for [!UICONTROL Auto-Allocate] and [!UICONTROL Auto-Target] activities using [!UICONTROL Analytics for Target] (A4T)|
+||[Adobe Target Tutorials](https://experienceleague.adobe.com/docs/target-learn/tutorials/overview.html){target=_blank}|Added the following new tutorials:<ul><li>[Setting up A4T reports in [!DNL Analysis Workspace] for [!UICONTROL Auto-Allocate] activities](https://experienceleague.adobe.com/docs/target-learn/tutorials/integrations/set-up-a4t-reports-in-analysis-workspace-for-auto-allocate-activities.html){target=_blank}</li><li>[Setting up A4T reports in [!DNL Analysis Workspace] for [!UICONTROL Auto-Target] activities](https://experienceleague.adobe.com/docs/target-learn/tutorials/integrations/set-up-a4t-reports-in-analysis-workspace-for-auto-target-activities.html){target=_blank}</li></ul>|
+||[Edit an activity or save as draft](/help/main/c-activities/edit-activity.md)|Added a "Best practices" section.|
+||[Modifications](/help/main/c-experiences/c-visual-experience-composer/c-vec-code-editor/vec-code-editor.md)|Added the following note to the "Troubleshooting custom code" section:<ul><li>Custom Code offers in the VEC are not re-rendered when `triggerView()` is called with `{page: false}` as the option.</li></ul>|
+||[Target release notes (current)](/help/main/r-release-notes/release-notes.md)|Added information about the at.js 2.10.2 release.|
+||[Target release notes (current)](/help/main/r-release-notes/release-notes.md)|Added release notes for the [!DNL Target Standard/Premium] 22.15.1 release.|
+
 ## [!DNL Target] Standard/Premium 22.13.3 (January 25, 2023)
 
 |Date|Topic|Changes|
 | --- | --- | --- |
-|March 6|[[!DNL Target] release notes (current)](/help/main/r-release-notes/release-notes.md)|Added information about the [!DNL Target] [!UICONTROL Content Fragments] integration with [!DNL Adobe Experience Manager].|
-||[AEM [!UICONTROL Content Fragments]](/help/main/c-integrating-target-with-mac/aem/content-fragments-aem.md)|New article.|
-||[AEM Experience Fragments and Content Fragments overview](/help/main/c-integrating-target-with-mac/aem/aem-experience-and-content-fragments.md)|New article.|
 |February 21|[Allowlist Target edge nodes](https://developer.adobe.com/target/before-implement/privacy/allowlist-edges/){target=_blank}|Updated list of IP addresses to allowlist for all regions in the [Adobe Target Developer Guide](https://developer.adobe.com/target/){target=_blank}.|
 ||[Modifications](/help/main/c-experiences/c-visual-experience-composer/c-vec-code-editor/vec-code-editor.md)|Added text explaining that the example using JQuery assumes that the customer's website has jQuery available on the page when [!DNL Target] executes the offers.|
 |February 10|[Target release notes (current)](/help/main/r-release-notes/release-notes.md)|Added release notes for the [!DNL Target Standard/Premium] 22.14.5 release.|
