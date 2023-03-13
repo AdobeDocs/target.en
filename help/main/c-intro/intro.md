@@ -24,7 +24,7 @@ Industry best practices are built into [!DNL Target Standard]. [!DNL Target Stan
 
 All [!DNL Target Premium] articles in Target guides include the Premium badge at the top of each page or in the affected section. The Premium badge is clickable and includes a link to this section.
 
-[!BADGE Premium]{type=Positive"}
+[!BADGE Premium]{type=Positive}
 
 [!DNL Target Premium] includes the following features: 
 
@@ -79,7 +79,7 @@ The [!DNL Adobe Target] team often turns on features for select customers for te
 
 Articles in [!DNL Target] guides describing Beta features include the Beta badge at the top of each page or in the affected sections or text. The Beta badge is clickable and includes a link to this section.
 
-[!BADGE Premium]{type=Informative"}
+[!BADGE Premium]{type=Informative}
 
 ## Recommendations Classic {#section_9554068100054D2DBDB298CBE5A0E413}
 
