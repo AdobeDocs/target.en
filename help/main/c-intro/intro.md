@@ -22,7 +22,7 @@ Industry best practices are built into [!DNL Target Standard]. [!DNL Target Stan
 
 [!DNL Target Premium] is an advanced [!DNL Target] offering that requires a license to add premium features to [!DNL Target Standard].
 
-All [!DNL Target Premium] articles in Target guides include the Premium badge at the top of each page or in the affected section. The Premium badge is clickable and includes a link to this section.
+All [!DNL Target Premium] articles in Target guides include the Premium badge at the top of each page or inline near the affected text. The Premium badge is clickable and includes a link to this section.
 
 [!BADGE Premium]{type=Positive}
 
@@ -73,13 +73,13 @@ This functionality opens up entirely new capabilities, such as:
 
 [Enterprise User Permissions](/help/main/administrating-target/c-user-management/property-channel/property-channel.md#concept_E396B16FA2024ADBA27BC056138F9838) functionality lets you create different projects (called "Product Profiles" in the [!DNL Adobe Admin Console for Enterprise]). [!UICONTROL Enterprise User Permissions] let you assign different permissions for a single user that dictate that user's access rights for each project. These distinct projects can be compared to the way that report suites work in [!DNL Adobe Analytics]. Each project can have specific users with specific roles that apply to a set of properties. The result is that customers are able to restrict the view, edit, approval, and publish access to their users. You can restrict users based on region, environment (dev/stage/prod), channel, or other custom criteria.
 
-## Beta features
+## Beta features {#beta}
 
 The [!DNL Adobe Target] team often turns on features for select customers for testing and feedback purposes before enabling those features for all customers in future releases.
 
-Articles in [!DNL Target] guides describing Beta features include the Beta badge at the top of each page or in the affected sections or text. The Beta badge is clickable and includes a link to this section.
+Articles in [!DNL Target] guides describing Beta features include the Beta badge at the top of each page or inline near the affected text. The Beta badge is clickable and includes a link to this section.
 
-[!BADGE Premium]{type=Informative}
+[!BADGE Beta]{type=Informative}
 
 ## Recommendations Classic {#section_9554068100054D2DBDB298CBE5A0E413}
 
