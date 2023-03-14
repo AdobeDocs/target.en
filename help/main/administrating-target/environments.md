@@ -61,7 +61,7 @@ You can delete an environment when it is no longer needed.
 >
 >You cannot delete the [!UICONTROL Production] environment, but you can rename it.
 
-## [!BADGE Premium]{type=Positive url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html#premium" newtab=true" tooltip="See what's included in Target Premium."} Recommendations: filter collections and exclusions by environment (host group)
+## [!BADGE Premium]{type=Positive url="/help/main/c-intro/intro.md#premium" newtab=true" tooltip="See what's included in Target Premium."} Recommendations: filter collections and exclusions by environment (host group)
 
 You can preview the contents of Recommendations collections and exclusions for a selected environment (host group).
 
