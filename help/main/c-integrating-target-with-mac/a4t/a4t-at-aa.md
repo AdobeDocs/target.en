@@ -48,47 +48,7 @@ To get started:
 
 1. Use the **[!UICONTROL Reports]** tab to view your activity's reporting by your choice of [!DNL Adobe Analytics] metrics. Click **[!UICONTROL View in Analytics]** to dive deep and further segment your reporting data.
 
-## Supported goal metrics {#supported}
 
-[!UICONTROL A4T] for [!UICONTROL Auto-Allocate] and [!UICONTROL Auto-Target] lets you choose any of the following metric types as your primary goal metric for optimization:
-
-* [!DNL Adobe Target] conversion metrics
-* [!DNL Adobe Analytics] conversion metrics
-* [!DNL Adobe Analytics] custom events
-
-[!DNL Target] lets you choose metrics based on binomial events or metrics based on continuous events when using [!UICONTROL A4T] for [!UICONTROL Auto-Allocate] and [!UICONTROL Auto-Target] activities. 
-
-* **Metrics based on binomial events**: A binomial event either does or does not happen. Binomial events include a click, a conversion, an order, and so forth. These types of events are also sometimes referred to as Bernoulli, binary, or discrete events.
-
-* **Metrics based on continuous events**. Continuous metrics include revenue, number of products ordered, session duration, number of page views in session, and so forth. These types of events are also sometimes referred to as non-binomial or non-Bernoulli metrics.
-
->[!IMPORTANT]
->
->As of the [!DNL Adobe Target Standard/Premium] 22.15.1 release (March 8 & 9, 2023), [!DNL Target] continues to support existing activities with the metrics that are now unsupported (listed in the following tables). However, after September 9, 2023, these metrics will no longer be supported in existing activities and all activities using non-supported metrics will be discontinued to force existing activity migration to the new behavior.
-
-### Impact to [!UICONTROL Auto-Allocate] activities
-
-|Metric name|No longer supported in:|
-| --- | --- |
-|[!UICONTROL averagepagedepth]|Conversion Rate, Maximize Metric Value|
-|[!UICONTROL averagetimespentonsite]|Conversion Rate, Maximize Metric Value|
-|[!UICONTROL bouncerate]|Conversion Rate, Maximize Metric Value|
-|[!UICONTROL bounces]|Conversion Rate, Maximize Metric Value|
-|[!UICONTROL entries]|Conversion Rate, Maximize Metric Value|
-|[!UICONTROL exits]|Conversion Rate, Maximize Metric Value|
-|[!UICONTROL pageviews]|Maximize Metric Value|
-|[!UICONTROL reloads]|Maximize Metric Value|
-|[!UICONTROL visitors]|Conversion Rate, Maximize Metric Value|
-|[!UICONTROL visits]|Maximize Metric Value|
-
-### Impact to [!UICONTROL Auto-Target] activities
-
-|Metric name|No longer supported in:|
-| --- | --- |
-|[!UICONTROL cartremovals]|Maximize Metric Value|
-|[!UICONTROL pageviews]|Maximize Metric Value|
-|[!UICONTROL visitors]|Conversion Rate, Maximize Metric Value|
-|[!UICONTROL visits]|Maximize Metric Value|
 
 ## Limitations and notes
 
