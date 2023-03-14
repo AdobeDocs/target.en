@@ -34,7 +34,7 @@ This release contains the following fixes:
 
   * Fixed Shadow DOM elements selection in the VEC by improving the authoring process so there is no dependency on the [!DNL Target] implementation type when authoring the shadow root. Now, selecting Shadow DOM elements in the VEC should work for any website.
 
-  **NOTE**: To ensure delivery of the changes authored in the VEC, ensure that you are using a Target SDK (at.js or [!DNL Adobe Experience Platform Web SDK]) with a version greater than 2.8.
+  **NOTE**: To ensure delivery of the changes authored in the VEC, ensure that you are using a Target SDK ([at.js](https://developer.adobe.com/target/implement/client-side/atjs/target-atjs-versions/){target=_blank} or [!DNL [Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/release-notes.html){target=_blank}] (alloy.js)) with a version greater than 2.8.
 
 * Fixed an issue that prevented loading HTML elements using #Shadow DOM in the VEC. (TGT-35801)
 * Fixed VEC issues with SPA websites using ShadowDOM. (TGT-43169)
