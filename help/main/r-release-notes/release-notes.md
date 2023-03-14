@@ -20,13 +20,9 @@ This release will be available according to the following staggered schedule:
 * **March 9**: Europe, Middle East, and Africa (EMEA) region
 * **March 9**: Asia-Pacific (APAC) region
 
-This release contains the following new features and enhancements:
-
-|Feature|Details|
-| --- | --- |
-|Optimized A4T metrics for [!UICONTROL Auto-Allocate] and [!UICONTROL Auto-Target]|[!DNL Target] lets you choose metrics based on binomial events or metrics based on continuous events when using [!UICONTROL A4T] for [!UICONTROL Auto-Allocate] and [!UICONTROL Auto-Target] activities.<P>Be aware of the following time-sensitive change in supported metrics:<ul><li>[!DNL Target] preserved the previous behavior for existing activities until September 9, 2023. After this date, activities using non-supported metrics will be discontinued to force existing activity migration to the new behavior.</li></ul>For more information, see [Supported goal metrics](/help/main/c-integrating-target-with-mac/a4t/a4t-at-aa.md#supported) in *A4T support for Auto-Allocate and Auto-Target activities*.|
-|[!UICONTROL Auto-Allocate] using [!UICONTROL Analytics for Target] (A4T)|New tutorial:<ul><li>[Setting up A4T reports in [!DNL Analysis Workspace] for [!UICONTROL Auto-Allocate] activities](https://experienceleague.adobe.com/docs/target-learn/tutorials/integrations/set-up-a4t-reports-in-analysis-workspace-for-auto-allocate-activities.html){target=_blank}</li></ul>|
-|[!UICONTROL Auto-Target] using [!UICONTROL Analytics for Target] (A4T)|New tutorial:<ul><li>[Setting up A4T reports in [!DNL Analysis Workspace] for [!UICONTROL Auto-Target] activities](https://experienceleague.adobe.com/docs/target-learn/tutorials/integrations/set-up-a4t-reports-in-analysis-workspace-for-auto-target-activities.html){target=_blank}</li></ul>|
+>[!NOTE]
+>
+>Due to issues that have since been fixed, the "Optimized A4T metrics for [!UICONTROL Auto-Allocate] and [!UICONTROL Auto-Target]" feature that was released on March 8 & 9 has been temporarily removed. After further internal testing, the feature will be released again in the next few weeks.
 
 This release contains the following fixes:
 
