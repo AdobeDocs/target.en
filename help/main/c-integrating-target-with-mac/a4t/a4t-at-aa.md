@@ -48,7 +48,26 @@ To get started:
 
 1. Use the **[!UICONTROL Reports]** tab to view your activity's reporting by your choice of [!DNL Adobe Analytics] metrics. Click **[!UICONTROL View in Analytics]** to dive deep and further segment your reporting data.
 
+## Supported goal metrics {#supported}
 
+[!UICONTROL A4T] for [!UICONTROL Auto-Allocate] and [!UICONTROL Auto-Target] let you choose any of the following metric types as your primary goal metric for optimization:
+
+* [!DNL Adobe Target] conversion metrics
+* [!DNL Adobe Analytics] conversion metrics
+* [!DNL Adobe Analytics] custom events
+
+[!UICONTROL A4T] for [!UICONTROL Auto-Allocate] and [!UICONTROL Auto-Target] requires you to choose a metric that is based on a binomial event. A binomial event either does or does not happen. Binomial events include a click, a conversion, an order, and so forth. These types of events are also sometimes referred to as Bernoulli, binary, or discrete events.
+
+[!UICONTROL A4T] for [!UICONTROL Auto-Allocate] and [!UICONTROL Auto-Target] does not support optimization for continuous metrics. Continuous metrics include  revenue, number of products ordered, session duration, number of page views in session, and so forth. These unsupported types of metrics are also sometimes referred to as non-binomial or non-Bernoulli metrics.
+
+The following metric types are unsupported as primary goal metrics:
+
+* [!DNL Adobe Target] engagement and revenue metrics
+* [!DNL Adobe Analytics] engagement and revenue metrics
+
+  It is possible to select an [!DNL Analytics] engagement or revenue metric as your primary goal metric because [!DNL Target] cannot identify and exclude all engagement and revenue metrics from [!DNL Analytics]. Select only binomial conversion metrics or custom events from [!DNL Analytics].
+
+* [!DNL Adobe Analytics] calculated metrics
 
 ## Limitations and notes
 
