@@ -20,11 +20,11 @@ Industry best practices are built into [!DNL Target Standard]. [!DNL Target Stan
 
 ## Target Premium {#premium}
 
+[!BADGE Premium]{type=Positive}
+
 [!DNL Target Premium] is an advanced [!DNL Target] offering that requires a license to add premium features to [!DNL Target Standard].
 
 All [!DNL Target Premium] articles in Target guides include the Premium badge at the top of each page or inline near the affected text. The Premium badge is clickable and includes a link to this section.
-
-[!BADGE Premium]{type=Positive}
 
 [!DNL Target Premium] includes the following features: 
 
@@ -75,11 +75,11 @@ This functionality opens up entirely new capabilities, such as:
 
 ## Beta features {#beta}
 
+[!BADGE Beta]{type=Informative}
+
 The [!DNL Adobe Target] team often turns on features for select customers for testing and feedback purposes before enabling those features for all customers in future releases.
 
 Articles in [!DNL Target] guides describing Beta features include the Beta badge at the top of each page or inline near the affected text. The Beta badge is clickable and includes a link to this section.
-
-[!BADGE Beta]{type=Informative}
 
 ## Recommendations Classic {#section_9554068100054D2DBDB298CBE5A0E413}
 
