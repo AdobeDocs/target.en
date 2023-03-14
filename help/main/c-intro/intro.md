@@ -24,9 +24,9 @@ Industry best practices are built into [!DNL Target Standard]. [!DNL Target Stan
 
 [!DNL Target Premium] is an advanced [!DNL Target] offering that requires a license to add premium features to [!DNL Target Standard].
 
-All [!DNL Target Premium] articles in Target guides include the Premium badge at the top of each page or inline near the affected text. The Premium badge is clickable and includes a link to this section.
+All [!DNL Target Premium] articles in [!DNL Target] guides include the [!UICONTROL Premium] badge at the top of each page or inline near the affected text. The [!UICONTROL Premium] badge is clickable and includes a link to this section.
 
-[!DNL Target Premium] includes the following features: 
+**[!DNL Target Premium] includes the following features:**
 
 ### Automated Personalization
 
@@ -77,7 +77,7 @@ This functionality opens up entirely new capabilities, such as:
 
 [!BADGE Beta]{type=Informative}
 
-The [!DNL Adobe Target] team often turns on features for select customers for testing and feedback purposes before enabling those features for all customers in future releases.
+The [!DNL Adobe Target] team often enables new features for select customers for testing and feedback purposes. After the testing period completes, these features are enabled for all customers in future [!DNL Target Standard/Premium] releases and announced in release notes.
 
 Articles in [!DNL Target] guides describing Beta features include the Beta badge at the top of each page or inline near the affected text. The Beta badge is clickable and includes a link to this section.
 
