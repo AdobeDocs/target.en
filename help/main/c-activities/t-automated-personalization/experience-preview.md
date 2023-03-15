@@ -2,10 +2,11 @@
 keywords: experience preview;experience urls;generate urls;view experience urls
 description: Learn how to use experience preview URLs for Adobe [!DNL Target] Automated Personalization activities to see experience content directly on your site before the activity is live.
 title: How Can I Use Experience Preview URLS in Automated Personalization Activities?
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="See what's included in Target Premium."
 feature: Automated Personalization
 exl-id: 9f329b8a-5f86-4cae-a3be-eed24fa0a9cd
 ---
-# ![PREMIUM](/help/main/assets/premium.png) Preview Automated Personalization activities with experience preview URLs
+# Preview Automated Personalization activities with experience preview URLs
 
 Experience preview URLs can be generated for [!DNL Target] [!UICONTROL Automated Personalization] activities to see experience content directly on your site before the activity is live for preview and QA purposes. Experience preview URLs bypass targeting to force viewing of a particular experience.
 

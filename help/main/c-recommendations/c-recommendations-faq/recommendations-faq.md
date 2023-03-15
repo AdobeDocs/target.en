@@ -2,10 +2,11 @@
 keywords: troubleshooting;frequently asked questions;FAQ;FAQs;recommendations;special characters;attribute weighting;content similarity
 description: View a list of frequently asked questions and answers about Adobe [!DNL Target] Recommendations activities.
 title: Where Can I find Questions and Answers about [!DNL Target] Recommendations?
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="See what's included in Target Premium."
 feature: Recommendations
 exl-id: aaa52923-1c2d-44ae-bd89-671329222077
 ---
-# ![PREMIUM](/help/main/assets/premium.png) Recommendations FAQ
+# Recommendations FAQ
 
 List of frequently asked questions (FAQs) about [!DNL Adobe Target] [!DNL Recommendations] activities.
 

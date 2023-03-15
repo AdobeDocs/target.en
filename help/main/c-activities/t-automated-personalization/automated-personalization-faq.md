@@ -2,10 +2,11 @@
 keywords: troubleshooting;frequently asked questions;FAQ;FAQs;automated personalization;control;default experience;best practices
 description: Explore a list of frequently asked questions (FAQs) and answers about Automated Personalization (AP) activities in Adobe Target.
 title: How Can I Find FAQs about Automated Personalization Activities?
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="See what's included in Target Premium."
 feature: Automated Personalization
 exl-id: 2bf62cc1-1781-4021-a400-2884e0bae893
 ---
-# ![PREMIUM](/help/main/assets/premium.png) Automated Personalization FAQs
+# Automated Personalization FAQs
 
 List of frequently asked questions (FAQs) about Automated Personalization (AP).
 

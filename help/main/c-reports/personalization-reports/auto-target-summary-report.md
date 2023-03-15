@@ -2,10 +2,11 @@
 keywords: reports;auto-target;auto target;AT;report
 description: Learn how to interpret the Auto-Target Summary report in Adobe Target. You can switch to the Automated Segments and Important Attributes reports from this report.
 title: How Do I Use the Auto-Target Summary Report?
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="See what's included in Target Premium."
 feature: Reports
 exl-id: 098fcc0e-8e17-4898-ab2f-ec74472562ff
 ---
-# ![PREMIUM](/help/main/assets/premium.png) Auto-Target Summary report
+# Auto-Target Summary report
 
 Information about how to interpret the [!UICONTROL Auto-Target Summary] reports in [!DNL Adobe Target].
 

@@ -2,10 +2,11 @@
 keywords: auto-target;targeting;traffic allocation;frequently asked questions;faq;troubleshooting;trouble shooting
 description: Learn how an [!UICONTROL Auto-Target] activity in [!DNL Target] serves the most tailored experience to each visitor based on customer profiles and the behavior of similar visitors.
 title: What Is an [!UICONTROL Auto-Target] Activity?
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="See what's included in Target Premium."
 feature: Auto-Target
 exl-id: 59ca30dc-45a0-4129-b832-84e1132d3b69
 ---
-# ![PREMIUM](/help/main/assets/premium.png) [!UICONTROL Auto-Target] overview
+# [!UICONTROL Auto-Target] overview
 
 [!UICONTROL Auto-Target] activities in [!DNL Adobe Target] use advanced machine learning to select from multiple high-performing marketer-defined experiences to personalize content and drive conversions. [!UICONTROL Auto-Target] serves the most tailored experience to each visitor based on the individual customer profile and the behavior of previous visitors with similar profiles. 
 

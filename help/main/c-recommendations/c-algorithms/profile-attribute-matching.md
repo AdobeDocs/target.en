@@ -2,14 +2,15 @@
 keywords: inclusion rules;inclusion criteria;recommendations;promotion;promotions;dynamic filtering;dynamic;profile attribute matching
 description: Learn how to filter dynamically in Adobe [!DNL Target] Recommendations by comparing items (entities) against a value in the user's profile.
 title: How Do I Filter by Profile Attribute Matching In Recommendations Activities?
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="See what's included in Target Premium."
 feature: Recommendations
 exl-id: d4b837af-771b-41b4-982b-f9f08e4753f2
 ---
-# ![PREMIUM](/help/main/assets/premium.png) Profile Attribute Matching
+# Profile Attribute matching
 
 Filter dynamically in [!DNL Adobe Target] [!DNL Recommendations] by comparing items (entities) against a value in the user's profile.
 
-Use [!UICONTROL Profile Attribute Matching] when you want to show recommendations that match a value stored in the visitor’s profile, such as size or favorite brand.
+Use [!UICONTROL Profile Attribute Matching] when you want to show recommendations that match a value stored in the visitor's profile, such as size or favorite brand.
 
 >[!NOTE]
 >
@@ -17,8 +18,8 @@ Use [!UICONTROL Profile Attribute Matching] when you want to show recommendation
 
 The following scenarios show how you can use [!UICONTROL Profile Attribute Matching]:
 
-* A company that sells eyeglasses stores a visitor's favorite frame color as “walnut.” For that specific visitor, recommendation are set up to return only eyeglass frames that match “walnut” in color.
-* A profile parameter can be defined for the clothing size (e.g., Small, Medium, or Large) of a visitor as they navigate your company’s web site. A recommendation can be set up to match that profile parameter and return products specific only to the user’s preferred clothing size.
+* A company that sells eyeglasses stores a visitor's favorite frame color as "walnut." For that specific visitor, recommendation are set up to return only eyeglass frames that match "walnut" in color.
+* A profile parameter can be defined for the clothing size (e.g., Small, Medium, or Large) of a visitor as they navigate your company's web site. A recommendation can be set up to match that profile parameter and return products specific only to the user's preferred clothing size.
 
 ## Profile Attribute Matching examples {#section_9873E2F22E094E479569D05AD5BB1D40}
 

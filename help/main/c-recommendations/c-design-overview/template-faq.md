@@ -2,10 +2,11 @@
 keywords: recommendations;frequently asked questions;faq
 description: Review a list of frequently asked questions (FAQs) and their answers about Adobe [!DNL Target] Recommendations designs.
 title: Where Can I Answers to Design Questions for [!DNL Target] Recommendations?
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="See what's included in Target Premium."
 feature: Recommendations
 exl-id: e970f734-9bc7-43b8-af1b-75e527d6353c
 ---
-# ![PREMIUM](/help/main/assets/premium.png) Design FAQ 
+# Design FAQ 
 
 List of frequently asked questions (FAQs) about [!DNL Adobe Target] [!DNL Recommendations] designs.
 
