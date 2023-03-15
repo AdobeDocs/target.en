@@ -2,10 +2,11 @@
 keywords: create recommendations;recommendations activity;new recommendations;recommendations overview
 description: Learn how to use the Adobe [!DNL Target] Visual Experience Composer (VEC) to create a Recommendations activity directly on a [!DNL Target]-enabled page.
 title: How Do I Create a Recommendations Activity?
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="See what's included in Target Premium."
 feature: Recommendations
 exl-id: c83073d5-f852-4f09-8343-e4658fbf6f43
 ---
-# ![PREMIUM](/help/main/assets/premium.png) Create a Recommendations activity
+# Create a Recommendations activity
 
 Use the Target Visual Experience Composer (VEC) to create a Recommendations activity directly on a Target-enabled page and to modify portions of the page within Target.
 

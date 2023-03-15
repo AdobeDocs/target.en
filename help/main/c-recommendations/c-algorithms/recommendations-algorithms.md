@@ -2,11 +2,12 @@
 keywords: recommendations algorithms;model training;model serving;content delivery;item-based;user-based;popularity-based;cart-based;custom criteria
 description: Learn about the algorithms used in [!DNL Target Recommendations], including model training and model serving.
 title: Where Can I Learn About The Science Behind Target's Recommendations Algorithms?
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="See what's included in Target Premium."
 feature: Recommendations
 mini-toc-levels: 2
 exl-id: c156952b-8eda-491d-a68e-d3d09846f640
 ---
-# ![PREMIUM](/help/main/assets/premium.png) The science behind Target's recommendations algorithms
+# The science behind Target's recommendations algorithms
 
 An in-depth description of the algorithms used in [!DNL Adobe Target Recommendations], including the logic and mathematical details of model training and the process of model serving.
 

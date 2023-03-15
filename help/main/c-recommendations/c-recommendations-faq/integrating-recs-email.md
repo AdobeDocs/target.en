@@ -2,10 +2,11 @@
 keywords: email;ESP;email service provider;rawbox;delivery API;download-only template;email template;batch processing;build-time email
 description: Learn how to integrate email with Adobe [!DNL Target Recommendations], including using the [!DNL Target] Delivery API, rawbox templates, and down-load only templates.
 title: How Do I Integrate Recommendations with Email?
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="See what's included in Target Premium."
 feature: Recommendations
 exl-id: 08fcb507-2c91-444a-b8ac-26165e359f6f
 ---
-# ![PREMIUM](/help/main/assets/premium.png) Integrate [!DNL Recommendations] with email
+# Integrate [!DNL Recommendations] with email
 
 [!DNL Adobe Target] supports send-time personalization of recommendations in email. 
 
@@ -19,7 +20,7 @@ Three methods for integrating [!DNL Target Recommendations] with your Email Serv
 
 Using method 1 or method 2 requires your ESP to make calls to an external API on a per-customer/per-email basis and wait for content to be returned. These methods are not supported by all ESPs; contact your ESP to determine if it is compatible with this integration pattern.
  
-Using method 3 requires your ESP to join a list of recommendations by product ID or category ID to your list of emails. This method can be based on an attribute such as the customer’s last viewed product, last purchased product, or most viewed category. However, your ESP must have access to this data in its customer profile in order to perform the join. Contact your ESP to determine if it has access to this data and is compatible with this integration pattern.
+Using method 3 requires your ESP to join a list of recommendations by product ID or category ID to your list of emails. This method can be based on an attribute such as the customer's last viewed product, last purchased product, or most viewed category. However, your ESP must have access to this data in its customer profile in order to perform the join. Contact your ESP to determine if it has access to this data and is compatible with this integration pattern.
  
 Open-time personalization of recommendations is not supported by [!DNL Adobe Target].
 
@@ -118,7 +119,7 @@ https://client_code.tt.omtrdc.net/m2/client_code/ubox/raw?mbox=mbox_name&mboxSes
 
 | Parameter | Value | Description | Validation |
 |--- |--- |--- |--- |
-|`client_code`|*client_code*|The client’s code used in Recommendations. Your Adobe consultant can provide this value.||
+|`client_code`|*client_code*|The client's code used in Recommendations. Your Adobe consultant can provide this value.||
 |`mbox`|*mboxName*|The mbox name that is used for targeting.|Same validation as for all mbox calls.<br>250 character limit.<br>Cannot contain any of the following characters: `', ", %22, %27, <, >, %3C, %3E`|
 |`mboxXDomain`|disabled|Prevents the response from setting a cookie in non-web environments.||
 |`entity.id`<br>(Required for certain types of criteria: view/view, view/bought, bought/bought)|*entity_id*|The productId the recommendation is based on, such as an abandoned product in the cart, or a previous purchase.<br>If required by the criteria, the rawbox call must include the `entity.id`.||
@@ -126,7 +127,7 @@ https://client_code.tt.omtrdc.net/m2/client_code/ubox/raw?mbox=mbox_name&mboxSes
 |`entity.categoryId`<br>(Required for certain types of criteria: most viewed by category and top sellers by category)|*category_id*|The category the recommendation is based on, such as top sellers in a category.<br>If required by the criteria, the rawbox call must include the `entity.categoryId`.||
 |`mboxDefault`|*`https://www.default.com`*|If the `mboxNoRedirect` parameter is not present, `mboxDefault` should be an absolute URL that returns default content if no recommendation is available. This URL can be an image or other static content.<br>If the `mboxNoRedirect` parameter is present, `mboxDefault` can be any text indicating there are no recommendations, for example `no_content`.<br>The email provider must handle the case where this value is returned and insert default HTML into the email. <br> **Security best practice**: If the domain used in the `mboxDefault` URL is not allowlisted, you can be exposed to a risk of an Open Redirect Vulnerability. To avoid the unauthorized use of Redirector links or `mboxDefault` by third parties, Adobe recommends you use "authorized hosts" to allowlist the default redirect URL domains. Target uses hosts to allowlist domains to which you want to allow redirects. For more information, see [Create Allowlists that specify hosts that are authorized to send mbox calls to [!DNL Target]](/help/main/administrating-target/hosts.md#allowlist) in *Hosts*.||
 |`mboxHost`|*mbox_host*|The domain that is added to the default environment (host group) when the call fires.||
-|`mboxPC`|Empty|(Required for recommendations that use a visitor's profile.)<br>If no “thirdPartyId” was provided, a new tntId is generated and returned as part of the response. Otherwise remains empty.<br>**Note**: Be sure to provide a unique value of `mboxSession` and `mboxPC` for each email recipient (i.e., for each API call). If you do not provide unique values for these fields, API response can slow or fail due to the large number of events generated within a single profile.|1 < Length < 128<br>Cannot contain more than a single “.” (dot).<br>The only dot allowed is for profile location suffix.|
+|`mboxPC`|Empty|(Required for recommendations that use a visitor's profile.)<br>If no "thirdPartyId" was provided, a new tntId is generated and returned as part of the response. Otherwise remains empty.<br>**Note**: Be sure to provide a unique value of `mboxSession` and `mboxPC` for each email recipient (i.e., for each API call). If you do not provide unique values for these fields, API response can slow or fail due to the large number of events generated within a single profile.|1 < Length < 128<br>Cannot contain more than a single "." (dot).<br>The only dot allowed is for profile location suffix.|
 
 ### Optional parameters
 

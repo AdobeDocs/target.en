@@ -2,10 +2,11 @@
 keywords: auto-target;targeting;traffic allocation;frequently asked questions;faq;troubleshooting;trouble shooting;traffic
 description: Explore troubleshooting topics and Frequently Asked Questions about Auto-Target activities in Adobe Target.
 title: How Can I Troubleshoot Auto-Target Activities?
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="See what's included in Target Premium."
 feature: Auto-Target
 exl-id: 934f738e-560a-4847-9608-432ecfa2afe7
 ---
-# ![PREMIUM](/help/main/assets/premium.png) Auto-Target FAQs and troubleshooting
+# Auto-Target FAQs and troubleshooting
 
 Troubleshooting and Frequently Asked Questions (FAQs) about [!UICONTROL Auto-Target] activities in [!DNL Adobe Target].
 

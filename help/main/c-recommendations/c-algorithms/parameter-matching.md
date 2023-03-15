@@ -2,10 +2,11 @@
 keywords: inclusion rules;inclusion criteria;recommendations;promotion;promotions;dynamic filtering;dynamic;parameter matching
 description: Learn how to filter dynamically in Adobe [!DNL Target] Recommendations by comparing items (entities) against a value in the request (API or mbox).
 title: How Do I Filter by Parameter Matching In Recommendations Activities?
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="See what's included in Target Premium."
 feature: Recommendations
 exl-id: 9ec161b9-1b37-4475-b508-af676126c817
 ---
-# ![PREMIUM](/help/main/assets/premium.png) Parameter Matching
+# Parameter Matching
 
 Filter dynamically by comparing items (entities) against a value in the request (API or mbox).
 
