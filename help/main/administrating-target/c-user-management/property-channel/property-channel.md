@@ -2,11 +2,12 @@
 keywords: workspaces;manage property;permissions;product configuration;product profile;roles;project
 description: Learn how to create separate workspaces (product profiles) and then assign users different roles and permissions for individual pages, properties, or web sites.
 title: What Are Enterprise User Permissions and How Do I Use Them?
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="See what's included in Target Premium."
 feature: Administration & Configuration
 role: Admin
 exl-id: 838abe87-dba7-4274-97b4-31a7905846dc
 ---
-# ![PREMIUM](/help/main/assets/premium.png) Enterprise user permissions
+# Enterprise user permissions
 
 Enterprise user permissions are a means of formal administering enterprise-wide user access to [!DNL Adobe Target]. Add users to [!DNL Target], assign permissions based on their roles, and create workspaces for teams based on different departments, global locations, channels, and other logical groupings. You can assign users the roles of [!UICONTROL Observer], [!UICONTROL Editor], or [!UICONTROL Approver].
 

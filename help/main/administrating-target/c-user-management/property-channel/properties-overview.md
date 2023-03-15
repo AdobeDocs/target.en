@@ -2,11 +2,12 @@
 keywords: add user;project;user group;properties;workspace;manage property;property;at_property;roles;permissions
 description: Learn how to add users to Adobe Target; create workspaces, user groups, and properties; update your implementation; and specify roles and permissions.
 title: How Do I Configure Enterprise Permissions?
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="See what's included in Target Premium."
 feature: Administration & Configuration
 role: Admin
 exl-id: 6494fc86-d2d3-4382-9d2e-63be435ba935
 ---
-# ![PREMIUM](/help/main/assets/premium.png) Configure enterprise permissions
+# Configure enterprise permissions
 
 Information about the tasks required to add users to your [!DNL Target] implementation; create workspaces, user groups, and properties; update your [!DNL Target] implementation to include the `at_property` parameter; and specify roles and permissions.
 
@@ -136,7 +137,7 @@ To use the [!DNL Target] user-permissions functionality, you must add the `at_pr
 
    There are several ways to update your [!DNL Target] implementation. For example, the following methods can be used for web pages:
 
-    * **Via a “Custom Parameter” in tags within [!DNL Adobe Experience Platform]:**
+    * **Via a "Custom Parameter" in tags within [!DNL Adobe Experience Platform]:**
 
       For more information, see [Add Mbox Params](https://experienceleague.adobe.com/docs/experience-platform/tags/extensions/adobe/target/overview.html?lang=en#add-mbox-params) in the *Tags overview* documentation.
     

@@ -2,10 +2,11 @@
 keywords: recommendations design;create design;copy design
 description: Learn how to create an Adobe [!DNL Target] Recommendations design using a default design or by creating a custom design to best fit the layout of your page.
 title: How Do I Create a Design in Recommendations?
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="See what's included in Target Premium."
 feature: Recommendations
 exl-id: 0f10ee9d-7210-4e02-9342-e4f85cf46e8c
 ---
-# ![PREMIUM](/help/main/assets/premium.png) Create a design 
+# Create a design 
 
 A design defines how recommendations appear on a page.
 
