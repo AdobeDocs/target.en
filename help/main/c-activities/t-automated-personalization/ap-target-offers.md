@@ -2,11 +2,12 @@
 keywords: automated personalization;offers;target;audience;targeting rules;targeting
 description: Learn how to target individual offers to specific audiences by using an Automated Personalization (AP) activity in Adobe Target.
 title: How Can I [!DNL Target] Automated Personalization Offers?
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="See what's included in Target Premium."
 feature: Automated Personalization
 solution: Target,Analytics
 exl-id: 633308dd-437b-4525-a7f8-69656c7d89be
 ---
-# ![PREMIUM](/help/main/assets/premium.png) [!DNL Target] Automated Personalization offers
+# [!DNL Target] Automated Personalization offers
 
 In an [!DNL Adobe Target] [!DNL Automated Personalization] (AP) activity, you can target offers to specific audiences.
 

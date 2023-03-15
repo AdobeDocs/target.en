@@ -2,10 +2,11 @@
 keywords: catalog search;catalog;search;exclusion;collection;filter
 description: Learn how to use the Recommendations Catalog Search to locate products or content, create collections or exclusions, remove items from your catalog, and more.
 title: How Do I Use the Recommendations Catalog Search?
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="See what's included in Target Premium."
 feature: Recommendations
 exl-id: 925fea97-e2c5-4883-84e3-fd357a8ee8d9
 ---
-# ![PREMIUM](/help/main/assets/premium.png) Catalog Search
+# Catalog Search
 
 The [!UICONTROL Catalog Search] page in [!DNL Adobe Recommendations] helps you locate the products or content in your catalog. The most basic task you can perform on this page is to search for an item. In addition, you can change the environment, save search results to collections or exclusions, add filter facets, and modify columns in the table, add new search facets, and more.
 

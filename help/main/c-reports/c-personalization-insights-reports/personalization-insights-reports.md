@@ -2,10 +2,11 @@
 keywords: Targeting;AP reports;automated personalization reports;auto-target;auto target;auto target report;auto-target report;personalization;insights;automated segments;faq;frequently asked questions;important attributes
 description: Learn how to use the specialized reports for Automated Personalization (AP) and Auto-Target (AT) activities - Automated Segments and Important Attributes.
 title: How Do I Use the Personalization Insights Reports?
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="See what's included in Target Premium."
 feature: Reports
 exl-id: 89295d95-f179-4277-ae63-453350e1bba8
 ---
-# ![PREMIUM](/help/main/assets/premium.png) Personalization Insights reports
+# Personalization Insights reports
 
 Two specialized reports are available to users of [!UICONTROL Automated Personalization] (AP) and [!UICONTROL Auto-Target] (AT) activities: the [!UICONTROL Automated Segments] and [!UICONTROL Important Attributes] reports.
 
@@ -40,7 +41,7 @@ Two [!UICONTROL Personalization Insights] reports are available:
 
 There are two types of attributes represented in [!UICONTROL Personalization Insights] reports that are used in your AP or Auto Target models:
 
-* **Attributes automatically collected by Target:** [!DNL Target] uses a base data set to build its personalization algorithms in AP and AT activities that are reflected in Personalization Insights. See [Data Collection for Target's Personalization Algorithms](/help/main/c-activities/t-automated-personalization/ap-data.md) for data types, example attributes, and their [!UICONTROL Personalization Insights] naming convention. Note that although these attributes are considered, an individual activity’s models might not use all of these attributes in the final model. 
+* **Attributes automatically collected by Target:** [!DNL Target] uses a base data set to build its personalization algorithms in AP and AT activities that are reflected in Personalization Insights. See [Data Collection for Target's Personalization Algorithms](/help/main/c-activities/t-automated-personalization/ap-data.md) for data types, example attributes, and their [!UICONTROL Personalization Insights] naming convention. Note that although these attributes are considered, an individual activity's models might not use all of these attributes in the final model. 
 * **Attributes passed to Target:** See [Uploading Data for the Target Personalization Algorithms](/help/main/c-activities/t-automated-personalization/uploading-data-for-the-target-personalization-algorithms.md).
 
 [!DNL Target] provides many ways for you to pass in additional data to [!DNL Target] to enrich the base data set used to build its personalization algorithms in AP and AT activities:
@@ -48,12 +49,12 @@ There are two types of attributes represented in [!UICONTROL Personalization Ins
 | Data Type | Description | Data Type Naming Convention |
 |--- |--- |--- |
 |Profile Attributes, including profile scripts, Profile Update API, and in-page profile attributes|Any information you've decided to include in Target's user profile.<br>This information could come from profile scripts, information uploaded using the Profile Update API, or in-mbox profile parameters prefixed with "profile."|`Custom - Profile - [parameter name]`|
-|Page Parameters (also called “mbox parameters”)|Name/value pairs passed in directly through page code that are not stored in the visitor's profile for future use.|`Custom - Mbox Parameter - [parameter name]`|
+|Page Parameters (also called "mbox parameters")|Name/value pairs passed in directly through page code that are not stored in the visitor's profile for future use.|`Custom - Mbox Parameter - [parameter name]`|
 |Customer Attributes|Customer attributes let you upload visitor profile data via FTP to the Experience Cloud. Once uploaded, leverage the data in Adobe Analytics and Adobe Target.|`Custom - Customer Attributes - [parameter name]`|
 |Shared Audiences (Adobe Audience Manager or Adobe Analytics)|Audiences created through Adobe Audience Manager or Adobe Analytics and shared with Target.|`Custom - Experience Cloud Segment - [segment name]`|
 |Shared Audiences (Adobe Experience Platform/Real-time CDP)|Audiences created through Adobe Experience Platform/Real-time CDP and shared with Target via Destinations.|`Custom - Adobe Experience Platform Segment - [segment name]`|
 |Shared Attributes (Adobe Experience Platform/Real-time CDP)|Attributes created through Adobe Experience Platform/Real-time CDP and shared with Target via Destinations. This feature is currently in Beta.|`Custom - Adobe Experience Platform Attribute - [attribute name]]`|
-|In-Activity Reporting Audiences/ Segments|Audiences defined in your AP or Auto Target activity during setup in “Goals & Metrics.”|`Custom - Reporting Segment - [segment name]`|
+|In-Activity Reporting Audiences/ Segments|Audiences defined in your AP or Auto Target activity during setup in "Goals & Metrics."|`Custom - Reporting Segment - [segment name]`|
 
 ## Frequently Asked Questions
 

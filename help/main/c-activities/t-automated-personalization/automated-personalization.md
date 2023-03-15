@@ -2,10 +2,11 @@
 keywords: automated personalization;ap;audiences;ensemble;random forest;multi-armed bandit;thompson sampling;ml;machine learning
 description: Learn how to use Automated Personalization (AP) activities in Adobe [!DNL Target] that use advanced machine learning to match different offer variations to each visitor.
 title: What is an Automated Personalization (AP) Activity?
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="See what's included in Target Premium."
 feature: Automated Personalization
 exl-id: 3654dce4-0d6c-42a3-8be7-e081ec478075
 ---
-# ![PREMIUM](/help/main/assets/premium.png) Automated Personalization (AP)
+# Automated Personalization (AP)
 
 [!UICONTROL Automated Personalization] (AP) activities in [!DNL Adobe Target] combine offers or messages, and uses advanced machine learning to match different offer variations to each visitor based on their individual customer profile, in order to personalize content and drive lift.
 
@@ -17,7 +18,7 @@ Similarly to [!UICONTROL Auto-Target], [!UICONTROL Automated Personalization] us
 
 To find more information about how [!UICONTROL Automated Personalization] differs from [!UICONTROL Auto-Target], see [Auto-Target](/help/main/c-activities/auto-target/auto-target-to-optimize.md).
 
-Marketers implement one file on their site, which enables them to point and click on any content and then visually create and select additional content options for that area using the VEC ([!UICONTROL Visual Experience Composer]). Then, the algorithm automatically determines which piece of content to deliver to each individual visitor based on all the behavioral data that the system has about that visitor, providing a personalized experience. Because [!UICONTROL Automated Personalization] can adapt to changes in visitor behavior, it can be run without a set end date to provide ongoing lift and personalization. This is sometimes referred to as “always-on” mode. The marketer does not need to run a test, analyze the results, then deliver a winner before realizing the lift found from optimization, which is a standard order of operations to implement the outcome of a standard A/B activity.
+Marketers implement one file on their site, which enables them to point and click on any content and then visually create and select additional content options for that area using the VEC ([!UICONTROL Visual Experience Composer]). Then, the algorithm automatically determines which piece of content to deliver to each individual visitor based on all the behavioral data that the system has about that visitor, providing a personalized experience. Because [!UICONTROL Automated Personalization] can adapt to changes in visitor behavior, it can be run without a set end date to provide ongoing lift and personalization. This is sometimes referred to as "always-on" mode. The marketer does not need to run a test, analyze the results, then deliver a winner before realizing the lift found from optimization, which is a standard order of operations to implement the outcome of a standard A/B activity.
 
 The following terms are useful when discussing [!UICONTROL Automated Personalization]:
 
@@ -25,7 +26,7 @@ The following terms are useful when discussing [!UICONTROL Automated Personaliza
 |---|---|
 |Multi-armed bandit| A multi-armed bandit approach to optimization balances exploratory learning and exploitation of that learning.  |
 |Random Forest|Random Forest is a leading machine learning approach. In data-science speak, it is an ensemble classification or regression method that works by constructing a large number of decision trees based on visitor and visit attributes. Within Target, Random Forest is used to determine which experience is expected to have the highest likelihood of conversion (or highest revenue per visit) for each specific visitor. For more information about Random Forest in Target, see [Random Forest Algorithm](/help/main/c-activities/t-automated-personalization/algo-random-forest.md).  |
-|Thompson Sampling|The goal of Thompson Sampling is to determine which experience is the best overall (non-personalized), while minimizing the “cost” of finding that experience. Thompson sampling always picks a winner, even if there is no statistical difference between two experiences. For more information, see [Thompson Sampling](https://en.wikipedia.org/wiki/Thompson_sampling).  |
+|Thompson Sampling|The goal of Thompson Sampling is to determine which experience is the best overall (non-personalized), while minimizing the "cost" of finding that experience. Thompson sampling always picks a winner, even if there is no statistical difference between two experiences. For more information, see [Thompson Sampling](https://en.wikipedia.org/wiki/Thompson_sampling).  |
 
 Consider the following details when using [!UICONTROL Automated Personalization]:
 
@@ -41,7 +42,7 @@ Random Forest is a leading machine learning approach. In data-science speak, it 
 
 **The personalization model adapts to changes in visitor behavior.**
 
-* The multi-arm bandit ensures that the model is always “spending” a small fraction of traffic to continue learning throughout the life of the activity, and to prevent over-exploitation of previously learned trends. 
+* The multi-arm bandit ensures that the model is always "spending" a small fraction of traffic to continue learning throughout the life of the activity, and to prevent over-exploitation of previously learned trends. 
 * The underlying models are re-built every 24 hours using the latest visitor behavior data to ensure Target is always leveraging changing visitor preferences. 
 * If the algorithm can't determine winning experiences for individual visitors, it automatically switches to showing the overall best-performing experience, while still continuing to look for personalized winners. The best-performing experience is found using [Thompson Sampling](https://en.wikipedia.org/wiki/Thompson_sampling).
 
@@ -55,7 +56,7 @@ Random Forest is a leading machine learning approach. In data-science speak, it 
 
 **Target automatically uses all [!DNL Adobe Experience Cloud] shared audiences to build the personalization models.**
 
-* You don’t have to do anything specific to add audiences to the model. For information about using [!DNL Experience Cloud Audiences] with [!DNL Target], see [Experience Cloud Audiences](/help/main/c-integrating-target-with-mac/mmp.md).
+* You don't have to do anything specific to add audiences to the model. For information about using [!DNL Experience Cloud Audiences] with [!DNL Target], see [Experience Cloud Audiences](/help/main/c-integrating-target-with-mac/mmp.md).
 
 **Marketers can upload offline data, propensity scores or other custom data to build personalization models.**
 

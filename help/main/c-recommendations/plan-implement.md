@@ -2,10 +2,11 @@
 keywords: Recommendations;settings;preferences;industry vertical;filter incompatible criteria;default host group;thumb base url;recommendations api token
 description: Learn how to implement Recommendations activities in Adobe Target. 
 title: How Do I Implement Recommendations Activities?
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="See what's included in Target Premium."
 feature: Recommendations
 exl-id: b6edb504-a8b6-4379-99c1-6907e71601f9
 ---
-# ![PREMIUM](/help/main/assets/premium.png) Plan and implement [!DNL Recommendations] 
+# Plan and implement [!DNL Recommendations] 
 
 Before you start using [!DNL Adobe Target Recommendations], you must complete several steps.
 
