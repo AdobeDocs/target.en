@@ -17,6 +17,39 @@ Release notes are arraigned in descending order by month and year of release.
 
 ## Release notes - 2023
 
+### [!DNL Target] Standard/Premium 22.15.1 (March 8 & 9, 2023)
+
+This release will be available according to the following staggered schedule:
+
+* **March 8**: Americas region
+* **March 9**: Europe, Middle East, and Africa (EMEA) region
+* **March 9**: Asia-Pacific (APAC) region
+
+>[!NOTE]
+>
+>Due to issues that have since been fixed, the "Optimized A4T metrics for [!UICONTROL Auto-Allocate] and [!UICONTROL Auto-Target]" feature that was released on March 8 & 9 has been temporarily removed. After further internal testing, the feature will be released again in the next few weeks.
+
+This release contains the following fixes:
+
+* Updates for custom web components authoring with the [!UICONTROL Visual Experience Composer] (VEC):
+
+  * Fixed Shadow DOM elements selection in the VEC by improving the authoring process so there is no dependency on the [!DNL Target] implementation type when authoring the shadow root. Now, selecting Shadow DOM elements in the VEC should work for any website.
+  * Fixed an issue that prevented loading HTML elements using #Shadow DOM in the VEC. (TGT-35801)
+  * Fixed VEC issues with SPA websites using ShadowDOM. (TGT-43169)
+  * Fixed an issue with the Optimization Goal: "clicked an element" that did not properly identify the CSS selector in ShadowDOM.
+
+>[!NOTE]
+>
+>To ensure delivery of the changes authored in the VEC, ensure that you are using a [!DNL Target] SDK ([at.js](https://developer.adobe.com/target/implement/client-side/atjs/target-atjs-versions/){target=_blank} or [Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/release-notes.html){target=_blank} (alloy.js)) with a version greater than 2.8.
+
+**Known issue**: Click-tracking on a shadow root element when using [!DNL Adobe Experience Platform Web SDK] is not working correctly. (TNT-47012)
+
+### at.js version 2.10.2 (March 7, 2023)
+
+* Fixed an issue that caused the `trackEvent` function to always return an error.
+
+For information about all at.js releases, see [at.js version details](https://developer.adobe.com/target/implement/client-side/atjs/target-atjs-versions/){target=_blank} in the [Adobe Target Developer Guide](https://developer.adobe.com/target/){target=_blank}.
+
 ### [!DNL Target] Standard/Premium 22.14.5 (February 13-15, 2023)
 
 This release will be available according to the following staggered schedule:
