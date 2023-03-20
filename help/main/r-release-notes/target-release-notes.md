@@ -43,7 +43,7 @@ This release contains the following new features, enhancements, and fixes:
 * Updated links in the [!DNL Target] UI to point to the new [Visual Editing Helper extension](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/visual-editing-helper-extension.md). (TGT-44459)
 * Enhanced security to prevent Server-Side Request Forgery (SSRF) attempts in [!DNL Recommendations] feeds. (TGT-43769)
 * Fixed an issue that prevented customers from viewing preview images in [!DNL Recommendations] designs if the image name contains [GB18030 characters](https://en.wikipedia.org/wiki/GB_18030){target=_blank}. (TGT-44614)
-* Fixed an issue that caused some [GB18030 characters](https://en.wikipedia.org/wiki/GB_18030){target=_blank} to be escaped in the [!UICONTROL Modifications] panel while editing [!UICONTROL Text/HTML] on an activity's [!UICONTROL Experiences] page. 
+* Fixed an issue that caused some [GB18030 characters](https://en.wikipedia.org/wiki/GB_18030){target=_blank} to be escaped in the [!UICONTROL Modifications] panel while editing [!UICONTROL Text/HTML] on an activity's [!UICONTROL Experiences] page. (TGT-44600)
 * Made various localization fixes throughout the [!DNL Target] UI.
 
 
