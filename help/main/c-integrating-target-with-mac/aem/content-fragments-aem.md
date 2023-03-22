@@ -28,7 +28,7 @@ Contact [Adobe Target Customer Care](/help/main/cmp-resources-and-contact-inform
 
 ## Configuring and working with [!UICONTROL Content Fragments] in [!DNL AEM] {#section_745C8EFE29F547A2958FDBF61A5ADF7B}
 
-In order to export [!UICONTROL Content Fragments] to use in [!DNL Target] activities, you must perform some preliminary steps in AEM. For more information, see [Exporting Content Fragments to Adobe Target](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/sites/integrations/content-fragments-target.html){target=_blank} in the [Experience Manager as a Cloud Service documentation](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/home.html){target=_blank}.
+To export [!UICONTROL Content Fragments] to use in [!DNL Target] activities, you must perform some preliminary steps in AEM. For more information, see [Exporting Content Fragments to Adobe Target](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/sites/integrations/content-fragments-target.html){target=_blank} in the [Experience Manager as a Cloud Service documentation](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/home.html){target=_blank}.
 
 For information about designing, creating, curating, and publishing [!UICONTROL Content Fragments], see [[!UICONTROL Content Fragments]](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/sites/authoring/fundamentals/content-fragments.html?lang=en){target=_blank} and [Working with Content Fragments](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/sites/administering/content-fragments/content-fragments.html){target=_blank} in the [Experience Manager as a Cloud Service documentation](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/home.html){target=_blank}.
 
@@ -40,7 +40,7 @@ After performing the preceding tasks, the [!UICONTROL Content Fragment] displays
 
 The [!UICONTROL Content Fragment] is imported into [!DNL Target] as a JSON offer. That [!UICONTROL Content Fragment] "primary" version remains in [!DNL AEM]. You cannot edit the [!UICONTROL Content Fragment] in [!DNL Target].
 
-You can filter and search by [!UICONTROL HTML XFs], [!UICONTROL JSON XFs] and [!UICONTROL Content Fragments] to help you distinguish between different offers types that are exported to [!DNL Target].
+You can filter and search by [!UICONTROL HTML XFs], [!UICONTROL JSON XFs], and [!UICONTROL Content Fragments] to help you distinguish between different offers types that are exported to [!DNL Target].
 
 ![Filter by Content Fragment types: HTML or JSON in the Target UI](/help/main/c-integrating-target-with-mac/aem/assets/fragment-types.png)
 
