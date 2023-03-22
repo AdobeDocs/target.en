@@ -2,10 +2,11 @@
 keywords: Targeting;AP reports;automated personalization reports;auto-target;auto target;auto target report;auto-target report;personalization;insights;automated segments;faq;frequently asked questions
 description: Learn how different segments defined by Adobe [!DNL Target] personalization models respond to offers/experiences in the activity by viewing the Automated Segments report.
 title: What Is the Automated Segments Report?
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="See what's included in Target Premium."
 feature: Reports
 exl-id: d21517b7-770b-4618-9899-7ac4948c2a8b
 ---
-# ![PREMIUM](/help/main/assets/premium.png) [!UICONTROL Automated Segments] report
+# [!UICONTROL Automated Segments] report
 
 Information about the [!UICONTROL Automated Segments] report, one of the two specialized reports available to users of [!UICONTROL Automated Personalization] (AP) and [!UICONTROL Auto-Target] (AT) activities.
 

@@ -2,10 +2,11 @@
 keywords: Targeting;AP reports;automated personalization reports;auto-target;auto target;auto target report;auto-target report;personalization;insights;faq;frequently asked questions;important attributes
 description: Learn how to use the [!UICONTROL Important Attributes] report that shows the top attributes that influenced the personalization model and their relative importance.
 title: What Is the Important Attributes Report?
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="See what's included in Target Premium."
 feature: Reports
 exl-id: c1069ca7-e221-4865-a82e-6cff5b4c0055
 ---
-# ![PREMIUM](/help/main/assets/premium.png) Important Attributes report
+# Important Attributes report
 
 Information about the [!UICONTROL Important Attributes] report, one of the two specialized reports available to users of [!UICONTROL Automated Personalization] (AP) and [!UICONTROL Auto-Target] (AT) activities.
 

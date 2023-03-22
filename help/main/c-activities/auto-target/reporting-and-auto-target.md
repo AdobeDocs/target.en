@@ -2,9 +2,10 @@
 keywords: auto-target;targeting;traffic allocation;frequently asked questions;faq;troubleshooting;trouble shooting;reporting;reports;auto-target summary report;summary report;automated segments;important attributes
 description: Learn how to interpret [!UICONTROL Auto-Target] activity reports in [!DNL Target].
 title: How Do I Interpret an [!UICONTROL Auto-Target] Report?
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="See what's included in Target Premium."
 feature: Auto-Target
 ---
-# ![PREMIUM](/help/main/assets/premium.png) Reporting and [!UICONTROL Auto-Target]
+# Reporting and [!UICONTROL Auto-Target]
 
 Information about how to interpret the [!UICONTROL Auto-Target Summary] reports in [!DNL Adobe Target], including the [!UICONTROL Automated Segments] and [!UICONTROL Important Attributes] reports.
 

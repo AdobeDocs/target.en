@@ -2,6 +2,7 @@
 keywords: implement;implementing
 description: Understand basic concepts, be familiar with how [!DNL Target] works and integrates with your infrastructure, and understand how visitors are tracked.
 landing-page-description: Before you start using Adobe Target, you must implement it on your site.
+short-description: Before you start using Adobe Target, you must implement it on your site.
 title: How Do I Implement [!DNL Target]?
 feature: Implementation
 role: Developer

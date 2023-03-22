@@ -2,10 +2,11 @@
 keywords: criteria;algorithm;industry vertical;page type;recommendation key;recommendation logic;logic;data range;lookback window;behavior data source;partial design;backup recommendations;inclusion rules;attribute weighting;current category;custom attribute;last purchased item;last viewed item;most viewed item;most viewed item;favorite category;popularity;recently viewed item;last purchased;last viewed;most viewed;favorite;recently viewed
 description: Learn how to create criteria that controls the content of your Adobe Recommendations activities to show the recommendations that are most appropriate for your activity.
 title: How Do I Create Criteria in Recommendations?
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="See what's included in Target Premium."
 feature: Recommendations
 exl-id: 3f4f59b2-6637-4c33-bf17-bff11bef7173
 ---
-# ![PREMIUM](/help/main/assets/premium.png) Create criteria
+# Create criteria
 
 Criteria in [!UICONTROL Adobe Target] [!UICONTROL Recommendations] control the content of your [!UICONTROL Recommendations] activities. Create criteria to show the recommendations that are most appropriate for your activity. These criteria use the visitor's actions to determine which content or products to display.
 
@@ -210,7 +211,7 @@ The inclusion rules are joined with an AND. All rules must be met to include an 
 
 To create a simple inclusion rule, as mentioned previously, to display only women's shoes that have an inventory of more than 50 and a price between $25 and $45, perform the following steps: 
 
-1. (Conditional) Slide the **[!UICONTROL Allow recently purchased items to be recommended?]** toggle to the “on” position.
+1. (Conditional) Slide the **[!UICONTROL Allow recently purchased items to be recommended?]** toggle to the "on" position.
 
    This setting is based on the `productPurchasedId`. The default behavior is to not recommend previously purchased items. In most cases you do not want to promote items a customer has recently purchased. It is useful if you sell items that people typically purchase only once, such as kayaks. If you sell items that people come back to purchase again on a repeated basis, such as shampoo or other personal items, you should enable this option.
 

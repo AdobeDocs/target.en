@@ -2,10 +2,11 @@
 keywords: random forest;decision tree;ap;Automated Personalization
 description: Learn how Adobe [!DNL Target] uses the Random Forest algorithm in both Automated Personalization (AP) and Auto-Target activities.
 title: How Does [!DNL Target] Use the Random Forest Algorithm?
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="See what's included in Target Premium."
 feature: Automated Personalization
 exl-id: 07a89525-4071-4434-ac96-c59a4f4422ad
 ---
-# ![PREMIUM](/help/main/assets/premium.png) Random Forest algorithm
+# Random Forest algorithm
 
 Target's main personalization algorithm used in both Automated Personalization and Auto-Target is Random Forest. Ensemble methods like Random Forest use multiple learning algorithms to obtain better predictive performance than could be obtained from any of the constituent learning algorithms. The Random Forest algorithm in Automated Personalization is a classification or regression method that operates by constructing a multitude of decision trees when it is being trained.
 
