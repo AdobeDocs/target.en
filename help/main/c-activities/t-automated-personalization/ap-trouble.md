@@ -2,10 +2,11 @@
 kewords: Automated Personalization;ap;troublshoot;troubleshooting;model;lift
 description: Explore potential challenges you might face while using Automated Personalization (AP) activities in Adobe Target, along with suggested solutions.
 title: How Do I Troubleshoot Automated Personalization?
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="See what's included in Target Premium."
 feature: Automated Personalization
 exl-id: bc23e5db-5b65-44be-be45-c972287a64e7
 ---
-# ![PREMIUM](/help/main/assets/premium.png) Troubleshoot Automated Personalization
+# Troubleshoot Automated Personalization
 
 Sometimes activities don't go as expected. Here are some potential challenges you might face while using Automated Personalization, and some suggested solutions.
 

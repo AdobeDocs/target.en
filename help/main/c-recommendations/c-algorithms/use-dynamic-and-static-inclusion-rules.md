@@ -2,11 +2,12 @@
 keywords: inclusion rules;inclusion criteria;recommendations;create new criteria;promotion;promotions;dynamic filtering;dynamic;empty values;ignore filtering rule;static filter;filter by value;entity attribute matching;profile attribute matching;parameter matching;filter by value;static filter
 description: Learn how to create inclusion rules in Adobe [!DNL Target] Recommendations for criteria and promotions. To achieve better results, add more dynamic or static filtering rules.
 title: How Do I Use Dynamic and Static Inclusion Rules in Recommendations?
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="See what's included in Target Premium."
 feature: Recommendations
 mini-toc-levels: 3
 exl-id: 49b20e75-ee55-4239-94a0-6d175e2d4811
 ---
-# ![PREMIUM](/help/main/assets/premium.png) Use dynamic and static inclusion rules
+# Use dynamic and static inclusion rules
 
 Information about creating inclusion rules for criteria and promotions in [!DNL Adobe Target] and adding dynamic or static filtering rules to achieve better results for your recommendations.
 
@@ -34,7 +35,7 @@ The following sections list the types of filtering options for [!UICONTROL Dynam
 
 Dynamic inclusion rules are more powerful than static inclusion rules and they yield better results and engagement. Consider the following:
 
-* Dynamic inclusion rules deliver recommendations by matching an attribute in a user’s profile parameter or in an mbox call.
+* Dynamic inclusion rules deliver recommendations by matching an attribute in a user's profile parameter or in an mbox call.
 
   For example, you can create a "Most Popular Criteria" recommendation. From the set of returned recommendations, you can filter out any recommendations (in real time) against an attribute passed when the user accesses a page where the recommendations are displayed.
 
@@ -47,7 +48,7 @@ The following options are available for dynamic filtering:
 |Dynamic filtering option|Details|
 | --- | --- |
 |[Entity Attribute Matching](/help/main/c-recommendations/c-algorithms/entity-attribute-matching.md)|Filter dynamically by comparing a pool of potential recommendations items to a specific item that the users have interacted with.<br>Use [!UICONTROL Entity Attribute Matching] when you want to show recommendations most likely to appeal to the visitor, such as the visitor's favorite brand.|
-|[Profile Attribute Matching](/help/main/c-recommendations/c-algorithms/profile-attribute-matching.md)|Filter dynamically by comparing items (entities) against a value in the user's profile.<br>Use [!UICONTROL Profile Attribute Matching] when you want to show recommendations that match a value stored in the visitor’s profile, such as size or favorite brand.|
+|[Profile Attribute Matching](/help/main/c-recommendations/c-algorithms/profile-attribute-matching.md)|Filter dynamically by comparing items (entities) against a value in the user's profile.<br>Use [!UICONTROL Profile Attribute Matching] when you want to show recommendations that match a value stored in the visitor's profile, such as size or favorite brand.|
 |[Parameter Matching](/help/main/c-recommendations/c-algorithms/parameter-matching.md)|Filter dynamically by comparing items (entities) against a value in the request (API or mbox).<br>Use [!UICONTROL Parameter Matching] to recommend content that matches the page parameters or the visitor's parameters, such as device dimensions or geo-location.|
 
 ### Filter by Value

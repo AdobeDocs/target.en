@@ -2,10 +2,11 @@
 keywords: Recommendations;Settings;name;objective;priority;duration;reporting settings;other metadata
 description: Learn how to configure the settings used to describe and control a Recommendations activity in Adobe Target.
 title: How Do I Configure Recommendations Activity Settings?
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="See what's included in Target Premium."
 feature: Recommendations
 exl-id: 77bb14fc-342d-41cd-8084-e21067f277af
 ---
-# ![PREMIUM](/help/main/assets/premium.png) Recommendations Activity settings
+# Recommendations Activity settings
 
 Information about the settings you can use to describe and control a [!UICONTROL Recommendations] activity in [!DNL Adobe Target].
 

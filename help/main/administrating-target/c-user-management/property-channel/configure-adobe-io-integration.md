@@ -2,11 +2,12 @@
 keywords: integration;roles;user permissions;admin console
 description: Learn how to grant existing Adobe I/O integrations access to all workspaces with the desired role in Adobe Target.
 title: How Do I Grant Adobe I/O Access to Workspaces and Assign Roles?
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="See what's included in Target Premium."
 feature: Administration & Configuration
 role: Admin
 exl-id: 62f6399f-c590-470c-ac3b-e0c84db63112
 ---
-# ![PREMIUM](/help/main/assets/premium.png) Grant Adobe I/O integrations access to workspaces and assign roles
+# Grant Adobe I/O integrations access to workspaces and assign roles
 
 [!UICONTROL Enterprise Permissions] allows [!DNL Target] customers to use a single organization, but divide it into workspaces for their different teams or workflows.
 

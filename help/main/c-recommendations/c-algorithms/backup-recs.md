@@ -2,10 +2,11 @@
 keywords: recommendation;backup;back up
 description: Learn how to use backup recommendations in Adobe [!DNL Target] Recommendations. Recommendation that do not have enough recommended items displays the results of the backup algorithm.
 title: How Do I Use a Backup Recommendation in Recommendations?
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="See what's included in Target Premium."
 feature: Recommendations
 exl-id: 070aa8ef-5691-4106-b5cf-45eb9f6f334c
 ---
-# ![PREMIUM](/help/main/assets/premium.png) Use a backup recommendation
+# Use a backup recommendation
 
 If you use the backup recommendation feature in Adobe Target, any recommendation that does not have enough recommended items will not display default content. Instead, recommendations display the results of the backup algorithm.
 

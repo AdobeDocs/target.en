@@ -2,10 +2,11 @@
 keywords: inclusion rules;inclusion criteria;recommendations;promotion;promotions;dynamic filtering;dynamic;entity attribute matching
 description: Learn how to filter dynamically in Adobe [!DNL Target] Recommendations by comparing a pool of potential items to a specific item that the user has interacted with.
 title: How Do I Filter by Entity Attribute Matching In Recommendations Activities?
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="See what's included in Target Premium."
 feature: Recommendations
 exl-id: aadd3132-d590-4dc9-b01b-bedf41bc7441
 ---
-# ![PREMIUM](/help/main/assets/premium.png) Entity Attribute Matching
+# Entity Attribute Matching
 
 Filter dynamically in [!DNL Adobe Target] [!DNL Recommendations] by comparing a pool of potential recommendations items to a specific item that the user has interacted with.
 
@@ -13,7 +14,7 @@ Filter dynamically in [!DNL Adobe Target] [!DNL Recommendations] by comparing a 
 >
 >The [process for creating and using inclusion rules](/help/main/c-recommendations/c-algorithms/use-dynamic-and-static-inclusion-rules.md) for criteria and promotions is similar, as are the use cases and examples.
 
-For example, recommend only items that match the current item’s brand as in the following example:
+For example, recommend only items that match the current item's brand as in the following example:
 
 If the mbox on a Brand Landing Page returns `entity.brand=brandA`, then only Brand A products are returned and displayed on that page. Similarly, on the Brand Landing Page for Brand B, only Brand B products are returned. With this type of dynamic inclusion rule, the user has to only specify one recommendation rule that returns relevant brand results across all brand pages rather than specifying a collection or a static filter to match each brand name.
 
@@ -35,7 +36,7 @@ After your entity attribute rules are built, they will filter out all recommenda
 
 The following example shows recommendations matching product brand shown on the page:
 
-When you visit a page that features a Brand A product, the page sets the value of the `entity.brand` parameter to “BrandA”.
+When you visit a page that features a Brand A product, the page sets the value of the `entity.brand` parameter to "BrandA".
 
 ![Example Target call](/help/main/c-recommendations/c-algorithms/assets/example-target-call.png)
 
@@ -43,7 +44,7 @@ In the recommendations on the page, you will see Brand A products only.
 
 ![Brand A recommendations](/help/main/c-recommendations/c-algorithms/assets/brandA.png)
 
-If you then view a Brand B product page, the `entity.brand` value will be reset to “BrandB” and you will see Brand B products recommended on Brand B product pages.
+If you then view a Brand B product page, the `entity.brand` value will be reset to "BrandB" and you will see Brand B products recommended on Brand B product pages.
 
 ![Brand B recommendations](/help/main/c-recommendations/c-algorithms/assets/brandB.png)
 

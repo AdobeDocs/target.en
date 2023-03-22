@@ -2,10 +2,11 @@
 keywords: product;collections
 description: Learn about entities in Adobe [!DNL Target] Recommendations. Entities refer to the items you want to recommend using [!DNL Target], such as articles, movies, or products.
 title: How Do I use Entities?
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="See what's included in Target Premium."
 feature: Recommendations
 exl-id: ffe23eea-b914-4c86-ad54-c63c1cc1c0d7
 ---
-# ![PREMIUM](/help/main/assets/premium.png) Entities
+# Entities
 
 Entities refer to the items you want to recommend. Entities can be anything such as products, content (such as articles, slide shows, images, movies, and tv shows), job listings, restaurants, and so forth.
 

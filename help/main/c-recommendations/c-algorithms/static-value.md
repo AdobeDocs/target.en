@@ -2,10 +2,11 @@
 keywords: inclusion rules;inclusion criteria;recommendations;promotion;promotions;dynamic filtering;static;static filter
 description: Learn how to manually enter one or more static values to filter using inclusion rules in Adobe [!DNL Target] Recommendations.
 title: How Do I Filter By Static Values In Recommendations Activities?
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="See what's included in Target Premium."
 feature: Recommendations
 exl-id: 217e19bf-521f-4913-9b41-099c9af8b393
 ---
-# ![PREMIUM](/help/main/assets/premium.png) Static Filter
+# Static Filter
 
 Manually enter one or more static values to filter using inclusion rules in [!DNL Adobe Target] [!DNL Recommendations].
 
