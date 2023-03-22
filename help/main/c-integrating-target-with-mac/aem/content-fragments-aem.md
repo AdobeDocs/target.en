@@ -1,5 +1,5 @@
 ---
-keywords: experience;json;aem;adobe experience manager;export to adobe target;content fragments;fragments;CF
+keywords: experience;json;aem;adobe experience manager;export to adobe target;content fragments;fragments;CF;cf
 description: Learn how to use [!DNL Adobe Experience Manager] [!UICONTROL Content Fragments] in [!DNL Adobe Target] activities.
 title: How Do I Use [!DNL Adobe Experience Manager] (AEM) [!UICONTROL Content Fragments]?
 feature: Integrations
