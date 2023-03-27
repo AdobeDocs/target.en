@@ -9,7 +9,7 @@ exl-id: f2783042-f6ee-4f73-b487-ede11d55d530
 
 This article contains prerelease information. Release dates, features, and other information are subject to change without notice. 
 
-**Last Updated: March 20, 2023**
+**Last Updated: March 27, 2023**
 
 To view information about the current release, see [Target Release Notes](release-notes.md). The information on these pages could be the same, depending on the timing of releases. The issue numbers in parentheses are for internal [!DNL Adobe] use.
 
@@ -26,7 +26,7 @@ This release contains the following new features, enhancements, and fixes:
 |Feature|Details|
 |--- |--- |
 |AEM content fragments for headless personalization and experimentation|Use [!DNL Adobe Experience Manager] (AEM) [!UICONTROL Content Fragments] in [!DNL Target] activities. Combine the ease-of-use and power of AEM with powerful Artificial Intelligence (AI) and Machine Learning (ML) capabilities in [!DNL Target] to test and personalize experiences at scale.|
-|Optimized A4T metrics for [!UICONTROL Auto-Allocate] and [!UICONTROL Auto-Target]|[!DNL Target] lets you choose metrics based on binomial events or metrics based on continuous events when using [!UICONTROL A4T] for [!UICONTROL Auto-Allocate] and [!UICONTROL Auto-Target] activities.<P>Be aware of the following change in supported metrics:<ul><li>[!DNL Target] preserved the previous behavior for existing activities until September 9, 2023. After this date, activities using non-supported metrics will be discontinued to force existing activity migration to the new behavior.</li></ul>|
+|Optimized A4T metrics for [!UICONTROL Auto-Allocate] and [!UICONTROL Auto-Target]<p>(Release date March 30, 2023)|[!DNL Target] lets you choose metrics based on binomial events or metrics based on continuous events when using [!UICONTROL A4T] for [!UICONTROL Auto-Allocate] and [!UICONTROL Auto-Target] activities.<P>Be aware of the following change in supported metrics:<ul><li>[!DNL Target] preserved the previous behavior for existing activities until September 9, 2023. After this date, activities using non-supported metrics will be discontinued to force existing activity migration to the new behavior.</li></ul>|
 |[!UICONTROL Auto-Allocate] using [!UICONTROL Analytics for Target] (A4T)|Updated tutorial:<ul><li>[Setting up A4T reports in [!DNL Analysis Workspace] for [!UICONTROL Auto-Allocate] activities](https://experienceleague.adobe.com/docs/target-learn/tutorials/integrations/set-up-a4t-reports-in-analysis-workspace-for-auto-allocate-activities.html){target=_blank}</li></ul>|
 |[!UICONTROL Auto-Target] using [!UICONTROL Analytics for Target] (A4T)|Updated tutorial:<ul><li>[Setting up A4T reports in [!DNL Analysis Workspace] for [!UICONTROL Auto-Target] activities](https://experienceleague.adobe.com/docs/target-learn/tutorials/integrations/set-up-a4t-reports-in-analysis-workspace-for-auto-target-activities.html){target=_blank}</li></ul>|
 
