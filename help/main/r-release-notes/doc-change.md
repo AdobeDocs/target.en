@@ -1,5 +1,5 @@
 ---
-keywords: target documentation change log;documentation updates;new topics;edits;updates;update
+keywords: target documentation change log;documentation updates;new topics;edits;updates;update 
 description: Keep up to date with important additions and changes to the [!DNL Adobe Target] documentation.
 title: Where Can I See Documentation Updates for [!DNL Target]?
 feature: Release Notes
