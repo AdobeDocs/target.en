@@ -88,7 +88,12 @@ feature-set: Target
    + Integrate Target with Adobe Journey Optimizer {#ajo}
       + [Use offer decisions](/help/main/c-integrating-target-with-mac/ajo/offer-decision.md)
    + [Experience Cloud Audiences](/help/main/c-integrating-target-with-mac/mmp.md)
-   + [Integrate Target with Adobe Experience Manager](/help/main/c-integrating-target-with-mac/aem-target-integration.md)
+   + Integrate Target with Adobe Experience Manager {#aem}
+      + [Integrate Target with Adobe Experience Manager (AEM)](/help/main/c-integrating-target-with-mac/aem/aem-target-integration.md)
+      + Experience Fragments and Content Fragments {#fragments}
+         + [AEM Experience Fragments and Content Fragments overview](/help/main/c-integrating-target-with-mac/aem/aem-experience-and-content-fragments.md)
+         + [AEM Experience Fragments](/help/main/c-integrating-target-with-mac/aem/experience-fragments-aem.md)
+         + [AEM Content Fragments](/help/main/c-integrating-target-with-mac/aem/content-fragments-aem.md)
    + [Integrate Target with Adobe Audience Manager](/help/main/c-integrating-target-with-mac/audience-manager-target-integration.md)
    + [Integrate with Real-time Customer Data Platform](/help/main/c-integrating-target-with-mac/integrating-with-rtcdp.md)
    + [Integrate Target with Adobe Campaign](c-integrating-target-with-mac/campaign-and-target.md)
@@ -244,7 +249,7 @@ feature-set: Target
       + [Work with content in the library](c-experiences/c-manage-content/assets-working.md)
       + [Search content](c-experiences/c-manage-content/filter-and-search-content.md)
       + [Pass dynamic data into offers](c-experiences/c-manage-content/passing-profile-attributes-to-the-html-offer.md)
-      + [AEM experience fragments](c-experiences/c-manage-content/aem-experience-fragments.md)
+      + [AEM Experience and Content Fragments](c-experiences/c-manage-content/aem-experience-fragments.md)
 + Reports {#reports}
    + [Reports overview](c-reports/reports.md)
    + Report settings {#settings}

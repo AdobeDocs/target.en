@@ -9,7 +9,7 @@ exl-id: 36d19598-eb46-4be6-a652-658b653287cb
 
 This page lists significant changes made to the [!DNL Adobe Target] product documentation.
 
-## [!DNL Target] Standard/Premium 22.15.1 (March 8 & 9, 2023)
+## [!DNL Target] Standard/Premium 22.15.1 (March 8 & 9, 2023) 
 
 |Date|Topic|Changes|
 | --- | --- | --- |
@@ -24,7 +24,6 @@ This page lists significant changes made to the [!DNL Adobe Target] product docu
 
 |Date|Topic|Changes|
 | --- | --- | --- |
-|February 23|[Migrate Target from at.js 2.*x* to Platform Web SDK](https://experienceleague.adobe.com/docs/platform-learn/migrate-target-to-websdk/introduction.html){target=_blank}|Added new tutorial.|
 |February 21|[Allowlist Target edge nodes](https://developer.adobe.com/target/before-implement/privacy/allowlist-edges/){target=_blank}|Updated list of IP addresses to allowlist for all regions in the [Adobe Target Developer Guide](https://developer.adobe.com/target/){target=_blank}.|
 ||[Modifications](/help/main/c-experiences/c-visual-experience-composer/c-vec-code-editor/vec-code-editor.md)|Added text explaining that the example using JQuery assumes that the customer's website has jQuery available on the page when [!DNL Target] executes the offers.|
 |February 10|[Target release notes (current)](/help/main/r-release-notes/release-notes.md)|Added release notes for the [!DNL Target Standard/Premium] 22.14.5 release.|
