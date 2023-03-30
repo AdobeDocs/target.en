@@ -15,7 +15,6 @@ AEM content fragments for headless personalization and experimentation
 >
 >This feature is scheduled to be released April 6, 2023.
 
-
 >[!NOTE]
 >
 >Consider the following as you work with AEM [!UICONTROL Content Fragments] in [!DNL Target]:
