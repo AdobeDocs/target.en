@@ -25,10 +25,6 @@ This release will be available according to the following staggered schedule:
 * **March 9**: Europe, Middle East, and Africa (EMEA) region
 * **March 9**: Asia-Pacific (APAC) region
 
->[!NOTE]
->
->Due to issues that have since been fixed, the "Optimized A4T metrics for [!UICONTROL Auto-Allocate] and [!UICONTROL Auto-Target]" feature that was released on March 8 & 9 has been temporarily removed. After further internal testing, the feature will be released again in the next few weeks.
-
 This release contains the following fixes:
 
 * Updates for custom web components authoring with the [!UICONTROL Visual Experience Composer] (VEC):
