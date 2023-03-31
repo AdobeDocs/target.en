@@ -1,7 +1,7 @@
 ---
 keywords: system update;troubleshooting;maintenance;system status;update status
-description: View the current status of Adobe [!DNL Target] to help you determine whether problems you might encounter are due to system updates or routine maintenance.
-title: Where Can I view the status of [!DNL Target] and other Adobe Products?
+description: View the status of [!DNL Adobe Target] to help you determine whether problems you might encounter are due to system updates or routine maintenance.
+title: Where Can I view the status of [!DNL Target] and Other [!DNL Adobe] Products?
 feature: Release Notes
 exl-id: 928dc038-0c3b-49e9-91d1-e53cec5dff63
 ---
@@ -11,25 +11,23 @@ Use the [!UICONTROL Adobe System Status] page and proactive notifications to kee
 
 ## System status updates
 
-Use the [!UICONTROL Adobe System Status] page to view the current status of [!DNL Target] and other [!DNL Adobe] products and [!DNL Adobe Experience Cloud] solutions. This page helps you determine whether problems you might encounter are due to system updates or routine maintenance.
+Use the [!UICONTROL Adobe System Status] page to view the status of [!DNL Target] and other [!DNL Adobe] products and [!DNL Adobe Experience Cloud] solutions. This page helps you determine whether problems you might encounter are due to system updates or routine maintenance.
 
-Access the [!UICONTROL System Status] page by going to the following URL:
+>[!NOTE]
+>
+>An in-product notification always displays during the monthly [!DNL Target] release, but minor updates sometimes occur and are listed on this page.
 
-[https://status.adobe.com](https://status.adobe.com)
+1. Access the [[!UICONTROL System Status]](https://status.adobe.com/){target=_blank}.
 
-To see the status of [!DNL Experience Cloud] solutions, including [!DNL Target], click the [!UICONTROL Experience Cloud] tab.
+1. To see the status of [!DNL Experience Cloud] solutions, including [!DNL Target], click the [!UICONTROL Experience Cloud] tab.
 
-![system_status image](assets/system_status.png)
+   ![system_status image](assets/system_status.png)
 
-The top of the page contains information about maintenance events in progress and includes a link to subscribe for updates for individual solutions.
+   The top of the page contains information about maintenance events in progress and includes a link to manage subscriptions for updates for individual solutions.
 
-In the illustration above, [!DNL Adobe Analytics], [!DNL Adobe Target], and [!DNL Adobe Campaign] were undergoing maintenance updates. All other products and solutions were functioning normally. It is always good practice to check this page if you experience problems when using [!DNL Target].
+   In the illustration above, [!DNL Adobe Advertising], [!DNL Adobe Analytics], and [!DNL Adobe Audience Manager] and other solutions recently completed maintenance updates. All other products and solutions were functioning normally. It is always good practice to check this page if you experience problems when using [!DNL Target]. 
 
-An in-product notification always displays during the monthly [!DNL Target] release, but minor updates sometimes occur and are listed on this page.
-
-The bottom of the page contains a calendar of the last seven days with statuses for each solution per day. Hover over a status indicator for more information:
-
-![system_status_indicator image](assets/system_status_indicator.png)
+1. (Optional) Filter the list by products, regions, or by date ranges. Click the [!UICONTROL Major], [!UICONTROL Minor], [!UICONTROL Potential], or [!UICONTROL Maintenance] links to further filter your results.
 
 ## Proactive notifications
 
