@@ -19,17 +19,17 @@ The Adobe Target VEC for SPAs takes advantage of a new concept called Views: a l
 
 To explain further about what Views are, let’s navigate this hypothetical online e-commerce site implemented in React and explore some example Views. Click the links below to open this site in a new browser tab.
 
-**Link: [Home Site](https://target.enablementadobe.com/react/demo/#/)**
+**Link: [Home Site](https://experienceleague.adobe.com/developer/ashop-react-demo/at-js/#/)**
 
 ![home site](/help/main/c-experiences/assets/home.png)
 
 When we navigate to the home site, we can immediately see a hero image that promotes an Easter sale as well as the newest products selling on the site. In this case, a View can be defined as the entire home site. This is handy to note as we will expand on this more in the Implementing Adobe Target Views section below.
 
-**Link: [Product Site](https://target.enablementadobe.com/react/demo/#/products)**
+**Link: [Product Site](https://experienceleague.adobe.com/developer/ashop-react-demo/at-js/#/products)**
 
 ![product site](/help/main/c-experiences/assets/product-site.png)
 
-As we become more interested in the products, we decide to click the Products link. Similar to the home site, the entirety of the products site can be defined as a View. We can name this View "products" just like the path name in `https://target.enablementadobe.com/react/demo/#/products`.
+As we become more interested in the products, we decide to click the Products link. Similar to the home site, the entirety of the products site can be defined as a View. We can name this View "products" just like the path name in `https://experienceleague.adobe.com/developer/ashop-react-demo/at-js/#/products`.
 
 ![product site 2](/help/main/c-experiences/assets/product-site-2.png)
 
@@ -39,7 +39,7 @@ In the beginning of this section, we defined Views as the whole site or even a g
 
 We decide to click on the Load More button to explore more products on the site. The website URL does not change in this case. But a View here can represent only the second row of products shown above. The View name can be called "PRODUCTS-PAGE-2".
 
-**Link: [Checkout](https://target.enablementadobe.com/react/demo/#/checkout)**
+**Link: [Checkout](https://experienceleague.adobe.com/developer/ashop-react-demo/at-js/#/checkout)**
 
 ![check-out page](/help/main/c-experiences/assets/checkout.png)
 
@@ -75,7 +75,7 @@ Now that we have covered what Adobe Target Views are, we can leverage this conce
 
    Now let’s go through some example use cases on how to invoke the `triggerView()` function in React for our hypothetical e-commerce SPA:
 
-   **Link: [Home Site](https://target.enablementadobe.com/react/demo/#/)**
+   **Link: [Home Site](https://experienceleague.adobe.com/developer/ashop-react-demo/at-js/#/)**
 
    ![home-react-1](/help/main/c-experiences/assets/react1.png)
 
@@ -106,7 +106,7 @@ Now that we have covered what Adobe Target Views are, we can leverage this conce
    <Router history={hashHistory} onUpdate={targetView} >
    ```
 
-   **Link: [Products Site](https://target.enablementadobe.com/react/demo/#/products)**
+   **Link: [Products Site](https://experienceleague.adobe.com/developer/ashop-react-demo/at-js/#/products)**
 
    Now, let’s look at an example that is a little bit more complicated. Let’s say as marketers, we would like to personalize the second row of the products by changing the price label color to red after a user clicked on the Load More button.
 
@@ -135,7 +135,7 @@ Now that we have covered what Adobe Target Views are, we can leverage this conce
    }
    ```
 
-   **Link: [Checkout](https://target.enablementadobe.com/react/demo/#/checkout)**
+   **Link: [Checkout](https://experienceleague.adobe.com/developer/ashop-react-demo/at-js/#/checkout)**
 
    ![react checkout](/help/main/c-experiences/assets/react6.png)
 
@@ -383,10 +383,10 @@ Consider this example use-case:
 
 The following changes were made:
 
-* Changed the background color in the Home view, which is located under the URL: [https://target.enablementadobe.com/react/demo/#/](https://target.enablementadobe.com/react/demo/#/).
-* Changed the button color in the Products view, which is located under the URL: [https://target.enablementadobe.com/react/demo/#/products](https://target.enablementadobe.com/react/demo/#/products).
+* Changed the background color in the Home view, which is located under the URL: [https://experienceleague.adobe.com/developer/ashop-react-demo/at-js/#/](https://experienceleague.adobe.com/developer/ashop-react-demo/at-js/#/).
+* Changed the button color in the Products view, which is located under the URL: [https://experienceleague.adobe.com/developer/ashop-react-demo/at-js/#/products](https://experienceleague.adobe.com/developer/ashop-react-demo/at-js/#/products).
 
-With the example above in mind, what would happen when we configure [!UICONTROL Page Delivery] settings to only include: [https://target.enablementadobe.com/react/demo/#/](https://target.enablementadobe.com/react/demo/#/) in an SPA with at.js 2.*x*?
+With the example above in mind, what would happen when we configure [!UICONTROL Page Delivery] settings to only include: [https://experienceleague.adobe.com/developer/ashop-react-demo/at-js/#/](https://experienceleague.adobe.com/developer/ashop-react-demo/at-js/#/) in an SPA with at.js 2.*x*?
 
 ![Page Delivery dialog box](/help/main/c-experiences/assets/spa-page-delivery.png)
 
@@ -396,22 +396,22 @@ The following illustration shows the Target Flow -  Page Load request in at.js 2
 
 **User Journey #1**
 
-* A user navigates directly to [https://target.enablementadobe.com/react/demo/#/](https://target.enablementadobe.com/react/demo/#/).
-* at.js 2.*x* makes a query to the Edge to see if any activity needs to execute for the URL: [https://target.enablementadobe.com/react/demo/#/](https://target.enablementadobe.com/react/demo/#/).
+* A user navigates directly to [https://experienceleague.adobe.com/developer/ashop-react-demo/at-js/#/](https://experienceleague.adobe.com/developer/ashop-react-demo/at-js/#/).
+* at.js 2.*x* makes a query to the Edge to see if any activity needs to execute for the URL: [https://experienceleague.adobe.com/developer/ashop-react-demo/at-js/#/](https://experienceleague.adobe.com/developer/ashop-react-demo/at-js/#/).
 * In step 6, the Target Edge returns the actions for the Home and Products view so that they are cached within the browser.
 
-**Result**: The user sees the green background color in the Home view. When the user then navigates to [https://target.enablementadobe.com/react/demo/#/products](https://target.enablementadobe.com/react/demo/#/products), the blue background color of the button is seen because the action is cached in the browser under the Products view. 
+**Result**: The user sees the green background color in the Home view. When the user then navigates to [https://experienceleague.adobe.com/developer/ashop-react-demo/at-js/#/products](https://experienceleague.adobe.com/developer/ashop-react-demo/at-js/#/products), the blue background color of the button is seen because the action is cached in the browser under the Products view. 
 
-Note: The user navigating to [https://target.enablementadobe.com/react/demo/#/products](https://target.enablementadobe.com/react/demo/#/products) did not trigger a page load.
+Note: The user navigating to [https://experienceleague.adobe.com/developer/ashop-react-demo/at-js/#/products](https://experienceleague.adobe.com/developer/ashop-react-demo/at-js/#/products) did not trigger a page load.
 
 **User Journey #2**
 
-* A user navigates directly to [https://target.enablementadobe.com/react/demo/#/products](https://target.enablementadobe.com/react/demo/#/products).
-* at.js 2.*x* makes a query to the Edge to see if any activity needs to execute for the URL: [https://target.enablementadobe.com/react/demo/#/products](https://target.enablementadobe.com/react/demo/#/products).
-* There are no activities qualified for [https://target.enablementadobe.com/react/demo/#/products](https://target.enablementadobe.com/react/demo/#/products).
+* A user navigates directly to [https://experienceleague.adobe.com/developer/ashop-react-demo/at-js/#/products](https://experienceleague.adobe.com/developer/ashop-react-demo/at-js/#/products).
+* at.js 2.*x* makes a query to the Edge to see if any activity needs to execute for the URL: [https://experienceleague.adobe.com/developer/ashop-react-demo/at-js/#/products](https://experienceleague.adobe.com/developer/ashop-react-demo/at-js/#/products).
+* There are no activities qualified for [https://experienceleague.adobe.com/developer/ashop-react-demo/at-js/#/products](https://experienceleague.adobe.com/developer/ashop-react-demo/at-js/#/products).
 * Because there are no activities qualified, there are no actions and Views to be cached for at.js 2.*x* to trigger from.
 
-**Result**: Even if you have defined `triggerView()` for the Products View and made an action to the Products View through the SPA VEC, you will not see the expected action since you did not create a rule that included [https://target.enablementadobe.com/react/demo/#/products](https://target.enablementadobe.com/react/demo/#/products) in the Page Delivery settings.
+**Result**: Even if you have defined `triggerView()` for the Products View and made an action to the Products View through the SPA VEC, you will not see the expected action since you did not create a rule that included [https://experienceleague.adobe.com/developer/ashop-react-demo/at-js/#/products](https://experienceleague.adobe.com/developer/ashop-react-demo/at-js/#/products) in the Page Delivery settings.
 
 ### Best Practice
 
