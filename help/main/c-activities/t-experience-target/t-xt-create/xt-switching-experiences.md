@@ -9,14 +9,6 @@ exl-id: 8d931764-8ba7-4eac-99db-60659086b8be
 
 Information about the how visitors can switch between experiences in an Experience Targeting (XT) activity as their profiles evolve.
 
->[!NOTE]
->
->**September 21, 2017**
->
->With the release on September 21, 2017, Target changed the way users are placed into experiences in Experience Targeting (XT) activities (Landing Page campaigns in Target Classic). For all new and existing activities, users must meet the experience targeting rules on every impression to continue to see the experience's content and to be counted in reports. Previously, if the user no longer qualified for any experience, the user would continue to see the content from, and be counted in reports for, the last experience they did qualify for.
->
->This change happened automatically as part of the release for all existing activities and for any new activities created post-release. If the previous method (prior to September 21) is desired, you can create audiences using profile scripts so a user only must meet a condition once to continue to fall into that audience in the future. Then, use those audiences for each experience in the activity.
-
 With Experience Targeting, you can control which experience visitors see as their profiles evolve. The following list presents just a few scenarios in which visitors' profiles can evolve and you might want to present different content:
 
 | Scenario | Details |
