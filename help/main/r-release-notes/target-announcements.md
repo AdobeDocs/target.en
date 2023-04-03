@@ -18,7 +18,7 @@ For more information, see the [Adobe Experience Cloud Blog post](https://busines
 ## [!UICONTROL Adobe Target Community] Q&A Coffee Break
 
 * **Wednesday, April 12, 2023**
-* **8:00 to 9:00 a.m. (PDT, GMT -7)
+* **8:00 to 9:00 a.m. (PDT, GMT -7)**
 * **[Registration information](https://adobe.ly/42gQGfv){target=_blank}**
 
 Join Matthew Bailie and Georgia Frailey, both Senior Solutions Consultants for [!DNL Adobe Target], who will chat directly with you about your [!DNL Adobe Target] questions related to [!DNL Target] AI features, specifically [!UICONTROL Automated Personalization] and [!UICONTROL Auto-Target].
