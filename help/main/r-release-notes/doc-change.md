@@ -13,6 +13,7 @@ This page lists significant changes made to the [!DNL Adobe Target] product docu
 
 |Date|Topic|Changes|
 | --- | --- | --- |
+|April 5|[Use offer decisions](/help/main/c-integrating-target-with-mac/ajo/offer-decision.md)|Added text indicating that [!UICONTROL Analytics as the reporting source] (A4t) is not supported in activities that use offer decisions.|
 |April 3|[[!DNL Adobe Target] announcements and events](/help/main/r-release-notes/target-announcements.md)|Added information about the [!UICONTROL Adobe Target Community] Coffee break scheduled for Wednesday, April 12, 2023.|
 ||[Allowlist Target edge nodes](https://developer.adobe.com/target/before-implement/privacy/allowlist-edges/){target=_blank}|Added note to allowlist all [!DNL Adobe Analytics] IP address blocks.|
 |March 30|[Target release notes (current)](/help/main/r-release-notes/release-notes.md)|Updated release notes for the release of the Optimized A4T metrics for [!UICONTROL Auto-Allocate] and [!UICONTROL Auto-Target] feature that lets you you choose metrics based on binomial events or metrics based on continuous events when using [!UICONTROL A4T] for [!UICONTROL Auto-Allocate] and [!UICONTROL Auto-Target] activities.|
