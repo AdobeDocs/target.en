@@ -13,7 +13,7 @@ AEM content fragments for headless personalization and experimentation
 
 >[!NOTE]
 >
->This feature is scheduled to be released April 6, 2023.
+>This feature is scheduled to be released April 12, 2023.
 
 >[!NOTE]
 >
