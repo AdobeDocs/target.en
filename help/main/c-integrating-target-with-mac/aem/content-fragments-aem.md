@@ -7,9 +7,7 @@ feature: Integrations
 ---
 # AEM [!UICONTROL Content Fragments]
 
-Use [!UICONTROL Content Fragments] (CFs) created in [!DNL Adobe Experience Manager] (AEM) in [!DNL Target] activities to aid headless personalization and experimentation. 
-
-AEM content fragments for headless personalization and experimentation
+Use [!UICONTROL Content Fragments] (CFs) created in [!DNL Adobe Experience Manager] (AEM) in [!DNL Target] activities to aid headless personalization and experimentation.
 
 >[!NOTE]
 >
@@ -19,17 +17,17 @@ AEM content fragments for headless personalization and experimentation
 >
 >Consider the following as you work with AEM [!UICONTROL Content Fragments] in [!DNL Target]:
 > 
->* This feature requires that you are an [!DNL Adobe Experience Manager] (AEM) customer. For more information, see [Requirements](#section_AE6F0971E1574B3AA324003599B96E5A) below.
+>* This feature requires that you are an [!DNL Adobe Experience Manager as a Cloud Service] customer. For more information, see [Requirements](#section_AE6F0971E1574B3AA324003599B96E5A) below.
 >
 >* This feature is available for the following activity types: [!UICONTROL A/B Test], [!UICONTROL Auto-Allocate], [!UICONTROL Auto-Target], [!UICONTROL Automated Personalization] (AP), and [!UICONTROL Experience Targeting] (XT). This feature is not available in [!UICONTROL Multivariate Test] (MVT) and [!UICONTROL Recommendations] activities.
 >
->* You can consume [!UICONTROL Content Fragments] in [!DNL Target] activities using the [Form-Based Experience Composer](/help/main/c-experiences/form-experience-composer.md) only. You cannot consume [!UICONTROL Content Fragments] using the [!UICONTROL Visual Experience Composer] (VEC).
+>* You can consume [!UICONTROL Content Fragments] in [!DNL Target] activities using the [Form-Based Experience Composer](/help/main/c-experiences/form-experience-composer.md) only.
 
 To learn more about AEM [!UICONTROL Content Fragments] and [!UICONTROL Experience Fragments], see [AEM [!UICONTROL Experience Fragments] and [!UICONTROL Content Fragments] overview](/help/main/c-integrating-target-with-mac/aem/aem-experience-and-content-fragments.md).
 
 ## Requirements {#requirements}
 
-You must be provisioned with the [!UICONTROL Content Fragments] functionality within [!DNL Target]. In addition, you must be using [!DNL AEM] as a Cloud Service. Your account representative can help ensure that you meet the requirements to use this feature:
+You must be provisioned with the [!UICONTROL Content Fragments] functionality within [!DNL Target]. In addition, you must be using [[!DNL AEM] as a Cloud Service](https://experienceleague.corp.adobe.com/docs/experience-manager-cloud-service.html){target=_blank}. Your account representative can help ensure that you meet the requirements to use this feature:
 
 Contact [Adobe Target Customer Care](/help/main/cmp-resources-and-contact-information.md#reference_ACA3391A00EF467B87930A450050077C) to enable the integration and to provide you with authentication details.
 
