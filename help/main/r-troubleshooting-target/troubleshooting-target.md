@@ -56,7 +56,6 @@ The following sections contain troubleshooting information about activities, sep
 * [Troubleshooting Analytics and Target integration](/help/main/c-integrating-target-with-mac/a4t/c-a4t-troubleshooting/a4t-troubleshooting.md)
 * "Office Hours" video, an initiative led by the Adobe Customer Care team. See [Adobe Analytics as the Reporting Source for Adobe Target (A4T)](/help/main/c-integrating-target-with-mac/a4t/a4t.md).
 * A4T Frequently Asked Questions
-  * [Minimizing inflated Visit and Visitor counts in A4T](/help/main/c-integrating-target-with-mac/a4t/c-a4t-troubleshooting/minimizing-inflated-visit-and-visitor-counts-a4t.md)
   * [Initial provisioning - A4T FAQ](/help/main/c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-initial-provisioning.md)
   * [Activity setup - A4T FAQ](/help/main/c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-activity-setup.md)
   * [Viewing reports - A4T FAQ](/help/main/c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-viewing-reports.md)

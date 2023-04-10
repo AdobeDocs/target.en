@@ -29,7 +29,7 @@ If you break down the "unspecified" row by the "Analytics for Target" dimension 
 
 >[!NOTE]
 >
->Sometimes data displays correctly in reports, but then reverts to "unspecified" because a new activity was added that hasn’t completed classification. Remember that it generally takes from 24 through 72 hours to classify reports after the first save.
+>Sometimes data displays correctly in reports, but then reverts to "unspecified" because a new activity was added that hasn't completed classification. Remember that it generally takes from 24 through 72 hours to classify reports after the first save.
 >
 >No data is lost when listed as "unspecified." The data is properly assigned to the appropriate activity or experience after the classification runs.
 
@@ -37,15 +37,11 @@ If you break down the "unspecified" row by the "Analytics for Target" dimension 
 
 There might be an "[!UICONTROL Unspecified]" events row shown in your report, depending on the metric you use to display your data with.
 
-Typically, this row displays if you choose a common metric in the report that is not [!DNL Target]-specific (for example, [!UICONTROL Page Views], [!UICONTROL Visits], [!UICONTROL Unique Visitors], and so forth). In this case, the [!UICONTROL “Unspecified”] row includes all the [!UICONTROL Page Views], [!UICONTROL Visits], and [!UICONTROL Unique Visitors] that are not associated to [!DNL Target] activities.
+Typically, this row displays if you choose a common metric in the report that is not [!DNL Target]-specific (for example, [!UICONTROL Page Views], [!UICONTROL Visits], [!UICONTROL Unique Visitors], and so forth). In this case, the [!UICONTROL "Unspecified"] row includes all the [!UICONTROL Page Views], [!UICONTROL Visits], and [!UICONTROL Unique Visitors] that are not associated to [!DNL Target] activities.
 
-That row won’t have any [!DNL Target]-associated information (for example, no visitors, visits, or impressions). For more information, see [“Unspecified,” “None,” “Other,” and “Unknown” in reporting](https://experienceleague.adobe.com/docs/analytics/technotes/unspecified.html?lang=en) in the *Analytics tech notes*.
+That row won't have any [!DNL Target]-associated information (for example, no visitors, visits, or impressions). For more information, see ["Unspecified," "None," "Other," and "Unknown" in reporting](https://experienceleague.adobe.com/docs/analytics/technotes/unspecified.html?lang=en) in the *Analytics tech notes*.
 
-If you choose a [!DNL Target]-specific metric in the report, that [!UICONTROL “Unspecified”] row does not display. The only way to avoid having it in the report altogether is to set a [!DNL Target] call on every request sent from that page, which is not common or necessary.
-
-## My Analytics data shows an inflated visit or visitor count since starting A4T. {#section_4BE374E573D44FB7918611699B74F58E}
-
-For more information, see [Minimizing Inflated Visit and Visitor Counts in A4T](/help/main/c-integrating-target-with-mac/a4t/c-a4t-troubleshooting/minimizing-inflated-visit-and-visitor-counts-a4t.md#concept_A515C2DE126E44B6AD97754C2C6D5235).
+If you choose a [!DNL Target]-specific metric in the report, that [!UICONTROL "Unspecified"] row does not display. The only way to avoid having it in the report altogether is to set a [!DNL Target] call on every request sent from that page, which is not common or necessary.
 
 ## Estimated lift in revenue metric does not show correct data. {#section_35D766E5E4D347C39E15D08AA883FBB0}
 

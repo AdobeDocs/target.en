@@ -72,7 +72,6 @@ feature-set: Target
       + [A4T reporting](c-integrating-target-with-mac/a4t/reporting.md)
       + Troubleshooting the Analytics and Target integration (A4T) {#troubleshoot-a4t}
          + [Troubleshoot A4T](c-integrating-target-with-mac/a4t/c-a4t-troubleshooting/a4t-troubleshooting.md)
-         + [Minimizing inflated visit and visitor counts in A4T](c-integrating-target-with-mac/a4t/c-a4t-troubleshooting/minimizing-inflated-visit-and-visitor-counts-a4t.md)
       + A4T Frequently Asked Questions {#a4t-faq}
          + [Initial provisioning - A4T FAQ](c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-initial-provisioning.md)
          + [Activity settings - A4T FAQ](c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-activity-setup.md)
