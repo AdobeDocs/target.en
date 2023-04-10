@@ -1,5 +1,5 @@
 ---
-keywords: troubleshoot target;troubleshooting target
+keywords: troubleshoot target;troubleshooting target;resolve issues
 description: Review a list of topics to help you resolve issues in Adobe Target, including troubleshooting topics, frequently asked questions (FAQs), and other helpful topics.
 title: How do I Troubleshoot Target?
 feature: Troubleshooting
