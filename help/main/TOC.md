@@ -83,16 +83,16 @@ feature-set: Target
          + [Share metrics, audiences, and reports - A4T FAQ](/help/main/c-target/c-troubleshooting-targets-and-audiences/a4t-faq-sharing-metrics-audiences-reports.md)
          + [Legacy SiteCatalyst to Test&Target Integration - A4T FAQ](c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-old-integration.md)
       + [Expected data variances between Target and Analytics when using and not using A4T](c-integrating-target-with-mac/a4t/understanding-expected-data-variances.md)
-   + Integrate Target with Adobe Journey Optimizer {#ajo}
+   + Integrate Target with Adobe Journey Optimizer (AJO) {#ajo}
       + [Use offer decisions](/help/main/c-integrating-target-with-mac/ajo/offer-decision.md)
    + [Experience Cloud Audiences](/help/main/c-integrating-target-with-mac/mmp.md)
-   + Integrate Target with Adobe Experience Manager {#aem}
-      + [Integrate Target with Adobe Experience Manager (AEM)](/help/main/c-integrating-target-with-mac/aem/aem-target-integration.md)
+   + Integrate Target with Adobe Experience Manager (AEM) {#aem}
+      + [Integrate Target with Adobe Experience Manager (AEM) overview](/help/main/c-integrating-target-with-mac/aem/aem-target-integration.md)
       + Experience Fragments and Content Fragments {#fragments}
          + [AEM Experience Fragments and Content Fragments overview](/help/main/c-integrating-target-with-mac/aem/aem-experience-and-content-fragments.md)
          + [AEM Experience Fragments](/help/main/c-integrating-target-with-mac/aem/experience-fragments-aem.md)
          + [AEM Content Fragments](/help/main/c-integrating-target-with-mac/aem/content-fragments-aem.md)
-   + [Integrate Target with Adobe Audience Manager](/help/main/c-integrating-target-with-mac/audience-manager-target-integration.md)
+   + [Integrate Target with Adobe Audience Manager (AAM)](/help/main/c-integrating-target-with-mac/audience-manager-target-integration.md)
    + [Integrate with Real-time Customer Data Platform](/help/main/c-integrating-target-with-mac/integrating-with-rtcdp.md)
    + [Integrate Target with Adobe Campaign](c-integrating-target-with-mac/campaign-and-target.md)
 + Activities {#activities}
