@@ -87,7 +87,7 @@ feature-set: Target
       + [Use offer decisions](/help/main/c-integrating-target-with-mac/ajo/offer-decision.md)
    + [Experience Cloud Audiences](/help/main/c-integrating-target-with-mac/mmp.md)
    + Integrate Target with Adobe Experience Manager (AEM) {#aem}
-      + [Integrate Target with Adobe Experience Manager (AEM) overview](/help/main/c-integrating-target-with-mac/aem/aem-target-integration.md)
+      + [Integrate Target with AEM overview](/help/main/c-integrating-target-with-mac/aem/aem-target-integration.md)
       + Experience Fragments and Content Fragments {#fragments}
          + [AEM Experience Fragments and Content Fragments overview](/help/main/c-integrating-target-with-mac/aem/aem-experience-and-content-fragments.md)
          + [AEM Experience Fragments](/help/main/c-integrating-target-with-mac/aem/experience-fragments-aem.md)
