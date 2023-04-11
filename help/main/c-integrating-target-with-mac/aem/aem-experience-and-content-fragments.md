@@ -20,9 +20,21 @@ Using [!UICONTROL Experience Fragments] and [!UICONTROL Content Fragments] creat
 
 Consider the following as you work with AEM [!UICONTROL Experience Fragments] and [!UICONTROL Content Fragments] in [!DNL Target]:
  * These features require that you are an [!DNL Adobe Experience Manager] (AEM) customer. Ensure that you meet the requirements for each fragment type: [Experience Fragment](/help/main/c-integrating-target-with-mac/aem/experience-fragments-aem.md#requirements) or [Content Fragment](/help/main/c-integrating-target-with-mac/aem/content-fragments-aem.md#requirements).
-* These features are available for the following activity types: [!UICONTROL A/B Test], [!UICONTROL Auto-Allocate], [!UICONTROL Auto-Target], [!UICONTROL Automated Personalization] (AP), and [!UICONTROL Experience Targeting] (XT). This feature is not available for [!UICONTROL Multivariate Test] (MVT) and [!UICONTROL Recommendations] activities.
-* You can consume [!UICONTROL Experience Fragments] in [!DNL Target] activities using the [Visual Experience Composer](/help/main/c-experiences/c-visual-experience-composer/visual-experience-composer.md) (VEC) or the [Form-Based Experience Composer](/help/main/c-experiences/form-experience-composer.md).
-* You can consume [!UICONTROL Content Fragments] in the [Form-Based Experience Composer](/help/main/c-experiences/form-experience-composer.md) only.
+* [!UICONTROL Experience Fragments] and [!UICONTROL Content Fragments] are available for the following activity types: 
+
+  * [[!UICONTROL A/B Test]](/help/main/c-activities/t-test-ab/test-ab.md)
+  * [[!UICONTROL Auto-Allocate]](/help/main/c-activities/automated-traffic-allocation/automated-traffic-allocation.md)
+  * [[!UICONTROL Auto-Target]](/help/main/c-activities/auto-target/auto-target-to-optimize.md)
+  * [[!UICONTROL Automated Personalization] (AP)](/help/main/c-activities/t-automated-personalization/automated-personalization.md)
+  * [[!UICONTROL Experience Targeting] (XT)](/help/main/c-activities/t-experience-target/experience-target.md)
+  
+* [!UICONTROL Experience Fragments] and [!UICONTROL Content Fragments] are not available for the following activity types:
+  
+  * [[!UICONTROL Multivariate Test] (MVT)](/help/main/c-activities/c-multivariate-testing/multivariate-testing.md)
+  * [[!UICONTROL Recommendations]](/help/main/c-recommendations/recommendations.md)
+
+* You can consume [!UICONTROL Experience Fragments] in [!DNL Target] activities using the [Visual Experience Composer](/help/main/c-experiences/c-visual-experience-composer/visual-experience-composer.md) (VEC) and the [Form-Based Experience Composer](/help/main/c-experiences/form-experience-composer.md).
+* You can consume [!UICONTROL Content Fragments] in [!DNL Target] activities using the [Form-Based Experience Composer](/help/main/c-experiences/form-experience-composer.md) only.
 
 ## What is the difference between [!UICONTROL Experience Fragments] and [!UICONTROL Content Fragments]?
 
