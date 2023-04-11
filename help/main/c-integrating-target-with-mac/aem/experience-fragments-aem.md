@@ -149,7 +149,7 @@ You can consume [!UICONTROL Experience Fragments] in [!DNL Target] activities us
 1. Select the desired [!UICONTROL Experience Fragment], then click **[!UICONTROL Save]**. 
 1. Finish configuring the activity.
 
-## Additional information {#considerations}
+## Additional information
 
 * [!DNL Target] currently looks for [!UICONTROL Experience Fragments] to import every ten minutes. The imported [!UICONTROL Experience Fragment] should be available in [!DNL Target] within ten minutes, but this time frame should shorten going forward.
 * The [!UICONTROL Experience Fragment] is imported into [!DNL Target] as an HTML or JSON offer. The [!UICONTROL Experience Fragment] "primary" version remains in [!DNL AEM]. You cannot edit the [!UICONTROL Experience Fragment] in [!DNL Target].

@@ -84,7 +84,7 @@ You can consume [!UICONTROL Content Fragments] in [!DNL Target] activities using
 1. Select the desired [!UICONTROL Content Fragment], then click **[!UICONTROL Save]**. 
 1. Finish configuring the activity.
 
-## Additional information {#considerations}
+## Additional information
 
 * [!DNL Target] currently looks for [!UICONTROL Content Fragments] to import every ten minutes. The imported [!UICONTROL Content Fragment] should be available in [!DNL Target] within ten minutes, but this time frame should shorten going forward.
 * The [!UICONTROL Content Fragment] is imported into [!DNL Target] as a JSON offer. The [!UICONTROL Content Fragment] "primary" version remains in [!DNL AEM]. You cannot edit the [!UICONTROL Content Fragment] in [!DNL Target].
