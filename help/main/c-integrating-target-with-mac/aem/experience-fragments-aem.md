@@ -3,6 +3,7 @@ keywords: experience;json;aem;adobe experience manager;export to adobe target;ex
 description: Learn how to use [!DNL Adobe Experience Manager] [!UICONTROL Experience Fragments] in [!DNL Adobe Target] activities.
 title: How Do I Use [!DNL Adobe Experience Manager] (AEM) [!UICONTROL Experience Fragments]?
 feature: Integrations
+exl-id: 400d0cde-e435-4cac-9bf0-64a6cad98995
 ---
 # AEM [!UICONTROL Experience Fragments]
 
