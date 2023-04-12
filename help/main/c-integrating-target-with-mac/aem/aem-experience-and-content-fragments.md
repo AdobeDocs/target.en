@@ -3,6 +3,7 @@ keywords: aem;experience manager;adobe experience manager;integrate;integration;
 description: Learn how to use [!DNL Adobe Experience Manager] experience and content fragments in [!DNL Adobe Target] activities.
 title: How Do I Use [!DNL Adobe Experience Manager] (AEM) [!UICONTROL Experience Fragments] and [!UICONTROL Content Fragments]?
 feature: Integrations
+exl-id: 6f1a02da-8f59-4a8b-8e97-c20444ef53c8
 ---
 # AEM [!UICONTROL Experience Fragments] and [!UICONTROL Content Fragments] overview
 

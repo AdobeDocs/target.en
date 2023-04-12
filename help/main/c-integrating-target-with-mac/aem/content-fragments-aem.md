@@ -4,6 +4,7 @@ description: Learn how to use [!DNL Adobe Experience Manager] [!UICONTROL Conten
 title: How Do I Use [!DNL Adobe Experience Manager] (AEM) [!UICONTROL Content Fragments]?
 badgePrerelease: label="Prerelease"
 feature: Integrations
+exl-id: 2057d9fe-c0f9-41d5-82e1-529db9ef7ca5
 ---
 # AEM [!UICONTROL Content Fragments]
 

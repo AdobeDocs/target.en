@@ -4,6 +4,7 @@ description: Learn how to interpret [!UICONTROL Auto-Target] activity reports in
 title: How Do I Interpret an [!UICONTROL Auto-Target] Report?
 badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="See what's included in Target Premium."
 feature: Auto-Target
+exl-id: df3f2d91-13f8-4acb-ba31-68f91500610b
 ---
 # Reporting and [!UICONTROL Auto-Target]
 
