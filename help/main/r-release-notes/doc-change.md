@@ -15,6 +15,7 @@ This page lists significant changes made to the [!DNL Adobe Target] product docu
 | --- | --- | --- |
 |April 12|[Important Attributes report](/help/main/c-reports/c-personalization-insights-reports/important-attributes-report.md#models-api)|Added the following FAQ:<ul><li>I see one or more attributes that I don't want the model to use for training. Can I remove those attributes from the training model?</li></ul>|
 ||[Enterprise user permissions](/help/main/administrating-target/c-user-management/property-channel/property-channel.md#multiple-roles)|Added the following FAQ:<ul><li>What happens if a user has multiple roles and permissions?</li></ul>|
+||[AEM Content Fragments](/help/main/c-integrating-target-with-mac/aem/content-fragments-aem.md)|New topic. Note that this feature is in the "prerelease" status for testing purposes.|
 |April 5|[Use offer decisions](/help/main/c-integrating-target-with-mac/ajo/offer-decision.md)|Added text indicating that [!UICONTROL Analytics as the reporting source] (A4t) is not supported in activities that use offer decisions.|
 |April 3|[[!DNL Adobe Target] announcements and events](/help/main/r-release-notes/target-announcements.md)|Added information about the [!UICONTROL Adobe Target Community] Coffee break scheduled for Wednesday, April 12, 2023.|
 ||[Allowlist Target edge nodes](https://developer.adobe.com/target/before-implement/privacy/allowlist-edges/){target=_blank}|Added note to allowlist all [!DNL Adobe Analytics] IP address blocks.|
