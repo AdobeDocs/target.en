@@ -15,14 +15,6 @@ Gartner named [!DNL Adobe Target] a leader in its latest Magic Quadrant for Pers
 
 For more information, see the [Adobe Experience Cloud Blog post](https://business.adobe.com/blog/the-latest/adobe-once-again-named-a-leader-in-the-2022-gartner-magic-quadrant-for-personalization-engines-report?mkt_tok=MDgyLVZMTi0zMzcAAAGGHqjw1DEtV7p2v7f1c2eB4fKlit9iqFUHbMFAjxcNgBw6KBEUjUk670zmlm4hCMQ3R-Cw0eEnAwSthQ1K_I8c1-Yj7vtwUFMqCp6FisLA){target=_blank}.
 
-## [!UICONTROL Adobe Target Community] Q&A Coffee Break
-
-* **Wednesday, April 12, 2023**
-* **8:00 to 9:00 a.m. (PDT, GMT -7)**
-* **[Registration information](https://adobe.ly/42gQGfv){target=_blank}**
-
-Join Matthew Bailie and Georgia Frailey, both Senior Solutions Consultants for [!DNL Adobe Target], who will chat directly with you about your [!DNL Adobe Target] questions related to [!DNL Target] AI features, specifically [!UICONTROL Automated Personalization] and [!UICONTROL Auto-Target].
-
 ## [!DNL Adobe Target] webinar series {#webinar-series}
 
 Register for the following webinars to see how customers are using [!DNL Target] to achieve their personalization and optimization goals:
@@ -30,7 +22,7 @@ Register for the following webinars to see how customers are using [!DNL Target]
 ### Deliver personalized customer experiences, every time!
 
 * **Thursday, April 27, 2023**
-* **9:00 to 10:00 a.m. (BST, GMT +1), 10:00 to 11:00 p.m. (CEST, GMT +2)**
+* **9:00 to 10:00 a.m. (BST, GMT +1), 10:00 to 11:00 a.m. (CEST, GMT +2)**
 * **[Registration information](https://adobetargetemea2023.experienceleague.adobeevents.com/){target=_blank}**
 
 Stay ahead of the customer with [!DNL Adobe Target]'s powerful testing and personalization features. Ensure you are everywhere the customer is, by offering dynamically contextual experiences across the web, mobile, and digital devices.
