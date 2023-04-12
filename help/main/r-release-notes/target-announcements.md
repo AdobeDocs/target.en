@@ -27,7 +27,28 @@ Join Matthew Bailie and Georgia Frailey, both Senior Solutions Consultants for [
 
 Register for the following webinars to see how customers are using [!DNL Target] to achieve their personalization and optimization goals:
 
-None scheduled at this time.
+### Deliver personalized customer experiences, every time!
+
+* **Thursday, April 27, 2023**
+* **9:00 to 10:00 a.m. (BST, GMT +1), 10:00 to 11:00 p.m. (CEST, GMT +2)**
+* **[Registration information](https://adobetargetemea2023.experienceleague.adobeevents.com/){target=_blank}**
+
+Stay ahead of the customer with [!DNL Adobe Target]'s powerful testing and personalization features. Ensure you are everywhere the customer is, by offering dynamically contextual experiences across the web, mobile, and digital devices.
+
++++Details
+
+The webinar will cover:
+
+* Why personalization is a critical part of any strategy 
+* Identifying and using different activity types
+* Spotlight - Industry use cases
+* Recommendations to drive personalization
+* Demo of the [!DNL Target] User Interface, highlighting
+  * Audience creation
+  * Setting-up [!UICONTROL Experience Targeting] (XT) activities
+  * Setting-up [!UICONTROL Auto-Target] and [!UICONTROL Auto Personalization] activities
+
++++
 
 ## Recordings of past webinars and skill-builder sessions
 
