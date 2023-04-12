@@ -21,7 +21,9 @@ To view information about the current release, see [Target Release Notes](releas
 
 >[!NOTE]
 >
->This feature will be available as a prerelease feature on April 12, 2023 and will be available for GA (General Availability) release on April 26, 2023.
+>This feature is available as a prerelease feature on April 12, 2023. As a prerelease feature, you can experiment with [!UICONTROL Content Fragments] using dev and staging environments, but not in production environments.
+>
+>This feature will be available for GA (General Availability) release on April 26, 2023.
 
 This release contains the following new feature:
 
