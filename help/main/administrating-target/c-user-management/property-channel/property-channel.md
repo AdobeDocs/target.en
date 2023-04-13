@@ -17,7 +17,7 @@ Enterprise user permissions are a means of formal administering enterprise-wide 
 >
 >[!UICONTROL Properties and Permissions] functionality is available as part of the [!DNL Target] Premium solution. They are not available in [!DNL Target] Standard without a [!DNL Target] Premium license.
 >
->Your [!DNL Target] implementation can be using any version of at.js.
+>Your [!DNL Target] implementation can be using any version of at.js or [!DNL Adobe Experience Platform Web SDK].
 
 You can tell whether your organization has a Standard or Premium license by clicking the [!UICONTROL Administration] link at the top of the [!DNL Target] UI.
 
