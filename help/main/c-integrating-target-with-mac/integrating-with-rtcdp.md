@@ -13,7 +13,7 @@ For more information about RTCDP, see [Real-time Customer Data Platform overview
 
 ## Use audiences from [!DNL Adobe Experience Platform] {#aep}
 
-Using audiences created in [!DNL Adobe Experience Platform] provide richer customer data that leads to more impactful personalization. The [Real-time Customer Data Platform](https://experienceleague.adobe.com/docs/experience-platform/rtcdp/overview.html){target=_blank} (RTCDP), built on [!DNL Adobe Experience Platform], helps companies bring together known and anonymous data from multiple enterprise sources. This process lets you create customer profiles that can be used to provide personalized customer experiences across all channels and devices in real time.
+Using [audiences](/help/main/c-target/c-audiences/audiences.md) created in [!DNL Adobe Experience Platform] provide richer customer data that leads to more impactful personalization. The [Real-time Customer Data Platform](https://experienceleague.adobe.com/docs/experience-platform/rtcdp/overview.html){target=_blank} (RTCDP), built on [!DNL Adobe Experience Platform], helps companies bring together known and anonymous data from multiple enterprise sources. This process lets you create customer profiles that can be used to provide personalized customer experiences across all channels and devices in real time.
 
 By connecting [!DNL Target] to the [!DNL Real-time Customer Data Platform], customers can enrich their web personalization by unlocking new segments that might have been previously inaccessible to [!DNL Target] to enable real-time millisecond personalization on the first page of a customer's web visit. Using audiences and profile attributes created in [!DNL Adobe Experience Platform] lets you expand the available data points for richer personalization. 
 
@@ -31,9 +31,9 @@ Key features include:
 Real-time CDP Profile Attributes feature limitations and considerations:
 
 * Attributes within a given offer must be from the same AEP Sandbox. (In other words, an offer cannot contain attributes from different AEP Sandboxes.)
-* Attributes within a given offer may come from different Sources; namely, the Target profile and the AEP profile.(In other words, you can combine attributes whether they come from Target or from the AEP profile.)
-* When defining an offer, you may assign default values for Real-time CDP Profile Attributes, in case the attribute does not have an explicit value. For example, if a consent or governance policy blocks the attribute being used in the personalization service, the default value may be used instead.
-* When shared, Real-time CDP Profile Attributes are used in the Artificial Intelligence/Machine Learning personalization models for Auto-Target and Automated Personalization.
+* Attributes within a given offer can come from different Sources; namely, the [!DNL Target] profile and the AEP profile. (In other words, you can combine attributes whether they come from [!DNL Target] or from the AEP profile.)
+* When defining an offer, you can assign default values for Real-time CDP Profile Attributes, in case the attribute does not have an explicit value. For example, if a consent or governance policy blocks the attribute being used in the personalization service, the default value can be used instead.
+* When shared, Real-time CDP Profile Attributes are used in the Artificial Intelligence/Machine Learning personalization models for [!UICONTROL Auto-Target] and [!UICONTROL Automated Personalization] activities.
 
 >[!NOTE]
 >
@@ -75,7 +75,7 @@ The following table shows the segment evaluation time for events coming from dif
 
 ### Video: Next-hit personalization with Real-time CDP and [!DNL Adobe Target]{#RTCDP}
 
-Learn how to personalize on the next hit with [!DNL Real-time Customer Data Platform] and [!DNL Adobe Target]. The [!DNL Adobe Target] destination in [!DNL Real-time CDP] allows you to use [!DNL Experience Platform] segments in [!DNL Adobe Target] for same page and next-page personalization with governance and privacy support.
+Learn how to personalize on the next hit with [!DNL Real-time Customer Data Platform] and [!DNL Adobe Target]. The [!DNL Adobe Target] destination in [!DNL Real-time CDP] allows you to use [!DNL Experience Platform] segments in [!DNL Adobe Target] for same page-personalization and next-page personalization with governance and privacy support.
 
 For more information, see [Next-hit personalization with Real-time CDP and Adobe Target](https://experienceleague.adobe.com/docs/platform-learn/tutorials/experience-cloud/next-hit-personalization.html){target=_blank} in the *Platform Tutorials* guide.
 
@@ -87,9 +87,9 @@ For more information, see [Next-hit personalization with Real-time CDP and Adobe
 
 ## Share Real-time CDP Profile Attributes with [!DNL Target] {#rtcdp-profile-attributes}
 
-Real-time CDP Profile Attributes can be shared with [!DNL Target] for use in HTML offer and JSON offers. (Note this feature is currently in Beta.)
+Real-time CDP Profile Attributes can be shared with [!DNL Target] for use in HTML offers and [JSON offers](/help/main/c-experiences/c-manage-content/create-json-offer.md). (Note this feature is currently in Beta.)
 
-Sample use case: As an online marketer, Grace wants the AEP/Unified Profile to share attribute values with [!DNL Target] in order to provide real-time personalization. By using Real-time CDP Profile Attributes, Grace can display the value of the AEP attribute in a [!DNL Target] offer using token replace. For example, she can personalize according to a customer's favorite color using `${aep.profile.favoriteColor}`, or their loyalty tier and loyalty point value using the tokens `${aep.loyalty.tier}` and `${aep.loyalty.points}`.
+Sample use case: As an online marketer, you want the AEP/Unified Profile to share attribute values with [!DNL Target] in order to provide real-time personalization. By using Real-time CDP Profile Attributes, you can display the value of the AEP attribute in a [!DNL Target] offer using token replace. For example, you can personalize according to a customer's favorite color using `${aep.profile.favoriteColor}`, or their loyalty tier and loyalty point value using the tokens `${aep.loyalty.tier}` and `${aep.loyalty.points}`.
 
 ![offer-json-aep-shared-attribute image](/help/main/c-experiences/c-manage-content/assets/offer-json-aep-shared-attribute.png)
 
