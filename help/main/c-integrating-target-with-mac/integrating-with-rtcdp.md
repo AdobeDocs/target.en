@@ -5,7 +5,7 @@ title: How Do I Integrate [!DNL Target] with the [!DNL Real-time Customer Data P
 feature: Integrations
 exl-id: 1c066b62-91a2-4b8c-807a-3cc56fca7778
 ---
-# Integrate with Real-time Customer Data Platform
+# Integrate with [!DNL Real-time Customer Data Platform]
 
 Built on [!DNL Adobe Experience Platform], [!DNL Real-time Customer Data Platform] (RTCDP) helps companies bring together known and anonymous data from multiple enterprise sources in order to create customer profiles that can be used to provide personalized customer experiences across all channels and devices in real time.
 
@@ -30,29 +30,6 @@ Key features include:
 * [!UICONTROL Target Edge Destinations Card] with governance and policy enforcement
 * Real-time CDP Segments and Shared Profile Attributes
 
-### Real-time CDP Profile Attributes feature limitations and considerations
-
-Consider the following:
-
-* Attributes within a given offer must be from the same AEP Sandbox. (In other words, an offer cannot contain attributes from different AEP Sandboxes.)
-* Attributes within a given offer can come from different Sources; namely, the [!DNL Target] profile and the AEP profile. (In other words, you can combine attributes whether they come from [!DNL Target] or from the AEP profile.)
-* When defining an offer, you can assign default values for Real-time CDP Profile Attributes, in case the attribute does not have an explicit value. For example, if a consent or governance policy blocks the attribute being used in the personalization service, the default value can be used instead.
-* When shared, Real-time CDP Profile Attributes are used in the Artificial Intelligence/Machine Learning personalization models for [!UICONTROL Auto-Target] and [!UICONTROL Automated Personalization] activities.
-
->[!NOTE]
->
->The Real-time CDP Profile Attributes feature is currently available in Beta for HTML Offers and [JSON Offers](/help/main/c-experiences/c-manage-content/create-json-offer.md).
-
-### Links to more information
-
-For more information, see the following topics:
-
-* [Destinations release notes](https://experienceleague.adobe.com/docs/experience-platform/release-notes/latest.html?lang=en#destinations){target=_blank} in the *Adobe Experience Platform release notes*
-* [Configure personalization destinations for same-page and next-page personalization](https://experienceleague.adobe.com/docs/experience-platform/destinations/ui/activate/configure-personalization-destinations.html){target=_blank} in the *Destinations overview* guide.
-* [Custom personalization connection](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/personalization/custom-personalization.html){target=_blank} in the *Destinations overview* guide
-* [Adobe Target connection](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/personalization/adobe-target-connection.html){target=_blank} in the *Destinations overview* guide
-* [Configure personalization destinations for same page and next page personalization use cases](https://www.adobe.com/go/destinations-edge-personalization-en){target=_blank} in the *Destinations overview* guide
-
 ### Personalization use cases
 
 The following table shows which type of personalization use case (next-session or same-page) is available when using the [!DNL Adobe Experience Platform Web SDK] versus using at.js:
@@ -75,11 +52,36 @@ The following table shows the segment evaluation time for events coming from dif
 |Events from batch upload|No|No|Yes|
 |Events from offline data (stream)|No|Yes|Yes|
 
+### Links to more information
+
+For more information, see the following topics:
+
+* [Destinations release notes](https://experienceleague.adobe.com/docs/experience-platform/release-notes/latest.html?lang=en#destinations){target=_blank} in the *Adobe Experience Platform release notes*
+* [Configure personalization destinations for same-page and next-page personalization](https://experienceleague.adobe.com/docs/experience-platform/destinations/ui/activate/configure-personalization-destinations.html){target=_blank} in the *Destinations overview* guide.
+* [Custom personalization connection](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/personalization/custom-personalization.html){target=_blank} in the *Destinations overview* guide
+* [Adobe Target connection](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/personalization/adobe-target-connection.html){target=_blank} in the *Destinations overview* guide
+* [Configure personalization destinations for same page and next page personalization use cases](https://www.adobe.com/go/destinations-edge-personalization-en){target=_blank} in the *Destinations overview* guide
+
 ## Share Real-time CDP Profile Attributes with [!DNL Target] {#rtcdp-profile-attributes}
 
-Real-time CDP Profile Attributes can be shared with [!DNL Target] for use in HTML offers and [JSON offers](/help/main/c-experiences/c-manage-content/create-json-offer.md). (Note this feature is currently in Beta.)
+Real-time CDP Profile Attributes can be shared with [!DNL Target] for use in HTML offers and [JSON offers](/help/main/c-experiences/c-manage-content/create-json-offer.md). 
 
-Sample use case: As an online marketer, you want the AEP/Unified Profile to share attribute values with [!DNL Target] in order to provide real-time personalization. By using Real-time CDP Profile Attributes, you can display the value of the AEP attribute in a [!DNL Target] offer using token replace. For example, you can personalize according to a customer's favorite color using `${aep.profile.favoriteColor}`, or their loyalty tier and loyalty point value using the tokens `${aep.loyalty.tier}` and `${aep.loyalty.points}`.
+### Real-time CDP Profile Attributes feature limitations and considerations
+
+>[!NOTE]
+>
+>The Real-time CDP Profile Attributes feature is currently available in Beta for HTML Offers and [JSON Offers](/help/main/c-experiences/c-manage-content/create-json-offer.md).
+
+Consider the following:
+
+* Attributes within a given offer must be from the same AEP Sandbox. (In other words, an offer cannot contain attributes from different AEP Sandboxes.)
+* Attributes within a given offer can come from different Sources; namely, the [!DNL Target] profile and the AEP profile. (In other words, you can combine attributes whether they come from [!DNL Target] or from the AEP profile.)
+* When defining an offer, you can assign default values for Real-time CDP Profile Attributes, in case the attribute does not have an explicit value. For example, if a consent or governance policy blocks the attribute being used in the personalization service, the default value can be used instead.
+* When shared, Real-time CDP Profile Attributes are used in the Artificial Intelligence/Machine Learning personalization models for [!UICONTROL Auto-Target] and [!UICONTROL Automated Personalization] activities.
+
+### Sample use case
+
+As an online marketer, you want the AEP/Unified Profile to share attribute values with [!DNL Target] in order to provide real-time personalization. By using Real-time CDP Profile Attributes, you can display the value of the AEP attribute in a [!DNL Target] offer using token replace. For example, you can personalize according to a customer's favorite color using `${aep.profile.favoriteColor}`, or their loyalty tier and loyalty point value using the tokens `${aep.loyalty.tier}` and `${aep.loyalty.points}`.
 
 ![offer-json-aep-shared-attribute image](/help/main/c-experiences/c-manage-content/assets/offer-json-aep-shared-attribute.png)
 
