@@ -98,7 +98,7 @@ The following illustration shows that two profile attributes: `loyalty.tier` and
 
 ![offer-json-aep-shared-attribute image](/help/main/c-experiences/c-manage-content/assets/offer-json-aep-shared-attribute.png)
 
-### Links to more information
+## Links to more information
 
 For more information, see the following topics:
 
