@@ -53,11 +53,7 @@ For more information, see the following topics:
 * [Adobe Target connection](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/personalization/adobe-target-connection.html){target=_blank} in the *Destinations overview* guide
 * [Configure personalization destinations for same page and next page personalization use cases](https://www.adobe.com/go/destinations-edge-personalization-en){target=_blank} in the *Destinations overview* guide
 
-### Additional details
-
-Consider the following information when using audiences from [!DNL Adobe Experience Platform]:
-
-#### Personalization use cases
+### Personalization use cases
 
 The following table shows which type of personalization use case (next-session or same-page) is available when using the [!DNL Adobe Experience Platform Web SDK] versus using at.js:
 
@@ -67,7 +63,7 @@ The following table shows which type of personalization use case (next-session o
 |[!DNL Platform Web SDK] or [!DNL AEP Server-Side API]|**Solutions**:<ul><li>[!DNL RTCDP] (any SKU) and [!DNL Target]</li></ul>**Use case**:<ul><li>Next-session personalization</li><li>Same-page personalization via Edge</li><li>Governance enforced when sharing segments</li></ul>**Solutions**:<ul><li>[!DNL RTCDP] (any SKU), [!DNL AAM], and [!DNL Target]</li></ul>**Use case**:<ul><li>Next-session personalization</li><ul><li>[!DNL AAM] segments</li><li>3rd-party segments via [!DNL AAM]</li></ul><li>Same-page personalization via Edge</li><ul><li>[!DNL RTCDP] segments</li><li>Governance enforced when sharing segments</li></ul>|
 |Mix of [!UICONTROL at.js] and [!DNL Platform Web SDK]|**Solutions**:<ul><li>[!DNL RTCDP] (any SKU) and [!DNL Target]</li></ul>**Use case**:<ul><li>Next-session personalization</li><ul><li>For all pages with [!UICONTROL at.js]</li></ul><li>Same-page personalization</li><ul><li>For all pages with [!DNL Platform Web SDK]</li></ul></ul>**Solutions**:<ul><li>[!DNL RTCDP] (any SKU), [!DNL AAM], and [!DNL Target]</li></ul>**Use case**:<ul><li>Next-session personalization</li><ul><li>For all pages with [!UICONTROL at.js]</li><li>[!DNL AAM] segments</li><li>3rd-party segments via [!DNL AAM]</li></ul>|
 
-#### Segment evaluation time
+### Segment evaluation time
 
 The following table shows the segment evaluation time for events coming from different implementation scenarios:
 
@@ -89,7 +85,11 @@ Sample use case: As an online marketer, you want the AEP/Unified Profile to shar
 
 Note that assigning default values is optional.
 
-## Video: Next-hit personalization with Real-time CDP and [!DNL Adobe Target]{#RTCDP}
+## Videos and blog posts
+
+The following videos and blog post provide more information about enhanced personalization with Target and RTCDP:
+
+### Video: Next-hit personalization with Real-time CDP and [!DNL Adobe Target]{#RTCDP}
 
 Learn how to personalize on the next hit with [!DNL Real-time Customer Data Platform] and [!DNL Adobe Target]. The [!DNL Adobe Target] destination in [!DNL Real-time CDP] allows you to use [!DNL Experience Platform] segments in [!DNL Adobe Target] for same page-personalization and next-page personalization with governance and privacy support.
 
@@ -97,6 +97,6 @@ For more information, see [Next-hit personalization with Real-time CDP and Adobe
 
 >[!VIDEO](https://video.tv.adobe.com/v/340091?quality=12&learn=on)
 
-## Adobe Target blog and video:
+### Adobe Target blog and video:
 
 [[!DNL Adobe] announces Same Page Enhanced Personalization with [!DNL Adobe Target] and [!DNL Real-time Customer Data Platform]](https://blog.adobe.com/en/publish/2021/10/05/adobe-announces-same-page-enhanced-personalization-with-adobe-target-real-time-customer-data-platform){target=_blank}
