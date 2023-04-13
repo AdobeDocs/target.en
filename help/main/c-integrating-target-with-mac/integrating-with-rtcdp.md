@@ -1,5 +1,5 @@
 ---
-keywords: Real-time Customer Data Platform;rtcdp;personalization;aep audiences;adobe experience platform audiences
+keywords: Real-time Customer Data Platform;rtcdp;personalization;aep audiences;adobe experience platform audiences;profile attributes
 description: Learn how to use the [!DNL Target]/[!DNL Real-time Customer Data Platform] (RTCDP) integration to provide richer customer data and more impactful personalization.
 title: How Do I Integrate [!DNL Target] with the [!DNL Real-time Customer Data Platform]?
 feature: Integrations
