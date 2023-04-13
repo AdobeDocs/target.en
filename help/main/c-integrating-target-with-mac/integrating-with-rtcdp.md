@@ -1,23 +1,23 @@
 ---
-keywords: Real-time Customer Data Platform;rtcdp;personalization;aep audiences;adobe experience platform audiences;profile attributes
-description: Learn how to use the [!DNL Target]/[!DNL Real-time Customer Data Platform] (RTCDP) integration to provide richer customer data and more impactful personalization.
-title: How Do I Integrate [!DNL Target] with the [!DNL Real-time Customer Data Platform]?
+keywords: Real-Time Customer Data Platform;rtcdp;personalization;aep audiences;adobe experience platform audiences;profile attributes
+description: Learn how to use the [!DNL Target]/[!DNL Real-Time Customer Data Platform] (RTCDP) integration to provide richer customer data and more impactful personalization.
+title: How Do I Integrate [!DNL Target] with the [!DNL Real-Time Customer Data Platform]?
 feature: Integrations
 exl-id: 1c066b62-91a2-4b8c-807a-3cc56fca7778
 ---
-# Integrate with [!DNL Real-time Customer Data Platform]
+# Integrate with [!DNL Real-Time Customer Data Platform]
 
-Built on [!DNL Adobe Experience Platform], [!DNL Real-time Customer Data Platform] (RTCDP) helps companies bring together known and anonymous data from multiple enterprise sources. RTCDP lets you create customer profiles that can be used to provide personalized customer experiences across all channels and devices in real time.
+Built on [!DNL Adobe Experience Platform], [!DNL Real-Time Customer Data Platform] (RTCDP) helps companies bring together known and anonymous data from multiple enterprise sources. RTCDP lets you create customer profiles that can be used to provide personalized customer experiences across all channels and devices in real time.
 
-For more information about RTCDP, see [Real-time Customer Data Platform overview](https://experienceleague.adobe.com/docs/experience-platform/rtcdp/overview.html){target=_blank}.
+For more information about RTCDP, see [Real-Time Customer Data Platform overview](https://experienceleague.adobe.com/docs/experience-platform/rtcdp/overview.html){target=_blank}.
 
 ## Use audiences from [!DNL Adobe Experience Platform] {#aep}
 
-Using [audiences](/help/main/c-target/c-audiences/audiences.md) created in [!DNL Adobe Experience Platform] provide richer customer data that leads to more impactful personalization. The [Real-time Customer Data Platform](https://experienceleague.adobe.com/docs/experience-platform/rtcdp/overview.html){target=_blank} (RTCDP), built on [!DNL Adobe Experience Platform], helps companies bring together known and anonymous data from multiple enterprise sources. This process lets you create customer profiles that can be used to provide personalized customer experiences across all channels and devices in real time.
+Using [audiences](/help/main/c-target/c-audiences/audiences.md) created in [!DNL Adobe Experience Platform] provide richer customer data that leads to more impactful personalization. The [Real-Time Customer Data Platform](https://experienceleague.adobe.com/docs/experience-platform/rtcdp/overview.html){target=_blank} (RTCDP), built on [!DNL Adobe Experience Platform], helps companies bring together known and anonymous data from multiple enterprise sources. This process lets you create customer profiles that can be used to provide personalized customer experiences across all channels and devices in real time.
 
-By connecting [!DNL Target] to the [!DNL Real-time Customer Data Platform], customers can enrich their web personalization. This integration lets you unlock new segments that might have been previously inaccessible to [!DNL Target] to enable real-time millisecond personalization on the first page of a customer's web visit. Using audiences and profile attributes created in [!DNL Adobe Experience Platform] lets you expand the available data points for richer personalization. 
+By connecting [!DNL Target] to the [!DNL Real-Time Customer Data Platform], customers can enrich their web personalization. This integration lets you unlock new segments that might have been previously inaccessible to [!DNL Target] to enable real-time millisecond personalization on the first page of a customer's web visit. Using audiences and profile attributes created in [!DNL Adobe Experience Platform] lets you expand the available data points for richer personalization. 
 
-This integration unlocks key use cases with Real-time CDP:
+This integration unlocks key use cases with Real-Time CDP:
 
 * Same-page / Next Hit personalization
 * First-time / Unknown users personalization
@@ -26,7 +26,7 @@ This integration unlocks key use cases with Real-time CDP:
 
 Key features include:
 
-* Direct [!DNL Target] integration with Real-time CDP/[!DNL Adobe Experience Platform] on the Edge (removing dependency on [!DNL Audience Core services] - AAM)
+* Direct [!DNL Target] integration with Real-Time CDP/[!DNL Adobe Experience Platform] on the Edge (removing dependency on [!DNL Audience Core services] - AAM)
 * [!UICONTROL Target Edge Destinations Card] with governance and policy enforcement
 * Real-time CDP Segments and Shared Profile Attributes
 
@@ -40,7 +40,7 @@ The following sections show which type of personalization use case (next-session
 | --- | --- |
 |<ul><li>[!DNL Adobe Audience Manager] (AAM) and [!DNL Target]</li><li>[!DNL RTCDP] (Premium or Ultimate) and [!DNL Target]</li><li>[!DNL RTCDP] (any SKU), [!DNL AAM], and [!DNL Target]</li></ul>|Next-session personalization|
 
-#### Adobe Experience Platform Web SDK or Experience Platform Server-side API implementation
+#### [!DNL Adobe Experience Platform Web SDK] or [!DNL Experience Platform Server-Side API] implementation
 
 |Solutions|Use Case Enabled|
 | --- | --- |
@@ -76,26 +76,26 @@ For more information, see the following topics:
 * [Adobe Target connection](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/personalization/adobe-target-connection.html){target=_blank} in the *Destinations overview* guide
 * [Configure personalization destinations for same page and next page personalization use cases](https://experienceleague.adobe.com/docs/experience-platform/destinations/ui/activate/configure-personalization-destinations.html){target=_blank} in the *Destinations overview* guide
 
-## Share Real-time CDP Profile Attributes with [!DNL Target] {#rtcdp-profile-attributes}
+## Share Real-Time CDP Profile Attributes with [!DNL Target] {#rtcdp-profile-attributes}
 
-Real-time CDP Profile Attributes can be shared with [!DNL Target] for use in HTML offers and [JSON offers](/help/main/c-experiences/c-manage-content/create-json-offer.md). 
+Real-Time CDP Profile Attributes can be shared with [!DNL Target] for use in HTML offers and [JSON offers](/help/main/c-experiences/c-manage-content/create-json-offer.md). 
 
-### Real-time CDP Profile Attributes feature limitations and considerations
+### Real-Time CDP Profile Attributes feature limitations and considerations
 
 >[!NOTE]
 >
->The Real-time CDP Profile Attributes feature is available in Beta for HTML Offers and [JSON Offers](/help/main/c-experiences/c-manage-content/create-json-offer.md).
+>The Real-Time CDP Profile Attributes feature is available in Beta for HTML Offers and [JSON Offers](/help/main/c-experiences/c-manage-content/create-json-offer.md).
 
 Consider the following:
 
-* Attributes within a given offer must be from the same Experience Platform Sandbox. (In other words, an offer cannot contain attributes from different Experience Platform Sandboxes.)
-* Attributes within a given offer can come from different Sources; namely, the [!DNL Target] profile and the Experience Platform profile. (In other words, you can combine attributes whether they come from [!DNL Target] or from the Experience Platform profile.)
-* When defining an offer, you can assign default values for Real-time CDP Profile Attributes, in case the attribute does not have an explicit value. For example, if a consent or governance policy blocks the attribute being used in the personalization service, the default value can be used instead.
-* When shared, Real-time CDP Profile Attributes are used in the Artificial Intelligence/Machine Learning personalization models for [!UICONTROL Auto-Target] and [!UICONTROL Automated Personalization] activities.
+* Attributes within a given offer must be from the same [!UICONTROL Experience Platform] sandbox. (In other words, an offer cannot contain attributes from different [!UICONTROL Experience Platform] sandboxes.)
+* Attributes within a given offer can come from different sources; namely, the [!DNL Target] profile and the [!UICONTROL Experience Platform] profile. (In other words, you can combine attributes whether they come from [!DNL Target] or from the [!UICONTROL Experience Platform] profile.)
+* When defining an offer, you can assign default values for [!UICONTROL Real-Time CDP Profile Attributes], in case the attribute does not have an explicit value. For example, if a consent or governance policy blocks the attribute being used in the personalization service, the default value can be used instead.
+* When shared, [!UICONTROL Real-Time CDP Profile Attributes] are used in the Artificial Intelligence/Machine Learning personalization models for [!UICONTROL Auto-Target] and [!UICONTROL Automated Personalization] activities.
 
-### Sample use case
+### JSON sample use case
 
-As an online marketer, you want the AEP/Unified Profile to share attribute values with [!DNL Target] to provide real-time personalization. By using Real-time CDP Profile Attributes, you can display the value of the Experience Platform attribute in a [!DNL Target] offer using token replace. For example, you can personalize according to a customer's favorite color using `${aep.profile.favoriteColor}`, or their loyalty tier and loyalty point value using the tokens `${aep.loyalty.tier}` and `${aep.loyalty.points}`.
+As an online marketer, you want the AEP/Unified Profile to share attribute values with [!DNL Target] to provide real-time personalization. By using [!UICONTROL Real-Time CDP Profile Attributes], you can display the value of the [!UICONTROL Experience Platform] attribute in a [!DNL Target] offer using token replace. For example, you can personalize according to a customer's favorite color using `${aep.profile.favoriteColor}`, or their loyalty tier and loyalty point value using the tokens `${aep.loyalty.tier}` and `${aep.loyalty.points}`.
 
 To create a JSON offer to share AEP/Unified Profile attributes with [!DNL Target]:
 
@@ -113,14 +113,14 @@ To create a JSON offer to share AEP/Unified Profile attributes with [!DNL Target
 
 The following videos and blog post provide more information about enhanced personalization with Target and RTCDP:
 
-### Video: Next-hit personalization with Real-time CDP and [!DNL Adobe Target]{#RTCDP}
+### Video: Next-hit personalization with Real-Time CDP and [!DNL Adobe Target]{#RTCDP}
 
-Learn how to personalize on the next hit with [!DNL Real-time Customer Data Platform] and [!DNL Adobe Target]. The [!DNL Adobe Target] destination in [!DNL Real-time CDP] allows you to use [!DNL Experience Platform] segments in [!DNL Adobe Target] for same page-personalization and next-page personalization with governance and privacy support.
+Learn how to personalize on the next hit with [!DNL Real-Time Customer Data Platform] and [!DNL Adobe Target]. The [!DNL Adobe Target] destination in [!DNL Real-Time CDP] allows you to use [!DNL Experience Platform] segments in [!DNL Adobe Target] for same page-personalization and next-page personalization with governance and privacy support.
 
-For more information, see [Next-hit personalization with Real-time CDP and Adobe Target](https://experienceleague.adobe.com/docs/platform-learn/tutorials/experience-cloud/next-hit-personalization.html){target=_blank} in the *Platform Tutorials* guide.
+For more information, see [Next-hit personalization with Real-Time CDP and Adobe Target](https://experienceleague.adobe.com/docs/platform-learn/tutorials/experience-cloud/next-hit-personalization.html){target=_blank} in the *Platform Tutorials* guide.
 
 >[!VIDEO](https://video.tv.adobe.com/v/340091?quality=12&learn=on)
 
-### Adobe Target blog and video: Same-page enhanced personalization
+### [!DNL Adobe Target] blog and video: Same-page enhanced personalization
 
 [[!DNL Adobe] announces Same-Page Enhanced Personalization with [!DNL Adobe Target] and [!DNL Real-time Customer Data Platform]](https://blog.adobe.com/en/publish/2021/10/05/adobe-announces-same-page-enhanced-personalization-with-adobe-target-real-time-customer-data-platform){target=_blank}
