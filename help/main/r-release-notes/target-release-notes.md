@@ -9,27 +9,22 @@ exl-id: f2783042-f6ee-4f73-b487-ede11d55d530
 
 This article contains prerelease information for upcoming [!DNL Adobe Target] releases, including SDKs, APIs, and JavaScript libraries.
 
-**Last Updated: April 12, 2023**
+**Last Updated: April 13, 2023**
 
 >[!NOTE]
 >
->Release dates, features, and other information are subject to change without notice. 
-
-To view information about the current release, see [Target Release Notes](release-notes.md). The information on these pages might be the same, depending on the timing of releases. The issue numbers in parentheses are for internal [!DNL Adobe] use.
-
-## [!DNL Adobe Experience Manager] (AEM) and [!DNL Adobe Target] [!UICONTROL Content Fragments] release (April 12, 2023)
-
->[!NOTE]
+>Release dates, features, and other information are subject to change without notice.
 >
->This feature is available as a prerelease feature on April 12, 2023. As a prerelease feature, you can experiment with [!UICONTROL Content Fragments] using dev and staging environments, but not in production environments.
->
->This feature will be available for GA (General Availability) release on April 26, 2023.
+>To view information about the current release, see [Target Release Notes](release-notes.md). The information on these pages might be the same, depending on the timing of releases. The issue numbers in parentheses are for internal [!DNL Adobe] use.
 
-This release contains the following new feature:
+## [!DNL Target] Standard/Premium 23.4.1 (April 25-27, 2023)
+
+This release contains the following new features, enhancements, and fixes:
 
 |Feature|Details|
 |--- |--- |
-|AEM [!UICONTROL Content Fragments] for headless personalization and experimentation|Use [!DNL Adobe Experience Manager] (AEM) [!UICONTROL Content Fragments] in [!DNL Target] activities. Combine the ease-of-use and power of AEM with powerful Artificial Intelligence (AI) and Machine Learning (ML) capabilities in [!DNL Target] to aid headless personalization and experimentation.<P>For more information, see [AEM [!UICONTROL Content Fragments]](/help/main/c-integrating-target-with-mac/aem/content-fragments-aem.md).|
+|AEM [!UICONTROL Content Fragments] for headless personalization and experimentation|Use [!DNL Adobe Experience Manager] (AEM) [!UICONTROL Content Fragments] in [!DNL Target] activities. Combine the ease-of-use and power of AEM with powerful Artificial Intelligence (AI) and Machine Learning (ML) capabilities in [!DNL Target] to aid headless personalization and experimentation.<P>For more information, see [AEM [!UICONTROL Content Fragments]](/help/main/c-integrating-target-with-mac/aem/content-fragments-aem.md).<P>**NOTE**: This feature is available as a prerelease feature as of April 12, 2023. As a prerelease feature, you can experiment with [!UICONTROL Content Fragments] using dev and staging environments, but not using production environments. This feature will be available for GA (General Availability) in the [!DNL Target Standard/Premium] 23.4.1 release.|
+|Real-Time CDP Profile Attributes shared with [!DNL Target]|[!UICONTROL Real-Time CDP Profile Attributes] can be shared with [!DNL Target] for use in HTML and JSON offers.<P>For more information, see [Share Real-Time CDP Profile Attributes with [!DNL Target]](/help/main/c-integrating-target-with-mac/integrating-with-rtcdp.md#rtcdp-profile-attributes).|
 
 ## Additional release notes and version details
 
