@@ -89,8 +89,6 @@ For more information, see [Next-hit personalization with Real-time CDP and Adobe
 
 Real-time CDP Profile Attributes can be shared with [!DNL Target] for use in HTML offer and JSON offers. (Note this feature is currently in Beta.)
 
-For more information, see [Share Real-time CDP Profile Attributes with [!DNL Target]](/help/main/c-integrating-target-with-mac/integrating-with-rtcdp.md#rtcdp-profile-attributes)
-
 Sample use case: As an online marketer, Grace wants the AEP/Unified Profile to share attribute values with [!DNL Target] in order to provide real-time personalization. By using Real-time CDP Profile Attributes, Grace can display the value of the AEP attribute in a [!DNL Target] offer using token replace. For example, she can personalize according to a customer's favorite color using `${aep.profile.favoriteColor}`, or their loyalty tier and loyalty point value using the tokens `${aep.loyalty.tier}` and `${aep.loyalty.points}`.
 
 ![offer-json-aep-shared-attribute image](/help/main/c-experiences/c-manage-content/assets/offer-json-aep-shared-attribute.png)
