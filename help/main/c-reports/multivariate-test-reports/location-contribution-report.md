@@ -15,7 +15,7 @@ The top of the report shows the metric, start and end dates, and audience used i
 >
 >Keep in mind the following information as you work with the [!UICONTROL Location Contribution] report:
 >
->* The audience and metric pickers are only available if [!DNL Analytics] is used as the reporting source (A4T).
+>* The audience and metric pickers are available only if [!DNL Analytics] is used as the reporting source (A4T).
 >
 >* Data for the [!UICONTROL Location Contribution] report is fetched from the [!DNL Target] backend even if the activity is configured to use [!UICONTROL Analytics as the reporting source] (A4T).
 >
