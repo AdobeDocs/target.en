@@ -13,6 +13,7 @@ This page lists significant changes made to the [!DNL Adobe Target] product docu
 
 |Date|Topic|Changes|
 | --- | --- | --- |
+|April 19|[[!UICONTROL Location Contribution] report (MVT)](/help/main/c-reports/multivariate-test-reports/location-contribution-report.md)|Updated information in note.|
 |April 13|[[!DNL Target] release notes (prerelease)](/help/main/r-release-notes/target-release-notes.md)|Added information about the [!DNL Target] Standard/Premium 23.4.1 release (April 25-27, 2023).|
 |April 12|[[!DNL Adobe Target] announcements and events](/help/main/r-release-notes/target-announcements.md)|Added link to register for the following webinar:<ul><li>Deliver personalized customer experiences, every time!</li></ul>|
 ||[Important Attributes report](/help/main/c-reports/c-personalization-insights-reports/important-attributes-report.md#models-api)|Added the following FAQ:<ul><li>I see one or more attributes that I don't want the model to use for training. Can I remove those attributes from the training model?</li></ul>|
