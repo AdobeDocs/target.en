@@ -1,22 +1,23 @@
 ---
-keywords: workspaces;manage property;permissions;product configuration;product profile;roles;project
+keywords: workspaces;manage property;permissions;product configuration;product profile;roles;project;observer;editor;approver;publisher
 description: Learn how to create separate workspaces (product profiles) and then assign users different roles and permissions for individual pages, properties, or web sites.
 title: What Are Enterprise User Permissions and How Do I Use Them?
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="See what's included in Target Premium."
 feature: Administration & Configuration
 role: Admin
 exl-id: 838abe87-dba7-4274-97b4-31a7905846dc
 ---
-# ![PREMIUM](/help/main/assets/premium.png) Enterprise user permissions
+# Enterprise user permissions
 
-Enterprise user permissions are a means of formal administering enterprise-wide user access to [!DNL Adobe Target]. Add users to [!DNL Target], assign permissions based on their roles, and create workspaces for teams based on different departments, global locations, channels, and other logical groupings. You can assign users the roles of [!UICONTROL Observer], [!UICONTROL Editor], or [!UICONTROL Approver].
+Enterprise user permissions are a means of formal administering enterprise-wide user access to [!DNL Adobe Target]. Add users to [!DNL Target], assign permissions based on their roles, and create workspaces for teams based on different departments, global locations, channels, and other logical groupings. You can assign users the roles of [!UICONTROL Observer], [!UICONTROL Editor], [!UICONTROL Approver], or [!UICONTROL Publisher].
 
 ## Determine whether you have access to enterprise user permissions
 
 >[!NOTE]
 >
->Properties and Permissions functionality is available as part of the [!DNL Target] Premium solution. They are not available in [!DNL Target] Standard without a [!DNL Target] Premium license.
+>[!UICONTROL Properties and Permissions] functionality is available as part of the [!DNL Target] Premium solution. They are not available in [!DNL Target] Standard without a [!DNL Target] Premium license.
 >
->Your [!DNL Target] implementation can be using any version of at.js.
+>Your [!DNL Target] implementation can be using any version of at.js or [!DNL Adobe Experience Platform Web SDK].
 
 You can tell whether your organization has a Standard or Premium license by clicking the [!UICONTROL Administration] link at the top of the [!DNL Target] UI.
 
@@ -82,10 +83,10 @@ Roles and permissions determine the access levels that users have to create and 
 
 | Role | Description |
 |--- |--- |
-|Approver|Can create, edit, and activate or stop activities.|
-|Editor|Can create and edit activities before they are live, but cannot approve the launch of an activity.|
-|Observer|Can view activities, but cannot create or edit them.|
-|Publisher|Similar to the Observer role (can view activities, but cannot create or edit them). However, the Publisher role has the additional permission to activate activities.|
+|[!UICONTROL Approver]|Can create, edit, and activate or stop activities.|
+|[!UICONTROL Editor]|Can create and edit activities before they are live, but cannot approve the launch of an activity.|
+|[!UICONTROL Observer]|Can view activities, but cannot create or edit them.|
+|[!UICONTROL Publisher]|Similar to the [!UICONTROL Observer] role (can view activities, but cannot create or edit them). However, the [!UICONTROL Publisher] role has the additional permission to activate activities.|
 
 ### Channel
 
@@ -246,11 +247,15 @@ Consider the following when using or configuring properties and permissions in [
 
   In a future release, Target will work on pages where no `at_property` token is present or pages where a different `at_property` token is present.
 
-* The Enterprise User Permissions functionality is not supported in Adobe I/O API calls.
+* The Enterprise User Permissions functionality is not supported in [Adobe I/O API calls](https://developer.adobe.com/target/){target=_blank}.
 
 ## Frequently Asked Questions {#faqs}
 
 FAQs about enterprise permissions include the following:
+
+### What happens if a user has multiple roles and permissions? [#multiple-roles]
+
+If a user has multiple roles and permissions, the role with the hirer permissions is applied. For example, if a user has [!UICONTROL Observer] and [!UICONTROL Approver] roles, the [!UICONTROL Approver] role is applied.
 
 ### Can I move an activity from one workspace to another?
 

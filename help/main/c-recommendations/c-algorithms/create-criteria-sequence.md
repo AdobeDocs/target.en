@@ -2,10 +2,11 @@
 keywords: criteria sequence;multiple criteria;algorithms;criteria;recommendations criteria;sequence;limit number of items returned;slot level control;slot
 description: Learn how to set sequences of up to five criteria to exercise greater control of the items that appear in your Adobe [!DNL Target] Recommendations activities.
 title: How Do I Create Criteria Sequences in Recommendations?
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="See what's included in Target Premium."
 feature: Recommendations
 exl-id: 5366c86c-7685-478b-a621-9b3f24296ab7
 ---
-# ![PREMIUM](/help/main/assets/premium.png) Create criteria sequences
+# Create criteria sequences
 
 Use sequences of up to five criteria to exercise greater control of the items that appear in your [!UICONTROL Recommendations] activities. You can also limit the number of items returned (sometimes referred to as "slot level control.")
 

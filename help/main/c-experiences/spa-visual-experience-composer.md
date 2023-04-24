@@ -17,19 +17,19 @@ With the newest release, we now introduce the VEC for SPAs. The VEC for SPAs ena
 
 The Adobe Target VEC for SPAs takes advantage of a new concept called Views: a logical group of visual elements that together make up an SPA experience. A SPA can, therefore, be considered as transitioning through views, instead of URLs, based on user interactions. A View can typically represent a whole site or grouped visual elements within a site. 
 
-To explain further about what Views are, let's navigate this hypothetical online e-commerce site implemented in React and explore some example Views. Click the links below to open this site in a new browser tab.
+To explain further about what Views are, let’s navigate this hypothetical online e-commerce site implemented in React and explore some example Views. Click the links below to open this site in a new browser tab.
 
-**Link: [Home Site](https://target.enablementadobe.com/react/demo/#/)**
+**Link: [Home Site](https://experienceleague.adobe.com/developer/ashop-react-demo/at-js/#/)**
 
 ![home site](/help/main/c-experiences/assets/home.png)
 
 When we navigate to the home site, we can immediately see a hero image that promotes an Easter sale as well as the newest products selling on the site. In this case, a View can be defined as the entire home site. This is handy to note as we will expand on this more in the Implementing Adobe Target Views section below.
 
-**Link: [Product Site](https://target.enablementadobe.com/react/demo/#/products)**
+**Link: [Product Site](https://experienceleague.adobe.com/developer/ashop-react-demo/at-js/#/products)**
 
 ![product site](/help/main/c-experiences/assets/product-site.png)
 
-As we become more interested in the products, we decide to click the Products link. Similar to the home site, the entirety of the products site can be defined as a View. We can name this View "products" just like the path name in `https://target.enablementadobe.com/react/demo/#/products`.
+As we become more interested in the products, we decide to click the Products link. Similar to the home site, the entirety of the products site can be defined as a View. We can name this View "products" just like the path name in `https://experienceleague.adobe.com/developer/ashop-react-demo/at-js/#/products`.
 
 ![product site 2](/help/main/c-experiences/assets/product-site-2.png)
 
@@ -39,7 +39,7 @@ In the beginning of this section, we defined Views as the whole site or even a g
 
 We decide to click on the Load More button to explore more products on the site. The website URL does not change in this case. But a View here can represent only the second row of products shown above. The View name can be called "PRODUCTS-PAGE-2".
 
-**Link: [Checkout](https://target.enablementadobe.com/react/demo/#/checkout)**
+**Link: [Checkout](https://experienceleague.adobe.com/developer/ashop-react-demo/at-js/#/checkout)**
 
 ![check-out page](/help/main/c-experiences/assets/checkout.png)
 
@@ -51,7 +51,7 @@ Now, marketers might want to run an A/B Test to see whether changing the color f
 
 ## Implementing Adobe [!DNL Target] Views
 
-Now that we have covered what Adobe Target Views are, we can leverage this concept in Target to empower marketers to run A/B and XT tests on SPAs via the VEC. This will require a one-time developer setup. Let's go through the steps to set this up.
+Now that we have covered what Adobe Target Views are, we can leverage this concept in Target to empower marketers to run A/B and XT tests on SPAs via the VEC. This will require a one-time developer setup. Let’s go through the steps to set this up.
 
 1. Install at.js 2.x.
 
@@ -59,11 +59,11 @@ Now that we have covered what Adobe Target Views are, we can leverage this conce
 
    ![Implementation details dialog box](/help/main/c-experiences/assets/imp-200.png)
 
-   Download the at.js 2.x via the Adobe Target UI located in [!UICONTROL Administration > Implementation]. at.js 2.x can also be deployed via tags in [Adobe Experience Platform](https://experienceleague.corp.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/deploy-at-js/implement-target-using-adobe-launch.html){target=_blank}. However, the Adobe Target extensions are not currently up to date and supported.
+   Download the at.js 2.x via the Adobe Target UI located in [!UICONTROL Administration > Implementation]. at.js 2.x can also be deployed via tags in [Adobe Experience Platform](https://developer.adobe.com/target/implement/client-side/atjs/how-to-deployatjs/implement-target-using-adobe-launch/){target=_blank}. However, the Adobe Target extensions are not currently up to date and supported.
 
-1. Implement at.js 2.x's newest function: [triggerView()](https://experienceleague.corp.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/functions-overview/adobe-target-triggerview-atjs-2.html){target=_blank} on your sites.
+1. Implement at.js 2.x’s newest function: [triggerView()](https://developer.adobe.com/target/implement/client-side/atjs/atjs-functions/adobe-target-triggerview-atjs-2/){target=_blank} on your sites.
 
-   After defining the Views of your SPA where you want to run an A/B or XT test, implement at.js 2.x's `triggerView()` function with the Views passed in as a parameter. This allows marketers to use the VEC to design and run the A/B and XT tests for those Views defined. If the `triggerView()` function is not defined for those Views, the VEC will not detect the Views and thus marketers cannot use the VEC to design and run A/B and XT tests.
+   After defining the Views of your SPA where you want to run an A/B or XT test, implement at.js 2.x’s `triggerView()` function with the Views passed in as a parameter. This allows marketers to use the VEC to design and run the A/B and XT tests for those Views defined. If the `triggerView()` function is not defined for those Views, the VEC will not detect the Views and thus marketers cannot use the VEC to design and run A/B and XT tests.
 
    **`adobe.target.triggerView(viewName, options)`**
 
@@ -73,9 +73,9 @@ Now that we have covered what Adobe Target Views are, we can leverage this conce
    |options|Object|No|||
    |options > page|Boolean|No||**TRUE**: Default value of page is true. When `page=true`, notifications will be sent to the Edge servers for incrementing impression count.<br>**FALSE**: When `page=false`, notifications will not be sent for incrementing impression count. This should be used when you want to only re-render a component on a page with an offer.|
 
-   Now let's go through some example use cases on how to invoke the `triggerView()` function in React for our hypothetical e-commerce SPA:
+   Now let’s go through some example use cases on how to invoke the `triggerView()` function in React for our hypothetical e-commerce SPA:
 
-   **Link: [Home Site](https://target.enablementadobe.com/react/demo/#/)**
+   **Link: [Home Site](https://experienceleague.adobe.com/developer/ashop-react-demo/at-js/#/)**
 
    ![home-react-1](/help/main/c-experiences/assets/react1.png)
 
@@ -106,9 +106,9 @@ Now that we have covered what Adobe Target Views are, we can leverage this conce
    <Router history={hashHistory} onUpdate={targetView} >
    ```
 
-   **Link: [Products Site](https://target.enablementadobe.com/react/demo/#/products)**
+   **Link: [Products Site](https://experienceleague.adobe.com/developer/ashop-react-demo/at-js/#/products)**
 
-   Now, let's look at an example that is a little bit more complicated. Let's say as marketers, we would like to personalize the second row of the products by changing the price label color to red after a user clicked on the Load More button.
+   Now, let’s look at an example that is a little bit more complicated. Let’s say as marketers, we would like to personalize the second row of the products by changing the price label color to red after a user clicked on the Load More button.
 
    ![react products](/help/main/c-experiences/assets/react4.png)
 
@@ -128,14 +128,14 @@ Now that we have covered what Adobe Target Views are, we can leverage this conce
      }
 
      handleLoadMoreClicked() {
-       var page = this.state.page + 1; // assuming page number is derived from component's state
+       var page = this.state.page + 1; // assuming page number is derived from component’s state
        this.setState({page: page});
        targetView('PRODUCTS-PAGE-' + page);
      }
    }
    ```
 
-   **Link: [Checkout](https://target.enablementadobe.com/react/demo/#/checkout)**
+   **Link: [Checkout](https://experienceleague.adobe.com/developer/ashop-react-demo/at-js/#/checkout)**
 
    ![react checkout](/help/main/c-experiences/assets/react6.png)
 
@@ -200,7 +200,7 @@ Now that we have covered what Adobe Target Views are, we can leverage this conce
    | --- | --- |
    |Information|Displays the details of the action.|
    |Edit|Allows you to edit the properties of the action directly.|
-   |Clone|Clone the action to one or more Views that exist on the [!UICONTROL Modifications] panel or to one or more Views that you have browsed and navigated to in the VEC. The action doesn't have to necessarily exist in the [!UICONTROL Modifications] panel.<br>**Note**: After a clone operation is made, you need to navigate to the View in the VEC via [!UICONTROL Browse] to see whether the cloned action was a valid operation. If the action cannot be applied to the View, you will see an error.|
+   |Clone|Clone the action to one or more Views that exist on the [!UICONTROL Modifications] panel or to one or more Views that you have browsed and navigated to in the VEC. The action doesn’t have to necessarily exist in the [!UICONTROL Modifications] panel.<br>**Note**: After a clone operation is made, you need to navigate to the View in the VEC via [!UICONTROL Browse] to see whether the cloned action was a valid operation. If the action cannot be applied to the View, you will see an error.|
    |Move|Moves the action to a Page Load Event or any other View that already exists in the modifications panel.<br>[!UICONTROL Page Load Event] – any actions corresponding to the page load event are applied on the initial page load of your web application.<br>**Note** After a move operation is made, you need to navigate to the View in the VEC via Browse to see whether the move was a valid operation. If the action cannot be applied to the View, you will see an error|
    |Delete|Deletes the action.|
 
@@ -210,9 +210,9 @@ Now that we have covered what Adobe Target Views are, we can leverage this conce
 
    **Example 1**
 
-   Let's refer to the example above where we created a Home view. Our goal is two-fold for this view:
+   Let’s refer to the example above where we created a Home view. Our goal is two-fold for this view:
 
-   1. Change the Add to Cart and the Like button to a lighter blue color. This should be in a "Page Load" because we are changing components of the header.
+   1. Change the Add to Cart and the Like button to a lighter blue color. This should be in a “Page Load” because we are changing components of the header.
    1. Change the "Latest Products for 2019" label to "Hottest Products for 2019" with the text color changed to purple.
 
    To execute these goals, in the VEC, click [!UICONTROL Compose] and apply those changes on the Home view.
@@ -221,7 +221,7 @@ Now that we have covered what Adobe Target Views are, we can leverage this conce
 
    **Example 2**
 
-   Let's refer to the example above where we created a PRODUCTS-PAGE-2 view. Our goal is to change the "Price" label to "Sale Price" with the label color as red.
+   Let’s refer to the example above where we created a PRODUCTS-PAGE-2 view. Our goal is to change the "Price" label to "Sale Price" with the label color as red.
 
    1. Click [!UICONTROL Browse], then click the [!UICONTROL Products] link at the header. 
    1. Click [!UICONTROL Load More] once to get to the second row of products. 
@@ -252,37 +252,37 @@ Now that we have covered what Adobe Target Views are, we can leverage this conce
 
 **How can I retrieve views for the latest audience data hydrated by actions after the initial page load on my SPA?**
 
-The typical workflow of at.js 2.x is when your site loads, all of your views and actions are cached so that subsequent user actions on your site won't trigger server calls to retrieve offers. If you want to retrieve views depending on the most up-to-date profile data that might have been updated depending on subsequent user actions, you can call `getOffers()` and `applyOffers()` with the latest audience user or profile data passed.
+The typical workflow of at.js 2.x is when your site loads, all of your views and actions are cached so that subsequent user actions on your site won’t trigger server calls to retrieve offers. If you want to retrieve views depending on the most up-to-date profile data that might have been updated depending on subsequent user actions, you can call `getOffers()` and `applyOffers()` with the latest audience user or profile data passed.
 
 For example, consider that you are a telecom company and you have an SPA that uses at.js 2.x. As a business, you want to achieve the following objectives:
 
-* For a logged out or anonymous user, show the latest company promotion, such as showing a "First month free" hero offer on `http://www.telecom.com/home`.
-* For a logged in user, show an upgrade promotional offer for users whose contracts are coming up, such as "You are eligible for a free phone!" on `http://www.telecom.com/loggedIn/home`.
+* For a logged out or anonymous user, show the latest company promotion, such as showing a “First month free” hero offer on `http://www.telecom.com/home`.
+* For a logged in user, show an upgrade promotional offer for users whose contracts are coming up, such as “You are eligible for a free phone!” on `http://www.telecom.com/loggedIn/home`.
 
 Now, your developers name views and call `triggerView()` in the following manner:
 
 * For `http://www.telecom.com/home` the view name is "Logged Out Home"
-  * `triggerView("Logged Out Home")` is invoked.
+  * `triggerView(“Logged Out Home”)` is invoked.
 * For `http://www.telecom.com/loggedIn/home` the view name is "Logged In Home"
-  * `triggerView("Logged In Home")` is invoked on route change.
+  * `triggerView(“Logged In Home”)` is invoked on route change.
 
 Your marketers then run the following A/B activities through the VEC:
 
-* A/B activity with the "First Month Free" offer for audiences with the parameter "`loggedIn= false`" to be shown in `http://www.telecom.com/home`, where the view name is Logged Out Home.
-* A/B activity with the "You are eligible for a free phone!" offer for audiences with the parameter "`loggedIn=true`" to be shown in `http://www.telecom.com/loggedIn/home`, where the view name is Logged In Hero Offer.
+* A/B activity with the “First Month Free” offer for audiences with the parameter “`loggedIn= false`” to be shown in `http://www.telecom.com/home`, where the view name is Logged Out Home.
+* A/B activity with the “You are eligible for a free phone!” offer for audiences with the parameter “`loggedIn=true`” to be shown in `http://www.telecom.com/loggedIn/home`, where the view name is Logged In Hero Offer.
 
 Now, lets consider this user flow:
 
 1. An anonymous logged-out user lands on your page.
-1. Because you are using at.js 2.x, you pass in the parameter "`loggedIn = false`" on page-load to retrieve all views present in active activities that qualify for when the audience has parameter "`loggedIn = false`". 
-1. at.js 2.x then retrieves the Logged Out Home view and action to show the "First Month Free" offer and stores it in cache.
-1. When `triggerView("Logged Out Home")` is invoked, the "First Month Free" offer is retrieved from cache and the offer is shown without a server call.
-1. The user now clicks "Log in" and provides his or her credentials. 
+1. Because you are using at.js 2.x, you pass in the parameter “`loggedIn = false`” on page-load to retrieve all views present in active activities that qualify for when the audience has parameter “`loggedIn = false`”. 
+1. at.js 2.x then retrieves the Logged Out Home view and action to show the “First Month Free” offer and stores it in cache.
+1. When `triggerView(“Logged Out Home”)` is invoked, the “First Month Free” offer is retrieved from cache and the offer is shown without a server call.
+1. The user now clicks “Log in” and provides his or her credentials. 
 1. Because your website is an SPA, you do not conduct a full page load and instead route your user to `http://www.telecom.com/loggedIn/home`.
 
-Now, here is the problem. The user logs in and we encounter `triggerView("Logged In Home")` because we placed this code on route change. This tells at.js 2.x to retrieve the view and actions from cache, but the only view that exists in cache is Logged Out Home. 
+Now, here is the problem. The user logs in and we encounter `triggerView(“Logged In Home”)` because we placed this code on route change. This tells at.js 2.x to retrieve the view and actions from cache, but the only view that exists in cache is Logged Out Home. 
 
-So, how can we then retrieve our Logged In View and show the "You are eligible for a free phone!" offer? And since all subsequent actions on your site will be from a logged-in-user perspective, how can you make sure all subsequent actions result in personalized offers for logged-in users?
+So, how can we then retrieve our Logged In View and show the “You are eligible for a free phone!” offer? And since all subsequent actions on your site will be from a logged-in-user perspective, how can you make sure all subsequent actions result in personalized offers for logged-in users?
 
 You can use the new `getOffers()` and `applyOffers()` functions supported in at.js 2.x:
 
@@ -301,7 +301,7 @@ adobe.target.getOffers({
 });
 ```
 
-Pass the response of `getOffers()` to `applyOffers()` and now all views and actions associated with "loggedIn = true" will update the at.js cache. 
+Pass the response of `getOffers()` to `applyOffers()` and now all views and actions associated with “loggedIn = true” will update the at.js cache. 
 
 In other words, at.js 2.x supports a way to retrieve views, actions, and offers with the most up-to-date audience data in an on-demand fashion.
 
@@ -321,9 +321,9 @@ Yes, at.js 2.x supports A4T for SPA via the `triggerView()` function given that 
 |6|Target data is matched to Analytics data via the SDID and is processed into the Analytics reporting storage. Analytics data can then be viewed in both Analytics and Target via A4T reports.|
 
 >[!NOTE]
->If you don't want to send notifications to Adobe Analytics for impression counting every time a view is triggered, pass in `{page: false}` to the `triggerView()` function so that impression counting is not inflated when a view is triggered multiple times for a component that re-renders constantly. For example:
+>If you don’t want to send notifications to Adobe Analytics for impression counting every time a view is triggered, pass in `{page: false}` to the `triggerView()` function so that impression counting is not inflated when a view is triggered multiple times for a component that re-renders constantly. For example:
 >
->`adobe.target.triggerView("PRODUCTS-PAGE-2", {page:false})`
+>`adobe.target.triggerView(“PRODUCTS-PAGE-2”, {page:false})`
 
 ## Supported activities
 
@@ -348,7 +348,7 @@ If you want to use Auto-Target A/B activities, you can move all of your actions 
 | --- | --- |
 |[Analytics for Target (A4T)](/help/main/c-integrating-target-with-mac/a4t/a4t.md)|Yes|
 |[Experience Cloud Audiences](/help/main/c-integrating-target-with-mac/mmp.md)|Yes|
-|[Customer Attributes](https://experienceleague.corp.adobe.com/docs/target-dev/developer/implementation/methods/customer-attributes.html){target=_blank}|Yes|
+|[Customer Attributes](https://developer.adobe.com/target/before-implement/methods-to-get-data-into-target/customer-attributes/){target=_blank}|Yes|
 |[AEM Experience Fragments](/help/main/c-experiences/c-manage-content/aem-experience-fragments.md)|Yes|
 
 ## Supported features {#supported-features}
@@ -383,10 +383,10 @@ Consider this example use-case:
 
 The following changes were made:
 
-* Changed the background color in the Home view, which is located under the URL: [https://target.enablementadobe.com/react/demo/#/](https://target.enablementadobe.com/react/demo/#/).
-* Changed the button color in the Products view, which is located under the URL: [https://target.enablementadobe.com/react/demo/#/products](https://target.enablementadobe.com/react/demo/#/products).
+* Changed the background color in the Home view, which is located under the URL: [https://experienceleague.adobe.com/developer/ashop-react-demo/at-js/#/](https://experienceleague.adobe.com/developer/ashop-react-demo/at-js/#/).
+* Changed the button color in the Products view, which is located under the URL: [https://experienceleague.adobe.com/developer/ashop-react-demo/at-js/#/products](https://experienceleague.adobe.com/developer/ashop-react-demo/at-js/#/products).
 
-With the example above in mind, what would happen when we configure [!UICONTROL Page Delivery] settings to only include: [https://target.enablementadobe.com/react/demo/#/](https://target.enablementadobe.com/react/demo/#/) in an SPA with at.js 2.*x*?
+With the example above in mind, what would happen when we configure [!UICONTROL Page Delivery] settings to only include: [https://experienceleague.adobe.com/developer/ashop-react-demo/at-js/#/](https://experienceleague.adobe.com/developer/ashop-react-demo/at-js/#/) in an SPA with at.js 2.*x*?
 
 ![Page Delivery dialog box](/help/main/c-experiences/assets/spa-page-delivery.png)
 
@@ -396,26 +396,26 @@ The following illustration shows the Target Flow -  Page Load request in at.js 2
 
 **User Journey #1**
 
-* A user navigates directly to [https://target.enablementadobe.com/react/demo/#/](https://target.enablementadobe.com/react/demo/#/).
-* at.js 2.*x* makes a query to the Edge to see if any activity needs to execute for the URL: [https://target.enablementadobe.com/react/demo/#/](https://target.enablementadobe.com/react/demo/#/).
+* A user navigates directly to [https://experienceleague.adobe.com/developer/ashop-react-demo/at-js/#/](https://experienceleague.adobe.com/developer/ashop-react-demo/at-js/#/).
+* at.js 2.*x* makes a query to the Edge to see if any activity needs to execute for the URL: [https://experienceleague.adobe.com/developer/ashop-react-demo/at-js/#/](https://experienceleague.adobe.com/developer/ashop-react-demo/at-js/#/).
 * In step 6, the Target Edge returns the actions for the Home and Products view so that they are cached within the browser.
 
-**Result**: The user sees the green background color in the Home view. When the user then navigates to [https://target.enablementadobe.com/react/demo/#/products](https://target.enablementadobe.com/react/demo/#/products), the blue background color of the button is seen because the action is cached in the browser under the Products view. 
+**Result**: The user sees the green background color in the Home view. When the user then navigates to [https://experienceleague.adobe.com/developer/ashop-react-demo/at-js/#/products](https://experienceleague.adobe.com/developer/ashop-react-demo/at-js/#/products), the blue background color of the button is seen because the action is cached in the browser under the Products view. 
 
-Note: The user navigating to [https://target.enablementadobe.com/react/demo/#/products](https://target.enablementadobe.com/react/demo/#/products) did not trigger a page load.
+Note: The user navigating to [https://experienceleague.adobe.com/developer/ashop-react-demo/at-js/#/products](https://experienceleague.adobe.com/developer/ashop-react-demo/at-js/#/products) did not trigger a page load.
 
 **User Journey #2**
 
-* A user navigates directly to [https://target.enablementadobe.com/react/demo/#/products](https://target.enablementadobe.com/react/demo/#/products).
-* at.js 2.*x* makes a query to the Edge to see if any activity needs to execute for the URL: [https://target.enablementadobe.com/react/demo/#/products](https://target.enablementadobe.com/react/demo/#/products).
-* There are no activities qualified for [https://target.enablementadobe.com/react/demo/#/products](https://target.enablementadobe.com/react/demo/#/products).
+* A user navigates directly to [https://experienceleague.adobe.com/developer/ashop-react-demo/at-js/#/products](https://experienceleague.adobe.com/developer/ashop-react-demo/at-js/#/products).
+* at.js 2.*x* makes a query to the Edge to see if any activity needs to execute for the URL: [https://experienceleague.adobe.com/developer/ashop-react-demo/at-js/#/products](https://experienceleague.adobe.com/developer/ashop-react-demo/at-js/#/products).
+* There are no activities qualified for [https://experienceleague.adobe.com/developer/ashop-react-demo/at-js/#/products](https://experienceleague.adobe.com/developer/ashop-react-demo/at-js/#/products).
 * Because there are no activities qualified, there are no actions and Views to be cached for at.js 2.*x* to trigger from.
 
-**Result**: Even if you have defined `triggerView()` for the Products View and made an action to the Products View through the SPA VEC, you will not see the expected action since you did not create a rule that included [https://target.enablementadobe.com/react/demo/#/products](https://target.enablementadobe.com/react/demo/#/products) in the Page Delivery settings.
+**Result**: Even if you have defined `triggerView()` for the Products View and made an action to the Products View through the SPA VEC, you will not see the expected action since you did not create a rule that included [https://experienceleague.adobe.com/developer/ashop-react-demo/at-js/#/products](https://experienceleague.adobe.com/developer/ashop-react-demo/at-js/#/products) in the Page Delivery settings.
 
 ### Best Practice
 
-You can see that managing the user journey can be quite difficult as users can land on any URL of your SPA and navigate to any other page. Therefore, it is best to specify a Page Delivery rule that includes the base URL so that it includes your entire SPA. In this way, you don't need to think about all the different journeys and paths that a user might take to get to a page on which you want to show an A/B Test or Experience Targeting (XT) activity.
+You can see that managing the user journey can be quite difficult as users can land on any URL of your SPA and navigate to any other page. Therefore, it is best to specify a Page Delivery rule that includes the base URL so that it includes your entire SPA. In this way, you don’t need to think about all the different journeys and paths that a user might take to get to a page on which you want to show an A/B Test or Experience Targeting (XT) activity.
 
 For example, in order to resolve the issue faced above, we can specify the base URL in the Page Delivery settings as such:
 

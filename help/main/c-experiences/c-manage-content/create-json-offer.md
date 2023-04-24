@@ -17,10 +17,10 @@ Consider the following information as you work with JSON offers:
 
 * JSON offers are currently available only for [!UICONTROL A/B Test], Automated Personalization (AP), and [!UICONTROL Experience Targeting] (XT) activities. 
 * JSON offers can be used in [form-based activities](/help/main/c-experiences/form-experience-composer.md) only. 
-* JSON offer can be retrieved directly when you are using the [Server Side APIs and Mobile Node.js, Java, .NET, and Python SDKs](https://experienceleague.corp.adobe.com/docs/target-dev/developer/server-side/server-side-overview.html){target=_blank}. 
-* In the browser, JSON offers can be retrieved ONLY via at.js 1.2.3 (or later) and using [getOffer()](https://experienceleague.corp.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/functions-overview/adobe-target-getoffer.html){target=_blank} by filtering actions using the `setJson` action. 
+* JSON offer can be retrieved directly when you are using the [Server Side APIs and Mobile Node.js, Java, .NET, and Python SDKs](https://developer.adobe.com/target/implement/server-side/){target=_blank}. 
+* In the browser, JSON offers can be retrieved ONLY via at.js 1.2.3 (or later) and using [getOffer()](https://developer.adobe.com/target/implement/client-side/atjs/atjs-functions/adobe-target-getoffer/){target=_blank} by filtering actions using the `setJson` action. 
 * JSON offers are delivered as native JSON objects rather than as strings. Consumers of these objects are no longer required to handle objects as strings and convert them to JSON objects. 
-* JSON offers are not applied automatically as opposed to other offers (such as HTML offers) because JSON offers are non-visual offers. Developers must write code to explicitly get the offer using [getOffer()](https://experienceleague.corp.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/functions-overview/adobe-target-getoffer.html){target=_blank}. 
+* JSON offers are not applied automatically as opposed to other offers (such as HTML offers) because JSON offers are non-visual offers. Developers must write code to explicitly get the offer using [getOffer()](https://developer.adobe.com/target/implement/client-side/atjs/atjs-functions/adobe-target-getoffer/){target=_blank}. 
 
 ## Create a JSON offer {#section_BB9C72D59DEA4EFB97A906AE7569AD7A}
 
@@ -129,11 +129,7 @@ adobe.target.getOffer({
 
 Real-time CDP Profile Attributes can be shared with [!DNL Target] for use in HTML offer and JSON offers. (Note this feature is currently in Beta.)
 
-Sample use case: As an online marketer, Grace wants the AEP/Unified Profile to share attribute values with [!DNL Target] in order to provide real-time personalization. By using Real-time CDP Profile Attributes, Grace can display the value of the AEP attribute in a [!DNL Target] offer using token replace. For example, she can personalize according to a customer's favorite color using `${aep.profile.favoriteColor}`, or their loyalty tier and loyalty point value using the tokens `${aep.loyalty.tier}` and `${aep.loyalty.points}`.
-
-![offer-json-aep-shared-attribute image](assets/offer-json-aep-shared-attribute.png)
-
-Note that assigning default values is optional.
+For more information, see [Share Real-time CDP Profile Attributes with [!DNL Target]](/help/main/c-integrating-target-with-mac/integrating-with-rtcdp.md#rtcdp-profile-attributes).
 
 ## Filtering offers by the JSON offer type {#section_52533555BCE6420C8A95EB4EB8907BDE}
 

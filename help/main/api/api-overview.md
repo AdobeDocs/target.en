@@ -10,7 +10,7 @@ exl-id: 2a0232cc-9a6a-42f4-afb6-4b3e2b13939c
 
 Before you start using [!DNL Adobe Target], you must implement it on your site.
 
-The [Adobe Target Developer Guide portal](https://experienceleague.corp.adobe.com/docs/target-dev/developer/overview.html){target=_blank} contains information you need to know before you implement [!DNL Target]. 
+The [Adobe Target Developer Guide portal](https://developer.adobe.com/target/){target=_blank} contains information you need to know before you implement [!DNL Target]. 
 
 The Developer portal includes information about the following implementation types:
 
@@ -27,4 +27,4 @@ The Developer portal includes information about the following implementation typ
 * Reporting APIs.
 * Recommendation APIs.
  
-For more information, see [Target API Overview](https://experienceleague.corp.adobe.com/docs/target-dev/developer/administration/target-api-overview.html){target=_blank} in the [Adobe Target Developer Guide](https://experienceleague.corp.adobe.com/docs/target-dev/developer/overview.html){target=_blank} portal.
+For more information, see [Target API Overview](https://developer.adobe.com/target/before-administer/){target=_blank} in the [Adobe Target Developer Guide](https://developer.adobe.com/target/){target=_blank} portal.

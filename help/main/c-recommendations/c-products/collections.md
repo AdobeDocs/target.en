@@ -2,10 +2,11 @@
 keywords: collection;Targeting
 description: Learn how to use collections in Adobe [!DNL Target] Recommendations. A collection is a set of products or items that are eligible for a recommendation.
 title: How Do I Use Collections in Recommendations Activities?
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="See what's included in Target Premium."
 feature: Recommendations
 exl-id: e62f501b-3521-4456-9ea1-e4b8a2b478c6
 ---
-# ![PREMIUM](/help/main/assets/premium.png) Collections 
+# Collections 
 
 A collection is a set of products or items that are eligible for a recommendation. A collection is defined by specifying the conditions that must be met by items to be part of it.
 

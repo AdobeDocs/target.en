@@ -1,5 +1,5 @@
 ---
-user-guide-title: Adobe Target Business Practitioner Guide
+user-guide-title: Adobe Target Business Practitioner Guide 
 breadcrumb-title: Target Guide
 user-guide-description: Learn how to tailor and personalize your customers' experience to maximize revenue on your web and mobile sites, apps, social media, and other digital channels.
 feature-set: Target
@@ -72,7 +72,6 @@ feature-set: Target
       + [A4T reporting](c-integrating-target-with-mac/a4t/reporting.md)
       + Troubleshooting the Analytics and Target integration (A4T) {#troubleshoot-a4t}
          + [Troubleshoot A4T](c-integrating-target-with-mac/a4t/c-a4t-troubleshooting/a4t-troubleshooting.md)
-         + [Minimizing inflated visit and visitor counts in A4T](c-integrating-target-with-mac/a4t/c-a4t-troubleshooting/minimizing-inflated-visit-and-visitor-counts-a4t.md)
       + A4T Frequently Asked Questions {#a4t-faq}
          + [Initial provisioning - A4T FAQ](c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-initial-provisioning.md)
          + [Activity settings - A4T FAQ](c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-activity-setup.md)
@@ -80,16 +79,20 @@ feature-set: Target
          + [Redirect offers - A4T FAQ](c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-redirect-offers.md)
          + [Lift and confidence - A4T FAQ](c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-lift-and-confidence.md)
          + [Metric definitions - A4T FAQ](c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-metric-definition.md)
-         + [Inflated visit and visitor counts - A4T FAQ](c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-inflated-visit-and-visitor-counts.md)
          + [Classifications - A4T FAQ](c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-classifications.md)
          + [Share metrics, audiences, and reports - A4T FAQ](/help/main/c-target/c-troubleshooting-targets-and-audiences/a4t-faq-sharing-metrics-audiences-reports.md)
          + [Legacy SiteCatalyst to Test&Target Integration - A4T FAQ](c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-old-integration.md)
       + [Expected data variances between Target and Analytics when using and not using A4T](c-integrating-target-with-mac/a4t/understanding-expected-data-variances.md)
-   + Integrate Target with Adobe Journey Optimizer {#ajo}
+   + Integrate Target with Adobe Journey Optimizer (AJO) {#ajo}
       + [Use offer decisions](/help/main/c-integrating-target-with-mac/ajo/offer-decision.md)
    + [Experience Cloud Audiences](/help/main/c-integrating-target-with-mac/mmp.md)
-   + [Integrate Target with Adobe Experience Manager](/help/main/c-integrating-target-with-mac/aem-target-integration.md)
-   + [Integrate Target with Adobe Audience Manager](/help/main/c-integrating-target-with-mac/audience-manager-target-integration.md)
+   + Integrate Target with Adobe Experience Manager (AEM) {#aem}
+      + [Integrate Target with AEM overview](/help/main/c-integrating-target-with-mac/aem/aem-target-integration.md)
+      + Experience Fragments and Content Fragments {#fragments}
+         + [AEM Experience Fragments and Content Fragments overview](/help/main/c-integrating-target-with-mac/aem/aem-experience-and-content-fragments.md)
+         + [AEM Experience Fragments](/help/main/c-integrating-target-with-mac/aem/experience-fragments-aem.md)
+         + [AEM Content Fragments](/help/main/c-integrating-target-with-mac/aem/content-fragments-aem.md)
+   + [Integrate Target with Adobe Audience Manager (AAM)](/help/main/c-integrating-target-with-mac/audience-manager-target-integration.md)
    + [Integrate with Real-time Customer Data Platform](/help/main/c-integrating-target-with-mac/integrating-with-rtcdp.md)
    + [Integrate Target with Adobe Campaign](c-integrating-target-with-mac/campaign-and-target.md)
 + Activities {#activities}
@@ -244,7 +247,7 @@ feature-set: Target
       + [Work with content in the library](c-experiences/c-manage-content/assets-working.md)
       + [Search content](c-experiences/c-manage-content/filter-and-search-content.md)
       + [Pass dynamic data into offers](c-experiences/c-manage-content/passing-profile-attributes-to-the-html-offer.md)
-      + [AEM experience fragments](c-experiences/c-manage-content/aem-experience-fragments.md)
+      + [AEM Experience and Content Fragments](c-experiences/c-manage-content/aem-experience-fragments.md)
 + Reports {#reports}
    + [Reports overview](c-reports/reports.md)
    + Report settings {#settings}

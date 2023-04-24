@@ -2,7 +2,7 @@
 keywords: a4t;analytics;analytics for target;analytics reporting source;adobe analytics as the reporting source for target;atjs;at.js;adobe experience platform web sdk;platform web sdk;platform sdk
 description: Use [!DNL Analytics] for [!DNL Target] (A4T) to create activities based on [!DNL Analytics] conversion metrics and audience segments and use [!DNL Analytics] reports to examine results.
 title: What is [!DNL Analytics] for [!DNL Target] (A4T)?
-feature: Analytics for Target (A4T)
+feature: Analytics for Target (A4T) 
 exl-id: 5bb80b03-8209-4932-a838-0e11c5865133
 ---
 # [!DNL Adobe Analytics] as the reporting source for [!DNL Adobe Target] (A4T)
@@ -52,7 +52,7 @@ The following sections contain information about supported activity types when u
 |--- |--- |--- |
 |[A/B activity with manual traffic split](/help/main/c-activities/t-test-ab/test-ab.md)|Yes||
 |[A/B activity with Auto-Allocate](/help/main/c-activities/automated-traffic-allocation/automated-traffic-allocation.md)|Yes|See [A4T support for Auto-Allocate and Auto-Target activities](/help/main/c-integrating-target-with-mac/a4t/a4t-at-aa.md)|
-|[A/B activity with Auto-Target](/help/main/c-activities/auto-target/auto-target-to-optimize.md)|Yes|See [A4T support for Auto-Allocate and Auto-Target activities](/help/main/c-integrating-target-with-mac/a4t/a4t-at-aa.md).|
+|[A/B activity with Auto-Target](/help/main/c-activities/auto-target/auto-target-to-optimize.md)|No||
 |[Experience Targeting (XT)](/help/main/c-activities/t-experience-target/experience-target.md)|Yes||
 |[Multivariate test (MVT)](/help/main/c-activities/c-multivariate-testing/multivariate-testing.md)|Yes|Requires mbox-based goal metric goal to get the [!UICONTROL Element Contribution] report. The [!UICONTROL Element Contribution] report does not currently support [!DNL Analytics] metrics.|
 |[Automated Personalization (AP) activity](/help/main/c-activities/t-automated-personalization/automated-personalization.md)|No||

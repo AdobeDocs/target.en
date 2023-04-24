@@ -71,7 +71,7 @@ Use QA URLs in [!DNL Adobe Target] to perform easy end-to-end activity QA with p
   You can also manually force yourself out by loading a page on your site with the `at_preview_token` parameter with an empty value (for example, `https://www.mysite.com/?at_preview_token=`). 
 
 * If you specified "URL is" while creating the activity [refinements in the Form-based Composer](/help/main/c-experiences/form-experience-composer.md#task_FAC842A6535045B68B4C1AD3E657E56E) or [page delivery options in the Visual Experience Composer)](/help/main/c-experiences/c-visual-experience-composer/viztarget-options.md#reference_3BD1BEEAFA584A749ED2D08F14732E81), the QA URL does not work because [!UICONTROL Activity QA] appends URL parameters. To solve this issue, click the QA URL to go to your site, remove the appended parameters from the URL, then load the new URL.
-* If you have at.js 1.*x*, [!UICONTROL Activity QA] mode is not sticky if you use Safari or another browser that blocks 3rd-party cookies. In these cases, you must add the preview parameters to each URL you navigate to. The same is true if you have implemented [CNAME](https://experienceleague.corp.adobe.com/docs/target-dev/developer/implementation/implement-cname-support-in-target.html){target=_blank}.
+* If you have at.js 1.*x*, [!UICONTROL Activity QA] mode is not sticky if you use Safari or another browser that blocks 3rd-party cookies. In these cases, you must add the preview parameters to each URL you navigate to. The same is true if you have implemented [CNAME](https://developer.adobe.com/target/before-implement/implement-cname-support-in-target/){target=_blank}.
 * If an activity uses multiple experience audiences (for example, a US and UK site that are included in the same activity), QA links are not generated for the four combinations (Experience A/US Site, Experience A/UK Site, Experience B/US Site, Experience B/UK Site). Only two QA links (Experience A and Experience B) are created and users must qualify for the appropriate audience to see the page. A UK QA person cannot see the US site. 
 * All `at_preview` parameters and values are already URL encoded. Most of the time, everything works as expected. However, some customers must load balancers or Web servers that try to encode the query string parameters again.
 
@@ -98,9 +98,9 @@ Use QA URLs in [!DNL Adobe Target] to perform easy end-to-end activity QA with p
 
 [!DNL Target] supports the following JavaScript libraries:
 
-* [at.js 1.x](https://experienceleague.corp.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/at-js/how-atjs-works.html){target=_blank}
-* [at.js 2.x](https://experienceleague.corp.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/at-js/how-atjs-works.html){target=_blank}
-* [Adobe Experience Platform Web SDK](https://experienceleague.corp.adobe.com/docs/target-dev/developer/client-side/aep-web-sdk.html){target=_blank}
+* [at.js 1.x](https://developer.adobe.com/target/implement/client-side/atjs/how-atjs-works/how-atjs-works/)
+* [at.js 2.x](https://developer.adobe.com/target/implement/client-side/atjs/how-atjs-works/how-atjs-works/)
+* [Adobe Experience Platform Web SDK](https://developer.adobe.com/target/implement/client-side/aep-web-sdk/)
 
 The following table lists the various activity types and indicates whether [!UICONTROL Activity QA] mode is supported for each library:
 

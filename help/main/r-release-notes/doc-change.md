@@ -1,5 +1,5 @@
 ---
-keywords: target documentation change log;documentation updates;new topics;edits;updates;update
+keywords: target documentation change log;documentation updates;new topics;edits;updates;update 
 description: Keep up to date with important additions and changes to the [!DNL Adobe Target] documentation.
 title: Where Can I See Documentation Updates for [!DNL Target]?
 feature: Release Notes
@@ -8,6 +8,34 @@ exl-id: 36d19598-eb46-4be6-a652-658b653287cb
 # Documentation changes
 
 This page lists significant changes made to the [!DNL Adobe Target] product documentation.
+
+## [!DNL Target] Standard/Premium 23.3.1 (March 28-30, 2023)
+
+|Date|Topic|Changes|
+| --- | --- | --- |
+|April 19|[[!UICONTROL Location Contribution] report (MVT)](/help/main/c-reports/multivariate-test-reports/location-contribution-report.md)|Updated information in note.|
+|April 13|[[!DNL Target] release notes (prerelease)](/help/main/r-release-notes/target-release-notes.md)|Added information about the [!DNL Target] Standard/Premium 23.4.1 release (April 25-27, 2023).|
+|April 12|[[!DNL Adobe Target] announcements and events](/help/main/r-release-notes/target-announcements.md)|Added link to register for the following webinar:<ul><li>Deliver personalized customer experiences, every time!</li></ul>|
+||[Important Attributes report](/help/main/c-reports/c-personalization-insights-reports/important-attributes-report.md#models-api)|Added the following FAQ:<ul><li>I see one or more attributes that I don't want the model to use for training. Can I remove those attributes from the training model?</li></ul>|
+||[Enterprise user permissions](/help/main/administrating-target/c-user-management/property-channel/property-channel.md#multiple-roles)|Added the following FAQ:<ul><li>What happens if a user has multiple roles and permissions?</li></ul>|
+||[AEM Content Fragments](/help/main/c-integrating-target-with-mac/aem/content-fragments-aem.md)|New topic. Note that this feature is in the "prerelease" status for testing purposes.|
+|April 5|[Use offer decisions](/help/main/c-integrating-target-with-mac/ajo/offer-decision.md)|Added text indicating that [!UICONTROL Analytics as the reporting source] (A4t) is not supported in activities that use offer decisions.|
+|April 3|[[!DNL Adobe Target] announcements and events](/help/main/r-release-notes/target-announcements.md)|Added information about the [!UICONTROL Adobe Target Community] Coffee break scheduled for Wednesday, April 12, 2023.|
+||[Allowlist Target edge nodes](https://developer.adobe.com/target/before-implement/privacy/allowlist-edges/){target=_blank}|Added note to allowlist all [!DNL Adobe Analytics] IP address blocks.|
+|March 30|[Target release notes (current)](/help/main/r-release-notes/release-notes.md)|Updated release notes for the release of the Optimized A4T metrics for [!UICONTROL Auto-Allocate] and [!UICONTROL Auto-Target] feature that lets you you choose metrics based on binomial events or metrics based on continuous events when using [!UICONTROL A4T] for [!UICONTROL Auto-Allocate] and [!UICONTROL Auto-Target] activities.|
+||[A4T support for [!UICONTROL Auto-Allocate] and [!UICONTROL Auto-Target] activities](/help/main/c-integrating-target-with-mac/a4t/a4t-at-aa.md#supported)|Updated the "Supported goal metrics" section to include information about the supported (and unsupported) metrics for [!UICONTROL Auto-Allocate] and [!UICONTROL Auto-Target] activities using [!UICONTROL Analytics for Target] (A4T)|
+||[Adobe Target Tutorials](https://experienceleague.adobe.com/docs/target-learn/tutorials/overview.html){target=_blank}|Updated the following tutorials:<ul><li>[Setting up A4T reports in [!DNL Analysis Workspace] for [!UICONTROL Auto-Allocate] activities](https://experienceleague.adobe.com/docs/target-learn/tutorials/integrations/set-up-a4t-reports-in-analysis-workspace-for-auto-allocate-activities.html){target=_blank}</li><li>[Setting up A4T reports in [!DNL Analysis Workspace] for [!UICONTROL Auto-Target] activities](https://experienceleague.adobe.com/docs/target-learn/tutorials/integrations/set-up-a4t-reports-in-analysis-workspace-for-auto-target-activities.html){target=_blank}</li></ul>|
+||[Target release notes (prerelease)](/help/main/r-release-notes/target-release-notes.md)|Added information for the [!DNL Adobe Experience Manager] (AEM) and [!DNL Adobe Target] [!UICONTROL Content Fragments] release. (April 6, 2023)|
+|March 28|[Target release notes (current)](/help/main/r-release-notes/release-notes.md)|Added release notes for the [!DNL Target Standard/Premium] 23.3.1 release.|
+
+## [!DNL Target] Standard/Premium 22.15.1 (March 8 & 9, 2023) 
+
+|Date|Topic|Changes|
+| --- | --- | --- |
+||[Edit an activity or save as draft](/help/main/c-activities/edit-activity.md)|Added a "Best practices" section.|
+||[Modifications](/help/main/c-experiences/c-visual-experience-composer/c-vec-code-editor/vec-code-editor.md)|Added the following note to the "Troubleshooting custom code" section:<ul><li>Custom Code offers in the VEC are not re-rendered when `triggerView()` is called with `{page: false}` as the option.</li></ul>|
+||[Target release notes (current)](/help/main/r-release-notes/release-notes.md)|Added information about the at.js 2.10.2 release.|
+||[Target release notes (current)](/help/main/r-release-notes/release-notes.md)|Added release notes for the [!DNL Target Standard/Premium] 22.15.1 release.|
 
 ## [!DNL Target] Standard/Premium 22.13.3 (January 25, 2023)
 

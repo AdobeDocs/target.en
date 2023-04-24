@@ -2,10 +2,11 @@
 keywords: behavioral data source;analytics;recommendations;criteria;product variables
 description: Learn how to use [!DNL Adobe Analytics] as the behavioral data source to use the view-based and/or purchase-based behavioral data from [!DNL Analytics] in [!DNL Target Recommendations].
 title: How Do I Use [!DNL Adobe Analytics] with [!DNL Target Recommendations]?
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="See what's included in Target Premium."
 feature: Recommendations
 exl-id: d2b7e840-9546-4a8e-bec4-1ebea5a79672
 ---
-# ![PREMIUM](/help/main/assets/premium.png) Use [!DNL Adobe Analytics] with [!DNL Recommendations]
+# Use [!DNL Adobe Analytics] with [!DNL Recommendations]
 
 Using [!DNL Adobe Analytics] as the behavioral data source lets clients use the view-based and/or purchase-based behavioral data from [!DNL Analytics] in [!DNL Adobe Target] [!DNL Recommendations] activities. This feature is especially helpful in situations where the [!DNL Target Recommendations] setup is new and [!DNL Analytics] has much historical data to use.
 

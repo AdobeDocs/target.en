@@ -2,11 +2,12 @@
 keywords: multi-value entity attributes;custom entity attributes;valid JSON;entity attribute value;JSON array;multi-valued;multivalued
 description: Learn how to use single- and multi-value custom entity attributes to define additional information about items in your Adobe [!DNL Target] Recommendations catalog.
 title: How Do I Use Custom Entity Attributes?
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="See what's included in Target Premium."
 feature: Recommendations
 mini-toc-levels: 3
 exl-id: d7d0b04a-0f50-4d30-9cbe-c0347a3d3715
 ---
-# ![PREMIUM](/help/main/assets/premium.png) Custom entity attributes
+# Custom entity attributes
 
 Use single- and multi-value custom entity attributes in [!DNL Adobe Target Recommendations] to define additional information about items in your catalog.
 

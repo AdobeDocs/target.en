@@ -2,10 +2,11 @@
 keywords: environmental data;session data;geo data;geographical data;device data;mobile data;attributes;profile attributes;personalization algorithms;machine-learning algorithms;machine learning algorithms
 description: Learn which data Adobe [!DNL Target] collects and uses to build its machine-learning algorithms.
 title: What Data is Collected to Build Machine-Learning Algorithms?
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="See what's included in Target Premium."
 feature: Automated Personalization
 exl-id: 7114a6d6-4779-471e-9b91-646aa49e102a
 ---
-# ![PREMIUM](/help/main/assets/premium.png) Data used by [!DNL Target] machine-learning algorithms
+# Data used by [!DNL Target] machine-learning algorithms
 
 [!DNL Adobe Target] automatically collects and uses a variety of data to build its personalization algorithms in [!UICONTROL Automated Personalization] (AP) and [!UICONTROL Auto-Target] (AT) activities. When a visitor enters an AP or AT activity, a snapshot of information is passed to a set of "training records" (the visitor data that the personalization algorithms will learn on).
 
@@ -42,7 +43,7 @@ The following table shows the customer-provided data collected by by [!UICONTROL
 
 Features can be blocked from [!DNL Target] machine-learning algorithms, preventing them from being used in any [!UICONTROL Auto-Target] or [!UICONTROL Automated Personalization] model or activity. 
 
-For more information, see [Models API (Blocklisting) Overview](https://experienceleague.corp.adobe.com/docs/target-dev/developer/administration/models-api/models-api.html){target=_blank} in the *Adobe Target Developer Guide*. 
+For more information, see [Models API (Blocklisting) Overview](https://developer.adobe.com/target/before-administer/models-api/){target=_blank} in the *Adobe Target Developer Guide*. 
 
 ## Device and mobile data {#device-mobile}
 

@@ -1,5 +1,5 @@
 ---
-keywords: troubleshoot target;troubleshooting target
+keywords: troubleshoot target;troubleshooting target;resolve issues
 description: Review a list of topics to help you resolve issues in Adobe Target, including troubleshooting topics, frequently asked questions (FAQs), and other helpful topics.
 title: How do I Troubleshoot Target?
 feature: Troubleshooting
@@ -56,7 +56,6 @@ The following sections contain troubleshooting information about activities, sep
 * [Troubleshooting Analytics and Target integration](/help/main/c-integrating-target-with-mac/a4t/c-a4t-troubleshooting/a4t-troubleshooting.md)
 * "Office Hours" video, an initiative led by the Adobe Customer Care team. See [Adobe Analytics as the Reporting Source for Adobe Target (A4T)](/help/main/c-integrating-target-with-mac/a4t/a4t.md).
 * A4T Frequently Asked Questions
-  * [Minimizing inflated Visit and Visitor counts in A4T](/help/main/c-integrating-target-with-mac/a4t/c-a4t-troubleshooting/minimizing-inflated-visit-and-visitor-counts-a4t.md)
   * [Initial provisioning - A4T FAQ](/help/main/c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-initial-provisioning.md)
   * [Activity setup - A4T FAQ](/help/main/c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-activity-setup.md)
   * [Viewing reports - A4T FAQ](/help/main/c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-viewing-reports.md)
@@ -64,7 +63,6 @@ The following sections contain troubleshooting information about activities, sep
   * [Lift and confidence - A4T FAQ](/help/main/c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-lift-and-confidence.md)
   * [Metric definitions - A4T FAQ](/help/main/c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-metric-definition.md)
   * [Sharing metrics, segments, and reports - A4T FAQ](/help/main/c-target/c-troubleshooting-targets-and-audiences/a4t-faq-sharing-metrics-audiences-reports.md)
-  * [Inflated Visit and Visitor counts - A4T FAQ](/help/main/c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-inflated-visit-and-visitor-counts.md)
   * [Classifications - A4T FAQ](/help/main/c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-classifications.md)
   * [Legacy SiteCatalyst to Test & Target integration - A4T FAQ](/help/main/c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-old-integration.md)
 

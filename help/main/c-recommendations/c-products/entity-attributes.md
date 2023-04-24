@@ -1,11 +1,12 @@
 ---
 keywords: entity;entity attributes;pass information to Recommendations;behavioral data;data counter;define relative URL;display inventory level;define price;define profit margin;custom attributes
 description: Learn how to use entity attributes to pass product or content information to [!DNL Target] Recommendations.
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="See what's included in Target Premium."
 title: How Do I Use Entity Attributes?
 feature: Recommendations
 exl-id: 4ed5fad3-b8b6-4675-a741-9f85cf73fcf1
 ---
-# ![PREMIUM](/help/main/assets/premium.png) Entity attributes
+# Entity attributes
 
 Use entity attributes to pass product or content information to [!DNL Adobe Target Recommendations].
 

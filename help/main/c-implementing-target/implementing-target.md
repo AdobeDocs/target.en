@@ -2,6 +2,7 @@
 keywords: implement;implementing
 description: Understand basic concepts, be familiar with how [!DNL Target] works and integrates with your infrastructure, and understand how visitors are tracked.
 landing-page-description: Before you start using Adobe Target, you must implement it on your site.
+short-description: Before you start using Adobe Target, you must implement it on your site.
 title: How Do I Implement [!DNL Target]?
 feature: Implementation
 role: Developer
@@ -11,7 +12,7 @@ exl-id: 2ad3d33c-467c-48fc-8aa2-4d5c21708a71
 
 Before you start using [!DNL Adobe Target], you must implement it on your site.
 
-The [Adobe Target Developer Guide portal](https://experienceleague.corp.adobe.com/docs/target-dev/developer/overview.html){target=_blank} contains information you need to know before you implement [!DNL Target]. 
+The [Adobe Target Developer Guide portal](https://developer.adobe.com/target/){target=_blank} contains information you need to know before you implement [!DNL Target]. 
 
 The Developer portal includes information about the following implementation types:
 
@@ -22,11 +23,11 @@ The Developer portal includes information about the following implementation typ
 * **Mobile apps**: Information to help you implement using [!DNL Adobe Experience Platform Mobile] SDKs.
 * **Email**: Information to help you implement [!DNL Target] in emails.
 
-For more information, see the [Adobe Target Developer Guide portal](https://experienceleague.corp.adobe.com/docs/target-dev/developer/overview.html?lang=en){target=_blank}.
+For more information, see the [Adobe Target Developer Guide portal](https://developer.adobe.com/target/){target=_blank}.
 
 >[!NOTE]
 >
->All information that was previously included in the *Implement Target* section in this guide (the *Adobe Target Practitioner Guide*) is now included in the [Adobe Target Developer Guide](https://experienceleague.corp.adobe.com/docs/target-dev/developer/overview.html?lang=en){target=_blank}.
+>All information that was previously included in the *Implement Target* section in this guide (the *Adobe Target Practitioner Guide*) is now included in the [Developer portal](https://developer.adobe.com/target/){target=_blank}.
 
 
 

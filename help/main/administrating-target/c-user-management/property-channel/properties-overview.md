@@ -2,11 +2,12 @@
 keywords: add user;project;user group;properties;workspace;manage property;property;at_property;roles;permissions
 description: Learn how to add users to Adobe Target; create workspaces, user groups, and properties; update your implementation; and specify roles and permissions.
 title: How Do I Configure Enterprise Permissions?
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="See what's included in Target Premium."
 feature: Administration & Configuration
 role: Admin
 exl-id: 6494fc86-d2d3-4382-9d2e-63be435ba935
 ---
-# ![PREMIUM](/help/main/assets/premium.png) Configure enterprise permissions
+# Configure enterprise permissions
 
 Information about the tasks required to add users to your [!DNL Target] implementation; create workspaces, user groups, and properties; update your [!DNL Target] implementation to include the `at_property` parameter; and specify roles and permissions.
 
@@ -77,7 +78,7 @@ Users can be part of multiple workspaces and can even have different roles withi
 
 ### Obtain your workspace ID {#workspace-id}
 
-You'll need to pass the workspace ID to leverage Enterprise Permissions in [Target APIs](https://experienceleague.corp.adobe.com/docs/target-dev/developer/server-side/server-side-overview.html){target=_blank}.
+You'll need to pass the workspace ID to leverage Enterprise Permissions in [Target APIs](https://developer.adobe.com/target/implement/server-side/){target=_blank}.
 
 1. In the [Adobe Admin Console](https://adminconsole.adobe.com), click the [!UICONTROL Products] tab, then click the product in the left menu to display the PLC(workspace) list.
 1. Click the desired PLC(workspace), then locate the "profiles" ID in the URL, as shown below.
@@ -152,7 +153,7 @@ To use the [!DNL Target] user-permissions functionality, you must add the `at_pr
       </script>
       ```
 
-      For more information about how to do this with at.js, see [targetPageParamsAll](https://experienceleague.corp.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/functions-overview/targetpageparamsall.html){target=_blank}. 
+      For more information about how to do this with at.js, see [targetPageParamsAll](https://developer.adobe.com/target/implement/client-side/atjs/atjs-functions/targetpageparamsall/){target=_blank}. 
 
 ## Step 6: Specify roles and permissions {#section_8C425E43E5DD4111BBFC734A2B7ABC80}
 

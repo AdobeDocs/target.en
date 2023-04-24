@@ -15,13 +15,13 @@ For more information about [!DNL Adobe Journey Optimizer] and offer decisions, s
 
 * [Get Started with Journey Optimizer](https://experienceleague.adobe.com/docs/journey-optimizer/using/get-started/get-started.html)
 
-* [About Decision Management](https://experienceleague.adobe.com/docs/journey-optimizer/using/offer-decisioniong/get-started/starting-offer-decisioning.html)
+* [About Decision Management](https://experienceleague.adobe.com/docs/journey-optimizer/using/offer-decisioning/get-started-decision/starting-offer-decisioning.html)
 
 ## Prerequisites 
 
 To use offer decisions in [!DNL Target], you need the following:
 
-* [!DNL Adobe Target Standard] or [!DNL Adobe Target Premium] implemented using the [Adobe Experience Platform Web SDK](https://experienceleague.corp.adobe.com/docs/target-dev/developer/client-side/aep-web-sdk.html){target=_blank}.
+* [!DNL Adobe Target Standard] or [!DNL Adobe Target Premium] implemented using the [Adobe Experience Platform Web SDK](https://developer.adobe.com/target/implement/client-side/aep-web-sdk/){target=_blank}.
 
   The feature is not available when implementing [!DNL Target] with at.js or other [!DNL Target] SDKs.
 
@@ -66,7 +66,7 @@ In [!DNL Adobe Journey Optimizer], you can create a personalized homepage hero o
 
 1. In the **[!UICONTROL Add Offer Decision]** dialog box, select the desired sandbox and placement.
 
-   A [sandbox](https://experienceleague.adobe.com/docs/experience-platform/sandbox/ui/overview.html){target=_blank} in the [!DNL Adobe Experience Platform] lets you partition your instance into virtual environments. For example, you might have a production environment and a staging environment. A [placement](https://experienceleague.adobe.com/docs/journey-optimizer/using/offer-decisioniong/create-components/creating-placements.html){target=_blank} in [!DNL Adobe Journey Optimizer] helps ensure that the right offer content displays in the right location.
+   A [sandbox](https://experienceleague.adobe.com/docs/experience-platform/sandbox/ui/overview.html){target=_blank} in the [!DNL Adobe Experience Platform] lets you partition your instance into virtual environments. For example, you might have a production environment and a staging environment. A [placement](https://experienceleague.adobe.com/docs/journey-optimizer/using/offer-decisioning/create-components/creating-placements.html){target=_blank} in [!DNL Adobe Journey Optimizer] helps ensure that the right offer content displays in the right location.
 
    ![Sandbox and Placements drop-down lists in the Add Offer Decision dialog box](/help/main/c-integrating-target-with-mac/ajo/assets/sandbox-placement.png)
 
@@ -94,11 +94,13 @@ In [!DNL Adobe Journey Optimizer], you can create a personalized homepage hero o
 
 Consider the following information as you work with offer decisions:
 
-* The offer decisioning integration works for [!DNL Target] implementations based on the [Adobe Experience Platform Web SDK](https://experienceleague.corp.adobe.com/docs/target-dev/developer/client-side/aep-web-sdk.html){target=_blank}. This feature is not available when implementing [!DNL Target] with at.js or other [!DNL Target] SDKs.
+* The offer decisioning integration works for [!DNL Target] implementations based on the [Adobe Experience Platform Web SDK](https://developer.adobe.com/target/implement/client-side/aep-web-sdk/){target=_blank}. This feature is not available when implementing [!DNL Target] with at.js or other [!DNL Target] SDKs.
 
-* The Target/Adobe Journey Optimizer integration supports [manual [!UICONTROL A/B Test]](/help/main/c-activities/t-test-ab/test-ab.md#types) and [[!UICONTROL Experience Targeting]](/help/main/c-activities/t-experience-target/experience-target.md) (XT) activities only. This feature is not available for other activity types.
+* The [!DNL Target]/[!DNL Adobe Journey Optimizer] integration supports [manual [!UICONTROL A/B Test]](/help/main/c-activities/t-test-ab/test-ab.md#types) and [[!UICONTROL Experience Targeting]](/help/main/c-activities/t-experience-target/experience-target.md) (XT) activities only. This feature is not available for other activity types.
 
-* Offers with the text/html content type do not support deliveryURL content delivery. The deliveryURL is supported through the Form-Based Experience Composer only where the client is responsible for explicitly fetching and composing the content.
+* You cannot use [[!UICONTROL Analytics as the reporting source]](/help/main/c-integrating-target-with-mac/a4t/a4t.md) (A4T) if you are using offer decisions in an activity. Choose [!DNL Target] as the reporting source in the [!UICONTROL Goals and Settings] page during activity setup if you use offer decisions in the activity.
+
+* Offers with the text/html content type do not support deliveryURL content delivery. The deliveryURL is supported through the [Form-Based Experience Composer](/help/main/c-experiences/form-experience-composer.md) only where the client is responsible for explicitly fetching and composing the content.
 
 * [!DNL Target] reporting does not provide offer-decision level reporting.
 

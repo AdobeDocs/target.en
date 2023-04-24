@@ -2,10 +2,11 @@
 keywords: Targeting;AP reports;automated personalization reports;auto-target;auto target;auto target report;auto-target report;personalization;insights;faq;frequently asked questions;important attributes
 description: Learn how to use the [!UICONTROL Important Attributes] report that shows the top attributes that influenced the personalization model and their relative importance.
 title: What Is the Important Attributes Report?
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="See what's included in Target Premium."
 feature: Reports
 exl-id: c1069ca7-e221-4865-a82e-6cff5b4c0055
 ---
-# ![PREMIUM](/help/main/assets/premium.png) Important Attributes report
+# Important Attributes report
 
 Information about the [!UICONTROL Important Attributes] report, one of the two specialized reports available to users of [!UICONTROL Automated Personalization] (AP) and [!UICONTROL Auto-Target] (AT) activities.
 
@@ -82,7 +83,9 @@ The following table explains how to interpret the report and describes its eleme
 
 ## Important Attributes FAQ {#section_740910A52FA646B4AC9452F98C2F5719}
 
-**Personalization Insights reports are not available yet for my activity. Why is that?**
+Consult the following FAQs for answers to commonly asked questions about using the [!UICONTROL Important Attributes] report.
+
+### Personalization Insights reports are not available yet for my activity. Why is that?
 
 There are several reasons why the [!UICONTROL Personalization Insights] reports might not yet be available for your activity:
 
@@ -90,33 +93,39 @@ There are several reasons why the [!UICONTROL Personalization Insights] reports 
 * Your activity has not had sufficient traffic during the specified time frame. After 15 days have passed, assuming there is [sufficient personalized traffic](/help/main/c-activities/auto-target/auto-target-to-optimize.md#section_BA4D83BE40F14A96BE7CBC7C7CF2A8FB) in your activity to build the personalization models, Automated Segments and Important Attributes reports will be available. 
 * Your activity has a revenue optimization goal. At this time, [!UICONTROL Personalization Insights] is available only for conversion optimization goal activities. We will be adding support for revenue optimization goal activities in a future release.
 
-**What is an attribute?**
+### What is an attribute?
 
 An attribute is information about a visitor or his or her specific visit used by the personalization algorithms to learn how to personalize traffic. For example, an attribute might be browser type, location, time of day of visit, and so forth.
 
 For more information about what attributes [!DNL Target] uses in its personalization models, see [Data Collection for Target's Personalization Algorithms](/help/main/c-activities/t-automated-personalization/ap-data.md). For more information about how to upload new attributes into Target to use in Target's personalization models, see [Methods to get Data into Target](https://experienceleague.corp.adobe.com/docs/target-dev/developer/implementation/methods/methods-to-get-data-into-target.html){target=_blank}.
 
-**Is the information in the [!UICONTROL Automated Segments] and [!UICONTROL Important Attributes] reports the same as in the CSV download?**
+### I see one or more attributes that I don't want the model to use for training. Can I remove those attributes from the training model? {#models-api}
+
+The [!UICONTROL Models API], also called the Blocklist API, lets users view and manage the list of attributes (also called features) used in machine learning models for [!UICONTROL Automated Personalization] (AP) and [!UICONTROL Auto-Target] (AT) activities. If you want to exclude one or more attributes from being used by the models for AP or AT activities, you can use the Models API to add those attributes to the "blocklist."
+
+For detailed information, see [Models API overview](https://developer.adobe.com/target/before-administer/models-api/){target=_blank} in the *Adobe Target Developer Guide*. To use the API to block attributes, see [Models API](https://developer.adobe.com/target/administer/models-api/){target=_blank}. 
+
+### Is the information in the [!UICONTROL Automated Segments] and [!UICONTROL Important Attributes] reports the same as in the CSV download?
 
 No, the UI report contains select information. The CSV download contains additional details. The Automated Segment Insights report download includes additional Automated Segments beyond the top segments included in the UI, along with how those segments performed against your offers or experiences. The Important Attributes report includes the top 100 visitor attributes and their relative importance, while the UI only includes the top 10 visitor attributes.
 
-**Can I see Personalization Insights for a custom date range?**
+### Can I see Personalization Insights for a custom date range?
 
 Personalization Insights reporting (both [!UICONTROL Automated Segments] and [!UICONTROL Important Attributes]) is available only for fixed date ranges: 15 days, 30 days, 45 days, 60 days, and 90 days. These fixed date ranges allow [!UICONTROL Personalization Insights] to use a large enough range of data to reduce the likelihood that you derive insights from a short-lived pattern in your activity. You can select these durations for any end-date (where these is enough data in the activity to satisfy the duration).
 
-**How is [!UICONTROL Personalization Insights] created?**
+### How is [!UICONTROL Personalization Insights] created?
 
 [!UICONTROL Personalization Insights] is created using an Adobe patent-pending technique called MAGIX (Model Agnostic Globally Interpretable Explanations). You can learn more about MAGIX in the Adobe research team's published paper on the [arXiv.org website](https://arxiv.org/abs/1706.07160).
 
-**Is [!UICONTROL Personalization Insights] available for revenue-based modeling goals/primary goal?**
+### Are [!UICONTROL Personalization Insights] available for revenue-based modeling goals/primary goal?
 
 At this time, [!UICONTROL Personalization Insights] is available only for conversion optimization goal activities. We will be adding support for revenue optimization goal activities in a future release.
 
-**What is the attribute importance score in the Important Attributes report?**
+### What is the attribute importance score in the Important Attributes report?
 
 The importance score in the "Attribute Importance Ranking" part of the report provides input into what variables the algorithm used to learn were most important when it determined how to split all the visitors into the segments it identified. It assigned a percentage score to the top 100 attributes used by the model.
 
-**Why are some offers/experiences with a lower conversion rate receiving a larger amount of traffic compared to other offers/experiences for a certain automated segment?**
+### Why are some offers/experiences with a lower conversion rate receiving a larger amount of traffic compared to other offers/experiences for a certain automated segment?
 
 There are several potential reasons why you might see more visits to a lower-conversion offer/experience within an automated segment, including:
 
@@ -128,7 +137,7 @@ There are several potential reasons why you might see more visits to a lower-con
 
 Knowing how the model works that serves traffic can be helpful. Each individual is served based on his or her total profile. However, the Insights reports generalize this behavior to make it more interpretable by a human. As a result, segments are not mutually exclusive. This can lead to individual segments displaying this type of behavior because the same person can appear in multiple segments.
 
-**What are different ways I can leverage the information in Personalization Insights?**
+### What are different ways I can leverage the information in Personalization Insights?
 
 * Discover new audiences to target: If you see a particular automated segment that performs particularly well, you might consider creating an audience so you can reuse that segment in other reports. 
 * Test your hypotheses of what type of visitors will respond to which of your experiences. 

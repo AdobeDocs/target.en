@@ -2,10 +2,11 @@
 keywords: automated personalization;offer;reporting;group;reporting group;ap
 description: Learn how to use offer reporting groups in Adobe [!DNL Target] [!UICONTROL Automated Personalization] activities.
 title: Can I Use Offer Reporting Groups in Automated Personalization Activities?
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="See what's included in Target Premium."
 feature: Reports
 exl-id: 9058a6c5-c651-480f-9b23-d0782a13b042
 ---
-# ![PREMIUM](/help/main/assets/premium.png) Offer reporting groups in [!UICONTROL Automated Personalization]
+# Offer reporting groups in [!UICONTROL Automated Personalization]
 
 Information about using reporting groups in [!DNL Adobe Target] [Automated Personalization](/help/main/c-activities/t-automated-personalization/automated-personalization.md) (AP) activities.
 

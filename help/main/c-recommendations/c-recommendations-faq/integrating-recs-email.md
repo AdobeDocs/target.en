@@ -2,10 +2,11 @@
 keywords: email;ESP;email service provider;rawbox;delivery API;download-only template;email template;batch processing;build-time email
 description: Learn how to integrate email with Adobe [!DNL Target Recommendations], including using the [!DNL Target] Delivery API, rawbox templates, and down-load only templates.
 title: How Do I Integrate Recommendations with Email?
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="See what's included in Target Premium."
 feature: Recommendations
 exl-id: 08fcb507-2c91-444a-b8ac-26165e359f6f
 ---
-# ![PREMIUM](/help/main/assets/premium.png) Integrate [!DNL Recommendations] with email
+# Integrate [!DNL Recommendations] with email
 
 [!DNL Adobe Target] supports send-time personalization of recommendations in email. 
 

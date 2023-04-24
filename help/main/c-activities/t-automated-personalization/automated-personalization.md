@@ -2,10 +2,11 @@
 keywords: automated personalization;ap;audiences;ensemble;random forest;multi-armed bandit;thompson sampling;ml;machine learning
 description: Learn how to use Automated Personalization (AP) activities in Adobe [!DNL Target] that use advanced machine learning to match different offer variations to each visitor.
 title: What is an Automated Personalization (AP) Activity?
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="See what's included in Target Premium."
 feature: Automated Personalization
 exl-id: 3654dce4-0d6c-42a3-8be7-e081ec478075
 ---
-# ![PREMIUM](/help/main/assets/premium.png) Automated Personalization (AP)
+# Automated Personalization (AP)
 
 [!UICONTROL Automated Personalization] (AP) activities in [!DNL Adobe Target] combine offers or messages, and uses advanced machine learning to match different offer variations to each visitor based on their individual customer profile, in order to personalize content and drive lift.
 
@@ -61,9 +62,9 @@ Random Forest is a leading machine learning approach. In data-science speak, it 
 
 Offline data, such as CRM information or customer churn propensity scores, can be incredibly valuable when building personalization models. There are several ways to input data in [!UICONTROL Automated Personalization] (AP) and [!UICONTROL Auto-Target] personalization algorithms.
 
-* [mbox parameters](https://experienceleague.corp.adobe.com/docs/target-dev/developer/implementation/methods/methods-to-get-data-into-target.html){target=_blank} 
-* [Profile parameters](https://experienceleague.corp.adobe.com/docs/target-dev/developer/implementation/methods/methods-to-get-data-into-target.html){target=_blank} 
-* [Server-side APIs for profile update](https://experienceleague.corp.adobe.com/docs/target-dev/developer/implementation/methods/methods-to-get-data-into-target.html){target=_blank}
+* [mbox parameters](https://developer.adobe.com/target/before-implement/methods-to-get-data-into-target/methods-to-get-data-into-target/){target=_blank} 
+* [Profile parameters](https://developer.adobe.com/target/before-implement/methods-to-get-data-into-target/methods-to-get-data-into-target/){target=_blank} 
+* [Server-side APIs for profile update](https://developer.adobe.com/target/before-implement/methods-to-get-data-into-target/methods-to-get-data-into-target/)
 
 For information about the data automatically collected and used by [!UICONTROL Automated Personalization] and [!UICONTROL Auto-Target] personalization algorithms, see [Automated Personalization Data Collection](/help/main/c-activities/t-automated-personalization/ap-data.md). 
 

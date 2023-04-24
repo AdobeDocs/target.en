@@ -2,23 +2,24 @@
 keywords: experience;control;automated personalization;auto-target
 description: Learn how to select an experience to be used as control while creating an Automated Personalization (AP) or Auto-Target activity in Adobe Target.
 title: How Can I Use a Specific Experience as Control in an AP Activity?
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="See what's included in Target Premium."
 feature: Automated Personalization
 solution: Target,Analytics
 exl-id: a0a36ace-3cba-4d8d-9bbd-e35204ff6453
 ---
-# ![PREMIUM](/help/main/assets/premium.png) Select the control for your Automated Personalization or Auto-Target activity
+# Select the control for your Automated Personalization or Auto-Target activity
 
 You can select a randomly served experience or a specific experience to be used as control while creating an [Automated Personalization](/help/main/c-activities/t-automated-personalization/automated-personalization.md) (AP) or [Auto-Target](/help/main/c-activities/auto-target/auto-target-to-optimize.md) (AT) activity.
 
 This feature lets you route the control traffic to the relevant experiences, based on the traffic allocation percentage configured in the activity. You can then evaluate the performance reports of the personalized traffic against control traffic to that control.
 
-The options for setting a control in AP and AT activities is a little different than other activity types. In a manual A/B Test, you can change what reporting shows as your control, and lift is calculated based on the conversion rate of that control experience. You can make this change easily because traffic is served randomly to each of the experiences you included in your activity, no matter what the control is initially set to. In other words, selecting the control doesn’t impact how traffic is served. In AP and AT activities, your decision on what to choose as the control does impact how the visitor traffic is served. As a result, you need to think more carefully about your decision.
+The options for setting a control in AP and AT activities is a little different than other activity types. In a manual A/B Test, you can change what reporting shows as your control, and lift is calculated based on the conversion rate of that control experience. You can make this change easily because traffic is served randomly to each of the experiences you included in your activity, no matter what the control is initially set to. In other words, selecting the control doesn't impact how traffic is served. In AP and AT activities, your decision on what to choose as the control does impact how the visitor traffic is served. As a result, you need to think more carefully about your decision.
 
 There are two options available for your control in your AP and AT activities: randomly served experiences or a specific experience.
 
-* **Randomly served**: For a random control, the control percentage of traffic randomly serves all experiences in the activity, without considering that visitor’s profile. You can think of the control as helping answer the question, “If I just randomly serve an experience (or offer) to visitors and don’t consider their profiles, what is the conversion rate for that experience (or offer)?” The control is like an A/B Test within your AI activity. Having this information of the non-personalized conversion rate for each experience or offer can be helpful to understand when analyzing your activity results.
+* **Randomly served**: For a random control, the control percentage of traffic randomly serves all experiences in the activity, without considering that visitor's profile. You can think of the control as helping answer the question, "If I just randomly serve an experience (or offer) to visitors and don't consider their profiles, what is the conversion rate for that experience (or offer)?" The control is like an A/B Test within your AI activity. Having this information of the non-personalized conversion rate for each experience or offer can be helpful to understand when analyzing your activity results.
 
-* **Specific experience**: A specific experience control lets you compare your traffic served by Target’s personalization models to a specific marketer-defined experience (for example, your default homepage). With this option, the control percentage of traffic randomly serves traffic for only that one experience.
+* **Specific experience**: A specific experience control lets you compare your traffic served by Target's personalization models to a specific marketer-defined experience (for example, your default homepage). With this option, the control percentage of traffic randomly serves traffic for only that one experience.
 
 ## Specify a specific experience as control
 

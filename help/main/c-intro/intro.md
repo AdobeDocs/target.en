@@ -2,6 +2,7 @@
 keywords: Target Standard;Recommendations;Target Premium;Automated Personalization;auto-target;auto target;permissions;what is adobe target;
 description: Learn the basics of Adobe [!DNL Target] Standard and Adobe [!DNL Target] Premium. [!DNL Target] Premium includes advanced features not available in standard product.
 landing-page-description: Personalize your customers' experience to maximize revenue on your web and mobile sites, apps, social media, and other digital channels.
+short-description: Personalize your customers' experience to maximize revenue on your web and mobile sites, apps, social media, and other digital channels.
 title: What is Target?
 feature: Overview
 exl-id: 0e729c71-618b-4ab8-93a3-d37e73ec2740
@@ -20,13 +21,13 @@ Industry best practices are built into [!DNL Target Standard]. [!DNL Target Stan
 
 ## Target Premium {#premium}
 
+[!BADGE Premium]{type=Positive}
+
 [!DNL Target Premium] is an advanced [!DNL Target] offering that requires a license to add premium features to [!DNL Target Standard].
 
-All [!DNL Target Premium] articles in this help guide include the Premium badge at the top of each page:
+All [!DNL Target Premium] articles in [!DNL Target] guides include the [!UICONTROL Premium] badge at the top of each page or inline near the affected text. The [!UICONTROL Premium] badge is clickable and includes a link to this section.
 
-![Premium badge](/help/main/assets/premium.png) 
-
-Target Premium includes the following features: 
+**[!DNL Target Premium] includes the following features:**
 
 ### Automated Personalization
 
@@ -72,6 +73,14 @@ This functionality opens up entirely new capabilities, such as:
 ### Enterprise User Permissions
 
 [Enterprise User Permissions](/help/main/administrating-target/c-user-management/property-channel/property-channel.md#concept_E396B16FA2024ADBA27BC056138F9838) functionality lets you create different projects (called "Product Profiles" in the [!DNL Adobe Admin Console for Enterprise]). [!UICONTROL Enterprise User Permissions] let you assign different permissions for a single user that dictate that user's access rights for each project. These distinct projects can be compared to the way that report suites work in [!DNL Adobe Analytics]. Each project can have specific users with specific roles that apply to a set of properties. The result is that customers are able to restrict the view, edit, approval, and publish access to their users. You can restrict users based on region, environment (dev/stage/prod), channel, or other custom criteria.
+
+## Beta features {#beta}
+
+[!BADGE Beta]{type=Informative}
+
+The [!DNL Adobe Target] team often enables new features for select customers for testing and feedback purposes. After the testing period completes, these features are enabled for all customers in future [!DNL Target Standard/Premium] releases and announced in release notes.
+
+Articles in [!DNL Target] guides describing Beta features include the Beta badge at the top of each page or inline near the affected text. The Beta badge is clickable and includes a link to this section.
 
 ## Recommendations Classic {#section_9554068100054D2DBDB298CBE5A0E413}
 

@@ -172,7 +172,7 @@ Guidelines were presented in a [Google Webmaster Central Blog](https://webmaster
 
   [!DNL Adobe] continues to look for viable solutions to completely align with search engine guidelines. For those clients that must use separate URLs for testing, [!DNL Adobe] is confident that proper implementation of the canonical tags mitigates the risk associated with this approach. 
 
-* **Run experiments only as long as necessary**: [!DNL Adobe] believes "as long as necessary" to be as long as it takes to reach statistical significance. [!DNL Target] provides best practices and the [!DNL Adobe Target] [Sample Size Calculator] (/help/main/c-activities/t-test-ab/sample-size-determination.md#section_6B8725BD704C4AFE939EF2A6B6E834E6) to determine when your test has reached this point. [!DNL Adobe] recommends that you incorporate the hardcoded implementation of winning tests into your testing workflow and allot the appropriate resources.
+* **Run experiments only as long as necessary**: [!DNL Adobe] believes "as long as necessary" to be as long as it takes to reach statistical significance. [!DNL Target] provides best practices and the [!DNL Adobe Target] [Sample Size Calculator](/help/main/c-activities/t-test-ab/sample-size-determination.md#section_6B8725BD704C4AFE939EF2A6B6E834E6) to determine when your test has reached this point. [!DNL Adobe] recommends that you incorporate the hardcoded implementation of winning tests into your testing workflow and allot the appropriate resources.
 
   Using the [!DNL Target] platform to "publish" winning tests is not recommended as a permanent solution. If the winning test is published for 100% of users 100% of the time, this approach can be used while the process of hard-coding the winning test is completed.
 

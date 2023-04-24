@@ -115,7 +115,7 @@ After setting up an extension, open Target. Your pages should now load in the Vi
 
 ## The VEC appears broken when I use browse mode. (VEC only) {#section_FA2A18E8FD6A4274B2E395DBAA2FB407}
 
-While using browse mode, if you access a URL that does not have [!DNL Target] libraries implemented ([at.js](https://experienceleague.corp.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/overview.html){target=_blank} or [Adobe Experience Platform Web SDK](https://experienceleague.corp.adobe.com/docs/target-dev/developer/client-side/aep-web-sdk.html){target=_blank}) or contains a frame-buster header, the VEC appears broken. Due to browser security concerns, [!DNL Target] cannot properly access the URL you navigated to or the VEC URL does not update consistently if the page loads.
+While using browse mode, if you access a URL that does not have [!DNL Target] libraries implemented ([at.js](https://developer.adobe.com/target/implement/client-side/){target=_blank} or [Adobe Experience Platform Web SDK](https://developer.adobe.com/target/implement/client-side/aep-web-sdk/){target=_blank}) or contains a frame-buster header, the VEC appears broken. Due to browser security concerns, [!DNL Target] cannot properly access the URL you navigated to or the VEC URL does not update consistently if the page loads.
 
 This issue occurs because VEC loads the web page in an `<iframe>`. The current security mechanisms of browsers prevent the [!DNL Target] UI from accessing the elements of the given frame because of the same-origin policy. Browsers block scripts trying to access a frame with a different origin and that includes information such as the `location.href`.
 
