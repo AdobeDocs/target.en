@@ -20,7 +20,7 @@ Using [!UICONTROL Experience Fragments] and [!UICONTROL Content Fragments] creat
 ## Considerations
 
 Consider the following as you work with AEM [!UICONTROL Experience Fragments] and [!UICONTROL Content Fragments] in [!DNL Target]:
- * These features require that you are an [!DNL Adobe Experience Manager] (AEM) customer. Ensure that you meet the requirements for each fragment type: [Experience Fragment](/help/main/c-integrating-target-with-mac/aem/experience-fragments-aem.md#requirements) or [Content Fragment](/help/main/c-integrating-target-with-mac/aem/content-fragments-aem.md#requirements).
+* These features require that you are an [!DNL Adobe Experience Manager] (AEM) customer. Ensure that you meet the requirements for each fragment type: [Experience Fragment](/help/main/c-integrating-target-with-mac/aem/experience-fragments-aem.md#requirements) or [Content Fragment](/help/main/c-integrating-target-with-mac/aem/content-fragments-aem.md#requirements).
 * [!UICONTROL Experience Fragments] and [!UICONTROL Content Fragments] are available for the following activity types: 
 
   * [[!UICONTROL A/B Test]](/help/main/c-activities/t-test-ab/test-ab.md)
