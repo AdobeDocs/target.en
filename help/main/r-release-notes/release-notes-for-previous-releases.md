@@ -36,7 +36,7 @@ This release contains the following fixes:
 
 >[!NOTE]
 >
->To ensure delivery of the changes authored in the VEC, ensure that you are using a [!DNL Target] SDK ([at.js](https://developer.adobe.com/target/implement/client-side/atjs/target-atjs-versions/){target=_blank} or [Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/release-notes.html){target=_blank} (alloy.js)) with a version greater than 2.8.
+>To ensure delivery of the changes authored in the VEC, ensure that you are using a [!DNL Target] SDK ([at.js](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/target-atjs-versions.html){target=_blank} or [Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/release-notes.html){target=_blank} (alloy.js)) with a version greater than 2.8.
 
 **Known issue**: Click-tracking on a shadow root element when using [!DNL Adobe Experience Platform Web SDK] is not working correctly. (TNT-47012)
 
@@ -44,7 +44,7 @@ This release contains the following fixes:
 
 * Fixed an issue that caused the `trackEvent` function to always return an error.
 
-For information about all at.js releases, see [at.js version details](https://developer.adobe.com/target/implement/client-side/atjs/target-atjs-versions/){target=_blank} in the [Adobe Target Developer Guide](https://developer.adobe.com/target/){target=_blank}.
+For information about all at.js releases, see [at.js version details](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/target-atjs-versions.html){target=_blank} in the [Adobe Target Developer Guide](https://experienceleague.adobe.com/docs/target-dev/developer/overview.html){target=_blank}.
 
 ### [!DNL Target] Standard/Premium 22.14.5 (February 13-15, 2023)
 
@@ -64,7 +64,7 @@ This release contains the following fixes:
 * Fixed a bug in which activities involving audience rules containing parameters with dots in their names were not returning the expected experience, for on-device decisioning.
 * Fixed a bug introduced in at.js 2.6.0 in which at.js was firing a delivery call, even when `mboxDisable` was enabled.
 
-For information about all at.js releases, see [at.js version details](https://developer.adobe.com/target/implement/client-side/atjs/target-atjs-versions/){target=_blank} in the [Adobe Target Developer Guide](https://developer.adobe.com/target/){target=_blank}.
+For information about all at.js releases, see [at.js version details](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/target-atjs-versions.html){target=_blank} in the [Adobe Target Developer Guide](https://experienceleague.adobe.com/docs/target-dev/developer/overview.html){target=_blank}.
 
 ### [!DNL Target] Standard/Premium 22.13.3 (January 25-26, 2023)
 
@@ -87,7 +87,7 @@ This release contains the following new features, enhancements, and fixes:
 * Disallowed the ability to change the [!UICONTROL Same as Optimization Goal] setting on the [!UICONTROL Goals & Settings] page after the activity is live. (TGT-43923)
 * Fixed an issue that caused issues with the default workplace in the [!DNL Target] backend when upgrading from [!DNL Target Standard] to [!DNL Target Premium]. (TGT-44081 & TGT-44306)
 * Made a change to allow [!DNL Analytics] report suites that contain a dot character "." in their names to be used in the [!DNL Target] UI to create [!DNL Analytics] classification feeds.
-* Changed the link on the [!UICONTROL Implementation] page ([!UICONTROL Administration] > [!UICONTROL Implementation]) for "Implementation Methods with On-Device Decisioning" to point to the page that explains how to use on-device decisioning for all supported SDKs: Node.js, Java, .NET, and Python. For more information, see [Getting Started with Target SDKs](https://developer.adobe.com/target/implement/server-side/sdk-guides/getting-started/){target=_blank} in the [Adobe Target Developer Guide](https://developer.adobe.com/target/){target=_blank}.
+* Changed the link on the [!UICONTROL Implementation] page ([!UICONTROL Administration] > [!UICONTROL Implementation]) for "Implementation Methods with On-Device Decisioning" to point to the page that explains how to use on-device decisioning for all supported SDKs: Node.js, Java, .NET, and Python. For more information, see [Getting Started with Target SDKs](https://experienceleague.adobe.com/docs/target-dev/developer/server-side/getting-started.html){target=_blank} in the [Adobe Target Developer Guide](https://experienceleague.adobe.com/docs/target-dev/developer/overview.html){target=_blank}.
 * Fixed an issue that caused file-upload issues when using [!DNL Scene7] and [!DNL Target].
 * Enhanced the accessibility of the [!DNL Target] UI for persons with disabilities by using results from an internal usability audit. These accessibility enhancements include access to features that were previously not accessible via the keyboard, alt text enhancements, the ability to zoom parts of the UI to be more usable, improved keyboard focus, and more.   (TGT-42759) 
 * Made various localization fixes throughout the [!DNL Target] UI.
