@@ -103,7 +103,7 @@ For more information about what attributes [!DNL Target] uses in its personaliza
 
 The [!UICONTROL Models API], also called the Blocklist API, lets users view and manage the list of attributes (also called features) used in machine learning models for [!UICONTROL Automated Personalization] (AP) and [!UICONTROL Auto-Target] (AT) activities. If you want to exclude one or more attributes from being used by the models for AP or AT activities, you can use the Models API to add those attributes to the "blocklist."
 
-For detailed information, see [Models API overview](https://developer.adobe.com/target/before-administer/models-api/){target=_blank} in the *Adobe Target Developer Guide*. To use the API to block attributes, see [Models API](https://developer.adobe.com/target/administer/models-api/){target=_blank}. 
+For detailed information, see [Models API overview](https://experienceleague.adobe.com/docs/target-dev/developer/api/models-api/models-api.html){target=_blank} in the *Adobe Target Developer Guide*. To use the API to block attributes, see [Models API](https://experienceleague.adobe.com/docs/target-dev/developer/api/models-api/models-api-overview.html){target=_blank}. 
 
 ### Is the information in the [!UICONTROL Automated Segments] and [!UICONTROL Important Attributes] reports the same as in the CSV download?
 

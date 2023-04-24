@@ -20,8 +20,8 @@ A key difference between plug-ins and response tokens is that plug-ins deliver J
 
 | Target SDK | Suggested actions |
 |--- |--- |
-|[Adobe Experience Platform Web SDK](https://developer.adobe.com/target/implement/client-side/aep-web-sdk/){target=_blank}|Ensure that you are using Platform Web SDK version 2.6.0 or later. For information about downloading the latest version of Platform Web SDK, see [Install the SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/installing-the-sdk.html){target=_blank} in the *Platform Web SDK overview* guide. For information about new functionality in each version of the Platform Web SDK, see [Release notes](https://experienceleague.adobe.com/docs/experience-platform/edge/release-notes.html) in the *Platform Web SDK overview* guide.|
-|[at.js](https://developer.adobe.com/target/implement/client-side/atjs/how-atjs-works/how-atjs-works/){target=_blank}|Ensure that you are using at.js version 1.1 or later. For information about downloading the latest version of at.js, see [Download at.js](https://developer.adobe.com/target/implement/client-side/atjs/how-to-deployatjs/implement-target-without-a-tag-manager/){target=_blank}. For information about new functionality in each version of at.js, see [at.js Version Details](https://developer.adobe.com/target/implement/client-side/atjs/target-atjs-versions/){target=_blank}.<br>Customers using at.js are encouraged to use response tokens and move away from plugins. Some plugins that rely on internal methods that existed in mbox.js (now deprecated), but not in at.js, are delivered but fail.|
+|[Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/aep-web-sdk.html){target=_blank}|Ensure that you are using Platform Web SDK version 2.6.0 or later. For information about downloading the latest version of Platform Web SDK, see [Install the SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/installing-the-sdk.html){target=_blank} in the *Platform Web SDK overview* guide. For information about new functionality in each version of the Platform Web SDK, see [Release notes](https://experienceleague.adobe.com/docs/experience-platform/edge/release-notes.html) in the *Platform Web SDK overview* guide.|
+|[at.js](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/at-js/how-atjs-works.html){target=_blank}|Ensure that you are using at.js version 1.1 or later. For information about downloading the latest version of at.js, see [Download at.js](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/deploy-at-js/implement-target-without-a-tag-manager.html?lang=en){target=_blank}. For information about new functionality in each version of at.js, see [at.js Version Details](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/target-atjs-versions.html){target=_blank}.<br>Customers using at.js are encouraged to use response tokens and move away from plugins. Some plugins that rely on internal methods that existed in mbox.js (now deprecated), but not in at.js, are delivered but fail.|
 
 ## Using response tokens {#section_A9E141DDCBA84308926E68D05FD2AC62}
 
@@ -30,7 +30,7 @@ A key difference between plug-ins and response tokens is that plug-ins deliver J
    For more information:
    
    * **Platform Web SDK**: See [Install the SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/installing-the-sdk.html) in the *Platform Web SDK overview* guide.
-   * **at.js**: See [Download at.js](https://developer.adobe.com/target/implement/client-side/atjs/how-to-deployatjs/implement-target-without-a-tag-manager/){target=_blank}. 
+   * **at.js**: See [Download at.js](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/deploy-at-js/implement-target-without-a-tag-manager.html){target=_blank}. 
 
 1. In [!DNL Target], click **[!UICONTROL Administration]** > **[!UICONTROL Response Tokens]**.
 
@@ -53,8 +53,8 @@ A key difference between plug-ins and response tokens is that plug-ins deliver J
    ||`profile.categoryAffinities`|Returns an array of the visitor's top 5 categories as strings.|
    |Activity|`activity.name`<br>`activity.id`<br>`experience.name`<br>`experience.id`<br>`offer.name`<br>`offer.id`|Details of the current activity.<br> Note that values for offer parameters are evaluated on the experience level.|
    |Geo|`geo.country`<br>`geo.state`<br>`geo.city`<br>`geo.zip`<br>`geo.dma`<br>`geo.domainName`<br>`geo.ispName`<br>`geo.connectionSpeed`<br>`geo.mobileCarrier`|See [Geo](/help/main/c-target/c-audiences/c-target-rules/geo.md) for more information about using geo targeting in activities.|
-   |Traffic Allocation Method<br>(Applies to [!UICONTROL Auto-Target] and [!UICONTROL Automated Personalization] activities only.)|`experience.trafficAllocationId`|Returns 0 if a visitor received an experience from being in “control” traffic and 1 if a visitor received an experience from the “targeted” traffic distribution.|
-   ||`experience.trafficAllocationType`|Return “control” or “targeted."|
+   |Traffic Allocation Method<br>(Applies to [!UICONTROL Auto-Target] and [!UICONTROL Automated Personalization] activities only.)|`experience.trafficAllocationId`|Returns 0 if a visitor received an experience from being in "control" traffic and 1 if a visitor received an experience from the "targeted" traffic distribution.|
+   ||`experience.trafficAllocationType`|Return "control" or "targeted."|
 
    User profile attributes and Customer Attributes also display in the list.
 
@@ -143,7 +143,7 @@ The following response example adds a [!DNL Platform Web SDK] custom event handl
 
 ### ![at.js badge](/help/main/assets/atjs.png) at.js using custom events
 
-Use [at.js custom events](https://developer.adobe.com/target/implement/client-side/atjs/atjs-functions/atjs-custom-events/){target=_blank} to listen for the [!DNL Target] response and read the response tokens.
+Use [at.js custom events](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/functions-overview/atjs-custom-events.html?lang=en){target=_blank} to listen for the [!DNL Target] response and read the response tokens.
 
 The following code sample adds an [!DNL at.js] custom event handler directly to the HTML page:
 
@@ -220,7 +220,7 @@ Google Analytics can be sent data via Platform Web SDK version 2.6.0 (or later) 
 
 >[!NOTE]
 >
->Make sure the response token key value pair are under the `alloy(“sendEvent”` object.
+>Make sure the response token key value pair are under the `alloy("sendEvent"` object.
 
 ```
 <script type="text/javascript"> 
