@@ -21,13 +21,13 @@ To solve this issue, [!DNL Target] collects additional data to accurately detect
 
 | Parameter | Type | Description |
 |--- |--- |--- |
-|devicePixelRatio|String|Ratio between physical pixels and device-independent pixels (dips) on the browser. For example, “1.5” or “2”|
+|devicePixelRatio|String|Ratio between physical pixels and device-independent pixels (dips) on the browser. For example, "1.5" or "2"|
 |screenOrientation|String|The device and the browser's JavaScript engine support Device Orientation. Can be Landscape or Portrait.|
 |webGLRenderer|String|Browser renderer of the graphics driver.|
 
 >[!NOTE]
 >
->Customers using the Mobile SDK do not need to do anything to apply this functionality. Customers using at.js must [upgrade to at.js version 1.5.0](https://developer.adobe.com/target/implement/client-side/atjs/target-atjs-versions/){target=_blank} (or later){target=_blank}.
+>Customers using the Mobile SDK do not need to do anything to apply this functionality. Customers using at.js must [upgrade to at.js version 1.5.0](https://experienceleague.corp.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/target-atjs-versions.html){target=_blank} (or later){target=_blank}.
 
 You can choose more than one mobile device property. Multiple selections are joined with an OR operator.
 

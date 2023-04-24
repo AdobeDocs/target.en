@@ -21,9 +21,9 @@ The following information explains in more detail how New Visitors and Returning
 
 A visitor is included in the New Visitors segment if one of the following conditions is met:
 
-* It is the visitor’s first time visiting the site.
+* It is the visitor's first time visiting the site.
 * It is the visitor's first time visiting the site since clearing cookies.
-* It is the visitor’s first time visiting the site since the [Visitor profile lifetime](/help/main/c-target/c-visitor-profile/visitor-profile-lifetime.md) has expired.
+* It is the visitor's first time visiting the site since the [Visitor profile lifetime](/help/main/c-target/c-visitor-profile/visitor-profile-lifetime.md) has expired.
 
 ### Returning Visitors 
 
@@ -45,7 +45,7 @@ Consider the following example, taking in the conditions mentioned above for New
 * A visitor visits the site for the first time and is counted as a New Visitor.
 * The visitor returns to the site after the conditions are met for Returning Visitors and is counted as a Returning Visitor.
 
-This visitor is counted as a single visitor in the activity’s overall visitor count even though being counted in both the New Visitors and Returning Visitors segments.
+This visitor is counted as a single visitor in the activity's overall visitor count even though being counted in both the New Visitors and Returning Visitors segments.
 
 **Example 2**: Discrepancies between the counts for New Visitors and Returning Visitors also depend on how you configure the activity's [success metrics](/help/main/c-activities/r-success-metrics/success-metrics.md).
 
@@ -100,6 +100,6 @@ For example, I set the traffic split to be 50/50 or 25/25/25/25 but I'm seeing a
 * The best practice for A/B and MVT tests is to keep traffic splits even. Changing the traffic distribution between experiences (say from 90/10 to 50/50) during a test can lead to uneven visitors across experiences. The lower traffic experience might never "catch up."
 * If you are following the above best practices and the traffic split does not normalize over time, you should check the following:
 
-  * Are you using the latest at.js library? For more information about the current version and associated release notes, see [at.js version details](https://developer.adobe.com/target/implement/client-side/atjs/target-atjs-versions/){target=_blank}.
+  * Are you using the latest at.js library? For more information about the current version and associated release notes, see [at.js version details](https://experienceleague.corp.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/target-atjs-versions.html){target=_blank}.
 
   * Is it a redirect test? Incorrect timing of tags firing on the page can lead to uneven traffic splits, especially when using [!DNL Analytics] as the data source for a [!DNL Target] activity. For details to remedy uneven traffic distribution on a redirect activity with Analytics for Target (A4T), see [Redirect offers - A4T FAQ](/help/main/c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-redirect-offers.md).

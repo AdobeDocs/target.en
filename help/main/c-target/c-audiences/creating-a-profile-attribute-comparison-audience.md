@@ -15,16 +15,16 @@ Define an audience in [!DNL Adobe Target] to compare two profile attributes for 
 
 ## Overview {#section_303CBC78194D49A2A004945D425441E1}
 
-Audiences are defined by rules that determine who is included or excluded from a [!DNL Target] activity. An audience definition can include multiple rules, and each rule can include multiple parameters. If one of the rules you include uses the [!UICONTROL Visitor Profile] category, you can define a rule based on a visitor profile attribute’s specific value or compare the value of that attribute to another visitor profile attribute.
+Audiences are defined by rules that determine who is included or excluded from a [!DNL Target] activity. An audience definition can include multiple rules, and each rule can include multiple parameters. If one of the rules you include uses the [!UICONTROL Visitor Profile] category, you can define a rule based on a visitor profile attribute's specific value or compare the value of that attribute to another visitor profile attribute.
 
-For example, let’s assume you work for a furniture company and uploaded two customer propensity scores into [!DNL Target]:
+For example, let's assume you work for a furniture company and uploaded two customer propensity scores into [!DNL Target]:
 
 * Likelihood to buy dining room furniture in the next 90 days 
 * Likelihood to buy living room furniture in the next 90 days
 
 You could create an audience defined as the propensity to buy dining room furniture is greater than the propensity to buy living room furniture. [!DNL Target] would then dynamically compare the dining room and living room propensity scores for a specific visitor to determine if that visitor qualifies for this audience.
 
-For more information, see [Methods to get Data into Target](https://developer.adobe.com/target/before-implement/methods-to-get-data-into-target/methods-to-get-data-into-target/){target=_blank}.
+For more information, see [Methods to get Data into Target](https://experienceleague.corp.adobe.com/docs/target-dev/developer/implementation/methods/methods-to-get-data-into-target.html){target=_blank}.
 
 ## Create a profile attribute comparison audience {#section_7A62FD47D5C74C3EBC3417ACDBB85013}
 

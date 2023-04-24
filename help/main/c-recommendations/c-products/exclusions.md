@@ -17,7 +17,7 @@ Some examples of times you would use exclusions include:
 * Fall/Winter catalog is now the only catalog that should be present online. Any item from the Summer catalog is no longer available for purchase.
 * Items that might be inappropriate to recommend on most pages/screens (adult products, NC-17 movies, etc.)
 * Products with incomplete metadata fields (missing thumbnail, price, or other important metadata)
-* Products that should never be recommended (maybe a SKU exists in the system for something but it isn’t a purchasable item, or maybe it is a fake SKU for the QA team to simulate a purchase without actually ordering something, etc,)
+* Products that should never be recommended (maybe a SKU exists in the system for something but it isn't a purchasable item, or maybe it is a fake SKU for the QA team to simulate a purchase without actually ordering something, etc,)
 
 >[!IMPORTANT]
 >
@@ -31,7 +31,7 @@ Some examples of times you would use exclusions include:
 
    ![exclusions_list image](assets/exclusions_list.png)
 
-   The "Number of Items" reported for each exclusion on the [!UICONTROL Exclusions] list view is the number of products matching the rules for that exclusion within the configured default Recommendations [host group](/help/main/administrating-target/hosts.md) (environment). See [Settings](https://developer.adobe.com/target/implement/recommendations/){target=_blank} to change the default host group.
+   The "Number of Items" reported for each exclusion on the [!UICONTROL Exclusions] list view is the number of products matching the rules for that exclusion within the configured default Recommendations [host group](/help/main/administrating-target/hosts.md) (environment). See [Settings](https://experienceleague.corp.adobe.com/docs/target-dev/developer/recommendations.html){target=_blank} to change the default host group.
 
 1. Click **[!UICONTROL Create Exclusion]**.
 

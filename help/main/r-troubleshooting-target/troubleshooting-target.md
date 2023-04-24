@@ -90,7 +90,7 @@ The following sections contain troubleshooting information about activities, sep
 
 ## Global mbox
 
-* [Global mbox](https://developer.adobe.com/target/implement/client-side/atjs/global-mbox/global-mbox-faq/)
+* [Global mbox](https://experienceleague.corp.adobe.com/docs/target-dev/developer/client-side/global-mbox/global-mbox-faq.html)
 
 ## Hosts/Environments
 
@@ -102,23 +102,23 @@ The following sections contain troubleshooting information about implementing Ta
 
 ### General implementation
 
-* [Supported browsers](https://developer.adobe.com/target/before-implement/supported-browsers/)
-* [Using cloud-based instances with Target](https://developer.adobe.com/target/implement/client-side/target-debugging-atjs/targeting-using-cloud-based-instances/)
+* [Supported browsers](https://experienceleague.corp.adobe.com/docs/target-dev/developer/implementation/supported-browsers.html)
+* [Using cloud-based instances with Target](https://experienceleague.corp.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/functions-overview/targeting-using-cloud-based-instances.html)
 
 ### Global mboxes
 
-* [Global mbox FAQ](https://developer.adobe.com/target/implement/client-side/atjs/global-mbox/global-mbox-faq/)
+* [Global mbox FAQ](https://experienceleague.corp.adobe.com/docs/target-dev/developer/client-side/global-mbox/global-mbox-faq.html)
 
 ### at.js
 
-* [at.js FAQ](https://developer.adobe.com/target/implement/client-side/atjs/target-atjs-faq/target-atjs-faq/)
-* [Debugging at.js using the Adobe Experience Cloud Debugger](https://developer.adobe.com/target/implement/client-side/target-debugging-atjs/target-debugging-atjs/)
-* [at.js version details](https://developer.adobe.com/target/implement/client-side/atjs/target-atjs-versions/)
+* [at.js FAQ](https://experienceleague.corp.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/target-atjs-faq.html/)
+* [Debugging at.js using the Adobe Experience Cloud Debugger](https://experienceleague.corp.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/functions-overview/target-debugging-atjs.html)
+* [at.js version details](https://experienceleague.corp.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/target-atjs-versions.html)
 * "Office Hours" video, an initiative led by the Adobe Customer Care team.
 
 ## Mobile Apps
 
-* [Target for mobile apps FAQ](https://developer.adobe.com/target/implement/mobile/mobile-faq/)
+* [Target for mobile apps FAQ](https://experienceleague.corp.adobe.com/docs/target-dev/developer/mobile-apps/mobile-faq.html)
 
 ## Reporting
 
@@ -127,11 +127,11 @@ The following sections contain troubleshooting information about implementing Ta
 
 ## Search Engine Optimization (SEO)
 
-* [Search Engine Optimization (SEO) friendly testing](https://developer.adobe.com/target/implement/client-side/atjs/how-atjs-works/how-atjs-works/)
+* [Search Engine Optimization (SEO) friendly testing](https://experienceleague.corp.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/at-js/how-atjs-works.html)
 
 ## Security
 
-* [Content Security Policy (CSP) directives](https://developer.adobe.com/target/before-implement/privacy/content-security-policy/)
+* [Content Security Policy (CSP) directives](https://experienceleague.corp.adobe.com/docs/target-dev/developer/implementation/privacy/content-security-policy.html)
 
 ## System status
 

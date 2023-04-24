@@ -72,7 +72,7 @@ Where `clientcode` is your [!DNL Target] client code.
 >
 >Be sure to provide a unique value for both `sessionId` and one of `tntId` or `thirdPartyId` for each email recipient (for example, for each API call). If you do not provide unique values for these fields, API response can slow or fail due to many events generated within a single profile.
 
-See [Delivery API documentation](https://developer.adobe.com/target/implement/delivery-api/){target=_blank} for more information.
+See [Delivery API documentation](https://experienceleague.corp.adobe.com/docs/target-dev/developer/implementation/delivery-api/overview.html){target=_blank} for more information.
 
 ## Method 2: Use a rawbox email template {#rawbox}
 

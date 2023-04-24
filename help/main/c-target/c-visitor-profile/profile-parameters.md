@@ -27,7 +27,7 @@ To set up profile attributes:
 
    | Parameter Type | Description |
    |--- |--- |
-   |mbox|Passed in directly through page code when creating the mbox. See [Pass Parameters to a Global Mbox](https://developer.adobe.com/target/implement/client-side/atjs/global-mbox/pass-parameters-to-global-mbox/){target=_blank}.<br>**Note**: [!DNL Target] has a limit of 50 unique profile attributes per mbox call. If you must pass more than 50 profile attributes to [!DNL Target], pass them using the Profile Update API method. For more information, see [Profile Update in the [!DNL Adobe Target] API documentation](https://developers.adobetarget.com/api/#updating-profiles).|
+   |mbox|Passed in directly through page code when creating the mbox. See [Pass Parameters to a Global Mbox](https://experienceleague.corp.adobe.com/docs/target-dev/developer/client-side/global-mbox/pass-parameters-to-global-mbox.html){target=_blank}.<br>**Note**: [!DNL Target] has a limit of 50 unique profile attributes per mbox call. If you must pass more than 50 profile attributes to [!DNL Target], pass them using the Profile Update API method. For more information, see [Profile Update in the [!DNL Adobe Target] API documentation](https://developers.adobetarget.com/api/#updating-profiles).|
    |Profile|Defined directly with a JavaScript code snippet. These snippets can store running totals like total money spent by consumer and are executed on each mbox request. See Profile Script Attributes below.|
 
 ## Profile script attributes {#concept_8C07AEAB0A144FECA8B4FEB091AED4D2}
@@ -170,7 +170,7 @@ The following methods can be used to debug profile scripts:
 
 **Is it possible to use profile scripts to capture information from a page that resides in a data layer?**
 
-Profile scripts are unable to read the page directly because they are executed server side. The data must be passed in through an mbox request or through other [methods of getting data into Target](https://developer.adobe.com/target/before-implement/methods-to-get-data-into-target/methods-to-get-data-into-target/){target=_blank}. After the data is in [!DNL Target], profile scripts can read the data as an mbox parameter or profile parameter. 
+Profile scripts are unable to read the page directly because they are executed server side. The data must be passed in through an mbox request or through other [methods of getting data into Target](https://experienceleague.corp.adobe.com/docs/target-dev/developer/implementation/methods/methods-to-get-data-into-target.html){target=_blank}. After the data is in [!DNL Target], profile scripts can read the data as an mbox parameter or profile parameter. 
 
 ## JavaScript reference for script profile parameters
 
@@ -240,14 +240,14 @@ The following objects and methods can be referenced by script profile parameters
 |`page.url`|The current URL.|
 |`page.protocol`|The protocol used for the page (http or https).|
 |`page.domain`|The current URL domain (everything before the first slash). For example, `www.acme.com` in `http://www.acme.com/categories/men_jeans?color=blue&size=small`.|
-|`page.query`|The query string for the current page. Everything after the ‘?’. For example, `blue&size=small` in `http://www.acme.com/categories/mens_jeans?color=blue&size=small`.|
-|`page.param(‘<par_name>’)`|The value of the parameter indicated by `<par_name>`. If your current URL is Google’s search page and you had inputted `page.param('hl')`, you would get “en” for the URL `http://www.google.com/search?hl=en& q=what+is+asdf&btnG=Google+Search`.|
+|`page.query`|The query string for the current page. Everything after the '?'. For example, `blue&size=small` in `http://www.acme.com/categories/mens_jeans?color=blue&size=small`.|
+|`page.param('<par_name>')`|The value of the parameter indicated by `<par_name>`. If your current URL is Google's search page and you had inputted `page.param('hl')`, you would get "en" for the URL `http://www.google.com/search?hl=en& q=what+is+asdf&btnG=Google+Search`.|
 |`page.referrer`|The same set of operations as above apply for referrer and landing (i.e. referrer.url is the url address of the referrer).|
 |`landing.url`, `landing.protocol`, `landing.query`, and `landing.param`|Similar to that of page, but for the landing page.|
 |`mbox.name`|The active mbox's name.|
-|`mbox.param(‘<par_name>’)`|An mbox parameter by the given name in the active mbox.|
-|`profile.get(‘<par_name>’)`|The client-created user profile parameter by the name `<par_name>`. For example, if the user sets a profile parameter named “gender”, the value can be extracted using “profile.gender”. Returns the value of the “`profile.<par_name>`” set for the current visitor; returns null if no value has been set. Note that `profile.get(<par_name>)` is qualified as a function call.|
-|`user.get(‘<par_name>’)`|Returns the value of the “`user.<par_name>`” set for the current visitor; returns null if no value has been set.|
+|`mbox.param('<par_name>')`|An mbox parameter by the given name in the active mbox.|
+|`profile.get('<par_name>')`|The client-created user profile parameter by the name `<par_name>`. For example, if the user sets a profile parameter named "gender", the value can be extracted using "profile.gender". Returns the value of the "`profile.<par_name>`" set for the current visitor; returns null if no value has been set. Note that `profile.get(<par_name>)` is qualified as a function call.|
+|`user.get('<par_name>')`|Returns the value of the "`user.<par_name>`" set for the current visitor; returns null if no value has been set.|
 |`user.categoryAffinity`|Returns the name of the best category.|
 |`user.categoryAffinities`|Returns an array with the best categories.|
 |`user.isFirstSession`|Returns true if it's the visitor's first session.|
@@ -266,8 +266,8 @@ All standard JavaScript operators are present and usable. JavaScript operators c
 |`>`|Indicates that the variable on the left is greater than the variable on the right. Evaluates to false if the variables are equal.|
 |`<=`|Same as `<` except if the variables are equal then it evaluates to true.|
 |`>=`|Same as `>` except if the variables are equal then it evaluates to true.|
-|`&&`|Logically “ANDs” the expressions to the left and right of it – is only true when both sides are true (false otherwise).|
-|`||`|Logically “ORs” the expressions to the left and right of it – is only true if one of the sides is true (false otherwise).|
+|`&&`|Logically "ANDs" the expressions to the left and right of it – is only true when both sides are true (false otherwise).|
+|`||`|Logically "ORs" the expressions to the left and right of it – is only true if one of the sides is true (false otherwise).|
 |`//`|Checks if source contains all elements from target boolean contains (Array source, Array target).<br>`//` extracts substring from target (corresponding to regexp) and decodes it `Array/*String*/ decode(String encoding, String regexp, String target)`.<br>The feature also supports the use of constant string values, grouping (`condition1 || condition2) && condition3`, and regular expressions (`/[^a-z]$/.test(landing.referring.url)`.|
 
 ## Training video: Profile Scripts ![Tutorial badge](/help/main/assets/tutorial.png)
