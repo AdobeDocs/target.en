@@ -24,7 +24,7 @@ This release contains security updates and the following new features:
 |Feature|Details|
 |--- |--- |
 |AEM [!UICONTROL Content Fragments] for headless personalization and experimentation|Use [!DNL Adobe Experience Manager] (AEM) [!UICONTROL Content Fragments] in [!DNL Target] activities. Combine the ease-of-use and power of AEM with powerful Artificial Intelligence (AI) and Machine Learning (ML) capabilities in [!DNL Target] to aid headless personalization and experimentation.<P>For more information, see [AEM [!UICONTROL Content Fragments]](/help/main/c-integrating-target-with-mac/aem/content-fragments-aem.md).<P>**NOTE**: This feature is available as a prerelease feature as of April 12, 2023. As a prerelease feature, you can experiment with [!UICONTROL Content Fragments] using dev and staging environments, but not using production environments. This feature will be available for all customers on April 26, 2023.|
-|Real-Time CDP Profile Attributes shared with [!DNL Target]|[!UICONTROL Real-Time CDP Profile Attributes] can be shared with [!DNL Target] for use in HTML and JSON offers.<P>For more information, see [Share Real-Time CDP Profile Attributes with [!DNL Target]](/help/main/c-integrating-target-with-mac/integrating-with-rtcdp.md#rtcdp-profile-attributes).|
+|Real-Time CDP Profile Attributes shared with [!DNL Target]|[!UICONTROL Real-Time CDP Profile Attributes] can be shared with [!DNL Target] for use in HTML and JSON offers.<P>For more information, see [Share Real-Time CDP Profile Attributes with [!DNL Target]](/help/main/c-integrating-target-with-mac/integrating-with-rtcdp.md#rtcdp-profile-attributes).<p>This feature will be available for all customers on May 9, 2023.|
 
 ## Additional release notes and version details
 
