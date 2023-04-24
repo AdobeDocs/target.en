@@ -9,6 +9,13 @@ exl-id: 36d19598-eb46-4be6-a652-658b653287cb
 
 This page lists significant changes made to the [!DNL Adobe Target] product documentation.
 
+## [!DNL Target] Standard/Premium 23.4.1 (April 25-27, 2023)
+
+|Date|Topic|Changes|
+| --- | --- | --- |
+|April 24|[[!DNL Adobe Target] announcements and events](/help/main/r-release-notes/target-announcements.md)|Added information about the following Adobe Target Community Coffee Break Q&A:<ul><li>Mobile experience optimization & personalization for authenticated environments</li></ul>|
+|March 28|[Target release notes (current)](/help/main/r-release-notes/release-notes.md)|Added release notes for the [!DNL Target Standard/Premium] 23.4.1 release.|
+
 ## [!DNL Target] Standard/Premium 23.3.1 (March 28-30, 2023)
 
 |Date|Topic|Changes|

@@ -17,6 +17,34 @@ Release notes are arraigned in descending order by month and year of release.
 
 ## Release notes - 2023
 
+### [!DNL Target] Standard/Premium 23.3.1 (March 28-30, 2023)
+
+This release contains the following new features, enhancements, and fixes:
+
+|Feature|Details|
+|--- |--- |
+|Optimized A4T metrics for [!UICONTROL Auto-Allocate] and [!UICONTROL Auto-Target]<p>(Release date March 30, 2023)|[!DNL Target] lets you choose metrics based on binomial events or metrics based on continuous events when using [!UICONTROL A4T] for [!UICONTROL Auto-Allocate] and [!UICONTROL Auto-Target] activities.<P>Be aware of the following change in supported metrics:<ul><li>[!DNL Target] preserved the previous behavior for existing activities until September 9, 2023. After this date, activities using non-supported metrics will be discontinued to force existing activity migration to the new behavior.</li></ul>For more information, see "Supported goal metrics" in [A4T support for [!UICONTROL Auto-Allocate] and [!UICONTROL Auto-Target] activities](/help/main/c-integrating-target-with-mac/a4t/a4t-at-aa.md#supported).<br>With this feature, the following tutorials have been updated:<ul><li>[Setting up A4T reports in [!DNL Analysis Workspace] for [!UICONTROL Auto-Allocate] activities](https://experienceleague.adobe.com/docs/target-learn/tutorials/integrations/set-up-a4t-reports-in-analysis-workspace-for-auto-allocate-activities.html){target=_blank}</li><li>[Setting up A4T reports in [!DNL Analysis Workspace] for [!UICONTROL Auto-Target] activities](https://experienceleague.adobe.com/docs/target-learn/tutorials/integrations/set-up-a4t-reports-in-analysis-workspace-for-auto-target-activities.html){target=_blank}</li></ul>|
+
+* Enhanced audience and activity synchronization so that items created in [!DNL Adobe Experience Platform] and [!DNL Adobe Audience Manager] are available in the [!DNL Target] UI quicker. (TGT-44568)
+* Enhanced UI to let users remove the [!UICONTROL Default URL] under [!UICONTROL Administration] > [!UICONTROL Visual Experience Composer] > [!UICONTROL Default URL]. This change lets customers change the default URL back to an empty string, which was previously not possible after initial configuration. (TGT-44577)
+* Removed restrictions that prevented customers from editing or deleting out-of-the box audiences (audiences with reserved names). (TGT-44655)
+* Disabled the "[!UICONTROL Done]" option while loading spinners were visible in the [!DNL Target] UI when creating [combined audiences](/help/main/c-target/combining-multiple-audiences.md). (TGT-44079)
+* Fixed the [!UICONTROL Language] link at the bottom of the [!UICONTROL Audiences] page so that it correctly links to the "[!UICONTROL Account communication preferences]" page. (TGT-43562)
+* Resolved an issue that sometimes prevented customers from creating [!UICONTROL A/B Test] activities after selecting the [!UICONTROL Adobe Analytics] option under [!UICONTROL Administration] > [!UICONTROL Reporting] > [!UICONTROL Reporting Experience Cloud Solution]. (TGT-44844)
+* Fixed an issue that prevented customers from viewing the last experience in a [!UICONTROL Multivariate Test] activity with many experiences from within the [!UICONTROL Visual Experience Composer] (VEC). The [DOM path](/help/main/c-experiences/c-visual-experience-composer/viztarget-options.md#dom-path) at the bottom of the VEC sometimes prevented customers from seeing the last experience. (TGT-44578)
+* Fixed an issue that caused the Browse URL in the VEC to not reflect the current page that is visible in a normal browser session if the page requires authorization or invokes redirects. (TGT-44350)
+* Fixed an issue that prevented customers from changing the [!UICONTROL Filter Incompatible Criteria] setting in [!UICONTROL Recommendations] > [!UICONTROL Settings]. (TGT-44398)
+* Fixed an issue that caused POST requests to create [!DNL Recommendations] feeds to fail when using [!UICONTROL Analytics Classifications] with report suites with dots in their names. (TGT-44598)
+* Updated links in the [!DNL Target] UI to point to the new [Visual Editing Helper extension](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/visual-editing-helper-extension.md). (TGT-44459)
+* Enhanced security to prevent Server-Side Request Forgery (SSRF) attempts in [!DNL Recommendations] feeds. (TGT-43769)
+* Made various localization fixes throughout the [!DNL Target] UI.
+
+### at.js version 2.10.2 (March 7, 2023)
+
+* Fixed an issue that caused the `trackEvent` function to always return an error.
+
+For information about all at.js releases, see [at.js version details](https://experienceleague.corp.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/target-atjs-versions.html){target=_blank} in the [Adobe Target Developer Guide](https://experienceleague.corp.adobe.com/docs/target-dev/developer/overview.html){target=_blank}.
+
 ### [!DNL Target] Standard/Premium 22.15.1 (March 8 & 9, 2023)
 
 This release will be available according to the following staggered schedule:
