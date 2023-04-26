@@ -116,7 +116,7 @@ For more information about choosing a [!UICONTROL Recommendation Key], see [Base
 
    The available data ranges are:
 
-   |Lookback Window option|Updated frequency (displayed on hover)|Supported alogrithms|
+   |Lookback Window option|Updated frequency (displayed on hover)|Supported algorithms|
    | --- | --- | --- |
    |Six hours|Algorithm runs every 3-6 hours|[!UICONTROL Popularity-Based] algorithms when the selected [!UICONTROL Behavioral Data Source] is [!DNL Adobe Target]|
    |One day|Algorithm runs every 12-24 hours|[!UICONTROL Popularity-Based] algorithms|
