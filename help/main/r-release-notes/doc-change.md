@@ -13,6 +13,9 @@ This page lists significant changes made to the [!DNL Adobe Target] product docu
 
 |Date|Topic|Changes|
 | --- | --- | --- |
+|April 26|[AEM [!UICONTROL Experience Fragments] and [!UICONTROL Content Fragments] overview](/help/main/c-integrating-target-with-mac/aem/aem-experience-and-content-fragments.md)|The [!UICONTROL AEM Content Fragments] feature is now available for all [!DNL Target customers].|
+||[AEM [!UICONTROL Content Fragments]](/help/main/c-integrating-target-with-mac/aem/content-fragments-aem.md)|The [!UICONTROL AEM Content Fragments] feature is now available for all [!DNL Target customers].|
+||[*Adobe Target Developer Guide*](https://experienceleague.adobe.com/docs/target-dev/developer/overview.html){target=_blank}|*The Adobe Target Developer Guide* has been relocated to *Adobe Experience League*. The move to *Experience League* aids in localization of text to additional languages, unifies search within *Experience League* to provide search results from both guides, and provides additional benefits.<P>Redirects from the previous location will be implemented in the coming days. Please update your bookmarks.|
 |April 24|[[!DNL Adobe Target] announcements and events](/help/main/r-release-notes/target-announcements.md)|Added information about the following Adobe Target Community Coffee Break Q&A:<ul><li>Mobile experience optimization & personalization for authenticated environments</li></ul>|
 ||[Target release notes (current)](/help/main/r-release-notes/release-notes.md)|Added release notes for the [!DNL Target Standard/Premium] 23.4.1 release.|
 
