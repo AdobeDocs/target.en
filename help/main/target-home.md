@@ -11,7 +11,17 @@ exl-id: 6003a663-4c0c-4179-8025-aee2ae107c5c
 
 [!DNL Adobe Target] is the [!DNL Adobe Experience Cloud] solution that provides everything you need to tailor and personalize your customers' experience so you can maximize revenue on your web and mobile sites, apps, social media, and other digital channels.
 
-**Last Updated: April 24, 2023 ( [See What Changed](r-release-notes/doc-change.md) )**
+**Last Updated: April 26, 2023 ( [See What Changed](r-release-notes/doc-change.md) )**
+
+>[!NOTE]
+>
+>In addition to this guide, the following [!DNL Adobe Target] guides are also available:
+>
+>* [*Adobe Target Developer Guide*](https://experienceleague.adobe.com/docs/target-dev/developer/overview.html){target=_blank}
+>
+>* [*Adobe Target Tutorials*](https://experienceleague.adobe.com/docs/target-learn/tutorials/overview.html){target=_blank}
+>
+>For release information, see [Target release notes (current)](/help/main/r-release-notes/release-notes.md).
 
 The following sections point you to useful links in this guide, arranged by intended audience based on typical job functions:
 
