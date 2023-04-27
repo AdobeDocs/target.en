@@ -15,55 +15,11 @@ Gartner named [!DNL Adobe Target] a leader in its latest Magic Quadrant for Pers
 
 For more information, see the [Adobe Experience Cloud Blog post](https://business.adobe.com/blog/the-latest/adobe-once-again-named-a-leader-in-the-2022-gartner-magic-quadrant-for-personalization-engines-report?mkt_tok=MDgyLVZMTi0zMzcAAAGGHqjw1DEtV7p2v7f1c2eB4fKlit9iqFUHbMFAjxcNgBw6KBEUjUk670zmlm4hCMQ3R-Cw0eEnAwSthQ1K_I8c1-Yj7vtwUFMqCp6FisLA){target=_blank}.
 
-## [!UICONTROL Adobe Target Community] Coffee Break Q&A: Mobile experience optimization & personalization for authenticated environments
-
-* **Wednesday, April 26, 2023**
-* **1:00 p.m. (EDT, UTC-4)**
-* **[Registration information](https://experienceleaguecommunities.adobe.com/t5/adobe-target-discussions/upcoming-webinar-4-26-23-mobile-experience-optimization-amp/td-p/586372){target=_blank}**
-
-Join [!DNL Adobe Target] Marketing Manager, Brent Kostak, as he discusses how [!DNL Target] and [Real-Time Customer Data Platform](/help/main/c-integrating-target-with-mac/integrating-with-rtcdp.md) (RTCDP) can drive increased engagement, revenue, and customer loyalty within regulated industries.
-
-+++Details
-
-Brands need to deliver highly personalized and relevant experiences based on specific customer needs and behaviors. With questions about a cookie-less future in marketing technology, regulated industries are looking to embrace a more robust customer engagement framework while optimizing each customer interaction for the right content and offer.
-
-How can brands across financial services and insurance, retail, travel and hospitality, and telecommunications industries adopt best practices for optimization and personalization within authenticated environments? Understanding the importance on mobile apps for engagement and retention of loyal customers, how can brands enable digital self-service or increase new feature adoption with personalized experiences?
-
-In this session, learn how [!DNL Target] and [!DNL Real-Time Customer Data Platform] can drive increased engagement, revenue, and customer loyalty within regulated industries as we discuss:
-
-* How teams deliver personalized experiences to both anonymous and authenticated visitors 
-* Understand consumer permissions and privacy standards with personalization
-* Personalized content and offers to authenticated visitors through anonymizing identities 
-* Unique use cases for authenticated, secure sites across web and mobile
-
-+++
-
 ## [!DNL Adobe Target] webinar series {#webinar-series}
 
 Register for the following webinars to see how customers are using [!DNL Target] to achieve their personalization and optimization goals:
 
-### Deliver personalized customer experiences, every time!
-
-* **Thursday, April 27, 2023**
-* **9:00 to 10:00 a.m. (BST, GMT +1), 10:00 to 11:00 a.m. (CEST, GMT +2)**
-* **[Registration information](https://adobetargetemea2023.experienceleague.adobeevents.com/){target=_blank}**
-
-Stay ahead of the customer with [!DNL Adobe Target]'s powerful testing and personalization features. Ensure you are everywhere the customer is, by offering dynamically contextual experiences across the web, mobile, and digital devices.
-
-+++Details
-
-The webinar will cover:
-
-* Why personalization is a critical part of any strategy 
-* Identifying and using different activity types
-* Spotlight - Industry use cases
-* Recommendations to drive personalization
-* Demo of the [!DNL Target] User Interface, highlighting
-  * Audience creation
-  * Setting-up [!UICONTROL Experience Targeting] (XT) activities
-  * Setting-up [!UICONTROL Auto-Target] and [!UICONTROL Auto Personalization] activities
-
-+++
+None scheduled at this time.
 
 ## Recordings of past webinars and skill-builder sessions
 
