@@ -210,7 +210,7 @@ Here a few points to keep in mind when viewing [!DNL Analytics] reports:
 
 +++
 
-## How do I track activity impressions in [!DNL Analysis Workspace] when using [!UICONTROL Analytics for Target] (A4T)?
+## How do I track activity impressions in [!DNL Analysis Workspace] when using [!UICONTROL Analytics for Target] (A4T)? {#activity-impressions}
 
 +++Answer
 
