@@ -209,3 +209,17 @@ Here a few points to keep in mind when viewing [!DNL Analytics] reports:
 * If a visitor sees multiple experiences across visits, any conversion is always attributed to the last experience that the visitor saw. As mentioned, the visit count increments for each experience that the visitor saw. This can artificially depress the per-experience conversion rates when viewing experiences under the "[!UICONTROL Targeted]" dimension in [!DNL Adobe Analytics] reports.
 
 +++
+
+## How do I track activity impressions in [!DNL Analysis Workspace] when using [!UICONTROL Analytics for Target] (A4T)?
+
++++Answer
+
+To view activity impressions in [!DNL Analysis Workspace]:
+
+1. In the [!DNL Target] UI, click **[!UICONTROL View in Analytics]**.
+1. Add the **[!UICONTROL Activity Impressions]** column to the [[!DNL Analytics Workspace]](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/home.html){target=_blank} report.
+1. On the **[!UICONTROL Activity Impressions]** column, click on the [!UICONTROL Gear] icon.
+1. Click **[!UICONTROL Use non-default attribution model]**.
+1. Select **[!UICONTROL Same Touch Model]** > **[!UICONTROL Apply]**.
+
++++
