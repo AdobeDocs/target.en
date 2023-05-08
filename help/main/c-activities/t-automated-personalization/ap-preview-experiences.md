@@ -6,7 +6,7 @@ badgePremium: label="Premium" type="Positive" url="https://experienceleague.adob
 feature: Automated Personalization
 exl-id: b346e9cb-f4db-4777-8671-cf714bed465a
 ---
-# !Preview experiences for Automated Personalization in the Visual Experience Composer
+# Preview experiences for Automated Personalization in the Visual Experience Composer
 
 Because an [!DNL Adobe Target] [!UICONTROL Automated Personalization] (AP) activity compares multiple offers on a page, it is helpful to preview the page with each experience.
 
