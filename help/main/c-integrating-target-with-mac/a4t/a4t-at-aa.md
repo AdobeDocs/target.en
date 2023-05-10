@@ -7,7 +7,7 @@ exl-id: 3302f26d-c445-4779-8435-be142d5cea8c
 ---
 # A4T support for [!UICONTROL Auto-Allocate] and [!UICONTROL Auto-Target] activities
 
-The [!DNL Adobe Target]-to-[!DNL Adobe Analytics] integration, known as [Analytics for Target](/help/main/c-integrating-target-with-mac/a4t/a4t.md) (A4T) supports [!UICONTROL Auto-Allocate] and [!UICONTROL Auto-Target] activities.
+The [!DNL Adobe Target]-to-[!DNL Adobe Analytics] integration, known as [Analytics for Target](/help/main/c-integrating-target-with-mac/a4t/a4t.md) (A4T), supports [!UICONTROL Auto-Allocate] and [!UICONTROL Auto-Target] activities.
 
 The A4T integration lets you:
 
