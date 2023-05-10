@@ -18,7 +18,7 @@ Ensure that you have [implemented A4T for use with A/B Test and Experience Targe
 
 To get started:
 
-1. While creating an [!UICONTROL A/B Test] activity, on the **[!UICONTROL Targeting]** page, select one of the following options as the **[!UICONTROL Traffic Allocation Method]**:
+1. While [creating an [!UICONTROL A/B Test] activity](/help/main/c-activities/t-test-ab/t-test-create-ab/test-create-ab.md), on the **[!UICONTROL Targeting]** page, select one of the following options as the **[!UICONTROL Traffic Allocation Method]**:
 
    * [!UICONTROL Auto-Allocate to best experience]
    * [!UICONTROL Auto-Target for personalized experiences]
