@@ -1,5 +1,5 @@
 ---
-keywords: a4t;A4T;Analytics as the reporting source for Target
+keywords: a4t;A4T;Analytics as the reporting source for Target;analytics for target
 description: Learn how to create [!UICONTROL Auto-Allocate] and [!UICONTROL Auto-Target] activities in [!DNL Target] that use [!DNL Analytics] as the reporting source (A4T).
 title: Does A4T Support [!UICONTROL Auto-Allocate] and [!UICONTROL Auto-Target] Activities?
 feature: Analytics for Target (A4T)
