@@ -13,6 +13,7 @@ This page lists significant changes made to the [!DNL Adobe Target] product docu
 
 |Date|Topic|Changes|
 | --- | --- | --- |
+|May 4|[Configure authentication for Adobe Target APIs](https://experienceleague.adobe.com/docs/target-dev/developer/api/configure-authentication.html){target=_blank}|Added note explaining the need to migrate from a JWT credential to an OAuth Server-to-Server credential.|
 |May 3|[View reports - A4T FAQ](/help/main/c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-viewing-reports.md#activity-impressions)|Added the following FAQ:<ul><li>How do I track activity impressions in [!DNL Analysis Workspace] when using [!UICONTROL Analytics for Target] (A4T)?</li></ul>|
 ||[Profile attributes](/help/main/c-target/c-visitor-profile/profile-parameters.md#objects)|Added additional information to the "landing.URL" row.|
 |April 26|[AEM [!UICONTROL Experience Fragments] and [!UICONTROL Content Fragments] overview](/help/main/c-integrating-target-with-mac/aem/aem-experience-and-content-fragments.md)|The [!UICONTROL AEM Content Fragments] feature is now available for all [!DNL Target customers].|
