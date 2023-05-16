@@ -73,7 +73,7 @@ Singe value only.
 
 This required parameter identifies the product. This alphanumeric ID must be the same across all [!DNL Adobe Experience Cloud] products that are used, including [!DNL Analytics], for the various products to recognize the item and share data about it.
 
-The `entity.id` values must *not* contain slashes, ampersands, question marks, percentage symbols, commas, or other punctuation characters that require URL encoding when passed in a REST API call. Hyphens and underscores are allowed. Including invalid punctuation in an `entity.id` value causes some [!DNL Recommendations] functionality to fail.
+The `entity.id` values must *not* contain spaces, slashes, ampersands, question marks, percentage symbols, commas, or other punctuation characters that require URL encoding when passed in a REST API call. Hyphens and underscores are allowed. Including invalid punctuation in an `entity.id` value causes some [!DNL Recommendations] functionality to fail.
 
 Example: `'entity.id=67833'`
 
