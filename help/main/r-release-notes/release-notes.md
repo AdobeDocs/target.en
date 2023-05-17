@@ -13,6 +13,14 @@ These release notes provide information about features, enhancements, and fixes 
 
 (The issue numbers in parentheses are for internal [!DNL Adobe] use.)
 
+## [!UICONTROL Automated Personalization] updates (May 16, 2023)
+
+This release contains the following enhancements:
+
+|Feature|Details|
+|--- |--- |
+|[!UICONTROL QA mode] for [!UICONTROL Automated Personalization] activities|[!DNL Adobe Target] [!UICONTROL QA mode] is now available for [!UICONTROL Automated Personalization] activities, replacing [!UICONTROL Preview links] functionality.<P>For more information, see [Activity QA](/help/main/c-activities/c-activity-qa/activity-qa.md).|
+
 ## [!DNL Target] Standard/Premium 23.4.1 (April 25-27, 2023)
 
 This release contains security updates and the following new features:

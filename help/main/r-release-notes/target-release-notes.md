@@ -9,7 +9,7 @@ exl-id: f2783042-f6ee-4f73-b487-ede11d55d530
 
 This article contains prerelease information for upcoming [!DNL Adobe Target] releases, including SDKs, APIs, and JavaScript libraries.
 
-**Last Updated: May 15, 2023**
+**Last Updated: May 17, 2023**
 
 >[!NOTE]
 >
@@ -24,6 +24,14 @@ This release contains the following new features, enhancements and fixes:
 |Feature|Details|
 |--- |--- |
 |Real-Time CDP Profile Attributes shared with [!DNL Target]|[!UICONTROL Real-Time CDP Profile Attributes] can be shared with [!DNL Target] for use in HTML and JSON offers.<P>For more information, see [Share Real-Time CDP Profile Attributes with [!DNL Target]](/help/main/c-integrating-target-with-mac/integrating-with-rtcdp.md#rtcdp-profile-attributes).|
+
+## [!UICONTROL Automated Personalization] updates (May 16, 2023)
+
+This release contains the following enhancements:
+
+|Feature|Details|
+|--- |--- |
+|[!UICONTROL QA mode] for [!UICONTROL Automated Personalization] activities|[!DNL Adobe Target] [!UICONTROL QA mode] is now available for [!UICONTROL Automated Personalization] activities, replacing [!UICONTROL Preview links] functionality.<P>For more information, see [Activity QA](/help/main/c-activities/c-activity-qa/activity-qa.md).|
 
 ## Additional release notes and version details
 
