@@ -9,11 +9,15 @@ exl-id: 02bbc049-ab41-469b-8f7b-dc93ffb8ae73
 
 Announcements and information about [!DNL Adobe Target] events, including [!DNL Target] Coffee Break sessions, [!DNL Target] webinar series, [!DNL Target] Skill Builder sessions, developer chats, and more. Links to past recordings are included if available.
 
-## [!DNL Target] named leader in Gartner Magic Quadrant for Personalization Engines (2022)
+## [!UICONTROL Adobe Target Community] Q&A Coffee Break
 
-Gartner named [!DNL Adobe Target] a leader in its latest Magic Quadrant for Personalization Engines (PE) for the fifth year in a row. [!DNL Adobe] also received top scores and significant year-over-year increases across all three primary use cases: Digital Marketing, Digital Commerce, and Service and Support. [!DNL Target] received the highest scores for its testing capabilities among all vendors evaluated.
+* **Wednesday May 24, 2023**
+* **8:00-9:00 a.m. (PT, UTC-7)**
+* **[Registration information](https://adobe.ly/3BgfeZZ){target=_blank}**
 
-For more information, see the [Adobe Experience Cloud Blog post](https://business.adobe.com/blog/the-latest/adobe-once-again-named-a-leader-in-the-2022-gartner-magic-quadrant-for-personalization-engines-report?mkt_tok=MDgyLVZMTi0zMzcAAAGGHqjw1DEtV7p2v7f1c2eB4fKlit9iqFUHbMFAjxcNgBw6KBEUjUk670zmlm4hCMQ3R-Cw0eEnAwSthQ1K_I8c1-Yj7vtwUFMqCp6FisLA){target=_blank}.
+We'll be joined by Ryan Roberts, Gentry Lin, and Ryan Pizzuto of the [!UICONTROL Adobe Target Consulting] team and Mihnea Docea of the [!UICONTROL Adobe Technical Support Engineering] team, who will be signed in to the [Adobe Target Community](https://forums.adobe.com/community/experience-cloud/marketing-cloud/target){target=_blank} to chat directly with you on this thread about your [!DNL Adobe Target] questions related to your questions related to [!DNL Target] @ [!UICONTROL Adobe Summit] 2023. 
+
+Feel free to review any of the [on-demand Adobe Target Summit Session recordings](https://experienceleaguecommunities.adobe.com/t5/adobe-target-discussions/session-videos-adobe-summit-mar-21-23-2023-complete-adobe-target/td-p/569706){target=_blank} in advance to bring your follow-up questions to this chat.
 
 ## [!DNL Adobe Target] webinar series {#webinar-series}
 
