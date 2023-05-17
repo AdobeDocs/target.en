@@ -13,7 +13,7 @@ These release notes provide information about features, enhancements, and fixes 
 
 (The issue numbers in parentheses are for internal [!DNL Adobe] use.)
 
-## [!UICONTROL Automated Personalization] updates (May 16, 2023)
+## [!DNL Target] Standard/Premium 23.5.1 (May 16, 2023)
 
 This release contains the following enhancements:
 
