@@ -49,7 +49,7 @@ This release contains the following enhancements:
 |--- |--- |
 |[!UICONTROL QA mode] for [!UICONTROL Automated Personalization] activities|[!DNL Adobe Target] [!UICONTROL QA mode] is now available for [!UICONTROL Automated Personalization] activities, replacing [!UICONTROL Preview links] functionality.<P>For more information, see [Activity QA](/help/main/c-activities/c-activity-qa/activity-qa.md).|
 
-* Improved performance when using the [!UICONTROL Disallow Duplicates] option while [managing exclusions](/help/main/c-activities/t-automated-personalization/managing-exclusions.md#concept_4EF78013F80E48EFA024AE0274C9F037) in [!UICONTROL Automated Personalization] activities.
+* Performance enhancements to disallow duplicates functionality (including reduction in load time) while [managing exclusions](/help/main/c-activities/t-automated-personalization/managing-exclusions.md#concept_4EF78013F80E48EFA024AE0274C9F037) in [!UICONTROL Automated Personalization] activities.
 
 ## Additional release notes and version details
 
