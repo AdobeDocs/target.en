@@ -13,6 +13,7 @@ This page lists significant changes made to the [!DNL Adobe Target] product docu
 
 |Date|Topic|Changes|
 | --- | --- | --- |
+|May 19|[[!DNL Target] release notes (prerelease)](/help/main/r-release-notes/target-release-notes.md)|Updated prerelease notes for upcoming releases.|
 |May 17|[[!DNL Adobe Target] announcements and events](/help/main/r-release-notes/target-announcements.md)|Added information about the [!UICONTROL Adobe Target Community] Q&A Coffee Break on Wednesday, May 24, 2023.|
 |May 16|[Entity attributes](/help/main/c-recommendations/c-products/entity-attributes.md)|Indicated that "spaces" are not allowed in `entity.id` values.|
 ||[targetGlobalSettings()](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/functions-overview/targetglobalsettings.html){target=_blank}|Updated `viewsEnabled` description.|
