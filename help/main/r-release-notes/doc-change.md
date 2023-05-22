@@ -13,6 +13,7 @@ This page lists significant changes made to the [!DNL Adobe Target] product docu
 
 |Date|Topic|Changes|
 | --- | --- | --- |
+|May 22|[Integrate with [!DNL Real-Time Customer Data Platform]](/help/main/c-integrating-target-with-mac/integrating-with-rtcdp.md#videos-blogs)|Added the following new videos:<ul><li>Configure the [!DNL Adobe Target] destination in [!DNL Real-Time Customer Data Platform]</li><li>Activate segments and profile attributes</li><li>Use [!DNL Real-Time CDP] segments in [!DNL Target]</li><li>Use [!DNL Real-Time CDP] profile attributes in [!DNL Adobe Target]</li></ul>|
 |May 19|[[!DNL Target] release notes (prerelease)](/help/main/r-release-notes/target-release-notes.md)|Updated prerelease notes for upcoming releases.|
 |May 17|[[!DNL Adobe Target] announcements and events](/help/main/r-release-notes/target-announcements.md)|Added information about the [!UICONTROL Adobe Target Community] Q&A Coffee Break on Wednesday, May 24, 2023.|
 |May 16|[Entity attributes](/help/main/c-recommendations/c-products/entity-attributes.md)|Indicated that "spaces" are not allowed in `entity.id` values.|
