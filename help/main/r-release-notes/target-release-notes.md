@@ -32,6 +32,8 @@ This release contains the following new features, enhancements and fixes:
 |Real-Time CDP Profile Attributes shared with [!DNL Target]|[!UICONTROL Real-Time CDP Profile Attributes] can be shared with [!DNL Target] for use in HTML and JSON offers.<P>For more information, see [Share Real-Time CDP Profile Attributes with [!DNL Target]](/help/main/c-integrating-target-with-mac/integrating-with-rtcdp.md#rtcdp-profile-attributes).|
 
 * Fixed an issue that prevented certain customers from creating audiences with visitor profiles using "greater than" or "less than" operators. (TGT-45271)
+* Made various localization fixes throughout the [!DNL Target] UI.
+* Updated the Target UI in various places for an upcoming UI refresh (changes are behind a feature flag until the updates are released). 
 
 ## [!DNL Target] Standard/Premium 23.5.2 (May 31, 2023)
 
