@@ -9,7 +9,7 @@ exl-id: f2783042-f6ee-4f73-b487-ede11d55d530
 
 This article contains prerelease information for upcoming [!DNL Adobe Target] releases, including SDKs, APIs, and JavaScript libraries.
 
-**Last Updated: May 19, 2023**
+**Last Updated: May 22, 2023**
 
 >[!NOTE]
 >
@@ -40,6 +40,10 @@ This release contains the following enhancements and fixes:
 * Fixed an issue that caused a blank page to display while generating a Profile API authorization token. (TGT-45387)
 * Fixed an issue that prevented an image from displaying in the [!UICONTROL Create Design] panel if the image name contains GB 18030 characters. (TGT-44614)
 * Fixed an issue that caused reports for [!UICONTROL Auto Personalization] activities to freeze during analysis. (TGT-44820)
+* Fixed an issue that caused no activities to display in the Target UI for the Default workspace for certain customers. (TGT-45286)
+* Updated the behavior of the "Disallow Duplicates" flag. Excluded repeating offers flags are updated to allow repeating offers if they are the default content offer (for APIs v3, v4) and allow duplicate options if the options reference the default content offer and have no templates defined. (TNT-46617)
+* Fixed an issue in which a query parameter was added to a URL that prevented the page from loading in the Visual Experience Composer (VEC). (TGT-44873)
+* Fixed an issue in which some characters were incorrectly escaped in Text/HTML in experiences. (TGT-44600)
 
 ## [!DNL Target] Standard/Premium 23.5.3 (Date to be determined)
 
