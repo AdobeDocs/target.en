@@ -9,6 +9,14 @@ exl-id: 36d19598-eb46-4be6-a652-658b653287cb
 
 This page lists significant changes made to the [!DNL Adobe Target] product documentation.
 
+## [!DNL Target] Standard/Premium 23.5.1 (May 23-25, 2023)
+
+|Date|Topic|Changes|
+| --- | --- | --- |
+|May 23|[Allowlist Target edge nodes](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/privacy/allowlist-edges.html){target=_blank}|Updated Important note.|
+||[[!DNL Target] release notes (prerelease)](/help/main/r-release-notes/target-release-notes.md)|Updated prerelease notes for upcoming releases.|
+||[Target release notes (current)](/help/main/r-release-notes/release-notes.md)|Added release notes for the [!DNL Target Standard/Premium] 23.5.1 release.|
+
 ## [!DNL Target] Standard/Premium 23.4.1 (April 25-27, 2023)
 
 |Date|Topic|Changes|
