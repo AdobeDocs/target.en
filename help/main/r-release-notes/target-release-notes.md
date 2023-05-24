@@ -9,31 +9,13 @@ exl-id: f2783042-f6ee-4f73-b487-ede11d55d530
 
 This article contains prerelease information for upcoming [!DNL Adobe Target] releases, including SDKs, APIs, and JavaScript libraries.
 
-**Last Updated: May 22, 2023**
+**Last Updated: May 24, 2023**
 
 >[!NOTE]
 >
 >Release dates, features, and other information are subject to change without notice.
 >
 >To view information about the current release, see [Target Release Notes](release-notes.md). The information on these pages might be the same, depending on the timing of releases. The issue numbers in parentheses are for internal [!DNL Adobe] use.
-
-## [!DNL Target] Standard/Premium 23.5.1 (May 23-25, 2023)
-
-This release will be available according to the following staggered schedule:
-
-May 23: Europe, Middle East, and Africa (EMEA) region
-May 24: Asia-Pacific (APAC) region
-May 25: Americas region
-
-This release contains the following new features, enhancements and fixes:
-
-|Feature|Details|
-|--- |--- |
-|Real-Time CDP Profile Attributes shared with [!DNL Target]|[!UICONTROL Real-Time CDP Profile Attributes] can be shared with [!DNL Target] for use in HTML and JSON offers.<P>For more information, see [Share Real-Time CDP Profile Attributes with [!DNL Target]](/help/main/c-integrating-target-with-mac/integrating-with-rtcdp.md#rtcdp-profile-attributes).|
-
-* Fixed an issue that prevented certain customers from creating audiences with visitor profiles using "greater than" or "less than" operators. (TGT-45271)
-* Made various localization fixes throughout the [!DNL Target] UI.
-* Updated the Target UI in various places for an upcoming UI refresh (changes are behind a feature flag until the updates are released). 
 
 ## [!DNL Target] Standard/Premium 23.5.2 (May 31, 2023)
 
@@ -54,6 +36,7 @@ This release contains the following enhancements:
 |Feature|Details|
 |--- |--- |
 |[!UICONTROL QA mode] for [!UICONTROL Automated Personalization] activities|[!DNL Adobe Target] [!UICONTROL QA mode] is now available for [!UICONTROL Automated Personalization] activities, replacing [!UICONTROL Preview links] functionality.<P>For more information, see [Activity QA](/help/main/c-activities/c-activity-qa/activity-qa.md).|
+|Real-Time CDP Profile Attributes shared with [!DNL Target]|[!UICONTROL Real-Time CDP Profile Attributes] can be shared with [!DNL Target] for use in HTML and JSON offers.<P>For more information, see [Share Real-Time CDP Profile Attributes with [!DNL Target]](/help/main/c-integrating-target-with-mac/integrating-with-rtcdp.md#rtcdp-profile-attributes).|
 
 * Performance enhancements to disallow duplicates functionality (including reduction in load time) while [managing exclusions](/help/main/c-activities/t-automated-personalization/managing-exclusions.md#concept_4EF78013F80E48EFA024AE0274C9F037) in [!UICONTROL Automated Personalization] activities.
 

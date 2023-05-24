@@ -13,14 +13,19 @@ These release notes provide information about features, enhancements, and fixes 
 
 (The issue numbers in parentheses are for internal [!DNL Adobe] use.)
 
-## [!DNL Target] Standard/Premium 23.4.1 (April 25-27, 2023)
+## [!DNL Target] Standard/Premium 23.5.1 (May 23-25, 2023)
 
-This release contains security updates and the following new features:
+This release will be available according to the following staggered schedule:
 
-|Feature|Details|
-|--- |--- |
-|AEM [!UICONTROL Content Fragments] for headless personalization and experimentation|Use [!DNL Adobe Experience Manager] (AEM) [!UICONTROL Content Fragments] in [!DNL Target] activities. Combine the ease-of-use and power of AEM with powerful Artificial Intelligence (AI) and Machine Learning (ML) capabilities in [!DNL Target] to aid headless personalization and experimentation.<P>For more information, see [AEM [!UICONTROL Content Fragments]](/help/main/c-integrating-target-with-mac/aem/content-fragments-aem.md).|
-|[*Adobe Target Developer Guide*](https://experienceleague.adobe.com/docs/target-dev/developer/overview.html){target=_blank}|The *Adobe Target Developer Guide* has been relocated to *[!UICONTROL Adobe Experience League]*. The move to *[!UICONTROL Experience League]* aids in localization of text in additional languages, unifies search within *Experience League* to span and offer search results from both the *[!UICONTROL Adobe Target Business Practitioner Guide]* and the *[!UICONTROL Adobe Target Developer Guide]*, and provides additional benefits.<P>You will be redirected from the previous location to *[!UICONTROL Experience League]* automatically. Please update your bookmarks as necessary.|
+May 23: Europe, Middle East, and Africa (EMEA) region
+May 24: Asia-Pacific (APAC) region
+May 25: Americas region
+
+This release contains the following new enhancements and fixes:
+
+* Fixed an issue that prevented certain customers from creating audiences with visitor profiles using "greater than" or "less than" operators. (TGT-45271)
+* Made various localization fixes throughout the [!DNL Target] UI.
+* Updated the Target UI in various places for an upcoming UI refresh (changes are behind a feature flag until the updates are released). 
 
 ## Additional release notes and version details
 

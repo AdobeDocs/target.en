@@ -17,6 +17,15 @@ Release notes are arraigned in descending order by month and year of release.
 
 ## Release notes - 2023
 
+### [!DNL Target] Standard/Premium 23.4.1 (April 25-27, 2023)
+
+This release contains security updates and the following new features:
+
+|Feature|Details|
+|--- |--- |
+|AEM [!UICONTROL Content Fragments] for headless personalization and experimentation|Use [!DNL Adobe Experience Manager] (AEM) [!UICONTROL Content Fragments] in [!DNL Target] activities. Combine the ease-of-use and power of AEM with powerful Artificial Intelligence (AI) and Machine Learning (ML) capabilities in [!DNL Target] to aid headless personalization and experimentation.<P>For more information, see [AEM [!UICONTROL Content Fragments]](/help/main/c-integrating-target-with-mac/aem/content-fragments-aem.md).|
+|[*Adobe Target Developer Guide*](https://experienceleague.adobe.com/docs/target-dev/developer/overview.html){target=_blank}|The *Adobe Target Developer Guide* has been relocated to *[!UICONTROL Adobe Experience League]*. The move to *[!UICONTROL Experience League]* aids in localization of text in additional languages, unifies search within *Experience League* to span and offer search results from both the *[!UICONTROL Adobe Target Business Practitioner Guide]* and the *[!UICONTROL Adobe Target Developer Guide]*, and provides additional benefits.<P>You will be redirected from the previous location to *[!UICONTROL Experience League]* automatically. Please update your bookmarks as necessary.|
+
 ### [!DNL Target] Standard/Premium 23.3.1 (March 28-30, 2023)
 
 This release contains the following new features, enhancements, and fixes:
