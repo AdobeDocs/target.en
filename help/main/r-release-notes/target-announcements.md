@@ -39,6 +39,14 @@ None scheduled at this time.
 
 Access recordings of past events (when available):
 
+### The Journey to Driving Growth with Personalization
+
+Supercharge your organization's ability to deliver personalization, presented by Adobe Customer Success Manager, Ramon Cespedes.
+
+Key analyst report suggests that companies that excel at personalization generate 40 percent more revenue than their counterparts. To meet the demand for new, relevant, and highly personalized experiences at every click, marketers need the right framework and strategy in place. In this webinar, join Adobe's experts to learn how to make use of data-driven framework to build your organization's personalization programs and drive success.
+
+* [Recording link](https://event.on24.com/wcc/r/4217828/9C1E092251A62DF896221FB5A91437D4){target=_blank}
+
 ### Fine-Tuning AI-Powered Personalization: New Features in [!DNL Adobe Target] (October 11, 2022)
 
 Please join us for this special product announcement webinar!  
