@@ -17,6 +17,10 @@ These release notes provide information about features, enhancements, and fixes 
 
 This release contains the following enhancements and fixes:
 
+|Feature|Details|
+|--- |--- |
+|Real-Time CDP Profile Attributes shared with [!DNL Target]|[!UICONTROL Real-Time CDP Profile Attributes] can be shared with [!DNL Target] for use in HTML and JSON offers.<P>For more information, see [Share Real-Time CDP Profile Attributes with [!DNL Target]](/help/main/c-integrating-target-with-mac/integrating-with-rtcdp.md#rtcdp-profile-attributes).|
+
 * Fixed an issue that caused a blank page to display while generating a Profile API authorization token. (TGT-45387 & TGT-45423)
 * Fixed an issue that prevented an image from displaying in the [!UICONTROL Create Design] panel if the image name contains GB 18030 characters. (TGT-44614)
 * Fixed an issue in which some GB 18030 symbol characters were incorrectly escaped in Text/HTML in experiences. (TGT-44600)
