@@ -9,15 +9,25 @@ exl-id: 02bbc049-ab41-469b-8f7b-dc93ffb8ae73
 
 Announcements and information about [!DNL Adobe Target] events, including [!DNL Target] Coffee Break sessions, [!DNL Target] webinar series, [!DNL Target] Skill Builder sessions, developer chats, and more. Links to past recordings are included if available.
 
-## [!UICONTROL Adobe Target Community] Q&A Coffee Break
+## [!UICONTROL Adobe Target Community] Q&A Coffee Breaks
 
-* **Wednesday May 24, 2023**
-* **8:00-9:00 a.m. (PT, UTC-7)**
-* **[Registration information](https://adobe.ly/3BgfeZZ){target=_blank}**
+Information about the following upcoming Coffee Breaks:
 
-We'll be joined by Ryan Roberts, Gentry Lin, and Ryan Pizzuto of the [!UICONTROL Adobe Target Consulting] team and Mihnea Docea of the [!UICONTROL Adobe Technical Support Engineering] team, who will be signed in to the [Adobe Target Community](https://forums.adobe.com/community/experience-cloud/marketing-cloud/target){target=_blank} to chat directly with you on this thread about your [!DNL Adobe Target] questions related to your questions related to [!DNL Target] @ [!UICONTROL Adobe Summit] 2023. 
+### [!DNL Adobe Target Recommendations] Coffee Break
 
-Feel free to review any of the [on-demand Adobe Target Summit Session recordings](https://experienceleaguecommunities.adobe.com/t5/adobe-target-discussions/session-videos-adobe-summit-mar-21-23-2023-complete-adobe-target/td-p/569706){target=_blank} in advance to bring your follow-up questions to this chat.
+* **Wednesday June 7, 2023**
+* **8:00-9:00 a.m. (PDT, UTC-7)**
+* **[More information](https://experienceleaguecommunities.adobe.com/t5/target-community-events/community-q-amp-a-coffee-break-6-7-23-at-recommendations-feature/ec-p/595749#M7){target=_blank}**
+
+We'll be joined by [!DNL Adobe Target] experts: Bill Ozinga, John Mosbaugh, Justin Patrick, and Eric Thibeault. In this AMA (Ask Me Anything) event, the experts will be logged in and ready to answer any of your questions related to the [!DNL Target Recommendations] feature.
+
+### Personalization Program Readiness Webinar follow-up
+
+* **Wednesday June 21, 2023**
+* **8:00-9:00 a.m. (PDT, UTC-7)**
+* **[More information]https://experienceleaguecommunities.adobe.com/t5/target-community-events/community-q-amp-a-coffee-break-6-21-23-personalization-program/ec-p/595807#M9){target=_blank}**
+
+We'll be joined by Adobe Target experts, Ramon Cespedes and Kevin Jemison. In this AMA (Ask Me Anything) event, the experts will be logged in and ready to answer any of your questions related to the topics covered in the recent 5/24 Webinar on [The Journey to Driving Growth with Personalization](https://experienceleaguecommunities.adobe.com/t5/adobe-target-discussions/webinar-recording-wednesday-5-24-8am-9am-pt-the-journey-to/td-p/594567){target=_blank}.
 
 ## [!DNL Adobe Target] webinar series {#webinar-series}
 
