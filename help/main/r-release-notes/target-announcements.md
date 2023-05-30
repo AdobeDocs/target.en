@@ -25,7 +25,7 @@ We'll be joined by [!DNL Adobe Target] experts: Bill Ozinga, John Mosbaugh, Just
 
 * **Wednesday June 21, 2023**
 * **8:00-9:00 a.m. (PDT, UTC-7)**
-* **[More information]https://experienceleaguecommunities.adobe.com/t5/target-community-events/community-q-amp-a-coffee-break-6-21-23-personalization-program/ec-p/595807#M9){target=_blank}**
+* **[More information](https://experienceleaguecommunities.adobe.com/t5/target-community-events/community-q-amp-a-coffee-break-6-21-23-personalization-program/ec-p/595807#M9){target=_blank}**
 
 We'll be joined by Adobe Target experts, Ramon Cespedes and Kevin Jemison. In this AMA (Ask Me Anything) event, the experts will be logged in and ready to answer any of your questions related to the topics covered in the recent 5/24 Webinar on [The Journey to Driving Growth with Personalization](https://experienceleaguecommunities.adobe.com/t5/adobe-target-discussions/webinar-recording-wednesday-5-24-8am-9am-pt-the-journey-to/td-p/594567){target=_blank}.
 
