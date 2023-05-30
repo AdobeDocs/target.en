@@ -13,6 +13,21 @@ These release notes provide information about features, enhancements, and fixes 
 
 (The issue numbers in parentheses are for internal [!DNL Adobe] use.)
 
+## [!DNL Target] Standard/Premium 23.5.2 (May 31, 2023)
+
+This release contains the following enhancements and fixes:
+
+* Fixed an issue that caused a blank page to display while generating a Profile API authorization token. (TGT-45387 & TGT-45423)
+* Fixed an issue that prevented an image from displaying in the [!UICONTROL Create Design] panel if the image name contains GB 18030 characters. (TGT-44614)
+* Fixed an issue in which some GB 18030 symbol characters were incorrectly escaped in Text/HTML in experiences. (TGT-44600)
+* Fixed an issue that caused reports for [!UICONTROL Auto Personalization] activities to freeze during analysis. (TGT-44820)
+* Fixed an issue that prevented searching for an activity on the [!UICONTROL Activity] page if the activity name contains a square bracket ( [ or ] ). (TGT-44777)
+* Fixed an issue that prevented an activity from syncing if the activity's objective contains special characters. (TGT-44982)
+* Fixed an issue that caused no activities to display in the [!DNL Target] UI for the Default workspace for certain customers. (TGT-45286)
+* Updated the behavior of the "Disallow Duplicates" flag. Excluded repeating offers flags are updated to allow repeating offers if they are the default content offer (for APIs v3, v4) and allow duplicate options if the options reference the default content offer and have no templates defined. (TNT-46617)
+* Fixed an issue in which a query parameter was added to a URL that prevented the page from loading in the [!UICONTROL Visual Experience Composer] (VEC). (TGT-44873)
+* Made various localization fixes throughout the [!DNL Target] UI.
+
 ## [!DNL Target] Standard/Premium 23.5.1 (May 23-25, 2023)
 
 This release will be available according to the following staggered schedule:
