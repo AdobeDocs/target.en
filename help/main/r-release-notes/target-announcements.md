@@ -17,7 +17,7 @@ Information about the following upcoming Coffee Breaks:
 
 * **Wednesday June 7, 2023**
 * **8:00-9:00 a.m. (PDT, UTC-7)**
-* **[More information](https://experienceleaguecommunities.adobe.com/t5/target-community-events/community-q-amp-a-coffee-break-6-7-23-at-recommendations-feature/ev-p/596872){target=_blank}**
+* **[More information](https://shorturl.at/irzD5){target=_blank}**
 
 We'll be joined by [!DNL Adobe Target] experts: Bill Ozinga, John Mosbaugh, Justin Patrick, and Eric Thibeault. In this AMA (Ask Me Anything) event, the experts will be logged in and ready to answer any of your questions related to the [!DNL Target Recommendations] feature.
 
