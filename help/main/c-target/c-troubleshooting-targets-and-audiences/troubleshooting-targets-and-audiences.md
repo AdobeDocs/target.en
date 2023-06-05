@@ -33,7 +33,7 @@ Beyond audience targeting on the URL, you can also specify specific values that 
 
 Audience URL targeting and URL targeting added via [!UICONTROL Template Rules] evaluate as URL targeting (see URL targeting below).
 
-### URL targeting {#url}
+### URL targeting {#url-targeting}
 
 To apply URL targeting, while creating an audience, click [!UICONTROL Add Rule], click [!UICONTROL Site Pages], select an option from the first drop-down list ([!UICONTROL Current Page], [!UICONTROL Previous Page], or [!UICONTROL Landing Page]), select [!UICONTROL URL] from the second drop-down list, specify an evaluator, then specify the desired URL.
 
