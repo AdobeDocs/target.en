@@ -13,6 +13,7 @@ This page lists significant changes made to the [!DNL Adobe Target] product docu
 
 |Date|Topic|Changes|
 | --- | --- | --- |
+|June 5|[[!DNL Adobe Target] announcements and events](/help/main/r-release-notes/target-announcements.md)|Updated information for the following events:<ul><li>Updated the registration link for the [!DNL Adobe Target Recommendations] Coffee Break (Wednesday, June 7, 2023)</li><li>Added information about the recent webinar "Mobile Experience Optimization and Personalization for Authenticated Environments" and added a link to the recording.</li></ul>|
 |May 30|[[!DNL Target] release notes (current)](/help/main/r-release-notes/release-notes.md)|Added release notes for the [!DNL Target Standard/Premium] 23.5.2 release.|
 ||[Integrate with [!DNL Real-Time Customer Data Platform]](/help/main/c-integrating-target-with-mac/integrating-with-rtcdp.md)|Updated article with information about sharing [!UICONTROL Real-Time CDP Profile Attributes] with [!DNL Target] for use in HTML and JSON offers.|
 ||[[!DNL Adobe Target] announcements and events](/help/main/r-release-notes/target-announcements.md)|Added information about the following upcoming Coffee Break events:<ul><li>[!DNL Adobe Target Recommendations] Coffee Break (June 7)</li><li>Personalization Program Readiness Webinar follow-up (June 21)</li></ul>|

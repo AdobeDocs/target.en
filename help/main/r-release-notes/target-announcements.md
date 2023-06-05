@@ -17,7 +17,7 @@ Information about the following upcoming Coffee Breaks:
 
 * **Wednesday June 7, 2023**
 * **8:00-9:00 a.m. (PDT, UTC-7)**
-* **[More information](https://experienceleaguecommunities.adobe.com/t5/target-community-events/community-q-amp-a-coffee-break-6-7-23-at-recommendations-feature/ec-p/595749#M7){target=_blank}**
+* **[More information](https://experienceleaguecommunities.adobe.com/t5/target-community-events/community-q-amp-a-coffee-break-6-7-23-at-recommendations-feature/ev-p/596872){target=_blank}**
 
 We'll be joined by [!DNL Adobe Target] experts: Bill Ozinga, John Mosbaugh, Justin Patrick, and Eric Thibeault. In this AMA (Ask Me Anything) event, the experts will be logged in and ready to answer any of your questions related to the [!DNL Target Recommendations] feature.
 
@@ -38,6 +38,21 @@ None scheduled at this time.
 ## Recordings of past webinars and skill-builder sessions
 
 Access recordings of past events (when available):
+
+### Mobile Experience Optimization and Personalization for Authenticated Environments (April 26, 2023)
+
+Brands need to deliver highly personalized and relevant experiences based on specific customer needs and behaviors. With questions about a cookie-less future in marketing technology, regulated industries are looking to embrace a more robust customer engagement framework while optimizing each customer interaction for the right content and offer.
+
+How can brands across financial services and insurance, retail, travel and hospitality, and telecommunications industries adopt best practices for optimization and personalization within authenticated environments? Understanding the importance on mobile apps for engagement and retention of loyal customers, how can brands enable digital self-service or increase new feature adoption with personalized experiences?
+
+In this session, learn how [!DNL Adobe Target] and [!DNL Real-Time CDP] can drive increased engagement, revenue, and customer loyalty within regulated industries as we discuss:
+
+* How teams deliver personalized experiences to both anonymous and authenticated visitors 
+* Understanding consumer permissions and privacy standards with personalization 
+* Personalized content and offers to authenticated visitors through anonymizing identities 
+* Unique use cases for authenticated, secure sites across web and mobile 
+
+[Recording link](https://video.tv.adobe.com/v/3418987){target=_blank}
 
 ### The Journey to Driving Growth with Personalization
 
