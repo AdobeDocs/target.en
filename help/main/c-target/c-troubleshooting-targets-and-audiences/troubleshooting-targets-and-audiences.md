@@ -33,7 +33,7 @@ Beyond audience targeting on the URL, you can also specify specific values that 
 
 Audience URL targeting and URL targeting added via [!UICONTROL Template Rules] evaluate as URL targeting (see URL targeting below).
 
-### URL targeting
+### URL targeting {#url}
 
 To apply URL targeting, while creating an audience, click [!UICONTROL Add Rule], click [!UICONTROL Site Pages], select an option from the first drop-down list ([!UICONTROL Current Page], [!UICONTROL Previous Page], or [!UICONTROL Landing Page]), select [!UICONTROL URL] from the second drop-down list, specify an evaluator, then specify the desired URL.
 
@@ -41,11 +41,10 @@ To apply URL targeting, while creating an audience, click [!UICONTROL Add Rule],
 
 URL targeting transforms the URL into a set of rules to evaluate:
 
-* URL = `example.com/path1?query=something`
-* URL domain = `example.com`
-* Path = path1/path2/path3
-* queryStringParam1 =  test123
-* queryStringParam2 =  test7
+* URL = `example.com/path1/path2/path3?queryStringParam1=test123&queryStringParam2=test7`
+* Domain = `example.com`
+* Path = `path1/path2/path3`
+* Query = `queryStringParam1=test123&queryStringParam2=test7`
 
 ## When creating complex URL strings, does [!DNL Target] evaluate the entire URL?
 
