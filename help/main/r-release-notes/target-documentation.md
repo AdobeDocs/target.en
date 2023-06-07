@@ -23,7 +23,7 @@ The following guides and resources are available for [!DNL Target]:
 |[Target Recommendations APIs](https://experienceleague.adobe.com/docs/target-dev/developer/api/recommendations-api/overview.html){target=_blank}|Information about the [!UICONTROL Recommendations] APIs that let you programmatically interact with [!DNL Target] recommendations servers. These APIs can be integrated with a range of application stacks to perform functions that you would typically do via the [!DNL Target] UI.|
 |[Server Side Delivery APIs](https://experienceleague.corp.adobe.com/docs/target-dev/developer/server-side/server-side-overview.html){target=_blank}|Information about the resources that make up the Adobe Target Delivery API.|
 |[Target Server-Side SDKs](https://experienceleague.adobe.com/docs/target-dev/developer/server-side/getting-started.html){target=_blank}|Explains how to deploy [!DNL Target] server side using SDKs.|
-|[Adobe Experience Platform Mobile SDKs](https://aep-sdks.gitbook.io/docs/using-mobile-extensions/adobe-target)|Information about implementing [!DNL Target] on mobile apps.|
+|[Adobe Experience Platform Mobile SDKs](https://experienceleague.adobe.com/docs/mobile.html)|Information about implementing [!DNL Target] on mobile apps.|
 
 In addition to the above resources, visit the [Adobe Experience League Target Community](https://experienceleaguecommunities.adobe.com/t5/adobe-target/ct-p/adobe-target-community), where you can:
 
