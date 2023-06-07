@@ -13,14 +13,6 @@ Announcements and information about [!DNL Adobe Target] events, including [!DNL 
 
 Information about the following upcoming Coffee Breaks:
 
-### [!DNL Adobe Target Recommendations] Coffee Break
-
-* **Wednesday June 7, 2023**
-* **8:00-9:00 a.m. (PDT, UTC-7)**
-* **[More information](https://shorturl.at/irzD5){target=_blank}**
-
-We'll be joined by [!DNL Adobe Target] experts: Bill Ozinga, John Mosbaugh, Justin Patrick, and Eric Thibeault. In this AMA (Ask Me Anything) event, the experts will be logged in and ready to answer any of your questions related to the [!DNL Target Recommendations] feature.
-
 ### Personalization Program Readiness Webinar follow-up
 
 * **Wednesday June 21, 2023**
