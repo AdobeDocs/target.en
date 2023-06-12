@@ -13,6 +13,7 @@ This page lists significant changes made to the [!DNL Adobe Target] product docu
 
 |Date|Topic|Changes|
 | --- | --- | --- |
+|June 12|[Adobe Target cookies](https://experienceleague.adobe.com/docs/core-services/interface/administration/ec-cookies/cookies-target.html){target=_blank}|Updated article in the *Experience Cloud Central Interface Components Guide* explaining cookies used by [!DNL Target].|
 |June 5|[[!DNL Adobe Target] announcements and events](/help/main/r-release-notes/target-announcements.md)|Updated information for the following events:<ul><li>Updated the registration link for the [!DNL Adobe Target Recommendations] Coffee Break (Wednesday, June 7, 2023)</li><li>Added information about the recent webinar "Mobile Experience Optimization and Personalization for Authenticated Environments" and added a link to the recording.</li></ul>|
 ||[Apply a reporting audience to a success metric](/help/main/c-target/apply-reporting-audience-success-metric.md)|Updated the "Considerations" section and added the "Example" section.|
 ||[Targets and audiences FAQ](/help/main/c-target/c-troubleshooting-targets-and-audiences/troubleshooting-targets-and-audiences.md#url-targeting)|Updated the "URL targeting" section.|
