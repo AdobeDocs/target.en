@@ -106,6 +106,8 @@ For more information, see the following topics:
 * [Configure personalization destinations for same-page and next-page personalization](https://experienceleague.adobe.com/docs/experience-platform/destinations/ui/activate/configure-personalization-destinations.html){target=_blank} in the *Destinations overview* guide.
 * [Adobe Target connection](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/personalization/adobe-target-connection.html){target=_blank} in the *Destinations overview* guide
 * [Map attributes](https://experienceleague.adobe.com/docs/experience-platform/destinations/ui/activate/activate-profile-request-destinations.html?lang=en#map-attributes){target=_blank} in the *Destinations overview* guide.
+* [Activate audiences to edge personalization destinations](https://experienceleague.adobe.com/docs/experience-platform/destinations/ui/activate/activate-edge-personalization-destinations.htm){target=_blank} in the *Destinations overview* guide.
+* [Same-page and next-page personalization through the [!DNL Adobe Target] and Custom Personalization destinations](https://experienceleague.adobe.com/docs/experience-platform/destinations/destinations-faq.html?lang=en#same-next-page-personalization){target=_blank} under "Frequently asked questions" in the *Destinations overview* guide.
 
 ## Videos and blog posts {#videos-blogs}
 
