@@ -28,7 +28,7 @@ This release contains the following enhancements and fixes:
 * Fixed an issue in which a query parameter was added to a URL that prevented the page from loading in the [!UICONTROL Visual Experience Composer] (VEC). (TGT-44873)
 * Made various localization fixes throughout the [!DNL Target] UI.
 
-## Real-Time CDP Profile Attributes shared with [!DNL Target]|[!UICONTROL Real-Time CDP Profile Attributes] (June 13, 2023)
+## Real-Time CDP Profile Attributes shared with [!DNL Target] [!UICONTROL Real-Time CDP Profile Attributes] (June 13, 2023)
 
 This release contains the following enhancement:
 
