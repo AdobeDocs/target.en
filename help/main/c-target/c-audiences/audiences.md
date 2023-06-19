@@ -101,9 +101,15 @@ Keep the following points in mind as you work with imported audiences:
 
 ## Use audiences from [!DNL Adobe Experience Platform] {#aep}
 
-Using audiences created in [!DNL Adobe Experience Platform] provide richer customer data that leads to more impactful personalization.
+Using audiences created in [!DNL Adobe Experience Platform] provide richer customer data that leads to more impactful personalization. 
 
 For more information, see [Use audiences from [!DNL Adobe Experience Platform]](/help/main/c-integrating-target-with-mac/integrating-with-rtcdp.md#aep).
+
+## Use Real-time CDP Profile Attributes in HTML and JSON offers
+
+Real-time CDP Profile Attributes can be shared with Target for use in HTML offers and JSON offers. For more information, see Integrate with [!DNL Real-Time Customer Data Platform].
+
+For more information, see [Manage content](/help/main/c-experiences/c-manage-content/manage-content.md) and [Create JSON offers](/help/main/c-experiences/c-manage-content/create-json-offer.md).
 
 ## Training video: Using Audiences ![Tutorial badge](/help/main/assets/tutorial.png)
 
