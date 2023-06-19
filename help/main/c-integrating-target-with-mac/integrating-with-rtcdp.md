@@ -72,10 +72,6 @@ Real-Time CDP Profile Attributes can be shared with [!DNL Target] for use in HTM
 
 ### Real-Time CDP Profile Attributes feature limitations and considerations 
 
->[!NOTE]
->
->The Real-Time CDP Profile Attributes feature is available in Beta for HTML Offers and [JSON Offers](/help/main/c-experiences/c-manage-content/create-json-offer.md).
-
 Consider the following:
 
 * Attributes within a given offer must be from the same [!UICONTROL Experience Platform] sandbox. (In other words, an offer cannot contain attributes from different [!UICONTROL Experience Platform] sandboxes.)
