@@ -13,6 +13,7 @@ This page lists significant changes made to the [!DNL Adobe Target] product docu
 
 |Date|Topic|Changes|
 | --- | --- | --- |
+|June 26|[Target for mobile apps](https://experienceleague.adobe.com/docs/platform-learn/implement-mobile-sdk/overview.html){target=_blank}|Added link to the Implement [!DNL Adobe Experience Cloud] in mobile apps tutorial.|
 |June 12|[Adobe Target cookies](https://experienceleague.adobe.com/docs/core-services/interface/administration/ec-cookies/cookies-target.html){target=_blank}|Updated article in the *Experience Cloud Central Interface Components Guide* explaining cookies used by [!DNL Target].|
 ||[Initialize the Java SDK](https://experienceleague.adobe.com/docs/target-dev/developer/server-side/java/initialize-sdk.html){target=_blank}|Added information about the "environment" parameter.|
 ||[Initialize the Python SDK](https://experienceleague.adobe.com/docs/target-dev/developer/server-side/python/initialize-sdk.html){target=_blank}|Added information about the "environment" parameter.|
