@@ -17,7 +17,13 @@ This article contains prerelease information for upcoming [!DNL Adobe Target] re
 >
 >To view information about the current release, see [Target Release Notes](release-notes.md). The information on these pages might be the same, depending on the timing of releases. The issue numbers in parentheses are for internal [!DNL Adobe] use.
 
-## [!DNL Target] Standard/Premium 23.5.4 (June 27-28)
+## [!DNL Target] Standard/Premium 23.6.1 (June 27-29)
+
+This release will be available according to the following staggered schedule:
+
+* **June 27**: Europe, Middle East, and Africa (EMEA) region
+* **June 28**: Asia-Pacific (APAC) region
+* **June 29**: Americas region
 
 This release contains the following enhancements:
 
