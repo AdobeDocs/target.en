@@ -55,12 +55,7 @@ Use QA URLs in [!DNL Adobe Target] to perform easy end-to-end activity QA with p
 
 ## Considerations {#section_B256EDD7BFEC4A6DA72A8A6ABD196D78}
 
-* The [!UICONTROL Activity QA] link displays on the [!UICONTROL Overview] page of all activity types except for [!UICONTROL Automated Personalization] (AP).
-
-  >[!NOTE]
-  >
-  >[Activity QA](/help/main/c-activities/c-activity-qa/activity-qa.md) for AP activities is currently available for select customers in a Beta program. This functionality will be available to all customers after an initial testing phase.
-
+* Because Activity QA is now available for all [!DNL Target] activity types, the "Preview Automated Personalization activities with experience preview URLs" feature is no longer necessary.
 * [!UICONTROL Activity QA] preview links for saved activities might not load if there are too many saved activities in your account. Retrying the preview links should work. To prevent this situation from continuing to happen, archive saved activities that are no longer actively used.
 * [!UICONTROL Activity QA] URLs are available with activities with [Analytics as the reporting source](/help/main/c-integrating-target-with-mac/a4t/a4t.md) (A4T). Hits generated while performing QA using [!UICONTROL Activity QA] flow to the same report suite where the activity's data flows even after the activity goes live. 
 * [!UICONTROL Activity QA] does not display content for archived activities or activities that are past their end dates. If you deactivate an ended activity, you must save the activity again for [!UICONTROL Activity QA] to work. 
@@ -103,34 +98,6 @@ Use QA URLs in [!DNL Adobe Target] to perform easy end-to-end activity QA with p
 * [Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/aep-web-sdk.html)
 
 The following table lists the various activity types and indicates whether [!UICONTROL Activity QA] mode is supported for each library:
-
-|Activity type|at.js 1.x|at.js 2.x|Platform Web SDK|
-| --- | --- | --- | --- |
-|[!UICONTROL A/B Test]|Yes|Yes|Yes|
-|[!UICONTROL Auto-Allocate]|Yes|Yes|Yes|
-|[!UICONTROL Auto-Target]|No|No|No|
-|[!UICONTROL Automated Personalization] (AP)|No|No|No|
-|[!UICONTROL Experience Targeting] (XT)|Yes|Yes|Yes|
-|[!UICONTROL Multivariate Test] (MVT)|Yes|Yes|Yes|
-|[!UICONTROL Recommendations]|Yes|Yes|Yes|
-
->[!NOTE]
->
->[Activity QA](/help/main/c-activities/c-activity-qa/activity-qa.md) for AP activities is currently available for select customers in a Beta program. This functionality will be available to all customers after an initial testing phase.
-
-## Preview URLs {#preview}
-
-Experience preview URLs can be generated for all [!DNL Target] activity types. Preview URLs let you see experience content directly on your site before the activity is live for preview and QA purposes. Experience preview URLs bypass targeting to force viewing of a particular experience. 
-
-For information about how preview URLs function with [!UICONTROL Automated Personalization] (AP) activities, see [Preview Automated Personalization activities with experience preview URLs](/help/main/c-activities/t-automated-personalization/experience-preview.md).
-
-To access and share a preview URL, from an activity's **[!UICONTROL Overview]** page, click the **[!UICONTROL Activity QA]** link.
-
->[!NOTE]
->
->The [!UICONTROL Activity QA] link and the preview URL are the same for all activities other than [!DNL Target] AP activities.
-
-The following table lists the various activity types and indicates whether the preview URLs feature is supported for each library or API:
 
 |Activity type|at.js 1.x|at.js 2.x|Platform Web SDK|
 | --- | --- | --- | --- |
