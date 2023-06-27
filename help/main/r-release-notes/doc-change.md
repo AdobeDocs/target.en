@@ -9,6 +9,14 @@ exl-id: 36d19598-eb46-4be6-a652-658b653287cb
 
 This page lists significant changes made to the [!DNL Adobe Target] product documentation.
 
+## [!DNL Target] Standard/Premium 23.6.1 (June 27-29, 2023)
+
+|Date|Topic|Changes|
+| --- | --- | --- |
+|June 27|[Activity QA](/help/main/c-activities/c-activity-qa/activity-qa.md)|Activity QA is now available for all Target activity types, including [!UICONTROL Automated Personalization] (AP) activities. Removed information about preview links.|
+||Preview URLs|Because all activity types now support Activity QA, this topic was deleted and redirected to the [Activity QA](/help/main/c-activities/c-activity-qa/activity-qa.md) topic.|
+||[Target release notes (current)](/help/main/r-release-notes/release-notes.md)|Added release notes for the [!DNL Target Standard/Premium] 23.6.1 release.|
+
 ## [!DNL Target] Standard/Premium 23.5.1 (May 23-25, 2023)
 
 |Date|Topic|Changes|

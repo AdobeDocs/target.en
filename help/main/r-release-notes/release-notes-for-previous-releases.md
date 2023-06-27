@@ -17,6 +17,37 @@ Release notes are arraigned in descending order by month and year of release.
 
 ## Release notes - 2023
 
+### [!DNL Target] Standard/Premium 23.5.2 (May 31, 2023)
+
+This release contains the following enhancements and fixes:
+
+* Fixed an issue that caused a blank page to display while generating a Profile API authorization token. (TGT-45387 & TGT-45423)
+* Fixed an issue that prevented an image from displaying in the [!UICONTROL Create Design] panel if the image name contains GB 18030 characters. (TGT-44614)
+* Fixed an issue in which some GB 18030 symbol characters were incorrectly escaped in Text/HTML in experiences. (TGT-44600)
+* Fixed an issue that caused reports for [!UICONTROL Auto Personalization] activities to freeze during analysis. (TGT-44820)
+* Fixed an issue that prevented searching for an activity on the [!UICONTROL Activity] page if the activity name contains a square bracket ( [ or ] ). (TGT-44777)
+* Fixed an issue that prevented an activity from syncing if the activity's objective contains special characters. (TGT-44982)
+* Fixed an issue that caused no activities to display in the [!DNL Target] UI for the Default workspace for certain customers. (TGT-45286)
+* Updated the behavior of the "Disallow Duplicates" flag. Excluded repeating offers flags are updated to allow repeating offers if they are the default content offer (for APIs v3, v4) and allow duplicate options if the options reference the default content offer and have no templates defined. (TNT-46617)
+* Fixed an issue in which a query parameter was added to a URL that prevented the page from loading in the [!UICONTROL Visual Experience Composer] (VEC). (TGT-44873)
+* Made various localization fixes throughout the [!DNL Target] UI.
+
+### Real-Time CDP Profile Attributes shared with [!DNL Target] [!UICONTROL Real-Time CDP Profile Attributes] (June 13, 2023)
+
+This release contains the following enhancement:
+
+|Feature|Details|
+|--- |--- |
+|Real-Time CDP Profile Attributes shared with [!DNL Target]|[!UICONTROL Real-Time CDP Profile Attributes] can be shared with [!DNL Target] for use in HTML and JSON offers.<P>For more information, see [Share Real-Time CDP Profile Attributes with [!DNL Target]](/help/main/c-integrating-target-with-mac/integrating-with-rtcdp.md#rtcdp-profile-attributes).|
+
+### [!DNL Target] Standard/Premium 23.5.1 (May 23-25, 2023)
+
+This release contains the following new enhancements and fixes:
+
+* Fixed an issue that prevented certain customers from creating audiences with visitor profiles using "greater than" or "less than" operators. (TGT-45271)
+* Made various localization fixes throughout the [!DNL Target] UI.
+* Updated the Target UI in various places for an upcoming UI refresh (changes are behind a feature flag until the updates are released).
+
 ### [!DNL Target] Standard/Premium 23.4.1 (April 25-27, 2023)
 
 This release contains security updates and the following new features:
@@ -2865,7 +2896,7 @@ The Adobe Target Standard/Premium 16.5.1 (May 19, 2016) release includes the fol
   </tr> 
   <tr> 
    <td colname="col1"> QA/Preview URLs </td> 
-   <td colname="col2"> <p>Preview URLs are now available for the form-based experience composer. </p> <p>See <a href="/help/main/c-activities/t-automated-personalization/experience-preview.md#task_586C6655A6FD4AF08F5678FC3F481EFC" format="dita" scope="local"> View Experience URLs </a>. </p> </td> 
+   <td colname="col2"> <p>Preview URLs are now available for the form-based experience composer. </p> <p>See <a href="/help/main/c-activities/c-activity-qa/activity-qa.md.md" format="dita" scope="local"> View Experience URLs </a>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1" class="premium"> Recommendations custom algorithms </td> 
