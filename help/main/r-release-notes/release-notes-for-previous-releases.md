@@ -2896,7 +2896,7 @@ The Adobe Target Standard/Premium 16.5.1 (May 19, 2016) release includes the fol
   </tr> 
   <tr> 
    <td colname="col1"> QA/Preview URLs </td> 
-   <td colname="col2"> <p>Preview URLs are now available for the form-based experience composer. </p> <p>See <a href="/help/main/c-activities/c-activity-qa/activity-qa.md.md" format="dita" scope="local"> View Experience URLs </a>. </p> </td> 
+   <td colname="col2"> <p>Preview URLs are now available for the form-based experience composer. </p> <p>See <a href="/help/main/c-activities/c-activity-qa/activity-qa.md" format="dita" scope="local"> View Experience URLs </a>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1" class="premium"> Recommendations custom algorithms </td> 
