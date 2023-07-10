@@ -13,6 +13,7 @@ This page lists significant changes made to the [!DNL Adobe Target] product docu
 
 |Date|Topic|Changes|
 | --- | --- | --- |
+|July 10|[Considerations and known limitations](https://experienceleague.adobe.com/docs/target-dev/developer/api/delivery-api/known-limitations.html){target=_blank}|Added information to the *Target Delivery API* documentation about HTTP/2 enforcing lowercase header names.|
 |June 27|[Activity QA](/help/main/c-activities/c-activity-qa/activity-qa.md)|Activity QA is now available for all Target activity types, including [!UICONTROL Automated Personalization] (AP) activities. Removed information about preview links.|
 ||Preview URLs|Because all activity types now support Activity QA, this topic was deleted and redirected to the [Activity QA](/help/main/c-activities/c-activity-qa/activity-qa.md) topic.|
 ||[Target release notes (current)](/help/main/r-release-notes/release-notes.md)|Added release notes for the [!DNL Target Standard/Premium] 23.6.1 release.|
