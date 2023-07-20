@@ -13,6 +13,7 @@ This page lists significant changes made to the [!DNL Adobe Target] product docu
 
 |Date|Topic|Changes|
 | --- | --- | --- |
+|July 20|[Content Security Policy (CSP) directives](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/privacy/content-security-policy.html){target=_blank}|Added the following FAQ to the *Adobe Target Developer Guide*: How do I allow or prevent my site from being embedded as an iFrame under foreign domains?|
 |July 10|[Considerations and known limitations](https://experienceleague.adobe.com/docs/target-dev/developer/api/delivery-api/known-limitations.html){target=_blank}|Added information to the *Target Delivery API* documentation about HTTP/2 enforcing lowercase header names.|
 |June 27|[Activity QA](/help/main/c-activities/c-activity-qa/activity-qa.md)|Activity QA is now available for all Target activity types, including [!UICONTROL Automated Personalization] (AP) activities. Removed information about preview links.|
 ||Preview URLs|Because all activity types now support Activity QA, this topic was deleted and redirected to the [Activity QA](/help/main/c-activities/c-activity-qa/activity-qa.md) topic.|
