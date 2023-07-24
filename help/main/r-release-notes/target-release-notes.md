@@ -31,7 +31,6 @@ This release contains the following enhancements and fixes:
 * Fixed an issue that prevented the [Change Overlay](/help/main/c-experiences/c-visual-experience-composer/visual-experience-composer.md) setting from working properly. (TGT-45202)
 * Fixed an issue that prevented some customers from downloading activity reports after receiving the following error message: "User is not authorized to access the report." (TGT-45724 & TGT-45747)
 
-
 ## Additional release notes and version details
 
 |Resource|Details|
