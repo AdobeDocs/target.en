@@ -13,21 +13,19 @@ These release notes provide information about features, enhancements, and fixes 
 
 (The issue numbers in parentheses are for internal [!DNL Adobe] use.)
 
-## [!DNL Target] Standard/Premium 23.6.1 (June 27-29)
+## [!DNL Target] Standard/Premium 23.7.1 (July 24-26)
 
 This release will be available according to the following staggered schedule:
 
-* **June 27**: Europe, Middle East, and Africa (EMEA) region
-* **June 28**: Asia-Pacific (APAC) region
-* **June 29**: Americas region
+* **July 24**: Europe, Middle East, and Africa (EMEA) region
+* **July 25**: Asia-Pacific (APAC) region
+* **July 26**: Americas region
 
-This release contains the following enhancements:
+This release contains the following enhancements and fixes:
 
-|Feature|Details|
-|--- |--- |
-|[!UICONTROL QA mode] for [!UICONTROL Automated Personalization] activities|[!DNL Adobe Target] [!UICONTROL QA mode] is now available for [!UICONTROL Automated Personalization] activities, replacing [!UICONTROL Preview links] functionality.<P>For more information, see [Activity QA](/help/main/c-activities/c-activity-qa/activity-qa.md).|
-
-* Performance enhancements to disallow duplicates functionality (including reduction in load time) while [managing exclusions](/help/main/c-activities/t-automated-personalization/managing-exclusions.md#concept_4EF78013F80E48EFA024AE0274C9F037) in [!UICONTROL Automated Personalization] activities.
+* Improved search when [navigating elements using the DOM path](/help/main/c-experiences/c-visual-experience-composer/viztarget-options.md#dom-path) in the [!UICONTROL Visual Experience Composer] (VEC) to include shadow DOM elements. (TGT-45262)
+* Fixed an issue that prevented the [Change Overlay](/help/main/c-experiences/c-visual-experience-composer/visual-experience-composer.md) setting from working properly. (TGT-45202)
+* Fixed an issue that prevented some customers from downloading activity reports after receiving the following error message: "User is not authorized to access the report." (TGT-45724 & TGT-45747)
 
 ## Additional release notes and version details
 

@@ -17,6 +17,16 @@ Release notes are arraigned in descending order by month and year of release.
 
 ## Release notes - 2023
 
+### [!DNL Target] Standard/Premium 23.6.1 (June 27-29)
+
+This release contains the following enhancements:
+
+|Feature|Details|
+|--- |--- |
+|[!UICONTROL QA mode] for [!UICONTROL Automated Personalization] activities|[!DNL Adobe Target] [!UICONTROL QA mode] is now available for [!UICONTROL Automated Personalization] activities, replacing [!UICONTROL Preview links] functionality.<P>For more information, see [Activity QA](/help/main/c-activities/c-activity-qa/activity-qa.md).|
+
+* Performance enhancements to disallow duplicates functionality (including reduction in load time) while [managing exclusions](/help/main/c-activities/t-automated-personalization/managing-exclusions.md#concept_4EF78013F80E48EFA024AE0274C9F037) in [!UICONTROL Automated Personalization] activities.
+
 ### [!DNL Target] Standard/Premium 23.5.2 (May 31, 2023)
 
 This release contains the following enhancements and fixes:
