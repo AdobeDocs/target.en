@@ -13,6 +13,8 @@ This page lists significant changes made to the [!DNL Adobe Target] product docu
 
 |Date|Topic|Changes|
 | --- | --- | --- |
+|July 25|[[!DNL Target] release notes (current)](/help/main/r-release-notes/release-notes.md#edge)|Added information about the planned edge infrastructure upgrade scheduled for August 9, 2023.|
+||[Allowlist Target edge nodes](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/privacy/allowlist-edges.html){target=_blank}|Updated the NAT and IP/domains for edge deployments 41-48.|
 |July 24|[Target release notes (current)](/help/main/r-release-notes/release-notes.md)|Added release notes for the [!DNL Target Standard/Premium] 23.7.1 release.|
 
 ## [!DNL Target] Standard/Premium 23.6.1 (June 27-29, 2023)

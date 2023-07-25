@@ -13,6 +13,13 @@ These release notes provide information about features, enhancements, and fixes 
 
 (The issue numbers in parentheses are for internal [!DNL Adobe] use.)
 
+## [!DNL Adobe Target] Edge planned infrastructure upgrade {#edge}
+
+The planned edge infrastructure upgrade requires additional IP or domains to be allow-listed. Review and allow-list the NAT and IP/domains for edge deployments 41-48. Infrastructure upgrades begin August 9, 2023.
+"
+
+For more information, see [Allowlist Target edge nodes](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/privacy/allowlist-edges.html){target=_blank} in the *Adobe Target Developer Guide*.
+
 ## [!DNL Target] Standard/Premium 23.7.1 (July 24-26)
 
 This release will be available according to the following staggered schedule:
