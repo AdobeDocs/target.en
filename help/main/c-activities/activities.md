@@ -29,13 +29,13 @@ The [!UICONTROL Activities] list provides an overview of all activities and lets
 |[!UICONTROL Show filters] icon<P>![Show Filters icon](/help/main/c-activities/assets/show-filters-icon.png)|Access filters by clicking the **[!UICONTROL Show Filters]** icon near the top of the list. For more information, see [Apply filters to the Activities list](#filters) below.|
 |Search box|Quickly find an activity or narrow the activities displayed in the [!UICONTROL Activity] list. You can search by [!UICONTROL Name], [!UICONTROL URL], or [!UICONTROL ID].|
 |[!UICONTROL Create Activity]|Create an activity. For more information about creating the various activity types, see: <ul><li>[Create an A/B Test](/help/main/c-activities/t-test-ab/t-test-create-ab/test-create-ab.md)</li><li>[Create an Auto-Allocate activity](/help/main/c-activities/automated-traffic-allocation/create-auto-allocate-activity.md)</li><li>[Create an Auto-Target activity](/help/main/c-activities/auto-target/create-auto-target.md)</li><li>[Create an Automated Personalization activity](/help/main/c-activities/t-automated-personalization/create-ap-activity.md)</li><li>[Create an Experience Targeting activity](/help/main/c-activities/t-experience-target/t-xt-create/xt-create.md)</li><li>[Create a Multivariate Test](/help/main/c-activities/c-multivariate-testing/t-create-multivariate-test/create-multivariate-test.md)</li><li>[Create a Recommendations activity](/help/main/c-recommendations/recommendations.md)</li></ul>For more information about each type, see [Activity types](#types) below.|
-|[!UICONTROL Create mobile preview link]|Use [mobile preview links](https://experienceleague.adobe.com/docs/target-dev/developer/mobile-apps/target-mobile-preview.html) to perform easy end-to-end QA for mobile app activities. Click the **More options** icon (three vertical ellipses), select the **Create Mobile Preview Link**, then choose the activities you want to test on mobile.|
-|Customize Table<P>![Customize Table icon](/help/main/c-activities/assets/icon-customize-table.png)|Change the columns displayed in the [!UICONTROL Activity] list by clicking the **[!UICONTROL Customize Table]** icon on the upper right side of the table, then selecting or deselecting the desired columns. The changes are applied to your account and remain active even after you log out of [!DNL Target].|
+|[!UICONTROL Create mobile preview link]<P>![More actions menu](/help/main/c-activities/assets/icon-create-mobile-link.png)|Use [mobile preview links](https://experienceleague.adobe.com/docs/target-dev/developer/mobile-apps/target-mobile-preview.html) to perform easy end-to-end QA for mobile app activities.<P>Click the **More options** icon (three vertical ellipses), select the **Create Mobile Preview Link**, then choose the activities you want to test on mobile.|
+|Customize Table<P>![Customize Table icon](/help/main/c-activities/assets/icon-customize-table.png)|Change the columns displayed in the [!UICONTROL Activity] list by clicking the **[!UICONTROL Customize Table]** icon on the upper right side of the table, then selecting or deselecting the desired columns.<P>The changes are applied to your account and remain active even after you log out of [!DNL Target].|
 |Bulk operations checkboxes|Perform bulk operations on selected activities.<P>For a list of actions that are available (depending on your permissions and the activity status), see [Perform quick actions](#quick-actions) below.|
 |[!UICONTROL Type]|The activity type. The [!UICONTROL Type] column lets you quickly identify each activity by type. <ul><li>AB-M: manual [!UICONTROL A/B Test]</li><li>AB-AA: [!UICONTROL Auto-Allocate]</li><li>AB-AT: [!UICONTROL Auto-Target]</li><li>AP: [!UICONTROL Automated Personalization]</li><li>XT: [!UICONTROL Experience Targeting]</li><li>MVT: [!UICONTROL Multivariate Test]</li><li>REC: [!UICONTROL Recommendations]</li></ul>For more information about each type, see [Activity types](#types) below.|
 |[!UICONTROL Name]|The name of the activity. Click an activity name to display that activity's [!UICONTROL Overview] page. <P>Click the **[!UICONTROL Quick Info]** icon next to each activity name to view more information about that activity in a pop-up card.<p>Click the **[!UICONTROL More actions]** icon (three horizontal ellipses) next to each activity name to open a menu that lets you perform quick actions on an activity. The following actions are available (depending on your permissions and the activity status): [!UICONTROL Edit], [!UICONTROL Activate], [!UICONTROL Deactivate], [!UICONTROL Copy], [!UICONTROL Delete], and [!UICONTROL Archive]. For more information about each action, see [Perform quick actions](#quick-actions) below.<P>Click the table header to sort the list in ascending or descending order by name.|
-|[!UICONTROL Status]|The status of the activity can be one of the following:<ul><li>**Live**: The activity is currently running.</li><li>**Draft**: The activity setup has started but the activity is not yet ready to run.</li><li>**Scheduled**: The activity is ready to be activated when the specified start date and time arrives.</li><li>**Inactive**: The activity has been paused or deactivated.</li><li>**Syncing**: The activity has been saved and is being synced to the [!DNL Target] delivery network.</li><li>**Ended**: The specified end date and time of the activity has reached and the activity is no longer being served.</li><li>**Archived**: The activity has been archived. You can activate an archived activity to use it again.</li></ul>**Note**: When you perform certain actions, such as activating an activity outside of the [!DNL Target] UI using API methods, the update can take up to ten minutes to propagate to the UI.<P>Click the table header to sort the list in ascending or descending order by date.|
-|[!UICONTROL Last Updated]|The date when the activity was last updated, and by whom.|
+|[!UICONTROL Status]|The status of the activity can be one of the following:<ul><li>**Live**: The activity is currently running.</li><li>**Draft**: The activity setup has started but the activity is not yet ready to run.</li><li>**Scheduled**: The activity is ready to be activated when the specified start date and time arrives.</li><li>**Inactive**: The activity has been paused or deactivated.</li><li>**Syncing**: The activity has been saved and is being synced to the [!DNL Target] delivery network.</li><li>**Ended**: The specified end date and time of the activity has reached and the activity is no longer being served.</li><li>**Archived**: The activity has been archived. You can activate an archived activity to use it again.</li></ul>**Note**: When you perform certain actions, such as activating an activity outside of the [!DNL Target] UI using API methods, the update can take up to ten minutes to propagate to the UI.|
+|[!UICONTROL Last Updated]|The date when the activity was last updated, and by whom.<P>Click the table header to sort the list in ascending or descending order by date.|
 |[!UICONTROL Priority]|The priority of the activity.<P>The priority is used if multiple activities are assigned to the same location with the same audience. If two or more activities are assigned to the location, the activity with the highest priority displays.<P>Depending on your [settings](/help/main/administrating-target/reporting.md), the [!DNL Target] UI and options for [!UICONTROL Priority] vary. You can use the legacy settings of Low, Medium, or High, or you can enable fine-grained priorities from 0 to 999.|
 |[!UICONTROL Property]|Shows the [property](/help/main/administrating-target/c-user-management/property-channel/property-channel.md) for the activity.|
 |[!UICONTROL Estimated Lift in Revenue]|Shows the predicted increase in revenue if 100% of the audience sees the winning experience.<P>Calculated using the following formula:<P>`(<winning experience> - <control experience>)*<total number of visitors>`<P>This number is rounded to one decimal place, maximum, if the condensed form has only a single digit before the decimal. For example: $1.6M, $60K, $900, $8.5K, $205K<P>This column shows "---" for activities that do not have enough data to call a winner show or do not have a cost estimate.<P>See [Estimating Lift in Revenue](/help/main/administrating-target/r-target-account-preferences/estimating-lift-in-revenue.md) for more information.|
@@ -58,7 +58,7 @@ The [!UICONTROL Activities] list provides an overview of all activities and lets
 |[Automated Personalization](/help/main/c-activities/t-automated-personalization/automated-personalization.md)<br>![Target Premium](/help/main/assets/premium.png)|[!UICONTROL Automated Personalization] (AP) combines offers or messages, and uses advanced machine learning to match different variations to each visitor based on their individual customer profile, to personalize content and drive conversions.|
 |[Recommendations](/help/main/c-recommendations/recommendations.md)<br>![Target Premium](/help/main/assets/premium.png)|A recommendation determines how a product is suggested to a website visitor, depending on that visitor's activities on the site.<br>For example, you might want to encourage people who purchase a backpack to consider buying hiking shoes and trekking poles. You could create a recommendation that shows items that are often purchased together, using the "People who bought this also bought that" algorithm. Or, you might want to encourage visitors to spend more time on your media site by recommending similar videos to the video they are watching, using the "People who viewed this viewed that" algorithm.<br>**Note:** You can now include recommendations inside A/B Test (including [!UICONTROL Auto-Allocate] and [!UICONTROL Auto-Target]) and [!UICONTROL Experience Targeting] (XT) activities. See [Recommendations as an offer](/help/main/c-recommendations/recommendations-as-an-offer.md).|
 
-## Apply filters to the Activities list {#filter}
+## Apply filters to the Activities list {#filters}
 
 Access filters by clicking the **[!UICONTROL Show Filters]** icon near the top of the list.
 
@@ -79,6 +79,8 @@ The menu lets you filter activities by the following attributes:
 ## Perform quick actions {#quick-actions}
 
 Click the **[!UICONTROL More actions]** icon (three horizontal ellipses) next to each activity name to open a menu that lets you perform quick actions on an activity.
+
+![Quick actions options](/help/main/c-activities/assets/quick-actions.png)
 
 The following actions are available (depending on your permissions and the activity status):
 
@@ -126,27 +128,15 @@ For additional limits of the Visual Experience Composer, see [Visual Experience 
 
 ## Attributes imported into [!DNL Target] for activities updated outside of [!DNL Target] {#section_802B0D174E6A44E1A96F404CA81AAE44}
 
-If activities created in [!DNL Target] are updated from outside of [!DNL Target] (for example, via Adobe Developer), the following activity attributes are imported back into [!DNL Target]:
+If activities created in [!DNL Target] are updated from outside of [!DNL Target] (for example, via Adobe Developer), the following activity attributes are imported back into [!DNL Target]: `thirdpartyId`, `startDate`, `endDate`, `status`, `priority`, and `marketingCloudMetadata(remoteModifiedBy)`.
 
-`thirdpartyId`
-
-`startDate`
-
-`endDate`
-
-`status`
-
-`priority`
-
-`marketingCloudMetadata(remoteModifiedBy)`
-
-This import job runs when the activities page is opened, with a maximum delay of ten minutes. (KB-1526) 
+This import job runs when the activities page is opened, with a maximum delay of ten minutes.
 
 ## Training videos {#section_BE80D13A2E81460C885F902010E1AD87}
 
-The following videos contain more information about the concepts discussed in this article.
+The following video contains more information about the concepts discussed in this article.
 
-### Activity Types (9:03) ![Overview badge](/help/main/assets/overview.png)
+### Activity Types (9:03)
 
 This video explains the activity types available in [!DNL Target Standard/Premium].
 
