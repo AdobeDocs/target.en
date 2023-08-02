@@ -89,7 +89,7 @@ Access filters by clicking the **[!UICONTROL Show Filters]** icon near the top o
   * [Adobe Experience Manager](https://experienceleague.adobe.com/docs/experience-manager-cloud-service.html)
   * [Adobe Mobile Services](https://developer.adobe.com/client-sdks/documentation/)
 
-* **Property**: Filter by the [property](help/main/administrating-target/c-user-management/property-channel/property-channel.md) in which the activity was created.
+* **Property**: Filter by the [property](/help/main/administrating-target/c-user-management/property-channel/property-channel.md) in which the activity was created.
 
 ## Perform quick actions on an activity {#quick-actions}
 
