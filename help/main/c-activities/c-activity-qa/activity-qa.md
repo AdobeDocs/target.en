@@ -55,7 +55,7 @@ Use QA URLs in [!DNL Adobe Target] to perform easy end-to-end activity QA with p
 
 ## Considerations {#section_B256EDD7BFEC4A6DA72A8A6ABD196D78}
 
-* The [!UICONTROL Activity QA] link displays on the [!UICONTROL Overview] page of all activity types.
+* Because Activity QA is now available for all [!DNL Target] activity types, the "Preview Automated Personalization activities with experience preview URLs" feature is no longer necessary.
 * [!UICONTROL Activity QA] preview links for saved activities might not load if there are too many saved activities in your account. Retrying the preview links should work. To prevent this situation from continuing to happen, archive saved activities that are no longer actively used.
 * [!UICONTROL Activity QA] URLs are available with activities with [Analytics as the reporting source](/help/main/c-integrating-target-with-mac/a4t/a4t.md) (A4T). Hits generated while performing QA using [!UICONTROL Activity QA] flow to the same report suite where the activity's data flows even after the activity goes live. 
 * [!UICONTROL Activity QA] does not display content for archived activities or activities that are past their end dates. If you deactivate an ended activity, you must save the activity again for [!UICONTROL Activity QA] to work. 

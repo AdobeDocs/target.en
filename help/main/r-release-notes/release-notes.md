@@ -13,14 +13,26 @@ These release notes provide information about features, enhancements, and fixes 
 
 (The issue numbers in parentheses are for internal [!DNL Adobe] use.)
 
-## [!DNL Target] Standard/Premium 23.4.1 (April 25-27, 2023)
+## [!DNL Adobe Target] Edge planned infrastructure upgrade {#edge}
 
-This release contains security updates and the following new features:
+The planned edge infrastructure upgrade requires additional IP or domains to be allow-listed. Review and allow-list the NAT and IP/domains for edge deployments 41-48. Infrastructure upgrades begin August 9, 2023.
+"
 
-|Feature|Details|
-|--- |--- |
-|AEM [!UICONTROL Content Fragments] for headless personalization and experimentation|Use [!DNL Adobe Experience Manager] (AEM) [!UICONTROL Content Fragments] in [!DNL Target] activities. Combine the ease-of-use and power of AEM with powerful Artificial Intelligence (AI) and Machine Learning (ML) capabilities in [!DNL Target] to aid headless personalization and experimentation.<P>For more information, see [AEM [!UICONTROL Content Fragments]](/help/main/c-integrating-target-with-mac/aem/content-fragments-aem.md).|
-|[*Adobe Target Developer Guide*](https://experienceleague.adobe.com/docs/target-dev/developer/overview.html){target=_blank}|The *Adobe Target Developer Guide* has been relocated to *[!UICONTROL Adobe Experience League]*. The move to *[!UICONTROL Experience League]* aids in localization of text in additional languages, unifies search within *Experience League* to span and offer search results from both the *[!UICONTROL Adobe Target Business Practitioner Guide]* and the *[!UICONTROL Adobe Target Developer Guide]*, and provides additional benefits.<P>You will be redirected from the previous location to *[!UICONTROL Experience League]* automatically. Please update your bookmarks as necessary.|
+For more information, see [Allowlist Target edge nodes](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/privacy/allowlist-edges.html){target=_blank} in the *Adobe Target Developer Guide*.
+
+## [!DNL Target] Standard/Premium 23.7.1 (July 24-26)
+
+This release will be available according to the following staggered schedule:
+
+* **July 24**: Europe, Middle East, and Africa (EMEA) region
+* **July 25**: Asia-Pacific (APAC) region
+* **July 26**: Americas region
+
+This release contains the following enhancements and fixes:
+
+* Improved search when [navigating elements using the DOM path](/help/main/c-experiences/c-visual-experience-composer/viztarget-options.md#dom-path) in the [!UICONTROL Visual Experience Composer] (VEC) to include shadow DOM elements. (TGT-45262)
+* Fixed an issue that prevented the [Change Overlay](/help/main/c-experiences/c-visual-experience-composer/visual-experience-composer.md) setting from working properly. (TGT-45202)
+* Fixed an issue that prevented some customers from downloading activity reports after receiving the following error message: "User is not authorized to access the report." (TGT-45724 & TGT-45747)
 
 ## Additional release notes and version details
 

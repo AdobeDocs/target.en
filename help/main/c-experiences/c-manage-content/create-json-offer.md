@@ -127,7 +127,7 @@ adobe.target.getOffer({
 
 ## JSON offer example using Real-time CDP Profile Attributes
 
-Real-time CDP Profile Attributes can be shared with [!DNL Target] for use in HTML offer and JSON offers. (Note this feature is currently in Beta.)
+Real-time CDP Profile Attributes can be shared with [!DNL Target] for use in HTML and JSON offers.
 
 For more information, see [Share Real-time CDP Profile Attributes with [!DNL Target]](/help/main/c-integrating-target-with-mac/integrating-with-rtcdp.md#rtcdp-profile-attributes).
 

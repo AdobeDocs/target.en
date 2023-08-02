@@ -35,7 +35,7 @@ We've compiled an organized list of valuable information to help you gain even m
 ## Additional resources
 
 * **Adobe Target Homepage**: The homepage of [!DNL Adobe Target], learn about our capabilities and see our latest success stories here. See [Adobe Target](https://www.adobe.com/marketing/target.html).
-* **The Blog**: Stay up to date with the latest news, tips, and success stories by following the [Target blog](https://blog.adobe.com/en/2020/07/29/adobe-target-announces-enhanced-analytics-measurement-for-ai-powered-testing-and-personalization.html#gs.di9df5).
+* **The Blog**: Stay up to date with the latest news, tips, and success stories by following the [Target blog](https://blog.adobe.com/en/topics/target).
 * **Experience League**: Discover the guides, events, and training you need to kick-start your experience business, and get connected with the Target community and find the answers you're looking for. See the [Adobe Experience League homepage](https://experienceleague.adobe.com/#home).
 * **Adobe Target Certification**: Achieve Adobe certified expert status with new Adobe Target exams. Schedule an exam here or training courses. See [Training and certification](/help/main/c-intro/training-and-certification.md).
 * **Adobe Target release notes**: Information about features, enhancements, and fixes for each [!DNL Target Standard] and [!DNL Target Premium] release. In addition, release notes for Target APIs, SDKs, the JavaScript library (at.js), and other platform changes are also included, when applicable. See [Target release notes (current)](/help/main/r-release-notes/release-notes.md).

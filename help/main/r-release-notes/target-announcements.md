@@ -9,11 +9,17 @@ exl-id: 02bbc049-ab41-469b-8f7b-dc93ffb8ae73
 
 Announcements and information about [!DNL Adobe Target] events, including [!DNL Target] Coffee Break sessions, [!DNL Target] webinar series, [!DNL Target] Skill Builder sessions, developer chats, and more. Links to past recordings are included if available.
 
-## [!DNL Target] named leader in Gartner Magic Quadrant for Personalization Engines (2022)
+## [!UICONTROL Adobe Target Community] Q&A Coffee Breaks
 
-Gartner named [!DNL Adobe Target] a leader in its latest Magic Quadrant for Personalization Engines (PE) for the fifth year in a row. [!DNL Adobe] also received top scores and significant year-over-year increases across all three primary use cases: Digital Marketing, Digital Commerce, and Service and Support. [!DNL Target] received the highest scores for its testing capabilities among all vendors evaluated.
+Information about the following upcoming Coffee Breaks:
 
-For more information, see the [Adobe Experience Cloud Blog post](https://business.adobe.com/blog/the-latest/adobe-once-again-named-a-leader-in-the-2022-gartner-magic-quadrant-for-personalization-engines-report?mkt_tok=MDgyLVZMTi0zMzcAAAGGHqjw1DEtV7p2v7f1c2eB4fKlit9iqFUHbMFAjxcNgBw6KBEUjUk670zmlm4hCMQ3R-Cw0eEnAwSthQ1K_I8c1-Yj7vtwUFMqCp6FisLA){target=_blank}.
+### Personalization Program Readiness Webinar follow-up
+
+* **Wednesday June 21, 2023**
+* **8:00-9:00 a.m. (PDT, UTC-7)**
+* **[More information](https://experienceleaguecommunities.adobe.com/t5/target-community-events/community-q-amp-a-coffee-break-6-21-23-personalization-program/ec-p/595807#M9){target=_blank}**
+
+We'll be joined by Adobe Target experts, Ramon Cespedes and Kevin Jemison. In this AMA (Ask Me Anything) event, the experts will be logged in and ready to answer any of your questions related to the topics covered in the recent 5/24 Webinar on [The Journey to Driving Growth with Personalization](https://experienceleaguecommunities.adobe.com/t5/adobe-target-discussions/webinar-recording-wednesday-5-24-8am-9am-pt-the-journey-to/td-p/594567){target=_blank}.
 
 ## [!DNL Adobe Target] webinar series {#webinar-series}
 
@@ -24,6 +30,29 @@ None scheduled at this time.
 ## Recordings of past webinars and skill-builder sessions
 
 Access recordings of past events (when available):
+
+### Mobile Experience Optimization and Personalization for Authenticated Environments (April 26, 2023)
+
+Brands need to deliver highly personalized and relevant experiences based on specific customer needs and behaviors. With questions about a cookie-less future in marketing technology, regulated industries are looking to embrace a more robust customer engagement framework while optimizing each customer interaction for the right content and offer.
+
+How can brands across financial services and insurance, retail, travel and hospitality, and telecommunications industries adopt best practices for optimization and personalization within authenticated environments? Understanding the importance on mobile apps for engagement and retention of loyal customers, how can brands enable digital self-service or increase new feature adoption with personalized experiences?
+
+In this session, learn how [!DNL Adobe Target] and [!DNL Real-Time CDP] can drive increased engagement, revenue, and customer loyalty within regulated industries as we discuss:
+
+* How teams deliver personalized experiences to both anonymous and authenticated visitors 
+* Understanding consumer permissions and privacy standards with personalization 
+* Personalized content and offers to authenticated visitors through anonymizing identities 
+* Unique use cases for authenticated, secure sites across web and mobile 
+
+[Recording link](https://video.tv.adobe.com/v/3418987){target=_blank}
+
+### The Journey to Driving Growth with Personalization
+
+Supercharge your organization's ability to deliver personalization, presented by Adobe Customer Success Manager, Ramon Cespedes.
+
+Key analyst report suggests that companies that excel at personalization generate 40 percent more revenue than their counterparts. To meet the demand for new, relevant, and highly personalized experiences at every click, marketers need the right framework and strategy in place. In this webinar, join Adobe's experts to learn how to make use of data-driven framework to build your organization's personalization programs and drive success.
+
+* [Recording link](https://event.on24.com/wcc/r/4217828/9C1E092251A62DF896221FB5A91437D4){target=_blank}
 
 ### Fine-Tuning AI-Powered Personalization: New Features in [!DNL Adobe Target] (October 11, 2022)
 

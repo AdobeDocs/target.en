@@ -101,7 +101,7 @@ Keep the following points in mind as you work with imported audiences:
 
 ## Use audiences from [!DNL Adobe Experience Platform] {#aep}
 
-Using audiences created in [!DNL Adobe Experience Platform] provide richer customer data that leads to more impactful personalization.
+Using audiences created in [!DNL Adobe Experience Platform] provide richer customer data that leads to more impactful personalization. 
 
 For more information, see [Use audiences from [!DNL Adobe Experience Platform]](/help/main/c-integrating-target-with-mac/integrating-with-rtcdp.md#aep).
 
