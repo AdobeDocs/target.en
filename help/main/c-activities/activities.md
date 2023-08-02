@@ -21,7 +21,7 @@ You can also display the [!UICONTROL Activities] list by clicking the [!UICONTRO
 
 ![Activities list](/help/main/c-activities/assets/activities-list-new.png)
 
-The Activities list provides an overview of all activities and lets you perform various actions:
+The [!UICONTROL Activities] list provides an overview of all activities and lets you perform various actions:
 
 | Element | Description |
 |--- |--- |
