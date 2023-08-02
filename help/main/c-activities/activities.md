@@ -68,7 +68,7 @@ The menu lets you filter activities by the following attributes:
 |Attribute|Details|
 | --- | --- |
 |Type|Filter by [activity type](#types).|
-|Status|Filter by activity status. For more information about each status, see the "Status" row below.|
+|Status|Filter by activity status.|
 |Reporting Source|Filter by reporting source.<ul><li>[Analytics](/help/main/c-integrating-target-with-mac/a4t/a4t.md): Display activities that use [!UICONTROL Analytics for Target] (A4T) as the reporting source.</li><li>[Target](/help/main/c-reports/reports.md): Display activities that use [!DNL Target] as the reporting source.</li></ul>|
 |Experience Composer|Filter by which experience composer was used during activity creation:<ul><li>[Visual](/help/main/c-experiences/c-visual-experience-composer/visual-experience-composer.md): Displays activities that were created using the [!UICONTROL Visual Experience Composer] (VEC).</li><li>[Form Based](/help/main/c-experiences/form-experience-composer.md): Display activities that were created using the [!UICONTROL Form-Based Experience Composer].</li></ul>|
 |Metrics Type|Filter by which [success metric](/help/main/c-activities/r-success-metrics/success-metrics.md) was chosen during activity creation.<ul><li>Conversion</li><li>Revenue</li><li>Engagement</li></ul>|
