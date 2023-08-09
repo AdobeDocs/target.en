@@ -9,6 +9,14 @@ exl-id: 36d19598-eb46-4be6-a652-658b653287cb
 
 This page lists significant changes made to the [!DNL Adobe Target] product documentation.
 
+## [!DNL Target] Standard/Premium 23.8.1 (August 9, 2023)
+
+|Date|Topic|Changes|
+| --- | --- | --- |
+|August 9|[Target mobile preview](https://experienceleague.adobe.com/docs/target-dev/developer/mobile-apps/target-mobile-preview.html){target=_blank}|Updated topic with information about the current versions of the [!DNL Adobe Experience Platform Mobile SDK].|
+||[[!DNL Adobe Target] announcements and events](/help/main/r-release-notes/target-announcements.md)|Added information about the following webinar scheduled for August 17, 2023: *Strategize for maximum ROI impact with peak season readiness*.|
+||[Target release notes (current)](/help/main/r-release-notes/release-notes.md)|Added release notes for the [!DNL Target Standard/Premium] 23.8.1 release.|
+
 ## [!DNL Target] Standard/Premium 23.7.1 (July 24-26, 2023)
 
 |Date|Topic|Changes|
