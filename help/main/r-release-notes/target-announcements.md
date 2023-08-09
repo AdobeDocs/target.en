@@ -9,23 +9,31 @@ exl-id: 02bbc049-ab41-469b-8f7b-dc93ffb8ae73
 
 Announcements and information about [!DNL Adobe Target] events, including [!DNL Target] Coffee Break sessions, [!DNL Target] webinar series, [!DNL Target] Skill Builder sessions, developer chats, and more. Links to past recordings are included if available.
 
-## [!UICONTROL Adobe Target Community] Q&A Coffee Breaks
-
-Information about the following upcoming Coffee Breaks:
-
-### Personalization Program Readiness Webinar follow-up
-
-* **Wednesday June 21, 2023**
-* **8:00-9:00 a.m. (PDT, UTC-7)**
-* **[More information](https://experienceleaguecommunities.adobe.com/t5/target-community-events/community-q-amp-a-coffee-break-6-21-23-personalization-program/ec-p/595807#M9){target=_blank}**
-
-We'll be joined by Adobe Target experts, Ramon Cespedes and Kevin Jemison. In this AMA (Ask Me Anything) event, the experts will be logged in and ready to answer any of your questions related to the topics covered in the recent 5/24 Webinar on [The Journey to Driving Growth with Personalization](https://experienceleaguecommunities.adobe.com/t5/adobe-target-discussions/webinar-recording-wednesday-5-24-8am-9am-pt-the-journey-to/td-p/594567){target=_blank}.
-
 ## [!DNL Adobe Target] webinar series {#webinar-series}
 
 Register for the following webinars to see how customers are using [!DNL Target] to achieve their personalization and optimization goals:
 
-None scheduled at this time.
+### Strategize for maximum ROI impact with peak season readiness
+
+* **Thursday, August 17, 2023**
+* **8:00-9:00 a.m. (PDT, UTC-7)**
+* **[Register here](https://adobepeakseasonreadiness2023.experienceleague.adobeevents.com/){target=_blank}**
+
+Deliver engaging customer experiences to enhance conversion rates. Is your business ready for peak season? Join us and get access to expert tips on how you can achieve optimal performance and maximum ROI this time.
+
++++See details
+
+Join John Magnusson, Adobe Customer Success Manager and Katherine Klein, Director - MarTech & AdTech Solutions, Macy's Inc. Join us to learn strategies that significantly impact your peak season readiness program.
+
+Topics include:
+
+* Effectively create dashboards and report key metrics
+* Examine the impact of each marketing channel
+* Deep dive into customer behavior and shopping trends
+* Identify poor customer experiences and improve them via testing
+* Uncover areas of opportunity to drive site conversion
+
++++
 
 ## Recordings of past webinars and skill-builder sessions
 
