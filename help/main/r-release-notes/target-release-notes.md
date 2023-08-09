@@ -26,6 +26,7 @@ This release contains the following enhancements and fixes:
 * Adjusted the presentation of values in tables to display as percentages instead of numbers with decimals. For example, 8% instead of .08. (TGT-45548)
 * Fixed an issue that prevented customers from using keyboard focus to move to the next element in the [!UICONTROL Goals & Settings] page for [!UICONTROL Experience Targeting] (XT) activities. (TGT-44526)
 * Fixed an issue that caused keyboard loss of focus after opening the "[!UICONTROL Add audiences]" dialog while creating an activity. (TGT-44525)
+
 ## Additional release notes and version details
 
 |Resource|Details|
