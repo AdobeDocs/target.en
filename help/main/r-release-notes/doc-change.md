@@ -13,6 +13,8 @@ This page lists significant changes made to the [!DNL Adobe Target] product docu
 
 |Date|Topic|Changes|
 | --- | --- | --- |
+|August 9|[Target mobile preview](https://experienceleague.adobe.com/docs/target-dev/developer/mobile-apps/target-mobile-preview.html){target=_blank}|Updated topic with information about the current versions of the [!DNL Adobe Experience Platform Mobile SDK].|
+||[[!DNL Adobe Target] announcements and events](/help/main/r-release-notes/target-announcements.md)|Added information about the following webinar scheduled for August 17, 2023: *Strategize for maximum ROI impact with peak season readiness*.|
 |August 7|[at.js version details](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/target-atjs-versions.html){target=_blank}|Clarified information about supported versions of at.js.|
 |July 25|[[!DNL Target] release notes (current)](/help/main/r-release-notes/release-notes.md#edge)|Added information about the planned edge infrastructure upgrade scheduled for August 9, 2023.|
 ||[Allowlist Target edge nodes](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/privacy/allowlist-edges.html){target=_blank}|Updated the NAT and IP/domains for edge deployments 41-48.|
