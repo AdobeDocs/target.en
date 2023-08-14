@@ -54,6 +54,11 @@ Use the [!UICONTROL Offers] library in [!DNL Adobe Target] to manage your code o
 
    For detailed information about the tasks you can perform on offers and folders, see [Work with content in the Asset library](/help/main/c-experiences/c-manage-content/assets-working.md).
 
+   >[!NOTE]
+   >
+   >Image offers are not part of the [Enterprise User Permissions](/help/main/administrating-target/c-user-management/property-channel/property-channel.md) model.
+
+
 ## Viewing offer definitions {#section_6B059DD121434E6292CAB393507D010E}
 
 You can view offer definition details on a pop-up card in the [!UICONTROL Offers] library without opening the offer.
