@@ -9,7 +9,7 @@ exl-id: f2783042-f6ee-4f73-b487-ede11d55d530
 
 This article contains prerelease information for upcoming [!DNL Adobe Target] releases, including SDKs, APIs, and JavaScript libraries.
 
-**Last Updated: July 24, 2023**
+**Last Updated: August 9, 2023**
 
 >[!NOTE]
 >
@@ -17,19 +17,15 @@ This article contains prerelease information for upcoming [!DNL Adobe Target] re
 >
 >To view information about the current release, see [Target Release Notes](release-notes.md). The information on these pages might be the same, depending on the timing of releases. The issue numbers in parentheses are for internal [!DNL Adobe] use.
 
-## [!DNL Target] Standard/Premium 23.7.1 (July 24-26)
-
-This release will be available according to the following staggered schedule:
-
-* **July 24**: Europe, Middle East, and Africa (EMEA) region
-* **July 25**: Asia-Pacific (APAC) region
-* **July 26**: Americas region
+## [!DNL Target] Standard/Premium 23.8.1 (August 9, 2023)
 
 This release contains the following enhancements and fixes:
 
-* Improved search when [navigating elements using the DOM path](/help/main/c-experiences/c-visual-experience-composer/viztarget-options.md#dom-path) in the [!UICONTROL Visual Experience Composer] (VEC) to include shadow DOM elements. (TGT-45262)
-* Fixed an issue that prevented the [Change Overlay](/help/main/c-experiences/c-visual-experience-composer/visual-experience-composer.md) setting from working properly. (TGT-45202)
-* Fixed an issue that prevented some customers from downloading activity reports after receiving the following error message: "User is not authorized to access the report." (TGT-45724 & TGT-45747)
+* Fixed an issue that sometimes prevented activities from syncing properly, as shown in the "[!UICONTROL Status]" column on the [!UICONTROL Activity] list page. (TGT-46010 & TGT-44831)
+* Fixed an issue that sometimes prevented the "[!UICONTROL View in Analytics]" link from displaying on the [!UICONTROL Reports] page of activities that use [!UICONTROL Analytics for Target] (A4T) as the reporting source. (TGT-45808)
+* Adjusted the presentation of values in tables to display as percentages instead of numbers with decimals. For example, 8% instead of .08. (TGT-45548)
+* Fixed an issue that prevented customers from using keyboard focus to move to the next element in the [!UICONTROL Goals & Settings] page for [!UICONTROL Experience Targeting] (XT) activities. (TGT-44526)
+* Fixed an issue that caused keyboard loss of focus after opening the "[!UICONTROL Add audiences]" dialog while creating an activity. (TGT-44525)
 
 ## [!DNL Target] Standard/Premium 23.5.2 (Date to be determined)
 
