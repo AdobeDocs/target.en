@@ -53,15 +53,9 @@ Use QA URLs in [!DNL Adobe Target] to perform easy end-to-end activity QA with p
 
 1. To see reports generated from activity link URLs, click the activity's **[!UICONTROL Reports]** page, click the **[!UICONTROL Settings]** icon (  ![icon_gear image](assets/icon_gear.png) ), then select **[!UICONTROL QA Mode Traffic]** from the **[!UICONTROL Environment]** drop-down list.
 
-## Considerations {#section_B256EDD7BFEC4A6DA72A8A6ABD196D78}
+## Releasing yourself from QA mode
 
-* Because Activity QA is now available for all [!DNL Target] activity types, the "Preview Automated Personalization activities with experience preview URLs" feature is no longer necessary.
-* [!UICONTROL Activity QA] preview links for saved activities might not load if there are too many saved activities in your account. Retrying the preview links should work. To prevent this situation from continuing to happen, archive saved activities that are no longer actively used.
-* [!UICONTROL Activity QA] URLs are available with activities with [Analytics as the reporting source](/help/main/c-integrating-target-with-mac/a4t/a4t.md) (A4T). Hits generated while performing QA using [!UICONTROL Activity QA] flow to the same report suite where the activity's data flows even after the activity goes live. 
-* [!UICONTROL Activity QA] does not display content for archived activities or activities that are past their end dates. If you deactivate an ended activity, you must save the activity again for [!UICONTROL Activity QA] to work. 
-* Activities imported into [!DNL Target Standard/Premium] (from [!DNL Target Classic], for example) do not support QA URLs. 
-* In [!UICONTROL Auto-Allocate] and [!UICONTROL Recommendations] activities, the model is not affected by the visits captured in [!UICONTROL Activity QA]. 
-* [!UICONTROL Activity QA] is sticky. After you browse a website in [!UICONTROL Activity QA], your [!DNL Target] session must expire or you must have [!DNL Target] release you from [!UICONTROL Activity QA] before you can view your site like a typical visitor. 
+[!UICONTROL Activity QA] is sticky. After you browse a website in [!UICONTROL Activity QA], your [!DNL Target] session must expire or you must have [!DNL Target] release you from [!UICONTROL Activity QA] before you can view your site like a typical visitor. 
 
   * **at.js 2.*x***: If your site has at.js 2.*x* deployed, use the [Target QA bookmarklet](/help/main/c-activities/c-activity-qa/activity-qa-bookmark.md#concept_A8A3551A4B5342079AFEED5ECF93E879) to force yourself out of [!UICONTROL Activity QA]. Loading a page on your site with an empty value, as described in the next bullet, does *not* remove the QA cookie from the browser when at.js 2.*x* is deployed. 
 
@@ -73,6 +67,14 @@ Use QA URLs in [!DNL Adobe Target] to perform easy end-to-end activity QA with p
   
     `https://www.mysite.com/?at_qa_mode=`
 
+## Considerations {#section_B256EDD7BFEC4A6DA72A8A6ABD196D78}
+
+* Because Activity QA is now available for all [!DNL Target] activity types, the "Preview Automated Personalization activities with experience preview URLs" feature is no longer necessary.
+* [!UICONTROL Activity QA] preview links for saved activities might not load if there are too many saved activities in your account. Retrying the preview links should work. To prevent this situation from continuing to happen, archive saved activities that are no longer actively used.
+* [!UICONTROL Activity QA] URLs are available with activities with [Analytics as the reporting source](/help/main/c-integrating-target-with-mac/a4t/a4t.md) (A4T). Hits generated while performing QA using [!UICONTROL Activity QA] flow to the same report suite where the activity's data flows even after the activity goes live. 
+* [!UICONTROL Activity QA] does not display content for archived activities or activities that are past their end dates. If you deactivate an ended activity, you must save the activity again for [!UICONTROL Activity QA] to work. 
+* Activities imported into [!DNL Target Standard/Premium] (from [!DNL Target Classic], for example) do not support QA URLs. 
+* In [!UICONTROL Auto-Allocate] and [!UICONTROL Recommendations] activities, the model is not affected by the visits captured in [!UICONTROL Activity QA]. 
 * If you specified "URL is" while creating the activity [refinements in the Form-based Composer](/help/main/c-experiences/form-experience-composer.md#task_FAC842A6535045B68B4C1AD3E657E56E) or [page delivery options in the Visual Experience Composer)](/help/main/c-experiences/c-visual-experience-composer/viztarget-options.md#reference_3BD1BEEAFA584A749ED2D08F14732E81), the QA URL does not work because [!UICONTROL Activity QA] appends URL parameters. To solve this issue, click the QA URL to go to your site, remove the appended parameters from the URL, then load the new URL.
 * If you have at.js 1.*x*, [!UICONTROL Activity QA] mode is not sticky if you use Safari or another browser that blocks 3rd-party cookies. In these cases, you must add the preview parameters to each URL you navigate to. The same is true if you have implemented [CNAME](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/implement-cname-support-in-target.html){target=_blank}.
 * If an activity uses multiple experience audiences (for example, a US and UK site that are included in the same activity), QA links are not generated for the four combinations (Experience A/US Site, Experience A/UK Site, Experience B/US Site, Experience B/UK Site). Only two QA links (Experience A and Experience B) are created and users must qualify for the appropriate audience to see the page. A UK QA person cannot see the US site. 
