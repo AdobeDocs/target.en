@@ -65,9 +65,13 @@ Use QA URLs in [!DNL Adobe Target] to perform easy end-to-end activity QA with p
 
   * **at.js 2.*x***: If your site has at.js 2.*x* deployed, use the [Target QA bookmarklet](/help/main/c-activities/c-activity-qa/activity-qa-bookmark.md#concept_A8A3551A4B5342079AFEED5ECF93E879) to force yourself out of [!UICONTROL Activity QA]. Loading a page on your site with an empty value, as described in the next bullet, does *not* remove the QA cookie from the browser when at.js 2.*x* is deployed. 
 
-  * **at.js 1.*x***: If your site has at.js 1.*x* deployed, in addition to using the [Target QA bookmarklet](/help/main/c-activities/c-activity-qa/activity-qa-bookmark.md#concept_A8A3551A4B5342079AFEED5ECF93E879), you can also manually force yourself out by loading a page on your site with the `at_preview_token` parameter with an empty value (for example, `https://www.mysite.com/?at_preview_token=`).
+  * **at.js 1.*x***: If your site has at.js 1.*x* deployed, in addition to using the [Target QA bookmarklet](/help/main/c-activities/c-activity-qa/activity-qa-bookmark.md#concept_A8A3551A4B5342079AFEED5ECF93E879), you can also manually force yourself out by loading a page on your site with the `at_preview_token` parameter with an empty value. For example, 
+  
+    `https://www.mysite.com/?at_preview_token=`
 
-  * **[!DNL Adobe Experience Platform Web SDK]**: If your site has the [[!UICONTROL Platform Web SDK]](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/aep-web-sdk.html){target=_blank} deployed, you can manually force yourself out by loading a page on your site with the `at_qa_mode` parameter with an empty value (for example, `https://www.mysite.com/?at_qa_mode=`).
+  * **[!DNL Adobe Experience Platform Web SDK]**: If your site has the [[!UICONTROL Platform Web SDK]](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/aep-web-sdk.html){target=_blank} deployed, you can manually force yourself out by loading a page on your site with the `at_qa_mode` parameter with an empty value. For example, 
+  
+    `https://www.mysite.com/?at_qa_mode=`
 
 * If you specified "URL is" while creating the activity [refinements in the Form-based Composer](/help/main/c-experiences/form-experience-composer.md#task_FAC842A6535045B68B4C1AD3E657E56E) or [page delivery options in the Visual Experience Composer)](/help/main/c-experiences/c-visual-experience-composer/viztarget-options.md#reference_3BD1BEEAFA584A749ED2D08F14732E81), the QA URL does not work because [!UICONTROL Activity QA] appends URL parameters. To solve this issue, click the QA URL to go to your site, remove the appended parameters from the URL, then load the new URL.
 * If you have at.js 1.*x*, [!UICONTROL Activity QA] mode is not sticky if you use Safari or another browser that blocks 3rd-party cookies. In these cases, you must add the preview parameters to each URL you navigate to. The same is true if you have implemented [CNAME](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/implement-cname-support-in-target.html){target=_blank}.
