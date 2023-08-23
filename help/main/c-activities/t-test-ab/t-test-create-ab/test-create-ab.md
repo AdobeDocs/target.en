@@ -72,8 +72,8 @@ To create a manual [!UICONTROL A/B Test] activity:
    |,+|Comma, Plus|
    |,-|Comma, Minus|
    |,@|Comma, At sign|
-   |["|Open square bracket, Double quotation marks|
-   |"]|Double quotation marks, Close square bracket|
+   |`[`"|Open square bracket, Double quotation marks|
+   |"`]`|Double quotation marks, Close square bracket|
    
 1. Create any new experiences by changing the elements on the page.
 
