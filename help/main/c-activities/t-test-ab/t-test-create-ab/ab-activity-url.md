@@ -1,13 +1,13 @@
 ---
 keywords: activity url;url;different url
-description: Learn how to specify the Activity URL that determines the page that is used in the test and that opens when the test is designed using Adobe Target.
-title: What Is the  Activity URL In an A/B Activity?
+description: Learn how to specify the Activity URL that determines the page that is used in the test and that opens when the test is designed using [!DNL Adobe Target].
+title: What Is the Activity URL In an A/B Activity?
 feature: A/B Tests
 exl-id: 7482ae10-fb7e-42ba-9ea0-97b82ed85bff
 ---
 # Activity URL
 
-The Activity URL determines the page that is used in the test and that opens when the test is designed using Adobe Target.
+The activity URL determines the page that is used in the test and that opens when the test is designed using Adobe Target.
 
 When prompted during activity creation, specify the activity URL. Type the complete URL (including `https://`), then click **[!UICONTROL Create]**.
 
