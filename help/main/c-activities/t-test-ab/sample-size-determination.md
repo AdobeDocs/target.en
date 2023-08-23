@@ -5,11 +5,11 @@ title: How Long Should I Run an A/B Test?
 feature: A/B Tests
 exl-id: 4f4ce387-bbbe-44af-965b-affc3ee09d74
 ---
-# How long should you run an A/B Test?
+# How long should you run an A/B test?
 
 A successful [!UICONTROL A/B Test] activity in [!DNL Adobe Target] requires enough visitors (sample size) to improve your conversion rate. How do you know how long to run an A/B test? This article contains information about [!UICONTROL Auto-Allocate] activities and the [!UICONTROL Adobe Target] Sample Size Calculator to help you ensure that your activity has enough visitors to achieve your goals.
 
-It is tempting to stop an activity if one of the offers performs much better or worse than the others in the first few days of the activity. However, when the number of observations is low, there is a high likelihood that a positive or negative lift is observed by chance because the conversion rate is averaged over a low number of visitors. As the activity collects more data points, the conversion rates converge toward their true long-term values.
+It is tempting to stop an activity if one of the offers performs better or worse than the others in the first few days of the activity. However, when the number of observations is low, there is a high likelihood that a positive or negative lift is observed by chance because the conversion rate is averaged over a low number of visitors. As the activity collects more data points, the conversion rates converge toward their true long-term values.
 
 >[!IMPORTANT]
 >
@@ -19,7 +19,7 @@ It is tempting to stop an activity if one of the offers performs much better or 
 
 ## Auto-Allocate {#auto-allocate}
 
-An [Auto-Allocate](/help/main/c-activities/automated-traffic-allocation/automated-traffic-allocation.md) activity is a type of A/B test that identifies a winner among two or more experiences. An Auto-Allocate test automatically reallocates more traffic to the winner to increase conversions while the test continues to run and learn.
+An [Auto-Allocate](/help/main/c-activities/automated-traffic-allocation/automated-traffic-allocation.md) activity is a type of A/B test that identifies a winner among two or more experiences. An [!UICONTROL Auto-Allocate] test automatically reallocates more traffic to the winner to increase conversions while the test continues to run and learn.
 
 Standard A/B tests have an inherent cost. You must spend traffic to measure performance of each experience and through analysis figure out the winning experience. Traffic distribution remains fixed even after you recognize that some experiences are outperforming others. Also, it's complicated to figure out the sample size, and the activity must run its entire course before you can act on a winner. And there is still a chance the identified winner is not a true winner.
 
@@ -27,7 +27,7 @@ The solution is [!UICONTROL Auto-Allocate]. [!UICONTROL Auto-Allocate] reduces t
 
 [!UICONTROL Auto-Allocate] moves visitors toward winning experiences gradually, rather than requiring that you wait until an activity ends to determine a winner. You benefit from lift more quickly because activity entrants who would have been sent to less-successful experiences are shown potential winning experiences.
 
-When using the [!UICONTROL Auto-Allocate] feature, [!DNL Adobe Target] displays a badge at the top of the activity's page indicating "No Winner Yet" until the activity reaches the minimum number of conversions with sufficient confidence. [!DNL Target] then declares the winning experience by displaying a badge at the top of the activity's page.
+When using [!UICONTROL Auto-Allocate], [!DNL Target] displays a badge at the top of the activity's page indicating "No Winner Yet" until the activity reaches the minimum number of conversions with sufficient confidence. [!DNL Target] then declares the winning experience by displaying a badge at the top of the activity's page.
 
 For more information, see [Auto-Allocate overview](/help/main/c-activities/automated-traffic-allocation/automated-traffic-allocation.md).
 
@@ -39,11 +39,11 @@ Before setting up your A/B test, access the [!DNL Adobe Target] [Sample Size Cal
 
 ![Adobe Target Sample Size Calculator](/help/main/c-activities/t-test-ab/assets/sample_size_calculator-new.png)
 
-It is important to determine an adequate sample size (number of visitors) before doing any A/B test in order to establish the time that the activity should run before evaluating the results. Simply monitoring the activity until statistical significance is achieved causes the confidence interval to be vastly underestimated, making the test unreliable. The intuition behind this result is that, in the event a statistically significant result is detected, the test is stopped and a winner is declared. However, if the result is not statistically significant the test is allowed to continue. This procedure strongly favors the positive outcome, which increases the false positive rate, and so distorts the effective significance level of the test.
+It is important to determine an adequate sample size (number of visitors) before doing any A/B test to establish the time that the activity should run before evaluating the results. Simply monitoring the activity until statistical significance is achieved causes the confidence interval to be vastly underestimated, making the test unreliable. The intuition behind this result is that, in the event a statistically significant result is detected, the test is stopped, and a winner is declared. However, if the result is not statistically significant, the test is allowed to continue. This procedure strongly favors the positive outcome, which increases the false positive rate, and so distorts the effective significance level of the test.
 
-This can result in many false positives, which leads to implementation of offers that do not deliver the predicted lift in the end. Poor lift itself is a dissatisfying outcome, but an even more serious consequence is that, over time, the inability to accurately predict lift erodes organizational trust in testing as a practice.
+This procedure can result in many false positives, which leads to implementation of offers that do not deliver the predicted lift in the end. Poor lift itself is a dissatisfying outcome, but an even more serious consequence is that, over time, the inability to accurately predict lift erodes organizational trust in testing as a practice.
 
-This article discusses the factors that must be balanced when a sample size is determined and introduces a calculator for estimating an adequate sample size. Calculating the sample size using the sample size calculator (link provided above) before any A/B test begins ensures that you always run high-quality A/B tests that comply with statistical standards.
+This article discusses the factors that must be balanced when a sample size is determined and introduces a calculator for estimating an adequate sample size. Calculating the sample size using the sample size calculator (link provided above) before any A/B test begins helps ensure that you always run high-quality A/B tests that comply with statistical standards.
 
 There are five user-defined parameters that define an A/B test. These parameters are interlinked so when four of them are established, the fifth can be calculated:
 
@@ -55,7 +55,7 @@ There are five user-defined parameters that define an A/B test. These parameters
 
 >[!IMPORTANT]
 >
->To get accurate results you must reload the page before changing any parameter numbers. Repeat this process every time you change any parameter numbers.
+>To get accurate results, you must reload the page before changing any parameter numbers. Repeat this process every time you change any parameter numbers.
 
 For an A/B test, the statistical significance, statistical power, minimum reliably detectable lift, and baseline conversion rate are set by the analyst and then the required number of visitors is calculated from these numbers. This article discusses these elements and gives guidelines for how to determine these metrics for a specific test.
 
@@ -91,9 +91,9 @@ It is desirable to use the highest possible confidence level, so that the test y
 
 ### Statistical power {#section_1169C27F8E4643719D38FB9D6EBEB535}
 
-The statistical power of an A/B test is the probability of detecting a real difference in conversion rate of a certain magnitude. Because of the random (stochastic) nature of conversion events it is possible that a statistically significant difference is not observed--just by chance--even though there is a real difference in conversion rate between the two offers. This scenario is called a false negative or a Type II error.
+The statistical power of an A/B test is the probability of detecting a real difference in conversion rate of a certain magnitude. Because of the random (stochastic) nature of conversion events, it is possible that a statistically significant difference is not observed--just by chance--even though there is a real difference in conversion rate between the two offers. This scenario is called a false negative or a Type II error.
 
-The statistical power is often ignored because the determination of statistical power, in contrast to statistical significance, is not required to do an A/B test. However, by ignoring the statistical power there is a substantial chance that real differences between the conversion rates of different offers will not be detected by the test because the sample size is too small. This results in the tests being dominated by false positives.
+The statistical power is often ignored because the determination of statistical power, in contrast to statistical significance, is not required to do an A/B test. However, by ignoring the statistical power there is a substantial chance that real differences between the conversion rates of different offers are not detected by the test because the sample size is too small. This situation results in the tests being dominated by false positives.
 
 It is desirable to have high statistical power so that the test has a high chance of identifying a real difference in conversion rates and yields fewer false negatives. However, a larger number of visitors are required to increase the statistical power of detecting any given lift, which increases the time required to do the test.
 
@@ -109,15 +109,15 @@ The figure below shows these probability distributions.
 
 ![probability_distributions image](assets/probability_distributions.png)
 
-Because of the large overlap between the two ranges, the test cannot determine whether the conversion rates are different. Therefore, this test with 100 visitors cannot distinguish between the two offers. However, if Target exposes the offers to 5,000 visitors each, then there is a 95% chance that the observed conversion rates fall in the ranges of 9% to 11% and 14% to 16%, respectively.
+Because of the large overlap between the two ranges, the test cannot determine whether the conversion rates are different. Therefore, this test with 100 visitors cannot distinguish between the two offers. However, if [!DNL Target] exposes the offers to 5,000 visitors each, there is a 95% chance that the observed conversion rates fall in the ranges of 9% to 11% and 14% to 16%, respectively.
 
 ![probability_distributions2 image](assets/probability_distributions2.png)
 
-In this case, it is unlikely that the test comes to a wrong conclusion, so the test with 5,000 visitors can distinguish between the two offers. The test with 5,000 visitors has a confidence interval of approximately +/-1%. This means the test can detect differences of about 1%. Therefore, even more visitors would be needed if the true conversion rates of the offers were, for example, 10% and 10.5% instead of 10% and 15%.
+In this case, it is unlikely that the test comes to a wrong conclusion, so the test with 5,000 visitors can distinguish between the two offers. The test with 5,000 visitors has a confidence interval of +/-1%. This means that the test can detect differences of about 1%. Therefore, even more visitors would be needed if the true conversion rates of the offers were, for example, 10% and 10.5% instead of 10% and 15%.
 
 ### Baseline conversion rate {#section_39380C9CA3C649B6BE6E1F8A06178B05}
 
-The baseline conversion rate is the conversion rate of the control offer (offer A). Often, you have a good sense of the conversion level for the offer based on prior experience. If that is not the case, for example because it is a new type of offer or creative, the test can be allowed to run for a day or so to get a rough estimate of the baseline conversion rate that can be used in the sample size calculation.
+The baseline conversion rate is the conversion rate of the control offer (offer A). Often, you have a good sense of the conversion level for the offer based on experience. If that is not the case, for example because it is a new type of offer or creative, the test can be allowed to run for a day or so to get a rough estimate of the baseline conversion rate that can be used in the sample size calculation.
 
 ### Number of visitors {#section_19009F165505429E95291E6976E498DD}
 
@@ -125,7 +125,7 @@ It can be difficult to balance the opportunity costs of running a test for a lon
 
 As a general guideline, a 95% confidence level and an 80% statistical power are recommended.
 
-The sample size calculator (link provided above) asks you to decide on the statistical significance (recommendation: 95%), and the statistical power (recommendation: 80%). After entering the baseline conversion rate and the daily traffic across all offers, the spreadsheet outputs the number of visitors required for detecting a lift of 1%, 2%, 5%, 10%, 15%, and 20% with a probability equal to the specified power of the test. The spreadsheet also allows the user to input a custom minimum reliably detectable lift. Furthermore, the spreadsheet outputs the number of weeks required for the test based on the traffic level entered by the user. The required number of weeks is rounded up to the nearest whole week in order to avoid day-of-week effects influencing the results.
+The sample size calculator (link provided above) asks you to decide on the statistical significance (recommendation: 95%), and the statistical power (recommendation: 80%). After entering the baseline conversion rate and the daily traffic across all offers, the spreadsheet outputs the number of visitors required for detecting a lift of 1%, 2%, 5%, 10%, 15%, and 20% with a probability equal to the specified power of the test. The spreadsheet also lets the user input a custom minimum reliably detectable lift. Furthermore, the spreadsheet outputs the number of weeks required for the test based on the traffic level entered by the user. The required number of weeks is rounded up to the nearest whole week to avoid day-of-week effects influencing the results.
 
 There is a trade-off between the minimum lift that can be reliably identified by the test and the required number of visitors. The figure below, which is valid for a baseline (control) conversion rate of 5%, shows strong diminishing returns for increasing the number of visitors. The minimum lift that can be reliably detected improves tremendously when adding the first few visitors to the test, but it takes an increasingly larger number of visitors to improve the test. The figure helps in finding an adequate tradeoff between the time required to run the test (as determined by the number of visitors required and the site traffic) and the minimum lift that can be reliably detected by the test.
 
@@ -144,11 +144,11 @@ The sample size calculator (link provided above) can help you configure the RPV 
 * Number of visitors to the control offer
 * Total revenue for the control offer
 
-  Make sure the extreme order filter is selected. 
+  Make sure that the extreme order filter is selected. 
 
 * The sum of squares revenue for the control offer
 
-  Make sure the extreme order filter is checked.
+  Make sure that the extreme order filter is checked.
 
 In general, using RPV as a metric requires 20-30% longer to achieve the same level of statistical confidence for the same level of measured lift. This is because RPV has the added variance of different order sizes per conversion. This should be a consideration when choosing between straight conversion rate and RPV as the metric on which to base your final business decision.
 
