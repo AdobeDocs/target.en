@@ -29,8 +29,6 @@ To create a manual [!UICONTROL A/B Test] activity:
 
 1. From the Create A/B Test Activity dialog, select **[!UICONTROL Visual (Default)]**, if necessary.
 
-   ![Create A/B Test Activity](/help/main/c-activities/t-test-ab/t-test-create-ab/assets/create-ab.png)
-
    If you prefer to use the [!UICONTROL Form-Based Experience Composer], select [!UICONTROL Form]. See [Form-Based Experience Composer](/help/main/c-experiences/form-experience-composer.md) for more information.
 
    >[!NOTE]
