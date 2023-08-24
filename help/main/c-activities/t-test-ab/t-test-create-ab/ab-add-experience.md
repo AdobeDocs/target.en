@@ -91,7 +91,7 @@ You can copy an experience in an [!UICONTROL A/B Test] so you can make minor cha
 
    ![Delete experience option](/help/main/c-activities/t-test-ab/t-test-create-ab/assets/delete-experience.png)
 
-## Training video: Using the [!UICONTROL Visual Experience Composer] ![Tutorial badge](/help/main/assets/tutorial.png)
+## Training video: Using the [!UICONTROL Visual Experience Composer]
 
 The video below provides information about using the [!UICONTROL Visual Experience Composer] options. (7:17)
 
