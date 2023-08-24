@@ -36,15 +36,13 @@ The [!UICONTROL Reporting Settings] section of the [!UICONTROL Goals & Settings]
 
 The [!UICONTROL Advanced Settings] section of the [!UICONTROL Goals & Settings] page lets you configure the following options:
 
-Advanced settings are available for [!UICONTROL A/B Test] goal metrics.
+To specify advanced settings, click the **[!UICONTROL More]** icon (the vertical ellipsis), then click **[!UICONTROL Advanced Settings]**, as shown in the following illustration.
 
 ![Advanced Settings menu](/help/main/c-activities/t-test-ab/t-test-create-ab/assets/menu-advanced-settings-new.png)
 
 >[!NOTE]
 >
 >If you use [!DNL Adobe Analytics] as your reporting source, settings are managed by the [!DNL Analytics] server. The advanced settings option is not available.
-
-To specify advanced settings, click the **[!UICONTROL More]** icon (the vertical ellipsis), then click **[!UICONTROL Advanced Settings]**, as shown in the following illustration.
 
 ![Advanced Settings](/help/main/c-activities/t-test-ab/t-test-create-ab/assets/advanced-settings.png)
 
