@@ -8,7 +8,7 @@ exl-id: 59ca30dc-45a0-4129-b832-84e1132d3b69
 ---
 # [!UICONTROL Auto-Target] overview
 
-[!UICONTROL Auto-Target] activities in [!DNL Adobe Target] use advanced machine learning to select from multiple high-performing marketer-defined experiences to personalize content and drive conversions. [!UICONTROL Auto-Target] serves the most tailored experience to each visitor based on the individual customer profile and the behavior of previous visitors with similar profiles. 
+[!UICONTROL Auto-Target] activities in [!DNL Adobe Target] use advanced machine learning to select from multiple high-performing, marketer-defined experiences to personalize content and drive conversions. [!UICONTROL Auto-Target] serves the most tailored experience to each visitor based on the individual customer profile and the behavior of previous visitors with similar profiles. 
 
 >[!NOTE]
 >
@@ -26,13 +26,13 @@ Keep reading to learn how to use [!UICONTROL Auto-Target] to increase lift and r
 
 ## Overview {#section_972257739A2648AFA7E7556B693079C9}
 
-While [creating an A/B activity using the three-step guided workflow](/help/main/c-activities/t-test-ab/t-test-create-ab/test-create-ab.md), you can choose to allocate traffic using the [!UICONTROL Auto-Target For Personalized Experiences] option:
+While [creating an A/B activity](/help/main/c-activities/t-test-ab/t-test-create-ab/test-create-ab.md) using the three-step guided workflow, choose the **[!UICONTROL Auto-Target for personalized experiences]** option on the **[!UICONTROL Targeting]** page (step 2).
 
 ![Auto target for personalized experiences option](/help/main/c-activities/assets/auto-target-ui-new.png)
 
-The [!UICONTROL Auto-Target] option within the A/B activity flow lets you harness machine-learning to personalize based on a set of marketer-defined experiences in one click. [!UICONTROL Auto-Target] is designed to deliver maximum optimization, compared to traditional A/B testing or [!UICONTROL Auto Allocate], by determining which experience to display for each visitor. Unlike an A/B activity in which the objective is to find a single winner, [!UICONTROL Auto-Target] automatically determines the best experience for a given visitor (based on his or her profile and other contextual information) to deliver a highly personalized experience.
+The [!UICONTROL Auto-Target] option within the A/B activity flow lets you harness machine-learning to personalize based on a set of marketer-defined experiences in one click. [!UICONTROL Auto-Target] is designed to deliver maximum optimization, compared to traditional A/B testing or [!UICONTROL Auto Allocate], by determining which experience to display for each visitor. Unlike an A/B activity in which the objective is to find a single winner, [!UICONTROL Auto-Target] automatically determines the best experience for a given visitor. The best experience is based on the visitor's profile and other contextual information to deliver a highly personalized experience.
 
-Similarly to [!UICONTROL Automated Personalization], [!UICONTROL Auto-Target] uses a [Random Forest algorithm](/help/main/c-activities/t-automated-personalization/algo-random-forest.md), a leading data science ensemble method, to determine the best experience to show to a visitor. Because [!UICONTROL Auto-Target] can adapt to changes in visitor behavior, it can be run perpetually to provide lift. This is sometimes referred to as "always-on" mode.
+Similarly to [!UICONTROL Automated Personalization], [!UICONTROL Auto-Target] uses a [Random Forest algorithm](/help/main/c-activities/t-automated-personalization/algo-random-forest.md), a leading data science ensemble method, to determine the best experience to show to a visitor. Because [!UICONTROL Auto-Target] can adapt to changes in visitor behavior, it can run perpetually to provide lift. This method is sometimes referred to as "always-on" mode.
 
 Unlike an A/B activity in which the experience allocation for a given visitor is sticky, [!UICONTROL Auto-Target] optimizes the specified business goal over each visit. Like in [!UICONTROL Auto Personalization], [!UICONTROL Auto-Target], by default, reserves part of the activity's traffic as a control group to measure lift. Visitors in the control group are served a random experience in the activity.
 
@@ -40,9 +40,9 @@ Unlike an A/B activity in which the experience allocation for a given visitor is
 
 There are a few important considerations to keep in mind when using [!UICONTROL Auto-Target]:
 
-* You cannot switch a specific activity from [!UICONTROL Auto-Target] to [!UICONTROL Automated Personalization], and vice versa. 
-* You cannot switch from [!UICONTROL Manual] traffic allocation (traditional [!UICONTROL A/B Test]) to [!UICONTROL Auto-Target], and vice versa after an activity is saved as draft. 
-* One model is built to identify the performance of the personalized strategy vs. randomly served traffic vs. sending all traffic to the overall winning experience. This model considers hits and conversions in the default environment only. 
+* You cannot switch a specific activity from [!UICONTROL Auto-Target] to [!UICONTROL Automated Personalization], and the opposite way. 
+* You cannot switch from [!UICONTROL Manual] traffic allocation (traditional [!UICONTROL A/B Test]) to [!UICONTROL Auto-Target], and the opposite way after an activity is saved as draft. 
+* One model is built to identify the performance of the personalized strategy versus randomly served traffic versus sending all traffic to the overall winning experience. This model considers hits and conversions in the default environment only. 
 
   Traffic from a second set of models is built for each modeling group (AP) or experience (AT). For each of these models, hits and conversions across all environments are considered. 
   
@@ -56,19 +56,19 @@ The following terms are useful when discussing [!UICONTROL Auto-Target]:
 
 |  Term  | Definition  |
 |---|---|
-|  [Multi-armed bandit](https://en.wikipedia.org/wiki/Multi-armed_bandit){target=_blank}  | A multi-armed bandit approach to optimization balances exploratory learning and exploitation of that learning.  |
-|  [Random Forest](/help/main/c-activities/t-automated-personalization/algo-random-forest.md)  |Random Forest is a leading machine learning approach. In data-science speak, it is an ensemble classification, or regression method, that works by constructing many decision trees based on visitor and visit attributes. Within [!DNL Target], Random Forest is used to determine which experience is expected to have the highest likelihood of conversion (or highest revenue per visit) for each specific visitor.  |
-|  [Thompson Sampling](https://en.wikipedia.org/wiki/Thompson_sampling){target=_blank}  |The goal of Thompson Sampling is to determine which experience is the best overall (non-personalized), while minimizing the "cost" of finding that experience. Thompson sampling always picks a winner, even if there is no statistical difference between two experiences.  |
+|[Multi-armed bandit](https://en.wikipedia.org/wiki/Multi-armed_bandit){target=_blank}| A multi-armed bandit approach to optimization balances exploratory learning and exploitation of that learning.|
+|[Random Forest](/help/main/c-activities/t-automated-personalization/algo-random-forest.md)|Random Forest is a leading machine learning approach. In data-science speak, it is an ensemble classification, or regression method, that works by constructing many decision trees based on visitor and visit attributes. Within [!DNL Target], Random Forest is used to determine which experience is expected to have the highest likelihood of conversion (or highest revenue per visit) for each specific visitor.|
+|[Thompson Sampling](https://en.wikipedia.org/wiki/Thompson_sampling){target=_blank}|The goal of Thompson Sampling is to determine which experience is the best overall (non-personalized), while minimizing the "cost" of finding that experience. Thompson sampling always picks a winner, even if there is no statistical difference between two experiences.|
 
 ## How [!UICONTROL Auto-Target] Works {#section_77240E2DEB7D4CD89F52BE0A85E20136}
 
-Learn more about the data and algorithms underlying [!UICONTROL Auto-Target] and Automated Personalization at the links below:
+Learn more about the data and algorithms underlying [!UICONTROL Auto-Target] and [!UICONTROL Automated Personalization] at the links below:
 
 | Term | Details |
 |--- |--- |
-|[Random Forest Algorithm](/help/main/c-activities/t-automated-personalization/algo-random-forest.md)|Target's main personalization algorithm used in both [!UICONTROL Auto-Target] and [!UICONTROL Automated Personalization] is Random Forest. Ensemble methods like Random Forest use multiple learning algorithms to obtain better predictive performance than could be obtained from any of the constituent learning algorithms. The Random Forest algorithm in the [!UICONTROL Automated Personalization] and [!UICONTROL Auto-Target] activities is a classification, or regression method, that operates by constructing a multitude of decision trees at training time.|
-|[Uploading Data For Target's Personalization Algorithms](/help/main/c-activities/t-automated-personalization/algo-random-forest.md)|There are several ways to input data for [!UICONTROL Auto-Target] and [!UICONTROL Automated Personalization] models.|
-|[Data Collection for Target's Personalization Algorithms](/help/main/c-activities/t-automated-personalization/ap-data.md)|Target's personalization algorithms automatically collect various data.|
+|[Random Forest Algorithm](/help/main/c-activities/t-automated-personalization/algo-random-forest.md)|[!DNL Target]'s main personalization algorithm used in both [!UICONTROL Auto-Target] and [!UICONTROL Automated Personalization] is Random Forest. Ensemble methods, such as Random Forest, use multiple learning algorithms to obtain better predictive performance than could be obtained from any of the constituent learning algorithms. The Random Forest algorithm in the [!UICONTROL Automated Personalization] and [!UICONTROL Auto-Target] activities is a classification, or regression method, that operates by constructing a multitude of decision trees at training time.|
+|[Uploading Data For [!DNL Target]'s Personalization Algorithms](/help/main/c-activities/t-automated-personalization/algo-random-forest.md)|There are several ways to input data for [!UICONTROL Auto-Target] and [!UICONTROL Automated Personalization] models.|
+|[Data Collection for [!DNL Target]'s Personalization Algorithms](/help/main/c-activities/t-automated-personalization/ap-data.md)|[!DNL Target]'s personalization algorithms automatically collect various data.|
 
 ## Determining Traffic Allocation {#section_AB3656F71D2D4C67A55A24B38092958F}
 
@@ -76,16 +76,16 @@ Depending on the goal of your activity, you might choose a different traffic all
 
 The [!UICONTROL Custom Allocation] drop-down list lets you choose from the following options:
 
-* Evaluate Personalization Algorithm 
-* Maximize Personalization Traffic 
-* Custom Allocation
+* [!UICONTROL Evaluate Personalization Algorithm] 
+* [!UICONTROL Maximize Personalization Traffic] 
+* [!UICONTROL Custom Allocation]
 
 ![Allocation Goal drop-down list](/help/main/c-activities/assets/split-new.png)
 
 | Activity Goal | Suggested Traffic Allocation | Tradeoffs |
 |--- |--- |--- |
 |**Evaluate Personalization Algorithm (50/50)**: If your goal is to test the algorithm, use a 50/50 percent split of visitors between the control and the targeted algorithm. This split gives the most accurate estimate of the lift. Suggested for use with "random experiences" as your control.|50% Control / 50% Personalized Experience split|<ul><li>Maximizes accuracy of lift between control and personalized</li><li>Relatively fewer visitors have a personalized experience</li></ul>|
-|**Maximize Personalization Traffic (90/10)**: If your goal is to create an "always on" activity, put 10% of the visitors into the control to ensure that there is enough data for the algorithms to continue learning over time. Note that the tradeoff here is that in exchange for personalizing a larger proportion of your traffic, you have less precision in what the exact lift is. No matter your goal, this is the recommended traffic split when using a specific experience as the control.|Best practice is to use a 10% - 30% Control / 70% - 90% Personalized Experience split|<ul><li>Maximizes number of visitors who have a personalized experience</li><li>Maximizes lift</li><li>Less accuracy as to what the lift is for the activity</li></ul>|
+|**Maximize Personalization Traffic (90/10)**: If your goal is to create an "always on" activity, put 10% of the visitors into the control to ensure that there is enough data for the algorithms to continue learning over time. The tradeoff here is that in exchange for personalizing a larger proportion of your traffic, you have less precision in what the exact lift is. No matter your goal, this is the recommended traffic split when using a specific experience as the control.|Best practice is to use a 10% - 30% Control / 70% - 90% Personalized Experience split|<ul><li>Maximizes number of visitors who have a personalized experience</li><li>Maximizes lift</li><li>Less accuracy as to what the lift is for the activity</li></ul>|
 |**Custom Allocation**|Manually split the percentage as desired.|<ul><li>You might not achieve the desired results. If you are unsure, follow the suggestions for either of the preceding options</li></ul>|
 
 To adjust the [!UICONTROL Control] percentage, click the icons in the [!UICONTROL Allocation] column. You cannot decrease the control group to less than 10%.
@@ -98,7 +98,7 @@ You can [select a specific experience to use as control](/help/main/c-activities
 
 There are several scenarios in which you might prefer to use [!UICONTROL Auto-Target] over [!UICONTROL Automated Personalization]:
 
-* If you want to define the entire experience rather than individual offers that will be automatically combined to form an experience. 
+* If you want to define the entire experience rather than individual offers that are automatically combined to form an experience. 
 * If you want to use the full set of [!UICONTROL Visual Experience Composer] (VEC) features not supported by [!UICONTROL Auto Personalization]: the custom code editor, multiple experience audiences, and more. 
 * If you want to make structural changes to your page in different experiences. For example, if you want to rearrange elements on your home page, [!UICONTROL Auto-Target] is more appropriate to use than [!UICONTROL Automated Personalization].
 
@@ -126,7 +126,7 @@ There are several scenarios in which you might prefer to use [!UICONTROL Auto-Ta
 
 ### [!DNL Target] automatically uses all [!DNL Adobe Experience Cloud] shared audiences to build the personalization models.
 
-* You don't have to do anything specific to add audiences to the model. For information about using [!DNL Experience Cloud Audiences] with [!DNL Target], see [Experience Cloud Audiences](/help/main/c-integrating-target-with-mac/mmp.md)
+* You don't have to do anything specific to add audiences to the model. For information about using [!DNL Experience Cloud Audiences] with [!DNL Target], see [Experience Cloud Audiences](/help/main/c-integrating-target-with-mac/mmp.md).
 
 ### Marketers can upload offline data, propensity scores, or other custom data to build personalization models.
 
@@ -158,7 +158,7 @@ For [!UICONTROL Auto-Target], simple rules of thumb can be used to understand tr
 
 For more information, see [Reporting and Auto-Target](/help/main/c-activities/auto-target/reporting-and-auto-target.md).
 
-## Training video: Understanding Auto-Target Activities ![Overview badge](/help/main/assets/overview.png)
+## Training video: Understanding Auto-Target Activities
 
 This video explains how to set up an [!UICONTROL Auto-Target] A/B activity.
 

@@ -9,7 +9,7 @@ exl-id: 2d1ddd71-2ca6-4f00-9d0c-eb25ede8fdb8
 
 An [!UICONTROL Auto-Allocate] activity in [!DNL Adobe Target] identifies a winner among two or more experiences and automatically reallocates more traffic to the winner to increase conversions while the test continues to run and learn.
 
-While [creating an A/B activity](/help/main/c-activities/t-test-ab/t-test-create-ab/test-create-ab.md) using the three-step guided workflow, choose the [!UICONTROL Auto-Allocate to best experience] option on the [!UICONTROL Targeting] page (step 2).
+While [creating an A/B activity](/help/main/c-activities/t-test-ab/t-test-create-ab/test-create-ab.md) using the three-step guided workflow, choose the **[!UICONTROL Auto-Allocate to best experience]** option on the **[!UICONTROL Targeting]** page (step 2).
 
 ## The challenge {#section_85D5A03637204BACA75E19646162ACFF}
  
