@@ -56,7 +56,7 @@ To create an [!UICONTROL Auto-Allocate] activity:
 
    The [!UICONTROL Visual Experience Composer] displays two tabs on the left side after you create a new activity: Experience A and Experience B. Experience A is the control experience. Your focus is on the Experience B tab, which you can modify as desired. Experience B is the alternate experience you can add to your test. You can add multiple experiences to the test. You can also delete Experience A from the activity if you don't want to include a default site experience as an option.
 
-   For more information about adding and modifying experiences in the [!UICONTROL Visual Experience Composer], see [Add Experience](/help/main/c-activities/t-test-ab/t-test-create-ab/ab-add-experience.md). To modify Experience B, start with Step 3. 
+   For more information about adding and modifying experiences in the [!UICONTROL Visual Experience Composer], see [Add Experience](/help/main/c-activities/t-test-ab/t-test-create-ab/ab-add-experience.md). To modify Experience B, start with Step 2. 
 
 1. Click **[!UICONTROL Targeting]** at the top of the [!UICONTROL Visual Experience Composer] to move to the next step in the three-step guided workflow.
 
