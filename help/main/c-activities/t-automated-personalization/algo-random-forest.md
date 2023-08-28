@@ -41,13 +41,13 @@ The example would result in the below tree:
 
 Decision trees can be a powerful statistical tool. However, they have some disadvantages. Most critically, they can "over-fit" the data so that an individual tree poorly predicts future data that wasn't used to build the initial tree. This challenge is known as the [bias-variance tradeoff](https://en.wikipedia.org/wiki/Bias%E2%80%93variance_tradeoff) in statistical learning. Random forests help overcome this over-fitting challenge. At the highest level, a random forest is a collection of decision trees that are built slightly differently on the same data set that "vote" together to yield a better model than an individual tree. The trees are built by randomly selecting a subset of visit records with replacement (known as bagging), and randomly selecting a subset of the attributes, so that the forest consists of slightly different decision trees. This method introduces small variations into the trees that are created in the Random Forest. Adding in this controlled amount of variance helps improve the predictive accuracy of the algorithm.  
 
-## How do the Tar[!DNL ]get personalization algorithms use Random Forest? {#section_32FB53CAD8DF40FB9C0F1217FBDBB691}
+## How do the [!DNL Target] personalization algorithms use Random Forest? {#section_32FB53CAD8DF40FB9C0F1217FBDBB691}
 
 **How Models are built**
 
 The following diagram summarizes how models are built for [!UICONTROL Auto-Target] and [!UICONTROL Automated Personalization] activities:
 
-![random_forest_flow image](assets/random_forest_flow.png)
+![random_forest_flow image](assets/random_forest_flow.png){width="600" zoomable="yes"}
 
 1. Target collects data on visitors while randomly serving experiences or offers 
 1. After [!DNL Target] hits a critical mass of data, [!DNL Target] performs feature engineering 
