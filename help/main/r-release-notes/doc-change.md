@@ -13,8 +13,8 @@ This page lists significant changes made to the [!DNL Adobe Target] product docu
 
 |Date|Topic|Changes|
 | --- | --- | --- |
-|August 29|S[upported features for on-device decisioning](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/on-device-decisioning/supported-features.html){target=_blank}|Added the list of Geo attributes supported for targeting when using on-device decisioning (ODD).|
-||[On-device decisioning overview](https://experienceleague.adobe.com/docs/target-dev/developer/server-side/on-device-decisioning/overview.html){target=_blank}|Added the list of Geo attributes supported for targeting when using on-device decisioning (ODD).|
+|August 29|[Supported features for on-device decisioning](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/on-device-decisioning/supported-features.html){target=_blank}|Added the list of Geo attributes supported for targeting when using on-device decisioning (ODD) client-side.|
+||[On-device decisioning overview](https://experienceleague.adobe.com/docs/target-dev/developer/server-side/on-device-decisioning/overview.html){target=_blank}|Added the list of Geo attributes supported for targeting when using on-device decisioning (ODD) server-side.|
 ||[Implement Target with the AEP Mobile SDK in a native app with web views](https://experienceleague.adobe.com/docs/target-dev/developer/mobile-apps/native-app.html){target=_blank}|New article.|
 ||[[!DNL Adobe Target] announcements and events](/help/main/r-release-notes/target-announcements.md)|Added information about the upcoming Adobe Target Community Coffee Break (August 30, 2023): "Strategize for maximum ROI impact with peak season readiness" webinar follow-up.|
 |August 14|[Activity QA](/help/main/c-activities/c-activity-qa/activity-qa.md)|Added information clarifying that loading a page on your site with an empty value does *not* remove the QA cookie from the browser when at.js 2.*x* is deployed.|
