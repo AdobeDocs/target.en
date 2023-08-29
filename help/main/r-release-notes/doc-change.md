@@ -13,6 +13,7 @@ This page lists significant changes made to the [!DNL Adobe Target] product docu
 
 |Date|Topic|Changes|
 | --- | --- | --- |
+|August 29|[Implement Target with the AEP Mobile SDK in a native app with web views](https://experienceleague.adobe.com/docs/target-dev/developer/mobile-apps/native-app.html){target=_blank}|New article.|
 |August 14|[Activity QA](/help/main/c-activities/c-activity-qa/activity-qa.md)|Added information clarifying that loading a page on your site with an empty value does *not* remove the QA cookie from the browser when at.js 2.*x* is deployed.|
 ||[Statistical calculations in A/Bn tests](/help/main/c-reports/statistical-methodology/statistical-calculations.md)|Updated the definition of "Confidence."|
 ||[Offers](/help/main/c-experiences/c-manage-content/manage-content.md)|Added note explaining that image offers are not part of the [!UICONTROL Enterprise User Permissions] model.|
