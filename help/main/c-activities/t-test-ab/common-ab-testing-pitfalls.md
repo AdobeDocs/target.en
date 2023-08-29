@@ -75,7 +75,7 @@ Today's marketers under-power a remarkable number of tests. In other words, they
 
 To avoid under-powering your test, consider that a typical standard for a well-powered test includes a confidence level of 95% and a statistical power of 80%. Such a test offers a 95% probability that you'll avoid a false positive and an 80% probability that you'll avoid a false negative.
 
-## Step 4: Using one-tailed tests {#section_8BB136D1DD6341FA9772F4C31E9AA37C}
+## Pitfall 4: Using one-tailed tests {#section_8BB136D1DD6341FA9772F4C31E9AA37C}
 
 One-tailed tests require a smaller observed difference in conversion rates between the offers to call a winner at a certain significance level. This seems appealing because winners can be called earlier and more often than when using two-tailed tests. But in keeping with the saying, "There's no free lunch," one-tailed tests come at an expense.
 
@@ -121,7 +121,7 @@ If you manually change the allocation split to 100% for Experience B, visitors w
 If you want to change percentages or greatly affect the flow of visitors into each experience, we recommend that you create a new activity or copy the activity and then edit the traffic allocation percentages.
 
 If you change the percentages for different experiences during the testing period, it takes a few days for the data to normalize, especially if many purchasers are returning visitors. 
-As another example, if your A/B Test’s traffic allocation is split 50/50, and then you change the split to 80/20, for the first few days after that change the results might look skewed. If the average time to conversion is high, meaning it takes someone several hours or even days to make a purchase, these delayed conversions can affect your reports. So, in that first experience where the number went from 50% to 80%, and the average time to conversion is two days, only visitors from 50% of the population are converting on the first day of the test, although today 80% of the population is entering into the experience. This makes it look like the conversion rate plummeted, but it will normalize again after these 80% of visitors have taken two days to convert.
+As another example, if your A/B Test's traffic allocation is split 50/50, and then you change the split to 80/20, for the first few days after that change the results might look skewed. If the average time to conversion is high, meaning it takes someone several hours or even days to make a purchase, these delayed conversions can affect your reports. So, in that first experience where the number went from 50% to 80%, and the average time to conversion is two days, only visitors from 50% of the population are converting on the first day of the test, although today 80% of the population is entering into the experience. This makes it look like the conversion rate plummeted, but it will normalize again after these 80% of visitors have taken two days to convert.
 
 ## Pitfall 8: Not considering novelty effects {#section_90F0D24C40294A8F801B1A6D6DEF9003}
 
