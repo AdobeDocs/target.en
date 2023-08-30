@@ -16,7 +16,7 @@ The [!DNL Customer Journey Analytics for Target] integration between [!DNL Custo
 
 The three primary benefits of using [!DNL Customer Journey Analytics] data in [!DNL Target] are:
 
-* Marketers can dynamically apply [!DNL Customer Journey Analytics] success metrics or reporting segments to [!DNL Target] activity reports at any time. It is not required to specify everything before running the activity. 
+* Marketers can dynamically apply [!DNL Customer Journey Analytics] success metrics to [!DNL Target] activity reports at any time. It is not required to specify everything before running the activity. 
 * A single source of data minimizes the variance that occurs when collecting data in two separate systems. 
 * Your existing [!DNL Customer Journey Analytics] implementation collects all the required data. There is no need to implement mboxes on pages for the sole purpose of collecting data for reports.
 
