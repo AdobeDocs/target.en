@@ -8,7 +8,7 @@ hidefromtoc: yes
 ---
 # [!DNL Adobe Customer Journey Analytics] as the reporting source for [!DNL Adobe Target] (CJA4T)
 
-[!DNL Customer Journey Analytics for Target] (CJA4T) is a cross-solution integration that lets you create activities based on [Customer Journey Analytics (CJA)](https://experienceleague.adobe.com/docs/customer-journey-analytics.html){target=_blank} conversion metrics and audience segments. The CJA4T integration lets you use [!DNL Customer Journey Analytics] reports to examine your results. If you use [!DNL Customer Journey Analytics] as the reporting source for an activity, all reporting and segmentation for that activity is based on [!DNL Customer Journey Analytics] data collection.
+[!DNL Customer Journey Analytics for Target] (CJA4T) is a cross-solution integration that lets you create activities based on [Customer Journey Analytics (CJA)](https://experienceleague.adobe.com/docs/customer-journey-analytics.html){target=_blank} conversion metrics. The CJA4T integration lets you use [!DNL Customer Journey Analytics] reports to examine your results. If you use [!DNL Customer Journey Analytics] as the reporting source for an activity, all reporting for that activity is based on [!DNL Customer Journey Analytics] data collection.
 
 ## Overview
 
@@ -38,7 +38,7 @@ Keep the following points in mind when considering using CJA4T:
 
 The following activity types are supported when using the [Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/aep-web-sdk.html){target=_blank} or [at.js](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/overview.html){target=_blank}:
 
-| Activity Types | A4T Compatible? |
+| Activity Types | CJA4T Compatible? |
 |--- |--- |
 |[A/B activity with manual traffic split](/help/main/c-activities/t-test-ab/test-ab.md)|Yes|
 |[A/B activity with Auto-Allocate](/help/main/c-activities/automated-traffic-allocation/automated-traffic-allocation.md)|No|
@@ -48,11 +48,11 @@ The following activity types are supported when using the [Adobe Experience Plat
 |[Automated Personalization (AP) activity](/help/main/c-activities/t-automated-personalization/automated-personalization.md)|No|
 |[Recommendations activity](/help/main/c-recommendations/recommendations.md)|Yes|
 
-## Create an activity that uses Customer Journey Analytics as the reporting source
+## Create an activity that uses [!DNL Customer Journey Analytics] as the reporting source
 
 Creating a [!DNL Target] activity that uses [!DNL Customer Journey Analytics] as the reporting source is similar to setting up a regular [!DNL Target] activity.
 
-1. From the **[!UICONTROL Activities]** list, click [!UICONTROL Create Activity], then select the activity type (according to the supported activity chart above) and begin setting up the activity.
+1. From the **[!UICONTROL Activities]** list, click **[!UICONTROL Create Activity]**, then select the activity type (according to the supported activity chart above) and begin setting up the activity.
 1. When you get to the **[!UICONTROL Goals & Settings]** page of the three-part activity creation workflow, select **[!DNL Customer Journey Analytics]** as the reporting source.
 
    ![Customer Journey Analytics as the reporting source option](/help/main/c-integrating-target-with-mac/cja4t/assets/cja-as-reporting-source.png)
