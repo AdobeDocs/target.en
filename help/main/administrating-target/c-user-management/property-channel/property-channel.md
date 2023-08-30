@@ -77,7 +77,7 @@ All user roles and access to all [!DNL Target] functionality remains the same as
 
 You can create user groups, such as Developers, Analysts, Marketers, Executives, and so forth. You can then assign privileges across multiple Adobe products and workspaces. Assigning a new team member all the appropriate privileges across different Adobe products can be as easy as adding them to a specific user group.
 
-### Roles and permissions
+### Roles and permissions {#roles-permissions}
 
 Roles and permissions determine the access levels that users have to create and manage activities in your [!DNL Target] implementation. In [!DNL Target], roles include the following:
 
