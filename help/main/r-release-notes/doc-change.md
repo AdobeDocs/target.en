@@ -13,6 +13,7 @@ This page lists significant changes made to the [!DNL Adobe Target] product docu
 
 |Date|Topic|Changes|
 | --- | --- | --- |
+|August 30|[Privacy](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/privacy/privacy.html#aep){target=_blank}|Added new section: "Datastream-level IP obfuscation when using the Adobe Experience Platform Web SDK"|
 |August 29|[Supported features for on-device decisioning](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/on-device-decisioning/supported-features.html){target=_blank}|Added the list of Geo attributes supported for targeting when using on-device decisioning (ODD) client-side.|
 ||[On-device decisioning overview](https://experienceleague.adobe.com/docs/target-dev/developer/server-side/on-device-decisioning/overview.html){target=_blank}|Added the list of Geo attributes supported for targeting when using on-device decisioning (ODD) server-side.|
 ||[Implement Target with the AEP Mobile SDK in a native app with web views](https://experienceleague.adobe.com/docs/target-dev/developer/mobile-apps/native-app.html){target=_blank}|New article.|
