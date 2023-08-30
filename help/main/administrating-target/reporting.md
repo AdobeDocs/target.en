@@ -27,7 +27,7 @@ You can specify the following settings on this page:
 
 ![Reporting page](/help/main/administrating-target/assets/reporting.png)
 
-## Reporting Cloud Solution
+## Reporting Cloud Solution {#solution}
 
 Set options that determine what data is used for your results and reports.
 
