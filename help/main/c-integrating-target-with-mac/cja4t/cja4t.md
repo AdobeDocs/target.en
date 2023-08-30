@@ -2,7 +2,7 @@
 keywords: cja4t;customer journey analytics;customer journey analytics for target;customer journey analytics reporting source;customer journey analytics as the reporting source for target
 description: Use [!DNL Adobe Customer Journey Analytics] for [!DNL Target] (A4T) to create activities based on [!DNL Customer Journey Analytics] conversion metrics and audience segments and use [!DNL Customer Journey Analytics] reports to examine results.
 title: What is [!DNL Adobe Customer Journey Analytics] for [!DNL Target] (CJA4T)?
-feature: Customer Journey Analytics for Target (CJA4T) 
+feature: Integrations 
 hide: yes
 hidefromtoc: yes
 ---
