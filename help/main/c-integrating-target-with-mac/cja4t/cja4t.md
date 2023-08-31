@@ -13,9 +13,11 @@ The [!DNL Customer Journey Analytics for Target] (CJA4T) integration between [Ad
 The primary benefits of using [!DNL Customer Journey Analytics] data in [!DNL Target] are:
 
 * Marketers can dynamically apply [!DNL Customer Journey Analytics] success metrics to [!DNL Target] activity reports at any time. It is not required to specify everything before running the activity. 
-* A single source of data minimizes the variance that occurs when collecting data in two separate systems. 
+* A single source of data minimizes the variance that occurs when collecting data in two separate systems.
 
-Keep the following points in mind when considering using the CJA4T integration:
+## Considerations
+
+Consider the following before using the CJA4T integration:
 
 * To use [!DNL Customer Journey Analytics] as the reporting source for [!DNL Target], both you and your company must have access to [!DNL Customer Journey Analytics] and to [!DNL Target]. If you need access to either solution, contact your organization's administrator or your account representative.
 * To create [!DNL Target] activities with [!DNL Customer Journey Analytics] reporting, you must have either the "[!UICONTROL Approver]" or '[!UICONTROL Editor]" role in [!DNL Target].
