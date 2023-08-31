@@ -17,7 +17,7 @@ The primary benefits of using [!DNL Customer Journey Analytics] data in [!DNL Ta
 
 ## Considerations
 
-Consider the following before using the CJA4T integration:
+Consider the following information before using the CJA4T integration:
 
 * To use [!DNL Customer Journey Analytics] as the reporting source for [!DNL Target], both you and your company must have access to [!DNL Customer Journey Analytics] and to [!DNL Target]. If you need access to either solution, contact your organization's administrator or your account representative.
 * To create [!DNL Target] activities with [!DNL Customer Journey Analytics] reporting, you must have either the "[!UICONTROL Approver]" or '[!UICONTROL Editor]" role in [!DNL Target].
