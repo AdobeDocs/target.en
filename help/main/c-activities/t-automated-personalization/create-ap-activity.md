@@ -1,5 +1,5 @@
 ---
-keywords: automated personalization;ap;audiences;ensemble;random forest;residual variance;error variance;lifetime value
+keywords: automated personalization;ap
 description: Learn how to create an [!UICONTROL Automated Personalization] (AP) activity in [!DNL Adobe Target] using the [!UICONTROL Visual Experience Composer].
 title: How Do I Create an [!UICONTROL Automated Personalization] Activity?
 badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="See what's included in Target Premium."
@@ -10,15 +10,13 @@ exl-id: eadc2bbc-310b-479f-b75b-253e8d7aa812
 
 Create an [!UICONTROL Automated Personalization] (AP) activity in [!DNL Adobe Target] using the [!UICONTROL Visual Experience Composer] (VEC).
 
-The [!UICONTROL Automated Personalization] (AP) activity workflow in [!DNL Adobe Target] varies from the workflow of the other activity types.
+The [!UICONTROL Automated Personalization] (AP) activity workflow in [!DNL Target] varies from the workflow of the other activity types.
 
 1. From the [!DNL Target] [!UICONTROL Activities] list, click **[!UICONTROL Create Activity]** > **[!UICONTROL Automated Personalization]**.
 
    ![Create Activity: Automated Personalization](/help/main/c-activities/t-automated-personalization/assets/ap-create-new.png)
 
-1. To use the VEC, click **[!UICONTROL Visual (Default)]**.
-
-   ![Create Automated Personalization Activity dialog box](/help/main/c-activities/t-automated-personalization/assets/ap_url-new.png){width="300"}
+1. To use the [!UICONTROL Visual Experience Composer] (VEC), click **[!UICONTROL Visual]**.
 
    To use the [!UICONTROL Form-Based Experience Composer], select [!UICONTROL Form]. See [Form-Based Experience Composer](/help/main/c-experiences/form-experience-composer.md) for more information.
 
@@ -30,15 +28,15 @@ The [!UICONTROL Automated Personalization] (AP) activity workflow in [!DNL Adobe
  
 1. (Conditional) [Choose a workspace](/help/main/administrating-target/c-user-management/property-channel/property-channel.md).
 
-1. Verify or enter the activity URL, then click **[!UICONTROL Next]**.
+1. Verify or enter the activity URL, then click **[!UICONTROL Create]**.
 
    >[!NOTE]
    >
-   >[!DNL Target] does not differentiate between URL protocols ( [!DNL https] and [!DNL http]). As a result, [!DNL `http://www.adobe.com`] and [!DNL `https://wwww.adobe.com`] both match.
+   >[!DNL Target] does not differentiate between URL protocols ([!DNL https] and [!DNL http]). As a result, [!DNL `http://www.adobe.com`] and [!DNL `https://wwww.adobe.com`] both match.
 
    The page with the specified URL opens in the VEC.
  
-1. To name the activity, click the **[!UICONTROL Name]** field and type your activity name.
+1. Click the **[!UICONTROL Name]** field and type your activity name.
 
    ![Name field](/help/main/c-activities/t-automated-personalization/assets/ap-new-name.png)
 
@@ -51,23 +49,36 @@ The [!UICONTROL Automated Personalization] (AP) activity workflow in [!DNL Adobe
    |`-`|Minus|
    |`@`|At sign|
 
-   In adddition, the activity name cannot contain any of the following character sequences: ';=', ';+', ';-', ';@', ',=', ',+', ',-', ',@', '["', '"]', '['', '']'.
+   The activity name cannot contain any of the following character sequences:
+
+   | Character Sequence | Description |
+   |--- |--- |
+   |;=|Semicolon, Equals to|
+   |;+|Semicolon, Plus|
+   |;-|Semicolon, Minus|
+   |;@|Semicolon, At sign|
+   |,=|Comma, Equals to|
+   |,+|Comma, Plus|
+   |,-|Comma, Minus|
+   |,@|Comma, At sign|
+   |`[`"|Open square bracket, Double quotation marks|
+   |"`]`|Double quotation marks, Close square bracket|
 
 1. Modify page elements as explained in [Visual Experience Composer options](/help/main/c-experiences/c-visual-experience-composer/viztarget-options.md).
 
-   You can select multiple images at once from the asset manager. This enables you to quickly view the page with each of the images configured for the activity. You can also easily edit text elements in your offers. When you edit an element, bars appear on that element to indicate you have changed it.
+   You can select multiple images at once from the asset manager. This lets you quickly view the page with each of the images configured for the activity. You can also easily edit text elements in your offers. When you edit an element, bars appear on that element to indicate you have changed it.
 
 1. Click **[!UICONTROL Manage Content]** to configure the available combinations.
 
    ![Manage Content option](/help/main/c-activities/t-automated-personalization/assets/manage-content.png)
 
-   A dialogue box appears with three options at the top of the screen: [!UICONTROL Experiences], [!UICONTROL Offers], and [!UICONTROL Exclusion Groups].
+   A dialogue box displays with three options at the top of the screen: [!UICONTROL Experiences], [!UICONTROL Offers], and [!UICONTROL Exclusion Groups].
 
    ![Manage Content dialog box](/help/main/c-activities/t-automated-personalization/assets/ap_content-new.png)
 
    >[!NOTE]
    >
-   >Although you can create up to 30,000 experiences in an AP activity, the activity performs best when fewer than 5,000 experiences are used. This same limit is applied even when the activity has enabled the [!UICONTROL Dissalow Duplicates] option.
+   >Although you can create up to 30,000 experiences in an AP activity, the activity performs best when fewer than 5,000 experiences are used. This same limit is applied even when the activity has enabled the [!UICONTROL Disalow Duplicates] option.
 
    The [!UICONTROL Experiences] list shows each piece of content selected for the activity and the location that it is assigned to. 
    
@@ -75,7 +86,7 @@ The [!UICONTROL Automated Personalization] (AP) activity workflow in [!DNL Adobe
 
    ![Exclude icon hover](/help/main/c-activities/t-automated-personalization/assets/icon-exclude.png)
    
-   You can batch exclude/include experiences by selecting the checkbox for the relevant experiences and then by clicking the [!UICONTROL Exclude] icon in the top-right corner of the dialog box.
+   You can batch exclude or include experiences by selecting the checkbox for the relevant experiences and then by clicking the [!UICONTROL Exclude] icon in the top-right corner of the dialog box.
 
    ![Batch exclude options](/help/main/c-activities/t-automated-personalization/assets/batch-exclude.png)
 
@@ -83,15 +94,15 @@ The [!UICONTROL Automated Personalization] (AP) activity workflow in [!DNL Adobe
 
 1. (Conditional) Click **[!UICONTROL Offers]** to select pieces of content and assign them to reporting groups or only allow certain visitors to see certain offers with targeting.
 
-   For more information about reporting groups, see [Offer Reporting Groups in Automated Personalization](/help/main/c-activities/t-automated-personalization/offer-reporting-groups-in-automated-personalization.md).
+   For more information about reporting groups, see [Offer reporting groups in Automated Personalization](/help/main/c-activities/t-automated-personalization/offer-reporting-groups-in-automated-personalization.md).
 
-1. (Conditional) Click **[!UICONTROL Exclusion Groups]** to choose any combinations of elements that you want to exclude from the activity.
+1. (Conditional) Click **[!UICONTROL Exclusion Groups]** to choose any combination of elements that you want to exclude from the activity.
 
    ![Exclusion Groups tab of Manage Content dialog box](/help/main/c-activities/t-automated-personalization/assets/exclusion_groups-new.png)
 
-   Although you can create up to 30,000 experiences in an AP test, the algorithm performs its best when fewer than 10,000 distinct experiences are used. This same limit is applied even when the activity has enabled the [!UICONTROL Dissalow Duplicates] option.
+   Although you can create up to 30,000 experiences in an AP test, the algorithm performs its best when fewer than 10,000 distinct experiences are used. This same limit is applied even when the activity has enabled the [!UICONTROL Disalow Duplicates] option.
 
-   If you do not currently have any exclusion groups included in your activity, click **Create Exclusion Group**. You can filter to create a list that shows only the combinations you want to exclude. Name your exclusion group and click **Save**.
+   If you do not currently have any exclusion groups included in your activity, click **Create Exclusion Group**. You can filter to create a list that shows only the combinations you want to exclude. Name your exclusion group, then click **Save**.
 
    To edit an existing exclusion group, hover over the group you want to edit, then click the pencil icon.
 
@@ -104,14 +115,14 @@ The [!UICONTROL Automated Personalization] (AP) activity workflow in [!DNL Adobe
    ![Traffic Allocation Goal drop-down list](/help/main/c-activities/t-automated-personalization/assets/traffic-allocation-goal-ap.png)
 
    * **[!UICONTROL Evaluate Personalization Algorithm (50/50)]:** If your goal is to test the algorithm, use a 50/50 percent split of visitors between the control and the targeted algorithm. This split gives the most accurate estimate of the lift. Suggested for use with "random experiences" as your control.
-   * **[!UICONTROL Maximizing Personalization Traffic (90/10)]:** If your goal is to create an "always on" activity, put 10% of the visitors into the control. This option ensures that there is enough data for the algorithms to continue learning over time. Note that the tradeoff here is that in exchange for personalizing a larger proportion of your traffic, you have less precision in what the exact lift is. No matter your goal, this is the recommended traffic split when using a specific experience as the control.
+   * **[!UICONTROL Maximizing Personalization Traffic (90/10)]:** If your goal is to create an "always on" activity, put 10% of the visitors into the control. This option ensures that there is enough data for the algorithms to continue learning over time. The tradeoff here is that in exchange for personalizing a larger proportion of your traffic, you have less precision in what the exact lift is. No matter your goal, this option is the recommended traffic split when using a specific experience as the control.
    * **[!UICONTROL Custom Allocation]:** Manually split the percentage as desired.
 
 1. (Conditional) From the [!UICONTROL Control] drop-down list, [select a specific experience to be used as control](/help/main/c-activities/t-automated-personalization/experience-as-control.md) or select [!UICONTROL Random Experience.]
 
    The control experience provides a comparison to determine how much lift is provided by the automated test.
 
-   [!UICONTROL Automated Personalization] always measures performance against a control group. Best practice is to place at least 10% of entrants into the control group. If your goal is to test if the personalization algorithm on the data it is given performs better than no personalization (i.e. the randomly served control), then a 50/50 percent traffic split between the control and the personalization algorithm would be the fastest and most accurate way to achieve this goal. If you want to maximize the amount of traffic that is personalized and you are less concerned with understanding the exact lift your activity is generating, then a 10/90 percent traffic split between the control and the personalization algorithm would be the fastest and most accurate way to achieve this goal.
+   [!UICONTROL Automated Personalization] always measures performance against a control group. Best practice is to place at least 10% of entrants into the control group. If your goal is to test if the personalization algorithm on the data it is given performs better than no personalization (for example, the randomly served control), a 50/50 percent traffic split between the control and the personalization algorithm is the fastest and most accurate way to achieve this goal. If you want to maximize the amount of traffic that is personalized and you are less concerned with understanding the exact lift your activity is generating, a 10/90 percent traffic split between the control and the personalization algorithm is the fastest and most accurate way to achieve this goal.
 
    >[!NOTE]
    >
@@ -124,13 +135,13 @@ The [!UICONTROL Automated Personalization] (AP) activity workflow in [!DNL Adobe
    |--- |--- |
    |[!UICONTROL Name]|Name the activity. Give the activity a name that is descriptive enough that team members can recognize it in the [!UICONTROL Activities] list. Consult the table above to see which characters are not allowed in an activity name.|
    |[!UICONTROL Objective]|(Optional) Type the objective of the test. The objective helps you remember the purpose of the activity.|
-   |[!UICONTROL Priority]|Depending on your settings, the UI and options for [!UICONTROL Priority] vary. You can use the legacy settings of Low, Medium, or High, or you can enable fine-grained priorities from 0 to 999.<br>The priority is used if multiple activities are assigned to the same location with the same audience. If two or more activities are assigned to the location, the activity with the highest priority displays.<br>If this option is not enabled in [!UICONTROL Administration] > [!UICONTROL Reporting] (the default), specify a priority: Low, Medium, or High.<br>To enable fine-grained priorities, click [!UICONTROL Administration] > [!UICONTROL Reporting], then toggle the [!UICONTROL Enable Fine-Grained Priorities] option to the "On" position.<br>If this option is enabled, specify a value between 0 and 999:<ul><li>0 = Low</li><li>999 = High</li></ul>For activities created in previous versions of [!DNL Target Standard/Premium], Low priority is converted to 0, Medium is converted to 5, and High is converted to 10. You can adjust these values as necessary.<br>**Note**: Before you can disable this option after using fine-grained priories, all priorities must be set back to 0, 5, and 10.|
+   |[!UICONTROL Priority]|Depending on your settings, the [!DNL Target] UI and options for [!UICONTROL Priority] vary. You can use the legacy settings of [!UICONTROL Low], [!UICONTROL Medium], or [!UICONTROL High], or you can enable fine-grained priorities from 0 to 999.<P>The priority is used if multiple activities are assigned to the same location with the same audience. If two or more activities are assigned to the location, the activity with the highest priority displays.<P>If this option is not enabled in [!UICONTROL Administration] > [!UICONTROL Reporting] (the default), specify a priority: [!UICONTROL Low], [!UICONTROL Medium], or [!UICONTROL High].<P>To enable fine-grained priorities, click [!UICONTROL Administration] > [!UICONTROL Reporting], then toggle the [!UICONTROL Enable Fine-Grained Priorities] option to the "On" position.<P>If this option is enabled, specify a value from 0 through 999:<ul><li>0 = Low</li><li>999 = High</li></ul>For activities created in previous versions of [!DNL Target Standard/Premium], [!UICONTROL Low] priority is converted to 0, [!UICONTROL Medium] priority is converted to 5, and [!UICONTROL High] priority is converted to 10. You can adjust these values as necessary.<P>**Note**: Before you can disable this option after using fine-grained priories, all priorities must be set back to 0, 5, and 10.|
    |[!UICONTROL Duration]|Set the start and end dates for the activity. You can select [!UICONTROL When Activated] or you can specify a specific date and time.|
-   |[!UICONTROL Optimization Goal]|Specify the optimization goal, which consists of two parameters:<ul><li>What you want to measure with the activity</li><li>The action taken by an activity entrant that shows that the goal has been achieved.</li></ul>You can choose to name the optimization goal by selecting the three dots to the right of [!UICONTROL My Primary Goal]. [!UICONTROL Automated Personalization] activities can measure [!UICONTROL Conversion] or [!UICONTROL Revenue]. Conversion can be achieved by viewing a page or viewing an mbox. Clicks can also be tracked.<br>The primary goal also becomes the modeling metric, used by the modeling system to calculate the success of the experience.<br>Visitors can be kept in the activity for tracking purposes after reaching the modeling goal. For example, often an [!UICONTROL Automated Personalization] activity is used to improve click-rates, and that is set as the modeling goal. However, it's important to see how increased click-rates lead to final conversion, so tracking through the final conversion is essential.<br>You can provide dependency on multiple metrics along with the flexibility to choose whether the metric should be reached or not reached for the count to increase.<br>You must define both (or multiple) success metrics before you can make one dependent on another.<br>The [!UICONTROL Add Dependency] option allows the success metric to increment if another success metric has been reached or has not been reached.<br>To add a dependency:<ol><li>After adding additional metrics, click **[!UICONTROL Advanced Settings]** under the three-dot menu to the right of [!UICONTROL Additional Goal].</li><li>Click the **[!UICONTROL Add Dependency]** option at the bottom of the [!UICONTROL Reporting Settings] section.</li><li>Drag and drop the desired metrics from the left pane into the right pane, then click [!UICONTROL Reached] to toggle the setting between [!UICONTROL Reached] and [!UICONTROL Not Reached]</li></ol>You can edit or remove dependencies after adding them.|
-   |[!UICONTROL Conversion Metric]|By default, the conversion metric is same as the optimization goal metric. However, you can define a separate conversion metric by unchecking the [!UICONTROL Same as Optimization Goal] option.|
-   |[!UICONTROL Additional Metrics]|Add any additional reporting metrics that you want to use. You can add conversion or revenue metrics.<br>**Note**: The [!UICONTROL Engagement] metric is not supported as an additional metric as well. The UI might let you select the [!UICONTROL Engagement] metric, but data does not display accurately in reports.|
-   |[!UICONTROL Audiences for Reporting]|Add audiences to enable filtering by audiences in reports. By default, the report shows results for all qualified visitors. Add audiences to filter results for more specific subsets of visitors.<br>**Note**: Unlike other activity types, [!UICONTROL Automated Personalization] cannot use [!UICONTROL Adobe Analytics] as its reporting source (A4T).|
-   |[!UICONTROL Notes]|Type any information about your activity that is useful to keep on hand for yourself or other team members. The [!UICONTROL Notes] pane is resizable.|
+   |[!UICONTROL Optimization Goal]|Specify the optimization goal, which consists of two parameters:<ul><li>What you want to measure with the activity</li><li>The action taken by an activity entrant that shows that the goal has been achieved.</li></ul>You can choose to name the optimization goal by selecting the three dots to the right of [!UICONTROL My Primary Goal]. [!UICONTROL Automated Personalization] activities can measure [!UICONTROL Conversion] or [!UICONTROL Revenue]. Conversion can be achieved by viewing a page or by viewing an mbox. Clicks can also be tracked.<P>The primary goal also becomes the modeling metric used by the modeling system to calculate the success of the experience.<P>Visitors can be kept in the activity for tracking purposes after reaching the modeling goal. For example, often an [!UICONTROL Automated Personalization] activity is used to improve click-rates, and that is set as the modeling goal. However, it's important to see how increased click-rates lead to final conversion, so tracking through the final conversion is essential.<P>You can provide dependency on multiple metrics along with the flexibility to choose whether the metric should be reached or not reached for the count to increase.<P>You must define both (or multiple) success metrics before you can make one dependent on another.<P>The [!UICONTROL Add Dependency] option allows the success metric to increment if another success metric has been reached or has not been reached.<P>To add a dependency:<ol><li>After adding additional metrics, click **[!UICONTROL Advanced Settings]** under the three-dot menu to the right of [!UICONTROL Additional Goal].</li><li>Click the **[!UICONTROL Add Dependency]** option at the bottom of the [!UICONTROL Reporting Settings] section.</li><li>Drag and drop the desired metrics from the left pane into the right pane, then click [!UICONTROL Reached] to toggle the setting between [!UICONTROL Reached] and [!UICONTROL Not Reached].</li></ol>You can edit or remove dependencies after adding them.|
+   |[!UICONTROL Conversion Metric]|By default, the conversion metric is the same as the optimization goal metric. However, you can define a separate conversion metric by unchecking the [!UICONTROL Same as Optimization Goal] option.|
+   |[!UICONTROL Additional Metrics]|Add any additional reporting metrics that you want to use. You can add conversion or revenue metrics.<P>**Note**: The [!UICONTROL Engagement] metric is not supported as an additional metric. The [!DNL Target] UI might let you select the [!UICONTROL Engagement] metric, but the data does not display accurately in reports.|
+   |[!UICONTROL Audiences for Reporting]|Add audiences to enable filtering by audiences in reports. By default, the report shows results for all qualified visitors. Add audiences to filter results for more specific subsets of visitors.<P>**Note**: Unlike other activity types, [!UICONTROL Automated Personalization] cannot use [!UICONTROL Adobe Analytics] as its reporting source (A4T).|
+   |[!UICONTROL Notes]|Type any information about your activity that is useful for you or for other team members. The [!UICONTROL Notes] pane is resizable.|
 
    When you name or rename a metric, the following characters are not allowed:
 
@@ -145,6 +156,6 @@ The [!UICONTROL Automated Personalization] (AP) activity workflow in [!DNL Adobe
    |-|Minus|
    |@|At sign|
 
-After you click **[!UICONTROL Save & Close]**, the activity's [!UICONTROL Overview] page displays. Click **Preview Experiences** to preview how your experiences look when delivered. A pop-up appears that you can use to view and share links to your AP experiences on your site to get a "true preview" of the experiences outside of [!UICONTROL Target]'s Visual Experience Composer (VEC). You must share the links from the message to share the preview. Clicking a link and then copying the URL directly from the browser won't work. Copying the link causes the URL to contain a parameter that displays the page correctly only when you access the page from the link in the message. 
+After you click **[!UICONTROL Save & Close]**, the activity's [!UICONTROL Overview] page displays. Click **Preview Experiences** to preview how your experiences look when delivered. A pop-up appears that you can use to view and share links to your AP experiences on your site to get a "true preview" of the experiences outside of the [!UICONTROL Target] [!UICONTROL Visual Experience Composer] (VEC). You must share the links from the message to share the preview. Clicking a link and then copying the URL directly from the browser does not work. Copying the link causes the URL to contain a parameter that displays the page correctly only when you access the page from the link in the message. 
 
 For information about reporting, see [Automated Personalization Reports](/help/main/c-reports/personalization-reports/reports-ap.md).

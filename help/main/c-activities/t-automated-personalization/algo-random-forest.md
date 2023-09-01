@@ -31,7 +31,7 @@ This action results in the first layer of the decision tree:
 
 ![decsion_tree_1 image](assets/decsion_tree_1.png)
 
-The decision tree poses the question, "What is the most predictive variable?" In this example, there are only two variables, so the answer here is clearly gender. The tree now looks to complete a similar exercise to split the data *within each branch*. First, let's consider the 11111, 22222, and 33333 branch. In these zip codes, if there is a difference in conversion between men and women, then there would be two leaves (men and women), and this branch would be complete. In the other branch, 44444 and 55555, let's assume there is no statistical difference between how women and men convert. In this case, the first branch becomes the final split.
+The decision tree poses the question, "What is the most predictive variable?" In this example, there are only two variables, so the answer here is clearly gender. The tree now looks to complete a similar exercise to split the data *within each branch*. First, let's consider the 11111, 22222, and 33333 branch. In these zip codes, if there is a difference in conversion between men and women, then there would be two leaves (men and women), and this branch would be complete. In the other branches, 44444 and 55555, let's assume there is no statistical difference between how women and men convert. In this case, the first branch becomes the final split.
 
 The example would result in the below tree:
 
@@ -43,11 +43,11 @@ Decision trees can be a powerful statistical tool. However, they have some disad
 
 ## How do the [!DNL Target] personalization algorithms use Random Forest? {#section_32FB53CAD8DF40FB9C0F1217FBDBB691}
 
-**How Models are built**
+### How models are built
 
 The following diagram summarizes how models are built for [!UICONTROL Auto-Target] and [!UICONTROL Automated Personalization] activities:
 
-![random_forest_flow image](assets/random_forest_flow.png){width="600" zoomable="yes"}
+![random_forest_flow image](assets/random_forest_flow.png){width="650" zoomable="yes"}
 
 1. Target collects data on visitors while randomly serving experiences or offers 
 1. After [!DNL Target] hits a critical mass of data, [!DNL Target] performs feature engineering 
@@ -61,7 +61,7 @@ Each model must be validated to ensure that it is good at predicting the behavio
 
 When a model becomes valid for an experience or offer, the clock icon to the left of experience/offer name changes to a green checkbox. When there are valid models for at least two experiences or offers, some visits start to become personalized.
 
-**Feature transformation **
+### Feature transformation
 
 Before the data goes through the personalization algorithm, it undergoes a feature transformation, which can be thought of as prepping the data collected in the training records for use by the personalization models.
 
@@ -72,7 +72,7 @@ The feature transformations depend on the type of attribute. Mainly, there are t
 
 For categorical features, a set of all possible features is maintained and the likelihood transformation is used to reduce the data size. For numeric features, rescaling ensures that the features are comparable across the board.
 
-**Balancing learning vs. personalizing with the Multi-Armed Bandit**
+### Balancing learning versus personalizing with the multi-armed bandit
 
 After [!DNL Target] has personalization models built to personalize your traffic, there is a clear tradeoff you face for future visitors to your activity. Should you personalize all the traffic based on the current model or should you continue to learn from new visitors by randomly serving them random offers? You want to make sure the personalization algorithm is always learning about new trends in your visitors, while personalizing most of the traffic.
 
