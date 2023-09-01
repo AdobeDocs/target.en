@@ -81,7 +81,7 @@ Today's marketers under-power a remarkable number of tests. In other words, they
 
 To avoid under-powering your test, consider that a typical standard for a well-powered test includes a confidence level of 95% and a statistical power of 80%. Such a test offers a 95% probability that you avoid a false positive and an 80% probability that you avoid a false negative.
 
-## Step 4: Using one-tailed tests {#section_8BB136D1DD6341FA9772F4C31E9AA37C}
+## Pitfall 4: Using one-tailed tests {#section_8BB136D1DD6341FA9772F4C31E9AA37C}
 
 One-tailed tests require a smaller observed difference in conversion rates between the offers to call a winner at a certain significance level. This type of test seems to appeal because winners can be called earlier and more often than when using two-tailed tests. But in keeping with the saying, "There's no free lunch," one-tailed tests come at an expense.
 
