@@ -44,7 +44,7 @@ To set the default environment for reporting:
 >
 >[!DNL Recommendations] users must rebuild their behavior database and product database if hosts switch host groups.
 >
->If you specify a [default environment in an Adobe Experience Platform datastream](https://experienceleague.adobe.com/docs/experience-platform/datastreams/configure.html?lang=en#target){target=_blank}, this environment overrides the setting in [!DNL Target Recommendations]. 
+>If you specify a [default environment in an [!DNL Adobe Experience Platform] datastream](https://experienceleague.adobe.com/docs/experience-platform/datastreams/configure.html?lang=en#target){target=_blank}, this setting overrides the setting in [!DNL Target]. 
 
 ## Change the name of an environment {#section_9F5F94285F8E495E9CE69810CE94CA08}
 
