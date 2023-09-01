@@ -13,6 +13,13 @@ This page lists significant changes made to the [!DNL Adobe Target] product docu
 
 |Date|Topic|Changes|
 | --- | --- | --- |
+|September 1|[Environments](/help/main/administrating-target/environments.md##section_4F8539B07C0C45E886E8525C344D5FB0)|Updated note under "Set the default environment for reporting."|
+|August 30|[Privacy](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/privacy/privacy.html#aep){target=_blank}|Added new section: "Datastream-level IP obfuscation when using the Adobe Experience Platform Web SDK"|
+||[Activity settings - A4T FAQ](/help/main/c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-activity-setup.md#section_9F8092BE4225442896F926540292F221)|Corrected time frame to expect data to display in reports in the following FAQ: "I just created an activity. Why don't I see any data coming in?"|
+|August 29|[Supported features for on-device decisioning](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/on-device-decisioning/supported-features.html){target=_blank}|Added the list of Geo attributes supported for targeting when using on-device decisioning (ODD) client-side.|
+||[On-device decisioning overview](https://experienceleague.adobe.com/docs/target-dev/developer/server-side/on-device-decisioning/overview.html){target=_blank}|Added the list of Geo attributes supported for targeting when using on-device decisioning (ODD) server-side.|
+||[Implement Target with the AEP Mobile SDK in a native app with web views](https://experienceleague.adobe.com/docs/target-dev/developer/mobile-apps/native-app.html){target=_blank}|New article.|
+||[[!DNL Adobe Target] announcements and events](/help/main/r-release-notes/target-announcements.md)|Added information about the upcoming Adobe Target Community Coffee Break (August 30, 2023): "Strategize for maximum ROI impact with peak season readiness" webinar follow-up.|
 |August 14|[Activity QA](/help/main/c-activities/c-activity-qa/activity-qa.md)|Added information clarifying that loading a page on your site with an empty value does *not* remove the QA cookie from the browser when at.js 2.*x* is deployed.|
 ||[Statistical calculations in A/Bn tests](/help/main/c-reports/statistical-methodology/statistical-calculations.md)|Updated the definition of "Confidence."|
 ||[Offers](/help/main/c-experiences/c-manage-content/manage-content.md)|Added note explaining that image offers are not part of the [!UICONTROL Enterprise User Permissions] model.|
