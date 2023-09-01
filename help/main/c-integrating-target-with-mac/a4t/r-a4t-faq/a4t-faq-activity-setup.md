@@ -29,7 +29,7 @@ For more information, see "While configuring my goal metrics, why can't I access
 
 
 +++Answer
-When an activity is created, [!DNL Target] sends a classification file to [!DNL Analytics]. Although [!DNL Analytics] is capturing and processing the data, it does not show that in the reports until the classification file has been updated. This process can take up to 24 hours. If after 48 hours you don't see your data, please [contact Client Care](/help/main/cmp-resources-and-contact-information.md#reference_ACA3391A00EF467B87930A450050077C). Alternately, if you know you launch an activity, you can create the activity a few days beforehand and the classifications are sent when the activity is saved. That way, data appears in the reports upon launch. Please note that it takes 45-90 minutes for data to be processed in [!DNL Analytics].
+When an activity is created, [!DNL Target] sends a classification file to [!DNL Analytics]. Although [!DNL Analytics] is capturing and processing the data, it does not show that in the reports until the classification file has been updated. This process can take 24 to 72 hours to complete. If after 72 hours you don't see your data, [contact Client Care](/help/main/cmp-resources-and-contact-information.md#reference_ACA3391A00EF467B87930A450050077C). Alternately, if you know you launch an activity, you can create the activity a few days beforehand and the classifications are sent when the activity is saved. That way, data appears in the reports upon launch. Please note that it takes 45-90 minutes for data to be processed in [!DNL Analytics].
 
 +++
 

@@ -9,15 +9,38 @@ exl-id: 02bbc049-ab41-469b-8f7b-dc93ffb8ae73
 
 Announcements and information about [!DNL Adobe Target] events, including [!DNL Target] Coffee Break sessions, [!DNL Target] webinar series, [!DNL Target] Skill Builder sessions, developer chats, and more. Links to past recordings are included if available.
 
+## [!DNL Adobe Target] Community Q&A Coffee Break (August 30, 2023)
+
+* **Topic: "Strategize for maximum ROI impact with peak season readiness" webinar follow-up**
+* **Wednesday, August 30, 2023**
+* **8:00-9:00 a.m. (PDT, UTC-7)**
+* **[Register here](https://experienceleaguecommunities.adobe.com/t5/target-community-events/community-q-amp-a-coffee-break-8-30-23-strategize-for-maximum/ec-p/612837#M80){target=_blank}**
+
+[!DNL Adobe Target] experts John Magnusson and John Mosbaugh  will be available in this ask-me-anything event to answer your questions related to the topics covered in the  "Strategize for maximum ROI impact with peak season readiness" webinar (August 17, 2023).
+
++++See details
+
+Topics include:
+
+* How to effectively create dashboards and report key metrics
+* Examining the impact of each marketing channel
+* Digging deeper into customer behavior and shopping trends
+* Identifying poor customer experiences and improving them via testing
+* Uncovering areas of opportunity to drive site conversion
+
++++
+
 ## [!DNL Adobe Target] webinar series {#webinar-series}
 
 Register for the following webinars to see how customers are using [!DNL Target] to achieve their personalization and optimization goals:
 
-### Strategize for maximum ROI impact with peak season readiness
+None scheduled at this time.
 
-* **Thursday, August 17, 2023**
-* **8:00-9:00 a.m. (PDT, UTC-7)**
-* **[Register here](https://adobepeakseasonreadiness2023.experienceleague.adobeevents.com/){target=_blank}**
+## Recordings of past webinars and skill-builder sessions
+
+Access recordings of past events (when available):
+
+### Strategize for maximum ROI impact with peak season readiness
 
 Deliver engaging customer experiences to enhance conversion rates. Is your business ready for peak season? Join us and get access to expert tips on how you can achieve optimal performance and maximum ROI this time.
 
@@ -34,10 +57,6 @@ Topics include:
 * Uncover areas of opportunity to drive site conversion
 
 +++
-
-## Recordings of past webinars and skill-builder sessions
-
-Access recordings of past events (when available):
 
 ### Mobile Experience Optimization and Personalization for Authenticated Environments (April 26, 2023)
 
