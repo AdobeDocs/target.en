@@ -13,21 +13,23 @@ These release notes provide information about features, enhancements, and fixes 
 
 (The issue numbers in parentheses are for internal [!DNL Adobe] use.)
 
-## [!DNL Adobe Target] Edge planned infrastructure upgrade {#edge}
+## [!DNL Target] Standard/Premium 23.9.1 (September 6-11, 2023)
 
-The planned edge infrastructure upgrade requires additional IP or domains to be allow-listed. Review and allow-list the NAT and IP/domains for edge deployments 41-48. Infrastructure upgrades begin August 9, 2023.
+This release is available according to the following staggered schedule:
 
-For more information, see [Allowlist Target edge nodes](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/privacy/allowlist-edges.html){target=_blank} in the *Adobe Target Developer Guide*.
-
-## [!DNL Target] Standard/Premium 23.8.1 (August 9, 2023)
+* **September 6**: Americas region
+* **September 7**: Europe, Middle East, and Africa (EMEA) region
+* **September 11**: Asia-Pacific (APAC) region
 
 This release contains the following enhancements and fixes:
 
-* Fixed an issue that sometimes prevented activities from syncing properly, as shown in the "[!UICONTROL Status]" column on the [!UICONTROL Activity] list page. (TGT-46010 & TGT-44831)
-* Fixed an issue that sometimes prevented the "[!UICONTROL View in Analytics]" link from displaying on the [!UICONTROL Reports] page of activities that use [!UICONTROL Analytics for Target] (A4T) as the reporting source. (TGT-45808)
-* Adjusted the presentation of values in tables to display as percentages instead of numbers with decimals. For example, 8% instead of .08. (TGT-45548)
-* Fixed an issue that prevented customers from using keyboard focus to move to the next element in the [!UICONTROL Goals & Settings] page for [!UICONTROL Experience Targeting] (XT) activities. (TGT-44526)
-* Fixed an issue that caused keyboard loss of focus after opening the "[!UICONTROL Add audiences]" dialog while creating an activity. (TGT-44525)
+* Fixed an issue that caused inconsistent reporting data in the [!DNL Target] UI and the [!DNL Adobe Analytics] UI for [!UICONTROL Auto-Allocate] activities that use [!UICONTROL Analytics for Target] (A4T) as the reporting source. (TGT-46112)
+* Increased the timeout for PUT calls to the Target Delivery API to 15 seconds to avoid timeout errors. (TGT-46091)
+* Fixed an issue that displayed the incorrect report name when switching between the [!UICONTROL Table View] and the [!UICONTROL Automated Segments] and [!UICONTROL Important Attributes] reports. (TGT-46040)
+* Enhanced the [!UICONTROL Visual Experience Composer] (VEC) to support Lightning DOM (Web Components). (TGT-45422)
+* Fixed an issue that caused VEC actions to be applied in the incorrect order. In some cases, the VEC applied some modifications asynchronously and adding extra modifications to an element caused errors if that element displays after an [!UICONTROL Insert] action. (TGT-45983)
+* Fixed an issue when opening a Single Page Application (SPA) page in the VEC and then going to Browse mode caused the Back and Forward arrows to not function correctly. (TGT-45956)
+* Fixed an issue that prevented the URL from consistently updating when browsing through a Single Page Application (SPA) website. (TGT-45417)
 
 ## Additional release notes and version details
 
