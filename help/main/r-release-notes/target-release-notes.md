@@ -32,7 +32,6 @@ This release contains the following enhancements and fixes:
 * Fixed an issue that displayed the incorrect report name when switching between the [!UICONTROL Table View] and the [!UICONTROL Automated Segments] and [!UICONTROL Important Attributes] reports. (TGT-46040)
 * Enhanced the [!UICONTROL Visual Experience Composer] (VEC) to support Lightning DOM (Web Components). (TGT-45422)
 * Fixed an issue that caused VEC actions to be applied in the incorrect order. In some cases, the VEC applied some modifications asynchronously and adding extra modifications to an element caused errors if that element displays after an [!UICONTROL Insert] action. (TGT-45983)
-* Added the ability to specify a CSS selector in the VEC. (TGT-45958 & TGT-46017)
 * Fixed an issue when opening a Single Page Application (SPA) page in the VEC and then going to Browse mode caused the Back and Forward arrows to not function correctly. (TGT-45956)
 * Fixed an issue that prevented the URL from consistently updating when browsing through a Single Page Application (SPA) website. (TGT-45417)
 
