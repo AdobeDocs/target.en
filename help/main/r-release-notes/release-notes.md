@@ -25,10 +25,6 @@ This release contains the following enhancements and fixes:
 
 * Fixed an issue that caused inconsistent reporting data in the [!DNL Target] UI and the [!DNL Adobe Analytics] UI for [!UICONTROL Auto-Allocate] activities that use [!UICONTROL Analytics for Target] (A4T) as the reporting source. (TGT-46112)
 * Increased the timeout for PUT calls to the Target Delivery API to 15 seconds to avoid timeout errors. (TGT-46091)
-* Fixed an issue that displayed the incorrect report name when switching between the [!UICONTROL Table View] and the [!UICONTROL Automated Segments] and [!UICONTROL Important Attributes] reports. (TGT-46040)
-* Enhanced the [!UICONTROL Visual Experience Composer] (VEC) to support Lightning DOM (Web Components). (TGT-45422)
-* Fixed an issue that caused VEC actions to be applied in the incorrect order. In some cases, the VEC applied some modifications asynchronously and adding extra modifications to an element caused errors if that element displays after an [!UICONTROL Insert] action. (TGT-45983)
-* Fixed an issue when opening a Single Page Application (SPA) page in the VEC and then going to Browse mode caused the Back and Forward arrows to not function correctly. (TGT-45956)
 * Fixed an issue that prevented the URL from consistently updating when browsing through a Single Page Application (SPA) website. (TGT-45417)
 
 ## Additional release notes and version details
