@@ -13,6 +13,19 @@ These release notes provide information about features, enhancements, and fixes 
 
 (The issue numbers in parentheses are for internal [!DNL Adobe] use.)
 
+## [!DNL Target] Standard/Premium 23.9.2 (September 12-14, 2023)
+
+This release is available according to the following staggered schedule:
+
+* **September 12**: Americas region
+* **September 13**: Asia-Pacific (APAC) region
+* **September 14**: Europe, Middle East, and Africa (EMEA) region
+
+This release contains the following enhancements and fixes:
+
+* Changed the [!DNL Analytics] API to the new [!DNL Analytics] API version 2.0. (TGT-45345)
+* Fixed issues that impacted [!UICONTROL Automated Personalization] (AP) activities for some customers, including timely syncing the activity on the [!DNL Target] backend and delivering the expected experience in preview links. (TGT-46202)
+
 ## [!DNL Target] Standard/Premium 23.9.1 (September 6-11, 2023)
 
 This release is available according to the following staggered schedule:
