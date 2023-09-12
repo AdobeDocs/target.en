@@ -13,21 +13,32 @@ These release notes provide information about features, enhancements, and fixes 
 
 (The issue numbers in parentheses are for internal [!DNL Adobe] use.)
 
-## [!DNL Adobe Target] Edge planned infrastructure upgrade {#edge}
+## [!DNL Target] Standard/Premium 23.9.2 (September 12-14, 2023)
 
-The planned edge infrastructure upgrade requires additional IP or domains to be allow-listed. Review and allow-list the NAT and IP/domains for edge deployments 41-48. Infrastructure upgrades begin August 9, 2023.
+This release is available according to the following staggered schedule:
 
-For more information, see [Allowlist Target edge nodes](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/privacy/allowlist-edges.html){target=_blank} in the *Adobe Target Developer Guide*.
-
-## [!DNL Target] Standard/Premium 23.8.1 (August 9, 2023)
+* **September 12**: Americas region
+* **September 13**: Asia-Pacific (APAC) region
+* **September 14**: Europe, Middle East, and Africa (EMEA) region
 
 This release contains the following enhancements and fixes:
 
-* Fixed an issue that sometimes prevented activities from syncing properly, as shown in the "[!UICONTROL Status]" column on the [!UICONTROL Activity] list page. (TGT-46010 & TGT-44831)
-* Fixed an issue that sometimes prevented the "[!UICONTROL View in Analytics]" link from displaying on the [!UICONTROL Reports] page of activities that use [!UICONTROL Analytics for Target] (A4T) as the reporting source. (TGT-45808)
-* Adjusted the presentation of values in tables to display as percentages instead of numbers with decimals. For example, 8% instead of .08. (TGT-45548)
-* Fixed an issue that prevented customers from using keyboard focus to move to the next element in the [!UICONTROL Goals & Settings] page for [!UICONTROL Experience Targeting] (XT) activities. (TGT-44526)
-* Fixed an issue that caused keyboard loss of focus after opening the "[!UICONTROL Add audiences]" dialog while creating an activity. (TGT-44525)
+* Changed the [!DNL Analytics] API to the new [!DNL Analytics] API version 2.0. (TGT-45345)
+* Fixed issues that impacted [!UICONTROL Automated Personalization] (AP) activities for some customers, including timely syncing the activity on the [!DNL Target] backend and delivering the expected experience in preview links. (TGT-46202)
+
+## [!DNL Target] Standard/Premium 23.9.1 (September 6-11, 2023)
+
+This release is available according to the following staggered schedule:
+
+* **September 6**: Americas region
+* **September 7**: Europe, Middle East, and Africa (EMEA) region
+* **September 11**: Asia-Pacific (APAC) region
+
+This release contains the following enhancements and fixes:
+
+* Fixed an issue that caused inconsistent reporting data in the [!DNL Target] UI and the [!DNL Adobe Analytics] UI for [!UICONTROL Auto-Allocate] activities that use [!UICONTROL Analytics for Target] (A4T) as the reporting source. (TGT-46112)
+* Increased the timeout for PUT calls to the Target Delivery API to 15 seconds to avoid timeout errors. (TGT-46091)
+* Fixed an issue that prevented the URL from consistently updating when browsing through a Single Page Application (SPA) website. (TGT-45417)
 
 ## Additional release notes and version details
 

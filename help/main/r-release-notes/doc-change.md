@@ -9,6 +9,14 @@ exl-id: 36d19598-eb46-4be6-a652-658b653287cb
 
 This page lists significant changes made to the [!DNL Adobe Target] product documentation.
 
+## [!DNL Target] Standard/Premium 23.9.1 (September 6-11, 2023)
+
+|Date|Topic|Changes|
+| --- | --- | --- |
+|September 12|[[!DNL Target] release notes (current)](/help/main/r-release-notes/release-notes.md)|Added release notes for the [!DNL Target Standard/Premium] 23.9.2 release.|
+|September 11|[[!DNL Target] release notes (prerelease)](/help/main/r-release-notes/target-release-notes.md)|Added prerelease notes for the [!DNL Target Standard/Premium] 23.9.2 release.|
+|September 6|[Target release notes (current)](/help/main/r-release-notes/release-notes.md)|Added release notes for the [!DNL Target Standard/Premium] 23.9.1 release.|
+
 ## [!DNL Target] Standard/Premium 23.8.1 (August 9, 2023)
 
 |Date|Topic|Changes|
