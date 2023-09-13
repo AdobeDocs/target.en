@@ -10,7 +10,7 @@ exl-id: 2bf62cc1-1781-4021-a400-2884e0bae893
 
 Consult the following FAQs and answers as you work with [!UICONTROL Automated Personalization] activities in [!DNL Adobe Target].
 
-## Can I specify a specific experience to be used as a control?
+## Can I specify a specific experience to be used as a control in an [!UICONTROL Automated Personalization] activity?
 
 +++See details
 
