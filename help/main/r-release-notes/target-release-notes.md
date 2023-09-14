@@ -17,32 +17,15 @@ This article contains prerelease information for upcoming [!DNL Adobe Target] re
 >
 >To view information about the current release, see [Target Release Notes](release-notes.md). The information on these pages might be the same, depending on the timing of releases. The issue numbers in parentheses are for internal [!DNL Adobe] use.
 
-## [!DNL Target] Standard/Premium 23.9.2 (September 12-14, 2023)
-
-This release is available according to the following staggered schedule:
-
-* **September 12**: Americas region
-* **September 13**: Asia-Pacific (APAC) region
-* **September 14**: Europe, Middle East, and Africa (EMEA) region
+## [!DNL Target] Standard/Premium 23.9.3 (September 18, 2023)
 
 This release contains the following enhancements and fixes:
 
-* Changed the [!DNL Analytics] API to the new [!DNL Analytics] API version 2.0. (TGT-45345)
-* Fixed issues that impacted [!UICONTROL Automated Personalization] (AP) activities for some customers, including timely syncing the activity on the [!DNL Target] backend and delivering the expected experience in preview links. (TGT-46202)
-
-## [!DNL Target] Standard/Premium 23.9.1 (September 6-11, 2023)
-
-This release is available according to the following staggered schedule:
-
-* **September 6**: Americas region
-* **September 7**: Europe, Middle East, and Africa (EMEA) region
-* **September 11**: Asia-Pacific (APAC) region
-
-This release contains the following enhancements and fixes:
-
-* Fixed an issue that caused inconsistent reporting data in the [!DNL Target] UI and the [!DNL Adobe Analytics] UI for [!UICONTROL Auto-Allocate] activities that use [!UICONTROL Analytics for Target] (A4T) as the reporting source. (TGT-46112)
-* Increased the timeout for PUT calls to the Target Delivery API to 15 seconds to avoid timeout errors. (TGT-46091)
-* Fixed an issue that prevented the URL from consistently updating when browsing through a Single Page Application (SPA) website. (TGT-45417)
+* Enhanced the Visual Experience Composer (VEC) to support Lightning DOM (Web Components). (TGT-45422)
+* Fixed an issue that caused VEC actions to be applied in the incorrect order. In some cases, the VEC applied some modifications asynchronously and adding extra modifications to an element caused errors if that element displays after an [!UICONTROL Insert] action. (TGT-45983)
+* Fixed an issue with the VEC [!UICONTROL Overlay] feature to support elements in Shadow DOMs. (TGT-46217)
+* Fixed an issue when opening a Single Page Application (SPA) page in the VEC and then going to Browse mode caused the Back and Forward arrows to not function correctly. (TGT-45956)
+* Fixed an issue that caused some web pages to fail when loading in the VEC.
 
 ## Additional release notes and version details
 
