@@ -9,13 +9,23 @@ exl-id: f2783042-f6ee-4f73-b487-ede11d55d530
 
 This article contains prerelease information for upcoming [!DNL Adobe Target] releases, including SDKs, APIs, and JavaScript libraries.
 
-**Last Updated: September 14, 2023**
+**Last Updated: September 15, 2023**
 
 >[!NOTE]
 >
 >Release dates, features, and other information are subject to change without notice.
 >
 >To view information about the current release, see [Target Release Notes](release-notes.md). The information on these pages might be the same, depending on the timing of releases. The issue numbers in parentheses are for internal [!DNL Adobe] use.
+
+## [!DNL Target] Standard/Premium 23.9.3 (September 18, 2023)
+
+This release contains the following enhancements and fixes:
+
+* Enhanced the [!UICONTROL Visual Experience Composer] (VEC) to support Lightning DOM (Web Components). (TGT-45422)
+* Fixed an issue that caused VEC actions to be applied in the incorrect order. In some cases, the VEC applied some modifications asynchronously and adding extra modifications to an element caused errors if that element displays after an [!UICONTROL Insert] action. (TGT-45983)
+* Fixed an issue with the VEC [!UICONTROL Overlay] feature, which now supports elements in Shadow DOMs. (TGT-45202 & TGT-45262)
+* Fixed an issue when opening a Single Page Application (SPA) page in the VEC and then going to [!UICONTROL Browse] mode caused the Back and Forward arrows to not function correctly. (TGT-45956)
+* Fixed and issue that prevented some web pages from loading in the VEC. (TGT-45983)
 
 ## [!DNL Target] Standard/Premium 23.9.2 (September 12-14, 2023)
 
