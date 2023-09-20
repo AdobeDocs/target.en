@@ -1,11 +1,11 @@
 ---
 keywords: experience targeting;xt;metrics;set metrics;goal metric;activity settings;success metric;conversion;revenue;engagement
-description: Learn how to specify metrics in an Adobe [!DNL Target] Experience Targeting activity to determine when a visit is successful, such as Conversion, Revenue, and Engagement.
-title: How Do I Set Goal Metrics in an Experience Targeting Activity?
+description: Learn how to specify metrics in an [!DNL Adobe Target] [!UICONTROL Experience Targeting] activity to determine when a visit is successful, such as [!UICONTROL Conversion], [!UICONTROL Revenue], or [!UICONTROL Engagement].
+title: How Do I Set Goal Metrics in an [!UICONTROL Experience Targeting] Activity?
 feature: Experience Targeting
 exl-id: 16249930-8b9c-441c-bd14-5f32332556d2
 ---
-# Set metrics in Experience Targeting (XT) activities
+# Set metrics in [!UICONTROL Experience Targeting] (XT) activities
 
 Use metrics in an [!DNL Adobe Target] [!UICONTROL Experience Targeting] (XT) activity to determine when a visit is successful.
 
@@ -16,25 +16,27 @@ For detailed information about success metrics, see [Success Metrics](/help/main
 
    ![Select success metric](/help/main/c-activities/t-experience-target/t-xt-create/assets/ab_metrics-new.png)
 
-   The [!UICONTROL Select Metrics] page lists the success metrics you can choose for your activity. The success metrics are divided into the following categories:
+   The [!UICONTROL Select Metrics] page lists the success metrics that you can choose for your activity. The success metrics are divided into the following categories:
 
-   * Conversion 
-   * Revenue 
-   * Engagement
+   * [!UICONTROL Conversion] 
+   * [!UICONTROL Revenue] 
+   * [!UICONTROL Engagement]
 
-   You can use any of the pre-built success metrics, or create a custom success metric. You can also mark a success metric as a primary metric. Reports and Experience Cloud cards default to show the primary metric, if one is set. 
+   YUse any of the prebuilt success metrics, or you can create a custom success metric. You can also mark a success metric as a primary metric. Reports and Experience Cloud cards default to show the primary metric, if one is set. 
 1. Specify the settings for your metrics.
 
-   The available settings depend on the success metric you are using.
+   The available settings depend on the success metric that you are using.
 
-   If enabled, the [!UICONTROL Estimated Value of the Conversion]field (not available for the Page Score metrics) provides a value for your goal. This value enables Target to calculate an estimated lift in revenue. This field is optional; however, incremental revenue for any non-revenue metric cannot be calculated without it. The data type is currency. This field is progressively shown after the user indicates the action taken to satisfy the goal. See [Estimating Lift in Revenue](/help/main/administrating-target/r-target-account-preferences/estimating-lift-in-revenue.md) for more information.
+   If enabled, the [!UICONTROL Estimated Value of the Conversion] field (not available for [!UICONTROL Page Score] metrics) provides a value for your goal. This value enables [!DNL Target] to calculate an estimated lift in revenue. This field is optional; however, incremental revenue for any non-revenue metric cannot be calculated without it. The data type is currency. This field is progressively shown after the user indicates the action taken to satisfy the goal. See [Estimating Lift in Revenue](/help/main/administrating-target/r-target-account-preferences/estimating-lift-in-revenue.md) for more information.
 
    The correct configuration of success metrics is critical for making sure you get the data you expect.
 
    For more information, see [Success Metrics](/help/main/c-activities/r-success-metrics/success-metrics.md#reference_D011575C85DA48E989A244593D9B9924). 
+
 1. (Optional) Add additional metrics.
 1. Click **[!UICONTROL Continue]** when you are finished setting your metrics.
-Note that when you name or rename a metric, the following characters are not allowed:
+
+When you name or rename a metric, the following characters are not allowed:
 
    | Character | Description |
    |--- |--- |
@@ -49,11 +51,10 @@ Note that when you name or rename a metric, the following characters are not all
 
 ## Training video: Activity Metrics (7:43) ![Tutorial badge](/help/main/assets/tutorial.png)
 
-
 This video includes information about working with success metrics.
 
 * Understand "goal" metrics 
-* Understand and build Conversion, Revenue, and Engagement metrics 
+* Understand and build [!UICONTROL Conversion], [!UICONTROL Revenue], and [!UICONTROL Engagement] metrics 
 * Build a click-tracking metric
 
 >[!VIDEO](https://video.tv.adobe.com/v/17380)
