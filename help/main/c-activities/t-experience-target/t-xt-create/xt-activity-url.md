@@ -1,13 +1,13 @@
 ---
 keywords: Experience Targeting;xt;activity url;url
-description: Learn how to specify the Activity URL that determines the page that is used in the test and that opens when the Experience Targeting activity is designed using Adobe Target.
-title: What Is the Activity URL In an Experience Targeting (XT) Activity?
+description: Learn how to specify the [!UICONTROL Activity URL] that determines the page that is used in the test and that opens when the [!UICONTROL Experience Targeting] activity is designed using [!DNL Adobe Target].
+title: What Is the [!UICONTROL Activity URL] In an [!UICONTROL Experience Targeting] (XT) Activity?
 feature: Experience Targeting
 exl-id: 8e3be814-6ad6-4ffa-be8d-68f0cb7857b5
 ---
-# Activity URL in Experience Targeting (XT) activities
+# Activity URL in [!UICONTROL Experience Targeting] (XT) activities
 
-The [!UICONTROL Activity URL] determines the page that is used in the [!DNL Adobe Target] [!UICONTROL Experience Targeting] (XT) activity, and that opens in the [!UICONTROL Visual Experience Composer] (VEC) or [!UICONTROL Form-Based Experience Composer] when the activity is designed.
+The [!UICONTROL Activity URL] determines the page that is used in an [!DNL Adobe Target] [!UICONTROL Experience Targeting] (XT) activity. This is the page that opens in the [!UICONTROL Visual Experience Composer] (VEC) or [!UICONTROL Form-Based Experience Composer] when the activity is designed.
 
 1. When prompted while [creating an XT activity](/help/main/c-activities/t-experience-target/t-xt-create/xt-create.md), specify the activity URL. Type the complete URL (including `https://`), then click **[!UICONTROL Create Activity]**.
 
@@ -15,11 +15,11 @@ The [!UICONTROL Activity URL] determines the page that is used in the [!DNL Adob
    >
    >[!DNL Target] does not differentiate between URL protocols ( [!DNL https] and [!DNL http]). As a result, [!DNL `https://www.adobe.com`] and [!DNL `http://www.adobe.com`] both match.
    >
-   >By default, the VEC or Form-Based Experience Composer opens the page that is specified in your [Visual Experience Composer settings](/help/main/administrating-target/visual-experience-composer-set-up.md). You can specify a different page during activity creation.
+   >By default, the VEC or [Form-Based Experience Composer](/help/main/c-experiences/form-experience-composer.md) opens the page that is specified in your [Visual Experience Composer settings](/help/main/administrating-target/visual-experience-composer-set-up.md). You can specify a different page during activity creation.
    >
-   >If you specify a URL for a site that does not include the Target Standard JavaScript code, you cannot select page elements.
+   >If you specify a URL for a site that does not include a [[!DNL Target] at.js JavaScript library or [!DNL Adobe Experience Platform Web SDK]](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/overview.html){target=_blank}, you cannot select page elements.
 
-1. (Conditional) To display a different page after the VEC opens, click **[!UICONTROL Configure]**, select **[!UICONTROL Page Delivery]**, and specify the URL in the [!UICONTROL URL] field.
+1. (Conditional) To display a different page after the VEC opens, click **[!UICONTROL Configure]**, select **[!UICONTROL Page Delivery]**, then specify the URL in the [!UICONTROL URL] field.
 
    ![Page Delivery dialog box](/help/main/c-activities/t-experience-target/t-xt-create/assets/url-config-new.png)
 

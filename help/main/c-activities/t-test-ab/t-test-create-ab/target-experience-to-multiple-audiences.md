@@ -1,15 +1,15 @@
 ---
 keywords: multiple audiences;experience versions;target experience versions
-description: Learn how to target versions of the same experience to different audiences in Adobe [!DNL Target] A/B activities.
-title: Can I Use Multiple Experience Versions in an A/B activity?
+description: Learn how to target versions of the same experience to different audiences in [!DNL Adobe Target] A/B activities.
+title: Can I Use Multiple Experience Versions in an A/B Activity?
 feature: A/B Tests
 exl-id: 7afe36f0-ec46-4d63-bfff-45d2c8923a04
 ---
 # Multiple experience audiences in an A/B Test
 
-You can target versions of the same experience to different audiences in [!DNL Adobe Target] A/B activities. You can set up multiple audiences for an experience in the Visual Experience Composer or in the Form-Based Experience Composer.
+You can target versions of the same experience to different audiences in [!DNL Adobe Target] A/B activities. You can set up multiple audiences for an experience in the [!UICONTROL Visual Experience Composer] (VEC) or in the Form-Based Experience Composer.
 
-Users can switch between experience audiences as their profile changes. They are not stuck in the same experience for the activity's lifetime.
+Visitors can switch between experience audiences as their profile changes. Visitors are not stuck in the same experience for the activity's lifetime.
 
 For example, if your site uses a consistent design across pages or products and you want to use the same experience for multiple audiences (such as visitors with different browser languages), you can set up multiple versions of the experience. You might present the same experience to English and Japanese speakers, with the only difference being that the text is presented in the visitor's language. Data is collected for the experience, regardless of language, so the report shows the performance of the experience, rather than the version.
 
@@ -19,9 +19,9 @@ By creating different versions of an experience, you receive more accurate infor
 
 ## Scenario
 
-You are testing two experiences, a geo-targeted banner vs. a generic banner. The banner for each geography needs to be different, but the overall test is to determine whether geotargeting is better than showing generic content. If you set up a separate experience for each location, you would actually be measuring how each geo performs against the other, rather than whether geotargeting helps meet your success goals when measured against the generic banner.
+You are testing two experiences, a geo-targeted banner versus a generic banner. The banner for each geography needs to be different, but the overall test is to determine whether geo-targeting is better than showing generic content. If you set up a separate experience for each location, you would actually be measuring how each geo performs against the other, rather than whether geo-targeting helps meet your success goals when measured against the generic banner.
 
-In this case, what you need are geo-specific versions of the experience, so you can test the geotargeted experience against a non-geotargeted control. 
+In this case, what you need are geo-specific versions of the experience, so you can test the geo-targeted experience against a non-geo-targeted control. 
 
 1. [Create an A/B activity](/help/main/c-activities/t-test-ab/t-test-create-ab/test-create-ab.md) as you normally would.
 
@@ -43,6 +43,6 @@ In this case, what you need are geo-specific versions of the experience, so you 
 
 ## Best Practices
 
-* Choose mutually-exclusive audiences. If the activity was created in the VEC, If a visitor matches more than one audience, the content for each audience is returned, with the content for the audience listed last displaying on the page. 
+* Choose mutually exclusive audiences. If the activity was created in the VEC, if a visitor matches more than one audience, the content for each audience is returned, with the content for the audience listed last displaying on the page. 
 * Activity-entry audiences defined in the diagram are combined with the experience audiences using an AND condition. To enter the activity, a visitor must qualify for the activity audience, and one of the experience audiences. 
-* Add the same audiences as segments for reports. This helps you look at the test results at the high level of experience A vs B, and at the lower level of experience A vs B for just "browser lang ja_JP." This works only for Target-based reports, not Analytics-based reports.
+* Add the same audiences as segments for reports. This helps you look at the test results at the high level of experience A versus B, and at the lower level of experience A versus B for just "browser lang ja_JP." This works only for [!DNL Target]-based reports, not [!DNL Analytics]-based reports.

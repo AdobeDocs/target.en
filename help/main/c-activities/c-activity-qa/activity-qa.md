@@ -118,4 +118,3 @@ The following table lists the various activity types and indicates whether [!UIC
 |[!UICONTROL Experience Targeting] (XT)|Yes|Yes|Yes|
 |[!UICONTROL Multivariate Test] (MVT)|Yes|Yes|Yes|
 |[!UICONTROL Recommendations]|Yes|Yes|Yes|
-

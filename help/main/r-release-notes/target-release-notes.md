@@ -54,6 +54,23 @@ This release contains the following enhancements and fixes:
 * Increased the timeout for PUT calls to the Target Delivery API to 15 seconds to avoid timeout errors. (TGT-46091)
 * Fixed an issue that prevented the URL from consistently updating when browsing through a Single Page Application (SPA) website. (TGT-45417)
 
+## [!DNL Target] Standard/Premium 23.5.2 (Date to be determined)
+
+This release contains the following enhancements and fixes:
+
+* Enabled optimization criteria selection for [!DNL Adobe Analytics] metrics.
+* Enabled sync of external audiences using sling jobs.
+* Fixed an issue where SC report suites containing a dot character in the name were not supported.
+* Enabled functionality to let customers delete and edit built-in audiences.
+
+## [!DNL Target] Standard/Premium 23.5.3 (Date to be determined)
+
+This release contains the following enhancements:
+
+|Feature|Details|
+|--- |--- |
+|[!UICONTROL QA mode] for [!UICONTROL Automated Personalization] activities|[!DNL Adobe Target] [!UICONTROL QA mode] is now available for [!UICONTROL Automated Personalization] activities, replacing [!UICONTROL Preview links] functionality.<P>For more information, see [Activity QA](/help/main/c-activities/c-activity-qa/activity-qa.md).|
+
 ## Additional release notes and version details
 
 |Resource|Details|

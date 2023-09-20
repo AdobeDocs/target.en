@@ -2929,10 +2929,6 @@ The Adobe Target Standard/Premium 16.5.1 (May 19, 2016) release includes the fol
    <td colname="col2"> <p>Versions targeted to different audiences can now be set up within experiences in A/B activities. </p> <p>See <a href="/help/main/c-activities/t-test-ab/t-test-create-ab/target-experience-to-multiple-audiences.md#task_0138112E283A4A5B9F8AB9AAF2FBC2FF" format="dita" scope="local"> Target an Experience to Multiple Audiences </a>. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> QA/Preview URLs </td> 
-   <td colname="col2"> <p>Preview URLs are now available for the form-based experience composer. </p> <p>See <a href="/help/main/c-activities/c-activity-qa/activity-qa.md" format="dita" scope="local"> View Experience URLs </a>. </p> </td> 
-  </tr> 
-  <tr> 
    <td colname="col1" class="premium"> Recommendations custom algorithms </td> 
    <td colname="col2"> <p>Custom algorithm mappings can be uploaded in a CSV file. It is no longer required to use the XML-based API. </p> <p>See <a href="/help/main/c-recommendations/c-algorithms/recommendations-csv.md#task_1BBA49883E794670A09F0ABE1B3F4288" format="dita" scope="local"> Uploading Custom Criteria </a>. </p> </td> 
   </tr> 
