@@ -1,6 +1,6 @@
 ---
 keywords: priority;experience create;priority;experience;audience;experience;switching experiences;visual experience composer
-description: Learn how visitors can switch between experiences in an Adobe [!DNL Target] [!UICONTROL Experience Targeting] (XT) activity as their profiles evolve.
+description: Learn how visitors can switch between experiences in an [!DNL Adobe Target] [!UICONTROL Experience Targeting] (XT) activity as their profiles evolve.
 title: Can Visitors Switch Experiences in an [!UICONTROL Experience Targeting] Activity?
 feature: Experience Targeting
 exl-id: 8d931764-8ba7-4eac-99db-60659086b8be
@@ -15,7 +15,7 @@ The following list presents just a few scenarios in which visitors' profiles can
 |--- |--- |
 |Geographic Location|As visitors travel for business or pleasure, they might view your website or mobile app from different geographic locations.|
 |Customer Status|Visitors might be considered prospects before creating an account or purchasing a product.|
-|Category Affinity|The [category affinity](/help/main/c-target/c-visitor-profile/category-affinity.md) feature in  [!DNL Target] automatically captures the categories visitors view and then calculates the visitors' affinity for the category for targeting purposes. For example, visitors who viewed several articles on your website about a particular subject are presented with content related to that subject.|
+|Category Affinity|The [category affinity](/help/main/c-target/c-visitor-profile/category-affinity.md) feature in [!DNL Target] automatically captures the categories visitors view and then calculates the visitors' affinity for the category for targeting purposes. For example, visitors who viewed several articles on your website about a particular subject are presented with content related to that subject.|
 |Day of Week|As the weekend approaches, you might want to show visitors content about movies, dining, or other forms of entertainment.|
 
 To use these capabilities in [!DNL Target], it is important to understand the following information as you work with [!UICONTROL Experience Targeting] activities:
