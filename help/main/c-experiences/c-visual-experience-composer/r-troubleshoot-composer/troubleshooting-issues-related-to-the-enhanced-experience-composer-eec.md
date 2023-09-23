@@ -5,7 +5,7 @@ title: How Do I Troubleshoot Issues Related to the Enhanced Experience Composer?
 feature: Visual Experience Composer (VEC)
 exl-id: 7dea7707-5d9f-49c4-9ccd-618eeb7b3568
 ---
-# Troubleshooting issues related to the [!UICONTROL Enhanced Experience Composer]
+# Troubleshooting issues related to the [!UICONTROL Enhanced Experience Composer] 
 
 Display problems sometimes occur in the [!DNL Adobe Target] [!UICONTROL Enhanced Experience Composer] (EEC) under certain conditions.
 
@@ -15,15 +15,15 @@ This can be resolved by allowlisting the following IP addresses. These IP addres
 
 Ask your IT team to allowlist the following IP addresses:
 
-* 34.253.100.20
-* 34.248.100.23
-* 52.49.228.246
-* 54.205.42.123
-* 107.22.177.39
-* 52.201.5.105
-* 52.193.211.177
-* 18.180.24.249
-* 52.194.154.154
+* 52.18.97.86
+* 52.209.31.20
+* 52.214.41.220
+* 54.144.66.225
+* 54.82.53.36
+* 34.206.104.26
+* 3.115.90.128
+* 18.178.137.67
+* 3.112.77.52
 
 You might see the following error message in [!DNL Target]:
 
