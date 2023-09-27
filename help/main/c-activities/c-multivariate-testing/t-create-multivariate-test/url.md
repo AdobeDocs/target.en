@@ -1,7 +1,7 @@
 ---
 keywords: Multivariate Tests;activity url
-description: Learn how to specify the Activity URL that determines the page that is used in the test and that opens when the Multivariate Test activity is designed using Adobe Target.
-title: What Is the Activity URL In an Multivariate (MVT) Activity?
+description: Learn how to specify the activity URL that determines the page that is used in the test and that opens when the [!UICONTROL Multivariate Test] activity is designed using [!DNL Adobe Target].
+title: What Is the Activity URL In a [!UICONTROL Multivariate Test] (MVT) Activity?
 feature: Multivariate Tests
 exl-id: 336169ae-7c8b-4fd5-9b1c-0bd3e9524425
 ---
@@ -32,13 +32,13 @@ Additional rules can be based on any of the following:
 * Query 
 * Parameter
 
-Additional rules can be joined to the Activity URL with AND or OR. All rules you add are evaluated against each other with AND.
+Additional rules can be joined to the activity URL with AND or OR. All rules that you add are evaluated against each other with AND.
 
 Click **[!UICONTROL Save]** when you have finished.
 
 >[!NOTE]
 >
->If you entered a URL for a site that does not include the Target Standard JavaScript code, you cannot select page elements.
+>If you entered a URL for a site that does not include the [!DNL Target] JavaScript code, you cannot select page elements.
 
 By default, the VEC does not allow changes to elements containing JavaScript, such as rotating banners. You can toggle off **[!UICONTROL Render using JavaScript]** if you want to be able to alter those elements using the [!UICONTROL Visual Experience Composer].
 

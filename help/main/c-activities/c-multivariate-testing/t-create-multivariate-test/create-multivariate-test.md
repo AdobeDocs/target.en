@@ -1,13 +1,13 @@
 ---
 keywords: mvt;multivariate test;multivariate test create;multivariate test creating;mvt create;mvt creating;mvt how;multivariate test how
-description: Learn how to use the Visual Experience Composer (VEC) in Adobe [!DNL Target] to create a Multivariate Test (MVT) right on a [!DNL Target]-enabled page.
-title: How Do I Create a Multivariate Test?
+description: Learn how to use the [!UICONTROL Visual Experience Composer] (VEC) in [!DNL Adobe Target] to create a [!UICONTROL Multivariate Test] (MVT).
+title: How Do I Create a [!UICONTROL Multivariate Test]?
 feature: Multivariate Tests
 exl-id: 7712b747-543a-4e19-b689-bea36c44805c
 ---
 # Create a Multivariate Test
 
-The [!UICONTROL Visual Experience Composer] (VEC) in [!DNL Adobe Target] makes it easy to create your test right on a Target-enabled page and to modify portions of the page within [!DNL Target].
+The [!UICONTROL Visual Experience Composer] (VEC) in [!DNL Adobe Target] makes it easy to create a [!UICONTROL Multivariate Test] and to modify portions of the page within [!DNL Target].
 
 The [!DNL Target] point-and-click editor enables you to pick any location and add multiple offers.
 
@@ -19,31 +19,21 @@ The [!UICONTROL Multivariate Test] (MVT) takes a page-first report. In other wor
 
    >[!NOTE]
    >
-   >The available activity types depend on your Target account. Some activity types might not appear in your list. For example, [!UICONTROL Automated Personalization] is a [Target Premium feature](/help/main/c-intro/intro.md#premium).
-   >
    >For more information about the various activity types available in [!DNL Target] and their differences, see [Activities](/help/main/c-activities/activities.md#concept_D317A95A1AB54674BA7AB65C7985BA03). See [Target Activity types](/help/main/c-activities/target-activities-guide.md) to help you decide which activity type best suites your needs.
 
-1. Select **[!UICONTROL Visual (Default)]**, if necessary.
+1. (Conditional) Choose the delivery type: [!UICONTROL Web], [!UICONTROL Mobile], [!UICONTROL Email], or [!UICONTROL Other/API].
 
-   ![Create Multivariate Test Activity dialog box](/help/main/c-activities/c-multivariate-testing/t-create-multivariate-test/assets/create-mvt-dialog.png)
+1. (Conditional) If you are a [Target Premium](/help/main/c-intro/intro.md#premium) customer, [choose a workspace](/help/main/administrating-target/c-user-management/property-channel/property-channel.md).
 
-   >[!NOTE]
-   >
-   >For troubleshooting information about the VEC, should you have problems, see [Troubleshooting the Visual Experience Composer](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/troubleshoot-composer.md).
-   >
-   >The [!UICONTROL Choose Workplace] option in the preceding illustration is a [Target Premium](/help/main/c-intro/intro.md) feature. Your organization has a Target Standard license if you do not see this option.
-
-1. (Conditional) If you are a Target Premium customer, [choose a workspace](/help/main/administrating-target/c-user-management/property-channel/property-channel.md).
-
-1. [Specify the URL](/help/main/c-activities/c-multivariate-testing/t-create-multivariate-test/url.md#concept_C12E4A85FF3B4E518E3110F6CF1AF9C0) for the page you want to test, then click **[!UICONTROL Next]**.
+1. [Specify the URL](/help/main/c-activities/c-multivariate-testing/t-create-multivariate-test/url.md#concept_C12E4A85FF3B4E518E3110F6CF1AF9C0) for the page that you want to test, then click **[!UICONTROL Next]**.
    
    >[!NOTE]
    >
-   >Use a complete URL, including the HTTP or HTTPS at the beginning.
+   >Use a complete URL, including HTTP or HTTPS at the beginning.
 
    If a message appears, asking you to enable your browser for mixed content, follow the instructions in the message. After enabling your browser for mixed content, begin again at Step 1.
 
-   The Visual Experience Composer opens.
+   The [!UICONTROL Visual Experience Composer] opens.
 
 1. Type a name for the activity.
 
@@ -57,6 +47,21 @@ The [!UICONTROL Multivariate Test] (MVT) takes a page-first report. In other wor
    |`+`|Plus|
    |`-`|Minus|
    |`@`|At sign|
+
+   The activity name cannot contain any of the following character sequences:
+
+   | Character Sequence | Description |
+   |--- |--- |
+   |;=|Semicolon, Equals to|
+   |;+|Semicolon, Plus|
+   |;-|Semicolon, Minus|
+   |;@|Semicolon, At sign|
+   |,=|Comma, Equals to|
+   |,+|Comma, Plus|
+   |,-|Comma, Minus|
+   |,@|Comma, At sign|
+   |`[`"|Open square bracket, Double quotation marks|
+   |"`]`|Double quotation marks, Close square bracket|
 
 1. [Create the offers in each location](/help/main/c-activities/c-multivariate-testing/t-create-multivariate-test/add-offers.md#concept_DCE6B45C30F7419B8EC17AFDEE8D8AA6).
 
@@ -108,7 +113,7 @@ The [!UICONTROL Multivariate Test] (MVT) takes a page-first report. In other wor
 
 ## Training video: Creating Multivariate Tests (9:25) ![Tutorial badge](/help/main/assets/tutorial.png)
 
-This video demonstrates how to plan and create a multivariate test using the Target three-step guided workflow.
+This video demonstrates how to plan and create a multivariate test using the [!DNL Target] three-step guided workflow.
 
 * Define and design a multivariate test 
 * Create a multivariate test
