@@ -9,13 +9,26 @@ exl-id: f2783042-f6ee-4f73-b487-ede11d55d530
 
 This article contains prerelease information for upcoming [!DNL Adobe Target] releases, including SDKs, APIs, and JavaScript libraries.
 
-**Last Updated: September 18, 2023**
+**Last Updated: September 28, 2023**
 
 >[!NOTE]
 >
 >Release dates, features, and other information are subject to change without notice.
 >
 >To view information about the current release, see [Target Release Notes](release-notes.md). The information on these pages might be the same, depending on the timing of releases. The issue numbers in parentheses are for internal [!DNL Adobe] use.
+
+## [!DNL Target] Standard/Premium 23.9.4 (October 2-4, 2023)
+
+This release is available according to the following staggered schedule:
+
+* **October 2**: Europe, Middle East, and Africa (EMEA) region
+* **October 3**: Americas region
+* **October 4**: Asia-Pacific (APAC) region
+
+This release contains the following enhancements and fixes:
+
+* Added [!UICONTROL Visual Experience Composer] (VEC) enhancements for dynamic frameworks. (TGT-44064)
+* Fixed an issue that caused the selected date in the `getViewInAnalyticsId` request to not update properly. (TGT-46246)
 
 ## [!DNL Target] Standard/Premium 23.9.3 (September 18, 2023)
 
