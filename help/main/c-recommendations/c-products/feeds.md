@@ -8,7 +8,7 @@ exl-id: 7b336a9e-23f4-4b09-9c8f-b9cb68162b1b
 ---
 # Feeds
 
-Use feeds to get entities imported into [!DNL Adobe Target Recommendations]. Entities can be sent using CSV files, the Google Product Search feed format, and [!DNL Adobe Analytics] product classifications.
+Use feeds to get entities imported into [!DNL Adobe Target] [!DNL Recommendations]. Entities can be sent using CSV files, the Google Product Search feed format, and [!DNL Adobe Analytics] product classifications.
 
 ## Feeds overview {#concept_D1E9C7347C5D4583AA69B02E79607890}
 
