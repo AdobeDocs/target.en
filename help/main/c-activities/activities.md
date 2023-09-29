@@ -19,11 +19,6 @@ The [!UICONTROL Activities] list is the default view when you open [!DNL Target]
 
 You can also display the [!UICONTROL Activities] list by clicking the [!UICONTROL Activities] tab at the top of the [!DNL Target] UI.
 
->[!NOTE]
->
->The following illustration and table shows the functionality of the updated Activities list UI currently in beta, which will be released soon. 
-
-
 ![Activities list](/help/main/c-activities/assets/activities-list-new.png)
 
 The [!UICONTROL Activities] list provides an overview of all activities and lets you perform various actions: 
