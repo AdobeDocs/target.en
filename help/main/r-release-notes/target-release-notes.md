@@ -27,6 +27,10 @@ This release is available according to the following staggered schedule:
 
 This release contains the following enhancements and fixes:
 
+|Feature|Details|
+| --- | --- |
+|[!UICONTROL Activities] UI refresh<P>[!UICONTROL Feeds] UI refresh|As part of the [!DNL Adobe Target] team's ongoing effort to improve the user-experience for [!DNL Target] users, this release refreshes the [!UICONTROL Activities] and [!DNL Recommendations] [!UICONTROL Feeds] pages in the [!DNL Target] UI. This update unifies and standardizes design patterns that were previously inconsistent, while adding new enhancements.|
+
 * Added [!UICONTROL Visual Experience Composer] (VEC) enhancements for dynamic frameworks. (TGT-44064)
 * Fixed an issue that caused the selected date in the `getViewInAnalyticsId` request to not update properly. This fix helps recompute the [!DNL Analytics] link in reporting when the date range and metrics report settings are changed. (TGT-46246)
 
