@@ -13,6 +13,24 @@ These release notes provide information about features, enhancements, and fixes 
 
 (The issue numbers in parentheses are for internal [!DNL Adobe] use.)
 
+## [!DNL Target] Standard/Premium 23.9.4 (October 2-4, 2023)
+
+This release is available according to the following staggered schedule:
+
+* **October 2**: Europe, Middle East, and Africa (EMEA) region
+* **October 3**: Americas region
+* **October 4**: Asia-Pacific (APAC) region
+
+This release contains the following enhancements and fixes:
+
+|Feature|Details|
+| --- | --- |
+|[!UICONTROL Activities] UI refresh<P>and<P>[!UICONTROL Feeds] UI refresh|As part of the [!DNL Adobe Target] team's ongoing effort to improve the user-experience for [!DNL Target] users, this release refreshes the [!UICONTROL Activities] and [!DNL Recommendations] [!UICONTROL Feeds] pages in the [!DNL Target] UI. This update unifies and standardizes design patterns that were previously inconsistent, while adding new enhancements.<P>For more information see [Activities](/help/main/c-activities/activities.md) and [Feeds](/help/main/c-recommendations/c-products/feeds.md).|
+|[!DNL Recommendations] implementation pattern|The *Recommendations implementation pattern using at.js* articles help you understand and create your [!DNL Adobe Target Recommendations] implementation when using the at.js JavaScript library.<P>For general information about Target patterns, see [Implementation patterns overview](https://experienceleague.adobe.com/docs/target-dev/developer/implementation-patterns/pattern-overview.html){target=_blank} in the *Adobe Target Developer Guide*.<P>The new Recommendations implementation pattern is composed of the following articles:<ul><li>[Recommendations implementation pattern using at.js overview](https://experienceleague.adobe.com/docs/target-dev/developer/implementation-patterns/atjs/recs-implementation-pattern-atjs.html){target=_blank}</li><ul><li>[Initialize SDKs](https://experienceleague.adobe.com/docs/target-dev/developer/implementation-patterns/atjs/initialize-sdk.html){target=_blank}</li><li>[Configure data collection](https://experienceleague.adobe.com/docs/target-dev/developer/implementation-patterns/atjs/data-collection.html){target=_blank}</li><li>[Render experiences](https://experienceleague.adobe.com/docs/target-dev/developer/implementation-patterns/atjs/render-experiences.html?lang=en){target=_blank}</li><li>[Notify [!DNL Target]](https://experienceleague.adobe.com/docs/target-dev/developer/implementation-patterns/atjs/notify-target.html?lang=en){target=_blank}</li></ul></ul>|
+
+* Added [!UICONTROL Visual Experience Composer] (VEC) enhancements for dynamic frameworks. (TGT-44064)
+* Fixed an issue that caused the selected date in the `getViewInAnalyticsId` request to not update properly. This fix helps recompute the [!DNL Analytics] link in reporting when the date range and metrics report settings are changed. (TGT-46246)
+
 ## [!DNL Target] Standard/Premium 23.9.3 (September 18, 2023)
 
 This release contains the following enhancements and fixes:
