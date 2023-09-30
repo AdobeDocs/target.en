@@ -2,9 +2,10 @@
 keywords: cja4t;customer journey analytics;customer journey analytics for target;customer journey analytics reporting source;customer journey analytics as the reporting source for target
 description: Use [!DNL Adobe Customer Journey Analytics] for [!DNL Target] (A4T) to create activities based on [!DNL Customer Journey Analytics] conversion metrics and audience segments and use [!DNL Customer Journey Analytics] reports to examine results.
 title: What is [!DNL Adobe Customer Journey Analytics] for [!DNL Target] (CJA4T)?
-feature: Integrations 
+feature: Integrations
 hide: yes
 hidefromtoc: yes
+exl-id: 67b20bf6-ffbe-4220-9455-cb3886bb9227
 ---
 # [!DNL Adobe Customer Journey Analytics] as the reporting source for [!DNL Adobe Target] (CJA4T)
 
@@ -118,4 +119,4 @@ Set up a data view in [!DNL Customer Journey Analytics]. A data view ensures tha
 
    ![Names and IDs options in Customer Journey Analytics](/help/main/c-integrating-target-with-mac/cja4t/assets/names-and-ids.png){width="600" zoomable="yes"}
 
-1. Finish setting up any other fields, then click **[!UICONTROL Save and continue]** when done. 
+1. Finish setting up any other fields, then click **[!UICONTROL Save and continue]** when done.
