@@ -13,13 +13,7 @@ These release notes provide information about features, enhancements, and fixes 
 
 (The issue numbers in parentheses are for internal [!DNL Adobe] use.)
 
-## [!DNL Target] Standard/Premium 23.9.4 (October 2-4, 2023)
-
-This release is available according to the following staggered schedule:
-
-* **October 2**: Europe, Middle East, and Africa (EMEA) region
-* **October 3**: Americas region
-* **October 4**: Asia-Pacific (APAC) region
+## [!DNL Target] Standard/Premium 23.9.4 (Date to be Determined)
 
 This release contains the following enhancements and fixes:
 
