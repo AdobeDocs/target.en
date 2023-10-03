@@ -9,7 +9,7 @@ exl-id: f2783042-f6ee-4f73-b487-ede11d55d530
 
 This article contains prerelease information for upcoming [!DNL Adobe Target] releases, including SDKs, APIs, and JavaScript libraries.
 
-**Last Updated: October 2, 2023**
+**Last Updated: October 3, 2023**
 
 >[!NOTE]
 >
@@ -17,7 +17,13 @@ This article contains prerelease information for upcoming [!DNL Adobe Target] re
 >
 >To view information about the current release, see [Target Release Notes](release-notes.md). The information on these pages might be the same, depending on the timing of releases. The issue numbers in parentheses are for internal [!DNL Adobe] use.
 
-## [!DNL Target] Standard/Premium 23.9.4 (Date to be Determined)
+## [!DNL Target] Standard/Premium 23.9.4 (October 4-6, 2023)
+
+This release is available according to the following staggered schedule:
+
+* **October 4**: Asia-Pacific (APAC) region
+* **October 5**: Europe, Middle East, and Africa (EMEA) region
+* **October 6**: Americas region
 
 This release contains the following enhancements and fixes:
 
