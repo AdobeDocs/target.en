@@ -14,6 +14,7 @@ This page lists significant changes made to the [!DNL Adobe Target] product docu
 |Date|Topic|Changes|
 | --- | --- | --- |
 |October 6|[Response tokens](/help/main/administrating-target/response-tokens.md)|Updated all code samples.|
+||[Setting up A4T reports in [!DNL Analysis Workspace] for [!UICONTROL Auto-Allocate] activities](https://experienceleague.adobe.com/docs/target-learn/tutorials/integrations/set-up-a4t-reports-in-analysis-workspace-for-auto-allocate-activities.html){target=_blank}|Updated entire tutorial in the *[!UICONTROL Adobe Target Tutorials]* guide.|
 |October 4|[Activities](/help/main/c-activities/activities.md)|Updated text and images to reflect the UI refresh included in the [!DNL Target] 23.9.4 release.|
 ||[Feeds](/help/main/c-recommendations/c-products/feeds.md)|Updated text and images to reflect the UI refresh included in the [!DNL Target] 23.9.4 release.|
 |October 2|[[!DNL Target] release notes (current)](/help/main/r-release-notes/release-notes.md)|Added release notes for the [!DNL Target Standard/Premium] 23.9.3 release.|
