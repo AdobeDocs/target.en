@@ -1,5 +1,5 @@
 ---
-keywords: response tokens;tokens;plugins;plug-ins;at.js;response;platform web sdk 
+keywords: response tokens;tokens;plugins;plug-ins;at.js;response;platform web sdk;google analytics
 description: Learn how to use response tokens in [!DNL Adobe Target] to output-specific information for debugging and integrating with 3rd-party tools.
 title: What are Response Tokens and How Do I Use Them?
 feature: Administration & Configuration
@@ -212,7 +212,7 @@ As mentioned above, response tokens work on the profile information saved for us
 
 ## Send data to Google Analytics
 
-The following sections describe how to send [!DNL Target] data to Google Analytics. Data sent by response tokens can also be sent to other other 3rd-party integrations.
+The following sections describe how to send [!DNL Target] data to Google Analytics 4. Data sent by response tokens can also be sent to other other 3rd-party integrations.
 
 ### ![AEP badge](/help/main/assets/platform.png) Sending data to Google Analytics via Platform Web SDK
 
