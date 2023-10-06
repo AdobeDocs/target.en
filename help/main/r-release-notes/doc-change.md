@@ -13,6 +13,7 @@ This page lists significant changes made to the [!DNL Adobe Target] product docu
 
 |Date|Topic|Changes|
 | --- | --- | --- |
+|October 6|[Response tokens](/help/main/administrating-target/response-tokens.md)|Updated all code samples.|
 |October 4|[Activities](/help/main/c-activities/activities.md)|Updated text and images to reflect the UI refresh included in the [!DNL Target] 23.9.4 release.|
 ||[Feeds](/help/main/c-recommendations/c-products/feeds.md)|Updated text and images to reflect the UI refresh included in the [!DNL Target] 23.9.4 release.|
 |October 2|[[!DNL Target] release notes (current)](/help/main/r-release-notes/release-notes.md)|Added release notes for the [!DNL Target Standard/Premium] 23.9.3 release.|

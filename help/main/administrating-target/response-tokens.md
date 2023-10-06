@@ -222,52 +222,33 @@ Google Analytics can be sent data via Platform Web SDK version 2.6.0 (or later) 
 >
 >Make sure the response token key value pair are under the `alloy("sendEvent"` object.
 
-```
-<script type="text/javascript"> 
-   (function(i, s, o, g, r, a, m) { 
-   i['GoogleAnalyticsObject'] = r; 
-   i[r] = i[r] || function() { 
-   (i[r].q = i[r].q || []).push(arguments) 
-   }, i[r].l = 1 * new Date(); 
-   
-   
-   a = s.createElement(o), 
-   m = s.getElementsByTagName(o)[0]; 
-   a.async = 1; 
-   a.src = g; 
-   m.parentNode.insertBefore(a, m) 
-   })(window, document, 'script', 'https://www.google-analytics.com/analytics.js', 'ga'); 
-   ga('create', 'Google Client Id', 'auto'); 
-</script> 
+```javascript
+<script async src="https://www.googletagmanager.com/gtag/js?id=TAG_ID"></script>
 <script type="text/javascript">
-   alloy("sendEvent", {
-   
-   
-   })
-   .then(({ renderedPropositions, nonRenderedPropositions }) => {
-   // concatenate all the propositions
-   const propositions = [...renderedPropositions, ...nonRenderedPropositions];
-   // extractResponseTokens() extract the meta from item -> meta
-   const tokens = extractResponseTokens(propositions);
-   const activityNames = []; 
-   const experienceNames = []; 
-   const uniqueTokens = distinct(tokens); 
-   
-   
-   uniqueTokens.forEach(token => { 
-   activityNames.push(token["activity.name"]); 
-   experienceNames.push(token["experience.name"]); 
-   }); 
-   
-   
-   ga('send', 'event', { 
-   eventCategory: "target", 
-   eventAction: experienceNames, 
-   eventLabel: activityNames 
-   }); 
-   
-   
-   });
+    alloy("sendEvent", {
+ 
+ 
+    })
+    .then(({ renderedPropositions, nonRenderedPropositions }) => {
+        // concatenate all the propositions
+        const propositions = [...renderedPropositions, ...nonRenderedPropositions];
+        // extractResponseTokens() extract the meta from item -> meta
+        const tokens = extractResponseTokens(propositions);
+        const activityNames = [];
+        const experienceNames = [];
+        const uniqueTokens = distinct(tokens);
+    
+    
+        uniqueTokens.forEach(token => {
+            activityNames.push(token["activity.name"]);
+            experienceNames.push(token["experience.name"]);
+        });
+ 
+        gtag('config', 'TAG_ID');
+        gtag('event', 'action_name', {'eventCategory': 'target',
+            'eventAction': experienceNames, 'eventLabel': activityNames
+        });
+    });
 </script>
 ```
 
@@ -332,64 +313,51 @@ The following sections provide information about debugging response tokens:
 The following code lets you debug using Google Analytics:
 
 ```javascript
-<script type="text/javascript"> 
-  (function(i, s, o, g, r, a, m) { 
-    i['GoogleAnalyticsObject'] = r; 
-    i[r] = i[r] || function() { 
-      (i[r].q = i[r].q || []).push(arguments) 
-    }, i[r].l = 1 * new Date(); 
-    a = s.createElement(o), 
-      m = s.getElementsByTagName(o)[0]; 
-    a.async = 1; 
-    a.src = g; 
-    m.parentNode.insertBefore(a, m) 
-  })(window, document, 'script', 'https://www.google-analytics.com/analytics.js', 'ga'); 
-  ga('create', 'Google Client Id', 'auto'); 
-</script> 
- 
-<script type="text/javascript"> 
-  document.addEventListener(adobe.target.event.REQUEST_SUCCEEDED, function(e) { 
-    var tokens = e.detail.responseTokens; 
- 
-    if (isEmpty(tokens)) { 
-      return; 
-    } 
- 
-    var activityNames = []; 
-    var experienceNames = []; 
-    var uniqueTokens = distinct(tokens); 
- 
-    uniqueTokens.forEach(function(token) { 
-      activityNames.push(token["activity.name"]); 
-      experienceNames.push(token["experience.name"]); 
-    }); 
- 
-    ga('send', 'event', { 
-      eventCategory: "target", 
-      eventAction: experienceNames, 
-      eventLabel: activityNames 
-    }); 
-  }); 
- 
-  function isEmpty(val) { 
-    return (val === undefined || val == null || val.length <= 0) ? true : false; 
-  } 
- 
-  function key(obj) { 
-     return Object.keys(obj) 
-    .map(function(k) { return k + "" + obj[k]; }) 
-    .join(""); 
-  } 
- 
-  function distinct(arr) { 
-    var result = arr.reduce(function(acc, e) { 
-      acc[key(e)] = e; 
-      return acc; 
-    }, {}); 
-   
-    return Object.keys(result) 
-    .map(function(k) { return result[k]; }); 
-  } 
+<script async src="https://www.googletagmanager.com/gtag/js?id=TAG_ID"></script>
+  
+<script type="text/javascript">
+    document.addEventListener(adobe.target.event.REQUEST_SUCCEEDED, function(e) {
+      var tokens = e.detail.responseTokens;
+  
+      if (isEmpty(tokens)) {
+        return;
+      }
+  
+      var activityNames = [];
+      var experienceNames = [];
+      var uniqueTokens = distinct(tokens);
+  
+      uniqueTokens.forEach(function(token) {
+        activityNames.push(token["activity.name"]);
+        experienceNames.push(token["experience.name"]);
+      });
+  
+      gtag('config', 'TAG_ID');
+      gtag('event', 'action_name', {'eventCategory': 'target',
+          'eventAction': experienceNames, 'eventLabel': activityNames
+      });
+    });
+  
+    function isEmpty(val) {
+      return (val === undefined || val == null || val.length <= 0) ? true : false;
+    }
+  
+    function key(obj) {
+       return Object.keys(obj)
+      .map(function(k) { return k + "" + obj[k]; })
+      .join("");
+    }
+  
+    function distinct(arr) {
+      var result = arr.reduce(function(acc, e) {
+        acc[key(e)] = e;
+        return acc;
+      }, {});
+  
+      return Object.keys(result)
+      .map(function(k) { return result[k]; });
+    }
+</script>
 ```
 
 ### Debugging using the equivalent of the ttMeta plugin
