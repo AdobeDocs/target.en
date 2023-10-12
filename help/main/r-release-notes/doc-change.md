@@ -13,6 +13,7 @@ This page lists significant changes made to the [!DNL Adobe Target] product docu
 
 |Date|Topic|Changes|
 | --- | --- | --- |
+|October 11|[[!DNL Adobe Analytics] as the reporting source for [!DNL Adobe Target] (A4T)](/help/main/c-integrating-target-with-mac/a4t/a4t.md#section_F487896214BF4803AF78C552EF1669AA)|Updated information about A4T support for the [!DNL Adobe Experience Platform Web SDK].|
 |October 10|[at.js version details](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/target-atjs-versions.html){target=_blank}|Added release notes for at.js version 2.11.0.|
 |October 6|[Response tokens](/help/main/administrating-target/response-tokens.md)|Updated all code samples.|
 ||[Setting up A4T reports in [!DNL Analysis Workspace] for [!UICONTROL Auto-Allocate] activities](https://experienceleague.adobe.com/docs/target-learn/tutorials/integrations/set-up-a4t-reports-in-analysis-workspace-for-auto-allocate-activities.html){target=_blank}|Updated entire tutorial in the *[!UICONTROL Adobe Target Tutorials]* guide.|
