@@ -23,7 +23,7 @@ There are two options available for your control in your [!UICONTROL Automated P
 
 ## Specify a specific experience as control
 
-1. While creating an [[!UICONTROL Automated Personalization] activity](/help/main/c-activities/t-automated-personalization/create-ap-activity.md) or [[!UICONTROL Auto-Target] activity](/help/main/c-activities/t-test-ab/t-test-create-ab/ab-audience.md), configure the experiences as desired.
+1. While creating or editing an [[!UICONTROL Automated Personalization] activity](/help/main/c-activities/t-automated-personalization/create-ap-activity.md) or [[!UICONTROL Auto-Target] activity](/help/main/c-activities/t-test-ab/t-test-create-ab/ab-audience.md), configure the experiences as desired.
 1. On the [!UICONTROL Targeting] page (step 2 of the three-part guided workflow), select the desired experience as the control.
 1. Specify the desired traffic allocation for the control experience and the other experiences.
 

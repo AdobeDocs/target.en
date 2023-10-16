@@ -68,9 +68,16 @@ Metric numbers, for example visits, reported by [!DNL Target] are always lower t
 
 ## Why is there no data available for my activity's report? {#section_E4722F6445884130951DF79981C8289B}
 
-If an activity's content was successfully delivered to users but its report contains no data, ensure that you have the correct environment ([host group](/help/main/administrating-target/hosts.md)) selected in the report's settings.
+If an activity's content was successfully delivered to visitors but its report contains no data,  you might be presented with the following error message: "There is no data available for the selected report settings."
 
-If you have a development environment selected, you might see the following error message: "There is no data available for the selected report settings."
+There are a few possible reasons that data is missing from activity reports:
+
+* You don't have the correct environment selected in the report's settings
+* You don't have any traffic allocated to the control experience
+
+### You don't have the correct environment selected in the report's settings:
+
+If an activity's content was successfully delivered to users but its report contains no data, ensure that you have the correct environment ([host group](/help/main/administrating-target/hosts.md)) selected in the report's settings.
 
 To change the environment for an activity's report:
 
@@ -79,10 +86,6 @@ To change the environment for an activity's report:
 
    ![A/B Settings dialog box](/help/main/c-reports/c-report-settings/assets/ab_settings_dialog.png)
 
-   >[!NOTE]
-   >
-   >The gear icon is not available for [!UICONTROL Automated Personalization] (AP) reports.
-
 1. From the **[!UICONTROL Environment]** drop-down list, select **[!UICONTROL Production]**.
 
    Report data might not be available if you have a development environment selected. 
@@ -90,6 +93,22 @@ To change the environment for an activity's report:
 1. Click **[!UICONTROL Save]**.
 
 For more information about environments, see [Hosts](/help/main/administrating-target/hosts.md#concept_516BB01EBFBD4449AB03940D31AEB66E).
+
+### You don't have any traffic allocated to the control experience
+
+If an activity's content was successfully delivered to users but its report contains no data, ensure that you have traffic allocated to the control experience.
+
+1. Click **[!UICONTROL Activities]**, click the desired activity from the list, then click the **[!UICONTROL Reports]** tab. 
+1. Click the gear icon to configure report settings.
+
+1. From the **[!UICONTROL Control]** drop-down list, select an experience that receives traffic.
+
+1. Click **[!UICONTROL Save]**.
+
+>[!NOTE]
+>
+>For more information about how to update an [!UICONTROL Automated Personalization] (AP) activity and change the control experience to an experience that receives traffic, see [Select the control for your Automated Personalization or Auto-Target activity](/help/main/c-activities/t-automated-personalization/experience-as-control.md).
+
 
 ## Why is the traffic split between my experiences uneven in my A/B or MVT activity? {#uneven}
 
