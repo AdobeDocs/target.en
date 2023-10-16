@@ -120,4 +120,11 @@ Set up a data view in [!DNL Customer Journey Analytics]. A data view ensures tha
 
    ![Names and IDs options in Customer Journey Analytics](/help/main/c-integrating-target-with-mac/cja4t/assets/names-and-ids.png){width="600" zoomable="yes"}
 
+1. To use [!DNL Target] dimensions in the [!UICONTROL Experimentation] panel, set up the following context labels:
+
+   * For [!UICONTROL Activity Name], use "Experimentation Experiment."
+   * [!UICONTROL Experience Name], use "Experimentation Variant."
+
+   ![Context labels in the Experimentation panel](/help/main/c-integrating-target-with-mac/cja4t/assets/context-labels.png){width="600" zoomable="yes"}
+
 1. Finish setting up any other fields, then click **[!UICONTROL Save and continue]** when done.
