@@ -6,8 +6,6 @@ audience: end-user
 type: Documentation
 git-repo: https://github.com/AdobeDocs/target.en
 index: yes
-role: User
-level: Intermediate
 ---
 
 # Metadata for internal use
