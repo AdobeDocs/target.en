@@ -96,7 +96,7 @@ For more information about environments, see [Hosts](/help/main/administrating-t
 
 ### You don't have any traffic allocated to the control experience
 
-If an activity's content was successfully delivered to users but its report contains no data, ensure that you have traffic allocated to the control experience.
+If an activity's content was successfully delivered to users but its report contains no data, ensure that you use an experience with traffic as the control experience.
 
 1. Click **[!UICONTROL Activities]**, click the desired activity from the list, then click the **[!UICONTROL Reports]** tab. 
 1. Click the gear icon to configure report settings.
