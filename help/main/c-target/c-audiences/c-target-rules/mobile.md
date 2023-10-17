@@ -27,7 +27,7 @@ To solve this issue, [!DNL Target] collects additional data to accurately detect
 
 >[!NOTE]
 >
->Customers using the Mobile SDK do not need to do anything to apply this functionality. Customers using at.js must [upgrade to at.js version 1.5.0](https://experienceleague.corp.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/target-atjs-versions.html){target=_blank} (or later){target=_blank}.
+>Customers using the Mobile SDK do not need to do anything to apply this functionality. Customers using at.js must [upgrade to at.js version 1.5.0](https://experienceleague.corp.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/target-atjs-versions.html){target=_blank} (or later).
 
 You can choose more than one mobile device property. Multiple selections are joined with an OR operator.
 
