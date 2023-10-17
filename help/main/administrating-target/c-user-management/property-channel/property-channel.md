@@ -9,7 +9,7 @@ exl-id: 838abe87-dba7-4274-97b4-31a7905846dc
 ---
 # Enterprise user permissions
 
-Enterprise user permissions are a means of formal administering enterprise-wide user access to [!DNL Adobe Target]. Add users to [!DNL Target], assign permissions based on their roles, and create workspaces for teams based on different departments, global locations, channels, and other logical groupings. You can assign users the roles of [!UICONTROL Observer], [!UICONTROL Editor], [!UICONTROL Approver], or [!UICONTROL Publisher].
+Enterprise user permissions are a means of formally administering enterprise-wide user access to [!DNL Adobe Target]. Add users to [!DNL Target], assign permissions based on their roles, and create workspaces for teams based on different departments, global locations, channels, and other logical groupings. You can assign users the roles of [!UICONTROL Observer], [!UICONTROL Editor], [!UICONTROL Approver], or [!UICONTROL Publisher].
 
 ## Determine whether you have access to enterprise user permissions
 
@@ -57,7 +57,7 @@ Users can be part of multiple workspaces and can even have different roles withi
 
 Users can have different views of [!DNL Adobe Target] by moving between workspaces, similar to how [!DNL Analytics] users have different views of [!DNL Analytics] by moving between Report Suites.
 
-Workspaces can include complete different audiences, code offers, and activities.
+Workspaces can include completely different audiences, code offers, and activities.
 
 All audiences and activities created before the new Enterprise Permissions model migration are grouped in the "Default Workspace," discussed below.
 
@@ -75,7 +75,7 @@ All user roles and access to all [!DNL Target] functionality remains the same as
 
 ### User groups
 
-You can create user groups, such as Developers, Analysts, Marketers, Executives, and so forth. You can then assign privileges across multiple Adobe products and workspaces. Assigning a new team member all the appropriate privileges across different Adobe products can be as easy as adding them to a specific user group.
+You can create user groups, such as Developers, Analysts, Marketers, and Executives. You can then assign privileges across multiple Adobe products and workspaces. Assigning a new team member all the appropriate privileges across different Adobe products can be as easy as adding them to a specific user group.
 
 ### Roles and permissions {#roles-permissions}
 
@@ -104,7 +104,7 @@ The new [!UICONTROL Permissions] functionality lets you create different project
 
 For example, a specific user might have "approval" access on the Americas websites but only "view" access on the European mobile app. That same user might not have any access to even view the activities offered on web and mobile properties in the APAC region.
 
-The current [!DNL Target] [!UICONTROL Permissions] model has three permission roles (Observer, Editor, and Approver), as shown in the following illustration:
+The [!DNL Target] [!UICONTROL Permissions] model has the following permission roles (Observer, Editor, Approver, and Observer). The Observer role is not shown in illustrations in this article.
 
 ![permissions_1 image](assets/permissions_1.png)
 
@@ -127,7 +127,7 @@ The new [!DNL Target] [!UICONTROL Permissions] model has the same three permissi
 
 In this example, Jan has Approver permissions to the US Homepage and the US Site and Observer permissions to the France Site.
 
-Furthermore, Jan cannot see pages, properties, or sites in [!DNL Target] that she doesn't have permissions to see, as shown below:
+Furthermore, Jan cannot see pages, properties, or sites in [!DNL Target] that she doesn't have permission to see, as shown below:
 
 ![permissions_4 image](assets/permissions_4.png)
 
@@ -144,7 +144,7 @@ After a reorganization, using the personas in the illustrations above, you might
 
 * **Jan**: Jan is the Head of Optimization in the Center of Excellence for her organization's United States web pages, properties, and sites. She most likely has System Admin rights in the Adobe Experience Cloud.
 
-  In her role, she has Approver permissions for the US Homepage and the US Site. With Approver permissions, she can create, edit, and activate or stop activities.
+  In her role, she has Approver permissions for the US Homepage and the US Site. With Approver permission, she can create, edit, and activate or stop activities.
 
   Jan also consults with the optimization team in France and, therefore, has Observer permissions for the France Site that give her read-only access to activities. Jan can view activities, but cannot create or edit them.
 
@@ -152,7 +152,7 @@ After a reorganization, using the personas in the illustrations above, you might
 
 * **Ernie**: Ernie is a Marketing Manager for the organization in charge of marketing in the United States.
 
-  Because Ernie is fairly new to the organization and inexperienced with Target, he has Editor permissions for the US Homepage, US Site, and Product Pages. With Editor permissions, Ernie can create and edit activities before they are live. He cannot approve the launch of an activity—someone with Approval permissions, such as Jan, must approve the activity before it can be put into production.
+  Because Ernie is fairly new to the organization and inexperienced with Target, he has Editor permissions for the US Homepage, US Site, and Product Pages. With Editor permissions, Ernie can create and edit activities before they are live. He cannot approve the launch of an activity—someone with Approval permission, such as Jan, must approve the activity before it can be put into production.
 
   Because Ernie has no role that necessitates him seeing the Russia Site, France Site, or Careers Site, he cannot see activities for those sites.
 
@@ -168,13 +168,13 @@ After a reorganization, using the personas in the illustrations above, you might
 
 * **Jan**: Jan is the Head of Optimization in the Center of Excellence for a heath-care organization that operates in the hospital-product and consumer-product spaces. She most likely has System Admin rights in the Adobe Experience Cloud.
 
-  In her role, she has Approver permissions for the Hospital Site. With Approver permissions, she can create, edit, and activate or stop activities.
+  In her role, she has Approver permissions for the Hospital Site. With Approver permission, she can create, edit, and activate or stop activities.
 
   Jan also consults with the optimization team in the consumer-products space and, therefore, has Observer permissions for that site that give her read-only access to activities. Jan can view activities, but cannot create or edit them.
 
 * **Ernie**: Ernie is a Marketing Manager for the organization in charge of marketing in the consumer-product space.
 
-  Because Ernie is fairly new to the organization and inexperienced with Target, he has Editor permissions for the Consumer Site. With Editor permissions, Ernie can create and edit activities before they are live. He cannot approve the launch of an activity—someone with Approval permissions for the Consumer Site, but not Jan in this scenario, must approve the activity before it can be put into production.
+  Because Ernie is fairly new to the organization and inexperienced with Target, he has Editor permission for the Consumer Site. With Editor permissions, Ernie can create and edit activities before they are live. He cannot approve the launch of an activity—someone with Approval permissions for the Consumer Site, but not Jan in this scenario, must approve the activity before it can be put into production.
 
   Because Ernie has no role that necessitates him seeing the Hospital Site, he cannot see activities for that site.
 
@@ -203,7 +203,7 @@ The new Permissions functionality can be seen in various places in the [!DNL Tar
 
 Consider the following when using or configuring properties and permissions in [!DNL Target] Premium:
 
-* **Important**: Do not delete workspaces with activities. If you delete a workspace with activities, work with client care to recover those activities.
+* **Important**: Do not delete workspaces with activities. If you delete a workspace with activities, work with Client Care to recover those activities.
 * When using the All My Workspaces view:
 
     * You can see activities, audiences, and offers for all workspaces that you have the proper roles and permissions to access. 
@@ -227,7 +227,7 @@ Consider the following when using or configuring properties and permissions in [
 * When viewing audiences from the [!DNL Audiences] page, the page loads slower than expected. If you interact with the search bar in any way, audiences display faster. This issue is known and will be fixed in an upcoming update. This issue does not affect selecting audiences during the activity-creation workflow. 
 * The following resources are part of the new Enterprise Permissions model:
 
-  * Activities, audiences, and code offers created within [!DNL Target Standard/Premium] are available for use after the customer is enabled for permissions. (Note: customers must be entitled to [!DNL Target Premium].)
+  * Activities, audiences, and code offer created within [!DNL Target Standard/Premium] are available for use after the customer is enabled for permissions. (Note: customers must be entitled to [!DNL Target Premium].)
   * Properties can be added to existing activities in the Default Workspace; however, this approach is subject to change.
   * Only new resources (such as activities, code offers, and audiences) created within Target Premium (after Enterprise Permissions are enabled) are available to restrict by permissions.
   * External resources are available only to users in the Default Workspace. A user's role in the Default Workspace applies globally (to all Target requests and all Target resources).
@@ -247,7 +247,7 @@ Consider the following when using or configuring properties and permissions in [
 
   In a future release, Target will work on pages where no `at_property` token is present or pages where a different `at_property` token is present.
 
-* The Enterprise User Permissions functionality is not supported in Adobe I/O API calls.
+* The Enterprise User Permissions functionality is not supported in Adobe Developer API calls.
 
 ## Frequently Asked Questions {#faqs}
 
@@ -261,7 +261,7 @@ If a user has multiple roles and permissions, the role with the hirer permission
 
 Unfortunately, you cannot move activities from one workspace to another. However, you can copy an activity to any workspace knowing that reporting data does not carry over. For more information, see "Copying/Editing an Activity When Using Workspaces" in [Copying/Editing an Activity When Using Workspaces](/help/main/c-activities/edit-activity.md#section_45A92E1DD3934523B07E71EF90C4F8B6).
 
-Activities created before the migration continue to run the same way in the Default Workspace unless they are edited and assigned properties. Activities under a specific workspace honor properties assigned to that workspace and, therefore, behavior might not remain same as before the migration.
+Activities created before the migration continue to run the same way in the Default Workspace unless they are edited and assigned properties. Activities under a specific workspace honor property assigned to that workspace and, therefore, behavior might not remain same as before the migration.
 
 ### Can I move an audience from one workspace to another? {#move-audience}
 
@@ -283,7 +283,7 @@ Yes, you can move audiences between workspaces by using the [!UICONTROL More Act
 
 If you implemented [!DNL Target] with tags in [!DNL Adobe Experience Platform] and get an error message indicating that there is no property associated with the activity, pass the `at_property` parameter with the `targetPageParams` function.
 
-### Are click-track conversions recorded if a redirect page and the activity URL belong to different properties?
+### Are click-track conversions recorded if a redirected page and the activity URL belong to different properties?
 
 Click tracking is not recorded on pages where the page and activity URL belong to different properties.
 
