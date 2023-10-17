@@ -23,7 +23,7 @@ You can specify the following settings on this page:
 
 >[!NOTE]
 >
->Be aware that the time zone, currency, and IP addresses to exclude settings apply to activities that use [!DNL Target] reporting. These settings do not apply to activities that use [Analytics for Target (A4T)] as the reporting source (/help/main/c-integrating-target-with-mac/a4t/a4t.md).
+>Be aware that the time zone, currency, and IP addresses to exclude settings apply to activities that use [!DNL Target] reporting. These settings do not apply to activities that use [Analytics for Target (A4T)](/help/main/c-integrating-target-with-mac/a4t/a4t.md) as the reporting source.
 
 ![Reporting page](/help/main/administrating-target/assets/reporting.png)
 
