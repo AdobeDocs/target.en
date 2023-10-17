@@ -16,7 +16,6 @@ exl-id: 6003a663-4c0c-4179-8025-aee2ae107c5c
 >In addition to this guide, the following [!DNL Adobe Target] guides are also available:
 >
 >- [*Adobe Target Developer Guide*](https://experienceleague.adobe.com/docs/target-dev/developer/overview.html){target=_blank}
->
 >- [*Adobe Target Tutorials*](https://experienceleague.adobe.com/docs/target-learn/tutorials/overview.html){target=_blank}
 >
 >For release information, see [Target release notes (current)](/help/main/r-release-notes/release-notes.md) in this guide.
