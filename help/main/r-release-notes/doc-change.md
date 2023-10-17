@@ -13,6 +13,7 @@ This page lists significant changes made to the [!DNL Adobe Target] product docu
 
 |Date|Topic|Changes|
 | --- | --- | --- |
+|October 17|[Reporting FAQ](/help/main/c-reports/reporting-frequently-asked-questions.md#section_E4722F6445884130951DF79981C8289B)|Updated the following FAQ: "Why is there no data available for my activity's report? "|
 |October 11|[[!DNL Adobe Analytics] as the reporting source for [!DNL Adobe Target] (A4T)](/help/main/c-integrating-target-with-mac/a4t/a4t.md#section_F487896214BF4803AF78C552EF1669AA)|Updated information about A4T support for the [!DNL Adobe Experience Platform Web SDK].|
 |October 10|[at.js version details](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/target-atjs-versions.html){target=_blank}|Added release notes for at.js version 2.11.0.|
 |October 6|[Response tokens](/help/main/administrating-target/response-tokens.md)|Updated all code samples.|
