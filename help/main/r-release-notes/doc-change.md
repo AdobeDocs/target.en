@@ -13,6 +13,7 @@ This page lists significant changes made to the [!DNL Adobe Target] product docu
 
 |Date|Topic|Changes|
 | --- | --- | --- |
+|October 25|[[!DNL Target] release notes (current)](/help/main/r-release-notes/release-notes.md)|Added information about the [!UICONTROL Activities] page user interface refresh (October 25, 2023)|
 |October 24|[Target release notes (current)](/help/main/r-release-notes/release-notes.md)|Added release notes for the [!DNL Target Standard/Premium] 23.10.2 release.|
 
 ## [!DNL Target] Standard/Premium 23.9.1 (September 6-11, 2023)

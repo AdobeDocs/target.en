@@ -23,7 +23,6 @@ This release contains the following enhancements and fixes:
 
 |Feature|Details|
 | --- | --- |
-|[!UICONTROL Activities] UI refresh<P>and<P>[!UICONTROL Feeds] UI refresh|As part of the [!DNL Adobe Target] team's ongoing effort to improve the user-experience for [!DNL Target] users, this release refreshes the [!UICONTROL Activities] and [!DNL Recommendations] [!UICONTROL Feeds] pages in the [!DNL Target] UI. This update unifies and standardizes design patterns that were previously inconsistent, while adding new enhancements.<P>For more information see [Activities](/help/main/c-activities/activities.md) and [Feeds](/help/main/c-recommendations/c-products/feeds.md).|
 |[!DNL Recommendations] implementation pattern|The *Recommendations implementation pattern using at.js* articles help you understand and create your [!DNL Adobe Target Recommendations] implementation when using the at.js JavaScript library.<P>For more information, see [Recommendations implementation pattern using at.js overview](https://experienceleague.adobe.com/docs/target-dev/developer/implementation-patterns/atjs/recs-implementation-pattern-atjs.html){target=_blank} in the *Adobe Target Developer Guide*.|
 
 * Added [!UICONTROL Visual Experience Composer] (VEC) enhancements for dynamic frameworks. (TGT-44064)
