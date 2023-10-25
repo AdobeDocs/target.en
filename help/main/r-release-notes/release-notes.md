@@ -13,6 +13,14 @@ These release notes provide information about features, enhancements, and fixes 
 
 (The issue numbers in parentheses are for internal [!DNL Adobe] use.)
 
+## [!UICONTROL Activities] page user interface refresh (October 25, 2023)
+
+As part of the [!DNL Adobe Target] team's ongoing effort to improve the user-experience for [!DNL Target] users, this release refreshes the [!UICONTROL Activities] pages in the [!DNL Target] UI. This update unifies and standardizes design patterns that were previously inconsistent, while adding new enhancements.
+
+Starting Wednesday, October 25, a percentage of customers will have access to the new UI with additional customers getting access in the next several days.
+
+For more information see [Activities](/help/main/c-activities/activities.md).
+
 ## [!DNL Target] Standard/Premium 23.10.2 (October 24, 2023)
 
 This release contains the following enhancements and fixes:
