@@ -9,7 +9,7 @@ exl-id: 36d19598-eb46-4be6-a652-658b653287cb
 
 This page lists significant changes made to the [!DNL Adobe Target] product documentation.
 
-## [!DNL Target] Standard/Premium 23.10.1 (October 24, 2023)
+## [!DNL Target] Standard/Premium 23.10.2 (October 24, 2023)
 
 |Date|Topic|Changes|
 | --- | --- | --- |
