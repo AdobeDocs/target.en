@@ -1,23 +1,23 @@
 ---
 keywords: settings;priority
-description: Learn how Adobe [!DNL Target] determines which activity (or activities) to deliver to a page differently depending on which [!DNL Target] interface and which activity creation function you're using.
+description: Learn how [!DNL Adobe Target] determines which activity (or activities) to deliver to a page differently depending on which [!DNL Target] interface and which activity creation function you're using.
 title: How Does [!DNL Target] Assign Priority to Different Activities?
 feature: Activities
 exl-id: c32f1699-e564-40dd-8ff1-7c75a672c6ef
 ---
 # Priority
 
-Target determines which activity (or activities) to deliver to a page differently depending on which Target interface and which activity creation function (Visual Experience Composer or Form Based composer) you're using.
+[!DNL Adobe Target] determines which activity (or activities) to deliver to a page differently depending on which [!DNL Target] interface and which activity creation function ([[!UICONTROL Visual Experience Composer]](/help/main/c-experiences/c-visual-experience-composer/visual-experience-composer.md) or [Form-Based Experience Composer](/help/main/c-experiences/form-experience-composer.md)) you're using.
 
-## Target Standard/Premium Visual Experience Composer Only or Form-Based Composer Using Global [!DNL Target] Request Only {#section_4A0A317DFED345649B58B0CB5B410C8B}
+## [!DNL Target Standard/Premium] [!UICONTROL Visual Experience Composer] only or [!UICONTROL Form-Based Experience Composer] using a global [!DNL Target] request only {#section_4A0A317DFED345649B58B0CB5B410C8B}
 
-If your company uses Target Standard/Premium and the Visual Experience Composer exclusively, then content from multiple activities can be returned for the same call. Activities are delivered using the following decision flow:
+If your company uses [!DNL Target Standard/Premium] and the [!UICONTROL Visual Experience Composer] exclusively, content from multiple activities can be returned for the same call. Activities are delivered using the following decision flow:
 
-1. The Target server call comes to Target with information about the URL. 
-1. Target pulls every activity running on that URL. 
-1. Target attempts to match the visitor into activities.
+1. The [!DNL Target] server call comes to [!DNL Target] with information about the URL. 
+1. [!DNL Target] pulls every activity running on that URL. 
+1. [!DNL Target] attempts to match the visitor into activities.
 
-   If the visitor is already in an A/B test or Multivariate Test, they will match into that test until they convert. If they were previously in an experience targeting activity, they must match into it again. If they meet the audience rules, then the visitor falls into those activities and into specific experiences. 
+   If the visitor is already in an [!UICONTROL A/B Test] or [!UICONTROL Multivariate Test] activity, they match into that activity until they convert. If they were previously in an [!UICONTROL Experience Targeting] activity, they must match into it again. If they meet the audience rules, then the visitor falls into those activities and into specific experiences. 
 
 1. Content for all the activities and experiences the visitor matches is returned to the page. 
 1. If the content for each activity references different [CSS selectors](/help/main/c-experiences/c-visual-experience-composer/vec-selectors.md#concept_4EB7663E255F439B8D24079D23479337), then all content is displayed.
@@ -26,78 +26,78 @@ If your company uses Target Standard/Premium and the Visual Experience Composer 
 
    >[!IMPORTANT]
    >
-   >Target returns the content for all activities on the page, beginning with the lowest-priority content, which is then overwritten by each activity, from lowest to highest priority. In most cases, this results in the highest priority content being displayed. However, if a lower-priority activity alters the structure of the DOM for the page, it is possible that the higher-priority activity will not recognize the page structure, so the lower-priority content will be displayed. The results from all activities that run on the page are counted and reflected in the reports.
+   >[!DNL Target] returns the content for all activities on the page, beginning with the lowest-priority content, which is then overwritten by each activity, from lowest to highest priority. Usually, this results in the highest-priority content being displayed. However, if a lower-priority activity alters the structure of the DOM for the page, it is possible that the higher-priority activity does not recognize the page structure, so the lower-priority content is displayed. The results from all activities that run on the page are counted and reflected in the reports.
 
-1. If multiple activities share the same priority level, then there are two tiebreakers:
+1. If multiple activities share priority level, there are two tiebreakers:
 
     * If only one activity has audience targeting, that activity is displayed. 
-    * If all or none have targeting, then the activity that was approved first is displayed.
+    * If all or none has targeting, then the activity that was approved first is displayed.
 
-## Target Standard/Premium Form-Based Composer and [!DNL Target] Standard/Premium Visual Experience Composer {#section_4620253E1CE942DD830724C7822B175F}
+## [!DNL Target Standard/Premium] [!UICONTROL Form-Based Experience Composer] and [!DNL Target Standard/Premium] [!UICONTROL Visual Experience Composer] {#section_4620253E1CE942DD830724C7822B175F}
 
 >[!NOTE]
 >
 >This information also applies to any campaigns running that were created in [!DNL Target Classic].
 
-If your company uses the form-based composer in Target Standard/Premium and the Target Standard/Premium Visual Experience Composer, then content from multiple Visual Experience Composer activities can deliver, but only one activity from the form-based workflow. Activity delivery is determined using the following decision flow:
+If your company uses the [!UICONTROL Form-Based Experience Composer] in [!DNL Target Standard/Premium] and the [!DNL Target Standard/Premium] [!UICONTROL Visual Experience Composer], then content from multiple [!UICONTROL Visual Experience Composer] activities can deliver, but only one activity from the form-based workflow. Activity delivery is determined using the following decision flow:
 
-1. Target server call comes to Target with information about the [!DNL Target] request and URL. 
-1. Target Classic and Standard pull every activity running in that [!DNL Target] request. 
-1. Target attempts to match the visitor into activities.
+1. [!DNL Target] server call comes to [!DNL Target] with information about the [!DNL Target] request and URL. 
+1. [!DNL Target Classic] and [!DNL Target Standard/Premium] pull every activity running in that [!DNL Target] request. 
+1. [!DNL Target] attempts to match the visitor into activities.
 
-   If the visitor is already in an A/B test or Multivariate Test, they will match into that test until they convert. If they were previously in an experience targeting activity, they must match into it again. If they meet the audience rules, then the visitor falls into those activities and into specific experiences. 
+   If the visitor is already in an [!UICONTROL A/B Test] or [!UICONTROL Multivariate Test] activity, they match into that test until they convert. If they were previously in an [!UICONTROL Experience Targeting] activity, they must match into it again. If they meet the audience rules, then the visitor falls into those activities and into specific experiences. 
 
-1. If a form-based activity is the highest priority, then that activity content is returned along with all matching activity content from Visual Experience Composer activities. 
-1. If a Visual Experience Composer activity is the highest priority, then content from all matching visual experience composer activities is returned, but no Target Classic or form-based activity content is returned.
+1. If a form-based activity is the highest priority, then that activity content is returned along with all matching activity content from [!UICONTROL Visual Experience Composer] activities. 
+1. If a [!UICONTROL Visual Experience Composer] activity is the highest priority, then content from all matching [!UICONTROL Visual Experience Composer] activities is returned, but no [!DNL Target Classic] or form-based activity content is returned.
 
    The results from all activities that run on the page are counted and reflected in the reports.
 
 **Example**
 
-If you have two activities, one targeting the branded search keyword Nike and the second targeting the non-branded keyword sneakers, the priorities of both activities are checked. If the Nike activity has a higher priority, that content is displayed. If the sneakers activity has the higher priority, its content is displayed.
+If you have two activities, one targeting the branded search keyword "Nike" and the second targeting the non-branded keyword "sneakers", the priorities of both activities are checked. If the Nike activity has a higher priority, that content is displayed. If the sneakers activity has the higher priority, its content is displayed.
 
 If both targeted activities have the same priority, the activity that was most recently viewed is displayed. If the visitor is new to the page, the activity that was activated most recently is displayed.
 
-## Target Standard/Premium Form-Based Composer with Non-Global [!DNL Target] Requests {#section_C3F5F09B0B2D4EF795C5929D5C426A8C}
+## [!DNL Target Standard/Premium] [!UICONTROL Form-Based Experience Composer] with non-global [!DNL Target] requests {#section_C3F5F09B0B2D4EF795C5929D5C426A8C}
 
 >[!NOTE]
 >
->This information also applies to any campaigns running that were created in Target Classic.
+>This information also applies to any activities running that were created in [!DNL Target Classic].
 
 If your company uses [!DNL Target] requests other than the global [!DNL Target] request in the form-based composer, content from only one activity can be returned per call. Activity delivery is determined using the following decision flow:
 
 1. The [!DNL Target] server call comes to [!DNL Target] with information about the [!DNL Target] request and URL. 
 1. [!DNL Target] pulls every activity running in that [!DNL Target] request. 
-1. [!DNL Target] attempts to match the visitor into the highest priority activity.
+1. [!DNL Target] attempts to match the visitor into the highest-priority activity.
 
-   If the visitor is already in an A/B test or Multivariate Test, they will match into that test until they convert. If they were previously in an experience targeting activity, they must match into it again. If they meet the audience rules, then the visitor falls into those activities and into specific experiences. 
+   If the visitor is already in an [!UICONTROL A/B Test] or [!UICONTROL Multivariate Test] activity, they match into that activity until they convert. If they were previously in an [!UICONTROL Experience Targeting] activity, they must match into it again. If they meet the audience rules, then the visitor falls into those activities and into specific experiences. 
 
-1. If multiple activities share the same priority level, then there are two tiebreakers:
+1. If multiple activities share priority level, there are two tiebreakers:
 
     * If only one activity has audience targeting, that activity is displayed. 
-    * If all or none have targeting, then the activity that was approved first is displayed.
+    * If all or none has targeting, then the activity that was approved first is displayed.
 
 ## Examples {#section_F6A788AAC3884A2FA03E47F0557A1213}
 
 >[!NOTE]
 >
->Depending on your settings, the priority values vary. You can use the legacy settings of Low, Medium, or High, or you can enable fine-grained priorities from 0 to 999. For more information, see [Activity Settings](/help/main/c-activities/activity-settings.md#task_C6B2FF8374724933BE79A83549B9CD02).
+>Depending on your settings, the priority values vary. You can use the legacy settings of [!UICONTROL Low], [!UICONTROL Medium], or [!UICONTROL High], or you can enable fine-grained priorities from 0 to 999. For more information, see [Activity settings](/help/main/c-activities/activity-settings.md#task_C6B2FF8374724933BE79A83549B9CD02).
 
-**Two Target Classic campaigns use non-global Target requests**
+**Two [!DNL Target Classic] activities use non-global [!DNL Target] requests**
 
-* Campaign 1: homePageHero, offer1, priority high 
-* Campaign 2: homePageHero, offer2, priority low
+* Activity 1: homePageHero, offer1, priority high 
+* Activity 2: homePageHero, offer2, priority low
 
 Response: offer1
 
-**Two activities use only offers created in the Visual Experience Composer for different selectors**
+**Two activities use only offers created in the [!UICONTROL Visual Experience Composer] for different selectors**
 
 * Activity 1: target-global-mbox, selector1, visualExpCompOffer1, priority low 
 * Activity 2: target-global-mbox, selector2, visualExpCompOffer2, priority high
 
 Response: visualExpCompOffer1, visualExpCompOffer2
 
-**Two activities use only offers created in the Visual Experience Composer for same selector**
+**Two activities use only offers created in the [!UICONTROL Visual Experience Composer] for same selector**
 
 * Activity 1: target-global-mbox, selector1, visualExpCompOffer1, priority low 
 * Activity 2: target-global-mbox, selector1, visualExpCompOffer2, priority high
@@ -106,20 +106,20 @@ Response: visualExpCompOffer1, visualExpCompOffer2
 
 >[!NOTE]
 >
->This is the same response as in the second use case above because Target Classic does not handle selector collisions. Target Standard catches such behavior and other use cases when selectors might collide both in DOM and visually (usually done at experience editor level or in campaign simulation mode).
+>This is the same response as in the second use case above because [!DNL Target Classic] did not handle selector collisions. [!DNL Target Standard/Premium] catches such behavior and other use cases when selectors might collide both in DOM and visually (usually done at experience editor level or in activity simulation mode).
 
-**Two activities use offers created in the Visual Experience Composer and two Target Classic campaigns**
+**Two activities use offers created in the [!UICONTROL Visual Experience Composer] and two [!DNL Target Classic] activities**
 
 * Activity 1: target-global-mbox, selector1, visualExpCompOffer1, medium high 
 * Activity 2: target-global-mbox, selector2, visualExpCompOffer2, priority low 
-* Campaign 1: target-global-mbox, offer1, priority high 
-* Campaign 2: target-global-mbox, offer2, priority low
+* Activity  1: target-global-mbox, offer1, priority high 
+* Activity 2: target-global-mbox, offer2, priority low
 
 Response: offer1, visualExpCompOffer2, visualExpCompOffer1
 
 >[!NOTE]
 >
->The order of combined responses is that classic content comes first (only one classic response will be serviced as in use case 1) and then Visual Experience Composer offer responses that are ordered by inverted priority.
+>The order of combined responses is that [!DNL Target Classic] content comes first. Only one [!DNL Target Classic] response is serviced as in use case 1, and then [!UICONTROL Visual Experience Composer] offer responses that are ordered by inverted priority.
 
 ## Training video: Activity Settings (3:02)
 
