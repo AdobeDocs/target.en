@@ -13,6 +13,7 @@ This page lists significant changes made to the [!DNL Adobe Target] product docu
 
 |Date|Topic|Changes|
 | --- | --- | --- |
+|November 8|[[!DNL Target] release notes (prerelease)](/help/main/r-release-notes/target-release-notes.md)|Added prerelease notes for the upcoming [!DNL Target Standard/Premium] 23.11.1 release.|
 |October 28|[at.js version details](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/target-atjs-versions.html){target=_blank}|Added details about the at.js 2.11.2 release.|
 |October 25|[[!DNL Target] release notes (current)](/help/main/r-release-notes/release-notes.md)|Added information about the [!UICONTROL Activities] page user interface refresh (October 25, 2023)|
 |October 24|[Target release notes (current)](/help/main/r-release-notes/release-notes.md)|Added release notes for the [!DNL Target Standard/Premium] 23.10.2 release.|
