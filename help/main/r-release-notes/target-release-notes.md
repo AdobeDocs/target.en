@@ -19,7 +19,7 @@ This article contains prerelease information for upcoming [!DNL Adobe Target] re
 
 ## [!DNL Target] Standard/Premium 23.11.1 (November 13 & 14, 2023)
 
-This release will be available according to the following staggered schedule:
+This release is scheduled for the following days:
 
 * **November 13**: Asia-Pacific (APAC) region
 * **November 14**: Americas region
@@ -27,11 +27,11 @@ This release will be available according to the following staggered schedule:
 
 This release contains the following fixes:
 
-* Enhanced the [Activity QA](/help/main/c-activities/c-activity-qa/activity-qa.md) feature to give customers the ability to disallow duplicate offers for experiences in [!UICONTROL Automated Personalization] activities. (TGT-46627)
+* Enhanced the [Activity QA](/help/main/c-activities/c-activity-qa/activity-qa.md) feature to support [disallowing duplicate offers](/help/main/c-activities/t-automated-personalization/managing-exclusions.md) for experiences in [!UICONTROL Automated Personalization] activities. (TGT-46627)
 * Added a tooltip in the [!DNL Target] UI to help customers understand why there might not be data available in activity reports if no traffic is allocated to the control experience. A link to more information is included in the tooltip: [Why is there no data available for my activity's report?](/help/main/c-reports/reporting-frequently-asked-questions.md#section_E4722F6445884130951DF79981C8289B). (TGT-46610)
 * Fixed an issue that prevented activities from displaying properly on the [!UICONTROL Activities] page for a few customers. (TGT-46830)
 
-* Fixed the following issues that affected activities that use [Analytics for Target](/help/main/c-integrating-target-with-mac/a4t/a4t.md) (A4T) as the reporting source: 
+* Fixed the following issues that affected activities that use [[!UICONTROL Analytics for Target]](/help/main/c-integrating-target-with-mac/a4t/a4t.md) (A4T) as the reporting source: 
   * Fixed an issue that prevented some customers from viewing reporting data. (TGT-46557)
   * Fixed an issue that sometimes caused the [!UICONTROL View in Analytics] link on activity reporting pages to not function properly. (TGT-46731)
   * Fixed an issue that prevented data for [!UICONTROL Lift] and [!UICONTROL Confidence] to display properly in the [!DNL Target] UI. (TGT-46592, TGT-46554, & TGT-46586)
