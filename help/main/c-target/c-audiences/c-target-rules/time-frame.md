@@ -25,7 +25,11 @@ For example, using the [combined, ad hoc audiences feature](/help/main/c-target/
 
    >[!NOTE]
    >
-   >The time zone for Start/End dates is displayed as GMT +/- NN:NN, where NN:NN is the offset from GMT and reflects the account-level time zone rather than the visitor's time zone. For example, California's time zone would be displayed as GMT -08:00.
+   >Consider the following:
+   >
+   >* The time zone for Start/End dates is displayed as GMT +/- NN:NN, where NN:NN is the offset from GMT and reflects the account-level time zone rather than the visitor's time zone. For example, California's time zone would be displayed as GMT -08:00.
+   >
+   >* [!DNL Target] time audiences do not take into account Daylight Saving Time (DST) changes. You must manually update audiences to account for DST changes.
 
 1. (Conditional) Click **[!UICONTROL Set frequency]** to set recurring patterns, including days of the weeks and times.
 
