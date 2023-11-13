@@ -17,6 +17,16 @@ Release notes are arraigned in descending order by month and year of release.
 
 ## Release notes - 2023
 
+### [!DNL Target] Standard/Premium 23.10.2 (October 24, 2023)
+
+This release contains the following enhancements and fixes:
+
+* Enhanced the new [!UICONTROL Activities] UI so that the [!UICONTROL Visual Experience Composer] (VEC) opens with the default settings for `selectorCriteria` when creating a new activity. (TGT-46586)
+* Fixed an issue that prevented some customers from editing elements in [!UICONTROL Composer] mode when using the VEC. (TGT-46470)
+* Added the ability to specify a generic preferred selector when using custom attributes. (TGT-46545)
+* Fixed an issue that sometimes prevented an [!UICONTROL Auto-Target] report that uses [!UICONTROL Analytics for Target] (A4T) from displaying in the [!DNL Target] UI, even though the report displayed correctly in [!DNL Adobe Analysis Workspace]. (TGT-46494)
+* Updated various localized strings in the Target UI. (TGT-18899)
+
 ### [!DNL Target] Standard/Premium 23.9.4 (October 4-6, 2023)
 
 This release contains the following enhancements and fixes:
