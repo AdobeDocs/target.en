@@ -13,7 +13,8 @@ This page lists significant changes made to the [!DNL Adobe Target] product docu
 
 |Date|Topic|Changes|
 | --- | --- | --- |
-|October 24|[Target release notes (current)](/help/main/r-release-notes/release-notes.md)|Added release notes for the [!DNL Target Standard/Premium] 23.11.1 release.|
+|November 16|[Bulk profile update API](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/methods/bulk-profile-update-api.html){target=_blank}|Added the following caveat: "Updates generally occur in under one hour, but may take as long as 24 hours to be reflected."|
+|November 13|[Target release notes (current)](/help/main/r-release-notes/release-notes.md)|Added release notes for the [!DNL Target Standard/Premium] 23.11.1 release.|
 
 ## [!DNL Target] Standard/Premium 23.10.2 (October 24, 2023)
 
