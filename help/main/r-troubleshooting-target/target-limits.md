@@ -159,11 +159,11 @@ Character limits and other limits (offer size, audiences, profiles, values, para
 
 ## mboxes
 
-### In-mbox profile attribute value
+### In-mbox profile attribute value {#in-mbox}
 
 * **Limit**: 256 characters.
 
-  Values longer than this get truncated.
+  Values longer than this are truncated when using at.js 1.*x*. If you send more than 256 characters when using at.js 2.*x* or the [!DNL Adobe Experience Platform Web SDK], you receive an error message (the values are not automatically truncated).
 
 ### In-mbox profile names
 
