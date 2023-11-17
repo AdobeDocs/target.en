@@ -13,6 +13,7 @@ This page lists significant changes made to the [!DNL Adobe Target] product docu
 
 |Date|Topic|Changes|
 | --- | --- | --- |
+|November 17|[Administrator first steps](/help/main/administrating-target/start-target.md)|Added the following important note:<ul><li>Users with [!UICONTROL Product Admin] or [!UICONTROL System Admin] rights in the [!DNL Adobe Admin Console] can edit or change all settings on the [!UICONTROL Administration] page of [!DNL Target], regardless of their [!DNL Target] role. Users without [!UICONTROL Product Admin] or [!UICONTROL System Admin] rights in the [!DNL Adobe Admin Console] must have the specific [!DNL Target] role to make these changes.1</li></ul>|
 |November 16|[Bulk profile update API](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/methods/bulk-profile-update-api.html){target=_blank}|Added the following caveat: "Updates generally occur in under one hour, but may take as long as 24 hours to be reflected."|
 |November 13|[Target release notes (current)](/help/main/r-release-notes/release-notes.md)|Added release notes for the [!DNL Target Standard/Premium] 23.11.1 release.|
 
