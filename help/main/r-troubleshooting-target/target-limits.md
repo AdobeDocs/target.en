@@ -163,7 +163,7 @@ Character limits and other limits (offer size, audiences, profiles, values, para
 
 * **Limit**: 256 characters.
 
-  Values with more than 256 characters are truncated when using at.js 1.*x*. You receive an error message when sending values with more than 256 characters when using at.js 2.*x* or the [!DNL Adobe Experience Platform Web SDK]. Values are not automatically truncated.
+  Values with more than 256 characters are truncated when using at.js 1.*x*. You receive an error message when sending values with morethan 256 characters when using at.js 2.*x* or the [!DNL Adobe Experience Platform Web SDK]. Values are not automatically truncated.
 
 ### In-mbox profile names
 
@@ -173,7 +173,7 @@ Character limits and other limits (offer size, audiences, profiles, values, para
 
 * **Limit**: 250 characters.
 
-  For Delivery API (at.js 2.*x*), Batch mbox V2, and AEP Web SDK (alloy.js) integrations, mbox names *can* contain alphanumeric characters (A-Z, a-z, 0-9) and any of the following characters:
+  For [!DNL Delivery API] (at.js 2.*x*), Batch mbox V2, and [!DNL Adobe Experience Platform Web SDK] (alloy.js) integrations, mbox names *can* contain alphanumeric characters (A-Z, a-z, 0-9) and any of the following characters:
 
   ```
   - , . _ / = ` : ; & ! @ # $ % ^ & * ( ) _ + | ? ~ [ ] { }
