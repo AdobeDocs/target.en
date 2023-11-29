@@ -13,6 +13,7 @@ This page lists significant changes made to the [!DNL Adobe Target] product docu
 
 |Date|Topic|Changes|
 | --- | --- | --- |
+|November 29|[Bulk Profile Update API](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/methods/bulk-profile-update-api.html){target=_blank}|Clarified the differences about how [!DNL Target] handles customer attributes when creating a profile for a user [!DNL Target] has not yet seen when using the [!UICONTROL Bulk Profile Update API] v2 as opposed to v1.|
 |November 21|[at.js version details](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/target-atjs-versions.html){target=_blank}|Added release notes for at.js 2.11.3.|
 |November 17|[Administrator first steps](/help/main/administrating-target/start-target.md)|Added the following important note:<ul><li>Users with [!UICONTROL Product Admin] or [!UICONTROL System Admin] rights in the [!DNL Adobe Admin Console] can edit or change all settings on the [!UICONTROL Administration] page of [!DNL Target], regardless of their [!DNL Target] role. Users without [!UICONTROL Product Admin] or [!UICONTROL System Admin] rights in the [!DNL Adobe Admin Console] must have the specific [!DNL Target] role to make these changes.1</li></ul>|
 ||[Limits](/help/main/r-troubleshooting-target/target-limits.md#in-mbox)|Updated section with information about how [!DNL Target] handles truncation in at.js 2.*x* and the [!DNL Adobe Experience Platform Web SDK].|
