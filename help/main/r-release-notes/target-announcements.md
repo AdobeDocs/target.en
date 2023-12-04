@@ -9,6 +9,26 @@ exl-id: 02bbc049-ab41-469b-8f7b-dc93ffb8ae73
 
 Announcements and information about [!DNL Adobe Target] events, including [!DNL Target] Coffee Break sessions, [!DNL Target] webinar series, [!DNL Target] Skill Builder sessions, developer chats, and more. Links to past recordings are included if available.
 
+## [!DNL Adobe Target Community] Coffee Break
+
+* **Machine Learning & AI Reporting & Analysis**
+* **Wednesday, December 6, 2023**
+* **8:00 - 9:00 a.m. (PST -8 GMT)**
+* **[Register here](https://experienceleaguecommunities.adobe.com/t5/target-community-events/at-community-q-amp-a-coffee-break-wednesday-12-6-23-8am-pt/ec-p/636275/thread-id/81){target=_blank}**
+
+Join [!DNL Adobe Target] experts Brent Kostak, Cristinel Anastasoaie, Drew Burns, and Marisol St. John in an ask-me-anything event to discuss machine learning and AI reporting and analysis in [!DNL Adobe Target].
+
++++Details
+This discussion will focus on the following topics:
+
+* Are you excited about ML and AI and want to better understand reporting success on your activities?
+* Looking to get new ideas and use cases where you can use real-time personalization for content, offers, and messaging?
+* Want to know best practices for creating forms-based activities for server-side testing?
+* Are you looking to improve activity analysis and measurement within [!UICONTROL Analytics for Target] (A4T) reporting?
+* Are your teams curious how to expand beyond A/B testing with testing and personalization on authenticated and known-customer experiences?
+
++++
+
 ## [!DNL Adobe Target] webinar series {#webinar-series}
 
 Register for the following webinars to see how customers are using [!DNL Target] to achieve their personalization and optimization goals:
