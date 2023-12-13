@@ -9,31 +9,39 @@ exl-id: 02bbc049-ab41-469b-8f7b-dc93ffb8ae73
 
 Announcements and information about [!DNL Adobe Target] events, including [!DNL Target] Coffee Break sessions, [!DNL Target] webinar series, [!DNL Target] Skill Builder sessions, developer chats, and more. Links to past recordings are included if available.
 
-## [!DNL Adobe Target Community] Coffee Break
+## Adobe Target 2024 Personalization Maturity Webinar Series
 
-* **Machine Learning & AI Reporting & Analysis**
-* **Wednesday, December 6, 2023**
-* **8:00 - 9:00 a.m. (PST -8 GMT)**
-* **[Register here](https://experienceleaguecommunities.adobe.com/t5/target-community-events/at-community-q-amp-a-coffee-break-wednesday-12-6-23-8am-pt/ec-p/636275/thread-id/81){target=_blank}**
+This live webinar series will highlight key [!DNL Adobe Target] capabilities, use cases, and tips to unlock AI-powered personalization as customers expand their experimentation and personalization journey with [!DNL Adobe Experience Platform].
 
-Join [!DNL Adobe Target] experts Brent Kostak, Cristinel Anastasoaie, Drew Burns, and Marisol St. John in an ask-me-anything event to discuss machine learning and AI reporting and analysis in [!DNL Adobe Target].
+Why should you attend:
 
-+++Details
-This discussion will focus on the following topics:
+* **Learn Top Use Cases**: Transform visions into reality with a blueprint for intelligent optimization, maturing [!DNL Adobe Target] customers beyond rules-based experimentation & A/B testing.
+* **Maximize Unique Capabilities**: Tailor experiences for success with high-performance recommendations to maximize ROI, revenue, and conversion.
+* **Advance Personalization Strategies**: Deep dive into AI/ML advanced techniques to scale business impact, resonate with new segments/audiences, and fine-tune personalization models for optimized experiences
 
-* Are you excited about ML and AI and want to better understand reporting success on your activities?
-* Looking to get new ideas and use cases where you can use real-time personalization for content, offers, and messaging?
-* Want to know best practices for creating forms-based activities for server-side testing?
-* Are you looking to improve activity analysis and measurement within [!UICONTROL Analytics for Target] (A4T) reporting?
-* Are your teams curious how to expand beyond A/B testing with testing and personalization on authenticated and known-customer experiences?
+* **[Register here](https://adobe-target-personalization-maturity-webinar-series-q1-2024.dxfieldmarketing.adobeevents.com/){target=_blank}**
+
++++Dates and details
+
+* **Art of the Possible**
+* **Tuesday, January 16, 2024**
+* **10:00 - 11:00 a.m. (PST -8 GMT)**
+
+At the core of personalization maturity is Artificial Intelligence and machine learning. [!DNL Adobe Target] leverages these technologies to understand user behavior, predict preferences, and dynamically tailor content. By harnessing the power of AI and ML, learn how brands are moving beyond static A/B testing and rules-based personalization to deliver dynamic, contextually relevant experiences. 
+
+* **High Performance Recommendations**
+* **Tuesday, February 13, 2024**
+* **10:00 - 11:00 a.m. (PST -8 GMT)**
+
+Learn how recommendation algorithms can be a game-changer for businesses, driving engagement and revenue. From personalized product suggestions to content recommendations, the ability to guide users seamlessly through their journey contributes directly to unlocking significant business growth.
+
+* **Unlocking AI-Powered Personalization**
+* **Tuesday, March 12, 2024**
+* **10:00 - 11:00 a.m. (PST -8 GMT)**
+
+[!DNL Adobe Target] facilitates AI-powered personalization capabilities across every stage of the customer lifecycle for 1-to-1 personalized experiences. From acquisition to retention, learn how businesses are gaining insights into streamlining processes, minimizing manual efforts, and delivering contextual, engaging customer experiences at scale.
 
 +++
-
-## [!DNL Adobe Target] webinar series {#webinar-series}
-
-Register for the following webinars to see how customers are using [!DNL Target] to achieve their personalization and optimization goals:
-
-None scheduled at this time.
 
 ## Recordings of past webinars and skill-builder sessions
 
