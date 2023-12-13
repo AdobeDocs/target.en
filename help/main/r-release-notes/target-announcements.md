@@ -24,22 +24,22 @@ Why should you attend:
 +++Dates and details
 
 * **Art of the Possible**
-* **Tuesday, January 16, 2024**
-* **10:00 - 11:00 a.m. (PST -8 GMT)**
+  * **Tuesday, January 16, 2024**
+  * **10:00 - 11:00 a.m. (PST -8 GMT)**
 
-At the core of personalization maturity is Artificial Intelligence and machine learning. [!DNL Adobe Target] leverages these technologies to understand user behavior, predict preferences, and dynamically tailor content. By harnessing the power of AI and ML, learn how brands are moving beyond static A/B testing and rules-based personalization to deliver dynamic, contextually relevant experiences. 
+    At the core of personalization maturity is Artificial Intelligence and machine learning. [!DNL Adobe Target] leverages these technologies to understand user behavior, predict preferences, and dynamically tailor content. By harnessing the power of AI and ML, learn how brands are moving beyond static A/B testing and rules-based personalization to deliver dynamic, contextually relevant experiences. 
 
 * **High Performance Recommendations**
-* **Tuesday, February 13, 2024**
-* **10:00 - 11:00 a.m. (PST -8 GMT)**
+  * **Tuesday, February 13, 2024**
+  * **10:00 - 11:00 a.m. (PST -8 GMT)**
 
-Learn how recommendation algorithms can be a game-changer for businesses, driving engagement and revenue. From personalized product suggestions to content recommendations, the ability to guide users seamlessly through their journey contributes directly to unlocking significant business growth.
+    Learn how recommendation algorithms can be a game-changer for businesses, driving engagement and revenue. From personalized product suggestions to content recommendations, the ability to guide users seamlessly through their journey contributes directly to unlocking significant business growth.
 
 * **Unlocking AI-Powered Personalization**
-* **Tuesday, March 12, 2024**
-* **10:00 - 11:00 a.m. (PST -8 GMT)**
+  * **Tuesday, March 12, 2024**
+  * **10:00 - 11:00 a.m. (PST -8 GMT)**
 
-[!DNL Adobe Target] facilitates AI-powered personalization capabilities across every stage of the customer lifecycle for 1-to-1 personalized experiences. From acquisition to retention, learn how businesses are gaining insights into streamlining processes, minimizing manual efforts, and delivering contextual, engaging customer experiences at scale.
+    [!DNL Adobe Target] facilitates AI-powered personalization capabilities across every stage of the customer lifecycle for 1-to-1 personalized experiences. From acquisition to retention, learn how businesses are gaining insights into streamlining processes, minimizing manual efforts, and delivering contextual, engaging customer experiences at scale.
 
 +++
 
