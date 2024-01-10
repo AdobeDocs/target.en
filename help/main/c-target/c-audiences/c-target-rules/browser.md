@@ -18,7 +18,7 @@ The following browsers can be targeted:
 * Microsoft Edge
 * Opera
 * iPad
-* iPhone|
+* iPhone
 
 There are two ways to target browsers:
 
