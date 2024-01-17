@@ -139,15 +139,15 @@ The following settings could be used going forward:
 
   ![Apple](/help/main/r-release-notes/assets/apple.png)
 
-* [!UICONTROL Mobile] > [!UICONTROL is Tablet]
+* [!UICONTROL Mobile] > [!UICONTROL is Tablet] > [!UICONTROL true]
 
   ![mobile is tablet](/help/main/r-release-notes/assets/is-tablet.png)
 
-* [!UICONTROL Mobile] > [!UICONTROL Device Marketing Name] [!UICONTROL matches] [!DNL iPad]
+* [!UICONTROL Mobile] > [!UICONTROL Device Marketing Name] [!UICONTROL matches] [!DNL iPad] with an And container with [!UICONTROL Mobile] > [!UICONTROL Is Tablet] is [!DNL true]
 
   ![iPad](/help/main/r-release-notes/assets/ipad.png)
 
-* [!UICONTROL Mobile] > [!UICONTROL Device Marketing Name] [!UICONTROL matches] [!DNL iPhone]
+* [!UICONTROL Mobile] > [!UICONTROL Device Marketing Name] [!UICONTROL matches] [!DNL iPhone] with an And container with [!UICONTROL Mobile] > [!UICONTROL Is Mobile Phone] is [!DNL true]
 
   ![iPhone](/help/main/r-release-notes/assets/iphone.png)
 
