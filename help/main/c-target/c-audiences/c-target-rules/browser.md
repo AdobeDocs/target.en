@@ -20,6 +20,10 @@ The following browsers can be targeted:
 * iPad
 * iPhone
 
+>[!IMPORTANT]
+>
+>Starting April 30, 2024, iPad and iPhone will be removed from the available [!UICONTROL Browser] type drop-down list when creating categories for audiences. For workaround settings, see [Deprecation of iPad and iPhone from Browser audience attribute (April 30, 2024)](#deprecation) below.
+
 There are two ways to target browsers:
 
 * **Pre-built Audience:** Use the pre-built audience if you want to target only visitors who use a specific browser to visit your site. For example, if you are offering a Chrome extension, you would target only Chrome users.
@@ -120,3 +124,81 @@ This video includes information about using audience categories.
 * Define audience categories
 
 >[!VIDEO](https://video.tv.adobe.com/v/17392)
+
+## Deprecation of iPad and iPhone from Browser audience attribute (April 30, 2024) {#deprecation}
+
+[!DNL Adobe Target] lets you [target on any of several category attributes](/help/main/c-target/c-audiences/c-target-rules/target-rules.md), including users who use a specific browser or browser options when they visit your page.
+
+Starting April 30, 2024, iPad and iPhone will be removed from the available [!UICONTROL Browser] type drop-down list when creating categories for audiences.
+
+If you have audiences that target iPads or iPhones using the [!UICONTROL Browser] attribute, you must change these settings before April 30, 2024 to ensure that these audiences continue to function as expected.
+
+The following settings could be used going forward:
+
+* [!UICONTROL Mobile] > [!UICONTROL Device Vendor] [!UICONTROL matches] [!DNL Apple]
+
+  ![Apple](/help/main/r-release-notes/assets/apple.png)
+
+* [!UICONTROL Mobile] > [!UICONTROL is Tablet]
+
+  ![mobile is tablet](/help/main/r-release-notes/assets/is-tablet.png)
+
+* [!UICONTROL Mobile] > [!UICONTROL Device Marketing Name] [!UICONTROL matches] [!DNL iPad]
+
+  ![iPad](/help/main/r-release-notes/assets/ipad.png)
+
+* [!UICONTROL Mobile] > [!UICONTROL Device Marketing Name] [!UICONTROL matches] [!DNL iPhone]
+
+  ![iPhone](/help/main/r-release-notes/assets/iphone.png)
+
+There are many other possible settings that could be used, for example when conditions are negated. Examples of negated conditions could look like the following:
+
+* [!UICONTROL Mobile] > [!UICONTROL Device Vendor] [!UICONTROL does not match] [!UICONTROL Apple] with an Or container with [!UICONTROL Mobile] > [!UICONTROL Is Mobile Phone] is [!UICONTROL false]
+
+  ![Not mobile phone](/help/main/r-release-notes/assets/mobile-phone-false.png)
+
+* [!UICONTROL Mobile] > [!UICONTROL Device Vendor] [!UICONTROL does not match] [!UICONTROL Apple] with an Or container with [!UICONTROL Mobile] > [!UICONTROL Is Tablet] is [!UICONTROL false].
+
+  ![Not tablet](/help/main/r-release-notes/assets/tablet-false.png)
+
+If you use `user.browserType` in JavaScript segments, changes could include the following:
+
+* BrowserType is iPhone
+
+  Replace:
+
+  `user.browserType=="iphone"`
+
+  With:
+
+  `user.mobile.deviceVendor == "Apple" && user.mobile.deviceModel && user.mobile.deviceModel.toLowerCase().includes("iphone")`
+
+* BrowserType is not iPhone
+  
+  Replace:
+
+  `user.browserType!="iphone"`
+  
+  With:
+
+  `user.mobile.deviceVendor != "Apple" || user.mobile.deviceModel == null !! !user.mobile.deviceModel.toLowerCase().includes("iphone")`
+
+* BrowserType is iPad
+  
+  Replace:
+
+  `user.browserType=="ipad"`
+
+  With:
+
+  `user.mobile.deviceVendor == "Apple" && user.mobile.deviceModel && user.mobile.deviceModel.toLowerCase().includes("ipad")`
+
+* BrowserType is not iPad
+  
+  Replace:
+
+  `user.browserType!="ipad"`
+
+  With:
+
+  `user.mobile.deviceVendor != "Apple" || user.mobile.deviceModel == null !! !user.mobile.deviceModel.toLowerCase().includes("ipad")`
