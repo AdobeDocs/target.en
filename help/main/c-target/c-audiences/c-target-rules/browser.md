@@ -135,35 +135,35 @@ If you have audiences that target iPads or iPhones using the [!UICONTROL Browser
 
 The following settings could be used going forward:
 
-* For browser matches [!DNL Apple]: [!UICONTROL Mobile] > [!UICONTROL Device Vendor] [!UICONTROL matches] [!DNL Apple]
+* **For browser matches [!DNL Apple]**: [!UICONTROL Mobile] > [!UICONTROL Device Vendor] [!UICONTROL matches] [!DNL Apple]
 
   ![Apple](/help/main/r-release-notes/assets/apple.png)
 
-* For browser matches tablet: [!UICONTROL Mobile] > [!UICONTROL is Tablet] > [!UICONTROL true]
+* **For browser matches tablet**: [!UICONTROL Mobile] > [!UICONTROL is Tablet] > [!UICONTROL true]
 
   ![mobile is tablet](/help/main/r-release-notes/assets/is-tablet.png)
 
-* For browser matches iPad: [!UICONTROL Mobile] > [!UICONTROL Device Marketing Name] [!UICONTROL matches] [!DNL iPad] with an And container with [!UICONTROL Mobile] > [!UICONTROL Is Tablet] is [!DNL true]
+* **For browser matches iPad**: [!UICONTROL Mobile] > [!UICONTROL Device Marketing Name] [!UICONTROL matches] [!DNL iPad] with an And container with [!UICONTROL Mobile] > [!UICONTROL Is Tablet] is [!DNL true]
 
   ![iPad](/help/main/r-release-notes/assets/ipad.png)
 
-* For browser matches iPhone: [!UICONTROL Mobile] > [!UICONTROL Device Marketing Name] [!UICONTROL matches] [!DNL iPhone] with an And container with [!UICONTROL Mobile] > [!UICONTROL Is Mobile Phone] is [!DNL true]
+* **For browser matches iPhone**: [!UICONTROL Mobile] > [!UICONTROL Device Marketing Name] [!UICONTROL matches] [!DNL iPhone] with an And container with [!UICONTROL Mobile] > [!UICONTROL Is Mobile Phone] is [!DNL true]
 
   ![iPhone](/help/main/r-release-notes/assets/iphone.png)
 
 There are many other possible settings that could be used, for example when conditions are negated. Examples of negated conditions could look like the following:
 
-* For browser does not match iPhone: [!UICONTROL Mobile] > [!UICONTROL Device Vendor] [!UICONTROL does not match] [!UICONTROL Apple] with an Or container with [!UICONTROL Mobile] > [!UICONTROL Is Mobile Phone] is [!UICONTROL false]
+* **For browser does not match iPhone**: [!UICONTROL Mobile] > [!UICONTROL Device Vendor] [!UICONTROL does not match] [!UICONTROL Apple] with an Or container with [!UICONTROL Mobile] > [!UICONTROL Is Mobile Phone] is [!UICONTROL false]
 
   ![Not mobile phone](/help/main/r-release-notes/assets/mobile-phone-false.png)
 
-* For browser does not match iPad: [!UICONTROL Mobile] > [!UICONTROL Device Vendor] [!UICONTROL does not match] [!UICONTROL Apple] with an Or container with [!UICONTROL Mobile] > [!UICONTROL Is Tablet] is [!UICONTROL false].
+* **For browser does not match iPad**: [!UICONTROL Mobile] > [!UICONTROL Device Vendor] [!UICONTROL does not match] [!UICONTROL Apple] with an Or container with [!UICONTROL Mobile] > [!UICONTROL Is Tablet] is [!UICONTROL false].
 
   ![Not tablet](/help/main/r-release-notes/assets/tablet-false.png)
 
 If you use `user.browserType` in JavaScript segments, changes could include the following:
 
-* BrowserType is iPhone
+* **BrowserType is iPhone**:
 
   Replace:
 
@@ -173,7 +173,7 @@ If you use `user.browserType` in JavaScript segments, changes could include the 
 
   `user.mobile.deviceVendor == "Apple" && user.mobile.deviceModel && user.mobile.deviceModel.toLowerCase().includes("iphone")`
 
-* BrowserType is not iPhone
+* **BrowserType is not iPhone**:
   
   Replace:
 
@@ -183,7 +183,7 @@ If you use `user.browserType` in JavaScript segments, changes could include the 
 
   `user.mobile.deviceVendor != "Apple" || user.mobile.deviceModel == null !! !user.mobile.deviceModel.toLowerCase().includes("iphone")`
 
-* BrowserType is iPad
+* **BrowserType is iPad**:
   
   Replace:
 
@@ -193,7 +193,7 @@ If you use `user.browserType` in JavaScript segments, changes could include the 
 
   `user.mobile.deviceVendor == "Apple" && user.mobile.deviceModel && user.mobile.deviceModel.toLowerCase().includes("ipad")`
 
-* BrowserType is not iPad
+* **BrowserType is not iPad**:
   
   Replace:
 
