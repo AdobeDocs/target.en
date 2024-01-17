@@ -9,7 +9,7 @@ exl-id: f2783042-f6ee-4f73-b487-ede11d55d530
 
 This article contains prerelease information for upcoming [!DNL Adobe Target] releases, including SDKs, APIs, and JavaScript libraries.
 
-**Last Updated: January 16, 2024**
+**Last Updated: January 17, 2024**
 
 >[!NOTE]
 >
@@ -21,7 +21,7 @@ This article contains prerelease information for upcoming [!DNL Adobe Target] re
 
 |Deprecation|Details|
 |--- |--- |
-|[!DNL iPad] and [!DNL iPhone] to be deprecated from the [Browser attribute](/help/main/c-target/c-audiences/c-target-rules/browser.md) used when creating audiences.<p>Deprecation date:<P>April 30, 2024|[!DNL Adobe Target] lets you [target on any of several category attributes](/help/main/c-target/c-audiences/c-target-rules/target-rules.md), including users who use a specific [browser or browser options](/help/main/c-target/c-audiences/c-target-rules/browser.md) when they visit your page.<P><B>Starting April 30, 2024, iPad and iPhone will be removed from the available [!UICONTROL Browser] type drop-down list when creating categories for audiences.</b><P>If you have audiences that target iPads or iPhones using the [!UICONTROL Browser] attribute, you must change these settings before April 30, 2024 to ensure that these audiences continue to function as expected.<P>The following settings should be used going forward:<ul><li>[!UICONTROL Mobile] > [!UICONTROL is Tablet]<P>![mobile is tablet](/help/main/r-release-notes/assets/is-tablet.png)</li><li>[!UICONTROL Mobile] > [!UICONTROL Device Marketing Name] [!UICONTROL matches] [!DNL iPad]<P>![iPad](/help/main/r-release-notes/assets/ipad.png)</li><li>[!UICONTROL Mobile] > [!UICONTROL Device Marketing Name] [!UICONTROL matches] [!DNL iPhone]<p>![iPhone](/help/main/r-release-notes/assets/iphone.png)</li></ul>|
+|[!DNL iPad] and [!DNL iPhone] to be deprecated from the [Browser attribute](/help/main/c-target/c-audiences/c-target-rules/browser.md) used when creating audiences.<p>Deprecation date:<P>April 30, 2024|[!DNL Adobe Target] lets you [target on any of several category attributes](/help/main/c-target/c-audiences/c-target-rules/target-rules.md), including users who use a specific [browser or browser options](/help/main/c-target/c-audiences/c-target-rules/browser.md) when they visit your page.<P><B>Starting April 30, 2024, iPad and iPhone will be removed from the available [!UICONTROL Browser] type drop-down list when creating categories for audiences.</b><P>If you have audiences that target iPads or iPhones using the [!UICONTROL Browser] attribute, you must change these settings before April 30, 2024 to ensure that these audiences continue to function as expected.<p>For examples of alternate settings, see [Deprecation of iPad and iPhone from Browser audience attribute (April 30, 2024)](/help/main/c-target/c-audiences/c-target-rules/browser.md#deprecation).|
 
 ## [!DNL Target] Standard/Premium 24.1.1 (January 22, 23, & 25, 2024)
 
