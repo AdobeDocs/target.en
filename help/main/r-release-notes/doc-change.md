@@ -13,6 +13,7 @@ This page lists significant changes made to the [!DNL Adobe Target] product docu
 
 |Date|Topic|Changes|
 | --- | --- | --- |
+|January 18|[[!DNL Target] release notes (prerelease)](/help/main/r-release-notes/target-release-notes.md)|Added prerelease notes for the upcoming [!DNL Target Standard/Premium] 24.1.1 release.|
 |December 13|[[!DNL Adobe Target] announcements and events](/help/main/r-release-notes/target-announcements.md)|Added information about the [!DNL Adobe Target] 2024 Personalization Maturity Webinar Series.|
 ||[targetGlobalSettings()](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/functions-overview/targetglobalsettings.html){target=_blank}|Added two new optional settings: <ul><li>aepSandboxId</li><li>aepSandboxName</li></ul>|
 |December 4|[[!DNL Adobe Target] announcements and events](/help/main/r-release-notes/target-announcements.md)|Added registration information for the "Machine Learning & AI Reporting & Analysis" [!DNL Adobe Target Community] Coffee Break session: Wednesday, December 6, 2023.|
