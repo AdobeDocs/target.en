@@ -10,6 +10,6 @@ exl-id: b6edb504-a8b6-4379-99c1-6907e71601f9
 
 Before you start using [!DNL Adobe Target Recommendations], you must complete several steps.
 
-The [Adobe Target Developer Guide](https://experienceleague.corp.adobe.com/docs/target-dev/developer/overview.html){target=_blank} contains information about how to implement [!DNL Recommendations] on your site, as well as how to implement [!DNL Target].
+The [Adobe Target Developer Guide](https://experienceleague.adobe.com/docs/target-dev/developer/overview.html){target=_blank} contains information about how to implement [!DNL Recommendations] on your site, as well as how to implement [!DNL Target].
 
-For more information and step-by-step instructions, see [Plan and implement Recommendations](https://experienceleague.corp.adobe.com/docs/target-dev/developer/recommendations.html){target=_blank} in the *Adobe Target Developer Guide* portal.
+For more information and step-by-step instructions, see [Plan and implement Recommendations](https://experienceleague.adobe.com/docs/target-dev/developer/recommendations.html){target=_blank} in the *Adobe Target Developer Guide* portal.
