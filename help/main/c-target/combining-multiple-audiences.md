@@ -11,7 +11,7 @@ Combine multiple audiences (including [!DNL Adobe Experience Cloud], [!DNL Adobe
 
 >[!NOTE]
 >
->The [!DNL Adobe Experience Platform] source is available to all [!DNL Target] customers using the [Adobe Experience Platform Web SDK](https://experienceleague.corp.adobe.com/docs/target-dev/developer/client-side/aep-web-sdk.html?lang=en){target=_blank}. Audiences available from the [!DNL Adobe Experience Platform] can be used as is or combined with existing audiences, as explained in this topic.
+>The [!DNL Adobe Experience Platform] source is available to all [!DNL Target] customers using the [Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/aep-web-sdk.html?lang=en){target=_blank}. Audiences available from the [!DNL Adobe Experience Platform] can be used as is or combined with existing audiences, as explained in this topic.
 >
 >For more information see [Use audiences from Adobe Experience Platform](/help/main/c-target/c-audiences/audiences.md#aep).
 

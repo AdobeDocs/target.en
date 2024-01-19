@@ -13,8 +13,8 @@ Learn how [!DNL Adobe Target] works, including information about the JavaScript 
 
 [!DNL Target] integrates with websites using the [!DNL Experience Platform Web SDK] or at.js:
 
-* **[!DNL Adobe Experience Platform Web SDK]:** The [Experience Platform Web SDK](https://experienceleague.corp.adobe.com/docs/target-dev/developer/client-side/aep-web-sdk.html){target=_blank} is a new client-side JavaScript library. The [!DNL Experience Platform Web SDK] lets customers of [!DNL Adobe Experience Cloud] interact with the various services in the [!DNL Experience Cloud] (including [!DNL Target]) through the [!DNL Experience Platform] Edge Network. [!DNL Adobe] recommends that all new [!DNL Target] customers implement the [!DNL Experience Platform Web SDK].
-* **at.js:** The at.js library is an implementation library for [!DNL Target]. The at.js library improves page-load times for web implementations and provides better implementation options for single-page applications. at.js is updated frequently with new capabilities. [!DNL Adobe] recommends that all customers using at.js update their implementations to the [latest version of at.js](https://experienceleague.corp.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/target-atjs-versions.html){target=_blank}.
+* **[!DNL Adobe Experience Platform Web SDK]:** The [Experience Platform Web SDK](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/aep-web-sdk.html){target=_blank} is a new client-side JavaScript library. The [!DNL Experience Platform Web SDK] lets customers of [!DNL Adobe Experience Cloud] interact with the various services in the [!DNL Experience Cloud] (including [!DNL Target]) through the [!DNL Experience Platform] Edge Network. [!DNL Adobe] recommends that all new [!DNL Target] customers implement the [!DNL Experience Platform Web SDK].
+* **at.js:** The at.js library is an implementation library for [!DNL Target]. The at.js library improves page-load times for web implementations and provides better implementation options for single-page applications. at.js is updated frequently with new capabilities. [!DNL Adobe] recommends that all customers using at.js update their implementations to the [latest version of at.js](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/target-atjs-versions.html){target=_blank}.
 
 >[!NOTE]
 >
@@ -25,7 +25,7 @@ Reference the [!DNL Experience Platform Web SDK] or at.js on every page on your 
 The following resources contain detailed information to help you implement the [!DNL Experience Platform Web SDK] or at.js:
 
 * [[!DNL Adobe Experience Platform Web SDK] extension](https://experienceleague.adobe.com/docs/experience-platform/tags/extensions/adobe/sdk/overview.html){target=_blank}
-* [Implement [!DNL Target] using [!DNL Adobe Experience Platform]](https://experienceleague.corp.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/deploy-at-js/implement-target-using-adobe-launch.html){target=_blank}
+* [Implement [!DNL Target] using [!DNL Adobe Experience Platform]](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/deploy-at-js/implement-target-using-adobe-launch.html){target=_blank}
 
 Each time a visitor requests a page that has been optimized for [!DNL Target], a request is sent to the targeting system. The request helps to determine what content to serve to that visitor. This process occurs in real time. Every time a page is loaded, a request for the content is made and fulfilled by the system. The content is governed by the rules of marketer-controlled activities and experiences and is targeted to the individual site visitor. Content is served that each site visitor is most likely to respond to, interact with, or ultimately purchase. Personalized content helps maximize response rates, acquisition rates, and revenue.
 
@@ -128,7 +128,7 @@ The [!DNL Target Recommendations] service is hosted in an [!DNL Adobe] data cent
 >
 >[!DNL Adobe Target] currently doesn't have an Edge Cluster in China and the visitor performance remains limited for [!DNL Target] customers in China. Because of the firewall and the lack of Edge Clusters within the country, the experiences of sites with [!DNL Target] deployed can be affected. Experiences can be slow to render and page loads can be affected. Also, marketers might experience latency when using the [!DNL Target] authoring UI.
 
-You can allowlist [!DNL Target] Edge Clusters, if desired. For more information, see [allowlist Target edge nodes](https://experienceleague.corp.adobe.com/docs/target-dev/developer/implementation/privacy/allowlist-edges.html){target=_blank}.
+You can allowlist [!DNL Target] Edge Clusters, if desired. For more information, see [allowlist Target edge nodes](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/privacy/allowlist-edges.html){target=_blank}.
 
 ## Protected user experience {#concept_40A5E781D90A41E4955F80EA9E5F8F96}
 

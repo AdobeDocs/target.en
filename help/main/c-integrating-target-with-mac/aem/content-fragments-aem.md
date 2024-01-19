@@ -33,7 +33,7 @@ To learn more about AEM [!UICONTROL Content Fragments] and [!UICONTROL Experienc
 
 ## Requirements {#requirements}
 
-You must be using [[!DNL AEM] as a Cloud Service](https://experienceleague.corp.adobe.com/docs/experience-manager-cloud-service.html){target=_blank}. Your account representative can help ensure that you meet the requirements to use this feature:
+You must be using [[!DNL AEM] as a Cloud Service](https://experienceleague.adobe.com/docs/experience-manager-cloud-service.html){target=_blank}. Your account representative can help ensure that you meet the requirements to use this feature:
 
 Contact [Adobe Target Customer Care](/help/main/cmp-resources-and-contact-information.md#reference_ACA3391A00EF467B87930A450050077C) to enable the integration and to provide you with authentication details.
 
