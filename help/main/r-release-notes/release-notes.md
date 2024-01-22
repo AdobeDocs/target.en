@@ -13,23 +13,28 @@ These release notes provide information about features, enhancements, and fixes 
 
 (The issue numbers in parentheses are for internal [!DNL Adobe] use.)
 
-## [!DNL Target] Standard/Premium 23.11.1 (November 13 & 14, 2023)
+## Deprecation of iPad and iPhone from Browser audience attribute (April 30, 2024)
+
+|Deprecation|Details|
+|--- |--- |
+|[!DNL iPad] and [!DNL iPhone] to be deprecated from the [Browser attribute](/help/main/c-target/c-audiences/c-target-rules/browser.md) used when creating audiences.<p>Deprecation date:<P>April 30, 2024|[!DNL Adobe Target] lets you [target on any of several category attributes](/help/main/c-target/c-audiences/c-target-rules/target-rules.md), including users who use a specific [browser or browser options](/help/main/c-target/c-audiences/c-target-rules/browser.md) when they visit your page.<P><B>Starting April 30, 2024, iPad and iPhone will be removed from the available [!UICONTROL Browser] type drop-down list when creating categories for audiences.</b><P>If you have audiences that target iPads or iPhones using the [!UICONTROL Browser] attribute, you must change these settings before April 30, 2024 to ensure that these audiences continue to function as expected.<p>For examples of alternate settings, see [Deprecation of iPad and iPhone from Browser audience attribute (April 30, 2024)](/help/main/c-target/c-audiences/c-target-rules/browser.md#deprecation).|
+
+## [!DNL Target] Standard/Premium 24.1.1 (January 22, 23, & 25, 2024)
 
 This release is scheduled for the following days:
 
-* **November 13**: Asia-Pacific (APAC) region
-* **November 14**: Americas region
-* **November 14**: Europe, Middle East, and Africa (EMEA) region
+* **January 22**: Europe, Middle East, and Africa (EMEA) region
+* **January 23**: Asia-Pacific (APAC) region
+* **January 25**: Americas region
 
 This release contains the following enhancements and fixes:
 
-* Enhanced the [Activity QA](/help/main/c-activities/c-activity-qa/activity-qa.md) feature to support [disallowing duplicate offers](/help/main/c-activities/t-automated-personalization/managing-exclusions.md) for experiences in [!UICONTROL Automated Personalization] activities. (TGT-46627)
-* Added a tooltip in the [!DNL Target] UI to help customers understand why there might not be data available in activity reports if no traffic is allocated to the control experience. A link to more information is included in the tooltip: [Why is there no data available for my activity's report?](/help/main/c-reports/reporting-frequently-asked-questions.md#section_E4722F6445884130951DF79981C8289B). (TGT-46610)
-* Fixed an issue that prevented activities from displaying properly on the [!UICONTROL Activities] page for a few customers. (TGT-46830)
-* Fixed the following issues that affected activities that use [[!UICONTROL Analytics for Target]](/help/main/c-integrating-target-with-mac/a4t/a4t.md) (A4T) as the reporting source: 
-  * Fixed an issue that prevented some customers from viewing reporting data. (TGT-46557)
-  * Fixed an issue that sometimes caused the [!UICONTROL View in Analytics] link on activity reporting pages to not function properly. (TGT-46731)
-  * Fixed an issue that prevented data for [!UICONTROL Lift] and [!UICONTROL Confidence] to display properly in the [!DNL Target] UI. (TGT-46592, TGT-46554, & TGT-46586)
+* [!UICONTROL Analytics for Target] (A4T) activities with revenue goal metrics did not display "Revenue" as the column name and the revenue metric did not display in ($) format in reporting. This was a cosmetic issue that has been remedied. (TGT-46995)
+* Fixed an issue that caused reporting date intervals to not work correctly. (TGT-47396)
+* Fixed an issue that caused the incorrect status to display on the [!UICONTROL All Activities] page after customers activated or deactivated an activity using the [!UICONTROL More Actions] icon. (TGT-47367)
+* Fixed an issue that caused the [!UICONTROL Important Attributes] report to not display for a single customer. (TGT-47272)
+* Fixed an issue that caused an "Invalid payload" message to display when a single customer tried to enable "Require Authentication." (TGT-47195)
+* Updated numerous localized strings in the [!DNL Target] UI.
 
 ## Additional release notes and version details
 
