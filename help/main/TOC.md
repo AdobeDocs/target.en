@@ -87,6 +87,7 @@ feature-set: Target
       + [Adobe Customer Journey Analytics as the reporting source for Target (CJA4T)](/help/main/c-integrating-target-with-mac/cja4t/cja4t.md)
    + Integrate Target with Adobe Journey Optimizer (AJO) {#ajo}
       + [Use offer decisions](/help/main/c-integrating-target-with-mac/ajo/offer-decision.md)
+      + [Integrate [!DNL Adobe Target Recommendations] and [!DNL Adobe Journey Optimizer]](/help/main/c-integrating-target-with-mac/ajo/recs-ajo-integration.md) {#recs-ajo} {#hidden}
    + [Experience Cloud Audiences](/help/main/c-integrating-target-with-mac/mmp.md)
    + Integrate Target with Adobe Experience Manager (AEM) {#aem}
       + [Integrate Target with AEM overview](/help/main/c-integrating-target-with-mac/aem/aem-target-integration.md)
