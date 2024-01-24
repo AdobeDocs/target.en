@@ -11,22 +11,22 @@ You can target users who use a specific browser or specific browser options when
 
 The following browsers can be targeted:
 
-* Chrome
-* Firefox
-* Safari
-* Internet Explorer
-* Microsoft Edge
-* Opera
-* iPad
-* iPhone
+* [!UICONTROL Chrome]
+* [!UICONTROL Firefox]
+* [!UICONTROL Safari]
+* [!UICONTROL Internet Explorer]
+* [!UICONTROL Microsoft Edge]
+* [!UICONTROL Opera]
+* [!DNL iPad]
+* [!DNL iPhone]
 
 >[!IMPORTANT]
 >
->Starting April 30, 2024, iPad and iPhone will be removed from the available [!UICONTROL Browser] type drop-down list when creating categories for audiences. For workaround settings, see [Deprecation of iPad and iPhone from Browser audience attribute (April 30, 2024)](#deprecation) below.
+>Starting April 30, 2024, [!DNL iPad] and [!DNL iPhone] will be removed from the available [!UICONTROL Browser] type drop-down list when creating categories for audiences. For workaround settings, see [Deprecation of iPad and iPhone from Browser audience attribute (April 30, 2024)](#deprecation) below.
 
 There are two ways to target browsers:
 
-* **Pre-built Audience:** Use the pre-built audience if you want to target only visitors who use a specific browser to visit your site. For example, if you are offering a Chrome extension, you would target only Chrome users.
+* **Pre-built Audience:** Use the pre-built audience if you want to target only visitors who use a specific browser to visit your site. For example, if you are offering a [!DNL Chrome] extension, you would target only [!DNL Chrome] users.
 
   1. When setting up your activity, select the browser from the drop-down list.
 
@@ -51,11 +51,11 @@ There are two ways to target browsers:
   1. (Optional) Set up additional rules for the audience. 
   1. Click **[!UICONTROL Done]**.
 
-  The following example shows an audience that includes Microsoft Edge users on versions 91 or 92:
+  The following example shows an audience that includes [!DNL Microsoft Edge] users on versions 91 or 92:
 
   ![Target Edge 91 or 92](assets/target_edge.png)
 
-## Browser Options {#concept_221D8EEF53CC45AEACEB17CF336A3658}
+## Browser options {#concept_221D8EEF53CC45AEACEB17CF336A3658}
 
 Target or exclude activity entrants based on their browser type, language, or version.
 
@@ -65,8 +65,8 @@ Target or exclude a certain browser.
 
 Select **[!UICONTROL Type]**, then choose either equals or does not equal.
 
-* Equals: Target the selected browsers. 
-* Does not equal: Exclude the selected browsers.
+* [!UICONTROL Equals]: Target the selected browsers. 
+* [!UICONTROL Does not equal]: Exclude the selected browsers.
 
 Select one or more browsers. Multiple options are connected with an OR.
 
@@ -80,8 +80,8 @@ Including or excluding browser language can provide more accurate visitor target
 
 Select **[!UICONTROL Language]**, then choose either equals or does not equal.
 
-* Equals: Target the selected browser languages. 
-* Does not equal: Exclude the selected browser languages.
+* [!UICONTROL Equals]: Target the selected browser languages. 
+* [!UICONTROL Does not equal]: Exclude the selected browser languages.
 
 Select one or more languages. Multiple options are connected with an OR.
 
@@ -101,16 +101,16 @@ The following browser languages can be targeted or excluded:
 
 Target or exclude certain browser versions.
 
-For example, if your page does not appear correctly in Internet Explorer version 11 or earlier, you can create an audience that excludes those versions. In that case, you would set up a rule where the browser type equals Internet Explorer and add a second rule where the version is less than or equal to 11.
+For example, if your page does not appear correctly in [!DNL Internet Explorer] version 11 or earlier, you can create an audience that excludes those versions. In that case, you would set up a rule where the browser type equals [!DNL Internet Explorer] and add a second rule where the version is less than or equal to 11.
 
 Select **[!UICONTROL Version]**, then choose an operator:
 
-* Equals 
-* Does not equal 
-* Is greater than 
+* [!UICONTROL Equals] 
+* [!UICONTROL Does not equal] 
+* [!UICONTROL Is greater than] 
 * Is greater than or equal to 
-* Is less than 
-* Is less than or equal to
+* [!UICONTROL Is less than] 
+* [!UICONTROL Is less than or equal to]
 
 Type the version number. Only major versions can be entered in the text field. The specified version includes any minor version of that release. For example, if you specify version 10, visitors on version 10.1 are also included.
 
@@ -131,7 +131,9 @@ This video includes information about using audience categories.
 
 Starting April 30, 2024, iPad and iPhone will be removed from the available [!UICONTROL Browser] type drop-down list when creating categories for audiences.
 
-If you have audiences that target iPads or iPhones using the [!UICONTROL Browser] attribute, you must change these settings before April 30, 2024 to ensure that these audiences continue to function as expected.
+Built-in audiences, such as "Browser: iPad" and "Browser: iPhone", will be automatically moved over to the new Audience definition. Any profile scripts that use "user.browserType" will *not* be updated automatically: if you do not manually update them, user qualification might not happen as expected.
+
+If you have audiences that target iPads or iPhones using the [!UICONTROL Browser] attribute, you should change these settings before April 30, 2024 to ensure that these audiences continue to function as expected.
 
 ### Audiences created using the [!DNL Target] UI
 
@@ -165,13 +167,13 @@ There are many other possible settings that could be used, for example when cond
 
 ### Audiences created using profile scripts
 
-If you use `user.browserType` in JavaScript segments as explained in [Profile and variable glossary](/help/main/c-target/c-visitor-profile/variables-profiles-parameters-methods.md), changes should include the following:
+If you use `user.browserType` in audiences that use profile scripts, as explained in [Profile and variable glossary](/help/main/c-target/c-visitor-profile/variables-profiles-parameters-methods.md), changes should include the following:
 
 >[!NOTE]
 >
 >The following profiles are scheduled to be released in the next few days, as of January 24, 2024. The [current release notes](/help/main/r-release-notes/release-notes.md) will be updated when these profiles are available.
-
-These profiles make the following changes possible:
+>
+>These profiles make the following changes possible:
 >
 >* `profile.mobile.isTablet`
 >
