@@ -133,6 +133,8 @@ Starting April 30, 2024, iPad and iPhone will be removed from the available [!UI
 
 If you have audiences that target iPads or iPhones using the [!UICONTROL Browser] attribute, you must change these settings before April 30, 2024 to ensure that these audiences continue to function as expected.
 
+### Audiences created using the [!DNL Target] UI
+
 The following settings could be used going forward:
 
 * **For browser matches [!DNL Apple]**: [!UICONTROL Mobile] > [!UICONTROL Device Vendor] [!UICONTROL matches] [!DNL Apple]
@@ -161,16 +163,19 @@ There are many other possible settings that could be used, for example when cond
 
   ![Not tablet](/help/main/r-release-notes/assets/tablet-false.png)
 
-If you use `user.browserType` in JavaScript segments, changes should include the following:
+### Audiences created using profile scripts
+
+If you use `user.browserType` in JavaScript segments as explained in [Profile and variable glossary](/help/main/c-target/c-visitor-profile/variables-profiles-parameters-methods.md), changes should include the following:
 
 >[!NOTE]
 >
->The following additions are scheduled to be released January 24, 2024. These additions make the following changes possible:
+>The following profiles are scheduled to be released in the next few days, as of January 24, 2024. The [current release notes](/help/main/r-release-notes/release-notes.md) will be updated when these profiles are available.
+
+These profiles make the following changes possible:
 >
 >* `profile.mobile.isTablet`
 >
 >* `profile.mobile.isMobilePhone`
-
 
 * **BrowserType is iPhone**:
 
