@@ -15,6 +15,7 @@ This page lists significant changes made to the [!DNL Adobe Target] product docu
 | --- | --- | --- |
 |January 24|[at.js version details](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/target-atjs-versions.html){target=_blank}|Added release notes for at.js version 2.11.4.|
 ||[Browser](/help/main/c-target/c-audiences/c-target-rules/browser.md#deprecation)|Announced that the two new profiles are not yet available. These notes will be updated when these profiles are available.|
+||[at.js Frequently Asked Questions](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/target-atjs-faq.html){target=_blank}|Added FAQ regarding at.js in an Ionic App environment. This implementation is not tested or recommended.|
 |January 22|[Target release notes (current)](/help/main/r-release-notes/release-notes.md)|Added important information about the deprecation of iPad and iPhone from the [!UICONTROL Browser] audience attribute that requires changes on your part prior to April 30, 2024.|
 ||[Browser](/help/main/c-target/c-audiences/c-target-rules/browser.md#deprecation)|Added new section: <ul><li>Deprecation of iPad and iPhone from Browser audience attribute (April 30, 2024)</li></ul>|
 ||[Target release notes (current)](/help/main/r-release-notes/release-notes.md)|Added release notes for the [!DNL Target Standard/Premium] 24.1.1 release.|
