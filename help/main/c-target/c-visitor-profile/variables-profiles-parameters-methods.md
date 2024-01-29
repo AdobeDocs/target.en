@@ -42,6 +42,8 @@ This page lists profiles, variables, and parameters that are useful in profile s
 |profile.browserTime|The visitor's local browser time. For system time, create a new date object in the profile script|
 |profile.averageDaysBetweenVisits||
 |profile.sessionCount||
+|profile.mobile.isTablet|Visitor device is a tablet.<P>This profile replaces the deprecated legacy [Browser is iPad audience category](/help/main/c-target/c-audiences/c-target-rules/browser.md).|
+|profile.mobile.isMobilePhone|Visitor device is a mobile phone.<P>This profile replaces the deprecated legacy [Browser is iPhone audience category](/help/main/c-target/c-audiences/c-target-rules/browser.md).|
 |parameter=|Generic term for additional values passed with an mbox, usually as name/value pairs. Not persistent unless made so with `profile.parameter` or `user.parameter`.|
 
 ## URL Variables {#section_8F25958273164EBAA6DC659302993FD3}
