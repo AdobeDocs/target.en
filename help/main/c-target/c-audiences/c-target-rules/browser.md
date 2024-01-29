@@ -129,13 +129,13 @@ This video includes information about using audience categories.
 
 [!DNL Adobe Target] lets you [target on any of several category attributes](/help/main/c-target/c-audiences/c-target-rules/target-rules.md), including users who use a specific browser or browser options when they visit your page.
 
-Starting April 30, 2024, iPad and iPhone will be removed from the available [!UICONTROL Browser] type drop-down list when creating categories for audiences.
+Starting April 30, 2024, iPad and iPhone will be removed from the available [!UICONTROL Browser] type drop-down list in the [!DNL Target] UI when creating categories for audiences.
 
-Built-in audiences, such as "Browser: iPad" and "Browser: iPhone", will be automatically moved over to the new Audience definition. Any profile scripts that use "user.browserType" will *not* be updated automatically: if you do not manually update them, user qualification might not happen as expected.
+Built-in audiences created using the [!DNL Target] UI, such as "Browser: iPad" and "Browser: iPhone", will be automatically moved over to the new Audience definition. However, going forward, you should use the settings [described below](#ui).
 
-If you have audiences that target iPads or iPhones using the [!UICONTROL Browser] attribute, you should change these settings before April 30, 2024 to ensure that these audiences continue to function as expected.
+If you use `user.browserType` in any profile scripts to check if it is an iPhone or iPad (for example, `user.browserType == 'iphone'` or `user.browserType != 'ipad'`), those profile scripts should be changed as [instructed below](#profile-scripts) before April 30, 2024 to ensure that these audiences continue to function as expected.
 
-### Audiences created using the [!DNL Target] UI
+### Audiences created using the [!DNL Target] UI {#ui}
 
 The following settings could be used going forward:
 
@@ -165,7 +165,7 @@ There are many other possible settings that could be used, for example when cond
 
   ![Not tablet](/help/main/r-release-notes/assets/tablet-false.png)
 
-### Audiences created using profile scripts
+### Audiences created using profile scripts {#profile-scripts}
 
 If you use `user.browserType` in audiences that use profile scripts, as explained in [Profile and variable glossary](/help/main/c-target/c-visitor-profile/variables-profiles-parameters-methods.md), changes should include the following:
 
