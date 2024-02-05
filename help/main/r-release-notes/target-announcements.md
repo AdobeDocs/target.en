@@ -9,7 +9,26 @@ exl-id: 02bbc049-ab41-469b-8f7b-dc93ffb8ae73
 
 Announcements and information about [!DNL Adobe Target] events, including [!DNL Target] Coffee Break sessions, [!DNL Target] webinar series, [!DNL Target] Skill Builder sessions, developer chats, and more. Links to past recordings are included if available.
 
-## Adobe Target 2024 Personalization Maturity Webinar Series
+## Adobe Target Community Q&A Coffee Break
+
+* **Art of the Possible Webinar Follow-up Questions (Part 1 of Personalization Maturity Series)**
+* **Wednesday, February 7, 2024**
+* **8:00 - 9:00 (PST -8 GMT)**
+* **[Registration information](https://shorturl.at/gknVY){target=_blank}**
+
++++Details
+
+Join [!DNL Adobe Target] experts Brent Kostak, Ryan Roberts, and Drew Burns as they provide answers in real-time to customers' questions related to content covered during [Part 1 of the [!DNL Adobe Target] Webinar Series on the "Art of the Possible](#maturity-series)," where our experts covered the following topics:
+
+* How each [!DNL Target] capability plays a strategic role in executing personalization at scale
+* Top use cases that customers are configuring AI capabilities to accomplish at scale
+* How you are in control of machine learning to activate AI-powered Personalization to your specific goals
+
+If you missed the original webinar, [listen to the recording](https://experienceleaguecommunities.adobe.com/t5/adobe-target-discussions/upcoming-webinar-2024-1-16-24-p1-adobe-target-personalization/td-p/639284){target=_blank}.
+
++++
+
+## Adobe Target 2024 Personalization Maturity Webinar Series {#maturity-series}
 
 This live webinar series will highlight key [!DNL Adobe Target] capabilities, use cases, and tips to unlock AI-powered personalization as customers expand their experimentation and personalization journey with [!DNL Adobe Experience Platform].
 
@@ -27,7 +46,9 @@ Why should you attend:
   * **Tuesday, January 16, 2024**
   * **10:00 - 11:00 a.m. (PST -8 GMT)**
 
-    At the core of personalization maturity is Artificial Intelligence and machine learning. [!DNL Adobe Target] leverages these technologies to understand user behavior, predict preferences, and dynamically tailor content. By harnessing the power of AI and ML, learn how brands are moving beyond static A/B testing and rules-based personalization to deliver dynamic, contextually relevant experiences. 
+    At the core of personalization maturity is Artificial Intelligence and machine learning. [!DNL Adobe Target] leverages these technologies to understand user behavior, predict preferences, and dynamically tailor content. By harnessing the power of AI and ML, learn how brands are moving beyond static A/B testing and rules-based personalization to deliver dynamic, contextually relevant experiences.
+
+    [Listen to the recording.](https://experienceleaguecommunities.adobe.com/t5/adobe-target-discussions/upcoming-webinar-2024-1-16-24-p1-adobe-target-personalization/td-p/639284){target=_blank} 
 
 * **High Performance Recommendations**
   * **Tuesday, February 13, 2024**
