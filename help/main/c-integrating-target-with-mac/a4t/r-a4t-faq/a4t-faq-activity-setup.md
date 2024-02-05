@@ -9,10 +9,20 @@ exl-id: 8a8cdbb9-89f6-4e4a-a53e-8f33adab4d61
 
 This topic contains answers to questions that are frequently asked about activity setup and using [!DNL Analytics] as the reporting source for [!DNL Target] (A4T).
 
-## Which activity types are support Analytics as the reporting source (A4T)? {#section_5E4F58CD25A5424E869E6FE0803968EF}
+## Which activity types are support [!DNL Analytics] as the reporting source (A4T)? {#section_5E4F58CD25A5424E869E6FE0803968EF}
 
 +++Answer
 For a full list, see "Supported Activity Types" in [Adobe Analytics as the Reporting Source for Adobe Target (A4T)](/help/main/c-integrating-target-with-mac/a4t/a4t.md#concept_7540C8C04259434AB6EE33B09F47A1DE).
+
++++
+
+## Can I use the same activity name for two activities from separate workspaces when using A4T reporting?
+
++++Answer
+
+Do not use the same activity name for two activities from separate [workspaces](/help/main/administrating-target/c-user-management/property-channel/property-channel.md) that are using A4T reporting.
+
+Although this is supported when using [!DNL Target] as the reporting source, using the same activity name for two activities is not supported when using [!UICONTROL Analytics for Target] as the reporting source.
 
 +++
 

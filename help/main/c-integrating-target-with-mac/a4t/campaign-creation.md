@@ -20,6 +20,8 @@ Creating a [!DNL Target] activity that uses [!DNL Analytics] as the reporting so
    >[!NOTE]
    >
    >An activity name cannot include the "%" character if [!DNL Analytics] is used as the reporting source.
+   >
+   >Do not use the same activity name for two activities from separate [workspaces](/help/main/administrating-target/c-user-management/property-channel/property-channel.md) that are using A4T reporting.
 
 1. Select the activity type and begin setting up the activity.
 
