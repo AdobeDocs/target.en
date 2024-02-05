@@ -13,6 +13,8 @@ This page lists significant changes made to the [!DNL Adobe Target] product docu
 
 |Date|Topic|Changes|
 | --- | --- | --- |
+|February 5|[Create an activity that uses Analytics as the reporting source](/help/main/c-integrating-target-with-mac/a4t/campaign-creation.md)|Added text specifying that you cannot use the same activity name for two activities from separate workspaces when using [!UICONTROL Analytics for Target] (A4T) as the reporting source.|
+||[Activity settings - A4T FAQ](/help/main/c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-activity-setup.md)|Added text specifying that you cannot use the same activity name for two activities from separate workspaces when using [!UICONTROL Analytics for Target] (A4T) as the reporting source.|
 |January 24|[at.js version details](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/target-atjs-versions.html){target=_blank}|Added release notes for at.js version 2.11.4.|
 ||[Browser](/help/main/c-target/c-audiences/c-target-rules/browser.md#deprecation)|Announced that the two new profiles are not yet available. These notes will be updated when these profiles are available.|
 ||[at.js Frequently Asked Questions](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/target-atjs-faq.html){target=_blank}|Added FAQ regarding at.js in an Ionic App environment. This implementation is not tested or recommended.|
