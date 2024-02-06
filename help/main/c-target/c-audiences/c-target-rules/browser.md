@@ -135,7 +135,7 @@ Built-in audiences created using the [!DNL Target] UI, such as "Browser: iPad" a
 
 If you use `user.browserType` in any profile scripts to check if it is an iPhone or iPad (for example, `user.browserType == 'iphone'` or `user.browserType != 'ipad'`), those profile scripts should be changed as [instructed below](#profile-scripts) before April 30, 2024 to ensure that these audiences continue to function as expected.
 
-JavaScript audiences using profile scripts are legacy audiences that were deprecated with the [!DNL Target Classic] UI. These audiences can be modified via API only. Customers must update these audiences only if using legacy audiences in activities in the new [!DNL Target Standard/Premium] UI. 
+JavaScript audiences are legacy audiences using Target expressions that were deprecated with the [!DNL Target Classic] UI. These audiences can be modified via API only. Customers must update these audiences only if continuing to use legacy audiences in activities.
 
 ### Audiences created using the [!DNL Target] UI {#ui}
 
@@ -169,7 +169,7 @@ There are many other possible settings that could be used, for example when cond
 
 ### Audiences created using profile scripts {#profile-scripts}
 
-If you use `user.browserType` in legacy [!DNL Target Classic] audiences that use profile scripts, as explained in [Profile and variable glossary](/help/main/c-target/c-visitor-profile/variables-profiles-parameters-methods.md), changes should include the following:
+If you use `user.browserType` in legacy [!DNL Target Classic] audiences or in profile scripts, changes should include the following:
 
 >[!NOTE]
 >
