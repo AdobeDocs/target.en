@@ -26,7 +26,7 @@ To use the [!DNL Target Recommendations] and [!DNL Adobe Journey Optimizer] inte
 
 ## Sample use cases
 
-The following are just a few possible use cases for integrating [!DNL Target Recommendations] with [!DNL Adobe Journey Optimizer]: 
+These are just a few possible use cases for integrating [!DNL Target Recommendations] with [!DNL Adobe Journey Optimizer]: 
 
 * **[!DNL Adobe Journey Optimizer] sends a personalized email after cart abandonment**: This use case is based on a customer visiting a website, placing items in the shopping cart, and then leaving the site without completing the purchase process. 
 
