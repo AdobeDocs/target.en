@@ -13,6 +13,7 @@ This page lists significant changes made to the [!DNL Adobe Target] product docu
 
 |Date|Topic|Changes|
 | --- | --- | --- |
+|February 8|[Prefetch](https://experienceleague.adobe.com/docs/target-dev/developer/api/delivery-api/prefetch.html){target=_blank}|Added new section: "Prefetch mboxes with clickTrack metrics when using Analytics for Target (A4T)"|
 |February 5|[Create an activity that uses Analytics as the reporting source](/help/main/c-integrating-target-with-mac/a4t/campaign-creation.md)|Added text specifying that you cannot use the same activity name for two activities from separate workspaces when using [!UICONTROL Analytics for Target] (A4T) as the reporting source.|
 ||[Activity settings - A4T FAQ](/help/main/c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-activity-setup.md)|Added text specifying that you cannot use the same activity name for two activities from separate workspaces when using [!UICONTROL Analytics for Target] (A4T) as the reporting source.|
 ||[[!DNL Adobe Target] announcements and events](/help/main/r-release-notes/target-announcements.md)|Added information about the Adobe Target Community Coffee Break scheduled for February 7, 2024.|
