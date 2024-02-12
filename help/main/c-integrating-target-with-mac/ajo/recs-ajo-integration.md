@@ -44,6 +44,6 @@ These are just a few possible use cases for integrating [!DNL Target Recommendat
 
 * **[!DNL Adobe Journey Optimizer] sends a bulk email to qualified visitors after site visit to suggest popular items**: This use case is based on a visitor visiting a website, but not viewing any particular items. The email is sent in bulk to all those that qualify for a particular audience, for example:
   
-  Suppose that the visitor does not view any particular watches. Perhaps the visitor simply clicked around the site and viewed category pages or blog entries. As a result, the [!DNL Target] profile doesn't have specific information about recently viewed items. In this situation, [!DNL Target Recommendations] can use a [backup recommendation](/help/main/c-recommendations/c-algorithms/backup-recs.md) so that [!DNL Adobe Journey Optimizer] can send an email with images and links to popular items on the website to get the visitor to return and possibly make a purchase.
+  Suppose that the visitor does not view any particular watches. Perhaps the visitor simply clicked around the site and viewed category pages or blog entries. As a result, the [!DNL Target] profile doesn't have specific information about recently viewed items. In this situation, [!DNL Target Recommendations] uses a [backup recommendation](/help/main/c-recommendations/c-algorithms/backup-recs.md) so that [!DNL Adobe Journey Optimizer] can send an email with images and links to popular items on the website to get the visitor to return and possibly make a purchase.
 
 
