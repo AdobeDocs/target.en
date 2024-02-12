@@ -9,7 +9,7 @@ exl-id: 02bbc049-ab41-469b-8f7b-dc93ffb8ae73
 
 Announcements and information about [!DNL Adobe Target] events, including [!DNL Target] Coffee Break sessions, [!DNL Target] webinar series, [!DNL Target] Skill Builder sessions, developer chats, and more. Links to past recordings are included if available.
 
-## Adobe Target Community Q&A Coffee Break
+<!--## Adobe Target Community Q&A Coffee Break
 
 * **Art of the Possible Webinar Follow-up Questions (Part 1 of Personalization Maturity Series)**
 * **Wednesday, February 7, 2024**
@@ -26,7 +26,7 @@ Join [!DNL Adobe Target] experts Brent Kostak, Ryan Roberts, and Drew Burns as t
 
 If you missed the original webinar, [listen to the recording](https://experienceleaguecommunities.adobe.com/t5/adobe-target-discussions/upcoming-webinar-2024-1-16-24-p1-adobe-target-personalization/td-p/639284){target=_blank}.
 
-+++
++++-->
 
 ## Adobe Target 2024 Personalization Maturity Webinar Series {#maturity-series}
 
