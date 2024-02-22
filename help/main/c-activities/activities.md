@@ -1,6 +1,6 @@
 ---
 keywords: activities list;activities;activity;activity types;edit activity;activity actions;activity attribute;activity list filter;activity limitations;personalize;personalization
-description: Learn how activities in Adobe [!DNL Target] let you personalize content to specific audiences and test page designs.
+description: Learn how activities in [!DNL Target] let you personalize content to specific audiences and test page designs.
 title: How Can I Personalize Content and Test Page Designs with [!DNL Target]?
 feature: Activities
 exl-id: 7e61525d-b2db-44f6-a7c2-df5a8d28eca2
