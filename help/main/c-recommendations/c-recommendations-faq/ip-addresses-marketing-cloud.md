@@ -6,11 +6,28 @@ badgePremium: label="Premium" type="Positive" url="https://experienceleague.adob
 feature: Recommendations
 exl-id: a666cfc4-ed74-44e8-9ff5-212e4fd65c03
 ---
-# IP addresses used by Recommendations feed-processing servers
+# IP addresses used by [!DNL Recommendations] feed-processing servers
 
-List of IP addresses used in [!DNL Adobe Target] [!DNL Recommendations] feed-processing servers to help you configure your firewall to allow IP addresses originating from Adobe servers.
+List of IP addresses used in [!DNL Adobe Target] [!DNL Recommendations] feed-processing servers to help you configure your firewall to allow IP addresses originating from [!DNL Adobe] servers.
+
+>[!IMPORTANT]
+>
+>February 23, 2023: The [!DNL Target] team is currently updating the NAT gateway addresses for downloading [!DNL Recommendations] feeds. If you implement IP allowlisting, ensure that you allowlist the following new AWS hosts. The existing hosts are scheduled to be decommissioned in the future. All nine hosts are now operational. 
 
 [!DNL Target] [!UICONTROL Recommendations] activities use the following AWS hosts when accessing customers' FTP servers:
+
+**New hosts**:
+
+| Location | Host |
+| --- | --- |
+| Oregon | `52.40.124.129` |
+| Oregon | `54.148.219.69` |
+| Oregon | `54.189.208.212` |
+| Oregon | `44.230.236.35` |
+| Oregon | `54.190.78.243` |
+| Oregon | `52.41.73.133` |
+
+**Existing hosts**:
 
 | Location | Host |
 | --- | --- |
@@ -19,7 +36,3 @@ List of IP addresses used in [!DNL Adobe Target] [!DNL Recommendations] feed-pro
 | Oregon | `52.41.252.205` |
 
 [!DNL Target] [!UICONTROL Recommendations] APIs also use the same AWS hosts.
-
->[!NOTE]
->
->These IP addresses were last updated on March 16, 2021. Previously, the servers accessing the FTP servers were in the 192.243.242.0/24 IP address CIDR block. The servers hosting Recommendations APIs were in the 192.243.224.0/20 IP address CIDR block.
