@@ -12,7 +12,7 @@ List of IP addresses used in [!DNL Adobe Target] [!DNL Recommendations] feed-pro
 
 >[!IMPORTANT]
 >
->February 23, 2023: The [!DNL Target] team is currently updating the NAT gateway addresses for downloading [!DNL Recommendations] feeds. If you implement IP allowlisting, ensure that you allowlist the following new AWS hosts. The existing hosts are scheduled to be decommissioned in the future. All nine hosts are now operational. 
+>The [!DNL Target] team is currently updating the NAT gateway addresses for downloading [!DNL Recommendations] feeds. If you implement IP allowlisting, ensure that you allowlist the following new AWS hosts. The existing hosts are scheduled to be decommissioned on June 30, 2024. To ensure a smooth transition, allowlist all nine addresses. There is no urgency to remove the existing addresses.
 
 [!DNL Target] [!UICONTROL Recommendations] activities use the following AWS hosts when accessing customers' FTP servers:
 
