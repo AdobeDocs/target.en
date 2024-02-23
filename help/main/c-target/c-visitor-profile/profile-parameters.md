@@ -9,7 +9,7 @@ exl-id: 6c689629-bbd3-461e-9a68-5b16d4eb4250
 
 Profile attributes in [!DNL Adobe Target] are parameters that are specific to a visitor. These attributes are stored in the visitor's profile to provide information about the visitor that can be used in your activities.
 
-A user profile contains demographic and behavioral information of a web page visitor. This information can include age, gender, products purchased, last time of visit, and so on, that [!DNL Target] uses to personalize the content it serves to the visitor.
+A user profile contains demographic and behavioral information of a web page visitor. This information can include age, gender, products purchased, last time of visit, and so on. [!DNL Target] uses this this information to personalize the content it serves to that visitor.
 
 As a visitor browses your website, or when the visitor returns for another session, the saved profile attributes in the profile can be used to target content or log information for segment filtering.
 
@@ -27,8 +27,8 @@ To set up profile attributes:
 
    | Parameter Type | Description |
    |--- |--- |
-   |mbox|Passed in directly through page code when creating the mbox. See [Pass Parameters to a Global Mbox](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/global-mbox/pass-parameters-to-global-mbox.html){target=_blank}.<br>**Note**: [!DNL Target] has a limit of 50 unique profile attributes per mbox call. If you must pass more than 50 profile attributes to [!DNL Target], pass them using the Profile Update API method. For more information, see [Profile Update in the [!DNL Adobe Target] API documentation](https://developers.adobetarget.com/api/#updating-profiles).|
-   |Profile|Defined directly with a JavaScript code snippet. These snippets can store running totals like total money spent by consumer and are executed on each mbox request. See Profile Script Attributes below.|
+   |mbox|Passed in directly through page code when creating the mbox. See [Pass Parameters to a Global Mbox](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/global-mbox/pass-parameters-to-global-mbox.html){target=_blank} in the *Target Developer Guide*..<P>**Note**: [!DNL Target] has a limit of 50 unique profile attributes per mbox call. If you must pass more than 50 profile attributes to [!DNL Target], pass them using the [!UICONTROL Profile Update API] method. For more information, see [Update profiles](https://experienceleague.adobe.com/docs/target-dev/developer/api/profile-apis/profile-api-overview.html){target=_blank} in the *Target Developer Guide*.|
+   |Profile|Defined directly with a JavaScript code snippet. These snippets can store running totals, such as total money spent by consumer, and are executed on each mbox request. See *Profile script attributes* below.|
 
 ## Profile script attributes {#concept_8C07AEAB0A144FECA8B4FEB091AED4D2}
 
