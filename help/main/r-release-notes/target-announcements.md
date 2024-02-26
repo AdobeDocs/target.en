@@ -9,24 +9,26 @@ exl-id: 02bbc049-ab41-469b-8f7b-dc93ffb8ae73
 
 Announcements and information about [!DNL Adobe Target] events, including [!DNL Target] Coffee Break sessions, [!DNL Target] webinar series, [!DNL Target] Skill Builder sessions, developer chats, and more. Links to past recordings are included if available.
 
-<!--## Adobe Target Community Q&A Coffee Break
+## Adobe Target Community Q&A Coffee Break
 
-* **Art of the Possible Webinar Follow-up Questions (Part 1 of Personalization Maturity Series)**
-* **Wednesday, February 7, 2024**
+* **High Performance Recommendations Webinar Follow-up Questions (Part 2 of Personalization Maturity Series)**
+* **Wednesday, February 28, 2024**
 * **8:00 - 9:00 (PST -8 GMT)**
-* **[Registration information](https://shorturl.at/gknVY){target=_blank}**
+* **[Registration information](https://experienceleaguecommunities.adobe.com/t5/target-community-events/at-community-q-amp-a-coffee-break-wednesday-2-28-24-8am-pt-high/ec-p/647204/thread-id/123){target=_blank}**
 
 +++Details
 
-Join [!DNL Adobe Target] experts Brent Kostak, Ryan Roberts, and Drew Burns as they provide answers in real-time to customers' questions related to content covered during [Part 1 of the [!DNL Adobe Target] Webinar Series on the "Art of the Possible](#maturity-series)," where our experts covered the following topics:
+Join [!DNL Adobe Target] experts Cristinel Anastasoaie, Brent Kostak, and Timothy Furlow (Target Recommendations expert & Senior Manager of Personalization & Optimization at Lenovo) as they provide answers in real-time to customers' questions related to content covered during [Part 2 of the [!DNL Adobe Target] Webinar Series on the "High Performance Recommendations](#maturity-series)," where our experts covered the following topics:
 
-* How each [!DNL Target] capability plays a strategic role in executing personalization at scale
-* Top use cases that customers are configuring AI capabilities to accomplish at scale
-* How you are in control of machine learning to activate AI-powered Personalization to your specific goals
+ * More advanced features that unlock more precision, adaptive recommendations as the customer develops a relationship with your brand.
+* How a non-technical user or marketer is in full control of configuring and managing the algorithms.
+* How to use AI and custom features with recommendations to unlock use cases that have immense impact on reduction in clicks and increasing revenue.
 
 If you missed the original webinar, [listen to the recording](https://experienceleaguecommunities.adobe.com/t5/adobe-target-discussions/upcoming-webinar-2024-1-16-24-p1-adobe-target-personalization/td-p/639284){target=_blank}.
 
-+++-->
+Be sure to register for Part 3 of the Webinar Series coming up on 3/12/24, covering "[Unlocking AI Powered Recommendations](https://experienceleaguecommunities.adobe.com/t5/adobe-target-discussions/upcoming-webinar-2024-3-12-24-p3-adobe-target-personalization/m-p/639301/thread-id/3686){target=_blank}."
+
++++
 
 ## Adobe Target 2024 Personalization Maturity Webinar Series {#maturity-series}
 
@@ -36,7 +38,7 @@ Why should you attend:
 
 * **Learn Top Use Cases**: Transform visions into reality with a blueprint for intelligent optimization, maturing [!DNL Adobe Target] customers beyond rules-based experimentation & A/B testing.
 * **Maximize Unique Capabilities**: Tailor experiences for success with high-performance recommendations to maximize ROI, revenue, and conversion.
-* **Advance Personalization Strategies**: Deep dive into AI/ML advanced techniques to scale business impact, resonate with new segments/audiences, and fine-tune personalization models for optimized experiences
+* **Advance Personalization Strategies**: Deep dive into AI/ML advanced techniques to scale business impact, resonate with new segments/audiences, and fine-tune personalization models for optimized experiences.
 
 * **[Register here](https://adobe-target-personalization-maturity-webinar-series-q1-2024.dxfieldmarketing.adobeevents.com/){target=_blank}**
 
@@ -55,6 +57,8 @@ Why should you attend:
   * **10:00 - 11:00 a.m. (PST -8 GMT)**
 
     Learn how recommendation algorithms can be a game-changer for businesses, driving engagement and revenue. From personalized product suggestions to content recommendations, the ability to guide users seamlessly through their journey contributes directly to unlocking significant business growth.
+
+    [Listen to the recording.](https://experienceleaguecommunities.adobe.com/t5/adobe-target-discussions/webinar-recording-2-13-24-p2-adobe-target-personalization/m-p/639295#M3685){target=_blank}
 
 * **Unlocking AI-Powered Personalization**
   * **Tuesday, March 12, 2024**
