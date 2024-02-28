@@ -9,7 +9,7 @@ exl-id: 02bbc049-ab41-469b-8f7b-dc93ffb8ae73
 
 Announcements and information about [!DNL Adobe Target] events, including [!DNL Target] Coffee Break sessions, [!DNL Target] webinar series, [!DNL Target] Skill Builder sessions, developer chats, and more. Links to past recordings are included if available.
 
-## Adobe Target Community Q&A Coffee Break
+<!-- ## Adobe Target Community Q&A Coffee Break
 
 * **High Performance Recommendations Webinar Follow-up Questions (Part 2 of Personalization Maturity Series)**
 * **Wednesday, February 28, 2024**
@@ -28,7 +28,7 @@ If you missed the original webinar, [listen to the recording](https://experience
 
 Be sure to register for Part 3 of the Webinar Series coming up on 3/12/24, covering "[Unlocking AI Powered Recommendations](https://experienceleaguecommunities.adobe.com/t5/adobe-target-discussions/upcoming-webinar-2024-3-12-24-p3-adobe-target-personalization/m-p/639301/thread-id/3686){target=_blank}."
 
-+++
++++ -->
 
 ## Adobe Target 2024 Personalization Maturity Webinar Series {#maturity-series}
 

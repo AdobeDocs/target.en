@@ -9,13 +9,28 @@ exl-id: f2783042-f6ee-4f73-b487-ede11d55d530
 
 This article contains prerelease information for upcoming [!DNL Adobe Target] releases, including SDKs, APIs, and JavaScript libraries.
 
-**Last Updated: January 22, 2024**
+**Last Updated: February 28, 2024**
 
 >[!NOTE]
 >
 >Release dates, features, and other information are subject to change without notice.
 >
 >To view information about the current release, see [Target Release Notes](release-notes.md). The information on these pages might be the same, depending on the timing of releases. The issue numbers in parentheses are for internal [!DNL Adobe] use.
+
+## [!DNL Target] Standard/Premium 24.3.1 (March 4-6, 2024)
+
+This release is scheduled for the following days:
+
+* **March 4**: Europe, Middle East, and Africa (EMEA) region
+* **March 5**: Asia-Pacific (APAC) region
+* **March 6**: Americas region
+
+This release contains the following enhancements and fixes:
+
+* Fixed the logic that computes the number of unique selectors in an activity. (TGT-47878)
+* Fixed an issue that caused [!UICONTROL Multivariate] (MVT) activities configured with [!UICONTROL Analytics for Target] (A4T) reporting to not display properly. (TGT-47490)
+* Improved the warning message displayed in reporting when an experience with no traffic is used as the control experience. (TGT-47537)
+* Added many backend and localization fixes.
 
 ## Additional release notes and version details
 
