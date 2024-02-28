@@ -13,6 +13,7 @@ This page lists significant changes made to the [!DNL Adobe Target] product docu
 
 |Date|Topic|Changes|
 | --- | --- | --- |
+|February 28|[[!DNL Target] release notes (prerelease)](/help/main/r-release-notes/target-release-notes.md)|Added information about the [!DNL Target] Standard/Premium 24.3.1 (March 4-6, 2024) release.|
 |February 26|[[!DNL Adobe Target] announcements and events](/help/main/r-release-notes/target-announcements.md)|Added information about the upcoming [!UICONTROL Adobe Target Community] Coffee Break (February 28, 2024).|
 |February 23|[IP addresses used by [!DNL Recommendations] feed-processing servers](/help/main/c-recommendations/c-recommendations-faq/ip-addresses-marketing-cloud.md)|Added the following important note and new IP addresses that you should allowlist.<P>**Important**: The [!DNL Target] team is currently updating the NAT gateway addresses for downloading [!DNL Recommendations] feeds. If you implement IP allowlisting, ensure that you allowlist the following new AWS hosts. The existing hosts are scheduled to be decommissioned on June 30, 2024. To ensure a smooth transition, allowlist all nine addresses. There is no urgency to remove the existing addresses. |
 |February 8|[Prefetch](https://experienceleague.adobe.com/docs/target-dev/developer/api/delivery-api/prefetch.html){target=_blank}|Added new section: "Prefetch mboxes with clickTrack metrics when using Analytics for Target (A4T)"|
