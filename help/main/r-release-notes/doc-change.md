@@ -9,6 +9,14 @@ exl-id: 36d19598-eb46-4be6-a652-658b653287cb
 
 This page lists significant changes made to the [!DNL Adobe Target] product documentation.
 
+## [!DNL Target] Standard/Premium 24.3.1 (March 4-6, 2024)
+
+|Date|Topic|Changes|
+| --- | --- | --- |
+|March 6|[Browser](/help/main/c-target/c-audiences/c-target-rules/browser.md)|Updated information in the following section: "Updates for [!DNL iPad] and [!DNL iPhone] in [!UICONTROL Browser] audience attributes (April 30, 2024)".|
+||[Target release notes (current)](/help/main/r-release-notes/release-notes.md)|Updated entire section: "Updates for `Browser:iPad` and `Browser:iPhone` in [!UICONTROL Browser] audience attributes (April 30, 2024)".|
+||[Target release notes (current)](/help/main/r-release-notes/release-notes.md)|Added release notes for the [!DNL Target Standard/Premium] 24.1.1 release.|
+
 ## [!DNL Target] Standard/Premium 24.1.1 (January 22, 23, & 25, 2024)
 
 |Date|Topic|Changes|
