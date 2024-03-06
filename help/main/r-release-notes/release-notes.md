@@ -13,28 +13,26 @@ These release notes provide information about features, enhancements, and fixes 
 
 (The issue numbers in parentheses are for internal [!DNL Adobe] use.)
 
-## Deprecation of iPad and iPhone from Browser audience attribute (April 30, 2024)
+## Updates for `Browser:iPad` and `Browser:iPhone` in [!UICONTROL Browser] audience attributes (April 30, 2024)
 
-|Deprecation|Details|
+|Updates|Details|
 |--- |--- |
-|[!DNL iPad] and [!DNL iPhone] to be deprecated from the [Browser attribute](/help/main/c-target/c-audiences/c-target-rules/browser.md) used when creating audiences.<p>Deprecation date:<P>April 30, 2024|[!DNL Adobe Target] lets you [target on any of several category attributes](/help/main/c-target/c-audiences/c-target-rules/target-rules.md), including users who use a specific [browser or browser options](/help/main/c-target/c-audiences/c-target-rules/browser.md) when they visit your page.<P><B>Starting April 30, 2024, iPad and iPhone will be removed from the available [!UICONTROL Browser] type drop-down list when creating categories for audiences.</b><P>Built-in audiences created using the [!DNL Target] UI, such as "Browser: iPad" and "Browser: iPhone", will be automatically moved over to the new Audience definition.<p>For examples of alternate settings that must be manually changed, see [Deprecation of iPad and iPhone from Browser audience attribute (April 30, 2024)](/help/main/c-target/c-audiences/c-target-rules/browser.md#deprecation).|
+|[!UICONTROL Browser:iPad] and [!UICONTROL Browser:iPhone] updated in [Browser attributes](/help/main/c-target/c-audiences/c-target-rules/browser.md) used when creating audiences.|[!DNL Adobe Target] lets you [target on any of several category attributes](/help/main/c-target/c-audiences/c-target-rules/target-rules.md), including visitors who use a specific [browser or browser options](/help/main/c-target/c-audiences/c-target-rules/browser.md) when they visit your page.<P>Starting with the [!DNL Target] Standard/Premium 24.3.1 (March 4-6, 2024), built-in audiences created using the Target UI, such as `Browser:iPad` and `Browser:iPhone` will be updated to perform proper targeting for [!DNL iPad] and [!DNL iPhone] using `profile.mobile.deviceVendor`, `profile.mobile.isMobilePhone` and `profile.mobile.isTablet`.<P>This update requires no action on the customers' side.<p><B>Important</b>: For customers to perform proper targeting for [!DNL iPad] and [!DNL iPhone] in profile scripts (and JavaScript segments), manual changes must be made by the customer by **April 30, 2024**. For examples of alternate settings that must be manually changed, see [Updates for [!DNL iPad] and [!DNL iPhone] in [!UICONTROL Browser] audience attributes](/help/main/c-target/c-audiences/c-target-rules/browser.md#updates).|
 
-## [!DNL Target] Standard/Premium 24.1.1 (January 22, 23, & 25, 2024)
+## [!DNL Target] Standard/Premium 24.3.1 (March 4-6, 2024)
 
 This release is scheduled for the following days:
 
-* **January 22**: Europe, Middle East, and Africa (EMEA) region
-* **January 23**: Asia-Pacific (APAC) region
-* **January 25**: Americas region
+* **March 4**: Europe, Middle East, and Africa (EMEA) region
+* **March 5**: Asia-Pacific (APAC) region
+* **March 6**: Americas region
 
 This release contains the following enhancements and fixes:
 
-* [!UICONTROL Analytics for Target] (A4T) activities with revenue goal metrics did not display "Revenue" as the column name and the revenue metric did not display in ($) format in reporting. This was a cosmetic issue that has been remedied. (TGT-46995)
-* Fixed an issue that caused reporting date intervals to not work correctly. (TGT-47396)
-* Fixed an issue that caused the incorrect status to display on the [!UICONTROL All Activities] page after customers activated or deactivated an activity using the [!UICONTROL More Actions] icon. (TGT-47367)
-* Fixed an issue that caused the [!UICONTROL Important Attributes] report to not display for a single customer. (TGT-47272)
-* Fixed an issue that caused an "Invalid payload" message to display when a single customer tried to enable "Require Authentication." (TGT-47195)
-* Updated numerous localized strings in the [!DNL Target] UI.
+* Fixed the logic that computes the number of unique selectors in an activity. (TGT-47878)
+* Fixed an issue that caused [!UICONTROL Multivariate] (MVT) activities configured with [!UICONTROL Analytics for Target] (A4T) reporting to not display properly. (TGT-47490)
+* Improved the warning message displayed in reporting when an experience with no traffic is used as the control experience. (TGT-47537)
+* Added many backend and localization fixes.
 
 ## Additional release notes and version details
 

@@ -5,7 +5,7 @@ title: Can I Target Visitors Based on Browser Type?
 feature: Audiences
 exl-id: 8420bbe3-b58a-4ddb-89bb-0265dab6b5fc
 ---
-# Browser
+# [!UICONTROL Browser]
 
 You can target users who use a specific browser or specific browser options when they visit your page.
 
@@ -22,7 +22,11 @@ The following browsers can be targeted:
 
 >[!IMPORTANT]
 >
->Starting April 30, 2024, [!DNL iPad] and [!DNL iPhone] will be removed from the available [!UICONTROL Browser] type drop-down list when creating categories for audiences. For workaround settings, see [Deprecation of iPad and iPhone from Browser audience attribute (April 30, 2024)](#deprecation) below.
+>Starting with the [!DNL Target] Standard/Premium 24.3.1 (March 4-6, 2024), built-in audiences created using the Target UI, such as `Browser:iPad` and `Browser:iPhone` have been updated to perform proper targeting for [!DNL iPad] and [!DNL iPhone] using `profile.mobile.deviceVendor`, `profile.mobile.isMobilePhone`, and `profile.mobile.isTablet`.
+>
+>This update requires no action on the customers' side. The labels in the [!DNL Target] UI will be changed in the future and will be announced in [[!DNL Target] release notes (current)](/help/main/r-release-notes/release-notes.md) when these changes are made.
+>
+>For workaround settings, see [Updates for [!DNL iPad] and [!DNL iPhone] in [!UICONTROL Browser] audience attributes (April 30, 2024)](#updates) below.
 
 There are two ways to target browsers:
 
@@ -125,17 +129,17 @@ This video includes information about using audience categories.
 
 >[!VIDEO](https://video.tv.adobe.com/v/17392)
 
-## Deprecation of iPad and iPhone from Browser audience attribute (April 30, 2024) {#deprecation}
+## Updates for [!DNL iPad] and [!DNL iPhone] in [!UICONTROL Browser] audience attributes (April 30, 2024) {#updates}
 
 [!DNL Adobe Target] lets you [target on any of several category attributes](/help/main/c-target/c-audiences/c-target-rules/target-rules.md), including users who use a specific browser or browser options when they visit your page.
 
-Starting April 30, 2024, iPad and iPhone will be removed from the available [!UICONTROL Browser] type drop-down list in the [!DNL Target] UI when creating categories for audiences.
+Starting with the [!DNL Target] Standard/Premium 24.3.1 (March 4-6, 2024), built-in audiences created using the Target UI, such as `Browser:iPad` and `Browser:iPhone` have been updated to perform proper targeting for [!DNL iPad] and [!DNL iPhone] using `profile.mobile.deviceVendor`, `profile.mobile.isMobilePhone` and `profile.mobile.isTablet`. 
 
-Built-in audiences created using the [!DNL Target] UI, such as "Browser: iPad" and "Browser: iPhone", will be automatically moved over to the new Audience definition. However, going forward, you should use the settings [described below](#ui).
+Built-in audiences created using the [!DNL Target] UI, such as `Browser:iPad` and `Browser:iPhone`, will be automatically moved over to the new Audience definition and requires no action on the customers' side. However, going forward, you should use the settings [described below](#ui).
 
-If you use `user.browserType` in any profile scripts to check if it is an iPhone or iPad (for example, `user.browserType == 'iphone'` or `user.browserType != 'ipad'`), those profile scripts should be changed as [instructed below](#profile-scripts) before April 30, 2024 to ensure that these audiences continue to function as expected.
+If you use `user.browserType` in any profile scripts to check if it is an [!DNL iPhone] or [!DNL iPad] (for example, `user.browserType == 'iphone'` or `user.browserType != 'ipad'`), those profile scripts should be changed as [instructed below](#profile-scripts) before April 30, 2024 to ensure that these audiences continue to function as expected.
 
-JavaScript audiences are legacy audiences using Target expressions that were deprecated with the [!DNL Target Classic] UI. These audiences can be modified via API only. Customers must update these audiences only if continuing to use legacy audiences in activities.
+JavaScript audiences are legacy audiences using [!DNL Target] expressions that were deprecated with the [!DNL Target Classic] UI. These audiences can be modified via API only. Customers must update these audiences only if continuing to use legacy audiences in activities.
 
 ### Audiences created using the [!DNL Target] UI {#ui}
 
@@ -170,16 +174,6 @@ There are many other possible settings that could be used, for example when cond
 ### Audiences created using profile scripts {#profile-scripts}
 
 If you use `user.browserType` in legacy [!DNL Target Classic] audiences or in profile scripts, changes should include the following:
-
->[!NOTE]
->
->The following profiles are scheduled to be released in the next few weeks, as of January 24, 2024. The [current release notes](/help/main/r-release-notes/release-notes.md) will be updated when these profiles are available.
->
->These profiles make the following changes possible:
->
->* `profile.mobile.isTablet`
->
->* `profile.mobile.isMobilePhone`
 
 * **BrowserType is iPhone**:
 

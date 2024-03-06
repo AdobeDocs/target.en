@@ -15,6 +15,19 @@ Release notes are arraigned in descending order by month and year of release.
 >
 >See [Target release notes (current)](/help/main/r-release-notes/release-notes.md#reference_8FE40B43A5A34DDF8F26A53D55EE036A) for information about the current month's Target releases (platform and Target Standard/Premium).
 
+## Release notes - 2024
+
+### [!DNL Target] Standard/Premium 24.1.1 (January 22, 23, & 25, 2024)
+
+This release contains the following enhancements and fixes:
+
+* [!UICONTROL Analytics for Target] (A4T) activities with revenue goal metrics did not display "Revenue" as the column name and the revenue metric did not display in ($) format in reporting. This was a cosmetic issue that has been remedied. (TGT-46995)
+* Fixed an issue that caused reporting date intervals to not work correctly. (TGT-47396)
+* Fixed an issue that caused the incorrect status to display on the [!UICONTROL All Activities] page after customers activated or deactivated an activity using the [!UICONTROL More Actions] icon. (TGT-47367)
+* Fixed an issue that caused the [!UICONTROL Important Attributes] report to not display for a single customer. (TGT-47272)
+* Fixed an issue that caused an "Invalid payload" message to display when a single customer tried to enable "Require Authentication." (TGT-47195)
+* Updated numerous localized strings in the [!DNL Target] UI.
+
 ## Release notes - 2023
 
 ### [!DNL Target] Standard/Premium 23.11.1 (November 13 & 14, 2023)
