@@ -89,7 +89,7 @@ Example: `'entity.name=Giants& vs& Rockies& 5/12'`
 
 Supports multi-value (comma-delimited list).
 
-Category of the current page. The entity.categoryID can include multiple categories, such as a cardigans sub-subsection (for example, womens, womens:sweaters, womens:sweaters:cardigans). Multiple categories must be separated by commas.
+Category of the current page. The entity.categoryID can include multiple categories, such as a cardigans sub-subsection (for example, `womens`, `womens:sweaters`, `womens:sweaters:cardigans`). Multiple categories must be separated by commas.
 
 The `categoryId` value is limited to 250 characters.
 
@@ -99,9 +99,9 @@ The `categoryId` value is limited to 250 characters.
 
 Examples:
 
-* Example Product Detail Page: womens, womens:sweaters, womens:sweaters:cardigans
-* Example Category Page Sweaters: womens:sweaters
-* Example Category Page Cardigans: womens:sweaters:cardigans
+* Example Product Detail Page: `womens`, `womens:sweaters`, `womens:sweaters:cardigans`
+* Example Category Page Sweaters: `womens:sweaters`
+* Example Category Page Cardigans: `womens:sweaters:cardigans`
 
 For category-based recommendations, a comma separates category value. Any values separated by commas become categories. You can also define subcategories by using a different separator, such as a colon (:), to separate subcategories within the category value.
 
@@ -111,7 +111,7 @@ For example, in the following code the Women's category is divided into several 
 mboxCreate('mboxName', 'entity.id=343942-32', 'entity.categoryId= Womens, Womens:Outerwear, Womens:Outerwear:Jackets, Womens:Outerwear:Jackets:Parka, Womens:Outerwear:Jackets:Caban', 'entity.thumbnailUrl=...', 'entity.message=...', );
 ```
 
-For the mbox delivery, the longest attribute name is used for the key. If there is a tie, the last attribute is used. In the example above, the category key is Womens:Outerwear:Jackets:Caban.
+For the mbox delivery, the longest attribute name is used for the key. If there is a tie, the last attribute is used. In the example above, the category key is `Womens:Outerwear:Jackets:Caban`.
 
 ### entity.brand
 
