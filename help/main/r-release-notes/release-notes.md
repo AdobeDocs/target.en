@@ -19,6 +19,14 @@ These release notes provide information about features, enhancements, and fixes 
 |--- |--- |
 |[!UICONTROL Browser:iPad] and [!UICONTROL Browser:iPhone] updated in [Browser attributes](/help/main/c-target/c-audiences/c-target-rules/browser.md) used when creating audiences.|[!DNL Adobe Target] lets you [target on any of several category attributes](/help/main/c-target/c-audiences/c-target-rules/target-rules.md), including visitors who use a specific [browser or browser options](/help/main/c-target/c-audiences/c-target-rules/browser.md) when they visit your page.<P>Starting with the [!DNL Target] Standard/Premium 24.3.1 (March 4-6, 2024), built-in audiences created using the Target UI, such as `Browser:iPad` and `Browser:iPhone` will be updated to perform proper targeting for [!DNL iPad] and [!DNL iPhone] using `profile.mobile.deviceVendor`, `profile.mobile.isMobilePhone` and `profile.mobile.isTablet`.<P>This update requires no action on the customers' side.<p><B>Important</b>: For customers to perform proper targeting for [!DNL iPad] and [!DNL iPhone] in profile scripts (and JavaScript segments), manual changes must be made by the customer by **April 30, 2024**. For examples of alternate settings that must be manually changed, see [Updates for [!DNL iPad] and [!DNL iPhone] in [!UICONTROL Browser] audience attributes](/help/main/c-target/c-audiences/c-target-rules/browser.md#updates).|
 
+## [!UICONTROL Visual Editing Helper] extension (March 14, 2023)
+
+This release contains the following enhancements and fixes for the [[!DNL Adobe Experience Cloud Editing Helper]](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/visual-editing-helper-extension.md) extension for [!DNL Google Chrome]:
+
+* Enhanced the iFrame loading mechanism when performing authoring in customers' websites.
+* Fixed an issue that caused the extension to duplicate cookies while performing authoring in the [!UICONTROL Visual Experience Composer] (VEC).
+* Removed the dependency to download at.js for customers that are using the [Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/en/docs/target-dev/developer/client-side/aep-web-sdk){target=_blank}.
+
 ## [!DNL Target] Standard/Premium 24.3.1 (March 4-6, 2024)
 
 This release is scheduled for the following days:

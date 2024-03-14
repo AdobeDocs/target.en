@@ -13,6 +13,7 @@ This page lists significant changes made to the [!DNL Adobe Target] product docu
 
 |Date|Topic|Changes|
 | --- | --- | --- |
+|March 14|[[!DNL Target] release notes (current)](/help/main/r-release-notes/release-notes.md)|Added release notes for the [!DNL Adobe Experience Platform Visual Editing Helper] for [!DNL Google Chrome].|
 |March 13|[[!UICONTROL Time Frame]](/help/main/c-target/c-audiences/c-target-rules/time-frame.md)|Added information to note to re-save time-based audiences to account for Daylight Saving Time (DST).|
 |March 6|[Browser](/help/main/c-target/c-audiences/c-target-rules/browser.md)|Updated information in the following section: "Updates for [!DNL iPad] and [!DNL iPhone] in [!UICONTROL Browser] audience attributes (April 30, 2024)".|
 ||[Target release notes (current)](/help/main/r-release-notes/release-notes.md)|Updated entire section: "Updates for `Browser:iPad` and `Browser:iPhone` in [!UICONTROL Browser] audience attributes (April 30, 2024)".|
