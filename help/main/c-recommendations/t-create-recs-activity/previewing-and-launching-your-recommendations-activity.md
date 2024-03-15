@@ -7,7 +7,7 @@ exl-id: 60391778-4d48-4c41-a7c5-fedcfabf2530
 ---
 # Preview and launch your Recommendations activity
 
-After you’ve created your [!UICONTROL Recommendations], [!UICONTROL A/B Test], or [!UICONTROL Experience Targeting] (XT) activity containing [Recommendations offers](/help/main/c-recommendations/recommendations-as-an-offer.md), you’ll want to preview your recommendations to ensure that results are available before launching the activity. [!DNL Target Recommendations] offers multiple ways to preview your recommendations.
+After you've created your [!UICONTROL Recommendations], [!UICONTROL A/B Test], or [!UICONTROL Experience Targeting] (XT) activity containing [Recommendations offers](/help/main/c-recommendations/recommendations-as-an-offer.md), you'll want to preview your recommendations to ensure that results are available before launching the activity. [!DNL Target Recommendations] offers multiple ways to preview your recommendations.
 
 ## Checking Recommendations algorithm status
 
@@ -17,7 +17,7 @@ You can check whether the algorithm has finished running in the [!UICONTROL Acti
 
 ![Recommendations activity Overview page](/help/main/c-recommendations/t-create-recs-activity/assets/recs-overview.png)
 
-The following illustration depicts the status on an [!UICONTROL A/B Test] or XT activity’s [!UICONTROL Overview] page:
+The following illustration depicts the status on an [!UICONTROL A/B Test] or XT activity's [!UICONTROL Overview] page:
 
 ![A/B Test Overview page](/help/main/c-recommendations/t-create-recs-activity/assets/ab-overview.png)
 
@@ -67,9 +67,9 @@ Using a QA link allows you to preview the recommendations on your page:
 
 >[!NOTE]
 >
->* Target QA mode is “sticky” and saved in a cookie. If you do not exit QA mode, you’ll keep seeing the QA results throughout the site. To exit QA mode, use the [bookmarklet](/help/main/c-activities/c-activity-qa/activity-qa-bookmark.md).
+>* Target QA mode is "sticky" and saved in a cookie. If you do not exit QA mode, you'll keep seeing the QA results throughout the site. To exit QA mode, use the [bookmarklet](/help/main/c-activities/c-activity-qa/activity-qa-bookmark.md).
 >
->* While in QA mode, browsing the site will not affect your profile’s [!UICONTROL Recently Viewed Items] or [!UICONTROL Recently Purchased Items]. This behavior occurs by design to avoid unintentional pollution of production behavioral data. To preview results from a [!UICONTROL Recently Viewed Items] or [!UICONTROL User-Based Recommendations] criteria, first browse the site outside of QA mode, then use the same session to open a QA mode link.
+>* While in QA mode, browsing the site will not affect your profile's [!UICONTROL Recently Viewed Items] or [!UICONTROL Recently Purchased Items]. This behavior occurs by design to avoid unintentional pollution of production behavioral data. To preview results from a [!UICONTROL Recently Viewed Items] or [!UICONTROL User-Based Recommendations] criteria, first browse the site outside of QA mode, then use the same session to open a QA mode link.
 
 ## Using the CSV download to preview recommendations
 
@@ -85,7 +85,11 @@ A CSV file is download. Open it to see the recommended items:
 
 ![Recommended items CSV file](/help/main/c-recommendations/t-create-recs-activity/assets/recommended-items.png)
 
-From left to right is a list of recommended items, in this case the most frequently viewed. The recommendations are separated by environment, in this case only the Production environment has recommendations. For this algorithm, we have not applied any restrictions based on key value, so the row labeled with an asterisk (*) contains the complete set of recommendations. For other algorithm types based on a key value, such as [!UICONTROL People Who Viewed This, Viewed That], the key values (i.e. the “This” items) are listed in the left-most column and the recommended items (i.e. the “That” items) are listed left-to-right in the Recommendation_X columns.
+From left to right is a list of recommended items, in this case the most frequently viewed. The recommendations are separated by environment, in this case only the Production environment has recommendations. 
+
+If an asterisk (*) is the first value of a row, it indicates backup items. Backup items display if not all the slots in a design can be filled by the recommended items of the algorithm (criteria). For a popularity algorithm such as top sold, there can only be zero or one non-backup row for each environment in the CSV file because these algorithm types don't have a "key", e.g. "show the customer the most popular products regardless of what they may be viewing or purchasing." So unlike other key-based algorithms, e.g. view-view, the first value in the row is NOT the key, but the first item in the list of recommended items. 
+
+For other algorithm types based on a key value, such as [!UICONTROL People Who Viewed This, Viewed That], the key values (i.e. the "This" items) are listed in the left-most column and the recommended items (i.e. the "That" items) are listed left-to-right in the Recommendation_X columns.
 
 >[!NOTE]
 >
