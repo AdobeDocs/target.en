@@ -25,7 +25,6 @@ This release contains the following enhancements and fixes for the [[!DNL Adobe 
 
 * Enhanced the iFrame loading mechanism when performing authoring in customers' websites.
 * Fixed an issue that caused the extension to duplicate cookies while performing authoring in the [!UICONTROL Visual Experience Composer] (VEC).
-* Removed the dependency to download at.js for customers that are using the [Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/en/docs/target-dev/developer/client-side/aep-web-sdk){target=_blank}.
 
 ## [!DNL Target] Standard/Premium 24.3.1 (March 4-6, 2024)
 

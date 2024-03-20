@@ -8,7 +8,7 @@ exl-id: 070aa8ef-5691-4106-b5cf-45eb9f6f334c
 ---
 # Use a backup recommendation
 
-If you use the backup recommendation feature in Adobe Target, any recommendation that does not have enough recommended items will not display default content. Instead, recommendations display the results of the backup algorithm.
+If you use the backup recommendation feature in [!DNL Adobe Target], any recommendation that does not have enough recommended items will not display default content. Instead, recommendations display the results of the backup algorithm.
 
 If you do not use a backup recommendation, if a recommendation does not have enough items to fill the display, the system displays default content to the user.
 

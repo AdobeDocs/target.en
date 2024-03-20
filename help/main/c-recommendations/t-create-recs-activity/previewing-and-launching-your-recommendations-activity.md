@@ -87,7 +87,7 @@ A CSV file is download. Open it to see the recommended items:
 
 From left to right is a list of recommended items, in this case the most frequently viewed. The recommendations are separated by environment, in this case only the Production environment has recommendations. 
 
-If an asterisk (*) is the first value of a row, it indicates backup items. Backup items display if not all the slots in a design can be filled by the recommended items of the algorithm (criteria). For a popularity algorithm such as top sold, there can only be zero or one non-backup row for each environment in the CSV file because these algorithm types don't have a "key", e.g. "show the customer the most popular products regardless of what they may be viewing or purchasing." So unlike other key-based algorithms, e.g. view-view, the first value in the row is NOT the key, but the first item in the list of recommended items. 
+If an asterisk (*) is the first value of a row, it indicates [backup items](/help/main/c-recommendations/c-algorithms/backup-recs.md). Backup items display if not all the slots in a design can be filled by the recommended items of the algorithm (criteria).
 
 For other algorithm types based on a key value, such as [!UICONTROL People Who Viewed This, Viewed That], the key values (i.e. the "This" items) are listed in the left-most column and the recommended items (i.e. the "That" items) are listed left-to-right in the Recommendation_X columns.
 
