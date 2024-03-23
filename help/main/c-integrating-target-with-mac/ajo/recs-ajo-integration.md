@@ -7,6 +7,7 @@ badgePremium: label="Premium" type="Positive" url="https://experienceleague.adob
 badgeBeta: label="Beta" type="Informative" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html#beta newtab=true" tooltip="What are Beta features in [!DNL Adobe Target]."
 hide: yes
 hidefromtoc: yes
+exl-id: 81bbbd51-47fc-4e23-a1cb-7c18fea1c159
 ---
 # Integrate [!DNL Adobe Target Recommendations] and [!DNL Adobe Journey Optimizer]
 
@@ -45,5 +46,3 @@ These are just a few possible use cases for integrating [!DNL Target Recommendat
 * **[!DNL Adobe Journey Optimizer] sends a bulk email to qualified visitors after site visit to suggest popular items**: This use case is based on a visitor visiting a website, but not viewing any particular items. The email is sent in bulk to all those that qualify for a particular audience, for example:
   
   Suppose that the visitor does not view any particular watches. Perhaps the visitor simply clicked around the site and viewed category pages or blog entries. As a result, the [!DNL Target] profile doesn't have specific information about recently viewed items. In this situation, [!DNL Target Recommendations] uses a [backup recommendation](/help/main/c-recommendations/c-algorithms/backup-recs.md) so that [!DNL Adobe Journey Optimizer] can send an email with images and links to popular items on the website to get the visitor to return and possibly make a purchase.
-
-
