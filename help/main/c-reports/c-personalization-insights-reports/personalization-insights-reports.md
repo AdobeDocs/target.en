@@ -6,23 +6,43 @@ badgePremium: label="Premium" type="Positive" url="https://experienceleague.adob
 feature: Reports
 exl-id: 89295d95-f179-4277-ae63-453350e1bba8
 ---
-# Personalization Insights reports
+# [!UICONTROL Personalization Insights] reports
 
 Two specialized reports are available to users of [!UICONTROL Automated Personalization] (AP) and [!UICONTROL Auto-Target] (AT) activities: the [!UICONTROL Automated Segments] and [!UICONTROL Important Attributes] reports.
 
->[!NOTE]
->
->Consider the following when using Personalization Insights reports:
->
->* AP and AT activities are available as part of the [!DNL Target Premium] solution. They are not included with [!DNL Target Standard] without a [!DNL Target Premium] license.
->
->* [!UICONTROL Personalization Insights] reports are available only for AP and AT activities that use a conversion optimization goal. Activities where the optimization goal was changed to conversion from revenue after the activity was already live are also not supported.
->
->* [!UICONTROL Personalization Insights] reports are available only if the [!UICONTROL Primary Goal] is selected from the the [!UICONTROL Report Metric] drop-down list.
->
->* [!UICONTROL Personalization Insights] reports are supported in the [default environment](/help/main/administrating-target/hosts.md) only.
->
->* [!UICONTROL Personalization Insights] reports are generated only for activities that are in the [!UICONTROL Live] status and have been activated and receiving traffic for at least 15 days.
+## Considerations
+
+Consider the following when using [!UICONTROL Personalization Insights] reports:
+
+* AP and AT activities are available as part of the [[!DNL Target Premium] solution](/help/main/c-intro/intro.md#premium). They are not included with [!DNL Target Standard] without a [!DNL Target Premium] license.
+
+* [!UICONTROL Personalization Insights] reports are available only for AP and AT activities that are configured as follows:
+
+  * [!DNL Target] reporting > [!UICONTROL Conversion]
+
+    For example:
+
+    ![Target reporting > Conversion](/help/main/c-reports/assets/conversion.png)
+
+  * [!DNL Analytics] reporting > [!DNL Conversion]
+
+    For example:
+
+    ![Analytic Reporting > Conversion](/help/main/c-reports/assets/analytics-reporting-conversion.png)
+    
+  * [!DNL Analytics] reporting > [!UICONTROL Use an Analytics metric] > [!UICONTROL Maximize Visit Conversion Rate]
+
+    For example:
+    
+    ![Use an Analytics metric > Maximize Visit Conversion Rate](/help/main/c-reports/assets/maximize-visit-conversion-rate.png)
+    
+* Activities where the optimization goal was changed to conversion from revenue after the activity was already live are also not supported.
+
+* [!UICONTROL Personalization Insights] reports are available only if the [!UICONTROL Primary Goal] is selected from the the [!UICONTROL Report Metric] drop-down list.
+
+* [!UICONTROL Personalization Insights] reports are supported in the [default environment](/help/main/administrating-target/hosts.md) only.
+
+* [!UICONTROL Personalization Insights] reports are generated only for activities that are in the [!UICONTROL Live] status and have been activated and receiving traffic for at least 15 days.
 
 ## Personalization Insights Reporting overview {#section_B47CD4A50FEB43D587F9FACD9FFD6D9D}
 
