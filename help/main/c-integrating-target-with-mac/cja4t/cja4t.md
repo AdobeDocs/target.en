@@ -1,45 +1,56 @@
 ---
 keywords: cja4t;customer journey analytics;customer journey analytics for target;customer journey analytics reporting source;customer journey analytics as the reporting source for target
-description: Use [!DNL Adobe Customer Journey Analytics] for [!DNL Target] (A4T) to create activities based on [!DNL Customer Journey Analytics] conversion metrics and audience segments and use [!DNL Customer Journey Analytics] reports to examine results.
-title: What is [!DNL Adobe Customer Journey Analytics] for [!DNL Target] (CJA4T)?
+description: Use [!DNL Target] reporting in [!DNL Adobe Customer Journey Analytics] to create activities based on [!DNL Customer Journey Analytics] conversion metrics and audience segments and use [!DNL Customer Journey Analytics] reports to examine results.
+title: What is [!DNL Target] reporting in [!DNL Adobe Customer Journey Analytics]?
 feature: Integrations
 badgeBeta: label="Beta" type="Informative" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html#beta newtab=true" tooltip="What are Beta features in [!DNL Adobe Target]."
 hide: yes
 hidefromtoc: yes
 exl-id: 67b20bf6-ffbe-4220-9455-cb3886bb9227
 ---
-# [!DNL Adobe Customer Journey Analytics] as the reporting source for [!DNL Adobe Target] (CJA4T)
+# [!DNL Target] reporting in [!DNL Adobe Customer Journey Analytics]
 
-The [!DNL Customer Journey Analytics for Target] (CJA4T) integration between [Adobe Customer Journey Analytics (CJA)](https://experienceleague.adobe.com/docs/customer-journey-analytics.html){target=_blank} and [!DNL Target] provides powerful analysis and timesaving tools for your optimization program.
+The integration between [Adobe Customer Journey Analytics](https://experienceleague.adobe.com/en/docs/customer-journey-analytics){target=_blank} and [!DNL Target] provides powerful analysis and timesaving tools for your optimization program.
 
 The primary benefits of using [!DNL Customer Journey Analytics] as the reporting source for [!DNL Target] are:
 
 * Marketers can dynamically apply [!DNL Customer Journey Analytics] success metrics to [!DNL Target] activity reports at any time. It is not required to specify everything before running the activity. 
-* Take advantage of [!DNL Customer Journey Analytics] features, such as the [Experimentation Panel](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-workspace/panels/experimentation.html){target=_blank}, to further analyze your website personalization. 
-* Have a single source of reporting for [[!DNL Adobe Journey Optimizer]](https://experienceleague.adobe.com/docs/journey-optimizer/using/reporting/cja-ajo.html){target=_blank} and [!DNL Target]. Both personalization products can be connected to [!DNL Customer Journey Analytics] for a more holistic view of your web personalization.  
+* Marketers can take advantage of [!DNL Customer Journey Analytics] features, such as the [Experimentation Panel](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-workspace/panels/experimentation){target=_blank}, to further analyze their website personalization. 
+*Marketers can have a single source of reporting for [[!DNL Adobe Journey Optimizer]](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/reporting/cja-ajo){target=_blank} and [!DNL Target]. Both personalization products can be connected to [!DNL Customer Journey Analytics] for a more holistic view of your web personalization.  
 
 ## Considerations
 
-Consider the following information before using the CJA4T integration:
+Consider the following information before using the [!DNL Customer Journey Analytics] and [!DNL Target] integration:
+
+>[!IMPORTANT]
+>
+>This integration is not the same as [[!UICONTROL Adobe Analytics for Target]](/help/main/c-integrating-target-with-mac/a4t/a4t.md) (A4T). The implementation and supported activity types are different. Ensure that you thoroughly read this article before using this integration for your [!DNL Target] activities.
 
 * To use [!DNL Customer Journey Analytics] as the reporting source for [!DNL Target], both you and your company must have access to [!DNL Customer Journey Analytics] and to [!DNL Target]. If you need access to either solution, contact your organization's administrator or your account representative.
 * To create [!DNL Target] activities with [!DNL Customer Journey Analytics] reporting, you must have either the "[!UICONTROL Approver]" or '[!UICONTROL Editor]" role in [!DNL Target].
   * If you have a [Target Standard](/help/main/c-intro/intro.md#section_ACD5EFF17AAB4E979CBEFA0145CCD905) account, see [Specify roles and permissions](/help/main/administrating-target/c-user-management/c-user-management/user-management.md#roles-permissions) in *Users*.
   * If you have a [Target Premium](/help/main/c-intro/intro.md#premium) account, see [Roles and permissions](/help/main/administrating-target/c-user-management/property-channel/property-channel.md#roles-permissions) in *Enterprise user permissions*.
 
-* You must be part of a role in [!DNL Adobe Experience Platform] to set up a [!DNL Target] activity with [!DNL Customer Journey Analytics] as the reporting source. For more information, see [Add a Role in [!DNL Adobe Experience Platform]](https://experienceleague.adobe.com/docs/platform-learn/getting-started-for-data-architects-and-data-engineers/configure-permissions.html){target=_blank} in *Configure permissions* in the *Data Architect and Engineer Tutorial.*
+* You must be part of a role in [!DNL Adobe Experience Platform] to set up a [!DNL Target] activity with [!DNL Customer Journey Analytics] as the reporting source. For more information, see [Add a Role in [!DNL Adobe Experience Platform]](https://experienceleague.adobe.com/en/docs/platform-learn/getting-started-for-data-architects-and-data-engineers/configure-permissions){target=_blank} in *Configure permissions* in the *Data Architect and Engineer Tutorial.*
 * Depending on your settings, reporting can be changed per activity or at an organization level. See [Reporting Cloud Solution](/help/main/administrating-target/reporting.md#solution) in *Configure reporting in Target*.
 * Use one reporting source or the other. You cannot collect data for a single activity to multiple reporting sources. 
 * When you set [!DNL Customer Journey Analytics] as your reporting source, you are prompted to specify the sandbox for reporting. During configuration, you see only the sandboxes to which you have access.
-* Any existing [!DNL Target] activities continue to use [!DNL Target] data collection and are not affected by enabling CJA4T.
-* To use CJA4T, the preferred implementation method is having [[!DNL Adobe Experience Platform]](https://experienceleague.adobe.com/docs/experience-platform.html){target=_blank} and [!DNL Target] implemented through the [[!DNL Adobe Experience Platform Web SDK]](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/aep-web-sdk.html){target=_blank}. If you do not currently have the [!DNL Adobe Experience Platform Web SDK] implemented, you can also create an [[!DNL Adobe Analytics] source connection](https://experienceleague.adobe.com/docs/experience-platform/sources/ui-tutorials/create/adobe-applications/analytics.html?lang=en) to bring the data into [!DNL Adobe Experience Platform].
-* For any questions about timing, see [Latency considerations](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-overview/cja-faq.html#latency){target=_blank} in *Frequently Asked Questions* in the *[!DNL Adobe Customer Analytics] Guide*.
+* Any existing [!DNL Target] activities continue to use [!DNL Target] data collection and are not affected by enabling this integration.
+* To use this integration, the preferred implementation method is having [[!DNL Adobe Experience Platform]](https://experienceleague.adobe.com/en/docs/experience-platform){target=_blank} and [!DNL Target] implemented through the [[!DNL Adobe Experience Platform Web SDK]](https://experienceleague.adobe.com/en/docs/target-dev/developer/client-side/aep-web-sdk){target=_blank}. 
+
+  If you do not currently have the [!DNL Adobe Experience Platform Web SDK] implemented, you can also create an [[!DNL Adobe Analytics] source connection](https://experienceleague.adobe.com/en/docs/experience-platform/sources/ui-tutorials/create/adobe-applications/analytics) to bring the data into [!DNL Adobe Experience Platform].
+
+  >[!NOTE]
+  >
+  >If you use an [!DNL Adobe Analytics] source connection, you will have reports in both [!DNL Adobe Analytics] and [!DNL Customer Journey Analytics]. However, because of different algorithms between both of these solutions the results are not likely to match.  
+
+* For any questions about timing, see [Latency considerations](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-overview/cja-faq#latency){target=_blank} in *Frequently Asked Questions* in the *[!DNL Adobe Customer Analytics] Guide*.
 
 ## Supported activity types {#supported-activities}
 
-The following activity types are supported when using the [Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/aep-web-sdk.html){target=_blank} or the [at.js](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/overview.html){target=_blank} JavaScript library:
+The following activity types are supported when using the [Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/en/docs/target-dev/developer/client-side/aep-web-sdk){target=_blank} or the [at.js](https://experienceleague.adobe.com/en/docs/target-dev/developer/client-side/at-js-implementation/overview){target=_blank} JavaScript library:
 
-| Activity Types | CJA4T Compatible? |
+| Activity types | Supported? |
 |--- |--- |
 |[A/B activity with manual traffic split](/help/main/c-activities/t-test-ab/test-ab.md)|Yes|
 |[A/B activity with Auto-Allocate](/help/main/c-activities/automated-traffic-allocation/automated-traffic-allocation.md)|No|
@@ -64,7 +75,7 @@ Creating a [!DNL Target] activity that uses [!DNL Customer Journey Analytics] as
 
 1. Select a sandbox.
 
-   You can see only the sandboxes that you have access to in this drop-down list. If one or more of the sandboxes you have access to is missing from the list, verify that you have access to the sandbox. Contact [Customer Care](/help/main/cmp-resources-and-contact-information.md#reference_ACA3391A00EF467B87930A450050077C) if you continue to see issues. 
+   You see only the sandboxes that you have access to in this drop-down list. If one or more of the sandboxes you have access to is missing from the list, verify that you have access to the sandbox. Contact [Customer Care](/help/main/cmp-resources-and-contact-information.md#reference_ACA3391A00EF467B87930A450050077C) if you continue to see issues. 
 
    ![Select sandbox option](/help/main/c-integrating-target-with-mac/cja4t/assets/sandbox.png)
 
@@ -82,9 +93,9 @@ After a [!DNL Target] activity has been created, you must create a connection in
 
 1. In [!DNL Customer Journey Analytics], on the **[!UICONTROL Connections]** page, click **[!UICONTROL Create a new connection]**.
 
-   ![Create new connection link in Customer Journey Analytics](/help/main/c-integrating-target-with-mac/cja4t/assets/create-connection.png)
+   ![Create new connection link in [!DNL Customer Journey Analytics]](/help/main/c-integrating-target-with-mac/cja4t/assets/create-connection.png)
 
-1. Configure your [connection and data settings](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-connections/overview.html){target=_blank} with the correct information.
+1. Configure your [connection and data settings](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-connections/overview){target=_blank} with the correct information.
 1. Add the event dataset that you used when configuring your datastream.
 1. Add the **[!UICONTROL Adobe Target Classification Events]** lookup dataset, then click **[!UICONTROL Next]**.
 
@@ -92,9 +103,9 @@ After a [!DNL Target] activity has been created, you must create a connection in
 
 1. Configure your event dataset.
 
-   For more information, see [Add and configure datasets](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-connections/create-connection.html?lang=en#add-dataset){target=_blank} in *Create a connection* in the *Adobe Customer Journey Analytics Guide*.
+   For more information, see [Add and configure datasets](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-connections/create-connection#add-dataset){target=_blank} in *Create a connection* in the *[!DNL Adobe Customer Journey Analytics] Guide*.
 
-1. Configure your lookup dataset with the [!UICONTROL Key] field as "key" and the Matching key field with the following path:
+1. Configure your lookup dataset with the [!UICONTROL Key] field as "key" and the [!UICONTROL Matching] key field with the following path:
 
    ```
    _experience.decisioning.propositions.scopeDetails.correlationID
@@ -110,14 +121,14 @@ Set up a data view in [!DNL Customer Journey Analytics]. A data view ensures tha
 
 1. Set up your data view and make sure it points to the connection you created above.
 
-   For more information, see [Create or edit a data view](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-dataviews/create-dataview.html){target=_blank} in the *Adobe Customer Journey Analytics Guide*.
+   For more information, see [Create or edit a data view](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-dataviews/create-dataview){target=_blank} in the *[!DNL Adobe Customer Journey Analytics] Guide*.
 
 1. To properly view your [!DNL Target] data in [!DNL Customer Journey Analytics], you must add the following fields from your Lookup Dataset as dimensions:
 
-   * Experience Name
-   * Experience ID
-   * Activity Name
-   * Activity ID
+   * [!UICONTROL Experience Name]
+   * [!UICONTROL Experience ID]
+   * [!UICONTROL Activity Name]
+   * [!UICONTROL Activity ID]
 
    ![Names and IDs options in Customer Journey Analytics](/help/main/c-integrating-target-with-mac/cja4t/assets/names-and-ids.png){width="600" zoomable="yes"}
 
