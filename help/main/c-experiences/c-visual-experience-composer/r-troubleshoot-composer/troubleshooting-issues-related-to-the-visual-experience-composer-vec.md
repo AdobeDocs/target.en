@@ -122,7 +122,7 @@ After setting up an extension, open [!DNL Target]. Your pages should now load in
   * `sizzle.js`
   * `mixContentCheck.html`
 
-Additionally, accidental overriding of variables or events defined within these files could lead to issues with VEC.
+    Additionally, accidental overriding of variables or events defined within these files could lead to issues with VEC.
 
 * The browser is blocking a non-secure page on a secure site.
 
