@@ -13,6 +13,8 @@ This page lists significant changes made to the [!DNL Adobe Target] product docu
 
 |Date|Topic|Changes|
 | --- | --- | --- |
+|April 9|[Troubleshooting issues related to the [!UICONTROL Visual Experience Composer]](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/troubleshooting-issues-related-to-the-visual-experience-composer-vec.md)|Updated the following section:<ul><li>My page does not display in the VEC (VEC only)</li></ul>Added the following new section:<ul><li>Issues caused by CSS conflicts in the [!UICONTROL Visual Experience Composer]</li></ul>|
+||[Personalization Insights reports](/help/main/c-reports/c-personalization-insights-reports/personalization-insights-reports.md)|Updated the Considerations section.|
 |March 22|[Allowlist Target edge nodes](https://experienceleague.adobe.com/en/docs/target-dev/developer/implementation/privacy/allowlist-edges){target=_blank}|Removed references to edge nodes 31 through 38 because this nodes no longer exist. Ensure that your allowlist is up to date.|
 ||[The impact of third-party cookie deprecation on Target (at.js)](https://experienceleague.adobe.com/docs/target-dev/assets/third_party_cookie_deprecation){target=_blank}|New blog post describing what Google's planned deprecation of third-party cookies means for your [!DNL Adobe Target] at.js implementation.|
 |March 14|[[!DNL Target] release notes (current)](/help/main/r-release-notes/release-notes.md)|Added release notes for the [!DNL Adobe Experience Platform Visual Editing Helper] for [!DNL Google Chrome].|
