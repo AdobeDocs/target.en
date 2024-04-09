@@ -95,7 +95,7 @@ If neither the [!UICONTROL Visual Experience Composer] nor the [!UICONTROL Enhan
 1. Click **[!UICONTROL Add]**. 
 1. Click **[!UICONTROL Start]**.
 
-![firefox_extension image](assets/firefox_extension.png)
+![Firefox extension](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/assets/firefox_extension.png)
 
 After setting up an extension, open [!DNL Target]. Your pages should now load in the [!UICONTROL Visual Experience Composer], even if the [!UICONTROL Enhanced Experience Composer] is disabled.
 
