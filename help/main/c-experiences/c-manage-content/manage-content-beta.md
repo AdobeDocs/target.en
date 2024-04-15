@@ -6,6 +6,7 @@ feature: Experiences and Offers
 badgeBeta: label="Beta" type="Informative" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html#beta newtab=true" tooltip="What are Beta features in [!DNL Adobe Target]."
 hide: yes
 hidefromtoc: yes
+exl-id: f64aec3d-5f83-4bd1-8e64-df1779809812
 ---
 # Offers
 
