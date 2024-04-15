@@ -57,15 +57,21 @@ Use QA URLs in [!DNL Adobe Target] to perform easy end-to-end activity QA with p
 
 [!UICONTROL Activity QA] is sticky. After you browse a website in [!UICONTROL Activity QA], your [!DNL Target] session must expire or you must have [!DNL Target] release you from [!UICONTROL Activity QA] before you can view your site like a typical visitor. 
 
-  * **at.js 2.*x***: If your site has at.js 2.*x* deployed, use the [Target QA bookmarklet](/help/main/c-activities/c-activity-qa/activity-qa-bookmark.md#concept_A8A3551A4B5342079AFEED5ECF93E879) to force yourself out of [!UICONTROL Activity QA]. Loading a page on your site with an empty value, as described in the next bullet, does *not* remove the QA cookie from the browser when at.js 2.*x* is deployed. 
+### at.js 2.*x*
 
-  * **at.js 1.*x***: If your site has at.js 1.*x* deployed, in addition to using the [Target QA bookmarklet](/help/main/c-activities/c-activity-qa/activity-qa-bookmark.md#concept_A8A3551A4B5342079AFEED5ECF93E879), you can also manually force yourself out by loading a page on your site with the `at_preview_token` parameter with an empty value. For example, 
-  
-    `https://www.mysite.com/?at_preview_token=`
+If your site has at.js 2.*x* deployed, use the [Target QA bookmarklet](/help/main/c-activities/c-activity-qa/activity-qa-bookmark.md#concept_A8A3551A4B5342079AFEED5ECF93E879) to force yourself out of [!UICONTROL Activity QA]. Loading a page on your site with an empty value, as described in the next bullet, does *not* remove the QA cookie from the browser when at.js 2.*x* is deployed. 
 
-  * **[!DNL Adobe Experience Platform Web SDK]**: If your site has the [[!UICONTROL Platform Web SDK]](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/aep-web-sdk.html){target=_blank} deployed, you can manually force yourself out by loading a page on your site with the `at_qa_mode` parameter with an empty value. For example, 
+### at.js 1.*x*
+
+If your site has at.js 1.*x* deployed, in addition to using the [Target QA bookmarklet](/help/main/c-activities/c-activity-qa/activity-qa-bookmark.md#concept_A8A3551A4B5342079AFEED5ECF93E879), you can also manually force yourself out by loading a page on your site with the `at_preview_token` parameter with an empty value. For example, 
   
-    `https://www.mysite.com/?at_qa_mode=`
+`https://www.mysite.com/?at_preview_token=`
+
+### [!DNL Adobe Experience Platform Web SDK]
+
+If your site has the [[!UICONTROL Platform Web SDK]](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/aep-web-sdk.html){target=_blank} deployed, you can manually force yourself out by loading a page on your site with the `at_qa_mode` parameter with an empty value. For example, 
+  
+`https://www.mysite.com/?at_qa_mode=`
 
 ## Considerations {#section_B256EDD7BFEC4A6DA72A8A6ABD196D78}
 
