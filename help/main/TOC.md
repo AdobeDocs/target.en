@@ -241,6 +241,7 @@ feature-set: Target
    + [Single Page App (SPA) Visual Experience Composer](c-experiences/spa-visual-experience-composer.md)
    + Offers {#offers}
       + [Offers overview](c-experiences/c-manage-content/manage-content.md)
+      + [Offers overview beta](/help/main/c-experiences/c-manage-content/manage-content-beta.md){#hidden}
       + [Create offer folder](c-experiences/c-manage-content/create-content-folder.md)
       + [Uploading content](c-experiences/c-manage-content/assets-upload.md)
       + [Create redirect offers](c-experiences/c-manage-content/offer-redirect.md)
