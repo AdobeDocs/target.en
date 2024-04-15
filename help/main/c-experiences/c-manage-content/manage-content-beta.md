@@ -14,7 +14,7 @@ Use the [!UICONTROL Offers] library in [!DNL Adobe Target] to manage your code o
 
 >[!NOTE]
 >
->This article contains information about the [!DNL Target] functionality that is currently part of a Beta program. The [!DNL Adobe Target] team often enables new features for select customers for testing and feedback purposes. After the testing period completes, these features are enabled for all customers in future [!DNL Target Standard/Premium] releases and announced in release notes.
+>This article contains information about updates to the [!DNL Target] user interface that is currently part of a Beta program. The [!DNL Adobe Target] team often enables new features for select customers for testing and feedback purposes. After the testing period completes, these features are enabled for all customers in future [!DNL Target Standard/Premium] releases and announced in release notes.
 
 1. Click **[!UICONTROL Offers]** to open the library.
 
