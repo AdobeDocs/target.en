@@ -241,10 +241,11 @@ feature-set: Target
    + [Single Page App (SPA) Visual Experience Composer](c-experiences/spa-visual-experience-composer.md)
    + Offers {#offers}
       + [Offers overview](c-experiences/c-manage-content/manage-content.md)
-      + [Offers overview beta](/help/main/c-experiences/c-manage-content/manage-content-beta.md) {#offers} {#hidden}
+      + [Offers overview beta](/help/main/c-experiences/c-manage-content/manage-content-beta.md) {#manage-offers} {#hidden}
       + [Create offer folder](c-experiences/c-manage-content/create-content-folder.md)
-      + [Create offer folder beta](/help/main/c-experiences/c-manage-content/create-content-folder-beta.md) {#offers} {#hidden}
-      + [Uploading content](c-experiences/c-manage-content/assets-upload.md)
+      + [Create offer folder beta](/help/main/c-experiences/c-manage-content/create-content-folder-beta.md) {#create-offer-folders} {#hidden}
+      + [Upload content](c-experiences/c-manage-content/assets-upload.md)
+      + [Upload or delete image offers](/help/main/c-experiences/c-manage-content/assets-upload-beta.md) {#upload-delete-offers} {#hidden}
       + [Create redirect offers](c-experiences/c-manage-content/offer-redirect.md)
       + [Create remote offers](c-experiences/c-manage-content/about-remote-offers.md)
       + [Create JSON offers](c-experiences/c-manage-content/create-json-offer.md)

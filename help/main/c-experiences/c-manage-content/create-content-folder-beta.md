@@ -6,11 +6,14 @@ feature: Experiences and Offers
 badgeBeta: label="Beta" type="Informative" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html#beta newtab=true" tooltip="What are Beta features in [!DNL Adobe Target]."
 hide: yes
 hidefromtoc: yes
-exl-id: 3959641b-e436-4890-86ec-72abf173540d
 ---
 # Create offer folders
 
 Create folders in the [!DNL Adobe Target] [!UICONTROL Offer] library to hold code offers, image offers, as well as other folders to create a sub-folder structure.
+
+>[!NOTE]
+>
+>This article contains information about updates to the [!DNL Target] user interface that is currently part of a Beta program. The [!DNL Adobe Target] team often enables new features for select customers for testing and feedback purposes. After the testing period completes, these features are enabled for all customers in future [!DNL Target Standard/Premium] releases and announced in release notes.
 
 The process to create folders for code offers and image offers differs slightly. The following sections contain more information.
 
