@@ -1,7 +1,7 @@
 ---
 keywords: content;update content;assets;upload content;upload asset;delete content
 description: Learn how to upload or delete images used as image offers.
-title: How Do I Upload or Delete Content to the Offers Library?
+title: How Do I Upload or Delete Content to the [!UICONTROL Offers] Library?
 feature: Experiences and Offers
 badgeBeta: label="Beta" type="Informative" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html#beta newtab=true" tooltip="What are Beta features in [!DNL Adobe Target]."
 hide: yes
