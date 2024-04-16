@@ -6,6 +6,7 @@ feature: Experiences and Offers
 badgeBeta: label="Beta" type="Informative" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html#beta newtab=true" tooltip="What are Beta features in [!DNL Adobe Target]."
 hide: yes
 hidefromtoc: yes
+exl-id: 3959641b-e436-4890-86ec-72abf173540d
 ---
 # Create offer folders
 
