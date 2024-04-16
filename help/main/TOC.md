@@ -243,6 +243,7 @@ feature-set: Target
       + [Offers overview](c-experiences/c-manage-content/manage-content.md)
       + [Offers overview beta](/help/main/c-experiences/c-manage-content/manage-content-beta.md) {#offers} {#hidden}
       + [Create offer folder](c-experiences/c-manage-content/create-content-folder.md)
+      + [Create offer folder beta](/help/main/c-experiences/c-manage-content/create-content-folder-beta.md) {#offers} {#hidden}
       + [Uploading content](c-experiences/c-manage-content/assets-upload.md)
       + [Create redirect offers](c-experiences/c-manage-content/offer-redirect.md)
       + [Create remote offers](c-experiences/c-manage-content/about-remote-offers.md)

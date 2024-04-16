@@ -10,7 +10,7 @@ exl-id: f64aec3d-5f83-4bd1-8e64-df1779809812
 ---
 # Offers
 
-Use the [!UICONTROL Offers] library in [!DNL Adobe Target] to manage your code and image offer content.
+Use the [!UICONTROL Offers] library in [!DNL Adobe Target] to manage your code and image offer content. 
 
 >[!NOTE]
 >
