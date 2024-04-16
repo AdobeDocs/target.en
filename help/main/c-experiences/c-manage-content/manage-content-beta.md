@@ -56,7 +56,7 @@ You can perform the following quick actions by clicking the appropriate icon:
 
 ### Quick Info
 
-Click the **[!UICONTROL Quick Info]** icon next to each offer name to view more information about that offer in a pop-up card, including the offer ID, type, date the offer was last modified and by whom, and more.
+Click the **[!UICONTROL Quick Info]** icon next to each offer name to view more information about that offer in a pop-up card, including the offer ID, type, date the offer was last modified and by whom, and more. The available options depend on the offer type: HTML Offer, [JSON Offer](/help/main/c-experiences/c-manage-content/create-json-offer.md), [Redirect Offer](/help/main/c-experiences/c-manage-content/offer-redirect.md), [Remote Offer](/help/main/c-experiences/c-manage-content/about-remote-offers.md).
 
 ![](/help/main/c-experiences/c-manage-content/assets/quick-actions.png)
 
@@ -64,7 +64,7 @@ Click the **[!UICONTROL Quick Info]** icon next to each offer name to view more 
 
 Click the **[!UICONTROL More actions]** icon (the horizontal ellipsis) next to each offer name to open a menu that lets you perform quick actions on an activity. The following actions are available (depending on your permissions and the offer status): [!UICONTROL Edit], [!UICONTROL Copy], [!UICONTROL Delete], and [!UICONTROL Move].
 
-![More Actions option in the Target Offers libarary](/help/main/c-experiences/c-manage-content/assets/more-actions.png)
+![More Actions option in the Target Offers library](/help/main/c-experiences/c-manage-content/assets/more-actions.png)
 
 * Edit
 * Copy
@@ -93,6 +93,8 @@ For detailed information about the tasks you can perform on offers and folders, 
 >[!NOTE]
 >
 >Image offers are not part of the [Enterprise User Permissions](/help/main/administrating-target/c-user-management/property-channel/property-channel.md) model.
+
+<!--
 
 ## Viewing offer definitions {#section_6B059DD121434E6292CAB393507D010E}
 
@@ -155,3 +157,5 @@ This video includes information about managing offers.
 * Custom HTML Offer in the Visual Experience Composer
 
 >[!VIDEO](https://video.tv.adobe.com/v/17387)
+
+-->
