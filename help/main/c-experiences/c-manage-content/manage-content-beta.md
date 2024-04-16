@@ -62,6 +62,10 @@ Click the **[!UICONTROL Quick Info]** icon next to each offer name to view more 
 
 ### More Actions
 
+The actions available for Code Offers and for Image Offers differ slightly. The following sections contain more information:
+
+#### [!UICONTROL Code Offer] options
+
 Click the **[!UICONTROL More actions]** icon (the horizontal ellipsis) next to each offer name to open a menu that lets you perform quick actions on an activity. The following actions are available (depending on your permissions and the offer status): [!UICONTROL Edit], [!UICONTROL Copy], [!UICONTROL Delete], and [!UICONTROL Move].
 
 ![More Actions option in the Target Offers library](/help/main/c-experiences/c-manage-content/assets/more-actions.png)
@@ -74,6 +78,8 @@ Click the **[!UICONTROL More actions]** icon (the horizontal ellipsis) next to e
 Depending on your permissions, you might not see icons for all options. For example, a user with [!UICONTROL Observer] permissions does not have the rights to use the [!UICONTROL Copy] option.
 
 For detailed information about the tasks you can perform on offers and folders, see [Work with content in the Asset library](/help/main/c-experiences/c-manage-content/assets-working.md).
+
+#### [!UICONTROL Image Offer] options
 
 Perform additional tasks by hovering over the desired image offer or folder on the [!UICONTROL Image Offers] tab, then by clicking the desired icon.
 
@@ -93,8 +99,6 @@ For detailed information about the tasks you can perform on offers and folders, 
 >[!NOTE]
 >
 >Image offers are not part of the [Enterprise User Permissions](/help/main/administrating-target/c-user-management/property-channel/property-channel.md) model.
-
-<!--
 
 ## Viewing offer definitions {#section_6B059DD121434E6292CAB393507D010E}
 
@@ -157,5 +161,3 @@ This video includes information about managing offers.
 * Custom HTML Offer in the Visual Experience Composer
 
 >[!VIDEO](https://video.tv.adobe.com/v/17387)
-
--->
