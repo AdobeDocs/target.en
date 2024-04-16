@@ -3,6 +3,9 @@ keywords: content;create folder;assets;move folder;copy folder;delete folder;dow
 description: How do I create folders in the [!UICONTROL Offers] library?
 title: Learn how to create folders in the [!UICONTROL Offers] library to hold code and image offers, as well as other folders.
 feature: Experiences and Offers
+badgeBeta: label="Beta" type="Informative" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html#beta newtab=true" tooltip="What are Beta features in [!DNL Adobe Target]."
+hide: yes
+hidefromtoc: yes
 ---
 # Create offer folders
 
