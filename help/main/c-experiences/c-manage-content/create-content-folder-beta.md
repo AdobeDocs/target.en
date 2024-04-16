@@ -13,7 +13,7 @@ Create folders in the [!DNL Adobe Target] [!UICONTROL Offer] library to hold cod
 
 The process to create folders for code offers and image offers differs slightly. The following sections contain more information.
 
-## Code offer folders
+## [!UICONTROL Code Offer] folders
 
 1. Click **[!UICONTROL Offers]** > **[!UICONTROL Code Offers]**.
 
@@ -29,7 +29,7 @@ The process to create folders for code offers and image offers differs slightly.
 
 For information about the tasks you can perform on offers and folders, see [Work with content in the Asset library](/help/main/c-experiences/c-manage-content/assets-working.md).
 
-## Image offer folders
+## [!UICONTROL Image Offer] folders
 
 1. Click **[!UICONTROL Offers]** > **[!UICONTROL Image Offers]**.
 
