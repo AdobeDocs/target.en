@@ -63,53 +63,24 @@ Use the [!UICONTROL Offers] library in [!DNL Adobe Target] to manage your code o
 
 You can view offer definition details on a pop-up card in the [!UICONTROL Offers] library without opening the offer.
 
-For example, the following offer definition card for an HTML offer is accessed by hovering over an offer on the [!UICONTROL Content] list, then clicking the information icon:
+For example, the following offer definition card for an HTML offer is accessed by clicking the information icon:
 
-![offer-card-html image](assets/offer-card-html.png)
+![offer-card-html image](assets/offer-card-html-new.png)
 
 The following information is available:
 
 * Name 
-* Source 
-* Type 
 * Offer ID 
-* Offer path 
+* Type  
 * Last Modified
 
-Click the [!UICONTROL Offer Usage] tab to view the activities that reference a code offer in each offer's definition pop-up card. This functionality does not apply to image offers. This way you can avoid impact to other activities while editing offers. Information includes [!UICONTROL Live Activities] and [!UICONTROL Inactive Activities].
+Click the [!UICONTROL View Full Details] link to view the offer content and the activities that reference a code offer. This way you can avoid impact to other activities while editing offers. Information includes [!UICONTROL Live Activities] and [!UICONTROL Inactive Activities]. 
 
-![offer-card-usage image](assets/offer-card-usage.png)
+The available information on each card varies depending on the offer type: HTML Offer, [Experience Fragments](/help/main/c-experiences/c-manage-content/aem-experience-fragments.md), [Redirect Offer](/help/main/c-experiences/c-manage-content/offer-redirect.md), [Remote Offer](/help/main/c-experiences/c-manage-content/about-remote-offers.md), or [JSON Offers](/help/main/c-experiences/c-manage-content/create-json-offer.md).
 
-The following offer definition card for a Redirect offer:
+The offer-details functionality does not apply to image offers.
 
-![offer-card-redirect image](assets/offer-card-redirect.png)
-
-The following information is available:
-
-* Name 
-* Source 
-* Type 
-* Offer ID 
-* Offer Path 
-* Last Modified 
-* Redirect URL 
-* Include all URL parameters (On or Off) 
-* Pass mbox session ID (On or Off)
-
-The following offer definition card for a Remote offer:
-
-![offer-card-remote image](assets/offer-card-remote.png)
-
-The following information is available:
-
-* Name 
-* Source 
-* Type 
-* Offer ID 
-* Offer Path 
-* Last Modified 
-* Redirect URL Type 
-* Absolute or Relative URL
+<!--
 
 ## Training video: The Content Repository ![Overview badge](/help/main/assets/overview.png)
 
@@ -117,6 +88,8 @@ This video includes information about managing offers.
 
 * Connection between the [Experience Cloud Asset Library](https://experienceleague.adobe.com/docs/core-services/interface/assets/creative-cloud.html) and the Target Content Library 
 * Custom HTML Offers 
-* Custom HTML Offer in the Visual Experience Composer
+* Custom HTML Offer in the [!UICONTROL Visual Experience Composer]
 
 >[!VIDEO](https://video.tv.adobe.com/v/17387)
+
+-->
