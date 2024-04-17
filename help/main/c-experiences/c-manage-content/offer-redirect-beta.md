@@ -9,7 +9,7 @@ hidefromtoc: yes
 ---
 # Create redirect offers
 
-Create redirect offers in [!DNL Adobe Target] to cause a browser to redirect to a new page.
+Create redirect offers in [!DNL Adobe Target] to cause a browser to redirect to a new page. 
 
 >[!NOTE]
 >
