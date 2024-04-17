@@ -1,11 +1,12 @@
 ---
 keywords: redirect offer;create redirect offer;add html offer;Pass all URL parameters in redirect;Pass mboxSessionId in redirect (only needed when the redirect is going to a different domain)
-description: Learn how to create redirect offers in [!DNL Target] to cause a browser to redirect to a new page. 
+description: Learn how to create redirect offers in [!DNL Target] to cause a browser to redirect to a new page.
 title: How Do I Create Redirect Offers?
 feature: Experiences and Offers
 badgeBeta: label="Beta" type="Informative" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html#beta newtab=true" tooltip="What are Beta features in [!DNL Adobe Target]."
 hide: yes
 hidefromtoc: yes
+exl-id: 751a8d97-2e35-4527-99f3-d7a42c104fcb
 ---
 # Create redirect offers
 
