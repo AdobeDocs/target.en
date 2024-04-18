@@ -6,6 +6,7 @@ feature: Experiences and Offers
 badgeBeta: label="Beta" type="Informative" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html#beta newtab=true" tooltip="What are Beta features in [!DNL Adobe Target]."
 hide: yes
 hidefromtoc: yes
+exl-id: e83ad57e-716d-4595-b5cf-3a882fcb9e37
 ---
 # Create remote offers
 
