@@ -13,7 +13,7 @@ Use remote offers to host content outside of [!DNL Adobe Target] that [!DNL Targ
 
 >[!NOTE]
 >
->This article contains information about updates to the [!DNL Target] user interface that is currently part of a Beta program. The [!DNL Adobe Target] team often enables new features for select customers for testing and feedback purposes. After the testing period completes, these features are enabled for all customers in future [!DNL Target Standard/Premium] releases and announced in release notes.
+>This article contains information about updates to the [!DNL Target] user interface that is currently part of a Beta program. The [!DNL Adobe Target] team often enables new features for select customers for testing and feedback purposes. After the testing period completes, these features are enabled for all customers in future [!DNL Target Standard/Premium] releases and announced in release notes. 
 
 Remote offers can be created on the [!UICONTROL Offers] > [!UICONTROL Code Offers] page or in the [Forms-Based Experience Composer](/help/main/c-experiences/form-experience-composer.md). You cannot create or apply remote offers in the [!UICONTROL Visual Experience Composer] (VEC). Content is injected in the [!DNL Target] request locations, so these locations are most likely not appropriate for a global [!DNL Target] request.
 
