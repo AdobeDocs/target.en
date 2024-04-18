@@ -249,6 +249,7 @@ feature-set: Target
       + [Create redirect offers](c-experiences/c-manage-content/offer-redirect.md)
       + [Create redirect offers](c-experiences/c-manage-content/offer-redirect-beta.md) {#redirect-offers} {#hidden}
       + [Create remote offers](c-experiences/c-manage-content/about-remote-offers.md)
+      + [Create remote offers beta](/help/main/c-experiences/c-manage-content/about-remote-offers-beta.md) {#remote} {#hidden}
       + [Create JSON offers](c-experiences/c-manage-content/create-json-offer.md)
       + [Work with content in the library](c-experiences/c-manage-content/assets-working.md)
       + [Search content](c-experiences/c-manage-content/filter-and-search-content.md)
