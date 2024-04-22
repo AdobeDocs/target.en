@@ -1,21 +1,23 @@
 ---
 keywords: vec;visual experience composer; vec;iframe;extension;browser
-description: Discover why some websites might not open reliably in the Visual Experience Composer (VEC). The VEC Helper browser extension lets you load websites reliably within the VEC.
-title: How Do I Use the Visual Experience Composer (VEC) Helper Extension?
+description: Discover why some websites might not open reliably in the [!UICONTROL Visual Experience Composer] (VEC). The VEC Helper browser extension lets you load websites reliably within the VEC.
+title: How Do I Use the [!UICONTROL Visual Experience Composer] (VEC) Helper Extension?
 feature: Visual Experience Composer (VEC)
 exl-id: 3f38db69-046d-42c9-8c09-eca11d404b12
 ---
-# Visual Experience Composer helper extension
+# [!UICONTROL Visual Experience Composer] helper extension
 
-The [!DNL Adobe Target] [!UICONTROL Visual Experience Composer] (VEC) Helper browser extension for Google Chrome lets you load websites reliably within the VEC to rapidly author and QA web experiences.
+The [!DNL Adobe Target] [!UICONTROL Visual Experience Composer] (VEC) Helper browser extension for [!DNL Google Chrome] lets you load websites reliably within the VEC to rapidly author and QA web experiences.
 
-The VEC Helper browser is a Chrome extension. This extension is not necessary when using Mozilla Firefox.
+The VEC Helper browser is a [!DNL Chrome] extension. This extension is not necessary when using [!DNL Mozilla Firefox].
 
 >[!IMPORTANT]
 >
->The current [!DNL Target] VEC Helper extension documented in this article was created using Manifest v2. Google recently announced that it will no longer allow new extensions created using Manifest v2. 
+>The current [!DNL Target] VEC Helper extension documented in this article was created using Manifest v2. Google recently announced that it will no longer allow new extensions created using Manifest v2 starting in June 2024. For more information, see the [Manifest V2 support timeline announcement](https://developer.chrome.com/docs/extensions/develop/migrate/mv2-deprecation-timeline){target=_blank} from [!DNL Google] on the *Chrome for Developers* site.
 >
->The existing extension still works in Google Chrome. In the future, [!DNL Adobe] will deprecate the helper extension documented in this topic and require customers to move to the newer [Visual Editing Helper extension](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/visual-editing-helper-extension.md). You will be notified via release notes and text in this article when this extension will stop working. However, because of security enhancements in Manifest v3, [!DNL Adobe] recommends downloading the new extension to continue to visually author your websites in [!DNL Target].  
+>The existing extension still works in Google Chrome. Starting in June 2024, [!DNL Adobe] will begin disabling the helper extension documented in this topic and require customers to move to the newer [Visual Editing Helper extension](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/visual-editing-helper-extension.md).
+>
+You will be notified via release notes, an in-product announcement, and text in this article when this extension will stop working. However, because of security enhancements in Manifest v3, [!DNL Adobe] requires downloading the new extension to continue to visually author your websites in [!DNL Target].  
 
 ## Reasons why some websites might not open reliably in the VEC
 
