@@ -13,11 +13,9 @@ The VEC Helper browser is a [!DNL Chrome] extension. This extension is not neces
 
 >[!IMPORTANT]
 >
->The current [!DNL Target] VEC Helper extension documented in this article was created using Manifest v2. Google recently announced that it will no longer allow new extensions created using Manifest v2 starting in June 2024. For more information, see the [Manifest V2 support timeline announcement](https://developer.chrome.com/docs/extensions/develop/migrate/mv2-deprecation-timeline){target=_blank} from [!DNL Google] on the *Chrome for Developers* site.
+>The legacy [!DNL Target] VEC Helper extension documented in this article was created using Manifest V2. [!DNL Google] announced that it will no longer allow extensions created using Manifest V2 starting in June 2024. For more information, see the [Manifest V2 support timeline announcement](https://developer.chrome.com/docs/extensions/develop/migrate/mv2-deprecation-timeline){target=_blank} from [!DNL Google] on the *Chrome for Developers* site.
 >
->The existing extension still works in Google Chrome. Starting in June 2024, [!DNL Adobe] will begin disabling the helper extension documented in this topic and require customers to move to the newer [Visual Editing Helper extension](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/visual-editing-helper-extension.md).
->
-You will be notified via release notes, an in-product announcement, and text in this article when this extension will stop working. However, because of security enhancements in Manifest v3, [!DNL Adobe] requires downloading the new extension to continue to visually author your websites in [!DNL Target].  
+>Starting in June 2024, [!DNL Google] will begin disabling extensions created using Manifest V2, including the extension documented in this topic. [!DNL Adobe] recommends that customers move to the newer [Visual Editing Helper extension](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/visual-editing-helper-extension.md) as soon as feasible.
 
 ## Reasons why some websites might not open reliably in the VEC
 
