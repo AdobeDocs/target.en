@@ -83,8 +83,8 @@ feature-set: Target
          + [Share metrics, audiences, and reports - A4T FAQ](/help/main/c-target/c-troubleshooting-targets-and-audiences/a4t-faq-sharing-metrics-audiences-reports.md)
          + [Legacy SiteCatalyst to Test&Target Integration - A4T FAQ](c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-old-integration.md)
       + [Expected data variances between Target and Analytics when using and not using A4T](c-integrating-target-with-mac/a4t/understanding-expected-data-variances.md)
-   + Integrate Target with Adobe Customer Journey Analytics (CJA4T) {#cja4t} {#hidden}
-      + [Adobe Customer Journey Analytics as the reporting source for Target (CJA4T)](/help/main/c-integrating-target-with-mac/cja4t/cja4t.md)
+   + Integrate Target with Adobe Customer Journey Analytics {#cja} {#hidden}
+      + [Target reporting in Adobe Customer Journey Analytics](/help/main/c-integrating-target-with-mac/cja/target-reporting-in-cja.md)
    + Integrate Target with Adobe Journey Optimizer (AJO) {#ajo}
       + [Use offer decisions](/help/main/c-integrating-target-with-mac/ajo/offer-decision.md)
       + [Integrate [!DNL Adobe Target Recommendations] and [!DNL Adobe Journey Optimizer]](/help/main/c-integrating-target-with-mac/ajo/recs-ajo-integration.md) {#recs-ajo} {#hidden}
