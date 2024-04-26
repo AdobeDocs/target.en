@@ -1,12 +1,12 @@
 ---
 keywords: report;reports;reporting;experience cloud solution;timezone;time zone;currency;exclude IPs;estimated lift in revenue;revenue;lift in revenue;fine-grained priorities;fine-grained
-description: Use [!DNL Target] or Adobe Analytics as the reporting source, specify the default time zone and currency format, add IP addresses to exclude from reporting, and more.
-title: How Do I Configure Reporting in Target?
+description: Use [!DNL Target], [!DNL Adobe Analytics], or [!DNL Adobe Customer Journey Analytics] as the reporting source, specify the default time zone and currency format, add IP addresses to exclude from reporting, and more.
+title: How Do I Configure Reporting in [!DNL Target]?
 feature: Administration & Configuration
 role: Admin
 exl-id: fd83e60e-64a6-4d0e-909f-480d13bac32b
 ---
-# Configure reporting in Target
+# Configure reporting in [!DNL Target]
 
 Configure general settings to use in [!DNL Adobe Target] reporting that apply to your entire [!DNL Target] account.
 
@@ -23,7 +23,7 @@ You can specify the following settings on this page:
 
 >[!NOTE]
 >
->Be aware that the time zone, currency, and IP addresses to exclude settings apply to activities that use [!DNL Target] reporting. These settings do not apply to activities that use [Analytics for Target (A4T)](/help/main/c-integrating-target-with-mac/a4t/a4t.md) as the reporting source.
+>Be aware that the time zone, currency, and IP addresses to exclude settings apply to activities that use [!DNL Target] reporting. These settings do not apply to activities that use [Analytics for Target (A4T)](/help/main/c-integrating-target-with-mac/a4t/a4t.md) or [!DNL Customer Journey Analytics] as the reporting source.
 
 ![Reporting page](/help/main/administrating-target/assets/reporting.png)
 
@@ -31,14 +31,26 @@ You can specify the following settings on this page:
 
 Set options that determine what data is used for your results and reports.
 
-Select the reporting source for your activities, either [!DNL Target] or [!DNL Adobe Analytics]. You can also choose to select your reporting source per activity. 
+Select the reporting source for your activities, either [!DNL Target], [!DNL Adobe Analytics], or [!DNL Adobe Customer Journey Analytics]. You can also choose to select the reporting source per activity as part of three-part guided workflow while creating the activity. 
 
 Consider the following information as you choose your reporting source:
 
-* If the reporting source is set to **[!DNL Target]** here, you are not allowed to activate an activity that uses [!DNL Analytics] as the reporting source. You must change the reporting source to [!DNL Target] in your activity or change the reporting source to **[!UICONTROL Select per activity]** in **[!UICONTROL Administration] > [!UICONTROL Reporting]**.
-* If the reporting source is set to **[!DNL Analytics]** here, you are not allowed to activate an activity that uses [!DNL Target] as the reporting source (the reporting source is specified as **[!UICONTROL Target per activity])**. You must change the reporting source to [!DNL Analytics] in your activity or change the reporting engine to **[!UICONTROL Select per activity]** in **[!UICONTROL Administration] > [!UICONTROL Reporting]**.
-* If the reporting source is set to **[!UICONTROL Select per activity]** here, you can create, activate, and deactivate activities that are supported by the selected reporting source. For a matrix of supported activities, see [Supported activity types](/help/main/c-integrating-target-with-mac/a4t/a4t.md#section_F487896214BF4803AF78C552EF1669AA) in *Adobe Analytics as the reporting source for Adobe Target (A4t)*.
-* [!UICONTROL Automated Personalization] (AP) activity creation, activation, and deactivation are allowed irrespective of the reporting source selected. Automated Personalization activities are not supported when you choose [Adobe Analytics as the reporting source for Adobe Target (A4T)](/help/main/c-integrating-target-with-mac/a4t/a4t.md). Even if you specify [!DNL Analytics] as your reporting source, [!DNL Target] is used as the reporting source for Automated Personalization activities. For more information, see [Supported activity types](/help/main/c-integrating-target-with-mac/a4t/a4t.md#section_F487896214BF4803AF78C552EF1669AA) in *Adobe Analytics as the reporting source for Adobe Target (A4t)*.
+* **[!DNL Adobe Target]**: If the reporting source is set to **[!DNL Target]** here, you are not allowed to create or activate an activity that uses [!DNL Analytics] or [!DNL Customer Journey Analytics] as the reporting source. You must change the reporting source to **[!UICONTROL Select per activity]**.
+* **[!DNL Adobe Analytics]**: If the reporting source is set to **[!DNL Analytics]** here, you are not allowed to create or activate an activity that uses [!DNL Target] or [!DNL Customer Journey Analytics] as the reporting source. You must change the reporting source to **[!UICONTROL Select per activity]**.
+* **[!DNL Adobe Customer Journey Analytics]**: If the reporting source is set to **[!DNL Customer Journey Analytics]** here, you are not allowed to create or activate an activity that uses [!DNL Target] or [!DNL Analytics] as the reporting source. You must change the reporting source to **[!UICONTROL Select per activity]**.
+* **Select per activity**: If the reporting source is set to **[!UICONTROL Select per activity]** here, you can create and activate activities that are supported by the selected reporting source.
+
+When determining your reporting source, consider the following information:
+
+  * **[!DNL Analytics]**: For a matrix of supported activities using [!DNL Analytics] as the reporting source (A4T), see [Supported activity types](/help/main/c-integrating-target-with-mac/a4t/a4t.md#section_F487896214BF4803AF78C552EF1669AA) in *Adobe Analytics as the reporting source for Adobe Target (A4t)*.
+
+    [!UICONTROL Automated Personalization] (AP) activity creation and activation are allowed irrespective of the reporting source selected. [!UICONTROL Automated Personalization] activities are not supported when you choose [Adobe Analytics as the reporting source for Adobe Target (A4T)](/help/main/c-integrating-target-with-mac/a4t/a4t.md). Even if you specify [!DNL Analytics] as your reporting source, [!DNL Target] is used as the reporting source for [!DNL Automated Personalization] activities. 
+
+  * **[!DNL Customer Journey Analytics]**: For a matrix of supported activities using [!DNL Target] reporting in [!DNL Customer Journey Analytics], see [Supported activity types](/help/main/c-integrating-target-with-mac/cja/target-reporting-in-cja.md#supported-activities) in *[!DNL Target] reporting in [!DNL Adobe Customer Journey Analytics]*.
+
+    [!UICONTROL Automated Personalization] (AP), [!UICONTROL Auto-Allocate], and [!UICONTROL Auto-Target] activity creation and activation are allowed irrespective of the reporting source selected. These activities are not supported when you choose [Adobe Customer Journey Analytics as the reporting source](/help/main/c-integrating-target-with-mac/cja/target-reporting-in-cja.md). Even if you specify [!DNL Customer Journey Analytics] as your reporting source, [!DNL Target] is used as the reporting source for [!DNL Automated Personalization] activities. 
+    
+    If you specify [!DNL Customer Journey Analytics] as your reporting source for [!UICONTROL Auto-Allocate] or [!UICONTROL Auto-Target] activities, [!DNL Target] or [!DNL Analytics] can be used as the reporting source. 
 
 ## Timezone for Reporting
 

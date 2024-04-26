@@ -66,6 +66,10 @@ The following activity types are supported when using the [Adobe Experience Plat
 
 Creating a [!DNL Target] activity that uses [!DNL Customer Journey Analytics] as the reporting source is similar to setting up a regular [!DNL Target] activity.
 
+>[!TIP]
+>
+>You can also specify that [!DNL Target] uses reporting in [!DNL Customer Journey Analytics] for all activities created in your account (**[!UICONTROL Administration]** > **[!UICONTROL Reporting]** > **[!UICONTROL Reporting Experience Cloud Solution]**). For more information, see *Reporting Cloud Solution* in [Configure reporting in [!DNL Target]](/help/main/administrating-target/reporting.md#solution).
+
 1. From the **[!UICONTROL Activities]** list, click **[!UICONTROL Create Activity]**, then select the activity type (according to the [supported activity chart above](#supported-activities)) and begin setting up the activity.
 1. When you get to the **[!UICONTROL Goals & Settings]** page of the three-part activity creation workflow, select **[!DNL Customer Journey Analytics]** as the reporting source.
 
