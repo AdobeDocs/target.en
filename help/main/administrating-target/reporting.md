@@ -44,11 +44,15 @@ When determining your reporting source, consider the following information:
 
   * **[!DNL Analytics]**: For a matrix of supported activities using [!DNL Analytics] as the reporting source (A4T), see [Supported activity types](/help/main/c-integrating-target-with-mac/a4t/a4t.md#section_F487896214BF4803AF78C552EF1669AA) in *Adobe Analytics as the reporting source for Adobe Target (A4t)*.
 
-    [!UICONTROL Automated Personalization] (AP) activity creation and activation are allowed irrespective of the reporting source selected. [!UICONTROL Automated Personalization] activities are not supported when you choose [Adobe Analytics as the reporting source for Adobe Target (A4T)](/help/main/c-integrating-target-with-mac/a4t/a4t.md). Even if you specify [!DNL Analytics] as your reporting source, [!DNL Target] is used as the reporting source for [!DNL Automated Personalization] activities. 
+    [!UICONTROL Automated Personalization] (AP) activity creation and activation are allowed irrespective of the reporting source selected. [!UICONTROL Automated Personalization] activities are not supported when you choose [Adobe Analytics as the reporting source for Adobe Target (A4T)](/help/main/c-integrating-target-with-mac/a4t/a4t.md). 
+    
+    Even if you specify [!DNL Analytics] as your reporting source, [!DNL Target] is used as the reporting source for [!DNL Automated Personalization] activities. 
 
   * **[!DNL Customer Journey Analytics]**: For a matrix of supported activities using [!DNL Target] reporting in [!DNL Customer Journey Analytics], see [Supported activity types](/help/main/c-integrating-target-with-mac/cja/target-reporting-in-cja.md#supported-activities) in *[!DNL Target] reporting in [!DNL Adobe Customer Journey Analytics]*.
 
-    [!UICONTROL Automated Personalization] (AP), [!UICONTROL Auto-Allocate], and [!UICONTROL Auto-Target] activity creation and activation are allowed irrespective of the reporting source selected. These activities are not supported when you choose [Adobe Customer Journey Analytics as the reporting source](/help/main/c-integrating-target-with-mac/cja/target-reporting-in-cja.md). Even if you specify [!DNL Customer Journey Analytics] as your reporting source, [!DNL Target] is used as the reporting source for [!DNL Automated Personalization] activities. 
+    [!UICONTROL Automated Personalization] (AP), [!UICONTROL Auto-Allocate], and [!UICONTROL Auto-Target] activity creation and activation are allowed irrespective of the reporting source selected. These activities are not supported when you choose [Adobe Customer Journey Analytics as the reporting source](/help/main/c-integrating-target-with-mac/cja/target-reporting-in-cja.md). 
+    
+    Even if you specify [!DNL Customer Journey Analytics] as your reporting source, [!DNL Target] is used as the reporting source for [!DNL Automated Personalization] activities. 
     
     If you specify [!DNL Customer Journey Analytics] as your reporting source for [!UICONTROL Auto-Allocate] or [!UICONTROL Auto-Target] activities, [!DNL Target] or [!DNL Analytics] can be used as the reporting source. 
 
