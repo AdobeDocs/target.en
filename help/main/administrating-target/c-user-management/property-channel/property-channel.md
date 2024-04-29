@@ -253,7 +253,7 @@ Consider the following when using or configuring properties and permissions in [
 
 FAQs about enterprise permissions include the following:
 
-### What happens if a user has multiple roles and permissions? [#multiple-roles]
+### What happens if a user has multiple roles and permissions? {#multiple-roles}
 
 If a user has multiple roles and permissions, the role with the hirer permissions is applied. For example, if a user has [!UICONTROL Observer] and [!UICONTROL Approver] roles, the [!UICONTROL Approver] role is applied.
 
