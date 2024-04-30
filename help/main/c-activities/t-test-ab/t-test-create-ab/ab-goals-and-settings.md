@@ -1,6 +1,6 @@
 ---
 keywords: activity settings;A/B goals and settings;reporting settings;goal metrics;success metrics;dependent success metrics;advanced settings;primary goal;additional metrics;objective;priority;duration;reporting solution;goal;audiences for reporting;Which success metric must be reached before incrementing this metric;What will happen after a user encounters this goal metric;notes
-description: Learn how to use the [!UICONTROL Goals and Settings] page in [!DNL Adobe Target] to specify information about the goals of an A/B activity.
+description: Learn how to use the [!UICONTROL Goals and Settings] page to specify information about the goals of an A/B activity.
 title: How Do I Specify Goals and Settings in a [!DNL Target] A/B Activity?
 feature: A/B Tests
 exl-id: 6c970289-a897-46bc-a8d2-ba8c045abe12
