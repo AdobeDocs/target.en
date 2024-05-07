@@ -135,4 +135,4 @@ For more information, see [Share Real-time CDP Profile Attributes with [!DNL Tar
 
 You can filter the [!UICONTROL Offers] library by the JSON offer type by clicking the **[!UICONTROL Type]** drop-down list, then by selecting the **[!UICONTROL JSON]** checkbox.
 
-![offer-json-filter image](assets/offer-json-filter.png)
+![offer-json-filter image](assets/offer-json-filter.png) 
