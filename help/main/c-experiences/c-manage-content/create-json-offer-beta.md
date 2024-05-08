@@ -5,6 +5,7 @@ title: How Do I Create JSON Offers?
 feature: Experiences and Offers
 hide: yes
 hidefromtoc: yes
+exl-id: e022c2d1-3326-405b-aead-5bb4ffa309b3
 ---
 # Create JSON offers
 
@@ -138,4 +139,4 @@ For more information, see [Share Real-time CDP Profile Attributes with [!DNL Tar
 
 You can filter the [!UICONTROL Offers] library by the JSON offer type by clicking the **[!UICONTROL Show filters]** icon, then by selecting the **[!UICONTROL JSON]** checkbox.
 
-![offer-json-filter image](assets/offer-json-filter-new.png) 
+![offer-json-filter image](assets/offer-json-filter-new.png)
