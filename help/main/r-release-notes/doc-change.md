@@ -13,6 +13,7 @@ This page lists significant changes made to the [!DNL Adobe Target] product docu
 
 |Date|Topic|Changes|
 | --- | --- | --- |
+|May 8|[[!DNL Target] reporting in [!DNL Adobe Customer Journey Analytics]](/help/main/c-integrating-target-with-mac/cja/target-reporting-in-cja.md)|New article: Added information about the [!DNL Target] integration with [!DNL Adobe Customer Journey Analytics].|
 |April 30|[Troubleshooting issues related to the [!UICONTROL Enhanced Experience Composer]](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/troubleshooting-issues-related-to-the-enhanced-experience-composer-eec.md)|Updated the list of IP addresses for Adobe's server used for the EEC proxy to allowlist.|
 |April 23|[[!DNL Target] release notes (current)](/help/main/r-release-notes/release-notes.md)|Added information explaining Google's plan to start disabling extensions created using Manifest V2. [!DNL Adobe] recommends that customers move to the new [!UICONTROL Visual Editing Helper] extension as soon as possible.|
 |April 23|[[!UICONTROL Visual Experience Composer] helper extension](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/vec-helper-browser-extension.md)|Updated the Important note at the top of the page explaining Google's plan to start disabling extensions created using Manifest V2, which includes the extension documented in this article. [!DNL Adobe] recommends that customers move to the new [!UICONTROL Visual Editing Helper] extension as soon as possible.|
