@@ -8,7 +8,7 @@ hide: yes
 hidefromtoc: yes
 exl-id: 67b20bf6-ffbe-4220-9455-cb3886bb9227
 ---
-# [!DNL Target] reporting in [!DNL Adobe Customer Journey Analytics]
+# [!DNL Target] reporting in [!DNL Adobe Customer Journey Analytics] 
 
 The integration between [Adobe Customer Journey Analytics](https://experienceleague.adobe.com/en/docs/customer-journey-analytics){target=_blank} and [!DNL Target] provides powerful analysis and timesaving tools for your optimization program.
 
