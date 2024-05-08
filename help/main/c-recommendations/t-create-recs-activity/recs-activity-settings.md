@@ -49,7 +49,24 @@ The activity can start when activated, or you can set a specific date and time. 
 
 ## Reporting Settings
 
-* **Reporting Source:** Select the reporting source: [!DNL Adobe Target] or [Analytics](/help/main/c-integrating-target-with-mac/a4t/a4t.md). Do not change the reporting source after the activity goes live. Changing the reporting source after an activity goes live causes inconsistent reporting.
+* **Reporting Source:** Specify which solution data is collected from:
+
+  * [!DNL Adobe Target]
+  * [!DNL Adobe Analytics]
+  * [!DNL Adobe Customer Journey Analytics]
+
+  If a reporting solution is specified in your [account settings](/help/main/administrating-target/reporting.md), the specified solution is used and this setting is not visible.
+
+  You cannot change your reporting source after the activity goes live to keep reports consistent.
+
+  **[!DNL Adobe Analytics]**: See [[!DNL Adobe Analytics] as the reporting source for [!DNL Target]](/help/main/c-integrating-target-with-mac/a4t/a4t.md) to learn about the differences between the reporting solutions and the advantages of each.
+
+  When selecting [!DNL Analytics] as the reporting source for [!DNL Target] (A4T), you select an [!DNL Analytics] report suite to receive [!DNL Target] activity data. To do this, first choose from any of the [!DNL Analytics] companies your account is tied to, and then select the appropriate report suite for the activity. Only report suites that are provisioned to connect to [!DNL Target] are available for selection. If you don't see the report suite that you expect, first try logging out and logging back in to the [!DNL Adobe Experience Cloud] to try again. If the report suite is still missing from the list, contact [Customer Care](/help/main/cmp-resources-and-contact-information.md#reference_ACA3391A00EF467B87930A450050077C).
+
+  [!DNL Analytics for Target] (A4T) requires a tracking server to report results correctly. A default tracking server displays in the [!UICONTROL Tracking Server] field. If you use more than one tracking server, ensure you include the correct tracking server in this field. See [Using an Analytics Tracking Server](/help/main/c-integrating-target-with-mac/a4t/analytics-tracking-server.md#task_72077BA7E93C4A65A715A18F32228823) for more information.
+
+  **[!DNL Adobe Customer Journey Analytics]**: See [[!DNL Target] reporting in [!DNL Adobe Customer Journey Analytics]](/help/main/c-integrating-target-with-mac/cja/target-reporting-in-cja.md) for more information about the integration between [!DNL Adobe Customer Journey Analytics] and [!DNL Target].
+  
 * **Goal Metric:** Select the success metric that determines whether the activity is successful.
 * **Additional Metrics:** Configure additional success metrics to be used in your reports.
 * **Audiences for Reporting:** Define audiences that can be used when filtering your reports.
