@@ -3,7 +3,8 @@ keywords: json offer;create json offer
 description: Learn how to create JSON offers in for use in the [!UICONTROL Form-Based Experience Composer].
 title: How Do I Create JSON Offers?
 feature: Experiences and Offers
-exl-id: 793665a4-4cd6-458f-8225-ba23e503a115
+hide: yes
+hidefromtoc: yes
 ---
 # Create JSON offers
 
@@ -26,15 +27,17 @@ Consider the following information as you work with JSON offers:
 
 1. Click **[!UICONTROL Offers]** > **[!UICONTROL Code Offers]**.
 
-   ![Offers > Code Offers tab](/help/main/c-experiences/c-manage-content/assets/code-offers-tab.png)
+   ![Offers > Code Offers tab](/help/main/c-experiences/c-manage-content/assets/code-offers-tab-new.png)
    
-1. Click **[!UICONTROL Create]** > **[!UICONTROL JSON Offer]**.
+1. Click **[!UICONTROL Create Offer]** > **[!UICONTROL JSON Offer]**.
 
-   ![offer-json image](assets/offer-json.png)
+   ![offer-json image](assets/offer-json-new.png)
 
-1. Type an offer name. 
+1. Type an offer name.
+1. (Conditional) If you have a [[!DNL Target] Premium account](/help/main/c-intro/intro.md#premium), choose the desired [workspace](/help/main/administrating-target/c-user-management/property-channel/property-channel.md#workspace).
+1. (Conditional) Choose the desired profile attributes.
 1. Type or paste your JSON code in the **[!UICONTROL Code]** box. 
-1. Click **[!UICONTROL Save]**.
+1. Click **[!UICONTROL Create]**.
 
 ## JSON example {#section_A54F7BB2B55D4B7ABCD5002E0C72D8C9}
 
@@ -54,7 +57,7 @@ adobe.target.getOffer({
 });
 ```
 
-The actions passed to success callback is an array of object. Assuming that we have a single JSON offer, that has this content:
+The actions passed to success callback is an array of object. Assuming that you have a single JSON offer, that has this content:
 
 ```json
 { 
@@ -133,6 +136,6 @@ For more information, see [Share Real-time CDP Profile Attributes with [!DNL Tar
 
 ## Filtering offers by the JSON offer type {#section_52533555BCE6420C8A95EB4EB8907BDE}
 
-You can filter the [!UICONTROL Offers] library by the JSON offer type by clicking the **[!UICONTROL Type]** drop-down list, then by selecting the **[!UICONTROL JSON]** checkbox.
+You can filter the [!UICONTROL Offers] library by the JSON offer type by clicking the **[!UICONTROL Show filters]** icon, then by selecting the **[!UICONTROL JSON]** checkbox.
 
-![offer-json-filter image](assets/offer-json-filter.png) 
+![offer-json-filter image](assets/offer-json-filter-new.png) 

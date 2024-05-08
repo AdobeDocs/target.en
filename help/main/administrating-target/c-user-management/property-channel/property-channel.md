@@ -45,7 +45,7 @@ Properties are enabled by adding a specific name/value pair as a parameter with 
 
 Properties belong to specific channels (Web, Mobile, Email, or API/Other).
 
-### Workspace (Product Profile)
+### Workspace (Product Profile) {#workspace}
 
 A workspace lets an organization assign a specific set of users to a specific set of properties. In many ways, a workspace is similar to a report suite in [!DNL Adobe Analytics].
 
