@@ -3,9 +3,6 @@ keywords: customer journey analytics;customer journey analytics for target;custo
 description: Use [!DNL Target] reporting in [!DNL Adobe Customer Journey Analytics] to create activities based on [!DNL Customer Journey Analytics] conversion metrics and audience segments and use [!DNL Customer Journey Analytics] reports to examine results.
 title: What is [!DNL Target] reporting in [!DNL Adobe Customer Journey Analytics]?
 feature: Integrations
-badgeBeta: label="Beta" type="Informative" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html#beta newtab=true" tooltip="What are Beta features in [!DNL Adobe Target]."
-hide: yes
-hidefromtoc: yes
 exl-id: 67b20bf6-ffbe-4220-9455-cb3886bb9227
 ---
 # [!DNL Target] reporting in [!DNL Adobe Customer Journey Analytics] 

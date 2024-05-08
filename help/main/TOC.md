@@ -83,7 +83,7 @@ feature-set: Target
          + [Share metrics, audiences, and reports - A4T FAQ](/help/main/c-target/c-troubleshooting-targets-and-audiences/a4t-faq-sharing-metrics-audiences-reports.md)
          + [Legacy SiteCatalyst to Test&Target Integration - A4T FAQ](c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-old-integration.md)
       + [Expected data variances between Target and Analytics when using and not using A4T](c-integrating-target-with-mac/a4t/understanding-expected-data-variances.md)
-   + Integrate Target with Adobe Customer Journey Analytics {#cja} {#hidden}
+   + Integrate Target with Adobe Customer Journey Analytics {#cja}
       + [Target reporting in Adobe Customer Journey Analytics](/help/main/c-integrating-target-with-mac/cja/target-reporting-in-cja.md)
    + Integrate Target with Adobe Journey Optimizer (AJO) {#ajo}
       + [Use offer decisions](/help/main/c-integrating-target-with-mac/ajo/offer-decision.md)
@@ -251,7 +251,9 @@ feature-set: Target
       + [Create remote offers](c-experiences/c-manage-content/about-remote-offers.md)
       + [Create remote offers beta](/help/main/c-experiences/c-manage-content/about-remote-offers-beta.md) {#remote} {#hidden}
       + [Create JSON offers](c-experiences/c-manage-content/create-json-offer.md)
+      + [Create JSON offers beta](/help/main/c-experiences/c-manage-content/create-json-offer-beta.md) {#json} {#hidden}
       + [Work with content in the library](c-experiences/c-manage-content/assets-working.md)
+      + [Work with content in the library beta](/help/main/c-experiences/c-manage-content/assets-working-beta) {#working} {#hidden}
       + [Search content](c-experiences/c-manage-content/filter-and-search-content.md)
       + [Pass dynamic data into offers](c-experiences/c-manage-content/passing-profile-attributes-to-the-html-offer.md)
       + [AEM Experience and Content Fragments](c-experiences/c-manage-content/aem-experience-fragments.md)
