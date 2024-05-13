@@ -10,7 +10,7 @@ exl-id: f509ff00-ed0e-4836-826d-f6cb122d8867
 ---
 # Upload or delete image offers 
 
-You can upload images to the [!UICONTROL Image Offers] list in [!DNL Adobe Target] to use as image offers in activities. You can also delete image offers when they are no longer needed in activities.
+You can upload images to the [!UICONTROL Image Offers] page in [!DNL Adobe Target] to use as image offers in activities. You can also delete image offers when they are no longer needed in activities.
 
 >[!NOTE]
 >
@@ -20,7 +20,7 @@ You can upload images to the [!UICONTROL Image Offers] list in [!DNL Adobe Targe
 
 1. Click **[!UICONTROL Offers]** > **[!UICONTROL Image Offers]**.
 
-   ![Offers > Image Offers](/help/main/c-experiences/c-manage-content/assets/image-offers-tab-new.png)
+   ![Offers > Image Offers](/help/main/c-experiences/c-manage-content/assets/image-offers-new.png)
 
 1. Click **[!UICONTROL Create]** > **[!UICONTROL Files]**.
 1. Browse to and select the item you want to add, then click **[!UICONTROL Open]**.
