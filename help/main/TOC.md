@@ -253,7 +253,7 @@ feature-set: Target
       + [Create JSON offers](c-experiences/c-manage-content/create-json-offer.md)
       + [Create JSON offers beta](/help/main/c-experiences/c-manage-content/create-json-offer-beta.md)
       + [Work with content in the library](c-experiences/c-manage-content/assets-working.md)
-      + [Work with content in the library beta](/help/main/c-experiences/c-manage-content/assets-working-beta)
+      + [Work with content in the library beta](/help/main/c-experiences/c-manage-content/assets-working-beta.md)
       + [Search content](c-experiences/c-manage-content/filter-and-search-content.md)
       + [Pass dynamic data into offers](c-experiences/c-manage-content/passing-profile-attributes-to-the-html-offer.md)
       + [AEM Experience and Content Fragments](c-experiences/c-manage-content/aem-experience-fragments.md)
