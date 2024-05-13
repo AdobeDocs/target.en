@@ -241,19 +241,19 @@ feature-set: Target
    + [Single Page App (SPA) Visual Experience Composer](c-experiences/spa-visual-experience-composer.md)
    + Offers {#offers}
       + [Offers overview](c-experiences/c-manage-content/manage-content.md)
-      + [Offers overview beta](/help/main/c-experiences/c-manage-content/manage-content-beta.md) {#manage-offers} {#hidden}
+      + [Offers overview beta](/help/main/c-experiences/c-manage-content/manage-content-beta.md)
       + [Create offer folder](c-experiences/c-manage-content/create-content-folder.md)
-      + [Create offer folder beta](/help/main/c-experiences/c-manage-content/create-content-folder-beta.md) {#create-offer-folders} {#hidden}
+      + [Create offer folder beta](/help/main/c-experiences/c-manage-content/create-content-folder-beta.md)
       + [Upload content](c-experiences/c-manage-content/assets-upload.md)
-      + [Upload or delete image offers](/help/main/c-experiences/c-manage-content/assets-upload-beta.md) {#upload-delete-offers} {#hidden}
+      + [Upload or delete image offers beta](/help/main/c-experiences/c-manage-content/assets-upload-beta.md)
       + [Create redirect offers](c-experiences/c-manage-content/offer-redirect.md)
-      + [Create redirect offers](c-experiences/c-manage-content/offer-redirect-beta.md) {#redirect-offers} {#hidden}
+      + [Create redirect offers beta](c-experiences/c-manage-content/offer-redirect-beta.md)
       + [Create remote offers](c-experiences/c-manage-content/about-remote-offers.md)
-      + [Create remote offers beta](/help/main/c-experiences/c-manage-content/about-remote-offers-beta.md) {#remote} {#hidden}
+      + [Create remote offers beta](/help/main/c-experiences/c-manage-content/about-remote-offers-beta.md)
       + [Create JSON offers](c-experiences/c-manage-content/create-json-offer.md)
-      + [Create JSON offers beta](/help/main/c-experiences/c-manage-content/create-json-offer-beta.md) {#json} {#hidden}
+      + [Create JSON offers beta](/help/main/c-experiences/c-manage-content/create-json-offer-beta.md)
       + [Work with content in the library](c-experiences/c-manage-content/assets-working.md)
-      + [Work with content in the library beta](/help/main/c-experiences/c-manage-content/assets-working-beta) {#working} {#hidden}
+      + [Work with content in the library beta](/help/main/c-experiences/c-manage-content/assets-working-beta)
       + [Search content](c-experiences/c-manage-content/filter-and-search-content.md)
       + [Pass dynamic data into offers](c-experiences/c-manage-content/passing-profile-attributes-to-the-html-offer.md)
       + [AEM Experience and Content Fragments](c-experiences/c-manage-content/aem-experience-fragments.md)
