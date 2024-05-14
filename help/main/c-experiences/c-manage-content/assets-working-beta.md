@@ -5,6 +5,7 @@ title: How Do I Work with Content in the [!UICONTROL Offers] Library?
 feature: Experiences and Offers
 hide: yes
 hidefromtoc: yes
+exl-id: 5d836037-3f51-4c63-8717-65de72e5c793
 ---
 # Work with content in the Asset library
 
