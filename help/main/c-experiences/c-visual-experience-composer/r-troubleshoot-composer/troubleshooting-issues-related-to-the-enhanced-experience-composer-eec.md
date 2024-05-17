@@ -15,6 +15,15 @@ This can be resolved by allowlisting the following IP addresses. These IP addres
 
 Ask your IT team to allowlist the following IP addresses:
 
+* 34.254.77.200
+* 54.73.207.147
+* 54.229.152.123
+* 3.224.194.242
+* 54.90.51.39
+* 34.228.136.112
+* 54.150.116.11
+* 18.178.142.8
+* 54.199.107.77
 * 99.80.139.221
 * 54.78.56.224
 * 54.247.179.246
