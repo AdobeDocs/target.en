@@ -58,6 +58,7 @@ feature-set: Target
          + [Enterprise user permissions](administrating-target/c-user-management/property-channel/property-channel.md)
          + [Configure enterprise permissions](administrating-target/c-user-management/property-channel/properties-overview.md)
          + [Grant Adobe I/O integrations access to workspaces and assign roles](administrating-target/c-user-management/property-channel/configure-adobe-io-integration.md)
+   + [Recommendations](/help/main/administrating-target/reommendations-settings.md)
 + Implement Target {#implement-target}
     + [Implement Target overview](c-implementing-target/implementing-target.md) 
 + Integrate Target with the Experience Cloud {#integrate}
