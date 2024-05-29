@@ -7,11 +7,11 @@ exl-id: c32f1699-e564-40dd-8ff1-7c75a672c6ef
 ---
 # Priority
 
-[!DNL Adobe Target] determines which activity (or activities) to deliver to a page differently depending on which [!DNL Target] interface and which activity creation function ([[!UICONTROL Visual Experience Composer]](/help/main/c-experiences/c-visual-experience-composer/visual-experience-composer.md) or [Form-Based Experience Composer](/help/main/c-experiences/form-experience-composer.md)) you're using.
+[!DNL Adobe Target] determines which activity (or activities) to deliver to a page differently depending on which [!DNL Target] interface and which activity creation function ([[!UICONTROL Visual Experience Composer (VEC)]](/help/main/c-experiences/c-visual-experience-composer/visual-experience-composer.md) or [Form-Based Experience Composer](/help/main/c-experiences/form-experience-composer.md)) you're using.
 
 ## [!DNL Target Standard/Premium] [!UICONTROL Visual Experience Composer] only or [!UICONTROL Form-Based Experience Composer] using a global [!DNL Target] request only {#section_4A0A317DFED345649B58B0CB5B410C8B}
 
-If your company uses [!DNL Target Standard/Premium] and the [!UICONTROL Visual Experience Composer] exclusively, content from multiple activities can be returned for the same call. Activities are delivered using the following decision flow:
+If your company uses [!DNL Target Standard/Premium] and the VEC exclusively, content from multiple activities can be returned for the same call. Activities are delivered using the following decision flow:
 
 1. The [!DNL Target] server call comes to [!DNL Target] with information about the URL. 
 1. [!DNL Target] pulls every activity running on that URL. 
@@ -37,18 +37,20 @@ If your company uses [!DNL Target Standard/Premium] and the [!UICONTROL Visual E
 
 >[!NOTE]
 >
->This information also applies to any campaigns running that were created in [!DNL Target Classic].
+>This information also applies to any activities running that were created in [!DNL Target Classic].
 
-If your company uses the [!UICONTROL Form-Based Experience Composer] in [!DNL Target Standard/Premium] and the [!DNL Target Standard/Premium] [!UICONTROL Visual Experience Composer], then content from multiple [!UICONTROL Visual Experience Composer] activities can deliver, but only one activity from the form-based workflow. Activity delivery is determined using the following decision flow:
+If your company uses the [!UICONTROL Form-Based Experience Composer] *and* the VEC, content from multiple [!UICONTROL Form-Based Experience Composer] and VEC activities can deliver. Previously, only one activity from the form-based workflow could deliver. There is no longer a limit to the number of form-based activities that can deliver. 
+
+Activity delivery is determined using the following decision flow:
 
 1. [!DNL Target] server call comes to [!DNL Target] with information about the [!DNL Target] request and URL. 
-1. [!DNL Target Classic] and [!DNL Target Standard/Premium] pull every activity running in that [!DNL Target] request. 
+1. [!DNL Target Standard/Premium] pulls every activity running in that [!DNL Target] request. 
 1. [!DNL Target] attempts to match the visitor into activities.
 
    If the visitor is already in an [!UICONTROL A/B Test] or [!UICONTROL Multivariate Test] activity, they match into that test until they convert. If they were previously in an [!UICONTROL Experience Targeting] activity, they must match into it again. If they meet the audience rules, then the visitor falls into those activities and into specific experiences. 
 
-1. If a form-based activity is the highest priority, then that activity content is returned along with all matching activity content from [!UICONTROL Visual Experience Composer] activities. 
-1. If a [!UICONTROL Visual Experience Composer] activity is the highest priority, then content from all matching [!UICONTROL Visual Experience Composer] activities is returned, but no [!DNL Target Classic] or form-based activity content is returned.
+1. If a form-based activity is the highest priority, then that activity content is returned along with all matching activity content from VEC activities. 
+1. If a VEC activity is the highest priority, then content from all matching VEC activities is returned, but no [!DNL Target Classic] or form-based activity content is returned.
 
    The results from all activities that run on the page are counted and reflected in the reports.
 
