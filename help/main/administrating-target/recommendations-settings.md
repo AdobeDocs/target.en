@@ -6,6 +6,7 @@ feature: Administration & Configuration
 role: Admin
 hide: yes
 hidefromtoc: yes
+exl-id: 5dbae0d9-897f-4e0a-b013-0e9ad6654150
 ---
 # Configure settings for [!DNL Recommendations]
 
