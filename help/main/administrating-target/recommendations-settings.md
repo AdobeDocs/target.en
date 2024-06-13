@@ -2,6 +2,7 @@
 keywords: recommendations;implement recommendations;client code;authentication token;industry vertical;filter incompatible mode;default host group;thumbnail base;generate authentication token;authentication token;
 description: Learn how configure settings for [!DNL Adobe Target Recommendations].
 title: How do I configure the settings for Recommendations?
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="See what's included in Target Premium."
 feature: Administration & Configuration
 role: Admin
 hide: yes
