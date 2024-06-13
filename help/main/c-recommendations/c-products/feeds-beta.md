@@ -9,7 +9,7 @@ hidefromtoc: yes
 ---
 # Feeds
 
-Use feeds to get entities imported into [!DNL Adobe Target] [!DNL Recommendations]. Entities can be sent using CSV files, the [!DNL Google Product Search] feed format, and [!DNL Adobe Analytics] product classifications.
+Use feeds to get entities imported into [!DNL Adobe Target] [!DNL Recommendations]. Entities can be sent using CSV files, the [!DNL Google Product Search] feed format, and [!DNL Adobe Analytics] product classifications. 
 
 ## Feeds overview {#concept_D1E9C7347C5D4583AA69B02E79607890}
 
