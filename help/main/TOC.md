@@ -288,8 +288,9 @@ feature-set: Target
       + [Entity attributes](c-recommendations/c-products/entity-attributes.md)
       + [Custom entity attributes](c-recommendations/c-products/custom-entity-attributes.md)
       + [Feeds](c-recommendations/c-products/feeds.md)
-      + [Feeds-beta](/help/main/c-recommendations/c-products/feeds-beta.md)
+      + [Feeds beta](/help/main/c-recommendations/c-products/feeds-beta.md)
       + [Catalog search](c-recommendations/c-products/catalog-search.md)
+      + [Catalog search beta](/help/main/c-recommendations/c-products/catalog-search-beta.md)
       + [Collections](c-recommendations/c-products/collections.md)
       + [Exclusions](c-recommendations/c-products/exclusions.md)
    + Criteria {#criteria}
