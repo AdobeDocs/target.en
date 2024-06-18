@@ -6,6 +6,7 @@ badgePremium: label="Premium" type="Positive" url="https://experienceleague.adob
 feature: Recommendations
 hide: yes
 hidefromtoc: yes
+exl-id: 6b0175b1-0eee-498d-8a08-513cf6695114
 ---
 # [!UICONTROL Catalog Search]
 
