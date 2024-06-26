@@ -292,6 +292,7 @@ feature-set: Target
       + [Catalog search](c-recommendations/c-products/catalog-search.md)
       + [Catalog search beta](/help/main/c-recommendations/c-products/catalog-search-beta.md)
       + [Collections](c-recommendations/c-products/collections.md)
+      + [Collections beta](/help/main/c-recommendations/c-products/collections-beta.md)
       + [Exclusions](c-recommendations/c-products/exclusions.md)
    + Criteria {#criteria}
       + [Criteria overview](c-recommendations/c-algorithms/algorithms.md)
