@@ -77,7 +77,7 @@ Click the **ellipsis** icon next to the desired collection in the list, then cli
 
  ![Hover icons: edit, copy, and delete](/help/main/c-recommendations/c-products/assets/hover-icons-new.png)
 
-You can copy an existing collection to create a duplicate collection that you can then modify. This lets you create a similar exclusion with less effort.
+You can copy an existing collection to create a duplicate collection that you can then modify. This lets you create a similar collection with less effort.
 
 Be aware that collections are available across the entire account. Ensure that you consider this before deleting a collection. Deleted collections cannot be recovered.
 
