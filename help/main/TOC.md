@@ -297,6 +297,7 @@ feature-set: Target
       + [Exclusions beta](/help/main/c-recommendations/c-products/exclusions-beta.md)
    + Criteria {#criteria}
       + [Criteria overview](c-recommendations/c-algorithms/algorithms.md)
+      + [Criteria overview beta](/help/main/c-recommendations/c-algorithms/algorithms-beta.md) 
       + [Create criteria](c-recommendations/c-algorithms/create-new-algorithm.md)
       + [Create criteria sequences](c-recommendations/c-algorithms/create-criteria-sequence.md)
       + [Base the recommendation on a recommendation key](/help/main/c-recommendations/c-algorithms/base-the-recommendation-on-a-recommendation-key.md)
