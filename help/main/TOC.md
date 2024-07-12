@@ -303,8 +303,10 @@ feature-set: Target
       + [Create criteria sequences](c-recommendations/c-algorithms/create-criteria-sequence.md)
       + [Create criteria sequences beta](/help/main/c-recommendations/c-algorithms/create-criteria-sequence-beta.md)
       + [Base the recommendation on a recommendation key](/help/main/c-recommendations/c-algorithms/base-the-recommendation-on-a-recommendation-key.md)
+      + [Base the recommendation on a recommendation key beta](/help/main/c-recommendations/c-algorithms/base-the-recommendation-on-a-recommendation-key-beta.md)
       + [The science behind Target's recommendations algorithms](/help/main/c-recommendations/c-algorithms/recommendations-algorithms.md)
       + [Upload custom criteria](c-recommendations/c-algorithms/recommendations-csv.md)
+      + [Upload custom criteria beta](/help/main/c-recommendations/c-algorithms/recommendations-csv-beta.md)
       + Dynamic and static inclusion rules {#dynamic-static}
          + [Use dynamic and static inclusion rules](c-recommendations/c-algorithms/use-dynamic-and-static-inclusion-rules.md)
          + [Entity attribute matching](/help/main/c-recommendations/c-algorithms/entity-attribute-matching.md)
