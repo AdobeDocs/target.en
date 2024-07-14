@@ -309,6 +309,7 @@ feature-set: Target
       + [Upload custom criteria beta](/help/main/c-recommendations/c-algorithms/recommendations-csv-beta.md)
       + Dynamic and static inclusion rules {#dynamic-static}
          + [Use dynamic and static inclusion rules](c-recommendations/c-algorithms/use-dynamic-and-static-inclusion-rules.md)
+         + [Use dynamic and static inclusion rules beta](/help/main/c-recommendations/c-algorithms/use-dynamic-and-static-inclusion-rules-beta.md)
          + [Entity attribute matching](/help/main/c-recommendations/c-algorithms/entity-attribute-matching.md)
          + [Profile attribute matching](/help/main/c-recommendations/c-algorithms/profile-attribute-matching.md)
          + [Parameter matching](/help/main/c-recommendations/c-algorithms/parameter-matching.md)
