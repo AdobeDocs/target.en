@@ -319,8 +319,11 @@ feature-set: Target
          + [Static filter](/help/main/c-recommendations/c-algorithms/static-value.md)
          + [Static filter beta](/help/main/c-recommendations/c-algorithms/static-value-beta.md)
       + [Use a backup recommendation](c-recommendations/c-algorithms/backup-recs.md)
+      + [Use a backup recommendation](/help/main/c-recommendations/c-algorithms/backup-recs-beta.md)
       + [Work with multi-value attributes](/help/main/c-recommendations/c-algorithms/work-with-multi-value-attributes.md)
+      + [Work with multi-value attributes beta](/help/main/c-recommendations/c-algorithms/work-with-multi-value-attributes-beta.md)
       + [Use Adobe Analytics with Recommendations](/help/main/c-recommendations/c-algorithms/use-adobe-analytics-with-recommendations.md)
+      + [Use Adobe Analytics with Recommendations beta](/help/main/c-recommendations/c-algorithms/use-adobe-analytics-with-recommendations-beta.md)
    + Design {#recommendations-design}
       + [Design overview](c-recommendations/c-design-overview/design-overview.md)
       + [Create a design](c-recommendations/c-design-overview/create-design.md)
