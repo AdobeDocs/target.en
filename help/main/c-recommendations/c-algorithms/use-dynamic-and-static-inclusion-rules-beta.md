@@ -24,7 +24,7 @@ The following sections contain more information:
 
    ![Add Filtering Rule](/help/main/c-recommendations/c-algorithms/assets/add-fitering-rule.png)
 
-1. To choose whether to use dynamic or static inclusion rules, click **Static Filter** in the "What other rules should the recommendation obey" box, then choose the desired option from the Static Filter drop-down list.
+1. Click the **Static Filter**  drop-down list in the "What other rules should the recommendation obey" box, then choose the desired option from the [!UICONTROL Static Filter] drop-down list.
 
    ![Static Filter drop-down list](/help/main/c-recommendations/c-algorithms/assets/dynamic-and-static.png)
 
