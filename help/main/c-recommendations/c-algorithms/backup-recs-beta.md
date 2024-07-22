@@ -1,11 +1,12 @@
 ---
 keywords: recommendation;backup;back up
-description: Learn how to use backup recommendations in Adobe [!DNL Target Recommendations]. 
+description: Learn how to use backup recommendations in Adobe [!DNL Target Recommendations].
 title: How Do I Use a Backup Recommendation in [!DNL Target Recommendations]?
 badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="See what's included in Target Premium."
 feature: Recommendations
 hide: yes
 hidefromtoc: yes
+exl-id: 3968e96d-cc46-4f2d-8aee-6dafee756790
 ---
 # Use a backup recommendation
 

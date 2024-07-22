@@ -6,6 +6,7 @@ feature: Recommendations
 mini-toc-levels: 2
 hide: yes
 hidefromtoc: yes
+exl-id: 74427563-f0c7-4686-b42c-eb7ae2076015
 ---
 # Base the recommendation on a recommendation key
 

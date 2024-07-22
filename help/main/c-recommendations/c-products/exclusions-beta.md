@@ -5,6 +5,7 @@ title: How Do I Use Exclusions in [!UICONTROL Recommendations] Activities?
 feature: Recommendations
 hide: yes
 hidefromtoc: yes
+exl-id: fb3c63b4-08be-4dac-b5a1-c6c1ecd4c4b3
 ---
 # Exclusions
 
