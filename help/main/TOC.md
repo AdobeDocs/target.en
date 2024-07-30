@@ -327,6 +327,7 @@ feature-set: Target
    + Design {#recommendations-design}
       + [Design overview](c-recommendations/c-design-overview/design-overview.md)
       + [Create a design](c-recommendations/c-design-overview/create-design.md)
+      + [Create a design](/help/main/c-recommendations/c-design-overview/create-design-beta.md)
       + [Design FAQ](c-recommendations/c-design-overview/template-faq.md)
       + [Customize a design using Velocity](c-recommendations/c-design-overview/customizing-a-template.md)
    + Activity {#recommendations-activity}

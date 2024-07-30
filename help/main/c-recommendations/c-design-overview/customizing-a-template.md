@@ -1,20 +1,20 @@
 ---
 keywords: custom design;velocity;decimal;comma;customize design
-description: Learn how to use the open-source Velocity design language to customize recommendation designs in Adobe [!DNL Target] Recommendations.
+description: Learn how to use the open-source [!DNL Velocity] design language to customize recommendation designs in [!DNL Target] Recommendations.
 title: How Do I Customize a Design Using Velocity?
 badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="See what's included in Target Premium."
 feature: Recommendations
 exl-id: 035d7988-80d8-4080-bb0d-1d0e9f8856d1
 ---
-# Customize a design using Velocity
+# Customize a design using [!DNL Velocity]
 
-Use the open-source Velocity design language to customize recommendation designs in [!DNL Adobe Target Recommendations].
+Use the open-source [!DNL Velocity] design language to customize recommendation designs in [!DNL Adobe Target Recommendations].
 
-## Velocity overview {#section_C431ACA940BC4210954C7AEFF6D03EA5}
+## [!DNL Velocity] overview {#section_C431ACA940BC4210954C7AEFF6D03EA5}
 
-Information about Velocity can be found at [https://velocity.apache.org](https://velocity.apache.org).
+Information about [!DNL Velocity] can be found at [https://velocity.apache.org](https://velocity.apache.org).
 
-All Velocity logic, syntax, and so on can be used for a recommendation design. This means that you can create *for* loops, *if* statements, and other code using Velocity rather than JavaScript.
+All [!DNL Velocity] logic, syntax, and so on can be used for a recommendation design. This means that you can create *for* loops, *if* statements, and other code using [!DNL Velocity] rather than JavaScript.
 
 Entity attributes sent to [!DNL Recommendations] in the `productPage` mbox or the CSV upload can be displayed in a design, with the exception of "multi-value" attributes. Any type of attribute can be sent; however, [!DNL Target] does not pass attributes of type "multi-value" as an array over which a template can iterate (for example `entityN.categoriesList`).
 
@@ -24,7 +24,7 @@ These values are referenced with the following syntax:
 $entityN.variable
 ```
 
-Entity attribute names must follow Velocity shorthand notation, which consists of a leading *$* character, followed by a Velocity Template Language (VTL) Identifier. The VTL Identifier must start with an alphabetic character (a-z or A-Z).
+Entity attribute names must follow [!DNL Velocity] shorthand notation, which consists of a leading *$* character, followed by a [!DNL Velocity] Template Language (VTL) Identifier. The VTL Identifier must start with an alphabetic character (a-z or A-Z).
 
 Velocity entity attribute names are restricted to the following types of characters:
 
@@ -33,7 +33,7 @@ Velocity entity attribute names are restricted to the following types of charact
 * Hyphen ( - ) 
 * Underscore ( _ )
 
-The following attributes are available as Velocity arrays. As such, they can be iterated over or referenced via index.
+The following attributes are available as [!DNL Velocity] arrays. As such, they can be iterated over or referenced via index.
 
 * `entities` 
 * `entityN.categoriesList`
@@ -54,7 +54,7 @@ $entities[0].categoriesList[2]
 #end
 ```
 
-For more information about Velocity variables (attributes), see [https://velocity.apache.org/engine/releases/velocity-1.7/user-guide.html#variables](https://velocity.apache.org/engine/releases/velocity-1.7/user-guide.html#variables).
+For more information about [!DNL Velocity] variables (attributes), see [https://velocity.apache.org/engine/releases/velocity-1.7/user-guide.html#variables](https://velocity.apache.org/engine/releases/velocity-1.7/user-guide.html#variables).
 
 If you use a profile script in your design, the $ preceding the script name must be escaped with a `\` (backslash). For example:
 
@@ -121,9 +121,9 @@ sku: $entity3.prodId<br/> Price: $$entity3.value
 
 You can also use `algorithm.name` and `algorithm.dayCount` as entity attributes in designs, so one design can be used to test multiple criteria, and the criteria name can be dynamically displayed in the design. This shows the visitor that he or she is looking at "top sellers" or "people who viewed this bought that." You can even use these attributes to display the `dayCount` (number of days of data used in the criteria, like "top sellers over the last 2 days," etc.
 
-## Working with numbers in Velocity templates
+## Working with numbers in [!DNL Velocity] templates
 
-By default, Velocity templates treat all entity attributes as string values. You might want to treat an entity attribute as a numeric value in order to perform a math operation or compare it to another numerical value. To treat an entity attribute as a numeric value, follow these steps:
+By default, [!DNL Velocity] templates treat all entity attributes as string values. You might want to treat an entity attribute as a numeric value in order to perform a math operation or compare it to another numerical value. To treat an entity attribute as a numeric value, follow these steps:
 
 1. Declare a dummy variable and initialize it to an arbitrary integer or double value.
 1. Ensure that the entity attribute you want to use is not blank (required for [!DNL Target Recommendations]' template parser to validate and save the template).
@@ -234,7 +234,7 @@ The following code is a complete conditional example of a sale price:
 
 ## Customizing the template size and checking for blank values {#default}
 
-Using a Velocity script to control for dynamic sizing of the entity display, the following template accommodates a 1-to-many result to avoid creating empty HTML elements when there aren't enough matching entities returned from [!DNL Recommendations]. This script is best for scenarios when back-up recommendations wouldn't make sense and [!UICONTROL Partial Template Rendering] is enabled.
+Using a [!DNL Velocity] script to control for dynamic sizing of the entity display, the following template accommodates a 1-to-many result to avoid creating empty HTML elements when there aren't enough matching entities returned from [!DNL Recommendations]. This script is best for scenarios when back-up recommendations wouldn't make sense and [!UICONTROL Partial Template Rendering] is enabled.
 
 The following HTML snippet replaces the existing HTML portion in the 4x2 default design (the CSS is not included here, for the sake of brevity):
 
