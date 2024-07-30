@@ -6,6 +6,7 @@ badgePremium: label="Premium" type="Positive" url="https://experienceleague.adob
 feature: Recommendations
 hide: yes
 hidefromtoc: yes
+exl-id: 57b8c214-6b18-4ab1-8548-906d02f162c5
 ---
 # Entity Attribute Matching
 

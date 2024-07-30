@@ -7,6 +7,7 @@ feature: Recommendations
 mini-toc-levels: 3
 hide: yes
 hidefromtoc: yes
+exl-id: 7b594ec7-94b8-49e5-9d72-0e05a97bf271
 ---
 # Use dynamic and static inclusion rules
 

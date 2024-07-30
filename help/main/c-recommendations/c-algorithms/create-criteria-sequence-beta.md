@@ -6,6 +6,7 @@ badgePremium: label="Premium" type="Positive" url="https://experienceleague.adob
 feature: Recommendations
 hide: yes
 hidefromtoc: yes
+exl-id: 9c521c61-7141-4fbc-81b7-a5b62dea10b6
 ---
 # Create criteria sequences
 
