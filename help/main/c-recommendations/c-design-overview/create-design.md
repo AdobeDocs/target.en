@@ -53,7 +53,7 @@ You can create a design based on a default design or you can create a custom des
 
 1. (Conditional) Edit the design **[!UICONTROL Code]**, as desired.
 
-   Recommendation designs use the open-source [!DNL Velocity] design language. Information about [!DNL Velocity] can be found at [https://velocity.apache.org](https://velocity.apache.org) and in [Customize a design using [! DNL Velocity]](/help/main/c-recommendations/c-design-overview/customizing-a-template.md).
+   Recommendation designs use the open-source [!DNL Velocity] design language. Information about [!DNL Velocity] can be found at [https://velocity.apache.org](https://velocity.apache.org) and in [Customize a design using [!DNL Velocity]](/help/main/c-recommendations/c-design-overview/customizing-a-template.md).
 
    A design can be HTML or non-HTML. By default, HTML designs are wrapped with a `<div>` tag to allow for click-tracking in a Web environment. Non-HTML designs are for non-Web environments where click-tracking is not possible. Slide the [!UICONTROL HTML Design] toggle to the "off" position to use non-HTML code.
 
@@ -95,7 +95,7 @@ Be aware that designs are available across the entire account. Ensure that you c
 
 The following example shows how JSON responses can be returned when configuring an activity via the form-based editor.
 
-1. Create a design from within Design library or within the form-based workflow. If you attempt to do this inside the Visual Experience Composer (VEC) workflow you cannot create anything other than an HTML design, which is wrapped in a `<div>` for click tracking purposes.
+1. Create a design from within Design library or within the form-based workflow. If you attempt to do this inside the [!UICONTROL Visual Experience Composer] (VEC) workflow you cannot create anything other than an HTML design, which is wrapped in a `<div>` for click tracking purposes.
 
 1. Ensure that the "HTML Design" option is turned off:
 
