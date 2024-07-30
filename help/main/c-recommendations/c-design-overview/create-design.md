@@ -17,7 +17,7 @@ Keep the following information in mind as you work with designs:
 * You can create a recommendations design by using a default design or you can create a custom design.
 * You cannot edit or delete a default design.
 * You can edit, copy, or delete a custom design.
-* To create a design based on a default design, you must first copy the design and then edit the copy.
+* To create a design based on a default design, you must first copy the design, and then edit the copy.
 
 This illustration shows the default 1 x 4 design:
 
@@ -47,7 +47,7 @@ You can create a design based on a default design or you can create a custom des
 
    ![createDesign image](assets/createDesign.png)
 
-1. In the **[!UICONTROL Information]** panel, add a **[!UICONTROL Content Name]** and optional preview image to display on the design card.
+1. In the **[!UICONTROL Information]** panel, add a **[!UICONTROL Content Name]** and an optional preview image to display on the design card.
 
    When you use a default design, the design name and "Copy" appears in the **[!UICONTROL Content Name]** field. You can edit the name. You can also select an image to display on the design card.
 
@@ -71,7 +71,7 @@ You can create a design based on a default design or you can create a custom des
 
    If you want to base your new custom design on an existing design, mouse over the desired design, then click the [!UICONTROL Copy] icon. You can then edit the copy to create a new custom design.
 
-1. Add a **[!UICONTROL Content Name]** and optional preview image.
+1. Add a **[!UICONTROL Content Name]** and an optional preview image.
 
 1. (Conditional) Edit the design **[!UICONTROL Code]**, as desired.
 
@@ -87,15 +87,15 @@ Hover over the desired design in the [!UICONTROL Design] library, then click the
 
 ![Hover icons for a design](/help/main/c-recommendations/c-design-overview/assets/hover-icons-design.png)
 
-You can copy an existing design to create a duplicate design that you can then modify. This lets you create a similar design with less effort.
+You can copy an existing design to create a duplicate design that you can then modify. This process lets you create a similar design with less effort.
 
-Be aware that designs are available across the entire account. Ensure that you consider this before deleting a design. Deleted designs cannot be recovered.
+Be aware that designs are available across the entire account. Consider usage in other accounts before deleting a design. Deleted designs cannot be recovered.
 
 ## JSON Example {#section_75BFB2537CFF4FBD9B560F59EB32C8DD}
 
 The following example shows how JSON responses can be returned when configuring an activity via the form-based editor.
 
-1. Create a design from within Design library or within the form-based workflow. If you attempt to do this inside the [!UICONTROL Visual Experience Composer] (VEC) workflow you cannot create anything other than an HTML design, which is wrapped in a `<div>` for click tracking purposes.
+1. Create a design from within the Design library or within the form-based workflow. If you attempt to do create a design inside the [!UICONTROL Visual Experience Composer] (VEC) workflow you cannot create anything other than an HTML design, which is wrapped in a `<div>` for click tracking purposes.
 
 1. Ensure that the "HTML Design" option is turned off:
 
@@ -139,13 +139,13 @@ The following example shows how JSON responses can be returned when configuring 
     1. Under **[!UICONTROL Default Content]**, click the down-arrow, then click **[!UICONTROL Add Recommendation]**. 
     1. Choose a Page Type. This determines the initial filtering of the next screen. 
     1. Select a Criteria card, then click **[!UICONTROL Next]**. 
-    1. Select the design you created in the previous step, then click **[!UICONTROL Next]**. 
+    1. Select the design that you created in the previous step, then click **[!UICONTROL Next]**. 
     1. Complete the setup process. 
     1. Click the right arrow next to **[!UICONTROL Inactive]**, then select **[!UICONTROL Activate]**.
 
 1. After your activity is set up and activated, you can set up a sample request to get back the clean JSON response.
 
-   From the time that you save your activity, [!DNL Target] will need to build a model to support the selected criteria configuration. Depending on a number of factors, this could take some time. Results appear once the model has build.
+   From the time that you save your activity, [!DNL Target] needs to build a model to support the selected criteria configuration. Depending on a number of factors, this process could take some time. Results appear once the model has build.
 
    For example:
 
@@ -157,7 +157,7 @@ The following example shows how JSON responses can be returned when configuring 
 
    | Parameter | Value |
    |--- |--- |
-   |`[YOUR_CLIENT_CODE]`|Target Client code (available on  /help/target/products.html#recsSettings  > Recommendations API Token > Client Code.|
+   |`[YOUR_CLIENT_CODE]`|Target Client code (available on /help/target/products.html#recsSettings  > Recommendations API Token > Client Code).|
    |`[YOUR_MBOX_NAME]`|The name you've selected in the "locations" section of the form-based Recommendations, in this case Sample_Recs_Response.|
    |`[ENTITY_ID`|The `entity.id` of an item in your catalog.|
    |`[AT_PROPERTY_TOKEN]`|(Optional) Add if you've selected a Property (part of Enterprise Permissions) during your activity setup.|
@@ -319,6 +319,6 @@ Alternatively, you can send additional information in the response. The followin
 This video contains the following information:
 
 * Create a custom design
-* Understand how to reference display variables in you designs
+* Understand how to reference display variables in your designs
 
 >[!VIDEO](https://video.tv.adobe.com/v/27687)
