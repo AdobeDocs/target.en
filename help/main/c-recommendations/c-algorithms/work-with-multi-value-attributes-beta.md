@@ -5,6 +5,7 @@ title: Can I Use Multi-Value Attributes in Recommendations?
 feature: Recommendations
 hide: yes
 hidefromtoc: yes
+exl-id: 94ac0f06-56e9-4ee7-a48e-f2485ec5ccfe
 ---
 # Work with multi-value attributes
 

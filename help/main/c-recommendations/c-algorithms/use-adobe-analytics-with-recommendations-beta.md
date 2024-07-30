@@ -6,6 +6,7 @@ badgePremium: label="Premium" type="Positive" url="https://experienceleague.adob
 feature: Recommendations
 hide: yes
 hidefromtoc: yes
+exl-id: 818c5dc6-c9b1-4596-8608-1842c9620dc2
 ---
 # Use [!DNL Adobe Analytics] with [!DNL Recommendations]
 
