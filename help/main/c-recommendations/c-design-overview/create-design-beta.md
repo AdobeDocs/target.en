@@ -1,10 +1,11 @@
 ---
 keywords: recommendations design;create design;copy design
-description: Learn how to create an Adobe [!DNL Target] Recommendations design using a default design or by creating a custom design to best fit the layout of your page.
+description: Learn how to create an [!DNL Target Recommendations] design using a default design or by creating a custom design to best fit the layout of your page.
 title: How Do I Create a Design in Recommendations?
 badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="See what's included in Target Premium."
 feature: Recommendations
-exl-id: 0f10ee9d-7210-4e02-9342-e4f85cf46e8c
+hide: yes
+hidefromtoc: yes
 ---
 # Create a design 
 
@@ -27,7 +28,7 @@ This illustration shows a custom design:
 
 ![Custom design](/help/main/c-recommendations/c-design-overview/assets/custom-design.png)
 
-You can create a design during the activity-creation process from within the Visual Experience Composer (VEC) or from the design library outside of activity creation. The following sections assume you are creating designs from the library, but the steps are similar.
+You can create a design during the activity-creation process from within the [!UICONTROL Visual Experience Composer] (VEC) or from the design library outside of activity creation. The following sections assume you are creating designs from the library, but the steps are similar.
 
 ## Create designs
 
@@ -37,15 +38,12 @@ You can create a design based on a default design or you can create a custom des
 
 1. Click **[!UICONTROL Recommendations]** > **[!UICONTROL Designs]** to display the [!UICONTROL Designs] library.
 
-   ![Designs library](/help/main/c-recommendations/c-design-overview/assets/design-library.png)
 
 1. Mouse over the card for the design you want to create, then click the **[!UICONTROL Copy]** icon.
 
-   ![Card_CopyDesign image](assets/Card_CopyDesign.png)
+   ![Card_CopyDesign image](/help/main/c-recommendations/c-design-overview/assets/card-copy-design.png)
 
    The [!UICONTROL Create Design] dialog box displays.
-
-   ![createDesign image](assets/createDesign.png)
 
 1. In the **[!UICONTROL Information]** panel, add a **[!UICONTROL Content Name]** and optional preview image to display on the design card.
 
@@ -53,7 +51,7 @@ You can create a design based on a default design or you can create a custom des
 
 1. (Conditional) Edit the design **[!UICONTROL Code]**, as desired.
 
-   Recommendation designs use the open-source [!DNL Velocity] design language. Information about [! DNL Velocity] can be found at [https://velocity.apache.org](https://velocity.apache.org) and in [Customize a design using [! DNL Velocity]](/help/main/c-recommendations/c-design-overview/customizing-a-template.md).
+   Recommendation designs use the open-source Velocity design language. Information about Velocity can be found at [https://velocity.apache.org](https://velocity.apache.org) and in [Customize a design using Velocity](/help/main/c-recommendations/c-design-overview/customizing-a-template.md).
 
    A design can be HTML or non-HTML. By default, HTML designs are wrapped with a `<div>` tag to allow for click-tracking in a Web environment. Non-HTML designs are for non-Web environments where click-tracking is not possible. Slide the [!UICONTROL HTML Design] toggle to the "off" position to use non-HTML code.
 
@@ -85,17 +83,15 @@ Remember that you cannot edit or copy a default design; you can only copy defaul
 
 Hover over the desired design in the [!UICONTROL Design] library, then click the appropriate icon: edit, copy, or delete.
 
-![Hover icons for a design](/help/main/c-recommendations/c-design-overview/assets/hover-icons-design.png)
-
 You can copy an existing design to create a duplicate design that you can then modify. This lets you create a similar design with less effort.
 
-Be aware that designs are available across the entire account. Ensure that you consider this before deleting a design. Deleted designs cannot be recovered.
+Be aware that designs are available across the entire account. Ensure that you consider the usage across accounts before deleting a design. Deleted designs cannot be recovered.
 
 ## JSON Example {#section_75BFB2537CFF4FBD9B560F59EB32C8DD}
 
-The following example shows how JSON responses can be returned when configuring an activity via the form-based editor.
+The following example shows how JSON responses can be returned when configuring an activity via the [form-based editor](/help/main/c-experiences/form-experience-composer.md).
 
-1. Create a design from within Design library or within the form-based workflow. If you attempt to do this inside the Visual Experience Composer (VEC) workflow you cannot create anything other than an HTML design, which is wrapped in a `<div>` for click tracking purposes.
+1. Create a design from within [!UICONTROL Design library] or within the form-based workflow. If you attempt to do this inside the [!UICONTROL Visual Experience Composer] (VEC) workflow you cannot create anything other than an HTML design, which is wrapped in a `<div>` for click-tracking purposes.
 
 1. Ensure that the "HTML Design" option is turned off:
 
@@ -145,7 +141,7 @@ The following example shows how JSON responses can be returned when configuring 
 
 1. After your activity is set up and activated, you can set up a sample request to get back the clean JSON response.
 
-   From the time that you save your activity, [!DNL Target] will need to build a model to support the selected criteria configuration. Depending on a number of factors, this could take some time. Results appear once the model has build.
+   From the time that you save your activity, [!DNL Target] needs to build a model to support the selected criteria configuration. Depending on a number of factors, this could take some time. Results appear once the model has build.
 
    For example:
 
@@ -168,13 +164,13 @@ After your algorithm has run, and you have results, your response should look so
 
 ## Additional JSON object tips and tricks {#section_C305673C68944749969DB239E3221DC2}
 
-You can also just send back a simple comma delimited list of items by setting up a design with the following syntax:
+You can also send back a simple comma-delimited list of items by setting up a design with the following syntax:
 
 ```
 entity1.id, $entity2.id, $entity3.id, $entity4.id, $entity5.id, 
 ```
 
-Alternatively, you can send additional information in the response. The following code file is a more complex example that returns much more than the entity ids with their associated slots (order). This design example also returns activity details, Target Profile details (as applicable), and other `entity.attributes` associated with the items returned.
+Alternatively, you can send additional information in the response. The following code file is a more complex example that returns much more than the entity ids with their associated slots (order). This design example also returns activity details, [!UICONTROL Target Profile] details (as applicable), and other `entity.attributes` associated with the items returned.
 
 ```javascript
     {   

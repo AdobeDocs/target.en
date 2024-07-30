@@ -1,7 +1,7 @@
 ---
 keywords: recommendations;frequently asked questions;faq
-description: Review a list of frequently asked questions (FAQs) and their answers about Adobe [!DNL Target] Recommendations designs.
-title: Where Can I Answers to Design Questions for [!DNL Target] Recommendations?
+description: Frequently asked questions (FAQs) and their answers about [!DNL Target Recommendations] designs.
+title: Where Can I Get Answers to Design Questions for [!DNL Target Recommendations]?
 badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="See what's included in Target Premium."
 feature: Recommendations
 exl-id: e970f734-9bc7-43b8-af1b-75e527d6353c
@@ -26,7 +26,7 @@ Two options are available to address this issue:
 
 ## Why isn't category showing in the design? I'm using `$entity1.categoryId`. {#section_073309B8051049C7953D396A93EA0713}
 
-Category ID can't be displayed in the design. Because multiple categories can be stored, the system wouldn't know which category to display.
+Category ID can't be displayed in the design. Because multiple categories can be stored, the system does not know which category to display.
 
 ## How should I change a design to get an instant update? {#section_28EE35A5B10B47ECA4A332F0E5B2598F}
 
@@ -34,13 +34,13 @@ Altering the design that is currently in use takes a while to update. To change 
 
 ## How can I capture key information for display in the design? Example: If we want to display the key product's category, how would I code that value in the velocity design? {#section_F08043B14BA24BC8815FEF25F4F84C39}
 
-The `$key. *`value`*` parameter captures most of the key product's information to display within the design. Example: If you want to display the key product's thumbnail, you would use `$key.thumbnailURL`.
+The `$key. *`value`*` parameter captures most of the key product's information to display within the design. For example, if you want to display the key product's thumbnail, use `$key.thumbnailURL`.
 
 ## Which version of Velocity is used? {#section_28F00E15A4A54A768782A3F5BB0CDB21}
 
 Version 1.7 with no additional tools or libraries added in. Basic Velocity functionality is available.
 
-## How do I replace an existing entity value with a blank? For example, an item's entity.message needs to be cleared when a promotion ends. {#section_B88F2C2925DC4508974B2F8B13F961CB}
+## How do I replace an existing entity value with a blank? For example, an item's `entity.message` needs to be cleared when a promotion ends. {#section_B88F2C2925DC4508974B2F8B13F961CB}
 
 Sending in a JavaScript non-breaking space seems to do this. Have the developers send in `\u00A0` as the value. Example: `entity.message=\u00A0`. You might consider having that be the default value when no value is present instead of a null.
 
