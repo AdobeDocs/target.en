@@ -12,6 +12,7 @@ This page lists significant changes made to the [!DNL Adobe Target] product docu
 ## Updates
 
 |Date|Topic|Changes|
+|August 1|[Recommendations FAQ](/help/main/c-recommendations/c-recommendations-faq/recommendations-faq.md)|Added following FAQ: "Can I manage [!DNL Target] UI-created visual offers using the [!DNL Target] APIs?"|
 |July 10|[Proxy Configuration (Java)](https://experienceleague.adobe.com/en/docs/target-dev/developer/server-side/java/proxy-configuration){target=_blank}|Added new section: On-Device Decisioning|
 |June 3|[Priority](/help/main/c-activities/priority.md)|Updated entire topic, including indicating that content from multiple [!UICONTROL Form-Based Experience Composer] and VEC activities can deliver. Previously, only one activity from the form-based workflow could deliver. There is no longer a limit to the number of form-based activities that can deliver.|
 |May 17|[Troubleshooting issues related to the [!UICONTROL Enhanced Experience Composer]](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/troubleshooting-issues-related-to-the-enhanced-experience-composer-eec.md)|Added additional IP addresses that you can allowlist when using the [!UICONTROL Enhanced Experience Composer].|
