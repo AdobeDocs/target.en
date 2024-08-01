@@ -65,6 +65,7 @@ Access filters by clicking the **[!UICONTROL Show Filters]** icon near the top o
 ![Filter options](/help/main/c-activities/assets/show-filters-options.png)
 
 The menu lets you filter activities by the following attributes:
+
 |Attribute|Details|
 | --- | --- |
 |[!UICONTROL Type]|Filter by [activity type](#types).|
