@@ -1,7 +1,7 @@
 ---
 keywords: troubleshooting;frequently asked questions;FAQ;FAQs;recommendations;special characters;attribute weighting;content similarity
-description: View a list of frequently asked questions and answers about Adobe [!DNL Target] Recommendations activities.
-title: Where Can I find Questions and Answers about [!DNL Target] Recommendations?
+description: View a list of frequently asked questions and answers about [!DNL Target Recommendations] activities.
+title: Where Can I find Questions and Answers about [!DNL Recommendations]?
 badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="See what's included in Target Premium."
 feature: Recommendations
 exl-id: aaa52923-1c2d-44ae-bd89-671329222077
@@ -9,6 +9,10 @@ exl-id: aaa52923-1c2d-44ae-bd89-671329222077
 # Recommendations FAQ
 
 List of frequently asked questions (FAQs) about [!DNL Adobe Target] [!DNL Recommendations] activities.
+
+## Can I manage [!DNL Target] UI-created visual offers using the [!DNL Target] APIs?
+
+No. [!DNL Recommendations] activities with visual offers created in the [!DNL Target] UI are not manageable using the [!DNL Target] APIs. Although these activities display in the [!UICONTROL Activities] list, you cannot read or update them (using GET/PUT).
 
 ## Why does [!UICONTROL Catalog Search] not show the correct results when I search on a custom attribute with a numeric value?
 
