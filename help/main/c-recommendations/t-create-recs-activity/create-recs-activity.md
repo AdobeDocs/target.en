@@ -10,7 +10,7 @@ exl-id: c83073d5-f852-4f09-8343-e4658fbf6f43
 
 Use the Target Visual Experience Composer (VEC) to create a Recommendations activity directly on a Target-enabled page and to modify portions of the page within Target.
 
-1. Click **[!UICONTROL Recommendations]** > **[!UICONTROL Create Activity]** > **[!UICONTROL Recommendations]**.
+1. Click **[!UICONTROL Activities]** > **[!UICONTROL Create Activity]** > **[!UICONTROL Recommendations]**.
 
 1. Select **[!UICONTROL Visual (Default)]**, if necessary.
 
