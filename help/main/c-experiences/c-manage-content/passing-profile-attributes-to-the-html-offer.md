@@ -1,6 +1,6 @@
 ---
 keywords: dynamic data;assets;data;offers;personalized offers;personal offers;token replace
-description: Learn how to pass dynamic data into [!DNL Adobe Target] Offers.
+description: Learn how to pass dynamic data into Offers in [!DNL Adobe Target].
 title: How Do I Pass Dynamic Data into Offers?
 feature: Experiences and Offers
 exl-id: b8f9c6eb-1000-41a2-aa3f-bc42c1ef5669
@@ -13,7 +13,7 @@ You can dynamically display visitor information that is stored in the [!DNL Adob
 
 * Promote a discounted offer to "refill" or "replenish" the last product purchased. Instead of creating a separate offer for every item in your catalog, you can create an offer with dynamic text that reads the "last product purchased" from the profile and displays a link in the offer.
 * A visitor arrives on your landing page with `keyword=world` `cup`. You display the term *World cup* in the offer.
-* Personalize a recommendations label with info such as (1) the last item added to a visitor's cart (Nike Air Max 1000s), (2) the visitor's color preference (black) and (3) the visitor's favorite non-shoe category (hoodies). Example: "Accessorize your 'Nike Air Max 1000s' with these cool 'black' 'hoodies'!"
+* Personalize a recommendations label with information, such as (1) the last item added to a visitor's cart (Nike Air Max 1000s), (2) the visitor's color preference (black) and (3) the visitor's favorite non-shoe category (hoodies). Example: "Accessorize your 'Nike Air Max 1000s' with these cool 'black' 'hoodies'!"
 
 ## Technical advantages
 
@@ -63,7 +63,7 @@ Default values can also be specified for values you want to expose to offers. Th
 
 `${user.testAttribute default="All Items!"}`
 
-When `testAttribute` doesn’t exist or is blank, "All Items!" is written out. If an empty attribute value is valid, and you want to write it out instead of showing the default, you can use:
+When `testAttribute` doesn't exist or is blank, "All Items!" is written out. If an empty attribute value is valid, and you want to write it out instead of showing the default, you can use:
 
 `${user.testAttribute default="All Items!" show_blank="true"}`
 
