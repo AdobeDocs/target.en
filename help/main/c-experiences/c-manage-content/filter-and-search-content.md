@@ -45,7 +45,7 @@ Search for assets by keywords in the [!UICONTROL Offers] library in [!DNL Adobe 
    * Expiry Status: Expired.
    * Average Rating: 1 through 5.
    * Orientation: Horizontal, Vertical, or Square.
-   * Style: Color, or Black & White.
+   * Style: Color or Black & White.
    * Usage Score: Minimum to Maximum
    * Impression Score: Minimum to Maximum
    * Click Score: 1 through 5.
