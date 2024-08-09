@@ -9,13 +9,13 @@ hidefromtoc: yes
 ---
 # [!DNL Target] [!UICONTROL Activities], [!UICONTROL Offers], and [!UICONTROL Recommendations] UI refresh Beta program
 
-Use the links in this article to access updated documentation as part of the Beta program for the [!DNL Adobe Target] UI refresh for [!UICONTROL Activities], [!UICONTROL Offers], and [!UICONTROL Recommendations].
+Use these links to access updated documentation as part of the Beta program for the [!DNL Adobe Target] UI refresh for [!UICONTROL Activities], [!UICONTROL Offers], and [!UICONTROL Recommendations].
 
 >[!NOTE]
 >
 >The [!DNL Adobe Target] team often enables new features for select customers for testing and feedback purposes. After the testing period completes, these features are enabled for all customers in future [!DNL Target] releases and announced in release notes.
 >
->Information in these articles are frequently updated during the Beta program.
+>Information in these articles are frequently updated during the Beta program without notice.
 
 +++Activities (Click to expand)
 
