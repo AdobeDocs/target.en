@@ -21,7 +21,7 @@ Use this links in this article to access updated documentation as part of the Be
 * [Create offer folder](/help/main/c-experiences/c-manage-content/create-content-folder-beta.md)
 * [Upload content](/help/main/c-experiences/c-manage-content/assets-upload-beta.md)
 * [Upload or delete image offers](/help/main/c-experiences/c-manage-content/assets-upload-beta.md)
-* [Create redirect offers](c-experiences/c-manage-content/offer-redirect-beta.md)
+* [Create redirect offers](/help/main/c-experiences/c-manage-content/offer-redirect-beta.md)
 * [Create remote offers](/help/main/c-experiences/c-manage-content/about-remote-offers-beta.md)
 * [Create JSON offers](/help/main/c-experiences/c-manage-content/create-json-offer-beta.md)
 * [Work with content in the library](/help/main/c-experiences/c-manage-content/assets-working-beta.md)
