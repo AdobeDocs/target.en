@@ -17,7 +17,9 @@ Use these links to access updated documentation as part of the Beta program for 
 >
 >Information in these articles are frequently updated during the Beta program without notice.
 
-+++Activities (Click to expand)
+## Activities
+
++++Click to expand
 
 + [Activities overview](c-activities/activities.md){target=_blank}
 + [Target activity types](c-activities/target-activities-guide.md){target=_blank}
@@ -101,7 +103,9 @@ Use these links to access updated documentation as part of the Beta program for 
 
 +++
 
-+++Offers (Click to expand)
+## Offers
+
++++Click to expand
 
 + [Offers overview](/help/main/c-experiences/c-manage-content/manage-content-beta.md){target="_blank"}
 + [Create offer folder](/help/main/c-experiences/c-manage-content/create-content-folder-beta.md){target="_blank"}
