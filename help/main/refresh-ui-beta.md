@@ -121,4 +121,57 @@ Use these links to access updated documentation as part of the Beta program for 
 
 +++
 
+## Recommendations
+
++++Click to expand
+
+* Recommendations {#recommendations}   
+   * [Recommendations overview](c-recommendations/recommendations.md)
+   * [Introduction to Recommendations](c-recommendations/introduction-to-recommendations.md)
+   * [Plan and implement Recommendations](c-recommendations/plan-implement.md)
+   * Entities {#entities} 
+      * [Entities overview](c-recommendations/c-products/products.md)
+      * [Entity attributes](c-recommendations/c-products/entity-attributes.md)
+      * [Custom entity attributes](c-recommendations/c-products/custom-entity-attributes.md)
+      * [Feeds](/help/main/c-recommendations/c-products/feeds-beta.md)
+      * [Catalog search](/help/main/c-recommendations/c-products/catalog-search-beta.md)
+      * [Collections](/help/main/c-recommendations/c-products/collections-beta.md)
+      * [Exclusions](/help/main/c-recommendations/c-products/exclusions-beta.md)
+   * Criteria {#criteria}
+      * [Criteria overview](/help/main/c-recommendations/c-algorithms/algorithms-beta.md) 
+      * [Create criteria](/help/main/c-recommendations/c-algorithms/create-new-algorithm-beta.md)
+      * [Create criteria sequences](/help/main/c-recommendations/c-algorithms/create-criteria-sequence-beta.md)
+      * [Base the recommendation on a recommendation key](/help/main/c-recommendations/c-algorithms/base-the-recommendation-on-a-recommendation-key-beta.md)
+      * [The science behind Target's recommendations algorithms](/help/main/c-recommendations/c-algorithms/recommendations-algorithms.md)
+      * [Upload custom criteria](/help/main/c-recommendations/c-algorithms/recommendations-csv-beta.md)
+      * Dynamic and static inclusion rules {#dynamic-static}
+         * [Use dynamic and static inclusion rules](/help/main/c-recommendations/c-algorithms/use-dynamic-and-static-inclusion-rules-beta.md)
+         * [Entity attribute matching](/help/main/c-recommendations/c-algorithms/entity-attribute-matching-beta.md)
+         * [Profile attribute matching](/help/main/c-recommendations/c-algorithms/profile-attribute-matching-beta.md)
+         * [Parameter matching](/help/main/c-recommendations/c-algorithms/parameter-matching-beta.md)
+         * [Static filter](/help/main/c-recommendations/c-algorithms/static-value-beta.md)
+      * [Use a backup recommendation](/help/main/c-recommendations/c-algorithms/backup-recs-beta.md)
+      * [Work with multi-value attributes](/help/main/c-recommendations/c-algorithms/work-with-multi-value-attributes-beta.md)
+      * [Use Adobe Analytics with Recommendations](/help/main/c-recommendations/c-algorithms/use-adobe-analytics-with-recommendations-beta.md)
+   * Design {#recommendations-design}
+      * [Design overview](c-recommendations/c-design-overview/design-overview.md)
+      * [Create a design](c-recommendations/c-design-overview/create-design.md)
+      * [Create a design](/help/main/c-recommendations/c-design-overview/create-design-beta.md)
+      * [Design FAQ](c-recommendations/c-design-overview/template-faq.md)
+      * [Customize a design using Velocity](c-recommendations/c-design-overview/customizing-a-template.md)
+   * Activity {#recommendations-activity}
+      * [Create a Recommendations activity](c-recommendations/t-create-recs-activity/create-recs-activity.md)
+      * [Select criteria](c-recommendations/t-create-recs-activity/algo-select-recs.md)
+      * [Add promotions](c-recommendations/t-create-recs-activity/adding-promotions.md)
+      * [Recommendations activity settings](c-recommendations/t-create-recs-activity/recs-activity-settings.md)
+      * [Preview and launch your Recommendations activity](/help/main/c-recommendations/t-create-recs-activity/previewing-and-launching-your-recommendations-activity.md)
+   * [Recommendations as an offer](c-recommendations/recommendations-as-an-offer.md)
+   * Frequently asked questions {#recommendations-faq}
+      * [Recommendations FAQ](c-recommendations/c-recommendations-faq/recommendations-faq.md)
+      * [Integrate Recommendations with email](c-recommendations/c-recommendations-faq/integrating-recs-email.md)
+      * [IP addresses used by Recommendations feed-processing servers](c-recommendations/c-recommendations-faq/ip-addresses-marketing-cloud.md)
+      * [Recommendations Classic versus Recommendations activities in Target Premium](c-recommendations/c-recommendations-faq/recommendations-classic-versus-recommendations-activities-target-premium.md)
+   * [Recommendations Classic documentation](/help/main/c-recommendations/recommendations-classic-documentaton.md)
+
++++
 
