@@ -1,13 +1,13 @@
 ---
 keywords: optimization;personalization;adobe journey optimizer;ajo;use cases;scenarios
 description: Discover how to effectively implement the most impactful optimization use cases in [!DNL Adobe Journey Optimizer].
-title: Mastering Optimization: Top Use Cases in [!DNL Adobe Journey Optimizer]
+title: Mastering Optimization - Top Use Cases in [!DNL Adobe Journey Optimizer]
 badgeBeta: label="Beta" type="Informative" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html#beta newtab=true" tooltip="What are Beta features in [!DNL Adobe Target]."
 feature: Integrations
 hide: yes
 hidefromtoc: yes
 ---
-# Mastering Optimization: Top Use Cases in [!DNL Adobe Journey Optimizer]
+# Mastering Optimization - Top Use Cases in [!DNL Adobe Journey Optimizer]
 
 Discover how to effectively implement the most impactful optimization use cases in [!DNL Adobe Journey Optimizer].
 
