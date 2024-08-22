@@ -1,13 +1,13 @@
 ---
-keywords: optimization;personalization;adobe journey optimizer;ajo;use cases;scenarios
+keywords: optimization;personalization;adobe journey optimizer;ajo;use cases;scenarios;web;code-based
 description: Discover how to effectively implement the most impactful optimization use cases in [!DNL Adobe Journey Optimizer].
-title: Mastering Optimization - Top Use Cases in [!DNL Adobe Journey Optimizer]
+title: Top Optimization Use Cases in [!DNL Adobe Journey Optimizer] - web and code-based channels
 badgeBeta: label="Beta" type="Informative" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html#beta newtab=true" tooltip="What are Beta features in [!DNL Adobe Target]."
 feature: Integrations
 hide: yes
 hidefromtoc: yes
 ---
-# Mastering Optimization - Top Use Cases in [!DNL Adobe Journey Optimizer]
+# Top Optimization Use Cases in [!DNL Adobe Journey Optimizer] - web and code-based channels
 
 Discover how to effectively implement the most impactful optimization use cases in [!DNL Adobe Journey Optimizer].
 
@@ -20,6 +20,8 @@ To perform the following use cases, you need the following:
 
 ## Use cases
 
-The following use cases demonstrate how to perform familiar tasks from [!DNL Target] within [!DNL Adobe Journey Optimizer], allowing you to see the differences and similarities in execution.
+The following use cases demonstrate how to perform familiar tasks from [!DNL Target] within [!DNL Adobe Journey Optimizer], allowing you to see the differences and similarities in execution. 
+
+These use cases pertain to web and code-based channels.
 
 * [Content changes through A/B testing in [!DNL Adobe Journey Optimizer]](/help/main/c-integrating-target-with-mac/ajo/content-change-using-ajo.md)
