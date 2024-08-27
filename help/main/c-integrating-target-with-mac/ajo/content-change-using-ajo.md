@@ -11,11 +11,13 @@ hidefromtoc: yes
 
 This use case helps you unlock the secrets to effective A/B testing content changes in [!DNL Adobe Journey Optimizer].
 
-This use case is designed to demonstrate how to perform a familiar task in [!DNL Adobe Target], A/B testing using an [A/B Test activity](/help/main/c-activities/t-test-ab/test-ab.md), but using [!DNL Journey Optimizer].
+This use case is designed to demonstrate how to perform familiar tasks in [!DNL Adobe Target], A/B testing using an [A/B Test activity](/help/main/c-activities/t-test-ab/test-ab.md), but using [!DNL Journey Optimizer].
 
-## Scenario
+## Possible scenarios
 
-An apparel company increased conversions by testing various images and personalizing campaign landing pages with users' first names from their profile attributes.
+* An apparel company increased conversions by testing various images and personalizing campaign landing pages with users' first names from their profile attributes.
+
+* By testing various product descriptions and images on a campaign landing page, an e-commerce company found that its gold loyalty members had higher conversion rates, leading to increased sales.
 
 ## Benefits and value
 
@@ -23,13 +25,13 @@ An apparel company increased conversions by testing various images and personali
 * **Data-driven decisions**: Leverage data to make informed decisions across your content strategy, ensuring maximum impact.
 * **Personalized user experience**: Tailor content to meet the unique preferences and needs of all your audience segments.
 
-## Step-by-step instructions
+## Steps
 
 >[!NOTE]
 >
->The instructions in this section highlight the necessary steps to change an image and to use profile attributes to personalize text messages. For more information about available options in the [!DNL Journey Optimizer] web designer, see [Edit web content](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/web/author-web-pages/edit-web-content){target=_blank} in the *Journey Optimizer documentation*.
+>The instructions in this section highlight the necessary steps to change an image and to use profile attributes to personalize text messages. For more information about available options in the [!DNL Journey Optimizer] web designer, see [Edit web content](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/web/author-web-pages/edit-web-content){target=_blank} in the *Journey Optimizer documentation*. The video at the bottom of the page is especially helpful.
 
-Perform the following steps to optimize a web page by testing various images and personalizing messages with users' first names:
+Perform the following steps to optimize a web page by testing various images and personalizing messages with users' first names using a profile script:
 
 1. In [!DNL Adobe Journey Optimizer], click **Campaigns** in the left rail to display the [!UICONTROL Campaigns] page.
 
@@ -45,7 +47,7 @@ Perform the following steps to optimize a web page by testing various images and
 
 1. (Conditional) In the **[!UICONTROL Audience]** section, click **[!UICONTROL Select Audience]** and choose the desired audience.
 
-   For this use case, we chose to activate the campaign for all visitors (the default).
+   For this use case, we chose to activate the campaign for [!UICONTROL All Visitors] (the default).
 
 1. In the **[!UICONTROL Action]** section, choose **[!UICONTROL Web]** from the **[!UICONTROL Action]** drop-down list, then select or create a new web configuration.
 
@@ -105,6 +107,6 @@ For more information, see [Get started with new Reporting interface](https://exp
 >[!MORELIKETHIS]
 >
 >[Edit web content](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/web/author-web-pages/edit-web-content){target=_blank} in the *Journey Optimizer documentation*
->[How-to video](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/web/author-web-pages/web-spa#video){target=_blank} in the *Journey Optimizer documentation*
+>[How-to video](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/web/author-web-pages/edit-web-content#video){target=_blank} in the *Journey Optimizer documentation*
 >[Create a campaign](https://experienceleague.adobe.com/en/docs/journey-optimizer-learn/tutorials/create-campaigns/create-a-campaign){target=_blank} in *Journey Optimizer Tutorials*
 

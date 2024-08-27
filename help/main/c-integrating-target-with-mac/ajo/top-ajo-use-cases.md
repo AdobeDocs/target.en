@@ -7,9 +7,9 @@ feature: Integrations
 hide: yes
 hidefromtoc: yes
 ---
-# Top Optimization Use Cases in [!DNL Adobe Journey Optimizer] - web and code-based channels
+# Top optimization use cases in [!DNL Adobe Journey Optimizer] - web and code-based channels
 
-Discover how to effectively implement the most impactful optimization use cases in [!DNL Adobe Journey Optimizer].
+Discover how to effectively implement the most impactful optimization use cases in [!DNL Adobe Journey Optimizer] in web and code-based channels.
 
 ## Prerequisites
 
