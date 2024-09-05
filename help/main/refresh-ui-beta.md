@@ -6,6 +6,7 @@ badgePremium: label="Beta" type="Informative" url="https://experienceleague.adob
 feature: Release Notes
 hide: yes
 hidefromtoc: yes
+exl-id: 54834393-9121-41e7-93fb-b00924869d73
 ---
 # [!DNL Target] [!UICONTROL Activities], [!UICONTROL Offers], and [!UICONTROL Recommendations] UI refresh Beta program
 
@@ -174,4 +175,3 @@ Use these links to access updated documentation as part of the Beta program for 
    * [Recommendations Classic documentation](/help/main/c-recommendations/recommendations-classic-documentaton.md){target="_blank"}
 
 +++
-

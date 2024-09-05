@@ -6,6 +6,7 @@ badgeBeta: label="Beta" type="Informative" url="https://experienceleague.adobe.c
 feature: Integrations
 hide: yes
 hidefromtoc: yes
+exl-id: 8c4fba88-908e-4742-ac4b-bdf7f4c882db
 ---
 # Add or hide components to your web page
 

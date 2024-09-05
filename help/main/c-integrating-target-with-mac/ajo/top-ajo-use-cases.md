@@ -6,6 +6,7 @@ badgeBeta: label="Beta" type="Informative" url="https://experienceleague.adobe.c
 feature: Integrations
 hide: yes
 hidefromtoc: yes
+exl-id: a00b4732-2740-4b35-a1c5-1ef2d78fecff
 ---
 # Top optimization use cases in [!DNL Adobe Journey Optimizer] - web and code-based channels
 

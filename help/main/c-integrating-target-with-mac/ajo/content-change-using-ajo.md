@@ -6,6 +6,7 @@ badgeBeta: label="Beta" type="Informative" url="https://experienceleague.adobe.c
 feature: Integrations
 hide: yes
 hidefromtoc: yes
+exl-id: e5aed7cd-7701-4133-ac7c-98e528c8a763
 ---
 # Content changes through A/B testing in [!DNL Adobe Journey Optimizer]
 
@@ -127,4 +128,3 @@ For more information, see [Get started with new Reporting interface](https://exp
 >[Edit web content](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/web/author-web-pages/edit-web-content){target=_blank} in the *Journey Optimizer documentation*
 >[How-to video](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/web/author-web-pages/edit-web-content#video){target=_blank} in the *Journey Optimizer documentation*
 >[Create a campaign](https://experienceleague.adobe.com/en/docs/journey-optimizer-learn/tutorials/create-campaigns/create-a-campaign){target=_blank} in *Journey Optimizer Tutorials*
-
