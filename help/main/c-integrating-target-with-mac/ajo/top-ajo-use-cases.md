@@ -25,3 +25,4 @@ The following use cases demonstrate how to perform familiar tasks from [!DNL Tar
 These use cases pertain to web and code-based channels.
 
 * [Content changes through A/B testing in [!DNL Adobe Journey Optimizer]](/help/main/c-integrating-target-with-mac/ajo/content-change-using-ajo.md)
+* [Add or hide components to your web page](/help/main/c-integrating-target-with-mac/ajo/add-hide-content-using-ajo.md)
