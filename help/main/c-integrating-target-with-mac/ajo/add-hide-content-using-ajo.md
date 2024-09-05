@@ -63,9 +63,13 @@ Perform the following steps to add components or to hide components on your web 
 
    ![Yoga landing page on the LUMA web site](/help/main/c-integrating-target-with-mac/ajo/assets/luma-yoga-landing.png)
 
-1. To add a call-to-action button, click **[!UICONTROL Edit Web Page]** in the right rail.
+1. To add a hide an element, click **[!UICONTROL Edit Web Page]** in the right rail.
 
-1. Click the 
+1. Click the element you want to hide, then click the [!UICONTROL Hide] button in the right rail.
+
+   The right rail displays option that you can perform on the selected element. These options vary, depending on the selected element.
+
+   ![Hide element button](/help/main/c-integrating-target-with-mac/ajo/assets/hide-element.png)
 
 1. Click the back arrow in the upper left corner to return to the web designer.
 
