@@ -11,13 +11,9 @@ hidefromtoc: yes
 
 This use case helps you unlock the secrets to effective A/B testing content changes in [!DNL Adobe Journey Optimizer].
 
-This use case is designed to demonstrate how to perform familiar tasks in [!DNL Adobe Target], A/B testing using an [A/B Test activity](/help/main/c-activities/t-test-ab/test-ab.md), but using [!DNL Journey Optimizer].
+This use case demonstrates how to perform familiar tasks, such as A/B testing with an [A/B Test activity](/help/main/c-activities/t-test-ab/test-ab.md), using [!DNL Journey Optimizer] instead of [!DNL Adobe Target].
 
-## Possible scenarios
-
-* An apparel company increased conversions by testing various images and personalizing campaign landing pages with users' first names from their profile attributes.
-
-* By testing various product descriptions and images on a campaign landing page, an e-commerce company found that its gold loyalty members had higher conversion rates, leading to increased sales.
+This use case is designed to demonstrate how to perform familiar tasks you might have performed using [!DNL Adobe Target], A/B testing using an [A/B Test activity](/help/main/c-activities/t-test-ab/test-ab.md), but using [!DNL Journey Optimizer].
 
 ## Benefits and value
 
@@ -25,11 +21,19 @@ This use case is designed to demonstrate how to perform familiar tasks in [!DNL 
 * **Data-driven decisions**: Leverage data to make informed decisions across your content strategy, ensuring maximum impact.
 * **Personalized user experience**: Tailor content to meet the unique preferences and needs of all your audience segments.
 
+## Possible scenarios
+
+* An apparel company increased conversions by testing various images and personalizing campaign landing pages with users' first names in the call-to-action text.
+
+* An e-commerce company found that its gold loyalty members had higher conversion rates by testing various product descriptions and images on a campaign landing page, leading to increased sales.
+
 ## Steps
 
 >[!NOTE]
 >
->The instructions in this section highlight the necessary steps to change an image and to use profile attributes to personalize text messages. For more information about available options in the [!DNL Journey Optimizer] web designer, see [Edit web content](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/web/author-web-pages/edit-web-content){target=_blank} in the *Journey Optimizer documentation*. The video at the bottom of the page is especially helpful.
+>The instructions in this section highlight the necessary steps to change an image and to use profile attributes to personalize text messages. For more information about available options in the [!DNL Journey Optimizer] web designer, see [Edit web content](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/web/author-web-pages/edit-web-content){target=_blank} in the *Journey Optimizer documentation*. 
+>
+>The video at the bottom of the page is especially helpful.
 
 Perform the following steps to optimize a web page by testing various images and personalizing messages with users' first names using a profile script:
 
@@ -47,11 +51,11 @@ Perform the following steps to optimize a web page by testing various images and
 
 1. (Conditional) In the **[!UICONTROL Audience]** section, click **[!UICONTROL Select Audience]** and choose the desired audience.
 
-   For this use case, we chose to activate the campaign for [!UICONTROL All Visitors] (the default).
+   For this use case, you can activate the campaign for [!UICONTROL All Visitors] (the default).
 
 1. In the **[!UICONTROL Action]** section, choose **[!UICONTROL Web]** from the **[!UICONTROL Action]** drop-down list, then select or create a new web configuration.
 
-   A web configuration, or channel surface, is a configuration defined by a System Administrator. The web configuration contains all the technical parameters for sending the message, such as header parameter, subdomain, mobile apps, and so forth.
+   A web configuration, or channel surface, is a configuration defined by a system administrator. The web configuration contains all the technical parameters for sending the message, such as header parameter, subdomain, mobile apps, and so forth.
 
    For more information, see [Set up channel surfaces](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/configuration/channel-surfaces#set-up-channel-surfaces){target=_blank} in the *Journey Optimizer documentation*.
 
@@ -61,9 +65,23 @@ Perform the following steps to optimize a web page by testing various images and
 
    ![Yoga landing page on the LUMA web site](/help/main/c-integrating-target-with-mac/ajo/assets/luma-yoga-landing.png)
 
-1. To create an experiment to test which content works better, click **[!UICONTROL Create Experiment]**.
+1. To create an experiment to determine which content performs better, click **[!UICONTROL Create Experiment]**.
 
-   Content experiments let you vary the message content, subject, or sender to define multiple treatments and determine the best combination for your audiences. For more information, see [Create a content experiment](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/content-management/content-experiment/content-experiment){target=_blank} in the *Journey Optimizer documentation*.
+   Content experiments let you vary the message content, subject, or sender to define multiple treatments and to determine the best combination for your audiences. For more information, see [Create a content experiment](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/content-management/content-experiment/content-experiment){target=_blank} in the *Journey Optimizer documentation*.
+
+1. Select a success metric and click action.
+
+   Click the Help icons for more information and links to relevant articles.
+
+1. Click **[!UICONTROL Add Treatment]**, then click **[!UICONTROL Create]**.
+
+   For this use case, you can leave the distribution at 50% for each experiment.
+
+1. On the [!UICONTROL Campaign] details page, under **[!UICONTROL Action]**, click **[!UICONTROL Edit Content]**.
+
+1. Click Web under Treatment B
+
+   For this use case, keep [!UICONTROL Treatment A] unchanged to use the original experience as the first experience in the A/B test.
 
 1. Click **[!UICONTROL Edit Web Page]** in the right rail.
 
@@ -83,7 +101,7 @@ Perform the following steps to optimize a web page by testing various images and
 
    For more information about profile attributes, see [Get started with the personalization editor](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/content-management/personalization/expression-editor/personalization-build-expressions){target=_blank} in the *Journey Optimizer documentation*.
 
-1. Search for and select the "first name" profile attribute, adjust the text as desired, then click **[!UICONTROL Save]**.
+1. Search for and click the plus sign to add the "first name" profile attribute, adjust the text as desired, then click **[!UICONTROL Save]**.
 
    ![Add profile attribute for name](/help/main/c-integrating-target-with-mac/ajo/assets/add-profile-attribute-for-name.png)
 
@@ -97,7 +115,7 @@ Perform the following steps to optimize a web page by testing various images and
 
 ## View reports
 
-Click the Reports button, then click the desired reporting period:
+Click the [!UICONTROL Reports] button, then click the desired reporting period:
 
 * [!UICONTROL View all time report]
 * [!UICONTROL View last 24hrs report]
