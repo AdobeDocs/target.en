@@ -13,6 +13,7 @@ This page lists significant changes made to the [!DNL Adobe Target] product docu
 
 |Date|Topic|Changes|
 |--- |--- |--- |
+|September 11|[Users](/help/main/administrating-target/c-user-management/c-user-management/user-management.md)|Added following note under Specify roles and permissions:<P> To view activities in [!DNL Target], users must be directly assigned to a workspace with at least the [!UICONTROL Observer] role. Assignment through user groups alone is insufficient. It is generally recommended to grant users access to the default workspace.|
 |August 1|[Recommendations FAQ](/help/main/c-recommendations/c-recommendations-faq/recommendations-faq.md)|Added following FAQ: "Can I manage [!DNL Target] UI-created visual offers using the [!DNL Target] APIs?"|
 |July 10|[Proxy Configuration (Java)](https://experienceleague.adobe.com/en/docs/target-dev/developer/server-side/java/proxy-configuration){target=_blank}|Added new section: On-Device Decisioning|
 |June 3|[Priority](/help/main/c-activities/priority.md)|Updated entire topic, including indicating that content from multiple [!UICONTROL Form-Based Experience Composer] and VEC activities can deliver. Previously, only one activity from the form-based workflow could deliver. There is no longer a limit to the number of form-based activities that can deliver.|
