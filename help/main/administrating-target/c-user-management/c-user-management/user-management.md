@@ -74,6 +74,10 @@ Only system admins can set user roles in [!DNL Target]. For example, a [!UICONTR
 
 System admin users must add users to the system. Users are not automatically added. They are invited by email from the [!DNL Experience Cloud] and must confirm their email addresses before their accounts are registered.
 
+>[!NOTE]
+>
+>To view activities in [!DNL Target], users must be directly assigned to a workspace with at least the [!UICONTROL Observer] role. Assignment through user groups alone is insufficient. It is generally recommended to grant users access to the default workspace.
+
 1. [In the Admin Console](/help/main/administrating-target/c-user-management/c-user-management/user-management.md#section_79796E0227D048F59BAE0AB02E544EBE), click **[!UICONTROL Products]**, then select the name of the desired product.
 
    ![Products tab](/help/main/administrating-target/c-user-management/c-user-management/assets/workspace-publisher.png)
