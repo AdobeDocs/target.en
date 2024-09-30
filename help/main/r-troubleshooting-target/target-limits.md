@@ -245,7 +245,9 @@ Character limits and other limits (offer size, audiences, profiles, values, para
 
 ### Number of offers
 
-* **Recommended limit**: 50,000 total offers.
+* **Limit**: 150,000 total offers.
+
+  Activity sync errors occur if the limit of 150,000 offers is exceeded.
 
 ### Offer size {#offer-size}
 
