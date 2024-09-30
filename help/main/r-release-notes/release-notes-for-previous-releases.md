@@ -17,6 +17,18 @@ Release notes are arraigned in descending order by month and year of release.
 
 ## Release notes - 2024
 
+### [!DNL Target] reporting in [!DNL Adobe Customer Journey Analytics] (May 8, 2024)
+
+The integration between [Adobe Customer Journey Analytics](https://experienceleague.adobe.com/en/docs/customer-journey-analytics){target=_blank} and [!DNL Target] provides powerful analysis and timesaving tools for your optimization program.
+
+The primary benefits of using [!DNL Customer Journey Analytics] as the reporting source for [!DNL Target] are:
+
+* Marketers can dynamically apply [!DNL Customer Journey Analytics] success metrics to [!DNL Target] activity reports at any time. It is not required to specify everything before running the activity. 
+* Marketers can take advantage of [!DNL Customer Journey Analytics] features, such as the [Experimentation Panel](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-workspace/panels/experimentation){target=_blank}, to further analyze their website personalization. 
+* Marketers can have a single source of reporting for [[!DNL Adobe Journey Optimizer]](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/reporting/cja-ajo){target=_blank} and [!DNL Target]. Both personalization products can be connected to [!DNL Customer Journey Analytics] for a more holistic view of your web personalization. 
+
+For more information, see [Target reporting in Adobe Customer Journey Analytics](/help/main/c-integrating-target-with-mac/cja/target-reporting-in-cja.md).
+
 ### [!UICONTROL Visual Experience Composer] helper extension (April 23, 2024)
 
 The legacy [!DNL Target] Visual Experience Composer helper extension was created using Manifest V2. [!DNL Google] announced that it will no longer allow extensions created using Manifest V2 starting in June 2024. For more information, see [[!UICONTROL Visual Experience Composer] helper extension](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/vec-helper-browser-extension.md).

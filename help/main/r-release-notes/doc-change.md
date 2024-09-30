@@ -13,6 +13,7 @@ This page lists significant changes made to the [!DNL Adobe Target] product docu
 
 |Date|Topic|Changes|
 |--- |--- |--- |
+|September 29|[at.js version details](https://experienceleague.adobe.com/en/docs/target-dev/developer/client-side/at-js-implementation/target-atjs-versions){target=_blank}|Added information about the at.js 2.11.6 release.|
 |September 11|[Users](/help/main/administrating-target/c-user-management/c-user-management/user-management.md)|Added following note under Specify roles and permissions:<P> To view activities in [!DNL Target], users must be directly assigned to a workspace with at least the [!UICONTROL Observer] role. Assignment through user groups alone is insufficient. It is generally recommended to grant users access to the default workspace.|
 |August 1|[Recommendations FAQ](/help/main/c-recommendations/c-recommendations-faq/recommendations-faq.md)|Added following FAQ: "Can I manage [!DNL Target] UI-created visual offers using the [!DNL Target] APIs?"|
 |July 10|[Proxy Configuration (Java)](https://experienceleague.adobe.com/en/docs/target-dev/developer/server-side/java/proxy-configuration){target=_blank}|Added new section: On-Device Decisioning|
