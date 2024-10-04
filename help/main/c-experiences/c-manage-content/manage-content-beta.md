@@ -1,6 +1,6 @@
 ---
 keywords: content;assets;manage content;offers;manage assets;enter selection mode;selection mode
-description: Discover how to efficiently manage code and image offers using the [!UICONTROL Offers] library. Learn best practices and tips to streamline your workflow and enhance your projects.
+description: Discover how to efficiently manage code and image offers using the [!UICONTROL Offers] library.
 title: How Do I Manage Code and Image Offers?
 feature: Experiences and Offers
 badgeBeta: label="Beta" type="Informative" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html#beta newtab=true" tooltip="What are Beta features in [!DNL Adobe Target]."
