@@ -24,7 +24,7 @@ The process to create folders for code offers and image offers differs slightly.
 
    ![Code Offers tab](/help/main/c-experiences/c-manage-content/assets/code-offers-tab-new.png)
 
-1. Click **[!UICONTROL Create]** > **[!UICONTROL Folder]**.
+1. Click **[!UICONTROL Create Folder].
 
 1. Provide a descriptive name for the folder.
 
@@ -38,9 +38,8 @@ For information about the tasks you can perform on offers and folders, see [Work
 
 1. Click **[!UICONTROL Offers]** > **[!UICONTROL Image Offers]**.
 
-   ![Image Offers tab](/help/main/c-experiences/c-manage-content/assets/image-offers-tab-new.png)
-
 1. Click **[!UICONTROL Create]** > **[!UICONTROL Folder]**.
+
 1. Specify a descriptive **[!UICONTROL Title]** for the folder. 
 
    For example, you could include the type of content it holds. 
@@ -48,9 +47,9 @@ For information about the tasks you can perform on offers and folders, see [Work
    The name cannot contain the following characters: Percent sign `%`,Forward slash `/`,Backslash `\`, Colon `:`, Asterisk `*`, Question mark `?`, Double quotes `"`, Square bracket `[`, Square bracket `]`, Plus sign: `+`, Pipe: `|`, Period: `.`, Number sign: `#`, Curly bracket: `{`, Curly bracket `}`, Caret `^`, or Semicolon `;`. You can use a hyphen ( `- `) instead of these characters.
 
 1. (Optional) Specify a descriptive **[!UICONTROL Name]**.
-1. (Optional) Select the **[!UICONTROL Private]** check box to specify that the folder is private so only you can see it and its contents.
+1. (Optional) Select **[!UICONTROL Private]** to specify that the folder is private so only you can see it and its contents.
 
-1. (Optional) Select the **[!UICONTROL Reorder-able in List View]** check box to specify that you and others can reorder the folder's position in the [!UICONTROL List View].
+1. (Optional) Select **[!UICONTROL Reorder-able in List View]** to specify that you and others can reorder the folder's position in the [!UICONTROL List View].
 
 1. Click **[!UICONTROL Create]**.
 
