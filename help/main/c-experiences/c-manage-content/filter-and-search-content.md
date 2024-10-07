@@ -5,7 +5,7 @@ title: How Do I Search for Content in the Offers Library?
 feature: Experiences and Offers
 exl-id: 68ff0da5-4556-493e-b6b3-7bcbba320d57
 ---
-# Search content
+# Search and filter content
 
 Search for assets by keywords in the [!UICONTROL Offers] library in [!DNL Adobe Target].
 

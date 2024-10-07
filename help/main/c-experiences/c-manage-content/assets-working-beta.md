@@ -1,39 +1,33 @@
 ---
 keywords: content library;assets;annotate;copy;delete asset;download asset;edit content;share card;view content properties
-description: Discover the process of organizing and optimizing your code and image offers within the [!DNL Target] [!UICONTROL Offers] library.
+description: Master the process of organizing and optimizing your code and image offers within the [!DNL Target] [!UICONTROL Offers] library.
 title: Master Content Management in the [!UICONTROL Offers] Library
 feature: Experiences and Offers
 hide: yes
 hidefromtoc: yes
 exl-id: 5d836037-3f51-4c63-8717-65de72e5c793
 ---
-# Work with content in the Asset library
+# Work with content in the [!UICONTROL Asset] library
 
-Information about the tasks you can perform on an asset in the [!UICONTROL Content Library] in [!DNL Adobe Target]. Tasks include annotating, copying, deleting, downloading, editing, sharing, and viewing properties.
+Discover the tasks that you can perform on assets in the [!UICONTROL Content Library] of [!DNL Adobe Target], including annotating, copying, deleting, downloading, editing, sharing, and viewing properties.
 
 1. Click **[!UICONTROL Offers]** > **[!UICONTROL Code Offers]** or **[!UICONTROL Image Offers]**.
 
    For more information about searching the [!UICONTROL Offer library] and creating [!UICONTROL Smart Collections], see [Filter and Search Content](/help/main/c-experiences/c-manage-content/filter-and-search-content.md#concept_3B59B8F025BF4CEA82ECC5199D365276). 
 
-1. (Conditional) For image offers, toggle between the [!UICONTROL Card View] and [!UICONTROL List View], click the [!UICONTROL Card View] icon or the [!UICONTROL List View] icon in the upper right corner of the content library. You can also use [!UICONTROL View Settings] to configure the columns when viewing the [!UICONTROL List View]. 
-
-   The following illustration shows the available options when viewing the [!UICONTROL List View]:
-
-   ![List View options](/help/main/c-experiences/c-manage-content/assets/view-settings-options.png)
+1. (Conditional) For image offers, toggle between the [!UICONTROL Card View] and [!UICONTROL List View], click the [!UICONTROL Card View] icon ( ![Card view icon](/help/main/assets/icons/ViewCard.svg) ) or the [!UICONTROL List View] icon ( ![List view icon](/help/main/assets/icons/ViewList.svg) ) in the upper right corner of the [!UICONTROL Asset] library. 
 
 1. Perform the desired action, as explained in the following sections:
 
 ## [!UICONTROL Code Offers] options
 
-When viewing the [!UICONTROL Code Offers] page, you can perform the following actions on an item by hovering over an offer or folder, then selecting the appropriate icon.
+When viewing the [!UICONTROL Code Offers] page, you can perform the following actions on an item by clicking the [!UICONTROL Quick Info] icon ( ![Quick Info icon](/help/main/assets/icons/InfoOutline.svg) ) or the [!UICONTROL More Actions] icon ( ![More Actions icon](/help/main/assets/icons/MoreSmallList.svg) ) next to an offer or folder, then selecting the appropriate icon.
 
-![Hover icons on Code Offers tab](/help/main/c-experiences/c-manage-content/assets/code-offers-hover-icons-new.png)
-
-* **Information**: Click the [!UICONTROL Information] icon to view the offer's information, including [!UICONTROL Offer ID], [!UICONTROL Type], [!UICONTROL Last Modified] (date, time, and modifier's name). Click [!UICONTROL Full Details] to view additional information, including the offer attributes and activity usage (activity name, status, workspace, and modified date and time).
-* **Edit**: Edit the folder or offer.
-* **Copy**: Copy the offer. Copying and then editing the offer lets you easily create a similar new offer.
-* **Delete**: Delete the offer or folder. See [Considerations when deleting items](#delete).
-* **Move**: Click the [!UICONTROL Move] icon, navigate to the location to which you want to move the offer or folder, then click **[!UICONTROL Move]**. For example, you can move one or more folders into another folder to create sub-folders.
+* **Information**: Click the **[!UICONTROL Quick Info] icon** ( ![Quick Info icon](/help/main/assets/icons/InfoOutline.svg) ) to view the offer's information, including [!UICONTROL Offer ID], [!UICONTROL Type], [!UICONTROL Last Modified] (date, time, and modifier's name). Click [!UICONTROL Full Details] to view additional information, including the offer attributes and activity usage (activity name, status, workspace, and modified date and time).
+* **[!UICONTROL Edit]**: Click the **[!UICONTROL More Actions] icon** ( ![More Actions icon](/help/main/assets/icons/MoreSmallList.svg) ) > **[!UICONTROL Edit]** to edit the folder or offer.
+* **[!UICONTROL Copy]**: Click the **[!UICONTROL More Actions] icon** ( ![More Actions icon](/help/main/assets/icons/MoreSmallList.svg) ) > **[!UICONTROL Copy]** to copy the offer. Copying and then editing the offer lets you easily create a similar new offer.
+* **[!UICONTROL Delete]**: Click the **[!UICONTROL More Actions] icon** ( ![More Actions icon](/help/main/assets/icons/MoreSmallList.svg) ) > **[!UICONTROL Delete]** to delete the offer or folder. See [Considerations when deleting items](#delete).
+* **[!UICONTROL Move]**: Click the **[!UICONTROL More Actions] icon** ( ![More Actions icon](/help/main/assets/icons/MoreSmallList.svg) ) > **[!UICONTROL Move]**, navigate to the location to which you want to move the offer or folder, then click **[!UICONTROL Move]**. For example, you can move one or more folders into another folder to create sub-folders.
 
 ## [!UICONTROL Image Offers] options
 
@@ -41,11 +35,11 @@ When viewing the [!UICONTROL Image Offers] page, you can perform the following a
 
 The following illustration shows the hover icons when viewing the [!UICONTROL Card View].
 
-![Hover icons on the Image Offers tab when in Card View](/help/main/c-experiences/c-manage-content/assets/image-offers-hover-icons.png)
+![Hover icons on the Image Offers tab when in Card View](/help/main/c-experiences/c-manage-content/assets/image-offers-hover-icons-new.png)
 
 The following illustration shows the hover icons when viewing the [!UICONTROL List View]. To display the icons, click an item in the list.
 
-![Hover icons on the Image Offers tab when in List View](/help/main/c-experiences/c-manage-content/assets/list-view-hover.png)
+![Hover icons on the Image Offers tab when in List View](/help/main/c-experiences/c-manage-content/assets/list-view-hover-new.png)
 
 * **Select**: Select one or more folders on which to perform the following actions:
 
@@ -56,13 +50,17 @@ The following illustration shows the hover icons when viewing the [!UICONTROL Li
 
   Select one or more image offers on which to perform the following actions:
 
-  * Share
-  * Download
-  * View Properties
-  * Edit
-  * Annotate
-  * Move
+  * [!UICONTROL Share]
+  * [!UICONTROL Download]
+  * [!UICONTROL View Properties]
+  * [!UICONTROL Edit]
+  * [!UICONTROL Annotate]
+  * [!UICONTROL Copy]
+  * [!UICONTROL Move]
+  * [!UICONTROL Delete]
 
+
+* **Share**: Share the image offer to people or groups in your organization.
 * **Download**: Download the image offer or the folder and its contents.
 * **View Properties**: View the item's properties. Be sure to click the [!UICONTROL Basic] tab and the [!UICONTROL Advanced] tab to view all available information. You can edit the properties and add more information. You can add metadata information, publication status, and license data.
 * **More Actions**: Display additional options when in [!UICONTROL Card View].
@@ -70,6 +68,7 @@ The following illustration shows the hover icons when viewing the [!UICONTROL Li
 * **Annotate**: Add a note to the asset. Click the asset, then select the area you want to annotate and type your note.
 * **Copy**: Copy the offer. Copying and then editing the offer lets you easily create a similar new offer.
 * **Move**: Click the [!UICONTROL Move] icon, navigate to the location to which you want to move the offer or folder, then click **[!UICONTROL Move]**. For example, you can move one or more folders into another folder to create sub-folders.
+* **Delete**: Delete the offer. See [Considerations when deleting items](#delete) below for more information:
 
 ## Considerations when deleting items {#delete}
 
