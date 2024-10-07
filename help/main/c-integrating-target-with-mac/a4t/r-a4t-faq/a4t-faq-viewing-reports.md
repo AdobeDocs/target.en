@@ -27,12 +27,10 @@ A segment can also be layered directly within the freeform table, but note that 
 
 +++
 
-## Can I apply the "Same Touch" Attribution IQ model in [!DNL Analysis Workspace]? 
+## Which Attribution IQ model is used in [!DNL Analysis Workspace]? 
 
 +++Answer
-When using [!DNL Target] activity impressions and conversions in [!DNL Analysis Workspace], apply the "Same Touch" Attribution IQ model to the metrics to ensure accurate counting. To apply a [non-default attribution model](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/build-workspace-project/column-row-settings/column-settings.html), right-click on the metric to **modify Column Settings > enable Use non-default attribution model > select Same Touch model**. Without this model applied, the metrics are overstated. 
-
-All current [!DNL Adobe Analytics] packages can add this model with [!UICONTROL Attribution IQ]. If you do not have access to [!UICONTROL Attribution IQ], please rely on A4T data in [!UICONTROL Reports & Analytics].
+When using [!DNL Target] activity impressions and conversions in [!DNL Analysis Workspace], the "Same Touch" Attribution IQ model is the default model applied to the metrics to ensure accurate counting. This model works well in 99% of cases. However, you can override this standard attribution in Attribution IQ.
 
 +++
 
