@@ -26,14 +26,8 @@ Consider the following information as you work with JSON offers:
 
 ## Create a JSON offer {#section_BB9C72D59DEA4EFB97A906AE7569AD7A}
 
-1. Click **[!UICONTROL Offers]** > **[!UICONTROL Code Offers]**.
-
-   ![Offers > Code Offers tab](/help/main/c-experiences/c-manage-content/assets/code-offers-tab-new.png)
-   
+1. Click **[!UICONTROL Offers]** > **[!UICONTROL Code Offers]**.  
 1. Click **[!UICONTROL Create Offer]** > **[!UICONTROL JSON Offer]**.
-
-   ![offer-json image](assets/offer-json-new.png)
-
 1. Type an offer name.
 1. (Conditional) If you have a [[!DNL Target] Premium account](/help/main/c-intro/intro.md#premium), choose the desired [workspace](/help/main/administrating-target/c-user-management/property-channel/property-channel.md#workspace).
 1. (Conditional) Choose the desired profile attributes.
@@ -137,6 +131,4 @@ For more information, see [Share Real-time CDP Profile Attributes with [!DNL Tar
 
 ## Filtering offers by the JSON offer type {#section_52533555BCE6420C8A95EB4EB8907BDE}
 
-You can filter the [!UICONTROL Offers] library by the JSON offer type by clicking the **[!UICONTROL Show filters]** icon, then by selecting the **[!UICONTROL JSON]** checkbox.
-
-![offer-json-filter image](assets/offer-json-filter-new.png)
+You can filter the [!UICONTROL Offers] library by the JSON offer type by clicking the **[!UICONTROL Show filters]** icon ( ![Show Filters icon](/help/main/assets/icons/Filter.svg) ), then by selecting the **[!UICONTROL JSON Offers]** checkbox.

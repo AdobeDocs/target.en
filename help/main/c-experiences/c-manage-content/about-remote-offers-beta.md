@@ -1,6 +1,6 @@
 ---
 keywords: remote offer;cached content;dynamic content;url type
-description: Learn how to use remote offers in [!DNL Target] to host outside content (content in a CMS or other system).
+description: Discover how to leverage remote offers in [!DNL Target] to host external content from a CMS or other systems.
 title: How Do I Create Remote Offers?
 feature: Experiences and Offers
 badgeBeta: label="Beta" type="Informative" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html#beta newtab=true" tooltip="What are Beta features in [!DNL Adobe Target]."
@@ -10,7 +10,7 @@ exl-id: e83ad57e-716d-4595-b5cf-3a882fcb9e37
 ---
 # Create remote offers
 
-Use remote offers to host content outside of [!DNL Adobe Target] that [!DNL Target] references and delivers to users' websites. This content might be in a content management (CMS) or other system, either for ease-of-use or for security reasons.
+Use remote offers to host content outside [!DNL Adobe Target], allowing [!DNL Target] to reference and deliver this content to user websites. This content can reside in a content management system (CMS) or another system for ease of use or security reasons.
 
 >[!NOTE]
 >
@@ -45,21 +45,17 @@ Best practices for using remote offers in your activities:
 
 1. Click **[!UICONTROL Offers]**, then select the **[!UICONTROL Code Offers]** tab.
 
-   ![Offers > Code Offers](/help/main/c-experiences/c-manage-content/assets/offers-code-offers-new.png)
-
 1. Click **[!UICONTROL Create Offer]** > **[!UICONTROL Remote Offer]**.
 
-   ![Create Remote Offer dialog box](/help/main/c-experiences/c-manage-content/assets/remote_offer_ui_new.png)
+1. In the [!UICONTROL Create Remote Offer] dialog, provide a descriptive name for the offer.
 
-1. Provide a descriptive name for the offer.
-
-   A descriptive name helps you and others quickly find the offer in the [!UICONTROL Assets] library.
+   A descriptive name helps you and others quickly find the offer in the [!UICONTROL Offers] library.
 
 1. (Conditional) If you have a [Target Premium account](/help/main/c-intro/intro.md#premium), select the desired [workspace](/help/main/administrating-target/c-user-management/property-channel/properties-overview.md##section_B82EB409B67C4D9D9D20CE30E48DB1DC).
 
 1. Specify the redirect URL type.
 
-   See [Redirect URL Type: Cached or Dynamic](#url-type) below for more information.
+   See [Redirect URL Type: [!UICONTROL Onsite Cached] or [!UICONTROL Onsite Dynamic]](#url-type) below for more information.
 
 1. Specify the absolute remote URL for the remote offer.
 
@@ -69,15 +65,9 @@ Best practices for using remote offers in your activities:
 
 1. While creating an activity using the [Form-Based Experience Composer](/help/main/c-experiences/form-experience-composer.md), select the location to display the **[!UICONTROL Content]** section.
 
-   ![Content section in Form-Based Experience Composer](/help/main/c-experiences/c-manage-content/assets/form-based-content.png)
-
 1. Click the **[!UICONTROL Default Content]** drop-down list, then click **[!UICONTROL Change Remote Offer]**.
 
-   ![Change Remote Offer option](/help/main/c-experiences/c-manage-content/assets/change-remote-offer.png)
-
 1. Click **[!UICONTROL Create]** > **[!UICONTROL Remote Offer]**.
-
-   ![Create Remote Offer dialog box](/help/main/c-experiences/c-manage-content/assets/remote_offer_ui.png)
 
 1. Provide a descriptive name for the offer.
 
@@ -85,27 +75,27 @@ Best practices for using remote offers in your activities:
 
 1. Specify the redirect URL type.
 
-   See [Redirect URL Type: Cached or Dynamic](#url-type) below for more information.
+   See [Redirect URL Type: [!UICONTROL Onsite Cached] or [!UICONTROL Onsite Dynamic]](#url-type) below for more information.
 
 1. Specify the remote URL for the remote offer.
 
 1. Click **[!UICONTROL Save]**.
 
-## Redirect URL Type: Cached or Dynamic {#url-type}
+## Redirect URL Type: [!UICONTROL Onsite Cached] or [!UICONTROL Onsite Dynamic] {#url-type}
 
 The following information helps you understand the differences between the two options:
 
-### Cached URL
+### [!UICONTROL Onsite Cached] URL
 
 The content for a cached remote offer is served from [!DNL Target].
 
 Every two hours, [!DNL Target] fetches the content at the remote URL and then stores the content inside [!DNL Target]. When visitors load a site with an experience that includes a remote offer, [!DNL Target] delivers the offer.
 
-Cached remote offers provide enhanced security because somebody logged in to [!DNL Target] cannot change the content. To change the content, someone would need to log , or other system, and change the content there.
+Cached remote offers provide enhanced security because somebody logged in to [!DNL Target] cannot change the content. To change the content, someone would need to log in to the content management or other system, and change the content there.
 
 You can specify an absolute or relative URL for a cached remote offer.
 
-### Dynamic URL
+### [!UICONTROL Onsite Dynamic] URL
 
 A dynamic remote offer is served from the content management or other system rather than from [!DNL Target].
 
@@ -126,8 +116,6 @@ The [!DNL Adobe Target] [!UICONTROL Form-Based Experience Composer] is a non-vis
 1. Specify the desired location and add any audience refinements as necessary.
 
 1. Click the drop-down list in the **[!UICONTROL Content]** section, then click **[!UICONTROL Change Remote Offer]**.
-
-   ![Change Remote Offer option](/help/main/c-experiences/c-manage-content/assets/change-remote-offer.png)
 
 1. Select the desired remote offer from the [!UICONTROL Select Remote Offer] dialog box, then click **[!UICONTROL Done]**.
 
@@ -153,9 +141,9 @@ The offer is executed after you render the page. An invisible iFrame gathers the
 
 ## Remote offer selection matrix {#reference_B23BEDD29DDD47709A7651AFD27E776B}
 
-The Remote Offer Selection Matrix helps you decide which type of remote offer to choose: [!UICONTROL Cached] or [!UICONTROL Dynamic].
+The remote offer selection matrix helps you decide which type of remote offer to choose: [!UICONTROL Onsite Cached] or [!UICONTROL Onsite Dynamic].
 
-| Feature | Cached | Dynamic |
+| Feature | Onsite Cached | Onsite Dynamic |
 |--- |--- |--- |
 |Updates each time a visitor makes a request|No|Yes|
 |Content updates|Cached every two hours|Updated immediately upon each request|
