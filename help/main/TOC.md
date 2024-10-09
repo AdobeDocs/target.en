@@ -109,11 +109,13 @@ feature-set: Target
    + [Target activity types](c-activities/target-activities-guide.md)
    + A/B Test {#abtest}
       + [A/B test overview](c-activities/t-test-ab/test-ab.md)
+      + [A/B test overview beta](c-activities/t-test-ab/test-ab-beta.md)
       + [How long should you run an A/B test?](c-activities/t-test-ab/sample-size-determination.md)
       + [Ten common A/B testing pitfalls and how to avoid them](c-activities/t-test-ab/common-ab-testing-pitfalls.md)
       + [A/A testing](/help/main/c-activities/t-test-ab/aa-testing.md)
       + Create an A/B test {#create}
          + [Create an A/B test](c-activities/t-test-ab/t-test-create-ab/test-create-ab.md)
+         + [Create an A/B test beta](c-activities/t-test-ab/t-test-create-ab/test-create-ab-beta.md)
          + [Activity URL](c-activities/t-test-ab/t-test-create-ab/ab-activity-url.md)
          + [Add experience](c-activities/t-test-ab/t-test-create-ab/ab-add-experience.md)
          + [Select audience](c-activities/t-test-ab/t-test-create-ab/ab-audience.md)
