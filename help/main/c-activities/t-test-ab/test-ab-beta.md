@@ -1,6 +1,6 @@
 ---
 keywords: AB;A/B;AB...n;compare experiences;Targeting;compare content;auto-target;auto-allocate
-description: Explore the A/B Test activities in [!DNL Target]: [!UICONTROL Manual], [!UICONTROL Auto-Allocate], and [!UICONTROL Auto-Target].
+description: Explore the A/B Test activities in [!DNL Target] - [!UICONTROL Manual], [!UICONTROL Auto-Allocate], and [!UICONTROL Auto-Target].
 title: Discover the A/B Test Activities Available in [!DNL Target].
 feature: A/B Tests
 hide: yes
