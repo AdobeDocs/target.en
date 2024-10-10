@@ -25,19 +25,19 @@ Use these links to access updated documentation as part of the Beta program for 
 * [Activities overview](c-activities/activities.md){target=_blank}
 * [Target activity types](c-activities/target-activities-guide.md){target=_blank}
 * A/B Test {#abtest}
-   * [A/B test overview](c-activities/t-test-ab/test-ab.md){target=_blank}
+   * [A/B test overview](c-activities/t-test-ab/test-ab-beta.md){target=_blank}
    * [How long should you run an A/B test?](c-activities/t-test-ab/sample-size-determination.md){target=_blank}
    * [Ten common A/B testing pitfalls and how to avoid them](c-activities/t-test-ab/common-ab-testing-pitfalls.md){target=_blank}
    * [A/A testing](/help/main/c-activities/t-test-ab/aa-testing.md){target=_blank}
    * Create an A/B test {#create}
-      * [Create an A/B test](c-activities/t-test-ab/t-test-create-ab/test-create-ab.md){target=_blank}
-      * [Activity URL](c-activities/t-test-ab/t-test-create-ab/ab-activity-url.md){target=_blank}
-      * [Add experience](c-activities/t-test-ab/t-test-create-ab/ab-add-experience.md){target=_blank}
+      * [Create an A/B test](c-activities/t-test-ab/t-test-create-ab/test-create-ab-beta.md){target=_blank}
+      * [Activity URL](c-activities/t-test-ab/t-test-create-ab/ab-activity-url-beta.md){target=_blank}
+      * [Add experience](c-activities/t-test-ab/t-test-create-ab/ab-add-experience-beta.md){target=_blank}
       * [Select audience](c-activities/t-test-ab/t-test-create-ab/ab-audience.md){target=_blank}
-      * [Goals and settings](c-activities/t-test-ab/t-test-create-ab/ab-goals-and-settings.md){target=_blank}
+      * [Goals and settings](c-activities/t-test-ab/t-test-create-ab/ab-goals-and-settings-beta.md){target=_blank}
       * [Use Analytics Data](c-activities/t-test-ab/t-test-create-ab/create-a4t.md){target=_blank}
-      * [Set metrics](c-activities/t-test-ab/t-test-create-ab/ab-set-metrics.md){target=_blank}
-      * [Multiple experience audiences in an A/B Test](c-activities/t-test-ab/t-test-create-ab/target-experience-to-multiple-audiences.md){target=_blank}
+      * [Set metrics](c-activities/t-test-ab/t-test-create-ab/ab-set-metrics-beta.md){target=_blank}
+      * [Multiple experience audiences in an A/B Test](c-activities/t-test-ab/t-test-create-ab/target-experience-to-multiple-audiences-beta.md){target=_blank}
 * Auto-Allocate {#auto-allocate}
    * [Auto-Allocate overview](c-activities/automated-traffic-allocation/automated-traffic-allocation.md){target=_blank}
    * [Create an Auto-Allocate activity](/help/main/c-activities/automated-traffic-allocation/create-auto-allocate-activity.md){target=_blank}
