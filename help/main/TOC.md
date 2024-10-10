@@ -123,9 +123,12 @@ feature-set: Target
          + [Select audience](c-activities/t-test-ab/t-test-create-ab/ab-audience.md)
          + [Select audience beta](c-activities/t-test-ab/t-test-create-ab/ab-audience-beta.md)
          + [Goals and settings](c-activities/t-test-ab/t-test-create-ab/ab-goals-and-settings.md)
+         + [Goals and settings beta](c-activities/t-test-ab/t-test-create-ab/ab-goals-and-settings-beta.md)
          + [Use Analytics Data](c-activities/t-test-ab/t-test-create-ab/create-a4t.md)
          + [Set metrics](c-activities/t-test-ab/t-test-create-ab/ab-set-metrics.md)
+         + [Set metrics beta](c-activities/t-test-ab/t-test-create-ab/ab-set-metrics-beta.md)
          + [Multiple experience audiences in an A/B Test](c-activities/t-test-ab/t-test-create-ab/target-experience-to-multiple-audiences.md)
+          + [Multiple experience audiences in an A/B Test beta](c-activities/t-test-ab/t-test-create-ab/target-experience-to-multiple-audiences-beta.md)
    + Auto-Allocate {#auto-allocate}
       + [Auto-Allocate overview](c-activities/automated-traffic-allocation/automated-traffic-allocation.md)
       + [Create an Auto-Allocate activity](/help/main/c-activities/automated-traffic-allocation/create-auto-allocate-activity.md)
