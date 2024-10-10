@@ -51,7 +51,7 @@ For more information about all the options in the flow diagram, see [Create an A
 
 1. In the [!UICONTROL Add Audiences] dialog box, click the **[!UICONTROL Information]** icon ( ![Info icon](/help/main/assets/icons/InfoOutline.svg) ) next to an audience to view details about that audience, including its source and attributes.
 
-1. Click **[!UICONTROL View Full Details]** to view additional details about the audience. Details include the audience's attributes; the audiences description, workspace, type, and source; and a list of activities that reference this audience. You can see information about each audience, including activity name, status, workspace, and when the audience was last modified and by whom.
+1. Click **[!UICONTROL View Full Details]** to view additional details about the audience. Details include the audience's attributes; the audience's description, workspace, type, and source; and a list of activities that reference this audience. You can see information about each audience, including activity name, status, workspace, and when the audience was last modified and by whom.
 
 ## Edit or copy an audience
 
