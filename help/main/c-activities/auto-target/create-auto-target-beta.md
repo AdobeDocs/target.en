@@ -1,22 +1,21 @@
 ---
-keywords: Create A/B;A/B test;A/B activity;new a/b activity;create a/b
-description: Master the [!UICONTROL Visual Experience Composer] (VEC) to create A/B Test activities directly on a [!DNL Target]-enabled page.
-title: How Do I Create an A/B Test?
-feature: A/B Tests
+keywords: Create auto-target;A/B test;auto-target activity;new a/b activity;auto target;auto-target for personalized experiences;personalized;optimization
+description: Learn how to use the [!UICONTROL Visual Experience Composer] (VEC) to create an [!UICONTROL Auto-Target] A/B Test activity.
+title: How Do I Create an [!UICONTROL Auto-Target] Activity?
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="See what's included in Target Premium."
+feature: Auto-Target
 hide: yes
 hidefromtoc: yes
 ---
-# Create an A/B Test activity
+# Create an [!UICONTROL Auto-Target] activity
 
-Leverage the [!UICONTROL Visual Experience Composer] (VEC) in [!DNL Adobe Target] to create [!UICONTROL A/B Test] activities directly on a [!DNL Target]-enabled page and to modify page sections within [!DNL Target].
+Use the [!UICONTROL Visual Experience Composer] (VEC) in [!DNL Adobe Target] to create your [!UICONTROL Auto-Target] [!UICONTROL A/B Test] activity directly on a [!DNL Target]-enabled page and to modify portions of the page within [!DNL Target].
 
 >[!NOTE]
 >
->In addition to the [!UICONTROL Manual] (Default) [!UICONTROL A/B Test] activity (discussed in this article), [!DNL Target] provides two additional types of [!UICONTROL A/B Test] activities: [!UICONTROL Auto-Allocate] and [!UICONTROL Auto-Target].
->
->See [Types of A/B Testing activities](/help/main/c-activities/t-test-ab/test-ab.md#types) in *A/B Test overview*.
+>[!UICONTROL Auto-Target] is available as part of the [!DNL Target Premium] solution. This feature is not available in [!DNL Target Standard] without a [!DNL Target Premium] license. For more information about the advanced features this license provides, see [Target Premium](/help/main/c-intro/intro.md).
 
-To create a manual [!UICONTROL A/B Test] activity:
+To create an [!UICONTROL Auto-Target] activity:
 
 1. From the **[!UICONTROL Activities]** list, click **[!UICONTROL Create Activity]** > **[!UICONTROL A/B Test]**.
 
@@ -102,11 +101,11 @@ To create a manual [!UICONTROL A/B Test] activity:
 
    For example, you might limit entries to 50% of all visitors or 45% of your "Californians" audience.
 
-1. Click the **[!UICONTROL Traffic Allocation]** control, then choose the desired traffic allocation method in the right pane, as shown below:
+1. Click the **[!UICONTROL Traffic Allocation]** control, then choose the desired traffic allocation method in the right pane. In this scenario, click **[!UICONTROL Auto-Taget for personalized experiences]**.
 
     ![Traffic Allocation Method settings](/help/main/c-activities/t-test-ab/t-test-create-ab/assets/traffic-allocation-method-new.png)
 
-   Choose your desired traffic allocation method:
+   The following traffic allocation methods are available:
 
    * **[!UICONTROL Manual (Default)]**: Specify the percentage of entrants that you want to see each experience. You can split the percentages evenly between all experiences, or specify higher or lower percentages for each experience. The total for all experiences must equal 100%.
 
@@ -119,6 +118,10 @@ To create a manual [!UICONTROL A/B Test] activity:
 1. When you are satisfied with your audience, experience choices, and traffic allocation choices, click **[!UICONTROL Next]** to move to the third step of the three-step guided workflow.
 
 1. Specify the [goals and settings](/help/main/c-activities/t-test-ab/t-test-create-ab/ab-goals-and-settings.md) for the activity.
+
+   >[!NOTE]
+   >
+   >If you want to use [Analytics for Target](/help/main/c-integrating-target-with-mac/a4t/a4t.md) (A4T) with this activity, see important information in [A4T support for Auto-Allocate and Auto-Target activities](/help/main/c-integrating-target-with-mac/a4t/a4t-at-aa.md).
 
 1. Click **[!UICONTROL Save & Close]** or **[!UICONTROL Save]**.
 

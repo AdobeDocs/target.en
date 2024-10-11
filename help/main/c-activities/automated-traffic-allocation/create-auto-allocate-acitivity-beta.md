@@ -1,22 +1,18 @@
 ---
-keywords: Create A/B;A/B test;A/B activity;new a/b activity;create a/b
-description: Master the [!UICONTROL Visual Experience Composer] (VEC) to create A/B Test activities directly on a [!DNL Target]-enabled page.
-title: How Do I Create an A/B Test?
-feature: A/B Tests
+keywords: create auto-allocate;A/B test;auto-allocate activity;new a/b activity;auto allocate;auto-allocate to best experience;allocate;auto-allocate
+description: Learn how to use the [!UICONTROL Visual Experience Composer] (VEC) to create [!UICONTROL Auto-Allocate] A/B Test activities.
+title: How Do I Create an [!UICONTROL Auto-Allocate] Activity?
+feature: Auto-Allocate
 hide: yes
 hidefromtoc: yes
 ---
-# Create an A/B Test activity
+# Create an [!UICONTROL Auto-Allocate] activity
 
-Leverage the [!UICONTROL Visual Experience Composer] (VEC) in [!DNL Adobe Target] to create [!UICONTROL A/B Test] activities directly on a [!DNL Target]-enabled page and to modify page sections within [!DNL Target].
+Use the [!UICONTROL Visual Experience Composer] (VEC) in [!DNL Adobe Target] to create your [!UICONTROL Auto-Allocate] [!UICONTROL A/B Test] activity directly on a [!DNL Target]-enabled page and to modify portions of the page within [!DNL Target].
 
->[!NOTE]
->
->In addition to the [!UICONTROL Manual] (Default) [!UICONTROL A/B Test] activity (discussed in this article), [!DNL Target] provides two additional types of [!UICONTROL A/B Test] activities: [!UICONTROL Auto-Allocate] and [!UICONTROL Auto-Target].
->
->See [Types of A/B Testing activities](/help/main/c-activities/t-test-ab/test-ab.md#types) in *A/B Test overview*.
+In addition to the [!UICONTROL Auto-Allocate] [!UICONTROL A/B Test] activity (discussed in this article), [!DNL Target] provides two additional types of [!UICONTROL A/B Test] activities: [!UICONTROL Manual (Default)] and [!UICONTROL Auto-Target]. See [Types of A/B Testing activities](/help/main/c-activities/t-test-ab/test-ab.md#types) in *A/B Test overview*.
 
-To create a manual [!UICONTROL A/B Test] activity:
+To create an [!UICONTROL Auto-Allocate] activity:
 
 1. From the **[!UICONTROL Activities]** list, click **[!UICONTROL Create Activity]** > **[!UICONTROL A/B Test]**.
 
@@ -102,11 +98,11 @@ To create a manual [!UICONTROL A/B Test] activity:
 
    For example, you might limit entries to 50% of all visitors or 45% of your "Californians" audience.
 
-1. Click the **[!UICONTROL Traffic Allocation]** control, then choose the desired traffic allocation method in the right pane, as shown below:
+1. Click the **[!UICONTROL Traffic Allocation]** control, then choose the desired traffic allocation method in the right pane. In this scenario, click **[!UICONTROL Auto-Allocate to best experience]**.
 
     ![Traffic Allocation Method settings](/help/main/c-activities/t-test-ab/t-test-create-ab/assets/traffic-allocation-method-new.png)
 
-   Choose your desired traffic allocation method:
+   The following traffic allocation methods are available:
 
    * **[!UICONTROL Manual (Default)]**: Specify the percentage of entrants that you want to see each experience. You can split the percentages evenly between all experiences, or specify higher or lower percentages for each experience. The total for all experiences must equal 100%.
 
@@ -119,6 +115,10 @@ To create a manual [!UICONTROL A/B Test] activity:
 1. When you are satisfied with your audience, experience choices, and traffic allocation choices, click **[!UICONTROL Next]** to move to the third step of the three-step guided workflow.
 
 1. Specify the [goals and settings](/help/main/c-activities/t-test-ab/t-test-create-ab/ab-goals-and-settings.md) for the activity.
+
+   >[!NOTE]
+   >
+   >If you want to use [Analytics for Target](/help/main/c-integrating-target-with-mac/a4t/a4t.md) (A4T) with this activity, see important information in [A4T support for Auto-Allocate and Auto-Target activities](/help/main/c-integrating-target-with-mac/a4t/a4t-at-aa.md).
 
 1. Click **[!UICONTROL Save & Close]** or **[!UICONTROL Save]**.
 
