@@ -13,6 +13,7 @@ This page lists significant changes made to the [!DNL Adobe Target] product docu
 
 |Date|Topic|Changes|
 |--- |--- |--- |
+|October 14|[[!DNL Target] release notes (prerelease)](/help/main/r-release-notes/target-release-notes.md)|Added release notes for the [!DNL Target Standard/Premium] 24.10.2 release.|
 |September 30|[Limits](/help/main/r-troubleshooting-target/target-limits.md)|Updated the number of offers allowed.|
 |September 29|[at.js version details](https://experienceleague.adobe.com/en/docs/target-dev/developer/client-side/at-js-implementation/target-atjs-versions){target=_blank}|Added information about the at.js 2.11.6 release.|
 |September 11|[Users](/help/main/administrating-target/c-user-management/c-user-management/user-management.md)|Added following note under Specify roles and permissions:<P> To view activities in [!DNL Target], users must be directly assigned to a workspace with at least the [!UICONTROL Observer] role. Assignment through user groups alone is insufficient. It is generally recommended to grant users access to the default workspace.|
