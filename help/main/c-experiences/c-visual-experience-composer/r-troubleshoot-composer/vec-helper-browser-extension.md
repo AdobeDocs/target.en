@@ -13,9 +13,11 @@ The VEC Helper browser is a [!DNL Chrome] extension. This extension is not neces
 
 >[!IMPORTANT]
 >
->The legacy [!DNL Target] VEC Helper extension documented in this article was created using Manifest V2. [!DNL Google] announced that it will no longer allow extensions created using Manifest V2 starting in June 2024. For more information, see the [Manifest V2 support timeline announcement](https://developer.chrome.com/docs/extensions/develop/migrate/mv2-deprecation-timeline){target=_blank} from [!DNL Google] on the *Chrome for Developers* site.
+>* The legacy [!DNL Target] VEC Helper extension documented in this article was created using Manifest V2. [!DNL Google] announced that it will no longer allow extensions created using Manifest V2 starting in June 2024. For more information, see the [Manifest V2 support timeline announcement](https://developer.chrome.com/docs/extensions/develop/migrate/mv2-deprecation-timeline){target=_blank} from [!DNL Google] on the *Chrome for Developers* site.
 >
->Starting in June 2024, [!DNL Google] will begin disabling extensions created using Manifest V2, including the extension documented in this topic. [!DNL Adobe] recommends that customers move to the newer [Visual Editing Helper extension](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/visual-editing-helper-extension.md) as soon as feasible.
+>* Starting in June 2024, [!DNL Google] will begin disabling extensions created using Manifest V2, including the extension documented in this topic. [!DNL Adobe] recommends that customers move to the newer [Visual Editing Helper extension](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/visual-editing-helper-extension.md) as soon as feasible.
+>
+>* Customers using Private Chrome Web Stores, should continue to use this version of the extension until the support for this use case is implemented in the [new [!UICONTROL Visual Editing Helper] extension](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/visual-editing-helper-extension.md) by the end of January 2025.
 
 ## Reasons why some websites might not open reliably in the VEC
 
