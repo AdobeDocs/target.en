@@ -22,42 +22,27 @@ Use these links to access updated documentation as part of the Beta program for 
 
 +++Click to expand
 
-* [Activities overview](c-activities/activities.md){target=_blank}
-* [Target activity types](c-activities/target-activities-guide.md){target=_blank}
 * A/B Test {#abtest}
    * [A/B test overview](c-activities/t-test-ab/test-ab-beta.md){target=_blank}
-   * [How long should you run an A/B test?](c-activities/t-test-ab/sample-size-determination.md){target=_blank}
-   * [Ten common A/B testing pitfalls and how to avoid them](c-activities/t-test-ab/common-ab-testing-pitfalls.md){target=_blank}
-   * [A/A testing](/help/main/c-activities/t-test-ab/aa-testing.md){target=_blank}
-   * Create an A/B test {#create}
       * [Create an A/B test](c-activities/t-test-ab/t-test-create-ab/test-create-ab-beta.md){target=_blank}
       * [Activity URL](c-activities/t-test-ab/t-test-create-ab/ab-activity-url-beta.md){target=_blank}
       * [Add experience](c-activities/t-test-ab/t-test-create-ab/ab-add-experience-beta.md){target=_blank}
-      * [Select audience](c-activities/t-test-ab/t-test-create-ab/ab-audience.md){target=_blank}
       * [Goals and settings](c-activities/t-test-ab/t-test-create-ab/ab-goals-and-settings-beta.md){target=_blank}
-      * [Use Analytics Data](c-activities/t-test-ab/t-test-create-ab/create-a4t.md){target=_blank}
       * [Set metrics](c-activities/t-test-ab/t-test-create-ab/ab-set-metrics-beta.md){target=_blank}
       * [Multiple experience audiences in an A/B Test](c-activities/t-test-ab/t-test-create-ab/target-experience-to-multiple-audiences-beta.md){target=_blank}
 * Auto-Allocate {#auto-allocate}
-   * [Auto-Allocate overview](c-activities/automated-traffic-allocation/automated-traffic-allocation.md){target=_blank}
-   * [Create an Auto-Allocate activity](/help/main/c-activities/automated-traffic-allocation/create-auto-allocate-activity.md){target=_blank}
-   * [Interpret Auto-Allocate reports](c-activities/automated-traffic-allocation/determine-winner.md){target=_blank}
-   * [Auto-Allocate can give you faster test results and higher revenue than a manual test](/help/main/c-activities/automated-traffic-allocation/faster-results-higher-revenue.md){target=_blank}
+   * [Create an Auto-Allocate activity](/help/main/c-activities/automated-traffic-allocation/create-auto-allocate-activity-beta.md){target=_blank}
+   * [Interpret Auto-Allocate reports](c-activities/automated-traffic-allocation/determine-winner-beta.md){target=_blank}
 * Auto-Target {#auto-target}
-   * [Auto-Target overview](/help/main/c-activities/auto-target/auto-target-to-optimize.md){target=_blank}
-   * [Create an Auto-Target activity](/help/main/c-activities/auto-target/create-auto-target.md){target=_blank}
+   * [Auto-Target overview](/help/main/c-activities/auto-target/auto-target-to-optimize-beta.md){target=_blank}
+   * [Create an Auto-Target activity](/help/main/c-activities/auto-target/create-auto-target-beta.md){target=_blank}
    * [Auto-Target FAQs and troubleshooting](/help/main/c-activities/auto-target/auto-target-troubleshooting-faqs.md){target=_blank}
-   * [Reporting and Auto-Target](/help/main/c-activities/auto-target/reporting-and-auto-target.md){target=_blank}
 * Automated Personalization {#automated-personalization}
-   * [Automated Personalization overview](c-activities/t-automated-personalization/automated-personalization.md){target=_blank}
-   * [Random Forest Algorithm](c-activities/t-automated-personalization/algo-random-forest.md){target=_blank}
-   * [Create an Automated Personalization activity](c-activities/t-automated-personalization/create-ap-activity.md){target=_blank}
-   * [Upload data for the Target personalization algorithms](c-activities/t-automated-personalization/uploading-data-for-the-target-personalization-algorithms.md){target=_blank}
-   * [Data collection for the Target personalization algorithms](c-activities/t-automated-personalization/ap-data.md){target=_blank}
-   * [Estimate the traffic required for success](c-activities/t-automated-personalization/ap-traffic-estimator.md){target=_blank}
-   * [Preview experiences for an Automated Personalization test](c-activities/t-automated-personalization/ap-preview-experiences.md){target=_blank}
+   * [Create an Automated Personalization activity](c-activities/t-automated-personalization/create-ap-activity-beta.md){target=_blank}
+   * [Estimate the traffic required for success](c-activities/t-automated-personalization/ap-traffic-estimator-beta.md){target=_blank}
+   * [Preview experiences for an Automated Personalization test](c-activities/t-automated-personalization/ap-preview-experiences-beta.md){target=_blank}
    * [Target Automated Personalization offers](c-activities/t-automated-personalization/ap-target-offers.md){target=_blank}
-   * [Manage exclusions](c-activities/t-automated-personalization/managing-exclusions.md){target=_blank}
+   * [Manage exclusions](c-activities/t-automated-personalization/managing-exclusions-beta.md){target=_blank}
    * [Offer reporting groups in Automated Personalization](/help/main/c-activities/t-automated-personalization/offer-reporting-groups-in-automated-personalization.md){target=_blank}
    * [Select the control for your Automated Personalization or Auto-Target activity](c-activities/t-automated-personalization/experience-as-control.md){target=_blank}
    * [Automated Personalization FAQ](c-activities/t-automated-personalization/automated-personalization-faq.md){target=_blank}
