@@ -31,7 +31,6 @@ Use these links to access updated documentation as part of the Beta program for 
       * [Set metrics](c-activities/t-test-ab/t-test-create-ab/ab-set-metrics-beta.md){target=_blank}
       * [Multiple experience audiences in an A/B Test](c-activities/t-test-ab/t-test-create-ab/target-experience-to-multiple-audiences-beta.md){target=_blank}
 * Auto-Allocate {#auto-allocate}
-   * [Auto-Allocate overview](c-activities/automated-traffic-allocation/automated-traffic-allocation-beta.md){target=_blank}
    * [Create an Auto-Allocate activity](/help/main/c-activities/automated-traffic-allocation/create-auto-allocate-activity-beta.md){target=_blank}
    * [Interpret Auto-Allocate reports](c-activities/automated-traffic-allocation/determine-winner-beta.md){target=_blank}
 * Auto-Target {#auto-target}
