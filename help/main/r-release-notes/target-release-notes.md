@@ -1,5 +1,5 @@
 ---
-keywords: release notes;releases;updates;future release;enhancements;new features;fixes;updates;prerelease 
+keywords: release notes;releases;updates;future release;enhancements;new features;fixes;updates;prerelease;early access
 description: Learn about the new features, enhancements, and fixes included in the upcoming release of [!DNL Adobe Target], including SDKs, APIs, and JavaScript libraries.
 title: What New Features and Enhancements Are Included in the Upcoming [!DNL Target] Release?
 feature: Release Notes

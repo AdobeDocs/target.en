@@ -1,5 +1,5 @@
 ---
-keywords: Target;home;popular topics;adobe target;target standard;target premium;target documentation;adobe target documentation  
+keywords: Target;home;popular topics;adobe target;target standard;target premium;target documentation;adobe target documentation;practitioner guide;user guide 
 title: Adobe Target Business Practitioner Guide
 description: Learn how to use Adobe [!DNL Target] to personalize your customers' experience to maximize revenue on your web and mobile sites, apps, and other digital channels.
 feature: Overview
