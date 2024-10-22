@@ -1,5 +1,5 @@
 ---
-keywords: release notes;new features;releases;updates;update;release;enhancement;enhancements;fixes;bug fixes;updates 
+keywords: release notes;new features;releases;updates;update;release;enhancement;enhancements;fixes;bug fixes;updates,current updates
 description: Learn about the new features, enhancements, and fixes included in the current release of [!DNL Adobe Target], including SDKs, APIs, and JavaScript libraries.
 landing-page-description: Learn about the new features, enhancements, and fixes included in the current release of [!DNL Adobe Target].
 short-description: Learn about the new features, enhancements, and fixes included in the current release of [!DNL Adobe Target].
