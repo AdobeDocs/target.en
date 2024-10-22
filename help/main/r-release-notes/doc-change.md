@@ -13,6 +13,7 @@ This page lists significant changes made to the [!DNL Adobe Target] product docu
 
 |Date|Topic|Changes|
 |--- |--- |--- |
+|October 22|[[!DNL Target] release notes (current)](/help/main/r-release-notes/release-notes.md)|Added the following important information:<ul><li>[!DNL Adobe Experience Platform Web SDK] `__view__` scope optimization</li></ul>|
 |October 14|[[!DNL Target] release notes (prerelease)](/help/main/r-release-notes/target-release-notes.md)|Added release notes for the [!DNL Target Standard/Premium] 24.10.2 release.|
 ||[[!UICONTROL Visual Experience Composer] helper extension](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/vec-helper-browser-extension.md)|Added important information about using the extension with Private Chrome Web Stores.|
 ||[[!UICONTROL Visual Editing Helper] extension](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/visual-editing-helper-extension.md)|Added important information about using the extension with Private Chrome Web Stores.|
