@@ -37,6 +37,10 @@ Use these links to access updated documentation as part of the Beta program for 
    * [Auto-Target overview](/help/main/c-activities/auto-target/auto-target-to-optimize-beta.md){target=_blank}
    * [Create an Auto-Target activity](/help/main/c-activities/auto-target/create-auto-target-beta.md){target=_blank}
    * [Auto-Target FAQs and troubleshooting](/help/main/c-activities/auto-target/auto-target-troubleshooting-faqs.md){target=_blank}
+
++++
+
+<!-- 
 * Automated Personalization {#automated-personalization}
    * [Create an Automated Personalization activity](c-activities/t-automated-personalization/create-ap-activity-beta.md){target=_blank}
    * [Estimate the traffic required for success](c-activities/t-automated-personalization/ap-traffic-estimator-beta.md){target=_blank}
@@ -85,9 +89,7 @@ Use these links to access updated documentation as part of the Beta program for 
 * Activity QA {#activity-qa}
    * [Activity QA overview](c-activities/c-activity-qa/activity-qa.md){target=_blank}
    * [Activity QA bookmarklet](c-activities/c-activity-qa/activity-qa-bookmark.md){target=_blank}
-   * [Use Activity QA with server-side delivery](c-activities/c-activity-qa/use-qa-mode-with-server-side-delivery.md){target=_blank}
-
-+++
+   * [Use Activity QA with server-side delivery](c-activities/c-activity-qa/use-qa-mode-with-server-side-delivery.md){target=_blank}-->
 
 ## Offers
 
