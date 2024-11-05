@@ -10,11 +10,11 @@ exl-id: e83ad57e-716d-4595-b5cf-3a882fcb9e37
 ---
 # Create remote offers
 
-Use remote offers to host content outside [!DNL Adobe Target], allowing [!DNL Target] to reference and deliver this content to user websites. This content can reside in a content management system (CMS) or another system for ease of use or security reasons.
+Use remote offers to host content outside of [!DNL Adobe Target], allowing [!DNL Target] to reference and deliver this content to user websites. This content can reside in a content management system (CMS) or another system for ease of use or security reasons.
 
 >[!NOTE]
 >
->This article contains information about updates to the [!DNL Target] user interface that is currently part of a Beta program. The [!DNL Adobe Target] team often enables new features for select customers for testing and feedback purposes. After the testing period completes, these features are enabled for all customers in future [!DNL Target Standard/Premium] releases and announced in release notes. 
+>This article contains information about updates to the [!DNL Target] user interface that is currently part of a Beta program. The [!DNL Adobe Target] team often enables new features for select customers for testing and feedback purposes. After the testing period completes, these features are enabled for all customers in future [!DNL Target] releases and announced in [release notes](/help/main/r-release-notes/release-notes.md). 
 
 Remote offers can be created on the [!UICONTROL Offers] > [!UICONTROL Code Offers] page or in the [Forms-Based Experience Composer](/help/main/c-experiences/form-experience-composer.md). You cannot create or apply remote offers in the [!UICONTROL Visual Experience Composer] (VEC). Content is injected in the [!DNL Target] request locations, so these locations are most likely not appropriate for a global [!DNL Target] request.
 
@@ -64,14 +64,15 @@ Best practices for using remote offers in your activities:
 ## Create a remote offer using the [!UICONTROL Form-Based Experience Composer]
 
 1. While creating an activity using the [Form-Based Experience Composer](/help/main/c-experiences/form-experience-composer.md), select the location to display the **[!UICONTROL Content]** section.
+1. Click the **[!UICONTROL Content]** drop-down list, click the **[!UICONTROL List]** icon ( ![List](/help/main/assets/icons/MoreSmallList.svg) ), then click **[!UICONTROL Change Remote Offer]**.
 
-1. Click the **[!UICONTROL Default Content]** drop-down list, then click **[!UICONTROL Change Remote Offer]**.
-
-1. Click **[!UICONTROL Create]** > **[!UICONTROL Remote Offer]**.
+1. Click **[!UICONTROL Create Offer]** > **[!UICONTROL Remote Offer]**.
 
 1. Provide a descriptive name for the offer.
 
-   A descriptive name helps you and others quickly find the offer in the [!UICONTROL Assets] library. 
+   A descriptive name helps you and others quickly find the offer in the [!UICONTROL Assets] library.
+
+1. (Conditional) If you have a [Target Premium account](/help/main/c-intro/intro.md#premium), select the desired [workspace](/help/main/administrating-target/c-user-management/property-channel/properties-overview.md##section_B82EB409B67C4D9D9D20CE30E48DB1DC).
 
 1. Specify the redirect URL type.
 
@@ -79,7 +80,7 @@ Best practices for using remote offers in your activities:
 
 1. Specify the remote URL for the remote offer.
 
-1. Click **[!UICONTROL Save]**.
+1. Click **[!UICONTROL Create]**.
 
 ## Redirect URL Type: [!UICONTROL Onsite Cached] or [!UICONTROL Onsite Dynamic] {#url-type}
 
@@ -105,7 +106,7 @@ You can click **[!UICONTROL Add Parameter]** to add one or more [!DNL Target] re
 
 ## Use remote offers in activities
 
-You must apply remote offers using the [!UICONTROL Form-Based Experience Composer]. You cannot currently apply remote offers using the [!UICONTROL Visual Experience Composer] (VEC).
+Apply remote offers using the [!UICONTROL Form-Based Experience Composer]. You cannot currently apply remote offers using the [!UICONTROL Visual Experience Composer] (VEC).
 
 The [!DNL Adobe Target] [!UICONTROL Form-Based Experience Composer] is a non-visual experience and offer creation interface that's useful in creating experiences for use in [!UICONTROL A/B Tests], [!UICONTROL Experience Targeting] (XT), [!UICONTROL Automated Personalization] (AP), and [!UICONTROL Recommendations] activities when the [!UICONTROL Visual Experience Composer] is not available or practical for use. For example, you might use the [!UICONTROL Form-Based Experience Composer] to create experiences that use remote offers.
 
@@ -115,9 +116,9 @@ The [!DNL Adobe Target] [!UICONTROL Form-Based Experience Composer] is a non-vis
 
 1. Specify the desired location and add any audience refinements as necessary.
 
-1. Click the drop-down list in the **[!UICONTROL Content]** section, then click **[!UICONTROL Change Remote Offer]**.
+1. Click the **[!UICONTROL Content]** drop-down list, click the **[!UICONTROL List]** icon ( ![List](/help/main/assets/icons/MoreSmallList.svg) ), then click **[!UICONTROL Change Remote Offer]**.
 
-1. Select the desired remote offer from the [!UICONTROL Select Remote Offer] dialog box, then click **[!UICONTROL Done]**.
+1. Select the desired remote offer from the [!UICONTROL Change Remote Offer] dialog box, then click **[!UICONTROL Create Offer]** > **[!UICONTROL Remote Offer]**.
 
 1. Finish configuring the activity.
 
@@ -129,15 +130,15 @@ The offer is executed after you render the page. An invisible iFrame gathers the
 
 ![remote_offer_howitworks_2 image](assets/remote_offer_howitworks_2.jpeg)
 
-1. Visitor's browser requests a page from your server.
+1. The visitor's browser requests a page from your server.
 
 2. Browser renders page, including mboxes.
 
 3. `mboxCreate` call includes parameters necessary to render dynamic content.
 
-4. [!DNL Target] returns URL with location of dynamic content and its parameters. Sets an iFrame in mbox area.
+4. [!DNL Target] returns a URL with the location of dynamic content and its parameters. Sets an iFrame in the mbox area.
 
-5. Browser requests URL and renders in page.
+5. The browser requests the URL and renders in page.
 
 ## Remote offer selection matrix {#reference_B23BEDD29DDD47709A7651AFD27E776B}
 
@@ -152,13 +153,3 @@ The remote offer selection matrix helps you decide which type of remote offer to
 |Offers can include JavaScript|Yes|Yes|
 |Offer URL|Absolute or Relative|Relative|
 |Requesting computer|Adobe servers|The visitor's computer, which carries the visitor's cookies|
-
-## Training video: Form-based Composer ![Tutorial badge](/help/main/assets/tutorial.png)
-
-This video provides a demo of the [!UICONTROL Form-Based Experience Composer], which you can use to create remote offers.
-
-* Create an activity using the [!UICONTROL Form-Based Experience Composer] 
-* Understand when to use [!UICONTROL Form-Based Experience Composer] vs. the [!UICONTROL Visual Experience Composer] 
-* Use refinements to target a location
-
->[!VIDEO](https://video.tv.adobe.com/v/17390)
