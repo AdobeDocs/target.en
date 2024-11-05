@@ -10,11 +10,11 @@ exl-id: 3959641b-e436-4890-86ec-72abf173540d
 ---
 # Create offer folders
 
-Create folders in the [!DNL Adobe Target] [!UICONTROL Offer] library to hold code offers, image offers, as well as other folders to create a sub-folder structure.
+Create folders in the [!DNL Adobe Target] [!UICONTROL Offer] library to hold code offers, image offers. You can also create folders to create a sub-folder structure.
 
 >[!NOTE]
 >
->This article contains information about updates to the [!DNL Target] user interface that is currently part of a Beta program. The [!DNL Adobe Target] team often enables new features for select customers for testing and feedback purposes. After the testing period completes, these features are enabled for all customers in future [!DNL Target Standard/Premium] releases and announced in release notes.
+>This article contains information about updates to the [!DNL Target] user interface that is currently part of a Beta program. The [!DNL Adobe Target] team often enables new features for select customers for testing and feedback purposes. After the testing period completes, these features are enabled for all customers in future [!DNL Target] releases and announced in [release notes](/help/main/r-release-notes/release-notes.md).
 
 The process to create folders for code offers and image offers differs slightly. The following sections contain more information.
 
@@ -22,9 +22,7 @@ The process to create folders for code offers and image offers differs slightly.
 
 1. Click **[!UICONTROL Offers]** > **[!UICONTROL Code Offers]**.
 
-   ![Code Offers tab](/help/main/c-experiences/c-manage-content/assets/code-offers-tab-new.png)
-
-1. Click **[!UICONTROL Create Folder].
+1. Click **[!UICONTROL Create Folder]**.
 
 1. Provide a descriptive name for the folder.
 
@@ -48,7 +46,6 @@ For information about the tasks you can perform on offers and folders, see [Work
 
 1. (Optional) Specify a descriptive **[!UICONTROL Name]**.
 1. (Optional) Select **[!UICONTROL Private]** to specify that the folder is private so only you can see it and its contents.
-
 1. (Optional) Select **[!UICONTROL Reorder-able in List View]** to specify that you and others can reorder the folder's position in the [!UICONTROL List View].
 
 1. Click **[!UICONTROL Create]**.
