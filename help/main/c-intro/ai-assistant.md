@@ -5,6 +5,7 @@ title: How Do I Use the [!DNL AI Assistant] in [!DNL Target]?
 feature: Overview
 hide: yes
 hidefromtoc: yes
+exl-id: f46d95f3-0ca3-4d96-92a7-b67a2c8a4678
 ---
 # Using [!DNL Adobe Experience Platform] [!DNL AI Assistant] in [!DNL Adobe Target]
 
@@ -45,5 +46,3 @@ See the following documentation for more information about [!DNL AI Assistant]:
 |[Privacy, Security, and Governance in [!DNL AI Assistant]](https://experienceleague.adobe.com/en/docs/experience-platform/ai-assistant/privacy){target=_blank}|Learn how [!DNL AI Assistant] in [!DNL Adobe Experience Platform] is built with privacy, security, and governance at the forefront. Learn about the customer trust-focused capabilities that you can expect from [!DNL AI Assistant].|
 |[FAQ](https://experienceleague.adobe.com/en/docs/experience-platform/ai-assistant/faq){target=_blank}|Read answers to frequently asked questions about [!DNL AI Assistant].|
 |[[!DNL Adobe Experience Platform] release notes](https://experienceleague.adobe.com/en/docs/experience-platform/release-notes/latest){target=_blank}|Read about updates to existing features and documentation in [!DNL Adobe Experience Platform], including [!DNL AI Assistant].|
-
-

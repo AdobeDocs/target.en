@@ -5,6 +5,7 @@ title: How Do I Select an Audience in a [!DNL Target] A/B Activity?
 feature: A/B Tests
 hide: yes
 hidefromtoc: yes
+exl-id: 117cec36-87ef-4bd5-8a39-fb885b679d95
 ---
 # Select audience
 
@@ -58,4 +59,3 @@ For more information about all the options in the flow diagram, see [Create an A
 You can edit or copy an audience by clicking the [!UICONTROL More Actions] icon ( ![More Actions icon](/help/main/assets/icons/More.svg) ) next to the desired audience in the [!UICONTROL Add Audience] dialog box, then by clicking [!UICONTROL Edit] or [!UICONTROL Copy]. 
 
 Copying an audience is helpful if you want to create a similar audience to an existing audience. You can make a copy of the audience, make your edits, then save it as a new audience.
-

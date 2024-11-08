@@ -5,6 +5,7 @@ title: How Do I Create an [!UICONTROL Auto-Allocate] Activity?
 feature: Auto-Allocate
 hide: yes
 hidefromtoc: yes
+exl-id: 1bfa311a-cbd9-48be-9b28-840be55b1118
 ---
 # Create an [!UICONTROL Auto-Allocate] activity
 

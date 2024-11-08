@@ -5,6 +5,7 @@ title: Can I Use Multiple Experience Versions in an A/B Activity?
 feature: A/B Tests
 hide: yes
 hidefromtoc: yes
+exl-id: 791423e3-c748-4771-b824-c5ba6d3d6c32
 ---
 # Multiple experience audiences in an A/B Test
 

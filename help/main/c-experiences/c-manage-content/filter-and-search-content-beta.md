@@ -5,6 +5,7 @@ title: How Do I Search for Content in the Offers Library?
 feature: Experiences and Offers
 hide: yes
 hidefromtoc: yes
+exl-id: b84e23ec-0a0b-499c-8a43-8d04a32374c3
 ---
 # Search and filter content
 

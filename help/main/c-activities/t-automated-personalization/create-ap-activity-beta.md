@@ -6,6 +6,7 @@ badgePremium: label="Premium" type="Positive" url="https://experienceleague.adob
 feature: Automated Personalization
 hide: yes
 hidefromtoc: yes
+exl-id: fe6e5130-53a0-4254-8299-b52086c20004
 ---
 # Create an [!UICONTROL Automated Personalization] activity
 

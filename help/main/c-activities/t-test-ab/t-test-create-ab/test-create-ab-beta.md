@@ -5,6 +5,7 @@ title: How Do I Create an A/B Test?
 feature: A/B Tests
 hide: yes
 hidefromtoc: yes
+exl-id: 35b8d451-289f-4c9d-82ed-c3bdb091c8e3
 ---
 # Create an A/B Test activity
 

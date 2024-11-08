@@ -6,6 +6,7 @@ badgePremium: label="Premium" type="Positive" url="https://experienceleague.adob
 feature: Automated Personalization
 hide: yes
 hidefromtoc: yes
+exl-id: 35f9d20e-923e-4305-9e42-8197b68e8ccf
 ---
 # Preview experiences in [!UICONTROL Automated Personalization] activities in the [!UICONTROL Visual Experience Composer] (VEC)
 
@@ -25,4 +26,4 @@ Because [!DNL Adobe Target] [!UICONTROL Automated Personalization] (AP) activiti
 
 1. (Conditional) To exclude multiple experiences, select the check boxes for the desired experiences, then click the **[!UICONTROL More Actions]** icon ( ![More Actions icon](/help/main/assets/icons/MoreSmallList.svg) ) next to the experiences that you want to exclude, then click **[!UICONTROL Exclude]**.
 
-1. (Conditional) To include multiple experiences that have been excluded, select the check boxes for the desired experiences, then click the **[!UICONTROL More Actions]** icon ( ![More Actions icon](/help/main/assets/icons/MoreSmallList.svg) ) next to the experiences that you want to include, then click **[!UICONTROL Include]**. 
+1. (Conditional) To include multiple experiences that have been excluded, select the check boxes for the desired experiences, then click the **[!UICONTROL More Actions]** icon ( ![More Actions icon](/help/main/assets/icons/MoreSmallList.svg) ) next to the experiences that you want to include, then click **[!UICONTROL Include]**.

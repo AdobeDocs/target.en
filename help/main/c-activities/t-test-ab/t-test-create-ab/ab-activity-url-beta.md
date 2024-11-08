@@ -5,6 +5,7 @@ title: What Is the Activity URL In an A/B Activity?
 feature: A/B Tests
 hide: yes
 hidefromtoc: yes
+exl-id: 7f1b8364-790d-4767-bff3-4217ced1a77b
 ---
 # Activity URL
 
