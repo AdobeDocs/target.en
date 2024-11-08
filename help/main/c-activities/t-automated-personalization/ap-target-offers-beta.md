@@ -7,6 +7,7 @@ feature: Automated Personalization
 solution: Target,Analytics
 hide: yes
 hidefromtoc: yes
+exl-id: 2897c4d1-116d-483c-8fc0-64857b9cbdaf
 ---
 # Target [!UICONTROL Automated Personalization] offers
 

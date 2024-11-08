@@ -6,6 +6,7 @@ badgePremium: label="Premium" type="Positive" url="https://experienceleague.adob
 feature: Auto-Target
 hide: yes
 hidefromtoc: yes
+exl-id: d2c4532d-91ce-4bec-9cd3-a70a02f6b289
 ---
 # Create an [!UICONTROL Auto-Target] activity
 

@@ -5,6 +5,7 @@ title: How Do I Set Goal Metrics in an A/B Activity?
 feature: A/B Tests
 hide: yes
 hidefromtoc: yes
+exl-id: b7955ed7-61b4-429f-80ff-8efcafc10542
 ---
 # Set metrics
 

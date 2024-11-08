@@ -5,6 +5,7 @@ title: Discover the A/B Test Activities Available in [!DNL Target].
 feature: A/B Tests
 hide: yes
 hidefromtoc: yes
+exl-id: 7d5546b9-ee2d-4737-ad28-218863bee55a
 ---
 # A/B Test overview
 

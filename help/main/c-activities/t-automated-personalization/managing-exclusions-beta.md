@@ -7,6 +7,7 @@ feature: Automated Personalization
 solution: Target,Analytics
 hide: yes
 hidefromtoc: yes
+exl-id: 6debf1b8-a0e9-42ef-ba8d-20bd94266149
 ---
 # Manage exclusions
 

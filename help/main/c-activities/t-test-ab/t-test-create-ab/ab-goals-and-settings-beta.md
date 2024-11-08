@@ -5,6 +5,7 @@ title: How Do I Specify Goals and Settings in a [!DNL Target] A/B Activity?
 feature: A/B Tests
 hide: yes
 hidefromtoc: yes
+exl-id: aeafb4d8-a486-46cf-8871-4c220bc3674e
 ---
 # Goals and settings
 

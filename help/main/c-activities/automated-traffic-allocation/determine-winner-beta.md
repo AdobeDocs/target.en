@@ -5,6 +5,7 @@ title: How Do I Interpret [!UICONTROL Auto-Allocate] Reports?
 feature: Auto-Allocate
 hide: yes
 hidefromtoc: yes
+exl-id: bacf080e-c1dc-489e-899e-7365bd011119
 ---
 # Interpret [!UICONTROL Auto-Allocate] reports 
 

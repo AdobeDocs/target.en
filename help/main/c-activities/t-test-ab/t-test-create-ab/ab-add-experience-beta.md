@@ -5,6 +5,7 @@ title: How Do I Add Experiences in an A/B Activity?
 feature: A/B Tests
 hide: yes
 hidefromtoc: yes
+exl-id: 4b2d6cc6-f280-4d65-8153-53e9cd61d15a
 ---
 # Add experience
 

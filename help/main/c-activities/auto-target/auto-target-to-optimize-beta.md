@@ -6,6 +6,7 @@ badgePremium: label="Premium" type="Positive" url="https://experienceleague.adob
 feature: Auto-Target
 hide: yes
 hidefromtoc: yes
+exl-id: 3e55e032-3a70-4023-b705-2e489aa60277
 ---
 # [!UICONTROL Auto-Target] overview
 
