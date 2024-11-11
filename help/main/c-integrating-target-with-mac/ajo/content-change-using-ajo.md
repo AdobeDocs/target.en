@@ -12,9 +12,7 @@ exl-id: e5aed7cd-7701-4133-ac7c-98e528c8a763
 
 This use case helps you unlock the secrets to effective A/B testing content changes in [!DNL Adobe Journey Optimizer].
 
-This use case demonstrates how to perform familiar tasks, such as A/B testing with an [A/B Test activity](/help/main/c-activities/t-test-ab/test-ab.md), using [!DNL Journey Optimizer] instead of [!DNL Adobe Target].
-
-This use case is designed to demonstrate how to perform familiar tasks you might have performed using [!DNL Adobe Target], A/B testing using an [A/B Test activity](/help/main/c-activities/t-test-ab/test-ab.md), but using [!DNL Journey Optimizer].
+This use case demonstrates how to perform familiar tasks, such as A/B testing with an [A/B Test activity](/help/main/c-activities/t-test-ab/test-ab.md) in [!DNL Adobe Target], using [!DNL Journey Optimizer] instead of [!DNL Adobe Target].
 
 ## Benefits and value
 
@@ -26,7 +24,7 @@ This use case is designed to demonstrate how to perform familiar tasks you might
 
 * An apparel company increased conversions by testing various images and personalizing campaign landing pages with users' first names in the call-to-action text.
 
-* An e-commerce company found that its gold loyalty members had higher conversion rates by testing various product descriptions and images on a campaign landing page, leading to increased sales.
+* An e-commerce company found that its Gold loyalty members had higher conversion rates by testing various product descriptions and images on a campaign landing page, leading to increased sales.
 
 ## Steps
 
@@ -36,17 +34,13 @@ This use case is designed to demonstrate how to perform familiar tasks you might
 >
 >The video at the bottom of the page is especially helpful.
 
-Perform the following steps to optimize a web page by testing various images and personalizing messages with users' first names using a profile script:
+To optimize a web page by testing various images and personalizing messages with users' first names using a profile script:
 
-1. In [!DNL Adobe Journey Optimizer], click **Campaigns** in the left rail to display the [!UICONTROL Campaigns] page.
-
-   ![Adobe Journey Optimizer landing page with Campaigns tab highlighted.](/help/main/c-integrating-target-with-mac/ajo/assets/ajo-landing-page.png)
+1. In [!DNL Journey Optimizer], click **Campaigns** in the left rail to display the [!UICONTROL Campaigns] page.
 
 1. Click **[!UICONTROL Create Campaign]** in the upper right corner of the [!UICONTROL Campaigns] page.
 
 1. Select **[!UICONTROL Scheduled - Marketing]** (the default), then click **Create** to display the [!UICONTROL Campaign] details page.
-
-   ![Campaign details page in Adobe Journey Optimizer](/help/main/c-integrating-target-with-mac/ajo/assets/campaign-details.png)
 
 1. In the **[!UICONTROL Properties]** section, provide a descriptive name and optional description for the campaign.
 
@@ -80,7 +74,7 @@ Perform the following steps to optimize a web page by testing various images and
 
 1. On the [!UICONTROL Campaign] details page, under **[!UICONTROL Action]**, click **[!UICONTROL Edit Content]**.
 
-1. Click Web under Treatment B
+1. Click Web under Treatment B.
 
    For this use case, keep [!UICONTROL Treatment A] unchanged to use the original experience as the first experience in the A/B test.
 
