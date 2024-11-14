@@ -17,6 +17,12 @@ Release notes are arraigned in descending order by month and year of release.
 
 ## Release notes - 2024
 
+### at.js version 2.11.6 (September 29, 2024)
+
+* Fixed an issue that prevented [!DNL Target] from operating correctly with redirect offers within the [!UICONTROL Visual Experience Composer] (VEC) or [!UICONTROL Form-Based Experience Composer].
+
+For more information about at.js releases, see [at.js version details](https://experienceleague.adobe.com/en/docs/target-dev/developer/client-side/at-js-implementation/target-atjs-versions){target=_blank} in the *Adobe Target Developer Guide*.
+
 ### [!DNL Target] reporting in [!DNL Adobe Customer Journey Analytics] (May 8, 2024)
 
 The integration between [Adobe Customer Journey Analytics](https://experienceleague.adobe.com/en/docs/customer-journey-analytics){target=_blank} and [!DNL Target] provides powerful analysis and timesaving tools for your optimization program.
