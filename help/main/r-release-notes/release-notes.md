@@ -48,12 +48,6 @@ The [!DNL Platform Web SDK] supports two implementation types for rendering expe
 
 If you have questions, contact [Adobe Customer Care](/help/main/cmp-resources-and-contact-information.md##reference_ACA3391A00EF467B87930A450050077C). (KB-2179)
 
-## at.js version 2.11.6 (September 29, 2024)
-
-* Fixed an issue that prevented [!DNL Target] from operating correctly with redirect offers within the [!UICONTROL Visual Experience Composer] (VEC) or [!UICONTROL Form-Based Experience Composer].
-
-For more information about at.js releases, see [at.js version details](https://experienceleague.adobe.com/en/docs/target-dev/developer/client-side/at-js-implementation/target-atjs-versions){target=_blank} in the *Adobe Target Developer Guide*.
-
 ## Additional release notes and version details
 
 |Resource|Details|
