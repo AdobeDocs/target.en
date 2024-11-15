@@ -1,7 +1,7 @@
 ---
 keywords: activities guide;activities;activity;activity types;activity actions
 description: Download an interactive PDF that describes the different activity types in [!DNL Adobe Target].
-title: What Activity Types Are Available in [!DNL Target]?
+title: Which Activity Types Are Available in [!DNL Target]?
 feature: Activities
 exl-id: fa62592d-230a-4388-94bb-d9bc3bdfe973
 ---
