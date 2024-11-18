@@ -13,7 +13,7 @@ Use metrics in an [!DNL Adobe Target] A/B activity to determine when a visit is 
 
 For detailed information about success metrics, see [Success Metrics](/help/main/c-activities/r-success-metrics/success-metrics.md#reference_D011575C85DA48E989A244593D9B9924). 
 
-1. In the **[!UICONTROL Reporting Settings]** section of the **[!UICONTROL Goals & Settings]** page, select a [success metric](/help/main/c-activities/r-success-metrics/success-metrics.md#reference_D011575C85DA48E989A244593D9B9924)
+1. In the **[!UICONTROL Reporting Settings]** section of the **[!UICONTROL Goals & Settings]** page, select a [success metric](/help/main/c-activities/r-success-metrics/success-metrics.md#reference_D011575C85DA48E989A244593D9B9924).
 
    The [!UICONTROL Select Metrics] option lists the success metrics that you can choose for your activity. The success metrics are divided into the following categories:
    

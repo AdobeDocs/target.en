@@ -1,6 +1,6 @@
 ---
 keywords: Create A/B;A/B test;A/B activity;new a/b activity;create a/b
-description: Master the [!UICONTROL Visual Experience Composer] (VEC) to create A/B Test activities directly on a [!DNL Target]-enabled page.
+description: Use the [!UICONTROL Visual Experience Composer] (VEC) to create A/B Test activities directly on a [!DNL Target]-enabled page.
 title: How Do I Create an A/B Test?
 feature: A/B Tests
 hide: yes
@@ -96,8 +96,8 @@ To create a manual [!UICONTROL A/B Test] activity:
 
       If you need to create a new audience that is not already in the [!UICONTROL Audience Library], click **Create Audience**. During the [create-audience workflow](/help/main/c-target/c-audiences/audiences.md) you can choose from the following options:
 
-      * Create an on-demand audience that is saved to the [!UICONTROL Audience Library] that can be reused in other activities
-      * Create an [activity-specific audience](/help/main/c-target/creating-activity-only-audience.md) that is not saved to the [!UICONTROL Audience Library] and can be used in the current activity only 
+      * **[!UICONTROL Audience Library]**: Create an on-demand audience that is saved to the [!UICONTROL Audience Library] that can be reused in other activities.
+      * **[!UICONTROL This activity only]**: Create an [activity-specific audience](/help/main/c-target/creating-activity-only-audience.md) that is not saved to the [!UICONTROL Audience Library] and can be used in the current activity only.
    
    1. Click **[!UICONTROL Visitor Percentage]** in the right frame, then choose the percentage of qualifying visitors that you want to enter the activity.
 

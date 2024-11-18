@@ -35,10 +35,12 @@ For more information about all the options in the flow diagram, see [Create an A
 
 1. (Conditional) Click **Combine Audiences** to [create an audience that combines multiple audiences](/help/main/c-target/combining-multiple-audiences.md). 
 
-1. (Conditional) To create a new audience that is not already in the [!UICONTROL Audience Library], click **Create Audience**. During the [create-audience workflow](/help/main/c-target/c-audiences/audiences.md), you can choose from the following options:
+1. (Conditional) To create a new audience that is not already in the [!UICONTROL Audience Library], click **Create Audience**, define the audience, then click **[!UICONTROL Done]**. 
 
-    * Create an on-demand audience that is saved to the [!UICONTROL Audience Library] that can be reused in other activities
-    * Create an [activity-specific audience](/help/main/c-target/creating-activity-only-audience.md) that is not saved to the [!UICONTROL Audience Library] and can be used in the current activity only 
+    During the [create-audience workflow](/help/main/c-target/c-audiences/audiences.md), you can choose from the following options:
+
+    * **[!UICONTROL Audience Library]**: Create an on-demand audience that is saved to the [!UICONTROL Audience Library] that can be reused in other activities.
+    * **[!UICONTROL This activity only]**: Create an [activity-specific audience](/help/main/c-target/creating-activity-only-audience.md) that is not saved to the [!UICONTROL Audience Library] and can be used in the current activity only.
 
 1. Click **[!UICONTROL Visitor Percentage]** in the right pane, then specify the percentage of qualifying visitors to include in the activity.
 
@@ -46,7 +48,7 @@ For more information about all the options in the flow diagram, see [Create an A
 
 >[!NOTE]
 >
->Audiences are automatically imported in the background when you open the audience list and the imported audiences are more than 10 minutes old.
+>Audiences are automatically imported in the background when you open the [!UICONTROL Audience] list and the imported audiences are more than 10 minutes old.
 
 ## View an audience's information
 

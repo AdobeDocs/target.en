@@ -1,6 +1,6 @@
 ---
 keywords: Targeting;experience;add experience;experience add
-description: Master using the [!UICONTROL Visual Experience Composer] (VEC) to add experiences to activities.
+description: Use the [!UICONTROL Visual Experience Composer] (VEC) to add experiences to activities.
 title: How Do I Add Experiences in an A/B Activity?
 feature: A/B Tests
 hide: yes
