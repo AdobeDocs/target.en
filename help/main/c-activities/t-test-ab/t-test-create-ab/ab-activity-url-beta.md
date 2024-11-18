@@ -21,7 +21,7 @@ When prompted during activity creation, specify the activity URL. Type the compl
 
 By default, the [!UICONTROL Visual Experience Composer] opens the page that is specified in your [Visual Experience Composer settings](/help/main/administrating-target/visual-experience-composer-set-up.md). You can specify a different page during activity creation.
 
-1. To display a different page after the [!UICONTROL Visual Experience Composer] opens, on the **[!UICONTROL Experiences]** page, click  **[!UICONTROL Configure]** at the top of the page, then select **[!UICONTROL Page Delivery]**. 
+1. (Conditional) To display a different page after the [!UICONTROL Visual Experience Composer] opens, on the **[!UICONTROL Experiences]** page, click  **[!UICONTROL Configure]** at the top of the page, then select **[!UICONTROL Page Delivery]**. 
 
 1. Specify the URL in the **[!UICONTROL URL]** field.
 
@@ -35,6 +35,7 @@ By default, the [!UICONTROL Visual Experience Composer] opens the page that is s
    * Hash (#) Fragment 
    * Query 
    * mbox Parameter
+   * Custom
 
    Additional rules can be joined to the activity URL with AND or OR. All rules you add are evaluated against each other with AND.
 

@@ -31,7 +31,7 @@ In this case, what you need are geo-specific versions of the experience, so you 
    
 1. Select the experience, then click **[!UICONTROL Configure]** > **[!UICONTROL Multiple Audiences]**.
 
-1. Click the **[!UICONTROL Add Audience]** icon ( ![Add icon](/help/main/assets/icons/Add.svg) ) in the Experience Audiences pane, then select the first audience you want to target. Repeat for each audience.
+1. Click the **[!UICONTROL Add Audience]** icon ( ![Add icon](/help/main/assets/icons/Add.svg) ) in the [!UICONTROL Experience Audiences] pane, then select the first audience you want to target. Repeat for each audience.
 
    If the audience does not yet exist, click [Create Audience](/help/main/c-target/c-audiences/create-audience.md#task_E18BD77A9A8F4ED0AC50569F94556558) and set it up.
 

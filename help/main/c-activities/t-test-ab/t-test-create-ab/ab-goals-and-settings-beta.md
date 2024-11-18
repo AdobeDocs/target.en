@@ -11,7 +11,7 @@ exl-id: aeafb4d8-a486-46cf-8871-4c220bc3674e
 
 The [!UICONTROL Goals & Settings] page in [!DNL Adobe Target] is where you specify information about the goals of the activity.
 
-The available settings depend on whether you use Target or [Analytics](/help/main/c-integrating-target-with-mac/a4t/a4t.md) as the reporting source.
+The available settings depend on whether you use Target or [Analytics as the reporting source](/help/main/c-integrating-target-with-mac/a4t/a4t.md).
 
 ## [!UICONTROL Activity Settings] {#section_DCBDC354261F420EBD4B43EA34947BAC}
 
@@ -49,7 +49,7 @@ The following options are available:
 | Setting | Description |
 |--- |--- |
 |[!UICONTROL Which success metric must be reached before incrementing this metric?]|Use this option to only count someone as reaching the success metric if they've previously reached a different success metric. For example, an activity conversion might only be valid if the visitor clicks the offer, or reaches a particular page before converting. You can provide dependency on multiple metrics along with the flexibility to choose whether the metric should be reached or not reached for the count to increase. Define both (or multiple) success metrics before you can make one dependent on another. The [!UICONTROL Add Dependency] option allows the success metric to increment if another success metric has been reached or has not been reached. To add a dependency:<ul><li>After adding additional metrics, click [!UICONTROL Advanced Settings].</li><li>Click the [!UICONTROL Add Dependency] option:</li><li>Drag and drop the desired metrics from the left pane into the right pane, then click [!UICONTROL Reached] to toggle the setting between [!UICONTROL Reached] and[!UICONTROL  Not Reached].</li><li>You can edit or remove dependencies after adding them.</li></ul>|
-|[!UICONTROL What will happen after a user encounters this goal metric?]|There are three options for what happens after a visitor reaches the goal metric:<ul><li>Select [!UICONTROL Increment Count & Keep User in Activity] to specify how the count is incremented.</li><li>Select [!UICONTROL Increment Count, Release User & Allow Reentry] to specify the experience the user sees if they reenter the activity.</li><li>Select [!UICONTROL Increment Count, Release User & Bar from Reentry] to specify what the user sees instead of the activity content.</li></ul>|
+|[!UICONTROL What will happen after a user encounters this goal metric?]|There are three options for what happens after a visitor reaches the goal metric:<ul><li>Select **[!UICONTROL Increment Count & Keep User in Activity]** to specify how the count is incremented.</li><li>Select **[!UICONTROL Increment Count, Release User & Allow Reentry]** to specify the experience the user sees if they reenter the activity.</li><li>Select **[!UICONTROL Increment Count, Release User & Bar from Reentry]** to specify what the user sees instead of the activity content.</li></ul>|
 |[!UICONTROL How will the count be incremented?]|There are three options for how the count is incremented:<ul><li>[!UICONTROL Once per Entrant]</li><li>[!UICONTROL On Every Impression (Excluding page refreshes)]</li><li>[!UICONTROL On Every Impression]</li></ul>|
 
 See [Success Metrics](/help/main/c-activities/r-success-metrics/success-metrics.md#reference_D011575C85DA48E989A244593D9B9924) for more information about advanced settings.
