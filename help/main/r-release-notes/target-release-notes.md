@@ -25,7 +25,7 @@ All new [!DNL Adobe Experience Platform Web SDK] customers will have this optimi
 
 >[!IMPORTANT]
 >
->If you cannot complete your implementation review and resolve any issues by February 3, 2025, you can request a one-time, six-month extension. Ensure your request is submitted by January 31, 2025. Adobe will review and decide on your request.
+>If you cannot complete your implementation review and resolve any issues by February 3, 2025, you can request a one-time, six-month extension. Ensure that your request is submitted by January 31, 2025. Adobe will review and decide on your request.
 
 To benefit from this optimization in case of manual proposition rendering, review your [[!DNL Platform Web SDK implementation]](https://experienceleague.adobe.com/en/docs/target-dev/developer/client-side/aep-web-sdk){target=_blank} to ensure that you are sending notifications after manually rendering experiences or when using the `applyPropositions` method (or the corresponding [!DNL Launch] action as a helper) to render experiences.
 
