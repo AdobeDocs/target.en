@@ -13,6 +13,7 @@ This page lists significant changes made to the [!DNL Adobe Target] product docu
 
 |Date|Topic|Changes|
 |--- |--- |--- |
+|November 20|[Allowlist Target edge nodes](https://experienceleague.adobe.com/en/docs/target-dev/developer/implementation/privacy/allowlist-edges#target-edge-ip-addresses){target=_blank}|Updated the list of Target edge IP addresses to allowlist.|
 |November 19|[[!DNL Target] release notes (current)](/help/main/r-release-notes/release-notes.md)|Added following important note to the "[!DNL Adobe Experience Platform Web SDK] `__view__` scope optimization (October 22, 2024)" section:<ul><li>IMPORTANT: If you cannot complete your implementation review and resolve any issues by February 3, 2025, you can request a one-time, six-month extension. Ensure that your request is submitted by January 31, 2025. Adobe will review and decide on your request.</li><ul>|
 |October 22|[[!DNL Target] release notes (current)](/help/main/r-release-notes/release-notes.md)|Added the following important information:<ul><li>[!DNL Adobe Experience Platform Web SDK] `__view__` scope optimization</li></ul>|
 |October 14|[[!DNL Target] release notes (prerelease)](/help/main/r-release-notes/target-release-notes.md)|Added release notes for the [!DNL Target Standard/Premium] 24.10.2 release.|
