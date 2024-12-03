@@ -29,7 +29,7 @@ The [!UICONTROL Offers] library provides an overview of all code and image offer
 |Left-navigation rail|Switch between displaying [!UICONTROL Code Offers] or [!UICONTROL Image Offers].|
 |[!UICONTROL Show Folders] / [!UICONTROL Hide Folders]<P>![Show Filters/Hide Filters icon](/help/main/assets/icons/RailLeft.svg)|Click the **[!UICONTROL Show Folders]** or **[!UICONTROL Hide Folders]** icon to toggle between displaying your offers folder structure or not displaying your folder structure.<P>For more information, see [Create offer folders](/help/main/c-experiences/c-manage-content/create-content-folder.md).|
 |[!UICONTROL Show filters] icon<P>![Show Filters icon](/help/main/assets/icons/Filter.svg)|Click the **[!UICONTROL Show filters]** icon to filter offers by [!UICONTROL Type], [!UICONTROL Source], and [!UICONTROL AEM Type].<P>For more information, see [Apply filters to the Offers list](#filters) below.|
-|Search fields|Use the **[!UICONTROL Search in]** fields to quickly find an offer or to reduce the number of offers displayed in the [!UICONTROL Offers] library. You can search by [!UICONTROL Offer Name], [!UICONTROL AEM Paths], or [!UICONTROL AEM Tags].|
+|Search fields|Use the **[!UICONTROL Search in]** fields to quickly find an offer or to reduce the number of offers displayed in the [!UICONTROL Offers] library. You can search by [!UICONTROL Offer Name], [!UICONTROL AEM Paths], or [!UICONTROL AEM Tags]. Search options are session-persistent.|
 |[!UICONTROL Create Folder]|Click **[!UICONTROL Create Folder]** to create folders in the [!UICONTROL Offer] library to hold code offers, image offers, as well as other folders to create a sub-folder structure.<P>For more information, see [Create offer folders](/help/main/c-experiences/c-manage-content/create-content-folder.md).|
 |[!UICONTROL [!UICONTROL Create Offer]]|Click **[!UICONTROL Create Offer]** to create an offer.<P>For more information about creating the various offer types, see: <ul><li>HTML Offer</li><li>[JSON Offer](/help/main/c-experiences/c-manage-content/create-json-offer.md)</li><li>[Redirect Offer](/help/main/c-experiences/c-manage-content/offer-redirect.md)</li><li>[Remote Offer](/help/main/c-experiences/c-manage-content/about-remote-offers.md)</li></ul>|
 |Bulk operations checkboxes<P>![Bulk Operations icon](/help/main/assets/icons/Rectangle.svg)|Click the [!UICONTROL Bulk Operations] checkboxes to perform bulk operations on all offers or on selected offers.<P>For a list of actions that are available (depending on your permissions and the offer status), see [Perform quick actions](#quick-actions) below.|
@@ -49,6 +49,8 @@ The **[!UICONTROL Show filters]** icon lets you filter offers by the following c
 * **[!UICONTROL Source]**: [!DNL Adobe Target], [!DNL Adobe Target Classic], and [!DNL Adobe Experience Manager].
 
 * **AEM Type**: [Content Fragments](/help/main/c-integrating-target-with-mac/aem/content-fragments-aem.md) and [Experience Fragments](/help/main/c-integrating-target-with-mac/aem/experience-fragments-aem.md). For more information about the different fragment types, see [AEM Experience Fragments and Content Fragments overview](/help/main/c-integrating-target-with-mac/aem/aem-experience-and-content-fragments.md).
+
+Filters are session-persistent.
 
 ## Perform quick actions {#quick-actions}
 
