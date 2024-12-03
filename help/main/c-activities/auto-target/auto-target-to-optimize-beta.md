@@ -30,7 +30,7 @@ Keep reading to learn how to use [!UICONTROL Auto-Target] to increase lift and r
 
 While [creating an A/B activity](/help/main/c-activities/t-test-ab/t-test-create-ab/test-create-ab.md) using the three-step guided workflow, choose the **[!UICONTROL Auto-Target for personalized experiences]** option on the **[!UICONTROL Targeting]** page (step 2).
 
-![Traffic Allocation Method settings](/help/main/c-activities/t-test-ab/t-test-create-ab/assets/traffic-allocation-method-new.png)
+![Traffic Allocation Method settings](/help/main/c-activities/automated-traffic-allocation/assets/auto-target.png)
 
 The [!UICONTROL Auto-Target] option within the A/B activity flow lets you harness machine-learning to personalize based on a set of marketer-defined experiences in one click. [!UICONTROL Auto-Target] is designed to deliver maximum optimization, compared to traditional A/B testing or [!UICONTROL Auto Allocate], by determining which experience to display for each visitor. Unlike an A/B activity in which the objective is to find a single winner, [!UICONTROL Auto-Target] automatically determines the best experience for a given visitor. The best experience is based on the visitor's profile and other contextual information to deliver a highly personalized experience.
 
