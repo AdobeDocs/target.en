@@ -40,17 +40,7 @@ JSON offers are supported only in activities created using the [Form-Based Exper
 
 Here is an example:
 
-```json
-adobe.target.getOffer({ 
-  mbox: "some-mbox", 
-  success: function(actions) { 
-    console.log('Success', actions); 
-  }, 
-  error: function(status, error) { 
-    console.log('Error', status, error); 
-  } 
-});
-```
+![Create JSON offer dialog box](/help/main/c-experiences/c-manage-content/assets/json-example.png)
 
 The actions passed to success callback is an array of object. Assuming that you have a single JSON offer, that has this content:
 

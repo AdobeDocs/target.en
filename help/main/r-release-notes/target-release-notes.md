@@ -9,13 +9,27 @@ exl-id: f2783042-f6ee-4f73-b487-ede11d55d530
 
 This article contains prerelease information for upcoming [!DNL Adobe Target] releases, including SDKs, APIs, and JavaScript libraries.
 
-**Last Updated: November 14, 2024**
+**Last Updated: December 3, 2024**
 
 >[!NOTE]
 >
 >Release dates, features, and other information are subject to change without notice.
 >
 >To view information about the current release, see [Target Release Notes](release-notes.md). The information on these pages might be the same, depending on the timing of releases. The issue numbers in parentheses are for internal [!DNL Adobe] use.
+
+## [!UICONTROL Offers Library] user interface update (January 9, 2024)
+
+To enhance the user experience for [!DNL Adobe Target] users, this release updates the [!UICONTROL Offers Library] user interface. Using the latest [!DNL Adobe Spectrum] design system, this update standardizes inconsistent design patterns and introduces new enhancements, including:
+
+* **Bulk Offer management**: Select and delete multiple offers simultaneously.
+
+* **Code Editor upgrades**: Refreshed HTML and JSON editors with syntax highlighting and line numbering.
+
+* **Improved Offer cards**: Enhanced quick information and detail cards for easier information access.
+
+* **Persistent search and filters**: Adds session-persistent search and filter options.
+
+Starting January 9, 2025, all [!DNL Target] customers will gain access to the new UI, with the option to switch back to the current version of the UI if needed.
 
 ## [!DNL Adobe Experience Platform Web SDK] `__view__` scope optimization (October 22, 2024)
 
