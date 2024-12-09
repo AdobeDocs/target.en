@@ -19,13 +19,13 @@ This article contains prerelease information for upcoming [!DNL Adobe Target] re
 
 ## [!UICONTROL Offers Library] user interface update (January 9, 2024)
 
-To enhance the user experience for [!DNL Adobe Target] users, this release updates the [!UICONTROL Offers Library] user interface. Using the latest [!DNL Adobe Spectrum] design system, this update standardizes inconsistent design patterns and introduces new enhancements, including:
+To enhance the user experience for [!DNL Adobe Target] users, this release updates the [!UICONTROL Offers Library] user interface. Using the latest [!DNL Adobe Spectrum] design system, this update standardizes inconsistent design patterns and introduces new enhancements, including the following:
 
-* **Bulk Offer management**: Select and delete multiple offers simultaneously.
+* **Bulk offer management**: Select and delete multiple offers simultaneously.
 
-* **Code Editor upgrades**: Refreshed HTML and JSON editors with syntax highlighting and line numbering.
+* **[!UICONTROL Code Editor] upgrades**: Refreshed HTML and JSON editors with syntax highlighting and line numbering.
 
-* **Improved Offer cards**: Enhanced quick information and detail cards for easier information access.
+* **Improved offer cards**: Enhanced quick information and detail cards for easier information access.
 
 * **Persistent search and filters**: Adds session-persistent search and filter options.
 
