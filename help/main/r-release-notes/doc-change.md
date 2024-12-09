@@ -13,6 +13,7 @@ This page lists significant changes made to the [!DNL Adobe Target] product docu
 
 |Date|Topic|Changes|
 |--- |--- |--- |
+|December 9|[[!UICONTROL Visual Experience Composer] best practices and limitations](/help/main/c-experiences/c-visual-experience-composer/experience-composer-best-practices.md)|Added the following limitation:<ul><li>You cannot select the [!UICONTROL Button] element for rearranging.<P>[!UICONTROL Button] elements cannot be directly selected for rearranging. To enable rearrangement, place buttons inside a larger container.</li></ul>|
 |December 3|[[!DNL Target] release notes (prerelease)](/help/main/r-release-notes/target-release-notes.md)|Added prerelease notes for the upcoming [!UICONTROL Offers Library] user interface update.|
 |November 20|[Allowlist Target edge nodes](https://experienceleague.adobe.com/en/docs/target-dev/developer/implementation/privacy/allowlist-edges#target-edge-ip-addresses){target=_blank}|Updated the list of Target edge IP addresses to allowlist.|
 |November 19|[[!DNL Target] release notes (current)](/help/main/r-release-notes/release-notes.md)|Added following important note to the "[!DNL Adobe Experience Platform Web SDK] `__view__` scope optimization (October 22, 2024)" section:<ul><li>IMPORTANT: If you cannot complete your implementation review and resolve any issues by February 3, 2025, you can request a one-time, six-month extension. Ensure that your request is submitted by January 31, 2025. Adobe will review and decide on your request.</li><ul>|
