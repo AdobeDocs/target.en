@@ -39,7 +39,7 @@ To create an [!UICONTROL Auto-Allocate] activity:
 
    The [!UICONTROL Visual Experience Composer] opens, showing the page specified in the URL.
 
-1. Click **[!UICONTROL Untitled Activity]** at the top of the VEC, then specify a name for the activity in the space provided.
+1. Click the **[!UICONTROL Rename]** icon ( ![Rename icon](/help/main/assets/icons/MoreSmallListVert.svg) ), click **[!UICONTROL Rename]**, specify a name for the activity, then click **[!UICONTROL Save]**.
 
    The activity name cannot begin with any of the following characters:
 
