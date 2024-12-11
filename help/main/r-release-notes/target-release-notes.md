@@ -9,7 +9,7 @@ exl-id: f2783042-f6ee-4f73-b487-ede11d55d530
 
 This article contains prerelease information for upcoming [!DNL Adobe Target] releases, including SDKs, APIs, and JavaScript libraries.
 
-**Last Updated: December 3, 2024**
+**Last Updated: December 11, 2024**
 
 >[!NOTE]
 >
@@ -30,6 +30,10 @@ To enhance the user experience for [!DNL Adobe Target] users, this release updat
 * **Persistent search and filters**: Adds session-persistent search and filter options.
 
 Starting January 9, 2025, all [!DNL Target] customers will gain access to the new UI, with the option to switch back to the current version of the UI if needed.
+
+Here's a short video that highlights the changes in this release:
+
+![Offers UI refresh video](/help/main/r-release-notes/assets/offers-video-v2.gif)
 
 ## [!DNL Adobe Experience Platform Web SDK] `__view__` scope optimization (October 22, 2024)
 

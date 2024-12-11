@@ -38,7 +38,7 @@ The [!UICONTROL Automated Personalization] (AP) activity workflow in [!DNL Targe
 
    The page with the specified URL opens in the VEC.
  
-1. Click **[!UICONTROL Untitled Activity]** at the top of the VEC, then specify a name for the activity in the space provided.
+1. Click the **[!UICONTROL Rename]** icon ( ![Rename icon](/help/main/assets/icons/MoreSmallListVert.svg) ), click **[!UICONTROL Rename]**, specify a name for the activity, then click **[!UICONTROL Save]**.
 
    The activity name cannot begin with any of the following characters:
 
