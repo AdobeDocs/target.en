@@ -58,3 +58,4 @@ Each Text/HTML offer becomes a separate experience in that location.
 * You must have at least three elements to test. If you have fewer, run a series of A/B tests. 
 * Each element's alternatives should be significantly different from each other. 
 * Although not required, it is good practice for each element to have the same number of alternatives.
+
