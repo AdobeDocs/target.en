@@ -68,11 +68,9 @@ The [!UICONTROL Automated Personalization] (AP) activity workflow in [!DNL Targe
 
    You can select multiple images at once from the asset manager. This lets you quickly view the page with each of the images configured for the activity. You can also easily edit text elements in your offers. When you edit an element, bars appear on that element to indicate you have changed it.
 
-1. Click **[!UICONTROL Manage Content]** to configure the available combinations.
+1. Click the **[!UICONTROL Manage Content]** icon ( ![Manage Content icon](/help/main/assets/icons/Experience.svg) ) to configure the available combinations.
 
-   ![Manage Content option](/help/main/c-activities/t-automated-personalization/assets/manage-content.png)
-
-   A dialogue box displays with three options at the top of the screen: [!UICONTROL Experiences], [!UICONTROL Offers], and [!UICONTROL Exclusion Groups].
+   A dialog box displays with three options at the top of the screen: [!UICONTROL Experiences], [!UICONTROL Offers], and [!UICONTROL Exclusion Groups].
 
    ![Manage Content dialog box](/help/main/c-activities/t-automated-personalization/assets/ap_content-new.png)
 

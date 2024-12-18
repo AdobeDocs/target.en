@@ -20,7 +20,7 @@ Remember that [!DNL Target] randomly serves experiences until the personalizatio
 
 ## Use the Traffic Estimator
 
-1. From the [!UICONTROL Experiences] page of the [!UICONTROL Visual Experience Composer] in an [!UICONTROL Automated Personalization] activity, click the  **[!UICONTROL Traffic]** icon ( ![Traffic Estimator icon](/help/main/assets/icons/Gauge2.svg) ) in the top left corner of the Experiences page.
+1. From the [!UICONTROL Experiences] page of the [!UICONTROL Visual Experience Composer] in an [!UICONTROL Automated Personalization] activity, click the  **[!UICONTROL Traffic]** icon ( ![Traffic Estimator icon](/help/main/assets/icons/Gauge2.svg) ) in the top left corner of the [!UICONTROL Experiences] page.
 
    The [!UICONTROL Traffic Estimator] opens.
 
