@@ -9,7 +9,7 @@ exl-id: f2783042-f6ee-4f73-b487-ede11d55d530
 
 This article contains prerelease information for upcoming [!DNL Adobe Target] releases, including SDKs, APIs, and JavaScript libraries.
 
-**Last Updated: December 11, 2024**
+**Last Updated: January 7, 2025**
 
 >[!NOTE]
 >
@@ -21,7 +21,7 @@ This article contains prerelease information for upcoming [!DNL Adobe Target] re
 
 To enhance the user experience for [!DNL Adobe Target] users, this release updates the [!UICONTROL Offers Library] user interface. Using the latest [!DNL Adobe Spectrum] design system, this update standardizes inconsistent design patterns and introduces new enhancements, including the following:
 
-* **Bulk offer management**: Select and delete multiple offers simultaneously.
+* **Bulk offer management**: Select and delete or move multiple offers simultaneously.
 
 * **[!UICONTROL Code Editor] upgrades**: Refreshed HTML and JSON editors with syntax highlighting and line numbering.
 
@@ -30,6 +30,8 @@ To enhance the user experience for [!DNL Adobe Target] users, this release updat
 * **Persistent search and filters**: Adds session-persistent search and filter options.
 
 Starting January 9, 2025, all [!DNL Target] customers will gain access to the new UI, with the option to switch back to the current version of the UI if needed.
+
+For more information see [Offers](/help/main/c-experiences/c-manage-content/manage-content.md) and the sub-articles in this section.
 
 Here's a short video that highlights the changes in this release:
 

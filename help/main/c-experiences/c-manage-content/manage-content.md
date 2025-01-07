@@ -13,6 +13,10 @@ To display the [!UICONTROL Offers] library, click the **[!UICONTROL Offers]** ta
 
 ![Offers page](/help/main/c-experiences/c-manage-content/assets/offers-page-new.png)
 
+>[!NOTE]
+>
+>This article documents the updated [!UICONTROL Offers] UI released January 9, 2025. If you prefer to use the legacy [!UICONTROL Offers] UI, toggle [!UICONTROL Switch to the Old Experience] to the on position. 
+
 The [!UICONTROL Offers] library contains offers that have been set up via [!DNL Target Standard/Premium], [!DNL Target Classic], [!DNL Adobe Experience Manager] (AEM), [!DNL Adobe Mobile Services] (AMS), and APIs. Offers created in [!DNL Target Classic] or other solutions are editable in [!DNL Target Standard/Premium].
 
 The [!UICONTROL Offers] library provides an overview of all code and image offers and lets you perform various actions:
