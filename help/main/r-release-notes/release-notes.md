@@ -13,6 +13,26 @@ These release notes provide information about features, enhancements, and fixes 
 
 (The issue numbers in parentheses are for internal [!DNL Adobe] use.)
 
+## [!UICONTROL Offers Library] user interface update (January 9, 2025)
+
+To enhance the user experience for [!DNL Adobe Target] users, this release updates the [!UICONTROL Offers Library] user interface. Using the latest [!DNL Adobe Spectrum] design system, this update standardizes inconsistent design patterns and introduces new enhancements, including the following:
+
+* **Bulk offer management**: Select and delete or move multiple offers simultaneously.
+
+* **[!UICONTROL Code Editor] upgrades**: Refreshed HTML and JSON editors with syntax highlighting and line numbering.
+
+* **Improved offer cards**: Enhanced quick information and detail cards for easier information access.
+
+* **Persistent search and filters**: Adds session-persistent search and filter options.
+
+Starting January 9, 2025, all [!DNL Target] customers will gain access to the new UI, with the option to switch back to the current version of the UI if needed.
+
+For more information see [Offers](/help/main/c-experiences/c-manage-content/manage-content.md) and the sub-articles in this section.
+
+Here's a short video that highlights the changes in this release:
+
+![Offers UI refresh video](/help/main/r-release-notes/assets/offers-video-v2.gif)
+
 ## [!DNL Adobe Experience Platform Web SDK] `__view__` scope optimization (October 22, 2024)
 
 Between July 22, 2024 and August 15, 2024, the [!DNL Target] team optimized the `__view__` scope, enhancing the accuracy of activity impression, visit, and visitor reporting. This optimization aims to automatically capture reporting data for auto-rendered propositions and should be transparent to most accounts.

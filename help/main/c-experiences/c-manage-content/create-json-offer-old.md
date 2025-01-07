@@ -1,11 +1,9 @@
 ---
 keywords: json offer;create json offer
-description: Learn how to create JSON offers for use in the [!UICONTROL Form-Based Experience Composer].
+description: Learn how to create JSON offers in for use in the [!UICONTROL Form-Based Experience Composer].
 title: How Do I Create JSON Offers?
 feature: Experiences and Offers
-hide: yes
-hidefromtoc: yes
-exl-id: e022c2d1-3326-405b-aead-5bb4ffa309b3
+exl-id: 793665a4-4cd6-458f-8225-ba23e503a115
 ---
 # Create JSON offers
 
@@ -19,20 +17,24 @@ Consider the following information as you work with JSON offers:
 
 * JSON offers are currently available only for [!UICONTROL A/B Test], [!UICONTROL Automated Personalization] (AP), and [!UICONTROL Experience Targeting] (XT) activities. 
 * JSON offers can be used in [form-based activities](/help/main/c-experiences/form-experience-composer.md) only. 
-* JSON offers can be retrieved directly when you are using the [Server Side APIs and Mobile Node.js, Java, .NET, and Python SDKs](https://experienceleague.adobe.com/en/docs/target-dev/developer/server-side/server-side-overview){target=_blank}. 
-* In the browser, JSON offers can be retrieved only via at.js 1.2.3 (or later) and using [getOffer()](https://experienceleague.adobe.com/en/docs/target-dev/developer/client-side/at-js-implementation/functions-overview/adobe-target-getoffer){target=_blank} by filtering actions using the `setJson` action. 
+* JSON offers can be retrieved directly when you are using the [Server Side APIs and Mobile Node.js, Java, .NET, and Python SDKs](https://experienceleague.adobe.com/docs/target-dev/developer/server-side/server-side-overview.html){target=_blank}. 
+* In the browser, JSON offers can be retrieved only via at.js 1.2.3 (or later) and using [getOffer()](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/functions-overview/adobe-target-getoffer.html){target=_blank} by filtering actions using the `setJson` action. 
 * JSON offers are delivered as native JSON objects rather than as strings. Consumers of these objects are no longer required to handle objects as strings and convert them to JSON objects. 
-* JSON offers are not applied automatically as opposed to other offers (such as HTML offers) because JSON offers are non-visual offers. Developers must write code to explicitly get the offer using [getOffer()](https://experienceleague.adobe.com/en/docs/target-dev/developer/client-side/at-js-implementation/functions-overview/adobe-target-getoffer){target=_blank}. 
+* JSON offers are not applied automatically as opposed to other offers (such as HTML offers) because JSON offers are non-visual offers. Developers must write code to explicitly get the offer using [getOffer()](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/functions-overview/adobe-target-getoffer.html){target=_blank}. 
 
 ## Create a JSON offer {#section_BB9C72D59DEA4EFB97A906AE7569AD7A}
 
-1. Click **[!UICONTROL Offers]** > **[!UICONTROL Code Offers]**.  
-1. Click **[!UICONTROL Create Offer]** > **[!UICONTROL JSON Offer]**.
-1. Type an offer name.
-1. (Conditional) If you have a [[!DNL Target] Premium account](/help/main/c-intro/intro.md#premium), choose the desired [workspace](/help/main/administrating-target/c-user-management/property-channel/property-channel.md#workspace).
-1. (Conditional) Choose the desired profile attributes.
+1. Click **[!UICONTROL Offers]** > **[!UICONTROL Code Offers]**.
+
+   ![Offers > Code Offers tab](/help/main/c-experiences/c-manage-content/assets/code-offers-tab.png)
+   
+1. Click **[!UICONTROL Create]** > **[!UICONTROL JSON Offer]**.
+
+   ![offer-json image](assets/offer-json.png)
+
+1. Type an offer name. 
 1. Type or paste your JSON code in the **[!UICONTROL Code]** box. 
-1. Click **[!UICONTROL Create]**.
+1. Click **[!UICONTROL Save]**.
 
 ## JSON example {#section_A54F7BB2B55D4B7ABCD5002E0C72D8C9}
 
@@ -40,9 +42,19 @@ JSON offers are supported only in activities created using the [Form-Based Exper
 
 Here is an example:
 
-![Create JSON offer dialog box](/help/main/c-experiences/c-manage-content/assets/json-example.png)
+```json
+adobe.target.getOffer({ 
+  mbox: "some-mbox", 
+  success: function(actions) { 
+    console.log('Success', actions); 
+  }, 
+  error: function(status, error) { 
+    console.log('Error', status, error); 
+  } 
+});
+```
 
-The actions passed to success callback is an array of object. Assuming that you have a single JSON offer, that has this content:
+The actions passed to success callback is an array of object. Assuming that we have a single JSON offer, that has this content:
 
 ```json
 { 
@@ -121,4 +133,6 @@ For more information, see [Share Real-time CDP Profile Attributes with [!DNL Tar
 
 ## Filtering offers by the JSON offer type {#section_52533555BCE6420C8A95EB4EB8907BDE}
 
-You can filter the [!UICONTROL Offers] library by the JSON offer type by clicking the **[!UICONTROL Show filters]** icon ( ![Show Filters icon](/help/main/assets/icons/Filter.svg) ), then by selecting the **[!UICONTROL JSON Offers]** checkbox.
+You can filter the [!UICONTROL Offers] library by the JSON offer type by clicking the **[!UICONTROL Type]** drop-down list, then by selecting the **[!UICONTROL JSON]** checkbox.
+
+![offer-json-filter image](assets/offer-json-filter.png) 

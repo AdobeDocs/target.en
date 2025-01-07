@@ -91,24 +91,6 @@ Use these links to access updated documentation as part of the Beta program for 
    * [Activity QA bookmarklet](c-activities/c-activity-qa/activity-qa-bookmark.md){target=_blank}
    * [Use Activity QA with server-side delivery](c-activities/c-activity-qa/use-qa-mode-with-server-side-delivery.md){target=_blank}-->
 
-## Offers
-
-+++Click to expand
-
-* [Offers overview](/help/main/c-experiences/c-manage-content/manage-content-beta.md){target="_blank"}
-* [Create offer folder](/help/main/c-experiences/c-manage-content/create-content-folder-beta.md){target="_blank"}
-* [Upload content](/help/main/c-experiences/c-manage-content/assets-upload-beta.md){target="_blank"}
-* [Upload or delete image offers](/help/main/c-experiences/c-manage-content/assets-upload-beta.md){target="_blank"}
-* [Create redirect offers](/help/main/c-experiences/c-manage-content/offer-redirect-beta.md){target="_blank"}
-* [Create remote offers](/help/main/c-experiences/c-manage-content/about-remote-offers-beta.md){target="_blank"}
-* [Create JSON offers](/help/main/c-experiences/c-manage-content/create-json-offer-beta.md){target="_blank"}
-* [Work with content in the library](/help/main/c-experiences/c-manage-content/assets-working-beta.md){target="_blank"}
-* [Search content](/help/main/c-experiences/c-manage-content/filter-and-search-content.md){target="_blank"}
-* [Pass dynamic data into offers](/help/main/c-experiences/c-manage-content/passing-profile-attributes-to-the-html-offer.md){target="_blank"}
-* [AEM Experience and Content Fragments](/help/main/c-experiences/c-manage-content/aem-experience-fragments.md){target="_blank"}
-
-+++
-
 ## Recommendations
 
 +++Click to expand
