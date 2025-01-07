@@ -13,6 +13,7 @@ This page lists significant changes made to the [!DNL Adobe Target] product docu
 
 |Date|Topic|Changes|
 |--- |--- |--- |
+|January 7|[Target release notes (current)](/help/main/r-release-notes/release-notes.md)|Added release notes for the  [!UICONTROL Offers Library] user interface update (scheduled for January 9, 2025). All Offers articles were updated to reflect the UI changes.|
 |December 9|[[!UICONTROL Visual Experience Composer] best practices and limitations](/help/main/c-experiences/c-visual-experience-composer/experience-composer-best-practices.md)|Added the following limitation:<ul><li>You cannot select the [!UICONTROL Button] element for rearranging.<P>[!UICONTROL Button] elements cannot be directly selected for rearranging. To enable rearrangement, place buttons inside a larger container.</li></ul>|
 ||[adobe.target.triggerView (viewName, options) - at.js 2.x](https://experienceleague.adobe.com/en/docs/target-dev/developer/client-side/at-js-implementation/functions-overview/adobe-target-triggerview-atjs-2){target=_blank}|Added the following section:<ul><li>Example: Best compatibility for `triggerView()` with the Adobe Visual Editing Helper extension</li></ul>|
 |December 3|[[!DNL Target] release notes (prerelease)](/help/main/r-release-notes/target-release-notes.md)|Added prerelease notes for the upcoming [!UICONTROL Offers Library] user interface update.|
