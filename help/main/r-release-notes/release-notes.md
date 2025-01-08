@@ -25,8 +25,6 @@ To enhance the user experience for [!DNL Adobe Target] users, this release updat
 
 * **Persistent search and filters**: Adds session-persistent search and filter options.
 
-Starting January 9, 2025, all [!DNL Target] customers will gain access to the new UI, with the option to switch back to the current version of the UI if needed.
-
 For more information see [Offers](/help/main/c-experiences/c-manage-content/manage-content.md) and the sub-articles in this section.
 
 Here's a short video that highlights the changes in this release:
