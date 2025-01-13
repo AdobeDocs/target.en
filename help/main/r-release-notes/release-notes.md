@@ -25,7 +25,7 @@ To enhance the user experience for [!DNL Adobe Target] users, this release updat
 
 * **Persistent search and filters**: Adds session-persistent search and filter options.
 
-For more information see [Offers](/help/main/c-experiences/c-manage-content/manage-content.md) and the sub-articles in this section.
+For more information see [Offers](/help/main/c-experiences/c-manage-content/manage-content.md) and the sub-articles in this section. All Offers articles in this section have been updated to reflect these UI changes.
 
 Here's a short video that highlights the changes in this release:
 
