@@ -15,7 +15,13 @@ These release notes provide information about features, enhancements, and fixes 
 
 ## [!UICONTROL Offers Library] user interface update (January 9, 2025)
 
-To enhance the user experience for [!DNL Adobe Target] users, this release updates the [!UICONTROL Offers Library] user interface. Using the latest [!DNL Adobe Spectrum] design system, this update standardizes inconsistent design patterns and introduces new enhancements, including the following:
+To enhance the user experience for [!DNL Adobe Target] users, this release updates the [!UICONTROL Offers Library] user interface. 
+
+>[!NOTE]
+>
+>To ensure a seamless rollout for all customers, this release will be deployed in controlled stages. The first stage upgraded the initial group of Target customers to the new Offers UI. Subsequent stages will upgrade the remaining customers.
+
+Using the latest [!DNL Adobe Spectrum] design system, this update standardizes inconsistent design patterns and introduces new enhancements, including the following:
 
 * **Bulk offer management**: Select and delete or move multiple offers simultaneously.
 

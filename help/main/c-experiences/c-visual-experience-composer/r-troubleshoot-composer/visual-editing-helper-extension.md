@@ -12,8 +12,6 @@ The [!DNL Adobe Experience Cloud] [!UICONTROL Visual Editing Helper] browser ext
 >[!IMPORTANT]
 >
 >* This new extension replaces the previous [Target VEC Helper browser extension](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/vec-helper-browser-extension.md). See the Important note at the top of that article. Because of security enhancements in Manifest v3, [!DNL Adobe] requires downloading this new extension to continue to visually author your websites in [!DNL Target].
->
->* This new extension currently does not support Private Chrome Web Stores. This feature will be supported by the end of January 2025. For customers that are using Private Chrome Web Stores to upload extensions, use the [legacy [!UICONTROL Visual Experience Composer] helper extension](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/vec-helper-browser-extension.md) instead.
 
 ## Reasons why some websites might not open reliably in the VEC
 
