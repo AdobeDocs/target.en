@@ -24,6 +24,6 @@ Because [!DNL Adobe Target] [!UICONTROL Automated Personalization] (AP) activiti
 
    You might choose to exclude an experience that shows conflicting variations or an experience that is not aesthetically balanced.
 
-1. (Conditional) To exclude multiple experiences, select the check boxes for the desired experiences, then click the **[!UICONTROL More Actions]** icon ( ![More Actions icon](/help/main/assets/icons/MoreSmallList.svg) ) next to the experiences that you want to exclude, then click **[!UICONTROL Exclude]**.
+1. (Conditional) To exclude multiple experiences, select the check boxes for the desired experiences, then click **[!UICONTROL Exclude]**.
 
-1. (Conditional) To include multiple experiences that have been excluded, select the check boxes for the desired experiences, then click the **[!UICONTROL More Actions]** icon ( ![More Actions icon](/help/main/assets/icons/MoreSmallList.svg) ) next to the experiences that you want to include, then click **[!UICONTROL Include]**.
+1. (Conditional) To include multiple experiences that have been excluded, select the check boxes for the desired experiences, then click **[!UICONTROL Include]**.

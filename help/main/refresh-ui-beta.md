@@ -37,7 +37,11 @@ Use these links to access updated documentation as part of the Beta program for 
    * [Auto-Target overview](/help/main/c-activities/auto-target/auto-target-to-optimize-beta.md){target=_blank}
    * [Create an Auto-Target activity](/help/main/c-activities/auto-target/create-auto-target-beta.md){target=_blank}
    * [Auto-Target FAQs and troubleshooting](/help/main/c-activities/auto-target/auto-target-troubleshooting-faqs.md){target=_blank}
-
+* Automated Personalization {#automated-personalization}
+   * [Create an Automated Personalization activity](/help/main/c-activities/t-automated-personalization/create-ap-activity-beta.md)
+   * [Estimate the traffic required for success](https://experienceleague.adobe.com/en/docs/target/using/activities/automated-personalization/ap-traffic-estimator-beta)
+   * [Preview experiences in Automated Personalization activities in the Visual Experience Composer (VEC)](https://experienceleague.adobe.com/en/docs/target/using/activities/automated-personalization/ap-preview-experiences-beta)
+   * [Target Automated Personalization offers](https://experienceleague.adobe.com/en/docs/target/using/activities/automated-personalization/ap-target-offers)
 +++
 
 <!-- 

@@ -26,7 +26,7 @@ In this scenario, Visitor 1 sees Offer 1 (because this visitor qualifies as part
 
 ## Set up targeting rules 
 
-1. Create an [Automated Personalization activity](/help/main/c-activities/t-automated-personalization/create-ap-activity.md) containing the offers that you want to target.
+1. Create or edit an [Automated Personalization activity](/help/main/c-activities/t-automated-personalization/create-ap-activity.md) containing the offers that you want to target.
 1. After setting up the offers for the activity in the [!UICONTROL Visual Experience Composer], click the **[!UICONTROL Manage Content]** icon ( ![Manage Content icon](/help/main/assets/icons/Experience.svg) ).
 
    The [!UICONTROL Manage Content] dialog box displays.
