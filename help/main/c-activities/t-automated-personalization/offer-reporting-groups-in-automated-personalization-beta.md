@@ -6,6 +6,7 @@ badgePremium: label="Premium" type="Positive" url="https://experienceleague.adob
 feature: Reports
 hide: yes
 hidefromtoc: yes
+exl-id: a9d1b368-5862-4998-a1de-e8626ff5bd61
 ---
 # Offer reporting groups in [!UICONTROL Automated Personalization]
 
