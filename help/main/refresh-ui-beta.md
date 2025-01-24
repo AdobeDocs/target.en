@@ -42,6 +42,8 @@ Use these links to access updated documentation as part of the Beta program for 
    * [Estimate the traffic required for success](https://experienceleague.adobe.com/en/docs/target/using/activities/automated-personalization/ap-traffic-estimator-beta)
    * [Preview experiences in Automated Personalization activities in the Visual Experience Composer (VEC)](https://experienceleague.adobe.com/en/docs/target/using/activities/automated-personalization/ap-preview-experiences-beta)
    * [Target Automated Personalization offers](https://experienceleague.adobe.com/en/docs/target/using/activities/automated-personalization/ap-target-offers)
+   * [Offer reporting groups in Automated Personalization-beta](/help/main/c-activities/t-automated-personalization/offer-reporting-groups-in-automated-personalization-beta.md)
+   * [Select the control for your Automated Personalization or Auto-Target activity-beta](c-activities/t-automated-personalization/experience-as-control-beta.md)
 +++
 
 <!-- 
