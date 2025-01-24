@@ -160,7 +160,9 @@ feature-set: Target
       + [Manage exclusions](c-activities/t-automated-personalization/managing-exclusions.md)
       + [Manage exclusions beta](c-activities/t-automated-personalization/managing-exclusions-beta.md)
       + [Offer reporting groups in Automated Personalization](/help/main/c-activities/t-automated-personalization/offer-reporting-groups-in-automated-personalization.md)
+      + [Offer reporting groups in Automated Personalization-beta](/help/main/c-activities/t-automated-personalization/offer-reporting-groups-in-automated-personalization-beta.md)
       + [Select the control for your Automated Personalization or Auto-Target activity](c-activities/t-automated-personalization/experience-as-control.md)
+      + [Select the control for your Automated Personalization or Auto-Target activity-beta](c-activities/t-automated-personalization/experience-as-control-beta.md)
       + [Automated Personalization FAQ](c-activities/t-automated-personalization/automated-personalization-faq.md)
       + [Troubleshoot Automated Personalization](c-activities/t-automated-personalization/ap-trouble.md)
    + Experience Targeting {#experience-targeting}
