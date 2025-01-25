@@ -169,9 +169,13 @@ feature-set: Target
       + [Experience Targeting overview](c-activities/t-experience-target/experience-target.md)
       + Create an Experience Targeting activity {#create-targeting}
          + [Create an activity](c-activities/t-experience-target/t-xt-create/xt-create.md)
+         + [Create an activity-beta](c-activities/t-experience-target/t-xt-create/xt-create-beta.md)
          + [Activity URL](c-activities/t-experience-target/t-xt-create/xt-activity-url.md)
+         + [Activity URL-beta](c-activities/t-experience-target/t-xt-create/xt-activity-url-beta.md)
          + [Create an experience](c-activities/t-experience-target/t-xt-create/xt-add-experience.md)
+         + [Create an experience-beta](c-activities/t-experience-target/t-xt-create/xt-add-experience-beta.md)
          + [Switching experiences in Experience Targeting](c-activities/t-experience-target/t-xt-create/xt-switching-experiences.md)
+         + [Switching experiences in Experience Targeting-beta](c-activities/t-experience-target/t-xt-create/xt-switching-experiences-beta.md)
          + [Goals and settings](c-activities/t-experience-target/t-xt-create/xt-goals-and-settings.md)
          + [Set metrics](c-activities/t-experience-target/t-xt-create/xt-set-metrics.md)
    + Multivariate Test {#multivariate-test}

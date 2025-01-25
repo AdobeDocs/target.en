@@ -34,13 +34,3 @@ This video describes how to take A/B testing to the next level with [!UICONTROL 
 * Describe how to reorder experiences to ensure that the right content is delivered to the right audience
 
 >[!VIDEO](https://video.tv.adobe.com/v/22418/)
-
-### Activity Types (9:03)
-
-This video explains the activity types available in [!DNL Target]. [!UICONTROL Experience Targeting] is discussed beginning at 5:15.
-
-* Describe the types of activities included in [!DNL Target] 
-* Select the appropriate activity type to achieve your goals 
-* Describe the three-step guided workflow that applies to all activity types
-
->[!VIDEO](https://video.tv.adobe.com/v/17386)
