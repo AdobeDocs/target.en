@@ -5,6 +5,7 @@ title: Can Visitors Switch Experiences in an [!UICONTROL Experience Targeting] A
 feature: Experience Targeting
 hide: yes
 hidefromtoc: yes
+exl-id: 3a7771e0-5576-4e11-ae61-db4ed1237c92
 ---
 # Switching experiences in [!UICONTROL Experience Targeting]
 

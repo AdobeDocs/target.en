@@ -5,6 +5,7 @@ title: How Do I Create Experiences in an [!UICONTROL Experience Targeting] Activ
 feature: Experience Targeting
 hide: yes
 hidefromtoc: yes
+exl-id: f4c13e52-83e0-4e50-ae1f-4e040f08bae9
 ---
 # Create experience in [!UICONTROL Experience Targeting] (XT) activities
 

@@ -5,6 +5,7 @@ title: What Is the [!UICONTROL Activity URL] In an [!UICONTROL Experience Target
 feature: Experience Targeting
 hide: yes
 hidefromtoc: yes
+exl-id: 9926e4e0-728d-4375-b639-d26f067ed854
 ---
 # Activity URL in [!UICONTROL Experience Targeting] (XT) activities
 
