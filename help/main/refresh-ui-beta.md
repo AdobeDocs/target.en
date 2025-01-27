@@ -50,13 +50,13 @@ Use these links to access updated documentation as part of the Beta program for 
    * [Create an experience-beta](c-activities/t-experience-target/t-xt-create/xt-add-experience-beta.md)
    * [Switching experiences in Experience Targeting-beta](c-activities/t-experience-target/t-xt-create/xt-switching-experiences-beta.md)
 * Multivariate Test (MVT) {#mvt}
-   + [Create a test beta](c-activities/c-multivariate-testing/t-create-multivariate-test/create-multivariate-test-beta.md)
-   + [Activity URL beta](c-activities/c-multivariate-testing/t-create-multivariate-test/url-beta.md)
-   + [Create combinations beta](c-activities/c-multivariate-testing/t-create-multivariate-test/add-offers-beta.md)
-   + [Preview experiences for a Multivariate Test beta](c-activities/c-multivariate-testing/t-create-multivariate-test/preview-experiences-beta.md)
-   + [Estimate the traffic required for a successful test beta](c-activities/c-multivariate-testing/t-create-multivariate-test/traffic-estimator-beta.md)
-   + [Test summary beta](c-activities/c-multivariate-testing/t-create-multivariate-test/test-summary-beta.md)
-   + [Set metrics beta](c-activities/c-multivariate-testing/t-create-multivariate-test/mvt-set-metrics-beta.md)
+   * [Create a test beta](c-activities/c-multivariate-testing/t-create-multivariate-test/create-multivariate-test-beta.md)
+   * [Activity URL beta](c-activities/c-multivariate-testing/t-create-multivariate-test/url-beta.md)
+   * [Create combinations beta](c-activities/c-multivariate-testing/t-create-multivariate-test/add-offers-beta.md)
+   * [Preview experiences for a Multivariate Test beta](c-activities/c-multivariate-testing/t-create-multivariate-test/preview-experiences-beta.md)
+   * [Estimate the traffic required for a successful test beta](c-activities/c-multivariate-testing/t-create-multivariate-test/traffic-estimator-beta.md)
+   * [Test summary beta](c-activities/c-multivariate-testing/t-create-multivariate-test/test-summary-beta.md)
+   * [Set metrics beta](c-activities/c-multivariate-testing/t-create-multivariate-test/mvt-set-metrics-beta.md)
 +++
 
 <!-- 
