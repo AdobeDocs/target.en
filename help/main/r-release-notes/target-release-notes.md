@@ -37,13 +37,13 @@ Based on the latest [!DNL Adobe Spectrum] design system, the update standardizes
 
 ![Activities refresh](/help/main/r-release-notes/assets/activities-refresh.png)
 
-## [!DNL Recommendations] user interface update (February 7, 2025)
+## [!DNL Recommendations] user interface update (February 6, 2025)
 
 As the [!DNL Adobe Target] UI modernization effort continues, we are pleased to announce the general availability of the updated [!DNL Recommendations] User Interface. 
 
 >[!NOTE]
 >
->Starting Thursday, February 7, customers will gradually have access to the new [!UICONTROL Recommendations]  UI. To ensure a seamless rollout for all customers, this release will be deployed in controlled stages. The first stage will upgrade the initial group of [!DNL Target] customers to the new [!UICONTROL Activities] UI. Subsequent stages will upgrade the remaining customers.
+>Starting Wednesday, February 6, customers will gradually have access to the new [!UICONTROL Recommendations]  UI. To ensure a seamless rollout for all customers, this release will be deployed in controlled stages. The first stage will upgrade the initial group of [!DNL Target] customers to the new [!UICONTROL Activities] UI. Subsequent stages will upgrade the remaining customers.
 
 Based on the latest [!DNL Adobe Spectrum] design system, the update standardizes previously inconsistent design patterns, while adding new enhancements, such as:
 
