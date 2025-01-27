@@ -15,5 +15,6 @@ This page lists significant changes made to the [!DNL Adobe Target] product docu
 
 |Date|Topic|Changes|
 |--- |--- |--- |
+|January 27|[[!DNL Target] release notes (prerelease)](/help/main/r-release-notes/target-release-notes.md)|Added prerelease notes for the following updates: <ul><li>[!UICONTROL Activities] user interface update (February 6, 2025)</li><li>[!DNL Recommendations] user interface update (February 7, 2025)</li></ul> |
 |January 22|[Visual Editing Helper extension](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/visual-editing-helper-extension.md)|The new [!UICONTROL Visual Editing Helper Extension] now supports [!DNL Private Chrome Web Stores]. A note was removed indicating that customers using [!DNL Private Chrome Web Stores] continue using the legacy [!UICONTROL Visual Experience Composer helper extension].|
 |January 7|[Target release notes (current)](/help/main/r-release-notes/release-notes.md)|Added release notes for the [!UICONTROL Offers Library] user interface update (scheduled for January 9, 2025). All Offers articles were updated to reflect the UI changes.|
