@@ -34,8 +34,6 @@ A key difference between plug-ins and response tokens is that plug-ins deliver J
 
 1. In [!DNL Target], click **[!UICONTROL Administration]** > **[!UICONTROL Response Tokens]**.
 
-   ![response_tokens-new image](assets/response_tokens-new.png)
-
 1. Activate the desired response tokens, such as `activity.id` and `offer.id`.
 
    The following parameters are available by default:
@@ -65,8 +63,6 @@ A key difference between plug-ins and response tokens is that plug-ins deliver J
 1. (Conditional) To use a profile parameter as a response token, but the parameter has not been passed through a [!DNL Target] request and, thus, has not loaded into the [!DNL Target] UI, you can use the [!UICONTROL Add Response Token] button to add the profile to the UI.
 
    Click **[!UICONTROL Add Response Token]**, provide the token name, then click **[!UICONTROL Activate]**.
-
-   ![response_token_create image](assets/response_token_create.png)
 
 1. Create an activity.
 

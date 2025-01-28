@@ -18,6 +18,13 @@ Use these links to access updated documentation as part of the Beta program for 
 >
 >Information in these articles are frequently updated during the Beta program without notice.
 
+## Administration
+
++++Click to expand
+
+* [Administer Target overview beta](administrating-target/administrating-target-beta.md)
++++
+
 ## Activities
 
 +++Click to expand

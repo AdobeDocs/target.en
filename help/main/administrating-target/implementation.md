@@ -19,5 +19,3 @@ For more information, see the various topics under [Implement Target](/help/main
 1. To access the [!UICONTROL Implementation] page, click **[!UICONTROL Administration]** > **[!UICONTROL Implementation]**.
 
 1. For information applicable to the settings on this page, see [Implement Target without a tag manager](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/deploy-at-js/implement-target-without-a-tag-manager.html){target=_blank}.
-
-![Implementation page](/help/main/administrating-target/assets/implementation.png)

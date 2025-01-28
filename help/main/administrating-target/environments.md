@@ -18,8 +18,6 @@ When a [!DNL Target] request is received from new websites or domains, these new
 
 To manage environments, click **[!UICONTROL Administration]** > **[!UICONTROL Environments]**.
 
-![Environments list](/help/main/administrating-target/assets/environments.png)
-
 ## Add an environment {#section_32097D0993724DF3A202D164D3F18674}
 
 1. From the [!UICONTROL Environments] list, click **[!UICONTROL Add Environment]**. 

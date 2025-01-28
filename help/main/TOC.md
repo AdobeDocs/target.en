@@ -41,6 +41,7 @@ feature-set: Target
    + [Target optimization and personalization FAQ](c-intro/cmp-target-standard-cheatsheet.md)
 + Administer Target {#administer}
    + [Administer Target overview](administrating-target/administrating-target.md)
+   + [Administer Target overview beta](administrating-target/administrating-target-beta.md)
    + [Administrator first steps](administrating-target/start-target.md)
    + [Configure the Visual Experience Composer](/help/main/administrating-target/visual-experience-composer-set-up.md)
    + Reporting {#reporting}
