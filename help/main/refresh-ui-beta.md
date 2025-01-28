@@ -88,8 +88,7 @@ Use these links to access updated documentation as part of the Beta program for 
       * [Create criteria](/help/main/c-recommendations/c-algorithms/create-new-algorithm-beta.md){target="_blank"}
       * [Create criteria sequences](/help/main/c-recommendations/c-algorithms/create-criteria-sequence-beta.md){target="_blank"}
       * [Base the recommendation on a recommendation key](/help/main/c-recommendations/c-algorithms/base-the-recommendation-on-a-recommendation-key-beta.md){target="_blank"}
-      * [The science behind Target's recommendations algorithms](/help/main/c-recommendations/c-algorithms/recommendations-algorithms.md){target="_blank"}
-      * [Upload custom criteria](/help/main/c-recommendations/c-algorithms/recommendations-csv-beta.md){target="_blank"}
+       * [Upload custom criteria](/help/main/c-recommendations/c-algorithms/recommendations-csv-beta.md){target="_blank"}
       * Dynamic and static inclusion rules {#dynamic-static}{target="_blank"}
          * [Use dynamic and static inclusion rules](/help/main/c-recommendations/c-algorithms/use-dynamic-and-static-inclusion-rules-beta.md){target="_blank"}
          * [Entity attribute matching](/help/main/c-recommendations/c-algorithms/entity-attribute-matching-beta.md){target="_blank"}
@@ -106,11 +105,12 @@ Use these links to access updated documentation as part of the Beta program for 
       * [Design FAQ](c-recommendations/c-design-overview/template-faq.md){target="_blank"}
       * [Customize a design using Velocity](c-recommendations/c-design-overview/customizing-a-template.md){target="_blank"}
    * Activity {#recommendations-activity}
-      * [Create a Recommendations activity](c-recommendations/t-create-recs-activity/create-recs-activity.md){target="_blank"}
+      * [Create a Recommendations activity beta](c-recommendations/t-create-recs-activity/create-recs-activity-beta.md){target="_blank"}
       * [Select criteria](c-recommendations/t-create-recs-activity/algo-select-recs.md){target="_blank"}
+      * [Select criteria beta](c-recommendations/t-create-recs-activity/algo-select-recs-beta.md){target="_blank"}
       * [Add promotions](c-recommendations/t-create-recs-activity/adding-promotions.md){target="_blank"}
       * [Recommendations activity settings](c-recommendations/t-create-recs-activity/recs-activity-settings.md){target="_blank"}
-      * [Preview and launch your Recommendations activity](/help/main/c-recommendations/t-create-recs-activity/previewing-and-launching-your-recommendations-activity.md){target="_blank"}
+      * [Preview and launch your Recommendations activity beta](/help/main/c-recommendations/t-create-recs-activity/previewing-and-launching-your-recommendations-activity-beta.md){target="_blank"}
    * [Recommendations as an offer](c-recommendations/recommendations-as-an-offer.md){target="_blank"}
    * Frequently asked questions {#recommendations-faq}
       * [Recommendations FAQ](c-recommendations/c-recommendations-faq/recommendations-faq.md){target="_blank"}

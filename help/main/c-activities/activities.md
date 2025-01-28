@@ -19,15 +19,12 @@ The [!UICONTROL Activities] list is the default view when you open [!DNL Target]
 
 You can also display the [!UICONTROL Activities] list by clicking the [!UICONTROL Activities] tab at the top of the [!DNL Target] UI.
 
-![Activities list](/help/main/c-activities/assets/activities-list-new.png)
-
 The [!UICONTROL Activities] list provides an overview of all activities in your [!DNL Target] implementation and lets you perform various actions.
 
 The following table helps you understand various elements on the [!UICONTROL Activities] list in the [!DNL Target] UI:
 
 | Element | Description |
 |--- |--- |
-|Left-navigation rail|Switch between your saved or live activities and failed or [draft activities](/help/main/c-activities/edit-activity.md).|
 |[!UICONTROL Show filters] icon<P>![Show Filters icon](/help/main/assets/icons/Filter.svg)|Access filters by clicking the **[!UICONTROL Show Filters]** icon near the top of the list to filter activities by [!UICONTROL Type], [!UICONTROL Status], [!UICONTROL Reporting Source], [!UICONTROL Experience Composer], [!UICONTROL Metrics Type], [!UICONTROL Decisioning Source], [!UICONTROL Activity Source], and [!UICONTROL Properties].<P>For more information, see [Apply filters to the [!UICONTROL Activities] list](#filters) below.|
 |Search fields|Quickly find an activity or reduce the number of activities displayed in the [!UICONTROL Activity] list. You can search by [!UICONTROL Activity Name], [!UICONTROL URL], or [!UICONTROL ID] by using the drop-down.|
 |[!UICONTROL Create Activity]|Create an activity.<P>For more information about creating the various activity types, see: <ul><li>[Create an [!UICONTROL A/B Test] activity](/help/main/c-activities/t-test-ab/t-test-create-ab/test-create-ab.md)</li><li>[Create an [!UICONTROL Auto-Allocate] activity](/help/main/c-activities/automated-traffic-allocation/create-auto-allocate-activity.md)</li><li>[Create an [!UICONTROL Auto-Target] activity](/help/main/c-activities/auto-target/create-auto-target.md)</li><li>[Create an [!UICONTROL Automated Personalization] activity](/help/main/c-activities/t-automated-personalization/create-ap-activity.md)</li><li>[Create an [!UICONTROL Experience Targeting] activity](/help/main/c-activities/t-experience-target/t-xt-create/xt-create.md)</li><li>[Create an  activity](/help/main/c-activities/c-multivariate-testing/t-create-multivariate-test/create-multivariate-test.md)</li><li>[Create a [!UICONTROL Recommendations] activity](/help/main/c-recommendations/recommendations.md)</li></ul>For more information about each type, see [Activity types](#types) below.|
