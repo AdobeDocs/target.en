@@ -22,4 +22,4 @@ To access the [!UICONTROL Administration] menu items, click **[!UICONTROL Admini
 * [Environments](/help/main/administrating-target/environments.md)
 * [Response Tokens](/help/main/administrating-target/response-tokens.md)
 * [Users](/help/main/administrating-target/c-user-management/user-management.md)
-* [Recommendations](help/main/administrating-target/recommendations-settings.md)
+* [Recommendations](/help/main/administrating-target/recommendations-settings.md)
