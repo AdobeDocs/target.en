@@ -6,6 +6,7 @@ badgePremium: label="Premium" type="Positive" url="https://experienceleague.adob
 feature: Recommendations
 hide: yes
 hidefromtoc: yes
+exl-id: 21cb948a-3d08-468c-ab92-e92a469f99b2
 ---
 # Select criteria
 

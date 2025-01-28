@@ -6,6 +6,7 @@ badgePremium: label="Premium" type="Positive" url="https://experienceleague.adob
 feature: Recommendations
 hide: yes
 hidefromtoc: yes
+exl-id: d4c3c89f-1560-4679-b593-3d56e948a734
 ---
 # Create a [!DNL Recommendations] activity
 
