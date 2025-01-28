@@ -5,6 +5,7 @@ title: How Can I View a [!UICONTROL Multivariate Test] (MVT) Activity's Summary?
 feature: Multivariate Tests
 hide: yes
 hidefromtoc: yes
+exl-id: 22856fb2-7eed-48ae-9438-6b27e6795251
 ---
 # Test summary ([!UICONTROL Multivariate Test])
 

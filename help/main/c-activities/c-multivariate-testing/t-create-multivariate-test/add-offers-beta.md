@@ -5,6 +5,7 @@ title: How Do I Create Combinations in a [!UICONTROL Multivariate Test] (MVT)?
 feature: Multivariate Tests
 hide: yes
 hidefromtoc: yes
+exl-id: 92b81d3f-c955-4904-96ce-aecaeb8bc146
 ---
 # Create combinations
 
@@ -51,4 +52,3 @@ Each HTML offer becomes a separate experience in that location.
 * You must have at least three elements to test. If you have fewer, run a series of A/B tests. 
 * Each element's alternatives should be significantly different from each other. 
 * Although not required, it is good practice for each element to have the same number of alternatives.
-

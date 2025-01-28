@@ -5,6 +5,7 @@ title: What Is the Activity URL In a [!UICONTROL Multivariate Test] (MVT) Activi
 feature: Multivariate Tests
 hide: yes
 hidefromtoc: yes
+exl-id: e3cd0600-b45e-493f-bbc5-26a61b65686a
 ---
 # Activity URL
 

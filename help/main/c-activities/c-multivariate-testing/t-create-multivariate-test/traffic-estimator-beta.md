@@ -5,6 +5,7 @@ title: How Much Traffic Is Needed for a [!UICONTROL Multivariate Test] (MVT) Act
 feature: Multivariate Tests
 hide: yes
 hidefromtoc: yes
+exl-id: 21f09315-c25e-47e1-86c6-e717c3eaf984
 ---
 # Estimate the traffic required for a successful [!UICONTROL Multivariate Test] activity
 

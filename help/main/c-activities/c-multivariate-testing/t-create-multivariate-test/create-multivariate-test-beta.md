@@ -5,6 +5,7 @@ title: How Do I Create a [!UICONTROL Multivariate Test]?
 feature: Multivariate Tests
 hide: yes
 hidefromtoc: yes
+exl-id: be8ac6a4-cc69-47c1-8aba-84d162ef043c
 ---
 # Create a Multivariate Test
 

@@ -5,6 +5,7 @@ title: How Do I Set Goal Metrics in a [!UICONTROL Multivariate Test] (MVT) Activ
 feature: Multivariate Tests
 hide: yes
 hidefromtoc: yes
+exl-id: 72b755af-2f35-4432-ba04-628d230be4df
 ---
 # Set metrics for a [!UICONTROL Multivariate Test] activity
 

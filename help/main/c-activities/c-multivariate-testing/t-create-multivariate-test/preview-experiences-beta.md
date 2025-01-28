@@ -5,6 +5,7 @@ title: How Can I Preview Experiences for a [!UICONTROL Multivariate Test] (MVT)?
 feature: Multivariate Tests
 hide: yes
 hidefromtoc: yes
+exl-id: 501d2723-f277-4c65-8cd2-c6a9f022fef1
 ---
 # Preview experiences for a [!UICONTROL Multivariate Test]
 
@@ -26,4 +27,4 @@ Because a [!UICONTROL Multivariate Test] in [!DNL Adobe Target] compares multipl
 
 >[!NOTE]
 >
->When creating multivariate tests, you can exclude more than 10 percent of experiences from the test, provided you acknowledge the warning that you must then use offline reporting for analysis. 
+>When creating multivariate tests, you can exclude more than 10 percent of experiences from the test, provided you acknowledge the warning that you must then use offline reporting for analysis.
