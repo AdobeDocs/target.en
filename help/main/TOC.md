@@ -368,7 +368,6 @@ feature-set: Target
       + [Add promotions](c-recommendations/t-create-recs-activity/adding-promotions.md)
       + [Recommendations activity settings](c-recommendations/t-create-recs-activity/recs-activity-settings.md)
       + [Preview and launch your Recommendations activity](/help/main/c-recommendations/t-create-recs-activity/previewing-and-launching-your-recommendations-activity.md)
-      + [Preview and launch your Recommendations activity beta](/help/main/c-recommendations/t-create-recs-activity/previewing-and-launching-your-recommendations-activity-beta.md)
    + [Recommendations as an offer](c-recommendations/recommendations-as-an-offer.md)
    + Frequently asked questions {#recommendations-faq}
       + [Recommendations FAQ](c-recommendations/c-recommendations-faq/recommendations-faq.md)
