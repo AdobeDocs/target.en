@@ -41,9 +41,9 @@ By default, the [!UICONTROL Visual Experience Composer] opens the page that is s
 
 1. Click **[!UICONTROL Save]** when you have finished.
 
-<!-- If you entered a URL for a site that does not include the [!DNL Target]s JavaScript code, you cannot select page elements.
+   If you entered a URL for a site that does not include the [!DNL Target]s JavaScript code, you cannot select page elements.
 
-By default, the [!UICONTROL Visual Experience Composer] does not allow changes to elements containing JavaScript, such as rotating banners. You can toggle off **[!UICONTROL Render using JavaScript]** if you want to be able to alter those elements using the [!UICONTROL Visual Experience Composer].-->
+   By default, the [!UICONTROL Visual Experience Composer] does not allow changes to elements containing JavaScript, such as rotating banners. You can toggle off **[!UICONTROL Render using JavaScript]** if you want to be able to alter those elements using the [!UICONTROL Visual Experience Composer].-->
 
 >[!NOTE]
 >

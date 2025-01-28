@@ -25,4 +25,4 @@ You can configure the following settings:
 * Specify your thumbnail base URL
 * Configure custom attribute keys
 
-For detailed information, see [Plan and implement Recommendations](https://experienceleague.adobe.com/en/docs/target-dev/developer/recommendations-beta){target=_blank} in the **[!DNL Adobe Target] Developer Guide**.
+For detailed information, see [Plan and implement Recommendations](https://experienceleague.adobe.com/en/docs/target-dev/developer/recommendations){target=_blank} in the **[!DNL Adobe Target] Developer Guide**.
