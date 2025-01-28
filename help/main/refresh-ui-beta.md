@@ -107,10 +107,9 @@ Use these links to access updated documentation as part of the Beta program for 
    * Activity {#recommendations-activity}
       * [Create a Recommendations activity beta](c-recommendations/t-create-recs-activity/create-recs-activity-beta.md){target="_blank"}
       * [Select criteria](c-recommendations/t-create-recs-activity/algo-select-recs.md){target="_blank"}
-      * [Select criteria beta](c-recommendations/t-create-recs-activity/algo-select-recs-beta.md){target="_blank"}
+      * [Select criteria beta](/help/main/c-recommendations/t-create-recs-activity/algo-select-rec-beta.md){target="_blank"}
       * [Add promotions](c-recommendations/t-create-recs-activity/adding-promotions.md){target="_blank"}
       * [Recommendations activity settings](c-recommendations/t-create-recs-activity/recs-activity-settings.md){target="_blank"}
-      * [Preview and launch your Recommendations activity beta](/help/main/c-recommendations/t-create-recs-activity/previewing-and-launching-your-recommendations-activity-beta.md){target="_blank"}
    * [Recommendations as an offer](c-recommendations/recommendations-as-an-offer.md){target="_blank"}
    * Frequently asked questions {#recommendations-faq}
       * [Recommendations FAQ](c-recommendations/c-recommendations-faq/recommendations-faq.md){target="_blank"}
