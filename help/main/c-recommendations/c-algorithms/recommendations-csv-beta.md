@@ -40,13 +40,11 @@ The following steps assume you access the [!UICONTROL Create New Criteria] scree
 
 1. In the **[!UICONTROL Upload CSV]** section, select the **[!UICONTROL Location]** of your CSV file.
 
-   <!--The CSV file must be formatted correctly to upload successfully. Click **[!UICONTROL Download the CSV template]** to get a correctly formatted CSV file.-->
+  The CSV file must be formatted correctly to upload successfully. Click **[!UICONTROL Download the CSV template]** to get a correctly formatted CSV file.
 
    You have two location options:
 
     * **FTP:** To upload your CSV file from an FTP server, select **[!UICONTROL FTP]**, then enter the required information. You can use SSL, which uses the FTPS protocol to transfer your CSV file securely.
-
-      ![FTP option to upload CSV file](/help/main/c-recommendations/c-algorithms/assets/ftp.png)
 
     * **URL:** To upload your CSV file from a URL, select **[!UICONTROL URL]**, then enter a feed URL.
 

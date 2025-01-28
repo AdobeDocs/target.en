@@ -31,8 +31,6 @@ Item descriptions can be passed into [!DNL Target] using feeds or mboxes. If [!D
 
 The [!UICONTROL Feeds] list ( **[!UICONTROL Recommendations]** > **[!UICONTROL Feeds]**) provides information about any feeds that you have created. 
 
-![Feeds page](/help/main/c-recommendations/c-products/assets/feeds-page-new.png)
-
 The [!UICONTROL Feeds] page contains the following columns:
 
 * **Name**: The name of the feed specified during creation. To edit the name of a feed, you must edit the feed itself. When you save the feed with the new name, the feed is refreshed.
@@ -42,11 +40,11 @@ The [!UICONTROL Feeds] page contains the following columns:
 * **Schedule**: Displays the update schedule for the feed: [!UICONTROL Daily], [!UICONTROL Weekly], [!DNL Every 2 Weeks], or [!UICONTROL Never].
 * **Last Updated**: Displays the date and time when the feed was last updated and the name of the person who updated the feed.
 
-Click the [!UICONTROL Customize Table] icon ( ![Customize Table icon](/help/main/c-recommendations/c-products/assets/customize-table-icon.png) ) to select or deselect columns that you want to display.
+Click the [!UICONTROL Customize Table] icon ( ![Customize Table icon](/help/main/assets/icons/ColumnSetting.svg) ) to select or deselect columns that you want to display.
 
-Click the [!UICONTROL Information] icon to display a card that displays the last upload date and the feed's URL.
+Click the [!UICONTROL Information] icon ( ![Info icon](/help/main/assets/icons/InfoOutline.svg) ) to display a card that displays the last upload date and the feed's URL.
 
-Click the ellipsis icon to access the following actions: [!UICONTROL Deactivate], [!DNL Edit], [!UICONTROL Copy], and [!UICONTROL Delete].
+Click the [!UICONTROL More Actions] icon ( ![More Actions icon](/help/main/assets/icons/MoreSmallList.svg) ) to access the following actions: [!UICONTROL Deactivate], [!DNL Edit], [!UICONTROL Copy], and [!UICONTROL Delete].
 
 >[!IMPORTANT]
 >
@@ -227,8 +225,6 @@ Create a feed to insert information about your products or services into [!DNL R
 
 1. From within the [!DNL Target] interface, click **[!UICONTROL Recommendations]** > **[!UICONTROL Feeds]** > **[!UICONTROL Create Feed]**.
 
-   ![Create Feed dialog box](assets/CreateFeed.png)
-
 1. Specify a descriptive name for your feed.
 1. Select a **[!UICONTROL Source Type]**.
 
@@ -255,8 +251,6 @@ Create a feed to insert information about your products or services into [!DNL R
 
 1. Click the **[!UICONTROL Next]** arrow to display the [!UICONTROL Schedule] options.
 
-   ![Step Result](assets/CreateFeedSchedule.png)
-
 1. Select an update option:
 
     * [!UICONTROL Daily] 
@@ -269,8 +263,6 @@ Create a feed to insert information about your products or services into [!DNL R
    This option is based on the time zone used in your browser. If you want to use a time in a different time zone, you must calculate that time according to your time zone.
 
 1. Click the **[!UICONTROL Next]** arrow to display the [!UICONTROL Mapping] options, then specify how you want to map your data to [!DNL Target] definitions.
-
-   ![Step Result](assets/CreatFeedMapping.png)
 
 1. (Optional) If you want the feed to belong to an environment (host group), select the host group.
 

@@ -10,13 +10,11 @@ exl-id: 77bb14fc-342d-41cd-8084-e21067f277af
 
 Information about the settings you can use to describe and control a [!UICONTROL Recommendations] activity in [!DNL Adobe Target].
 
-![Recommendations Goals & Settings page](/help/main/c-recommendations/t-create-recs-activity/assets/recs-settings.png)
-
 The following sections describe the available settings for a [!UICONTROL Recommendations] activity.
 
 ## Name
 
-Provide a descriptive name that will help you and your team identify the activity.
+Click the More Actions icon ( ![More Actions icon](/help/main/assets/icons/MoreSmallListVert.svg) ), then click **[!UICONTROL Rename]** to provide a descriptive name that will help you and your team identify the activity.
 
 The following characters are not allowed in an activity name:
 

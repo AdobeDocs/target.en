@@ -27,11 +27,9 @@ To get started, create an [!UICONTROL A/B Test] or [!UICONTROL Experience Target
    >
    >For A/B Tests, remember that you can choose the [Auto-Allocate](/help/main/c-activities/automated-traffic-allocation/automated-traffic-allocation.md) option to automatically push traffic to the best-performing recommendations or the [Auto-Target](/help/main/c-activities/auto-target/auto-target-to-optimize.md) option to assign visitors to tailored recommendations experiences based on their profile.
 
-1. While creating an [experience](/help/main/c-experiences/c-visual-experience-composer/viztarget-options.md), click the element you want to add a recommendation to as an offer, select the **[!UICONTROL Insert Before]**, **[!UICONTROL Insert After]**, or **[!UICONTROL Replace With]** action, then select [!UICONTROL Recommendation].
+1. While creating an [experience](/help/main/c-experiences/c-visual-experience-composer/viztarget-options.md), click the element you want to add a recommendation to as an offer, click **[!UICONTROL Replace Content]**, then select **[!UICONTROL Recommendation]**.
 
-   The following illustration shows the [!UICONTROL Insert After > Recommendation] option.
-
-   ![Insert recommendation as an offer](/help/main/c-recommendations/assets/replace-after-recommendations.png)
+   ![Insert recommendation as an offer](/help/main/c-recommendations/t-create-recs-activity/assets/recs-as-offer.png)
 
 1. Select from the following options to view popular recommendations criteria by page type:
 

@@ -357,12 +357,14 @@ feature-set: Target
    + Design {#recommendations-design}
       + [Design overview](c-recommendations/c-design-overview/design-overview.md)
       + [Create a design](c-recommendations/c-design-overview/create-design.md)
-      + [Create a design](/help/main/c-recommendations/c-design-overview/create-design-beta.md)
+      + [Create a design-beta](/help/main/c-recommendations/c-design-overview/create-design-beta.md)
       + [Design FAQ](c-recommendations/c-design-overview/template-faq.md)
       + [Customize a design using Velocity](c-recommendations/c-design-overview/customizing-a-template.md)
    + Activity {#recommendations-activity}
       + [Create a Recommendations activity](c-recommendations/t-create-recs-activity/create-recs-activity.md)
+      + [Create a Recommendations activity beta](c-recommendations/t-create-recs-activity/create-recs-activity-beta.md)
       + [Select criteria](c-recommendations/t-create-recs-activity/algo-select-recs.md)
+      + [Select criteria beta](c-recommendations/t-create-recs-activity/algo-select-rec-beta.md)
       + [Add promotions](c-recommendations/t-create-recs-activity/adding-promotions.md)
       + [Recommendations activity settings](c-recommendations/t-create-recs-activity/recs-activity-settings.md)
       + [Preview and launch your Recommendations activity](/help/main/c-recommendations/t-create-recs-activity/previewing-and-launching-your-recommendations-activity.md)

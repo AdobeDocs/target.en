@@ -36,15 +36,11 @@ Create a collection to organize the products or content you want to show in your
 
 1. Click **[!UICONTROL Recommendations]** > **[!UICONTROL Collections]** to display the list of existing collections.
 
-   ![Collections list](assets/collections-list.png)
-
-   The [!UICONTROL Collections] page displays a list of your existing collections. You create new collections by clicking the [!UICONTROL Create Collection] button. You can also edit, copy, and delete existing collections by clicking the ellipsis icon next to the desired collection and then by clicking the desired option.
+   The [!UICONTROL Collections] page displays a list of your existing collections. You create new collections by clicking the [!UICONTROL Create Collection] button. You can also edit, copy, and delete existing collections by clicking the More Actions icon ( ![More Actions icon](/help/main/assets/icons/MoreSmallList.svg) ) next to the desired collection and then by clicking the desired option.
 
    The "Number of Items" reported for each collection on the [!UICONTROL Collections] list view is the number of products matching the rules for that collection within the configured default Recommendations [host group](/help/main/administrating-target/hosts.md) (environment). See [Settings](https://experienceleague.adobe.com/docs/target-dev/developer/recommendations.html){target=_blank} to change the default host group.
 
 1. Click **[!UICONTROL Create Collection]**.
-
-   ![Create Collection](/help/main/c-recommendations/c-products/assets/create-collection.png)
 
 1. Type a **[!UICONTROL Name]** for the collection.
 
@@ -74,9 +70,7 @@ After creating a search using "id > contains," for example, you can then click [
 
 ## Edit, copy, or delete a collection
 
-Click the **ellipsis** icon next to the desired collection in the list, then click the appropriate icon: edit, copy, or delete.
-
- ![Hover icons: edit, copy, and delete](/help/main/c-recommendations/c-products/assets/hover-icons-new.png)
+Click the ( ![More Actions icon](/help/main/assets/icons/MoreSmallList.svg) ) next to the desired collection in the list, then click the appropriate icon: [!UICONTROL Edit], [!UICONTROL Copy], or [!DNL Delete].
 
 You can copy an existing collection to create a duplicate collection that you can then modify. This lets you create a similar collection with less effort.
 
@@ -90,8 +84,4 @@ Be aware that collections are available across the entire account. Ensure that y
 
 1. After you select a criteria and design, the [!UICONTROL Options] page displays where you select the desired collection.
 
-   ![Choose collection option](/help/main/c-recommendations/c-products/assets/choose-collection.png)
-
-1. (Conditional) To change an existing collection setting, on the **[!UICONTROL Experiences]** page (step 2 of the three-part guided workflow), click a location where you placed recommendations, click **[!UICONTROL Change Collection]**, then select the desired collection.
-
-   ![Change Collection option](/help/main/c-recommendations/c-products/assets/change-collection.png)
+1. (Conditional) To change an existing collection setting, on the **[!UICONTROL Experiences]** page (step 1 of the three-part guided workflow), click a location where you placed recommendations, click **[!UICONTROL Change Collection]**, then select the desired collection.

@@ -16,9 +16,9 @@ Catalogs refer to your entire product set (entities). Your catalog can contain m
 
 ## Access [!UICONTROL Catalog Search]
 
-To access the [!UICONTROL Catalog Search] page, click **[!UICONTROL Recommendations]** > **[!UICONTROL Catalog Search]**.
+1. To access the [!UICONTROL Catalog Search] page, click **[!UICONTROL Recommendations]** > **[!UICONTROL Catalog Search]**.
 
-![Catalog Search page](/help/main/c-recommendations/c-products/assets/catalog-search-new.png)
+1. (Optional) To apply filters to your search, click the **[!UICONTROL Show Filters]** icon ( ![Show Filters icon](/help/main/assets/icons/Filter.svg) ). You can filter by [!UICONTROL Environment], [!UICONTROL Collections], [!UICONTROL Category], [!UICONTROL Brand], [!UICONTROL Inventory], and [!UICONTROL Value].
 
 ## Perform a simple search
 
@@ -39,8 +39,6 @@ To access the [!UICONTROL Catalog Search] page, click **[!UICONTROL Recommendati
    > When you perform a catalog search on a custom attribute with a numeric value, the results treat the custom attribute to be a string type instead of a numeric value.
    >
    >There is no functionality currently available that lets you change the type of an attribute. To make a change, [open a customer issue](/help/main/cmp-resources-and-contact-information.md#reference_ACA3391A00EF467B87930A450050077C) referencing the attributes that need the type changed from string to numeric.
-
-   You can also use filters to find the desired products. For example, by clicking the **[!UICONTROL Show Filters]** icon ( ![Show Filters icon](/help/main/c-recommendations/c-products/assets/icon-show-filters.png) ), expanding the [!UICONTROL Collections] facet, then selecting one or more collectios, all products belonging to the selected collections in your catalog display.
 
 <!-- ### Perform an advanced search {#advanced-search}
 
@@ -104,7 +102,7 @@ You can create [collections](/help/main/c-recommendations/c-products/collections
 
 [Environments](/help/main/administrating-target/environments.md) let you organize your sites and pre-production environments for easy management and separated reporting.
 
-1. Click the Show Filters icon ( ![Show Filters icon](/help/main/c-recommendations/c-products/assets/icon-show-filters.png) ).
+1. Click the Show Filters icon ( ![Show Filters icon](/help/main/assets/icons/Filter.svg) ).
 
 1. Select the desired environment from the **[!UICONTROL Environment]** drop-down list.
 
@@ -128,10 +126,10 @@ Keep in mind that the additional filter facets are available in the current sess
 
 ## Modify columns
 
-You can temporarily modify the active columns on the [!UICONTROL Catalog Search] page.
+You can modify the active columns on the [!UICONTROL Catalog Search] page.
 
-1. Click the **[!UICONTROL Customize Table]** icon (  ![Customize Table icon](/help/main/c-recommendations/c-products/assets/icon-customize-table.png) ).
+1. Click the **[!UICONTROL Customize Table]** icon (  ![Customize Table icon](/help/main/assets/icons/ColumnSetting.svg) ).
 
 1. Select or deselect the desired columns that you want to display or hide.
 
-Keep in mind that any changes you make apply to the current session only.
+Any changes you make are persistent across sessions.

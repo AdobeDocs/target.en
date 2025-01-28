@@ -15,19 +15,15 @@ Use the [!DNL Target] [!UICONTROL Visual Experience Composer] (VEC) to create a 
 
 1. Select **[!UICONTROL Visual]**, if necessary.
 
-   ![Create Recommendations Activity dialog box](/help/main/c-recommendations/t-create-recs-activity/assets/DB_NewRecAct.png)
-
-   If you prefer to use the Form-Based Experience Composer, select [!UICONTROL Form]. See [Form-Based Experience Composer](/help/main/c-experiences/form-experience-composer.md) for more information.
+   If you prefer to use the [!UICONTROL Form-Based Experience Composer], select [!UICONTROL Form]. See [Form-Based Experience Composer](/help/main/c-experiences/form-experience-composer.md) for more information.
 
    >[!NOTE]
    >
    >In addition to the VEC and [!UICONTROL Form-Based Experience Composer], [!DNL Target] offers the [!UICONTROL Single Page Application] VEC. For more information about the various composers, see [Experiences and Offers](/help/main/c-experiences/experiences.md).
    >
    >For troubleshooting information about the VEC, should you have problems, see [Troubleshooting the Visual Experience Composer](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/troubleshoot-composer.md).
-   >
-   >The [!UICONTROL [Choose Workplace]](/help/main/administrating-target/c-user-management/property-channel/property-channel.md) option in the preceding illustration is a [Target Premium](/help/main/c-intro/intro.md) feature. Your organization has a [!UICONTROL Target Standard] license if you do not see this option.
-
-1. (Conditional) If you are a [Target Premium customer](/help/main/c-intro/intro.md#premium), choose a [workspace](/help/main/administrating-target/c-user-management/property-channel/property-channel.md).
+   
+1. (Conditional) Choose a [workspace](/help/main/administrating-target/c-user-management/property-channel/property-channel.md).
 
 1. Specify an activity URL, and then click **[!UICONTROL Create]**.
 

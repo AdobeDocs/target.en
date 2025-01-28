@@ -31,23 +31,17 @@ Some examples of times you would use exclusions include:
 
 1. Click **[!UICONTROL Recommendations]** > **[!UICONTROL Exclusions]** to display the list of existing exclusions.
 
-   ![exclusions_list image](assets/exclusions-list.png)
-
    The "Number of Items" reported for each exclusion on the [!UICONTROL Exclusions] list view is the number of products matching the rules for that exclusion within the configured default Recommendations [host group](/help/main/administrating-target/hosts.md) (environment). See [Plan and implement [!DNL Recommendations]](https://experienceleague.adobe.com/en/docs/target-dev/developer/recommendations){target=_blank} in the *Adobe Target Developer Guide* for information about how to change the default host group.
 
-1. (Conditional) Click the [!UICONTROL Filter] icon, then choose the desired [environment](/help/main/administrating-target/environments.md) from the **[!UICONTROL Environment]** drop-down list while creating (or updating) an exclusion to preview the contents of the exclusion in that environment. By default, results from the default host group are displayed.
-
-   ![Create Exclusion](/help/main/c-recommendations/c-products/assets/choose-environment.png)
+1. (Conditional) Click the **[!UICONTROL Show Filters]** icon ( ![Show Filters icon](/help/main/assets/icons/Filter.svg) ), then choose the desired [environment](/help/main/administrating-target/environments.md) from the **[!UICONTROL Environment]** drop-down list while creating (or updating) an exclusion to preview the contents of the exclusion in that environment. By default, results from the default host group are displayed.
 
 1. Click **[!UICONTROL Create Exclusion]**.
-
-   ![Create exclusion dialog box](/help/main/c-recommendations/c-products/assets/create-exclusion.png)
 
 1. Type an exclusion **[!UICONTROL Name]** and enter an optional description.
 
 1. Use the rule builder to create your exclusions.
 
-   Select a parameter in the Rules list, select an operator, and then enter one or more values to identify the products. Separate multiple values with commas.
+   Select a parameter in the [!UICONTROL Rules] list, select an operator, and then enter one or more values to identify the products. Separate multiple values with commas.
 
 1. Click **[!UICONTROL Create]**.
 
@@ -65,9 +59,7 @@ After creating a search using "id > contains," for example, you can then click [
 
 ## Edit, copy, or delete an exclusion
 
-Click the **ellipsis** icon next to the desired exclusion in the list, then click the appropriate icon: edit, copy, or delete.
-
- ![Options: edit, copy, and delete](/help/main/c-recommendations/c-products/assets/edit-copy-delete.png)
+Click the More Actions icon ( ![More Actions icon](/help/main/assets/icons/MoreSmallList.svg) ) next to the desired exclusion in the list, then click the appropriate icon: [!UICONTROL Edit], [!UICONTROL Copy], or [!UICONTROL Delete].
 
 You can copy an existing exclusion to create a duplicate exclusion that you can then modify. This option lets you create a similar exclusion with less effort.
 

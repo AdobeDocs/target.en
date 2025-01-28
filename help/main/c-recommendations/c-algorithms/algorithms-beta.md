@@ -30,8 +30,6 @@ Other criteria options change based on the industry vertical you select. You can
 
 The algorithm type that you select determines the available algorithms.
 
-![Criteria page](assets/criteria-page-new.png)
-
 The following table explains the various algorithm types and their accompanying algorithms.
 
 |Algorithm type|When to use|Available algorithms|
@@ -70,11 +68,9 @@ For example, suppose that you want to display recommended movies based on the mo
 
 You can view criteria details by clicking the desired criteria in the [!UICONTROL Name] column.
 
-![Criteria Card hover](/help/main/c-recommendations/c-algorithms/assets/criteria-hover.png)
+The **[!UICONTROL Attributes]** and Details sections let you view general information about the selected criteria, including its [!UICONTROL Name], [!UICONTROL Description], [!UICONTROL Industry Vertical], [!UICONTROL Page Types], [!UICONTROL Recommendation Key], [!UICONTROL Recommendation Logic], [!UICONTROL Algorithm ID], and Last Modified information (date and who modified the algorithm).
 
-The **[!UICONTROL Algorithm Info]** tab lets you view general information about the selected criteria, including its [!UICONTROL Name], [!UICONTROL Description], [!UICONTROL Industry Vertical], [!UICONTROL Page Types], [!UICONTROL Recommendation Key], [!UICONTROL Recommendation Logic], [!UICONTROL Algorithm ID], and Last Modified information (date and who modified the algorithm).
-
-The **[!UICONTROL Algorithm Usage]** section lets you view a list of activities that reference the selected criteria.
+The **[!UICONTROL Usage]** section lets you view a list of activities that reference the selected criteria.
 
 >[!NOTE]
 >

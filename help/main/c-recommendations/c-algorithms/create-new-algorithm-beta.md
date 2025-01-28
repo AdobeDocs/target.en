@@ -84,6 +84,43 @@ The remaining algorithm configuration options vary depending on the selected alg
 
 For more information about choosing a [!UICONTROL Recommendation Key], see [Base the recommendation on a recommendation key](/help/main/c-recommendations/c-algorithms/base-the-recommendation-on-a-recommendation-key.md).
 
+## [!UICONTROL Backup Content] {#content}
+
+[!UICONTROL Backup Content] rules determine what happens if the number of recommended items does not fill your [recommendations design](/help/main/c-recommendations/c-design-overview/design-overview.md). It is possible for [!DNL Recommendations] criteria to return fewer recommendations than your design calls for. As an example, if your design has slots for four items, but your criteria causes only two items to be recommended, you can leave the remaining slots empty, you can use backup recommendations to fill the extra slots, or you can choose to display no recommendations.
+
+1. (Optional) Slide the **[!UICONTROL Partial Design Rendering]** toggle to the "on" position.
+
+   As many slots as possible will be filled but the design template might include blank space for remaining slots. If this option is disabled and there is not enough content to fill all available slots, recommendations are not served and default content is displayed instead. 
+
+   Enable this option if you want recommendations served with blank slots. Use backup recommendations if you want recommendation slots to be filled with content based on your criteria with empty slots filled with similar or popular content from your site, as explained in the next step.
+
+1. (Optional) Slide the **[!UICONTROL Show Backup Content]** toggle to the "on" position.
+
+   Fill any remaining empty slots in the design with a random selection of most-viewed products from across your site.
+
+   Using backup recommendations ensures that your recommendation design fill all available slots. Suppose that you have a 4 x 1 design, as illustrated below:
+
+   ![4 x 1 design](/help/main/c-recommendations/c-design-overview/assets/velocity_example.png)
+
+   Suppose your criteria causes only two items to be recommended. If you enable the [!UICONTROL Partial Design Rendering] option, the fist two slots are filled, but the remaining two slots remain empty. However, if you enable the [!UICONTROL Show Backup Recommendations] option, the first two slots are filled based on your specified criteria and the remaining two slots are filled based on your backup recommendations.
+
+   The following matrix shows the result you'll observe when using the [!UICONTROL Partial Design Rendering] and [!UICONTROL Backup Content] options:
+
+   | Partial Design Rendering | Backup Content | Result |
+   |--- |--- |--- |
+   |Disabled|Disabled|If fewer recommendations are returned than the design calls for, the recommendations design is replaced by default content and no recommendations are displayed.|
+   |Enabled|Disabled|The design is rendered, but may include blank space if fewer recommendations are returned than the design calls for.|
+   |Enabled|Enabled|Backup recommendations will fill available design "slots," fully rendering the design.<br>If applying inclusion rules to backup recommendations restricts the number of qualifying backup recommendations to the point that the design cannot be filled, the design is partially rendered.<br>If the criteria does not return any recommendations, and inclusion rules restrict backup recommendations to zero, the design is replaced with default content.|
+   |Disabled|Enabled|Backup recommendations will fill available design "slots," fully rendering the design.<br>If applying inclusion rules to backup recommendations restricts the number of qualifying backup recommendations to the point that the design cannot be filled, the design is replaced by default content and no recommendations are displayed.|
+
+   For more information, see [Use a backup recommendation](/help/main/c-recommendations/c-algorithms/backup-recs.md).
+
+1. (Conditional) If you selected **[!UICONTROL Show Backup Content]** in the previous step, you can enable **[!UICONTROL Apply inclusion rules to backup recommendations]**.
+
+   Inclusion rules determine which items are included in your recommendations. The options available depend on your industry vertical.
+
+   For more details, see [Specify inclusion rules](#inclusion) below.
+
 ## [!UICONTROL Data Source] {#data-source}
 
 1. Select the desired **[!UICONTROL Behavioral Data Source]**: [!UICONTROL Adobe Target] or [!UICONTROL Analytics].
@@ -123,43 +160,6 @@ For more information about choosing a [!UICONTROL Recommendation Key], see [Base
    |Two weeks|Algorithm runs every 24-48 hours|<ul><li>[!UICONTROL Popularity-Based] algorithms</li><li>[!UICONTROL Item-Based] algorithms</li><li>All [!UICONTROL User-Based] algorithms</li><li>[!UICONTROL Cart-Based] algorithms</li></ul>|
    |One month (30 days)|Algorithm runs every 24-48 hours|<ul><li>[!UICONTROL Popularity-Based] algorithms</li><li>[!UICONTROL Item-Based] algorithms</li><li>[!UICONTROL User-Based] algorithms</li><li>[!UICONTROL Cart-Based] algorithms</li></ul>|
    |Two months (61 days)|Algorithm runs every 24-48 hours|<ul><li>[!UICONTROL Popularity-Based] algorithms</li><li>[!UICONTROL Item-Based] algorithms</li><li>[!UICONTROL User-Based] algorithms</li><li>[!UICONTROL Cart-Based] algorithms</li></ul>|
-
-## [!UICONTROL Backup Content] {#content}
-
-[!UICONTROL Backup Content] rules determine what happens if the number of recommended items does not fill your [recommendations design](/help/main/c-recommendations/c-design-overview/design-overview.md). It is possible for [!DNL Recommendations] criteria to return fewer recommendations than your design calls for. As an example, if your design has slots for four items, but your criteria causes only two items to be recommended, you can leave the remaining slots empty, you can use backup recommendations to fill the extra slots, or you can choose to display no recommendations.
-
-1. (Optional) Slide the **[!UICONTROL Partial Design Rendering]** toggle to the "on" position.
-
-   As many slots as possible will be filled but the design template might include blank space for remaining slots. If this option is disabled and there is not enough content to fill all available slots, recommendations are not served and default content is displayed instead. 
-
-   Enable this option if you want recommendations served with blank slots. Use backup recommendations if you want recommendation slots to be filled with content based on your criteria with empty slots filled with similar or popular content from your site, as explained in the next step.
-
-1. (Optional) Slide the **[!UICONTROL Show Backup Content]** toggle to the "on" position.
-
-   Fill any remaining empty slots in the design with a random selection of most-viewed products from across your site.
-
-   Using backup recommendations ensures that your recommendation design fill all available slots. Suppose that you have a 4 x 1 design, as illustrated below:
-
-   ![4 x 1 design](/help/main/c-recommendations/c-design-overview/assets/velocity_example.png)
-
-   Suppose your criteria causes only two items to be recommended. If you enable the [!UICONTROL Partial Design Rendering] option, the fist two slots are filled, but the remaining two slots remain empty. However, if you enable the [!UICONTROL Show Backup Recommendations] option, the first two slots are filled based on your specified criteria and the remaining two slots are filled based on your backup recommendations.
-
-   The following matrix shows the result you'll observe when using the [!UICONTROL Partial Design Rendering] and [!UICONTROL Backup Content] options:
-
-   | Partial Design Rendering | Backup Content | Result |
-   |--- |--- |--- |
-   |Disabled|Disabled|If fewer recommendations are returned than the design calls for, the recommendations design is replaced by default content and no recommendations are displayed.|
-   |Enabled|Disabled|The design is rendered, but may include blank space if fewer recommendations are returned than the design calls for.|
-   |Enabled|Enabled|Backup recommendations will fill available design "slots," fully rendering the design.<br>If applying inclusion rules to backup recommendations restricts the number of qualifying backup recommendations to the point that the design cannot be filled, the design is partially rendered.<br>If the criteria does not return any recommendations, and inclusion rules restrict backup recommendations to zero, the design is replaced with default content.|
-   |Disabled|Enabled|Backup recommendations will fill available design "slots," fully rendering the design.<br>If applying inclusion rules to backup recommendations restricts the number of qualifying backup recommendations to the point that the design cannot be filled, the design is replaced by default content and no recommendations are displayed.|
-
-   For more information, see [Use a backup recommendation](/help/main/c-recommendations/c-algorithms/backup-recs.md).
-
-1. (Conditional) If you selected **[!UICONTROL Show Backup Content]** in the previous step, you can enable **[!UICONTROL Apply inclusion rules to backup recommendations]**.
-
-   Inclusion rules determine which items are included in your recommendations. The options available depend on your industry vertical.
-
-   For more details, see [Specify inclusion rules](#inclusion) below.
 
 ## Content Similarity {#similarity}
 

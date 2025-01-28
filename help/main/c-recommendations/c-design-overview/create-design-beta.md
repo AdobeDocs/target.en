@@ -40,13 +40,11 @@ You can create a design based on a default design or you can create a custom des
 1. Click **[!UICONTROL Recommendations]** > **[!UICONTROL Designs]** to display the [!UICONTROL Designs] library.
 
 
-1. Mouse over the card for the design you want to create, then click the **[!UICONTROL Copy]** icon.
-
-   ![Card_CopyDesign image](/help/main/c-recommendations/c-design-overview/assets/card-copy-design.png)
+1. Click the More Actions icon ( ![More Actions icon](/help/main/assets/icons/MoreSmallList.svg) ) for the design you want to create, then click **[!UICONTROL Copy]**.
 
    The [!UICONTROL Create Design] dialog box displays.
 
-1. In the **[!UICONTROL Information]** panel, add a **[!UICONTROL Content Name]** and an optional preview image to display on the design card.
+1. Type a **[!UICONTROL  Name]** and an optional preview image to display on the design card.
 
    When you use a default design, the design name and "Copy" appears in the **[!UICONTROL Content Name]** field. You can edit the name. You can also select an image to display on the design card.
 
@@ -60,7 +58,7 @@ You can create a design based on a default design or you can create a custom des
    >
    >The maximum number of entities that can be referenced in a design, either hard-coded or via loops, is 99.
 
-1. Click **[!UICONTROL Save]**.
+1. Click **[!UICONTROL Create]**.
 
 ### Create a custom design
 
@@ -68,21 +66,21 @@ You can create a design based on a default design or you can create a custom des
 
 1. Click **[!UICONTROL Create Design]**.
 
-   If you want to base your new custom design on an existing design, mouse over the desired design, then click the [!UICONTROL Copy] icon. You can then edit the copy to create a new custom design.
+   If you want to base your new custom design on an existing design, click the [!UICONTROL More Actions] icon ( ![More Actions icon](/help/main/assets/icons/MoreSmallList.svg) ) for the design you want to create, then click [!UICONTROL Copy]. You can then edit the copy to create a new custom design.
 
-1. Add a **[!UICONTROL Content Name]** and an optional preview image.
+1. Add a **[!UICONTROL Name]** and an optional preview image.
 
 1. (Conditional) Edit the design **[!UICONTROL Code]**, as desired.
 
    Refer to the information in Step 4 above for more information.
 
-1. Click **[!UICONTROL Save]**.
+1. Click **[!UICONTROL Create]**.
 
 ## Edit, copy, or delete a design
 
 Remember that you cannot edit or copy a default design; you can only copy default designs.
 
-Hover over the desired design in the [!UICONTROL Design] library, then click the appropriate icon: edit, copy, or delete.
+Click the [!UICONTROL More Actions] icon ( ![More Actions icon](/help/main/assets/icons/MoreSmallList.svg) ) for the design you want to edit or delete, then click the appropriate icon: [!UICONTROL Edit], [!UICONTROL Copy], or [!UICONTROL Delete].
 
 You can copy an existing design to create a duplicate design that you can then modify. This process lets you create a similar design with less effort.
 
