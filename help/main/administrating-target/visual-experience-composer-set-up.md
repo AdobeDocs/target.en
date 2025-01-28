@@ -16,11 +16,9 @@ To access the [!UICONTROL Visual Experience Composer] configuration page, click 
 >
 >Be aware that settings on this page apply to the entire [!DNL Target] account. 
 
-![Visual Experience Composer configuration page](/help/main/administrating-target/assets/vec.png)
-
 ## General Settings
 
-You can specify general settings to the Visual Experience Composer.
+You can specify general settings to the [!UICONTROL Visual Experience Composer].
 
 ![General Settings section](/help/main/administrating-target/assets/general-settings.png)
 

@@ -18,8 +18,6 @@ By default, [!DNL Target] does not limit a host that can make [!DNL Target] requ
 
 To manage hosts, click **[!UICONTROL Administration]** > **[!UICONTROL Hosts]**.
 
-![hosts_list image](assets/hosts_list.png)
-
 ## Recognizing hosts {#concept_0D4B43E23AA9408F8B28A57ED754BF65}
 
 To recognize a host and add it to the [!UICONTROL Hosts] list, the following conditions must be met:

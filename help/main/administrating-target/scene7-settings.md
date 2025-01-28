@@ -32,8 +32,6 @@ To integrate with [!DNL Dynamic Media Classic] ([!DNL Scene7]), you need to spec
 
 1. Click **[!UICONTROL Administration]** > **[!UICONTROL Scene7 Configuration]**.
 
-   ![Scene7 page](/help/main/administrating-target/assets/scene7.png)
-
 1. Specify the following [!DNL Dynamic Media Classic] account information:
 
    **Region:** The region for your [!DNL Dynamic Media] account: North America, Europe, or Asia.

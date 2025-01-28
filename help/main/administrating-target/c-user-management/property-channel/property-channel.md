@@ -186,18 +186,12 @@ The new Permissions functionality can be seen in various places in the [!DNL Tar
 
 * **Workspace (Product Profile) drop-down list:** The Workspace drop-down list displays at the top of the [!UICONTROL Activities], [!UICONTROL Audiences], and [!UICONTROL Offers] pages. Select the desired workspace to filter the list to display only items in the selected workspace.
 
-  ![workspace_drop-down image](assets/workspace_drop-down.png)
-
 * **Activity Creation:** When you create an activity, it is created in the currently selected workspace. You see channel selection options in the first dialog box that lets you choose the desired channel for the activity: Web, Mobile App, Email, or Other/API.
-
-  ![channel_options image](assets/channel_options.png)
 
 * **Audience Creation:** When you create an audience, it is created in the currently selected workspace.
 * **Audience list:** You can move audiences between workspaces by using the [!UICONTROL More Actions] > [!DNL Move] option on the [!UICONTROL Audiences] page.
 * **Offer Creation:** When you create an offer, it is created in the currently selected workspace. 
 * **Properties page (Administration > Properties):** You can use the [!UICONTROL Search] box to search the [!UICONTROL Property] list.
-
-  ![properties_list image](assets/properties_list.png)
 
 ## Caveats {#section_9714311B1CD9497A86F4910F8AE635E2}
 

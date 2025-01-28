@@ -36,8 +36,6 @@ You can view a list of your current users in the [!DNL Target] UI, including the
 
 To view the [!UICONTROL Users] page, click **[!UICONTROL Administration]** > **[!UICONTROL Users]**.
 
-![User list from within Target](/help/main/administrating-target/c-user-management/c-user-management/assets/user-list-target.png)
-
 >[!NOTE]
 >
 >To manage existing user or to add new users, you must use the [!UICONTROL Adobe Admin Console], as explained below.
@@ -80,19 +78,11 @@ System admin users must add users to the system. Users are not automatically add
 
 1. [In the Admin Console](/help/main/administrating-target/c-user-management/c-user-management/user-management.md#section_79796E0227D048F59BAE0AB02E544EBE), click **[!UICONTROL Products]**, then select the name of the desired product.
 
-   ![Products tab](/help/main/administrating-target/c-user-management/c-user-management/assets/workspace-publisher.png)
-
 1. Click the desired workspace (for example, Default Workspace).
-
-   ![Default Workspace](/help/main/administrating-target/c-user-management/c-user-management/assets/default-workspace-new.png)
 
    The [!UICONTROL Users] tab displays all of the users in that workspace.
 
-   ![configuration users](/help/main/administrating-target/c-user-management/c-user-management/assets/configuration_users-new-publisher.png)
-
 1. Select the desired permissions role ([!UICONTROL Approver], [!UICONTROL Editor], [!UICONTROL Observer] or [!UICONTROL Publisher]) by using the drop-down list for each user in the [!UICONTROL Product Role] column.
-
-   ![Product Role drop-down list](/help/main/administrating-target/c-user-management/c-user-management/assets/product-role-new.png)
 
    | Role | Description |
    |--- |--- |
