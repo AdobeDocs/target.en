@@ -15,11 +15,7 @@ After creating an activity, [!DNL Recommendations] runs an algorithm to generate
 
 You can check whether the algorithm has finished running in the [!UICONTROL Activity] overview diagram, where the criteria status is listed. The following illustration shows the status in the activity diagram on a [!DNL Recommendations] activity's [!UICONTROL Overview] page:
 
-![Recommendations activity Overview page](/help/main/c-recommendations/t-create-recs-activity/assets/recs-overview.png)
-
-The following illustration depicts the status on an [!UICONTROL A/B Test] or XT activity's [!UICONTROL Overview] page:
-
-![A/B Test Overview page](/help/main/c-recommendations/t-create-recs-activity/assets/ab-overview.png)
+![Recommendations activity Overview page](/help/main/c-recommendations/t-create-recs-activity/assets/recs-overview-new.png)
 
 Status results include the following, as illustrated below:
 
@@ -39,7 +35,7 @@ The behavioral data source has the largest impact on processing time, as follows
 
 If mboxes is selected as the behavioral data source, once created, the criteria immediately runs. Depending on the amount of behavioral data used and the size of the catalog, the algorithm can take up to 12 hours to run. Making changes to the criteria configuration generally results in the algorithm re-running. Depending on the change made, the previously computed recommendations might not be available until a re-run is complete, or for larger changes, only backup or default content is available until a re-run is complete. If an algorithm is not modified, it is automatically re-run by [!DNL Target] every 12-48 hours, depending on the selected data range.
 
-### Adobe Analytics
+### [!DNL Adobe Analytics]
 
 If the criteria uses [!DNL Adobe Analytics] as the behavioral data source, once created, the time for criteria availability depends on whether the selected report suite and lookback window has been used for any other criteria.
 
@@ -53,9 +49,7 @@ If the criteria uses [!DNL Adobe Analytics] as the behavioral data source, once 
 
 ## Using QA links to preview Recommendations
 
-After the algorithm has results ready, you can preview those results using the [QA link](/help/main/c-activities/c-activity-qa/activity-qa.md) functionality of [!DNL Adobe Target]. QA links are available in the [!UICONTROL Activity QA] section of the Activity overview page:
-
-![Activity QA link](/help/main/c-recommendations/t-create-recs-activity/assets/qa-link.png)
+After the algorithm has results ready, you can preview those results using the [QA link](/help/main/c-activities/c-activity-qa/activity-qa.md) functionality of [!DNL Adobe Target]. QA links are available in the [!UICONTROL Activity Location] section of the [!UICONTROL Activity] overview page:
 
 >[!NOTE]
 >
@@ -97,19 +91,13 @@ For other algorithm types based on a key value, such as [!UICONTROL People Who V
 
 ## Activating your Recommendations activity
 
-From the [!UICONTROL Activity Overview] tab, click the drop-down arrow next to the status, then select **[!UICONTROL Activate]**.
+From the [!UICONTROL Activity Overview] tab, click the Status drop-down arrow, then select **[!UICONTROL Activate]**.
 
-![Activate option](/help/main/c-recommendations/t-create-recs-activity/assets/activate.png)
+If your [!UICONTROL Recommendations] activity is currently in the [!UICONTROL Inactive] state, the drop-down list is labeled [!UICONTROL Inactive].
 
-Note that the status becomes [!UICONTROL Activating]:
+After a few seconds to a couple of minutes, the status switches to [!UICONTROL Live].
 
-![Activating](/help/main/c-recommendations/t-create-recs-activity/assets/activating.png)
-
-After a few seconds to a couple of minutes, the status switches to [!UICONTROL Live]:
-
-![Live](/help/main/c-recommendations/t-create-recs-activity/assets/live.png)
-
-Note that you can also deactivate or archive the activity using the same drop-down list.
+You can also deactivate or archive the activity using the same drop-down list.
 
 ## Avoiding disruptions when changing Recommendations settings
 
