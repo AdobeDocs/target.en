@@ -206,6 +206,7 @@ feature-set: Target
    + [Activity settings](c-activities/activity-settings.md)
    + Success metrics {#success-metrics}
       + [Success metrics](c-activities/r-success-metrics/success-metrics.md)
+      + [Success metrics beta](c-activities/r-success-metrics/success-metrics-beta.md)
       + [Click tracking](c-activities/r-success-metrics/click-tracking.md)
       + [Capture score](c-activities/r-success-metrics/capture-score.md)
    + [Activity change log](c-activities/change-log.md)

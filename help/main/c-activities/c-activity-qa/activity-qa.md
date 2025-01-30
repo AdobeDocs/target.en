@@ -25,11 +25,7 @@ Use QA URLs in [!DNL Adobe Target] to perform easy end-to-end activity QA with p
 
 1. From an activity's [!UICONTROL Overview] page, click **[!UICONTROL Activity QA]**.
 
-   ![Activity QA link](assets/qa_link.png)
-
 1. Configure the following settings:
-
-   ![QA Link configuration options](assets/qa_link_config.png)
 
     * **[!UICONTROL Match audience rules to see experiences]:** Sometimes you want to confirm that your audience matching works. Other times you want to check the look and feel of the activity. If this setting is toggled to the "on" position, testers must meet targeting requirements to qualify to see the experiences. For Experience Targeting (XT) activities, a single activity URL is provided. The experience you see is determined by you qualifying for one of the targeting rules.
 
