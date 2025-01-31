@@ -9,7 +9,7 @@ exl-id: f2783042-f6ee-4f73-b487-ede11d55d530
 
 This article contains prerelease information for upcoming [!DNL Adobe Target] releases, including SDKs, APIs, and JavaScript libraries.
 
-**Last Updated: January 27, 2025**
+**Last Updated: January 31, 2025**
 
 >[!NOTE]
 >
@@ -17,13 +17,20 @@ This article contains prerelease information for upcoming [!DNL Adobe Target] re
 >
 >To view information about the current release, see [Target Release Notes](release-notes.md). The information on these pages might be the same, depending on the timing of releases. The issue numbers in parentheses are for internal [!DNL Adobe] use.
 
-## [!UICONTROL Activities] user interface update (February 6, 2025)
+## Target Standard/Premium 25.2.1 (February 6, 2025)
+
+This release includes the following updates:
+
+* [!UICONTROL Activities] user interface update
+* [!DNL Recommendations] user interface update
+
+### [!UICONTROL Activities] user interface update
 
 As the [!DNL Adobe Target] UI modernization effort continues, we are pleased to announce the general availability of the updated [!UICONTROL Activities] User Interface.
 
 >[!NOTE]
 >
->Starting Wednesday, February 6, customers will gradually have access to the new [!UICONTROL Activities]  UI. To ensure a seamless rollout for all customers, this release will be deployed in controlled stages. The first stage will upgrade the initial group of [!DNL Target] customers to the new [!UICONTROL Activities] UI. Subsequent stages will upgrade the remaining customers.
+>Starting Thursday, February 6, customers will gradually have access to the new [!UICONTROL Activities]  UI. To ensure a seamless rollout for all customers, this release will be deployed in controlled stages. The first stage will upgrade the initial group of [!DNL Target] customers to the new [!UICONTROL Activities] UI. Subsequent stages will upgrade the remaining customers.
 
 Based on the latest [!DNL Adobe Spectrum] design system, the update standardizes previously inconsistent design patterns, while adding new enhancements, such as:
 
@@ -37,13 +44,13 @@ Based on the latest [!DNL Adobe Spectrum] design system, the update standardizes
 
 ![Activities refresh](/help/main/r-release-notes/assets/activities-refresh.png)
 
-## [!DNL Recommendations] user interface update (February 6, 2025)
+### [!DNL Recommendations] user interface update
 
 As the [!DNL Adobe Target] UI modernization effort continues, we are pleased to announce the general availability of the updated [!DNL Recommendations] User Interface. 
 
 >[!NOTE]
 >
->Starting Wednesday, February 6, customers will gradually have access to the new [!UICONTROL Recommendations]  UI. To ensure a seamless rollout for all customers, this release will be deployed in controlled stages. The first stage will upgrade the initial group of [!DNL Target] customers to the new [!UICONTROL Activities] UI. Subsequent stages will upgrade the remaining customers.
+>Starting Thursday, February 6, customers will gradually have access to the new [!UICONTROL Recommendations]  UI. To ensure a seamless rollout for all customers, this release will be deployed in controlled stages. The first stage will upgrade the initial group of [!DNL Target] customers to the new [!UICONTROL Activities] UI. Subsequent stages will upgrade the remaining customers.
 
 Based on the latest [!DNL Adobe Spectrum] design system, the update standardizes previously inconsistent design patterns, while adding new enhancements, such as:
 
@@ -57,7 +64,11 @@ Based on the latest [!DNL Adobe Spectrum] design system, the update standardizes
 
 ![Recommendations UI refresh](/help/main/r-release-notes/assets/recs-ui-refresh.png)
 
-## [!UICONTROL Offers Library] user interface update (January 9, 2025)
+## Target Standard/Premium 25.1.1 (January 9, 2025)
+
+This release includes the following updates:
+
+### [!UICONTROL Offers Library] user interface update
 
 To enhance the user experience for [!DNL Adobe Target] users, this release updates the [!UICONTROL Offers Library] user interface. 
  
