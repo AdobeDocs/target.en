@@ -13,7 +13,11 @@ These release notes provide information about features, enhancements, and fixes 
 
 (The issue numbers in parentheses are for internal [!DNL Adobe] use.)
 
-## [!UICONTROL Offers Library] user interface update (January 9, 2025)
+## Target Standard/Premium 25.1.1 (January 9, 2025)
+
+This release includes the following updates:
+
+### [!UICONTROL Offers Library] user interface update
 
 To enhance the user experience for [!DNL Adobe Target] users, this release updates the [!UICONTROL Offers Library] user interface. 
 
