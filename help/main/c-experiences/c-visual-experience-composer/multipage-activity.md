@@ -21,21 +21,13 @@ You can specify template rules for each page in the multipage test. For example,
 
 To add pages to a test:
 
-1. Click the **[!UICONTROL Configure]** gear icon. 
+1. Click the **[!UICONTROL Configure]** icon ( ![Configure icon](/help/main/assets/icons/Setting.svg) ). 
 1. Click **[!UICONTROL Add Additional Pages]**.
 
-   A navigation bar appears on the left of the screen.
+   A [!UICONTROL Pages] pane displays on the left of the screen.
 
-   ![multipage_nav image](assets/multipage_nav.png)
+1. Specify your pages and set the default page.
 
-1. Use that navigational bar to specify your pages and to set the default page.
+   Click **[!UICONTROL Add Page]**  ( ![Add icon](/help/main/assets/icons/Add.svg) ) to add an additional page, specify the page name and URL, then click **[!UICONTROL Save]**.
 
-   Click **[!UICONTROL Add Page]** to add an additional page.
-
-   Click the three vertical ellipses icon to display an action menu:
-
-   ![multipage_menu image](assets/multipage_menu.png)
-
-   Use this menu to rename the pages, perform a redirect test from within the multipage activity or delete the page. 
-
-1. Use the Visual Experience Composer to design the way the offer looks on each page.
+1. Use the [!UICONTROL Visual Experience Composer] to design the way the offer looks on each page.
