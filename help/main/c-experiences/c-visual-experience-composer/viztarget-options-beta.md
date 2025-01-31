@@ -28,7 +28,7 @@ Select components from the Components frame on the left side to insert the follo
 
 * Basic (divider, HTML, image).
 * Text (heading, paragraph, link).
-* Dynamic ([Recommendation](help/main/c-recommendations/recommendations-as-an-offer.md), [Experience Fragment](/help/main/c-experiences/c-manage-content/aem-experience-fragments.md), HTML offer).
+* Dynamic ([Recommendation](/help/main/c-recommendations/recommendations-as-an-offer.md), [Experience Fragment](/help/main/c-experiences/c-manage-content/aem-experience-fragments.md), HTML offer).
 
 The menu at the top of the image lets you do the following:
 
@@ -67,7 +67,7 @@ Select components from the [!UICONTROL Components] frame on the left side to ins
 
 * Basic (divider, HTML, image).
 * Text (heading, paragraph, link).
-* Dynamic ([Recommendation](help/main/c-recommendations/recommendations-as-an-offer.md), [Experience Fragment](/help/main/c-experiences/c-manage-content/aem-experience-fragments.md), HTML offer).
+* Dynamic ([Recommendation](/help/main/c-recommendations/recommendations-as-an-offer.md), [Experience Fragment](/help/main/c-experiences/c-manage-content/aem-experience-fragments.md), HTML offer).
 
 Click the [!UICONTROL Show Modifications] icon ( ![Show Modifications icon](/help/main/assets/icons/History.svg) ) to display the modifications to the experience.
 
@@ -78,7 +78,7 @@ The menu at the top of the text element lets you do the following:
 * Configure the text's attributes (bold, italic, underline, or strike through) ( ![Choose text Attributes icon](/help/main/assets/icons/Text.svg) ).
 * Configure the text's alignment (left, center, right, justify) ( ![Text Alignment icon](/help/main/assets/icons/TextAlignCenter.svg) ).
 * Insert a link ( ![Insert Link icon](/help/main/assets/icons/Link.svg) ).
-* Replace the content with an HTML offer, [Experience Fragment](/help/main/c-experiences/c-manage-content/aem-experience-fragments.md), or [Recommendation](help/main/c-recommendations/recommendations-as-an-offer.md).
+* Replace the content with an HTML offer, [Experience Fragment](/help/main/c-experiences/c-manage-content/aem-experience-fragments.md), or [Recommendation]/help/main/c-recommendations/recommendations-as-an-offer.md).
 * Edit the HTML ( ![Insert HTML icon](/help/main/assets/icons/Code.svg) ).
 * Add personalization ( ![Add Personalization icon](/help/main/assets/icons/PersonalizationField.svg) ).
 * Delete the image ( ![Delete icon](/help/main/assets/icons/Delete.svg) ).
