@@ -15,7 +15,76 @@ Release notes are arraigned in descending order by month and year of release.
 >
 >See [Target release notes (current)](/help/main/r-release-notes/release-notes.md#reference_8FE40B43A5A34DDF8F26A53D55EE036A) for information about the current month's Target releases (platform and Target Standard/Premium).
 
+## Release notes - 2025
+
+### Target Standard/Premium 25.1.1 (January 9, 2025)
+
+This release includes the following updates:
+
+#### [!UICONTROL Offers Library] user interface update
+
+To enhance the user experience for [!DNL Adobe Target] users, this release updates the [!UICONTROL Offers Library] user interface. 
+
+>[!NOTE]
+>
+>To ensure a seamless rollout for all customers, this release will be deployed in controlled stages. The first stage upgraded the initial group of Target customers to the new Offers UI. Subsequent stages will upgrade the remaining customers.
+
+Using the latest [!DNL Adobe Spectrum] design system, this update standardizes inconsistent design patterns and introduces new enhancements, including the following:
+
+* **Bulk offer management**: Select and delete or move multiple offers simultaneously.
+
+* **[!UICONTROL Code Editor] upgrades**: Refreshed HTML and JSON editors with syntax highlighting and line numbering.
+
+* **Improved offer cards**: Enhanced quick information and detail cards for easier information access.
+
+* **Persistent search and filters**: Adds session-persistent search and filter options.
+
+For more information see [Offers](/help/main/c-experiences/c-manage-content/manage-content.md) and the sub-articles in this section. All Offers articles in this section have been updated to reflect these UI changes.
+
+Here's a short video that highlights the changes in this release:
+
+![Offers UI refresh video](/help/main/r-release-notes/assets/offers-video-v2.gif)
+
 ## Release notes - 2024
+
+### [!DNL Adobe Experience Platform Web SDK] `__view__` scope optimization (October 22, 2024)
+
+Between July 22, 2024 and August 15, 2024, the [!DNL Target] team optimized the `__view__` scope, enhancing the accuracy of activity impression, visit, and visitor reporting. This optimization aims to automatically capture reporting data for auto-rendered propositions and should be transparent to most accounts.
+
+All new [!DNL Adobe Experience Platform Web SDK] customers will have this optimization enabled. However, customers who migrated from at.js and have not followed the implementation steps below have the optimization disabled. We urge these customers to review their implementations by February 3, 2025. After this date, we will enable the optimization for all customers. Failure to review and adjust implementations by then might impact reports, as mentioned below. Please contact [!DNL Adobe Customer Care] if you need to confirm whether your implementation is affected or if you require more time to adjust your implementation.
+
+>[!IMPORTANT]
+>
+>If you cannot complete your implementation review and resolve any issues by February 3, 2025, you can request a one-time, six-month extension. Ensure that your request is submitted by January 31, 2025. Adobe will review and decide on your request.
+
+To benefit from this optimization in case of manual proposition rendering, review your [[!DNL Platform Web SDK implementation]](https://experienceleague.adobe.com/en/docs/target-dev/developer/client-side/aep-web-sdk){target=_blank} to ensure that you are sending notifications after manually rendering experiences or when using the `applyPropositions` method (or the corresponding [!DNL Launch] action as a helper) to render experiences.
+
+The most-common scenarios when experiences are manually rendered include:
+
+* Using JSON offers
+* Using a custom decision scope in an activity created in the [[!UICONTROL Form-Based Experience Composer]](/help/main/c-experiences/form-experience-composer.md)
+* Not using `renderDecisions: true` when fetching an activity created using the [!UICONTROL Form-Based Experience Composer] that uses the global `__view__` scope
+
+If notifications are not implemented as documented in [Render personalized content](https://experienceleague.adobe.com/en/docs/experience-platform/web-sdk/personalization/rendering-personalization-content){target=_blank} in the *Data Collection* guide, reporting data might be missing in [!DNL Target] and in [Analytics for Target reporting](/help/main/c-integrating-target-with-mac/a4t/a4t.md) (A4T). In certain scenarios, you might notice an incorrect traffic split because the reporting data is not captured. Or, in other scenarios, reporting the same event repeatedly.
+
+Depending on your implementation, check for [!DNL Analytics] and A4T reporting impacts. 
+
+The [!DNL Platform Web SDK] supports two implementation types for rendering experiences and personalizations:
+
+* **Single call for personalization and measurement.**
+
+  Initially recommended, the single-call approach for the [!DNL Platform Web SDK] is scheduled to be deprecated in favor of the split-call approach. Adobe advises all new implementations to use the new split-call approach and recommends that existing customers transition to the split-call method as well. 
+  
+  If you continue to use the single-call approach, you might notice the following unexpected changes in your [!DNL Analytics] reports:
+
+  * A dip in bounces.
+  * A4T and [!UICONTROL Page View] hits not stitched together, making it challenging to perform certain breakdowns and correlations of your A4T reports using [!DNL Analytics] eVars and events.
+
+* **Split calls (also known as top and bottom of page events).**
+
+  This implementation type is the new [split-call implementation approach](https://experienceleague.adobe.com/en/docs/experience-platform/web-sdk/use-cases/top-bottom-page-events){target=_blank} recommended by [!DNL Adobe]. With this approach, the new optimization does not impact [!DNL Analytics] or A4T reports.
+
+If you have questions, contact [Adobe Customer Care](/help/main/cmp-resources-and-contact-information.md##reference_ACA3391A00EF467B87930A450050077C). (KB-2179)
 
 ### at.js version 2.11.6 (September 29, 2024)
 
