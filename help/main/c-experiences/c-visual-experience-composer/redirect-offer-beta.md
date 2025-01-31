@@ -5,6 +5,7 @@ title: Can I Redirect a Page to a Different URL?
 feature: Visual Experience Composer (VEC)
 hide: yes
 hidefromtoc: yes
+exl-id: 2979ea8a-650c-4e60-9b60-51706740f66b
 ---
 # Redirect to a URL
 

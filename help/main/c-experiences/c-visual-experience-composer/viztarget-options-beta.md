@@ -5,6 +5,7 @@ title: How Do I Use the [!UICONTROL Visual Experience Composer] (VEC) Options?
 feature: Visual Experience Composer (VEC)
 hide: yes
 hidefromtoc: yes
+exl-id: 3b9fa582-1174-4dac-9649-f574d9cd4858
 ---
 # Visual Experience Composer options
 

@@ -5,6 +5,7 @@ title: Can I Include the Same Experience on Similar Pages?
 feature: Experiences and Offers
 hide: yes
 hidefromtoc: yes
+exl-id: ced0b5a1-cb78-4576-b67c-ae88ad072ce6
 ---
 # Include the same experience on similar pages
 

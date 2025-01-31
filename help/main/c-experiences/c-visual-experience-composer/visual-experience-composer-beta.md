@@ -5,6 +5,7 @@ title: How Do I Use the Visual Experience Composer (VEC)?
 feature: Visual Experience Composer (VEC)
 hide: yes
 hidefromtoc: yes
+exl-id: 98d28c15-5808-4248-bc62-8321b94f9474
 ---
 # Visual Experience Composer (VEC)
 
