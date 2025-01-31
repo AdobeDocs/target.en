@@ -49,7 +49,7 @@ To get started, create an [!UICONTROL A/B Test] or [!UICONTROL Experience Target
 
 1. Click **[!UICONTROL Create Criteria]** or select an existing [criteria](/help/main/c-recommendations/c-algorithms/algorithms.md), then click **[!UICONTROL Next]** to display the [!UICONTROL Select Design] dialog box.
 
-1. Click **[!UICONTROL Create Design]** or select an existing [design](/help/main/c-recommendations/c-design-overview/design-overview.md), then click [**!UICONTROL Next]**.
+1. Click **[!UICONTROL Create Design]** or select an existing [design](/help/main/c-recommendations/c-design-overview/design-overview.md), then click **[!UICONTROL  Next]**.
 
 1. In the [!UICONTROL Options] dialog box, specify the following:
 
