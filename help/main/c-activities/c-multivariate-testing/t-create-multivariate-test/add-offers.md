@@ -21,33 +21,25 @@ For more information about using the VEC to create and edit offers, see [Visual 
 
 Test multiple images offers within a location to determine which image is most successful.
 
-1. Click an image on your page, and then select **[!UICONTROL Change Image]**.
+1. Click an image on your page, and then select **[!UICONTROL Change Image Offer]**.
 
-   ![Change Image option](/help/main/c-activities/c-multivariate-testing/t-create-multivariate-test/assets/changeimage.png)
-
-1. Select all images that you want to include in the test, then click **[!UICONTROL Save]**.
-
-   ![Select Content dialog box used to add images](/help/main/c-activities/c-multivariate-testing/t-create-multivariate-test/assets/addimage.png)
+1. From the [!UICONTROL Image Offer] dialog box, select all images that you want to include in the test, then click **[!UICONTROL Add]**.
 
 Each image becomes a separate experience in that location.
 
 ## HTML Offers {#section_DF016101AFA9412C9B99862C23DE77B1}
 
-Test multiple Text/HTML offers within a location to determine which offer is most successful.
+Test multiple HTML offers within a location to determine which offer is most successful.
 
-1. Click an Text/HTML offer on your page, then click **[!UICONTROL Change Text/HTML]**.
+1. Click an HTML offer on your page, then click **[!UICONTROL Change HTML Offer]**.
 
-   ![Change Text/HTML](/help/main/c-activities/c-multivariate-testing/t-create-multivariate-test/assets/changehtml.png)
+1. Click **[!UICONTROL Create Offer]**, click **[!UICONTROL HTML Offer]**, name the offer, type or paste the code for the HTML offer, then click **[!UICONTROL Create]**.
 
-1. Click **[!UICONTROL Add Text/HTML Offer]**, name the offer, then type or paste the code for the Text/HTML offer.
-
-   ![Edit offers](/help/main/c-activities/c-multivariate-testing/t-create-multivariate-test/assets/editoffers.png)
-
-   Repeat for any additional Text/HTML offers you want to include. 
+   Repeat for any additional HTML offers you want to include. 
 
 1. Click **[!UICONTROL Save]**.
 
-Each Text/HTML offer becomes a separate experience in that location.
+Each HTML offer becomes a separate experience in that location.
 
 ## Best Practices {#section_2E98C23D2F1A460FA732A31799CE6291}
 
@@ -58,4 +50,3 @@ Each Text/HTML offer becomes a separate experience in that location.
 * You must have at least three elements to test. If you have fewer, run a series of A/B tests. 
 * Each element's alternatives should be significantly different from each other. 
 * Although not required, it is good practice for each element to have the same number of alternatives.
-

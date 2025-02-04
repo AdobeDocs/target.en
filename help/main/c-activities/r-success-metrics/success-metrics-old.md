@@ -3,9 +3,7 @@ keywords: Targeting;success;conversion metric;page score metric;page views metri
 description: Learn about success metrics in Adobe [!DNL Target] that help you determine the success of an activity. Success metrics include Conversion, Revenue, Page Views, Custom Scoring, and Time on Site.
 title: What Are Success Metrics?
 feature: Success Metrics
-hide: yes
-hidefromtoc: yes
-exl-id: 12381f14-21bd-44d9-9387-5e4744b84646
+exl-id: 38d5314d-4950-4106-a058-0d221faf5a24
 ---
 # Success metrics
 
@@ -53,9 +51,9 @@ Some metrics, such as [!UICONTROL Custom Scoring] and [!UICONTROL Revenue Per Vi
 
 Use the advanced settings to manage how you measure success. Options include adding dependencies, choosing whether to keep the user in the activity or remove them, and whether to count the metric once per entrant or on every impression.
 
-To access the [!UICONTROL Advanced Settings] options, click the **[!UICONTROL More Actions]** icon ( ![More Actions icon](/help/main/assets/icons/MoreSmallListVert.svg) ), then click **[!UICONTROL Advanced Settings]**.
+To access the [!UICONTROL Advanced Settings] options, click the **[!UICONTROL vertical ellipses]** > **[!UICONTROL Advanced Settings]**.
 
-![Advanced Settings menu](/help/main/c-activities/r-success-metrics/assets/advanced-settings-refresh.png)
+![Advanced Settings menu](/help/main/c-activities/r-success-metrics/assets/advanced-settings.png)
 
 >[!NOTE]
 >
@@ -64,6 +62,8 @@ To access the [!UICONTROL Advanced Settings] options, click the **[!UICONTROL Mo
 ### Add dependency
 
 You can use the advanced settings to create dependent success metrics, incrementing one metric only if a visitor reaches another metric first.
+
+![Add Dependency](/help/main/c-activities/r-success-metrics/assets/UI_dep_success_metric.png)
 
 For example, a test conversion might only be valid if a visitor clicks the offer, or reaches a particular page before converting.
 
@@ -77,7 +77,7 @@ Dependency functionality is *not* supported for the following:
 Dependent success metrics will not convert in the following cases:
 
 * If you create a circular dependency in which metric1 is dependent on metric2 and metric2 is dependent on metric1, neither metric can convert. 
-* [!UICONTROL Automated Personalization] activities release users and restart the activity when conversion metrics are reached, so any metric dependent on the conversion metric will not convert.
+* Automated Personalization activities release users and restart the activity when conversion metrics are reached, so any metric dependent on the conversion metric will not convert.
 
 ### What will happen after a user encounters this goal metric?
 
