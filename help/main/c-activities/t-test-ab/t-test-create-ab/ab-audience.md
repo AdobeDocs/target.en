@@ -9,11 +9,11 @@ exl-id: 281ae227-c593-4b71-ad12-865430b332be
 
 The audience determines which qualifying visitors are entered into your [!DNL Adobe Target] activity.
 
-The [!UICONTROL Targeting] step of the three-part guided workflow when [creating an activity](/help/main/c-activities/t-test-ab/t-test-create-ab/test-create-ab-beta.md) displays a flow diagram that leads you through the steps of assigning an audience and its traffic percentage, selecting the traffic allocation method, and specifying the traffic allocation for each experience in the activity.
+The [!UICONTROL Targeting] step of the three-part guided workflow when [creating an activity](/help/main/c-activities/t-test-ab/t-test-create-ab/test-create-ab.md) displays a flow diagram that leads you through the steps of assigning an audience and its traffic percentage, selecting the traffic allocation method, and specifying the traffic allocation for each experience in the activity.
 
 ![A/B Test Targeting step](/help/main/c-activities/t-test-ab/t-test-create-ab/assets/ab_flow-new-ui.png)
 
-For more information about all the options in the flow diagram, see [Create an A/B Test activity](/help/main/c-activities/t-test-ab/t-test-create-ab/test-create-ab-beta.md).
+For more information about all the options in the flow diagram, see [Create an A/B Test activity](/help/main/c-activities/t-test-ab/t-test-create-ab/test-create-ab.md).
 
 ## Select an audience for the activity
 
