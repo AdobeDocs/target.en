@@ -41,7 +41,6 @@ feature-set: Target
    + [Target optimization and personalization FAQ](c-intro/cmp-target-standard-cheatsheet.md)
 + Administer Target {#administer}
    + [Administer Target overview](administrating-target/administrating-target.md)
-   + [Administer Target overview beta](administrating-target/administrating-target-beta.md)
    + [Administrator first steps](administrating-target/start-target.md)
    + [Configure the Visual Experience Composer](/help/main/administrating-target/visual-experience-composer-set-up.md)
    + Reporting {#reporting}
@@ -111,7 +110,6 @@ feature-set: Target
    + [Target activity types](c-activities/target-activities-guide.md)
    + A/B Test {#abtest}
       + [A/B test overview](c-activities/t-test-ab/test-ab.md)
-      + [A/B test overview beta](c-activities/t-test-ab/test-ab-beta.md)
       + [How long should you run an A/B test?](c-activities/t-test-ab/sample-size-determination.md)
       + [Ten common A/B testing pitfalls and how to avoid them](c-activities/t-test-ab/common-ab-testing-pitfalls.md)
       + [A/A testing](/help/main/c-activities/t-test-ab/aa-testing.md)
