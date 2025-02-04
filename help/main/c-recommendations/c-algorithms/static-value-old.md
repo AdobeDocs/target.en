@@ -4,13 +4,11 @@ description: Learn how to manually enter one or more static values to filter usi
 title: How Do I Filter By Static Values In Recommendations Activities?
 badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="See what's included in Target Premium."
 feature: Recommendations
-hide: yes
-hidefromtoc: yes
-exl-id: 52755b3a-ae6d-4fe4-8f1c-a660b038f2fb
+exl-id: 217e19bf-521f-4913-9b41-099c9af8b393
 ---
-# [!UICONTROL Static Filter]
+# Static Filter
 
-Manually enter one or more static values to filter using inclusion rules in [!DNL Adobe Target Recommendations].
+Manually enter one or more static values to filter using inclusion rules in [!DNL Adobe Target] [!DNL Recommendations].
 
 For example, only recommend content with a Motion Picture Association (MPA) rating of "G" or "PG."
 
@@ -22,4 +20,6 @@ You can create as many inclusion rules as necessary. The inclusion rules are joi
 
 ## Recommend content rated G or PG
 
-To create an inclusion rule with static values to recommend content with an MPA rating of "G" or "PG" only (exclude "R" and "NC17" content), you could create the following filtering rules "movie-rating equals any of g-rated" and "movie-rating equals any of pg-rated".
+To create an inclusion rule with static values to recommend content with an MPA rating of "G" or "PG" only (exclude "R" and "NC17" content), you could create the following filtering rules "movie-rating equals g-rated" and "movie-rating equal pg-rated", as shown below.
+
+![movie-rating example](/help/main/c-recommendations/c-algorithms/assets/movies.png)

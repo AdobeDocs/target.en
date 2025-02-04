@@ -1,26 +1,26 @@
 ---
 keywords: behavioral data source;analytics;recommendations;criteria;product variables
-description: Learn how to use [!DNL Adobe Analytics] as the behavioral data source in [!DNL Target Recommendations].
+description: Learn how to use [!DNL Adobe Analytics] as the behavioral data source to use the view-based and/or purchase-based behavioral data from [!DNL Analytics] in [!DNL Target Recommendations].
 title: How Do I Use [!DNL Adobe Analytics] with [!DNL Target Recommendations]?
 badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="See what's included in Target Premium."
 feature: Recommendations
-hide: yes
-hidefromtoc: yes
-exl-id: 818c5dc6-c9b1-4596-8608-1842c9620dc2
+exl-id: d2b7e840-9546-4a8e-bec4-1ebea5a79672
 ---
 # Use [!DNL Adobe Analytics] with [!DNL Recommendations]
 
-Using [!DNL Adobe Analytics] as the behavioral data source lets clients use the view-based and purchase-based behavioral data from [!DNL Analytics] in [!DNL Adobe Target Recommendations] activities. This feature is especially helpful in situations where the [!DNL Target Recommendations] setup is new and [!DNL Analytics] has a lot of historical data to use.
+Using [!DNL Adobe Analytics] as the behavioral data source lets clients use the view-based and/or purchase-based behavioral data from [!DNL Analytics] in [!DNL Adobe Target] [!DNL Recommendations] activities. This feature is especially helpful in situations where the [!DNL Target Recommendations] setup is new and [!DNL Analytics] has much historical data to use.
 
 Using [!DNL Analytics] as the behavioral data source can act as a rich source of information about user behavior. This information might include data from a third-party source or feed that is shared only with [!DNL Analytics].
 
 While [creating criteria](/help/main/c-recommendations/c-algorithms/create-new-algorithm.md) in [!DNL Recommendations], there are two radio buttons that let you choose which data source is to be used: [!UICONTROL mboxes] or [!UICONTROL Analytics]. To create a criteria, click [!UICONTROL Recommendations] > [!UICONTROL Criteria] > [!UICONTROL Create Criteria] > [!UICONTROL Create Criteria]. For more information, see [Create criteria](/help/main/c-recommendations/c-algorithms/create-new-algorithm.md).
 
+![Behavioral data source buttons](assets/behavioral-data-source.png)
+
 >[!NOTE]
 >
 >If these two buttons do not display in your account, reach out to [Customer Care](/help/main/cmp-resources-and-contact-information.md#reference_ACA3391A00EF467B87930A450050077C).
 
-## Use Cases for [!DNL Analytics] data in [!DNL Target]
+## Use Cases for Analytics data in Target
 
 Using [!DNL Analytics] as the behavioral data source for recommendations also lets you deploy specific use cases without the requirement of tagging entity pages with all the [!DNL Target] entity parameters. Although that requires certain pre-requisites to be in place, availability of "Product Variables" is the most important thing for that functionality to work seamlessly. Regular eVars and Props are not sufficient for this handshake to happen automatically between [!DNL Analytics] and [!DNL Target].
 
@@ -57,9 +57,13 @@ Now it is time to map these variables on [!DNL Target] side for continuous suppl
 
 1. In [!DNL Target], click **[!UICONTROL Recommendations]**, then click the **[!UICONTROL Feeds]** tab.
 
+   ![Feeds](/help/main/c-recommendations/c-algorithms/assets/feeds-tab.png)
+
 1. Click **[!UICONTROL Create Feed]**.
 
 1. Select **[!UICONTROL Analytics Classifications]**, then specify the report suite.
+
+   ![Analytics Classifications option](/help/main/c-recommendations/c-algorithms/assets/analytics-classifications.png)
 
 1. Click **[!UICONTROL Next]** to advance to the **[!UICONTROL Schedule]** settings, the select a frequency period for the feed:
 
@@ -71,6 +75,8 @@ Now it is time to map these variables on [!DNL Target] side for continuous suppl
    You can also select the time of day for the feed to process.
 
 1. Click **[!UICONTROL Next]** to advance to the  **[!UICONTROL Mapping]** settings, then map the field column headers to the appropriate [!UICONTROL Recommendations] field names.
+
+   ![Mapping section](/help/main/c-recommendations/c-algorithms/assets/mapping.png)
 
 1. Click **[!UICONTROL Save]**.
 

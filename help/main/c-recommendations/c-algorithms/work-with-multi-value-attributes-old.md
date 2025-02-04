@@ -1,11 +1,9 @@
 ---
 keywords: multi-value;attributes;recommendations;multi value;multivalue;multi-value
-description: Learn how to work with a multi-value field in [!DNL Target Recommendations] using special multi-value operators.
+description: Learn how to work with a multi-value field in Adobe [!DNL Target] Recommendations using special multi-value operators, for example, when recommending movies with multiple actors.
 title: Can I Use Multi-Value Attributes in Recommendations?
 feature: Recommendations
-hide: yes
-hidefromtoc: yes
-exl-id: 94ac0f06-56e9-4ee7-a48e-f2485ec5ccfe
+exl-id: 82018a9a-0983-458c-9387-3602dab4409b
 ---
 # Work with multi-value attributes
 
@@ -70,7 +68,7 @@ The following operators are available for use with multi-value entity, profile, 
 
 ### Example: Exclude recently watched items
 
-Suppose that you want to prevent any movies that are in the user's last ten watched movies from being recommended. First, write a profile script called `user.lastWatchedMovies` to track the last ten viewed movies as a JSON array. Then, you can exclude the items by using the following inclusion rule:
+Suppose that you want to prevent any movies that are in the user’s last ten watched movies from being recommended. First, write a profile script called `user.lastWatchedMovies` to track the last ten viewed movies as a JSON array. Then, you can exclude the items by using the following inclusion rule:
 
 ```
 `Profile Attribute Matching`
@@ -114,7 +112,7 @@ JSON API representation of the inclusion rule:
 
 ### Example: API creation of criteria recommending items from a user's favorites
 
-Criteria using multi-value filtering rules, like all criteria, can be created via [!DNL Adobe Target] APIs. An example API call to create a criteria where the entity attribute `id` is contained in the mbox parameter list `favorites` is provided here:
+Criteria using multi-value filtering rules, like all criteria, can be created via Adobe I/O APIs. An example API call to create a criteria where the entity attribute `id` is contained in the mbox parameter list `favorites` is provided here:
 
 ```
 curl -X POST \
@@ -154,7 +152,7 @@ curl -X POST \
 This would be paired with JavaScript on the page to pass in the favorites contents:
 
 ```
-<!-- pass in the value of mbox parameter "favorites" as JSON array -->
+<!-- pass in the value of mbox parameter “favorites” as JSON array -->
 <script type="text/javascript">
    mboxCreate('myMbox','entity.id=<key>','favorites=["a","b","c"]');
 </script>

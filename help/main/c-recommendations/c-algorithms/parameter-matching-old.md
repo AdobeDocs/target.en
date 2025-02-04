@@ -4,11 +4,9 @@ description: Learn how to filter dynamically in Adobe [!DNL Target] Recommendati
 title: How Do I Filter by Parameter Matching In Recommendations Activities?
 badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="See what's included in Target Premium."
 feature: Recommendations
-hide: yes
-hidefromtoc: yes
-exl-id: f77c321b-57b0-4610-b58f-3765ace2d6ad
+exl-id: 9ec161b9-1b37-4475-b508-af676126c817
 ---
-# [!UICONTROL Parameter Matching]
+# Parameter Matching
 
 Filter dynamically by comparing items (entities) against a value in the request (API or mbox).
 
@@ -20,7 +18,7 @@ For example, only recommend content that matches the "industry" page parameter o
 
 >[!NOTE]
 >
->If the activity was created before October 31, 2016, its delivery fails if it uses the "Parameter Matching" filter. To work around this problem:
+>If the activity was created before October 31, 2016, its delivery will fail if it uses the "Parameter Matching" filter. To work around this problem:
 >
 >* Create a new activity and add your criteria in it.
 >* Use a criteria that does not contain the "Parameter Matching" filter.
@@ -28,9 +26,9 @@ For example, only recommend content that matches the "industry" page parameter o
 
 ## Parameter Matching examples
 
-[!UICONTROL Parameter Matching] lets you recommend content that matches the page parameters or the visitor's parameters, such as device dimensions or geo-location, as in the the following example:
+[!UICONTROL Parameter Matching] allows you to recommend content that matches the page parameters or the visitor's parameters, such as device dimensions or geo-location, as in the the following example:
 
-[!DNL Recommendations] can match parameter values sent in the [!DNL Target] call. In this instance, [!DNL Target] detects that a visitor is using a mobile device, based on the screen height and width parameters sent in the [!DNL Target] call, and recommends only items that are mobile devices.
+[!DNL Recommendations] can match parameter values sent in the [!DNL Target] call. In this instance, [!DNL Target] detects that a visitor is using a mobile device, based on the screen height and width parameters sent in the [!DNL Target] call, and will recommend only items that are mobile devices.
 
 Consider the following example Target call:
 

@@ -1,6 +1,6 @@
 ---
 keywords: criteria sequence;multiple criteria;algorithms;criteria;recommendations criteria;sequence;limit number of items returned;slot level control;slot
-description: Learn how to set sequences of up to five criteria to exercise greater control of the items that appear in your Adobe [!DNL Target] Recommendations activities.
+description: Learn how to set sequences of up to five criteria to exercise greater control of the items that appear in your Recommendations activities.
 title: How Do I Create Criteria Sequences in Recommendations?
 badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="See what's included in Target Premium."
 feature: Recommendations
@@ -8,7 +8,7 @@ exl-id: 5366c86c-7685-478b-a621-9b3f24296ab7
 ---
 # Create criteria sequences
 
-Use sequences of up to five criteria to exercise greater control of the items that appear in your [!UICONTROL Recommendations] activities. You can also limit the number of items returned (sometimes referred to as "slot level control.")
+Use sequences of up to five criteria to exercise greater control of the items that appear in your [!DNL Adobe Target] [!UICONTROL Recommendations] activities. You can also limit the number of items returned (sometimes referred to as "slot level control").
 
 >[!NOTE]
 >
@@ -16,13 +16,13 @@ Use sequences of up to five criteria to exercise greater control of the items th
 
 To create a criteria sequence, you must first create the criteria you want to include in the sequence. See [Create criteria](/help/main/c-recommendations/c-algorithms/create-new-algorithm.md) for more information.
 
-By using a criteria sequence, you can provide additional targeted recommendations, instead of using more generic backup recommendations, when a criteria doesn't return enough results to fill your design. Typically, a criteria sequence will proceed from more specific targeting, which might return fewer results, to more general targeting, which usually returns more results.
+By using a criteria sequence, you can provide additional targeted recommendations, instead of using more generic backup recommendations, when a criteria doesn't return enough results to fill your design. Typically, a criteria sequence proceeds from more specific targeting, which might return fewer results, to more general targeting, which usually returns more results.
 
 Your criteria sequences might vary in order depending on the page type, as shown in the following examples:
 
 |Page type|Possible sequence order|
 | --- | --- |
-|Product page|<ol><li>Based on current item, from same brand</li><li>Based on current item, from all brands</li><li>Based on content similarity</li><li>Based on top sellers</li><li>Based on most-viewed items across the site</li></ol>|
+|Product page|<ol><li>Based on current item, from the same brand</li><li>Based on current item, from all brands</li><li>Based on content similarity</li><li>Based on top sellers</li><li>Based on most-viewed items across the site</li></ol>|
 |Home page|<ol><li>Based on visitor's last purchase </li><li>Based on visitor's favorite item</li><li>Based on visitor's favorite category</li><li>Based on top sellers</li><li>Based on most-viewed across site</li></ol>|
 
 ## Create a criteria sequence
@@ -32,8 +32,8 @@ You create criteria sequences from the [!UICONTROL Create Criteria Sequence] scr
 There are multiple ways to reach the [!UICONTROL Create Criteria Sequence] screen. Some screen options vary depending on how you reach the screen.
 
 * On the **[!UICONTROL Recommendations]** > **[!UICONTROL Criteria]** library screen, click **[!UICONTROL Create Criteria]** > **[!UICONTROL Create Criteria Sequence]**. Criteria you create here are automatically made available for all [!UICONTROL Recommendations] activities.
-* When you are creating a [!UICONTROL Recommendations] activity, from the Select Criteria screen, click **[!UICONTROL Create New]** > **[!UICONTROL Create Criteria Sequence]**. You will have the option to save your new criteria sequence for use with other [!UICONTROL Recommendations] activities. 
-* When you are editing a [!UICONTROL Recommendations] activity, click in a [!UICONTROL Recommendations Location] box on your page, then select **[!UICONTROL Change Criteria]**. On the [!UICONTROL Select Criteria] screen, click **[!UICONTROL Create New]** > **[!UICONTROL Create Criteria Sequence]**. You will have the option to save your new criteria for use with other [!UICONTROL Recommendations] activities. 
+* When you are creating a [!UICONTROL Recommendations] activity, from the [!UICONTROL Select Criteria] screen, click **[!UICONTROL Create New]** > **[!UICONTROL Create Criteria Sequence]**. You have the option to save your new criteria sequence for use with other [!UICONTROL Recommendations] activities. 
+* When you are editing a [!UICONTROL Recommendations] activity, click in a [!UICONTROL Recommendations Location] box on your page, then select **[!UICONTROL Change Criteria]**. On the [!UICONTROL Select Criteria] screen, click **[!UICONTROL Create New]** > **[!UICONTROL Create Criteria Sequence]**. You have the option to save your new criteria for use with other [!UICONTROL Recommendations] activities. 
 
 The following steps assume you access the [!UICONTROL Create Criteria Sequence] screen by using the first method: the **[!UICONTROL Recommendations]** > **[!UICONTROL Criteria]** library screen.
 
@@ -41,25 +41,17 @@ The following steps assume you access the [!UICONTROL Create Criteria Sequence] 
 
 1. Click **[!UICONTROL Create Criteria]** > **[!UICONTROL Create Criteria Sequence]**.
 
-   ![CreateCriteriaSequence image](assets/CreateCriteriaSequence.png)
-
 1. Fill in the information in the [Basic Information](/help/main/c-recommendations/c-algorithms/create-new-algorithm.md#info) section.
 
-1. In the **[!UICONTROL Criteria Sequence]** section, click **[!UICONTROL Add Criteria]**.
+1. In the **[!UICONTROL Criteria Sequence]** section, click the Plus ( + ) sign to add one or more criteria sequences.
 
-   The sequence order defines the order in which a design is filled. If Criteria 1 does not have enough recommendations to fill your design, the remaining slots will be filled with Criteria 2, and so on.
+   The sequence order defines the order in which a design is filled. If Criteria 1 does not have enough recommendations to fill your design, the remaining slots are filled with Criteria 2, and so on.
 
-   ![Add Criteria](/help/main/c-recommendations/c-algorithms/assets/add-criteria.png)
+1. On the [!UICONTROL Select Criteria] screen, select a criteria, then click **[!UICONTROL Save]**.
 
-1. On the [!UICONTROL Select Criteria] screen, select a criteria, then click **[!UICONTROL Add]**.
-
-   You can use the Search box and the filter drop-downs to find the desired criteria.
-
-   ![Select criteria](/help/main/c-recommendations/c-algorithms/assets/select-criteria.png)
+   You can use the [!UICONTROL Search] box and the filter option to find the desired criteria.
 
 1. (Optional) Slide the **[!UICONTROL Limit the number of items returned]** toggle to the "on" position, then specify the number of items (between 1 and 50).
-
-   ![Limit the number of items returned toggle](/help/main/c-recommendations/c-algorithms/assets/limit-number.png)
 
    To help you understand the value of the [!UICONTROL Limit the number of items returned] option (sometimes called "slot level control,") consider the following use cases:
 
@@ -75,18 +67,8 @@ The following steps assume you access the [!UICONTROL Create Criteria Sequence] 
 
 1. Enable [Backup Content options](/help/main/c-recommendations/c-algorithms/create-new-algorithm.md#content).
 
-1. Click **[!UICONTROL Save]**.
+1. Click **[!UICONTROL Create]**.
 
-   The criteria sequence will appear in the Criteria list.
+   The criteria sequence displays in the [!UICONTROL Criteria] list.
 
    For more information about recommendation logic options, see [Criteria](/help/main/c-recommendations/c-algorithms/algorithms.md).
-
-## Training video: Create criteria in Recommendations (12:33) ![Tutorial badge](/help/main/assets/tutorial.png)
-
-This video contains the following information:
-
-* Create criteria
-* Create criteria sequences
-* Upload custom criteria
-
->[!VIDEO](https://video.tv.adobe.com/v/27694?quality=12)

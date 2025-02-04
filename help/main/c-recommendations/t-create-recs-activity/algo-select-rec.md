@@ -4,9 +4,7 @@ description: Learn how to select the criteria (rules that determine which produc
 title: How Do I Select Criteria for A Recommendations Activity?
 badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="See what's included in Target Premium."
 feature: Recommendations
-hide: yes
-hidefromtoc: yes
-exl-id: 21cb948a-3d08-468c-ab92-e92a469f99b2
+exl-id: 119227ec-88c3-4de9-b2cf-f7d5fa2e98f6
 ---
 # Select criteria
 

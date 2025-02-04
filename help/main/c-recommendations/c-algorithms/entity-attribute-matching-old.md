@@ -1,16 +1,14 @@
 ---
 keywords: inclusion rules;inclusion criteria;recommendations;promotion;promotions;dynamic filtering;dynamic;entity attribute matching
-description: Learn how to filter dynamically in [!DNL Target Recommendations] by comparing a pool of potential items to a specific item that the user has interacted with.
+description: Learn how to filter dynamically in Adobe [!DNL Target] Recommendations by comparing a pool of potential items to a specific item that the user has interacted with.
 title: How Do I Filter by Entity Attribute Matching In Recommendations Activities?
 badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="See what's included in Target Premium."
 feature: Recommendations
-hide: yes
-hidefromtoc: yes
-exl-id: 57b8c214-6b18-4ab1-8548-906d02f162c5
+exl-id: aadd3132-d590-4dc9-b01b-bedf41bc7441
 ---
 # Entity Attribute Matching
 
-Filter dynamically in [!DNL Adobe Target Recommendations] by comparing a pool of potential recommendations items to a specific item that the user has interacted with.
+Filter dynamically in [!DNL Adobe Target] [!DNL Recommendations] by comparing a pool of potential recommendations items to a specific item that the user has interacted with.
 
 >[!NOTE]
 >
@@ -18,9 +16,9 @@ Filter dynamically in [!DNL Adobe Target Recommendations] by comparing a pool of
 
 For example, recommend only items that match the current item's brand as in the following example:
 
-If the mbox on a Brand Landing Page returns `entity.brand=brandA`, then only Brand A products are returned and displayed on that page. Similarly, on the Brand Landing Page for Brand B, only Brand B products are returned. With this type of dynamic inclusion rule, the user has to specify only one recommendation rule that returns relevant brand results across all brand pages rather than specifying a collection or a static filter to match each brand name.
+If the mbox on a Brand Landing Page returns `entity.brand=brandA`, then only Brand A products are returned and displayed on that page. Similarly, on the Brand Landing Page for Brand B, only Brand B products are returned. With this type of dynamic inclusion rule, the user has to only specify one recommendation rule that returns relevant brand results across all brand pages rather than specifying a collection or a static filter to match each brand name.
 
-Note that you must deliver the `entity.brand` in the mbox on those landing pages for this process to work.
+Note that you must deliver the `entity.brand` in the mbox on those landing pages for this to work.
 
 ## Entity Attribute Matching examples 
 
@@ -54,7 +52,7 @@ If you then view a Brand B product page, the `entity.brand` value will be reset 
 
 Suppose that you're an apparel retailer and want to encourage users to consider higher-priced and, therefore, more profitable items. You can use the "equals" and "is between" operators to promote more expensive items that are from the same category and the same brand. For example, a shoe retailer can promote more expensive running shoes in an effort to up-sell a visitor looking at running shoes, as in the following sample:
 
-![Upselling](/help/main/c-recommendations/c-algorithms/assets/upsell-new.png)
+![Upselling](/help/main/c-recommendations/c-algorithms/assets/upsell.png)
 
 ```
 Entity Attribute Matching
@@ -71,8 +69,7 @@ value - is between - 100% and 1000% of - current item's - value
 
 You can mix dynamic and static filters to promote private-label products. For example, an office supply company can promote toner cartridges of the company's house brand to drive a more profitable sale for a visitor looking at toner -- and promote pens of the company's house brand to drive a more profitable sale for a visitor looking at pens, as in the following sample:
 
-![House Brand](/help/main/c-recommendations/c-algorithms/assets/housebrand-new.png)
-)
+![House Brand](/help/main/c-recommendations/c-algorithms/assets/housebrand.png)
 
 ```
 Entity Attribute Matching

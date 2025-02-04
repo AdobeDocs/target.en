@@ -6,11 +6,11 @@ badgePremium: label="Premium" type="Positive" url="https://experienceleague.adob
 feature: Recommendations
 exl-id: a6e4c857-f991-4293-9d33-8d7c2ca5dade
 ---
-# Criteria
+# [!UICONTROL Criteria]
 
-Criteria in [!DNL Adobe Target] [!DNL Recommendations] are rules that determine which products or content to recommend based on a predetermined set of visitor behaviors. Criteria can be based on popular trends, a visitor's current and past behaviors, or similar products and content. You can test multiple recommendation types against each other by adding multiple criteria.
+[!UICONTROL Criteria] in [!DNL Adobe Target] [!DNL Recommendations] are rules that determine which products or content to recommend based on a predetermined set of visitor behaviors. Criteria can be based on popular trends, a visitor's current and past behaviors, or similar products and content. You can test multiple recommendation types against each other by adding multiple criteria.
 
-The following sections explain more about criteria keys and the recommendation logic you can use for each key. Click the links for more detailed information.
+The following sections explain more about the criteria keys and the recommendation logic that you can use for each key. Click the links for more detailed information.
 
 ## Industry Vertical {#section_936BCFCF234C49A2BEC1C38AAC2D71AF}
 
@@ -18,27 +18,25 @@ While creating a criteria, you select an industry vertical based on the goals of
 
 | Industry Vertical | Goal |
 |--- |--- |
-|Retail/Ecommerce|Conversion resulting in purchase|
-|Lead Generation/B2B/Financial Services|Conversion with no purchase|
-|Media/Publishing|Engagement|
+|[!UICONTROL Retail/Ecommerce]|Conversion resulting in purchase|
+|[!UICONTROL Lead Generation/B2B/Financial Services]|Conversion with no purchase|
+|[!UICONTROL Media/Publishing]|Engagement|
 
-Other criteria options change based on the industry vertical you select. You can set your default industry vertical on the **[!UICONTROL Recommendations > Settings]** page or you can specify the industry vertical for each criteria.
+Other criteria options change based on the industry vertical you select. You can set your default industry vertical on the **[!UICONTROL Administration] > [!UICONTROL Recommendations]** page or you can specify the industry vertical for each criteria.
 
 ## Algorithm Type {#section_885B3BB1B43048A88A8926F6B76FC482}
 
-The algorithm type you select determines the available algorithms. There are several algorithm types, which are represented as criteria cards when you set up a [!DNL Recommendations] activity.
-
-![Criteria page](assets/criteria-page.png)
+The algorithm type that you select determines the available algorithms.
 
 The following table explains the various algorithm types and their accompanying algorithms.
 
 |Algorithm type|When to use|Available algorithms|
 | --- | --- | --- |
-|[!UICONTROL Cart-Based]|Make recommendations based on the user's cart contents.|<ul><li>People Who Viewed These, Viewed Those</li><li>People Who Viewed These, Bought Those</li><li>People Who Bought These, Bought Those</li></ul>For more information, see [Cart-Based](/help/main/c-recommendations/c-algorithms/base-the-recommendation-on-a-recommendation-key.md#cart-based) in *Base the recommendation on a recommendation key*.|
-|[!UICONTROL Popularity-Based]|Make recommendations based on the overall popularity of an item across your site or based on the popularity of items within a user's favorite or most-viewed category, brand, genre, and so forth.|<ul><li>Most Viewed Across the Site</li><li>Most Viewed by Category</li><li>Most Viewed by Item Attribute</li><li>Top Sellers Across the Site</li><li>Top Sellers by Category</li><li>Top Sellers by Item Attribute</li><li>Top by Analytics Metric</li></ul>|
-|[!UICONTROL Item-Based]|Make recommendations based on finding similar items to an item that the user is currently viewing or has recently viewed.|<ul><li>People Who Viewed This, Viewed That</li><li>People Who Viewed This, Bought That</li><li>People Who Bought This, Bought That</li><li>Items with Similar Attributes</li></ul>|
-|[!UICONTROL User-Based]|Make recommendations based on the user's behavior.|<ul><li>Recently Viewed Items</li><li>Recommended for You</li></ul>|
-|[!UICONTROL Custom Criteria]|Make recommendations based on a custom file you upload.|<ul><li>Custom Algorithm</li></ul>|
+|[!UICONTROL Cart-Based]|Make recommendations based on the user's cart contents.|<ul><li>[!UICONTROL People Who Viewed These, Also Viewed]</li><li>[!UICONTROL People Who Viewed These, Also Bought]</li><li>[!UICONTROL People Who Bought These, Also Bought]</li></ul>For more information, see [Cart-Based](/help/main/c-recommendations/c-algorithms/base-the-recommendation-on-a-recommendation-key.md#cart-based) in *Base the recommendation on a recommendation key*.|
+|[!UICONTROL Popularity-Based]|Make recommendations based on the overall popularity of an item across your site or based on the popularity of items within a user's favorite or most-viewed category, brand, genre, and so forth.|<ul><li>[!UICONTROL Most Viewed Across the Site]</li><li>[!UICONTROL Most Viewed by Category]</li><li>[!UICONTROL Most Viewed by Item Attribute]</li><li>[!UICONTROL Top Sellers Across the Site]</li><li>[!UICONTROL Top Sellers by Category]</li><li>[!UICONTROL Top Sellers by Item Attribute]</li><li>[!UICONTROL Top by Analytics Metric]</li></ul>|
+|[!UICONTROL Item-Based]|Make recommendations based on finding similar items to an item that the user is currently viewing or has recently viewed.|<ul><li>[!UICONTROL People Who Viewed This, Viewed That]</li><li>[!UICONTROL People Who Viewed This, Bought That]</li><li>[!UICONTROL People Who Bought This, Bought That]</li><li>[!UICONTROL Items with Similar Attributes]</li></ul>|
+|[!UICONTROL User-Based]|Make recommendations based on the user's behavior.|<ul><li>[!UICONTROL Recently Viewed Items]</li><li>[!UICONTROL Recommended for You]</li></ul>|
+|[!UICONTROL Custom Criteria]|Make recommendations based on a custom file that you upload.|<ul><li>Custom Algorithm</li></ul>|
 
 For more information about each algorithm, see [Base the recommendation on a recommendation key](/help/main/c-recommendations/c-algorithms/base-the-recommendation-on-a-recommendation-key.md).
 
@@ -64,22 +62,14 @@ For example, suppose that you want to display recommended movies based on the mo
 
 1. Select your custom profile attribute from the **[!UICONTROL Recommendation Key]** list (for example, [!UICONTROL Last Show Added to Watchlist]).
 
-   ![Create New Criteria dialog box](assets/custom-key1.png)
-
 ## Viewing criteria information {#section_7162DE58E4594FD688A4D7FDB829FD8B}
 
-You can view criteria details on a pop-up card by hovering over a card and by clicking the Information icon on a criteria card without opening the criteria.
+You can view criteria details by clicking the desired criteria in the [!UICONTROL Name] column.
 
-![Criteria Card hover](/help/main/c-recommendations/c-algorithms/assets/criteria_hover.png)
+The **[!UICONTROL Attributes]** and Details sections let you view general information about the selected criteria, including its [!UICONTROL Name], [!UICONTROL Description], [!UICONTROL Industry Vertical], [!UICONTROL Page Types], [!UICONTROL Recommendation Key], [!UICONTROL Recommendation Logic], [!UICONTROL Algorithm ID], and Last Modified information (date and who modified the algorithm).
 
-Click the **[!UICONTROL Algorithm Info]** tab to view general information about the selected criteria, including its Name, Descriptions, Industry Vertical, Page Type(s), Recommendation Key, Recommendation Logic, and Algorithm ID.
-
-![Algorithm Info tab](/help/main/c-recommendations/c-algorithms/assets/criteria_info.png)
-
-Click the **[!UICONTROL Algorithm Usage]** tab to view a list of activities that reference the selected criteria. The card lists active, inactive, and draft activities. Click the Live Activities/Inactive Activities/Draft Activities drop-down lists to view the entire list of activities that reference that criteria. You can click the activity link to open the activity for editing.
-
-![Algorithm Usage tab](/help/main/c-recommendations/c-algorithms/assets/criteria_usage.png)
+The **[!UICONTROL Usage]** section lets you view a list of activities that reference the selected criteria.
 
 >[!NOTE]
 >
->The [!UICONTROL Algorithm Usage] feature is currently supported for Recommendations activities only. This feature is not currently supported for A/B Test, Auto-Allocate, Auto-Target, and Experience Targeting (XT) activities that include [recommendations as an offer](/help/main/c-recommendations/recommendations-as-an-offer.md).
+>The [!UICONTROL Algorithm Usage] feature is currently supported for [!DNL Recommendations] activities only. This feature is not currently supported for [!UICONTROL A/B Test], [!UICONTROL Auto-Allocate], [!UICONTROL Auto-Target], and [!UICONTROL Experience Targeting] (XT) activities that include [recommendations as an offer](/help/main/c-recommendations/recommendations-as-an-offer.md).
