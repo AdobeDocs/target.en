@@ -3,9 +3,7 @@ keywords: visual experience composer options;experience composer options;experie
 description: Explore the options available in the [!DNL Adobe Target] [!UICONTROL Visual Experience Composer] (VEC).
 title: How Do I Use the [!UICONTROL Visual Experience Composer] (VEC) Options?
 feature: Visual Experience Composer (VEC)
-hide: yes
-hidefromtoc: yes
-exl-id: 3b9fa582-1174-4dac-9649-f574d9cd4858
+exl-id: 50993d6c-5025-488a-8b33-9ed7c142de6e
 ---
 # Visual Experience Composer options
 
@@ -13,131 +11,13 @@ When you click a page element in the [!DNL Adobe Target] [!UICONTROL Visual Expe
 
 The various [!UICONTROL Visual Experience Composer] (VEC) actions are grouped in appropriate menu options to make your job quicker and more efficient:
 
-![VEC options menu](/help/main/c-experiences/c-visual-experience-composer/assets/vec-options.png)
+![VEC options menu](/help/main/c-experiences/c-visual-experience-composer/c-vec-code-editor/assets/vec-options.png)
 
 >[!NOTE]
 >
->The available options depend on the activity type and element that you are creating or editing. The following sections contain information about the various options for images and text. 
+>The available options depend on the activity type you are creating or editing.
 
-## Image options
-
-If you click an image in an [!UICONTROL A/B Test] activity, the VEC looks like similar to the following illustration:
-
-![VEC with image selected](/help/main/c-experiences/c-visual-experience-composer/assets/vec-image.png)
-
-Select components from the Components frame on the left side to insert the following elements:
-
-* Basic (divider, HTML, image).
-* Text (heading, paragraph, link).
-* Dynamic ([Recommendation](/help/main/c-recommendations/recommendations-as-an-offer.md), [Experience Fragment](/help/main/c-experiences/c-manage-content/aem-experience-fragments.md), HTML offer).
-
-The menu at the top of the image lets you do the following:
-
-* Insert a link ( ![Insert Link icon](/help/main/assets/icons/Link.svg) ).
-* Change the image ( ![Choose Image icon](/help/main/assets/icons/Images.svg) ).
-* Add personalization ( ![Add Personalization icon](/help/main/assets/icons/PersonalizationField.svg) ).
-* Delete the image ( ![Delete icon](/help/main/assets/icons/Delete.svg) ).
-
-The frame on the right side lets further configure the image's properties.
-
-The icons at the top of the frame let you do the following:
-
-* Edit the HTML ( ![Insert HTML icon](/help/main/assets/icons/Code.svg) ). See [Edit HTML](#html) below for more information.
-* Duplicate the image ( ![Duplicate icon](/help/main/assets/icons/Code.svg) ).
-* Delete the image ( ![Delete icon](/help/main/assets/icons/Delete.svg) ).
-* Hide the image ( ![Hide icon](/help/main/assets/icons/VisibilityOff.svg) ). 
-
-The options in the right frame let you do the following:
-
-* Edit the CSS class.
-* Configure the image's properties (source, title, alt text).
-* Edit the link URL.
-* Configure the image's size (height and width). Click [!UICONTROL Show Advanced Options] to configure the image's minimum and maximum size, width, height, overflow, and object fit.
-* Configure the image's position on your page (absolute, fixed, relative, static, or sticky.)
-* Configure the element's spacing, including margin and padding.
-* Configure the element's effects (opacity). Click [!UICONTROL Show Advanced Options] to configure the image's sepia, grayscale, contrast, brightness, and blur values. You can also invert or rotate the image.
-* Configure the image's inline styles.
-
-## Text options
-
-If you click text in an [!UICONTROL A/B Test] activity, the VEC looks like similar to the following illustration:
-
-![VEC with text selected](/help/main/c-experiences/c-visual-experience-composer/assets/vec-text.png)
-
-Select components from the [!UICONTROL Components] frame on the left side to insert the following elements:
-
-* Basic (divider, HTML, image).
-* Text (heading, paragraph, link).
-* Dynamic ([Recommendation](/help/main/c-recommendations/recommendations-as-an-offer.md), [Experience Fragment](/help/main/c-experiences/c-manage-content/aem-experience-fragments.md), HTML offer).
-
-Click the [!UICONTROL Show Modifications] icon ( ![Show Modifications icon](/help/main/assets/icons/History.svg) ) to display the modifications to the experience.
-
-The menu at the top of the text element lets you do the following:
-
-* Configure the text's properties (heading level, paragraph, block quote, or monospace)
-* Select the text's color ( ![Text Color icon](/help/main/assets/icons/TextColor.svg) )
-* Configure the text's attributes (bold, italic, underline, or strike through) ( ![Choose text Attributes icon](/help/main/assets/icons/Text.svg) ).
-* Configure the text's alignment (left, center, right, justify) ( ![Text Alignment icon](/help/main/assets/icons/TextAlignCenter.svg) ).
-* Insert a link ( ![Insert Link icon](/help/main/assets/icons/Link.svg) ).
-* Replace the content with an HTML offer, [Experience Fragment](/help/main/c-experiences/c-manage-content/aem-experience-fragments.md), or [Recommendation]/help/main/c-recommendations/recommendations-as-an-offer.md).
-* Edit the HTML ( ![Insert HTML icon](/help/main/assets/icons/Code.svg) ).
-* Add personalization ( ![Add Personalization icon](/help/main/assets/icons/PersonalizationField.svg) ).
-* Delete the image ( ![Delete icon](/help/main/assets/icons/Delete.svg) ).
-
-The frame on the right side lets further configure the text's properties.
-
-The icons at the top of the frame let you do the following:
-
-* Edit the HTML ( ![Insert HTML icon](/help/main/assets/icons/Code.svg) ). See [Edit HTML](#html) below for more information.
-* Duplicate the text ( ![Duplicate icon](/help/main/assets/icons/Code.svg) ).
-* Delete the text ( ![Delete icon](/help/main/assets/icons/Delete.svg) ).
-* Hide the text ( ![Hide icon](/help/main/assets/icons/VisibilityOff.svg) ).
-
-The options in the right frame let you do the following:
-
-* Edit the CSS class.
-* Configure the text's background color and image.
-* Configure the text's typography (heading style, font size, font weight, line height, alignment, text color, text style (bold, italic, underlined, or strike through)).
-* Configure lists, including bulleted, numbered, or A,B,C.
-* Choose the border color.
-* Configure the text box's size (height and width). Click [!UICONTROL Show Advanced Options] to configure the text box's minimum and maximum size, width, height, overflow, and object fit.
-* Configure the text box's position on your page (absolute, fixed, relative, static, or sticky) and set the number of pixels from the top, right, bottom, and left.
-* Configure the element's spacing, including margin and padding.
-* Configure the element's effects (opacity). Click [!UICONTROL Show Advanced Options] to configure the image's sepia, grayscale, contrast, brightness, and blur values. You can also invert or rotate the text.
-* Configure the inline styles.
-
-## Edit HTML {#html}
-
-In addition to HTML code, you can edit and inject custom JavaScript.
-
-Several rich text formatting options are available when editing text and HTML for [!UICONTROL A/B] and [!UICONTROL Experience Targeting] activities. You can choose a font, select a font style, change text alignment, and other standard text formatting options. When modifying HTML, you can toggle between the code view and the rich-editing view of the HTML.
-
-The following HTML5 tags can be nested:
-
-|Tag|Allowed Nested Tags|
-| --- | --- |
-|`<a>`|`<h1-h6>`, `<p>`, `<ul>`, `<ol>`, `<menu>`, `<div>`, `<figure>`, `<figcaption>`|
-|`<ins>`|`<h1-h6>`, `<p>`, `<ul>`, `<ol>`, `<menu>`|
-|`<del>`|`<ul>`, `<ol>`, `<menu>`, `<h1-h6>`, `<p>`|
-|`<label>`|`<p>`|
-
-## Navigate elements using the DOM path {#dom-path}
-
-When you click an element on the page, the VEC options menu displays. In addition, when you click an element, the corresponding DOM path displays at the bottom of the page.
-
-![DOM path](/help/main/c-experiences/c-visual-experience-composer/assets/dom-path-refresh.png)
-
-If you do not see the DOM path, click the [!UICONTROL Show DOM] icon ( ![Show DOM icon](/help/main/assets/icons/LayersBringToFront.svg) ).
-
-You can use the DOM path to quickly see information about the selected element (type, ID, and class) and move up or down the DOM path to select the desired element.
-
-<!--When you hover over the DOM path, a blue box highlights the corresponding element in the VEC. When you click the element, an orange box highlights the element and the VEC options menu displays, as explained above.-->
-
-You can easily navigate to any parent, sibling, or child element within the VEC using the DOM path.
-
-The DOM path feature is also available when setting up [click tracking](/help/main/c-activities/r-success-metrics/click-tracking.md).
-
-<!--## [!UICONTROL Edit]
+## [!UICONTROL Edit]
 
 The following options are available:
 
@@ -511,4 +391,18 @@ The following actions are not available on custom elements:
 The following action is not available inside custom elements:
 
 * [!UICONTROL Layout]
-  * [!UICONTROL Rearrange]-->
+  * [!UICONTROL Rearrange]
+
+## Navigate elements using the DOM path {#dom-path}
+
+When you click an element on the page, the VEC options menu displays. In addition, when you click an element, the corresponding DOM path displays at the bottom of the page. 
+
+![DOM path](/help/main/c-experiences/c-visual-experience-composer/assets/dom-path.png)
+
+You can use the DOM path to quickly see information about the selected element (type, ID, and class) and move up or down the DOM path to select the desired element.
+
+When you hover over the DOM path, a blue box highlights the corresponding element in the VEC. When you click the element, an orange box highlights the element and the VEC options menu displays, as explained above.
+
+You can easily navigate to any parent, sibling, or child element within the VEC using the DOM path.
+
+The DOM path feature is also available when setting up [click tracking](/help/main/c-activities/r-success-metrics/click-tracking.md).

@@ -25,16 +25,13 @@ Redirect offers have a few limitations:
 To create a redirect offer: 
 
 1. Create an experience.
-1. Hover over an experience with your mouse, then click the Redirect to URL icon (![icon_redirect_url image](assets/icon_redirect_url.png)).
-
-   ![exp_actions image](assets/exp_actions.png)
-
-1. Type the URL.
+1. From the [!UICONTROL Experiences] frame, click the **[!UICONTROL More Actions]** icon ( ![More Actions icon](/help/main/assets/icons/MoreSmallList.svg) ) for the desired experience.
+1. Click **[!UICONTROL Redirect to URL]**.
+1. In the Redirect to URL dialog box, type the URL.
 1. If desired, select the option to include current query parameters.
 
    If this option is selected, anything after the ? in the visitor's URL is appended to the redirect URL at the time of redirect.
-
-   This option is selected by default. 
+   
 1. (Optional) Create additional rules.
 
    Additional rules can be based on any of the following:

@@ -3,9 +3,7 @@ kewords: redirect;redirect url;send to different page
 description: Learn how to use the Redirect to URL option in Adobe [!DNL Target] when you want to send the visitor to a different page rather than showing content on the same page.
 title: Can I Redirect a Page to a Different URL?
 feature: Visual Experience Composer (VEC)
-hide: yes
-hidefromtoc: yes
-exl-id: 2979ea8a-650c-4e60-9b60-51706740f66b
+exl-id: bd448482-0079-4689-aa24-65ecbb31b8ae
 ---
 # Redirect to a URL
 
@@ -27,13 +25,16 @@ Redirect offers have a few limitations:
 To create a redirect offer: 
 
 1. Create an experience.
-1. From the [!UICONTROL Experiences] frame, click the **[!UICONTROL More Actions]** icon ( ![More Actions icon](/help/main/assets/icons/MoreSmallList.svg) ) for the desired experience.
-1. Click **[!UICONTROL Redirect to URL]**.
-1. In the Redirect to URL dialog box, type the URL.
+1. Hover over an experience with your mouse, then click the Redirect to URL icon (![icon_redirect_url image](assets/icon_redirect_url.png)).
+
+   ![exp_actions image](assets/exp_actions.png)
+
+1. Type the URL.
 1. If desired, select the option to include current query parameters.
 
    If this option is selected, anything after the ? in the visitor's URL is appended to the redirect URL at the time of redirect.
-   
+
+   This option is selected by default. 
 1. (Optional) Create additional rules.
 
    Additional rules can be based on any of the following:

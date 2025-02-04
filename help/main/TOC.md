@@ -222,11 +222,8 @@ feature-set: Target
    + [Experiences and offers overview](c-experiences/experiences.md)
    + Visual Experience Composer (VEC) {#vec}
       + [Visual Experience Composer overview](c-experiences/c-visual-experience-composer/visual-experience-composer.md)
-      + [Visual Experience Composer overview beta](c-experiences/c-visual-experience-composer/visual-experience-composer-beta.md)
       + [Visual Experience Composer options](c-experiences/c-visual-experience-composer/viztarget-options.md)
-      + [Visual Experience Composer options beta](c-experiences/c-visual-experience-composer/viztarget-options-beta.md)
       + [Include the same experience on similar pages](c-experiences/c-visual-experience-composer/temtest.md)
-      + [Include the same experience on similar pages beta](c-experiences/c-visual-experience-composer/temtest-beta.md)
       + [Multipage activity](c-experiences/c-visual-experience-composer/multipage-activity.md)
       + [Activity collisions](c-experiences/c-visual-experience-composer/activity-collisions.md)
       + Modifications {#modifications}
@@ -245,7 +242,6 @@ feature-set: Target
          + [Visual Editing Helper extension](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/visual-editing-helper-extension.md)
          + [Visual Experience Composer helper extension](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/vec-helper-browser-extension.md)
       + [Redirect to a URL](c-experiences/c-visual-experience-composer/redirect-offer.md)
-      + [Redirect to a URL beta](c-experiences/c-visual-experience-composer/redirect-offer-beta.md)
       + [Creating carousels that work in the Visual Experience Composer](c-experiences/c-visual-experience-composer/vec-carousels.md)
    + [Form-Based Experience Composer](c-experiences/form-experience-composer.md)
    + [Single Page App (SPA) Visual Experience Composer](c-experiences/spa-visual-experience-composer.md)
