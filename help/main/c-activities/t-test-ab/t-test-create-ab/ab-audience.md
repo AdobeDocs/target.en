@@ -1,78 +1,61 @@
 ---
 keywords: audience;select audience;choose audience;Selectors
-description: The audience determines which site visitors are entered into your Adobe [!DNL Target] activity.
+description: Define which site visitors join your Adobe [!DNL Target] activity based on audience criteria.
 title: How Do I Select an Audience in a [!DNL Target] A/B Activity?
 feature: A/B Tests
 exl-id: 281ae227-c593-4b71-ad12-865430b332be
 ---
 # Select audience
 
-The audience determines which site visitors are entered into your [!DNL Adobe Target] activity.
+The audience determines which qualifying visitors are entered into your [!DNL Adobe Target] activity.
+
+The [!UICONTROL Targeting] step of the three-part guided workflow when [creating an activity](/help/main/c-activities/t-test-ab/t-test-create-ab/test-create-ab-beta.md) displays a flow diagram that leads you through the steps of assigning an audience and its traffic percentage, selecting the traffic allocation method, and specifying the traffic allocation for each experience in the activity.
+
+![A/B Test Targeting step](/help/main/c-activities/t-test-ab/t-test-create-ab/assets/ab_flow-new-ui.png)
+
+For more information about all the options in the flow diagram, see [Create an A/B Test activity](/help/main/c-activities/t-test-ab/t-test-create-ab/test-create-ab-beta.md).
+
+## Select an audience for the activity
+
+1. Click the **[!UICONTROL All Visitors]** control to select another audience for the activity.
+
+   The [!UICONTROL All Visitors] audience is set as the default. If you select another audience, its name displays in the leftmost control.
+
+   For an A/B test without specific audience targeting, choose the default, [!UICONTROL All Visitors].
+
+   The right frame displays, which lets you add or delete an audience and assign the visitor percentage for the activity.
+
+1. To change the audience, click the **[!UICONTROL Replace] icon** ( ![Replace icon](/help/main/assets/icons/Retweet.svg) ) in the right frame.
+
+1. In the [!UICONTROL Add Audience] dialog box, [select the desired audience](/help/main/c-activities/t-test-ab/t-test-create-ab/ab-audience.md), then click **[!UICONTROL Assign Audience]**.
+
+   By default, all visitors are your audience. However, you can change the audience. Audiences are selected from the [!UICONTROL Audience Library] or you can create an activity-only audience. The [!UICONTROL Audience Library] contains audiences that have previously been defined, including some common audiences that are pre-built as a part of [!DNL Target]. 
+
+1. (Conditional) Click **Combine Audiences** to [create an audience that combines multiple audiences](/help/main/c-target/combining-multiple-audiences.md). 
+
+1. (Conditional) To create a new audience that is not already in the [!UICONTROL Audience Library], click **Create Audience**, define the audience, then click **[!UICONTROL Done]**. 
+
+    During the [create-audience workflow](/help/main/c-target/c-audiences/audiences.md), you can choose from the following options:
+
+    * **[!UICONTROL Audience Library]**: Create an on-demand audience that is saved to the [!UICONTROL Audience Library] that can be reused in other activities.
+    * **[!UICONTROL This activity only]**: Create an [activity-specific audience](/help/main/c-target/creating-activity-only-audience.md) that is not saved to the [!UICONTROL Audience Library] and can be used in the current activity only.
+
+1. Click **[!UICONTROL Visitor Percentage]** in the right pane, then specify the percentage of qualifying visitors to include in the activity.
+
+1. When you are satisfied with your audience, click **[!UICONTROL Next]** to move to the third step of the three-step guided workflow.
 
 >[!NOTE]
 >
->In addition to selecting an existing audience, you can combine multiple audiences to create ad hoc combined audiences rather than creating a new audience. For more information, see [Combining Multiple Audiences](/help/main/c-target/combining-multiple-audiences.md#concept_A7386F1EA4394BD2AB72399C225981E5).
+>Audiences are automatically imported in the background when you open the [!UICONTROL Audience] list and the imported audiences are more than 10 minutes old.
 
-1. In the [!UICONTROL Audience] box, click the **[!UICONTROL Edit]** icon (the vertical ellipsis), then click **[!UICONTROL Replace Audience]**.
+## View an audience's information
 
-   ![Replace Audience option](/help/main/c-activities/t-test-ab/t-test-create-ab/assets/replace-audience.png)
+1. In the [!UICONTROL Add Audiences] dialog box, click the **[!UICONTROL Information]** icon ( ![Info icon](/help/main/assets/icons/InfoOutline.svg) ) next to an audience to view details about that audience, including its source and attributes.
 
-   By default, all visitors are your audience. However, you can change the audience. Audiences are selected from the audience library or you can create an activity-only audience. The audience library contains audiences that have previously been defined, including some common audiences that are pre-built as a part of [!DNL Target]. 
-   
-1. Select or create the desired audience:
+1. Click **[!UICONTROL View Full Details]** to view additional details about the audience. Details include the audience's attributes; the audience's description, workspace, type, and source; and a list of activities that reference this audience. You can see information about each audience, including activity name, status, workspace, and when the audience was last modified and by whom.
 
-    * Select an audience from the library
-    * [Combine multiple audiences](/help/main/c-target/combining-multiple-audiences.md#concept_A7386F1EA4394BD2AB72399C225981E5)
-    * [Create a new audience](/help/main/c-target/c-audiences/create-audience.md#task_1D507519D3AD4390B507F188BD294DC1)
-    * [Create an activity-only audience](/help/main/c-target/creating-activity-only-audience.md#concept_A6BADCF530ED4AE1852E677FEBE68483). 
-    
-    For an A/B test without specific audience targeting, choose the default, [!UICONTROL All Visitors].
+## Edit or copy an audience
 
-    You can also edit or copy an audience by hovering over the desired audience in the [!UICONTROL Add Audience] dialog box, as shown below. 
+You can edit or copy an audience by clicking the [!UICONTROL More Actions] icon ( ![More Actions icon](/help/main/assets/icons/More.svg) ) next to the desired audience in the [!UICONTROL Add Audience] dialog box, then by clicking [!UICONTROL Edit] or [!UICONTROL Copy]. 
 
-    Copying an audience is helpful if you want to create a similar audience to an existing audience. You can make a copy of the audience, make your edits, then save it as a new audience. This hover functionality exists in other activity types as well.
-
-    ![Audience hover](/help/main/c-activities/t-test-ab/t-test-create-ab/assets/audience_picker_hover-new.png)
-
-    When creating an audience, you can select a location (mbox) and specify parameters for that location. Under [!UICONTROL Custom Parameters], select the mbox, then specify the desired parameters.
-
-   >[!NOTE]
-   >
-   >Audiences are automatically imported in the background when you open the audience list and the imported audiences are more than 10 minutes old.
-
-1. (Conditional) Specify the percentage of qualifying visitors to include in the activity.
-
-   For example, you might choose to include 50% of all visitors.
-
-   ![Audience Percentage](/help/main/c-activities/t-test-ab/t-test-create-ab/assets/audperc-new.png)
-
-   You can also choose to let Target [allocate traffic automatically](/help/main/c-activities/automated-traffic-allocation/automated-traffic-allocation.md#concept_A1407678796B4C569E94CBA8A9F7F5D4).
-
-## Training videos
-
-The following videos contain more information about the concepts discussed in this article.
-
-### Using Audiences in Adobe Target (6:21) ![Overview badge](/help/main/assets/overview.png)
-
-This video explains how to use audiences in [!DNL Target Standard/Premium].
-
-* Explain the term "Audience"
-* Explain the two ways audiences are used for optimization 
-* Find audiences in the Audiences list 
-* Target an activity to an audience 
-* Use audiences for passive reporting in an activity
-
->[!VIDEO](https://video.tv.adobe.com/v/17398)
-
-### Activity Workflow - Targeting (2:14) ![Tutorial badge](/help/main/assets/tutorial.png)
-
-This video includes information about setting up audiences.
-
-* Assign an audience to your activity 
-* Throttle traffic up or down 
-* Select your traffic allocation method 
-* Allocate traffic between different experiences
-
->[!VIDEO](https://video.tv.adobe.com/v/17385)
-
-For detailed information, see [Audiences](/help/main/c-target/c-audiences/audiences.md#concept_65BE870D290E412D8BBF557EEA67C271).
+Copying an audience is helpful if you want to create a similar audience to an existing audience. You can make a copy of the audience, make your edits, then save it as a new audience.

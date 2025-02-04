@@ -1,7 +1,7 @@
 ---
 keywords: Targeting;experience;add experience;experience add
-description: Learn how to use the [!UICONTROL Visual Experience Composer] (VEC) in [!DNL Adobe Target].
-title: How Do I Add Experiences in a [!DNL Target] A/B Activity?
+description: Use the [!UICONTROL Visual Experience Composer] (VEC) to add experiences to activities.
+title: How Do I Add Experiences in an A/B Activity?
 feature: A/B Tests
 exl-id: c0f1b5a7-07b0-46c2-97f3-95dcc0fcbe3d
 ---
@@ -11,13 +11,9 @@ The [!DNL Adobe Target] [!UICONTROL Visual Experience Composer] (VEC) provides a
 
 For additional detail about experiences, see [Experiences](/help/main/c-experiences/experiences.md#concept_A2E10F6AFB3D4AEAB6951EE14688848D). 
 
-1. From the **[!UICONTROL Experiences]** page in the VEC, click **[!UICONTROL Add Experience]**.
+1. From the **[!UICONTROL Experiences]** page in the VEC, click the [!UICONTROL Add] icon ( ![Add icon](/help/main/assets/icons/Add.svg) ) at the top of the [!UICONTROL Experiences] pane.
 
-   ![Add Experience option](/help/main/c-activities/t-test-ab/t-test-create-ab/assets/add-experience.png)
-
-   >[!NOTE]
-   >
-   >If you are targeting an experience to an audience, you must select the audience before you can add an experience. A message appears to remind you to choose your audience.
+   The VEC displays two tabs on the left side after you create a new activity: Experience A and Experience B. Experience A is the control experience. You can add multiple experiences to the test.
 
 1. Select the elements that you want to change and make the desired changes.
 
@@ -31,15 +27,13 @@ For additional detail about experiences, see [Experiences](/help/main/c-experien
    >
    >If you deliver an image from a source other than your main page (such as an image hosted on `akamai.net` and delivered on `example.com`), that image does not display in the thumbnail of the page shown in the flow diagram.
 
-1. Click **[!UICONTROL Save]** when you are finished designing the experience.
+1. Click **[!UICONTROL Next]** when you are finished designing the experience.
 
 ## Rename experience
 
-1. Click the **[!UICONTROL Rename Experience]** icon on an experience in an [!UICONTROL A/B Test] or [!UICONTROL Experience Targeting] (XT) activity to give the experience a new name.
+1. Click the **[!UICONTROL Rename Experience]** icon ( ![Rename icon](/help/main/assets/icons/Rename.svg) ) next to an experience to give the experience a new name.
 
-   ![Rename experience](/help/main/c-activities/t-test-ab/t-test-create-ab/assets/rename-experience.png)
-
-2. Specify a new name.
+2. Specify a new name, then click **[!UICONTROL Save]**.
 
    When you name or rename an experience, the following characters are not allowed: 
 
@@ -56,46 +50,22 @@ For additional detail about experiences, see [Experiences](/help/main/c-experien
 
 ## Redirect to URL
 
-1. Click the **[!UICONTROL More]** icon (the vertical ellipsis) icon on an experience in an [!UICONTROL A/B Test] or [!UICONTROL Experience Targeting] (XT) activity, then click **[!UICONTROL Redirect to URL]**.
+1. In the **[!UICONTROL Experiences]** pane, click the **[!UICONTROL More]** icon ( ![More icon](/help/main/assets/icons/MoreSmall.svg) ) next to an experience, then click **[!UICONTROL Redirect to URL]**.
 
    For more information, see [Redirect to URL](/help/main/c-experiences/c-visual-experience-composer/redirect-offer.md).
-
-   **NOTE**: When you name or rename an experience, the following characters are not allowed: 
-
-   | Character | Description |
-   |--- |--- |
-   |/|Forward slash|
-   |?|Question mark|
-   |#|Number sign|
-   |:|Colon|
-   |=|Equals to|
-   |+|Plus|
-   |-|Minus|
-   |@|At sign|
    
 1. Specify the URL to which you want to redirect the experience.
 
 1. (Conditional) Check the **[!UICONTROL Include Current Query Parameters]** check box.
 
+1. Click **[!UICONTROL Save]**.
+
 ## Duplicate an Experience
 
-You can copy an experience in an [!UICONTROL A/B Test] so you can make minor changes to it without having to recreate the experience from scratch. 
+You can copy an experience in an [!UICONTROL A/B Test] so you can make minor changes to it without having to recreate the experience. 
 
-1. On the **[!UICONTROL Experiences]** page (the first step in the three-step guided workflow), click the vertical ellipsis icon > **[!UICONTROL Duplicate]**. 
-
-   ![Duplicate experience option](/help/main/c-activities/t-test-ab/t-test-create-ab/assets/duplicate-experience.png)
+1. In the **[!UICONTROL Experiences]** pane, click the **[!UICONTROL More]** icon ( ![More icon](/help/main/assets/icons/MoreSmall.svg) ) next to an experience, then click **[!UICONTROL Duplicate]**. 
 
 ## Delete an experience
 
-1. On the **[!UICONTROL Experiences]** page (the first step in the three-step guided workflow), click the vertical ellipsis icon > **[!UICONTROL Duplicate]**.
-
-   ![Delete experience option](/help/main/c-activities/t-test-ab/t-test-create-ab/assets/delete-experience.png)
-
-## Training video: Using the [!UICONTROL Visual Experience Composer]
-
-The video below provides information about using the [!UICONTROL Visual Experience Composer] options. (7:17)
-
-* Change the content of a page 
-* Change the layout of a page
-
->[!VIDEO](https://video.tv.adobe.com/v/17399)
+1. In the **[!UICONTROL Experiences]** pane, click the **[!UICONTROL More]** icon ( ![More icon](/help/main/assets/icons/MoreSmall.svg) ) next to an experience, click **[!UICONTROL Delete]**, then click **[!UICONTROL Delete]** to confirm the action.
