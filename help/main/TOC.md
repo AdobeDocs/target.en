@@ -16,7 +16,6 @@ feature-set: Target
    + [System status updates and proactive notifications](r-release-notes/system-status-updates.md)
    + [Documentation changes](r-release-notes/doc-change.md)
    + [Release notes for previous releases](r-release-notes/release-notes-for-previous-releases.md)
-   + [Target Activities, Offers, and Recommendations UI refresh Beta program](/help/main/refresh-ui-beta.md)
 + Introduction {#introduction}
    + [Introduction to Target](c-intro/intro.md)
    + [Access Target from the Adobe Experience Cloud](c-intro/target-access-from-mac.md)
