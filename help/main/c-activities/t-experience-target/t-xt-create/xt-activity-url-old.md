@@ -3,9 +3,7 @@ keywords: Experience Targeting;xt;activity url;url
 description: Learn how to specify the [!UICONTROL Activity URL] that determines the page that is used in the test and that opens when the [!UICONTROL Experience Targeting] activity is designed using [!DNL Adobe Target].
 title: What Is the [!UICONTROL Activity URL] In an [!UICONTROL Experience Targeting] (XT) Activity?
 feature: Experience Targeting
-hide: yes
-hidefromtoc: yes
-exl-id: 9926e4e0-728d-4375-b639-d26f067ed854
+exl-id: 8e3be814-6ad6-4ffa-be8d-68f0cb7857b5
 ---
 # Activity URL in [!UICONTROL Experience Targeting] (XT) activities
 
@@ -23,11 +21,13 @@ The [!UICONTROL Activity URL] determines the page that is used in an [!DNL Adobe
 
 1. (Conditional) To display a different page after the VEC opens, click **[!UICONTROL Configure]**, select **[!UICONTROL Page Delivery]**, then specify the URL in the [!UICONTROL URL] field.
 
+   ![Page Delivery dialog box](/help/main/c-activities/t-experience-target/t-xt-create/assets/url-config-new.png)
+
    >[!NOTE]
    >
    >If you change the URL after making changes to a page for one or more experiences, the experience is reset using the new page and the changes you made are lost.
 
-1. (Conditional) Click **[!UICONTROL Add Rule]** to add more pages or sections to the activity.
+1. (Conditional) Click **[!UICONTROL Add Template Rule]** to add more pages or sections to the activity.
 
    Additional rules can be based on any of the following:
 

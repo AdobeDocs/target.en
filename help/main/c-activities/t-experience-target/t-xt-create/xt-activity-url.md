@@ -21,13 +21,11 @@ The [!UICONTROL Activity URL] determines the page that is used in an [!DNL Adobe
 
 1. (Conditional) To display a different page after the VEC opens, click **[!UICONTROL Configure]**, select **[!UICONTROL Page Delivery]**, then specify the URL in the [!UICONTROL URL] field.
 
-   ![Page Delivery dialog box](/help/main/c-activities/t-experience-target/t-xt-create/assets/url-config-new.png)
-
    >[!NOTE]
    >
    >If you change the URL after making changes to a page for one or more experiences, the experience is reset using the new page and the changes you made are lost.
 
-1. (Conditional) Click **[!UICONTROL Add Template Rule]** to add more pages or sections to the activity.
+1. (Conditional) Click **[!UICONTROL Add Rule]** to add more pages or sections to the activity.
 
    Additional rules can be based on any of the following:
 

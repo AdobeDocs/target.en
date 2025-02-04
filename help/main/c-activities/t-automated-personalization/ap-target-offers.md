@@ -1,6 +1,6 @@
 ---
 keywords: automated personalization;offers;target;audience;targeting rules;targeting
-description: Learn how to target individual offers to specific audiences by using an [!UICONTROL Automated Personalization] (AP) activity in [!DNL Adobe Target].
+description: Discover how to target individual offers to specific audiences using [!UICONTROL Automated Personalization] (AP) activities.
 title: How Can I Target [!UICONTROL Automated Personalization] Offers?
 badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="See what's included in Target Premium."
 feature: Automated Personalization
@@ -11,7 +11,7 @@ exl-id: 633308dd-437b-4525-a7f8-69656c7d89be
 
 In an [!DNL Adobe Target] [!DNL Automated Personalization] (AP) activity, you can target offers to specific audiences.
 
- Using this functionality reduces the number of offers a specific visitor is qualified to see. For example, consider an [!UICONTROL Automated Personalization] activity that has three offers. Offer 1 has a targeting rule that limits its exposure to Audience A. Two visitors saw this activity.
+Using this functionality reduces the number of offers a specific visitor is qualified to see. For example, consider an [!UICONTROL Automated Personalization] activity that has three offers. Offer 1 has a targeting rule that limits its exposure to Audience A. Two visitors saw this activity.
 
 | | Visitor 1 | Visitor 2 |
 |--- |--- |--- |
@@ -24,28 +24,24 @@ In this scenario, Visitor 1 sees Offer 1 (because this visitor qualifies as part
 
 ## Set up targeting rules 
 
-1. Create an [Automated Personalization activity](/help/main/c-activities/t-automated-personalization/create-ap-activity.md) containing the offers that you want to target.
-1. After setting up the offers for the activity in the [!UICONTROL Visual Experience Composer], click **[!UICONTROL Manage Content]**.
-
-   ![Manage Content](/help/main/c-activities/t-automated-personalization/assets/manage-content.png)
+1. Create or edit an [Automated Personalization activity](/help/main/c-activities/t-automated-personalization/create-ap-activity.md) containing the offers that you want to target.
+1. After setting up the offers for the activity in the [!UICONTROL Visual Experience Composer], click the **[!UICONTROL Manage Content]** icon ( ![Manage Content icon](/help/main/assets/icons/Experience.svg) ).
 
    The [!UICONTROL Manage Content] dialog box displays.
 
 1. Click the **[!UICONTROL Offers]** tab.
 
-   ![Offers page](/help/main/c-activities/t-automated-personalization/assets/manage-content-offers.png)
-
 1. Select the desired offers, then choose the audiences you want to qualify to see that offer.
 
-   To set up targeting for a single offer, hover over the desired offer, then click the **[!UICONTROL Targeting]** icon.
+   To set up targeting for a single offer, click the More Info ( ![More Info icon](/help/main/assets/icons/MoreSmallList.svg) ) icon next to the desired offer, then click **[!UICONTROL Target Audience]** to display the [!UICONTROL Add Audiences] dialog box.
 
-   To set up targeting for multiple offers, select the checkboxes for the desired offers, then click the **[!UICONTROL Targeting]** icon that displays at the top right of the list.
+   To set up targeting for multiple offers, select the checkboxes for the desired offers, then click the **[!UICONTROL Target Audience]** link that displays at the bottom of the list.
 
-1. In the [!UICONTROL Choose Audience] dialog box, select the desired audiences for the offers, then click **[!UICONTROL Done]** to return to the [!UICONTROL Manage Content] dialog box.
+1. In the [!UICONTROL Add Audiences] dialog box, select the desired audiences for the offers, then click **[!UICONTROL Assign Audience]** to return to the [!UICONTROL Manage Content] dialog box.
 
    >[!NOTE]
    >
-   >In addition to selecting an existing audience, you can combine multiple audiences to create ad hoc combined audiences rather than creating a new audience. For more information, see [Combining Multiple Audiences](/help/main/c-target/combining-multiple-audiences.md#concept_A7386F1EA4394BD2AB72399C225981E5).
+   >In addition to selecting an existing audience, you can combine multiple audiences to create on-demand combined audiences rather than creating a new audience. For more information, see [Combining Multiple Audiences](/help/main/c-target/combining-multiple-audiences.md#concept_A7386F1EA4394BD2AB72399C225981E5).
 
 1. Click **[!UICONTROL Done]**.
 

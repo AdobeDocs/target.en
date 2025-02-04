@@ -19,15 +19,13 @@ For more information about [!UICONTROL Experience Targeting], a use-case scenari
 
 1. From the [!UICONTROL Activities] list, click **[!UICONTROL Create Activity]** > **[!UICONTROL Experience Targeting]**.
 
-   ![Create Activity > Experience Targeting](/help/main/c-activities/t-experience-target/t-xt-create/assets/xt_select-1.png)
-
    >[!NOTE]
    >
    >The available activity types depend on your [!DNL Target] account. Some activity types might not appear in your list. For example, [!UICONTROL Automated Personalization] is a [Target Premium feature](/help/main/c-intro/intro.md#premium).
    >
    >For more information about the various activity types available in [!DNL Target] and their differences, see [Activities](/help/main/c-activities/activities.md#concept_D317A95A1AB54674BA7AB65C7985BA03). See [Target Activity types](/help/main/c-activities/target-activities-guide.md) to help you decide which activity type best suites your needs.
 
-1. Select **[!UICONTROL Visual (Default)]**, if necessary.
+1. Select **[!UICONTROL Visual]**, if necessary.
 
    If you prefer to use the [Form-Based Experience Composer](/help/main/c-experiences/form-experience-composer.md), select [!UICONTROL Form].
 
@@ -47,11 +45,7 @@ For more information about [!UICONTROL Experience Targeting], a use-case scenari
 
    The VEC opens, showing the page specified in the URL.
 
-   ![Experience Targeting activity within the VEC](/help/main/c-activities/t-experience-target/t-xt-create/assets/xt-in-vec.png)
-
-1. Type a name for the activity in the space provided.
-
-   ![Name field](/help/main/c-activities/t-experience-target/t-xt-create/assets/xt_name-new.png)
+1. Click the **[!UICONTROL Rename]** icon ( ![Rename icon](/help/main/assets/icons/MoreSmallListVert.svg) ), click **[!UICONTROL Rename]**, specify a name for the activity, then click **[!UICONTROL Save]**.
 
    The activity name cannot begin with any of the following characters:
 

@@ -5,9 +5,7 @@ title: How Can I Use a Specific Experience as Control in an [!UICONTROL Automate
 badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="See what's included in Target Premium."
 feature: Automated Personalization, Auto-Target
 solution: Target,Analytics
-hide: yes
-hidefromtoc: yes
-exl-id: baf939d8-1f6d-4586-8323-69f818a5ef1a
+exl-id: a0a36ace-3cba-4d8d-9bbd-e35204ff6453
 ---
 # Select the control for your [!UICONTROL Automated Personalization] or [!UICONTROL Auto-Target] activity
 
@@ -26,15 +24,8 @@ There are two options available for your control in your [!UICONTROL Automated P
 ## Specify a specific experience as control
 
 1. While creating or editing an [[!UICONTROL Automated Personalization] activity](/help/main/c-activities/t-automated-personalization/create-ap-activity.md) or [[!UICONTROL Auto-Target] activity](/help/main/c-activities/t-test-ab/t-test-create-ab/ab-audience.md), configure the experiences as desired.
-1. On the [!UICONTROL Targeting] page (step 2 of the three-part guided workflow), click the control experience to display [!UICONTROL Control] options in the right pane.
-
-   ![Control pane](/help/main/c-activities/t-automated-personalization/assets/control.png)
-
-1. From the [!UICONTROL Control] drop-down list, select [!UICONTROL Random Experience] or select the desired experience that you want to use for the control.
-
-1. Click the [!UICONTROL Traffic Allocation] control, then specify the desired traffic allocation for the control experience and the other experiences.
-
-   ![Traffic allocation rail](/help/main/c-activities/t-automated-personalization/assets/traffic-allocation.png)
+1. On the [!UICONTROL Targeting] page (step 2 of the three-part guided workflow), select the desired experience as the control.
+1. Specify the desired traffic allocation for the control experience and the other experiences.
 
    For a specific experience control, 10% to 30% is advised.
 

@@ -4,9 +4,7 @@ description: Learn how to use offer reporting groups in [!DNL Adobe Target] [!UI
 title: Can I Use Offer Reporting Groups in [!UICONTROL Automated Personalization] Activities?
 badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="See what's included in Target Premium."
 feature: Reports
-hide: yes
-hidefromtoc: yes
-exl-id: a9d1b368-5862-4998-a1de-e8626ff5bd61
+exl-id: 9058a6c5-c651-480f-9b23-d0782a13b042
 ---
 # Offer reporting groups in [!UICONTROL Automated Personalization]
 
@@ -29,17 +27,26 @@ This approach works well if visitors respond the same way to all offers in a gro
 
 ## Set up reporting groups
 
-1. On the **[!UICONTROL Experiences]** page of an AP activity, click the **[!UICONTROL Manage Content]** icon ( ![Manage Content icon](/help/main/assets/icons/Experience.svg) )
+1. On the **[!UICONTROL Experiences]** page of an AP activity, click the **[!UICONTROL Manage Content]** icon.
+
+   ![Manage Content icon](/help/main/c-reports/assets/ap_manage_content.png)
+
 1. Click the **[!UICONTROL Offers]** tab at the top of the [!UICONTROL Manage Content] dialog box. 
-1. (Conditional) Add specific experiences to a reporting group by clicking the [!UICONTROL More Actions] icon ( ![More Actions icon](/help/main/assets/icons/MoreSmall.svg) ) for the desired offer and then by clicking **[!UICONTROL Reporting Group]**.
+1. (Conditional) Add specific experiences to a reporting group by hovering over the desired offer and then by clicking the **[!UICONTROL Reporting Group]** folder icon.
 
-1. (Conditional) Batch include experiences in a reporting group by selecting the checkboxes for the relevant experiences and then by clicking **[!UICONTROL Reporting Group]** at the bottom of the dialog box.
+   ![Reporting Group icon](/help/main/c-reports/assets/ap_manage_content_2.png)
 
-1. To assign the selected offer to an existing reporting group, select **[!UICONTROL Existing]**, select the desired reporting group from the drop-down list, then click **[!UICONTROL Confirm]**.
+1. (Conditional) Batch include experiences in a reporting group by selecting the checkboxes for the relevant experiences and then by clicking the **[!UICONTROL Reporting Group]** folder icon in the top-right corner of the dialog box.
+
+   ![Reporting Group icon](/help/main/c-reports/assets/ap_manage_content_3.png)
+
+1. To assign the selected offer to an existing reporting group, select **[!UICONTROL Existing]**, select the desired reporting group from the drop-down list, then click **[!UICONTROL Apply]**.
 
    Or
 
-   To create a reporting group to assign the selected offer to, select **[!UICONTROL New]**, name the new reporting group, then click **[!UICONTROL Confirm]**.
+   To create a reporting group to assign the selected offer to, select **[!UICONTROL New]**, name the new reporting group, then click **[!UICONTROL Apply]**.
+
+   ![New icon to create a new reporting group](/help/main/c-reports/assets/ap_reporting_groups.png)
 
 You can use the [!UICONTROL Location] list to filter offers by location. Use the [!UICONTROL Report Group] list to filter offers by reporting groups. You can also use the [!UICONTROL Report Group] list to filter for [!UICONTROL Unassigned Offers] so you can assign a reporting group to an offer that is not currently assigned to any reporting group.
 
@@ -68,3 +75,5 @@ For information about targeting an offer to specific audiences, see [Target [!UI
    ![Offer groups: Control and Targeted](/help/main/c-reports/c-report-settings/assets/offer-groups.png)
 
 For information about using [!UICONTROL Automated Personalization] reports (including the [!UICONTROL Offer Level] report), see [Automated Personalization Summary reports](/help/main/c-reports/personalization-reports/reports-ap.md).
+
+
