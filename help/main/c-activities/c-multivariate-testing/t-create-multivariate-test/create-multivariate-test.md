@@ -3,7 +3,7 @@ keywords: mvt;multivariate test;multivariate test create;multivariate test creat
 description: Learn how to use the [!UICONTROL Visual Experience Composer] (VEC) in [!DNL Adobe Target] to create a [!UICONTROL Multivariate Test] (MVT).
 title: How Do I Create a [!UICONTROL Multivariate Test]?
 feature: Multivariate Tests
-exl-id: 8d931764-8ba7-4eac-99db-60659086b8be
+exl-id: 7712b747-543a-4e19-b689-bea36c44805c
 ---
 # Create a Multivariate Test
 
