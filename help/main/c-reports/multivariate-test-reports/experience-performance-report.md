@@ -5,19 +5,17 @@ title: How Do I Use the Experience Performance Report for Multivariate Tests?
 feature: Reports
 exl-id: 83ca691c-4392-42f5-9251-f374bf28cc4b
 ---
-# Experience Performance report (MVT)
+# [!UICONTROL Experience Performance] report (MVT)
 
-The Experience Performance report shows how each experience in the activity performs. This report includes information about the number of entrants, the conversion rate, the lift, and the confidence.
+The [!UICONTROL Experience Performance] report shows how each experience in the activity performs. This report includes information about the number of entrants, the conversion rate, the lift, and the confidence.
 
-You can select one or more experiences to compare them. Click on an experience and select **[!UICONTROL Preview]** to open the experience in a browser tab.
-
-![Experience Performance report in Adobe Target](/help/main/c-reports/assets/experienceperformancetable.png)
+You can select one or more experiences to compare them. Click an experience and select **[!UICONTROL Preview]** to open the experience in a browser tab.
 
 The top of the report shows the metric, start and end dates, and audience used in the report. You can change any of these factors.
 
 >[!NOTE]
 >
->The audience and metric pickers are only available if Analytics is used as the reporting source.
+>The audience and metric pickers are only available if [!DNL Analytics] is used as the reporting source.
 
 Next, a line graph provides a visual comparison of each experience at specific time intervals. This graph helps you see how well each experience performs, and how the time of day affects performance.
 

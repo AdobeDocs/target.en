@@ -7,21 +7,19 @@ exl-id: b4387184-8730-4367-8bc3-52d8fbe2583e
 ---
 # Downloading data in a CSV file
 
-Download data in a .csv format for quick import into Excel, Access, or other data analysis programs.
+Download data in a .csv format for quick import into [!DNL Excel], [!DNL Access], or other data analysis programs.
 
 To download data in a CSV file:
 
 1. Click **[!UICONTROL Activities]**, then click the desired activity from the list.
 
-   If you have many activities, you can filter the list by selecting options from the [!UICONTROL Type], [!UICONTROL Status], [!UICONTROL Reporting Source], [!UICONTROL Experience Composer], [!UICONTROL Metrics Type], and [!UICONTROL Activity Source] drop-down lists. 
+   If you have many activities, click the Filter ( ![Filter icon](/help/main/assets/icons/Filter.svg) ) icon to filter the list by selecting options from the [!UICONTROL Type], [!UICONTROL Status], [!UICONTROL Reporting Source], [!UICONTROL Experience Composer], [!UICONTROL Metrics Type], and [!UICONTROL Activity Source] drop-down lists. 
 
 1. Click the **[!UICONTROL Reports]** tab. 
-1. Click the **[!UICONTROL Download]** icon, then select a report type to download for analysis in Excel and other tools.
+1. Click the **[!UICONTROL Download]** ( ![Download icon](/help/main/assets/icons/Download.svg) ) icon, then select a report type to download for analysis in Excel and other tools.
 
    * [!UICONTROL Export Reports to CSV]
    * [!UICONTROL Export Order Details to CSV]
-
-   ![Download options](/help/main/c-reports/assets/download-options.png)
 
 ## [!UICONTROL Export Report to CSV] {#section_38BD9743EB254453B5F4A0A6F2720CD3}
 

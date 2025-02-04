@@ -25,14 +25,10 @@ The [!UICONTROL Location Contribution] report includes two tables.
 
 The first table shows the relative influence of each element. This table shows you which of the elements where you have added offers is resulting in the most conversions.
 
-![Location Contribution report in Adobe Target](/help/main/c-reports/assets/locationcontributiontop.png)
-
 The second table provides an offer-level report. It shows the conversion rate, lift, and confidence for each offer in each element. This table helps you determine which offers are the most successful. The second column shows values for the selected metric (conversion rate, RPV, AOV, orders, or engagement metrics) of the offer and one standardization.
 
-![Location Contribution report in Adobe Target](/help/main/c-reports/assets/locationcontributionbottom.png)
+## Training video: Create an MVT Test
 
-## Training video: Create an MVT Test ![Tutorial badge](/help/main/assets/tutorial.png)
-
-This video demonstrates how to create a multivariate test using the Target three-step guided workflow. The Location Contribution report is described beginning at 8:45.
+This video demonstrates how to create a multivariate test using the [!DNL Target] three-step guided workflow. The Location Contribution report is described beginning at 8:45.
 
 >[!VIDEO](https://video.tv.adobe.com/v/17395)
