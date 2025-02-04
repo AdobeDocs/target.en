@@ -124,7 +124,6 @@ feature-set: Target
    + Auto-Allocate {#auto-allocate}
       + [Auto-Allocate overview](c-activities/automated-traffic-allocation/automated-traffic-allocation.md)
       + [Create an Auto-Allocate activity](/help/main/c-activities/automated-traffic-allocation/create-auto-allocate-activity.md)
-      + [Create an Auto-Allocate activity](/help/main/c-activities/automated-traffic-allocation/create-auto-allocate-activity-beta.md)
       + [Interpret Auto-Allocate reports](c-activities/automated-traffic-allocation/determine-winner.md)
       + [Interpret Auto-Allocate reports beta](c-activities/automated-traffic-allocation/determine-winner-beta.md)
       + [Auto-Allocate can give you faster test results and higher revenue than a manual test](/help/main/c-activities/automated-traffic-allocation/faster-results-higher-revenue.md)

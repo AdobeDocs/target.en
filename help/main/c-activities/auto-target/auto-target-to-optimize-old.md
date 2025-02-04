@@ -1,12 +1,10 @@
 ---
 keywords: auto-target;targeting;traffic allocation;frequently asked questions;faq;troubleshooting;trouble shooting
-description: Learn how an [!UICONTROL Auto-Target] activity serves the most tailored experience to each visitor based on customer profiles and the behavior of similar visitors.
+description: Learn how an [!UICONTROL Auto-Target] activity in [!DNL Target] serves the most tailored experience to each visitor based on customer profiles and the behavior of similar visitors.
 title: What Is an [!UICONTROL Auto-Target] Activity?
 badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="See what's included in Target Premium."
 feature: Auto-Target
-hide: yes
-hidefromtoc: yes
-exl-id: 3e55e032-3a70-4023-b705-2e489aa60277
+exl-id: 59ca30dc-45a0-4129-b832-84e1132d3b69
 ---
 # [!UICONTROL Auto-Target] overview
 
@@ -30,7 +28,7 @@ Keep reading to learn how to use [!UICONTROL Auto-Target] to increase lift and r
 
 While [creating an A/B activity](/help/main/c-activities/t-test-ab/t-test-create-ab/test-create-ab.md) using the three-step guided workflow, choose the **[!UICONTROL Auto-Target for personalized experiences]** option on the **[!UICONTROL Targeting]** page (step 2).
 
-![Traffic Allocation Method settings](/help/main/c-activities/automated-traffic-allocation/assets/auto-target.png)
+![Auto target for personalized experiences option](/help/main/c-activities/assets/auto-target-ui-new.png)
 
 The [!UICONTROL Auto-Target] option within the A/B activity flow lets you harness machine-learning to personalize based on a set of marketer-defined experiences in one click. [!UICONTROL Auto-Target] is designed to deliver maximum optimization, compared to traditional A/B testing or [!UICONTROL Auto Allocate], by determining which experience to display for each visitor. Unlike an A/B activity in which the objective is to find a single winner, [!UICONTROL Auto-Target] automatically determines the best experience for a given visitor. The best experience is based on the visitor's profile and other contextual information to deliver a highly personalized experience.
 
@@ -48,7 +46,7 @@ There are a few important considerations to keep in mind when using [!UICONTROL 
 
   Traffic from a second set of models is built for each modeling group (AP) or experience (AT). For each of these models, hits and conversions across all environments are considered. 
   
-  Requests are served with the same model, regardless of environment. However, the plurality of traffic should come from the default environment to ensure that the identified overall winning experience is consistent with real-world behavior.
+  Requests are served with the same model, regardless of environment, but the plurality of traffic should come from the default environment to ensure that the identified overall winning experience is consistent with real-world behavior.
 
 * Use a minimum of two experiences.
 
@@ -78,21 +76,21 @@ Depending on the goal of your activity, you might choose a different traffic all
 
 The [!UICONTROL Custom Allocation] drop-down list lets you choose from the following options:
 
-* [!UICONTROL Evaluate Personalization Algorithm (50/50)] 
-* [!UICONTROL Maximize Personalization Traffic (90/10)] 
+* [!UICONTROL Evaluate Personalization Algorithm] 
+* [!UICONTROL Maximize Personalization Traffic] 
 * [!UICONTROL Custom Allocation]
 
-![Allocation Goal drop-down list](/help/main/c-activities/assets/split-new-ui.png)
-
-The following table explains the three options:
+![Allocation Goal drop-down list](/help/main/c-activities/assets/split-new.png)
 
 | Activity Goal | Suggested Traffic Allocation | Tradeoffs |
 |--- |--- |--- |
-|**[!UICONTROL Evaluate Personalization Algorithm (50/50)]**: If your goal is to test the algorithm, use a 50/50 percent split of visitors between the control and the targeted algorithm. This split gives the most accurate estimate of the lift. Suggested for use with "random experiences" as your control.|50% Control / 50% Personalized Experience split|<ul><li>Maximizes accuracy of lift between control and personalized</li><li>Relatively fewer visitors have a personalized experience</li></ul>|
-|**[!UICONTROL Maximize Personalization Traffic (90/10)]**: If your goal is to create an "always on" activity, put 10% of the visitors into the control to ensure that there is enough data for the algorithms to continue learning over time. The tradeoff here is that in exchange for personalizing a larger proportion of your traffic, you have less precision in what the exact lift is. No matter your goal, this is the recommended traffic split when using a specific experience as the control.|Best practice is to use a 10% - 30% Control / 70% - 90% Personalized Experience split|<ul><li>Maximizes the number of visitors who have a personalized experience</li><li>Maximizes lift</li><li>Less accuracy as to what the lift is for the activity</li></ul>|
+|**Evaluate Personalization Algorithm (50/50)**: If your goal is to test the algorithm, use a 50/50 percent split of visitors between the control and the targeted algorithm. This split gives the most accurate estimate of the lift. Suggested for use with "random experiences" as your control.|50% Control / 50% Personalized Experience split|<ul><li>Maximizes accuracy of lift between control and personalized</li><li>Relatively fewer visitors have a personalized experience</li></ul>|
+|**Maximize Personalization Traffic (90/10)**: If your goal is to create an "always on" activity, put 10% of the visitors into the control to ensure that there is enough data for the algorithms to continue learning over time. The tradeoff here is that in exchange for personalizing a larger proportion of your traffic, you have less precision in what the exact lift is. No matter your goal, this is the recommended traffic split when using a specific experience as the control.|Best practice is to use a 10% - 30% Control / 70% - 90% Personalized Experience split|<ul><li>Maximizes number of visitors who have a personalized experience</li><li>Maximizes lift</li><li>Less accuracy as to what the lift is for the activity</li></ul>|
 |**Custom Allocation**|Manually split the percentage as desired.|<ul><li>You might not achieve the desired results. If you are unsure, follow the suggestions for either of the preceding options</li></ul>|
 
-To adjust the [!UICONTROL Control] percentage, click [!UICONTROL Experiences] in the [!UICONTROL Traffic Allocation] pane, then adjust the percentages as desired. You cannot decrease the control group to less than 10%.
+To adjust the [!UICONTROL Control] percentage, click the icons in the [!UICONTROL Allocation] column. You cannot decrease the control group to less than 10%.
+
+![Change Auto-Target traffic allocation](/help/main/c-activities/assets/auto-target-control.png)
 
 You can [select a specific experience to use as control](/help/main/c-activities/t-automated-personalization/experience-as-control.md) or you can use the Random experience option.
 
@@ -109,7 +107,7 @@ There are several scenarios in which you might prefer to use [!UICONTROL Auto-Ta
 ### The algorithm optimizes for a favorable outcome for each visit.
 
 * The algorithm predicts a visitor's propensity for conversion (or estimated revenue from conversion) to serve the best experience. 
-* A visitor is eligible for a new experience upon the end of an existing session (unless the visitor is in the control group, in which case the experience that the visitor is assigned on the first visit remains the same for subsequent visits). 
+* A visitor is eligible for a new experience upon the end of an existing session (unless the visitor is in the control group, in which case the experience that visitor is assigned on the first visit remains the same for subsequent visits). 
 * Within a session, the prediction doesn't change, to maintain visual consistency.
 
 ### The algorithm adapts to changes in visitor behavior.
@@ -154,8 +152,20 @@ For [!UICONTROL Auto-Target], simple rules of thumb can be used to understand tr
 ### [!UICONTROL Auto-Target] provides an extensive online testing framework.
 
 * The multi-arm bandit is part of a larger online-testing framework that allows [!DNL Adobe] data-scientists and researchers to understand the benefits of their continual improvements in real-world conditions. 
-* In the future, this test bed will allow us to open the [!DNL Adobe] machine learning platform to data-savvy clients so that they can bring in their own models to augment the [!DNL Target] models.
+* In the future, this test bed will allow us to open [!DNL Adobe] machine learning platform to data-savvy clients so that they can bring in their own models to augment the [!DNL Target] models.
 
 ## Reporting and [!UICONTROL Auto-Target] {#section_42EE7F5E65E84F89A872FE9921917F76}
 
 For more information, see [Reporting and Auto-Target](/help/main/c-activities/auto-target/reporting-and-auto-target.md).
+
+## Training video: Understanding Auto-Target Activities
+
+This video explains how to set up an [!UICONTROL Auto-Target] A/B activity.
+
+After completing this training, you should be able to:
+
+* Define [!UICONTROL Auto-Target] testing 
+* Compare and contrast [!UICONTROL Auto-Target] to [!UICONTROL Automated Personalization] 
+* Create [!UICONTROL Auto-Target] activities
+
+>[!VIDEO](https://video.tv.adobe.com/v/18558)
