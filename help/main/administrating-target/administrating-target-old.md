@@ -4,13 +4,11 @@ description: Set up Adobe Target, including preferences, implementation, user ma
 title: How Do I Administer Target?
 feature: Administration & Configuration
 role: Admin
-hide: yes
-hidefromtoc: yes
-exl-id: b860cfb5-1a17-4210-b635-3c36e176fcd5
+exl-id: 89023213-b109-4d07-af4e-4b8da481806d
 ---
 # Administer [!DNL Target] Overview
 
-Information to help you administer [!DNL Adobe Target], including configuration settings for the Visual Experience Composer (VEC), reporting, Scene7 configuration, implementation, hosts, environments, response tokens, users, and [!DNL Recommendations].
+Information to help you administer [!DNL Adobe Target], including configuration settings for the Visual Experience Composer (VEC), reporting, Scene7 configuration, implementation, hosts, environments, response tokens, and users.
 
 To access the [!UICONTROL Administration] menu items, click **[!UICONTROL Administration]** in the top menu bar, then click the desired tab along the left side:
 
@@ -23,4 +21,5 @@ To access the [!UICONTROL Administration] menu items, click **[!UICONTROL Admini
 * [Environments](/help/main/administrating-target/environments.md)
 * [Response Tokens](/help/main/administrating-target/response-tokens.md)
 * [Users](/help/main/administrating-target/c-user-management/user-management.md)
-* [Recommendations](/help/main/administrating-target/recommendations-settings.md)
+
+![Adobe Target Administration menu](/help/main/administrating-target/assets/administration.png)
