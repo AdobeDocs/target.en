@@ -125,13 +125,10 @@ feature-set: Target
       + [Auto-Allocate overview](c-activities/automated-traffic-allocation/automated-traffic-allocation.md)
       + [Create an Auto-Allocate activity](/help/main/c-activities/automated-traffic-allocation/create-auto-allocate-activity.md)
       + [Interpret Auto-Allocate reports](c-activities/automated-traffic-allocation/determine-winner.md)
-      + [Interpret Auto-Allocate reports beta](c-activities/automated-traffic-allocation/determine-winner-beta.md)
       + [Auto-Allocate can give you faster test results and higher revenue than a manual test](/help/main/c-activities/automated-traffic-allocation/faster-results-higher-revenue.md)
    + Auto-Target {#auto-target}
       + [Auto-Target overview](/help/main/c-activities/auto-target/auto-target-to-optimize.md)
-      + [Auto-Target overview beta](/help/main/c-activities/auto-target/auto-target-to-optimize-beta.md)
       + [Create an Auto-Target activity](/help/main/c-activities/auto-target/create-auto-target.md)
-      + [Create an Auto-Target activity beta](/help/main/c-activities/auto-target/create-auto-target-beta.md)
       + [Auto-Target FAQs and troubleshooting](/help/main/c-activities/auto-target/auto-target-troubleshooting-faqs.md)
       + [Reporting and Auto-Target](/help/main/c-activities/auto-target/reporting-and-auto-target.md)
    + Automated Personalization {#automated-personalization}
