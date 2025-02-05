@@ -7,7 +7,7 @@ exl-id: 59057461-d958-4d38-9725-53aacbe1f7eb
 ---
 # Build audiences in [!DNL Target]
 
-You can create customized audiences and save them to the [!DNL Adobe Target] [!UICONTROL Audiences] library for use in your activities. You can also copy an existing audience that you can then edit to create a similar audience and combine multiple audiences.
+Create customized audiences and save them to the [!DNL Adobe Target] [!UICONTROL Audiences] library for use in your activities. You can also copy an existing audience that you can then edit to create a similar audience and combine multiple audiences.
 
 ## Audience overview
 
@@ -19,13 +19,13 @@ When you combine rules or parameters with OR, any potential audience member need
 
 You can mix both boolean operators to create complex rules; however, operators at the same rule level must match. The user interface automatically applies the correct operator.
 
-For example, the following rule targets visitors who use either Chrome *or* Firefox on a Windows computer:
+For example, the following rule targets visitors who use either [!DNL Chrome] *or* [!DNL Firefox] on a [!DNL Windows] computer:
 
 ![Create audience](assets/audience_create.png)
 
 >[!NOTE]
 >
->Be careful to avoid creating rules that exclude all potential audience members. For example, it is not possible for someone to visit a page using Chrome *and* Firefox simultaneously.
+>Be careful to avoid creating rules that exclude all potential audience members. For example, it is not possible for someone to visit a page using [!DNL Chrome] *and* [!DNL Firefox] simultaneously.
 
 ## Create an audience
 
@@ -37,7 +37,7 @@ For example, the following rule targets visitors who use either Chrome *or* Fire
 
    Or
 
-   To copy an existing audience, from the [!UICONTROL Audiences] list, click the **[!UICONTROL More Actions]** icon (the ellipsis icon), then click **[!UICONTROL Duplicate]**. You can then edit the audience to create a similar audience. 
+   To copy an existing audience, from the [!UICONTROL Audiences] list, click the **[!UICONTROL More Actions]** icon ( ![More Actions icon](/help/main/assets/icons/MoreSmallListVert.svg) ) for the audience that you want to copy, then click **[!UICONTROL Duplicate]**. You can then edit the audience to create a similar audience. 
 
 1. Type a unique, descriptive audience name and an optional description.
 
@@ -49,7 +49,7 @@ For example, the following rule targets visitors who use either Chrome *or* Fire
 
    `;=  ;+  ;-  ;@  ,=  ,+  ,-  ,@  ["  "]  ['  ]'`
 
-1. Drag and drop the desired attributes from the **[!UICONTROL Attributes]** list on the right to the audience builder pane.
+1. Drag and drop the desired attributes from the **[!UICONTROL Attributes]** list on the left to the audience builder pane.
 
    ![Drag and drop attributes](assets/drag-attribute.png)
 
@@ -57,7 +57,7 @@ For example, the following rule targets visitors who use either Chrome *or* Fire
 
 1. Define the rule parameters.
 
-   For example, the following audience targets visitors from Utah using the Macintosh operating system.
+   For example, the following audience targets visitors from Utah using the [!DNL Macintosh] operating system.
 
    ![Utah/Macintosh audience](assets/adience-builder.png)
 
