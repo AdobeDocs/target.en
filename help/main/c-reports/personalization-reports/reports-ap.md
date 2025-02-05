@@ -16,9 +16,9 @@ Specialized summary reports are available to users of [!UICONTROL Automated Pers
 
 1. Click **[!UICONTROL Activities]**, click the desired [!UICONTROL Automated Personalization] activity from the list, then click the **[!UICONTROL Reports]** tab.
 
-   If you have many activities, you can filter the list by selecting [!UICONTROL Automated Personalization] from the [!UICONTROL Type] drop-down list. 
+   If you have many activities, click the Filter ( ![Filter icon](/help/main/assets/icons/Filter.svg) ) icon to filter the list by selecting options from the [!UICONTROL Type], [!UICONTROL Status], [!UICONTROL Reporting Source], [!UICONTROL Experience Composer], [!UICONTROL Metrics Type], and [!UICONTROL Activity Source] drop-down lists. 
 
-1. (Optional) Click the **[!UICONTROL Download]** icon to download the summary view (for example, comparing Control and Targeted traffic) as broken down by all available success metrics.
+1. (Optional) Click the **[!UICONTROL Download]**  ( ![Download icon](/help/main/assets/icons/Download.svg) ) icon to download the summary view (for example, comparing Control and Targeted traffic) as broken down by all available success metrics.
 
 [!UICONTROL Automated Personalization] provides the following reports: 
 
@@ -31,8 +31,6 @@ Specialized summary reports are available to users of [!UICONTROL Automated Pers
 
 The [!UICONTROL Activity Level] report compares the aggregate performance of using an [!UICONTROL Automated Personalization] algorithm to randomly served content (control).
 
-![Activity Level Report](/help/main/c-reports/assets/box_plot_ap.png)
-
 The standard rules of results interpretation for A/B testing still apply, including lift, confidence, trending, duration, and so on. For more information about interpreting results, see [Statistical calculations in A/Bn tests](/help/main/c-reports/statistical-methodology/statistical-calculations.md).
 
 ## Offer Level report {#section_CAA6409879E349C6906E2BE8156D87A1}
@@ -40,8 +38,6 @@ The standard rules of results interpretation for A/B testing still apply, includ
 The [!UICONTROL Offer Level] report for the Random Forest experience compares the performance of each algorithm-applied offer to the same randomly served offer (Control). Thus, offers should not be compared against each other in this view.
 
 Click the experience algorithm (Random Forest or control) to view the [!UICONTROL Offer Level] report.
-
-![Offer Level report in Adobe Target](/help/main/c-reports/assets/ap_OfferLevelRpt.png)
 
 >[!NOTE]
 >
@@ -53,15 +49,11 @@ Offers can be shown within [reporting groups](/help/main/c-activities/t-automate
 
 Click the [!UICONTROL Automated Segments] icon. This report shows how different visitors respond differently to the offers/experiences in your AP/AT activity. This report shows how different automated segments defined by Target's personalization models responded to the offers/experiences in the activity.
 
-![Automated segments icon](/help/main/c-reports/assets/icon-automated-sements-ap.png)
-
 For more information, see [Automated Segments report](/help/main/c-reports/c-personalization-insights-reports/automated-segments-report.md).
 
 ## Important Attributes
 
 Click the [!UICONTROL Important Attributes] icon. This report shows how, in different activities, different attributes are more (or less) important to how the model decides to personalize. This report shows the top attributes that influenced the model and their relative importance.
-
-![Important attributes icon](/help/main/c-reports/assets/icon-important-attributes-ap.png)
 
 For more information, see [Important Attributes report](/help/main/c-reports/c-personalization-insights-reports/important-attributes-report.md).
 

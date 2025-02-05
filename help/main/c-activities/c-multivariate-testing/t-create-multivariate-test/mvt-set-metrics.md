@@ -14,7 +14,7 @@ For detailed information about success metrics, see [Success Metrics](/help/main
 1. Specify the goal of the activity.
 1. Select a [success metric](/help/main/c-activities/r-success-metrics/success-metrics.md#reference_D011575C85DA48E989A244593D9B9924)
 
-   ![Set Metrics list](/help/main/c-activities/c-multivariate-testing/t-create-multivariate-test/assets/mvt_metrics-list.png)
+   ![Set Metrics list](/help/main/c-activities/c-multivariate-testing/t-create-multivariate-test/assets/mvt_metrics-list-new.png)
 
    The [!UICONTROL Select Metrics] page lists the success metrics that you can choose for your activity. The success metrics are divided into the following categories:
 
@@ -35,7 +35,7 @@ For detailed information about success metrics, see [Success Metrics](/help/main
    For more information, see [Success Metrics](/help/main/c-activities/r-success-metrics/success-metrics.md#reference_D011575C85DA48E989A244593D9B9924)
 
 1. (Optional) Add additional metrics.
-1. Click **[!UICONTROL Continue]** when you are finished setting your metrics.
+1. Click **[!UICONTROL Save and Close]** when you are finished setting your metrics.
 
 When you name or rename a metric, the following characters are not allowed:
 

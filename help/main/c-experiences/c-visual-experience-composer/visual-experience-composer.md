@@ -9,39 +9,37 @@ exl-id: 51650f2a-1f24-40c7-8692-77f55656b4f6
 
 Information about using the [!UICONTROL Visual Experience Composer] (VEC) in [!DNL Adobe Target].
 
-The VEC is a WYSIWYG user interface that lets you easily create and test personalized experiences and offers in the site context. You can create experiences and offers for Target activities by dragging and dropping, swapping, and modifying the layout and content of a web page (or offer) or mobile web page.
+The VEC is a WYSIWYG user interface that lets you easily create and test personalized experiences and offers in the site context. You can create experiences and offers for [!DNL Target] activities by dragging and dropping, swapping, and modifying the layout and content of a web page (or offer) or mobile web page.
 
 The VEC is one of the main features of [!DNL Adobe Target]. The VEC lets marketers and designers create and change content using a visual interface. Many design choices can be made without requiring direct editing of the code. Editing HTML and JavaScript is also possible using the editing options available in the composer.
 
-On the Target **[!UICONTROL Administration]** > **[!UICONTROL Visual Experience Composer]** tab, you can enter the Default Visual Experience Composer URL.
+On the Target **[!UICONTROL Administration]** > **[!UICONTROL Visual Experience Composer]** tab, you can enter the default [!UICONTROL Visual Experience Composer] URL.
 
-![Default VEC URL settings](/help/main/c-experiences/c-visual-experience-composer/assets/pref-default-url-new.png)
+![VEC highlighted](/help/main/c-experiences/c-visual-experience-composer/assets/vec-highlight-refresh.png)
 
 This URL determines where you start when you open the VEC. If you do not enter a default, then you start with a blank page when you open the editor, and specify a URL at that time.
 
 >[!NOTE]
 >
->Certain browsers, such as Firefox, might block a page from displaying in the VEC if the page contains mixed content (for example, a non-secure page in a secure site). If your page does not display, click the icon next to the URL in the browser address bar and click **[!UICONTROL Disable protection on this page]**. This issue does not affect the display of your pages to site visitors.
+>Certain browsers, such as [!DNL Firefox], might block a page from displaying in the VEC if the page contains mixed content (for example, a non-secure page in a secure site). If your page does not display, click the icon next to the URL in the browser address bar and click **[!UICONTROL Disable protection on this page]**. This issue does not affect the display of your pages to site visitors.
 
-Content inside an iframe on the page can't be modified in the VEC. To edit content within an iframe, ensure that the iframe document is Target-enabled, then load that iframe URL in the VEC.
+Content inside an iframe on the page can't be modified in the VEC. To edit content within an iframe, ensure that the iframe document is [!DNL Target]-enabled, then load that iframe URL in the VEC.
 
-You can use the drop-down menus across the top of the page to view your page as it would appear to different audiences or with different experiences. You can provide a name for each experience in the second drop-down list. For example, if you are testing the location of the Home link in your nav bar, you might name an experience where the Home link appears first something like, "Home link" to make it easier to identify the experiences in the list.
+You can use the tabs in the [!UICONTROL Experiences] frame to view your page as it would appear to different audiences or with different experiences. You can provide a name for each experience. For example, if you are testing the location of the Home link in your nav bar, you might name an experience where the Home link appears first something like, "Home link" to make it easier to identify the experiences in the list.
 
 >[!NOTE]
 >
->Changes to the structure of a page that affect the locations used in an activity created on that page could cause issues with experience editing. If a location has been changed outside the VEC, Target might not be able to find the location where the content was changed.
+>Changes to the structure of a page that affect the locations used in an activity created on that page could cause issues with experience editing. If a location has been changed outside the VEC, [!DNL Target] might not be able to find the location where the content was changed.
 
 As you move your mouse around the page, a context-sensitive box follows the cursor, highlighting the elements on the page.
 
-![VEC highlighted](/help/main/c-experiences/c-visual-experience-composer/assets/vec-highlight-new.png)
+<!--Click the **[!UICONTROL Overlays]** icon to change the way the highlight displays. For example, you can choose to highlight only images, links, regional mboxes, modifications, or JavaScript. You can change the color of the highlight. You can also specify a highlight color and type of fill used to highlight different element types.
 
-Click the **[!UICONTROL Overlays]** icon to change the way the highlight displays. For example, you can choose to highlight only images, links, regional mboxes, modifications, or JavaScript. You can change the color of the highlight. You can also specify a highlight color and type of fill used to highlight different element types.
+![Change Overlay settings](/help/main/c-experiences/c-visual-experience-composer/assets/change-overlay.png)-->
 
-![Change Overlay settings](/help/main/c-experiences/c-visual-experience-composer/assets/change-overlay.png)
+Click a highlighted element for a menu of options available for that element type For example, you can click on an image and select **[!UICONTROL Change Image]** to change the image to another image. Or click a button and change the text color.
 
-Click a highlighted element for a menu of options available for that element type For example, you can click on an image and select **[!UICONTROL Edit > Text/HTML]** to change the text, or click a button and change the background color. You can use the buttons at the top left of the page to toggle the overlays on and off.
-
-You can also click **[!UICONTROL Browse]**, then navigate to a page that is available from the primary page, such as a shipping page or shopping cart, and test changes on that page. You can also access page elements that are available when you hover, such as flyout menus and mini-carts. When you are finished browsing to the page, click **[!UICONTROL Compose]** to edit the experience. For example, you might want to change the design of a shopping cart drop-down or a carousel of images.
+You can also click **[!UICONTROL Browse]**, then navigate to a page that is available from the primary page, such as a shipping page or shopping cart, and test changes on that page. You can also access page elements that are available when you hover, such as flyout menus and mini-carts. When you are finished browsing to the page, click **[!UICONTROL Design]** to edit the experience. For example, you might want to change the design of a shopping cart drop-down or a carousel of images.
 
 >[!NOTE]
 >
@@ -66,10 +64,6 @@ Some reasons why you might want to access or make edits to a page while it is lo
 
 While the page loads (or after it fails to load), the [!UICONTROL Experiences] panel, [!UICONTROL Modifications] panel, and the settings at the top of the experience (Overlays, Modifications, Configure, and so forth) are all accessible.
 
-The following illustration shows that you can insert custom code or perform other actions while the page is still loading:
-
-![Page loading](/help/main/c-experiences/c-visual-experience-composer/c-vec-code-editor/assets/loading-page.png)
-
 ## Cancel loading of a page within the VEC {#cancel-loading}
 
 You can cancel the loading of a page within the VEC to unlock editing of the activity without waiting for the page to load. This feature saves time and helps you make simple edits or insert custom code more efficiently without waiting for the page to load within the VEC.
@@ -92,40 +86,4 @@ After you cancel page loading in the VEC you can switch between experiences in t
 
 To cancel loading of a page within the VEC, click the **[!UICONTROL Cancel Loading]** button while the page is loading. The page will not load in the VEC for this activity during the current editing session.
 
-![Cancel Loading button](/help/main/c-experiences/c-visual-experience-composer/c-vec-code-editor/assets/cancel-loading.png)
-
 To continue managing experiences in the current activity or to add new modifications, you must click the **[!UICONTROL Reload]** button.
-
-![Reload button](/help/main/c-experiences/c-visual-experience-composer/c-vec-code-editor/assets/reload-in-vec.png)
-
-## Training videos
-
-The following videos contain more information about the concepts discussed in this article.
-
-### Visual Experience Composer (1 of 2) (7:17) ![Tutorial badge](/help/main/assets/tutorial.png)
-
-* Change the content of a page 
-* Change the layout of a page
-
->[!VIDEO](https://video.tv.adobe.com/v/17399)
-
-### Visual Experience Composer (2 of 2) (7:29) ![Tutorial badge](/help/main/assets/tutorial.png)
-
-* Rename and duplicate an experience 
-* Create a redirect experience 
-* Target an activity to a single URL or a group of URLs 
-* Create a multi-page activity 
-* Preview and build experience for responsive websites 
-* Use overlays to highlight types of elements
-
->[!VIDEO](https://video.tv.adobe.com/v/17401)
-
-### Office hours: Visual Experience Composer ![Tutorial badge](/help/main/assets/tutorial.png)
-
-This video is a recording of " [Office Hours](/help/main/cmp-resources-and-contact-information.md#concept_58EA30379D3B48C4848BA2A8C464A5B7)," an initiative led by the Adobe Customer Care team.
-
-* How the VEC works 
-* How to avoid common issues with the VEC 
-* Work-around practices you can use with the VEC
-
->[!VIDEO](https://video.tv.adobe.com/v/20784/)

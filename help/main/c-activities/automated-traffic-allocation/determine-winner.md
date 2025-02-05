@@ -1,11 +1,11 @@
 ---
 keywords: automated traffic allocation;targeting;winner;statistical guarantee;confidence;determine winner;lift;confidence;default;default experience;auto-allocate;auto allocate
-description: Learn how to interpret the results of an [!UICONTROL Auto-Allocate] A/B activity in Adobe [!DNL Target] by examining important indicators, including lift and confidence.
+description: Discover how to interpret [!UICONTROL Auto-Allocate] A/B activity results, focusing on key indicators like lift and confidence.
 title: How Do I Interpret [!UICONTROL Auto-Allocate] Reports?
 feature: Auto-Allocate
 exl-id: 4ed00eee-8939-4958-9be6-b45a8c08afbc
 ---
-# Interpret Auto-Allocate reports 
+# Interpret [!UICONTROL Auto-Allocate] reports 
 
 Interpret the results of an [!UICONTROL Auto-Allocate] A/B activity in [!UICONTROL Adobe Target] by examining important indicators, including lift and confidence.
 
@@ -17,23 +17,23 @@ For general information about declaring a winner, see [Ten common A/B testing pi
 
 When using the [!UICONTROL Auto-Allocate] feature, [!DNL Target] displays a badge at the top of the activity's page indicating "No Winner Yet" until the activity reaches the minimum number of conversions with sufficient confidence.
 
-![No Winner badge](/help/main/c-activities/automated-traffic-allocation/assets/no-winner.png)
+![No Winner badge](/help/main/c-activities/automated-traffic-allocation/assets/no-winner-new.png)
 
-When a clear winner is declared, [!DNL Target] displays "Winner: Experience *X*."
+When a clear winner is declared, [!DNL Target] displays the "Winner: Experience *X*" badge.
 
-![winner image](assets/winner.png)
+![Winner badge](/help/main/c-activities/automated-traffic-allocation/assets/winner-new.png)
 
 >[!NOTE]
 >
->Auto-Allocate activities are designed to find the best experience among all options and not just to do pairwise comparisons with control.
+>[!UICONTROL Auto-Allocate] activities are designed to find the best experience among all options and not just to do pairwise comparisons with control.
 
-## Statistical guarantees of Auto-Allocate {#section_7AF3B93E90BA4B80BC9FC4783B6A389C}
+## Statistical guarantees of [!UICONTROL Auto-Allocate] {#section_7AF3B93E90BA4B80BC9FC4783B6A389C}
 
 At the end of an A/B activity, [!UICONTROL Auto-Allocate] guarantees that the determined winner has an effective false-positive rate of 5%. This means that only 5% of the time, the determined winner is not actually the best experience among all the experiences in the activity. For an [A/A test](/help/main/c-activities/t-test-ab/aa-testing.md) (with identical experiences), [!DNL Target] concludes a test less than 5% of the time. The expected behavior for an A/A test (with identical experiences) is for it to run indefinitely and so the winner badge should never appear.
 
 [!DNL Target] does not use p-value based confidence for [!UICONTROL Auto-Allocate].
 
-The [!UICONTROL Confidence] column in an [!UICONTROL Auto-Allocate] activity (illustrated below) displays the probability of an experience being the winner within 1% margin of error. The algorithm uses a minimum detectable effect of 1% between the best and the second-best conversion rates. The algorithm uses [Bernstein Inequality](https://en.wikipedia.org/wiki/Bernstein_inequalities_%28probability_theory%29) to compute this probability.
+The [!UICONTROL Confidence] column in an [!UICONTROL Auto-Allocate] activity displays the probability of an experience being the winner within 1% margin of error. The algorithm uses a minimum detectable effect of 1% between the best and the second-best conversion rates. The algorithm uses [Bernstein Inequality](https://en.wikipedia.org/wiki/Bernstein_inequalities_%28probability_theory%29) to compute this probability.
 
 Normal A/B tests compute confidence based on p-values. [!UICONTROL Auto-Allocate] does not use p-values. P-values "loosely" compute the probability that a given experience is different from the control. These p-values can be used only to determine whether an experience might be different from the control. These values cannot be used to determine if an experience is different from another experience (not control).
 
@@ -76,5 +76,3 @@ Any of the following reasons describe why 0% displays in the report's [!UICONTRO
 The "No Winner Yet" and "Winner" badges are currently not available in the [!UICONTROL A4T] panel in [!DNL Analysis Workspace]. These badges are also not available if the same report is viewed in [!DNL Target]. A winner "star" badge shown in a [!DNL Target] report for an [!UICONTROL Auto-Allocate] activity using A4T should be ignored. 
 
 For more information about this and other limitations and notes, see [Auto-Allocate](/help/main/c-integrating-target-with-mac/a4t/a4t-at-aa.md#aa) in *A4T support for [!UICONTROL Auto-Allocate] and [!UICONTROL Auto-Target] activities*.
-
-

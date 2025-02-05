@@ -1,6 +1,6 @@
 ---
 keywords: multiple audiences;experience versions;target experience versions
-description: Learn how to target versions of the same experience to different audiences in [!DNL Adobe Target] A/B activities.
+description: Discover how to target different audience segments with versions of the same experience in A/B activities.
 title: Can I Use Multiple Experience Versions in an A/B Activity?
 feature: A/B Tests
 exl-id: 7afe36f0-ec46-4d63-bfff-45d2c8923a04
@@ -27,13 +27,9 @@ In this case, what you need are geo-specific versions of the experience, so you 
 
    When configuring the experience that will have multiple versions, select the audience for each version, as shown in the following steps. 
    
-1. Select the experience, then click **[!UICONTROL Configure]** > **[!UICONTROL Audiences]** > **[!UICONTROL Multiple Audiences]**.
+1. Select the experience, then click **[!UICONTROL Configure]** > **[!UICONTROL Multiple Audiences]**.
 
-   ![Multiple Audiences option](/help/main/c-activities/t-test-ab/t-test-create-ab/assets/multiple-audiences-new.png)
-
-1. Click **[!UICONTROL Add Audience]**, then select the first audience you want to target. Repeat for each audience.
-
-   ![exp-versions image](assets/exp-versions.png)
+1. Click the **[!UICONTROL Add Audience]** icon ( ![Add icon](/help/main/assets/icons/Add.svg) ) in the [!UICONTROL Experience Audiences] pane, then select the first audience you want to target. Repeat for each audience.
 
    If the audience does not yet exist, click [Create Audience](/help/main/c-target/c-audiences/create-audience.md#task_E18BD77A9A8F4ED0AC50569F94556558) and set it up.
 

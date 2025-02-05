@@ -1,6 +1,6 @@
 ---
 keywords: traffic estimator;automated personalization;ap;estimate traffic
-description: Use the [!DNL Adobe Target] [!UICONTROL Traffic Estimator] to determine whether you have sufficient traffic for your [!UICONTROL Automated Personalization] activity to succeed.
+description: Use the [!UICONTROL Traffic Estimator] to assess if you have enough traffic for a [!UICONTROL Automated Personalization] activity to be successful.
 title: How Much Traffic Is Needed for a Successful [!UICONTROL Automated Personalization] Activity?
 badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="See what's included in Target Premium."
 feature: Automated Personalization
@@ -18,13 +18,13 @@ Remember that [!DNL Target] randomly serves experiences until the personalizatio
 
 ## Use the Traffic Estimator
 
-1. From the [!UICONTROL Experiences] page of the [!UICONTROL Visual Experience Composer] in an [!UICONTROL Automated Personalization] activity, click the  **[!UICONTROL Traffic]** icon.
+1. From the [!UICONTROL Experiences] page of the [!UICONTROL Visual Experience Composer] in an [!UICONTROL Automated Personalization] activity, click the  **[!UICONTROL Traffic]** icon ( ![Traffic Estimator icon](/help/main/assets/icons/Gauge2.svg) ) in the top left corner of the [!UICONTROL Experiences] page.
 
-   ![Traffic icon](/help/main/c-activities/t-automated-personalization/assets/icon-traffic.png)
+   The [!UICONTROL Traffic Estimator] opens.
 
-   The [!UICONTROL Traffic Estimator] opens. You can click **[!UICONTROL Traffic]** again to hide the [!UICONTROL Traffic Estimator].
+   ![Traffic Estimator user interface](assets/ap-est.png)
 
-   ![Traffic Estimator user interface](assets/ap_est.png)
+    You can click the icon again to hide the [!UICONTROL Traffic Estimator].
 
 1. Specify the typical conversion rate (or the conversion rate that you expect from this activity), estimated activity impressions per day, and test duration.
 
@@ -39,19 +39,19 @@ Remember that [!DNL Target] randomly serves experiences until the personalizatio
 
    Near the top of the [!UICONTROL Traffic Estimator], the values you entered are calculated and the results are shown.
 
-   ![Traffic Estimate with values and results displayed](assets/ap_est_no.png)
+   ![Traffic Estimate with values and results displayed](assets/ap-est-no.png)
 
    As you change the numbers, the estimate changes. For example, if you are testing many combinations and your conversion rate and impressions are too low, the [!UICONTROL Traffic Estimator] shows how long the test must run to be successful. Or, if your traffic is low, the [!UICONTROL Traffic Estimator] could suggest a lower number of offer combinations so you can run the test the desired number of days.
 
    If you do not have sufficient traffic, consider the following:
 
-   * Consider using an [Auto-Target](/help/main/c-activities/auto-target/auto-target-to-optimize.md) activity instead of [!UICONTROL Automated Personalization] to create experiences with several offer changes in one experience variation. 
+   * Consider using an [[!UICONTROL Auto-Target]](/help/main/c-activities/auto-target/auto-target-to-optimize.md) activity instead of [!UICONTROL Automated Personalization] to create experiences with several offer changes in one experience variation. 
    * Reduce the number of offer combinations within your [!UICONTROL Automated Personalization] activity. 
    * Increase the duration of the activity.
 
    Adjust the numbers until the [!UICONTROL Traffic Estimator] indicates that you have sufficient traffic, then design your test accordingly.
 
-   ![Traffic Estimator showing sufficient traffic message](assets/ap_est_yes.png)
+   ![Traffic Estimator showing sufficient traffic message](assets/ap-est-yes.png)
 
    If the traffic is sufficient, the [!UICONTROL Traffic] icon shows a green check. If it is insufficient, the icon shows a red warning label.
 

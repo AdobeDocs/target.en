@@ -6,9 +6,9 @@ badgePremium: label="Premium" type="Positive" url="https://experienceleague.adob
 feature: Recommendations
 exl-id: 217e19bf-521f-4913-9b41-099c9af8b393
 ---
-# Static Filter
+# [!UICONTROL Static Filter]
 
-Manually enter one or more static values to filter using inclusion rules in [!DNL Adobe Target] [!DNL Recommendations].
+Manually enter one or more static values to filter using inclusion rules in [!DNL Adobe Target Recommendations].
 
 For example, only recommend content with a Motion Picture Association (MPA) rating of "G" or "PG."
 
@@ -20,6 +20,4 @@ You can create as many inclusion rules as necessary. The inclusion rules are joi
 
 ## Recommend content rated G or PG
 
-To create an inclusion rule with static values to recommend content with an MPA rating of "G" or "PG" only (exclude "R" and "NC17" content), you could create the following filtering rules "movie-rating equals g-rated" and "movie-rating equal pg-rated", as shown below.
-
-![movie-rating example](/help/main/c-recommendations/c-algorithms/assets/movies.png)
+To create an inclusion rule with static values to recommend content with an MPA rating of "G" or "PG" only (exclude "R" and "NC17" content), you could create the following filtering rules "movie-rating equals any of g-rated" and "movie-rating equals any of pg-rated".

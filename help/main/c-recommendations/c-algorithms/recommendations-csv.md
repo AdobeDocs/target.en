@@ -1,7 +1,7 @@
 ---
 keywords: creating custom criteria;algorithms;criteria;recommendations criteria;csv;ftp;upload csv
 description: Learn how to upload a CSV file to customize your recommendations in Adobe [!DNL Target] Recommendations.
-title: How Do I Upload Custom Criteria in Recommendations?
+title: How Do I Upload Custom Criteria in [!DNL Recommendations]?
 badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="See what's included in Target Premium."
 feature: Recommendations
 exl-id: 33434121-e0ae-4b82-b1dd-78b9738026cb
@@ -20,17 +20,17 @@ The following steps assume you access the [!UICONTROL Create New Criteria] scree
 
 1. Click **[!UICONTROL Recommendations]** > **[!UICONTROL Criteria]**.
 
-1. Click **[!UICONTROL Create Criteria]**.
+1. Click **[!UICONTROL Create Criteria]** > **[!UICONTROL Create Criteria]**.
 
 1. Fill in the information in the [Basic Information](/help/main/c-recommendations/c-algorithms/create-new-algorithm.md#info) section.
 
-   1. From the **[!UICONTROL Select Algorithm]** Type drop-down list, select **[!UICONTROL Custom Criteria]**.
+1. From the **[!UICONTROL Select Algorithm Type]** drop-down list, select **[!UICONTROL Custom Criteria]**.
 
-   1. From the **[!UICONTROL Algorithm]** drop-down list, select **[!UICONTROL Custom Algorithm]**.
+1. From the **[!UICONTROL Algorithm]** drop-down list, select **[!UICONTROL Custom Algorithm]**.
 
-      >[!NOTE]
-      >
-      >The preceding steps cause the [!UICONTROL Upload CSV] section to display at the bottom of the [!UICONTROL Create New Criteria] dialog box.
+   >[!NOTE]
+   >
+   >The preceding steps cause the [!UICONTROL Upload CSV] section to display at the bottom of the [!UICONTROL Create Criteria] dialog box.
 
 1. (Conditional) Fill in the information in the [Backup Content](/help/main/c-recommendations/c-algorithms/create-new-algorithm.md#content) section.
 
@@ -38,16 +38,15 @@ The following steps assume you access the [!UICONTROL Create New Criteria] scree
 
 1. In the **[!UICONTROL Upload CSV]** section, select the **[!UICONTROL Location]** of your CSV file.
 
-    ![Upload CSV section](assets/upload-csv.png)
-
-   The CSV file must be formatted correctly to upload successfully. Click **[!UICONTROL Download the CSV template]** to get a correctly formatted CSV file.
+  The CSV file must be formatted correctly to upload successfully. Click **[!UICONTROL Download the CSV template]** to get a correctly formatted CSV file.
 
    You have two location options:
 
-    * **FTP:** To upload your CSV file from an FTP server, select **[!UICONTROL FTP]**, then enter the required information. You can use SSL, which uses the FTPS protocol to transfer your CSV file securely. 
+    * **FTP:** To upload your CSV file from an FTP server, select **[!UICONTROL FTP]**, then enter the required information. You can use SSL, which uses the FTPS protocol to transfer your CSV file securely.
+
     * **URL:** To upload your CSV file from a URL, select **[!UICONTROL URL]**, then enter a feed URL.
 
-1. Click **[!UICONTROL Save]**.
+1. Click **[!UICONTROL Create]**.
 
 ## Considerations
 
@@ -59,7 +58,7 @@ The following steps assume you access the [!UICONTROL Create New Criteria] scree
 
 * Custom criteria feeds update once every 24 hours.
 
-  You can see the upload and sync status of your custom criteria upload at the bottom of each criteria card on the [!UICONTROL Recommendations] > [!UICONTROL Criteria] page. You can also see the status in the [!UICONTROL Edit] dialog box when editing custom criteria.
+  You can see the upload and sync status of your custom criteria upload for each criteria on the [!UICONTROL Recommendations] > [!UICONTROL Criteria] page. You can also see the status in the [!UICONTROL Edit] dialog box when editing custom criteria.
 
 * The flow for an error-free upload should be [!UICONTROL Scheduled] > [!UICONTROL Downloading Feed File] > [!UICONTROL Importing] > [!UICONTROL Successful].
 
@@ -68,18 +67,8 @@ The following steps assume you access the [!UICONTROL Create New Criteria] scree
   | Error Message | Details |
   |--- |--- |
   |Unknown Error|Indicates an internal technical error.|
-  |Parsing Error|There is likely an issue with the feed file format. Correct the file format and resave the algorithm, which restarts the file download process.|
+  |Parsing Error|There is likely an issue with the feed file format. Correct the file format and re-save the algorithm, which restarts the file download process.|
   |Server Not Found|Provide an IP or Host Name that is visible on the internet.|
   |Credentials Error|Provide a valid user and password for an active account on the server.|
   |Directory Not Found|Provide a directory that exists on the server.|
   |File Not Found|Provide the name of a file that exists on the server in the directory indicated.|
-
-## Training video: Create criteria in Recommendations (12:33) ![Tutorial badge](/help/main/assets/tutorial.png)
-
-This video contains the following information (details about uploading custom criteria begins at 11:43):
-
-* Create criteria
-* Create criteria sequences
-* Upload custom criteria
-
->[!VIDEO](https://video.tv.adobe.com/v/27694?quality=12)

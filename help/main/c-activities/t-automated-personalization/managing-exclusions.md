@@ -1,6 +1,6 @@
 ---
 keywords: dedupe;allow duplicates;exclude duplicate offers;automated personalization;disallow duplicate offers;exclude;default content;exclusion group;
-description: Manage exclusions in [!DNL Adobe Target] [!UICONTROL Automated Personalization] (AP) activities. Create exclusion groups and exclude duplicate offers, specific experiences, and default content.
+description: Manage exclusions in [!UICONTROL Automated Personalization] (AP) activities.
 title: How Do I Manage Exclusions in [!UICONTROL Automated Personalization] Activities?
 badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="See what's included in Target Premium."
 feature: Automated Personalization
@@ -21,9 +21,11 @@ You can also limit which audiences can see specific offers in AP activities. For
 
 **To create an exclusion group:** 
 
-1. While [creating or editing an AP activity](/help/main/c-activities/t-automated-personalization/create-ap-activity.md), click **[!UICONTROL Manage Content]** in the header bar.
+1. While [creating or editing an AP activity](/help/main/c-activities/t-automated-personalization/create-ap-activity.md), click the **[!UICONTROL Manage Content]** icon ( ![Manage Content icon](/help/main/assets/icons/Experience.svg) ).
 
-   ![Manage Content link](/help/main/c-activities/t-automated-personalization/assets/manage-content.png)
+   The [!UICONTROL Manage Content] dialog box displays.
+
+1. Click the **[!UICONTROL Experiences]** tab.
 
 1. In the [!UICONTROL Manage Content] dialog box, click **[!UICONTROL Exclusion Groups]**.
 

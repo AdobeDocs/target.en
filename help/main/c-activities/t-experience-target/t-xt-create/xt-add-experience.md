@@ -13,7 +13,7 @@ The [!UICONTROL Visual Experience Composer] (VEC) in [!DNL Adobe Target] provide
 
    While [creating an [!UICONTROL Experience Targeting] activity](/help/main/c-activities/t-experience-target/t-xt-create/xt-create.md), step one of the three-part guided workflow ([!UICONTROL Experiences]) displays the default [!UICONTROL Experience A] with an [!UICONTROL All Visitors] audience.
 
-   ![All Visitors audience](/help/main/c-activities/t-experience-target/t-xt-create/assets/all-visitors.png)
+   ![All Visitors audience](/help/main/c-activities/t-experience-target/t-xt-create/assets/all-visitors-new.png)
 
    Any changes you make now apply to [!UICONTROL Experience A]. In a step below, you click **[!UICONTROL Add Experience Targeting]** to create additional experiences.
 
@@ -23,15 +23,13 @@ The [!UICONTROL Visual Experience Composer] (VEC) in [!DNL Adobe Target] provide
    >
    >By default, the VEC does not allow changes to elements containing JavaScript, such as rotating banners. You can disable JavaScript to alter those elements using the VEC.
 
-1. To create additional experiences, click **[!UICONTROL Add Experience Targeting]**.
-
-   ![Add Experience Targeting link](/help/main/c-activities/t-experience-target/t-xt-create/assets/add-experience-targeting.png)
+1. To create additional experiences, click **[!UICONTROL Add]** ( ![Add button](/help/main/assets/icons/Add.svg) ).
 
    The [!UICONTROL Add Audience] dialog box displays. To target an experience to an audience, select the audience before you add the experience.
 
    The audience library contains audiences that have previously been defined, including some common audiences that are pre-built as a part of [!DNL Target]. You can select an audience from the library or [create a new audience](/help/main/c-target/c-audiences/audiences.md#concept_65BE870D290E412D8BBF557EEA67C271).
 
-   In addition to selecting an existing audience, you can combine multiple audiences to create ad hoc combined audiences rather than creating a new audience. For more information, see [Combining Multiple Audiences](/help/main/c-target/combining-multiple-audiences.md#concept_A7386F1EA4394BD2AB72399C225981E5).
+   In addition to selecting an existing audience, you can combine multiple audiences to create on demand combined audiences rather than creating a new audience. For more information, see [Combining Multiple Audiences](/help/main/c-target/combining-multiple-audiences.md#concept_A7386F1EA4394BD2AB72399C225981E5).
 
    When creating an audience, you can select a location and specify parameters for that location. Under [!UICONTROL Custom] ([!UICONTROL Create Audience] > [!UICONTROL Custom]), select the location, then specify the desired parameters.
 
@@ -39,11 +37,9 @@ The [!UICONTROL Visual Experience Composer] (VEC) in [!DNL Adobe Target] provide
    >
    >Audiences are automatically imported in the background when you open the audience list and the imported audiences are more than ten minutes old.
 
-1. Select one or more audiences to target with the experience, then click **[!UICONTROL Done]**.
+1. Select one or more audiences to target with the experience, then click **[!UICONTROL Assign Audience]**.
 
-   ![Experience B](/help/main/c-activities/t-experience-target/t-xt-create/assets/experience-b.png)
-
-   Experience B now displays in the preceding illustration and this experience is targeted to the US Visitors audience.
+   Experience B now displays in the preceding illustration and this experience is targeted to the appropriate audience.
 
 1. Select the elements that you want to change for this experience and make the desired changes, as explained in Step 1 above.
 
@@ -53,7 +49,7 @@ The [!UICONTROL Visual Experience Composer] (VEC) in [!DNL Adobe Target] provide
 
    The activity diagram displays:
 
-   ![XT Targeting diagram](/help/main/c-activities/t-experience-target/t-xt-create/assets/xt_diagram-new.png)
+   ![XT Targeting diagram](/help/main/c-activities/t-experience-target/t-xt-create/assets/xt_diagram-refresh.png)
 
    >[!NOTE]
    >
@@ -61,38 +57,28 @@ The [!UICONTROL Visual Experience Composer] (VEC) in [!DNL Adobe Target] provide
 
 1. (Conditional) Drag and drop audience and experience pairs while creating or editing [!UICONTROL Experience Targeting] activities to arrange the pairs in the desired order.
 
-   Visitors are evaluated for experiences in order, from top to bottom.
+   Click the Reorder icon ( ![Reorder icon](/help/main/assets/icons/Reorder.svg) ) to display the [!UICONTROL Experiences] column on the right side, then rearrange the experiences as desired.
 
-   ![Move experiences](/help/main/c-activities/t-experience-target/t-xt-create/assets/move_experiences-new.png)
+   Visitors are evaluated for experiences in order, from top to bottom.
 
    [!UICONTROL Experience Targeting] assumes that order matters. If a visitor falls into the first audience and experience pair, the first experience is delivered.
 
-   For example, suppose you were not aware that order matters while creating an [!UICONTROL Experience Targeting] activity. You later realize during testing that visitors that you think should qualify for experiences B or C are instead qualifying for experience A. This could be because the audiences are not mutually exclusive and are not in the proper order (for example, experience A = United States, experience B = San Francisco, and experience C = California). In this scenario, all users from the United States qualify for experience A, even if they are in San Francisco or elsewhere in California. You can reorder the audience and experience pairs from most restrictive to least restrictive (San Francisco > California > United States) without recreating the entire activity.
+   For example, suppose you were not aware that order matters while creating an [!UICONTROL Experience Targeting] activity. You later realize during testing that visitors that you think should qualify for experiences B or C are instead qualifying for experience A. This situation could be because the audiences are not mutually exclusive and are not in the proper order (for example, experience A = United States, experience B = San Francisco, and experience C = California). In this scenario, all users from the United States qualify for experience A, even if they are in San Francisco or elsewhere in California. You can reorder the audience and experience pairs from most restrictive to least restrictive (San Francisco > California > United States) without recreating the entire activity.
 
    If you have an [!UICONTROL All Visitors] audience, ensure that it is not the first audience in the diagram. An experience targeted to "[!UICONTROL All Visitors]" can be used as the last experience in the [!UICONTROL Experience Targeting] activity to "catch" any visitors that have not fallen into any other experience.
 
-## Rename or edit an experience
+## Rename, edit, duplicate, or delete an experience
 
-You can click the [!UICONTROL Edit] icon (the vertical ellipsis) on an experience in an [!UICONTROL Experience Targeting] activity and choose from the following options, as necessary:
+Click an experience in the diagram in an [!UICONTROL Experience Targeting] activity to display the [!UICONTROL Experiences] column on the right side.
 
-* [!UICONTROL Rename]
-* [!UICONTROL Edit]
+![Rename and Edit options](/help/main/c-activities/t-experience-target/t-xt-create/assets/experience_edit-refresh.png)
 
-![Rename and Edit options](/help/main/c-activities/t-experience-target/t-xt-create/assets/experience_edit-new.png)
+Choose from the following options, as necessary:
 
-## Delete an experience
-
-On the **[!UICONTROL Experiences]** page (the first step in the three-step guided workflow), click the vertical ellipsis > **[!UICONTROL Delete]**.
-
-![Delete experience](/help/main/c-activities/t-experience-target/t-xt-create/assets/delete-experience.png)
-
-## Duplicate an experience
-
-You can copy an experience in an [!UICONTROL Experience Targeting] activity so you can make minor changes to it without having to recreate the entire experience.
-
-On the **[!UICONTROL Experiences]** page (the first step in the three-step guided workflow), click the vertical ellipsis > **[!UICONTROL Duplicate]**.
-
-![Duplicate experience](/help/main/c-activities/t-experience-target/t-xt-create/assets/duplicate_experience-new.png)
+* **[!UICONTROL Rename]**: Type the desired name in the [!UICONTROL Name] field.
+* **[!UICONTROL Edit]**: Click the Edit icon ( ![Edit icon](/help/main/assets/icons/Edit.svg) ), then make your desired changes.
+* **[!UICONTROL Duplicate]**: Copy an experience in an [!UICONTROL Experience Targeting] activity so you can make minor changes to it without having to recreate the entire experience. Click the [!UICONTROL Duplicate] icon ( ![Duplicate icon](/help/main/assets/icons/Duplicate.svg) ), then edit the experience as necessary.
+* **[!UICONTROL Delete]**: Click the [!UICONTROL Delete] icon (![Delete icon](/help/main/assets/icons/Delete.svg)  ), then confirm your deletion.
 
 ## Training videos:
 
