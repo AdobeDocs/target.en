@@ -10,6 +10,10 @@ exl-id: aaa52923-1c2d-44ae-bd89-671329222077
 
 List of frequently asked questions (FAQs) about [!DNL Adobe Target] [!DNL Recommendations] activities.
 
+## Do [!DNL Recommendations] objects created via API display in the [!DNL Target] UI?
+
+Yes, [!UICONTROL Recommendations] objects ([!UICONTROL Criteria], [!UICONTROL Designs], [!UICONTROL Collections], and [!UICONTROL Exclusions]) created over API are now available in the UI.
+
 ## Can I manage [!DNL Target] UI-created visual offers using the [!DNL Target] APIs?
 
 No. [!DNL Recommendations] activities with visual offers created in the [!DNL Target] UI are not manageable using the [!DNL Target] APIs. Although these activities display in the [!UICONTROL Activities] list, you cannot read or update them (using GET/PUT).

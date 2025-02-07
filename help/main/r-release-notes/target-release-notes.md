@@ -34,13 +34,13 @@ As the [!DNL Adobe Target] UI modernization effort continues, we are pleased to 
 
 Based on the latest [!DNL Adobe Spectrum] design system, the update standardizes previously inconsistent design patterns, while adding new enhancements, such as:
 
-* Redesigned reporting for better insights into activity results 
+* [Redesigned reporting](/help/main/administrating-target/reporting.md) for better insights into activity results 
 * Updated [!UICONTROL Audit] page, now getting the information from the [!DNL Audit API] for real-time insights
-* Customizable list views to for better flexibility across different team needs
-* Enhanced quick info and detail screens for easier access to information
-* Session-persistent search and filter options
-* Completely rebuilt [!UICONTROL Visual Editing Composer] with support for latest security updates from browser providers and a modern user interface
-* Updated [!DNL Chrome] extension supporting Manifest V3 for increased security and improved support for first-party cookies
+* [Customizable list views](/help/main/c-activities/activities.md) to for better flexibility across different team needs
+* [Enhanced quick info and detail screens](/help/main/c-activities/activities.md) for easier access to information
+* [Session-persistent search and filter options](/help/main/c-activities/activities.md)
+* Completely [rebuilt [!UICONTROL Visual Editing Composer]](/help/main/c-experiences/c-visual-experience-composer/visual-experience-composer.md) with support for latest security updates from browser providers and a modern user interface
+* [Updated [!DNL Chrome] extension](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/visual-editing-helper-extension.md) supporting Manifest V3 for increased security and improved support for first-party cookies
 
 ![Activities refresh](/help/main/r-release-notes/assets/activities-refresh.png)
 
@@ -54,11 +54,11 @@ As the [!DNL Adobe Target] UI modernization effort continues, we are pleased to 
 
 Based on the latest [!DNL Adobe Spectrum] design system, the update standardizes previously inconsistent design patterns, while adding new enhancements, such as:
 
-* The product catalog search now features an updated database allowing a real-time synchronization of products
-* [!UICONTROL Recommendation] objects ([!UICONTROL Criteria], [!UICONTROL Designs], [!UICONTROL Collections], and [!UICONTROL Exclusions]) created over API are now available in the UI
-* Settings have been consolidated under the [!UICONTROL Administration] section
+* The [product catalog search](/help/main/c-recommendations/c-products/catalog-search.md) now features an updated database allowing a real-time synchronization of products
+* [!UICONTROL Recommendations] objects ([!UICONTROL Criteria], [!UICONTROL Designs], [!UICONTROL Collections], and [!UICONTROL Exclusions]) [created over API are now available in the UI](/help/main/c-recommendations/c-recommendations-faq/recommendations-faq.md)
+* [Recommendations settings](/help/main/administrating-target/recommendations-settings.md) have been consolidated under the [!UICONTROL Administration] section
 * Customizable list views for better flexibility across different team needs
-* Refreshed HTML and JSON code editors with syntax highlighting and line numbering 
+* Refreshed HTML and JSON code editors with [syntax highlighting and line numbering](/help/main/c-experiences/c-manage-content/create-json-offer.md) 
 * Enhanced quick info and detail screens for easier access to information
 * Session-persistent search and filter options
 
