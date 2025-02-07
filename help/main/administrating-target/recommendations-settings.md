@@ -5,8 +5,6 @@ title: How do I configure the settings for Recommendations?
 badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="See what's included in Target Premium."
 feature: Administration & Configuration
 role: Admin
-hide: yes
-hidefromtoc: yes
 exl-id: 5dbae0d9-897f-4e0a-b013-0e9ad6654150
 ---
 # Configure settings for [!DNL Recommendations]

@@ -7,7 +7,7 @@ exl-id: d06a271b-f058-4c83-af75-da2a29774967
 ---
 # Form-Based Experience Composer
 
-The [!DNL Adobe Target] [!UICONTROL Form-Based Experience Composer] is a non-visual experience and offer creation interface that’s useful in creating experiences for use in [!UICONTROL A/B Test], [!UICONTROL Experience Targeting], [!UICONTROL Automated Personalization], and [!UICONTROL Recommendations] activities when the [!UICONTROL Visual Experience Composer] (VEC) is not available or practical for use. For example, you might use the Form-Based Experience Composer to create experiences and offers for delivery in emails, kiosks, and voice assistants.
+The [!DNL Adobe Target] [!UICONTROL Form-Based Experience Composer] is a non-visual experience and offer creation interface that's useful in creating experiences for use in [!UICONTROL A/B Test], [!UICONTROL Experience Targeting], [!UICONTROL Automated Personalization], and [!UICONTROL Recommendations] activities when the [!UICONTROL Visual Experience Composer] (VEC) is not available or practical for use. For example, you might use the Form-Based Experience Composer to create experiences and offers for delivery in emails, kiosks, and voice assistants.
 
 If you are creating a [!UICONTROL Recommendations] activity, there are no experiences. Choose your criteria and design. If you choose multiple criteria or designs, [!UICONTROL Target] automatically generates the experiences. 
 
@@ -17,17 +17,44 @@ If you are creating a [!UICONTROL Recommendations] activity, there are no experi
 
 1. Select **[!UICONTROL Form]** from the [!UICONTROL Create Activity] dialog box.
 
-1. (Conditional) Choose a workspace and property.
+1. (Conditional) If you are a [Target Premium customer](/help/main/c-intro/intro.md#premium), from the **[!UICONTROL Choose Workspace]** drop-down list, choose a [workspace](/help/main/administrating-target/c-user-management/property-channel/property-channel.md).
 
-1. Click **[!UICONTROL Next]**.
+   The [[!UICONTROL Choose Workplace]](/help/main/administrating-target/c-user-management/property-channel/property-channel.md) option is a [Target Premium](/help/main/c-intro/intro.md) feature and might not display if your organization has a [!UICONTROL Target Standard] license.
+
+1. Choose a property.
+
+1. Click **[!UICONTROL Create]**.
 
    The [!UICONTROL Form-Based Experience Composer] opens.
 
-   ![location_refinements image](assets/location_refinements.png)
-
    This screen is different if you are creating a [!UICONTROL Recommendations] activity. [!UICONTROL Recommendations] activities do not include experiences.
 
-1. Name the activity by clicking "[!UICONTROL Untitled Activity]."
+1. 1. Click the **[!UICONTROL Rename]** icon ( ![Rename icon](/help/main/assets/icons/MoreSmallListVert.svg) ), click **[!UICONTROL Rename]**, specify a name for the activity, then click **[!UICONTROL Save]**.
+
+   The activity name cannot begin with any of the following characters:
+
+   | Character | Description |
+   |--- |--- |
+   |`=`|Equals to|
+   |`+`|Plus|
+   |`-`|Minus|
+   |`@`|At sign|
+
+   The activity name cannot contain any of the following character sequences:
+
+   | Character Sequence | Description |
+   |--- |--- |
+   |;=|Semicolon, Equals to|
+   |;+|Semicolon, Plus|
+   |;-|Semicolon, Minus|
+   |;@|Semicolon, At sign|
+   |,=|Comma, Equals to|
+   |,+|Comma, Plus|
+   |,-|Comma, Minus|
+   |,@|Comma, At sign|
+   |`[`"|Open square bracket, Double quotation marks|
+   |"`]`|Double quotation marks, Close square bracket|
+
 1. Select a location.
 
    When you click in the [!UICONTROL Select Location] box, a list of available locations appears. Select one of those locations.
@@ -40,13 +67,9 @@ If you are creating a [!UICONTROL Recommendations] activity, there are no experi
    
 1. Click **[!UICONTROL Add Audience Refinements]**, choose one or more [audience](/help/main/c-target/target.md#concept_A782F8481A5041EBA75103CB26376522) for this activity, then click **[!UICONTROL Done]**.
 
-   ![location_refinements_2 image](assets/location_refinements_2.png)
-
    In the [!UICONTROL Form-based Experience Composer], refinements have been replaced with full audience functionality. Refinements for existing activities have been migrated to [activity-only audiences](/help/main/c-target/creating-activity-only-audience.md#concept_A6BADCF530ED4AE1852E677FEBE68483).
 
 1. Select the type of content you want to appear in that location.
-
-   ![form_content image](assets/form_content.png)
 
 1. For the content type you selected, specify the content.
 
@@ -90,11 +113,7 @@ If you are creating a [!UICONTROL Recommendations] activity, there are no experi
 
    While selecting Recommendations criteria in the Form-Based Experience Composer, there is now a direct link to the selected Criteria card so you can quickly and easily edit the criteria.
 
-   ![change_criteria image](assets/change_criteria.png)
-
-   From the Targeting page of the Target three-step guided workflow:
-
-   ![change_criteria_2 image](assets/change_criteria_2.png)
+   From the [!UICONTROL Targeting] page of the [!DNL Target] three-step guided workflow:
 
    **Add Offer Decision:**
 
