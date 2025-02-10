@@ -9,7 +9,7 @@ exl-id: f2783042-f6ee-4f73-b487-ede11d55d530
 
 This article contains prerelease information for upcoming [!DNL Adobe Target] releases, including SDKs, APIs, and JavaScript libraries.
 
-**Last Updated: February 7, 2025**
+**Last Updated: February 10, 2025**
 
 >[!NOTE]
 >
@@ -35,7 +35,7 @@ As the [!DNL Adobe Target] UI modernization effort continues, we are pleased to 
 Based on the latest [!DNL Adobe Spectrum] design system, the update standardizes previously inconsistent design patterns, while adding new enhancements, such as:
 
 * [Redesigned reporting](/help/main/administrating-target/reporting.md) for better insights into activity results 
-* Updated [!UICONTROL Audit] page, now getting the information from the [!DNL Audit API] for real-time insights
+* [[!UICONTROL Updated Change Log]](/help/main/c-activities/change-log.md) page, now getting the information from the [[!DNL Audit Query API]](https://experienceleague.adobe.com/en/docs/experience-platform/landing/governance-privacy-security/audit-logs/audit-api/overview){target=_blank} for real-time insights
 * [Customizable list views](/help/main/c-activities/activities.md) to for better flexibility across different team needs
 * [Enhanced quick info and detail screens](/help/main/c-activities/activities.md) for easier access to information
 * [Session-persistent search and filter options](/help/main/c-activities/activities.md)
