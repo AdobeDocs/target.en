@@ -49,7 +49,12 @@ This option is helpful if, for example:
 
 Enabling experience snapshots generates thumbnails for your experiences in the activity workflow diagram. Disabling snapshots might result in faster performance for some users.
 
-## [!BADGE Premium]{type=Positive url="/help/main/c-intro/intro.md#premium newtab=true" tooltip="See what's included in Target Premium."} Mobile Viewport Configuration
+## Mobile Viewport Configuration
+
+>[!NOTE]
+>
+>The [!UICONTROL Mobile Viewport Configuration] settings is a [Target Premium](/help/main/c-intro/intro.md#premium) feature.
+
 
 You can add devices to use when previewing experiences. Each device has an associated audience.
 

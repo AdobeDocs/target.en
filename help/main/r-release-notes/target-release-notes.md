@@ -40,6 +40,9 @@ Based on the latest [!DNL Adobe Spectrum] design system, the update standardizes
 * [Enhanced quick info and detail screens](/help/main/c-activities/activities.md) for easier access to information
 * [Session-persistent search and filter options](/help/main/c-activities/activities.md)
 * Completely [rebuilt [!UICONTROL Visual Editing Composer]](/help/main/c-experiences/c-visual-experience-composer/visual-experience-composer.md) with support for latest security updates from browser providers and a modern user interface
+
+  For information about how the updated VEC differs from the previous version, see [Visual Experience Composer changes](/help/main/c-experiences/c-visual-experience-composer/vec-changes.md)
+
 * [Updated [!DNL Chrome] extension](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/visual-editing-helper-extension.md) supporting Manifest V3 for increased security and improved support for first-party cookies
 
 ![Activities refresh](/help/main/r-release-notes/assets/activities-refresh.png)
