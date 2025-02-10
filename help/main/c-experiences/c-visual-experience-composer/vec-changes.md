@@ -3,6 +3,7 @@ keywords: visual experience composer;vec;wysiwyg
 description: Understand the changes introduced in the Visual Experience Composer (VEC) in the Adobe Target 25.2.1 release (February 11, 2025).
 title: What changes are introduced in the new Visual Experience Composer (VEC)?
 feature: Visual Experience Composer (VEC)
+exl-id: 4c7a5657-93d9-4355-9d2b-c992b36bcb50
 ---
 # [!UICONTROL Visual Experience Composer] changes
 
@@ -87,5 +88,3 @@ The [!UICONTROL Design] canvas lets you select viewports, including fit-to scree
 ![Viewport options](/help/main/c-experiences/c-visual-experience-composer/assets/viewports.png)
 
 The updated VEC also lets you zoom in or zoom out by clicking the appropriate icon ( ![Zoom In icon](/help/main/assets/icons/ZoomIn.svg) or ![Zoom Out icon](/help/main/assets/icons/ZoomOut.svg) ).
-
-
