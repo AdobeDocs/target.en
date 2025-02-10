@@ -82,7 +82,7 @@ To redo an action, expand the [!UICONTROL ]Undo/[!UICONTROL Redo] button group a
 
 ## [!UICONTROL Design] canvas
 
-The [!UICONTROL Design] canvas lets you select viewports, including fit-to screen, [!UICONTROL Desktop], [!UICONTROL Tablet], [!UICONTROL Mobile Landscape], and [!UICONTROL Mobile Portrait]. By default, the canvas fits the page to the screen along with the viewports defined in the [Administration](help/main/administrating-target/visual-experience-composer-set-up.md) section.
+The [!UICONTROL Design] canvas lets you select viewports, including fit-to screen, [!UICONTROL Desktop], [!UICONTROL Tablet], [!UICONTROL Mobile Landscape], and [!UICONTROL Mobile Portrait]. By default, the canvas fits the page to the screen along with the viewports defined in the [Administration](/help/main/administrating-target/visual-experience-composer-set-up.md) section.
 
 ![Viewport options](/help/main/c-experiences/c-visual-experience-composer/assets/viewports.png)
 
