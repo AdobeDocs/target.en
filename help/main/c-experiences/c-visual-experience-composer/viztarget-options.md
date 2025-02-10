@@ -7,7 +7,12 @@ exl-id: 50993d6c-5025-488a-8b33-9ed7c142de6e
 ---
 # Visual Experience Composer options
 
-When you click a page element in the [!DNL Adobe Target] [!UICONTROL Visual Experience Composer] (VEC), a menu shows the options that are available for that element type. In addition, a DOM path displays at the bottom of the page that lets you easily navigate through the page structure.
+When you click a page element in the [!DNL Adobe Target] [!UICONTROL Visual Experience Composer] (VEC), a menu shows the options that are available for that element type. In addition, a DOM path displays at the bottom of the page that lets you easily navigate through the page structure
+
+>[!NOTE]
+>
+>The [!DNL Target Standard/Premium] 25.2.1 (February 11, 2025) release included an updated version of the VEC. For information about how the updated VEC differs from the previous version, see [Visual Experience Composer changes](/help/main/c-experiences/c-visual-experience-composer/vec-changes.md).
+
 
 The various [!UICONTROL Visual Experience Composer] (VEC) actions are grouped in appropriate menu options to make your job quicker and more efficient:
 

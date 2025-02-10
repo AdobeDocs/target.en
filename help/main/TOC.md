@@ -223,6 +223,7 @@ feature-set: Target
    + Visual Experience Composer (VEC) {#vec}
       + [Visual Experience Composer overview](c-experiences/c-visual-experience-composer/visual-experience-composer.md)
       + [Visual Experience Composer options](c-experiences/c-visual-experience-composer/viztarget-options.md)
+      + [Visual Experience Composer changes](/help/main/c-experiences/c-visual-experience-composer/vec-changes.md)
       + [Include the same experience on similar pages](c-experiences/c-visual-experience-composer/temtest.md)
       + [Multipage activity](c-experiences/c-visual-experience-composer/multipage-activity.md)
       + [Activity collisions](c-experiences/c-visual-experience-composer/activity-collisions.md)
