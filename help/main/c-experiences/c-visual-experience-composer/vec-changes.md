@@ -9,11 +9,15 @@ exl-id: 4c7a5657-93d9-4355-9d2b-c992b36bcb50
 
 The [!DNL Adobe Target Standard/Premium] 25.2.1 release (February 11, 2015) introduces an updated [!UICONTROL Visual Experience Composer] (VEC). This article explains the differences between the previous and updated versions of the VEC.
 
+>[!IMPORTANT]
+>
+>The updated [!UICONTROL Visual Editing Composer] requires the [!DNL Adobe Experience Cloud] [[!UICONTROL Visual Editing Helper] extension](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/visual-editing-helper-extension.md) available on Chrome Web Store.
+
 The VEC displays when you create or edit an existing activity.
 
 ![Visual Experience Composer (VEC)](/help/main/c-experiences/c-visual-experience-composer/assets/new-vec.png)
 
-## Major changes
+## Major changes to the VEC
 
 The following sections explain the major changes in the updated VEC compared to the previous version.
 
@@ -93,4 +97,6 @@ The updated VEC also lets you zoom in or zoom out by clicking the appropriate ic
 
 The following illustration shows the high-level UI changes made to the updated VEC. The top of the illustration shows the updated VEC UI and the bottom shows the previous UI. Arrows show where various elements have moved.
 
-![VEC comparison-new to previous UI](/help/main/c-experiences/c-visual-experience-composer/assets/vec-comparison.png)
+(Click the image to expand it to the full width of the browser.) 
+
+![VEC comparison-new to previous UI](/help/main/c-experiences/c-visual-experience-composer/assets/vec-comparison.png){width="600" zoomable="yes"}
