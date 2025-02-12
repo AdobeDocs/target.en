@@ -7,12 +7,125 @@ exl-id: 50993d6c-5025-488a-8b33-9ed7c142de6e
 ---
 # Visual Experience Composer options
 
-When you click a page element in the [!DNL Adobe Target] [!UICONTROL Visual Experience Composer] (VEC), a menu shows the options that are available for that element type. In addition, a DOM path displays at the bottom of the page that lets you easily navigate through the page structure
+The [!DNL Adobe Target Standard/Premium] 25.2.1 release (February 12, 2015) introduces an updated [!UICONTROL Visual Experience Composer] (VEC). This article explains the updated UI and its options.
+
+>[!IMPORTANT]
+>
+>The updated [!UICONTROL Visual Editing Composer] requires the [!DNL Adobe Experience Cloud] [[!UICONTROL Visual Editing Helper] extension](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/visual-editing-helper-extension.md) available on the Chrome Web Store.
+
+The VEC displays when you create or edit an existing activity.
+
+![Visual Experience Composer (VEC)](/help/main/c-experiences/c-visual-experience-composer/assets/new-vec.png)
+
+## VEC UI overview
+
+The following sections explain the options available in the updated VEC for an [!UICONTROL A/B Test] activity. The options vary, depending on the activity type.
+
+### [!UICONTROL Experiences] panel
+
+The [!UICONTROL Experiences] panel displays in the left rail of the VEC.
+
+![Experiences panel](/help/main/c-experiences/c-visual-experience-composer/assets/experiences-panel.png)
+
+You can view, create, rename, or remove experiences using the [!UICONTROL Experiences] panel. 
+
+The following options are available in the [!UICONTROL Experiences] panel: 
+
+* **View an experience**: To view an experience, click the desired experience to display it in the [!UICONTROL Design] canvas.
+* **Add an experience**: Click the **[!UICONTROL Add]** icon ( ![Add icon](/help/main/assets/icons/Add.svg) ) to add a new experience. Configure the new experience as desired.
+* **Rename an experience**: Click the **[!UICONTROL Rename]** icon ( ![Rename icon](/help/main/assets/icons/Rename.svg) ) to display the [!UICONTROL Rename Experience] dialog box. Specify the new name, then click **[!UICONTROL Save]**.
+* **Duplicate, delete, or redirect an experience**: Click the **[!UICONTROL More Actions]** icon ( ![More Actions icon](/help/main/assets/icons/MoreSmall.svg) ), then choose **[!UICONTROL Duplicate]**, **[!UICONTROL Delete]**, or **[!UICONTROL Redirect to URL]**.
+
+### Activity settings/configuration
+
+Click the [!UICONTROL Configure] icon ( ![Configure icon](/help/main/assets/icons/Setting.svg) ) displayed on top of the [!UICONTROL Design] canvas to display the activity properties menu.
+
+![Activity configurations options](/help/main/c-experiences/c-visual-experience-composer/assets/configure-options.png)
+
+The following options are available:
+
+* **[!UICONTROL Properties]**: Assign properties to the activity or remove properties from the activity. [!UICONTROL Properties] is a ([[!DNL Target Premium]](/help/main/c-intro/intro.md#premium) feature. For more information, see [Enterprise user permissions](/help/main/administrating-target/c-user-management/property-channel/property-channel.md).
+* **[!UICONTROL Page Delivery]**: Include the same experience on similar pages on your site. Use a page template to provide structure to your pages, or if your pages contain similar elements, to test variations in similarly structured page elements or across your entire domain. For more information, see [Include the same experience on similar pages](/help/main/c-experiences/c-visual-experience-composer/temtest.md).
+* **[!UICONTROL Site Preferences]**: Configure your site preferences to specify how [!DNL Target] generates CSS selectors. For more information, see _CSS selectors_ in [Configure the [!UICONTROL Visual Experience Composer]](/help/main/administrating-target/visual-experience-composer-set-up.md).
+* **Add Additional Pages**: Add additional pages to the activity to create a multipage activity that lets you create a story over multiple pages, with a design that is specific to each page. For more information, see [Multipage activity](/help/main/c-experiences/c-visual-experience-composer/multipage-activity.md).
+* **Single Audience**: Use a single audience for the activity.
+* **Multiple Audiences**: Assign multiple audiences to the activity. Click the Add Audiences icon ( ![Add icon](/help/main/assets/icons/Add.svg) ), then select one or more audiences from the list. You can also [combine audiences](/help/main/c-target/combining-multiple-audiences.md) or [create a new audience](/help/main/c-target/c-audiences/create-audience.md) from the [!UICONTROL Add Audiences] dialog box.
+
+### [!UICONTROL Design]/[!UICONTROL Browse] modes
+
+Use the [!UICONTROL Design]/[!UICONTROL Browse] toggles displayed on top of the design canvas to switch between design and browse mode.
+
+![Design and browse toggles](/help/main/c-experiences/c-visual-experience-composer/assets/design-browse-mode.png)
+
+Use the [!UICONTROL Browse] mode to navigate your site and to pick the view or page you want to update. Switch back to [!UICONTROL Design] mode to add or edit your changes.
+
+### [!UICONTROL Undo]/[!UICONTROL Redo]
+
+You can undo changes made by clicking the [!UICONTROL Undo] icon ( ![Undo icon](/help/main/assets/icons/Undo.svg) ). 
+
+![Undo icon in VEC](/help/main/c-experiences/c-visual-experience-composer/assets/undo.png)
+
+To redo an action, expand the [!UICONTROL ]Undo/[!UICONTROL Redo] button group and choose [!UICONTROL Redo].
+
+### [!UICONTROL Components] panel
+
+You can add a number of components to your web page and edit them as needed by using the new [!UICONTROL Components] panel.
+
+![Components panel](/help/main/c-experiences/c-visual-experience-composer/assets/components-panel.png)
 
 >[!NOTE]
 >
->The [!DNL Target Standard/Premium] 25.2.1 (February 12, 2025) release included an updated version of the VEC. For information about how the updated VEC differs from the previous version, see [Visual Experience Composer changes](/help/main/c-experiences/c-visual-experience-composer/vec-changes.md).
+>If you see the [!UICONTROL Modifications] panel in this area instead of the [!UICONTROL Components] panel, click the **[!UICONTROL Show Components]** icon ( ![Show Components icon](/help/main/assets/icons/Add.svg) ). The [!UICONTROL Show Components] icon ( ![Show Components icon](/help/main/assets/icons/Add.svg) ) and the [!UICONTROL Show Modifications] icon ( ![Show Modifications panel](/help/main/assets/icons/History.svg) ) act as toggles to show the appropriate options.
 
+To add a new component to an experience: 
+
+1. Click the desired component that you want to add to highlight it.
+
+   The available components are grouped into logic containers:
+
+    * [!UICONTROL Basic]
+      * [!UICONTROL Divider]
+      * [!UICONTROL HTML]
+      * [!UICONTROL Image]
+    * [!UICONTROL Text]
+      * [!UICONTROL Heading]
+      * [!UICONTROL Paragraph]
+      * [!UICONTROL Link]
+    * [!UICONTROL Dynamic]
+      * [[!UICONTROL Recommendation]](/help/main/c-recommendations/recommendations-as-an-offer.md)
+      * [[!UICONTROL Experience Fragment]](/help/main/c-integrating-target-with-mac/aem/experience-fragments-aem.md)
+      * [[!UICONTROL HTML Offer]](/help/main/c-experiences/c-manage-content/manage-content.md)
+    
+1. Drag the component over an existing page element in the [!UICONTROL Design] canvas. 
+1. Choose to insert the component before of after the selected element. 
+
+   As compared to the previous VEC version, you cannot replace a selected element with a component.
+
+### [!UICONTROL Modifications] panel
+
+To open the [!UICONTROL Modifications] panel, click the [!UICONTROL Show Modifications] icon ( ![Show Modifications panel](/help/main/assets/icons/History.svg) ) in the [!UICONTROL Components] panel.
+
+![Modifications panel](/help/main/c-experiences/c-visual-experience-composer/assets/modifications-panel.png)
+
+>[!NOTE]
+>
+>The [!UICONTROL Show Components] icon ( ![Show Components icon](/help/main/assets/icons/Add.svg) ) and the [!UICONTROL Show Modifications] icon ( ![Show Modifications panel](/help/main/assets/icons/History.svg) ) act as toggles to show the appropriate options.
+
+The [!UICONTROL Modifications] panel shows all changes that have been made to your page in the [!UICONTROL Visual Experience Composer] (VEC) and lets you make additional changes (such as CSS Selector, Mbox, and Custom Code).
+
+Click the **[!UICONTROL More Options]** icon ( ![More Actions icon](/help/main/assets/icons/MoreSmall.svg) ) in the panel header to add a modification, delete all modifications, or delete all invalid modifications. Click [!UICONTROL Select] to perform bulk operations: [!UICONTROL Apply to All Pages] or [!UICONTROL Delete].
+
+Click the **[!UICONTROL More Options]** icon ( ![More Actions icon](/help/main/assets/icons/MoreSmall.svg) ) next to each modification to view its information, delete the modification, or to apply the modification to more views.
+
+### [!UICONTROL Design] canvas
+
+The [!UICONTROL Design] canvas lets you select viewports, including fit-to screen, [!UICONTROL Desktop], [!UICONTROL Tablet], [!UICONTROL Mobile Landscape], and [!UICONTROL Mobile Portrait]. By default, the canvas fits the page to the screen along with the viewports defined in the [Administration](/help/main/administrating-target/visual-experience-composer-set-up.md) section.
+
+![Viewport options](/help/main/c-experiences/c-visual-experience-composer/assets/viewports.png) 
+
+You can also zoom in or zoom out by clicking the appropriate icon ( ![Zoom In icon](/help/main/assets/icons/ZoomIn.svg) or ![Zoom Out icon](/help/main/assets/icons/ZoomOut.svg) ).
+
+When you click a page element in the [!UICONTROL Design] canvas, a menu shows the options that are available for that element type. In addition, a DOM path displays at the bottom of the page that lets you easily navigate through the page structure.
 
 The various [!UICONTROL Visual Experience Composer] (VEC) actions are grouped in appropriate menu options to make your job quicker and more efficient:
 
@@ -20,15 +133,29 @@ The various [!UICONTROL Visual Experience Composer] (VEC) actions are grouped in
 
 >[!NOTE]
 >
->The available options depend on the activity type and element that you are creating or editing. The following sections contain information about the various options for images and text. 
+>The available options depend on the activity type and element that you are creating or editing. For more information about editing images and offers in an [!UICONTROL A/B Test] activity, see [Edit elements using the [!UICONTROL Design] canvas](#design) below.
 
-## Image options
+### [!UICONTROL Properties] panel
+
+The [!UICONTROL Properties] panel lets you change properties of selected elements on the page, whether these elements are HTML elements or objects specific to [!DNL Target], such as recommendations or offers.
+
+![Properties panel](/help/main/c-experiences/c-visual-experience-composer/assets/properties-panel.png)
+
+Click the icons on top of the panel to edit HTML code or delete, duplicate, or hide elements. Changes appear in the [!UICONTROL Modifications] panel.
+
+The [!UICONTROL Properties] panel is collapsible in the right rail. Click the [!UICONTROL Show/Hide Properties] icon ( ![Properties icon](/help/main/assets/icons/Propertie.svg) ) to the right of the panel to collapse or display the [!UICONTROL Properties] panel.
+
+## Edit elements using the [!UICONTROL Design] canvas {#design}
+
+The following sections show you how to edit images and text in the [!UICONTROL Design] canvas. The Design canvas, along with the Components, Modifications, and Properties panels provide you with powerful tools to let you easily create experiences for your activities.
+
+### Image options
 
 If you click an image in an [!UICONTROL A/B Test] activity, the VEC looks like similar to the following illustration:
 
 ![VEC with image selected](/help/main/c-experiences/c-visual-experience-composer/assets/vec-image.png)
 
-Select components from the Components frame on the left side to insert the following elements:
+Select components from the [!UICONTROL Components] frame on the left side to insert the following elements:
 
 * Basic (divider, HTML, image).
 * Text (heading, paragraph, link).
@@ -41,7 +168,7 @@ The menu at the top of the image lets you do the following:
 * Add personalization ( ![Add Personalization icon](/help/main/assets/icons/PersonalizationField.svg) ).
 * Delete the image ( ![Delete icon](/help/main/assets/icons/Delete.svg) ).
 
-The frame on the right side lets further configure the image's properties.
+The [!UICONTROL Properties] pane on the right side lets further configure the image's properties.
 
 The icons at the top of the frame let you do the following:
 
@@ -61,7 +188,7 @@ The options in the right frame let you do the following:
 * Configure the element's effects (opacity). Click [!UICONTROL Show Advanced Options] to configure the image's sepia, grayscale, contrast, brightness, and blur values. You can also invert or rotate the image.
 * Configure the image's inline styles.
 
-## Text options
+### Text options
 
 If you click text in an [!UICONTROL A/B Test] activity, the VEC looks like similar to the following illustration:
 
@@ -82,12 +209,12 @@ The menu at the top of the text element lets you do the following:
 * Configure the text's attributes (bold, italic, underline, or strike through) ( ![Choose text Attributes icon](/help/main/assets/icons/Text.svg) ).
 * Configure the text's alignment (left, center, right, justify) ( ![Text Alignment icon](/help/main/assets/icons/TextAlignCenter.svg) ).
 * Insert a link ( ![Insert Link icon](/help/main/assets/icons/Link.svg) ).
-* Replace the content with an HTML offer, [Experience Fragment](/help/main/c-experiences/c-manage-content/aem-experience-fragments.md), or [Recommendation]/help/main/c-recommendations/recommendations-as-an-offer.md).
+* Replace the content with an HTML offer, [Experience Fragment](/help/main/c-experiences/c-manage-content/aem-experience-fragments.md), or [Recommendation](/help/main/c-recommendations/recommendations-as-an-offer.md).
 * Edit the HTML ( ![Insert HTML icon](/help/main/assets/icons/Code.svg) ).
 * Add personalization ( ![Add Personalization icon](/help/main/assets/icons/PersonalizationField.svg) ).
 * Delete the image ( ![Delete icon](/help/main/assets/icons/Delete.svg) ).
 
-The frame on the right side lets further configure the text's properties.
+The [!UICONTROL Properties] panel on the right side lets further configure the text's properties.
 
 The icons at the top of the frame let you do the following:
 
@@ -109,7 +236,7 @@ The options in the right frame let you do the following:
 * Configure the element's effects (opacity). Click [!UICONTROL Show Advanced Options] to configure the image's sepia, grayscale, contrast, brightness, and blur values. You can also invert or rotate the text.
 * Configure the inline styles.
 
-## Edit HTML {#html}
+## Edit HTML
 
 In addition to HTML code, you can edit and inject custom JavaScript.
 
