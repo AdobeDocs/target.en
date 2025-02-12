@@ -11,7 +11,7 @@ When you click a page element in the [!DNL Adobe Target] [!UICONTROL Visual Expe
 
 >[!NOTE]
 >
->The [!DNL Target Standard/Premium] 25.2.1 (February 11, 2025) release included an updated version of the VEC. For information about how the updated VEC differs from the previous version, see [Visual Experience Composer changes](/help/main/c-experiences/c-visual-experience-composer/vec-changes.md).
+>The [!DNL Target Standard/Premium] 25.2.1 (February 12, 2025) release included an updated version of the VEC. For information about how the updated VEC differs from the previous version, see [Visual Experience Composer changes](/help/main/c-experiences/c-visual-experience-composer/vec-changes.md).
 
 
 The various [!UICONTROL Visual Experience Composer] (VEC) actions are grouped in appropriate menu options to make your job quicker and more efficient:
