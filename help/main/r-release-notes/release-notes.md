@@ -30,16 +30,16 @@ As the [!DNL Adobe Target] UI modernization effort continues, we are pleased to 
 
 Based on the latest [!DNL Adobe Spectrum] design system, the update standardizes previously inconsistent design patterns, while adding new enhancements, such as:
 
-* [Redesigned reporting](/help/main/administrating-target/reporting.md) for better insights into activity results 
-* [[!UICONTROL Updated Change Log]](/help/main/c-activities/change-log.md) page, now getting the information from the [[!DNL Audit Query API]](https://experienceleague.adobe.com/en/docs/experience-platform/landing/governance-privacy-security/audit-logs/audit-api/overview){target=_blank} for real-time insights
-* [Customizable list views](/help/main/c-activities/activities.md) to for better flexibility across different team needs
-* [Enhanced quick info and detail screens](/help/main/c-activities/activities.md) for easier access to information
-* [Session-persistent search and filter options](/help/main/c-activities/activities.md)
-* Completely [rebuilt [!UICONTROL Visual Editing Composer]](/help/main/c-experiences/c-visual-experience-composer/visual-experience-composer.md) with support for latest security updates from browser providers and a modern user interface
+* [Redesigned reporting](/help/main/administrating-target/reporting.md) for better insights into activity results.
+* [[!UICONTROL Updated Change Log]](/help/main/c-activities/change-log.md) page, now getting the information from the [[!DNL Audit Query API]](https://experienceleague.adobe.com/en/docs/experience-platform/landing/governance-privacy-security/audit-logs/audit-api/overview){target=_blank} for real-time insights.
+* [Customizable list views](/help/main/c-activities/activities.md) to for better flexibility across different team needs.
+* [Enhanced quick info and detail screens](/help/main/c-activities/activities.md) for easier access to information.
+* [Session-persistent search and filter options](/help/main/c-activities/activities.md).
+* Completely [rebuilt [!UICONTROL Visual Editing Composer]](/help/main/c-experiences/c-visual-experience-composer/visual-experience-composer.md) with support for latest security updates from browser providers and a modern user interface. For more information see [Visual Experience Composer](/help/main/c-experiences/c-visual-experience-composer/viztarget-options.md) options.
 
-  For information about how the updated VEC differs from the previous version, see [Visual Experience Composer changes](/help/main/c-experiences/c-visual-experience-composer/vec-changes.md)
+  For information about how the updated VEC differs from the previous version, see [Visual Experience Composer changes](/help/main/c-experiences/c-visual-experience-composer/vec-changes.md).
 
-* [Updated [!DNL Chrome] extension](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/visual-editing-helper-extension.md) supporting Manifest V3 for increased security and improved support for first-party cookies
+* [Updated [!DNL Chrome] extension](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/visual-editing-helper-extension.md) supporting Manifest V3 for increased security and improved support for first-party cookies.
 
 ![Activities refresh](/help/main/r-release-notes/assets/activities-refresh.png)
 
@@ -53,13 +53,13 @@ As the [!DNL Adobe Target] UI modernization effort continues, we are pleased to 
 
 Based on the latest [!DNL Adobe Spectrum] design system, the update standardizes previously inconsistent design patterns, while adding new enhancements, such as:
 
-* The [product catalog search](/help/main/c-recommendations/c-products/catalog-search.md) now features an updated database allowing a real-time synchronization of products
-* [!UICONTROL Recommendations] objects ([!UICONTROL Criteria], [!UICONTROL Designs], [!UICONTROL Collections], and [!UICONTROL Exclusions]) [created over API are now available in the UI](/help/main/c-recommendations/c-recommendations-faq/recommendations-faq.md)
-* [Recommendations settings](/help/main/administrating-target/recommendations-settings.md) have been consolidated under the [!UICONTROL Administration] section
-* Customizable list views for better flexibility across different team needs
-* Refreshed HTML and JSON code editors with [syntax highlighting and line numbering](/help/main/c-experiences/c-manage-content/create-json-offer.md) 
-* Enhanced quick info and detail screens for easier access to information
-* Session-persistent search and filter options
+* The [product catalog search](/help/main/c-recommendations/c-products/catalog-search.md) now features an updated database allowing a real-time synchronization of products.
+* [!UICONTROL Recommendations] objects ([!UICONTROL Criteria], [!UICONTROL Designs], [!UICONTROL Collections], and [!UICONTROL Exclusions]) [created over API are now available in the UI](/help/main/c-recommendations/c-recommendations-faq/recommendations-faq.md).
+* [Recommendations settings](/help/main/administrating-target/recommendations-settings.md) have been consolidated under the [!UICONTROL Administration] section.
+* Customizable list views for better flexibility across different team needs.
+* Refreshed HTML and JSON code editors with [syntax highlighting and line numbering](/help/main/c-experiences/c-manage-content/create-json-offer.md). 
+* Enhanced quick info and detail screens for easier access to information.
+* Session-persistent search and filter options.
 
 ![Recommendations UI refresh](/help/main/r-release-notes/assets/recs-ui-refresh.png)
 

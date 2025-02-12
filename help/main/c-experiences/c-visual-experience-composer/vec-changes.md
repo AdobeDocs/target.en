@@ -7,7 +7,7 @@ exl-id: 4c7a5657-93d9-4355-9d2b-c992b36bcb50
 ---
 # [!UICONTROL Visual Experience Composer] changes
 
-The [!DNL Adobe Target Standard/Premium] 25.2.1 release (February 11, 2015) introduces an updated [!UICONTROL Visual Experience Composer] (VEC). This article explains the differences between the previous and updated versions of the VEC.
+The [!DNL Adobe Target Standard/Premium] 25.2.1 release (February 12, 2015) introduces an updated [!UICONTROL Visual Experience Composer] (VEC). This article explains the differences between the previous and updated versions of the VEC.
 
 >[!IMPORTANT]
 >
@@ -31,17 +31,17 @@ You can create, rename or remove experiences using the [!UICONTROL Experiences] 
 
 ### [!UICONTROL Components] panel (new)
 
-You can add a number of components to your web page and edit them needed by using the new [!UICONTROL Components] panel.
+You can add a number of components to your web page and edit them as needed by using the new [!UICONTROL Components] panel.
 
 ![Components panel](/help/main/c-experiences/c-visual-experience-composer/assets/components-panel.png)
 
-To add a new component, drag the component you want to insert over an existing page element in the editing canvas. Then choose to insert the component before of after the selected element. 
+To add a new component, drag the component from the Components panel you want to insert over an existing page element in the Design canvas. Then choose to insert the component before of after the selected element. 
 
 As compared to the previous VEC version, you cannot replace a selected element with a component.
 
 ### [!UICONTROL Modifications] panel
 
-To open the [!UICONTROL Modifications] panel, click the [!UICONTROL Show Modifications] icon ( ![Show Modifiations panel](/help/main/assets/icons/History.svg) ) in the [!UICONTROL Components] panel. The [!UICONTROL Modifications] panel changed position from right side to left side of the editing canvas.
+To open the [!UICONTROL Modifications] panel, click the [!UICONTROL Show Modifications] icon ( ![Show Modifications panel](/help/main/assets/icons/History.svg) ) in the [!UICONTROL Components] panel. The [!UICONTROL Modifications] panel changed position from right side to left side of the editing canvas.
 
 ![Modifications panel](/help/main/c-experiences/c-visual-experience-composer/assets/modifications-panel.png)
 

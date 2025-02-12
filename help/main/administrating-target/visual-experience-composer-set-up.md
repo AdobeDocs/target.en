@@ -6,7 +6,7 @@ feature: Administration & Configuration
 role: Admin
 exl-id: cf6c9ece-6745-477e-81ac-a3e9a9fddb09
 ---
-# Configure the Visual Experience Composer
+# Configure the [!UICONTROL Visual Experience Composer]
 
 Configure the [!DNL Adobe Target] [!UICONTROL Visual Experience Composer] (VEC) by specifying its general settings, mobile viewport configuration, and CSS selectors.
 

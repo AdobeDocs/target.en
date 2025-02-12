@@ -15,7 +15,8 @@ This page lists significant changes made to the [!DNL Adobe Target] product docu
 
 |Date|Topic|Changes|
 |--- |--- |--- |
-|February 12|[Supported browsers](https://experienceleague.adobe.com/en/docs/target-dev/developer/implementation/supported-browsers){target=_blank}|Added information about which browsers are supporting in a Target implementation using the [!DNL Adobe Experience Platform Web SDK].|
+|February 12|[Visual Experience Composer options](/help/main/c-experiences/c-visual-experience-composer/viztarget-options.md)|Updated entire topic to explain the updated VEC introduced in the [!DNL Target Standard/Premium] 25.2.1 release (February 12, 2025).|
+||[Supported browsers](https://experienceleague.adobe.com/en/docs/target-dev/developer/implementation/supported-browsers){target=_blank}|Added information about which browsers are supporting in a Target implementation using the [!DNL Adobe Experience Platform Web SDK].|
 ||[Visual Experience Composer changes](/help/main/c-experiences/c-visual-experience-composer/vec-changes.md)|New article to explain the differences between the previous and updated versions of the VEC.|
 ||[[!DNL Target] release notes (current)](/help/main/r-release-notes/release-notes.md)|Added release notes for the [!DNL Target Standard/Premium] 25.2.1 user interface update (scheduled for February 12, 2025). Many articles were updated to reflect the UI changes.|
 
