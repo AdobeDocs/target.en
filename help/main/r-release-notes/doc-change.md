@@ -11,12 +11,12 @@ This page lists significant changes made to the [!DNL Adobe Target] product docu
 
 ## Updates
 
-### [!DNL Target Standard/Premium] 25.2.1 (February 11, 2025)
+### [!DNL Target Standard/Premium] 25.2.1 (February 12, 2025)
 
 |Date|Topic|Changes|
 |--- |--- |--- |
 |February 11|[Visual Experience Composer changes](/help/main/c-experiences/c-visual-experience-composer/vec-changes.md)|New article to explain the differences between the previous and updated versions of the VEC.|
-||[[!DNL Target] release notes (current)](/help/main/r-release-notes/release-notes.md)|Added release notes for the [!DNL Target Standard/Premium] 25.2.1 user interface update (scheduled for February 11, 2025). Many articles were updated to reflect the UI changes.|
+||[[!DNL Target] release notes (current)](/help/main/r-release-notes/release-notes.md)|Added release notes for the [!DNL Target Standard/Premium] 25.2.1 user interface update (scheduled for February 12, 2025). Many articles were updated to reflect the UI changes.|
 
 ### [!DNL Target Standard/Premium] 25.1.1 (January 9, 2025)
 
