@@ -11,7 +11,7 @@ Information about using the [!UICONTROL Visual Experience Composer] (VEC) in [!D
 
 >[!NOTE]
 >
->The [!DNL Target Standard/Premium] 25.2.1 (February 12, 2025) release included an updated version of the VEC. For information about how the updated VEC differs from the previous version, see [Visual Experience Composer changes](/help/main/c-experiences/c-visual-experience-composer/vec-changes.md).
+>The [!DNL Target Standard/Premium] 25.2.1 (February 17, 2025) release included an updated version of the VEC. For information about how the updated VEC differs from the previous version, see [Visual Experience Composer changes](/help/main/c-experiences/c-visual-experience-composer/vec-changes.md).
 
 The VEC is a WYSIWYG user interface that lets you easily create and test personalized experiences and offers in the site context. You can create experiences and offers for [!DNL Target] activities by dragging and dropping, swapping, and modifying the layout and content of a web page (or offer) or mobile web page.
 
