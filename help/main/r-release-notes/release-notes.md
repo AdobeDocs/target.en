@@ -13,7 +13,7 @@ These release notes provide information about features, enhancements, and fixes 
 
 (The issue numbers in parentheses are for internal [!DNL Adobe] use.)
 
-## Target Standard/Premium 25.2.1 (February 12, 2025)
+## Target Standard/Premium 25.2.1 (February 17, 2025)
 
 This release includes the following updates:
 
@@ -26,7 +26,7 @@ As the [!DNL Adobe Target] UI modernization effort continues, we are pleased to 
 
 >[!NOTE]
 >
->Starting February 12, customers will gradually have access to the new [!UICONTROL Activities]  UI. To ensure a seamless rollout for all customers, this release will be deployed in controlled stages. The first stage will upgrade the initial group of [!DNL Target] customers to the new [!UICONTROL Activities] UI. Subsequent stages will upgrade the remaining customers.
+>Starting February 17, customers will gradually have access to the new [!UICONTROL Activities]  UI. To ensure a seamless rollout for all customers, this release will be deployed in controlled stages. The first stage will upgrade the initial group of [!DNL Target] customers to the new [!UICONTROL Activities] UI. Subsequent stages will upgrade the remaining customers.
 
 Based on the latest [!DNL Adobe Spectrum] design system, the update standardizes previously inconsistent design patterns, while adding new enhancements, such as:
 
@@ -35,9 +35,12 @@ Based on the latest [!DNL Adobe Spectrum] design system, the update standardizes
 * [Customizable list views](/help/main/c-activities/activities.md) to for better flexibility across different team needs.
 * [Enhanced quick info and detail screens](/help/main/c-activities/activities.md) for easier access to information.
 * [Session-persistent search and filter options](/help/main/c-activities/activities.md).
-* Completely [rebuilt [!UICONTROL Visual Editing Composer]](/help/main/c-experiences/c-visual-experience-composer/visual-experience-composer.md) with support for latest security updates from browser providers and a modern user interface. For more information see [Visual Experience Composer](/help/main/c-experiences/c-visual-experience-composer/viztarget-options.md) options.
+* Completely [rebuilt [!UICONTROL Visual Editing Composer]](/help/main/c-experiences/c-visual-experience-composer/visual-experience-composer.md) with support for latest security updates from browser providers and a modern user interface.
 
-  For information about how the updated VEC differs from the previous version, see [Visual Experience Composer changes](/help/main/c-experiences/c-visual-experience-composer/vec-changes.md).
+  For information about how the updated VEC differs from the previous version, see:
+  
+  * [Visual Experience Composer changes](/help/main/c-experiences/c-visual-experience-composer/vec-changes.md) 
+  * [Visual Experience Composer options](/help/main/c-experiences/c-visual-experience-composer/viztarget-options.md)
 
 * [Updated [!DNL Chrome] extension](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/visual-editing-helper-extension.md) supporting Manifest V3 for increased security and improved support for first-party cookies.
 
@@ -49,7 +52,7 @@ As the [!DNL Adobe Target] UI modernization effort continues, we are pleased to 
 
 >[!NOTE]
 >
->Starting February 12, customers will gradually have access to the new [!UICONTROL Recommendations]  UI. To ensure a seamless rollout for all customers, this release will be deployed in controlled stages. The first stage will upgrade the initial group of [!DNL Target] customers to the new [!UICONTROL Activities] UI. Subsequent stages will upgrade the remaining customers.
+>Starting February 17, customers will gradually have access to the new [!UICONTROL Recommendations]  UI. To ensure a seamless rollout for all customers, this release will be deployed in controlled stages. The first stage will upgrade the initial group of [!DNL Target] customers to the new [!UICONTROL Activities] UI. Subsequent stages will upgrade the remaining customers.
 
 Based on the latest [!DNL Adobe Spectrum] design system, the update standardizes previously inconsistent design patterns, while adding new enhancements, such as:
 

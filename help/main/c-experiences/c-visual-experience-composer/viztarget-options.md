@@ -7,7 +7,7 @@ exl-id: 50993d6c-5025-488a-8b33-9ed7c142de6e
 ---
 # Visual Experience Composer options
 
-The [!DNL Adobe Target Standard/Premium] 25.2.1 release (February 12, 2015) introduces an updated [!UICONTROL Visual Experience Composer] (VEC). This article explains the updated UI and its options.
+The [!DNL Adobe Target Standard/Premium] 25.2.1 release (February 17, 2015) introduces an updated [!UICONTROL Visual Experience Composer] (VEC). This article explains the updated UI and its options.
 
 >[!IMPORTANT]
 >
