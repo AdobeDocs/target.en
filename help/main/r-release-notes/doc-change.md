@@ -11,7 +11,7 @@ This page lists significant changes made to the [!DNL Adobe Target] product docu
 
 ## Updates
 
-### [!DNL Target Standard/Premium] 25.2.1 (February 12, 2025)
+### [!DNL Target Standard/Premium] 25.2.1 (February 17, 2025)
 
 |Date|Topic|Changes|
 |--- |--- |--- |
