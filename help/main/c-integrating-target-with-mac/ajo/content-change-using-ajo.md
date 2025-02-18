@@ -30,7 +30,7 @@ This use case demonstrates how to perform familiar tasks, such as A/B testing wi
 
 >[!NOTE]
 >
->The instructions in this section highlight the necessary steps to change an image and to use profile attributes to personalize text messages. For more information about available options in the [!DNL Journey Optimizer] web designer, see [Edit web content](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/web/author-web-pages/edit-web-content){target=_blank} in the *Journey Optimizer documentation*. 
+>The instructions in this section highlight the necessary steps to change an image and to use profile attributes to personalize text messages. For more information about available options in the [!DNL Journey Optimizer] web designer, see [Work with the web designer](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/channels/web/author-web-pages/web-visual-editor){target=_blank} in the *Journey Optimizer documentation*. 
 >
 >The video at the bottom of the page is especially helpful.
 
@@ -119,6 +119,6 @@ For more information, see [Get started with new Reporting interface](https://exp
 
 >[!MORELIKETHIS]
 >
->[Edit web content](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/web/author-web-pages/edit-web-content){target=_blank} in the *Journey Optimizer documentation*
+>[Work with the web designer](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/channels/web/author-web-pages/web-visual-editor){target=_blank} in the *Journey Optimizer documentation*
 >[How-to video](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/web/author-web-pages/edit-web-content#video){target=_blank} in the *Journey Optimizer documentation*
 >[Create a campaign](https://experienceleague.adobe.com/en/docs/journey-optimizer-learn/tutorials/create-campaigns/create-a-campaign){target=_blank} in *Journey Optimizer Tutorials*

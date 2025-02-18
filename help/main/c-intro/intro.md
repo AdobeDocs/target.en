@@ -96,7 +96,7 @@ For more information, see the [Recommendations Classic documentation](/help/main
 
 Build your optimization and personalization program on [!DNL Adobe Target] with this Welcome Kit. The Welcome Kit includes key information, tools, and resources to help you prepare for and launch your first [!DNL Target] activity. The kit includes ideas for short-term quick wins and long-term optimization strategies.
 
-[The Adobe Target Welcome Kit](https://expleague.azureedge.net/pdf/Adobe-Target-Welcome-Kit.pdf)
+[The Adobe Target Welcome Kit](/help/main/c-intro/target-welcome-kit.md)
 
 ## Training video: Activity Types (9:03) ![Overview badge](/help/main/assets/overview.png) 
 

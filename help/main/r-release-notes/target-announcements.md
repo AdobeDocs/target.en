@@ -3,6 +3,8 @@ keywords: announcements;skill builder;developer chat;coffee break;events;forrest
 description: Read announcements and sign up for Adobe [!DNL Target] events, including Skill Builder sessions, developer and product manager chats, webinars, and more.
 title: Where Can I find [!DNL Target] Announcements and Event Information?
 feature: Release Notes
+hide: yes
+hidefromtoc: yes
 exl-id: 02bbc049-ab41-469b-8f7b-dc93ffb8ae73
 ---
 # [!DNL Adobe Target] announcements and events
@@ -30,7 +32,11 @@ Be sure to register for Part 3 of the Webinar Series coming up on 3/12/24, cover
 
 +++ -->
 
-## Adobe Target 2024 Personalization Maturity Webinar Series {#maturity-series}
+## Recordings of past webinars and skill-builder sessions
+
+Access recordings of past events (when available):
+
+### Adobe Target 2024 Personalization Maturity Webinar Series {#maturity-series}
 
 This live webinar series will highlight key [!DNL Adobe Target] capabilities, use cases, and tips to unlock AI-powered personalization as customers expand their experimentation and personalization journey with [!DNL Adobe Experience Platform].
 
@@ -40,37 +46,25 @@ Why should you attend:
 * **Maximize Unique Capabilities**: Tailor experiences for success with high-performance recommendations to maximize ROI, revenue, and conversion.
 * **Advance Personalization Strategies**: Deep dive into AI/ML advanced techniques to scale business impact, resonate with new segments/audiences, and fine-tune personalization models for optimized experiences.
 
-* **[Register here](https://adobe-target-personalization-maturity-webinar-series-q1-2024.dxfieldmarketing.adobeevents.com/){target=_blank}**
-
-+++Dates and details
++++Details
 
 * **Art of the Possible**
-  * **Tuesday, January 16, 2024**
-  * **10:00 - 11:00 a.m. (PST -8 GMT)**
 
     At the core of personalization maturity is Artificial Intelligence and machine learning. [!DNL Adobe Target] leverages these technologies to understand user behavior, predict preferences, and dynamically tailor content. By harnessing the power of AI and ML, learn how brands are moving beyond static A/B testing and rules-based personalization to deliver dynamic, contextually relevant experiences.
 
     [Listen to the recording.](https://experienceleaguecommunities.adobe.com/t5/adobe-target-discussions/upcoming-webinar-2024-1-16-24-p1-adobe-target-personalization/td-p/639284){target=_blank} 
 
 * **High Performance Recommendations**
-  * **Tuesday, February 13, 2024**
-  * **10:00 - 11:00 a.m. (PST -8 GMT)**
 
     Learn how recommendation algorithms can be a game-changer for businesses, driving engagement and revenue. From personalized product suggestions to content recommendations, the ability to guide users seamlessly through their journey contributes directly to unlocking significant business growth.
 
     [Listen to the recording.](https://experienceleaguecommunities.adobe.com/t5/adobe-target-discussions/webinar-recording-2-13-24-p2-adobe-target-personalization/m-p/639295#M3685){target=_blank}
 
 * **Unlocking AI-Powered Personalization**
-  * **Tuesday, March 12, 2024**
-  * **10:00 - 11:00 a.m. (PST -8 GMT)**
 
     [!DNL Adobe Target] facilitates AI-powered personalization capabilities across every stage of the customer lifecycle for 1-to-1 personalized experiences. From acquisition to retention, learn how businesses are gaining insights into streamlining processes, minimizing manual efforts, and delivering contextual, engaging customer experiences at scale.
-
+    
 +++
-
-## Recordings of past webinars and skill-builder sessions
-
-Access recordings of past events (when available):
 
 ### Strategize for maximum ROI impact with peak season readiness
 
@@ -178,8 +172,6 @@ Join the [!DNL Adobe Target] [!DNL ]team as they serve up some fresh ideas on ho
 
 Growing loyalty in a time of accelerated supply chain issues, service failures, and limited staffing is a challenge most travel, hospitality and dining brands are facing. In the age of AI, how do brands scale experiences without the needed resources that have left the industry. Digital progress has accelerated 20-25 faster to support not only accelerated customer expectations, but also to scale teams through automation.
 
-* **[Register to view the webinar recording](https://real-time-loyalty-activation.dxfieldmarketing.adobeevents.com/){target=_blank}**
-
   +++Details
 
   In 2022, systems have reached a tipping point in the ability to provide continuous intelligence to deliver on real time loyalty activation.
@@ -219,35 +211,6 @@ Learn how Artificial Intelligence continues to redefine consumer expectations as
   * Overcome challenges in optimizing web, mobile app, email, IoT, and each digital touchpoint for higher conversion and engagement 
   * Step-by-step guided tour of [!DNL Adobe Analytics] and [!DNL Target] workflows for personalization, targeting, and testing 
   * Top use cases to unlock which attributes predict visitor behavior and which attributes are most important for key visualizations and segmentation analysis
-
-  +++
-
-### City National Bank: Zero to Hero - Starting & Scaling a Personalization Program (June 9, 2022)
-
-Learn best practices how to become a 'relationship bank' to increase brand loyalty. Discover how to drive people and processes to build and scale successful personalization programs.
-
-* [Recording link](https://zero-to-hero.dxfieldmarketing.adobeevents.com/){target=_blank}
-
-  +++Details
-
-  Join Heather Adkins (SVP Marketing Technology) to learn best practices to become a "relationship bank" to increase brand loyalty and how to drive people and processes to build and scale successful personalization programs.
-
-  +++
-
-### [!DNL Adobe]: Uncover High-Impact Optimization Opportunities (June 16, 2022)
-
-Learn how as we enter the new normal—one that is more digital than ever before—it is crucial that organizations take advantage of every opportunity to deliver exceptional digital experiences. Good enough is no longer truly good enough. It takes great experiences to stay competitive.
-
-* [Recording link](https://optimization.dxfieldmarketing.adobeevents.com/){target=_blank}
-
-  +++Details
-
-  Join Kaitlin White (Adobe Product Marketing Manager) as we share tried-and-true strategies to help you kickstart your personalization program, including: 
-
-  * Out-of-the-box thinking to acquiring new leads or customers 
-  * Fixing user friction for a more intuitive experience 
-  * Tapping into customer affinity for personalization 
-  * And many more ideas to help you uncover high-impact opportunities at your organization
 
   +++
 
@@ -298,21 +261,6 @@ View tool kit and use cases for implementing cross-functional personalization st
   * Drive winning experiences cross-channel to develop authentic relationships
   * Accelerate business growth with increased engagement and adoption of personalized offers
   * Optimize multichannel campaigns for time-to-value and ROI.
-
-  +++
-
-### Real-Time Personalization with [!DNL Adobe Target]
-
-* **[Register to view the webinar recording](https://real-time.dxfieldmarketing.adobeevents.com/){target=_blank}**
-
-  +++Details
-
-  In this session, learn how [!DNL Adobe Target] bridges the gap on combining data across multiple sources for Real-Time Personalization as we discuss:
-
-  * Why personalization performance and speed matter for driving faster business growth 
-  * How teams can build first-party data strategies and solve their data fragmentation challenges 
-  * End-to-end workflows for delivering personalized experiences in milliseconds 
-  * Unique use cases for brands for engaging customers and prospects in real-time with relevant messaging, content, and offers
 
   +++
 

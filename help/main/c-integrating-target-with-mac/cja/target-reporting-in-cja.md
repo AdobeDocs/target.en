@@ -13,7 +13,7 @@ The primary benefits of using [!DNL Customer Journey Analytics] as the reporting
 
 * Marketers can dynamically apply [!DNL Customer Journey Analytics] success metrics to [!DNL Target] activity reports at any time. It is not required to specify everything before running the activity. 
 * Marketers can take advantage of [!DNL Customer Journey Analytics] features, such as the [Experimentation Panel](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-workspace/panels/experimentation){target=_blank}, to further analyze their website personalization. 
-* Marketers can have a single source of reporting for [[!DNL Adobe Journey Optimizer]](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/reporting/cja-ajo){target=_blank} and [!DNL Target]. Both personalization products can be connected to [!DNL Customer Journey Analytics] for a more holistic view of your web personalization.  
+* Marketers can have a single source of reporting for [!DNL Adobe Journey Optimizer] and [!DNL Target]. Both personalization products can be connected to [!DNL Customer Journey Analytics] for a more holistic view of your web personalization.  
 
 ## Considerations
 
