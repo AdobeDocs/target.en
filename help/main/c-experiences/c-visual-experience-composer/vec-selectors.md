@@ -87,8 +87,6 @@ Target uses a simple algorithm to create a selector. Here is very brief explanat
 
    Selector: `#container` > `ul.navigation(0)` > `li:nth-of-type(4)`
 
-   You can learn more about [nth-of-type on the CSS Tricks web page](https://css-tricks.com/almanac/selectors/n/nth-of-type/).
-
 In the above process:
 
 * You can use any CSS selector as long as it uniquely identifies an element in the DOM. 
