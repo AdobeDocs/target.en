@@ -19,7 +19,7 @@ The Community lets you:
 * Connect with your peers and Adobe Experts 
 * Vote or submit an idea of your own for a future Target Release
 
-Visit the [Target Community Forum](https://forums.adobe.com/community/experience-cloud/marketing-cloud/target) to get started. 
+Visit the [Target Community Forum](https://experienceleaguecommunities.adobe.com/t5/adobe-target/ct-p/adobe-target-community) to get started. 
 
 ## Target Basics Webinar Series {#concept_11902FAC95C64479AABE020557A7EEE4}
 
