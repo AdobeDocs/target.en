@@ -13,6 +13,27 @@ These release notes provide information about features, enhancements, and fixes 
 
 (The issue numbers in parentheses are for internal [!DNL Adobe] use.)
 
+## [!DNL Target Standard/Premium] 25.2.3 (February 26, 2025)
+
+This release includes the following updates:
+
+* Resolved an issue preventing activity updates post [!DNL Target] 25.2.1 release for some activities. (TGT-51781)
+* Resolved an issue where all in-state audience changes were removed upon canceling the activity-creation process (selecting [!UICONTROL Cancel] instead of [!UICONTROL Add Audience]). (TGT-51769 & TGT-51770)
+* Resolved an issue where the [!UICONTROL Visual Experience Composer] (VEC) failed to load for some activities, particularly when custom code was used.  issue led to the VEC displaying a blank screen or the [!DNL Target] UI reverting to its older version. (TGT-51758)
+* Resolved an issue where modifications were discarded after editing page delivery for audiences. (TGT-51756)
+* Resolved an issue where all non-metric audiences (page and experience audiences) were removed from activities upon changing a metric type on the [!UICONTROL Goals & Settings] page. (TGT-51753)
+* Resolved an issue where clicking [!UICONTROL Cancel] while editing an activity navigated the Target UI to the [!UICONTROL Activities List] instead of the [!UICONTROL Activity Details] page. (TGT-51731)
+* Resolved an issue preventing customers from downloading reports via the [!UICONTROL Export Reports to CSV] option. (TGT-51708)
+* Resolved an issue in the Form-Based Experience Composer where [!DNL Target Standard] customers were incorrectly shown as using [!UICONTROL Properties], a [!DNL Target Premium] feature. (TGT-51678)
+* Fixed an issue that blocked [!DNL Adobe Experience Platform] attributes from displaying when creating new offers. (TGT-51665)
+* Moved all active filters for [!DNL Recommendations] inventory to the quick search, aligning the UI with [!UICONTROL Catalog Search] instead of the [!UICONTROL Filter] rail. (TGT-50723)
+
+## at.js version version 2.11.7 (February 26, 2025)
+
+This release includes the following update:
+
+* Fixed Telemetry logging when `localStorage` is not available. Telemetry was causing an issue for some customers that had `localStorage` disabled in their browsers.
+
 ## Target Standard/Premium 25.2.1 (February 17, 2025)
 
 This release includes the following updates:
