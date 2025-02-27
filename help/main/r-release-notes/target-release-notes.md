@@ -36,7 +36,9 @@ This release includes the following updates:
 
 This release includes the following update:
 
-* Fixed Telemetry logging when `localStorage` is not available. Telemetry was causing an issue for some customers that had `localStorage` disabled in their browsers.  
+* Fixed Telemetry logging when `localStorage` is not available. Telemetry was causing an issue for some customers that had `localStorage` disabled in their browsers. 
+
+For information about this and previous at.js releases, see [at.js version details](https://experienceleague.adobe.com/en/docs/target-dev/developer/client-side/at-js-implementation/target-atjs-versions){target=_blank}.
 
 ## [!DNL Target Standard/Premium] 25.2.1 (February 17, 2025)
 
