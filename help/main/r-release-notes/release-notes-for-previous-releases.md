@@ -2530,7 +2530,7 @@ This [!DNL Target] release includes the following customer-facing enhancements a
   </tr> 
   <tr> 
    <td colname="col1"> <p>New location for Target Forum </p> </td> 
-   <td colname="col2"> <p> The Target Forum has moved to the new <a href="https://forums.adobe.com/community/experience-cloud/marketing-cloud/target" format="https" scope="external"> Adobe Community Platform </a>. </p> </td> 
+   <td colname="col2"> <p> The Target Forum has moved to the new <a href="https://experienceleaguecommunities.adobe.com/t5/adobe-target/ct-p/adobe-target-community" format="https" scope="external"> Adobe Community Platform </a>. </p> </td> 
   </tr> 
  </tbody> 
 </table>

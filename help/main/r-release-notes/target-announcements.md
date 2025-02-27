@@ -201,8 +201,6 @@ Growing loyalty in a time of accelerated supply chain issues, service failures, 
 
 Learn how Artificial Intelligence continues to redefine consumer expectations as machine learning models and data insights open new doors for marketers, developers, and product owners to engage consumers with personalized experiences that matter. Take a step-by-step tour of [!DNL Adobe Analytics] + [!DNL Adobe Target] workflows for personalization, targeting, and testing.
 
-* [Recording link](https://analytics.dxfieldmarketing.adobeevents.com/){target=_blank}
-
   +++Details
 
   Join Jordan Ison (Principal Expert Solution Consultant at [!DNL Adobe]) to discuss: 
