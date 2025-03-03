@@ -9,13 +9,25 @@ exl-id: f2783042-f6ee-4f73-b487-ede11d55d530
 
 This article contains prerelease information for upcoming [!DNL Adobe Target] releases, including SDKs, APIs, and JavaScript libraries.
 
-**Last Updated: February 26, 2025**
+**Last Updated: March 3, 2025**
 
 >[!NOTE]
 >
 >Release dates, features, and other information are subject to change without notice.
 >
 >To view information about the current release, see [Target Release Notes](release-notes.md). The information on these pages might be the same, depending on the timing of releases. The issue numbers in parentheses are for internal [!DNL Adobe] use.
+
+## [!DNL Target Standard/Premium] 25.3.1 (March 3, 2025)
+
+This release includes the following fixes and updates:
+
+* A combined audience can include subgroups, each containing multiple audiences. This release fixed an issue that prevented subgroup audiences from displaying in the [!UICONTROL Rules] dialog box. (TGT-51813)
+* Resolved an issue where some experience audiences were replaced with [!UICONTROL All Visitors] when opening older activities. (TGT-51812)
+* Resolved an issue that prevented editing activities with activity-only audiences. (TGT-51807)
+* Resolved an issue that prevented editing page head modifications in the updated [!DNL Target] UI. (TGT-51797)
+* Resolved a null error that occurred when duplicating an experience, deleting another experience, and then trying to save the activity. (TGT-51796)
+* Resolved an issue that prevented audience exclusion rules from displaying in the audience's info panel during the [!UICONTROL Targeting] step of creating activities. (TGT-51579)
+* Updated error messages localized in Korean. (TGT-51701 & TGT-51699)
 
 ## [!DNL Target Standard/Premium] 25.2.3 (February 26, 2025)
 

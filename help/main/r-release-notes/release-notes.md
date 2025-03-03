@@ -13,6 +13,18 @@ These release notes provide information about features, enhancements, and fixes 
 
 (The issue numbers in parentheses are for internal [!DNL Adobe] use.)
 
+## [!DNL Target Standard/Premium] 25.3.1 (March 3, 2025)
+
+This release includes the following fixes and updates:
+
+* A combined audience can include subgroups, each containing multiple audiences. This release fixed an issue that prevented subgroup audiences from displaying in the [!UICONTROL Rules] dialog box. (TGT-51813)
+* Resolved an issue where some experience audiences were replaced with [!UICONTROL All Visitors] when opening older activities. (TGT-51812)
+* Resolved an issue that prevented editing activities with activity-only audiences. (TGT-51807)
+* Resolved an issue that prevented editing page head modifications in the updated [!DNL Target] UI. (TGT-51797)
+* Resolved a null error that occurred when duplicating an experience, deleting another experience, and then trying to save the activity. (TGT-51796)
+* Resolved an issue that prevented audience exclusion rules from displaying in the audience's info panel during the [!UICONTROL Targeting] step of creating activities. (TGT-51579)
+* Updated error messages localized in Korean. (TGT-51701 & TGT-51699)
+
 ## [!DNL Target Standard/Premium] 25.2.3 (February 26, 2025)
 
 This release includes the following updates:
