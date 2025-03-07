@@ -9,13 +9,22 @@ exl-id: f2783042-f6ee-4f73-b487-ede11d55d530
 
 This article contains prerelease information for upcoming [!DNL Adobe Target] releases, including SDKs, APIs, and JavaScript libraries.
 
-**Last Updated: March 6, 2025**
+**Last Updated: March 7, 2025**
 
 >[!NOTE]
 >
 >Release dates, features, and other information are subject to change without notice.
 >
 >To view information about the current release, see [Target Release Notes](release-notes.md). The information on these pages might be the same, depending on the timing of releases. The issue numbers in parentheses are for internal [!DNL Adobe] use.
+
+## [!DNL Target Standard/Premium] 25.3.4 (March 7, 2025)
+
+This release includes the following fixes and updates:
+
+* Resolved an issue where activity-only audiences were not visible in the [!UICONTROL Audiences] panel, preventing their editing or reuse. (TGT-51860)
+* Fixed an issue that blocked [!DNL Target Standard] customers from creating activities using [!UICONTROL Analytics for Target] (A4T) reporting. (TGT-51854)
+* Fixed an issue that excluded local ID counters from the payload during batch create and edit operations. (TGT-51867)
+* Enhanced accessibility reports by integrating [!DNL Axe Developer Hub], improving coverage, reporting, team collaboration, manual testing support, compliance standards, and user experience.
 
 ## [!DNL Target Standard/Premium] 25.3.2 (March 6, 2025)
 
