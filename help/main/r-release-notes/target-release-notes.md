@@ -24,7 +24,6 @@ This release includes the following fixes and updates:
 * Resolved an issue where activity-only audiences were not visible in the [!UICONTROL Audiences] panel, preventing their editing or reuse. (TGT-51860)
 * Fixed an issue that blocked [!DNL Target Standard] customers from creating activities using [!UICONTROL Analytics for Target] (A4T) reporting. (TGT-51854)
 * Fixed an issue that excluded local ID counters from the payload during batch create and edit operations. (TGT-51867)
-* Enhanced accessibility reports by integrating [!DNL Axe Developer Hub], improving coverage, reporting, team collaboration, manual testing support, compliance standards, and user experience.
 
 ## [!DNL Target Standard/Premium] 25.3.2 (March 6, 2025)
 
