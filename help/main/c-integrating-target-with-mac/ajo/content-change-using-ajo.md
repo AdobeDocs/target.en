@@ -120,5 +120,4 @@ For more information, see [Get started with new Reporting interface](https://exp
 >[!MORELIKETHIS]
 >
 >[Work with the web designer](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/channels/web/author-web-pages/web-visual-editor){target=_blank} in the *Journey Optimizer documentation*
->[How-to video](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/web/author-web-pages/edit-web-content#video){target=_blank} in the *Journey Optimizer documentation*
 >[Create a campaign](https://experienceleague.adobe.com/en/docs/journey-optimizer-learn/tutorials/create-campaigns/create-a-campaign){target=_blank} in *Journey Optimizer Tutorials*

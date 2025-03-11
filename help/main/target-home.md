@@ -9,7 +9,7 @@ exl-id: 6003a663-4c0c-4179-8025-aee2ae107c5c
 
 [!DNL Adobe Target] is the [!DNL Adobe Experience Cloud] solution that provides everything you need to tailor and personalize your customers' experience so you can maximize revenue on your web and mobile sites, apps, social media, and other digital channels.
 
-**Last Updated: February 13, 2025 ( [See What Changed](r-release-notes/doc-change.md) )**
+**Last Updated: March 7, 2025 ( [See What Changed](r-release-notes/doc-change.md) )**
 
 >[!NOTE]
 >
@@ -69,5 +69,5 @@ Marketers, developers, administrators, analysts, and quality assurance engineers
 
 | Adobe [!DNL Target] solutions help | [!DNL Adobe Experience Cloud] resources |
 |--- |--- |
-|<ul><li>[Adobe Target Learn & Support](https://helpx.adobe.com/support/target.html)</li><li>[Premium Recommendations](c-recommendations/recommendations.md)</li><li>[Adobe Recommendations Classic](/help/main/assets/adobe-recommendations-classic.pdf)</li><li>[Search&Promote](https://experienceleague.adobe.com/docs/search-promote/using/sp-home.html)</li><li>[Target API Documentation](https://experienceleague.adobe.com/docs/target-dev/developer/api/target-api-overview.html){target=_blank}</li></ul>|<ul><li>[Target Community Forum](https://forums.adobe.com/community/experience-cloud/marketing-cloud/target)</li><li>[Experience Cloud Release Notes](https://experienceleague.adobe.com/docs/release-notes/experience-cloud/current.html)</li><li>[Experience Cloud Help Home](https://helpx.adobe.com/support/experience-cloud.html)</li><li>[Adobe Training and Tutorials](https://helpx.adobe.com/learning.html?promoid=KAUDK)</li></ul>||
+|<ul><li>[Adobe Target Learn & Support](https://helpx.adobe.com/support/target.html)</li><li>[Premium Recommendations](c-recommendations/recommendations.md)</li><li>[Adobe Recommendations Classic](/help/main/assets/adobe-recommendations-classic.pdf)</li><li>[Search&Promote](https://experienceleague.adobe.com/docs/search-promote/using/sp-home.html)</li><li>[Target API Documentation](https://experienceleague.adobe.com/docs/target-dev/developer/api/target-api-overview.html){target=_blank}</li></ul>|<ul><li>[Target Community Forum](https://experienceleaguecommunities.adobe.com/t5/adobe-target/ct-p/adobe-target-community)</li><li>[Experience Cloud Release Notes](https://experienceleague.adobe.com/docs/release-notes/experience-cloud/current.html)</li><li>[Experience Cloud Help Home](https://helpx.adobe.com/support/experience-cloud.html)</li><li>[Adobe Training and Tutorials](https://helpx.adobe.com/learning.html?promoid=KAUDK)</li></ul>||
  

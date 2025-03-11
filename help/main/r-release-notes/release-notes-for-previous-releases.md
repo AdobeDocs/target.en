@@ -17,6 +17,94 @@ Release notes are arraigned in descending order by month and year of release.
 
 ## Release notes - 2025
 
+### [!DNL Target Standard/Premium] 25.3.1 (March 3, 2025)
+
+This release includes the following fixes and updates:
+
+* A combined audience can include subgroups, each containing multiple audiences. This release fixed an issue that prevented subgroup audiences from displaying in the [!UICONTROL Rules] dialog box. (TGT-51813)
+* Resolved an issue where some experience audiences were replaced with [!UICONTROL All Visitors] when opening older activities. (TGT-51812)
+* Resolved an issue that prevented editing activities with activity-only audiences. (TGT-51807)
+* Resolved an issue that prevented editing page head modifications in the updated [!DNL Target] UI. (TGT-51797)
+* Resolved a null error that occurred when duplicating an experience, deleting another experience, and then trying to save the activity. (TGT-51796)
+* Resolved an issue that prevented audience exclusion rules from displaying in the audience's info panel during the [!UICONTROL Targeting] step of creating activities. (TGT-51579)
+* Updated error messages localized in Korean. (TGT-51701 & TGT-51699)
+
+### [!DNL Target Standard/Premium] 25.2.3 (February 26, 2025)
+
+This release includes the following updates:
+
+* Resolved an issue preventing activity updates post [!DNL Target] 25.2.1 release for some activities. (TGT-51781)
+* Resolved an issue where all in-state audience changes were removed upon canceling the activity-creation process (selecting [!UICONTROL Cancel] instead of [!UICONTROL Add Audience]). (TGT-51769 & TGT-51770)
+* Resolved an issue where the [!UICONTROL Visual Experience Composer] (VEC) failed to load for some activities, particularly when custom code was used.  issue led to the VEC displaying a blank screen or the [!DNL Target] UI reverting to its older version. (TGT-51758)
+* Resolved an issue where modifications were discarded after editing page delivery for audiences. (TGT-51756)
+* Resolved an issue where all non-metric audiences (page and experience audiences) were removed from activities upon changing a metric type on the [!UICONTROL Goals & Settings] page. (TGT-51753)
+* Resolved an issue where clicking [!UICONTROL Cancel] while editing an activity navigated the Target UI to the [!UICONTROL Activities List] instead of the [!UICONTROL Activity Details] page. (TGT-51731)
+* Resolved an issue preventing customers from downloading reports via the [!UICONTROL Export Reports to CSV] option. (TGT-51708)
+* Resolved an issue in the Form-Based Experience Composer where [!DNL Target Standard] customers were incorrectly shown as using [!UICONTROL Properties], a [!DNL Target Premium] feature. (TGT-51678)
+* Fixed an issue that blocked [!DNL Adobe Experience Platform] attributes from displaying when creating new offers. (TGT-51665)
+* Moved all active filters for [!DNL Recommendations] inventory to the quick search, aligning the UI with [!UICONTROL Catalog Search] instead of the [!UICONTROL Filter] rail. (TGT-50723)
+
+### at.js version version 2.11.7 (February 26, 2025)
+
+This release includes the following update:
+
+* Fixed Telemetry logging when `localStorage` is not available. Telemetry was causing an issue for some customers that had `localStorage` disabled in their browsers.
+
+For information about this and previous at.js releases, see [at.js version details](https://experienceleague.adobe.com/en/docs/target-dev/developer/client-side/at-js-implementation/target-atjs-versions){target=_blank}.
+
+### Target Standard/Premium 25.2.1 (February 17, 2025)
+
+This release includes the following updates:
+
+* [!UICONTROL Activities] user interface update
+* [!DNL Recommendations] user interface update
+
+#### [!UICONTROL Activities] user interface update
+
+As the [!DNL Adobe Target] UI modernization effort continues, we are pleased to announce the general availability of the updated [!UICONTROL Activities] User Interface.
+
+>[!NOTE]
+>
+>Starting February 17, customers will gradually have access to the new [!UICONTROL Activities]  UI. To ensure a seamless rollout for all customers, this release will be deployed in controlled stages. The first stage will upgrade the initial group of [!DNL Target] customers to the new [!UICONTROL Activities] UI. Subsequent stages will upgrade the remaining customers.
+
+Based on the latest [!DNL Adobe Spectrum] design system, the update standardizes previously inconsistent design patterns, while adding new enhancements, such as:
+
+* [Redesigned reporting](/help/main/administrating-target/reporting.md) for better insights into activity results.
+* [[!UICONTROL Updated Change Log]](/help/main/c-activities/change-log.md) page, now getting the information from the [[!DNL Audit Query API]](https://experienceleague.adobe.com/en/docs/experience-platform/landing/governance-privacy-security/audit-logs/audit-api/overview){target=_blank} for real-time insights.
+* [Customizable list views](/help/main/c-activities/activities.md) to for better flexibility across different team needs.
+* [Enhanced quick info and detail screens](/help/main/c-activities/activities.md) for easier access to information.
+* [Session-persistent search and filter options](/help/main/c-activities/activities.md).
+* Completely [rebuilt [!UICONTROL Visual Editing Composer]](/help/main/c-experiences/c-visual-experience-composer/visual-experience-composer.md) with support for latest security updates from browser providers and a modern user interface.
+
+  For information about how the updated VEC differs from the previous version, see:
+  
+  * [Visual Experience Composer changes](/help/main/c-experiences/c-visual-experience-composer/vec-changes.md) 
+  * [Visual Experience Composer options](/help/main/c-experiences/c-visual-experience-composer/viztarget-options.md)
+
+* [Updated [!DNL Chrome] extension](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/visual-editing-helper-extension.md) supporting Manifest V3 for increased security and improved support for first-party cookies.
+
+![Activities refresh](/help/main/r-release-notes/assets/activities-refresh.png)
+
+#### [!DNL Recommendations] user interface update
+
+As the [!DNL Adobe Target] UI modernization effort continues, we are pleased to announce the general availability of the updated [!DNL Recommendations] User Interface. 
+
+>[!NOTE]
+>
+>Starting February 17, customers will gradually have access to the new [!UICONTROL Recommendations]  UI. To ensure a seamless rollout for all customers, this release will be deployed in controlled stages. The first stage will upgrade the initial group of [!DNL Target] customers to the new [!UICONTROL Activities] UI. Subsequent stages will upgrade the remaining customers.
+
+Based on the latest [!DNL Adobe Spectrum] design system, the update standardizes previously inconsistent design patterns, while adding new enhancements, such as:
+
+* The [product catalog search](/help/main/c-recommendations/c-products/catalog-search.md) now features an updated database allowing a real-time synchronization of products.
+* [!UICONTROL Recommendations] objects ([!UICONTROL Criteria], [!UICONTROL Designs], [!UICONTROL Collections], and [!UICONTROL Exclusions]) [created over API are now available in the UI](/help/main/c-recommendations/c-recommendations-faq/recommendations-faq.md).
+* [Recommendations settings](/help/main/administrating-target/recommendations-settings.md) have been consolidated under the [!UICONTROL Administration] section.
+* Customizable list views for better flexibility across different team needs.
+* Refreshed HTML and JSON code editors with [syntax highlighting and line numbering](/help/main/c-experiences/c-manage-content/create-json-offer.md). 
+* Enhanced quick info and detail screens for easier access to information.
+* Session-persistent search and filter options.
+
+![Recommendations UI refresh](/help/main/r-release-notes/assets/recs-ui-refresh.png)
+
 ### Target Standard/Premium 25.1.1 (January 9, 2025)
 
 This release includes the following updates:
@@ -2530,7 +2618,7 @@ This [!DNL Target] release includes the following customer-facing enhancements a
   </tr> 
   <tr> 
    <td colname="col1"> <p>New location for Target Forum </p> </td> 
-   <td colname="col2"> <p> The Target Forum has moved to the new <a href="https://forums.adobe.com/community/experience-cloud/marketing-cloud/target" format="https" scope="external"> Adobe Community Platform </a>. </p> </td> 
+   <td colname="col2"> <p> The Target Forum has moved to the new <a href="https://experienceleaguecommunities.adobe.com/t5/adobe-target/ct-p/adobe-target-community" format="https" scope="external"> Adobe Community Platform </a>. </p> </td> 
   </tr> 
  </tbody> 
 </table>

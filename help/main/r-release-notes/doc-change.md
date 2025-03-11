@@ -11,10 +11,22 @@ This page lists significant changes made to the [!DNL Adobe Target] product docu
 
 ## Updates
 
+### [!DNL Target Standard/Premium] 25.3.1 (March 3, 2025)
+
+|Date|Topic|Changes|
+|--- |--- |--- |
+|March 7|[[!DNL Target] release notes (current)](/help/main/r-release-notes/release-notes.md)|Added release notes for the [!DNL Target Standard/Premium] 25.3.4 release.|
+|March 6|[[!DNL Target] release notes (current)](/help/main/r-release-notes/release-notes.md)|Added release notes for the [!DNL Target Standard/Premium] 25.3.2 release.|
+|March 3|[[!DNL Target] release notes (current)](/help/main/r-release-notes/release-notes.md)|Added release notes for the [!DNL Target Standard/Premium] 25.3.1 release.|
+
+
 ### [!DNL Target Standard/Premium] 25.2.1 (February 17, 2025)
 
 |Date|Topic|Changes|
 |--- |--- |--- |
+|February 26|[[!DNL Target] release notes (current)](/help/main/r-release-notes/release-notes.md)|Added information for the following releases:<ul><li>[!DNL Target Standard/Premium] 25.2.3 (February 26, 2025)</li><li>at.js version version 2.11.7 (February 26, 2025)</li></ul>|
+||[at.js version details](https://experienceleague.adobe.com/en/docs/target-dev/developer/client-side/at-js-implementation/target-atjs-versions){target=_blank}|Added information for the at.js version version 2.11.7 (February 26, 2025) release.|
+||[Activity QA bookmarklet](/help/main/c-activities/c-activity-qa/activity-qa-bookmark.md)|Updated the Activity QA bookmarklet for at.js 2.x.|
 |February 13|[[!DNL Target] release notes (current)](/help/main/r-release-notes/release-notes.md)|Changed the [!DNL Target Standard/Premium] 25.2.1 user interface update release to February 17, 2025.|
 |February 12|[Visual Experience Composer options](/help/main/c-experiences/c-visual-experience-composer/viztarget-options.md)|Updated entire topic to explain the updated VEC introduced in the [!DNL Target Standard/Premium] 25.2.1 release (February 12, 2025).|
 ||[Supported browsers](https://experienceleague.adobe.com/en/docs/target-dev/developer/implementation/supported-browsers){target=_blank}|Added information about which browsers are supporting in a Target implementation using the [!DNL Adobe Experience Platform Web SDK].|
