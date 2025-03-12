@@ -17,6 +17,15 @@ This article contains prerelease information for upcoming [!DNL Adobe Target] re
 >
 >To view information about the current release, see [Target Release Notes](release-notes.md). The information on these pages might be the same, depending on the timing of releases. The issue numbers in parentheses are for internal [!DNL Adobe] use.
 
+## [!DNL Target Standard/Premium] 25.3.5 (March 11, 2025)
+
+This release includes the following fixes and updates:
+
+* Fixed an issue in the updated [!UICONTROL Visual Experience Composer] (VEC) where breadcrumbs were not always displayed at the bottom of the editor, causing difficulties in precisely selecting elements. (TGT-51844)
+* Resolved an issue that prevented users from changing offers in the [!UICONTROL Modifications] panel. (TGT-51800)
+* Resolved an issue where actions were incorrectly displayed in the left panel for experiences and audiences, including in [!UICONTROL ClickTrack] mode. (TGT-51895)
+* Resolved an issue where [!UICONTROL ClickTrack] selectors were not applied to the correct audience page. (TGT-51871)
+
 ## [!DNL Target Standard/Premium] 25.3.4 (March 7, 2025)
 
 This release includes the following fixes and updates:
