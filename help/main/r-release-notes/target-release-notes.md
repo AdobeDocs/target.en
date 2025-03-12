@@ -17,7 +17,7 @@ This article contains prerelease information for upcoming [!DNL Adobe Target] re
 >
 >To view information about the current release, see [Target Release Notes](release-notes.md). The information on these pages might be the same, depending on the timing of releases. The issue numbers in parentheses are for internal [!DNL Adobe] use.
 
-# [!DNL Target Standard/Premium] 25.3.5 (March 11, 2025)
+## [!DNL Target Standard/Premium] 25.3.5 (March 11, 2025)
 
 This release includes the following fixes and updates:
 
