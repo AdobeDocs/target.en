@@ -15,6 +15,7 @@ This page lists significant changes made to the [!DNL Adobe Target] product docu
 
 |Date|Topic|Changes|
 |--- |--- |--- |
+|March 13|[Supported browsers](https://experienceleague.adobe.com/en/docs/target-dev/developer/implementation/supported-browsers){target=_blank}|Updated supported browsers and added the "Visual editing requirements" section.|
 |March 11|[[!DNL Target] release notes (current)](/help/main/r-release-notes/release-notes.md)|Added release notes for the [!DNL Target Standard/Premium] 25.3.5 release.|
 |March 7|[[!DNL Target] release notes (current)](/help/main/r-release-notes/release-notes.md)|Added release notes for the [!DNL Target Standard/Premium] 25.3.4 release.|
 |March 6|[[!DNL Target] release notes (current)](/help/main/r-release-notes/release-notes.md)|Added release notes for the [!DNL Target Standard/Premium] 25.3.2 release.|
