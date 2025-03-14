@@ -9,13 +9,25 @@ exl-id: f2783042-f6ee-4f73-b487-ede11d55d530
 
 This article contains prerelease information for upcoming [!DNL Adobe Target] releases, including SDKs, APIs, and JavaScript libraries.
 
-**Last Updated: March 11, 2025**
+**Last Updated: March 14, 2025**
 
 >[!NOTE]
 >
 >Release dates, features, and other information are subject to change without notice.
 >
 >To view information about the current release, see [Target Release Notes](release-notes.md). The information on these pages might be the same, depending on the timing of releases. The issue numbers in parentheses are for internal [!DNL Adobe] use.
+
+## [!DNL Target Standard/Premium] 25.3.6 (March 14, 2025)
+
+This release includes the following fixes and updates:
+
+* Resolved "Invalid user input" error in [!UICONTROL Visual Experience Composer] (VEC) activities with [!UICONTROL Click Tracking] enabled when the same [!UICONTROL ClickTrack] selector is used multiple times. (TGT-51921)
+* Fixed "Invalid user input" error in VEC activities with shared locations (for example, HEAD selector) and identical offers. (TGT-51879)
+* Fixed an issue that caused experience modifications to be shared across audiences. (TGT-51815)
+* Resolved validation errors when creating activities due to segment ID conflicts. The errors occurred when [!DNL Target] detected existing activities using anonymous segments. (TGT-51784)
+* Resolved issue preventing [!DNL Target] from saving activities with exclusion rules in an audience. (TGT-51581)
+* Resolved issue preventing customers from creating, deleting, or moving folders without access to the default workspace. (TGT-51499)
+* Resolved issue causing GET requests to fail when retrieving [!DNL Analytics] metrics list. (TGT-51106)
 
 ## [!DNL Target Standard/Premium] 25.3.5 (March 11, 2025)
 
