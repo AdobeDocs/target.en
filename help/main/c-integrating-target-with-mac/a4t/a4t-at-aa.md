@@ -56,6 +56,10 @@ To get started:
 * [!DNL Adobe Analytics] conversion metrics
 * [!DNL Adobe Analytics] custom events
 
+>[!NOTE]
+>
+>After selecting [!UICONTROL Use an Analytics Metric], select [!UICONTROL Maximize Unique Visitor Conversion Rate] to view available [!DNL Adobe Analytics] conversion metrics, and [!UICONTROL Maximize Metric Value per Visitor] to explore [!DNL Adobe Analytics] custom events.
+
 [!DNL Target] lets you choose metrics based on binomial events or metrics based on continuous events when using [!UICONTROL A4T] for [!UICONTROL Auto-Allocate] and [!UICONTROL Auto-Target] activities. 
 
 * **Metrics based on binomial events**: A binomial event either does or does not happen. Binomial events include a click, a conversion, an order, and so forth. These types of events are also sometimes referred to as Bernoulli, binary, or discrete events.
