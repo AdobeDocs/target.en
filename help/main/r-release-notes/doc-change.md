@@ -15,6 +15,7 @@ This page lists significant changes made to the [!DNL Adobe Target] product docu
 
 |Date|Topic|Changes|
 |--- |--- |--- |
+|March 18|[A4T support for [!UICONTROL Auto-Allocate] and [!UICONTROL Auto-Target] activities](/help/main/c-integrating-target-with-mac/a4t/a4t-at-aa.md)|Added note to the *Supported goal metrics* section.|
 |March 14|[[!DNL Target] release notes (current)](/help/main/r-release-notes/release-notes.md)|Added release notes for the [!DNL Target Standard/Premium] 25.3.6 release.|
 |March 13|[Supported browsers](https://experienceleague.adobe.com/en/docs/target-dev/developer/implementation/supported-browsers){target=_blank}|Updated supported browsers and added the "Visual editing requirements" section.|
 |March 11|[[!DNL Target] release notes (current)](/help/main/r-release-notes/release-notes.md)|Added release notes for the [!DNL Target Standard/Premium] 25.3.5 release.|
