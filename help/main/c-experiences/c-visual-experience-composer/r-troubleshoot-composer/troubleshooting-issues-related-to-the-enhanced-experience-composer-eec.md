@@ -96,7 +96,7 @@ Ask your IT team to allowlist the following IP addresses:
 
 ### Legacy IP addresses
 
-The following legacy IP addresses should be continue to be allowlisted until further notice.
+The following legacy IP addresses should continue to be allowlisted until further notice.
 
 34.254.77.200
 54.73.207.147
