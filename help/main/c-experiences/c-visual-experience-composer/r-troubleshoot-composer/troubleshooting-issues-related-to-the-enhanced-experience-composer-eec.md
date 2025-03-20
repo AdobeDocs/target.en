@@ -15,7 +15,7 @@ This can be resolved by allowlisting the following IP addresses. These IP addres
 
 Ask your IT team to allowlist the following IP addresses:
 
-### Prod va7
+### US (va7)
 
 40.70.154.136/29
 52.254.106.240/28
@@ -41,7 +41,7 @@ Ask your IT team to allowlist the following IP addresses:
 52.254.107.144/28
 52.254.106.144/28
 
-### Prod nld2
+### EMEA (nld2)
 
 51.138.17.16/28
 51.138.17.48/28
@@ -66,7 +66,7 @@ Ask your IT team to allowlist the following IP addresses:
 51.138.17.64/28
 51.138.12.160/28
 
-### Prod aus5
+### APAC (aus)
 
 20.43.104.160/28
 20.227.35.177
