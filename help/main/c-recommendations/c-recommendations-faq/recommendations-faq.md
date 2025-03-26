@@ -12,7 +12,7 @@ List of frequently asked questions (FAQs) about [!DNL Adobe Target] [!DNL Recomm
 
 ## Do [!DNL Recommendations] objects created via API display in the [!DNL Target] UI?
 
-Yes, [!UICONTROL Recommendations] objects ([!UICONTROL Criteria], [!UICONTROL Designs], [!UICONTROL Collections], and [!UICONTROL Exclusions]) created over API are now available in the UI.
+Yes, [!UICONTROL Recommendations] objects ([!UICONTROL Criteria], [!UICONTROL Designs], [!UICONTROL Collections], and [!UICONTROL Exclusions]) created over API are available in the UI and can be edited via API or [!DNL Target] UI.
 
 ## Can I manage [!DNL Target] UI-created visual offers using the [!DNL Target] APIs?
 
@@ -285,6 +285,5 @@ The following are known issues with [!UICONTROL Recommendations] activities:
 * When [!DNL Target] returns a JSON offer with getOffer(), it returns with type of JSON. However, if you return a JSON Recommendations design it returns with a type of HTML.
 * Expired entities are correctly expired after 60 days of receiving no updates via feed or API; however, the expired entities are not removed from the Catalog Search index after expiration. Entities deleted via feed or API are also not currently removed from the Catalog Search index. (IRI-857)
 * Recommendations Offers in A/B and Experience Targeting activities do not show a visual preview of the Recommendations tray (TGT-33426)
-* Collections, exclusions, criteria, and designs created via API are not visible in the Target user interface and can be edited only via API. Likewise, if you create any of these items in the Target UI and later edit them via API, those changes are not reflected in the Target UI. Items edited via API should continue to be edited via API to avoid loss of any modifications. (TGT-35777)
 * Recommendations activities created via API can be viewed in the user interface, but can only be edited via API.
 * The Custom Criteria feed status displayed in the Criteria list (card) view is refreshed every ten minutes and might be more than ten minutes out of date in rare circumstances. The status displayed in the Custom Criteria edit view is fetched in real time and is always up to date. (TGT-35896, TGT-36173)
