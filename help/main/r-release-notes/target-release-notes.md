@@ -17,6 +17,30 @@ This article contains prerelease information for upcoming [!DNL Adobe Target] re
 >
 >To view information about the current release, see [Target Release Notes](release-notes.md). The information on these pages might be the same, depending on the timing of releases. The issue numbers in parentheses are for internal [!DNL Adobe] use.
 
+## [!DNL Target Standard/Premium] 25.3.7 (March 26, 2025)
+
+This release includes the following fixes and updates:
+
+* Resolved an issue that blocked saving multi-page activities if a page was deleted after modifications. (TGT-51988)
+* Resolved an error that occurred when editing an activity: `default message [Invalid optionLocalIds: xx]]`. (TGT-51985)
+* Resolved an issue where adding new modifications to an activity removed existing modifications. (TGT-51981)
+* Resolved an issue where replacing an audience with "[!UICONTROL All visitors]" during activity creation or editing caused a "Duplicate audiences are not permitted" error. (TGT-51978)
+* Resolved an issue that caused an "Invalid user input" error when saving an [!UICONTROL A/B Test] activity. (TGT-51976)
+* Resolved an issue that prevented calculated metrics from displaying correctly on the [!UICONTROL Goals & Settings] page. (TGT-51975)
+* Resolved an issue that prevented matching `companyName` and `reportSuite` in the [!DNL Analytics] configuration for the `pageviews` metric. (TGT-51965)
+* Resolved an issue where switching experiences in an activity removed modifications. (TGT-51945)
+* Resolved an issue where removing a page audience also removed [!UICONTROL ClickTrack] selectors. (TGT-51935)
+* Resolved an issue that made an activity uneditable after opening its [!UICONTROL Overview] page. (TGT-51931)
+* Resolved an issue that caused an `[Unused optionLocalIds: 0]]` error during activity creation. (TGT-51920)
+* Resolved an issue where some changes were not translated correctly after removing text style changes. (TGT-51876)
+* Resolved an issue that prevented targeted audiences from updating correctly in the [!UICONTROL Form-Based Experience Composer]. (TGT-51845)
+* Resolved an issue where the URL in the [!UICONTROL Visual Experience Composer] did not update correctly during activity navigation. (TGT-51832)
+* Resolved an issue that prevented offers from appearing in the [!UICONTROL Offers] UI, despite displaying correctly when creating an activity and adding offers. (TGT-51805)
+* Resolved an issue where some activities lacked a fallback screen to display default content when personalized or targeted content could not be delivered. (TGT-51638)
+* Resolved an issue that prevented live offers and certain folders from displaying correctly in the [!UICONTROL Offers] UI. (TGT-51628)
+* Resolved an issue that prevented some URL strings and goURLs from being localized correctly. (TGT-35741)
+* Fixed an issue that prevented roles ([!UICONTROL Approver], [!UICONTROL Editor], and [!UICONTROL Observer]) from being localized correctly in the [!DNL Target] UI. (TGT-29925)
+
 ## [!DNL Target Standard/Premium] 25.3.6 (March 14, 2025)
 
 This release includes the following fixes and updates:
