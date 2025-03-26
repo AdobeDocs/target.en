@@ -17,6 +17,7 @@ This page lists significant changes made to the [!DNL Adobe Target] product docu
 |--- |--- |--- |
 |March 26|[[!DNL Target] release notes (current)](/help/main/r-release-notes/release-notes.md)|Added release notes for the [!DNL Target Standard/Premium] 25.3.7 release.|
 ||[Recommendations FAQ](/help/main/c-recommendations/c-recommendations-faq/recommendations-faq.md)|Updated FAQs to indicate that [!DNL Recommendations] objects created via API are available in the [!DNL Target] UI.|
+||[Collections](/help/main/c-recommendations/c-products/collections.md)|Added following note: Collection rules apply to recommendation items generated after the criteria run. They affect only Entity Recommendations (ERs) in the output, not the key.|
 |March 19|[Troubleshooting issues related to the [!UICONTROL Enhanced Experience Composer]](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/troubleshooting-issues-related-to-the-enhanced-experience-composer-eec.md)|Updated IP addresses to allowlist.|
 |March 18|[A4T support for [!UICONTROL Auto-Allocate] and [!UICONTROL Auto-Target] activities](/help/main/c-integrating-target-with-mac/a4t/a4t-at-aa.md)|Added note to the *Supported goal metrics* section.|
 |March 14|[[!DNL Target] release notes (current)](/help/main/r-release-notes/release-notes.md)|Added release notes for the [!DNL Target Standard/Premium] 25.3.6 release.|
