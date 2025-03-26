@@ -26,7 +26,9 @@ When you are creating or editing a [!DNL Recommendations] activity, the collecti
 
 >[!NOTE]
 >
->Collections are not applied when using the [!UICONTROL Recently Viewed Items] recommendation key.
+>* Collection rules apply to recommendation items generated after the criteria run. They affect only Entity Recommendations (ERs) in the output, not the key.
+>
+>* Collections are not applied when using the [!UICONTROL Recently Viewed Items] recommendation key.
 
 ## Create a Collection {#task_1256DFF6842141FCAADD9E1428EF7F08}
 
