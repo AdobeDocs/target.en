@@ -15,6 +15,7 @@ This page lists significant changes made to the [!DNL Adobe Target] product docu
 
 |Date|Topic|Changes|
 |--- |--- |--- |
+|March 31|[at.js version details](https://experienceleague.adobe.com/en/docs/target-dev/developer/client-side/at-js-implementation/target-atjs-versions){target=_blank}|Added information about the at.js 2.11.8 release.|
 |March 26|[[!DNL Target] release notes (current)](/help/main/r-release-notes/release-notes.md)|Added release notes for the [!DNL Target Standard/Premium] 25.3.7 release.|
 ||[Recommendations FAQ](/help/main/c-recommendations/c-recommendations-faq/recommendations-faq.md)|Updated FAQs to indicate that [!DNL Recommendations] objects created via API are available in the [!DNL Target] UI.|
 ||[Collections](/help/main/c-recommendations/c-products/collections.md)|Added following note: Collection rules apply to recommendation items generated after the criteria run. They affect only Entity Recommendations (ERs) in the output, not the key.|

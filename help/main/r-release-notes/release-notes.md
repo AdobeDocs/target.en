@@ -13,6 +13,12 @@ These release notes provide information about features, enhancements, and fixes 
 
 (The issue numbers in parentheses are for internal [!DNL Adobe] use.)
 
+## [!DNL Target Standard/Premium] 25.3.8 (March 28, 2025)
+
+This release includes the following fixes and updates:
+
+* Resolved an issue that caused the [!UICONTROL Activities] page to load slowly. (TGT-51151)
+
 ## [!DNL Target Standard/Premium] 25.3.7 (March 26, 2025)
 
 This release includes the following fixes and updates:
