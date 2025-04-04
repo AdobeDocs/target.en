@@ -21,7 +21,7 @@ This article contains prerelease information for upcoming [!DNL Adobe Target] re
 
 This future update enhances organizational control over [!DNL Target] instance configurations, preventing accidental updates that could affect activity delivery across various testing and personalization teams.
 
-Effective April 22, 2025, only Product and Solutions Admins will be able to update settings in the [!UICONTROL Administration] sections, regardless of their roles in [!DNL Target] workspaces. Users without this permission will have read-only access to the [!UICONTROL Administration] sections.
+Effective April 22, 2025, only [!UICONTROL Product] and [!UICONTROL Solutions] admins will be able to update settings in the [!UICONTROL Administration] sections, regardless of their roles in [!DNL Target] workspaces. Users without this permission will have read-only access to the [!UICONTROL Administration] sections.
 
 For more information, see [Administer Target](/help/main/administrating-target/start-target.md).
 
