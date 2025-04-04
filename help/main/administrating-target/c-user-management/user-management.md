@@ -10,6 +10,8 @@ exl-id: 3bf0c23c-7382-43d2-af54-734221063872
 
 Information about managing users in [!DNL Target] Standard and managing enterprise [!UICONTROL Properties] and [!UICONTROL Permissions] in [!DNL Target] Premium.
 
+{{permissions-update}}
+
 >[!NOTE]
 >
 >[!UICONTROL Properties] and [!UICONTROL Permissions] functionality is available as part of the [!DNL Target Premium] solution. They are not available in [!DNL Target Standard] without a [!DNL Target Premium] license. For more information about the advanced [!DNL Target] Premium features, see [Target Premium](/help/main/c-intro/intro.md#premium) in *Introduction to Target*.

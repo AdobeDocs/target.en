@@ -10,6 +10,8 @@ exl-id: 89023213-b109-4d07-af4e-4b8da481806d
 
 Information to help you administer [!DNL Adobe Target], including configuration settings for the Visual Experience Composer (VEC), reporting, Scene7 configuration, implementation, hosts, environments, response tokens, users, and [!DNL Recommendations].
 
+{{permissions-update}}
+
 To access the [!UICONTROL Administration] menu items, click **[!UICONTROL Administration]** in the top menu bar, then click the desired tab along the left side:
 
 * [Visual Experience Composer](/help/main/administrating-target/visual-experience-composer-set-up.md)

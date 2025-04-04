@@ -16,6 +16,8 @@ One environment, the default environment, is pre-named [!UICONTROL Production]. 
 
 When a [!DNL Target] request is received from new websites or domains, these new domains always appear in the [!UICONTROL Production] environment. The [!UICONTROL Production] environment cannot have its settings changed, so unknown or new sites are guaranteed to see only content that is active and ready. Host management also lets you easily ensure the quality of new activities and content in your test, staging, and development environments before you activate the activities.
 
+{{permissions-update}}
+
 To manage environments, click **[!UICONTROL Administration]** > **[!UICONTROL Environments]**.
 
 ## Add an environment {#section_32097D0993724DF3A202D164D3F18674}

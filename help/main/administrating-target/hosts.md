@@ -16,6 +16,8 @@ A host is any domain from which a [!DNL Target] request is made. On a website, i
 
 By default, [!DNL Target] does not limit a host that can make [!DNL Target] requests and receive [!DNL Target] responses. When new hosts make requests, they automatically work. This process also enables testing on different domains you don't know or can't anticipate. If you want to override this default behavior, you can set up an allowlist or blocklist to limit which hosts work with [!DNL Target].
 
+{{permissions-update}}
+
 To manage hosts, click **[!UICONTROL Administration]** > **[!UICONTROL Hosts]**.
 
 ## Recognizing hosts {#concept_0D4B43E23AA9408F8B28A57ED754BF65}

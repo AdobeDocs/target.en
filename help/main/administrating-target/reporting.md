@@ -10,6 +10,8 @@ exl-id: fd83e60e-64a6-4d0e-909f-480d13bac32b
 
 Configure general settings to use in [!DNL Adobe Target] reporting that apply to your entire [!DNL Target] account.
 
+{{permissions-update}}
+
 To access the [!UICONTROL Reporting] configuration page, click **[!UICONTROL Administration]** > **[!UICONTROL Reporting].**
 
 You can specify the following settings on this page:

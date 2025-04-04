@@ -52,6 +52,10 @@ If your organization has a [Target Premium](/help/main/c-intro/intro.md#premium)
 
 Your next step should be to set up users in [!DNL Target Standard] and [!DNL Target Premium]. For more information, see [User management](/help/main/administrating-target/c-user-management/user-management.md).
 
->[!IMPORTANT]
->
->Users with [!UICONTROL Product Admin] or [!UICONTROL System Admin] rights in the [!DNL Adobe Admin Console] can edit or change all settings on the [!UICONTROL Administration] page of [!DNL Target], regardless of their [!DNL Target] role. Users without [!UICONTROL Product Admin] or [!UICONTROL System Admin] rights in the [!DNL Adobe Admin Console] must have the specific [!DNL Target] role to make these changes.
+## Permissions required for editing [!UICONTROL Administration] settings {#admin-permissions}
+
+**Before April 22, 2025**: Users with [!UICONTROL Product Admin] or [!UICONTROL Solutions Admin] rights in the [!DNL Adobe Admin Console] can edit or change all settings on the [[!UICONTROL Administration] page](/help/main/administrating-target/administrating-target.md) page of [!DNL Target], regardless of their [!DNL Target] role. Users without [!UICONTROL Product Admin] or [!UICONTROL System Admin] rights in the [!DNL Adobe Admin Console] must have the specific [!DNL Target] role to make these changes.
+
+**Effective April 22, 2025**: Only [!UICONTROL Product] and [!UICONTROL Solutions] admins will be able to update settings in the [[!UICONTROL Administration]](/help/main/administrating-target/administrating-target.md) sections, regardless of their roles in [!DNL Target] workspaces. Users without this permission will have read-only access to the [!UICONTROL Administration] sections.
+
+This update enhances organizational control over [!DNL Target] instance configurations, preventing accidental updates that could affect activity delivery across various testing and personalization teams.

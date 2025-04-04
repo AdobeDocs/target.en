@@ -15,6 +15,10 @@ This page lists significant changes made to the [!DNL Adobe Target] product docu
 
 |Date|Topic|Changes|
 |--- |--- |--- |
+|April 4|[[!DNL Target] release notes (current)](/help/main/r-release-notes/release-notes.md)|Updated release notes for the upcoming [!DNL Target] permissions update scheduled for April 22, 2025.|
+||[[!DNL Target] release notes (prerelease)](/help/main/r-release-notes/target-release-notes.md)|Updated prerelease notes for the upcoming [!DNL Target] permissions update scheduled for April 22, 2025.|
+||[Administrator first steps](/help/main/administrating-target/start-target.md#admin-permissions)|Added new section: "Permissions required for editing [!UICONTROL Administration] settings."|
+||[Administer [!DNL Target] Overview](/help/main/administrating-target/administrating-target.md)|Added Important note about permissions required for editing [!UICONTROL Administration] settings.<P>Added same note to all articles in the [!UICONTROL Administration] section.|
 |April 2|[[!DNL Target] release notes (current)](/help/main/r-release-notes/release-notes.md)|Added release notes for the [!DNL Target Standard/Premium] 25.4.1 release.|
 
 ### [!DNL Target Standard/Premium] 25.3.1 (March 3, 2025)
