@@ -12,6 +12,8 @@ Configure the [!DNL Adobe Target] [!UICONTROL Visual Experience Composer] (VEC) 
 
 To access the [!UICONTROL Visual Experience Composer] configuration page, click **[!UICONTROL Administration]** > **[!UICONTROL Visual Experience Composer].**
 
+{{permissions-update}}
+
 >[!NOTE]
 >
 >Be aware that settings on this page apply to the entire [!DNL Target] account. 

@@ -10,6 +10,8 @@ exl-id: 315670ca-a4d1-4808-b3ec-f2ac195c281a
 
 [!DNL Adobe Target] can be integrated with [!DNL Adobe Dynamic Media Classic] (formerly [!DNL Scene7]) to provide Digital Asset Management (DAM) in the [!UICONTROL Content Library].
 
+{{permissions-update}}
+
 >[!NOTE]
 >
 >Integrating [!DNL Target] with [!DNL Dynamic Media Classic] enables delivery of assets (as part of activities) uploaded to the [!DNL Adobe Experience Cloud] assets folder. This integration does not enable access to all assets uploaded in [!DNL Dynamic Media Classic] for delivery in [!DNL Target] activities.

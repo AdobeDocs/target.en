@@ -11,6 +11,8 @@ exl-id: 5dbae0d9-897f-4e0a-b013-0e9ad6654150
 
 Learn how to configure settings for [!DNL Adobe Target Recommendations]. 
 
+{{permissions-update}}
+
 To access the [!DNL Recommendations] settings options, open [!DNL Target] in the [!DNL Adobe Experience Cloud], then click [!UICONTROL Administration] > [!UICONTROL Recommendations].
 
 You can configure the following settings:
