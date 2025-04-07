@@ -25,6 +25,22 @@ Effective April 22, 2025, only [!UICONTROL Product] and [!UICONTROL Solutions] a
 
 For more information, see [Administer Target](/help/main/administrating-target/start-target.md).
 
+## [!DNL Target Standard/Premium] 25.4.3 (April 10, 2025)
+
+This release includes the following fixes and updates:
+
+* Fixed an issue where the [!UICONTROL Activity QA] link in the [!UICONTROL Form-Based Experience Composer] incorrectly redirected to the [!DNL Adobe Experience Cloud] homepage. (TGT-52055)
+* Added an error message to guide users on resolving duplicate options in an activity. (TGT-51927)
+
+## [!DNL Target Standard/Premium] 25.4.2 (April 8, 2025)
+
+This release includes the following fixes and updates:
+
+* Fixed an issue where additional pages added to the [!UICONTROL A/B Test] activity were not retained after saving and reopening. (TGT-51994)
+* Fixed an issue that prevented customers from deleting styles in the inline style section. (TGT-52070)
+* Restored access to [audience definition cards](/help/main/c-target/c-audiences/audiences.md#section_11B9C4A777E14D36BA1E925021945780) in the [!UICONTROL Activity QA] dialog box, similar to the legacy UI. (TGT-52056)
+* The updated UI did not save pages or audiences without modifications. If customers added new pages or audiences to an activity but make no changes to them, [!DNL Target] discarded the unmodified audiences upon saving. Notifications have added in relevant places to inform users of this behavior. (TGT-52104)
+
 ## [!DNL Target Standard/Premium] 25.4.1 (April 2, 2025)
 
 This release includes the following fixes and updates:
