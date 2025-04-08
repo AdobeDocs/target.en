@@ -9,7 +9,7 @@ exl-id: f2783042-f6ee-4f73-b487-ede11d55d530
 
 This article contains prerelease information for upcoming [!DNL Adobe Target] releases, including SDKs, APIs, and JavaScript libraries.
 
-**Last Updated: April 2, 2025**
+**Last Updated: April 8, 2025**
 
 >[!NOTE]
 >
@@ -40,26 +40,6 @@ This release includes the following fixes and updates:
 * Fixed an issue that prevented customers from deleting styles in the inline style section. (TGT-52070)
 * Restored access to [audience definition cards](/help/main/c-target/c-audiences/audiences.md#section_11B9C4A777E14D36BA1E925021945780) in the [!UICONTROL Activity QA] dialog box, similar to the legacy UI. (TGT-52056)
 * The updated UI did not save pages or audiences without modifications. If customers added new pages or audiences to an activity but make no changes to them, [!DNL Target] discarded the unmodified audiences upon saving. Notifications have added in relevant places to inform users of this behavior. (TGT-52104)
-
-## [!DNL Target Standard/Premium] 25.4.1 (April 2, 2025)
-
-This release includes the following fixes and updates:
-
-* Fixed an issue that caused experience audiences to disappear from activities. (TGT-52003)
-* Fixed an issue that caused unexpected elements during delivery. (TGT-52011)
-* Fixed an issue that blocked customers from viewing the audience in the targeting graph on the Ove[!UICONTROL r]view page and during activity editing. (TGT-52050)
-* Fixed an issue that prevented customers from reordering experiences in order of priority in [!UICONTROL Experience Targeting] (XT) activities. (TGT-52054)
-* Fixed an issue that caused incorrect rendering when undoing text style changes. (TGT-51876)
-* Fixed an issue that when modifying a redirect offer, [!DNL Target] also removes any [!UICONTROL ClickTrack] selectors associated with that offer. (TGT-51936)
-* Fixed an issue that caused [!DNL Target] to incorrectly save the selector when cancelling [!UICONTROL ClickTrack]. (TGT-51937)
-* Fixed an issue that triggered an invalid name error after opening and closing the mbox picker on the [!UICONTROL Goals & Settings] page without making any changes. (TGT-51983)
-* Fixed an issue that blocked editing ad hoc offers created in the legacy [!DNL Target] UI. (TGT-51984)
-* Fixed an issue that blocked editing activities that have ad-hoc offers that contain custom code. (TGT-51995)
-* Fixed an issue that caused exclusion rules to display as inclusion rules when editing combined audience definitions. (TGT-51999)
-* Fixed an issue that prevented custom code from displaying correctly during experience editing. (TGT-52005)
-* Fixed an issue that made the [!UICONTROL Insert Before] option unavailable for inserting content before the navigation bar. (TGT-52031)
-* Fixed an issue that prevented correct highlighting of the default experience in reporting. (TGT-51716)
-* Fixed an issue that triggered a `default message [Invalid optionLocalIds: xx]]` message when creating an activity. (TGT-52038)
 
 <!-- 
 ## [!DNL Target Standard/Premium] 24.10.2 (October 21, 2024)
