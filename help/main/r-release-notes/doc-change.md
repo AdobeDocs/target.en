@@ -15,8 +15,9 @@ This page lists significant changes made to the [!DNL Adobe Target] product docu
 
 |Date|Topic|Changes|
 |--- |--- |--- |
+|April 9|[[!DNL Target] release notes (prerelease)](/help/main/r-release-notes/target-release-notes.md)|Updated the prerelease notes dates for the 25.4.3 release.|
 |April 8|[CNAME and Target](https://experienceleague.adobe.com/en/docs/target-dev/developer/implementation/implement-cname-support-in-target){target=_blank}|Updated the following:<ul><li>All certificates are RSA SHA-256 and keys are RSA 2048-bit, by default. Key sizes larger than 2048-bit should be requested explicitly through Customer Care. (Previously stated key sizes larger than 2048-bit were unsupported.)</li><li>Updated bash script.</li><li>Updated validation output code snippet.</li></ul>|
-|April 7|[[!DNL Target] release notes (prerelease)](/help/main/r-release-notes/target-release-notes.md)|Added prerelease notes for the following upcoming releases:<UL><li>[!DNL Target Standard/Premium] 25.4.2 (April 8, 2025)</li><li>[!DNL Target Standard/Premium] 25.4.3 (April 10, 2025)</li></ul>|
+|April 7|[[!DNL Target] release notes (prerelease)](/help/main/r-release-notes/target-release-notes.md)|Added prerelease notes for the following upcoming release:<UL><li>[!DNL Target Standard/Premium] 25.4.3 (April 10, 2025)</li></ul>|
 |April 4|[[!DNL Target] release notes (current)](/help/main/r-release-notes/release-notes.md)|Updated release notes for the upcoming [!DNL Target] permissions update scheduled for April 22, 2025.|
 ||[[!DNL Target] release notes (prerelease)](/help/main/r-release-notes/target-release-notes.md)|Updated prerelease notes for the upcoming [!DNL Target] permissions update scheduled for April 22, 2025.|
 ||[Administrator first steps](/help/main/administrating-target/start-target.md#admin-permissions)|Added new section: "Permissions required for editing [!UICONTROL Administration] settings."|
