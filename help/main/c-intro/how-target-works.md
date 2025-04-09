@@ -9,6 +9,15 @@ exl-id: 8a93e061-0be7-4ecc-b511-2210094547f2
 
 Learn how [!DNL Adobe Target] works, including details on the JavaScript libraries ([!DNL Adobe Experience Platform Web SDK] and at.js). This article also covers the various activity types that you can create, [!DNL Target] usage-counting strategies, the [!DNL Target] Edge Network, SEO, and bot detection.
 
+Key points include:
+
+* **JavaScript Libraries**: Learn information about the [!DNL Target] JavaScript libraries: [!DNL Adobe Experience Platform Web SDK] and at.js.
+* **Server-call usage strategies**: Understand how [!DNL Target] counts various server calls, including  endpoints, single mbox, batch mbox, execute, prefetch, and notification calls.
+* **Edge Network**: Discover how [!DNL Target] interacts with the [!DNL Adobe Experience Platform Edge Network].
+* **Protected user experience**: Learn how [!DNL Adobe] ensures the availability and performance of its targeting infrastructure.
+* **SEO Guidelines**: Follow best practices for aligning [!DNL Target] activities with SEO guidelines.
+* **Bot Traffic**: Learn how Target handles bot traffic to avoid skewing tests and personalization algorithms.
+
 ## [!DNL Adobe Target] JavaScript libraries {#libraries}
 
 Target integrates with websites using the [!DNL Experience Platform Web SDK] or at.js:
