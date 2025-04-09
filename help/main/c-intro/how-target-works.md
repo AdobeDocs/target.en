@@ -1,13 +1,13 @@
 ---
 keywords: Adobe Experience Platform Web SDK;aep web sdk;aep sdk;search engine optimization;search engine optimization;seo;edge clusters, central clusters;at.js;mbox.js;
-description: Learn how [!DNL Adobe Target] works, including information about JavaScript libraries (AEP Web SDK at.js), Adobe data centers, SEO testing, and bots.
+description: Learn how [!DNL Adobe Target] works, including information about JavaScript libraries (AEP Web SDK at.js), usage strategies, Adobe data centers, SEO testing, and bots.
 title: How Does [!DNL Target] Work?
 feature: Overview
 exl-id: 8a93e061-0be7-4ecc-b511-2210094547f2
 ---
 # How [!DNL Adobe Target] works
 
-Learn how [!DNL Adobe Target] works, including information about the JavaScript libraries ([!DNL Adobe Experience Platform Web SDK] and at.js). This article also introduces the various activity types that you can create using [!DNL Target]. You can also learn about the [!DNL Target] edge network, Search Engine Optimization (SEO), and how [!DNL Target] detects bots.
+Learn how [!DNL Adobe Target] works, including information about the JavaScript libraries ([!DNL Adobe Experience Platform Web SDK] and at.js). This article also introduces the various activity types that you can create using [!DNL Target]. You can also learn about [!DNL Target] usage-counting strategies, the [!DNL Target] edge network, Search Engine Optimization (SEO), and how [!DNL Target] detects bots.
 
 ## [!DNL Adobe Target] JavaScript libraries {#libraries}
 
@@ -83,6 +83,27 @@ See [Multivariate Test](/help/main/c-activities/c-multivariate-testing/multivari
 [!UICONTROL Recommendations] activities automatically display products or content that might interest your customers based on previous user activity or other algorithms. Recommendations help direct customers to relevant items that they might otherwise not know about.
 
 See [Recommendations](/help/main/c-recommendations/recommendations.md#concept_7556C8A4543942F2A77B13A29339C0C0) for more information.
+
+## How [!DNL Target] counts server-call usage {#usage}
+
+[!DNL Target] counts only server calls that provide value to customers. The following table shows how [!DNL Target] counts endpoints, single mbox, batch mbox calls, execute, prefetch, and notification calls.
+
+|Endpoint|Fetch type|Options|Counting strategy|
+|--- |--- |--- |-- |
+|`rest//v1/mbox`|Single|[!UICONTROL execute]|Count once|
+|`rest/v2/batchmbox`|Batch|[!UICONTROL execute]|Count the number of mboxes|
+||Batch|[!UICONTROL prefetch]|Ignore|
+||Batch|[!UICONTROL notifications]|Count the number of mboxes|
+|`/ubox/[raw\|image\|page]`|Single|[!UICONTROL execute]|Count once|
+|`rest/v1/delivery`<p>`/rest/v1/target-upstream`|Single|[!UICONTROL execute] > [!UICONTROL pageLoad]|Count once|
+||Single|[!UICONTROL prefetch] > [!UICONTROL pageLoad]|Ignore|
+||Single|[!UICONTROL prefetch] > [!UICONTROL views]|Ignore|
+||Batch|[!UICONTROL execute] > [!UICONTROL mboxes]|Count the number of mboxes|
+||Batch|[!UICONTROL prefetch] > [!UICONTROL mboxes]|Ignore|
+||Batch|[!UICONTROL notifications] > [!UICONTROL views]|Count the number of views (once)|
+||Batch|[!UICONTROL notifications] > [!UICONTROL pageLoad]|Count once|
+||Batch|[!UICONTROL notifications] > type ([!UICONTROL conversions])|Count once|
+||Batch|[!UICONTROL notifications] > [!UICONTROL mboxes]|Count the number of mboxes|
 
 ## The edge network {#concept_0AE2ED8E9DE64288A8B30FCBF1040934}
 
