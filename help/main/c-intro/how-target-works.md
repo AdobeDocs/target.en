@@ -29,7 +29,9 @@ The following resources contain detailed information to help you implement the [
 
 Each time a visitor requests a page optimized for [!DNL Target], a real-time request is sent to the targeting system to determine the content to serve. This request is made and fulfilled every time a page loads, governed by marketer-controlled activities and experiences. Content is targeted to individual site visitors, maximizing response rates, acquisition rates, and revenue. Personalized content helps ensure that visitors respond, interact, or make purchases.
 
-In [!DNL Target], each element on the page is part of a single experience, which can include multiple elements. The displayed content depends on the type of activity that you create:
+In [!DNL Target], each element on the page is part of a single experience, which can include multiple elements. 
+
+The displayed content depends on the type of activity that you create:
 
 ### [!UICONTROL A/B Test]
 
