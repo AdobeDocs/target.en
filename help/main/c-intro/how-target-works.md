@@ -1,6 +1,6 @@
 ---
 keywords: Adobe Experience Platform Web SDK;aep web sdk;aep sdk;search engine optimization;search engine optimization;seo;edge clusters, central clusters;at.js;mbox.js;
-description: Learn how [!DNL Adobe Target] works, including information about JavaScript libraries (AEP Web SDK at.js), usage strategies, Adobe data centers, SEO testing, and bots.
+description: Learn how [!DNL Adobe Target] works, including information about JavaScript libraries (AEP Web SDK at.js), server-call usage strategies, usage, Adobe data centers, SEO testing, and bots.
 title: How Does [!DNL Target] Work?
 feature: Overview
 exl-id: 8a93e061-0be7-4ecc-b511-2210094547f2
