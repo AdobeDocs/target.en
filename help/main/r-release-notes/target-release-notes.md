@@ -25,6 +25,16 @@ Effective April 22, 2025, only [!UICONTROL Product] and [!UICONTROL Solutions] a
 
 For more information, see [Administer Target](/help/main/administrating-target/start-target.md).
 
+## [!DNL Target Standard/Premium] 25.4.4 (April 15, 2025)
+
+This release includes the following fixes and updates:
+
+* Added an error message to guide users on resolving duplicate options in an activity. (TGT-51927)
+* Fixed an issue where ClickTrack selectors were not removed when deleting pages or experiences with redirect offers. (TGT-51952)
+* Fixed an issue where [!DNL Target] failed to correctly detect a "#" character in the activity URL. (TGT-52093)
+* Fixed an issue where audience definitions were not visible when editing offer-level targeting in [!UICONTROL Automated Personalization] (AP) activities. (TGT-52148)
+* Fixed an issue where audience refinements and activity targeting audiences were reversed in the UI. (TGT-52158)
+
 ## [!DNL Target Standard/Premium] 25.4.3 (April 10, 2025)
 
 This release includes the following fixes and updates:
@@ -45,7 +55,6 @@ This release includes the following fixes and updates:
 * Fixed an issue that prevented the entire experience URL from displaying in [!UICONTROL Browse mode] within the [!UICONTROL Visual Experience Composer] (VEC). (TGT-52101)
 * Fixed an issue where editing an activity caused page delivery to add a "/" to the end of the URL, rendering it invalid. (TGT-52114)
 * Fixed an issue where the [!UICONTROL Activity QA] link in the [!UICONTROL Form-Based Experience Composer] incorrectly redirected to the [!DNL Adobe Experience Cloud] homepage. (TGT-52055)
-* Added an error message to guide users on resolving duplicate options in an activity. (TGT-51927)
 * Fixed an issue where additional pages added to the [!UICONTROL A/B Test] activity were not retained after saving and reopening. (TGT-51994)
 * Fixed an issue that prevented customers from deleting styles in the inline style section. (TGT-52070)
 * Restored access to [audience definition cards](/help/main/c-target/c-audiences/audiences.md#section_11B9C4A777E14D36BA1E925021945780) in the [!UICONTROL Activity QA] dialog box, similar to the legacy UI. (TGT-52056)
