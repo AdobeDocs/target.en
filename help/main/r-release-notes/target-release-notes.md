@@ -17,24 +17,6 @@ This article contains prerelease information for upcoming [!DNL Adobe Target] re
 >
 >To view information about the current release, see [Target Release Notes](release-notes.md). The information on these pages might be the same, depending on the timing of releases. The issue numbers in parentheses are for internal [!DNL Adobe] use.
 
-## Target permissions update (April 22, 2025)
-
-This future update enhances organizational control over [!DNL Target] instance configurations, preventing accidental updates that could affect activity delivery across various testing and personalization teams.
-
-Effective April 22, 2025, only [!UICONTROL Product] and [!UICONTROL Solutions] admins will be able to update settings in the [!UICONTROL Administration] sections, regardless of their roles in [!DNL Target] workspaces. Users without this permission will have read-only access to the [!UICONTROL Administration] sections.
-
-For more information, see [Administer Target](/help/main/administrating-target/start-target.md).
-
-## [!DNL Target Standard/Premium] 25.4.4 (April 15, 2025)
-
-This release includes the following fixes and updates:
-
-* Added an error message to guide users on resolving duplicate options in an activity. (TGT-51927)
-* Fixed an issue where ClickTrack selectors were not removed when deleting pages or experiences with redirect offers. (TGT-51952)
-* Fixed an issue where [!DNL Target] failed to correctly detect a "#" character in the activity URL. (TGT-52093)
-* Fixed an issue where audience definitions were not visible when editing offer-level targeting in [!UICONTROL Automated Personalization] (AP) activities. (TGT-52148)
-* Fixed an issue where audience refinements and activity targeting audiences were reversed in the UI. (TGT-52158)
-
 ## [!DNL Target Standard/Premium] 25.4.3 (April 10, 2025)
 
 This release includes the following fixes and updates:
@@ -59,6 +41,24 @@ This release includes the following fixes and updates:
 * Fixed an issue that prevented customers from deleting styles in the inline style section. (TGT-52070)
 * Restored access to [audience definition cards](/help/main/c-target/c-audiences/audiences.md#section_11B9C4A777E14D36BA1E925021945780) in the [!UICONTROL Activity QA] dialog box, similar to the legacy UI. (TGT-52056)
 * The updated UI did not save pages or audiences without modifications. If customers added new pages or audiences to an activity but make no changes to them, [!DNL Target] discarded the unmodified audiences upon saving. Notifications have added in relevant places to inform users of this behavior. (TGT-52104)
+
+## [!DNL Target Standard/Premium] 25.4.4 (April 15, 2025)
+
+This release includes the following fixes and updates:
+
+* Added an error message to guide users on resolving duplicate options in an activity. (TGT-51927)
+* Fixed an issue where ClickTrack selectors were not removed when deleting pages or experiences with redirect offers. (TGT-51952)
+* Fixed an issue where [!DNL Target] failed to correctly detect a "#" character in the activity URL. (TGT-52093)
+* Fixed an issue where audience definitions were not visible when editing offer-level targeting in [!UICONTROL Automated Personalization] (AP) activities. (TGT-52148)
+* Fixed an issue where audience refinements and activity targeting audiences were reversed in the UI. (TGT-52158)
+
+## Target permissions update (April 22, 2025)
+
+This future update enhances organizational control over [!DNL Target] instance configurations, preventing accidental updates that could affect activity delivery across various testing and personalization teams.
+
+Effective April 22, 2025, only [!UICONTROL Product] and [!UICONTROL Solutions] admins will be able to update settings in the [!UICONTROL Administration] sections, regardless of their roles in [!DNL Target] workspaces. Users without this permission will have read-only access to the [!UICONTROL Administration] sections.
+
+For more information, see [Administer Target](/help/main/administrating-target/start-target.md).
 
 ## Additional release notes and version details
 
