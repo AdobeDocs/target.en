@@ -95,6 +95,13 @@ See [Recommendations](/help/main/c-recommendations/recommendations.md#concept_75
 
 [!DNL Target] counts only server calls that provide value to customers. The following table shows how [!DNL Target] counts endpoints, single mbox, batch mbox calls, execute, prefetch, and notification calls.
 
+The following information helps you understand the counting strategy used for [!DNL Target] server calls, as shown in the table below:
+
+* **Count Once**: Counts once per API call
+* **Count the Number of mboxes**: Counts the number of mboxes under the array in the payload of a single API call
+* **Ignore**: is not counted at all
+* **Count the Number of Views (Once)**: Counts the number of views under the array in the payload. In a typical implementation, a view notification has only one view under the notifications array, making this equivalent to counting once in most implementations
+
 |Endpoint|Fetch type|Options|Counting strategy|
 |--- |--- |--- |-- |
 |`rest//v1/mbox`|Single|[!UICONTROL execute]|Count once|
