@@ -99,7 +99,7 @@ The following information helps you understand the counting strategy used for [!
 
 * **Count Once**: Counts once per API call
 * **Count the Number of mboxes**: Counts the number of mboxes under the array in the payload of a single API call
-* **Ignore**: is not counted at all
+* **Ignore**: Is not counted at all
 * **Count the Number of Views (Once)**: Counts the number of views under the array in the payload. In a typical implementation, a view notification has only one view under the notifications array, making this equivalent to counting once in most implementations
 
 |Endpoint|Fetch type|Options|Counting strategy|
