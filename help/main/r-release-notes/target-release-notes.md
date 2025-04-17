@@ -22,10 +22,15 @@ This article contains prerelease information for upcoming [!DNL Adobe Target] re
 This release includes the following fixes and updates:
 
 * Added an error message to guide users on resolving duplicate options in an activity. (TGT-51927)
-* Fixed an issue where ClickTrack selectors were not removed when deleting pages or experiences with redirect offers. (TGT-51952)
-* Fixed an issue where [!DNL Target] failed to correctly detect a "#" character in the activity URL. (TGT-52093)
+* Fixed an issue where `ClickTrack` selectors were not removed when deleting pages or experiences with redirect offers. (TGT-51952)
+* Fixed an issue caused by allowing empty `ClickTrack` selectors. [!DNL Target] now requires that the selector field must not be blank. (TGT-52107)
+* Fixed an issue that incorrectly allowed metrics with duplicate names. Metrics now require unique names. (TGT-52201)
 * Fixed an issue where audience definitions were not visible when editing offer-level targeting in [!UICONTROL Automated Personalization] (AP) activities. (TGT-52148)
-* Fixed an issue where audience refinements and activity targeting audiences were reversed in the UI. (TGT-52158)
+* Fixed an issue that prevented customers with [!UICONTROL Editor] rights from saving activities. (TGT-52227)
+* `OptionLocalIDs` no longer increment incorrectly when the option remains unchanged. (TGT-52139)
+* Fixed an issue that caused an "Invalid `optionLocalIds`" message when trying to create an activity. (TGT-52154)
+* Discrepancies between `OptionLocalIDs` defined for an activity and those used to define experiences have been fixed. (TGT-52215)
+* Fixed an issue that caused a validation failure that occurred when trying to create an A/B activity. (TGT-51923)
 
 ## Target permissions update (April 22, 2025)
 
