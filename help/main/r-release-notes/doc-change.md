@@ -15,6 +15,7 @@ This page lists significant changes made to the [!DNL Adobe Target] product docu
 
 |Date|Topic|Changes|
 |--- |--- |--- |
+|April 17|[[!DNL Target] release notes (current)](/help/main/r-release-notes/release-notes.md)|Added release notes for the [!DNL Target Standard/Premium] 25.4.4 release.
 |April 11|[[!DNL Target] release notes (current)](/help/main/r-release-notes/release-notes.md)|Added release notes for the [!DNL Target Standard/Premium] 25.4.3 release.|
 ||[How [!DNL Target] works](/help/main/c-intro/how-target-works.md#usage)|Added new section: "How [!DNL Target] counts server-call usage."|
 |April 9|[[!DNL Target] release notes (prerelease)](/help/main/r-release-notes/target-release-notes.md)|Updated the prerelease notes dates for the 25.4.4 release.|
