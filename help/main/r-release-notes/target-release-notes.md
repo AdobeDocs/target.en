@@ -17,6 +17,19 @@ This article contains prerelease information for upcoming [!DNL Adobe Target] re
 >
 >To view information about the current release, see [Target Release Notes](release-notes.md). The information on these pages might be the same, depending on the timing of releases. The issue numbers in parentheses are for internal [!DNL Adobe] use.
 
+## [!DNL Target Standard/Premium] 25.4.5 (April 24, 2025)
+
+This release includes the following fixes and updates:
+
+* Fixed an issue that caused multiple experience audiences to display when editing or saving an activity. (TGT-52134)
+* Fixed an issue where recommendations did not display on the customer's website after activating the [!DNL Recommendations] activity. (TGT-52164)
+* `OptionLocalIDs` no longer incorrectly increment when the option remains unchanged. (TGT-52187)
+* Downloaded reporting files now correctly show data present in the reporting UI. (TGT-52068)
+* Fixed an issue that prevented Target from recognizing the "#" character in a website's URL. (TGT-52093)
+* Batch operations no longer fail after adding page-delivery rules. (TGT-52097)
+* Fixed an issue that caused [!DNL Target] to trim all query parameters from the website's URL. (TGT-52100)
+* Fixed an issue that caused audience refinements and activity audiences to be reversed in the updated UI. (TGT-52158)
+
 ## Target permissions update (April 22, 2025)
 
 This future update enhances organizational control over [!DNL Target] instance configurations, preventing accidental updates that could affect activity delivery across various testing and personalization teams.
