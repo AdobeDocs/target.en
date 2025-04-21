@@ -37,7 +37,7 @@ The following table shows the customer-provided data collected by [!UICONTROL Au
 |Referring URL|REF|Referring URL and any URL parameters for the referring URL.|Custom - [Referring URL Parameter] - [Parameter value]|
 |[!DNL Adobe Experience Cloud] shared audiences|AAM|All audiences shared with [!DNL Target] from other [!DNL Adobe Experience Cloud] solutions (for example, [!DNL Adobe Audience Manager] and [!DNL Adobe Analytics], via the [[!DNL Experience Cloud Audience Library]](https://experienceleague.adobe.com/docs/core-services/interface/services/audiences/audience-library.html){target=_blank}).|Custom - Experience Cloud Audience - [Audience Name]|
 |[!DNL Adobe Experience Platform Real-time CDP] audiences|UPS|Platform Real-time CDP Audiences shared with [!DNL Target] via [!UICONTROL Destinations].||
-|[!DNL Adobe Experience Platform Real-time CDP] attributes|AEP|Platform Real-time CDP Attributes shared with [!DNL Target] via [!UICONTROL Destinations].||
+
 
 ## Blocking features from [!DNL Target] machine-learning algorithms
 
