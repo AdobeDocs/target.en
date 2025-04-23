@@ -70,13 +70,14 @@ This integration unlocks key use cases with Real-Time CDP:
 
 Real-Time CDP Profile Attributes can be shared with [!DNL Target] for use in HTML offers and [JSON offers](/help/main/c-experiences/c-manage-content/create-json-offer.md). 
 
-### Real-Time CDP Profile Attributes feature limitations and considerations 
+### Real-Time CDP Profile Attributes feature limitations and considerations {#limitations}
 
 Consider the following:
 
 * Attributes within a given offer must be from the same [!UICONTROL Experience Platform] sandbox. (In other words, an offer cannot contain attributes from different [!UICONTROL Experience Platform] sandboxes.)
 * Attributes within a given offer can come from different sources; namely, the [!DNL Target] profile and the [!UICONTROL Experience Platform] profile. (In other words, you can combine attributes whether they come from [!DNL Target] or from the [!UICONTROL Experience Platform] profile.)
 * When defining an offer, you can assign default values for [!UICONTROL Real-Time CDP Profile Attributes], in case the attribute does not have an explicit value. For example, if a consent or governance policy blocks the attribute being used in the personalization service, the default value can be used instead.
+* [!DNL Target] supports only the "string" data type for [!DNL Adobe Experience Platform] profile attributes to be used in offers. "Map" and "Array" type attributes are not yet supported.
 
 ### JSON sample use case
 
