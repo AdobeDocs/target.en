@@ -9,7 +9,7 @@ exl-id: f2783042-f6ee-4f73-b487-ede11d55d530
 
 This article contains prerelease information for upcoming [!DNL Adobe Target] releases, including SDKs, APIs, and JavaScript libraries.
 
-**Last Updated: April 23, 2025**
+**Last Updated: April 24, 2025**
 
 >[!NOTE]
 >
@@ -17,14 +17,16 @@ This article contains prerelease information for upcoming [!DNL Adobe Target] re
 >
 >To view information about the current release, see [Target Release Notes](release-notes.md). The information on these pages might be the same, depending on the timing of releases. The issue numbers in parentheses are for internal [!DNL Adobe] use.
 
-## [!DNL Target Standard/Premium] 25.4.5 (April 24, 2025)
+## [!DNL Target Standard/Premium] 25.4.5 (April 25, 2025)
 
 This release includes the following fixes and updates:
 
+* Fixed an issue that caused discrepancies in audience listings between the [!UICONTROL Activity] settings page and the [!UICONTROL Reporting] overview page. (TGT-52203)
+* Fixed an issue that prevented adding a new page to an activity due to an invalid user input error. (TGT-52263)
 * Fixed an issue where recommendations did not display on the customer's website after activating the [!DNL Recommendations] activity. (TGT-52164)
-* `OptionLocalIDs` no longer incorrectly increment when the option remains unchanged. (TGT-52187)
-* Downloaded reporting files now correctly show data present in the reporting UI. (TGT-52068)
-* Batch operations no longer fail after adding page-delivery rules. (TGT-52097)
+* Fixed an issue that caused `OptionLocalIDs` to incorrectly increment when the option remains unchanged. (TGT-52187)
+* Fixed an issue so that downloaded reporting files correctly show data present in the reporting UI. (TGT-52068)
+* Fixed an issue so that batch operations no longer fail after adding page-delivery rules. (TGT-52097)
 * Fixed an issue that caused [!DNL Target] to trim all query parameters from the website's URL. (TGT-52100)
 * Resolved a console error that prevented customers from creating activities in both the legacy and updated Target UI. (TGT-52181)
 * Fixed an issue that blocked customers from adding new pages, causing an invalid user input error. (TGT-52258)
@@ -39,7 +41,7 @@ This release includes the following fixes and updates:
 * Fixed an issue that prevented saving an activity with the [!UICONTROL View a Page] URL metric. (TGT-52260)
 * Fixed an issue that blocked customers from selecting workspaces while creating offers within an activity. (TGT-52289)
 * Fixed an issue where modifications from one experience were incorrectly displayed when switching to another experience. (TGT-52184)
-* Fixed an issue where the default offer was incorrectly displayed in the [!DNL Target] UI after opening the activity. (TGT-52198)
+* Fixed an issue where the default offer was incorrectly displayed in the [!DNL Target] UI when opening the activity. (TGT-52198)
 
 ## Target permissions update (April 22, 2025)
 
