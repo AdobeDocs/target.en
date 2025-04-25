@@ -43,6 +43,14 @@ This release includes the following fixes and updates:
 * Fixed an issue where modifications from one experience were incorrectly displayed when switching to another experience. (TGT-52184)
 * Fixed an issue where the default offer was incorrectly displayed in the [!DNL Target] UI when opening the activity. (TGT-52198)
 
+## [!DNL Target Standard/Premium] 25.4.5 (April 25, 2025)
+
+This release includes the following fixes and updates:
+
+* Fixed an issue that prevented [!DNL Target] from recognizing the "#" character in a website's URL. (TGT-52093)
+* Fixed an issue that prevented clearing audiences and editing combined audiences in the updated UI for [!UICONTROL Automated Personalization] (AP) activities. (TGT-52149)
+* Fixed an issue that caused audience refinements and activity audiences to be reversed in the updated UI. (TGT-52158)
+
 ## Target permissions update (April 22, 2025)
 
 This future update enhances organizational control over [!DNL Target] instance configurations, preventing accidental updates that could affect activity delivery across various testing and personalization teams.
