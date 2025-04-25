@@ -15,6 +15,7 @@ This page lists significant changes made to the [!DNL Adobe Target] product docu
 
 |Date|Topic|Changes|
 |--- |--- |--- |
+|April 25|[[!DNL Target] release notes (current)](/help/main/r-release-notes/release-notes.md)|Added release notes for the [!DNL Target Standard/Premium] 25.4.5 release.|
 |April 23|[Integrate with [!DNL Real-Time Customer Data Platform]](/help/main/c-integrating-target-with-mac/integrating-with-rtcdp.md#limitations)|Added the following to the *Real-Time CDP Profile Attributes feature limitations and considerations* section: <ul><li>[!DNL Target] supports only the "string" data type for [!DNL Adobe Experience Platform] profile attributes to be used in offers. "Map" and "Array" type attributes are not yet supported.</li></ul>|
 |April 17|[[!DNL Target] release notes (current)](/help/main/r-release-notes/release-notes.md)|Added release notes for the [!DNL Target Standard/Premium] 25.4.4 release.|
 ||[[!DNL Target] release notes (prerelease)](/help/main/r-release-notes/target-release-notes.md)|Added prerelease notes dates for the 25.4.5 release.|
