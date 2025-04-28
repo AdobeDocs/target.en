@@ -9,7 +9,7 @@ exl-id: f2783042-f6ee-4f73-b487-ede11d55d530
 
 This article contains prerelease information for upcoming [!DNL Adobe Target] releases, including SDKs, APIs, and JavaScript libraries.
 
-**Last Updated: April 25, 2025**
+**Last Updated: April 28, 2025**
 
 >[!NOTE]
 >
@@ -23,12 +23,13 @@ This release includes the following fixes and updates:
 
 * Fixed an issue that prevented [!DNL Target] from recognizing the "#" character in a website's URL. (TGT-52093)
 * Fixed an issue that caused audience refinements and activity audiences to be reversed in the updated UI. (TGT-52158)
+* Fixed an issue that prevented customers from editing or copying an activity due to a `getAudience`sV3 error ("Audience not found. Some other user might have deleted it."). (TGT-52223)
 
 ## Additional release notes and version details
 
 |Resource|Details|
 |--- |--- |
-|[Release notes: Adobe Target Platform Experience Web SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/release-notes.html?lang=en)|Details about changes in each version of the Platform Web SDK.|
+|[Release notes: Adobe Target Platform Experience Web SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/release-notes.html?lang=e n)|Details about changes in each version of the Platform Web SDK.|
 |[at.js version details](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/target-atjs-versions.html){target=_blank}|Details about changes in each version of the [!DNL Adobe Target] at.js JavaScript library.|
 
 ## Prerelease information {#section_7B9D4AAFC6A74388B9D7DEF0658D8B63} 
