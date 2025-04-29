@@ -91,6 +91,7 @@ See [Multivariate Test](/help/main/c-activities/c-multivariate-testing/multivari
 
 See [Recommendations](/help/main/c-recommendations/recommendations.md#concept_7556C8A4543942F2A77B13A29339C0C0) for more information.
 
+<!--
 ## How [!DNL Target] counts server-call usage {#usage}
 
 [!DNL Target] counts only server calls that provide value to customers. The following table shows how [!DNL Target] counts endpoints, single mbox, batch mbox calls, execute, prefetch, and notification calls.
@@ -118,6 +119,8 @@ The following information helps you understand the counting strategy used for [!
 ||Batch|[!UICONTROL notifications] > [!UICONTROL pageLoad]|Count once|
 ||Batch|[!UICONTROL notifications] > type ([!UICONTROL conversions])|Count once|
 ||Batch|[!UICONTROL notifications] > [!UICONTROL mboxes]|Count the number of mboxes|
+
+-->
 
 ## The edge network {#concept_0AE2ED8E9DE64288A8B30FCBF1040934}
 
