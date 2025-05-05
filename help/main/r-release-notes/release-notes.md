@@ -13,107 +13,23 @@ These release notes provide information about features, enhancements, and fixes 
 
 (The issue numbers in parentheses are for internal [!DNL Adobe] use.)
 
-## [!DNL Target Standard/Premium] 25.4.5 (April 25, 2025)
+## [!DNL Target Standard/Premium] 25.5.1 (May 5, 2025)
 
 This release includes the following fixes and updates:
 
-* Fixed an issue that caused discrepancies in audience listings between the [!UICONTROL Activity] settings page and the [!UICONTROL Reporting] overview page. (TGT-52203)
-* Fixed an issue that prevented adding a new page to an activity due to an invalid user input error. (TGT-52263)
-* Fixed an issue that caused `OptionLocalIDs` to incorrectly increment when the option remains unchanged. (TGT-52187)
-* Fixed an issue that caused `location` and `OptionLocalIDs` to incorrectly increment when the option remains unchanged. (TGT-52188)
-* Fixed an issue that caused the location on the activity's [!UICONTROL Overview] page to be incorrect. (TGT-52182)
-* Fixed an issue where an invalid selector warning was not displayed for an invalid location. (TGT-52110)
-* Fixed an issue so that downloaded reporting files correctly show data present in the reporting UI. (TGT-52068)
-* Fixed an issue so that batch operations do not fail after adding page-delivery rules. (TGT-52097)
-* Fixed an issue that caused [!DNL Target] to trim all query parameters from the website's URL. (TGT-52100)
-* Resolved a console error that prevented customers from creating activities in both the legacy and updated [!DNL Target] UI. (TGT-52181)
-* Fixed an issue that blocked customers from adding new pages, causing an invalid user input error. (TGT-52258)
-* Fixed an issue that caused modifications to disappear after adding additional pages then navigating back to the [!UICONTROL Experiences] tab. (TGT-52264)
-* Fixed an issue that blocked customers from changing the audience in an [!UICONTROL Experience Targeting] (XT) activity. (TGT-52191)
-* Fixed an error that prevented editing of an XT activity due to an unsupported UI rule. (TGT-52273)
-* Fixed an issue in the updated [!UICONTROL Visual Experience Composer] (VEC) where breadcrumbs were not always displayed at the bottom of the editor, causing difficulties in precisely selecting elements. (TGT-52169)
-* Fixed an issue where the [!UICONTROL Audience] drop-down list failed to display all audiences due to pagination. (TGT-52204)
-* Fixed an issue that caused an invalid user input message when adding new offers in [!UICONTROL Automated Personalization] (AP) activities. (TGT-52210)
-* Fixed an issue where [!UICONTROL Analytics for Target] (A4T) was incorrectly selected as the reporting source, even though the customer did not have access to A4T. (TGT-52226)
-* Fixed an issue that prevented saving an activity with the [!UICONTROL View a Page] URL metric. (TGT-52260)
-* Fixed an issue that blocked customers from selecting workspaces while creating offers within an activity. (TGT-52289)
-* Fixed an issue that blocked customers from creating activities across all workspaces. (Tgt-52218)
-* Fixed an issue where modifications from one experience were incorrectly displayed when switching to another experience. (TGT-52184)
-* Fixed an issue where the default offer was incorrectly displayed in the [!DNL Target] UI when opening the activity. (TGT-52198)
-
-## Target permissions update (April 22, 2025)
-
-This future update enhances organizational control over [!DNL Target] instance configurations, preventing accidental updates that could affect activity delivery across various testing and personalization teams.
-
-Effective April 22, 2025, only [!UICONTROL Product] and [!UICONTROL Solutions] admins will be able to update settings in the [!UICONTROL Administration] sections, regardless of their roles in [!DNL Target] workspaces. Users without this permission will have read-only access to the [!UICONTROL Administration] sections.
-
-For more information, see [Administer Target](/help/main/administrating-target/start-target.md).
-
-## [!DNL Target Standard/Premium] 25.4.4 (April 17, 2025)
-
-This release includes the following fixes and updates:
-
-* Added an error message to guide users on resolving duplicate options in an activity. (TGT-51927)
-* Fixed an issue where `ClickTrack` selectors were not removed when deleting pages or experiences with redirect offers. (TGT-51952)
-* Fixed an issue caused by allowing empty `ClickTrack` selectors. [!DNL Target] now requires that the selector field must not be blank. (TGT-52107)
-* Fixed an issue that incorrectly allowed metrics with duplicate names. Metrics now require unique names. (TGT-52201)
-* Fixed an issue where audience definitions were not visible when editing offer-level targeting in [!UICONTROL Automated Personalization] (AP) activities. (TGT-52148)
-* Fixed an issue that prevented customers with [!UICONTROL Editor] rights from saving activities. (TGT-52227)
-* `OptionLocalIDs` no longer increment incorrectly when the option remains unchanged. (TGT-52139)
-* Fixed an issue that caused an "Invalid `optionLocalIds`" message when trying to create an activity. (TGT-52154)
-* Discrepancies between `OptionLocalIDs` defined for an activity and those used to define experiences have been fixed. (TGT-52215)
-* Fixed an issue that caused a validation failure that occurred when trying to create an A/B activity. (TGT-51923)
-
-## [!DNL Target Standard/Premium] 25.4.3 (April 11, 2025)
-
-This release includes the following fixes and updates:
-
-* Fixed an error that prevented customers from opening the audience information pop-up for certain [!UICONTROL Experience Targeting] (XT) activities. (TGT-52049)
-* Fixed an issue where the audience setting reverted to "[!UICONTROL All Visitors]" following changes made in the [!UICONTROL Visual Experience Composer] (VEC). (TGT-52132)
-* Fixed an issue where audience refinements were not displayed for specific activities (TGT-52057) 
-* Fixed an issue that prevented customers from inserting an [!UICONTROL Experience Fragment] in the default workspace. (TGT-52073)
-* Fixed an issue where an offer showed as "Content not found" and did not display on the [!UICONTROL Offers] page for an [!UICONTROL Automated Personalization] (AP) activity. (TGT-52150)
-* Added the ability to allow duplicate audiences within an activity. (TGT-51200)
-* Fixed an issue where the wrong mbox name displayed on the [!UICONTROL Goals & Settings] page for an XT activity after editing. (TGT-52026)
-* Fixed an issue where `defaultContent` displayed in options despite not being in `experiences/optionLocations`. (TGT-52036)
-* Fixed an issue to ensure that empty strings are not converted to null values. (TGT-52037)
-* Fixed an issue requiring customers to reconfigure the [!UICONTROL Optimization Goal] in [!UICONTROL Reporting Settings] on the [!UICONTROL Goals & Settings] page after edits. (TGT-52071)
-* Fixed an issue where an activity with no page-delivery rules displayed multiple rules on the [!UICONTROL Overview] page. (TGT-52084)
-* Added an error message for users attempting to save an offer with characters outside the basic multilingual plane, such as emojis. (TGT-52105)
-* Fixed an issue where opening an activity triggered the error message: "This Activity is using one or more audiences deleted at source." (TGT-52120)
-* Fixed an issue where ClickTrack metrics were not displayed in the updated [!UICONTROL Visual Experience Composer] (VEC) during editing. (TGT-52152)
-* Fixed an issue where a URL with a query parameter as the activity location did not display the query parameter on the activity's [!UICONTROL Overview] page. (TGT-51635)
-* Fixed an issue that prevented the entire experience URL from displaying in [!UICONTROL Browse mode] within the [!UICONTROL Visual Experience Composer] (VEC). (TGT-52101)
-* Fixed an issue where editing an activity caused page delivery to add a "/" to the end of the URL, rendering it invalid. (TGT-52114)
-* Fixed an issue where the [!UICONTROL Activity QA] link in the [!UICONTROL Form-Based Experience Composer] incorrectly redirected to the [!DNL Adobe Experience Cloud] homepage. (TGT-52055)
-* Fixed an issue where additional pages added to the [!UICONTROL A/B Test] activity were not retained after saving and reopening. (TGT-51994)
-* Fixed an issue that prevented customers from deleting styles in the inline style section. (TGT-52070)
-* Restored access to [audience definition cards](/help/main/c-target/c-audiences/audiences.md#section_11B9C4A777E14D36BA1E925021945780) in the [!UICONTROL Activity QA] dialog box, similar to the legacy UI. (TGT-52056)
-* The updated UI did not save pages or audiences without modifications. If customers added new pages or audiences to an activity but make no changes to them, [!DNL Target] discarded the unmodified audiences upon saving. Notifications have added in relevant places to inform users of this behavior. (TGT-52104)
-
-## [!DNL Target Standard/Premium] 25.4.1 (April 2, 2025)
-
-This release includes the following fixes and updates:
-
-* Fixed an issue that caused experience audiences to disappear from activities. (TGT-52003)
-* Fixed an issue that caused unexpected elements during delivery. (TGT-52011)
-* Fixed an issue that blocked customers from viewing the audience in the targeting graph on the Ove[!UICONTROL r]view page and during activity editing. (TGT-52050)
-* Fixed an issue that prevented customers from reordering experiences in order of priority in [!UICONTROL Experience Targeting] (XT) activities. (TGT-52054)
-* Fixed an issue that caused incorrect rendering when undoing text style changes. (TGT-51876)
-* Fixed an issue that when modifying a redirect offer, [!DNL Target] also removes any [!UICONTROL ClickTrack] selectors associated with that offer. (TGT-51936)
-* Fixed an issue that caused [!DNL Target] to incorrectly save the selector when cancelling [!UICONTROL ClickTrack]. (TGT-51937)
-* Fixed an issue that triggered an invalid name error after opening and closing the mbox picker on the [!UICONTROL Goals & Settings] page without making any changes. (TGT-51983)
-* Fixed an issue that blocked editing ad hoc offers created in the legacy [!DNL Target] UI. (TGT-51984)
-* Fixed an issue that blocked editing activities that have ad-hoc offers that contain custom code. (TGT-51995)
-* Fixed an issue that caused exclusion rules to display as inclusion rules when editing combined audience definitions. (TGT-51999)
-* Fixed an issue that prevented custom code from displaying correctly during experience editing. (TGT-52005)
-* Fixed an issue that made the [!UICONTROL Insert Before] option unavailable for inserting content before the navigation bar. (TGT-52031)
-* Fixed an issue that prevented correct highlighting of the default experience in reporting. (TGT-51716)
-* Fixed an issue that triggered a `default message [Invalid optionLocalIds: xx]]` message when creating an activity. (TGT-52038)
-
-## at.js version version 2.11.8 (March 31, 2025)
-
-* Resolved CodeQL-identified vulnerability in string suffix validation to prevent edge cases during resize and move operations. (TNT-51516)
+* Fixed an issue preventing audience refinements from displaying for certain activities in the updated UI. (TGT-52057)
+* Fixed an issue that prevented the use of combined audiences in activities. (TGT-52346)
+* Fixed an issue that prevented the creation of a new activity in a non-default workspace using an activity-only audience from the same workspace. (TGE-52349)
+* Fixed an issue that caused activity-only audiences to disappear from the updated UI after creating and selecting a new audience. (TGT=52091)
+* Fixed an issue that prevented the use of duplicate audiences in activities. (TGT-51200 & TGT-52057)
+* Fixed an issue that caused audience refinements and activity audiences to be reversed in the updated UI. (TGT-52158)
+* Fixed an issue that prevented the creation of a new activity due to the user input error: "non-default workspace not allowed for this user." (TGT-52267)
+* Fixed an issue that prevented offers from displaying in the updated UI for both default and non-default workspaces. [!DNL Target] now displays offers from both workspaces. (TGT-52339)
+* Fixed an issue where [!DNL Target] did not warn customers when editing an activity and changing a modified website element. (TGT-52100)
+* Fixed an issue where editing an offer with ad-hoc offers created a new offer instead of updating the existing one. (TGT-52135)
+* Fixed Fixed an issue that caused an invalid payload error when moving offers to folders. (TGT-52325)
+* Fixed Fixed an issue that caused an user input error when moving offers to folders. (TGT-52296)
+* Added an `audienceMetadata` field for each activity, and ensured it is read and updated when editing the activity. (TGT-51004)
 
 ## Additional release notes and version details
 
