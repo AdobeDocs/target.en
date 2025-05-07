@@ -11,53 +11,57 @@ The [!DNL Adobe Target Standard/Premium] 25.2.1 release (February 17, 2015) intr
 
 >[!IMPORTANT]
 >
->The updated [!UICONTROL Visual Editing Composer] requires the [!DNL Adobe Experience Cloud] [[!UICONTROL Visual Editing Helper] extension](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/visual-editing-helper-extension.md) available on Chrome Web Store.
+>The updated [!UICONTROL Visual Editing Composer] requires the [!DNL Adobe Experience Cloud] [[!UICONTROL Visual Editing Helper] extension](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/visual-editing-helper-extension.md) available in the [!DNL Chrome Web Store].
 
 The VEC displays when you create or edit an existing activity.
 
-![Visual Experience Composer (VEC)](/help/main/c-experiences/c-visual-experience-composer/assets/new-vec.png)
+![Visual Experience Composer (VEC)](/help/main/c-experiences/c-visual-experience-composer/assets/vec-highlight-refresh.png)
 
 ## Major changes to the VEC
 
 The following sections explain the major changes in the updated VEC compared to the previous version.
 
-### [!UICONTROL Experiences] panel
+### [!UICONTROL Experiences] rail
 
-Like in the previous version, the [!UICONTROL Experiences] panel remains on the left side of the VEC. The [!UICONTROL Experiences] panel cannot be collapsed.
+Like in the previous version, the [!UICONTROL Experiences] rail remains on the left side of the VEC. The [!UICONTROL Experiences] rail cannot be collapsed.
 
-![Experiences panel](/help/main/c-experiences/c-visual-experience-composer/assets/experiences-panel.png)
+![Experiences rail](/help/main/c-experiences/c-visual-experience-composer/assets/experiences-panel.png)
 
-You can create, rename or remove experiences using the [!UICONTROL Experiences] panel. Click the **[!UICONTROL Add]** icon ( ![Add icon](/help/main/assets/icons/Add.svg) ) to add a new experience. Click the [!UICONTROL More Actions] icon ( ![More Actions icon](/help/main/assets/icons/MoreSmall.svg) ) to duplicate, delete, or redirect an experience.
+You can create, rename or remove experiences using the [!UICONTROL Experiences] rail. Click the **[!UICONTROL Add]** icon ( ![Add icon](/help/main/assets/icons/Add.svg) ) to add a new experience. Click the [!UICONTROL More Actions] icon ( ![More Actions icon](/help/main/assets/icons/MoreSmall.svg) ) to duplicate, delete, or redirect an experience.
 
-### [!UICONTROL Components] panel (new)
+### [!UICONTROL Components] rail (new)
 
-You can add a number of components to your web page and edit them as needed by using the new [!UICONTROL Components] panel.
+You can add a number of components to your web page and edit them as needed by using the new [!UICONTROL Components] rail.
 
-![Components panel](/help/main/c-experiences/c-visual-experience-composer/assets/components-panel.png)
+![Components rail](/help/main/c-experiences/c-visual-experience-composer/assets/components-panel.png)
 
-To add a new component, drag the component from the Components panel you want to insert over an existing page element in the Design canvas. Then choose to insert the component before of after the selected element. 
+To add a new component, drag the component from the [!UICONTROL Components] rail you want to insert over an existing page element in the [!UICONTROL Design] canvas. Then choose to insert the component before of after the selected element. 
 
 As compared to the previous VEC version, you cannot replace a selected element with a component.
 
-### [!UICONTROL Modifications] panel
+### [!UICONTROL Modifications] rail
 
-To open the [!UICONTROL Modifications] panel, click the [!UICONTROL Show Modifications] icon ( ![Show Modifications panel](/help/main/assets/icons/History.svg) ) in the [!UICONTROL Components] panel. The [!UICONTROL Modifications] panel changed position from right side to left side of the editing canvas.
+To open the [!UICONTROL Modifications] rail, click the [!UICONTROL Show Modifications] icon ( ![Show Modifications rail](/help/main/assets/icons/History.svg) ) in the [!UICONTROL Components] rail. The [!UICONTROL Modifications] rail changed position from the right side to the left side of the editing canvas.
 
-![Modifications panel](/help/main/c-experiences/c-visual-experience-composer/assets/modifications-panel.png)
+![Modifications rail](/help/main/c-experiences/c-visual-experience-composer/assets/modifications-panel.png)
 
-The [!UICONTROL Modifications] panel shows all changes that have been made to your page in the [!UICONTROL Visual Experience Composer] (VEC) and lets you make additional changes (such as CSS Selector, Mbox, and Custom Code).
+The [!UICONTROL Modifications] rail shows all changes that have been made to your page in the VEC and lets you make additional changes (such as CSS Selector, Mbox, and Custom Code).
 
-Click the [!UICONTROL More Options] icon ( ![More Actions icon](/help/main/assets/icons/MoreSmall.svg) ) to add a modification, delete all modifications, or delete all invalid modifications. Click [!UICONTROL Select] to perform bulk operations: [!UICONTROL Apply to All Pages] or [!UICONTROL Delete]. 
+Click the [!UICONTROL More Options] icon ( ![More Actions icon](/help/main/assets/icons/MoreSmall.svg) ) to add a modification, delete all modifications, or delete all invalid modifications. Click [!UICONTROL Select] to perform bulk operations: [!UICONTROL Apply to All Pages] or [!UICONTROL Delete].
 
-### [!UICONTROL Properties] panel (new)
+To display the [!UICONTROL Modifications] rail again, click the [!UICONTROL Hide Modifications] icon ( ![Show Modifications rail](/help/main/assets/icons/History.svg) ) in the [!UICONTROL Modifications] rail.
 
-The new [!UICONTROL Properties] panel lets you change properties of selected elements on the page, whether these elements are HTML elements or objects specific to [!DNL Target], such as recommendations or offers.
+### [!UICONTROL Properties] rail (new)
 
-![Properties panel](/help/main/c-experiences/c-visual-experience-composer/assets/properties-panel.png)
+The [!UICONTROL Properties] rail lets you change properties of selected elements on the page, whether these elements are HTML elements or objects specific to [!DNL Target], such as recommendations or offers.
 
-Click the icons on top of the panel to edit HTML code or delete, duplicate, or hide elements. Changes appear in the [!UICONTROL Modifications] panel.
+![Properties rail](/help/main/c-experiences/c-visual-experience-composer/assets/properties-panel.png)
 
-The [!UICONTROL Properties] panel is collapsible in the right rail. Click the [!UICONTROL Show/Hide Properties] icon ( ![Properties icon](/help/main/assets/icons/Propertie.svg) ) to the right of the panel to collapse or display the [!UICONTROL Properties] panel.
+Click the icons on top of the rail to edit HTML code or delete, duplicate, or hide elements. Changes appear in the [!UICONTROL Modifications] rail.
+
+![Property icons](/help/main/c-experiences/c-visual-experience-composer/assets/options-icons.png)
+
+The [!UICONTROL Properties] rail is collapsible in the right rail. Click the [!UICONTROL Show/Hide Properties] icon ( ![Properties icon](/help/main/assets/icons/Propertie.svg) ) to the right of the rail to collapse or display the [!UICONTROL Properties] rail.
 
 ### Activity settings/configuration
 
@@ -65,13 +69,13 @@ Click the [!UICONTROL Configure] icon ( ![Configure icon](/help/main/assets/icon
 
 ![Activity configurations options](/help/main/c-experiences/c-visual-experience-composer/assets/configure-options.png)
 
-The different options let you enable or disable multi-page or multiple audience activities, assign properties ([[!DNL Target Premium]](/help/main/c-intro/intro.md#premium) feature), or edit page delivery rules. 
+The different options let you assign properties, edit page delivery rules, specify site preferences, add additional pages, and enable or disable multi-page or multiple audience activities. Assign [!UICONTROL Properties] is a [[!DNL Target Premium]](/help/main/c-intro/intro.md#premium) feature. 
 
 The position and functionality is similar to the previous VEC UI.
 
 ### [!UICONTROL Design]/[!UICONTROL Browse] modes
 
-Use the [!UICONTROL Design]/[!UICONTROL Browse] toggles displayed on top of the design canvas to switch between design and browse mode.
+Use the [!UICONTROL Design]/[!UICONTROL Browse] toggles displayed on top of the [!UICONTROL Properties] rail to switch between design and browse mode.
 
 ![Design and browse toggles](/help/main/c-experiences/c-visual-experience-composer/assets/design-browse-mode.png)
 
@@ -87,7 +91,7 @@ To redo an action, expand the [!UICONTROL ]Undo/[!UICONTROL Redo] button group a
 
 ### [!UICONTROL Design] canvas
 
-The [!UICONTROL Design] canvas lets you select viewports, including fit-to screen, [!UICONTROL Desktop], [!UICONTROL Tablet], [!UICONTROL Mobile Landscape], and [!UICONTROL Mobile Portrait]. By default, the canvas fits the page to the screen along with the viewports defined in the [Administration](/help/main/administrating-target/visual-experience-composer-set-up.md) section.
+The [!UICONTROL Design] canvas lets you select viewports, including fit-to screen, [!UICONTROL Desktop], [!UICONTROL Tablet], [!UICONTROL Mobile Landscape], and [!UICONTROL Mobile Portrait].
 
 ![Viewport options](/help/main/c-experiences/c-visual-experience-composer/assets/viewports.png)
 
