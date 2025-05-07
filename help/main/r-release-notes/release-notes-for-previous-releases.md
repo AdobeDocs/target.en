@@ -245,7 +245,7 @@ Based on the latest [!DNL Adobe Spectrum] design system, the update standardizes
 
 * [Redesigned reporting](/help/main/administrating-target/reporting.md) for better insights into activity results.
 * [[!UICONTROL Updated Change Log]](/help/main/c-activities/change-log.md) page, now getting the information from the [[!DNL Audit Query API]](https://experienceleague.adobe.com/en/docs/experience-platform/landing/governance-privacy-security/audit-logs/audit-api/overview){target=_blank} for real-time insights.
-* [Customizable list views](/help/main/c-activities/activities.md) to for better flexibility across different team needs.
+* [Customizable list views](/help/main/c-activities/activities.md) for better flexibility across different team needs.
 * [Enhanced quick info and detail screens](/help/main/c-activities/activities.md) for easier access to information.
 * [Session-persistent search and filter options](/help/main/c-activities/activities.md).
 * Completely [rebuilt [!UICONTROL Visual Editing Composer]](/help/main/c-experiences/c-visual-experience-composer/visual-experience-composer.md) with support for latest security updates from browser providers and a modern user interface.
