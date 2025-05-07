@@ -25,7 +25,7 @@ The following sections explain the major changes in the updated VEC compared to 
 
 Like in the previous version, the [!UICONTROL Experiences] rail remains on the left side of the VEC. The [!UICONTROL Experiences] rail cannot be collapsed.
 
-![Experiences rail](/help/main/c-experiences/c-visual-experience-composer/assets/experiences-rail.png)
+![Experiences rail](/help/main/c-experiences/c-visual-experience-composer/assets/experiences-panel.png)
 
 You can create, rename or remove experiences using the [!UICONTROL Experiences] rail. Click the **[!UICONTROL Add]** icon ( ![Add icon](/help/main/assets/icons/Add.svg) ) to add a new experience. Click the [!UICONTROL More Actions] icon ( ![More Actions icon](/help/main/assets/icons/MoreSmall.svg) ) to duplicate, delete, or redirect an experience.
 
@@ -33,7 +33,7 @@ You can create, rename or remove experiences using the [!UICONTROL Experiences] 
 
 You can add a number of components to your web page and edit them as needed by using the new [!UICONTROL Components] rail.
 
-![Components rail](/help/main/c-experiences/c-visual-experience-composer/assets/components-rail.png)
+![Components rail](/help/main/c-experiences/c-visual-experience-composer/assets/components-panel.png)
 
 To add a new component, drag the component from the [!UICONTROL Components] rail you want to insert over an existing page element in the [!UICONTROL Design] canvas. Then choose to insert the component before of after the selected element. 
 
