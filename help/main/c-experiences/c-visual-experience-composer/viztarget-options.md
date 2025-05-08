@@ -21,15 +21,15 @@ The VEC displays when you create or edit an existing activity.
 
 The following sections explain the options available in the updated VEC for an [!UICONTROL A/B Test] activity. The options vary, depending on the activity type.
 
-### [!UICONTROL Experiences] panel
+### [!UICONTROL Experiences] rail
 
-The [!UICONTROL Experiences] panel displays in the left rail of the VEC.
+The [!UICONTROL Experiences] rail displays in the left rail of the VEC.
 
-![Experiences panel](/help/main/c-experiences/c-visual-experience-composer/assets/experiences-panel.png)
+![Experiences rail](/help/main/c-experiences/c-visual-experience-composer/assets/experiences-panel.png)
 
-You can view, create, rename, or remove experiences using the [!UICONTROL Experiences] panel. 
+You can view, create, rename, or remove experiences using the [!UICONTROL Experiences] rail. 
 
-The following options are available in the [!UICONTROL Experiences] panel: 
+The following options are available in the [!UICONTROL Experiences] rail: 
 
 * **View an experience**: To view an experience, click the desired experience to display it in the [!UICONTROL Design] canvas.
 * **Add an experience**: Click the **[!UICONTROL Add]** icon ( ![Add icon](/help/main/assets/icons/Add.svg) ) to add a new experience. Configure the new experience as desired.
@@ -67,15 +67,15 @@ You can undo changes made by clicking the [!UICONTROL Undo] icon ( ![Undo icon](
 
 To redo an action, expand the [!UICONTROL ]Undo/[!UICONTROL Redo] button group and choose [!UICONTROL Redo].
 
-### [!UICONTROL Components] panel
+### [!UICONTROL Components] rail
 
-You can add a number of components to your web page and edit them as needed by using the new [!UICONTROL Components] panel.
+You can add a number of components to your web page and edit them as needed by using the new [!UICONTROL Components] rail.
 
-![Components panel](/help/main/c-experiences/c-visual-experience-composer/assets/components-panel.png)
+![Components rail](/help/main/c-experiences/c-visual-experience-composer/assets/components-panel.png)
 
 >[!NOTE]
 >
->If you see the [!UICONTROL Modifications] panel in this area instead of the [!UICONTROL Components] panel, click the **[!UICONTROL Show Components]** icon ( ![Show Components icon](/help/main/assets/icons/Add.svg) ). The [!UICONTROL Show Components] icon ( ![Show Components icon](/help/main/assets/icons/Add.svg) ) and the [!UICONTROL Show Modifications] icon ( ![Show Modifications panel](/help/main/assets/icons/History.svg) ) act as toggles to show the appropriate options.
+>If you see the [!UICONTROL Modifications] rail in this area instead of the [!UICONTROL Components] rail, click the **[!UICONTROL Show Components]** icon ( ![Show Components icon](/help/main/assets/icons/Add.svg) ). The [!UICONTROL Show Components] icon ( ![Show Components icon](/help/main/assets/icons/Add.svg) ) and the [!UICONTROL Show Modifications] icon ( ![Show Modifications rail](/help/main/assets/icons/History.svg) ) act as toggles to show the appropriate options.
 
 To add a new component to an experience: 
 
@@ -101,19 +101,19 @@ To add a new component to an experience:
 
    As compared to the previous VEC version, you cannot replace a selected element with a component.
 
-### [!UICONTROL Modifications] panel
+### [!UICONTROL Modifications] rail
 
-To open the [!UICONTROL Modifications] panel, click the [!UICONTROL Show Modifications] icon ( ![Show Modifications panel](/help/main/assets/icons/History.svg) ) in the [!UICONTROL Components] panel.
+To open the [!UICONTROL Modifications] rail, click the [!UICONTROL Show Modifications] icon ( ![Show Modifications rail](/help/main/assets/icons/History.svg) ) in the [!UICONTROL Components] rail.
 
-![Modifications panel](/help/main/c-experiences/c-visual-experience-composer/assets/modifications-panel.png)
+![Modifications rail](/help/main/c-experiences/c-visual-experience-composer/assets/modifications-panel.png)
 
 >[!NOTE]
 >
->The [!UICONTROL Show Components] icon ( ![Show Components icon](/help/main/assets/icons/Add.svg) ) and the [!UICONTROL Show Modifications] icon ( ![Show Modifications panel](/help/main/assets/icons/History.svg) ) act as toggles to show the appropriate options.
+>The [!UICONTROL Show Components] icon ( ![Show Components icon](/help/main/assets/icons/Add.svg) ) and the [!UICONTROL Show Modifications] icon ( ![Show Modifications rail](/help/main/assets/icons/History.svg) ) act as toggles to show the appropriate options.
 
-The [!UICONTROL Modifications] panel shows all changes that have been made to your page in the [!UICONTROL Visual Experience Composer] (VEC) and lets you make additional changes (such as CSS Selector, Mbox, and Custom Code).
+The [!UICONTROL Modifications] rail shows all changes that have been made to your page in the [!UICONTROL Visual Experience Composer] (VEC) and lets you make additional changes (such as CSS Selector, Mbox, and Custom Code).
 
-Click the **[!UICONTROL More Options]** icon ( ![More Actions icon](/help/main/assets/icons/MoreSmall.svg) ) in the panel header to add a modification, delete all modifications, or delete all invalid modifications. Click [!UICONTROL Select] to perform bulk operations: [!UICONTROL Apply to All Pages] or [!UICONTROL Delete].
+Click the **[!UICONTROL More Options]** icon ( ![More Actions icon](/help/main/assets/icons/MoreSmall.svg) ) in the rail header to add a modification, delete all modifications, or delete all invalid modifications. Click [!UICONTROL Select] to perform bulk operations: [!UICONTROL Apply to All Pages] or [!UICONTROL Delete].
 
 Click the **[!UICONTROL More Options]** icon ( ![More Actions icon](/help/main/assets/icons/MoreSmall.svg) ) next to each modification to view its information, delete the modification, or to apply the modification to more views.
 
@@ -135,19 +135,19 @@ The various [!UICONTROL Visual Experience Composer] (VEC) actions are grouped in
 >
 >The available options depend on the activity type and element that you are creating or editing. For more information about editing images and offers in an [!UICONTROL A/B Test] activity, see [Edit elements using the [!UICONTROL Design] canvas](#design) below.
 
-### [!UICONTROL Properties] panel
+### [!UICONTROL Properties] rail
 
-The [!UICONTROL Properties] panel lets you change properties of selected elements on the page, whether these elements are HTML elements or objects specific to [!DNL Target], such as recommendations or offers.
+The [!UICONTROL Properties] rail lets you change properties of selected elements on the page, whether these elements are HTML elements or objects specific to [!DNL Target], such as recommendations or offers.
 
-![Properties panel](/help/main/c-experiences/c-visual-experience-composer/assets/properties-panel.png)
+![Properties rail](/help/main/c-experiences/c-visual-experience-composer/assets/properties-panel.png)
 
-Click the icons on top of the panel to edit HTML code or delete, duplicate, or hide elements. Changes appear in the [!UICONTROL Modifications] panel.
+Click the icons on top of the rail to edit HTML code or delete, duplicate, or hide elements. Changes appear in the [!UICONTROL Modifications] rail.
 
-The [!UICONTROL Properties] panel is collapsible in the right rail. Click the [!UICONTROL Show/Hide Properties] icon ( ![Properties icon](/help/main/assets/icons/Propertie.svg) ) to the right of the panel to collapse or display the [!UICONTROL Properties] panel.
+The [!UICONTROL Properties] rail is collapsible in the right rail. Click the [!UICONTROL Show/Hide Properties] icon ( ![Properties icon](/help/main/assets/icons/Propertie.svg) ) to the right of the rail to collapse or display the [!UICONTROL Properties] rail.
 
 ## Edit elements using the [!UICONTROL Design] canvas {#design}
 
-The following sections show you how to edit images and text in the [!UICONTROL Design] canvas. The Design canvas, along with the Components, Modifications, and Properties panels provide you with powerful tools to let you easily create experiences for your activities.
+The following sections show you how to edit images and text in the [!UICONTROL Design] canvas. The Design canvas, along with the Components, Modifications, and Properties rails provide you with powerful tools to let you easily create experiences for your activities.
 
 ### Image options
 
@@ -214,7 +214,7 @@ The menu at the top of the text element lets you do the following:
 * Add personalization ( ![Add Personalization icon](/help/main/assets/icons/PersonalizationField.svg) ).
 * Delete the image ( ![Delete icon](/help/main/assets/icons/Delete.svg) ).
 
-The [!UICONTROL Properties] panel on the right side lets further configure the text's properties.
+The [!UICONTROL Properties] rail on the right side lets further configure the text's properties.
 
 The icons at the top of the frame let you do the following:
 
