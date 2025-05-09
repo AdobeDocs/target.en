@@ -13,6 +13,26 @@ These release notes provide information about features, enhancements, and fixes 
 
 (The issue numbers in parentheses are for internal [!DNL Adobe] use.)
 
+## [!DNL Target Standard/Premium] 25.5.2 (May 8, 2025)
+
+This release includes the following fixes and updates:
+
+* [!DNL Target] users with [!UICONTROL Product Administrator] and [!UICONTROL System Administrator] rights can now edit all settings on the [!UICONTROL Administration] pages, regardless of their role in [!DNL Target]. Users without these permissions have read-only access to these settings. This update ensures stricter access control over [Administration settings](/help/main/administrating-target/administrating-target.md). (TGT-48179)
+* Fixed a caching issue that prevented saving activity [Site Preferences](/help/main/c-experiences/c-visual-experience-composer/viztarget-options.md#settings). (TGT-52213) 
+* Fixed an issue where customers couldn't enable selection by ID and class in the [!UICONTROL Site Preferences] section after loading the site in the VEC. The [!UICONTROL Site Preferences] setting automatically reverted to disabled even after being enabled. (TGT-52207)
+* Fixed an issue where the [!UICONTROL Visual Experience Composer] (VEC) failed to display the correct page when [page delivery](/help/main/c-experiences/c-visual-experience-composer/viztarget-options.md#settings) URLs ended with a forward slash (/). (TGT-52237)
+* Fixed an issue that prevented the removal of custom code modifications when changing experiences. (TGT-52240)
+* Fixed an issue where HTML modifications in the VEC overlaid existing page elements. (TGT-52265)
+* Fixed an issue that prevented editing custom code in the updated VEC due to the existing custom code not being visible in the editor. (TGT-52272)
+* Fixed an issue that caused a "Duplicate names are not allowed" error message when saving a Recommendations activity. (TGT-52318)
+* Fixed an issue in the updated VEC that prevented customers from editing text elements or removing container objects. (TGT-52348)
+* Fixed an issue that blocked [!DNL Customer Journey Analytics] from displaying correctly on an activity [!UICONTROL Overview] page. (TGT-52359)
+* Fixed an issue that prevented reporting groups from persisting in [!UICONTROL Automated Personalization] (AP) activities. (TGT-52368)
+* Fixed an issue that prevented saving activities that include offer decisioning. (TGT-52390)
+* Fixed an issue where the default offer was selected, but other offer content displayed in [!UICONTROL Automated Personalization] (AP) and [!UICONTROL Multivariate Test] (MVT) activities. (TGT-52372)
+* Fixed GET permissions logic to check with OR between full org access and specific org + user access. (TGT-52374)
+* Fixed an issue where audience names did not display after selecting an audience for [!UICONTROL Managed Content] and [!UICONTROL Reporting Audiences], even though [!UICONTROL Show Only Selected] was enabled. (TGT-52393)
+
 ## [!DNL Target Standard/Premium] 25.5.1 (May 5, 2025)
 
 This release includes the following fixes and updates:

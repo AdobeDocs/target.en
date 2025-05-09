@@ -10,6 +10,6 @@
 
 >[!IMPORTANT]
 >
->Effective April 22, 2025, only [!UICONTROL Product] and [!UICONTROL Solutions] admins will be able to update settings in the [!UICONTROL Administration] sections, regardless of their roles in [!DNL Target] workspaces. Users without this permission will have read-only access to the [!UICONTROL Administration] sections. For more information, see [Permissions required for editing [!UICONTROL Administration] settings](/help/main/administrating-target/start-target.md#admin-permissions).
+>[!DNL Target] users with [!UICONTROL Product Administrator] and [!UICONTROL System Administrator] rights can edit all settings on the [!UICONTROL Administration] pages, regardless of their role in [!DNL Target]. Users without these permissions have read-only access to these settings.
 
 

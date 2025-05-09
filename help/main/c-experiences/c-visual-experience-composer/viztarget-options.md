@@ -9,9 +9,13 @@ exl-id: 50993d6c-5025-488a-8b33-9ed7c142de6e
 
 The [!DNL Adobe Target Standard/Premium] 25.2.1 release (February 17, 2015) introduces an updated [!UICONTROL Visual Experience Composer] (VEC). This article explains the updated UI and its options.
 
+>[!TIP]
+>
+>To to learn how the updated VEC differs from the legacy VEC, see [Visual Experience Composer changes](/help/main/c-experiences/c-visual-experience-composer/vec-changes.md).
+
 >[!IMPORTANT]
 >
->The updated [!UICONTROL Visual Editing Composer] requires the [!DNL Adobe Experience Cloud] [[!UICONTROL Visual Editing Helper] extension](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/visual-editing-helper-extension.md) available on the Chrome Web Store.
+>The updated [!UICONTROL Visual Editing Composer] requires the [!DNL Adobe Experience Cloud] [[!UICONTROL Visual Editing Helper] extension](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/visual-editing-helper-extension.md) available on the [!DNL Chrome Web Store].
 
 The VEC displays when you create or edit an existing activity.
 
@@ -36,7 +40,7 @@ The following options are available in the [!UICONTROL Experiences] rail:
 * **Rename an experience**: Click the **[!UICONTROL Rename]** icon ( ![Rename icon](/help/main/assets/icons/Rename.svg) ) to display the [!UICONTROL Rename Experience] dialog box. Specify the new name, then click **[!UICONTROL Save]**.
 * **Duplicate, delete, or redirect an experience**: Click the **[!UICONTROL More Actions]** icon ( ![More Actions icon](/help/main/assets/icons/MoreSmall.svg) ), then choose **[!UICONTROL Duplicate]**, **[!UICONTROL Delete]**, or **[!UICONTROL Redirect to URL]**.
 
-### Activity settings/configuration
+### Activity settings/configuration {#settings}
 
 Click the [!UICONTROL Configure] icon ( ![Configure icon](/help/main/assets/icons/Setting.svg) ) displayed on top of the [!UICONTROL Design] canvas to display the activity properties menu.
 
