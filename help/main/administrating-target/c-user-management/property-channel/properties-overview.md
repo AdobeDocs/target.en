@@ -94,7 +94,7 @@ You can create user groups, such as Developers, Analysts, Marketers, Executives,
 
 ## Step 4. Create properties {#section_E8F2C92BE0F4466AB87604059C9CF3FD}
 
-Properties are enabled by adding a specific name/value pair as a parameter with any call (Target call, api call, etc.) to Target.
+Properties are enabled by adding a specific name/value pair as a parameter with any call ([!DNL Target] call, api call, etc.) to [!DNL Target].
 
 Properties belong to specific channels (Web, Mobile, Email, and API/Other).
 
@@ -127,7 +127,7 @@ To use the [!DNL Target] user-permissions functionality, you must add the `at_pr
 
    In [!DNL Target], click **[!UICONTROL Administration]** > **[!UICONTROL Properties]** to display the [!UICONTROL Properties] list.
 
-    1. Hover your mouse pointer over the [!UICONTROL Last Updated] column for the desired property to display and click the [!UICONTROL Code] icon.
+    1. Hover your mouse pointer over the [!UICONTROL Last Updated] column for the desired property to display and click the [!UICONTROL Code] icon ( ![Code icon](/help/main/assets/icons/Code.svg) ).
 
        ![Property hover code](/help/main/administrating-target/c-user-management/property-channel/assets/code_property_new.png)
 
