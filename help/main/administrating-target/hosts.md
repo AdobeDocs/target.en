@@ -45,7 +45,7 @@ After a host is added to the [!UICONTROL Host] list, make sure that the host is 
 
    By default, a newly recognized host is placed in the [!UICONTROL Production] environment. The [!UICONTROL Production] environment is the safest environment because it does not allow inactive activities to be viewed from these hosts.
 
-1. (Conditional) Click the **[!UICONTROL Move]** icon ( ![move icon](/help/main/administrating-target/assets/icon-move.png) ) to move the host into the [!UICONTROL Development], [!UICONTROL Staging], or other environment.
+1. (Conditional) Click the **[!UICONTROL Move]** icon ( ![move icon](/help/main/assets/icons/MoveTo.svg) ) to move the host into the [!UICONTROL Development], [!UICONTROL Staging], or other environment.
 
 >[!NOTE]
 >
@@ -97,7 +97,7 @@ You can also create a denylist that specifies hosts (domains) that cannot send [
 
 You can delete a host when it is no longer needed.
 
-1. From the [!UICONTROL Hosts] list, click the **[!UICONTROL Delete]** icon. 
+1. From the [!UICONTROL Hosts] list, click the **[!UICONTROL Delete]** icon ( ![Delete icon](/help/main/assets/icons/DeleteOutline.svg) ). 
 1. Click **[!UICONTROL Delete]** to confirm the deletion.
 
 >[!NOTE]
