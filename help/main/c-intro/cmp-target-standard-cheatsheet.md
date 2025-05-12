@@ -206,13 +206,7 @@ One of the ways is to use the [Custom Code Editor](/help/main/c-experiences/c-vi
 
 Use the Compose and Browse features to navigate to the page of choice and start creating your experience.
 
-![vec2 image](assets/vec2.png)
-
-**How can I go to the experience of my choice from Step 2 of the Target three-part guided workflow (Targeting page)?**
-
-Click the thumbnail in front of the experience name on Step 2 and you will land on the experience of your choice.
-
-![thumbnail_experiences image](assets/thumbnail_experiences.png)
+![Design and browse toggles](/help/main/c-experiences/c-visual-experience-composer/assets/design-browse-mode.png)
 
 **I am a former Target Classic user. Can I leverage my mboxes for certain use cases?**
 

@@ -1,6 +1,6 @@
 ---
 keywords: Experience Cloud;sign in;language;default ui language;default language
-description: Learn how to access [!DNL Target] from the Adobe Experience Cloud, set your default view, and change the language of the [!DNL Target] UI and documentation.
+description: Learn how to access [!DNL Target] from the Adobe Experience Cloud, set your default organization, and change the language of the [!DNL Target] UI and documentation.
 title: How Do I Access [!DNL Target] From the Adobe Experience Cloud?
 feature: Overview
 exl-id: a5ac8d33-69c3-4e21-9f0f-baab430a6b76
@@ -9,7 +9,7 @@ exl-id: a5ac8d33-69c3-4e21-9f0f-baab430a6b76
 
 Information about accessing [!DNL Adobe Target] from the [!DNL Adobe Experience Cloud], setting your default landing page, and changing the language of the [!DNL Target] user interface.
 
-## Sign in to Adobe [!DNL Target] and set your default view
+## Sign in to Adobe [!DNL Target] and set your default organization.
 
 1. Sign into the [Adobe Experience Cloud](https://experience.adobe.com/).
 
@@ -19,25 +19,21 @@ Information about accessing [!DNL Adobe Target] from the [!DNL Adobe Experience 
 
    ![application icon](/help/main/c-intro/assets/appmenu-new.png)
 
-1. (Optional) To set [!DNL Target] as your default view when you log in to the [!DNL Experience Cloud], click **[!UICONTROL Edit Profile]** under your profile avatar, then set your landing page preference.
+1. (Optional) To set the default organization when you log in to the [!DNL Experience Cloud], click **[!UICONTROL Preferences]** under your profile avatar, then set your default organization.
 
    ![Landing page](/help/main/c-intro/assets/pagepref-new.png)
 
 ## Change the default language for the [!DNL Target] UI {#language}
 
-1. After signing into the [!DNL Adobe Experience Cloud ] or [!DNL Target], click your profile avatar, then click **[!UICONTROL Edit Preferences]**.
-
-   ![Edit profile](/help/main/c-intro/assets/change-language.png)
+1. After signing into the [!DNL Adobe Experience Cloud ] or [!DNL Target], click your profile avatar, then click **[!UICONTROL Preferences]**.
 
 1. Click **[!UICONTROL Adobe Account]** to access your [!DNL Adobe] profile.
 
    ![Adobe Account](/help/main/c-intro/assets/adobe-account.png)
 
-1. Click the **[!UICONTROL Notifications]** tab in the top menu bar, then click the **[!UICONTROL Preferences]** tab on the left side.
+1. In the **[!UICONTROL Preferred languages]** section on the [!UICONTROL Account] page, **[!UICONTROL Add]**.
 
-   ![Preferred languages](/help/main/c-intro/assets/prefered-language.png)
-
-   The text indicates that this is the language you want [!DNL Adobe] to use when we reach out to you. This is also the language that'll be used in the UI for [!DNL Target] and other [!DNL Adobe Experience Cloud] solutions. You can choose more than one language.
+   The text indicates that this is the language you want [!DNL Adobe] to use when Adobe reaches out to you. This is also the language that is used in the UI for [!DNL Target] and other [!DNL Adobe Experience Cloud] solutions. You can choose more than one language.
 
 1. Select your first (primary) language, then select a second language, if desired.
 
@@ -60,15 +56,11 @@ Information about accessing [!DNL Adobe Target] from the [!DNL Adobe Experience 
 
 ## Change the language for the [!DNL Target] product documentation {#doc-lang}
 
-Your operating system or browser settings should detect your preferred language and display the documentation in that language (if available). [!DNL Target] documentation is automatically translated and will be in sync with the English version within hours of changes made to English documentation.
+Your operating system or browser settings should detect your preferred language and display the documentation in that language (if available). [!DNL Target] documentation is automatically translated and is in sync with the English version within hours of changes made to English documentation.
 
-You can quickly change the language to the original English version by clicking the link in the page header.
+You can quickly change the language to any supported language by clicking the Globe icon in the top right of the page header ( ![language switcher](/help/main/assets/icons/GlobeGrid.svg) ).
 
-![Change to original language](/help/main/c-intro/assets/mt-original.png)
-
-You can also quickly change the language to any supported language by clicking the Language Switcher icon in the top right of the page header ( ![language switcher](/help/main/c-intro/assets/icon-language-switcher.png) ).
-
-![language switcher](/help/main/c-intro/assets/language-switcher.png)
+![Change language](/help/main/c-intro/assets/mt-original.png)
 
 The [!DNL Target] documentation is available in the following languages:
 
