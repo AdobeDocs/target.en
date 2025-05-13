@@ -12,7 +12,7 @@ This article contains the first steps [!DNL Adobe Target] administrators should 
 
 ## Get invited to [!DNL Target] {#task_3E0817630774431983FAA3D2CB2E75BD}
 
-A system administrator in the [!DNL Adobe Admin Console] must add you as a user in [!DNL Target] by inviting you to join. The system administrator should then add you to one or more role-specific groups. Both of these tasks are performed in the [Adobe Admin Console](https://adminconsole.adobe.com).
+A system administrator in the [!DNL Adobe Admin Console] must add you as a user in [!DNL Target] by inviting you to join. The system administrator should then add you to one or more role-specific groups. Both of these tasks are performed in the [[!DNL Adobe Admin Console]](https://adminconsole.adobe.com).
 
 For more information, see [Manage Experience Cloud users and products](https://experienceleague.adobe.com/docs/core-services/interface/manage-users-and-products/admin-getting-started.html) in the *Experience Cloud and Core Services help*.
 
