@@ -46,7 +46,7 @@ To use the [!UICONTROL AI Assistant] feature in [!UICONTROL Target], individual 
 
    A permissions pop-up displays.
 
-    ![AI Assistant settings](/help/main/c-intro/assets/ai-pop-up2.png)
+   ![AI Assistant settings](/help/main/c-intro/assets/ai-pop-up2.png)
    
 1. Use the toggle to enable or disable the **[!UICONTROL Target AI Assistant]** permission for that user.
 
