@@ -33,6 +33,27 @@ Your organization must first agree to additional legal terms to gain access to [
 
 For more information, see [Access [!DNL AI Assistant] in [!DNL Experience Platform]](https://experienceleague.adobe.com/en/docs/experience-platform/ai-assistant/access){target=_blank} in the *[!DNL Experience Platform]* documentation.
 
+## Enabling User Permissions for [!UICONTROL AI Assistant]
+
+To use the [!UICONTROL AI Assistant] feature in [!UICONTROL Target], individual user permissions must be explicitly enabled.
+
+{{permissions-update}}
+
+1. Navigate to the **[!UICONTROL Administration]** tab in [!DNL Target].
+1. In the left-hand menu, select **[!UICONTROL Users]**.
+1. Locate the user you want to manage from the list or use the search bar to find them.
+1. Hover over the **[!UICONTROL AI Permissions]** column for the person you are wanting to give access to  to the [!UICONTROL Target AI Assistant].
+
+   A permissions pop-up displays.
+
+    ![AI Assistant settings](/help/main/c-intro/assets/ai-pop-up2.png)
+   
+1. Use the toggle to enable or disable the **[!UICONTROL Target AI Assistant]** permission for that user.
+
+   ![AI Assistant permissions pop-up](/help/main/c-intro/assets/ai-pop-up.png)
+
+   Once enabled, the user has access to the [!UICONTROL AI Assistant] within [!DNL Target]. Only users with this permission enabled can see [!UICONTROL AI Assistant] features in their [!DNL Target] interface. This permission ensures that access to AI-powered tools is controlled and aligned with your organization's policies.
+
 ## [!DNL AI Assistant] documentation
 
 See the following documentation for more information about [!DNL AI Assistant]:
