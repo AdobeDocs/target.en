@@ -5,6 +5,7 @@ title: How Do I Use the [!DNL AI Assistant] in [!DNL Target] to gain product kno
 feature: Overview
 hide: yes
 hidefromtoc: yes
+exl-id: 48a6a9d3-07e8-4858-b15b-48d182161a76
 ---
 # Use [!DNL AI Assistant] in [!DNL Adobe Target] to learn product knowledge
 
@@ -62,12 +63,3 @@ Learn about [!DNL Adobe Experience Platform] applications from [!DNL AI Assistan
 Learn how to verify and validate the responses that [!DNL AI Assistant] in [!DNL Adobe Experience Platform] provides.
 
 >[!VIDEO](https://video.tv.adobe.com/v/3441738/?learn=on&#x26;enablevpops)
-
-
-
-
-
-
-   
-
-
