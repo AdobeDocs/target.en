@@ -3,8 +3,6 @@ keywords: ai assistant;artificial intelligence assistant
 description: Learn how to enable [!DNL AI Assistant] in[!DNL  Adobe Target].
 title: How Do I Enable the [!DNL AI Assistant] in [!DNL Target]?
 feature: Overview
-hide: yes
-hidefromtoc: yes
 ---
 # Enable [!DNL Adobe Experience Platform] [!DNL AI Assistant] in [!DNL Adobe Target]
 
