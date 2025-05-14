@@ -23,8 +23,8 @@ feature-set: Target
    + [Understand the Target UI](/help/main/c-intro/understand-the-target-ui.md)
    + Adobe Target AI Assistant {#assistant-ai}
       + [AI Assistant overview](/help/main/c-intro/ai-assistant.md)
-        + [Enable AI Assistant](/help/main/c-intro/enabling-ai-assistant.md)
-        + [Use AI Assistant to gain product knowledge](/help/main/c-intro/ai-assistant-product-knowledge.md)
+      + [Enable AI Assistant](/help/main/c-intro/enabling-ai-assistant.md)
+      + [Use AI Assistant to gain product knowledge](/help/main/c-intro/ai-assistant-product-knowledge.md)
    + Adobe Target welcome kit {#welcome}
       + [Target welcome kit overview](/help/main/c-intro/target-welcome-kit.md)
       + [Chapter 1: Introduction](/help/main/c-intro/target-welcome-kit-1.md)
