@@ -5,7 +5,6 @@ title: How Do I Use the [!DNL AI Assistant] in [!DNL Target] to gain product kno
 feature: Overview
 hide: yes
 hidefromtoc: yes
-exl-id: f46d95f3-0ca3-4d96-92a7-b67a2c8a4678
 ---
 # Use [!DNL AI Assistant] in [!DNL Adobe Target] to learn product knowledge
 
