@@ -9,13 +9,15 @@ exl-id: ce4c72b2-b635-406b-9830-650816445a64
 
 The user interface is arranged in a logical and user-friendly format to help you get the most out of [!DNL Adobe Target]. The following brief overview helps you get familiarized with [!DNL Target] and provides links for more in-depth information and step-by-step instructions.
 
-The header at the top of the [!DNL Target] UI contains tabs and options to help you navigate the different capabilities of the solution. You can also switch organizations and [!DNL Adobe Experience Cloud] solutions, get help and notifications, manage your [!DNL Adobe] profile, and log out of [!DNL Target].
+## [!DNL Target] UI header
+
+The header at the top of the [!DNL Target] UI contains tabs and options to help you navigate the different capabilities of the solution. You can also switch organizations and [!DNL Adobe Experience Cloud] solutions, provide feedback if you are part of a Beta program, access AI Assistant, get help and notifications, manage your [!DNL Adobe] profile, and log out of [!DNL Target].
 
 ![Target header](/help/main/c-intro/assets/target-header.png)
 
-The tabs along the left side let you access the various capabilities of [!DNL Target], which is discussed later. Let's start by discussing the options on the right side before jumping into the tabs.
+The tabs along the left side let you access the various capabilities of [!DNL Target], which is discussed later. Let's start by discussing the options on the right side before discussing the tabs.
 
-## Organizations
+### [!UICONTROL Organization]
 
 An *organization* is the entity that enables an administrator to configure groups and users, and to control single sign-on in the [!DNL Adobe Experience Cloud]. The organization functions like a log-in company that spans all the [!DNL Experience Cloud] products and solutions. Most often, an organization is your company name. However, a company can have many organizations.
 
@@ -23,19 +25,25 @@ Select the desired organization the [!UICONTROL Organization] drop-down list if 
 
 ![Organization drop-down list](/help/main/c-intro/assets/organizations.png)
 
-## Apps
+### [!UICONTROL Beta Feedback]
 
-The Apps switcher lets you quickly access the [!DNL Adobe Experience Cloud] solutions that you have access to.
+(Conditional) If you are part of an official [!DNL Target] Beta program, you might see the [!UICONTROL Beta Feedback] icon. 
 
-![Apps switcher](/help/main/c-intro/assets/apps.png)
+![Beta Feedback icon](/help/main/c-intro/assets/beta-feedback.png)
 
-## Help
+Provide a description for your feedback, include applicable files or screenshots, and any additional details, as necessary, then click **[!UICONTROL Submit]**.
+
+### [!DNL AI Assistant] (Scheduled to be released May 20, 2025)
+
+(Conditional) If your have been granted rights to use the AI Assistant by your organization, click the AI Assistant icon.
+
+### Help
 
 The Help icon lets you access information, videos, blogs, and more to help you use [!DNL Target] more effectively. You can create a support ticket, find support telephone numbers, ask questions via Twitter, or provide feedback about [!DNL Target] to let us know how the [!DNL Target] team is doing.
 
 ![Help](/help/main/c-intro/assets/help.png)
 
-## Notifications and announcements {#notifications-announcements}
+### Notifications and announcements {#notifications-announcements}
 
 The [!UICONTROL Notifications] and [!UICONTROL Announcements] panels help keep you up to date about all things [!DNL Adobe Target]. Proactive notifications help keep you abreast of the status of [!DNL Adobe Experience Cloud] solutions and [!DNL Target] events. Proactive announcements alert you to outage events and maintenance events.
 
@@ -49,7 +57,7 @@ The panel contains tabs for [!UICONTROL Notifications] and [!UICONTROL Announcem
 
 The following sections contain information about each tab, and how to configure notifications and announcements:
 
-### Notifications {#notifications}
+#### Notifications {#notifications}
 
 [!DNL Target] event notifications include the following:
 
@@ -87,7 +95,7 @@ You can mark individual notifications as read by hovering over the desired notif
 
 You can also set a reminder to be notified again by hovering over a notification, clicking the "[!UICONTROL Remind me]" icon, then selecting when you want to be notified: 5 minutes, 15 minutes, one hour, or tomorrow.
 
-### Announcements
+#### Announcements
 
 Proactive announcements alert you to outage events and maintenance events.
 
@@ -113,7 +121,6 @@ To edit your notifications preferences:
    >
    >"New releases" and "Updates on content" are the only notification categories that apply to [!DNL Target]. The other categories apply to other Adobe solutions.  
 
-
 1. Select the categories that you want to be considered high priority.
 1. Select the notifications for which you would like to see alerts display in your browser. 
 
@@ -126,7 +133,13 @@ To edit your notifications preferences:
    * Daily digest
    * Weekly digest
 
-## Profile
+### Apps switcher
+
+The Apps switcher lets you quickly access the [!DNL Adobe Experience Cloud] solutions that you have access to.
+
+![Apps switcher](/help/main/c-intro/assets/apps.png)
+
+### Profile
 
 Click your profile avatar to edit your [!DNL Adobe Experience Cloud] preferences or to sign out of [!DNL Target]. You can also access or edit your [!DNL Adobe] profile.
 
