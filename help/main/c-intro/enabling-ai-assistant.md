@@ -4,6 +4,7 @@ description: Learn how to enable [!DNL AI Assistant] in[!DNL  Adobe Target].
 title: How Do I Enable the [!DNL AI Assistant] in [!DNL Target]?
 badgeBeta: label="Beta" type="Informative" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html#beta newtab=true" tooltip="What are Beta features in [!DNL Adobe Target]."
 feature: Overview
+exl-id: 6897059c-65e2-4e21-b4b5-bef0a04fa6b6
 ---
 # Enable [!DNL Adobe Experience Platform] [!DNL AI Assistant] in [!DNL Adobe Target]
 
