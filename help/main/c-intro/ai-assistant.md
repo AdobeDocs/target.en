@@ -1,8 +1,9 @@
 ---
 keywords: ai assistant;artificial intelligence assistant
 description: Learn how to navigate and understand [!DNL Target] concepts with [!DNL AI Assistant].
-title: How Do I Enable the [!DNL AI Assistant] in [!DNL Target]?
+title: How Do I Use the [!DNL AI Assistant] in [!DNL Target]?
 feature: Overview
+badgeBeta: label="Beta" type="Informative" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html#beta newtab=true" tooltip="What are Beta features in [!DNL Adobe Target]."
 exl-id: f46d95f3-0ca3-4d96-92a7-b67a2c8a4678
 ---
 # [!DNL Adobe Experience Platform] [!DNL AI Assistant] overview
