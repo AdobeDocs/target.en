@@ -3,6 +3,7 @@ keywords: ai assistant;artificial intelligence assistant
 description: Learn how to gain [!DNL Target] product knowledge with [!DNL AI Assistant].
 title: How Do I Use the [!DNL AI Assistant] in [!DNL Target] to gain product knowledge?
 feature: Overview
+badgeBeta: label="Beta" type="Informative" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html#beta newtab=true" tooltip="What are Beta features in [!DNL Adobe Target]."
 exl-id: 48a6a9d3-07e8-4858-b15b-48d182161a76
 ---
 # Use [!DNL AI Assistant] in [!DNL Adobe Target] to learn product knowledge

@@ -25,6 +25,8 @@ We are thrilled to announce the launch of the [!DNL AI Assistant] in [!DNL Adobe
 
 In [!DNL Target], the first phase of [!DNL AI Assistant] provides invaluable product knowledge grounded in [!DNL Experience League] documentation. Whether you're setting up a profile script, troubleshooting errors, or considering an upgrade to the AEP Web SDK, [!DNL AI Assistant] has you covered.
 
+For more information, see [Adobe Experience Platform AI Assistant overview](/help/main/c-intro/ai-assistant.md).
+
 ## Additional release notes and version details
 
 |Resource|Details|

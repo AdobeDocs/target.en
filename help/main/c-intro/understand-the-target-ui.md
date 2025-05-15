@@ -33,25 +33,25 @@ Select the desired organization the [!UICONTROL Organization] drop-down list if 
 
 Provide a description for your feedback, include applicable files or screenshots, and any additional details, as necessary, then click **[!UICONTROL Submit]**.
 
-### [!DNL AI Assistant] (Scheduled to be released May 20, 2025)
+### [!DNL AI Assistant]
 
-(Conditional) If your have been granted rights to use the AI Assistant by your organization, click the AI Assistant icon.
+(Conditional) If your have been granted rights to use the [!DNL AI Assistant] by your organization, click the [!DNL AI Assistant] icon.
+
+For more information, see [Adobe Experience Platform AI Assistant overview](/help/main/c-intro/ai-assistant.md).
 
 ### Help
 
-The Help icon lets you access information, videos, blogs, and more to help you use [!DNL Target] more effectively. You can create a support ticket, find support telephone numbers, ask questions via Twitter, or provide feedback about [!DNL Target] to let us know how the [!DNL Target] team is doing.
+Clicking the [!UICONTROL Help] icon ( ![Help icon](/help/main/assets/icons/HelpOutline.svg) ) lets you access information, videos, blogs, and more to help you use [!DNL Target] more effectively. You can create a support ticket, find support telephone numbers, ask questions via Twitter, or provide feedback about [!DNL Target] to let us know how the [!DNL Target] team is doing.
 
 ![Help](/help/main/c-intro/assets/help.png)
 
-### Notifications and announcements {#notifications-announcements}
+### Requests, notifications, and announcements {#notifications-announcements}
 
-The [!UICONTROL Notifications] and [!UICONTROL Announcements] panels help keep you up to date about all things [!DNL Adobe Target]. Proactive notifications help keep you abreast of the status of [!DNL Adobe Experience Cloud] solutions and [!DNL Target] events. Proactive announcements alert you to outage events and maintenance events.
+The [!UICONTROL Requests], [!UICONTROL Notifications], and [!UICONTROL Announcements] panels help keep you up to date about all things [!DNL Adobe Target]. Proactive notifications help keep you abreast of the status of [!DNL Adobe Experience Cloud] solutions and [!DNL Target] events. Proactive announcements alert you to outage events and maintenance events.
 
-Click the bell icon from the header to view notifications:
+Click the [!UICONTROL Notifications] icon ( ![Notifications icon](/help/main/assets/icons/Bell.svg) ) from the header to view notifications:
 
-![Bell icon for notifications and announcements](assets/bell-icon.png)
-
-The panel contains tabs for [!UICONTROL Notifications] and [!UICONTROL Announcements].
+The panel contains tabs for [!UICONTROL Requests], [!UICONTROL Notifications], and [!UICONTROL Announcements].
 
 ![Notifications](assets/notifications.png)
 
