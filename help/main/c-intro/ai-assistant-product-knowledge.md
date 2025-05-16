@@ -3,7 +3,6 @@ keywords: ai assistant;artificial intelligence assistant
 description: Learn how to gain [!DNL Target] product knowledge with [!DNL AI Assistant].
 title: How Do I Use the [!DNL AI Assistant] in [!DNL Target] to gain product knowledge?
 feature: Overview
-badgeBeta: label="Beta" type="Informative" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html#beta newtab=true" tooltip="What are Beta features in [!DNL Adobe Target]."
 exl-id: 48a6a9d3-07e8-4858-b15b-48d182161a76
 ---
 # Use [!DNL AI Assistant] in [!DNL Adobe Target] to learn product knowledge
@@ -20,7 +19,7 @@ Product knowledge questions include [!DNL Adobe] concepts related to aspects of 
 
 To access the [!DNL AI Assistant]:
 
-1. Ensure that you have completed the prerequisite tasks in [Enabling [!DNL Adobe Experience Platform] [!DNL AI Assistant] in [!DNL Adobe Target]](/help/main/c-intro/ai-assistant.md).
+1. Ensure that you have completed the prerequisite tasks in [Enabling [!DNL Adobe Experience Platform] [!DNL AI Assistant] in [!DNL Adobe Target]](/help/main/c-intro/enabling-ai-assistant.md).
 
    * Your organization must first agree to legal terms. For more information, contact your Adobe Account Team.
    * Your administrators must grant you sufficient permissions to access [!DNL AI Assistant].

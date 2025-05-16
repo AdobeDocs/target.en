@@ -2,7 +2,6 @@
 keywords: ai assistant;artificial intelligence assistant
 description: Learn how to enable [!DNL AI Assistant] in[!DNL  Adobe Target].
 title: How Do I Enable the [!DNL AI Assistant] in [!DNL Target]?
-badgeBeta: label="Beta" type="Informative" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html#beta newtab=true" tooltip="What are Beta features in [!DNL Adobe Target]."
 feature: Overview
 exl-id: 6897059c-65e2-4e21-b4b5-bef0a04fa6b6
 ---
@@ -24,8 +23,8 @@ To use the [!UICONTROL AI Assistant] feature in [!UICONTROL Target], individual 
 
 1. Navigate to the **[!UICONTROL Administration]** tab in [!DNL Target].
 1. In the left-hand menu, select **[!UICONTROL Users]**.
-1. Locate the user you want to manage from the list or use the search bar to find them.
-1. Hover over the **[!UICONTROL AI Permissions]** column for the person you are wanting to give access to  to the [!UICONTROL Target AI Assistant].
+1. Locate the user that you want to manage from the list or use the search bar to find them.
+1. Hover over the **[!UICONTROL AI Permissions]** column for the person that you are wanting to give access to the [!UICONTROL Target AI Assistant].
 
    A permissions pop-up displays.
 

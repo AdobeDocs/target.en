@@ -3,7 +3,6 @@ keywords: ai assistant;artificial intelligence assistant
 description: Learn how to navigate and understand [!DNL Target] concepts with [!DNL AI Assistant].
 title: How Do I Use the [!DNL AI Assistant] in [!DNL Target]?
 feature: Overview
-badgeBeta: label="Beta" type="Informative" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html#beta newtab=true" tooltip="What are Beta features in [!DNL Adobe Target]."
 exl-id: f46d95f3-0ca3-4d96-92a7-b67a2c8a4678
 ---
 # [!DNL Adobe Experience Platform] [!DNL AI Assistant] overview
@@ -24,7 +23,12 @@ In [!DNL Target], you currently have access to the following use cases:
 
 >[!NOTE]
 >
->Customer operational insights are currently not available in [!DNL Target].
+>Content generation and customer operational insights are currently not available in [!DNL Target].
+
+## Next steps
+
+1. Complete the prerequisite tasks in [Enable Adobe Experience Platform AI Assistant in Adobe Target](/help/main/c-intro/enabling-ai-assistant.md).
+1. Start using AI Assistant by asking questions, as explained in [Use AI Assistant in Adobe Target to learn product knowledge](/help/main/c-intro/ai-assistant-product-knowledge.md).
 
 ## [!DNL AI Assistant] documentation
 
