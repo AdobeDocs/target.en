@@ -5,6 +5,7 @@ title: How Do I Use the [!DNL AI Assistant] in [!DNL Target] to generate content
 feature: Overview
 hide: yes
 hidefromtoc: yes
+exl-id: eb6f07d8-729e-4f94-ae7a-a054bf54b030
 ---
 # Use [!DNL AI Assistant] in [!DNL Adobe Target] for content generation
 
@@ -70,11 +71,3 @@ To generate text using [!DNL AI Assistant]:
 ### Create content using the AI Assistant for content generation
 
 >[!VIDEO](https://video.tv.adobe.com/v/3434635/?learn=on">https://video.tv.adobe.com/v/3434635/?learn=on)
-
-
-
-
-
-
-
-
