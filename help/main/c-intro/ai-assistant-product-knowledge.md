@@ -17,12 +17,18 @@ Product knowledge questions include [!DNL Adobe] concepts related to aspects of 
   * I am getting an error when saving my activity. What does it mean?
   * Should I upgrade my at.js implementation to the AEP Web SDK?
 
-To access the [!DNL AI Assistant]:
+## Access [!DNL AI Assistant]
+
+To access the [!DNL AI Assistant] for product knowledge:
 
 1. Ensure that you have completed the prerequisite tasks in [Enabling [!DNL Adobe Experience Platform] [!DNL AI Assistant] in [!DNL Adobe Target]](/help/main/c-intro/enabling-ai-assistant.md).
 
    * Your organization must first agree to legal terms. For more information, contact your Adobe Account Team.
    * Your administrators must grant you sufficient permissions to access [!DNL AI Assistant].
+
+## Use AI Assistant go gain product knowledge
+
+To access the [!DNL AI Assistant] for product knowledge:
 
 1. From within [!DNL Target], click the **[!DNL AI Assistant] icon** in the top right corner of the UI.
 
