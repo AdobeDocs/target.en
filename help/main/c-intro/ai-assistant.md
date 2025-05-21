@@ -7,7 +7,7 @@ exl-id: f46d95f3-0ca3-4d96-92a7-b67a2c8a4678
 ---
 # [!DNL Adobe Experience Platform] [!DNL AI Assistant] overview
 
-The [!DNL AI Assistant] in [!DNL Adobe Experience Platform] is a user interface feature that you can use to navigate and understand [!DNL Adobe] concepts. [!DNL AI Assistant] is available in several products across [!DNL Adobe Experience Cloud], including [!DNL Adobe Target].
+[!DNL AI Assistant] in [!DNL Adobe Experience Platform] is a user interface feature that you can use to navigate and understand [!DNL Adobe] concepts. [!DNL AI Assistant] is available in several products across [!DNL Adobe Experience Cloud], including [!DNL Adobe Target].
 
 ## Use cases in [!DNL Target]
 

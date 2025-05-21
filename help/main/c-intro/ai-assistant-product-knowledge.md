@@ -48,11 +48,11 @@ To access the [!DNL AI Assistant] for product knowledge:
    >
    >AI-generated responses may be inaccurate or misleading. Be sure to double-check responses and sources.
 
-1. (Optional) Provide feedback to the AI Assistant.
+1. (Optional) Provide feedback to [!DNL AI Assistant].
 
-   * Click the Thumbs up icon ( ![Thumbs up icon](/help/main/assets/icons/ThumbUp.svg) ) to tell [!DNL AI Assistant] that the response is correct.
-   * Click the Thumbs down icon ( ![Thumbs down icon](/help/main/assets/icons/ThumbDown.svg) ) to tell [!DNL AI Assistant] that the response is incorrect.
-   * Click the Report Results icon ( ![Report results icon](/help/main/assets/icons/Flag.svg) ) to report an issue to the [!DNL AI Assistant].
+   * Click the Thumbs up ( ![Thumbs up icon](/help/main/assets/icons/ThumbUp.svg) ) icon to tell [!DNL AI Assistant] that the response is correct.
+   * Click the Thumbs down ( ![Thumbs down icon](/help/main/assets/icons/ThumbDown.svg) ) icon to tell [!DNL AI Assistant] that the response is incorrect.
+   * Click the Report Results ( ![Report results icon](/help/main/assets/icons/Flag.svg) ) icon to report an issue to the [!DNL AI Assistant].
 
 ## Training videos
 
