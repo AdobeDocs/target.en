@@ -21,7 +21,7 @@ The tabs along the left side let you access the various capabilities of [!DNL Ta
 
 An *organization* is the entity that enables an administrator to configure groups and users, and to control single sign-on in the [!DNL Adobe Experience Cloud]. The organization functions like a log-in company that spans all the [!DNL Experience Cloud] products and solutions. Most often, an organization is your company name. However, a company can have many organizations.
 
-Select the desired organization the [!UICONTROL Organization] drop-down list if your company has multiple organizations:
+Select the desired organization from the [!UICONTROL Organization] drop-down list if your company has multiple organizations:
 
 ![Organization drop-down list](/help/main/c-intro/assets/organizations.png)
 
@@ -35,7 +35,7 @@ Provide a description for your feedback, include applicable files or screenshots
 
 ### [!DNL AI Assistant]
 
-(Conditional) If your have been granted rights to use the [!DNL AI Assistant] by your organization, click the [!DNL AI Assistant] icon.
+(Conditional) If you have been granted the rights to use [!DNL AI Assistant] by your organization, click the [!DNL AI Assistant] icon.
 
 For more information, see [Adobe Experience Platform AI Assistant overview](/help/main/c-intro/ai-assistant.md).
 
@@ -56,6 +56,12 @@ The panel contains tabs for [!UICONTROL Requests], [!UICONTROL Notifications], a
 ![Notifications](assets/notifications.png)
 
 The following sections contain information about each tab, and how to configure notifications and announcements:
+
+#### [!UICONTROL Requests]
+
+Receive important information about [!DNL Adobe] products and solutions, your collaboration with fellow users, and other relevant updates in the [!UICONTROL Requests] panel.
+
+When someone sends you a request to approve an object or to grant access to an object, that request displays in the [!UICONTROL Requests] panel.
 
 #### Notifications {#notifications}
 
@@ -91,9 +97,9 @@ The following sections contain information about each tab, and how to configure 
   * `Feed {target.feed.name} has failed`
   * `Feed {target.feed.name} has failed to import from source`
 
-You can mark individual notifications as read by hovering over the desired notification and then clicking the checkmark. You can mark all notifications as read or view all notifications by clicking [!UICONTROL "Mark as Read"] or [!UICONTROL "View All"] at the bottom of the panel.
+You can mark individual notifications as read by hovering over the desired notification and then clicking the [!UICONTROL Mark as Read] ( ![Mark as Read icon](/help/main/assets/icons/CheckmarkCircle.svg) ) icon. You can mark all notifications as read or view all notifications by clicking [!UICONTROL Mark as Read] or [!UICONTROL View All] at the bottom of the panel.
 
-You can also set a reminder to be notified again by hovering over a notification, clicking the "[!UICONTROL Remind me]" icon, then selecting when you want to be notified: 5 minutes, 15 minutes, one hour, or tomorrow.
+You can also set a reminder to be notified again by hovering over a notification, clicking the [!UICONTROL Snooze] ( ![Snooze icon](/help/main/assets/icons/Clock.svg) ) icon. You can then select when you want to be notified: 5 minutes, 15 minutes, one hour, or tomorrow.
 
 #### Announcements
 
@@ -105,33 +111,31 @@ More in-depth information can be found on the [Adobe Status](https://status.adob
 
 To edit your notifications preferences:
 
-1. Click the gear icon, then click **[!UICONTROL Notifications]**.
-1. Under **[!UICONTROL Target]**, click **[!UICONTROL Customize]**.
-1. Select or deselect the categories for which you want to receive notifications:
+1. Click the [!UICONTROL Edit Preferences] ( ![Edit Preferences icon](/help/main/assets/icons/Setting.svg) ) icon, then click **[!UICONTROL Notifications]** in the left rail.
+1. Under **[!UICONTROL Target]**, select how you want to be notified:
 
-   * Requests: When someone sends you a request to approve an object or to grant access to an object. You cannot unsubscribe from this category.
-   * Assigned to me: When someone assigns an object to you.
-   * Mentions: When someone mentions you in a comment.
-   * New releases: When a new release is available for a product or a service that you have access to. 
-   * Shared with me: When someone shares an object with you.
-   * Updates on content: When someone edits, deletes, or comments on an object you created or follow.
-   * Others:
+   * [!UICONTROL In-app]
+   * [!UICONTROL Email]
+   * [!DNL Slack]
+
+1. Select the categories that you want to be considered high priority.
 
    >[!NOTE]
    >
-   >"New releases" and "Updates on content" are the only notification categories that apply to [!DNL Target]. The other categories apply to other Adobe solutions.  
+   >"[!UICONTROL New releases]" and "[!UICONTROL Updates on content]" are the only notification categories that apply to [!DNL Target]. The other categories apply to other [!DNL Adobe] solutions.
 
-1. Select the categories that you want to be considered high priority.
 1. Select the notifications for which you would like to see alerts display in your browser. 
 
    These alerts appear in the top-right corner of your browser for a few seconds. You can choose to see high-priority categories, all categories, or to hide all notification pop-ups. You can also configure if you want the notifications to remain visible until you dismiss them or you can configure the notification duration.
 
 1. Select the frequency at which you want to receive notification emails:
 
-   * Don't send emails
-   * Instant notifications
-   * Daily digest
-   * Weekly digest
+   * [!UICONTROL Don't send emails]
+   * [!UICONTROL Instant notifications]
+   * [!UICONTROL Daily digest]
+   * [!UICONTROL Weekly digest]
+
+1. Configure Slack notifications for a workspace. 
 
 ### Apps switcher
 
@@ -145,13 +149,11 @@ Click your profile avatar to edit your [!DNL Adobe Experience Cloud] preferences
 
 ![Profile avatar](/help/main/c-intro/assets/change-language.png)
 
-Now let's discuss the tabs along the left side of the [!DNL Target] header.
+Now, let's discuss the tabs along the left side of the [!DNL Target] header.
 
 ## Activities
 
 The **[!UICONTROL Activities]** list is the default view when you open [!DNL Target]. You can create activities from this page and manage existing activities.
-
-![Activities list](/help/main/c-intro/assets/activities-list.png)
 
 See [Activities](/help/main/c-activities/activities.md) for in-depth information about the activity types available in [!DNL Target] and to learn more about the [!UICONTROL Activity] list's user interface.
 
@@ -159,17 +161,13 @@ See [Activities](/help/main/c-activities/activities.md) for in-depth information
 
 Click the **[!UICONTROL Audiences]** tab to display the [!UICONTROL Audiences] list where you can create audiences and manage existing audiences.
 
-![Audience list](/help/main/c-intro/assets/audience-list.png)
-
-An audience is a group of similar activity entrants who see a targeted activity. An audience is group of people with the same characteristics, such as a new visitor, a returning visitor, or returning visitors from the Midwest. The [!UICONTROL Audience] feature allows you to target different content and experiences to specific audiences to optimize your digital marketing by displaying the right messages to the right people at the right time. If a visitor is identified as part of a target audience, [!DNL Target] determines which experience to display, based on criteria defined during activity creation.
+An audience is a group of similar activity entrants who see a targeted activity. An audience is a group of people with the same characteristics, such as a new visitor, a returning visitor, or returning visitors from the Midwest. The [!UICONTROL Audience] feature allows you to target different content and experiences to specific audiences to optimize your digital marketing by displaying the right messages to the right people at the right time. If a visitor is identified as part of a target audience, [!DNL Target] determines which experience to display, based on criteria defined during activity creation.
 
 See [Create audiences](/help/main/c-target/c-audiences/create-audience.md) for in-depth information about the audience types in [!DNL Target] and to learn more about the [!UICONTROL Audience] list's user interface.
 
 ## Offers
 
 Click the **[!UICONTROL Offers]** tab to display the [!UICONTROL Offers] list where you can create experiences and offers and manage existing experiences and offers.
-
-![Offers list](/help/main/c-intro/assets/offers.png)
 
 An experience can be an offer, image, text, button, video, combination of these various elements on a page, an entire web page, or a set of pages that perhaps form a purchase funnel or some other logical sequence of pages. It can also be the response of a voice assistant, a customer service script, or even a personalized flavor from a drink machine. You test or personalize experiences in [!DNL Target] activities.
 
@@ -181,9 +179,7 @@ Click the **[!UICONTROL Recommendations]** tab to access [!DNL Target Recommenda
 
 >[!NOTE]
 >
->Recommendations activities are available as part of the [!DNL Target Premium] solution . They are not available in [!DNL Target Standard] without a [!DNL Target Premium] license. For more information, see [Target Premium](/help/main/c-intro/intro.md#premium) in *Introduction to Target*.
-
-![Recommendations](/help/main/c-intro/assets/recommendations.png)
+>[!UICONTROL Recommendations] activities are available as part of the [!DNL Target Premium] solution. [!UICONTROL Recommendations] activities are not available in [!DNL Target Standard] without a [!DNL Target Premium] license. For more information, see [Target Premium](/help/main/c-intro/intro.md#premium) in *Introduction to Target*.
 
 [!UICONTROL Recommendations] activities automatically display products or content that might interest your customers based on previous user activity or other algorithms. Recommendations help direct customers to relevant items that they might otherwise not know about.
 
@@ -193,8 +189,10 @@ See [Recommendations](/help/main/c-recommendations/recommendations.md) for in-de
 
 Click the **[!UICONTROL Administration]** tab to access the [!UICONTROL Administration] pages.
 
-![Adminstration pages](/help/main/c-intro/assets/administration.png)
-
-The [!UICONTROL Administration] pages let you administer [!DNL Target], including configuration settings for the [!UICONTROL Visual Experience Composer] (VEC), reporting, [!DNL Scene7] configuration, implementation, hosts, environments, response tokens, and users.
+The [!UICONTROL Administration] pages let you administer [!DNL Target], including configuration settings for the [!UICONTROL Visual Experience Composer] (VEC), reporting, [!DNL Scene7] configuration, implementation, hosts, environments, response tokens, users, and recommendations.
 
 See [Administer Target overview](/help/main/administrating-target/administrating-target.md) for in-depth information and to learn more about the user interface.
+
+## Visual Experience Composer (VEC)
+
+In addition to the [!DNL Target] UI, you should familiarize yourself with the VEC UI. For more information, see [[!DNL Visual Experience Composer] options](/help/main/c-experiences/c-visual-experience-composer/viztarget-options.md). 
