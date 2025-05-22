@@ -41,7 +41,7 @@ To generate text using [!DNL AI Assistant]:
 
    For example, for a seasonal vacation sale, you might type "Write engaging hero text advertising a limited-time summer vacation sale."
 
-   See [Example variations]({#variations}) below to see how powerful [!DNL AI Assistant] in creating more extensive ad copy for an exiting NYC adventure.
+   See [Example variations](#variations) below to see how [!DNL AI Assistant] transforms a simple prompt into captivating, longer-form ad copy for an exciting NYC adventure.
 
 1. Click the **[!UICONTROL Text Settings]** icon to specify your text's tone and communication strategy.
 
@@ -77,10 +77,10 @@ The following prompt and variations show the power of [!DNL AI Assistant].
 
 **[!UICONTROL Prompt]**: Write an engaging ad for a three-day trip to NYC to visit the top destinations.
 **[!UICONTROL Text Settings]**: FOMO, English, Persuasive, Medium length.
-**[!UICONTROL Variation 1]**: Discover the magic of NYC with our exclusive three-day trip! Immerse yourself in iconic sights like Times Square, Central Park, and the Statue of Liberty. Join countless others who've already experienced the thrill and beauty of the city that never sleeps. Don't miss out on unforgettable memories. Book your adventure today and be part of the excitement! Limited spots available!
-**[!UICONTROL Variation 2]**: Discover the magic of NYC with our exclusive three-day getaway! Visit iconic landmarks like Times Square and Central Park, and immerse yourself in world-class dining and entertainment. Don't miss out on this unforgettable adventure. Spaces are limited, and everyone is raving about their incredible experiences. Book now and be part of the excitement that's captivating travelers worldwide!
-**[!UICONTROL Variation 3]**: Embark on a thrilling three-day escapade to NYC, where iconic landmarks await! Discover Times Square's electric vibe, savor culinary delights in Manhattan, and capture breathtaking views from the Empire State Building. Act now and join countless adventurers living their dream. Don't miss out on creating unforgettable memories in the city that never sleeps. Limited spots available. Book your adventure today!
-**[!UICONTROL Variation 4]**: Book your three-day NYC adventure now and experience the city's magic like never before! From iconic sights to hidden gems, every corner of the Big Apple holds something exciting. Don't miss out on unforgettable moments others are already enjoying. Be part of the buzz. Secure your spot today and create memories that will last a lifetime. Hurry, spaces are filling quickly!
+* **[!UICONTROL Variation 1]**: Discover the magic of NYC with our exclusive three-day trip! Immerse yourself in iconic sights like Times Square, Central Park, and the Statue of Liberty. Join countless others who've already experienced the thrill and beauty of the city that never sleeps. Don't miss out on unforgettable memories. Book your adventure today and be part of the excitement! Limited spots available!
+* **[!UICONTROL Variation 2]**: Discover the magic of NYC with our exclusive three-day getaway! Visit iconic landmarks like Times Square and Central Park, and immerse yourself in world-class dining and entertainment. Don't miss out on this unforgettable adventure. Spaces are limited, and everyone is raving about their incredible experiences. Book now and be part of the excitement that's captivating travelers worldwide!
+* **[!UICONTROL Variation 3]**: Embark on a thrilling three-day escapade to NYC, where iconic landmarks await! Discover Times Square's electric vibe, savor culinary delights in Manhattan, and capture breathtaking views from the Empire State Building. Act now and join countless adventurers living their dream. Don't miss out on creating unforgettable memories in the city that never sleeps. Limited spots available. Book your adventure today!
+* **[!UICONTROL Variation 4]**: Book your three-day NYC adventure now and experience the city's magic like never before! From iconic sights to hidden gems, every corner of the Big Apple holds something exciting. Don't miss out on unforgettable moments others are already enjoying. Be part of the buzz. Secure your spot today and create memories that will last a lifetime. Hurry, spaces are filling quickly!
 
 ## Training videos
 
