@@ -13,6 +13,32 @@ These release notes provide information about features, enhancements, and fixes 
 
 (The issue numbers in parentheses are for internal [!DNL Adobe] use.)
 
+## [!DNL Target Standard/Premium] 25.5.3 (May 22, 2025)
+
+This release includes the following fixes and updates:
+
+* Fixed an issue where the search-by-name feature in the [!UICONTROL Activities] list did not work correctly with multi-word queries. (TGT-52529)
+* Fixed an issue that prevented excluding experiences from [!UICONTROL Automated Personalization] (AP) activities. (TGT-52383)
+* Fixed an issue where the "[!UICONTROL Contains]" option was missing from [!UICONTROL Filter Rules] when managing content in AP activities. (TGT-52384)
+* Fixed a reporting inconsistency in [!UICONTROL Automated Personalization] (AP) activities, specifically related to how default offers are tracked and reported using `optionLocalId` values from [!DNL Target]'s internal system.
+* Fixed an issue where QA links failed to deliver the intended activity experience. (TGT-52163)
+* Fixed an issue where users with [!UICONTROL Approver] permissions were incorrectly blocked from editing live activities, receiving an "Access denied" error message. (TGT-52416)
+* Fixed an issue where audience refinements failed to display for certain activities in the updated [!DNL Target] UI. (TGT-52057)
+* Fixed an issue that caused audience refinements and activity audiences to be reversed in the updated UI. (TGT-52158)
+* Fixed an issue where generating ad-hoc offers resulted in duplicate offers. (TGT-51938)
+* Fixed an issue that blocked offer updates and incorrectly displayed an "Invalid user" error. (TGT-52361)
+* Fixed an issue that prevented saving existing activities, triggering an "Invalid User Input" error. (TGT-52422)
+* Fixed an issue that blocked editing existing HTML offers, triggering an "Invalid User Input" error on save, even when no code changes were made. (TGT-52351)
+* Fixed an issue that prevented [!DNL Target] from recognizing the "#" character in a website's URL. (TGT-52093)
+* Fixed an issue that prevented editing [!DNL Recommendations] activities to add or update promotions, which caused save failures and duplicate promotions. (TGT-52343)
+* Fixed an issue that prevented changes to criteria or designs in [!DNL Recommendations] activities, resulting in an "invalid JSON: unrecognized property name" error. (TGT-52375)
+* Fixed an issue where sequence criteria failed to display correctly in the [!UICONTROL Visual Experience Composer] (VEC) for [!DNL Recommendations] activities. (TGT-52435)
+* Fixed an issue where views were not correctly identified on SPA pages when using the [!DNL Adobe Experience Platform Web SDK]. (TGT-52106)
+* Fixed an issue where On-Device Decisioning (ODS) details were not saved correctly, despite being included in the batch operation payload. (TGT-52406)
+* Added an `audienceMetadata` field to activities, enabling it to be read and updated during editing. (TGT-51004)
+* Added an error message to alert users when an audience timeframe is invalid. (TGT52522)
+* Updated the activity structure to support duplicate audiences of different types. (TGT-51200)
+
 ## [!DNL Adobe Target] [!DNL AI Assistant] release (May 16, 2025)
 
 We are thrilled to announce the launch of the [!DNL AI Assistant] in [!DNL Adobe Target]! This powerful user interface feature is designed to help you navigate and understand [!DNL Target] concepts with ease. Available across multiple products in [!DNL Adobe Experience Cloud], including [!DNL Target], [!DNL AI Assistant] is here to revolutionize your experience.
