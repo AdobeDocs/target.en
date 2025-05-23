@@ -241,6 +241,10 @@ As the [!DNL Adobe Target] UI modernization effort continues, we are pleased to 
 >
 >Starting February 17, customers will gradually have access to the new [!UICONTROL Activities]  UI. To ensure a seamless rollout for all customers, this release will be deployed in controlled stages. The first stage will upgrade the initial group of [!DNL Target] customers to the new [!UICONTROL Activities] UI. Subsequent stages will upgrade the remaining customers.
 
+>[!IMPORTANT]
+>
+>For important information about the [!DNL Target] UI version toggle end-of-life plan, see [[!DNL Target] UI version toggle deprecation](help/main/r-release-notes/release-notes.md#toggle).
+
 Based on the latest [!DNL Adobe Spectrum] design system, the update standardizes previously inconsistent design patterns, while adding new enhancements, such as:
 
 * [Redesigned reporting](/help/main/administrating-target/reporting.md) for better insights into activity results.
@@ -290,6 +294,10 @@ To enhance the user experience for [!DNL Adobe Target] users, this release updat
 >[!NOTE]
 >
 >To ensure a seamless rollout for all customers, this release will be deployed in controlled stages. The first stage upgraded the initial group of Target customers to the new Offers UI. Subsequent stages will upgrade the remaining customers.
+
+>[!IMPORTANT]
+>
+>For important information about the [!DNL Target] UI version toggle end-of-life plan, see [[!DNL Target] UI version toggle deprecation](help/main/r-release-notes/release-notes.md#toggle).
 
 Using the latest [!DNL Adobe Spectrum] design system, this update standardizes inconsistent design patterns and introduces new enhancements, including the following:
 
