@@ -13,6 +13,31 @@ These release notes provide information about features, enhancements, and fixes 
 
 (The issue numbers in parentheses are for internal [!DNL Adobe] use.)
 
+## Target UI version toggle deprecation (May 23, 2025) {#toggle}
+
+The rollout of the new [!DNL Target] user interface will be complete by **May 27, 2025**. At that point, all customers will have access to the latest UI version.
+
+Starting **June 22, 2025**, the UI version toggle will be removed. All users will transition permanently to the new interface, with no option to revert to the previous version.
+
+**Important information about the UI version toggle**
+
+We're offering a temporary feature that lets you switch between the updated [!DNL Target] UI and the legacy version using a toggle button. This option is available only during the final phase of the UI rollout.
+
+![Target UI version toggle](/help/main/r-release-notes/assets/toggle.png)
+
+Once the rollout is complete, the toggle will be removed, and all users will transition permanently to the updated UI. Although we don't have a confirmed end date due to ongoing issue resolution, we recommend planning ahead, as this feature will be phased out soon.
+
+**Limitations of the UI toggle behavior**
+
+* **Visibility of new activities**: Activities created in the updated UI will not be visible if you switch back to the legacy UI.
+* **Editing existing activities**: Changes made to existing activities (originally created in the legacy UI) while using the updated UI will be published to your website. However, these updates will not be visible in the legacy UI if you switch back; only the last updates made from the legacy UI will appear there.
+* **Consistency of activity details**: The most recent changes, regardless of which UI you use, will be reflected on your live website. However, the legacy UI will only show the latest changes made from within that version. This might cause confusion if activities edited in the updated UI look different than what you see in the legacy UI.
+
+For more information about the updated UI, see the following notes for past releases:
+
+* [[!DNL Target Standard/Premium] 25.2.1 (February 17, 2025) release notes](/help/main/r-release-notes/release-notes-for-previous-releases.md#ui-update-2)
+* [[!DNL Target Standard/Premium] 25.1.1 (January 9, 2025) release notes](/help/main/r-release-notes/release-notes-for-previous-releases.md#ui-update-1)
+
 ## [!DNL Target Standard/Premium] 25.5.3 (May 22, 2025)
 
 This release includes the following fixes and updates:
