@@ -25,7 +25,7 @@ We're offering a temporary feature that lets you switch between the updated [!DN
 
 ![Target UI version toggle](/help/main/r-release-notes/assets/toggle.png)
 
-Once the rollout is complete, the toggle will be removed, and all users will transition permanently to the updated UI. Although we don't have a confirmed end date due to ongoing issue resolution, we recommend planning ahead, as this feature will be phased out soon.
+Once the rollout is complete, the toggle will be removed, and all users will transition permanently to the updated UI on **June 22, 2025**. Adobe recommends planning ahead, as this feature will be phased out soon.
 
 **Limitations of the UI toggle behavior**
 
