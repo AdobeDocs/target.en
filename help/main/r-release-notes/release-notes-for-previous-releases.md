@@ -226,7 +226,7 @@ This release includes the following update:
 
 For information about this and previous at.js releases, see [at.js version details](https://experienceleague.adobe.com/en/docs/target-dev/developer/client-side/at-js-implementation/target-atjs-versions){target=_blank}.
 
-### Target Standard/Premium 25.2.1 (February 17, 2025)
+### Target Standard/Premium 25.2.1 (February 17, 2025) {#ui-update-2}
 
 This release includes the following updates:
 
@@ -279,7 +279,7 @@ Based on the latest [!DNL Adobe Spectrum] design system, the update standardizes
 
 ![Recommendations UI refresh](/help/main/r-release-notes/assets/recs-ui-refresh.png)
 
-### Target Standard/Premium 25.1.1 (January 9, 2025)
+### Target Standard/Premium 25.1.1 (January 9, 2025) {#ui-update-1}
 
 This release includes the following updates:
 
