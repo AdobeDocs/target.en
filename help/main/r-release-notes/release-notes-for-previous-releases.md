@@ -243,7 +243,7 @@ As the [!DNL Adobe Target] UI modernization effort continues, we are pleased to 
 
 >[!IMPORTANT]
 >
->For important information about the [!DNL Target] UI version toggle end-of-life plan, see [[!DNL Target] UI version toggle deprecation](help/main/r-release-notes/release-notes.md#toggle).
+>For important information about the [!DNL Target] UI version toggle end-of-life plan, see [[!DNL Target] UI version toggle deprecation](/help/main/r-release-notes/release-notes.md#toggle).
 
 Based on the latest [!DNL Adobe Spectrum] design system, the update standardizes previously inconsistent design patterns, while adding new enhancements, such as:
 
@@ -297,7 +297,7 @@ To enhance the user experience for [!DNL Adobe Target] users, this release updat
 
 >[!IMPORTANT]
 >
->For important information about the [!DNL Target] UI version toggle end-of-life plan, see [[!DNL Target] UI version toggle deprecation](help/main/r-release-notes/release-notes.md#toggle).
+>For important information about the [!DNL Target] UI version toggle end-of-life plan, see [[!DNL Target] UI version toggle deprecation](/help/main/r-release-notes/release-notes.md#toggle).
 
 Using the latest [!DNL Adobe Spectrum] design system, this update standardizes inconsistent design patterns and introduces new enhancements, including the following:
 
