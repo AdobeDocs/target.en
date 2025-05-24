@@ -19,7 +19,7 @@ The rollout of the new [!DNL Target] user interface will be complete by **May 27
 
 Starting **June 22, 2025**, the UI version toggle will be removed. All users will transition permanently to the new interface, with no option to revert to the previous version.
 
-**Important information about the UI version toggle**
+### Important information about the UI version toggle
 
 We're offering a temporary feature that lets you switch between the updated [!DNL Target] UI and the legacy version using a toggle button. This option is available only during the final phase of the UI rollout.
 
@@ -27,33 +27,23 @@ We're offering a temporary feature that lets you switch between the updated [!DN
 
 Once the rollout is complete, the toggle will be removed, and all users will transition permanently to the updated UI on **June 22, 2025**. Adobe recommends planning ahead, as this feature will be phased out soon.
 
-**Limitations of the UI toggle behavior**
+### Limitations of the UI toggle behavior
 
 * **Visibility of new activities**: Activities created in the updated UI will not be visible if you switch back to the legacy UI.
 * **Editing existing activities**: Changes made to existing activities (originally created in the legacy UI) while using the updated UI will be published to your website. However, these updates will not be visible in the legacy UI if you switch back; only the last updates made from the legacy UI will appear there.
 * **Consistency of activity details**: The most recent changes, regardless of which UI you use, will be reflected on your live website. However, the legacy UI will only show the latest changes made from within that version. This might cause confusion if activities edited in the updated UI look different than what you see in the legacy UI.
 
-For more information about the updated UI, see the following resources:
+### More information about the updated UI
 
-* [[!DNL Target Standard/Premium] 25.2.1 (February 17, 2025) release notes](/help/main/r-release-notes/release-notes-for-previous-releases.md#ui-update-2)
+* [[!DNL Target Standard/Premium] 25.2.1 (February 17, 2025) release notes](/help/main/r-release-notes/release-notes-for-previous-releases.md#ui-update-2): Provides a summary of the key UI changes in [!DNL Target] for [!UICONTROL Activities], [!UICONTROL Recommendations], and the [!UICONTROL Visual Experience Composer] (VEC).
 
-  Provides a summary of the key UI changes in [!DNL Target] for [!UICONTROL Activities], [!UICONTROL Recommendations], and the [!UICONTROL Visual Experience Composer] (VEC).
+* [[!DNL Target Standard/Premium] 25.1.1 (January 9, 2025) release notes](/help/main/r-release-notes/release-notes-for-previous-releases.md#ui-update-1): Provides a summary of the key UI changes in [!DNL Target] for the [!UICONTROL Offers Library].
 
-* [[!DNL Target Standard/Premium] 25.1.1 (January 9, 2025) release notes](/help/main/r-release-notes/release-notes-for-previous-releases.md#ui-update-1)
+* [Understand the [!DNL Target] UI](/help/main/c-intro/understand-the-target-ui.md): Provides a brief overview to help you get familiarized with [!DNL Target] and provides links for more in-depth information and step-by-step instructions.
 
-  Provides a summary of the key UI changes in [!DNL Target] for the [!UICONTROL Offers Library].
+* [[!UICONTROL Visual Experience Composer] changes](/help/main/c-experiences/c-visual-experience-composer/vec-changes.md): The [!DNL Adobe Target Standard/Premium] 25.2.1 release (February 17, 2015) introduces an updated [!UICONTROL Visual Experience Composer] (VEC). This article explains the differences between the legacy and updated versions of the VEC.
 
-* [Understand the [!DNL Target] UI](/help/main/c-intro/understand-the-target-ui.md)
-
-  Provides a brief overview to help you get familiarized with [!DNL Target] and provides links for more in-depth information and step-by-step instructions.
-
-* [[!UICONTROL Visual Experience Composer] changes](/help/main/c-experiences/c-visual-experience-composer/vec-changes.md)
-
-  The [!DNL Adobe Target Standard/Premium] 25.2.1 release (February 17, 2015) introduces an updated [!UICONTROL Visual Experience Composer] (VEC). This article explains the differences between the legacy and updated versions of the VEC.
-
-* [[!UICONTROL Visual Experience Composer] options](/help/main/c-experiences/c-visual-experience-composer/viztarget-options.md)
-
-   This article explains the updated VEC UI and its options.
+* [[!UICONTROL Visual Experience Composer] options](/help/main/c-experiences/c-visual-experience-composer/viztarget-options.md): This article explains the updated VEC UI and its options.
 
 ## [!DNL Target Standard/Premium] 25.5.3 (May 22, 2025)
 
