@@ -13,6 +13,24 @@ These release notes provide information about features, enhancements, and fixes 
 
 (The issue numbers in parentheses are for internal [!DNL Adobe] use.)
 
+## [!DNL Target Standard/Premium] 25.5.4 (May 29, 2025)
+
+This release includes the following fixes and updates:
+
+* Fixed an issue that prevented adding or editing URLs in QA mode. (TGT-51941)
+* Added a QA Mode Traffic setting under [!UICONTROL Reports] > [!UICONTROL Report Settings] ( ![Report Settings icon](/help/main/assets/icons/Setting.svg) ) to align with functionality from the legacy [!DNL Target] UI. (TGT-52228 & TGT-52329)
+* Fixed an issue where the Form-based activity generated incorrect QA links. The activity URL/location included an unintended "1" at the end, which has now been removed to ensure accurate linking. (TGT-52355 & TGT-52358)
+* Fixed an issue where the Form-based activity generated incorrect QA links. The activity URL included an unintended `http://pid-ppc` at the beginning of the URL, which has now been removed to ensure accurate linking. (TGT-52557)
+* Fixed an issue where [!DNL Target] generated invalid QA links for Form-based activities. (TGT-52528 & TGT-52603)
+* Fixed an issue where saving a modified activity appeared to process but never completed, and no error message was shown in [!DNL Target]. (TGT-52461)
+* Fixed an issue where the updated [!UICONTROL Visual Experience Composer] (VEC) failed to auto-detect the `at_property` value. (TGT-52347)
+* Fixed an issue that caused two modifications being recorded when only one is expected after switching between [!UICONTROL Browse] and [!UICONTROL Design] modes in the VEC while interacting with a form element. (TGT-52455)
+* Fixed an issue that prevented selecting the [!UICONTROL Clicked an Element] setting in the updated VEC due to an error stating that  the selector was invalid, already used, or not visible. (TGT-52467)
+* Fixed an issue where adding a [!UICONTROL Recommendation Offer] box in the updated VEC caused duplicate (ghost) boxes to display. Switching between Experience A and B repeatedly added more ghost boxes. (TGT-52505 & TGT-52519)
+* Fixed an issue in the updated [!DNL Target] UI where changes to an HTML Offer made via the [!UICONTROL Offer] menu were not reflected in the associated activity, and vice versa. This behavior now matches the legacy UI, where updates sync correctly between the [!UICONTROL Offer] menu and the activity. (TGT-52540 & TGT-52541)
+* Fixed an issue where recent updates to [!UICONTROL Experience Fragments] in the [!UICONTROL Offers Library] were not reflected when attempting to use them within an activity. (TGT-52659)
+* Fixed a localization issue in the Simplified Chinese translation of a confirmation message. The previous version lacked quotation marks around the location name and used informal language, contrary to the customer's style guide. The updated translation now uses proper punctuation and a formal tone. (TGT-52364) 
+
 ## Target UI version toggle deprecation (May 23, 2025) {#toggle}
 
 The rollout of the new [!DNL Target] user interface will be complete by **May 27, 2025**. At that point, all customers will have access to the latest UI version.
