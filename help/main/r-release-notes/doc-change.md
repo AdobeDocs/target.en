@@ -15,6 +15,7 @@ This page lists significant changes made to the [!DNL Adobe Target] product docu
 
 |Date|Topic|Changes|
 |--- |--- |--- |
+|May 29|[[!DNL Target] release notes (current)](/help/main/r-release-notes/release-notes.md)|Added release notes for the [!DNL Target Standard/Premium] 25.5.4 release.|
 |May 23|[[!DNL Target] release notes (current)](/help/main/r-release-notes/release-notes.md)|Added release notes for the upcoming deprecation of the [!DNL Target] UI version toggle.|
 |May 22|[[!DNL Target] release notes (current)](/help/main/r-release-notes/release-notes.md)|Added release notes for the [!DNL Target Standard/Premium] 25.5.3 release.|
 |May 16|[[!DNL Target] release notes (current)](/help/main/r-release-notes/release-notes.md)|Added release notes for the [!DNL Adobe Target] [!DNL AI Assistant] feature.|
