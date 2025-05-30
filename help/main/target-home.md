@@ -46,6 +46,10 @@ In addition to this guide, the following [!DNL Adobe Target] guides are also ava
 
 >[!ENDTABS]
 
+>[!IMPORTANT]
+>
+>The rollout of the new [!DNL Target] UI was completed on May 27, 2025. All customers now have access to the latest UI version. Starting June 22, 2025, the UI version toggle will be removed. All users will transition permanently to the new interface, with no option to revert to the previous version. For more information, see [Target UI version toggle deprecation](/help/main/r-release-notes/release-notes.md#toggle).
+
 The following sections point you to useful links in this guide, arranged by intended audience based on typical job functions:
 
 - [All Target users](#all)
