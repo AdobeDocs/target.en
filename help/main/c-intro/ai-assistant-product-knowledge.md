@@ -13,9 +13,9 @@ The [!DNL AI Assistant] is a useful tool to learn new features or to get quick a
 
 Product knowledge questions include [!DNL Adobe] concepts related to aspects of [!DNL Target]. Some examples of product knowledge questions include:
 
-  * How do I set up a profile script?
-  * I am getting an error when saving my activity. What does it mean?
-  * Should I upgrade my at.js implementation to the AEP Web SDK?
+* How do I set up a profile script?
+* I am getting an error when saving my activity. What does it mean?
+* Should I upgrade my at.js implementation to the AEP Web SDK?
 
 ## Access [!DNL AI Assistant]
 

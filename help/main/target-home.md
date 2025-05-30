@@ -11,7 +11,7 @@ exl-id: 6003a663-4c0c-4179-8025-aee2ae107c5c
 
 **Last Updated: May 29, 2025 ( [Documentation updates: see what changed](r-release-notes/doc-change.md) )**
 
-[!BEGINTABS]
+>[!BEGINTABS]
 
 >[!TAB What's new]
 
@@ -23,7 +23,7 @@ Released May 29, 2025, this update brings fresh UI improvements and key document
 
 >[!TAB Updated Target UI]
 
-**Explore [!DNL Target] with Ease**
+**Explore [!DNL Target] with ease**
 
 The UI is designed for clarity and efficiency, helping you get the most from [!DNL Target]. Explore resources to help you get up to speed fast&mdash;with direct links to detailed articles and step-by-step instructions.
 
