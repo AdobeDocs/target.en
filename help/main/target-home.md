@@ -5,7 +5,7 @@ description: Learn how to use Adobe [!DNL Target] to personalize your customers'
 feature: Overview
 exl-id: 6003a663-4c0c-4179-8025-aee2ae107c5c
 ---
-# Adobe Target Business Practitioner Guide
+# [!DNL Adobe Target] Business Practitioner Guide
 
 [!DNL Adobe Target] is the [!DNL Adobe Experience Cloud] solution that provides everything you need to tailor and personalize your customers' experience so you can maximize revenue on your web and mobile sites, apps, social media, and other digital channels.
 
@@ -13,11 +13,11 @@ exl-id: 6003a663-4c0c-4179-8025-aee2ae107c5c
 
 >[!BEGINTABS]
 
->[!TAB Important]
+>[!TAB Important info]
 
-**Updated Target UI now fully rolled out**
+**[!DNL Target] UI version toggle deprecation**
 
-As of May 27, 2025, all customers have access to the new [!DNL Target] UI. Starting June 22, 2025, the UI toggle will be removed, and all users will permanently transition to the updated UI, with no option to revert.
+As of May 27, 2025, all customers have access to the new [!DNL Target] UI. Starting June 22, 2025, the UI toggle will be removed, and all users will be permanently transitioned to the updated UI, with no option to revert.
 
 [![Learn More icon](/help/main/assets/learn-more.svg)](/help/main/r-release-notes/release-notes.md#toggle)
 
