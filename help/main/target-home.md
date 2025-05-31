@@ -13,6 +13,14 @@ exl-id: 6003a663-4c0c-4179-8025-aee2ae107c5c
 
 >[!BEGINTABS]
 
+>[!TAB Important]
+
+**Updated Target UI now fully rolled out**
+
+As of May 27, 2025, all customers have access to the new [!DNL Target] UI. Starting June 22, 2025, the UI toggle will be removed, and all users will permanently transition to the updated UI, with no option to revert.
+
+[![Learn More icon](/help/main/assets/learn-more.svg)](/help/main/r-release-notes/release-notes.md#toggle)
+
 >[!TAB What's new]
 
 **[!DNL Target] 25.5.4 is live!**
@@ -45,10 +53,6 @@ In addition to this guide, the following [!DNL Adobe Target] guides are also ava
 - [[!UICONTROL Adobe Target Tutorials]](https://experienceleague.adobe.com/en/docs/target-learn/tutorials/overview){target=_blank}
 
 >[!ENDTABS]
-
->[!IMPORTANT]
->
->The rollout of the new [!DNL Target] UI was completed on May 27, 2025. All customers now have access to the latest UI version. Starting June 22, 2025, the UI version toggle will be removed. All users will transition permanently to the new interface, with no option to revert to the previous version. For more information, see [Target UI version toggle deprecation](/help/main/r-release-notes/release-notes.md#toggle).
 
 The following sections point you to useful links in this guide, arranged by intended audience based on typical job functions:
 
