@@ -45,12 +45,13 @@ The UI is designed for clarity and efficiency, helping you get the most from [!D
 
 [![Learn More icon](/help/main/assets/learn-more.svg)](/help/main/c-intro/ai-assistant.md)
 
->[!TAB Target documentation]
+>[!TAB Target resources]
 
-In addition to this guide, the following [!DNL Adobe Target] guides are also available:
+**Comprehensive [!DNL Target] resources**
 
-- [[!UICONTROL Adobe Target Developer Guide]](https://experienceleague.adobe.com/en/docs/target-dev/developer/overview){target=_blank}
-- [[!UICONTROL Adobe Target Tutorials]](https://experienceleague.adobe.com/en/docs/target-learn/tutorials/overview){target=_blank}
+[!DNL Target] documentation in multiple formats&mdash;step-by-step UI guides, developer resources (including SDKs and APIs), tutorials, videos, webinars, and vibrant community forums.
+
+[![Learn More icon](/help/main/assets/learn-more.svg)](/help/main/r-release-notes/target-documentation.md)
 
 >[!ENDTABS]
 
