@@ -219,7 +219,7 @@ The workaround is to collapse the experience rail and page rail by clicking the 
 
 Consider the following limitations when working with the VEC:
 
-### Handling VEC compatibility with Chrome extension policy changes.
+### Handling VEC compatibility with Chrome extension policy changes. {#ext}
 
 Due to updated [V3 Manifest policies in Google Chrome](https://developer.chrome.com/docs/extensions/develop/migrate/what-is-mv3){target=_blank}, extensions can no longer modify the original DOM before it is parsed by the browser. As a result, certain security scripts&mdash;such as iframe-busting implementations&mdash;might block pages from loading in the VEC.
 
