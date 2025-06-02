@@ -219,6 +219,18 @@ The workaround is to collapse the experience rail and page rail by clicking the 
 
 Consider the following limitations when working with the VEC:
 
+### Handling VEC compatibility with Chrome extension policy changes.
+
+Due to updated [V3 Manifest policies in Google Chrome](https://developer.chrome.com/docs/extensions/develop/migrate/what-is-mv3){target=_blank}, extensions can no longer modify the original DOM before it is parsed by the browser. As a result, certain security scripts&mdash;such as iframe-busting implementations&mdash;might block pages from loading in the VEC.
+
+To ensure compatibility, these scripts should be conditionally disabled when the page is loaded inside the [!DNL Target] iframe. This process can be safely done by checking for the presence of the `window.adobeVecExtension` object, which is injected by [!DNL Target] during VEC loading.
+
+The following code snippets are examples of iframe-busting code that can lead to web page not loading in the VEC:
+
+`window.top.location = window.self.location;`
+
+`top.location.href = self.location.href;`
+
 ### You cannot move an element outside a container followed by a CSS property.
 
 An element cannot be moved outside a container that is followed by a CSS property.
