@@ -15,6 +15,7 @@ This page lists significant changes made to the [!DNL Adobe Target] product docu
 
 |Date|Topic|Changes|
 |--- |--- |--- |
+|June 2|[[!UICONTROL Visual Experience Composer] best practices and limitations](/help/main/c-experiences/c-visual-experience-composer/experience-composer-best-practices.md#section_F33C2EA27F2E417AA036BC199DD6C721)|Added the following limitation: "Handling VEC compatibility with Chrome extension policy changes."|
 |May 29|[[!DNL Target] release notes (current)](/help/main/r-release-notes/release-notes.md)|Added release notes for the [!DNL Target Standard/Premium] 25.5.4 release.|
 |May 23|[[!DNL Target] release notes (current)](/help/main/r-release-notes/release-notes.md)|Added release notes for the upcoming deprecation of the [!DNL Target] UI version toggle.|
 |May 22|[[!DNL Target] release notes (current)](/help/main/r-release-notes/release-notes.md)|Added release notes for the [!DNL Target Standard/Premium] 25.5.3 release.|
