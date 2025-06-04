@@ -231,6 +231,14 @@ The following code snippets are examples of iframe-busting code that can lead to
 
 `top.location.href = self.location.href;`
 
+A simple check can be used to verify when a web page is embedded inside [!DNL Target]. A code snippet should like like this:
+
+```
+if(!window.adobeVecExtension) {
+    // additional security logic
+}
+```
+
 ### You cannot move an element outside a container followed by a CSS property.
 
 An element cannot be moved outside a container that is followed by a CSS property.
