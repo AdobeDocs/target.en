@@ -7,7 +7,7 @@ exl-id: cf51bfec-d7fa-4ec1-a5dc-35edefefd3e4
 ---
 # [!UICONTROL Visual Experience Composer] best practices and limitations
 
-To ensure your experiences function as intended, follow best practices when using the [!DNL Adobe Target] [!UICONTROL Visual Experience Composer] (VEC). Be aware of key tips and limitations to maximize performance and avoid common issues.
+To ensure your experiences function as intended, follow best practices when using the [!DNL Adobe Target] [!UICONTROL Visual Experience Composer] (VEC). Be aware of key tips and limitations to maximize performance and avoid common issues. 
 
 ## Best Practices {#section_86CF28C99CFF40329E4CBAFE4DD78BB4}
 
@@ -295,6 +295,7 @@ Consider the following limitations when working with the VEC:
 
 ### Handling VEC compatibility with [!DNL Chrome] extension policy changes. {#ext}
 
++++Details
 Due to updated [V3 Manifest policies in Google Chrome](https://developer.chrome.com/docs/extensions/develop/migrate/what-is-mv3){target=_blank}, extensions can no longer modify the original DOM before it is parsed by the browser. As a result, certain security scripts&mdash;such as iframe-busting implementations&mdash;might block pages from loading in the VEC.
 
 To ensure compatibility, these scripts should be conditionally disabled when the page is loaded inside the [!DNL Target] iframe. This process can be safely done by checking for the presence of the `window.adobeVecExtension` object, which is injected by [!DNL Target] during VEC loading.
