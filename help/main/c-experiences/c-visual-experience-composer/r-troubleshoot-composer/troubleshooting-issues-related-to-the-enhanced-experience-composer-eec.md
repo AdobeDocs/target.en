@@ -1,7 +1,7 @@
 ---
 keywords: Targeting;eec;visual experience composer;troubleshoot enhanced experience composer;troubleshooting
-description: Learn how to troubleshoot problems that sometimes occur in the Adobe [!DNL Target] Enhanced Experience Composer (EEC) under certain conditions.
-title: How Do I Troubleshoot Issues Related to the Enhanced Experience Composer?
+description: Learn how to troubleshoot problems that sometimes occur in the [!DNL Adobe Target] [!UICONTROL Enhanced Experience Composer] (EEC) under certain conditions.
+title: How Do I Troubleshoot Issues Related to the [!UICONTROL Enhanced Experience Composer]?
 feature: Visual Experience Composer (VEC)
 exl-id: 7dea7707-5d9f-49c4-9ccd-618eeb7b3568
 ---
@@ -11,7 +11,9 @@ Display problems sometimes occur in the [!DNL Adobe Target] [!UICONTROL Enhanced
 
 ## The EEC won't load an internal QA URL that is not accessible on public IP. {#section_D29E96911D5C401889B5EACE267F13CF}
 
-This can be resolved by allowlisting the following IP addresses. These IP addresses are for Adobe's server used for the EEC proxy. They are only required for activity editing. Visitors to your site do not need these IP addresses allowlisted.
+
++++Details
+This issue can be resolved by allowlisting the following IP addresses. These IP addresses are for the [!DNL Adobe] server used for the EEC proxy. These IP addresses are only required for activity editing. Visitors to your site do not need these IP addresses allowlisted.
 
 Ask your IT team to allowlist the following IP addresses:
 
@@ -133,8 +135,11 @@ The following are reasons that you might see this error message and remedies to 
 
   **Solution:** See the following question (The [!UICONTROL Enhanced Visual Experience Composer] won't load on secure pages on my site that use TLS 1.2).
 
++++
+
 ## The EEC won't load on secure pages on my site that use TLS 1.0. (EEC only) {#section_C5B31E3D32A844F68E5A8153BD17551F}
 
++++Details
 You might see the error message described above in "The [!UICONTROL Enhanced Visual Experience Composer] won't load on secure pages on my site." if the above IP addresses are allowlisted but your website does not support TLS version 1.2. [!DNL Target] currently uses the default configuration of 1.2. Prior to the [!DNL Target] 18.4.1 (April 25, 2018), the default configuration supported TLS 1.0. For more information, see [TLS (Transport Layer Security) Encryption Changes](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/tls-transport-layer-security-encryption.html){target=_blank}.
 
 To check the TLS version on your website using Firefox (other browsers have similar steps):
@@ -154,6 +159,11 @@ To check the TLS version on your website using Firefox (other browsers have simi
 
 1. If you find that your website is showing TLS 1.0, see [TLS (Transport Layer Security) Encryption Changes](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/tls-transport-layer-security-encryption.html){target=_blank} for information about Target's TLS support policy. To remedy the situation for now (valid until September 12, 2018){target=_blank}, reach out to [Customer Care](/help/main/cmp-resources-and-contact-information.md#reference_ACA3391A00EF467B87930A450050077C) for configuration with your TLS version and the domain.
 
++++
+
 ## I'm seeing timeouts or "access denied" errors when loading sites with proxy enabled. (EEC only) {#section_60CBB9022DC449F593606C0E6252302D}
 
++++Details
 Make sure proxy IPs are not blocked in your environment.
+
++++
