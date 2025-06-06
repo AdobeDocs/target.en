@@ -21,6 +21,7 @@ feature-set: Target
    + [Access Target from the Adobe Experience Cloud](c-intro/target-access-from-mac.md)
    + [Target key concepts](c-intro/target-key-concepts.md)
    + [Understand the Target UI](/help/main/c-intro/understand-the-target-ui.md)
+   + [Updated Target UI FAQ](/help/main/c-intro/updated-ui-faq.md)
    + Adobe Target AI Assistant {#assistant-ai}
       + [AI Assistant overview](/help/main/c-intro/ai-assistant.md)
       + [Enable AI Assistant](/help/main/c-intro/enabling-ai-assistant.md)
