@@ -306,7 +306,7 @@ The following code snippets are examples of iframe-busting code that can lead to
 
 `top.location.href = self.location.href;`
 
-A simple check can be used to verify when a web page is embedded inside [!DNL Target]. A code snippet should like like this:
+A simple check can be used to verify when a web page is embedded inside [!DNL Target]. A code snippet should look like this:
 
 ```
 if(!window.adobeVecExtension) {
