@@ -75,7 +75,7 @@ Muti, help needed.
 
 +++
 
-## I have to disable the !UICONTROL Enhanced Experience Composer when editing existing activities with the updated UI. Has [!DNL Adobe] observed similar behavior with other customers?
+## I have to disable the [!UICONTROL Enhanced Experience Composer] when editing existing activities with the updated UI. Has [!DNL Adobe] observed similar behavior with other customers?
 
 +++Details
 Muti, help needed.
