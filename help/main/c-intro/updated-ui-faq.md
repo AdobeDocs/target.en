@@ -10,7 +10,12 @@ hidefromtoc: yes
 
 Find answers to common questions about the updated [!DNL Adobe Target] UI, with helpful tips and links to learn more.
 
+## Where can I find more information about the updated [!DNL Target] UI?
+
++++Details
 {{updated-ui}}
+
++++
 
 ## Is the updated UI available to all current [!DNL Target] customers, [!UICONTROL Standard] and [!UICONTROL Premium]? 
 
