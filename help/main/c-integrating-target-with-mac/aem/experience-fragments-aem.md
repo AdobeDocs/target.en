@@ -112,11 +112,11 @@ You can consume [!UICONTROL Experience Fragments] in [!DNL Target] activities us
 
 1. In [!DNL Target], while creating or editing an experience in the [Visual Experience Composer](/help/main/c-experiences/experiences.md#concept_A2E10F6AFB3D4AEAB6951EE14688848D), click the location on the page where you want to insert [!DNL AEM] content, then click **[!UICONTROL Replace Content]** > **[!UICONTROL Experience Fragment]** to display the [!UICONTROL Experience Fragment] dialog box.
 
-   The [!UICONTROL Experience Fragment] list displays the content created in [!DNL AEM] that is now natively available from within [!DNL Target].
+   The [!UICONTROL Experience Fragment] dialog box displays the content created in [!DNL AEM] that is now natively available from within [!DNL Target].
 
    >[!NOTE]
    >
-   >The [!UICONTROL Swap with Experience Fragment] option is not available for images. If you want to use this option with an image, click the container element that contains the desired image.
+   >The [!UICONTROL Replace Content] option is not available for images. If you want to use this option with an image, click the container element that contains the desired image.
 
    ![experience_fragment_list image](/help/main/c-integrating-target-with-mac/aem/assets/experience_fragment_list.png)
 
@@ -140,7 +140,7 @@ You can consume [!UICONTROL Experience Fragments] in [!DNL Target] activities us
 
    ![experience_fragment_list image](/help/main/c-integrating-target-with-mac/aem/assets/experience_fragment_list.png)
 
-   The [!UICONTROL Experience Fragment] list displays the content created in [!DNL AEM] that is now natively available from within [!DNL Target]. 
+   The [!UICONTROL Experience Fragment] dialog box displays the content created in [!DNL AEM] that is now natively available from within [!DNL Target]. 
 
 1. Select the desired [!UICONTROL Experience Fragment], then click **[!UICONTROL Add]**. 
 1. Finish configuring the activity.

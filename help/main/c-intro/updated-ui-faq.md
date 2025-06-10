@@ -6,14 +6,24 @@ feature: Overview
 hide: yes
 hidefromtoc: yes
 ---
-# Updated Target UI FAQ
+# [!DNL Target] UI update FAQs
 
-Find answers to common questions about the updated [!DNL Adobe Target] UI, with helpful tips and links to learn more.
+New in 2025, [!DNL Adobe Target]'s updated user interface introduces a streamlined, intuitive experience designed to enhance usability and efficiency across all roles. This FAQ addresses common questions about the new [!DNL Target] UI and [!UICONTROL Visual Experience Composer] (VEC), including navigation changes, feature locations, and the deprecation of the temporary UI version toggle. Whether you're a marketer, developer, or admin, this FAQ helps you transition smoothly and make the most of the updated UI.
 
 ## Where can I find more information about the updated [!DNL Target] UI?
 
 +++Details
-{{updated-ui}}
+The following resources provide information to learn more about the updated [!DNL Target] UI:
+
+* [[!DNL Target Standard/Premium] 25.2.1 (February 17, 2025) release notes](/help/main/r-release-notes/release-notes-for-previous-releases.md#ui-update-2): Provides a summary of the key UI changes in [!DNL Target] for [!UICONTROL Activities], [!UICONTROL Recommendations], and the [!UICONTROL Visual Experience Composer] (VEC).
+
+* [[!DNL Target Standard/Premium] 25.1.1 (January 9, 2025) release notes](/help/main/r-release-notes/release-notes-for-previous-releases.md#ui-update-1): Provides a summary of the key UI changes in [!DNL Target] for the [!UICONTROL Offers Library].
+
+* [Understand the [!DNL Target] UI](/help/main/c-intro/understand-the-target-ui.md): Provides a brief overview to help you get familiarized with [!DNL Target] and provides links for more in-depth information and step-by-step instructions.
+
+* [[!UICONTROL Visual Experience Composer] changes](/help/main/c-experiences/c-visual-experience-composer/vec-changes.md): The [!DNL Adobe Target Standard/Premium] 25.2.1 release (February 17, 2015) introduces an updated [!UICONTROL Visual Experience Composer] (VEC). This article explains the differences between the legacy and updated versions of the VEC.
+
+* [[!UICONTROL Visual Experience Composer] options](/help/main/c-experiences/c-visual-experience-composer/viztarget-options.md): This article explains the updated VEC UI and its options.
 
 +++
 
@@ -44,7 +54,7 @@ The UI version toggle is a temporary feature that lets you switch between the up
 
 There are several limitations with using the UI version toggle, including visibility of new activities, editing of existing activities, and the consistency of activity details.
 
-For more information about the rollout and deprecation of the temporary UI version toggle, see [Target UI version toggle deprecation (May 23, 2025)](/help/main/r-release-notes/release-notes-for-previous-releases.md#toggle) in *Release notes for previous releases*.
+For more information, see [Target UI version toggle deprecation (May 23, 2025)](/help/main/r-release-notes/release-notes-for-previous-releases.md#toggle) in *Release notes for previous releases*.
 
 ++++
 
@@ -55,7 +65,7 @@ For more information about the rollout and deprecation of the temporary UI versi
 
 There are several limitations with using the UI version toggle, including visibility of new activities, editing of existing activities, and the consistency of activity details.
 
-For more information about the rollout and deprecation of the temporary UI version toggle, see [Target UI version toggle deprecation (May 23, 2025)](/help/main/r-release-notes/release-notes-for-previous-releases.md#toggle) in *Release notes for previous releases*.
+For more information, see [Target UI version toggle deprecation (May 23, 2025)](/help/main/r-release-notes/release-notes-for-previous-releases.md#toggle) in *Release notes for previous releases*.
 
 +++
 
