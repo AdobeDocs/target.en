@@ -114,7 +114,7 @@ Muti, help needed.
 
 +++
 
-### Does the environment reset to staging by default on the new Recommendations UI?
+## Does the environment reset to staging by default on the new Recommendations UI?
 
 +++Details
 Muti, help needed.
