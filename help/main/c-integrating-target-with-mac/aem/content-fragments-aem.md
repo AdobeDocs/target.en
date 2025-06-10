@@ -55,9 +55,7 @@ You can filter and search by [!UICONTROL HTML XFs], [!UICONTROL JSON XFs], and [
 
 ![Filter by Content Fragment types: HTML or JSON in the Target UI](/help/main/c-integrating-target-with-mac/aem/assets/fragment-types.png)
 
-You can hover over a [!UICONTROL Content Fragment] in the list, then click the [!UICONTROL View] icon ![Info icon](/help/main/c-integrating-target-with-mac/aem/assets/icon-info.png) to see additional information about the [!UICONTROL Content Fragment], including its [!UICONTROL AEM path] and [!UICONTROL AEM deep link]. Click the [!UICONTROL Offer Usage] tab to see the activities that reference this offer.
-
-![Content Fragment information pop-up](/help/main/c-integrating-target-with-mac/aem/assets/cf-info-popup.png)
+You can hover over an [!UICONTROL Experience Fragment] in the list, then click the [!UICONTROL View] icon ![Info icon](/help/main/assets/icons/InfoOutline.svg) to see additional information about the [!UICONTROL Content Fragment], including its [!UICONTROL Name], [!UICONTROL Type], [!UICONTROL Offer ID], [!UICONTROL Offer path], and last modifications information. Click [!UICONTROL [!UICONTROL View Full Details]] to see the activities that reference this offer.
 
 You can consume [!UICONTROL Content Fragments] in [!DNL Target] activities using the [Form-Based Experience Composer](/help/main/c-experiences/form-experience-composer.md) only. You *cannot* consume [!UICONTROL Content Fragments] in [!DNL Target] activities using the [Visual Experience Composer](/help/main/c-experiences/c-visual-experience-composer/visual-experience-composer.md) (VEC). [!UICONTROL Content Fragments] are exported as JSON in [!DNL Target] and cannot be used in activities created using the VEC.
 
