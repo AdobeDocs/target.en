@@ -114,13 +114,6 @@ For more information about IP addresses that you can allowlist, see the followin
 
 +++
 
-## We have had issues with [!UICONTROL Browse] not working or allowing us to browse. Has [!DNL Adobe] observed similar behavior with other customers?
-
-+++Details
-Muti, help needed.
-
-+++
-
 ## Does the environment reset to staging by default on the new Recommendations UI?
 
 +++Details
