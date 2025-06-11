@@ -54,6 +54,11 @@ The UI version toggle is a temporary feature that lets you switch between the up
 
 There are several limitations with using the UI version toggle, including visibility of new activities, editing of existing activities, and the consistency of activity details.
 
+>[!NOTE]
+>
+>Customers with special cases who need to retain the toggle after June 22 can contact Adobe Customer Care for assistance.
+
+
 For more information, see [Target UI version toggle deprecation (May 23, 2025)](/help/main/r-release-notes/release-notes-for-previous-releases.md#toggle) in *Release notes for previous releases*.
 
 ++++
@@ -79,21 +84,23 @@ Activities created or edited in the updated UI follow the same guided, three-ste
 ## What are the differences between creating offers in the legacy versus the updated UI? Are additional attributes required?
 
 +++Details
-Muti, help needed.
+The [!UICONTROL Offer Library] UI requires consistent attribute definitions for all offers. When creating an activity-only (ad-hoc) offer, users must also specify an offer name. This information appears in the [!UICONTROL Form-based Experience Composer], making it easier to identify offers without reviewing the code or content.
 
 +++
 
 ## What happened to the offer preview links in the updated UI?
 
 +++Details
-Muti, help needed.
+[!UICONTROL Experience Fragment] preview links are available in the [!UICONTROL Quick Info] popover, displayed when clicking the information icon ( ![Info icon](/help/main/assets/icons/InfoOutline.svg) ) corresponding to the selected fragment.
 
 +++
 
 ## I have to disable the [!UICONTROL Enhanced Experience Composer] when editing existing activities with the updated UI. Has [!DNL Adobe] observed similar behavior with other customers?
 
 +++Details
-Muti, help needed.
+Yes. When using the [!DNL Adobe Experience Cloud] [!DNL Visual Editing Helper extension], you might need to disable the [!UICONTROL Enhanced Experience Composer] (EEC) . 
+
+For more information, see [Visual Editing Helper extension](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/visual-editing-helper-extension.md).
 
 +++
 
@@ -107,7 +114,7 @@ For more information about IP addresses that you can allowlist, see the followin
 
 +++
 
-## We have had issues with Browse not working or allowing us to browse. Has [!DNL Adobe] observed similar behavior with other customers?
+## We have had issues with [!UICONTROL Browse] not working or allowing us to browse. Has [!DNL Adobe] observed similar behavior with other customers?
 
 +++Details
 Muti, help needed.
@@ -117,7 +124,9 @@ Muti, help needed.
 ## Does the environment reset to staging by default on the new Recommendations UI?
 
 +++Details
-Muti, help needed.
+Environments now default to the last one used by the customer. To switch environments, use the [!UICONTROL Environment] selector in the upper-right corner of the [!UICONTROL Catalog Search] UI.
+
+![Environment switch](/help/main/c-intro/assets/environmnent.png)
 
 +++
 
