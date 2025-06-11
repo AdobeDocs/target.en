@@ -41,6 +41,10 @@ The rollout of the new [!DNL Target] user interface will be complete by **May 27
 
 Starting **June 22, 2025**, the UI version toggle will be removed. All users will transition permanently to the new interface, with no option to revert to the previous version.
 
+>[!NOTE]
+>
+>Customers with special cases who need to retain the toggle after June 22 can contact Adobe Customer Care for assistance.
+
 #### Important information about the UI version toggle
 
 We're offering a temporary feature that lets you switch between the updated [!DNL Target] UI and the legacy version using a toggle button. This option is available only during the final phase of the UI rollout.
