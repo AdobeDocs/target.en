@@ -23,9 +23,15 @@ As of May 27, 2025, all customers have access to the new [!DNL Target] UI. Start
 
 >[!TAB What's new]
 
+**Target 25.6.2 is live!**
+
+This release focuses on fixes and enhancements to the updated [!DNL Target] UI and [!UICONTROL Visual Experience Composer] (VEC).
+
+[![Learn More icon](/help/main/assets/learn-more.svg)](/help/main/r-release-notes/release-notes.md)
+
 **[!DNL Target] UI update FAQs**
 
-Released June 6, 2025, this update brings fresh UI improvements and key documentation enhancements. This FAQ addresses common questions about the new [!DNL Target] UI and [!UICONTROL Visual Experience Composer] (VEC), including navigation changes, feature locations, and the deprecation of the temporary UI version toggle. Whether you're a marketer, developer, or admin, this FAQ helps you transition smoothly and make the most of the updated UI.
+This FAQ addresses common questions about the new [!DNL Target] UI and [!UICONTROL Visual Experience Composer] (VEC), including navigation changes, feature locations, and the deprecation of the temporary UI version toggle. Whether you're a marketer, developer, or admin, this FAQ helps you transition smoothly and make the most of the updated UI.
 
 [![Learn More icon](/help/main/assets/learn-more.svg)](/help/main/c-intro/updated-ui-faq.md)
 
