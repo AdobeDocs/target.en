@@ -3,8 +3,6 @@ keywords: target user interface;user interface;ui;frequently asked questions;faq
 description: Questions and answers about the updated [!DNL Target]t user interface.
 title: Where Can I find FAQs about the updated [!DNL Target] UI?
 feature: Overview
-hide: yes
-hidefromtoc: yes
 ---
 # [!DNL Target] UI update FAQs
 
