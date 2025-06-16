@@ -289,6 +289,10 @@ The following size limits apply to offers:
 
 * **Limit**: 50 reporting audiences/segments per activity.
 
+## sessionID
+
+The session ID can be any printable string except a space, question mark ( ? ), curly braces ( { } ), or a forward slash ( / ). It should be between 1 and 128 characters in length.
+
 ## Script profile input box in the [!DNL Target] UI
 
 * **Recommended limit**: 2,000 characters.
