@@ -41,7 +41,7 @@ Consider the following information before using the [!DNL Customer Journey Analy
 
   >[!NOTE]
   >
-  >If you use an [!DNL Adobe Analytics] source connection, you will have reports in both [!DNL Adobe Analytics] and [!DNL Customer Journey Analytics]. However, because of different algorithms between both of these solutions the results are not likely to match.  
+  >If you use an [!DNL Adobe Analytics] source connection, you have reports in both [!DNL Adobe Analytics] and [!DNL Customer Journey Analytics]. However, because of different algorithms between both of these solutions the results are not likely to match.  
 
 * For any questions about timing, see [Latency considerations](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-overview/cja-faq#latency){target=_blank} in *Frequently Asked Questions* in the *[!DNL Adobe Customer Analytics] Guide*.
 
@@ -143,3 +143,35 @@ Set up a data view in [!DNL Customer Journey Analytics]. A data view ensures tha
    ![Context labels in the Experimentation panel](/help/main/c-integrating-target-with-mac/cja/assets/context-labels.png){width="600" zoomable="yes"}
 
 1. Finish setting up any other fields, then click **[!UICONTROL Save and continue]** when done.
+
+## Create and view activity reports in [!DNL Customer Journey Analytics]
+
+After completing the setup (creating an activity in [!DNL Customer Journey Analytics], configuring the [!DNL Customer Journey Analytics] connection, and setting up data views), you can access [!DNL Customer Journey Analytics] via the [!DNL Adobe Experience Cloud] or the activity's [!UICONTROL Reports] tab in [!DNL Target].
+
+The Reports tab has a **[!UICONTROL View in Customer Journey Analytics]** link. Currently, this link redirects you to the [!DNL Customer Journey Analytics] home landing page.
+
+![CJA reporting link](/help/main/c-integrating-target-with-mac/cja/assets/report-link.png)
+
+>[!NOTE]
+>
+>This integration is not the same as [!UICONTROL Adobe Analytics for Target] (A4T).
+>
+>The [!DNL Target]/[!DNL Customer Journey Analytics] integration does not include a pre-built report like A4T. All activity reports must be manually created in [!DNL Customer Journey Analytics].
+>
+>If you selected [!UICONTROL Use a CJA Metric] as the activity's goal metric, this option gives you the flexibility to define your success metric later on. Because a [!DNL Customer Journey Analytics] success metric was not selected until configuring the [!UICONTROL Experimentation] panel, a pre-built report cannot be available in advance as [!DNL Customer Journey Analytics] would not know what metric to calculate conversion rates and lift from.
+
+1. In [!DNL Customer Journey Analytics], create an Experimentation panel, then select the activity from the **[!UICONTROL Experiment]** drop-down menu.
+
+   For more information, see [Experimentation panel](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-workspace/panels/experimentation?lang=en#use){target=_blank} under *Experimentation panel* in the *[!DNL Customer Journey Analytics]* guide.
+
+   ![Experimentation panel in Customer Journey Analytics](/help/main/c-integrating-target-with-mac/cja/assets/experimentation-panel.png)
+
+   >[!IMPORTANT]
+   >
+   >If the activity doesn't appear in the [!UICONTROL Experiment] drop-down list, verify that the correct data view is selected and that the [!DNL Target] dimensions include the required context labels (see Step 3 in [Set up data views](https://experienceleague.adobe.com/en/docs/target/using/integrate/cja/target-reporting-in-cja#set-up-data-views){target=_blank}).
+
+1. Click **[!UICONTROL Build]**.
+
+   The [!UICONTROL Experimentation] panel returns a rich set of data and visualizations to help you better understand how your experiments are performing. For more information, see [[!UICONTROL Panel output]](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-workspace/panels/experimentation#panel-output){target=_blank} under *Experimentation panel* in the *[!DNL Customer Journey Analytics]* guide.
+
+   ![Experimentation](/help/main/c-integrating-target-with-mac/cja/assets/experimentation.png)
