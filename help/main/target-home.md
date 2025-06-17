@@ -9,19 +9,25 @@ exl-id: 6003a663-4c0c-4179-8025-aee2ae107c5c
 
 [!DNL Adobe Target] is the [!DNL Adobe Experience Cloud] solution that provides everything you need to tailor and personalize your customers' experience so you can maximize revenue on your web and mobile sites, apps, social media, and other digital channels.
 
-**Last Updated: June 16, 2025 ( [see what changed](r-release-notes/doc-change.md) )**
+**Last Updated: June 17, 2025 ( [see what changed](r-release-notes/doc-change.md) )**
 
 >[!BEGINTABS]
 
->[!TAB Important info]
+>[!TAB Attention!]
 
-**[!DNL Target] UI version toggle deprecation**
+**Updated: [!DNL Target] UI version toggle deprecation (June 17, 2025)**
 
-As of May 27, 2025, all customers have access to the new [!DNL Target] UI. Starting June 22, 2025, the UI toggle will be removed, and all users will be permanently transitioned to the updated UI, with no option to revert.
+The [!DNL Target] team has adjusted the timeline for the UI version toggle deprecation.
 
-[![Learn More icon](/help/main/assets/learn-more.svg)](/help/main/r-release-notes/release-notes.md#toggle)
+[![Learn More icon](/help/main/assets/learn-more.svg)](/help/main/r-release-notes/release-notes.md#revised)
 
->[!TAB What's new]
+>[!TAB What's new?]
+
+**Updated information about the UI version toggle deprecation**
+
+The [!DNL Target] team has adjusted the timeline for the UI version toggle deprecation.
+
+[![Learn More icon](/help/main/assets/learn-more.svg)](/help/main/r-release-notes/release-notes.md#revised)
 
 **Target 25.6.2 is live!**
 
