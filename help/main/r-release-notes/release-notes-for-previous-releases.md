@@ -37,6 +37,10 @@ This release includes the following fixes and updates:
 
 ### Target UI version toggle deprecation (May 23, 2025) {#toggle}
 
+>[!IMPORTANT]
+>
+>The [!DNL Target] team has adjusted the timeline for the UI version toggle deprecation. See [Updated: [!DNL Target] UI version toggle deprecation (June 17, 2025)](/help/main/r-release-notes/release-notes.md#revised) for more information.
+
 The rollout of the new [!DNL Target] user interface will be complete by **May 27, 2025**. At that point, all customers will have access to the latest UI version.
 
 Starting **June 22, 2025**, the UI version toggle will be removed. All users will transition permanently to the new interface, with no option to revert to the previous version.

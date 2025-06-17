@@ -8,6 +8,13 @@ feature: Overview
 
 New in 2025, [!DNL Adobe Target]'s updated user interface introduces a streamlined, intuitive experience designed to enhance usability and efficiency across all roles. This FAQ addresses common questions about the new [!DNL Target] UI and [!UICONTROL Visual Experience Composer] (VEC), including navigation changes, feature locations, and the deprecation of the temporary UI version toggle. Whether you're a marketer, developer, or admin, this FAQ helps you transition smoothly and make the most of the updated UI.
 
+## Has the timeline for the deprecation of the Target UI version toggle been updated.
+
++++Details
+Yes. You can find the new timeline and important information in [Updated: [!DNL Target] UI version toggle deprecation (June 17, 2025)](/help/main/r-release-notes/release-notes.md#revised).
+
++++
+
 ## Where can I find more information about the updated [!DNL Target] UI?
 
 +++Details
@@ -54,8 +61,7 @@ There are several limitations with using the UI version toggle, including visibi
 
 >[!NOTE]
 >
->Customers with special cases who need to retain the toggle after June 22 can contact Adobe Customer Care for assistance.
-
+>Customers with special cases who need to retain the toggle after June 22 can contact Adobe Customer Care for assistance. See [Updated: [!DNL Target] UI version toggle deprecation (June 17, 2025)](/help/main/r-release-notes/release-notes.md#revised) for more information.
 
 For more information, see [Target UI version toggle deprecation (May 23, 2025)](/help/main/r-release-notes/release-notes-for-previous-releases.md#toggle) in *Release notes for previous releases*.
 

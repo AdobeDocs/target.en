@@ -13,6 +13,28 @@ These release notes provide information about features, enhancements, and fixes 
 
 (The issue numbers in parentheses are for internal [!DNL Adobe] use.)
 
+## Updated: [!DNL Target] UI version toggle deprecation (June 17, 2025) {#revised}
+
+As of June 17, 2025, all IMS Organizations should have been enabled for the updated [!DNL Target] UI, either for specific users or organization-wide, to begin testing the new experience.
+
+Due to recent issues identified, primarily related to complex customer customizations, the [!DNL Target] team has adjusted the deprecation timeline:
+
+* **June 30, 2025**: The [updated [!DNL Target] UI](/help/main/c-intro/understand-the-target-ui.md) will become the default experience for all IMS Orgs that have enabled the UI version toggle.
+
+  * Customers who currently see the legacy UI, by default, will now see the updated UI upon login.
+  * The UI version toggle will remain available through the end of July, allowing users to switch back if needed.
+
+  >[!IMPORTANT]
+  >
+  > [!DNL Adobe] strongly recommends using the updated [!DNL Target] UI. Switch back to the legacy UI only if a blocker issue occurs. See [[!DNL Target] UI version toggle deprecation (May 23, 2025)](/help/main/r-release-notes/release-notes-for-previous-releases.md#toggle) in the release notes for previous releases for important information about the toggle.
+
+* **July 15 to July 30, 2025**: The UI version toggle will be permanently disabled in phases. Affected IMS Orgs will no longer be able to revert to the legacy UI.
+  
+  * Exceptions will be reviewed on a case-by-case basis.
+  * Delays to the toggle deprecation will be granted only briefly (a few days) while blocker issues are resolved.
+
+Please contact [Adobe Customer Care](/help/main/cmp-resources-and-contact-information.md#/help/main/cmp-resources-and-contact-information.md) with any concerns or if you anticipate issues during this transition.
+
 ## [!DNL Target Standard/Premium] 25.6.2 (June 12, 2025)
 
 This release includes the following fixes and updates:
@@ -43,8 +65,6 @@ This release includes the following fixes and updates:
 * Fixed an issue where the UI failed to allow manual assignment of an environment ID to a criteria. Instead, it defaulted to the ID for the [!UICONTROL Product Catalog Search] host group. This fix ensures that criteria changes are now applied across all environments, not just the default. (TGT-52817)
 * Fixed an issue where the "[!UICONTROL Download Recommendations data]" option was missing for [!UICONTROL Experience Targeting] (XT) activities with recommendations. (TGT-52730 & TGT-52756)
 
-
-
 ## [!DNL Target Standard/Premium] 25.6.1 (June 6, 2025)
 
 This release includes the following fixes and updates:
@@ -70,8 +90,12 @@ This release includes the following fixes and updates:
 * Fixed a localization issue in the Korean language where previous translations used characters outside the Basic Multilingual Plane. The updated translation uses appropriate characters that accurately convey the intended meaning. (TGT-52508 & TGT-52509)
 * Fixed a localization issue in the Korean language where the translation for "date" was inconsistent when selecting start and end dates for an activity. (TGT-52510)
 
-## Target UI version toggle deprecation (May 23, 2025) {#toggle}
- 
+## [!DNL Target] UI version toggle deprecation (May 23, 2025) {#toggle}
+
+>[!IMPORTANT]
+>
+>The [!DNL Target] team has adjusted the timeline for the UI version toggle deprecation. See [Updated: [!DNL Target] UI version toggle deprecation (June 17, 2025)](#revised) for more information.
+
 The rollout of the new [!DNL Target] user interface will be complete by **May 27, 2025**. At that point, all customers will have access to the latest UI version.
 
 Starting **June 22, 2025**, the UI version toggle will be removed. All users will transition permanently to the new interface, with no option to revert to the previous version.

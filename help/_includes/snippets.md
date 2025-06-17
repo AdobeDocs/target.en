@@ -16,7 +16,7 @@
 
 >[!NOTE]
 >
->New in 2025, [!DNL Target] introduces an updated UI and [!UICONTROL Visual Experience Composer] (VEC). Click the following links to learn more:
+>New in 2025, [!DNL Target] introduced an updated UI and [!UICONTROL Visual Experience Composer] (VEC). Click the following links to learn more:
 >
 >* [[!DNL Target Standard/Premium] 25.2.1 (February 17, 2025) release notes](/help/main/r-release-notes/release-notes-for-previous-releases.md#ui-update-2): Provides a summary of the key UI changes in [!DNL Target] for [!UICONTROL Activities], [!UICONTROL Recommendations], and the [!UICONTROL Visual Experience Composer] (VEC).
 >
