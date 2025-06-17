@@ -158,7 +158,7 @@ The Reports tab has a **[!UICONTROL View in Customer Journey Analytics]** link. 
 >
 >* The [!DNL Target]/[!DNL Customer Journey Analytics] integration does not include a pre-built report like A4T. All activity reports must be manually created in [!DNL Customer Journey Analytics].
 >
->* If you selected [!UICONTROL Use a CJA Metric] as the activity's goal metric, this option gives you the flexibility to define your success metric later on. Because a [!DNL Customer Journey Analytics] success metric was not selected until configuring the [!UICONTROL Experimentation] panel, a pre-built report cannot be available in adv ance as [!DNL Customer Journey Analytics] would not know what metric to calculate conversion rates and lift from.
+>* If you selected [!UICONTROL Use a CJA Metric] as the activity's goal metric, this option gives you the flexibility to define your success metric later on. Because a [!DNL Customer Journey Analytics] success metric was not selected until configuring the [!UICONTROL Experimentation] panel, a pre-built report cannot be available in advance as [!DNL Customer Journey Analytics] would not know what metric to calculate conversion rates and lift from.
 
 1. In [!DNL Customer Journey Analytics], create an Experimentation panel, then select the activity from the **[!UICONTROL Experiment]** drop-down menu.
 
