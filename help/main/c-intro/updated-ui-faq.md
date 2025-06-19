@@ -3,6 +3,7 @@ keywords: target user interface;user interface;ui;frequently asked questions;faq
 description: Questions and answers about the updated [!DNL Target]t user interface.
 title: Where Can I find FAQs about the updated [!DNL Target] UI?
 feature: Overview
+exl-id: 75db4791-ca51-472d-99dd-583f7a74b222
 ---
 # [!DNL Target] UI update FAQs
 
@@ -139,7 +140,3 @@ Integrating [!DNL Adobe Analytics] (AA) or [!DNL Customer Journey Analytics] (CJ
 * Validate data collection and attribution settings
 
 +++
-
-
-
-
