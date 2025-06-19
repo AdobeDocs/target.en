@@ -101,9 +101,7 @@ To add a new component to an experience:
       * [[!UICONTROL HTML Offer]](/help/main/c-experiences/c-manage-content/manage-content.md)
     
 1. Drag the component over an existing page element in the [!UICONTROL Design] canvas. 
-1. Choose to insert the component before of after the selected element. 
-
-   As compared to the previous VEC version, you cannot replace a selected element with a component.
+1. Choose to replace the selected element or to insert the component before of after the selected element. 
 
 ### [!UICONTROL Modifications] rail
 
