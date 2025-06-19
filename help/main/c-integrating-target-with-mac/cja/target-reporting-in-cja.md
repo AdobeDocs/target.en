@@ -28,7 +28,7 @@ Consider the following information before using the [!DNL Customer Journey Analy
   * If you have a [Target Standard](/help/main/c-intro/intro.md#section_ACD5EFF17AAB4E979CBEFA0145CCD905) account, see [Specify roles and permissions](/help/main/administrating-target/c-user-management/c-user-management/user-management.md#roles-permissions) in *Users*.
   * If you have a [Target Premium](/help/main/c-intro/intro.md#premium) account, see [Roles and permissions](/help/main/administrating-target/c-user-management/property-channel/property-channel.md#roles-permissions) in *Enterprise user permissions*.
 
-* You must be part of a role in [!DNL Adobe Experience Platform] to set up a [!DNL Target] activity with [!DNL Customer Journey Analytics] as the reporting source. For more information, see [Add a Role in [!DNL Adobe Experience Platform]](https://experienceleague.adobe.com/en/docs/platform-learn/getting-started-for-data-architects-and-data-engineers/configure-permissions#add-a-role-in-adobe-experience-platform-requires-a-system-administrator-or-product-admin){target=_blank} in *Configure permissions* in the *Data Architect and Engineer Tutorial.*
+* Be part of a role in [!DNL Adobe Experience Platform] to set up a [!DNL Target] activity with [!DNL Customer Journey Analytics] as the reporting source. For more information, see [Add a Role in [!DNL Adobe Experience Platform]](https://experienceleague.adobe.com/en/docs/platform-learn/getting-started-for-data-architects-and-data-engineers/configure-permissions#add-a-role-in-adobe-experience-platform-requires-a-system-administrator-or-product-admin){target=_blank} in *Configure permissions* in the *Data Architect and Engineer Tutorial.*
 * Depending on your settings, reporting can be changed per activity or at an organization level. See [Reporting Cloud Solution](/help/main/administrating-target/reporting.md#solution) in *Configure reporting in Target*.
 * Use one reporting source or the other. You cannot collect data for a single activity to multiple reporting sources. 
 * When you set [!DNL Customer Journey Analytics] as your reporting source, you are prompted to specify the sandbox for reporting. During configuration, you see only the sandboxes to which you have access.
@@ -146,7 +146,7 @@ Set up a data view in [!DNL Customer Journey Analytics]. A data view ensures tha
 
 ## Create and view activity reports in [!DNL Customer Journey Analytics]
 
-After completing the setup (creating an activity in [!DNL Customer Journey Analytics], configuring the [!DNL Customer Journey Analytics] connection, and setting up data views), you can access [!DNL Customer Journey Analytics] via the [!DNL Adobe Experience Cloud] or the activity's [!UICONTROL Reports] tab in [!DNL Target].
+After completing the setup, [!DNL Customer Journey Analytics] via the [!DNL Adobe Experience Cloud] or the activity's [!UICONTROL Reports] tab in [!DNL Target].
 
 The Reports tab has a **[!UICONTROL View in Customer Journey Analytics]** link. Currently, this link redirects you to the [!DNL Customer Journey Analytics] home landing page.
 
@@ -156,9 +156,9 @@ The Reports tab has a **[!UICONTROL View in Customer Journey Analytics]** link. 
 >
 >This integration is not the same as [!UICONTROL Adobe Analytics for Target] (A4T).
 >
->* The [!DNL Target]/[!DNL Customer Journey Analytics] integration does not include a pre-built report like A4T. All activity reports must be manually created in [!DNL Customer Journey Analytics].
+>* The [!DNL Target]/[!DNL Customer Journey Analytics] integration does not include a pre-built report like A4T. Activity reports must be built in [!DNL Customer Journey Analytics].
 >
->* If you selected [!UICONTROL Use a CJA Metric] as the activity's goal metric, this option gives you the flexibility to define your success metric later on. Because a [!DNL Customer Journey Analytics] success metric was not selected until configuring the [!UICONTROL Experimentation] panel, a pre-built report cannot be available in advance as [!DNL Customer Journey Analytics] would not know what metric to calculate conversion rates and lift from.
+>* If [!UICONTROL Use a CJA Metric] as the activity's goal metric is selected, this option provides flexibility to when specific success metrics must be defined. The success metric is selected when configuring the [!UICONTROL Experimentation] panel. Lift and confidence are calculated from the CJA metric selected.
 
 1. In [!DNL Customer Journey Analytics], create an Experimentation panel, then select the activity from the **[!UICONTROL Experiment]** drop-down menu.
 
