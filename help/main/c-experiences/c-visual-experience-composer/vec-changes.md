@@ -37,8 +37,6 @@ You can add a number of components to your web page and edit them as needed by u
 
 To add a new component, drag the component from the [!UICONTROL Components] rail you want to insert over an existing page element in the [!UICONTROL Design] canvas. Then choose to insert the component before of after the selected element. 
 
-As compared to the previous VEC version, you cannot replace a selected element with a component.
-
 ### [!UICONTROL Modifications] rail
 
 To open the [!UICONTROL Modifications] rail, click the [!UICONTROL Show Modifications] icon ( ![Show Modifications rail](/help/main/assets/icons/History.svg) ) in the [!UICONTROL Components] rail. The [!UICONTROL Modifications] rail changed position from the right side to the left side of the editing canvas.
