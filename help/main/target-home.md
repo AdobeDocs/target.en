@@ -9,7 +9,7 @@ exl-id: 6003a663-4c0c-4179-8025-aee2ae107c5c
 
 [!DNL Adobe Target] is the [!DNL Adobe Experience Cloud] solution that provides everything you need to tailor and personalize your customers' experience so you can maximize revenue on your web and mobile sites, apps, social media, and other digital channels.
 
-**Last Updated: June 19, 2025 ( [see what changed](r-release-notes/doc-change.md) )**
+**Last Updated: June 20, 2025 ( [see what changed](r-release-notes/doc-change.md) )**
 
 >[!BEGINTABS]
 
@@ -29,7 +29,7 @@ The [!DNL Target] team has adjusted the timeline for the UI version toggle depre
 
 [![Learn More icon](/help/main/assets/learn-more.svg)](/help/main/r-release-notes/release-notes.md#revised)
 
-**Target 25.6.2 is live!**
+**Target 25.6.3 is live!**
 
 This release focuses on fixes and enhancements to the updated [!DNL Target] UI and [!UICONTROL Visual Experience Composer] (VEC).
 
