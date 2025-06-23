@@ -9,7 +9,7 @@ exl-id: f2783042-f6ee-4f73-b487-ede11d55d530
 
 This article contains prerelease information for upcoming [!DNL Adobe Target] releases, including SDKs, APIs, and JavaScript libraries.
 
-**Last updated: June 20, 2025**
+**Last updated: June 23, 2025**
 
 >[!NOTE]
 >
@@ -19,9 +19,13 @@ This article contains prerelease information for upcoming [!DNL Adobe Target] re
 >
 >* The issue numbers in parentheses are for internal [!DNL Adobe] use.
 
-## [!DNL Target Standard/Premium] 25.6.3 (June 20, 2025)
+## [!DNL Target Standard/Premium] 25.6.4 (June 26, 2025)
 
-See [[!DNL Target] release notes (current)](/help/main/r-release-notes/release-notes.md).
+This release includes the following fixes and updates:
+
+* Added the [!UICONTROL Rearrange] option to the updated [!UICONTROL Visual Experience Composer] (VEC) UI to align with functionality available in the legacy VEC. (TGT-46957)
+* Fixed a null pointer exception that occurred when fetching reporting data for [!UICONTROL Automated Personalization] (AP) activities. (TGT-52362)
+* Fixed an issue that prevented editing a [!DNL Recommendations] activity. (TGT-52823)
 
 ## Additional release notes and version details
 
