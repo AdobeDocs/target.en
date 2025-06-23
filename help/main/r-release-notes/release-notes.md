@@ -17,7 +17,6 @@ These release notes provide information about features, enhancements, and fixes 
 
 This release includes the following fixes and updates:
 
-* Added the [!UICONTROL Rearrange] option to the updated [!UICONTROL Visual Experience Composer] (VEC) UI to align with functionality available in the legacy VEC. (TGT-46957)
 * Fixed an issue where copying an activity from one workspace to another workspace triggered errors such as "must not be null" or "Something went wrong." (TGT-52474)
 * Fixed an issue where [!UICONTROL Automated Segments] and [!UICONTROL Important Attributes] reports were not generated for certain activities. (TGT-52904)
 * Fixed an issue in the updated VEC where default content handling in [!UICONTROL Automated Personalization] (AP) activities did not match the legacy UI. The system now automatically adds a default `optionGroup` named "Default Content" with `optionGroupLocalId = 0` when no group is explicitly added. This group includes the default option (for example, `optionLocalId: 0`). If the default content is removed, the corresponding option group is also removed. (TGT-52651)
