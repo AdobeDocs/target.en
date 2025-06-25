@@ -7,7 +7,7 @@ exl-id: 9181424b-179e-49fc-b760-b764a0c3458a
 ---
 # Click tracking
 
-[!DNL Adobe Target] lets you track clicks on any element as a success metric.
+[!DNL Adobe Target] lets you track clicks on any element as a success metric. Click tracking refers to the process of monitoring and recording user interactions, specifically clicks, on elements within a webpage or experience. This is a key part of measuring engagement and performance in A/B tests, multivariate tests, and personalization activities.
 
 >[!NOTE]
 >
@@ -24,43 +24,33 @@ exl-id: 9181424b-179e-49fc-b760-b764a0c3458a
 
    See the *Considerations* section below for tips on selecting elements. 
 
-1. Click **[!UICONTROL Save]** at the top of the screen to save your selections.
+1. Click **[!UICONTROL Done]** at the top of the screen to save your selections.
 
 When an activity entrant clicks a selected element, that click is counted as a conversion.
 
 ## Selected Elements panel {#selected-elements}
 
-For [!UICONTROL A/B Test], [!UICONTROL Experience Targeting] (XT), [!UICONTROL Automated Personalization] (AP), and [!UICONTROL Multivariate Test] (MVT) activities, a [!UICONTROL Selected Elements] panel lists the selected elements for click tracking on the right side.
+For [!UICONTROL A/B Test], [!UICONTROL Experience Targeting] (XT), [!UICONTROL Automated Personalization] (AP), and [!UICONTROL Multivariate Test] (MVT) activities, a [!UICONTROL Selected Elements] panel lists the selected elements for click tracking on the left side.
 
 ![Selected Elements panel](/help/main/c-activities/r-success-metrics/assets/selected-elements.png)
 
-There are several actions that can be applied when you hover over an element in the [!UICONTROL Selected Elements] panel. The following table describes each action that can be performed on an element:
+There are several actions that can be applied when you click an element in the [!UICONTROL Tracked Components] panel. The following table describes each action that can be performed on an element:
 
 |Action|Description|
 | --- | --- |
-|Information|Displays the element type and the full DOM path to the selector.|
-|Edit|Lets you edit the CSS selector.|
-|Delete|Deletes the element.|
+|[!UICONTROL Tracked actions]|Displays the element action.|
+|[!UICONTROL CSS selector]|Lets you edit the CSS selector.|
+|[!DNL Delete]|Deletes the element.|
 
 ### Add element
 
-If you already know the DOM path to the selector, you can add it manually by clicking the plus icon at the top of the panel.
-
-![Add Element icon](/help/main/c-activities/r-success-metrics/assets/add-element.png)
-
-### Selected Elements popup
-
-After selecting multiple elements for click tracking, you can click the [!UICONTROL Elements Selected] link on the activity's [!UICONTROL Goals & Settings] step to see the full list of elements selected for click tracking. The list contains the full DOM path for the element to help you validate that the selected element is to be used for click tracking.
-
-![Elements Selected link](/help/main/c-activities/r-success-metrics/assets/elements-selected-link.png)
+If you already know the DOM path to the selector, you can add it manually by clicking the [!UICONTROL Add Component] icon at the top of the panel.
 
 ## Considerations {#considerations}
 
 There are several things to consider when selecting elements:
 
 * The DOM path feature is available when setting up click tracking. When you click an element on the page, the VEC options menu displays. In addition, the corresponding DOM path displays at the bottom of the page. You can use the DOM path to quickly see information about the selected element (type, ID, and class) and move up or down the DOM path to select the desired element. 
-
-  ![DOM path illustration](/help/main/c-activities/r-success-metrics/assets/click-tracking-dom.png)
 
   Like when creating experiences in Step 1 in the activity-creation workflow, the DOM path selector at the bottom of the page lets you choose an element. On selecting an element from the DOM path, the corresponding element in the VEC displays as "Selected." To unselect a selected element, you can click the element again in the DOM path selector or click the "Selected" box within the VEC.
 
