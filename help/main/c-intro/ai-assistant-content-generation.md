@@ -10,9 +10,7 @@ exl-id: eb6f07d8-729e-4f94-ae7a-a054bf54b030
 ---
 # Use [!DNL AI Assistant] in [!DNL Adobe Target] for content generation
 
-Use [!DNL AI Assistant] in [!DNL Adobe Target] to enhance the effectiveness of your activities by tailoring text snippets to use in experiences using artificial intelligence (AI) that speak directly to your audience, boosting engagement, interaction, and conversion.
-
-Use the power of [!DNL AI Assistant] in [!DNL Adobe Target] to elevate your activity content, fueled by generative AI.
+Drive engagement and conversions in [!DNL Adobe Target] with [!DNL AI Assistant]. Leverage generative AI to craft personalized, high-impact text that resonates with your audience and elevates your activity content.
 
 ## Prerequisites
 
@@ -49,10 +47,13 @@ To generate engaging text using [!DNL AI Assistant]:
 
      Options include: [!UICONTROL None], [!UICONTROL Urgent], [!UICONTROL FOMO] (Fear of Missing Out), [!UICONTROL Social Proof], [!UICONTROL Scarcity], [!UICONTROL Incentive], [!UICONTROL Exclusivity], [!UICONTROL Gameification], [!UICONTROL Informative], and [!UICONTROL Education & Insights].
 
-   * **Languages**: Choose the desired language for your text. [!DNL AI Assistant] is currently available in English only.
+   * **Languages**: Choose the desired language for your text. 
+   
+     [!DNL AI Assistant] is currently available in English only.
+
    * **Tone**: The tone of your text should resonate with your audience. Whether you want to sound informative, exciting, playful, or persuasive, [!DNL AI Assistant] can adapt the message accordingly.
 
-     Options include: [!UICONTROL None], [!UICONTROL Professional], [!UICONTROL Empathetic], [!UICONTROL Humorous], [!UICONTROL Exciting], [!UICONTROL Inspirational], [!UICONTROL Persuasive], [!UICONTROL Friendly], [!UICONTROL Formal], [!UICONTROL Apologetic], [!UICONTROL Assertive],[!UICONTROL  Story Telling], and [!UICONTROL Conversational].
+     Options include: [!UICONTROL None], [!UICONTROL Professional], [!UICONTROL Empathetic], [!UICONTROL Humorous], [!UICONTROL Exciting], [!UICONTROL Inspirational], [!UICONTROL Persuasive], [!UICONTROL Friendly], [!UICONTROL Formal], [!UICONTROL Apologetic], [!UICONTROL Assertive], [!UICONTROL  Story Telling], and [!UICONTROL Conversational].
    
 1. Use the slider to choose the text length ([!UICONTROL Shorter Text] to [!UICONTROL Larger Text]).
 
