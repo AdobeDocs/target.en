@@ -1,7 +1,7 @@
 ---
 keywords: ai assistant;artificial intelligence assistant;content generation;content accelerator;content generation;generate content
-description: Learn how to generate content with [!DNL AI Assistant].
-title: How Do I Use the [!DNL AI Assistant] in [!DNL Target] to generate content?
+description: Learn how to generate engaging content with [!DNL AI Assistant].
+title: How Do I Use the [!DNL AI Assistant] in [!DNL Target] to Generate Engaging Content?
 feature: Overview
 badgeBeta: label="Beta" type="Informative" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html#beta newtab=true" tooltip="What are Beta features in [!DNL Adobe Target]."
 hide: yes
@@ -10,7 +10,7 @@ exl-id: eb6f07d8-729e-4f94-ae7a-a054bf54b030
 ---
 # Use [!DNL AI Assistant] in [!DNL Adobe Target] for content generation
 
-Use [!DNL AI Assistant] in [!DNL Adobe Target] to enhance the effectiveness of your activities by tailoring text snippets and choosing images using artificial intelligence (AI) that speak directly to your audience, boosting engagement and interaction.
+Use [!DNL AI Assistant] in [!DNL Adobe Target] to enhance the effectiveness of your activities by tailoring text snippets to use in experiences using artificial intelligence (AI) that speak directly to your audience, boosting engagement, interaction, and conversion.
 
 Use the power of [!DNL AI Assistant] in [!DNL Adobe Target] to elevate your activity content, fueled by generative AI.
 
@@ -23,7 +23,7 @@ Use the power of [!DNL AI Assistant] in [!DNL Adobe Target] to elevate your acti
 
 ## Generate text
 
-To generate text using [!DNL AI Assistant]:
+To generate engaging text using [!DNL AI Assistant]:
 
 1. From within [[!DNL Target] [!UICONTROL Visual Experience Composer]](/help/main/c-experiences/c-visual-experience-composer/viztarget-options.md) (VEC), click the **[!UICONTROL Show Content Assistant]** ( ![Show Content Assistant icon](/help/main/assets/icons/MagicWand.svg) ) icon in the right rail of the VEC UI.
 
@@ -46,8 +46,13 @@ To generate text using [!DNL AI Assistant]:
 1. Click the **[!UICONTROL Text Settings]** icon to specify your text's tone and communication strategy.
 
    * **Communication strategy**: Choose the most suitable communication style for your generated text.
+
+     Options include: [!UICONTROL None], [!UICONTROL Urgent], [!UICONTROL FOMO] (Fear of Missing Out), [!UICONTROL Social Proof], [!UICONTROL Scarcity], [!UICONTROL Incentive], [!UICONTROL Exclusivity], [!UICONTROL Gameification], [!UICONTROL Informative], and [!UICONTROL Education & Insights].
+
    * **Languages**: Choose the desired language for your text. [!DNL AI Assistant] is currently available in English only.
    * **Tone**: The tone of your text should resonate with your audience. Whether you want to sound informative, exciting, playful, or persuasive, [!DNL AI Assistant] can adapt the message accordingly.
+
+     Options include: [!UICONTROL None], [!UICONTROL Professional], [!UICONTROL Empathetic], [!UICONTROL Humorous], [!UICONTROL Exciting], [!UICONTROL Inspirational], [!UICONTROL Persuasive], [!UICONTROL Friendly], [!UICONTROL Formal], [!UICONTROL Apologetic], [!UICONTROL Assertive],[!UICONTROL  Story Telling], and [!UICONTROL Conversational].
    
 1. Use the slider to choose the text length ([!UICONTROL Shorter Text] to [!UICONTROL Larger Text]).
 
@@ -61,9 +66,9 @@ To generate text using [!DNL AI Assistant]:
 
    ![AI Assistant with generated text](/help/main/c-intro/assets/ai-text-done.png)
 
-1. (Conditional) Click the Undo icon ( ![Undo icon](/help/main/assets/icons/Undo.svg) ) to reverse changes.
+1. (Conditional) Click the [!UICONTROL Undo] icon ( ![Undo icon](/help/main/assets/icons/Undo.svg) ) to reverse changes.
 
-1. (Optional) Provide feedback to the AI Assistant.
+1. (Optional) Provide feedback to the [!DNL AI Assistant].
 
    * Click the Thumbs up icon ( ![Thumbs up](/help/main/assets/icons/ThumbUp.svg) ) icon to tell [!DNL AI Assistant] that you like the variation.
    * Click the Thumbs down ( ![Thumbs down icon](/help/main/assets/icons/ThumbDown.svg) ) icon to tell [!DNL AI Assistant] that you don't like the variation.
