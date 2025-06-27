@@ -57,6 +57,8 @@ To generate engaging text using [!DNL AI Assistant]:
    
 1. Use the slider to choose the text length ([!UICONTROL Shorter Text] to [!UICONTROL Larger Text]).
 
+1. (Optional) Click Brand Assets to upload or toggle brand assets for additional content context during generation.
+
 1. Click **[!UICONTROL Generate]** to create a list of text variations.
 
    ![AI Assistant text variations](/help/main/c-intro/assets/ai-variations-text.png)
