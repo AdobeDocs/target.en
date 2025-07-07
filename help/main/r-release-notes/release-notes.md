@@ -13,7 +13,9 @@ Explore the latest features, enhancements, and fixes in [!DNL Adobe Target]. The
 
 (The issue numbers in parentheses are for internal [!DNL Adobe] use.)
 
-## Important time-sensitive updates you need to know {#time-sensitive}
+## Time-sensitive updates you need to know {#time-sensitive}
+
+[!BADGE Important]{type=Informative}
 
 For time-sensitive updates related to [!DNL Adobe Target] and your implementation, [!DNL Adobe ]provides detailed release notes and documentation through [!UICONTROL Experience League]. Here are some key highlights relevant to your implementation:
 
