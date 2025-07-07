@@ -18,6 +18,7 @@ Explore the latest features, enhancements, and fixes in [!DNL Adobe Target]. The
 For time-sensitive updates related to [!DNL Adobe Target] and your implementation, [!DNL Adobe ]provides detailed release notes and documentation through [!UICONTROL Experience League]. Here are some key highlights relevant to your implementation:
 
 +++See details: UI version toggle deprecation
+
 ### [!DNL Target] UI version toggle deprecation
 
 The [!DNL Target] team is offering a temporary feature that lets you switch between the updated [!DNL Target] UI and the legacy version using a toggle button. This option is available only during the final phase of the UI rollout.
