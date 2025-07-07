@@ -9,9 +9,63 @@ exl-id: 3ffead4f-113c-4153-b0b1-fc2aff710063
 ---
 # [!DNL Target] release notes (current)
 
-Explore the latest features, enhancements, and fixes in [!DNL Adobe Target]. These release notes also cover updates to [!DNL Target] APIs, SDKs, the A[!DNL dobe Experience Platform Web SDK], at.js, and other platform components when applicable.
+Explore the latest features, enhancements, and fixes in [!DNL Adobe Target]. These release notes also cover updates to [!DNL Target] APIs, SDKs, the [!DNL Adobe Experience Platform Web SDK], at.js, and other platform components when applicable.
 
 (The issue numbers in parentheses are for internal [!DNL Adobe] use.)
+
+## Important time-sensitive updates you need to know {#time-sensitive}
+
+For time-sensitive updates related to [!DNL Adobe Target] and your implementation, [!DNL Adobe ]provides detailed release notes and documentation through [!UICONTROL Experience League]. Here are some key highlights relevant to your implementation:
+
++++See details: UI version toggle deprecation
+### [!DNL Target] UI version toggle deprecation
+
+The [!DNL Target] team is offering a temporary feature that lets you switch between the updated [!DNL Target] UI and the legacy version using a toggle button. This option is available only during the final phase of the UI rollout.
+
+![Target UI version toggle](/help/main/r-release-notes/assets/toggle.png)
+
+Once the rollout is complete, the toggle will be removed, and all users will transition permanently to the updated UI. [!DNL Adobe] recommends planning ahead, as this feature will be phased out soon.
+
+#### Deprecation timeline
+
+Due to recent issues identified, primarily related to complex customer customizations, the [!DNL Target] team has adjusted the deprecation timeline:
+
+* **June 17, 2025**: All IMS Organizations have been enabled for the updated [!DNL Target] UI, either for specific users or organization-wide, to begin testing the new experience.
+
+* **June 30, 2025**: The [updated [!DNL Target] UI](/help/main/c-intro/understand-the-target-ui.md) became the default experience for all IMS Orgs that have enabled the UI version toggle.
+
+  * Customers who currently see the legacy UI, by default, now see the updated UI upon login.
+  * The UI version toggle remains available through the end of July, allowing users to switch back if needed.
+
+  >[!IMPORTANT]
+  >
+  > [!DNL Adobe] strongly recommends using the updated [!DNL Target] UI. Switch back to the legacy UI only if a blocker issue occurs, due to [limitations of the toggle switch behavior](#limitations).
+
+* **July 15 to July 30, 2025**: The UI version toggle will be permanently disabled in phases. Affected IMS Orgs are no longer able to revert to the legacy UI.
+  
+  * Exceptions are reviewed on a case-by-case basis.
+  * Delays to the toggle deprecation are granted only briefly (a few days) while blocker issues are resolved.
+
+Contact [Adobe Customer Care](/help/main/cmp-resources-and-contact-information.md#/help/main/cmp-resources-and-contact-information.md) with any concerns or if you anticipate issues during this transition.
+
+#### Limitations of the UI toggle behavior {#limitations}
+
+The following information describes the limitations that you should be aware of when choosing to use the version toggle:
+
+* **Visibility of new activities**: Activities created in the updated UI will not be visible if you switch back to the legacy UI.
+* **Editing existing activities**: Changes made to existing activities (originally created in the legacy UI) while using the updated UI will be published to your website. However, these updates will not be visible in the legacy UI if you switch back; only the last updates made from the legacy UI will appear there.
+* **Consistency of activity details**: The most recent changes, regardless of which UI you use, will be reflected on your live website. However, the legacy UI will only show the latest changes made from within that version. This might cause confusion if activities edited in the updated UI look different than what you see in the legacy UI.
+
+#### More resources to learn about the updated UI
+
+* [[!DNL Target] UI update FAQs](/help/main/c-intro/updated-ui-faq.md): This FAQ addresses common questions about the new [!DNL Target] UI and [!UICONTROL Visual Experience Composer] (VEC), including navigation changes, feature locations, and the deprecation of the temporary UI version toggle. Whether you're a marketer, developer, or admin, this FAQ helps you transition smoothly and make the most of the updated UI.
+* [[!DNL Target Standard/Premium] 25.2.1 (February 17, 2025) release notes](/help/main/r-release-notes/release-notes-for-previous-releases.md#ui-update-2): Provides a summary of the key UI changes in [!DNL Target] for [!UICONTROL Activities], [!UICONTROL Recommendations], and the [!UICONTROL Visual Experience Composer] (VEC).
+* [[!DNL Target Standard/Premium] 25.1.1 (January 9, 2025) release notes](/help/main/r-release-notes/release-notes-for-previous-releases.md#ui-update-1): Provides a summary of the key UI changes in [!DNL Target] for the [!UICONTROL Offers Library].
+* [Understand the [!DNL Target] UI](/help/main/c-intro/understand-the-target-ui.md): Provides a brief overview to help you get familiarized with [!DNL Target] and provides links for more in-depth information and step-by-step instructions.
+* [[!UICONTROL Visual Experience Composer] changes](/help/main/c-experiences/c-visual-experience-composer/vec-changes.md): The [!DNL Adobe Target Standard/Premium] 25.2.1 release (February 17, 2015) introduces an updated [!UICONTROL Visual Experience Composer] (VEC). This article explains the differences between the legacy and updated versions of the VEC.
+* [[!UICONTROL Visual Experience Composer] options](/help/main/c-experiences/c-visual-experience-composer/viztarget-options.md): This article explains the updated VEC UI and its options.
+
++++
 
 ## [!DNL Target Standard/Premium] 25.6.4 (June 27, 2025)
 
@@ -51,28 +105,6 @@ This release includes the following fixes and updates:
 * Fixed an issue in the [!UICONTROL Form-Based Experience Composer] where hovering over an mbox with special characters in the [!UICONTROL Location] drop-down caused the editor to go blank and triggered a "Failed to execute 'querySelector' on 'Element'." error. (TGT-52717)
 * Improved feed-status accuracy with a new "PARTIALLY_IMPORTED" indicator. Previously, feeds were marked as "success" even when not all rows in a file were imported, which was misleading. (TGT-52892)
 * Fixed an error where, after migrating to AP V2, certain API calls to `/admin/rest/ui/v1/campaigns` returned client-side errors (HTTP 4xx). (TGT-52721)
-
-## Updated: [!DNL Target] UI version toggle deprecation (June 17, 2025) {#revised}
-
-As of June 17, 2025, all IMS Organizations should have been enabled for the updated [!DNL Target] UI, either for specific users or organization-wide, to begin testing the new experience.
-
-Due to recent issues identified, primarily related to complex customer customizations, the [!DNL Target] team has adjusted the deprecation timeline:
-
-* **June 30, 2025**: The [updated [!DNL Target] UI](/help/main/c-intro/understand-the-target-ui.md) will become the default experience for all IMS Orgs that have enabled the UI version toggle.
-
-  * Customers who currently see the legacy UI, by default, will now see the updated UI upon login.
-  * The UI version toggle will remain available through the end of July, allowing users to switch back if needed.
-
-  >[!IMPORTANT]
-  >
-  > [!DNL Adobe] strongly recommends using the updated [!DNL Target] UI. Switch back to the legacy UI only if a blocker issue occurs. See [[!DNL Target] UI version toggle deprecation (May 23, 2025)](/help/main/r-release-notes/release-notes-for-previous-releases.md#toggle) in the release notes for previous releases for important information about the toggle.
-
-* **July 15 to July 30, 2025**: The UI version toggle will be permanently disabled in phases. Affected IMS Orgs will no longer be able to revert to the legacy UI.
-  
-  * Exceptions will be reviewed on a case-by-case basis.
-  * Delays to the toggle deprecation will be granted only briefly (a few days) while blocker issues are resolved.
-
-Please contact [Adobe Customer Care](/help/main/cmp-resources-and-contact-information.md#/help/main/cmp-resources-and-contact-information.md) with any concerns or if you anticipate issues during this transition.
 
 ## [!DNL Target Standard/Premium] 25.6.2 (June 12, 2025)
 
