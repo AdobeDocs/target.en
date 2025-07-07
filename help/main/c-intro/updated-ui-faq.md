@@ -12,7 +12,7 @@ New in 2025, [!DNL Adobe Target]'s updated user interface introduces a streamlin
 ## Has the timeline for the deprecation of the Target UI version toggle been updated?
 
 +++Details
-Yes. You can find the new timeline and important information in [Updated: [!DNL Target] UI version toggle deprecation (June 17, 2025)](/help/main/r-release-notes/release-notes.md#revised).
+Yes. You can find the new timeline and important information in [Time-sensitive updates you need to know](/help/main/r-release-notes/release-notes.md#time-sensitive).
 
 +++
 
@@ -38,9 +38,7 @@ The following resources provide information to learn more about the updated [!DN
 +++Details
 The updated UI is available to all [!DNL Target] customers, [!UICONTROL Standard] and [!UICONTROL Premium]. No upgraded license or SKU is required.
 
-The rollout of the new [!DNL Target] UI was completed on May 27, 2025. At that point, all customers have access to the latest UI version.
-
-For more information about the rollout and deprecation of the temporary UI version toggle, see [Target UI version toggle deprecation (May 23, 2025)](/help/main/r-release-notes/release-notes-for-previous-releases.md#toggle) in *Release notes for previous releases*.
+For more information about the rollout and deprecation of the temporary UI version toggle, see [Time-sensitive updates you need to know](/help/main/r-release-notes/release-notes.md#time-sensitive).
 
 +++
 
@@ -49,22 +47,18 @@ For more information about the rollout and deprecation of the temporary UI versi
 +++Details
 The [!DNL Target] team is actively addressing issues related to the new UI rollout. Updates and ongoing improvements are detailed in the release notes.
 
-For more information about the rollout and deprecation of the temporary UI version toggle, see [Target UI version toggle deprecation (May 23, 2025)](/help/main/r-release-notes/release-notes-for-previous-releases.md#toggle) in *Release notes for previous releases*.
+For more information about the rollout and deprecation of the temporary UI version toggle, see [Time-sensitive updates you need to know](/help/main/r-release-notes/release-notes.md#time-sensitive).
 
 +++
 
 ## Can customers apply for the UI version toggle to remain for their accounts if they prefer to stay with the legacy UI?
 
 +++Details
-The UI version toggle is a temporary feature that lets you switch between the updated [!DNL Target] UI and the legacy version using a toggle button. This option is available only during the final phase of the UI rollout. Once the rollout is complete, the toggle will be removed, and all users will transition permanently to the updated UI on June 22, 2025. 
+The UI version toggle is a temporary feature that lets you switch between the updated [!DNL Target] UI and the legacy version using a toggle button. This option is available only during the final phase of the UI rollout. Once the rollout is complete, the toggle will be removed, and all users will transition permanently to the updated UI. 
 
 There are several limitations with using the UI version toggle, including visibility of new activities, editing of existing activities, and the consistency of activity details.
 
->[!NOTE]
->
->Customers with special cases who need to retain the toggle after June 22 can contact Adobe Customer Care for assistance. See [Updated: [!DNL Target] UI version toggle deprecation (June 17, 2025)](/help/main/r-release-notes/release-notes.md#revised) for more information.
-
-For more information, see [Target UI version toggle deprecation (May 23, 2025)](/help/main/r-release-notes/release-notes-for-previous-releases.md#toggle) in *Release notes for previous releases*.
+For more information, see [Time-sensitive updates you need to know](/help/main/r-release-notes/release-notes.md#time-sensitive).
 
 ++++
 
@@ -75,7 +69,7 @@ For more information, see [Target UI version toggle deprecation (May 23, 2025)](
 
 There are several limitations with using the UI version toggle, including visibility of new activities, editing of existing activities, and the consistency of activity details.
 
-For more information, see [Target UI version toggle deprecation (May 23, 2025)](/help/main/r-release-notes/release-notes-for-previous-releases.md#toggle) in *Release notes for previous releases*.
+For more information, see [Time-sensitive updates you need to know](/help/main/r-release-notes/release-notes.md#time-sensitive).
 
 +++
 
