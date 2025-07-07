@@ -15,12 +15,12 @@ This page lists significant changes made to the [!DNL Adobe Target] product docu
 
 |Date|Topic|Changes|
 |--- |--- |--- |
-|July  7|[[!DNL Target] release notes (prerelease)](/help/main/r-release-notes/target-release-notes.md)|Added prerelease notes for the [!DNL Target Standard/Premium] 25.7.1 release.|
+|July 7|[[!DNL Target] release notes (current)](/help/main/r-release-notes/release-notes.md)|Added new section to highlight time-sensitive information about [!DNL Target] and your implementation.|
+|July  |[[!DNL Target] release notes (prerelease)](/help/main/r-release-notes/target-release-notes.md)|Added prerelease notes for the [!DNL Target Standard/Premium] 25.7.1 release.|
 |June 27|[[!DNL Target] release notes (current)](/help/main/r-release-notes/release-notes.md)|Added release notes for the [!DNL Target Standard/Premium] 25.6.4 release.|
 |June 25|[[!DNL Target] release notes (prerelease)](/help/main/r-release-notes/target-release-notes.md)|Added prerelease notes for the [!DNL Target Standard/Premium] 25.6.4 release.|
 |June 20|[[!DNL Target] release notes (current)](/help/main/r-release-notes/release-notes.md)|Added release notes for the [!DNL Target Standard/Premium] 25.6.3 release.|
 |June 19|[[!DNL Target] release notes (prerelease)](/help/main/r-release-notes/target-release-notes.md)|Added prerelease notes for the [!DNL Target Standard/Premium] 25.6.3 release.|
-|June 17|[[!DNL Target] release notes (current)](/help/main/r-release-notes/release-notes.md)|The [!DNL Target] team has adjusted the timeline for the UI version toggle deprecation.<P>See [Updated: [!DNL Target] UI version toggle deprecation (June 17, 2025)](/help/main/r-release-notes/release-notes.md) for more information.|
 |June 16|[[!DNL Target] reporting in [!DNL Adobe Customer Journey Analytics]](/help/main/c-integrating-target-with-mac/cja/target-reporting-in-cja.md)|Added new section: Create and view activity reports in [!DNL Customer Journey Analytics].|
 ||[Adobe Target cookies](https://experienceleague.adobe.com/en/docs/core-services/interface/data-collection/cookies/target){target=_blank}|Updated text to add that the `sessionId` cannot include curly braces ( {} ).<P>Text now reads: The session ID can be any printable string except a space, question mark ( ? ), curly braces ( { } ), or a forward slash ( / ). It should be between 1 and 128 characters in length.|
 ||[Adobe Target Delivery API](https://developer.adobe.com/target/implement/delivery-api/){target=_blank}|Updated text to add that the `sessionId` cannot include curly braces ( {} ).<P> Text now reads: The session ID can be any printable string except a space, question mark ( ? ), curly braces ( { } ), or a forward slash ( / ). It should be between 1 and 128 characters in length.|
