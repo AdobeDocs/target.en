@@ -26,7 +26,7 @@ To access the [!DNL AI Assistant] for product knowledge:
    * Your organization must first agree to legal terms. For more information, contact your Adobe Account Team.
    * Your administrators must grant you sufficient permissions to access [!DNL AI Assistant].
 
-## Use AI Assistant go gain product knowledge
+## Use AI Assistant to gain product knowledge
 
 To access the [!DNL AI Assistant] for product knowledge:
 
