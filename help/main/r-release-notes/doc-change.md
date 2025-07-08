@@ -15,6 +15,7 @@ This page lists significant changes made to the [!DNL Adobe Target] product docu
 
 |Date|Topic|Changes|
 |--- |--- |--- |
+|July 8|[Feeds](/help/main/c-recommendations/c-products/feeds.md#status)|Added new status to the Feed Statuses table: Partial Import Failed.|
 |July 7|[[!DNL Target] release notes (current)](/help/main/r-release-notes/release-notes.md)|Added new section to highlight time-sensitive information about [!DNL Target] and your implementation: "Time-sensitive updates you need to know ."|
 |July  |[[!DNL Target] release notes (prerelease)](/help/main/r-release-notes/target-release-notes.md)|Added prerelease notes for the [!DNL Target Standard/Premium] 25.7.1 release.|
 |June 27|[[!DNL Target] release notes (current)](/help/main/r-release-notes/release-notes.md)|Added release notes for the [!DNL Target Standard/Premium] 25.6.4 release.|
