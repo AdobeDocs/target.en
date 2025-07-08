@@ -21,7 +21,7 @@ This article contains prerelease information for upcoming [!DNL Adobe Target] re
 
 ## [!DNL Target Standard/Premium] 25.7.1 (July 8, 2025)
 
-This release includes the following fixes and updates:
+Due to recent issues identified, primarily related to complex customer customizations, this release includes the following fixes and updates:
 
 * Fixed an issue where activity-only audience refinements disappeared from the UI immediately after being removed from a location, even before the activity was saved. This behavior contradicted the expected functionality and the tooltip guidance, which states: "All unused audiences from this library will be deleted once the activity is saved." (TGT-52982)
 * Fixed an issue when attempting to assign an audience other than [!UICONTROL All Visitors] to an activity. Upon saving, the following error message displayed: "We cannot complete your request. Please contact Adobe client-care if the issue persists." (TGT-53008)
