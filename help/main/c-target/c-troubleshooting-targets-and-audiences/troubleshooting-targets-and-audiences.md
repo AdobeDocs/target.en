@@ -19,7 +19,7 @@ Consider the following URL:
 
 ### Audience URL targeting
 
-To apply audience URL targeting, while creating an activity, on the Experiences page (step one of the three-step guided workflow), click the gear icon, click Page Delivery, then specify the desired URL.
+To apply audience URL targeting, while creating an activity, on the **[!UICONTROL Experiences]** page (step one of the three-step guided workflow), click the **[!UICONTROL Configure]** icon ( ![Configure icon](/help/main/assets/icons/Setting.svg) ), click **[!UICONTROL Page Delivery]**, then specify the desired URL.
 
 ![Page Delivery URL](/help/main/c-target/c-troubleshooting-targets-and-audiences/assets/activity-url.png)
 
@@ -35,7 +35,7 @@ Audience URL targeting and URL targeting added via [!UICONTROL Template Rules] e
 
 ### URL targeting {#url-targeting}
 
-To apply URL targeting, while creating an audience, click [!UICONTROL Add Rule], click [!UICONTROL Site Pages], select an option from the first drop-down list ([!UICONTROL Current Page], [!UICONTROL Previous Page], or [!UICONTROL Landing Page]), select [!UICONTROL URL] from the second drop-down list, specify an evaluator, then specify the desired URL.
+To apply URL targeting, while creating an audience, click drag **[!UICONTROL Site Pages]** and drop it into the [!UICONTROL Create Audiences] pane, click **[!UICONTROL Site Pages]**, select an option from the first drop-down list ([!UICONTROL Current Page], [!UICONTROL Previous Page], or [!UICONTROL Landing Page]), select [!UICONTROL URL] from the second drop-down list, specify an evaluator, then specify the desired URL.
 
 ![Site Pages > Current Page > URL](/help/main/c-target/c-troubleshooting-targets-and-audiences/assets/site-url.png)
 
@@ -74,9 +74,7 @@ By default, traffic is split evenly between experiences. However, you can specif
 
 The user qualifies for the first experience/audience that displays on the activity's [!UICONTROL Target] page.
 
-For example, in the following illustration, a user from California using a Windows device qualifies for both Experience A (Windows audience) and Experience C (California audience). This user would be shown Experience A because it displays in the list above Experience C on the Targets page.
-
-![audiences_order image](assets/audiences_order.png)
+For example, assume that the experience/audience lists Windows as Experience A, iOS as Experience B, and California as Experience C. A user from California using a Windows device qualifies for both Experience A (Windows audience) and Experience C (California audience). This user would be shown Experience A because it displays in the list above Experience C on the Targets page.
 
 ## Why do names for the same audience in [!DNL Target] , Adobe Audience Manager (AAM), and the Audience Library in core services differ? {#section_F67E61A607B6444C8DAA4F99C3E95AED}
 
