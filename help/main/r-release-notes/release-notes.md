@@ -69,141 +69,115 @@ The following information describes the limitations that you should be aware of 
 
 +++
 
-## [!DNL Target Standard/Premium] 25.6.4 (June 27, 2025)
+## [!DNL Target Standard/Premium] 25.7.1 (July 9, 2025)
 
-This release includes the following fixes and updates:
+Due to recent issues identified, primarily related to complex customer customizations, this release includes the following fixes and updates:
 
-* Added the [!UICONTROL Rearrange] option to the updated [!UICONTROL Visual Experience Composer] (VEC) UI to align with functionality available in the legacy VEC. (TGT-46957 & TGT-52876)
-* Fixed an issue where modifications made to variant experiences (for example, Experience B) in an [!UICONTROL A/B Test] activity were not being retained. After switching between experiences, the changes to the variant would disappear. This issue did not affect the Control experience. (TGT-52664)
-* Fixed an issue where certain customers were unable to create or save activities, while others could perform the same actions without issue. The problem was inconsistent across accounts.(TGT-52842)
-* Fixed an issue where in the updated VEC, users were unable to move modifications to the [!UICONTROL Page Load event], a capability that existed in the legacy UI. (TGT-52617)
-* Fixed an issue in the updated UI where [!UICONTROL page load] events were not visible in [!DNL Target] when creating changes; updates only applied to views. (TGT-52604)
-* Fixed an issue that prevented some activity modifications from displaying properly in the updated VEC. (TGT-52818)
-* Fixed a null pointer exception that occurred when fetching reporting data for [!UICONTROL Automated Personalization] (AP) activities. (TGT-52362)
-* Fixed an issue that prevented offer-level details from appearing in the .CSV file for [!UICONTROL Automated Personalization] (AP) activities. (TGT-52675)
-* Fixed an issue when applying modifications in the updated VEC, changes initially appear correctly, including the expected [!UICONTROL Experience Fragment]. However, upon switching experiences or making additional edits, some modifications fail to apply due to selector issues. (TGT-52679)
-* Fixed an issue where when a new activity was created by cloning an existing one, the QA links in the cloned activity incorrectly retained the page URLs from the original activity. (TGT-52775)
-* Fixed an issue that unintentionally prevented [!UICONTROL On-device Decisioning] from being available in the updated VEC. (TGT-52371)
-* Fixed an issue that prevented editing a product [!DNL Recommendations] activity. When attempting to access the VEC via the Target UI, an error appeared on the [!UICONTROL Overview] page, preventing any edits. (TGT-52823)
-* Fixed an issue that prevented saving a [!DNL Recommendations] activity when experience names exceeded 50 characters. (TGT-52619)
-* Fixed an issue where customers were unable to save a Recommendations activity after modifying the criteria in the new UI. The issue appears to be permission-related and does not affect all users with similar roles. (TGT-52816)
-* Fixed an issue where users with the [!UICONTROL Editor] role were unable to edit a [!DNL Recommendations] activity. Attempting to change the design and save the activity resulted in a 403 Forbidden error, stating that the "[editor]" privilege was required, even though the user already had that role in the relevant workspace. (TGT-52836)
+**Activities**
 
-## [!DNL Target Standard/Premium] 25.6.3 (June 20, 2025)
++++See details
+* Fixed an issue where the [!UICONTROL Activity QA] URL included an unnecessary query parameter: `at_preview_evaluate_as_true_audience_ids`. (TGT-52907)
+* Fixed an issue where Preview URLs incorrectly included additional audiences beyond the one explicitly typed by the user. This behavior has been corrected to ensure that only the specified audience is applied when generating a QA or preview link. (TGT-52912)
+* Fixed an issue that prevented users from creating [!UICONTROL Auto-Target] (AT) activities if [!UICONTROL Auto-Allocate] (AA) is selected first during traffic allocation setup. This issue resulted in a backend validation error and prevents the activity from being saved. (TGT-53096)
 
-This release includes the following fixes and updates:
++++
 
-* Fixed an issue where copying an activity from one workspace to another workspace triggered errors such as "must not be null" or "Something went wrong." (TGT-52474)
-* Fixed an issue where [!UICONTROL Automated Segments] and [!UICONTROL Important Attributes] reports were not generated for certain activities. (TGT-52904)
-* Fixed an issue in the updated VEC where default content handling in [!UICONTROL Automated Personalization] (AP) activities did not match the legacy UI. The system now automatically adds a default `optionGroup` named "Default Content" with `optionGroupLocalId = 0` when no group is explicitly added. This group includes the default option (for example, `optionLocalId: 0`). If the default content is removed, the corresponding option group is also removed. (TGT-52651)
-* Fixed an issue in [!UICONTROL Multivariate Test] (MVT) activities where reusing an `experienceLocalId` from previously removed experiences was incorrectly disallowed. (TGT-52672)
-* Fixed an issue that prevented copying or editing activities containing an experience fragment. This triggered the error: `Enum "AemOfferType" cannot represent value: "html"`. (TGT-52635)
-* Fixed an issue where URLs in activity locations failed to display query parameters due to invalid characters, such as slashes (/). (TNT52845)
-* Improved the validation error message for [!DNL A/B Test] activity updates via the backend API. When duplicate location names are present, the message now clearly states: "Duplicate names are not allowed" for `locations.selectors`. (TGT-52589)
-* Fixed an error that occurred when updating a live [!UICONTROL Recommendations] activity due to an unrecognized property in the request payload. The system now properly handles the "Invalid JSON. Unrecognized property name" error. (TGT-52723)
-* Fixed an issue that prevented creating a [!DNL Recommendations] design. Clicking [!UICONTROL Create] triggered the message: "There should be at least 1 entity variable used inside the script." (TGT-52395 & TGT-52899)
-* Fixed an issue where re-saving a [!DNL Recommendations] design without modifications was blocked. (TGT-52879)
-* Fixed a backend validation error that caused a "400 Bad Request" error when saving a [!UICONTROL Recommendations] activity. (TGT-52716)
-* Fixed an issue in the [!UICONTROL Form-Based Experience Composer] where hovering over an mbox with special characters in the [!UICONTROL Location] drop-down caused the editor to go blank and triggered a "Failed to execute 'querySelector' on 'Element'." error. (TGT-52717)
-* Improved feed-status accuracy with a new "PARTIALLY_IMPORTED" indicator. Previously, feeds were marked as "success" even when not all rows in a file were imported, which was misleading. (TGT-52892)
-* Fixed an error where, after migrating to AP V2, certain API calls to `/admin/rest/ui/v1/campaigns` returned client-side errors (HTTP 4xx). (TGT-52721)
+**Audiences**
 
-## [!DNL Target Standard/Premium] 25.6.2 (June 12, 2025)
++++See details
+* Fixed an issue where users with the [!UICONTROL Approver] role were unable to add or save activity-only audience refinements. Attempting to do so resulted in a 403 Forbidden error, stating that the "[editor]" privilege was required, even though the user had sufficient permissions to approve and manage activities. (TGT-52984)
+* Fixed an issue when an activity-specific audience is removed using the [!UICONTROL Remove Audience Refinement] option, the audience no longer appears in the audience list for re-selection within the same activity. This behavior prevented users from re-adding the same audience unless it is recreated from scratch. (TGT-52979)
+* Fixed an issue where activity-only audience refinements disappeared from the UI immediately after being removed from a location, even before the activity was saved. This behavior contradicted the expected functionality and the tooltip guidance, which states: "All unused audiences from this library will be deleted once the activity is saved." (TGT-52982)
+* Fixed an issue when attempting to assign an audience other than [!UICONTROL All Visitors] to an activity. Upon saving, the following error message displayed: "We cannot complete your request. Please contact [!UICONTROL Adobe Client Care] if the issue persists." (TGT-53008)
+* Fixed an issue that blocked saving an activity after creating and assigning a new audience within the activity editor. The error message displayed was: "We cannot complete your request. Please contact [!UICONTROL Adobe Client Care] if the problem persists." (TGT-52977)
 
-This release includes the following fixes and updates:
++++
 
-* Added a [new FAQ article](/help/main/c-intro/updated-ui-faq.md) to address common questions about the updated [!DNL Target] UI and [!UICONTROL Visual Experience Composer] (VEC).
-* Fixed an issue where the "[!UICONTROL URL - does not contain]" rule in [!UICONTROL Page Delivery] was not working, allowing content to be shown even when it should have been blocked. (TGT-52754)
-* Fixed an issue where [!UICONTROL Page Delivery] incorrectly displayed the error message: "Duplicate page URLs are not allowed. (TGT-52765)
-* Fixed an issue where audiences for [!UICONTROL Page Delivery] URLs containing experience fragments were created with # erroneously appended. (TGT-52786)
-* Fixed an issue where copying an activity and editing settings on the [!UICONTROL Goals and Settings] page caused the [!DNL Target] UI to become unresponsive. (TGT-52797)
-* Fixed an issue in the updated [!UICONTROL Visual Experience Composer] (VEC) that incorrectly allowed redirecting an additional page in an [!UICONTROL A/B Test] activity to the same URL. (TGT-51838)
-* Fixed an issue where changes to metrics on the [!UICONTROL Goals and Settings] page were not saved when editing an activity. (TGT-52799)
-* Fixed an issue where adding a new experience while the web editor was still loading caused the new experience to duplicate content from the previous experience. (TGT-51397)
-* Restored the ability to use custom code outside the `<head>` tag, a feature previously available in the legacy Target UI. (TGT-52304 & TGT-52300)
-* Removed unnecessary validation when selecting the default workspace during activity creation. Mandatory property validation no longer applies to the default workspace, but remains in place for non-default workspaces. (TGT-52449)
-* Fixed an issue in the updated [!UICONTROL Visual Experience Composer] (VEC) where `triggerView()` calls were not being detected. (TGT-52575)
-* Fixed an issue in the updated [!UICONTROL Visual Experience Composer] (VEC) that prevented users from adding modifications to [!UICONTROL Single Page Application] (SPA) views. (TGT-52556)
-* Fixed an issue in the updated [!DNL Target] UI that prevented customers from viewing offer details. (TGT-52607)
-* Fixed an issue where updates made to offers in the [!UICONTROL Offers Library] were not reflected in the updated [!UICONTROL Visual Experience Composer] (VEC). (TGT-52637)
-* Fixed an issue that prevented the Offers section from displaying properly while creating an activity. (TGT-52773)
-* Added validation to ensure that all `optionLocalIds` referenced in `optionGroups` exist in the options array. Invalid references are automatically removed during activity creation. (TGT-52687)
-* Fixed an issue where reporting groups and exclusions were not retained after adding a new offer. (TGT-52728)
-* Fixed an issue where activities without an [!UICONTROL Activity QA] button displayed an empty option selector. (TGT-52733)
-* Fixed an issue where QA links failed to render content properly. (TGT-52718)
-* Fixed an issue where replacing an element with an experience fragment did not reflect changes correctly in the QA environment. (TGT-52762)
-* Fixed an issue in the updated [!UICONTROL Visual Experience Composer] (VEC) that caused an "Invalid Input" error when users attempted to add experience fragments. (TGT-52701)
-* Fixed an issue where the "Edit Audience" modal appeared empty when editing audience targeting in the updated [!UICONTROL Visual Experience Composer] (VEC). (TGT-52749)
-* Added a message to inform users when an entity is not accessible in the selected workspace. (TGT-52767)
-* Fixed an issue where the UI failed to allow manual assignment of an environment ID to a criteria. Instead, it defaulted to the ID for the [!UICONTROL Product Catalog Search] host group. This fix ensures that criteria changes are now applied across all environments, not just the default. (TGT-52817)
-* Fixed an issue where the "[!UICONTROL Download Recommendations data]" option was missing for [!UICONTROL Experience Targeting] (XT) activities with recommendations. (TGT-52730 & TGT-52756)
+**[!UICONTROL Analytics for Target] (A4T)**
 
-## [!DNL Target Standard/Premium] 25.6.1 (June 6, 2025)
++++See details
+* Fixed an issue where copying an existing activity and changing the reporting source to [!DNL Adobe Analytics] (A4T) would result in an "Invalid user input" error. The error was triggered when certain metric actions incompatible with [!DNL Analytics] reporting, such as `restart_same_experience`, `restart_random_experience`, and `restart_new_experience`, were retained from the original activity. (TGT-52900)
+* Fixed an issue that blocked customers from creating or saving an activity when selecting [!DNL Adobe Analytics] (A4T) as the reporting source in the [!UICONTROL Goals & Settings] step. The issue occurred specifically when selecting a [!UICONTROL Custom Event] metric (for example, "Custom Event 16"), resulting in the following error: "Invalid User Input." (TGT-52910)
+* Fixed an issue where clicking the "[!UICONTROL View in Analytics]" link redirected users to the homepage instead of the intended [!DNL Analytics] dashboard. (TGT-53092 & TGT-53093)
+<!-- * Fixed an issue when cloning an existing activity and changing the reporting source from [!DNL Target] to [!DNL Adobe Analytics], users encounter a "400 - Invalid User Input" error, preventing the activity from being saved. (TGT-52875)
+* Fixed an issue when viewing a [!DNL Recommendations] activity in the updated [!UICONTROL Overview] UI, the [!UICONTROL Goals & Settings] section fails to load when [!DNL Adobe Analytics] (A4T) is selected as the reporting source. The following error message was displayed: "Something went wrong. We cannot complete your request. Please contact Adobe Client Care if the problem persists." (TGT-52999)-->
 
-This release includes the following fixes and updates:
++++
 
-* Fixed an issue where QA links did not deliver the correct experience for the associated activity. (TGT-52163 & TGT-52790)
-* Fixed an issue where QA links were missing the associated audience ID. (TGT-52722)
-* Fixed an issue to ensure that experiences are delivered only when their configured Page Delivery URL conditions are accurately met. (TGT-52696)
-* Fixed an issue that prevented customers from creating a [!DNL Recommendations] design template. Attempting to create a template triggered the error: "There should be at least 1 entity variable used inside the script." (TGT-52395)
-* Fixed an issue that prevented saving [!DNL Recommendations] designs using Velocity arrays. The error message "There should be at least 1 entity variable used inside the script" was incorrectly triggered. (TGT-52734)
-* Fixed an issue where modifications were inaccessible in the [!UICONTROL Visual Experience Composer] (VEC) when the page failed to load for internal web pages. (TGT-52488 &TGT-52470)
-* Fixed an issue where the [!UICONTROL Modifications] panel was not visible on smaller screen sizes in the VEC. (TGT-52470)
-* Fixed an issue in the updated VEC where switching from [!UICONTROL Browse] mode back to [!UICONTROL Design] mode caused a console error and prevented further interaction. (TGT-52532)
-* Fixed an issue in the VEC where clicking certain elements unintentionally expanded their size. (TGT-52497)
-* Fixed an issue where certain page elements failed to load or be recognized in the VEC, preventing interactions such as selecting buttons or banners and disrupting accurate event tracking in activities. (TGT-52663)
-* Fixed an issue that prevented customers from deleting or removing offers in [!UICONTROL Automated Personalization] (AP) activities. (TGT-52690)
-* Fixed an issue that caused inconsistent activity qualification behavior in multi-page activities. (TGT-52694)
-* Fixed an issue that caused the activity's [!UICONTROL Overview] page to show an invalid URL for the [!UICONTROL Activity Location]. (TGT-52695)
-* Fixed an issue in the updated [!DNL Target] UI that caused duplicate entries to appear for activity locations. (TGT-52693)
-* Fixed an issue that triggered a `getAudiencesV3` error, preventing customers from editing or copying activities. (TGT-52709)
-* Fixed an issue that caused an invalid payload error when adding [!UICONTROL Experience Fragments] or HTML offers to an activity. (TGT-52779 & TGT-52773)
-* Fixed an issue in the updated [!DNL Target] UI where E[!UICONTROL xperience Fragments] failed to display correctly due to an invalid input error. (TGT-52701)
-* Fixed an issue that prevented customers from editing activities in the [!UICONTROL Form-based Experience Composer] due to an invalid user error. (TGT-52470)
-* Fixed a localization issue in the Korean language where previous translations used characters outside the Basic Multilingual Plane. The updated translation uses appropriate characters that accurately convey the intended meaning. (TGT-52508 & TGT-52509)
-* Fixed a localization issue in the Korean language where the translation for "date" was inconsistent when selecting start and end dates for an activity. (TGT-52510)
+**[!UICONTROL Experiences] and [!UICONTROL Offers]**
 
-## [!DNL Target] UI version toggle deprecation (May 23, 2025) {#toggle}
++++See details
+<!-- * Fixed an issue where using the [!UICONTROL Manage Content] feature in [!UICONTROL Automated Personalization] (AP) activities caused the page to crash and remain blank. This issue occurred after clicking [!UICONTROL Done] in the content manager, particularly in activities created or edited in the updated UI. (TGT-53047)-->
+* Fixed an issue where the [!UICONTROL Manage Content] feature did not properly validate the state of a location after all content options were removed. This could lead to inconsistent behavior or errors when attempting to save or proceed with the activity configuration. (TGT-52801)
+* Fixed an issue where users encountered an "Invalid input" error when adding a new page and deleting specific elements within different experiences. The error was triggered by duplicate `LocalIds` being generated during element manipulation, particularly when switching between experiences and modifying shared page structures. (TGT-52720)
+* Fixed an issue where using the [!UICONTROL Generate Adhoc Offer] feature resulted in undefined locations appearing in the [!UICONTROL Manage Content] panel. (TGT-53076 & TGT-53070)
+* Clarified the behavior to the customer where modifications made using an HTML Offer might appear to be missing when navigating from the [!UICONTROL Targeting] step back to [!UICONTROL Experiences]. For this customer, the affected website dynamically generated multiple DOM selectors that changed with each page load. As a result, the selector originally used for the modification cannot be found when the editor is reopened, causing the modification to appear missing or invalid. This is working as designed. To ensure that modifications persist visually in the editor, it is recommended that clients use stable, consistent selectors that do not change across page reloads. (TGT-52874)
+* Fixed an issue where attempting to delete or deactivate an offer that was part of an excluded experience triggered an "Invalid user input" error. This issue occurred even though the offer was not actively used in the included experiences. (TGT-52917)
 
->[!IMPORTANT]
->
->The [!DNL Target] team has adjusted the timeline for the UI version toggle deprecation. See [Updated: [!DNL Target] UI version toggle deprecation (June 17, 2025)](#revised) for more information.
++++
 
-The rollout of the new [!DNL Target] user interface will be complete by **May 27, 2025**. At that point, all customers will have access to the latest UI version.
+**Form-Based Experience Composer**
 
-Starting **June 22, 2025**, the UI version toggle will be removed. All users will transition permanently to the new interface, with no option to revert to the previous version.
++++See details
+* Fixed an issue in form-based activities where duplicating an experience and editing the custom code in one of the duplicated experiences would unintentionally apply those changes to all duplicated experiences. Each experience now retains its own custom code independently after duplication. (TGT-51600)
 
->[!NOTE]
->
->Customers with special cases who need to retain the toggle after June 22 can contact Adobe Customer Care for assistance.
++++
 
-### Important information about the UI version toggle
+**Localization**
 
-We're offering a temporary feature that lets you switch between the updated [!DNL Target] UI and the legacy version using a toggle button. This option is available only during the final phase of the UI rollout.
++++See details
+* Fixed a contextual translation issue in the Korean locale (ko-KR) for the string "Preview Experience". (TGT-52928)
+* Fixed terminology inconsistencies identified in the Simplified Chinese (zh_CN) translation of several text strings. (TGT-52954 & TGT-52955)
 
-![Target UI version toggle](/help/main/r-release-notes/assets/toggle.png)
++++
 
-Once the rollout is complete, the toggle will be removed, and all users will transition permanently to the updated UI on **June 22, 2025**. Adobe recommends planning ahead, as this feature will be phased out soon.
+**[!DNL Recommendations]**
 
-### Limitations of the UI toggle behavior
++++See details
+* Added a new [!DNL Recommendations] feed [status](/help/main/c-recommendations/c-products/feeds.md#status): [!UICONTROL Partial Import Failed]. (KB-2215)
+* Fixed an issue affecting the activity-create workflow when adding [!DNL Recommendations] with [!UICONTROL promotions]. When users selected "[!UICONTROL Promote by Attribute]" and added a filtering rule (for example, [!UICONTROL Parameter Matching]), the selected rule type and operand values were not retained after saving and re-editing the activity. Upon reopening, the filtering rule type would change unexpectedly, and operand values would be missing. (TGT-53059)
+* Fixed an issue in the [!DNL Recommendations] UI where any promotion created with a single rule was incorrectly interpreted and displayed as a "List of items" promotion type, regardless of the rule's logic. (TGT-53063)
+* Fixed an issue when using the updated [!UICONTROL Overview ]UI, the "[!UICONTROL Download Recommendations Data]" button was missing for [!UICONTROL Experience Targeting] (XT) activities that include [!DNL Recommendations]. (TGT-52730 & TGT-52756)
+* Previously, the Recommendations UI displayed only the number of entities successfully imported from a feed. However, the backend message format includes both the number of imported entities and the total number of entities in the format:  `# of entities imported / # of total entities`. Due to this discrepancy, users were only seeing the first value (imported count) in the UI, which led to confusion. The UI now displays both numbers. (TGT-53073)
 
-* **Visibility of new activities**: Activities created in the updated UI will not be visible if you switch back to the legacy UI.
-* **Editing existing activities**: Changes made to existing activities (originally created in the legacy UI) while using the updated UI will be published to your website. However, these updates will not be visible in the legacy UI if you switch back; only the last updates made from the legacy UI will appear there.
-* **Consistency of activity details**: The most recent changes, regardless of which UI you use, will be reflected on your live website. However, the legacy UI will only show the latest changes made from within that version. This might cause confusion if activities edited in the updated UI look different than what you see in the legacy UI.
+  +++
 
-### More information about the updated UI
+**Reports**
 
-* [[!DNL Target Standard/Premium] 25.2.1 (February 17, 2025) release notes](/help/main/r-release-notes/release-notes-for-previous-releases.md#ui-update-2): Provides a summary of the key UI changes in [!DNL Target] for [!UICONTROL Activities], [!UICONTROL Recommendations], and the [!UICONTROL Visual Experience Composer] (VEC).
++++See details
+* Fixed an issue where selecting "[!UICONTROL Export order details to CSV]" from the [!UICONTROL Reports] page resulted in an empty file being downloaded. This issue occurred even when valid order data was present in the activity. (TGT-52225)
+* Fixed an issue when attempting to save an activity after creating and assigning a new reporting audience. The error message returned was: "Access denied. To perform this operation, all of the following privileges are required: [editor]." This issue occurred despite the user having approver-level access. (TGT-53103)
 
-* [[!DNL Target Standard/Premium] 25.1.1 (January 9, 2025) release notes](/help/main/r-release-notes/release-notes-for-previous-releases.md#ui-update-1): Provides a summary of the key UI changes in [!DNL Target] for the [!UICONTROL Offers Library].
++++
 
-* [Understand the [!DNL Target] UI](/help/main/c-intro/understand-the-target-ui.md): Provides a brief overview to help you get familiarized with [!DNL Target] and provides links for more in-depth information and step-by-step instructions.
+**[!UICONTROL Visual Experience Composer] (VEC)**
 
-* [[!UICONTROL Visual Experience Composer] changes](/help/main/c-experiences/c-visual-experience-composer/vec-changes.md): The [!DNL Adobe Target Standard/Premium] 25.2.1 release (February 17, 2015) introduces an updated [!UICONTROL Visual Experience Composer] (VEC). This article explains the differences between the legacy and updated versions of the VEC.
++++See details
+* Resolved an issue where applying a modification to a view would result in the view being duplicated and the activity returning an "Invalid user input" error. This fix ensures that view modifications are applied correctly without triggering duplication or validation errors. (TGT-52886)
+* Fixed an issue where custom code modifications were incorrectly displayed for the wrong experience. Specifically, changes intended for one experience were shown in a different experience, leading to confusion and potential misconfiguration of live activities. (TGT-52776)
+* Fixed an issue that prevented editing or saving custom code modifications in the New VEC UI. Specifically:
 
-* [[!UICONTROL Visual Experience Composer] options](/help/main/c-experiences/c-visual-experience-composer/viztarget-options.md): This article explains the updated VEC UI and its options.
+  * After editing a custom code block and saving, the changes were not reflected in the UI or in the QA preview.
+  * In some cases, modifications could not be deleted unless the activity was closed and reopened.
+  * As a workaround, users had to copy the code, delete the modification, and recreate it manually with the updated content. (TGT-53072)
 
-* [[!DNL Target] UI update FAQs](/help/main/c-intro/updated-ui-faq.md): This FAQ addresses common questions about the new [!DNL Target] UI and [!UICONTROL Visual Experience Composer] (VEC), including navigation changes, feature locations, and the deprecation of the temporary UI version toggle. Whether you're a marketer, developer, or admin, this FAQ helps you transition smoothly and make the most of the updated UI.
+* Fixed an issue where editing and saving custom code caused the [!UICONTROL Modifications] panel to become unresponsive. (TGT-53075)
+* Fixed an issue where modifications made to custom code in variant experiences were unintentionally reflected in the [!UICONTROL Control] experience. This caused unintended changes in delivery behavior. The [!UICONTROL Control] experience now remains isolated from custom code edits made to other experiences. (TGT-52413)
+* Fixed an issue where modifications made to one experience (for example, Experience B) were unintentionally duplicated to another experience (Experience A) if the user clicked on the second experience before the editor fully loaded. This behavior could also result in modifications being lost if the initially selected experience had no changes. (TGT-52597)
+* Fixed an issue where changes made in the [!UICONTROL Modifications] step of activity creation were not consistently saved. In some cases, after completing all steps and clicking [!UICONTROL Save], the custom script added in the [!UICONTROL Modifications] section would not reflect on the live site, despite no visible errors during the save process. (TGT-52661)
+* Fixed an issue where custom code changes were not saving correctly and were unintentionally mirrored across multiple experiences within the same activity. Additionally, users encountered access issues when opening or refreshing certain activities, resulting in blank screens. These issues have now been resolved to ensure stable activity editing and accurate experience isolation. (TGT-52594)
+* Fixed an issue where users were unable to browse to a different URL while in [!UICONTROL Browse Mode]. This prevented testers and editors from validating or previewing alternate pages within the same activity session. (TGT-53052)
+* Fixed an issue where multiple [!UICONTROL Visual Experience Composer] (VEC) instances opened simultaneously during activity creation. This issue occurred when users disabled the [!UICONTROL Enhanced Experience Composer] (EEC) and removed the trailing slash from the website URL in the [!UICONTROL Page Delivery] step. (TGT-52782)
+* Fixed an issue where the [!UICONTROL Revenue] metric dropdown in the [!UICONTROL Goals & Settings] step would incorrectly default to [!UICONTROL Revenue per Visit] (RPVISIT), even after the user selected a different metric.  issue occurred when collapsing and re-expanding the metric configuration panel, causing the previously selected value to reset. (TGT-52811 & TGT-52878)
+* Fixed several issues in the activity-create workflow related to offer naming and content translation in [!UICONTROL Automated Personalization] (AP) and [!UICONTROL Multivariate Testing] (MVT) activities:
+
+  Key Issues Addressed:
+
+  * Creating multiple HTML Offers with the same name (for example, "Experience") triggered a "Duplicate offer names are not allowed" error, but the UI did not clearly indicate which offers were causing the conflict.
+  * Renaming offers via the right panel updated the name in the UI, but the change was not reflected in the [!UICONTROL Manage Content] tab or the [!UICONTROL Offers] tab, causing persistent validation errors.
+  * In MVT activities, although the duplicate name error did not persist after renaming, the UI still failed to reflect updated offer names consistently across tabs. (TGT-52933)
+
+  +++
 
 ## Additional release notes and version details
 
