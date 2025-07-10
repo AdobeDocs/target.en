@@ -57,7 +57,7 @@ The UI is designed for clarity and efficiency, helping you get the most from [!D
 
 [![Learn More icon](/help/main/assets/learn-more.svg)](/help/main/c-intro/ai-assistant.md)
 
->[!TAB [!DNL Target] resources]
+>[!TAB Target resources]
 
 **Comprehensive [!DNL Target] resources**
 
