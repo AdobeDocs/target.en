@@ -55,9 +55,9 @@ To generate engaging text using [!DNL AI Assistant]:
 
      Options include: [!UICONTROL None], [!UICONTROL Professional], [!UICONTROL Empathetic], [!UICONTROL Humorous], [!UICONTROL Exciting], [!UICONTROL Inspirational], [!UICONTROL Persuasive], [!UICONTROL Friendly], [!UICONTROL Formal], [!UICONTROL Apologetic], [!UICONTROL Assertive], [!UICONTROL  Story Telling], and [!UICONTROL Conversational].
    
-1. Use the slider to choose the text length ([!UICONTROL Shorter Text] to [!UICONTROL Larger Text]).
+1. Use the slider to pick how long you want the text to be, from shorter to longer.
 
-1. (Optional) Click Brand Assets to upload or toggle brand assets for additional content context during generation.
+1. (Optional) Click **[!UICONTROL Brand Assets]** to upload or toggle brand assets for additional content context during generation.
 
 1. Click **[!UICONTROL Generate]** to create a list of text variations.
 
