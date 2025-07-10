@@ -19,7 +19,7 @@ This article contains prerelease information for upcoming [!DNL Adobe Target] re
 >
 >* The issue numbers in parentheses are for internal [!DNL Adobe] use.
 
-## [!DNL Target Standard/Premium] 25.7.1 (July 9, 2025)
+## [!DNL Target Standard/Premium] 25.7.1 (July 11, 2025)
 
 See information about this release in the [current release notes](/help/main/r-release-notes/release-notes.md).
 

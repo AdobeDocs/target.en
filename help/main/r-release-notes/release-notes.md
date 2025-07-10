@@ -69,7 +69,7 @@ The following information describes the limitations that you should be aware of 
 
 +++
 
-## [!DNL Target Standard/Premium] 25.7.1 (July 9, 2025)
+## [!DNL Target Standard/Premium] 25.7.1 (July 11, 2025)
 
 Due to recent issues identified, primarily related to complex customer customizations, this release includes the following fixes and updates:
 
