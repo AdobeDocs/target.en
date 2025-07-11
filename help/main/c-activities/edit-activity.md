@@ -86,11 +86,3 @@ Consider the following information when using the copy/edit functionality with w
 * When you copy an activity to a different workspace, the activity is copied to the other workspace without opening it in the activity creation flow. After the activity is copied successfully, a message displays indicating that the activity was copied successfully and includes a link to open the new activity.
 
 If your environment does not have the Enterprise User Permissions functionality enabled, all activities open in edit mode before copying.
-
-## Best practices
-
-* As best practice, try updating the activity using the same method (UI or API) that was used to originally create the activity.
-
-  Activities created using the [!DNL Target] UI should be updated via the [!DNL Target] UI. Activities created via API should be updated via API. If you originally create an activity using the API, for example, but then later edit the activity via the [!DNL Target] UI, not all changes are updated. All changes are stored on the backend and can be updated by making another API call.
-
-  
