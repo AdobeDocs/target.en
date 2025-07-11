@@ -1,17 +1,17 @@
 ---
 keywords: activities;activity;activity types;edit activity;edit;draft
-description: Learn about the different ways you can edit an existing activity in Adobe Target, including saving an activity in draft form.
+description: Learn about the different ways that you can edit an existing activity, including saving an activity in draft form.
 title: How Do I Edit an Activity or Save As Draft?
 feature: Activities
 exl-id: 5f2a930a-9950-430e-a898-50af1f917ec1
 ---
-# Edit an activity or save as draft
+# Edit an activity or save as a draft
 
-Learn how to edit existing activities in [!DNL Adobe Target], including how to save changes as drafts. This article covers the different methods available in the [!DNL Target] interface for modifying activities, whether you're updating experiences, adjusting targeting rules, or configuring goals, while ensuring your changes are saved safely before activation.
+Learn how to edit existing activities in [!DNL Adobe Target], including how to save changes as drafts. This article covers the different methods available in the [!DNL Target] interface for modifying activities. Whether you're updating experiences, adjusting targeting rules, or configuring goals, Target ensures that your changes are saved safely before activation.
 
-[!DNL Target] provides various places in the UI where you can edit existing activities. The process varies depending on the method you choose.
+[!DNL Target] provides various places in the UI where you can edit existing activities. The process varies depending on the method that you choose.
 
-## Edit an activity by using the hover button on the Activities page {#section_29EE2ECA6B88473A8F9AC5600FFBB174}
+## Edit an activity by using the hover [!UICONTROL More Actions] icon on the Activities page {#section_29EE2ECA6B88473A8F9AC5600FFBB174}
 
 1. From the **[!UICONTROL Activities]** page, click the **[!UICONTROL More Actions]** icon ( ![More Actions icon](/help/main/assets/icons/MoreSmall.svg) ) next to the activity you want to edit, then click [!UICONTROL **Edit**].
 
@@ -26,7 +26,7 @@ Learn how to edit existing activities in [!DNL Adobe Target], including how to s
     * **[!UICONTROL Save & Close]:** Click **[!UICONTROL Save and Close]** to save your changes and display the activity's [!UICONTROL Overview] page. 
     * **Save:** Click the **[!UICONTROL More Actions]** icon ( ![More Actions icon](/help/main/assets/icons/MoreSmallListVert.svg) ), then select **[!UICONTROL Save]** to save your changes and remain in the VEC where you can continue to make changes. Wait for the save to complete before making additional changes. The VEC reloads with the refreshed changes after the save is complete.
 
-## Edit an activity by opening the activity by clicking its name on the [!UICONTROL Activities] page {#section_176180DAD17E40CEA441903F39E0AA1C}
+## Edit an activity by clicking its name from the [!UICONTROL Activities] page {#section_176180DAD17E40CEA441903F39E0AA1C}
 
 1. To avoid having to step through the workflow, click the desired activity from the [!UICONTROL Activities] page to open it, select an option from the **[!UICONTROL Edit Activity]** drop-down list, then select the desired option.
 
@@ -57,7 +57,7 @@ When you are creating a new activity that has not yet been saved, or you are edi
 
 You can save an activity in draft mode if the activity setup has been started but it is not ready to run.
 
-1. Create new activity or edit an existing activity that is in draft form. 
+1. Create a new activity or edit an existing activity that is in draft form. 
 1. Select the desired option from the split button:
 
     ![Save Draft](/help/main/c-activities/assets/save_draft.png)
@@ -82,7 +82,7 @@ If you have Enterprise User Permissions enabled in your environment, you can cop
 
 Consider the following information when using the copy/edit functionality with workspaces:
 
-* When you copy an activity within same workspace, the first step of the creation flow of the newly copied activity opens in edit mode. 
+* When you copy an activity within the same workspace, the first step of the creation flow of the newly copied activity opens in edit mode. 
 * When you copy an activity to a different workspace, the activity is copied to the other workspace without opening it in the activity creation flow. After the activity is copied successfully, a message displays indicating that the activity was copied successfully and includes a link to open the new activity.
 
 If your environment does not have the Enterprise User Permissions functionality enabled, all activities open in edit mode before copying.
