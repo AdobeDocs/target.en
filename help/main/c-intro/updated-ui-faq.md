@@ -73,6 +73,15 @@ For more information, see [Time-sensitive updates you need to know](/help/main/r
 
 +++
 
+## Are the [!UICONTROL Save as Draft] and [!UICONTROL Syncing] states still available?
+
++++Details
+
+
+With the latest updates to the user interface, the [!UICONTROL Save as Draft] and [!UICONTROL Syncing] states are no longer available. For more information, see Statuses under [Apply filters to the Activities list](/help/main/c-activities/activities.md#filters) in *[!UICONTROL Activities overview]*.
+
++++
+
 ## How can I tell if an activity was created or edited in the legacy UI or in the updated UI?
 
 +++Details
