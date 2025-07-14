@@ -174,7 +174,7 @@ feature-set: Target
          + [Set metrics](c-activities/c-multivariate-testing/t-create-multivariate-test/mvt-set-metrics.md)
          + [Troubleshoot Multivariate Tests](c-activities/c-multivariate-testing/t-create-multivariate-test/troubleshooting.md)
    + [Recommendations activity](c-activities/recommendations-activity.md)
-   + [Edit an activity or save as draft](c-activities/edit-activity.md)
+   + [Edit an activity](c-activities/edit-activity.md)
    + [Priority](c-activities/priority.md)
    + [Activity settings](c-activities/activity-settings.md)
    + Success metrics {#success-metrics}

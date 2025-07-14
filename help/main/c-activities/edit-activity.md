@@ -1,13 +1,13 @@
 ---
-keywords: activities;activity;activity types;edit activity;edit;draft
-description: Learn about the different ways that you can edit an existing activity, including saving an activity in draft form.
-title: How Do I Edit an Activity or Save As Draft?
+keywords: activities;activity;activity types;edit activity;edit
+description: Learn about the different ways that you can edit an existing activity.
+title: How Do I Edit an Activity?
 feature: Activities
 exl-id: 5f2a930a-9950-430e-a898-50af1f917ec1
 ---
-# Edit an activity or save as a draft
+# Edit an activity
 
-Learn how to edit existing activities in [!DNL Adobe Target], including how to save changes as drafts. This article covers the different methods available in the [!DNL Target] interface for modifying activities. Whether you're updating experiences, adjusting targeting rules, or configuring goals, Target ensures that your changes are saved safely before activation.
+Learn how to edit existing activities in [!DNL Adobe Target]. This article covers the different methods available in the [!DNL Target] interface for modifying activities. Whether you're updating experiences, adjusting targeting rules, or configuring goals, [!DNL Target] ensures that your changes are saved safely before activation.
 
 [!DNL Target] provides various places in the UI where you can edit existing activities. The process varies depending on the method that you choose.
 
@@ -53,18 +53,7 @@ You cannot edit a [!DNL Recommendations] activity directly. If you want to edit 
 
 ## Save an activity in draft form {#section_968CD7A63027432EBD8FAE3A0F7404C3}
 
-When you are creating a new activity that has not yet been saved, or you are editing an activity that was previously saved in draft form, the [!UICONTROL Save Draft] options display in the split button.
-
-You can save an activity in draft mode if the activity setup has been started but it is not ready to run.
-
-1. Create a new activity or edit an existing activity that is in draft form. 
-1. Select the desired option from the split button:
-
-    ![Save Draft](/help/main/c-activities/assets/save_draft.png)
-
-    * **Next:** To edit another page in the three-step workflow, click **[!UICONTROL Next]** to advance to the desired step. 
-    * **Save Draft & Close:** Make the desired changes on the current step, click the drop-down on the split button, then select **[!UICONTROL Save Draft and Close]** to save your changes and display the activity's [!UICONTROL Overview] page. 
-    * **Save Draft:** Make the desired changes on a step, click the drop-down on the split button, then select **[!UICONTROL Save Draft]** to save your changes and remain on that step.
+The Save as Draft feature is no longer available. For more information, see *[!UICONTROL Status]* under [Apply filters to the Activities list](/help/main/c-activities/activities.md#filters).
 
 ## Copying/editing an activity when using workspaces {#section_45A92E1DD3934523B07E71EF90C4F8B6}
 

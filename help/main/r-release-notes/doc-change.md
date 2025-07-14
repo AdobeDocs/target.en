@@ -15,6 +15,8 @@ This page lists significant changes made to the [!DNL Adobe Target] product docu
 
 |Date|Topic|Changes|
 |--- |--- |--- |
+|July 14|[Activities overview](/help/main/c-activities/activities.md#filters)|Added information about the deprecation of the [!UICONTROL Save as Draft] and [!UICONTROL Syncing] statuses in the updated UI.|
+||[[!DNL Target] UI update FAQs](/Users/marktalbot/Documents/GitHub/target.en/help/main/c-intro/updated-ui-faq.md)|Added information about the deprecation of the [!UICONTROL Save as Draft] and [!UICONTROL Syncing] statuses in the updated UI.|
 |July 10|[[!DNL Target] release notes (current)](/help/main/r-release-notes/release-notes.md)|Added release notes for the [!DNL Target Standard/Premium] 25.7.1 release.|
 
 ### [!DNL Target Standard/Premium] 25.6.1 (June 6, 2025)
