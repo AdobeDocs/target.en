@@ -80,7 +80,7 @@ The menu lets you filter activities by the following attributes:
 >
 >**Update on activity states in the updated UI**: With the latest updates to the user interface, the [!UICONTROL Save as Draft] and [!UICONTROL Syncing] states are no longer available. This is because all activity creation and editing now take place directly within the backend [!DNL Target] delivery system using the GraphQL layer, ensuring a more streamlined and efficient process.
 >
->Previously, activities were first saved in the [!DNL Target] UI and then synced to the [!DNL Target] delivery system, which required those intermediate states. As this is no longer the case, those states have been removed.
+>Previously, activities were first saved in the [!DNL Target] frontend and then synced to the backend [!DNL Target] delivery system, which required those intermediate states. As this is no longer the case, those states have been removed.
 >
 >[!DNL Adobe] understands that some customers have expressed interest in the [!UICONTROL Save as Draft] feature. While we appreciate this feedback, this functionality is not currently supported. 
 
