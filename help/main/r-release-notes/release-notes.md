@@ -1,5 +1,5 @@
 ---
-keywords: release notes;new features;releases;updates;update;release;enhancement;enhancements;fixes;bug fixes;updates,current updates
+keywords: release notes;new features;releases;updates;update;release;enhancement;enhancements;fixes;bug fixes;updates;current updates
 description: Learn about the new features, enhancements, and fixes included in the current release of [!DNL Adobe Target], including SDKs, APIs, and JavaScript libraries.
 landing-page-description: Learn about the new features, enhancements, and fixes included in the current release of [!DNL Adobe Target].
 short-description: Learn about the new features, enhancements, and fixes included in the current release of [!DNL Adobe Target].
@@ -99,8 +99,8 @@ Due to recent issues identified, primarily related to complex customer customiza
 * Fixed an issue where copying an existing activity and changing the reporting source to [!DNL Adobe Analytics] (A4T) would result in an "Invalid user input" error. The error was triggered when certain metric actions incompatible with [!DNL Analytics] reporting, such as `restart_same_experience`, `restart_random_experience`, and `restart_new_experience`, were retained from the original activity. (TGT-52900)
 * Fixed an issue that blocked customers from creating or saving an activity when selecting [!DNL Adobe Analytics] (A4T) as the reporting source in the [!UICONTROL Goals & Settings] step. The issue occurred specifically when selecting a [!UICONTROL Custom Event] metric (for example, "Custom Event 16"), resulting in the following error: "Invalid User Input." (TGT-52910)
 * Fixed an issue where clicking the "[!UICONTROL View in Analytics]" link redirected users to the homepage instead of the intended [!DNL Analytics] dashboard. (TGT-53092 & TGT-53093)
-<!-- * Fixed an issue when cloning an existing activity and changing the reporting source from [!DNL Target] to [!DNL Adobe Analytics], users encounter a "400 - Invalid User Input" error, preventing the activity from being saved. (TGT-52875)
-* Fixed an issue when viewing a [!DNL Recommendations] activity in the updated [!UICONTROL Overview] UI, the [!UICONTROL Goals & Settings] section fails to load when [!DNL Adobe Analytics] (A4T) is selected as the reporting source. The following error message was displayed: "Something went wrong. We cannot complete your request. Please contact Adobe Client Care if the problem persists." (TGT-52999)-->
+<!-- * Fixed an issue when cloning an existing activity and changing the reporting source from [!DNL Target] to [!DNL Adobe Analytics], users encounter a "400 - Invalid User Input" error, preventing the activity from being saved. (TGT-52875)-->
+* Fixed an issue when viewing a [!DNL Recommendations] activity in the updated [!UICONTROL Overview] UI, the [!UICONTROL Goals & Settings] section fails to load when [!DNL Adobe Analytics] (A4T) is selected as the reporting source. The following error message was displayed: "Something went wrong. We cannot complete your request. Please contact Adobe Client Care if the problem persists." (TGT-52999)
 
 +++
 
@@ -126,8 +126,7 @@ Due to recent issues identified, primarily related to complex customer customiza
 **Localization**
 
 +++See details
-* Fixed a contextual translation issue in the Korean locale (ko-KR) for the string "Preview Experience". (TGT-52928)
-* Fixed terminology inconsistencies identified in the Simplified Chinese (zh_CN) translation of several text strings. (TGT-52954 & TGT-52955)
+* Updated localization strings in the new UI for French (fr_FR), German (de_DE), Italian (it_IT), Korean (ko_KO), and Simplified Chinese (zh_CN).
 
 +++
 
@@ -139,6 +138,7 @@ Due to recent issues identified, primarily related to complex customer customiza
 * Fixed an issue in the [!DNL Recommendations] UI where any promotion created with a single rule was incorrectly interpreted and displayed as a "List of items" promotion type, regardless of the rule's logic. (TGT-53063)
 * Fixed an issue when using the updated [!UICONTROL Overview ]UI, the "[!UICONTROL Download Recommendations Data]" button was missing for [!UICONTROL Experience Targeting] (XT) activities that include [!DNL Recommendations]. (TGT-52730 & TGT-52756)
 * Previously, the Recommendations UI displayed only the number of entities successfully imported from a feed. However, the backend message format includes both the number of imported entities and the total number of entities in the format:  `# of entities imported / # of total entities`. Due to this discrepancy, users were only seeing the first value (imported count) in the UI, which led to confusion. The UI now displays both numbers. (TGT-53073)
+* Fixed an issue where customers were unable to save a filtering rule when configuring a "[!UICONTROL Promote by attribute]" promotion in a form-based A/B activity with recommendations. After saving and reopening the activity, the filtering rule was missing, and the activity could not be saved successfully. (TGT-53057)
 
   +++
 
