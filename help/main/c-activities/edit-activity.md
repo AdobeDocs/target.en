@@ -1,5 +1,5 @@
 ---
-keywords: activities;activity;activity types;edit activity;edit
+keywords: activities;activity;activity types;edit activity;edit;copy
 description: Learn about the different ways that you can edit an existing activity.
 title: How Do I Edit an Activity?
 feature: Activities
@@ -55,7 +55,7 @@ You cannot edit a [!DNL Recommendations] activity directly. If you want to edit 
 
 The Save as Draft feature is no longer available. For more information, see *[!UICONTROL Status]* under [Apply filters to the Activities list](/help/main/c-activities/activities.md#filters).
 
-## Copying/editing an activity when using workspaces {#section_45A92E1DD3934523B07E71EF90C4F8B6}
+## Copy/edit an activity when using workspaces {#section_45A92E1DD3934523B07E71EF90C4F8B6}
 
 A workspace lets an organization assign a specific set of users to a specific set of properties. In many ways, a workspace is similar to a report suite in [!DNL Adobe Analytics].
 
