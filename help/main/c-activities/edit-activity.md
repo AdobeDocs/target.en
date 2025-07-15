@@ -1,5 +1,5 @@
 ---
-keywords: activities;activity;activity types;edit activity;edit
+keywords: activities;activity;activity types;edit activity;edit;copy
 description: Learn about the different ways that you can edit an existing activity.
 title: How Do I Edit an Activity?
 feature: Activities
@@ -55,7 +55,7 @@ You cannot edit a [!DNL Recommendations] activity directly. If you want to edit 
 
 The Save as Draft feature is no longer available. For more information, see *[!UICONTROL Status]* under [Apply filters to the Activities list](/help/main/c-activities/activities.md#filters).
 
-## Copying/editing an activity when using workspaces {#section_45A92E1DD3934523B07E71EF90C4F8B6}
+## Copy/edit an activity when using workspaces {#section_45A92E1DD3934523B07E71EF90C4F8B6}
 
 A workspace lets an organization assign a specific set of users to a specific set of properties. In many ways, a workspace is similar to a report suite in [!DNL Adobe Analytics].
 
@@ -71,7 +71,24 @@ If you have Enterprise User Permissions enabled in your environment, you can cop
 
 Consider the following information when using the copy/edit functionality with workspaces:
 
-* When you copy an activity within the same workspace, the first step of the creation flow of the newly copied activity opens in edit mode. 
-* When you copy an activity to a different workspace, the activity is copied to the other workspace without opening it in the activity creation flow. After the activity is copied successfully, a message displays indicating that the activity was copied successfully and includes a link to open the new activity.
+* If you copy an activity within the same workspace or from the default workspace to a non-default workspace, the Activity Wizard automatically opens. In cross-workspace copies, you might only need to update the activity properties. 
+* When an activity is copied from a non-default workspace to another workspace (whether default or non-default) the Activity Wizard opens, and some manual input is required to complete the setup: 
+  *  **[!UICONTROL Properties]**: Properties might differ between workspaces. This situation might trigger a warning:
 
-If your environment does not have the Enterprise User Permissions functionality enabled, all activities open in edit mode before copying.
+      * In the [!UICONTROL Form-Based Experience Composer], warnings are displayed directly within the user interface for immediate visibility.
+
+        ![Form-Based workspace warning](/help/main/c-activities/assets/form-based-warning.png)
+
+      * In the VEC, warnings are visible when you click [!UICONTROL Configure] > [!UICONTROL Properties].
+
+         ![vec-warning](/help/main/c-activities/assets/vec-warning.png)
+
+          To resolve this issue, click [!UICONTROL Add/Remove] so that only the properties available in the destination workspace are displayed for selection.
+      
+  * **Audiences and offers**: All audiences and offers from the original workspace must be replaced. Alternatively, you can copy them from the [!UICONTROL Audiences] or [!UICONTROL Offers] pages and then select the appropriate items from the corresponding list within the activity.
+
+  * **Required manual changes**: All required manual changes are summarized in the final step ([!UICONTROL Save & Close]). A popup displays a list of entities that require updates, helping to ensure that all necessary adjustments are made before completing the activity setup.
+
+    ![Workspace validation warning](/help/main/c-activities/assets/work-space-validation.png)
+
+If your environment does not have the [!UICONTROL Enterprise User Permissions] functionality enabled, all activities open in edit mode before copying.
