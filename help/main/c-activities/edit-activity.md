@@ -67,7 +67,7 @@ If you are part of a multi-national organization, you might have a workspace for
 
 For more information about workspaces and the Enterprise User Permissions functionality, see [Enterprise User Permissions](/help/main/administrating-target/c-user-management/property-channel/property-channel.md#concept_E396B16FA2024ADBA27BC056138F9838).
 
-If you have Enterprise User Permissions enabled in your environment, you can copy activities to the same workspace or to another workspace. You cannot currently move an activity from one workspace to another. To copy an activity to another workspace, from the [!UICONTROL Activities] page, click the **[!UICONTROL More Actions]** icon ( ![More Actions icon](/help/main/assets/icons/MoreSmall.svg) ) next to the activity that you want to copy then click [!UICONTROL **Copy**]. 
+If you have Enterprise User Permissions enabled in your environment, you can copy activities to the same workspace or to another workspace. You cannot currently move an activity from one workspace to another. To copy an activity to another workspace, from the [!UICONTROL Activities] page, click the **[!UICONTROL More Actions]** icon ( ![More Actions icon](/help/main/assets/icons/MoreSmall.svg) ) next to the activity that you want to copy then click [!UICONTROL **Copy**] or **[!UICONTROL Edit]**. 
 
 Consider the following information when using the copy/edit functionality with workspaces:
 
