@@ -15,6 +15,7 @@ This page lists significant changes made to the [!DNL Adobe Target] product docu
 
 |Date|Topic|Changes|
 |--- |--- |--- |
+|July 17|[Success metics](/help/main/c-activities/r-success-metrics/success-metrics.md)|Made the following changes:<ul><li>Updated the [!UICONTROL Revenue] row under [!UICONTROL Overview].</li><li>Added new section: UI changes related to [!UICONTROL Revenue] success metrics.</li></ul>|
 |July 15|[Edit an activity](/help/main/c-activities/edit-activity.md#ection_45A92E1DD3934523B07E71EF90C4F8B6)|Updated entire section: *Copy/edit an activity when using workspaces*.|
 |July 14|[Activities overview](/help/main/c-activities/activities.md#filters)|Added information about the deprecation of the [!UICONTROL Save as Draft] and [!UICONTROL Syncing] statuses in the updated UI.|
 ||[[!DNL Target] UI update FAQs](/help/main/c-intro/updated-ui-faq.md)|Added information about the deprecation of the [!UICONTROL Save as Draft] and [!UICONTROL Syncing] statuses in the updated UI.|
