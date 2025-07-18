@@ -26,7 +26,7 @@ The [!DNL Target] team is offering a temporary feature that lets you switch betw
 
 ![Target UI version toggle](/help/main/r-release-notes/assets/toggle.png)
 
-Once the rollout is complete, the toggle will be removed, and all users will transition permanently to the updated UI. [!DNL Adobe] recommends planning ahead, as this feature will be phased out soon.
+Once the rollout is complete, the toggle will be removed, and all users transition permanently to the updated UI. [!DNL Adobe] recommends planning ahead, as this feature will be phased out soon.
 
 #### Deprecation timeline
 
@@ -55,8 +55,8 @@ Contact [Adobe Customer Care](/help/main/cmp-resources-and-contact-information.m
 The following information describes the limitations that you should be aware of when choosing to use the version toggle:
 
 * **Visibility of new activities**: Activities created in the updated UI will not be visible if you switch back to the legacy UI.
-* **Editing existing activities**: Changes made to existing activities (originally created in the legacy UI) while using the updated UI will be published to your website. However, these updates will not be visible in the legacy UI if you switch back; only the last updates made from the legacy UI will appear there.
-* **Consistency of activity details**: The most recent changes, regardless of which UI you use, will be reflected on your live website. However, the legacy UI will only show the latest changes made from within that version. This might cause confusion if activities edited in the updated UI look different than what you see in the legacy UI.
+* **Editing existing activities**: Changes made to existing activities (originally created in the legacy UI) while using the updated UI are published to your website. However, these updates are not visible in the legacy UI if you switch back; only the last updates made from the legacy UI appear there.
+* **Consistency of activity details**: The most recent changes, regardless of which UI you use, is reflected on your live website. However, the legacy UI only shows the latest changes made from within that version. This situation might cause confusion if activities edited in the updated UI look different than what you see in the legacy UI.
 
 #### More resources to learn about the updated UI
 
@@ -66,6 +66,91 @@ The following information describes the limitations that you should be aware of 
 * [Understand the [!DNL Target] UI](/help/main/c-intro/understand-the-target-ui.md): Provides a brief overview to help you get familiarized with [!DNL Target] and provides links for more in-depth information and step-by-step instructions.
 * [[!UICONTROL Visual Experience Composer] changes](/help/main/c-experiences/c-visual-experience-composer/vec-changes.md): The [!DNL Adobe Target Standard/Premium] 25.2.1 release (February 17, 2015) introduces an updated [!UICONTROL Visual Experience Composer] (VEC). This article explains the differences between the legacy and updated versions of the VEC.
 * [[!UICONTROL Visual Experience Composer] options](/help/main/c-experiences/c-visual-experience-composer/viztarget-options.md): This article explains the updated VEC UI and its options.
+
++++
+
+## [!DNL Target Standard/Premium] 25.7.2 (July 18, 2025)
+
+Due to recent issues identified, primarily related to complex customer customizations, this release includes the following fixes and updates:
+
+**Activities**
+
++++See details
+* Added an additional confirmation warning when canceling activity edits with unsaved changes: "Do you really want to save this activity? If you don't save, all your changes will be lost." This message helps prevent accidental data loss. (TGT-52865)
+* Restored legacy functionality to the [!UICONTROL Priority] slider in [!UICONTROL Goals & Settings], allowing customers to enter a numeric value directly, as supported in the legacy UI. (TGT-53185 & TGT-53219)
+
++++
+
+**Audiences**
+
++++See details
+* Fixed an issue that prevented saving or editing activities containing custom audiences. Customers encountered the error message "We cannot complete your request. Please contact [!DNL Adobe Client Care] if the problem persists." when attempting to save changes, or even save without changes, to certain activities. (TGT-53189)
+
++++
+
+**[!UICONTROL Analytics for Target] (A4T)**
+
++++See details
+* Fixed an issue when customers viewed reports for specific activities on the [!UICONTROL Goals & Settings] page, the [!UICONTROL View in Analytics] link incorrectly points to the QA environment instead of the production environment. (TGT-53163)
+
++++
+
+**[!UICONTROL Experiences] and [!UICONTROL Offers]**
+
++++See details
+* Fixed an issue where invoking `triggerView` via custom code caused an infinite loop. (TGT-52885)
+* Fixed an issue causing mismatches between `LocalIds` defined for activities and those `LocalIds` used in experience definitions. (TGT-52669)
+* Fixed an issue where metric names were missing on the activity [!UICONTROL Overview] page, displaying only 'Offer' instead of the correct metric name. (TGT-53054)
+
++++
+
+**Form-Based Experience Composer**
+
++++See details
+* Fixed an issue in the [!UICONTROL Form-Based Experience Composer] that prevented activity saving and triggered the error message: "Cannot read properties of undefined (reading 'map')". (TGT-53145)
+
++++
+
+**Recommendations**
+
++++See details
+* Fixed an issue where clicking a product from [!UICONTROL Catalog Search] displayed the error 'Failed to retrieve product details' and opened a modal without a close option. (TGT-53082)
+* Fixed an issue where [recommendations as offers ](/help/main/c-recommendations/recommendations-as-an-offer.md) in [!UICONTROL A/B Test] activities did not update correctly when changing collections or promotions. (TGT-52884)
+* Fixed an issue in the production environment where clicking an entity in the updated UI displayed the error: "Failed to retrieve product details. Please contact [!DNL Adobe Client Care] if this problem persists." (TGT-53071)
+
++++
+
+**Reports**
+
++++See details
+* Fixed an issue where saving order details to a CSV file resulted in an empty file. (TGT-52225)
+
++++
+
+**[!UICONTROL Visual Experience Composer] (VEC)**
+
++++See details
+* Resolved an issue on the [!UICONTROL Goals & Settings] page where selectors used in multiple experiences were not consistently highlighted as selected. (TGT-53062)
+*  Fixed an issue that prevented activity editing and triggered the error message: "Cannot read properties of undefined (reading 'map')". (TGT-53161)
+
++++
+
+**Workspaces**
+
++++See details
+* Improved handling of ad-hoc offers when switching workspaces.
+  * When switching from the default workspace to a non-default workspace (or between non-default workspaces), ad-hoc offers are now copied correctly. During initialization, the workspace context is updated and a new ID is assigned to the offer to ensure uniqueness.
+  * No changes occur when staying within the same workspace. (TGT-53079)
+* Fixed an issue that prevented customers from [copying activities between different workspaces](/help/main/c-activities/edit-activity.md#section_45A92E1DD3934523B07E71EF90C4F8B6). (TGT-52753 & TGT-47094)
+* Fixed an issue when changing properties between workspaces. 
+  * When switching between the default workspace to a non-default workspace, if the current property exists in the destination workspace, the property is preserved. 
+  * If the [!UICONTROL Properties] list displays a warning (likely to indicate some properties may not be compatible) and the customer clicks [!UICONTROL Add] or [!UICONTROL Remove] and then clicks [!UICONTROL Save], all properties not in the destination workspace are removed. If the customer clicks [!UICONTROL Cancel], all properties remain, even if they don't exist in the destination workspace. (TGT-47094)
+  * If staying in the same workspace or switching from a non-default workspace to the default or another workspace, everything remains as is. (TGT-53078)
+* Updated entity validation logic to respect the original workspace context of the activity. Entities such as [!UICONTROL Experience Fragments] (XFs) are now validated based on the workspace in which the activity was originally created. For example, if an XF exists in the default workspace and the activity is copied from workspace X to workspace Y, validation still passes as long as the XF is valid in the original (default) workspace. (TGT-53196)
+* Enhanced support for copying ad-hoc audiences during activity duplication.
+  * Ad-hoc audiences, including metrics, reporting, page, and activity-only types, are now automatically copied in the following scenarios: 
+    * When copying an activity from the default workspace to a non-default workspace.
+    * When copying an activity within the same workspace. (TGT-53197)
 
 +++
 
@@ -108,10 +193,10 @@ Due to recent issues identified, primarily related to complex customer customiza
 
 +++See details
 <!-- * Fixed an issue where using the [!UICONTROL Manage Content] feature in [!UICONTROL Automated Personalization] (AP) activities caused the page to crash and remain blank. This issue occurred after clicking [!UICONTROL Done] in the content manager, particularly in activities created or edited in the updated UI. (TGT-53047)-->
-* Fixed an issue where the [!UICONTROL Manage Content] feature did not properly validate the state of a location after all content options were removed. This could lead to inconsistent behavior or errors when attempting to save or proceed with the activity configuration. (TGT-52801)
-* Fixed an issue where users encountered an "Invalid input" error when adding a new page and deleting specific elements within different experiences. The error was triggered by duplicate `LocalIds` being generated during element manipulation, particularly when switching between experiences and modifying shared page structures. (TGT-52720)
+* Fixed an issue where the [!UICONTROL Manage Content] feature did not properly validate the state of a location after all content options were removed. This issue could lead to inconsistent behavior or errors when attempting to save or proceed with the activity configuration. (TGT-52801)
+* Fixed an issue where users encountered an "Invalid input" error when adding a new page and deleting specific elements within different experiences. The error is triggered by duplicate `LocalIds` being generated during element manipulation, particularly when switching between experiences and modifying shared page structures. (TGT-52720)
 * Fixed an issue where using the [!UICONTROL Generate Adhoc Offer] feature resulted in undefined locations appearing in the [!UICONTROL Manage Content] panel. (TGT-53076 & TGT-53070)
-* Clarified the behavior to the customer where modifications made using an HTML Offer might appear to be missing when navigating from the [!UICONTROL Targeting] step back to [!UICONTROL Experiences]. For this customer, the affected website dynamically generated multiple DOM selectors that changed with each page load. As a result, the selector originally used for the modification cannot be found when the editor is reopened, causing the modification to appear missing or invalid. This is working as designed. To ensure that modifications persist visually in the editor, it is recommended that clients use stable, consistent selectors that do not change across page reloads. (TGT-52874)
+* Clarified the behavior to the customer where modifications made using an HTML Offer might appear to be missing when navigating from the [!UICONTROL Targeting] step back to [!UICONTROL Experiences]. For this customer, the affected website dynamically generated multiple DOM selectors that changed with each page load. As a result, the selector originally used for the modification cannot be found when the editor is reopened, causing the modification to appear missing or invalid. This scenario is working as designed. To ensure that modifications persist visually in the editor, it is recommended that clients use stable, consistent selectors that do not change across page reloads. (TGT-52874)
 * Fixed an issue where attempting to delete or deactivate an offer that was part of an excluded experience triggered an "Invalid user input" error. This issue occurred even though the offer was not actively used in the included experiences. (TGT-52917)
 
 +++
@@ -168,7 +253,7 @@ Due to recent issues identified, primarily related to complex customer customiza
 * Fixed an issue where custom code changes were not saving correctly and were unintentionally mirrored across multiple experiences within the same activity. Additionally, users encountered access issues when opening or refreshing certain activities, resulting in blank screens. These issues have now been resolved to ensure stable activity editing and accurate experience isolation. (TGT-52594)
 * Fixed an issue where users were unable to browse to a different URL while in [!UICONTROL Browse Mode]. This prevented testers and editors from validating or previewing alternate pages within the same activity session. (TGT-53052)
 * Fixed an issue where multiple [!UICONTROL Visual Experience Composer] (VEC) instances opened simultaneously during activity creation. This issue occurred when users disabled the [!UICONTROL Enhanced Experience Composer] (EEC) and removed the trailing slash from the website URL in the [!UICONTROL Page Delivery] step. (TGT-52782)
-* Fixed an issue where the [!UICONTROL Revenue] metric dropdown in the [!UICONTROL Goals & Settings] step would incorrectly default to [!UICONTROL Revenue per Visit] (RPVISIT), even after the user selected a different metric.  issue occurred when collapsing and re-expanding the metric configuration panel, causing the previously selected value to reset. (TGT-52811 & TGT-52878)
+* Fixed an issue where the [!UICONTROL Revenue] metric dropdown in the [!UICONTROL Goals & Settings] step would incorrectly default to [!UICONTROL Revenue per Visit] (RPVISIT), even after the user selected a different metric.  The issue occurred when collapsing and re-expanding the metric configuration panel, causing the previously selected value to reset. (TGT-52811 & TGT-52878)
 * Fixed several issues in the activity-create workflow related to offer naming and content translation in [!UICONTROL Automated Personalization] (AP) and [!UICONTROL Multivariate Testing] (MVT) activities:
 
   Key Issues Addressed:
