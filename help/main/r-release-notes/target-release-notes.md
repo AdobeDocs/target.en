@@ -28,6 +28,8 @@ Due to recent issues identified, primarily related to complex customer customiza
 +++See details
 * Fixed an issue where the `buildViews` method in the builder class incorrectly set `viewMaxLocalId` to the total count of views, rather than to the highest `viewLocalId` assigned. (TGT-53207)
 
++++
+
 **Form-Based Experience Composer**
 
 +++See details
