@@ -73,11 +73,29 @@ For more information, see [Time-sensitive updates you need to know](/help/main/r
 
 +++
 
-## Are the [!UICONTROL Save as Draft] and [!UICONTROL Syncing] states still available?
+## Can I collapse the [!UICONTROL Components] and [!UICONTROL Modifications] rails so that I can enlarge the [!UICONTROL Design] panel? {#collapse}
 
 +++Details
 
+Yes, you can collapse both rails to let you expand the [!UICONTROL Design] canvas to make editing easier. Here's how:
 
+>[!NOTE]
+>
+>The [!UICONTROL Show Components] icon ( ![Show Components icon](/help/main/assets/icons/Add.svg) ) and the [!UICONTROL Show Modifications] icon ( ![Show Modifications rail](/help/main/assets/icons/History.svg) ) act as toggles to show the appropriate options.
+
+**Collapse the [!UICONTROL Components] rail**
+
+To collapse the [!UICONTROL Components] rail and enlarge the [!UICONTROL Design] canvas, while the [!UICONTROL Components] rail is open, click the ( ![Show Components icon](/help/main/assets/icons/Add.svg) ) icon.
+
+**Collapse the [!UICONTROL Modifications] rail**
+
+To collapse the [!UICONTROL Modifications] rail and enlarge the [!UICONTROL Design] canvas, while the [!UICONTROL Modifications] rail is open, click the [!UICONTROL Show Modifications] icon ( ![Show Modifications rail](/help/main/assets/icons/History.svg) ) icon.
+
++++
+
+## Are the [!UICONTROL Save as Draft] and [!UICONTROL Syncing] states still available?
+
++++Details
 With the latest updates to the user interface, the [!UICONTROL Save as Draft] and [!UICONTROL Syncing] states are no longer available. For more information, see Statuses under [Apply filters to the Activities list](/help/main/c-activities/activities.md#filters) in *[!UICONTROL Activities overview]*.
 
 +++

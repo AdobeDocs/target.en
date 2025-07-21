@@ -35,13 +35,25 @@ You can add a number of components to your web page and edit them as needed by u
 
 ![Components rail](/help/main/c-experiences/c-visual-experience-composer/assets/components-panel.png)
 
-To add a new component, drag the component from the [!UICONTROL Components] rail you want to insert over an existing page element in the [!UICONTROL Design] canvas. Then choose to insert the component before of after the selected element. 
+To add a new component, drag the component from the [!UICONTROL Components] rail you want to insert over an existing page element in the [!UICONTROL Design] canvas. Then choose to insert the component before of after the selected element.
+
+>[!NOTE]
+>
+>If you see the [!UICONTROL Modifications] rail in this area instead of the [!UICONTROL Components] rail, click the **[!UICONTROL Show Components]** icon ( ![Show Components icon](/help/main/assets/icons/Add.svg) ). The [!UICONTROL Show Components] icon ( ![Show Components icon](/help/main/assets/icons/Add.svg) ) and the [!UICONTROL Show Modifications] icon ( ![Show Modifications rail](/help/main/assets/icons/History.svg) ) act as toggles to show the appropriate options.
+>
+>To collapse the [!UICONTROL Components] rail and enlarge the [!UICONTROL Design] canvas, while the [!UICONTROL Components] rail is open, click the ( ![Show Components icon](/help/main/assets/icons/Add.svg) ) icon.
 
 ### [!UICONTROL Modifications] rail
 
 To open the [!UICONTROL Modifications] rail, click the [!UICONTROL Show Modifications] icon ( ![Show Modifications rail](/help/main/assets/icons/History.svg) ) in the [!UICONTROL Components] rail. The [!UICONTROL Modifications] rail changed position from the right side to the left side of the editing canvas.
 
 ![Modifications rail](/help/main/c-experiences/c-visual-experience-composer/assets/modifications-panel.png)
+
+>[!NOTE]
+>
+>The [!UICONTROL Show Components] icon ( ![Show Components icon](/help/main/assets/icons/Add.svg) ) and the [!UICONTROL Show Modifications] icon ( ![Show Modifications rail](/help/main/assets/icons/History.svg) ) act as toggles to show the appropriate options. 
+>
+>To collapse the [!UICONTROL Modifications] rail and enlarge the [!UICONTROL Design] canvas, while the [!UICONTROL Modifications] rail is open, click the [!UICONTROL Show Modifications] icon ( ![Show Modifications rail](/help/main/assets/icons/History.svg) ) icon.
 
 The [!UICONTROL Modifications] rail shows all changes that have been made to your page in the VEC and lets you make additional changes (such as CSS Selector, Mbox, and Custom Code).
 
