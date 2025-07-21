@@ -15,6 +15,9 @@ This page lists significant changes made to the [!DNL Adobe Target] product docu
 
 |Date|Topic|Changes|
 |--- |--- |--- |
+|July 21|[[!DNL Target] UI update FAQs](/help/main/c-intro/updated-ui-faq.md#collapse)|Added new FAQ: Can I collapse the [!UICONTROL Components] and [!UICONTROL Modifications] rails so that I can enlarge the [!UICONTROL Design] panel? |
+||[[!UICONTROL Visual Experience Composer] changes](/help/main/c-experiences/c-visual-experience-composer/vec-changes.md)|Added information about how to collapse the [!UICONTROL Components] and [!UICONTROL Modifications] rails to enlarge the [!UICONTROL Design] panel, which makes editing easier.|
+||[[!DNL Target] release notes (prerelease)](/help/main/r-release-notes/target-release-notes.md)|Added prerelease notes for the [!DNL Target Standard/Premium] 25.7.3 release.|
 |July 18|[[!DNL Target] release notes (current)](/help/main/r-release-notes/release-notes.md)|Added release notes for the [!DNL Target Standard/Premium] 25.7.2 release.|
 |July 17|[Success metics](/help/main/c-activities/r-success-metrics/success-metrics.md)|Made the following changes:<ul><li>Updated the [!UICONTROL Revenue] row under [!UICONTROL Overview].</li><li>Added new section: UI changes related to [!UICONTROL Revenue] success metrics.</li></ul>|
 |July 15|[Edit an activity](/help/main/c-activities/edit-activity.md#ection_45A92E1DD3934523B07E71EF90C4F8B6)|Updated entire section: *Copy/edit an activity when using workspaces*.|
@@ -28,7 +31,7 @@ This page lists significant changes made to the [!DNL Adobe Target] product docu
 |--- |--- |--- |
 |July 8|[Feeds](/help/main/c-recommendations/c-products/feeds.md#status)|Added new status to the Feed Statuses table: Partial Import Failed.|
 |July 7|[[!DNL Target] release notes (current)](/help/main/r-release-notes/release-notes.md)|Added new section to highlight time-sensitive information about [!DNL Target] and your implementation: "Time-sensitive updates you need to know ."|
-|July  |[[!DNL Target] release notes (prerelease)](/help/main/r-release-notes/target-release-notes.md)|Added prerelease notes for the [!DNL Target Standard/Premium] 25.7.1 release.|
+|July 1 |[[!DNL Target] release notes (prerelease)](/help/main/r-release-notes/target-release-notes.md)|Added prerelease notes for the [!DNL Target Standard/Premium] 25.7.1 release.|
 |June 27|[[!DNL Target] release notes (current)](/help/main/r-release-notes/release-notes.md)|Added release notes for the [!DNL Target Standard/Premium] 25.6.4 release.|
 |June 25|[[!DNL Target] release notes (prerelease)](/help/main/r-release-notes/target-release-notes.md)|Added prerelease notes for the [!DNL Target Standard/Premium] 25.6.4 release.|
 |June 20|[[!DNL Target] release notes (current)](/help/main/r-release-notes/release-notes.md)|Added release notes for the [!DNL Target Standard/Premium] 25.6.3 release.|
