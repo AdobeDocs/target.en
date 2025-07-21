@@ -5,7 +5,7 @@ title: How Do I Use the [!UICONTROL Visual Experience Composer] (VEC) Options?
 feature: Visual Experience Composer (VEC)
 exl-id: 50993d6c-5025-488a-8b33-9ed7c142de6e
 ---
-# Visual Experience Composer options
+# [!UICONTROL Visual Experience Composer] options
 
 The [!DNL Adobe Target Standard/Premium] 25.2.1 release (February 17, 2015) introduces an updated [!UICONTROL Visual Experience Composer] (VEC). This article explains the updated UI and its options.
 
@@ -80,6 +80,8 @@ You can add a number of components to your web page and edit them as needed by u
 >[!NOTE]
 >
 >If you see the [!UICONTROL Modifications] rail in this area instead of the [!UICONTROL Components] rail, click the **[!UICONTROL Show Components]** icon ( ![Show Components icon](/help/main/assets/icons/Add.svg) ). The [!UICONTROL Show Components] icon ( ![Show Components icon](/help/main/assets/icons/Add.svg) ) and the [!UICONTROL Show Modifications] icon ( ![Show Modifications rail](/help/main/assets/icons/History.svg) ) act as toggles to show the appropriate options.
+>
+>To collapse the [!UICONTROL Components] rail and enlarge the [!UICONTROL Design] canvas, while the [!UICONTROL Components] rail is open, click the ( ![Show Components icon](/help/main/assets/icons/Add.svg) ) icon.
 
 To add a new component to an experience: 
 
@@ -111,7 +113,9 @@ To open the [!UICONTROL Modifications] rail, click the [!UICONTROL Show Modifica
 
 >[!NOTE]
 >
->The [!UICONTROL Show Components] icon ( ![Show Components icon](/help/main/assets/icons/Add.svg) ) and the [!UICONTROL Show Modifications] icon ( ![Show Modifications rail](/help/main/assets/icons/History.svg) ) act as toggles to show the appropriate options.
+>The [!UICONTROL Show Components] icon ( ![Show Components icon](/help/main/assets/icons/Add.svg) ) and the [!UICONTROL Show Modifications] icon ( ![Show Modifications rail](/help/main/assets/icons/History.svg) ) act as toggles to show the appropriate options. 
+>
+>To collapse the [!UICONTROL Modifications] rail and enlarge the [!UICONTROL Design] canvas, while the [!UICONTROL Modifications] rail is open, click the [!UICONTROL Show Modifications] icon ( ![Show Modifications rail](/help/main/assets/icons/History.svg) ) icon.
 
 The [!UICONTROL Modifications] rail shows all changes that have been made to your page in the [!UICONTROL Visual Experience Composer] (VEC) and lets you make additional changes (such as CSS Selector, Mbox, and Custom Code).
 
@@ -145,7 +149,7 @@ The [!UICONTROL Properties] rail lets you change properties of selected elements
 
 Click the icons on top of the rail to edit HTML code or delete, duplicate, or hide elements. Changes appear in the [!UICONTROL Modifications] rail.
 
-The [!UICONTROL Properties] rail is collapsible in the right rail. Click the [!UICONTROL Show/Hide Properties] icon ( ![Properties icon](/help/main/assets/icons/Propertie.svg) ) to the right of the rail to collapse or display the [!UICONTROL Properties] rail.
+The [!UICONTROL Properties] rail is collapsible in the right rail to let you hide the design canvas and to enlarge the design canvas. Click the [!UICONTROL Show/Hide Properties] icon ( ![Properties icon](/help/main/assets/icons/Propertie.svg) ) to the right of the rail to collapse or display the [!UICONTROL Properties] rail.
 
 ## Edit elements using the [!UICONTROL Design] canvas {#design}
 
