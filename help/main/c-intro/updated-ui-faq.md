@@ -73,11 +73,11 @@ For more information, see [Time-sensitive updates you need to know](/help/main/r
 
 +++
 
-## Can I collapse the [!UICONTROL Components] and [!UICONTROL Modifications] rails so that I can enlarge the [!UICONTROL Design] panel? {#collapse}
+## Can I collapse the [!UICONTROL Components], [!UICONTROL Modifications], and [!UICONTROL Properties] rails so that I can enlarge the [!UICONTROL Design] panel? {#collapse}
 
 +++Details
 
-Yes, you can collapse both rails to let you expand the [!UICONTROL Design] canvas to make editing easier. Here's how:
+Yes, you can collapse these rails to let you expand the [!UICONTROL Design] canvas to make editing easier. Here's how:
 
 >[!NOTE]
 >
@@ -90,6 +90,10 @@ To collapse the [!UICONTROL Components] rail and enlarge the [!UICONTROL Design]
 **Collapse the [!UICONTROL Modifications] rail**
 
 To collapse the [!UICONTROL Modifications] rail and enlarge the [!UICONTROL Design] canvas, while the [!UICONTROL Modifications] rail is open, click the [!UICONTROL Show Modifications] icon ( ![Show Modifications rail](/help/main/assets/icons/History.svg) ) icon.
+
+**Collapse the [!UICONTROL Properties] rail**
+
+To collapse the [!UICONTROL Properties] rail and enlarge the [!UICONTROL Design] canvas, click the [!UICONTROL Show/Hide Properties] icon ( ![Properties icon](/help/main/assets/icons/Propertie.svg) ) to the right of the rail to collapse or display the [!UICONTROL Properties] rail.
 
 +++
 
