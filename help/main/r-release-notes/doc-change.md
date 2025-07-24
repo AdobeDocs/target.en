@@ -15,6 +15,7 @@ This page lists significant changes made to the [!DNL Adobe Target] product docu
 
 |Date|Topic|Changes|
 |--- |--- |--- |
+|July 24|[[!DNL Target] release notes (current)](/help/main/r-release-notes/release-notes.md)|Added release notes for the [!DNL Target Standard/Premium] 25.7.3 release.|
 |July 21|[[!DNL Target] UI update FAQs](/help/main/c-intro/updated-ui-faq.md#collapse)|Added new FAQ: Can I collapse the [!UICONTROL Components], [!UICONTROL Modifications], and [!UICONTROL Properties] rails so that I can enlarge the [!UICONTROL Design] panel?|
 ||[[!UICONTROL Visual Experience Composer] changes](/help/main/c-experiences/c-visual-experience-composer/vec-changes.md)|Added information about how to collapse the [!UICONTROL Components] and [!UICONTROL Modifications] rails to enlarge the [!UICONTROL Design] panel, which makes editing easier.|
 ||[[!DNL Target] release notes (prerelease)](/help/main/r-release-notes/target-release-notes.md)|Added prerelease notes for the [!DNL Target Standard/Premium] 25.7.3 release.|
