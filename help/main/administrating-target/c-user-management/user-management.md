@@ -10,6 +10,8 @@ exl-id: 3bf0c23c-7382-43d2-af54-734221063872
 
 Information about managing users in [!DNL Target] Standard and managing enterprise [!UICONTROL Properties] and [!UICONTROL Permissions] in [!DNL Target] Premium.
 
+{{permissions-update}}
+
 >[!NOTE]
 >
 >[!UICONTROL Properties] and [!UICONTROL Permissions] functionality is available as part of the [!DNL Target Premium] solution. They are not available in [!DNL Target Standard] without a [!DNL Target Premium] license. For more information about the advanced [!DNL Target] Premium features, see [Target Premium](/help/main/c-intro/intro.md#premium) in *Introduction to Target*.
@@ -26,10 +28,10 @@ You can tell whether your organization has a Standard or Premium license by clic
 * **Target Premium Customers:** If your organization has a [!DNL Target] Premium license, you will observe the following in the Target UI:
 
   * You will see the [!UICONTROL Properties] tab ( [!UICONTROL Administration] > [!UICONTROL Properties] )
-  * You will also see the [!UICONTROL Users] tab ( [!UICONTROL Administration] > [!UICONTROL Users] )
+  * You will *not* see the [!UICONTROL Users] tab ( [!UICONTROL Administration] > [!UICONTROL Users] )
 
     [!DNL Target] Premium customers should follow the instructions in [Enterprise User Permissions](/help/main/administrating-target/c-user-management/property-channel/property-channel.md#concept_E396B16FA2024ADBA27BC056138F9838) and [Configure Enterprise Permissions](/help/main/administrating-target/c-user-management/property-channel/properties-overview.md#concept_22F2855DBF0D4754B9460F5D68749C71) to add users and assign permissions in the [!DNL Adobe Admin Console].
 
-The following illustration shows the [!UICONTROL Administration] page for a [!DNL Target] Premium account. Note that both the [!UICONTROL Properties] and [!UICONTROL Users] tabs are available:
+The following illustration shows the [!UICONTROL Administration] page for a [!DNL Target Premium] account:
 
 ![Administration tab](/help/main/administrating-target/assets/premium.png)

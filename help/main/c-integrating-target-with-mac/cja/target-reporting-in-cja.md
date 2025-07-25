@@ -28,7 +28,7 @@ Consider the following information before using the [!DNL Customer Journey Analy
   * If you have a [Target Standard](/help/main/c-intro/intro.md#section_ACD5EFF17AAB4E979CBEFA0145CCD905) account, see [Specify roles and permissions](/help/main/administrating-target/c-user-management/c-user-management/user-management.md#roles-permissions) in *Users*.
   * If you have a [Target Premium](/help/main/c-intro/intro.md#premium) account, see [Roles and permissions](/help/main/administrating-target/c-user-management/property-channel/property-channel.md#roles-permissions) in *Enterprise user permissions*.
 
-* You must be part of a role in [!DNL Adobe Experience Platform] to set up a [!DNL Target] activity with [!DNL Customer Journey Analytics] as the reporting source. For more information, see [Add a Role in [!DNL Adobe Experience Platform]](https://experienceleague.adobe.com/en/docs/platform-learn/getting-started-for-data-architects-and-data-engineers/configure-permissions#add-a-role-in-adobe-experience-platform-requires-a-system-administrator-or-product-admin){target=_blank} in *Configure permissions* in the *Data Architect and Engineer Tutorial.*
+* Be part of a role in [!DNL Adobe Experience Platform] to set up a [!DNL Target] activity with [!DNL Customer Journey Analytics] as the reporting source. For more information, see [Add a Role in [!DNL Adobe Experience Platform]](https://experienceleague.adobe.com/en/docs/platform-learn/getting-started-for-data-architects-and-data-engineers/configure-permissions#add-a-role-in-adobe-experience-platform-requires-a-system-administrator-or-product-admin){target=_blank} in *Configure permissions* in the *Data Architect and Engineer Tutorial.*
 * Depending on your settings, reporting can be changed per activity or at an organization level. See [Reporting Cloud Solution](/help/main/administrating-target/reporting.md#solution) in *Configure reporting in Target*.
 * Use one reporting source or the other. You cannot collect data for a single activity to multiple reporting sources. 
 * When you set [!DNL Customer Journey Analytics] as your reporting source, you are prompted to specify the sandbox for reporting. During configuration, you see only the sandboxes to which you have access.
@@ -41,7 +41,7 @@ Consider the following information before using the [!DNL Customer Journey Analy
 
   >[!NOTE]
   >
-  >If you use an [!DNL Adobe Analytics] source connection, you will have reports in both [!DNL Adobe Analytics] and [!DNL Customer Journey Analytics]. However, because of different algorithms between both of these solutions the results are not likely to match.  
+  >If you use an [!DNL Adobe Analytics] source connection, you have reports in both [!DNL Adobe Analytics] and [!DNL Customer Journey Analytics]. However, because of different algorithms between both of these solutions the results are not likely to match.  
 
 * For any questions about timing, see [Latency considerations](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-overview/cja-faq#latency){target=_blank} in *Frequently Asked Questions* in the *[!DNL Adobe Customer Analytics] Guide*.
 
@@ -143,3 +143,35 @@ Set up a data view in [!DNL Customer Journey Analytics]. A data view ensures tha
    ![Context labels in the Experimentation panel](/help/main/c-integrating-target-with-mac/cja/assets/context-labels.png){width="600" zoomable="yes"}
 
 1. Finish setting up any other fields, then click **[!UICONTROL Save and continue]** when done.
+
+## Create and view activity reports in [!DNL Customer Journey Analytics]
+
+After completing the setup, [!DNL Customer Journey Analytics] via the [!DNL Adobe Experience Cloud] or the activity's [!UICONTROL Reports] tab in [!DNL Target].
+
+The Reports tab has a **[!UICONTROL View in Customer Journey Analytics]** link. Currently, this link redirects you to the [!DNL Customer Journey Analytics] home landing page.
+
+![CJA reporting link](/help/main/c-integrating-target-with-mac/cja/assets/report-link.png)
+
+>[!NOTE]
+>
+>This integration is not the same as [!UICONTROL Adobe Analytics for Target] (A4T).
+>
+>* The [!DNL Target]/[!DNL Customer Journey Analytics] integration does not include a pre-built report like A4T. Activity reports must be built in [!DNL Customer Journey Analytics].
+>
+>* If [!UICONTROL Use a CJA Metric] as the activity's goal metric is selected, this option provides flexibility to when specific success metrics must be defined. The success metric is selected when configuring the [!UICONTROL Experimentation] panel. Lift and confidence are calculated from the CJA metric selected.
+
+1. In [!DNL Customer Journey Analytics], create an Experimentation panel, then select the activity from the **[!UICONTROL Experiment]** drop-down menu.
+
+   For more information, see [Experimentation panel](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-workspace/panels/experimentation?lang=en#use){target=_blank} under *Experimentation panel* in the *[!DNL Customer Journey Analytics]* guide.
+
+   ![Experimentation panel in Customer Journey Analytics](/help/main/c-integrating-target-with-mac/cja/assets/experimentation-panel.png)
+
+   >[!IMPORTANT]
+   >
+   >If the activity doesn't appear in the [!UICONTROL Experiment] drop-down list, verify that the correct data view is selected and that the [!DNL Target] dimensions include the required context labels (see Step 3 in [Set up data views](https://experienceleague.adobe.com/en/docs/target/using/integrate/cja/target-reporting-in-cja#set-up-data-views){target=_blank}).
+
+1. Click **[!UICONTROL Build]**.
+
+   The [!UICONTROL Experimentation] panel returns a rich set of data and visualizations to help you better understand how your experiments are performing. For more information, see [[!UICONTROL Panel output]](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-workspace/panels/experimentation#panel-output){target=_blank} under *Experimentation panel* in the *[!DNL Customer Journey Analytics]* guide.
+
+   ![Experimentation](/help/main/c-integrating-target-with-mac/cja/assets/experimentation.png)

@@ -16,6 +16,8 @@ A host is any domain from which a [!DNL Target] request is made. On a website, i
 
 By default, [!DNL Target] does not limit a host that can make [!DNL Target] requests and receive [!DNL Target] responses. When new hosts make requests, they automatically work. This process also enables testing on different domains you don't know or can't anticipate. If you want to override this default behavior, you can set up an allowlist or blocklist to limit which hosts work with [!DNL Target].
 
+{{permissions-update}}
+
 To manage hosts, click **[!UICONTROL Administration]** > **[!UICONTROL Hosts]**.
 
 ## Recognizing hosts {#concept_0D4B43E23AA9408F8B28A57ED754BF65}
@@ -43,7 +45,7 @@ After a host is added to the [!UICONTROL Host] list, make sure that the host is 
 
    By default, a newly recognized host is placed in the [!UICONTROL Production] environment. The [!UICONTROL Production] environment is the safest environment because it does not allow inactive activities to be viewed from these hosts.
 
-1. (Conditional) Click the **[!UICONTROL Move]** icon ( ![move icon](/help/main/administrating-target/assets/icon-move.png) ) to move the host into the [!UICONTROL Development], [!UICONTROL Staging], or other environment.
+1. (Conditional) Click the **[!UICONTROL Move]** icon ( ![move icon](/help/main/assets/icons/MoveTo.svg) ) to move the host into the [!UICONTROL Development], [!UICONTROL Staging], or other environment.
 
 >[!NOTE]
 >
@@ -95,7 +97,7 @@ You can also create a denylist that specifies hosts (domains) that cannot send [
 
 You can delete a host when it is no longer needed.
 
-1. From the [!UICONTROL Hosts] list, click the **[!UICONTROL Delete]** icon. 
+1. From the [!UICONTROL Hosts] list, click the **[!UICONTROL Delete]** icon ( ![Delete icon](/help/main/assets/icons/DeleteOutline.svg) ). 
 1. Click **[!UICONTROL Delete]** to confirm the deletion.
 
 >[!NOTE]

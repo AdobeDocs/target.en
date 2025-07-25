@@ -3,13 +3,11 @@ keywords: ai assistant;artificial intelligence assistant
 description: Learn how to navigate and understand [!DNL Target] concepts with [!DNL AI Assistant].
 title: How Do I Use the [!DNL AI Assistant] in [!DNL Target]?
 feature: Overview
-hide: yes
-hidefromtoc: yes
 exl-id: f46d95f3-0ca3-4d96-92a7-b67a2c8a4678
 ---
-# Using [!DNL Adobe Experience Platform] [!DNL AI Assistant] in [!DNL Adobe Target]
+# [!DNL Adobe Experience Platform] [!DNL AI Assistant] overview
 
-The [!DNL AI Assistant] in [!DNL Adobe Experience Platform] is a user interface feature that you can use to navigate and understand [!DNL Adobe] concepts. [!DNL AI Assistant] is available in several products across [!DNL Adobe Experience Cloud], including [!DNL Adobe Target].
+[!DNL AI Assistant] in [!DNL Adobe Experience Platform] is a user interface feature that you can use to navigate and understand [!DNL Adobe] concepts. [!DNL AI Assistant] is available in several products across [!DNL Adobe Experience Cloud], including [!DNL Adobe Target].
 
 ## Use cases in [!DNL Target]
 
@@ -25,17 +23,16 @@ In [!DNL Target], you currently have access to the following use cases:
 
 >[!NOTE]
 >
->Customer operational insights are currently not available in [!DNL Target].
+>Content generation and customer operational insights are currently not available in [!DNL Target].
 
-## Access [!DNL AI Assistant] in [!DNL Target]
+## Next steps
 
-Your organization must first agree to additional legal terms to gain access to [!DNL AI Assistant]. Then contact your Adobe account team for guidance on these terms.
-
-For more information, see [Access [!DNL AI Assistant] in [!DNL Experience Platform]](https://experienceleague.adobe.com/en/docs/experience-platform/ai-assistant/access){target=_blank} in the *[!DNL Experience Platform]* documentation.
+1. Complete the prerequisite tasks in [Enable Adobe Experience Platform AI Assistant in Adobe Target](/help/main/c-intro/enabling-ai-assistant.md).
+1. Start using AI Assistant by asking questions, as explained in [Use AI Assistant in Adobe Target to learn product knowledge](/help/main/c-intro/ai-assistant-product-knowledge.md).
 
 ## [!DNL AI Assistant] documentation
 
-See the following documentation for more information about [!DNL AI Assistant]:
+See the following articles for more information about [!DNL AI Assistant] included in other [!DNL Adobe Experience Cloud] documentation:
 
 |Topic|Description|
 | --- | --- |

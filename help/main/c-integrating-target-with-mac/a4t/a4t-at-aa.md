@@ -18,18 +18,25 @@ Ensure that you have [implemented A4T for use with A/B Test and Experience Targe
 
 To get started:
 
-1. While [creating an [!UICONTROL A/B Test] activity](/help/main/c-activities/t-test-ab/t-test-create-ab/test-create-ab.md), on the **[!UICONTROL Targeting]** page, select one of the following options as the **[!UICONTROL Traffic Allocation Method]**:
+1. While [creating an [!UICONTROL A/B Test] activity](/help/main/c-activities/t-test-ab/t-test-create-ab/test-create-ab.md), on the **[!UICONTROL Targeting]** page, click the **[!UICONTROL Traffic Allocation]** control, then choose the desired traffic allocation method in the right pane.
 
-   * [!UICONTROL Auto-Allocate to best experience]
-   * [!UICONTROL Auto-Target for personalized experiences]
+    ![Traffic Allocation Method settings](/help/main/c-activities/assets/auto-target.png)
 
-   ![Traffic Allocation Methods options: Manual, Auto-Allocate, and Auto-Target](/help/main/c-integrating-target-with-mac/a4t/assets/traffic-allocation-methods.png)
+   The following traffic allocation methods are available:
+
+   * **[!UICONTROL Manual (Default)]**: Specify the percentage of entrants that you want to see each experience. You can split the percentages evenly between all experiences, or specify higher or lower percentages for each experience. The total for all experiences must equal 100%.
+
+   * **[!UICONTROL Auto-Allocate to best experience]**: Most activity entrants are automatically directed to higher-performing experiences. Some visitors are allocated to all experiences, to maintain exploration of experiences and to recognize changes in performance trends. For more information, see [[!UICONTROL Auto-Allocate] overview](/help/main/c-activities/automated-traffic-allocation/automated-traffic-allocation.md#concept_A1407678796B4C569E94CBA8A9F7F5D4).
+
+   * **[!UICONTROL Auto-Target for personalized experiences]**: [!DNL Target] uses advanced machine learning to personalize content and drive conversions by identifying multiple high-performing, marketer-defined experiences, and then serving the most tailored experience to visitors based on their individual customer profiles and past behaviors of similar visitors. For more information, see [Auto-Target overview](/help/main/c-activities/auto-target/auto-target-to-optimize.md).
 
    For more information and step-by-step instructions, see [Create an Auto-Allocate activity](/help/main/c-activities/automated-traffic-allocation/create-auto-allocate-activity.md) and [Create an Auto-Target activity](/help/main/c-activities/auto-target/create-auto-target.md).
 
-1. Select **[!UICONTROL Adobe Analytics]** for your **[!UICONTROL Reporting Source]** on the **[!UICONTROL Goals & Settings]** page and select the report suite corresponding to your desired optimization goal.
+1. Select **[!UICONTROL Adobe Analytics]** for your **[!UICONTROL Reporting Source]** on the **[!UICONTROL Goals & Settings]** page, select the company and report suite corresponding to your desired optimization goal.
 
    ![Reporting Source section on Goals & Settings page](/help/main/c-integrating-target-with-mac/a4t/assets/a4t-select.png)
+
+1. Specify the tracking server and sandbox.
 
 1. Choose a [!UICONTROL Primary Goal] metric.
 
@@ -55,6 +62,10 @@ To get started:
 * [!DNL Adobe Target] conversion metrics
 * [!DNL Adobe Analytics] conversion metrics
 * [!DNL Adobe Analytics] custom events
+
+>[!NOTE]
+>
+>After selecting [!UICONTROL Use an Analytics Metric], select [!UICONTROL Maximize Unique Visitor Conversion Rate] to view available [!DNL Adobe Analytics] conversion metrics, and [!UICONTROL Maximize Metric Value per Visitor] to explore [!DNL Adobe Analytics] custom events.
 
 [!DNL Target] lets you choose metrics based on binomial events or metrics based on continuous events when using [!UICONTROL A4T] for [!UICONTROL Auto-Allocate] and [!UICONTROL Auto-Target] activities. 
 

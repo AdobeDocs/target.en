@@ -58,37 +58,33 @@ In [!DNL Adobe Journey Optimizer], you can create a personalized homepage hero o
    >
    >You can also create an experience that uses [!UICONTROL Offer Decisions] in the [[!UICONTROL Form-Based Experience Composer]](/help/main/c-experiences/form-experience-composer.md).
 
-1. Click **[!UICONTROL Insert Before]**, **[!UICONTROL Insert After]**, or **[!UICONTROL Replace Content]**, then click **[!UICONTROL Offer Decision]**.
+1. Click **[!UICONTROL Replace Content]**, then click **[!UICONTROL Offer Decision]**.
 
    The [!UICONTROL Offer Decision] option is available when editing or creating [manual [!UICONTROL A/B Test]](/help/main/c-activities/t-test-ab/test-ab.md#types) or [[!UICONTROL Experience Targeting]](/help/main/c-activities/t-experience-target/experience-target.md) (XT) activities only. This option is not available for other activity types. The available options in the menu vary depending on the selected element.
 
    ![Options menu in the Visual Experience Composer](assets/options-menu.png)
 
-1. In the **[!UICONTROL Add Offer Decision]** dialog box, select the desired sandbox and placement.
+1. In the **[!UICONTROL Add Offer Decision]** rail on the right side of the VEC, select the desired sandbox, then click Select Offer Decision.placement.
 
    A [sandbox](https://experienceleague.adobe.com/docs/experience-platform/sandbox/ui/overview.html){target=_blank} in the [!DNL Adobe Experience Platform] lets you partition your instance into virtual environments. For example, you might have a production environment and a staging environment. A [placement](https://experienceleague.adobe.com/docs/journey-optimizer/using/offer-decisioning/create-components/creating-placements.html){target=_blank} in [!DNL Adobe Journey Optimizer] helps ensure that the right offer content displays in the right location.
 
    ![Sandbox and Placements drop-down lists in the Add Offer Decision dialog box](/help/main/c-integrating-target-with-mac/ajo/assets/sandbox-placement.png)
 
-1. Select the desired offer decision, then click **[!UICONTROL Create]**.
+1. Select the desired offer placement and offer decision, then click **[!UICONTROL Add]**.
 
-   ![Selected offer decision in the Add Offer Decision dialog box](assets/offer-decision.png)
+   ![Select Offer decision dialog box](/help/main/c-integrating-target-with-mac/ajo/assets/select-offer-decision.png)
 
-   Your web site displays in the VEC where you can see the newly created offer decision in the [!UICONTROL Modifications] pane on the right side. You can hover over the modification and click the [!UICONTROL Preview] icon to examine the offer decision.
+   Your web site displays in the VEC where you can see the newly created offer decision in the [!UICONTROL Modifications] rail. You can click an offer under [!UICONTROL Offer Preview] at the bottom of the [!UICONTROL Offer Decision] rail to examine the offer decision.
 
-   ![Preview icon](assets/preview-icon.png)
+   <!--You can examine the various offers contained in the offer by clicking the appropriate icon at the bottom of the [!UICONTROL Offer Preview] dialog box, including the fallback offer. A fallback offer is the default offer displayed when a visitor is not eligible for any of the personalized offers in the collection.-->
 
-   You can examine the various offers contained in the offer by clicking the appropriate icon at the bottom of the [!UICONTROL Offer Preview] dialog box, including the fallback offer. A fallback offer is the default offer displayed when a visitor is not eligible for any of the personalized offers in the collection.
-
-   ![Offer preview](assets/offer-preview.png)
+   ![Offer preview](assets/offer-preview2.png)
 
 1. Finish creating the activity by completing the [!UICONTROL Targeting] and [!UICONTROL Goals & Settings] steps of the three-part guided workflow.
 
    >[!IMPORTANT]
    >
    >To ensure that the [!DNL Target] activity is personalized, make sure the current activity start/end dates are in sync with the offer decision's start/end dates in [!DNL Adobe Journey Optimizer]. If the [!DNL Target] start/end dates are outside the offer decision's start/end date range, the default [!DNL Target] content displays to visitors.
-
-   ![Offer decision warning message](/help/main/c-integrating-target-with-mac/ajo/assets/offer-decision-warning.png)
 
 ## Notes and limitations
 

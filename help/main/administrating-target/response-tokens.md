@@ -14,6 +14,8 @@ Response tokens let you choose which variables (in key value pairs) to use and t
 
 A key difference between plug-ins and response tokens is that plug-ins deliver JavaScript to the page that executes upon delivery. Response tokens, however, deliver an object that can then be read and acted upon using event listeners. The response token approach is safer and allows for easier development and maintenance of 3rd-party integrations.
 
+{{permissions-update}}
+
 >[!NOTE]
 >
 >Response tokens are available with at.js version 1.1 or later. 

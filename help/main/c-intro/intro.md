@@ -7,39 +7,37 @@ title: What is Target?
 feature: Overview
 exl-id: 0e729c71-618b-4ab8-93a3-d37e73ec2740
 ---
-# Introduction to Target
+# Introduction to [!DNL Target]
 
-[!DNL Adobe Target] is the [!DNL Adobe Experience Cloud] solution that provides everything you need to tailor and personalize your customers' experiences. [!DNL Target] helps you maximize revenue on your web and mobile sites, apps, social media, and other digital channels.
+[!DNL Adobe Target], part of the [!DNL Adobe Experience Cloud], offers comprehensive tools to personalize customer experiences across web, mobile sites, apps, social media, and other digital channels. 
 
-The [!DNL Adobe Target] solution can be licensed as [!DNL Target Standard] or [!DNL Target Premium]. 
+[!DNL Target] helps maximize revenue and can be licensed as [!DNL Target Standard] or [!DNL Target Premium].
 
-## Target Standard {#section_ACD5EFF17AAB4E979CBEFA0145CCD905}
+## [!UICONTROL Target Standard] {#section_ACD5EFF17AAB4E979CBEFA0145CCD905}
 
-[!DNL Target Standard] is the front end to [!DNL Adobe Target] that helps you visually create and manage A/B tests and rules-based targeting activities. [!DNL Target Standard] supports custom code insertion both in and out of the [!UICONTROL Visual Experience Composer] (VEC) workflow. [!DNL Target Standard] offers a simplified implementation strategy with your digital properties. A single line of code on each page manages all communication required between your site and [!DNL Target].
+[!DNL Target Standard] is the front end to [!DNL Adobe Target], enabling visual creation and management of A/B tests and rules-based targeting activities. [!DNL Target] supports custom code insertion within and outside the [[!UICONTROL Visual Experience Composer]](/help/main/c-experiences/c-visual-experience-composer/visual-experience-composer.md) (VEC) workflow. [!DNL Target Standard] offers a simplified implementation strategy for your digital properties, with a single line of code on each page managing all communication between your site and [!DNL Target].
 
-Industry best practices are built into [!DNL Target Standard]. [!DNL Target Standard] is designed for both new and experienced users. You can share data and results and collaborate easily with other team members who use the [!DNL Adobe Experience Cloud].
+Industry best practices are integrated into [!DNL Target Standard], making it suitable for both new and experienced users. You can easily share data, results, and collaborate with team members using the [!DNL Adobe Experience Cloud].
 
-## Target Premium {#premium}
+## [!DNL Target Premium] {#premium}
 
 [!BADGE Premium]{type=Positive}
 
-[!DNL Target Premium] is an advanced [!DNL Target] offering that requires a license to add premium features to [!DNL Target Standard].
-
-All [!DNL Target Premium] articles in [!DNL Target] guides include the [!UICONTROL Premium] badge at the top of each page or inline near the affected text. The [!UICONTROL Premium] badge is clickable and includes a link to this section.
+[!DNL Target Premium] is an advanced offering that requires a license to add premium features to [!DNL Target Standard]. All [!DNL Target Premium] articles in [!DNL Target] guides include the [!UICONTROL Premium] badge at the top of each page or inline near the affected text. The [!UICONTROL Premium] badge is clickable and links to this section.
 
 **[!DNL Target Premium] includes the following features:**
 
-### Automated Personalization
+### [!UICONTROL Automated Personalization]
 
-[Automated Personalization](/help/main/c-activities/t-automated-personalization/automated-personalization.md#task_8AAF837796D74CF893CA2F88BA1491C9) (AP) provides advanced machine learning algorithms to drive personalized experiences and improved conversion rates for digital experiences.
+[[!UICONTROL Automated Personalization]](/help/main/c-activities/t-automated-personalization/automated-personalization.md#task_8AAF837796D74CF893CA2F88BA1491C9) (AP) uses advanced machine learning algorithms to deliver personalized experiences and improve conversion rates for digital interactions.
 
-[!UICONTROL Automated Personalization] records visitor activity on the site, building a profile of visitors so content can be targeted to similar visitors. AP tracks responses to content, both for individuals and for the population as a whole. AP then uses sophisticated modeling approaches to automatically target each individual. AP considers everything known about each visitor.
+AP records visitor activity, building profiles to target content to similar visitors. AP tracks responses to content for individuals and the population, using sophisticated modeling to automatically target each visitor based on everything known about them.
 
-[!UICONTROL Automated Personalization] learns by itself and requires minimum human analysis. Fully automated, AP learns continuously. The system builds models and automatically learns which products an individual visitor is most likely to be interested in. Every time a visitor interacts with the site, information is collected and stored in that visitor's profile. Multiple algorithms are available to provide the best model for your system.
+AP is fully automated, continuously learning with minimal human analysis. It builds models to determine which products a visitor is likely to be interested in, collecting and storing information in visitor profiles. Multiple algorithms ensure the best model for your system.
 
-### Auto-Target
+### [!UICONTROL Auto-Target]
 
-[Auto-Target](/help/main/c-activities/auto-target/auto-target-to-optimize.md) uses advanced machine learning to identify multiple high-performing marketer-defined experiences. [!UICONTROL Auto-Target] then serves the most tailored experience to each visitor. Delivery is based on individual customer profiles and the behavior of previous visitors with similar profiles. [!UICONTROL Auto-Target] helps personalize content and drive conversions.
+[Auto-Target](/help/main/c-activities/auto-target/auto-target-to-optimize.md) uses advanced machine learning to identify high-performing marketer-defined experiences. It then delivers the most tailored experience to each visitor based on individual customer profiles and the behavior of previous visitors with similar profiles. [!UICONTROL Auto-Target] helps personalize content and drive conversions.
 
 ### Recommendations 
 

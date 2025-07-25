@@ -11,14 +11,18 @@ Display problems sometimes occur in the [!DNL Adobe Target] [!UICONTROL Visual E
 
 ## When I open my website in the [!UICONTROL Visual Experience Composer], the [!DNL Target] libraries do not load. (VEC only) {#section_8A7D3F4AD2CC4C3B823EE9432B97E06F}
 
++++Details
 [!DNL Target] adds two parameters (`mboxEdit=1` and `mboxDisable=1`) while opening the website in the [!UICONTROL Visual Experience Composer].
 
 If your website (specially Single Page Apps), trims parameters or actually removes them while navigating from one page to another (without a page reload) the [!DNL Target] functionality breaks and the [!DNL Target] libraries do not load.
 
-To avoid this problem, ensure that you do not trim or remove these two parameters.  
+To avoid this problem, ensure that you do not trim or remove these two parameters.
+
++++
 
 ## My page won't open in the EEC, or loads slowly. Activities or experiences load slowly in the VEC. (VEC only) {#section_71E7601BE9894E3DA3A7FBBB72B6B0C1}
 
++++Details
 Several issues can affect page performance in the [!UICONTROL Target] experience composers. Some common issues include:
 
 * You do not have an mbox on the page. 
@@ -38,7 +42,6 @@ If neither the [!UICONTROL Visual Experience Composer] nor the [!UICONTROL Enhan
 >[!NOTE]
 >
 >In addition to the following information, you can use the [[!DNL Adobe Target] [!UICONTROL Visual Editing Helper] extension](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/visual-editing-helper-extension.md) for [!DNL Google Chrome].
-
 
 >[!NOTE]
 >
@@ -99,15 +102,18 @@ If neither the [!UICONTROL Visual Experience Composer] nor the [!UICONTROL Enhan
 
 After setting up an extension, open [!DNL Target]. Your pages should now load in the [!UICONTROL Visual Experience Composer], even if the [!UICONTROL Enhanced Experience Composer] is disabled.
 
++++
+
 ## My page does not display in the VEC (VEC only) {#does-not-load}
 
++++Details
 * Best compatibility with VEC is ensured by the newest version of the extension: [[!DNL Adobe Experience Cloud] [!UICONTROL Visual Editing Helper extension]](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/visual-editing-helper-extension.md). 
 
   To verify whether you are using the latest version, go to [!UICONTROL Extensions] > [!UICONTROL Manage Extensions] then click [!UICONTROL Details].
 
 * The [!UICONTROL Visual Experience Composer] requires authoring libraries in order to perform modifications on the web page. These libraries are embedded in the at.js library and are downloaded by the extension from [!DNL Adobe] servers each time VEC is used. 
 
-  The extension downloads at.js library regardless of whether at.js or the [!DNL Adobe Experience Platform Web SDK] are already included in the page. 
+  The extension downloads the at.js library regardless of whether at.js or the [!DNL Adobe Experience Platform Web SDK] are already included in the page. 
   
   Ensure there are no invalid changes added to the at.js headers configured in the [!UICONTROL Administration] > [!UICONTROL Implementation] section.
 
@@ -131,14 +137,22 @@ After setting up an extension, open [!DNL Target]. Your pages should now load in
 * You entered an invalid URL. 
 * If your website fails to load in the VEC, or behaves unexpectedly, a potential fix is to accept cookies on your website in the browser before trying to load the website in [!DNL Target].
 
-## The VEC appears broken when I use browse mode. (VEC only) {#section_FA2A18E8FD6A4274B2E395DBAA2FB407}
++++
 
-While using browse mode, if you access a URL that does not have [!DNL Target] libraries implemented ([at.js](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/overview.html){target=_blank} or [Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/aep-web-sdk.html){target=_blank}) or contains a frame-buster header, the VEC appears broken. Due to browser security concerns, [!DNL Target] cannot properly access the URL you navigated to or the VEC URL does not update consistently if the page loads.
+## The VEC appears broken when I use [!UICONTROL Browse] mode. (VEC only) {#section_FA2A18E8FD6A4274B2E395DBAA2FB407}
+
++++Details
+While using [!UICONTROL Browse] mode, if you access a URL that does not have [!DNL Target] libraries implemented ([at.js](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/overview.html){target=_blank} or [Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/aep-web-sdk.html){target=_blank}) or contains a frame-buster header, the VEC appears broken. Due to browser security concerns, [!DNL Target] cannot properly access the URL you navigated to or the VEC URL does not update consistently if the page loads.
 
 This issue occurs because VEC loads the web page in an `<iframe>`. The current security mechanisms of browsers prevent the [!DNL Target] UI from accessing the elements of the given frame because of the same-origin policy. Browsers block scripts trying to access a frame with a different origin and that includes information such as the `location.href`.
 
-You must use the new [Visual Editing Helper extension](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/visual-editing-helper-extension.md) (recommended) or the [old extension](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/vec-helper-browser-extension.md) to inject the [!DNL Target] library into the pages in order to browse them optimally.
+You must use the new [Visual Editing Helper extension](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/visual-editing-helper-extension.md) to inject the [!DNL Target] library into the pages in order to browse them optimally.
+
++++
 
 ## Issues caused by CSS conflicts in the [!UICONTROL Visual Experience Composer]
 
++++Details
 Verify whether there are any CSS files that might impact the visibility while loading the web page in the editor. For example using the `overflow: hidden` property on the page body could lead to scrolling issues or trigger click events that could interfere with the menu for authoring.
+
++++

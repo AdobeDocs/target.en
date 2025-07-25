@@ -41,7 +41,7 @@ To create a manual [!UICONTROL A/B Test] activity:
 
    The [!UICONTROL Visual Experience Composer] opens, showing the page specified in the URL.
 
-1. Click the **[!UICONTROL Rename]** icon ( ![Rename icon](/help/main/assets/icons/MoreSmallListVert.svg) ), click **[!UICONTROL Rename]**, specify a name for the activity, then click **[!UICONTROL Save]**.
+1. To name the activity, click the **[!UICONTROL Edit]** icon ( ![Edit icon](/help/main/assets/icons/Edit.svg) ) next to "[!UICONTROL Untitled Activity]," specify a descriptive name for the activity, and then click **[!UICONTROL Save]**.
 
    The activity name cannot begin with any of the following characters:
 

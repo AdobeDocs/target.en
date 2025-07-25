@@ -11,6 +11,8 @@ exl-id: 838abe87-dba7-4274-97b4-31a7905846dc
 
 Enterprise user permissions are a means of formally administering enterprise-wide user access to [!DNL Adobe Target]. Add users to [!DNL Target], assign permissions based on their roles, and create workspaces for teams based on different departments, global locations, channels, and other logical groupings. You can assign users the roles of [!UICONTROL Observer], [!UICONTROL Editor], [!UICONTROL Approver], or [!UICONTROL Publisher].
 
+{{permissions-update}}
+
 ## Determine whether you have access to enterprise user permissions
 
 >[!NOTE]

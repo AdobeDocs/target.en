@@ -21,7 +21,12 @@ feature-set: Target
    + [Access Target from the Adobe Experience Cloud](c-intro/target-access-from-mac.md)
    + [Target key concepts](c-intro/target-key-concepts.md)
    + [Understand the Target UI](/help/main/c-intro/understand-the-target-ui.md)
-   + [Using AI Assistant](/help/main/c-intro/ai-assistant.md)
+   + [Target UI update FAQs](/help/main/c-intro/updated-ui-faq.md)
+   + Adobe Target AI Assistant {#assistant-ai}
+      + [AI Assistant overview](/help/main/c-intro/ai-assistant.md)
+      + [Enable AI Assistant](/help/main/c-intro/enabling-ai-assistant.md)
+      + [Use AI Assistant to gain product knowledge](/help/main/c-intro/ai-assistant-product-knowledge.md)
+      + [Use AI Assistant for content generation](/help/main/c-intro/ai-assistant-content-generation.md)
    + Adobe Target welcome kit {#welcome}
       + [Target welcome kit overview](/help/main/c-intro/target-welcome-kit.md)
       + [Chapter 1: Introduction](/help/main/c-intro/target-welcome-kit-1.md)
@@ -169,7 +174,7 @@ feature-set: Target
          + [Set metrics](c-activities/c-multivariate-testing/t-create-multivariate-test/mvt-set-metrics.md)
          + [Troubleshoot Multivariate Tests](c-activities/c-multivariate-testing/t-create-multivariate-test/troubleshooting.md)
    + [Recommendations activity](c-activities/recommendations-activity.md)
-   + [Edit an activity or save as draft](c-activities/edit-activity.md)
+   + [Edit an activity](c-activities/edit-activity.md)
    + [Priority](c-activities/priority.md)
    + [Activity settings](c-activities/activity-settings.md)
    + Success metrics {#success-metrics}
