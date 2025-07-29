@@ -15,7 +15,7 @@ Learn how to edit existing activities in [!DNL Adobe Target]. This article cover
 
 1. From the **[!UICONTROL Activities]** page, click the **[!UICONTROL More Actions]** icon ( ![More Actions icon](/help/main/assets/icons/MoreSmall.svg) ) next to the activity you want to edit, then click [!UICONTROL **Edit**].
 
-   Target opens the activity in the [!UICONTROL Visual Experience Composer] (VEC) and you see the [!UICONTROL Experiences] page (the first step in the three-step guided workflow).
+   [!DNL Target] opens the activity in the [!UICONTROL Visual Experience Composer] (VEC) and you see the [!UICONTROL Experiences] page (the first step in the three-step guided workflow).
 
 1. Edit the activity, as desired using the [VEC options](/help/main/c-experiences/c-visual-experience-composer/viztarget-options.md).
 
