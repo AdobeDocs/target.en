@@ -39,22 +39,6 @@ Learn how to edit existing activities in [!DNL Adobe Target]. This article cover
     * **[!UICONTROL Save & Close]:** Click **[!UICONTROL Save and Close]** to save your changes and display the activity's [!UICONTROL Overview] page. 
     * **Save:** Click the **[!UICONTROL More Actions]** icon ( ![More Actions icon](/help/main/assets/icons/MoreSmallListVert.svg) ), then select **[!UICONTROL Save]** to save your changes and remain in the VEC where you can continue to make changes. Wait for the save to complete before making additional changes. The VEC reloads with the refreshed changes after the save is complete.
 
-## Work with legacy activities created in [!DNL Recommendations Classic] {#classic}
-
-The [!UICONTROL Activities] list display activities created in various sources, including [!DNL Recommendations Classic]. The following actions are available when working with legacy activities created in [!DNL Recommendations Classic]:
-
-* [!UICONTROL Activate]
-* [!UICONTROL Deactivate]
-* [!UICONTROL Archive]
-* [!UICONTROL Copy]
-* [!UICONTROL Delete]
-
-You cannot edit a [!DNL Recommendations] activity directly. If you want to edit the activity, you should create a copy of the activity using [!DNL Target Premium] and then save the newly created activity. This newly created activity can then be edited as necessary.
-
-## Save an activity in draft form {#section_968CD7A63027432EBD8FAE3A0F7404C3}
-
-The Save as Draft feature is no longer available. For more information, see *[!UICONTROL Status]* under [Apply filters to the Activities list](/help/main/c-activities/activities.md#filters).
-
 ## Copy/edit an activity when using workspaces {#section_45A92E1DD3934523B07E71EF90C4F8B6}
 
 A workspace lets an organization assign a specific set of users to a specific set of properties. In many ways, a workspace is similar to a report suite in [!DNL Adobe Analytics].
@@ -104,3 +88,19 @@ Consider the following information when using the copy/edit functionality with w
 >[!NOTE]
 >
 >If your environment does not have the [!UICONTROL Enterprise User Permissions] functionality enabled, all activities open in edit mode before copying.
+
+## Save an activity in draft form {#section_968CD7A63027432EBD8FAE3A0F7404C3}
+
+The [!UICONTROL Save as Draft] feature is no longer available. For more information, see *[!UICONTROL Status]* under [Apply filters to the Activities list](/help/main/c-activities/activities.md#filters).
+
+## Work with legacy activities created in [!DNL Recommendations Classic] {#classic}
+
+The [!UICONTROL Activities] list display activities created in various sources, including [!DNL Recommendations Classic]. The following actions are available when working with legacy activities created in [!DNL Recommendations Classic]:
+
+* [!UICONTROL Activate]
+* [!UICONTROL Deactivate]
+* [!UICONTROL Archive]
+* [!UICONTROL Copy]
+* [!UICONTROL Delete]
+
+You cannot edit a [!DNL Recommendations] activity directly. If you want to edit the activity, you should create a copy of the activity using [!DNL Target Premium] and then save the newly created activity. This newly created activity can then be edited as necessary.
