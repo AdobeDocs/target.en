@@ -1,33 +1,57 @@
 ---
 keywords: Target Standard;faq;frequently asked questions;cheat sheet;cheatsheet
-description: Explore a list of frequently asked questions about using the features in Adobe Target, along with information and links for more information.
+description: Explore a list of frequently asked questions about using the features in [!DNL Target], along with information and links for more information.
 title: Where Can I Find Answers to My Optimization and Personalization Questions?
 feature: Overview
 exl-id: 75e29d2a-78e7-40aa-b134-36a7cc8b3ed8
 ---
 # Target optimization and personalization FAQ
 
-A list of frequently asked questions about using the features in [!DNL Adobe Target], along with information and links for more information.
+Explore answers to frequently asked questions about using [!DNL Adobe Target] features. Learn how to optimize your experiments, personalize experiences, and access helpful resources with direct links for deeper insights.
 
-## General Information {#section_CE5713B5AAC341C9A75586C107797FA3}
+## General information {#section_CE5713B5AAC341C9A75586C107797FA3}
+
+**Where can I find information about the updated [!DNL Target] UI and [!UICONTROL Visual Experience Composer] (VEC)?**
+
++++See details
+
+The user interface is arranged in a logical and user-friendly format to help you get the most out of [!DNL Target]. The following brief overview helps you get familiarized with [!DNL Target] and the VEC and provides links for more in-depth information and step-by-step instructions.
+
+See [Understand the [!DNL Target] UI](/help/main/c-intro/understand-the-target-ui.md) for more information.
+
++++
 
 **How can I see how other customers have leveraged [!DNL Target] for better results?**
 
-Here are just some of our [customer success stories](https://www.adobe.com/in/marketing-cloud/target/resources.html#x). See how customers like you have leveraged Target to improve optimization and personalization to achieve business goals.
++++See details
+Explore real-world [customer success stories](https://www.adobe.com/in/marketing-cloud/target/resources.html#x) to see how organizations are using [!DNL Target] to boost optimization, personalize experiences, and achieve measurable business outcomes.
 
-Note that some of these case studies have leveraged capabilities from Adobe Target Premium.
++++
 
 **Where can I learn about the latest [!DNL Target] features?**
 
-See our [Release Notes](/help/main/r-release-notes/release-notes.md#reference_8FE40B43A5A34DDF8F26A53D55EE036A) to check out the details on the latest release. Information about all of our [past releases](/help/main/r-release-notes/release-notes-for-previous-releases.md) is also available online.
++++See details
+Stay updated with [!DNL Target] releases.
+
+* **Latest release**: Check out the [[!DNL Target] release notes (current)](/help/main/r-release-notes/release-notes.md) for details on new features, enhancements, and bug fixes.
+* **Upcoming releases**: Visit [[!DNL Target] release notes (prerelease)](/help/main/r-release-notes/target-release-notes.md) to preview what's coming next.
+* **Previous versions**: Browse [Release notes for previous releases](/help/main/r-release-notes/release-notes-for-previous-releases.md) for historical updates and changes.
+
++++
 
 **Does [!DNL Adobe] have a Community/Forum where I can find answers and more information about [!DNL Target]?**
 
-Check out the [Target Community Forum](/help/main/cmp-resources-and-contact-information.md#concept_9C203A8AED054DFFA9A504811DB6BA42), where we help customers, but more importantly, we like Adobe Target practitioners like yourself to help each other. After all, a community and forum's success relies on active participation by its members. Become a part of the community and contribute and seek answers to your questions.
++++See details
+Connect with fellow [!DNL Target] practitioners in the [Target Community Forum](https://experienceleaguecommunities.adobe.com/t5/adobe-target/ct-p/adobe-target-community){target=_blank}. Share your expertise, ask questions, and collaborate with others who use [!DNL Target] to drive personalization and experimentation. A thriving community depends on active participation. Your insights and experiences can help others succeed. Jump in, contribute, and find the answers you need.
+
++++
 
 **Which browsers does [!DNL Target] support?**
 
-Please read our [Supported Browsers](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/supported-browsers.html){target=_blank} matrix for more details. Notice that there are two aspects: the Target Standard/Premium Experience Cloud interface support and the end-user browser support on desktop/devices.
++++See details
+Please read our [Supported Browsers](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/supported-browsers.html){target=_blank} matrix for more details. Notice that there are two aspects: the [!DNL Target Standard/Premium ] interface support and the end-user browser support on desktop/devices.
+
++++
 
 ## Activities {#section_CB95B3BF9934445DB98E8A7E22FC2CF6}
 
