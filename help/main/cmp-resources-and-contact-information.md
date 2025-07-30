@@ -9,24 +9,28 @@ exl-id: 0433133c-933a-4d30-bab6-589395f0c9d6
 
 Information about additional resources to help you learn about Target features and how to contact Adobe should you need help with Target.
 
-## Target Community Forum {#concept_9C203A8AED054DFFA9A504811DB6BA42}
+## [!UICONTROL Target Community Forum] {#concept_9C203A8AED054DFFA9A504811DB6BA42}
 
-The Target Community is your one-stop shop for everything Adobe Target. 
+Discover the [!UICONTROL Adobe Target Community]: Your hub for insights and collaboration.
 
-The Community lets you:
+The [!UICONTROL Adobe Target Community Forum ]is your go-to destination for everything [!DNL Adobe Targe]t. Whether you're just getting started or you're a seasoned practitioner, the community offers valuable opportunities to:
 
-* Learn more about what Target has to offer 
-* Connect with your peers and Adobe Experts 
-* Vote or submit an idea of your own for a future Target Release
+* **Explore [!DNL Target] features**: Learn best practices and discover new ways to use [!DNL Target].
+* **Connect and collaborate**: Engage with peers and [!DNL Adobe] experts to share insights and solve challenges together.
+* **Shape the future**: Submit ideas or vote on feature requests to influence upcoming [!DNL Target] releases.
+
+Join the conversation, contribute your expertise, and get the answers you need—all in one place.
 
 Visit the [Target Community Forum](https://experienceleaguecommunities.adobe.com/t5/adobe-target/ct-p/adobe-target-community) to get started. 
 
++++
+
 ## Target Basics Webinar Series {#concept_11902FAC95C64479AABE020557A7EEE4}
 
-Registration information and links to previous sessions of the Target Basics Webinar Series, a Customer Success Webinar Series brought to you by the Community.
++++See details
+Explore the [[Target Basics Webinar Series]](https://landing.adobe.com/acs/2018/na/adobe-target/registration.html){target=_blank}, a Customer Success initiative brought to you by the [!UICONTROL Adobe Target Community]. Access registration details for upcoming sessions and browse recordings of previous webinars to deepen your understanding of [!DNL Target] features, best practices, and real-world use cases.
 
-[Click here to watch past sessions or to learn more about upcoming sessions and registration information](https://landing.adobe.com/acs/2018/na/adobe-target/registration.html).
-
++++
 
 ## Adobe Customer Care Office Hours {#concept_58EA30379D3B48C4848BA2A8C464A5B7}
 
