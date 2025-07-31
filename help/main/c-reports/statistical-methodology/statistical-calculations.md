@@ -43,9 +43,11 @@ Here,
 
 The confidence interval of the conversion rate is intuitively defined as range of possible conversion rates that is consistent with the underlying data. 
 
-When running experiments, the conversion rate for a given experience is an *estimate* of the "true" conversion rate. To quantify the uncertainty in this estimate, [!DNL Target] uses a confidence interval. [!DNL Target] always reports a 95% confidence interval, which means that in the end, 95% of confidence intervals calculated include the true conversion rate of the experience. 
+When running experiments, the conversion rate for a given experience is an *estimate* of the "true" conversion rate. To quantify the uncertainty in this estimate, [!DNL Target] uses a confidence interval. [!DNL Target] always reports a 95% confidence interval, which means that in the end, 95% of confidence intervals calculated include the true conversion rate of the experience.
 
-A 95% confidence interval of conversion rate *μ<sub>ν</sub>* is defined as the range of values:
+A "Confidence" number is also reported next to the currently leading or winning experience. This figure is reported only until the leading experience's [!UICONTROL Confidence] reaches at least 60%. If two experiences are present in the activity, this number represents the confidence level that the experience is performing better than the other experience. If more than two experiences are present in the activity, this number represents the confidence level that the experience is performing better than the defined "Control" experience. If the "Control" experience is winning, no "Confidence" figure is reported.
+
+A 95% confidence interval of conversion rate *μ<sub>ν</sub>* is defined as the range of values: 
 
 <p style="text-align:center;"><img width=30% src="img/confidence_interval.png"></p>
 
