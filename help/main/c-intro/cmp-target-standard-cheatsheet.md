@@ -57,92 +57,132 @@ Please read our [Supported Browsers](https://experienceleague.adobe.com/docs/tar
 
 **Can I perform a statistically rigorous activity to find a winning and losing experience while using a control experience?**
 
++++See details
 Use [A/B Testing](/help/main/c-activities/t-test-ab/test-ab.md#task_05E33EB15C4D4459B5EAFF90A94A7977) (Manual Targeting option) along with the [Sample Size Calculator](/help/main/c-activities/t-test-ab/sample-size-determination.md#section_286EB6E671184239BB1552F0387DAEB5) for best results.
+
++++
 
 **How do I know when to stop an activity?**
 
-Stopping activities prematurely can result in wrong conclusions. Be aware of [common pitfalls and ensure practices to avoid them](/help/main/c-activities/t-test-ab/common-ab-testing-pitfalls.md#section_DF01A97275E44CA5859D825E0DE2F49F). See also, [How long should you run an A/B Test](/help/main/c-activities/t-test-ab/sample-size-determination.md)?
++++See details
+Stopping activities prematurely can result in wrong conclusions. Be aware of [common pitfalls and how to avoid them](/help/main/c-activities/t-test-ab/common-ab-testing-pitfalls.md#section_DF01A97275E44CA5859D825E0DE2F49F). See also, [How long should you run an A/B Test](/help/main/c-activities/t-test-ab/sample-size-determination.md)?
 
-**How can I perform an activity if the time-window is small?**
++++
 
-**Can I optimize for my goal as I test?**
+**How can I perform an activity if the time-window is small and can I optimize for my goal as I test?**
 
-Use our [reports to determine the winning experience](/help/main/c-activities/automated-traffic-allocation/determine-winner.md#concept_5741A89ED7224E1285A3BC34B2CCD0F9).
++++See details
+See [reports to determine the winning experience](/help/main/c-activities/automated-traffic-allocation/determine-winner.md#concept_5741A89ED7224E1285A3BC34B2CCD0F9).
+
++++
 
 **Can I perform an activity with a level of personalization as an integral part of the activity?**
 
-Check out [Auto-Target](/help/main/c-activities/auto-target/auto-target-to-optimize.md) option.
++++See details
+Check out the [Auto-Target](/help/main/c-activities/auto-target/auto-target-to-optimize.md) activity type.
+
++++
 
 **How can I know which type of activity best fits my needs?**
 
-Read the [Target Activities Guide](/help/main/c-activities/target-activities-guide.md#concept_D974B0918EB74B3B8CB07ACD32BF37A1) to understand the scenarios where each of the options provided by Adobe Target makes sense.
++++See details
+Read the [Target Activities Guide](/help/main/c-activities/target-activities-guide.md#concept_D974B0918EB74B3B8CB07ACD32BF37A1) to understand the scenarios where each of the options provided by [!DNL Target] makes sense.
 
 Be sure to also consider [Recommendations activities](/help/main/c-recommendations/recommendations.md#concept_7556C8A4543942F2A77B13A29339C0C0).
 
++++
+
 **How can I discover which combinations of elements on my page contribute to its success and to what degree each element helps?**
 
++++See details
 Check out our [Full Factorial Multivariate (MVT) activities](/help/main/c-activities/c-multivariate-testing/multivariate-testing.md#concept_628695CDC71B449B8DCC2F5654C11499) with Element contribution analysis to see if it meets your needs.
 
 Note that the traffic requirement increases with MVT activities.
 
-**Can I run an activity spanning multiple pages where the page structure is different?**
++++
 
-**Can I apply offers at different locations (for example, the checkout funnel)?**
+**Can I run an activity spanning multiple pages where the page structure is different? Can I apply offers at different locations (for example, the checkout funnel)?**
 
-Try out the [Multipage Activity feature](/help/main/c-experiences/c-visual-experience-composer/multipage-activity.md#concept_277E096063E14813AC5D8EDFA1D2ED48) that lets you use multiple pages within experiences.
++++See details
+Try out the [Multi-page activity feature](/help/main/c-experiences/c-visual-experience-composer/multipage-activity.md#concept_277E096063E14813AC5D8EDFA1D2ED48) that lets you use multiple pages within experiences.
+
++++
 
 **How can I ensure that once a goal (Primary or Secondary) has been reached, a user never enters the activity again and instead sees a different activity going forward?**
 
++++See details
 This is easy to achieve by using the [Advanced Settings](/help/main/c-activities/t-test-ab/t-test-create-ab/ab-goals-and-settings.md#section_E2FE441AFB324E498793ABB025ED9974) option available with every goal. You have options to decide what should happen after user reaches the goal and how you want the counting to be incremented.
 
 So, in this case, you might choose "Increment Count, Release User & Bar from Reentry" along with "Default/Other Activity Content" to achieve the objective. Check out other options as well.
 
-**I have created multiple goals in my activity. Can I create a chain of goals as a funnel for reporting and analysis purposes?**
++++
 
-**For example, I want to consider Goal B when the user has achieved Goal A so that I can track numbers for a particular funnel.**
+**I have created multiple goals in my activity. Can I create a chain of goals as a funnel for reporting and analysis purposes? For example, I want to consider Goal B when the user has achieved Goal A so that I can track numbers for a particular funnel.**
 
-Target has a robust way to achieve this with our Metrics Dependency feature. Simply [add dependencies on other success metrics](/help/main/c-activities/r-success-metrics/success-metrics.md#section_7CE95A2FA8F5438E936C365A6D43BC5B). You have options like "Reached" and "Not Reached," along with ability to combine metrics in multiple ways to create any combination you want.
++++See details
+[!DNL Target] has a robust way to achieve this with our [!UICONTROL Metrics Dependency] feature. Simply [add dependencies on other success metrics](/help/main/c-activities/r-success-metrics/success-metrics.md#section_7CE95A2FA8F5438E936C365A6D43BC5B). You have options like "Reached" and "Not Reached," along with ability to combine metrics in multiple ways to create any combination you want.
+
++++
 
 **How can I be clear as to how to set up an activity to achieve my objectives?**
 
++++See details
 This is where [goals](/help/main/c-activities/t-test-ab/t-test-create-ab/ab-goals-and-settings.md#reference_B25389FD6F3A4989801E740364B089CC) come in.
 
-You should start by knowing what you want to optimize on. Is it Revenue, Conversion, or Engagement? Each of these options is available in the goals section. And for each of these, you can further define which action a user would take on your site to qualify that the goal has been reached.
+You should start by knowing what you want to optimize on. Is it [!UICONTROL Revenue], [!UICONTROL Conversion], or [!UICONTROL Engagement]? Each of these options is available in the goals section. And for each of these, you can further define which action a user would take on your site to qualify that the goal has been reached.
 
-This is made possible by the Primary Goal setting in Step 3 of the three-part guided workflow. You can add additional goals as well, which can help you for better reporting
+This is made possible by the [!UICONTROL Primary Goal] setting in Step 3 of the three-part guided workflow. You can add additional goals as well, which can help you for better reporting.
+
++++
 
 **Can I schedule an activity to start and end at a fixed time?**
 
-Use the [Scheduling feature in the Goals and Settings](/help/main/c-activities/t-test-ab/t-test-create-ab/ab-goals-and-settings.md#section_DCBDC354261F420EBD4B43EA34947BAC) step of the three-part activity workflow by specifying the start and end dates.
++++See details
+Use the [Scheduling feature in the [!UICONTROL Goals & Settings]](/help/main/c-activities/t-test-ab/t-test-create-ab/ab-goals-and-settings.md#section_DCBDC354261F420EBD4B43EA34947BAC) step of the three-part activity workflow by specifying the start and end dates.
 
-Remember to activate the activity. Only live activities adhere to the specified schedule. After the end date is reached, the activity goes into the Ended state.
+Remember to activate the activity. Only live activities adhere to the specified schedule. After the end date is reached, the activity goes into the [!UICONTROL Ended] state.
+
++++
 
 **Can I make a change to just the [!UICONTROL Targeting] step and not go through the entire three-step guided workflow for editing?**
 
-You can easily do that by [directly entering the desired step of your choice from the Activity Overview page](/help/main/c-activities/edit-activity.md#concept_BB064C0D4A194BD1A1AE7CCA1E6BB8F0) and then exiting from that step by using the Save and Close option.
++++See details
+You can easily do that by [directly entering the desired step of your choice from the [!UICONTROL Activity Overview] page](/help/main/c-activities/edit-activity.md#concept_BB064C0D4A194BD1A1AE7CCA1E6BB8F0) and then exiting from that step by using the [!UICONTROL Save and Close] option.
+
++++
 
 **Can I stay on a particular step, keep modifying the activity (offer text or custom code, for example), and then perform QA in another tab?**
 
-This is also possible. Simply [use the Save option available to make incremental changes without leaving the step](/help/main/c-activities/edit-activity.md#concept_BB064C0D4A194BD1A1AE7CCA1E6BB8F0).
++++See details
+This is possible. Simply [use the [!UICONTROL Save] option available to make incremental changes without leaving the step](/help/main/c-activities/edit-activity.md#concept_BB064C0D4A194BD1A1AE7CCA1E6BB8F0).
+
++++
 
 **How can I preview and QA an activity I just created?**
 
++++See details
 Use our [powerful QA Mode feature](/help/main/c-activities/c-activity-qa/activity-qa.md) to perform QA. You can share links with your QA team and also test the activity end-to-end, including reporting, to be fully sure that after the activity is live, it works as intended and as tested.
+
++++
 
 **How can I use [!DNL Target]'s decisioning power to receive an experience/offer that can be used in Single Page Applications (SPAs) or server-side integrations?**
 
++++See details
 Use the power of [form-based activities](/help/main/c-experiences/form-experience-composer.md#task_FAC842A6535045B68B4C1AD3E657E56E) with [JSON offers](/help/main/c-experiences/c-manage-content/create-json-offer.md#concept_63C7BEE1F0DB4A7596D997219B7C136D) to meet your goal.
 
-**I have set up two activities. How do I know which one a visitor will end up seeing?**
++++
 
 **Can I set the priority order of a few activities?**
 
-Use the Priority setting available on Step 3 of the Target three-part guided workflow (Goals and Settings Page) to [define the priority of the activities](/help/main/c-activities/t-test-ab/t-test-create-ab/ab-goals-and-settings.md#section_DCBDC354261F420EBD4B43EA34947BAC).
++++See details
+Use the [!UICONTROL Priority] setting available on Step 3 of the [!DNL Target] three-part guided workflow ([!UICONTROL ]Goals & Settings page) to [define the priority of the activities](/help/main/c-activities/t-test-ab/t-test-create-ab/ab-goals-and-settings.md#section_DCBDC354261F420EBD4B43EA34947BAC).
 
 There are two options:
 
 * Default, with three levels (Low / Medium / High)
-* Custom, with a range from 0 to 999. For Custom, enable the Fine-Grained Priorities feature ( Administration > Visual Experience Composer).
+* Custom, with a range from 0 to 999. For Custom, enable the [!UICONTROL Fine-Grained Priorities] feature ([!UICONTROL Administration] > [!UICONTROL Visual Experience Composer]).
+
++++
 
 ## Audiences {#section_FA6314777ABC46D8B198D6F388051460}
 
