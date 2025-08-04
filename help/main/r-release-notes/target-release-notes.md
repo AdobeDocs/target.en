@@ -1,6 +1,6 @@
 ---
 keywords: release notes;releases;updates;future release;enhancements;new features;fixes;updates;prerelease;early access
-description: Learn about the new features, enhancements, and fixes included in the upcoming release of [!DNL Adobe Target], including SDKs, APIs, and JavaScript libraries.
+description: Learn about the new features, enhancements, and fixes included in the upcoming release of [!DNL Target], including SDKs, APIs, and JavaScript libraries.
 title: What New Features and Enhancements Are Included in the Upcoming [!DNL Target] Release?
 feature: Release Notes
 exl-id: f2783042-f6ee-4f73-b487-ede11d55d530
@@ -19,9 +19,9 @@ This article contains prerelease information for upcoming [!DNL Adobe Target] re
 >
 >* The issue numbers in parentheses are for internal [!DNL Adobe] use.
 
-## [!DNL Target Standard/Premium] 25.7.3 (July 24, 2025)
+## [!DNL Target Standard/Premium] 25.7.4 (August 1, 2025)
 
-The 25.7.3 release is live. See [[!DNL Target] release notes (current)](/help/main/r-release-notes/release-notes.md) for complete details.
+The 25.7.4 release is live. See [[!DNL Target] release notes (current)](/help/main/r-release-notes/release-notes.md) for complete details.
 
 ## Additional release notes and version details
 
