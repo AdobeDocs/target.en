@@ -15,6 +15,7 @@ This page lists significant changes made to the [!DNL Adobe Target] product docu
 
 |Date|Topic|Changes|
 |--- |--- |--- |
+|August 4|[[!DNL Target] UI update FAQs](/help/main/c-intro/updated-ui-faq.md#options)|Added the following FAQ: "How does the updated VEC handle the rearrange, resize, move, hide, and remove options and how do these options differ from the legacy VEC?"|
 |July 29|[Edit an activity](/help/main/c-activities/edit-activity.md#section_45A92E1DD3934523B07E71EF90C4F8B6)|Update the Audiences and offers section under *Copy/edit an activity when using workspaces*. |
 |July 24|[[!DNL Target] release notes (current)](/help/main/r-release-notes/release-notes.md)|Added release notes for the [!DNL Target Standard/Premium] 25.7.3 release.|
 |July 21|[[!DNL Target] UI update FAQs](/help/main/c-intro/updated-ui-faq.md#collapse)|Added new FAQ: Can I collapse the [!UICONTROL Components], [!UICONTROL Modifications], and [!UICONTROL Properties] rails so that I can enlarge the [!UICONTROL Design] panel?|
