@@ -23,23 +23,11 @@ The [!DNL Target] team has adjusted the timeline for the UI version toggle depre
 
 >[!TAB What's new?]
 
-**Updated information about the UI version toggle deprecation**
-
-The [!DNL Target] team has adjusted the timeline for the UI version toggle deprecation.
-
-[![Learn More icon](/help/main/assets/learn-more.svg)](/help/main/r-release-notes/release-notes.md)
-
-**Target 25.7.3 is live!**
+**Target 25.7.4 is live!**
 
 This release focuses on fixes and enhancements to the updated [!DNL Target] UI and [!UICONTROL Visual Experience Composer] (VEC).
 
 [![Learn More icon](/help/main/assets/learn-more.svg)](/help/main/r-release-notes/release-notes.md)
-
-**[!DNL Target] UI update FAQs**
-
-This FAQ addresses common questions about the new [!DNL Target] UI and [!UICONTROL Visual Experience Composer] (VEC), including navigation changes, feature locations, and the deprecation of the temporary UI version toggle. Whether you're a marketer, developer, or admin, this FAQ helps you transition smoothly and make the most of the updated UI.
-
-[![Learn More icon](/help/main/assets/learn-more.svg)](/help/main/c-intro/updated-ui-faq.md)
 
 >[!TAB Updated Target UI]
 
@@ -48,6 +36,12 @@ This FAQ addresses common questions about the new [!DNL Target] UI and [!UICONTR
 The UI is designed for clarity and efficiency, helping you get the most from [!DNL Target]. Explore resources to help you get up to speed fast&mdash;with direct links to detailed articles and step-by-step instructions.
 
 [![Learn More icon](/help/main/assets/learn-more.svg)](/help/main/c-intro/understand-the-target-ui.md)
+
+*[!DNL *Targe]t UI update FAQs**
+
+This FAQ addresses common questions about the new [!DNL Target] UI and [!UICONTROL Visual Experience Composer] (VEC), including navigation changes, feature locations, and the deprecation of the temporary UI version toggle. Whether you're a marketer, developer, or admin, this FAQ helps you transition smoothly and make the most of the updated UI.
+
+[![Learn More icon](/help/main/assets/learn-more.svg)](/help/main/c-intro/updated-ui-faq.md)
 
 >[!TAB AI Assistant]
 
