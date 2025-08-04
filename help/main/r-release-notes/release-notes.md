@@ -2,7 +2,7 @@
 keywords: release notes;new features;releases;updates;update;release;enhancement;enhancements;fixes;bug fixes;updates;current updates
 description: Learn about the new features, enhancements, and fixes included in the current release of [!DNL Adobe Target], including SDKs, APIs, and JavaScript libraries.
 landing-page-description: Learn about the new features, enhancements, and fixes included in the current release of [!DNL Adobe Target].
-short-description: Learn about the new features, enhancements, and fixes included in the current release of [!DNL Adobe Target].
+short-description: Learn about the new features, enhancements, and fixes included in the current release of [!DNL Target].
 title: What Is Included in the Current Release?
 feature: Release Notes
 exl-id: 3ffead4f-113c-4153-b0b1-fc2aff710063
@@ -56,7 +56,7 @@ The following information describes the limitations that you should be aware of 
 
 * **Visibility of new activities**: Activities created in the updated UI will not be visible if you switch back to the legacy UI.
 * **Editing existing activities**: Changes made to existing activities (originally created in the legacy UI) while using the updated UI are published to your website. However, these updates are not visible in the legacy UI if you switch back; only the last updates made from the legacy UI appear there.
-* **Consistency of activity details**: The most recent changes, regardless of which UI you use, is reflected on your live website. However, the legacy UI only shows the latest changes made from within that version. This situation might cause confusion if activities edited in the updated UI look different than what you see in the legacy UI.
+* **Consistency of activity details**: The most recent changes, regardless of which UI you use, is are reflected on your live website. However, the legacy UI only shows the latest changes made from within that version. This situation might cause confusion if activities edited in the updated UI look different than what you see in the legacy UI.
 
 #### More resources to learn about the updated UI
 
@@ -66,6 +66,66 @@ The following information describes the limitations that you should be aware of 
 * [Understand the [!DNL Target] UI](/help/main/c-intro/understand-the-target-ui.md): Provides a brief overview to help you get familiarized with [!DNL Target] and provides links for more in-depth information and step-by-step instructions.
 * [[!UICONTROL Visual Experience Composer] changes](/help/main/c-experiences/c-visual-experience-composer/vec-changes.md): The [!DNL Adobe Target Standard/Premium] 25.2.1 release (February 17, 2015) introduces an updated [!UICONTROL Visual Experience Composer] (VEC). This article explains the differences between the legacy and updated versions of the VEC.
 * [[!UICONTROL Visual Experience Composer] options](/help/main/c-experiences/c-visual-experience-composer/viztarget-options.md): This article explains the updated VEC UI and its options.
+
++++
+
+## [!DNL Target Standard/Premium] 25.7.4 (August 1, 2025)
+
+This release resolves recent issues, primarily caused by complex customer customizations, and includes the following fixes and improvements:
+
+**Activities**
+
++++See details
+* Fixed an issue where a customer encountered an "Invalid user input" error when attempting to save a live activity, even without making changes. The GraphQL response indicates a duplicate LocalId issue. (TGT-53329 & TGT-53373 & TGT-53195)
+* Fixed an issue that prevented creating a redirect experience in the updated VEC. The redirect URL was ignored and the original page was shown instead. (TGT-53306)
+
++++
+
+**Localization**
+
++++See details
+* Fixed a localization issue in the [!UICONTROL Create Criteria] modal, when selecting the "between following values" option in the [!UICONTROL Choose Price Rule] drop-down list, the string "to" was unlocalized in the [!UICONTROL Inclusion Rules] section. (TGT-49754)
+* Fixed a localization issue with the string "[!UICONTROL All host groups]" in the [!UICONTROL Environment] drop-down list of the Feeds Creation wizard is not localized correctly. (TGT-46737)
+
++++
+
+**QA**
+
++++See details
+* Fixed an issue where the QA environment fails to load data across multiple tabs, rendering the interface unusable. (TGT-53377)
+* Fixed an issue that prevented creating an activity in the QA environment. The process redirected to the [!UICONTROL Activities] page instead of completing successfully. (TGT-53328)
+
++++
+
+**Recommendations**
+
++++See details
+* Fixed an issue where hovering over the "deep-learning" operand while creating a collection in [!DNL Recommendations] caused the page to crash. (TGT-53305)
+* Fixed an issue where filter suggestions in [!UICONTROL Catalog Search] in the updated UI were inaccurate. (TGT-52007)
+* Fixed an issue in the [!DNL Recommendations] UI where the Operands filter appears when using the "value is present" or "value is not present" operators—though it should be hidden. (TGT-53012)
+
++++
+
+**Visual Experience Composer (VEC)**
+
++++See details
+* Fixed an issue when a user clicks [!UICONTROL Manage Content] and then clicks [!UICONTROL Done] while editing an Automated Personalization (AP) activity, the page goes blank and becomes unresponsive. (TGT-53047 & TGT-52993)
+* Fixed an issue where selecting the [!UICONTROL Viewed an mbox] conversion metric under [!UICONTROL Goals & Settings] caused the page to crash. (TGT-53346, TGT-53343, & TGT-53348)
+* Fixed an issue where the [!UICONTROL Redirect to URL] feature fails to function as expected—no redirection occurs even with valid URLs. (TGT-53307)
+
++++
+
+**Workspaces**
+
++++See details
+* Fixed an issue when copying activities between workspaces caused duplicate "Audience Copy" entries and ID conflicts. Audiences are now copied with unique IDs, workspace context, and recursive handling for combined audiences (up to 5 levels). (TGT-53081)
+* Fixed an issue when the workspace is set to "[!UICONTROL All Workspaces]," copying an activity that already exists in the default workspace results in an incorrect error:
+
+  "At least one property should be included for non default workspaces."
+
+  Since the copy is within the default workspace, no property should be required. Attempting to add a property and save results in a second error:
+
+  "Invalid User Input"
 
 +++
 
@@ -131,7 +191,6 @@ Due to recent issues identified, primarily related to complex customer customiza
 **Visual Experience Composer (VEC)**
 
 +++See details
-
 * Fixed an issue in the VEC where applying a modification to a view caused duplication and triggered an 'Invalid user input' error. (TGT-52886)
 * Fixed an issue with [!UICONTROL Undo] functionality for the [!UICONTROL Insert Before] and [!UICONTROL Insert After] options when configuring image offers in the VEC. 
 
