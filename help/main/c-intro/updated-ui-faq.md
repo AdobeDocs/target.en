@@ -73,6 +73,35 @@ For more information, see [Time-sensitive updates you need to know](/help/main/r
 
 +++
 
+## How does the updated VEC handle the rearrange, resize, move, hide, and remove options and how do these options differ from the legacy VEC? {#options}
+
++++Details
+**[!UICONTROL Rearrange*]*: In the legacy VEC, the rearrange option used an overlay to let users reposition an element within its sibling group. Movement was limited to changing the order among sibling elements.
+
+  In the updated VEC, this functionality is streamlined through move forward and move backward actions. These controls adjust an element's position in the layout—both horizontally and vertically—by shifting it forward or backward in the stacking order.
+
+**Resize**: The [!UICONTROL Resize] feature is located in the [!UICONTROL Properties] panel under the [!UICONTROL Size] section. Users can adjust an element's width and height directly. Advanced settings include:
+
+  * Min/Max Width & Height controls
+  * Overflow behavior settings.
+  * Object Fit options for media elements
+
+  These tools provide precise control over element dimensions and layout behavior.
+
+**Move**: The [!UICONTROL Move] option is found in the [!UICONTROL Properties] panel under the [!UICONTROL Position] section. This option enables users to:
+
+  * Set the element's position (for example, absolute, relative, fixed)
+  * Define the z-index for layering
+  * Choose a positioning type
+
+  The updated [!UICONTROL Properties] rail also supports custom inline styles, offering flexibility when preset options don't meet layout needs.
+
+**[!UICONTROL Hide]**: The [!UICONTROL Hide] feature is located in the [!UICONTROL Properties] panel. After selecting an element, click [!UICONTROL Hide Element] to remove it from view without deleting it. This is useful for managing visibility during design or preview.
+
+**[!UICONTROL Remove]**: The [!UICONTROL Remove] feature is accessible via the [!UICONTROL Properties] panel. After selecting an element, click Remove Element to delete it from the page. This action permanently removes the element from the layout.
+
++++
+
 ## Can I collapse the [!UICONTROL Components], [!UICONTROL Modifications], and [!UICONTROL Properties] rails so that I can enlarge the [!UICONTROL Design] panel? {#collapse}
 
 +++Details
