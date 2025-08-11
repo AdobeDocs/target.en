@@ -69,7 +69,7 @@ Consider the following information when using the copy/edit functionality with w
 
           To resolve this issue, click [!UICONTROL Add/Remove] so that only the properties available in the destination workspace are displayed for selection.
       
-  * **Audiences and offers**: When copying an activity to a new workspace, all associated [!DNL Target] or ad hoc audiences and offers from the original workspace are duplicated using the format: <Entity Name> Copy <Date> for [!DNL Target] audiences and for ad hoc offers <Entity Name>.
+  * **Audiences and offers**: When copying an activity to a new workspace, all associated [!DNL Target] or ad hoc audiences and offers from the original workspace are duplicated using the format: `<Entity Name> Copy <Date>` for [!DNL Target] audiences and for ad hoc offers `<Entity Name>`.
 
      Behavior details:
 
