@@ -1,5 +1,5 @@
 ---
-keywords: dedupe;allow duplicates;exclude duplicate offers;automated personalization;disallow duplicate offers;exclude;default content;exclusion group;
+keywords: dedupe;allow duplicates;exclude duplicate offers;automated personalization;disallow duplicate offers;exclude;default content;
 description: Manage exclusions in [!UICONTROL Automated Personalization] (AP) activities.
 title: How Do I Manage Exclusions in [!UICONTROL Automated Personalization] Activities?
 badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="See what's included in Target Premium."
@@ -9,45 +9,7 @@ exl-id: d9e9f2a2-5914-4b81-acae-eaf388646652
 ---
 # Manage exclusions
 
-Manage exclusions by creating exclusion groups, excluding duplicate offers, excluding specific experiences, and excluding default content in [!UICONTROL Automated Personalization] (AP) activities in [!DNL Adobe Target].
-
-## Create exclusion groups {#task_AAAA6C7239A84F7696C8492F04B575A2}
-
-Create exclusion groups in [!UICONTROL Automated Personalization] (AP) activities to ensure that experiences with the designated offers are automatically excluded. 
-
-Exclusion groups are a great way to ensure that incompatible offers are not presented in the same experience in different locations. For example, suppose you have two offers: one is for a 20% discount for all merchandise and the other is for a 15% discount. You never want these two offers to be presented to visitors in the same experience. If you add these two offers to an exclusion group, you can ensure that this situation is never the case.
-
-You can also limit which audiences can see specific offers in AP activities. For more information, see [Target Automated Personalization offers](/help/main/c-activities/t-automated-personalization/ap-target-offers.md).
-
-**To create an exclusion group:** 
-
-1. While [creating or editing an AP activity](/help/main/c-activities/t-automated-personalization/create-ap-activity.md), click the **[!UICONTROL Manage Content]** icon ( ![Manage Content icon](/help/main/assets/icons/Experience.svg) ).
-
-   The [!UICONTROL Manage Content] dialog box displays.
-
-1. Click the **[!UICONTROL Experiences]** tab.
-
-1. In the [!UICONTROL Manage Content] dialog box, click **[!UICONTROL Exclusion Groups]**.
-
-   ![Manage Content > Exclusion Groups dialog box](/help/main/c-activities/t-automated-personalization/assets/exclusion_group_create-new.png)
-
-   If you have previously created exclusion groups, they display in the list. If you have not yet created an exclusion group, you are prompted to create one.
-
-1. Click **[!UICONTROL Create Exclusion Group.]**
-
-   ![Create Exclusion Group dialog box](/help/main/c-activities/t-automated-personalization/assets/exclusion_group_create_dialog-new.png)
-
-1. (Required) Specify a descriptive name for the exclusion group.
-
-   A descriptive name helps you or others quickly locate and understand a group's purpose.
-
-1. Locate and select the desired offers that you want to add to the exclusion group.
-
-   You can select multiple offers from the same location in an exclusion group.
-
-1. Click **[!UICONTROL Save]**.
-
-The offers in the exclusion group are automatically excluded from the same experiences going forward. 
+Manage exclusions by excluding duplicate offers, excluding specific experiences, and excluding default content in [!UICONTROL Automated Personalization] (AP) activities in [!DNL Adobe Target].
 
 ## Exclude duplicate offers {#concept_4EF78013F80E48EFA024AE0274C9F037}
 
@@ -55,7 +17,7 @@ Prevent offers from the offer library from being duplicated when used in differe
 
 You might have an activity, for example, with six locations on a page with 12 offers. There is a chance that the same offer could be placed in one or more locations in the activity. This feature prevents duplicate offers from displaying at the same time in different locations within the same activity. 
 
-Click the **[!UICONTROL Configure]** gear option > **[!UICONTROL Duplicate Offers]**, then click **[!UICONTROL Allow Duplicates]** or **[!UICONTROL Disallow Duplicates]**. 
+Click the **[!UICONTROL Configure]** icon > **[!UICONTROL Duplicate Offers]**, then click **[!UICONTROL Allow Duplicates]** or **[!UICONTROL Disallow Duplicates]**. 
 
 ![Duplicate offers options](/help/main/c-activities/t-automated-personalization/assets/duplicate_offers-new.png)
 
