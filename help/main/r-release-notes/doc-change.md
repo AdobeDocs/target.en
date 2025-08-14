@@ -15,6 +15,7 @@ This page lists significant changes made to the [!DNL Adobe Target] product docu
 
 |Date|Topic|Changes|
 |--- |--- |--- |
+|August 14|[[!DNL Target] release notes (current)](/help/main/r-release-notes/release-notes.md)|Added release notes for the [!DNL Target Standard/Premium] 25.8.2 release.|
 |August 11|[Adobe Analytics for Target (A4T) logging in the Experience Platform Web SDK](https://experienceleague.adobe.com/en/docs/target-dev/developer/a4t/overview-a4t){target=_blank}|To improve content organization and accessibility, we've moved the entire implementation guidance for [!UICONTROL Analytics for Target] (A4T) using the [!DNL Adobe Experience Platform Web SDK] from the *Data Collection* guide into the [!DNL Target] developer guide. This consolidation ensures that all [!DNL Target]-related information is now housed in a single, streamlined location, making it easier for developers to find and reference relevant content.|
 ||[Edit an activity](/help/main/c-activities/edit-activity.md)|Made the following edits:<UL><li>Edited the *Audiences and offers* section to indicate that for ad-hoc offers, the correct format is `<Entity Name>`.</li><li>Edited the *Audiences and offers* section to remove information about combined audiences.</li></ul>|
 |August 7|[[!DNL Target] release notes (current)](/help/main/r-release-notes/release-notes.md)|Added release notes for the [!DNL Target Standard/Premium] 25.8.1 release.|
