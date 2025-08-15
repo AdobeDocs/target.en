@@ -19,6 +19,8 @@ This article contains prerelease information for upcoming [!DNL Adobe Target] re
 >
 >* The issue numbers in parentheses are for internal [!DNL Adobe] use.
 
+## [!DNL Target Standard/Premium] 25.8.2 (August 14, 2025)
+
 [!DNL Target Standard/Premium] 25.8.2 (August 14, 2025) is live. For more information, see [[!DNL Target] release notes (current)](/help/main/r-release-notes/release-notes.md).
 
 ## Additional release notes and version details
