@@ -9,7 +9,7 @@ exl-id: f2783042-f6ee-4f73-b487-ede11d55d530
 
 This article contains prerelease information for upcoming [!DNL Adobe Target] releases, including SDKs, APIs, and JavaScript libraries.
 
-**Last updated: August 18, 2025**
+**Last updated: August 19, 2025**
 
 >[!NOTE]
 >
@@ -22,6 +22,15 @@ This article contains prerelease information for upcoming [!DNL Adobe Target] re
 ## [!DNL Target Standard/Premium] 25.8.3 (August 21, 2025)
 
 This release contains the following updates and fixes:
+
+**Offer decisions**
+
++++See details
+* **Fixed an issue preventing customers from editing decision offers and selecting specific page elements in the updated UI**: In the updated activity-create process, customers were unable to edit existing decision offers or select specific page elements in the Visual Experience Composer (VEC). Decision offers were incorrectly displayed as HTML offers, and changes made during editing were not saved. Additionally, certain regional URLs, such as the Japan site, failed to load properly in VEC, blocking activity creation and updates. (TGT-53425)
+* **Fixed an issue where [!UICONTROL Offer Decision] selectors could not be modified and changed unexpectedly after saving**: In the updated activity-create process, customers were unable to modify the [!UICONTROL Offer Decision] selector as intended. Attempts to change the selector were unsuccessful, and the selector reverted to an incorrect value after saving. This caused the decision offer to disappear from the Visual Experience Composer (VEC), blocking further edits. (TGT-53433)
+* **Fixed an issue where [!UICONTROL Offer Decisions] disappeared from the activity after saving**: [!UICONTROL Offer Decisions] added during the activity-create process were not retained after saving and reopening the activity. This issue occurred when editing dynamic content and inserting [!UICONTROL Offer Decisions ]with specific selectors and properties. (TGT-53434)
+
++++
 
 **Recommendations**
 
@@ -37,6 +46,7 @@ This release contains the following updates and fixes:
 
 +++See details
 * **Fixed issue in activity-create process that blocked progression to [!UICONTROL Targeting] step in AP activities**: Fixed an issue in the activity-create process where customers were unable to proceed to the [!UICONTROL Targeting] step in [!UICONTROL Automated Personalization] (AP) activities unless two locations were added. This behavior differed from the previous experience, where a single location with multiple offers was sufficient. The requirement has been corrected, allowing customers to continue using single-location setups as part of their AP workflows. (TGT-53426)
+* **Fixed an issue where the new activity-create process did not set the fmt=png-alpha parameter for transparent images**: In the updated UI, images inserted during the activity-create process no longer included the `fmt=png-alpha` parameter by default, resulting in loss of transparency. This behavior differed from the previous UI, which automatically appended the parameter to image URLs, preserving transparent backgrounds. (TGT-52615)
 
 +++
 
