@@ -15,6 +15,7 @@ This page lists significant changes made to the [!DNL Adobe Target] product docu
 
 |Date|Topic|Changes|
 |--- |--- |--- |
+|August 21|[[!DNL Target] release notes (current)](/help/main/r-release-notes/release-notes.md)|Added release notes for the [!DNL Target Standard/Premium] 25.8.3 release.|
 August 18|[Analytics for Target (A4T) reporting](https://experienceleague.adobe.com/en/docs/target-dev/developer/server-side/integration/a4t-reporting){target=_blank} in the *[!DNL Target] Developer Guide*|Updated the following sections:<ul><li>Updated the GET request code snippet.</li><li>Updated the Query String parameters and variables table.</li><li>Updated the *Sample A4T data insertion HTTP Get call* section.</li></ul>|
 ||[Adobe Target Bulk Profile Update API](https://experienceleague.adobe.com/en/docs/target-dev/developer/api/profile-apis/profile-bulk-api){target=_blank} in the *[!DNL Target] Developer Guide*|Update note about which version of the API to use.|
 ||[[!DNL Target] release notes (prerelease)](/help/main/r-release-notes/target-release-notes.md)|Updated the prerelease notes for the [!DNL Target] 25.8.3 release (August 21, 2025). Release dates, features, and other information are subject to change without notice. Information in this article is updated frequently, especially before releases.|
