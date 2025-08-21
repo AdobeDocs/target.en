@@ -50,7 +50,6 @@ This release contains the following updates and fixes:
 
 +++See details
 * **Fixed an issue that prevented customers from inserting Experience Fragments using [!UICONTROL Insert Before] or [!UICONTROL Insert After] in the UI** Customers encountered an error when attempting to insert [!UICONTROL Experience Fragments] into an activity using the "Insert Before" or "Insert After" options in the updated UI. The error message displayed was: "Offer content must contain exactly one HTML element." This issue was specific to the updated UI and did not occur in the previous version. This issue has now been resolved, and customers can successfully insert [!UICONTROL Experience Fragments] without encountering this error. (TGT-53442)
-* **
 
 +++
 
