@@ -1,7 +1,7 @@
 ---
 keywords: target documentation change log;documentation updates;new topics;edits;updates;update;changes 
 description: Keep up to date with important additions and changes to the [!DNL Target] documentation.
-title: Where Can I See Documentation Updates for [!DNL Target]?
+title: Where Can I See Documentation Updates for [!DNL Target]? 
 feature: Release Notes
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
 ---
@@ -16,7 +16,7 @@ This page lists significant changes made to the [!DNL Adobe Target] product docu
 |Date|Topic|Changes|
 |--- |--- |--- |
 August 22|[CNAME and [!DNL Target]](https://experienceleague.corp.adobe.com/docs/target-dev/developer/implementation/implement-cname-support-in-target.html){target=_blank} in the *[!DNL Target] Developer Guide*|Updated entire article to improve the workflow.|
-||[Delivery API overview](https://experienceleague.corp.adobe.com/docs/target-dev/developer/api/delivery-api/overview.html){target=_blank} in the *[!DNL Target] Developer Guide*|Added important note.|
+||[Delivery API overview](https://experienceleague.corp.adobe.com/docs/target-dev/developer/api/delivery-api/overview.html){target=_blank} in the *[!DNL Target] Developer Guide*|Added information about using caution when updating [!DNL Recommendations] [!UICONTROL Catalogs] via the [!DNL Target Delivery API].|
 |August 21|[[!DNL Target] release notes (current)](/help/main/r-release-notes/release-notes.md)|Added release notes for the [!DNL Target Standard/Premium] 25.8.3 release.|
 August 18|[Analytics for Target (A4T) reporting](https://experienceleague.adobe.com/en/docs/target-dev/developer/server-side/integration/a4t-reporting){target=_blank} in the *[!DNL Target] Developer Guide*|Updated the following sections:<ul><li>Updated the GET request code snippet.</li><li>Updated the Query String parameters and variables table.</li><li>Updated the *Sample A4T data insertion HTTP Get call* section.</li></ul>|
 ||[Adobe Target Bulk Profile Update API](https://experienceleague.adobe.com/en/docs/target-dev/developer/api/profile-apis/profile-bulk-api){target=_blank} in the *[!DNL Target] Developer Guide*|Update note about which version of the API to use.|
