@@ -26,7 +26,7 @@ This release contains the following updates and fixes:
 **Visual Experience Composer (VEC)**
 
 +++See details
-* **Fixed an issue where renaming a location in an [!UICONTROL Automated Personalization] (AP) or [!UICONTROL Multivariate Test ](MVT) activity did not persist after navigating to the [!UICONTROL Targeting] step and returning.** Customers can now successfully edit and save location names, and the changes remain visible throughout the activity-create process.(TGT-52367)
+* **Fixed an issue where renaming a location in an [!UICONTROL Automated Personalization] (AP) or [!UICONTROL Multivariate Test] (MVT) activity did not persist after navigating to the [!UICONTROL Targeting] step and returning.** Customers can now successfully edit and save location names, and the changes remain visible throughout the activity-create process. (TGT-52367)
 
 +++
 
