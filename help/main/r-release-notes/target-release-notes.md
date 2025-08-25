@@ -23,7 +23,14 @@ This article contains prerelease information for upcoming [!DNL Adobe Target] re
 
 This release contains the following updates and fixes:
 
-**Visual Experience Composer (VEC)**
+**[!DNL Recommendations]**
+
++++See details
+**Upated the UI so that advanced search filtering in [!UICONTROL Product Catalog Search] is case-insensitive**: The [!UICONTROL Advanced Search] UI in the [!UICONTROL Product Catalog Search] page previously performed exact case matching on returned values, even though both the backend and GraphQL queries were case-insensitive. This inconsistency caused confusion and reduced search accuracy. [!UICONTROL Advanced Search] filtering is now case-insensitive, aligning with backend behavior and improving usability.
+
++++
+
+**[!UICONTROL Visual Experience Composer (VEC)]**
 
 +++See details
 * **Fixed an issue where renaming a location in an [!UICONTROL Automated Personalization] (AP) or [!UICONTROL Multivariate Test] (MVT) activity did not persist after navigating to the [!UICONTROL Targeting] step and returning.** Customers can now successfully edit and save location names, and the changes remain visible throughout the activity-create process. (TGT-52367)
