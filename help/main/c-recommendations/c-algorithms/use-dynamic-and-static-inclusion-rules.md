@@ -71,6 +71,10 @@ Dynamic criteria and promotions are much more powerful than static criteria and 
 
 The following examples provide general ideas about how you can use dynamic promotions and exclusions in your marketing efforts:
 
+>[!NOTE]
+>
+>"List" requires that both the entities and the profile attributes must be stored as arrays. A comma-separated list does not work.
+
 |Operator|Examples|
 | --- | --- |
 |[!UICONTROL equals any of]<P>(Available with [!UICONTROL Entity Attribute Matching], [!UICONTROL Profile Attribute Matching], [!UICONTROL Parameter Matching], and [!UICONTROL Static Filter].)|Using the "equals" operator in dynamic promotions, when a visitor is viewing an item on your website (such as a product, article, or movie), you can promote other items from:<ul><li>The same brand</li><li>The same category</li><li>The same category AND from the house brand</li><li>The same store</li></ul>|
