@@ -15,7 +15,7 @@ This page lists significant changes made to the [!DNL Adobe Target] product docu
 
 |Date|Topic|Changes|
 |--- |--- |--- |
-August 27|[[!DNL Target] release notes (prerelease)](/help/main/r-release-notes/target-release-notes.md)|Updated the prerelease notes for the [!DNL Target] 25.8.4 release (August 28, 2025). Release dates, features, and other information are subject to change without notice. Information in this article is updated frequently, especially before releases.|
+August 27|[[!DNL Target] release notes (prerelease)](/help/main/r-release-notes/target-release-notes.md)|Updated the prerelease notes for the [!DNL Target] 25.8.4 release. Release dates, features, and other information are subject to change without notice. Information in this article is updated frequently, especially before releases.|
 ||[Element selectors used in the Visual Experience Composer](/help/main/c-experiences/c-visual-experience-composer/vec-selectors.md)|Added the "[!UICONTROL Use preferred selectors]" option.|
 August 22|[CNAME and [!DNL Target]](https://experienceleague.corp.adobe.com/docs/target-dev/developer/implementation/implement-cname-support-in-target.html){target=_blank} in the *[!DNL Target] Developer Guide*|Updated entire article to improve the workflow.|
 ||[Plan and implement Recommendations](https://experienceleague.adobe.com/en/docs/target-dev/developer/recommendations#set-up-your-recommendations-catalog){target=_blank} in the *[!DNL Target] Developer Guide*|Added note about using caution when updating [!DNL Recommendations] [!UICONTROL Catalogs] via the [!DNL Target Delivery API].|
