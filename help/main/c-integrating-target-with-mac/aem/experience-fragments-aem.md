@@ -158,7 +158,7 @@ When using [!UICONTROL Experience Fragment] offers with [!DNL Target] on a page 
 
 Sometimes entire HTML pages wrap the [!UICONTROL Experience Fragment] and cause problems. Ensure that the [!UICONTROL Experience Fragment] is a small piece of HTML and not a full HTML page with HTML, HEAD, BODY, and so forth.
 
-For more information, see the following blog post: [AEM 6.5: Removing clientlibs from [!UICONTROL Experience Fragments] exported to Target](https://www.linkedin.com/pulse/aem-65-removing-clientlibs-from-experience-fragments-exported-haser){target=_blank}.
+For more information, see the following blog post: [AEM 6.5: Removing clientlibs from [!UICONTROL Experience Fragments] exported to Target](https://www.linkedin.com/pulse/aem-65-removing-clientlibs-from-experience-fragments-exported-haser/){target=_blank}.
 
 ## Training video: Using AEM [!UICONTROL Experience Fragments] with [!DNL Adobe Target]
 
