@@ -16,6 +16,27 @@ Yes, if your implementation uses [!DNL at.js]. However, your implementation must
 
 +++
 
+## ![Adobe Experience Platform Web SDK badge](/help/main/assets/platform.png) Does the [!DNL Adobe Experience Platform Web SDK] support redirect offers for A4T? {#platform}
+
++++Answer
+The following FAQs provide more information about using A4T and redirect offers with the [!DNL Platform Web SDK].
+
++++
+
+### Does Analytics for Target (A4T) support redirect offers?
+
++++Answer
+Yes, A4T via the Platform Web SDK supports [redirect offers](/help/main/c-experiences/c-manage-content/offer-redirect.md).
+
++++
+
+### Are the [!UICONTROL Visual Experience Composer] (VEC) and [!UICONTROL Form-Based Experience Composer] supported? 
+
++++Answer
+Yes, the [[!UICONTROL Visual Experience Composer]](/help/main/c-experiences/c-visual-experience-composer/visual-experience-composer.md) (VEC) and the [[!UICONTROL Form-Based Experience Composer]](/help/main/c-experiences/form-experience-composer.md) are supported if you use built-in redirect offers.
+
++++
+
 ## What are the minimum requirements to use redirect offers with A4T? {#section_FA9384C2AA9D41EDBCE263FFFD1D9B58}
 
 +++Answer
@@ -136,24 +157,6 @@ With [!DNL at.js] version 0.9.6 (or later) and [!DNL AppMeasurement.js] 2.1 (or 
 
 +++Answer
 No, you must use a built-in redirect offer for activities that use [!DNL Analytics] as the reporting source (A4T). From the [!DNL Target] perspective, HTML offers are opaque: [!DNL Target] can't know that a particular piece of HTML contains JavaScript that instantiates a redirect.
-
-+++
-
-## ![Adobe Experience Platform Web SDK badge](/help/main/assets/platform.png) Does the [!DNL Adobe Experience Platform Web SDK] support redirect offers for A4T? {#platform}
-
-The following FAQs provide more information about using A4T and redirect offers with the [!DNL Platform Web SDK].
-
-### Does Analytics for Target (A4T) support redirect offers?
-
-+++Answer
-Yes, A4T via the Platform Web SDK supports [redirect offers](/help/main/c-experiences/c-manage-content/offer-redirect.md).
-
-+++
-
-### Are the [!UICONTROL Visual Experience Composer] (VEC) and [!UICONTROL Form-Based Experience Composer] supported? 
-
-+++Answer
-Yes, the [[!UICONTROL Visual Experience Composer]](/help/main/c-experiences/c-visual-experience-composer/visual-experience-composer.md) (VEC) and the [[!UICONTROL Form-Based Experience Composer]](/help/main/c-experiences/form-experience-composer.md) are supported if you use built-in redirect offers.
 
 +++
 
