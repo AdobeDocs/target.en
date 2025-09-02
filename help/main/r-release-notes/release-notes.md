@@ -69,6 +69,57 @@ The following information describes the limitations that you should be aware of 
 
 +++
 
+## [!DNL Target Standard/Premium] 25.8.4 (September 1, 2025)
+
+This release contains the following updates and fixes:
+
+**[!UICONTROL Activities]**
+
++++See details
+* **Customers could not copy activity or document names from the [!UICONTROL Activity Overview]**: Previously, customers were unable to copy the name of an activity or the associated offer/document directly from the [!UICONTROL Activity overview] in the updated activity-create process. This limitation impacted usability, especially on smaller screens. Customers can now easily copy both activity and document names without workarounds. (TGT-51850)
+* **Proactive ingestion of curated [!DNL Target] customer data during activity creation**: Improved the activity-create process by enabling the proactive collection of reports, content, and screenshots from [!DNL Target] customers. This enhancement addresses data gaps identified in existing use cases and helps ensure more accurate insights during activity and experiment setup. (TGT-52415)
+* **AP activities did not fetch model-ready data in the [!UICONTROL Reports] section**: Customers viewing Automated Personalization (AP) activities in the [!UICONTROL Reports] section were unable to see model-ready indicators at the report group and offer level. This issue occurred because model-ready data was not being fetched correctly from the backend. The functionality has been restored, and model-ready data now appears as expected. (TGT-53600 & TGT-53601)
+* **Activities scheduled for the future incorrectly displayed a "[!UICONTROL Live]" status in the [!UICONTROL Activity] overview**: Customers observed that activities scheduled to start in the future were incorrectly marked as "[!UICONTROL Live]" in the [!UICONTROL Activity] overview. This status mismatch was resolved, and scheduled activities now correctly display as "[!UICONTROL Scheduled]" without requiring a page refresh. (TGT-52835)
+
++++
+
+**[!UICONTROL Recommendations]**
+
++++See details
+* **Product list was not visible in the [!UICONTROL View Collection] dialog:** Previously, customers were unable to see the product list when viewing a collection in the [!UICONTROL Recommendations] tab. The [!UICONTROL View Collection] dialog now correctly displays the associated products, improving transparency and usability in the updated [!UICONTROL Recommendations] UI. (TGT-50531)
+* **Fixed an issue that caused case-sensitive filtering in [!UICONTROL Product Catalog Search] advanced search**: The advanced search filtering in the [!UICONTROL Product Catalog Search] page now correctly ignores case sensitivity, aligning with the behavior of both the backend and GraphQL services. This update ensures consistent and accurate suggestion results for customers regardless of text casing. (TGT-53585)
+* **Advanced search in the updated [!UICONTROL Product Catalog Search] UI did not provide suggestions**: Customers using the advanced search feature in the updated [!UICONTROL Product Catalog Search] UI were required to enter exact values with correct spelling, as no suggestions were displayed. This issue made it difficult to locate products efficiently. Suggestions now appear as expected during advanced search input. (TGT-52008)
+* **Some approvers were unable to view products in [!UICONTROL Product Catalog Search]**: Customers with [!UICONTROL Approver] permissions were unable to see any products in [!UICONTROL Product Catalog Search], despite other users with identical roles having access. This issue was caused by a permissions inconsistency affecting catalog visibility. All approvers can now view products in the [!UICONTROL Recommendations] section as expected. (TGT-53617)
+
++++
+
+**[!UICONTROL Reports]**
+
++++See details
+* **Reports failed to load for the Desktop audience due to an invalid audience name error**: Customers encountered a GraphQL error when attempting to view reports for the one audience in the activity-create process. The system returned an "Invalid audience name: XXXXX" message, preventing access to reporting data. Reports now load correctly for the Desktop audience. (TGT-53371)
+* **Switching audiences on the Reports page caused errors in the Target UI**: Customers encountered errors when selecting certain audiences in the [!UICONTROL Reports] section. This issue was caused by invalid audience handling in backend GraphQL calls, resulting in unexpected errors and missing data. The issue has been resolved, and desktop audiences now load without errors—even when no data is available. (TGT-53370)
+* **[!UICONTROL Graph view] in the [!UICONTROL Reports] section did not display values from [!DNL Analytics]**: Customers accessing [!UICONTROL Graph view] in the Re[!UICONTROL ]ports section encountered missing data, with all values appearing as zero. This issue was caused by incorrect data retrieval from [!UICONTROL Analytics]. [!UICONTROL Graph view] now displays accurate values as expected. (TGT-52792)
++++
+
+**[!UICONTROL Visual Experience Composer] (VEC)**
+
++++See details
+* **Clicking "Accept Cookies" using the [!UICONTROL Enhanced Experience Composer] (EEC) failed due to a missing function**: Customers reported that attempting to accept cookies via the EEC resulted in a console error: `handleclickAcceptAllButton is not defined`. The cookie acceptance functionality now works as expected, ensuring a smoother experience during activity creation in the updated UI. (TGT-52794)
+* **The new EEC UI failed to load certain pages that were previously supported in the legacy UI**: Customers reported that the new EEC could not load some pages, which were accessible in the legacy UI despite iframe-busting code present on the site. The updated activity-create process now supports loading these pages, restoring compatibility for activity creation workflows. (TGT-53061)
+* **The VEC displayed a blank white screen when editing experiences**: Customers from a certain tenant reported that the VEC screen went blank when attempting to edit experiences in the updated VEC. This issue affected both newly created and older activities, preventing workflow continuity. The VEC now loads correctly, allowing customers to edit experiences without interruption. (TGT-53547)
+* **The VEC crashed and displayed a blank screen when loading certain activities**: Customers from a certain tenant reported that the VEC failed to load specific activities. The experience editor remained stuck on "Applying initial modifications" before crashing and showing a blank screen. Console errors indicated a failure to read undefined properties. The editor now loads affected activities without errors in the updated VEC. (TGT-53548)
+* **Clearing all date values using Backspace caused the page to crash**: Customers scheduling activities in the [!UICONTROL Goals & Settings] section experienced a crash when using Backspace to clear all values from the "[!UICONTROL Specified Date & Time]" fields. This issue was caused by a null reference error in the date-handling logic. The page now handles empty date inputs gracefully without crashing. (TGT-53624)
+* **No products appeared in [!UICONTROL Product Catalog Search] due to an invalid payload**: Customers accessing the [!UICONTROL Recommendations] section in [!UICONTROL Product Catalog Search] encountered empty results caused by an invalid GraphQL payload. This backend error prevented product data from loading correctly. Products now display as expected in the updated UI. (TGT-53630)
+* **[!DNL Scene7] images were saved with lower resolution in the updated VEC**: Customers editing experiences in the updated VEC noticed that [!UICONTROL Scene7] image URLs were saved without resolution parameters, resulting in lower-quality images being delivered (400×400 instead of the intended 800×800). Image URLs now retain the correct parameters to ensure proper resolution. (TGT-52631)
+* **live activities could still be edited in the VEC**: Customers were able to access edit options for live activities in the updated VEC, which could lead to unintended changes. This issue has been resolved by disabling edit functionality for live activities. Edit buttons are now hidden in the activity list and overview for editors, while approvers and other roles remain unaffected. (TGT-53055)
+* **Decommissioned the [!UICONTROL Failed] and [!UICONTROL Draft] activities section in the updated VEC**: The [!UICONTROL Failed] and [!UICONTROL Draft] activities options have been removed from the updated VEC. The new UI no longer supports draft states and failing campaigns are not stored in the backend. These options are no longer relevant. Related filters and backend fields (for example, `uiSyncFailed`, `errorMessage`) have also been removed to streamline activity management. (TGT-53150)
+* **Unable to log in to the VEC for an activity**: Customers attempting to log in to their site through the VEC were repeatedly redirected to the login page, preventing access to activity editing. This issue was not reproducible internally and may have been related to site-side session handling. The login flow has been stabilized, and customers can now access the VEC without redirection errors. (TGT-53524)
+* **Pressing the back button twice in [!UICONTROL Browse] mode caused the VEC to crash**: Customers navigating through [!UICONTROL Browse] mode in the VEC experienced crashes when pressing the browser's back button twice. This issue caused the editor to freeze and required a page refresh. The editor now handles back navigation reliably without crashing. (GT-53568)
+* **Activities could not be edited due to undefined location mappings**: Customers encountered an error when attempting to edit activities, caused by undefined location IDs in the `LocationMapping.behaviorTargetedActivity` logic. This issue resulted in a 400 error and blocked activity updates. Activities can now be edited without location-related validation errors. (TGT-53607)
+* **Saving activities triggered an invalid user input error**: Customers encountered an invalid user input error when attempting to save activities after making minor modifications in the updated VEC. The error was caused by mismatched location mappings in the backend validation logic. Activities can now be saved successfully without triggering location-related errors. (TGT-53603)
+
++++
+
 ## [!DNL Target Standard/Premium] 25.8.3 (August 21, 2025)
 
 This release contains the following updates and fixes:
