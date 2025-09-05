@@ -11,6 +11,12 @@ This page lists significant changes made to the [!DNL Adobe Target] product docu
 
 ## Updates
 
+### [!DNL Target Standard/Premium] 25.9.1 (September 5, 2025)
+
+|Date|Topic|Changes|
+|--- |--- |--- |
+|September 5|[[!DNL Target] release notes (current)](/help/main/r-release-notes/release-notes.md)|Added release notes for the [!DNL Target Standard/Premium] 25.9.1 release.|
+
 ### [!DNL Target Standard/Premium] 25.8.1 (August 7, 2025)
 
 |Date|Topic|Changes|
