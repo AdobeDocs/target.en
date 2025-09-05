@@ -16,6 +16,7 @@ This page lists significant changes made to the [!DNL Adobe Target] product docu
 |Date|Topic|Changes|
 |--- |--- |--- |
 |September 5|[[!DNL Target] release notes (current)](/help/main/r-release-notes/release-notes.md)|Added release notes for the [!DNL Target Standard/Premium] 25.9.1 release.|
+||[Response tokens](/help/main/administrating-target/response-tokens.md)|Added the `geocountryCode` parameter. This paramater represents a visitor country in the ISO-3166 alpha-2 format.|
 
 ### [!DNL Target Standard/Premium] 25.8.1 (August 7, 2025)
 
