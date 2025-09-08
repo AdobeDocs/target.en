@@ -17,7 +17,7 @@ Prevent offers from the offer library from being duplicated when used in differe
 
 You might have an activity, for example, with six locations on a page with 12 offers. There is a chance that the same offer could be placed in one or more locations in the activity. This feature lets you prevent duplicate offers from displaying at the same time in different locations within the same activity. 
 
-1. While [creating or editing an AP activity](/help/main/c-activities/t-automated-personalization/create-ap-activity.md), click the **[!UICONTROL Configure]** icon ( ![Configure icon](/assets/icons/Setting.svg) ) > click the **[!UICONTROL Allow Duplicate Offers]** to toggle this feature on and off, depending on your needs.
+1. While [creating or editing an AP activity](/help/main/c-activities/t-automated-personalization/create-ap-activity.md), click the **[!UICONTROL Configure]** icon ( ![Configure icon](/help/main/assets/icons/Setting.svg ) ) > click the **[!UICONTROL Allow Duplicate Offers]** to toggle this feature on and off, depending on your needs.
 
 ## Exclude specific experiences {#task_C17D36EF58AF4908B17A3D84CA6DE85A}
 
@@ -25,7 +25,7 @@ Exclude specific experiences if you want to exclude certain offer combinations f
 
 There might be certain combinations that don't work together, or you might be limiting the number of experiences tested to decrease traffic requirements for your activity. 
 
-1. While [creating or editing an AP activity](/help/main/c-activities/t-automated-personalization/create-ap-activity.md), click the **Manage Content** icon ( ![Manage Content icon](/assets/icons/Experience.svg) ).
+1. While [creating or editing an AP activity](/help/main/c-activities/t-automated-personalization/create-ap-activity.md), click the **Manage Content** icon ( ![Manage Content icon](/help/main/c-activities/t-automated-personalization/managing-exclusions.md) ).
 
    The [!UICONTROL Experiences] list shows each experience generated from the permutations of all content and location options. 
 
@@ -35,7 +35,7 @@ There might be certain combinations that don't work together, or you might be li
 
    Or you can batch exclude experiences by selecting the checkbox for the relevant experiences and then clicking **[!UICONTROL Exclude]**. The [!UICONTROL Exclude] icon displays when one or more experiences are checked. 
 
-   ![Batch exclude experiences](/c-activities/t-automated-personalization/assets/exclude1.png)
+   ![Batch exclude experiences](/help/main/c-activities/t-automated-personalization/assets/exclude1.png)
 
    The experiences are now excluded from the activity and their [!UICONTROL Status] show as [!UICONTROL Excluded]. 
 
@@ -49,11 +49,11 @@ Excluding default content is a great way to change the look and feel of the rest
 
 1. While [creating or editing an AP activity](/help/main/c-activities/t-automated-personalization/create-ap-activity.md), select the content you want to replace and click to access **[!UICONTROL Change Text/HTML]**, **[!UICONTROL Change Image Offer]**, or **[!UICONTROL Change Background Color]**. The available options vary, depending on the type of content.
 
-   ![Change options](/c-activities/t-automated-personalization/assets/options.png)
+   ![Change options]{/help/main/c-activities/t-automated-personalization/assets/options.png}
 
 1. Create your new content and uncheck **Include** to the right of the default content (or uncheck the Default Image/Video in the [!UICONTROL Select Content] screen).
 
-   Depending on the content or offer type, the [!UICONTROL Include] checkbox is in a slightly different place. 
+   <!-- Depending on the content or offer type, the [!UICONTROL Include] checkbox is in a slightly different place. 
 
    For Text/HTML content: 
 
@@ -65,9 +65,9 @@ Excluding default content is a great way to change the look and feel of the rest
 
    For background color: 
 
-   ![Include checkbox in Edit Background Color dialog box](/help/main/c-activities/t-automated-personalization/assets/exclude_content_vec_3a.png)
+   ![Include checkbox in Edit Background Color dialog box](/help/main/c-activities/t-automated-personalization/assets/exclude_content_vec_3a.png)-->
    
-1. Click **[!UICONTROL Save]**.
+<!-- 1. Click **[!UICONTROL Save]**.
 
    You can see the experiences created from the offers you specified under [!UICONTROL Manage Content]. You notice that no experiences are created in [!UICONTROL Manage Content] using the default offer you excluded. 
 
@@ -92,4 +92,4 @@ Excluding default content is a great way to change the look and feel of the rest
 
    You can see the experiences created from the offers you specified under [!UICONTROL Manage Content]. You notice that no experiences are created in [!UICONTROL Manage Content] using the default offer you excluded. 
 
-   ![exclude_content_form_3 image](assets/exclude_content_form_3.png)
+   ![exclude_content_form_3 image](assets/exclude_content_form_3.png)-->
