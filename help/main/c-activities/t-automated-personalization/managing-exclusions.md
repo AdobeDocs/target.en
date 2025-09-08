@@ -25,13 +25,13 @@ Exclude specific experiences if you want to exclude certain offer combinations f
 
 There might be certain combinations that don't work together, or you might be limiting the number of experiences tested to decrease traffic requirements for your activity. 
 
-1. While [creating or editing an AP activity](/help/main/c-activities/t-automated-personalization/create-ap-activity.md), click the **Manage Content** icon ( ![Manage Content icon](/help/main/c-activities/t-automated-personalization/managing-exclusions.md) ).
+1. While [creating or editing an AP activity](/help/main/c-activities/t-automated-personalization/create-ap-activity.md), click the **Manage Content** icon ( ![Manage Content icon](help/main/assets/icons/MoreSmall.svg) ).
 
    The [!UICONTROL Experiences] list shows each experience generated from the permutations of all content and location options. 
 
 1. Exclude experiences, as desired.
 
-   You can exclude specific experiences by clicking the [!UICONTROL **More Actions**] icon ( ![More Actions icon](/assets/icons/MoreSmall.svg) ), then clicking [!UICONTROL **Exclude**]. 
+   You can exclude specific experiences by clicking the [!UICONTROL **More Actions**] icon ( ![More Actions icon](/help/main/assets/icons/MoreSmall.svg) ), then clicking [!UICONTROL **Exclude**]. 
 
    Or you can batch exclude experiences by selecting the checkbox for the relevant experiences and then clicking **[!UICONTROL Exclude]**. The [!UICONTROL Exclude] icon displays when one or more experiences are checked. 
 
@@ -49,7 +49,7 @@ Excluding default content is a great way to change the look and feel of the rest
 
 1. While [creating or editing an AP activity](/help/main/c-activities/t-automated-personalization/create-ap-activity.md), select the content you want to replace and click to access **[!UICONTROL Change Text/HTML]**, **[!UICONTROL Change Image Offer]**, or **[!UICONTROL Change Background Color]**. The available options vary, depending on the type of content.
 
-   ![Change options]{/help/main/c-activities/t-automated-personalization/assets/options.png}
+   ![Change options](/help/main/c-activities/t-automated-personalization/assets/options.png)
 
 1. Create your new content and uncheck **Include** to the right of the default content (or uncheck the Default Image/Video in the [!UICONTROL Select Content] screen).
 
