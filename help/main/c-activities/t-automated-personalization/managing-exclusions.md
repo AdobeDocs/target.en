@@ -25,7 +25,7 @@ Exclude specific experiences if you want to exclude certain offer combinations f
 
 There might be certain combinations that don't work together, or you might be limiting the number of experiences tested to decrease traffic requirements for your activity. 
 
-1. While [creating or editing an AP activity](/help/main/c-activities/t-automated-personalization/create-ap-activity.md), click the **Manage Content** icon ( ![Manage Content icon]( ![Manage Content icon](/help/main/assets/icons/Experience.svg) ).
+1. While [creating or editing an AP activity](/help/main/c-activities/t-automated-personalization/create-ap-activity.md), click the **Manage Content** icon ( ![Manage Content icon](/help/main/assets/icons/Experience.svg) ).
 
    The [!UICONTROL Experiences] list shows each experience generated from the permutations of all content and location options. 
 
