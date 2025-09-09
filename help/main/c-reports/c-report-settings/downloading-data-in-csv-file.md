@@ -21,6 +21,20 @@ To download data in a CSV file:
    * [!UICONTROL Export Reports to CSV]
    * [!UICONTROL Export Order Details to CSV]
 
+## CSV download format for popularity and key-based algorithms {#format}
+
+The CSV download file consistently reflects results generated after backend criteria execution. 
+
+**For popularity algorithms (non-key-based), the file includes:**
+
+* A row of backup recommendations prefixed with *
+* A separate row listing recommendations based on algorithm settings
+
+**For key-based algorithms, the file includes:**
+
+* A backup row similar to popularity algorithms
+* Multiple rows in key-value format, where the first entry is the product ID of the key, followed by comma-separated product IDs representing recommendation candidates
+
 ## [!UICONTROL Export Report to CSV] {#section_38BD9743EB254453B5F4A0A6F2720CD3}
 
 The [!UICONTROL Success Metrics] report shows you information about your success metrics, and the following metrics that are not available in the [!DNL Target] UI:
