@@ -68,15 +68,15 @@ The [!UICONTROL Order Details] report shows you information about your orders, i
 
 The CSV download file consistently reflects results generated after backend criteria execution. 
 
-**For popularity-based algorithms (non-key-based), the file includes:**
+* **For popularity-based algorithms (non-key-based), the file includes:**
 
-* A row of backup recommendations prefixed with * (an asterisk)
-* A separate row listing recommendations based on algorithm settings
+  * A row of backup recommendations prefixed with * (an asterisk)
+  * A separate row listing recommendations based on algorithm settings
 
-**For key-based algorithms, the file includes:**
+* **For key-based algorithms, the file includes:**
 
-* A backup row similar to popularity algorithms
-* Multiple rows in key-value format, where the first entry is the product ID of the key, followed by comma-separated product IDs representing recommendation candidates
+  * A backup row similar to popularity-based algorithms
+  * Multiple rows in key-value format, where the first entry is the product ID of the key, followed by comma-separated product IDs representing recommendation candidates
 
 ## Best Practices
 
