@@ -89,6 +89,20 @@ For other algorithm types based on a key value, such as [!UICONTROL People Who V
 >
 >Results downloads are not available for activities containing a [!UICONTROL User-Based Recommendations] algorithm. Results downloads are not available for criteria using the [!UICONTROL Recently-Viewed Items] recommendation logic.
 
+### CSV download format for popularity-based and key-based algorithms {#format}
+
+The CSV download file consistently reflects results generated after backend criteria execution. 
+
+* **For popularity-based algorithms (non-key-based), the file includes:**
+
+  * A row of backup recommendations prefixed with * (an asterisk)
+  * A separate row listing recommendations based on algorithm settings
+
+* **For key-based algorithms, the file includes:**
+
+  * A backup row similar to popularity-based algorithms
+  * Multiple rows in key-value format, where the first entry is the product ID of the key, followed by comma-separated product IDs representing recommendation candidates
+
 ## Activating your Recommendations activity
 
 From the [!UICONTROL Activity Overview] tab, click the Status drop-down arrow, then select **[!UICONTROL Activate]**.
