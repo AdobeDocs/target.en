@@ -64,20 +64,6 @@ The [!UICONTROL Order Details] report shows you information about your orders, i
 >* Order report data includes four weeks of data for the default environment (host group) and two weeks for all non-default environments.
 >* Revenue metrics that are set to "[!UICONTROL Increment count and keep the user in the activity]" log order details only for the first order made by the same visitor. All subsequent orders increase conversion count, but do not add revenue to RPV/AOV/Sales, and are not included in the [!UICONTROL Order Details] report.
 
-## CSV download format for popularity-based and key-based algorithms {#format}
-
-The CSV download file consistently reflects results generated after backend criteria execution. 
-
-* **For popularity-based algorithms (non-key-based), the file includes:**
-
-  * A row of backup recommendations prefixed with * (an asterisk)
-  * A separate row listing recommendations based on algorithm settings
-
-* **For key-based algorithms, the file includes:**
-
-  * A backup row similar to popularity-based algorithms
-  * Multiple rows in key-value format, where the first entry is the product ID of the key, followed by comma-separated product IDs representing recommendation candidates
-
 ## Best Practices
 
 * To record an order record, the `orderTotal` parameter must be passed. 

@@ -15,7 +15,7 @@ This page lists significant changes made to the [!DNL Adobe Target] product docu
 
 |Date|Topic|Changes|
 |--- |--- |--- |
-|September 9|[Downloading data in a CSV file](/help/main/c-reports/c-report-settings/downloading-data-in-csv-file.md#format)|Added new section: "CSV download format for popularity and key-based algorithms."|
+|September 9|[Preview and launch your Recommendations activity](/help/main/c-recommendations/t-create-recs-activity/previewing-and-launching-your-recommendations-activity.md#format)|Added new section: "CSV download format for popularity and key-based algorithms."|
 |September 5|[[!DNL Target] release notes (current)](/help/main/r-release-notes/release-notes.md)|Added release notes for the [!DNL Target Standard/Premium] 25.9.1 release.|
 ||[Response tokens](/help/main/administrating-target/response-tokens.md)|Added the `geocountryCode` parameter. This paramater represents a visitor country in the ISO-3166 alpha-2 format.|
 
