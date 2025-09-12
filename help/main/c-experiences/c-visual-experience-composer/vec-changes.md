@@ -35,7 +35,7 @@ You can add a number of components to your web page and edit them as needed by u
 
 ![Components rail](/help/main/c-experiences/c-visual-experience-composer/assets/components-panel.png)
 
-To add a new component, drag the component from the [!UICONTROL Components] rail you want to insert over an existing page element in the [!UICONTROL Design] canvas. Then choose to insert the component before of after the selected element.
+To add a new component, select the desired component from the [!UICONTROL Components] rail, hover over an existing element in the page, then choose to insert the component before of after the selected element.
 
 >[!NOTE]
 >
