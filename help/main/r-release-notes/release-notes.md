@@ -69,6 +69,18 @@ The following information describes the limitations that you should be aware of 
 
 +++
 
+## Datastream updates (September 19, 2025)
+
+Datastream ID and sandbox combination must be unique for [!DNL Adobe Target] destination connections.
+
+Updated validation logic for [!DNL Target] destination connections to enforce that the combination of datastream ID and sandbox name must be unique within an IMS Org. This means:
+
+* The same datastream ID + sandbox name pair cannot be reused across multiple [!DNL Target] destination connections.
+* The same datastream ID can be used for different connections only if they are configured in different sandboxes.
+* This rule applies to all datastream selections, including when "None" is selected.
+
+This update ensures consistent configuration and prevents conflicts across multi-sandbox environments. For more information, see [Adobe Target connection](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/catalog/personalization/adobe-target-connection){target=_blank} in the *Experience Platform Destinations* guide.
+
 ## [!DNL Target Standard/Premium] 25.9.1 (September 5, 2025)
 
 This release contains the following updates and fixes:
