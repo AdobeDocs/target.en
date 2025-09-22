@@ -9,7 +9,7 @@ exl-id: f2783042-f6ee-4f73-b487-ede11d55d530
 
 This article contains prerelease information for upcoming [!DNL Adobe Target] releases, including SDKs, APIs, and JavaScript libraries.
 
-**Last updated: September 11, 2025**
+**Last updated: September 22, 2025**
 
 >[!NOTE]
 >
@@ -19,9 +19,9 @@ This article contains prerelease information for upcoming [!DNL Adobe Target] re
 >
 >* The issue numbers in parentheses are for internal [!DNL Adobe] use.
 
-## [!DNL Target Standard/Premium] 25.9.2 (September 23, 2025)
+## [!DNL Target Standard/Premium] 25.9.3 (September 30, 2025)
 
-This release is scheduled for September 23, 2025. This page will be updated frequently, especially during the last week before the official release.
+This release is scheduled to be released on September 30, 2025. This page will be updated frequently, especially during the week before the release.
 
 ## Additional release notes and version details
 
