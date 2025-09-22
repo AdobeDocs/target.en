@@ -23,7 +23,7 @@ The [!DNL Target] team has adjusted the timeline for the UI version toggle depre
 
 >[!TAB What's new?]
 
-**Target 25.9.1 is live!**
+**Target 25.9.2 is live!**
 
 This release focuses on fixes and enhancements to the updated [!DNL Target] UI and [!UICONTROL Visual Experience Composer] (VEC).
 
