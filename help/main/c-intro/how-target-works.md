@@ -22,8 +22,8 @@ Key points include:
 
 Target integrates with websites using the [!DNL Experience Platform Web SDK] or at.js:
 
-* **[Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/aep-web-sdk.html){target=_blank}**: This client-side JavaScript library allows [!DNL Adobe Experience Cloud] customers to interact with various services through the [!DNL Experience Platform Edge Network]. [!DNL Adobe] recommends that new [!DNL Target] customers implement the [!DNL Experience Platform Web SDK].
-* **[at.js](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/overview.html){target=_blank}**: This implementation library for [!DNL Target] improves page-load times for web implementations and offers better options for single-page applications. Frequently updated with new capabilities, [!DNL Adobe] recommends all [at.js users update to the latest version](https://experienceleague-review.corp.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/target-atjs-versions.html){target=_blank}.
+* **[Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/en/docs/target-dev/developer/client-side/aep/aep-web-sdk-overview){target=_blank}**: This client-side JavaScript library allows [!DNL Adobe Experience Cloud] customers to interact with various services through the [!DNL Experience Platform Edge Network]. [!DNL Adobe] recommends that new [!DNL Target] customers implement the [!DNL Experience Platform Web SDK].
+* **[at.js](https://experienceleague.adobe.com/en/docs/target-dev/developer/client-side/at-js-implementation/deploy-at-js/how-to-deployatjs){target=_blank}**: This implementation library for [!DNL Target] improves page-load times for web implementations and offers better options for single-page applications. Frequently updated with new capabilities, [!DNL Adobe] recommends all [at.js users update to the latest version](https://experienceleague-review.corp.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/target-atjs-versions.html){target=_blank}.
 
 >[!NOTE]
 >
