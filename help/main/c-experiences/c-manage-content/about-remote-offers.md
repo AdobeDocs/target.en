@@ -142,7 +142,7 @@ The offer is executed after you render the page. An invisible iFrame gathers the
 
 4. [!DNL Target] returns a URL with the location of dynamic content and its parameters. Sets an iFrame in the mbox area.
 
-5. The browser requests the URL and renders in page.
+5. The browser requests the URL and renders in page. 
 
 ## Remote offer selection matrix {#reference_B23BEDD29DDD47709A7651AFD27E776B}
 
