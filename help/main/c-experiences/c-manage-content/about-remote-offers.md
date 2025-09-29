@@ -26,6 +26,17 @@ Some examples of remote offers include:
 
 Best practices for using remote offers in your activities:
 
+* Remote offers are supported in:
+
+  * A/B activities
+  * Experience Targeting (XT) activities
+  * Form-based workflows
+
+* Remote offers are not supported in:
+
+  * [Premium features](/help/main/c-intro/intro.md#premium) (Automated Personalization (AP), Auto-Target, and Recommendations)
+  * Multivariate Testing (MVT), due to reliance on the VEC, which doesn't support remote offers.
+
 * If your offer resides in the same domain as the [!DNL Target] requests, using the [!UICONTROL Cached] option lets you use relative URLs in describing your offer location.
 
   This means that when you move your activity from your staging servers to production, the content is automatically accessible without having to change the URL manually.
