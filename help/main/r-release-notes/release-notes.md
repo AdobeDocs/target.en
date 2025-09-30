@@ -69,6 +69,64 @@ The following information describes the limitations that you should be aware of 
 
 +++
 
+## [!DNL Target Standard/Premium] 25.9.3 (September 30, 2025)
+
+This release contains the following enhancements and fixes.
+
++++[!UICONTROL Audiences]
+
+* **Audience exclusion rules were incorrectly displayed as inclusion in the [!DNL Target] UI.** Audiences configured with exclusion rules appeared as included when editing targeting within an activity. Although the exclusion logic was applied correctly during execution, the UI failed to reflect the rule accurately, omitting the "excluding" label. The [!DNL Target] UI now correctly displays exclusion rules in both audience configuration and targeting workflows, ensuring clarity and consistency for campaign setup. (TGT-53808)
+* **The [!UICONTROL Targeting] section did not indicate that an audience rule was set to exclude.** Audiences configured with exclusion logic were incorrectly displayed as inclusion in the [!UICONTROL Targeting] section of the activity-create UI. Although the backend correctly applied the exclusion rule, the UI failed to visually represent it, omitting the "Exclude" label and causing confusion during campaign setup. The [!UICONTROL Targeting] section now clearly displays exclusion rules, ensuring consistency between audience configuration and targeting visualization. (TGT-53809)
+
++++
+
++++Localization
+
+* **Fixed a terminology inconsistency in the Simplified Chinese translation of "Full details view."** 
+Previously, the term "Details" was incorrectly translated as "详情" in the Simplified Chinese (zh_CN) locale, violating established terminology guidelines. This has been corrected to "详细信息" to ensure consistency with the termbase. (TGT-53741)
+
++++
+
++++[!UICONTROL Recommendations]
+
+* **Recommendation boxes were difficult to locate and select in the VEC.** After adding a recommendations offer in the (VEC), clicking the modification in the left panel did not highlight or scroll to the corresponding recommendation box on the page. This made it difficult to locate and edit the offer, especially when hidden under selectors or styled minimally. Clicking a recommendation modification now correctly highlights and scrolls to the associated element, improving usability and editing efficiency in the updated activity-create process. (TGT-52571)
+* **Recommendation selectors were incorrectly rewritten after saving an activity.** When adding a recommendation to an element in the VEC, the selector was initially correct, but after saving and reopening the activity, it changed to a generic selector. Attempts to manually restore the original selector resulted in validation errors. Recommendation selectors now persist accurately after saving, ensuring reliable targeting and editability in the updated activity-create process. (TGT-53709)
+* **Criteria content could not be edited when modifying an existing activity.** When editing an activity, the [!UICONTROL Criteria] content section appeared disabled, with buttons greyed out and unresponsive. This issue was resolved by ensuring that [!UICONTROL Criteria] configurations are fully editable during activity updates. Customers can now modify [!UICONTROL Criteria] content without needing to switch selections or use workarounds, improving flexibility and usability in the updated activity-create process. (TGT-53812)
+* **Criteria could not be edited within an activity.** The [!UICONTROL Edit Criteria ]and [!UICONTROL Remove Criteria] options were disabled when accessing criteria from within an activity. However, the same criteria could be edited successfully via the [!UICONTROL Recommendations] tab. Criteria are now fully editable from both the activity-edit workflow and the [!UICONTROL Recommendations] tab, ensuring a consistent and efficient editing experience. (TGT-53814)
+
++++
+
++++[!UICONTROL Reports]
+
+* **Generating ad-hoc offers in A[!UICONTROL utomated Personalization] activities caused reporting inconsistencies.** Using the Generate ad-hoc offers feature in [!UICONTROL Automated Personalization] (AP) activities led to inaccurate reporting. Specifically, offer IDs were reused across locations, causing reporting data to be misattributed or overwritten. Ad-hoc offers now generate with distinct identifiers per location, ensuring accurate tracking and reporting across all configured experiences. (TGT-53757)
+* **Activity reports failed to load due to a JavaScript error.** Customers encountered a "Something went wrong" message when accessing the [!UICONTROL Reports] tab for certain activities. The error was caused by a JavaScript exception: Cannot read properties of undefined (reading 'indexOf'), triggered during the `getAnalyticsReportSummary` GraphQL call. Reports now load correctly, and error handling has been improved to prevent similar failures in the updated activity-create workflow. (TGT-53797)
+* **Reports crashed after interacting with the scrollbar.** Clicking the scrollbar in the [!UICONTROL Reports] tab caused the page to crash, accompanied by a JavaScript error:
+`SyntaxError: Failed to execute 'querySelector' on 'Element': '[data-key="a-currentcopy"hiretalent""]' is not a valid selector.` Reports now load and scroll correctly without triggering errors or crashes. (TGT-53828)
+* **eRports did not display the primary metric.** The primary metric, configured as a conversion metric using an mbox was missing from the activity reports. Searching by metric name or mbox name yielded no results, preventing visibility into key performance data. Primary metrics now appear correctly in the [!UICONTROL Reports] tab, ensuring accurate tracking and analysis of campaign performance. (TGT-53773)
+* **The [!UICONTROL Reports] tab in the updated UI crashed when interacting with the horizontal scroll bar.** The [!UICONTROL Reports] view intermittently crashed with a "Something went wrong" error when using the horizontal scroll bar to access metrics out of view. The scroll bar now functions reliably, allowing customers to view and analyze all metrics without needing workarounds such as zooming out or using shift-scroll. (TGT-53824)
+
++++
+
++++[!UICONTROL Visual Experience Composer] (VEC)
+
+* **Clicking breadcrumbs in the VEC did not consistently display the edit menu.**
+When selecting HTML elements via the breadcrumbs in the (VEC), the edit menu would intermittently fail to appear or disappear quickly, making element selection unreliable. The edit menu now consistently displays when navigating via breadcrumbs, improving the element selection workflow in the updated activity-create process. (TGT-52873)
+* **The context menu intermittently failed to appear in the VEC.** The context menu in the updated VEC UI did not consistently appear when clicking on elements, making it difficult to access editing options. The context menu now reliably displays upon element selection, improving the editing workflow and overall usability in the updated activity-create process. (TGT-53015)
+* **The context menu failed to appear for certain elements in the VEC.** The context menu did not display when selecting specific elements in the updated VEC, making it difficult to apply modifications. The context menu now consistently displays for all supported elements, improving the reliability and usability of the editing experience in the updated activity-create workflow. (TGT-53248)
+* **Context menu disappeared on the first click when using breadcrumbs in the VEC.** Selecting a parent element via the breadcrumbs in the VEC caused the context menu to briefly appear and then disappear, making it difficult to access editing options. The context menu now remains visible and functional when navigating elements through breadcrumbs, improving the reliability of the element selection workflow in the updated activity-create process. (TGT-53424)
+* **The context menu did not appear for top-level elements in the VEC.** Selecting top-level elements—such as `<div>` or `<main>` tags—via the breadcrumbs in the VEC did not trigger the context menu, preventing further editing actions. The context menu now consistently appears for all supported elements, including top-level containers, improving the flexibility and usability of the activity-create workflow. (TGT-53770)
+* **Elements on a specific page were not editable in the VEC.** Certain elements on the page could not be selected or edited in the updated VEC. This issue was isolated to that page and did not affect other pages within the same account. All elements on the page are now selectable and editable as expected, restoring full functionality in the activity-create workflow. (TGT-53353)
+* **Improved the workflow when viewing child elements during element selection in the VEC.** To improve usability and precision during activity creation, the VEC now displays child elements when hovering over or selecting a parent HTML element. This enhancement allows customers to better understand the structure of the page and make more accurate modifications, streamlining the editing workflow in the updated UI. (TGT-53416)
+* **Elements in existing activities could not be edited using the modification bar.** When editing previously created activities, the modification bar failed to activate for certain elements on the page, preventing updates. This issue was primarily observed in modified activities and was difficult to reproduce in newly created ones. The modification bar now consistently displays and allows editing of all supported elements, improving reliability and usability in the updated activity-create workflow. (TGT-53013)
+
++++
+
++++[!UICONTROL Workspaces]
+
+* **Cloning an activity to a different workspace triggered an "Invalid User Input" error.** Attempting to clone an activity from one workspace to another resulted in an error: "InvalidProperty.Json – Unrecognized property name 'content'." This issue was caused by improper handling of activity metadata during the cloning process. Activities can now be successfully cloned across workspaces without triggering validation errors, ensuring smoother activity deployment workflows. (TGT-53731 & TGT-53736)
+
++++
+
 ## [!DNL Target Standard/Premium] 25.9.2 (September 22, 2025)
 
 This release includes the following fixes and enhancements:

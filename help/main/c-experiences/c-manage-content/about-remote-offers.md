@@ -20,11 +20,22 @@ Some examples of remote offers include:
 * Interest rate updates
 * Emails
 * Kiosks
-* Voice assistants
+* Voice assistants 
 
 ## Best practices for using remote offers {#section_7718512D08E14121B6F6B8C38134F4BC}
 
 Best practices for using remote offers in your activities:
+
+* Remote offers are supported in:
+
+  * A/B activities
+  * Experience Targeting (XT) activities
+  * Form-based workflows
+
+* Remote offers are not supported in:
+
+  * [Premium features](/help/main/c-intro/intro.md#premium) (Automated Personalization (AP), Auto-Target, and Recommendations)
+  * Multivariate Testing (MVT), due to reliance on the VEC, which doesn't support remote offers.
 
 * If your offer resides in the same domain as the [!DNL Target] requests, using the [!UICONTROL Cached] option lets you use relative URLs in describing your offer location.
 
@@ -131,7 +142,7 @@ The offer is executed after you render the page. An invisible iFrame gathers the
 
 4. [!DNL Target] returns a URL with the location of dynamic content and its parameters. Sets an iFrame in the mbox area.
 
-5. The browser requests the URL and renders in page.
+5. The browser requests the URL and renders in page. 
 
 ## Remote offer selection matrix {#reference_B23BEDD29DDD47709A7651AFD27E776B}
 

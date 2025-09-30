@@ -15,6 +15,8 @@ This page lists significant changes made to the [!DNL Adobe Target] product docu
 
 |Date|Topic|Changes|
 |--- |--- |--- |
+|September 30|[[!DNL Target] release notes (current)](/help/main/r-release-notes/release-notes.md)|Added release notes for the [!DNL Target Standard/Premium] 25.9.3 release.|
+|September 29|[Create remote offers](/help/main/c-experiences/c-manage-content/about-remote-offers.md)|Added information detailing which activity types support remote offers. |
 |September 22|[[!DNL Target] release notes (current)](/help/main/r-release-notes/release-notes.md)|Added release notes for the [!DNL Target Standard/Premium] 25.9.3 release.|
 |September 19|[Adobe Target connection](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/catalog/personalization/adobe-target-connection){target=_blank} in the [!DNL Adobe Experience Platform] destinations guide.|Updated the following note: *Datastream uniqueness across organization*.|
 ||[[!DNL Target] release notes (current)](/help/main/r-release-notes/release-notes.md)|Added release notes for the datastream/sandbox feature update.|
