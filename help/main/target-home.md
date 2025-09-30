@@ -21,7 +21,7 @@ The [!DNL Target] team has adjusted the timeline for the UI version toggle depre
 
 [![Learn More icon](/help/main/assets/learn-more.svg)](/help/main/r-release-notes/release-notes.md)
 
->[!TAB What's new?]
+>[!TAB What's new]
 
 **Target 25.9.2 is live!**
 

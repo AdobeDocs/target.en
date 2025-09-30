@@ -20,7 +20,7 @@ Some examples of remote offers include:
 * Interest rate updates
 * Emails
 * Kiosks
-* Voice assistants
+* Voice assistants 
 
 ## Best practices for using remote offers {#section_7718512D08E14121B6F6B8C38134F4BC}
 
