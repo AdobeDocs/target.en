@@ -15,6 +15,7 @@ This page lists significant changes made to the [!DNL Adobe Target] product docu
 
 |Date|Topic|Changes|
 |--- |--- |--- |
+|October 2|[CNAME and Target](https://experienceleague.adobe.com/en/docs/target-dev/developer/implementation/implement-cname-support-in-target){target=_blank}|Updated instructions.|
 |September 30|[[!DNL Target] release notes (current)](/help/main/r-release-notes/release-notes.md)|Added release notes for the [!DNL Target Standard/Premium] 25.9.3 release.|
 |September 29|[Create remote offers](/help/main/c-experiences/c-manage-content/about-remote-offers.md)|Added information detailing which activity types support remote offers. |
 |September 22|[[!DNL Target] release notes (current)](/help/main/r-release-notes/release-notes.md)|Added release notes for the [!DNL Target Standard/Premium] 25.9.3 release.|
