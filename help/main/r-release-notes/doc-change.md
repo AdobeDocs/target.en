@@ -15,6 +15,7 @@ This page lists significant changes made to the [!DNL Adobe Target] product docu
 
 |Date|Topic|Changes|
 |--- |--- |--- |
+|October 7|[CNAME and Target](https://experienceleague.adobe.com/en/docs/target-dev/developer/implementation/implement-cname-support-in-target){target=_blank}|<ul><li>Updated both code snippets under "*How can I validate that my CNAME implementation is ready for traffic?*"</li><li>Updated the following section: "*What key type and certificate signature algorithm is used for my CNAME implementation?*"</li></ul>|
 |October 2|[CNAME and Target](https://experienceleague.adobe.com/en/docs/target-dev/developer/implementation/implement-cname-support-in-target){target=_blank}|Updated instructions.|
 |September 30|[[!DNL Target] release notes (current)](/help/main/r-release-notes/release-notes.md)|Added release notes for the [!DNL Target Standard/Premium] 25.9.3 release.|
 |September 29|[Create remote offers](/help/main/c-experiences/c-manage-content/about-remote-offers.md)|Added information detailing which activity types support remote offers. |
