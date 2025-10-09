@@ -52,7 +52,7 @@ Excluding default content is a great way to change the look and feel of the rest
    ![Change options](/help/main/c-activities/t-automated-personalization/assets/options.png)
 1. Create your new content.
 
-1. Click the **[!UICONTROL More Actions]** ( ![More Actions icon](/help/main/assets/icons/Setting.svg) ) icon, then click the **Exclude Default Offer/Include Default**/ toggle to exclude or include the default offer.
+1. Click the **[!UICONTROL More Actions]** ( ![More Actions icon](/help/main/assets/icons/Setting.svg) ) icon, then click the **Exclude Default Offer/Include Defaul Offert**/ toggle to exclude or include the default offer.
 
    <!-- Depending on the content or offer type, the [!UICONTROL Include] checkbox is in a slightly different place. 
 
