@@ -50,7 +50,7 @@ The VEC Helper browser extension for Chrome solves site-loading issues for which
 
 ## Obtain and install the VEC Helper browser extension
 
-1. Navigate to the [Adobe Target VEC Helper browser extension in the Chrome Web Store](https://chrome.google.com/webstore/detail/adobe-target-vec-helper/ggjpideecfnbipkacplkhhaflkdjagak).
+1. Navigate to the [Adobe Target VEC Helper browser extension in the Chrome Web Store](https://chromewebstore.google.com/detail/adobe-experience-cloud-vi/kgmjjkfjacffaebgpkpcllakjifppnca).
 1. Click **[!UICONTROL Add to Chrome > Add Extension]**.
 1. Open the VEC in [!DNL Target].
 1. To use the extension, click the VEC Helper browser extension icon ( ![VEC Helper icon](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/assets/vec-help-extension.png) ) in your Chrome browser's toolbar while in the VEC or [QA Mode](/help/main/c-activities/c-activity-qa/activity-qa.md).
