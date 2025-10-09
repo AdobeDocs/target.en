@@ -19,7 +19,7 @@ exl-id: 6003a663-4c0c-4179-8025-aee2ae107c5c
 
 The [!DNL Target] team has adjusted the timeline for the UI version toggle deprecation.
 
-[![Learn More icon](/help/main/assets/learn-more.svg)](/help/main/r-release-notes/release-notes.md)
+[![Learn More icon](/help/main/c-intro/updated-ui-faq.md)]
 
 >[!TAB What's new]
 
