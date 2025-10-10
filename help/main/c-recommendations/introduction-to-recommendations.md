@@ -33,11 +33,11 @@ Marketers use [!DNL Adobe Target] to drive personalized experiences across a wid
 * **Publishing**: Web publishers use [!DNL Target Recommendations] to recommend articles to site visitors and drive increased engagement.
 * **Video Tutorials**: [!DNL Adobe Creative Cloud] uses [!DNL Target] to recommend video tutorials to Photoshop users in the Photoshop application.
 * **Gaming**: Gaming companies use [!DNL Target] to recommend games and content to users on their consoles.
-* **B2B Sales**: [Business-to-business companies use Target to recommend videos, whitepapers, and blog posts to B2B prospects; deliver downloads; and provide help to existing customers](https://theblog.adobe.com/testing-shifts-high-gear-intel).
+* **B2B Sales**: Business-to-business companies use Target to recommend videos, whitepapers, and blog posts to B2B prospects; deliver downloads; and provide help to existing customers.
 
 * **Travel**: [A German travel booker uses Target to recommend hotels and more to travelers](https://2017.summit.adobe.com/na/sessions/summit-online/online-2017/#17608).
 
-* **Retail**: [A leading B2B retailer uses Target to recommend top categories and products to return visitors in the browser and in its mobile app](https://theblog.adobe.com/optimization-personalization-b2b-powerhouse-grainger/).
+* **Retail**: A leading B2B retailer uses [!DNL Target] to recommend top categories and products to return visitors in the browser and in its mobile app.
 
 These are just a few of the ways customers use Target to deliver personalized recommendations.
 
@@ -123,9 +123,9 @@ A [!DNL Recommendations] activity is made up of the following components:
 
 ![Illustration showing what makes up a recommendations activity: Audiences, Criteria, and Designs](/help/main/c-recommendations/assets/intro-12.png)
 
-Out of the box, [!DNL Target] includes 14 built-in audiences, 42 built-in criteria, and 10 built-in design templates. You can customize each of these items or add your own. We've had previous [webinars about building audiences](https://landing.adobe.com/acs/2018/na/adobe-target/registration.html) in [!DNL Target]. This section focuses on defining the criteria, which define which items will be recommended.
+Out of the box, [!DNL Target] includes 14 built-in audiences, 42 built-in criteria, and 10 built-in design templates. You can customize each of these items or add your own.
 
-Target uses the concept of the criteria card. A criteria card is like a recipe for personalization.
+[!DNL Target] uses the concept of the criteria card. A criteria card is like a recipe for personalization.
 
 ![Criteria card illustration](/help/main/c-recommendations/assets/intro-13.png)
 
@@ -188,7 +188,3 @@ For example, in the content context, you might want to exclude movies that the v
 ## Demo
 
 After you complete the tasks illustrated in the recommendation funnel describe above, you are left with your final recommendation. To watch an in-product demonstration inside [!DNL Target], the demo begins at 21:00 in the *Adobe Target Basics Webinar*, linked to below.
-
-## Adobe [!DNL Target] Basics Webinar: Introduction to Recommendations {#intro-to-recs}
-
-[Introduction to Recommendations](https://adobecustomersuccess.adobeconnect.com/p8gt31drhs3e/?OWASP_CSRFTOKEN=4bd6cac5d0806167ee0a5449ba93d6300548d09c922bcb751c38973897a5703a)
