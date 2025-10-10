@@ -19,10 +19,6 @@ This article contains prerelease information for upcoming [!DNL Adobe Target] re
 >
 >* The issue numbers in parentheses are for internal [!DNL Adobe] use.
 
-## [!DNL Target Standard/Premium] 25.10.1 (October 9, 2025)
-
-This release is scheduled to be released on October 9, 2025. This page will be updated frequently, especially during the week before the release.
-
 ## Additional release notes and version details
 
 |Resource|Details|
