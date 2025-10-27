@@ -214,7 +214,7 @@ Character limits and other limits (offer size, audiences, profiles, values, para
   * profile parameters 50
   * profile parameter name max length 128
   * profile parameter value cannot be null
-  * profile parameter value max length 5000
+  * profile parameter value max length 256
 
   **Delivery API endpoint**: 
 
@@ -225,7 +225,7 @@ Character limits and other limits (offer size, audiences, profiles, values, para
   * profile parameters 50
   * profile parameter name max length 128
   * profile parameter value cannot be null
-  * profile parameter value max length 5000
+  * profile parameter value max length 256
    
 ### mbox request URLs
 

@@ -15,6 +15,7 @@ This page lists significant changes made to the [!DNL Adobe Target] product docu
 
 |Date|Topic|Changes|
 |--- |--- |--- |
+|October 27|[Limits](/help/main/r-troubleshooting-target/target-limits.md)|Corrected limits for profile parameter value max length under *Batch mbox v2* and *Delivery API endpoint*.|
 |October 22|[[!DNL Target] release notes (current)](/help/main/r-release-notes/release-notes.md)|Added release notes for the [!DNL Target Standard/Premium] 25.10.1 release.|
 
 ### [!DNL Target Standard/Premium] 25.9.1 (September 5, 2025)
