@@ -104,7 +104,7 @@ The following query string parameters are associated with redirect offers:
 
 | Parameter | Description |
 |--- |--- |
-|`adobe_mc_sdid`|The `adobe_mc_sdid` parameter passes the Supplemental Data Id (SDID) and Experience Cloud Org Id from the default page to the new page. These IDs allow A4T to "stitch" together the Target request on the default page with the Analytic request on the new page.<br>The expected format to pass sdid in the url (for hybrid apps or from one app to the website or one website to another) is `ex. adobe_mc_sdid=SDID=123|MCORGID=123456789@AdobeOrg|TS=1498569322`|
+|`adobe_mc_sdid`|The `adobe_mc_sdid` parameter passes the Supplemental Data Id (SDID) and Experience Cloud Org Id from the default page to the new page. These IDs allow A4T to "stitch" together the Target request on the default page with the Analytic request on the new page.<br>The expected format to pass sdid in the url (for hybrid apps or from one app to the website or one website to another) is `ex. adobe_mc_sdid=SDID=123\|MCORGID=123456789@AdobeOrg\|TS=1498569322`|
 |`adobe_mc_ref`|The `adobe_mc_ref` parameter passes the referring URL of the default page to the new page. When used with  AppMeasurement.js version 2.1 (or later),  Analytics uses this parameter value as the referring URL on the new page.|
 
 These parameters are automatically added to the redirect URLs when using the built-in redirect offers in the VEC and Form-Based Experience Composer when the Visitor Id service is implemented on the page. If you are using your own custom redirect code in the VEC or Form-Based Composer, you must be sure to pass these parameters with your custom code.

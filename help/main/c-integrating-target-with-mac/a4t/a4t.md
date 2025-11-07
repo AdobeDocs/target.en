@@ -57,7 +57,7 @@ The following sections contain information about supported activity types when u
 |[Multivariate test (MVT)](/help/main/c-activities/c-multivariate-testing/multivariate-testing.md)|Yes|Requires mbox-based goal metric goal to get the [!UICONTROL Element Contribution] report. The [!UICONTROL Element Contribution] report does not currently support [!DNL Analytics] metrics.|
 |[Automated Personalization (AP) activity](/help/main/c-activities/t-automated-personalization/automated-personalization.md)|No||
 |[Recommendations activity](/help/main/c-recommendations/recommendations.md)|Yes||
-|[Any activity using a redirect offer](/help/main/c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-redirect-offers.md)|Yes|
+|[Any activity using a redirect offer](/help/main/c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-redirect-offers.md)|Yes||
 
 Because all activity types do not yet support A4T, it is recommended that you keep or implement important conversion mboxes, such as the `orderConfirmPage` mbox.
 
