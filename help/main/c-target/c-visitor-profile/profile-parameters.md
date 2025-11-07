@@ -266,8 +266,8 @@ All standard JavaScript operators are present and usable. JavaScript operators c
 |`<=`|Same as `<` except if the variables are equal then it evaluates to true.|
 |`>=`|Same as `>` except if the variables are equal then it evaluates to true.|
 |`&&`|Logically "ANDs" the expressions to the left and right of it – is only true when both sides are true (false otherwise).|
-|`||`|Logically "ORs" the expressions to the left and right of it – is only true if one of the sides is true (false otherwise).|
-|`//`|Checks if source contains all elements from target boolean contains (Array source, Array target).<br>`//` extracts substring from target (corresponding to regexp) and decodes it `Array/*String*/ decode(String encoding, String regexp, String target)`.<br>The feature also supports the use of constant string values, grouping (`condition1 || condition2) && condition3`, and regular expressions (`/[^a-z]$/.test(landing.referring.url)`.|
+|`\|\|`|Logically "ORs" the expressions to the left and right of it – is only true if one of the sides is true (false otherwise).|
+|`//`|Checks if source contains all elements from target boolean contains (Array source, Array target).<br>`//` extracts substring from target (corresponding to regexp) and decodes it `Array/*String*/ decode(String encoding, String regexp, String target)`.<br>The feature also supports the use of constant string values, grouping (`condition1 \|\| condition2) && condition3`), and regular expressions (`/[^a-z]$/.test(landing.referring.url)`).|
 
 ## Training video: Profile Scripts ![Tutorial badge](/help/main/assets/tutorial.png)
 
