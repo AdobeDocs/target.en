@@ -9,7 +9,7 @@ exl-id: e4d261a1-d3aa-46ea-b1ce-efa76a90dc71
 
 Release notes for previous [!DNL Adobe Target] releases, including release notes for [!DNL Target Standard/Premium], the [!DNL Target] platform, and the [!DNL Target] Javascript library (at.js). 
 
-Release notes are arraigned in descending order by month and year of release.
+Release notes are arraigned in descending order by month and year of release. 
 
 >[!NOTE]
 >
