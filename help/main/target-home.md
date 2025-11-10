@@ -33,7 +33,7 @@ This release focuses on fixes and enhancements to the updated [!DNL Target] UI a
 
 **Explore [!DNL Target] with ease**
 
-The UI is designed for clarity and efficiency, helping you get the most from [!DNL Target]. Explore resources to help you get up to speed fast&mdash;with direct links to detailed articles and step-by-step instructions.
+The UI is designed for clarity and efficiency, helping you get the most from [!DNL Target]. Explore resources to help you get up to speed fast, with direct links to detailed articles and step-by-step instructions.
 
 [![Learn More icon](/help/main/assets/learn-more.svg)](/help/main/c-intro/understand-the-target-ui.md)
 
