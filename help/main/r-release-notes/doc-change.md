@@ -15,6 +15,7 @@ This page lists significant changes made to the [!DNL Adobe Target] product docu
 
 |Date|Topic|Changes|
 |--- |--- |--- |
+|November 12|[[!DNL Adobe Target] [!DNL Bulk Profile Update API]](https://experienceleague.adobe.com/en/docs/target-dev/developer/api/profile-apis/profile-bulk-api#benefits-of-the-bulk-profile-update-api){target=_blank}|Removed the following note under Batch file, as it is no longer true. "You can send multiple files. However, the sum total of the rows of all the files that you send in a day should not exceed one million for each client."|
 |November 10|[[!DNL Target] release notes (current)](/help/main/r-release-notes/release-notes.md)|Added release notes for the [!DNL Target Standard/Premium] 25.11.1 release.|
 
 ### [!DNL Target Standard/Premium] 25.10.2 (October 22, 2025)
