@@ -23,6 +23,25 @@ For time-sensitive updates related to [!DNL Adobe Target] and your implementatio
 
 For more information, see [[!DNL Target] UI update FAQs](/help/main/c-intro/updated-ui-faq.md).
 
+## [!DNL Target Standard/Premium] 25.11.2 (November 14, 2025)
+
+**Decisioning offers**
+
++++See details
+* **Offer decisions with hidden or invalid selectors not editable in updated UI.** Resolved an issue in the updated UI where offer decisions tied to hidden or invalid selectors could not be edited unless the element was visible in the Visual Experience Composer (VEC). Editing is now supported directly from the panel, restoring functionality available in the legacy UI and ensuring that offer decisions can be modified regardless of selector visibility. (TGT-53899)
+
++++
+
+**Recommendations**
+
++++See details
+* **Editing criteria in an activity caused the page to crash.** Resolved an issue in the updated UI where editing activity criteria caused the page to crash with console errors related to `useCrudActionsCtx`. The criteria editor now loads and functions correctly, ensuring activities can be edited without interruption. (TGT-53971)
+* **[!UICONTROL Message] column intermittently failed to display product data in the updated UI.** Resolved an issue in the updated [!UICONTROL Recommendations] UI where the [!UICONTROL Message] column in [!UICONTROL Catalog Search] intermittently failed to display product data, even though values were present in the feed. The column now consistently shows the correct message values across all products, ensuring reliable visibility without requiring manual column reconfiguration. (TGT-52777)
+* **[!UICONTROL Download Recommendations Data] button not visible after saving activity in updated UI.** Resolved an issue in the updated UI where the [!UICONTROL Download Recommendations Data] button did not appear for certain saved activities, even after re-saving. The button now displays consistently across all activities, ensuring users can reliably export recommendation data without needing workarounds. (TGT-53802)
+* **Opening certain products from a collection returned "Requested resource was not found" and modal lacked a close option.** Resolved an issue in the updated Recommendations UI where opening certain products from a collection triggered a "Requested resource was not found" error and displayed a blank modal without a close option. The modal now loads product details correctly, and a close option is always available to exit gracefully. (TGT-53986)
+
++++
+
 ## [!DNL Target Standard/Premium] 25.11.1 (November 10, 2025)
 
 
