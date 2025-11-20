@@ -36,6 +36,10 @@ Use the [!DNL Target] [!UICONTROL Visual Experience Composer] (VEC) to create a 
 
 1. Click an element on your page, then if recommendations are available where that element is located, click **[!UICONTROL Replace w/ Recommendations]**, **[!UICONTROL Insert Recommendations Before]**, or **[!UICONTROL Insert Recommendations After]**.
 
+   >[!NOTE]
+   >
+   >[!UICONTROL Recommendations] activities support only one modification/recommendation at a time. For multiple recommendations, you can either create several [!DNL Recommendations] activities or use A/B or XT testing.
+
    Visitors to your site will see the recommended content only if they qualify for the recommendation. Visitors who do not qualify for the recommendation will see default content.
 
    ![Recommendations options](/help/main/c-recommendations/t-create-recs-activity/assets/Menu_Replace-Insert.png)
