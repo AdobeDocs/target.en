@@ -1,7 +1,7 @@
 ---
 user-guide-title: Adobe Target Business Practitioner Guide 
 breadcrumb-title: Target Guide
-user-guide-description: Learn how to tailor and personalize your customers' experience to maximize revenue on your web and mobile sites, apps, social media, and other digital channels.
+user-guide-description: Discover how to personalize customer experiences across websites, apps, and social channels to boost revenue.
 feature-set: Target
 ---
 
@@ -327,7 +327,7 @@ feature-set: Target
       + [Integrate Recommendations with email](c-recommendations/c-recommendations-faq/integrating-recs-email.md)
       + [IP addresses used by Recommendations feed-processing servers](c-recommendations/c-recommendations-faq/ip-addresses-marketing-cloud.md)
       + [Recommendations Classic versus Recommendations activities in Target Premium](c-recommendations/c-recommendations-faq/recommendations-classic-versus-recommendations-activities-target-premium.md)
-   + [Recommendations Classic documentation](/help/main/c-recommendations/recommendations-classic-documentaton.md)
+   + [Recommendations Classic documentation](/help/main/c-recommendations/recommendations-classic-documentation.md)
 + Troubleshoot Target {#troubleshoot}
    + [Troubleshoot Target](r-troubleshooting-target/troubleshooting-target.md)
    + [Limits](r-troubleshooting-target/target-limits.md)
