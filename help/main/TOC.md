@@ -1,7 +1,7 @@
 ---
 user-guide-title: Adobe Target Business Practitioner Guide 
 breadcrumb-title: Target Guide
-user-guide-description: Learn how to tailor and personalize your customers' experience to maximize revenue on your web and mobile sites, apps, social media, and other digital channels.
+user-guide-description: Discover how to personalize customer experiences across websites, apps, and social channels to boost revenue.
 feature-set: Target
 ---
 
