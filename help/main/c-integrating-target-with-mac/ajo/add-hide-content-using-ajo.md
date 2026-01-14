@@ -20,7 +20,7 @@ This use case is designed to demonstrate how to perform familiar tasks you might
 
 * **Enhance user engagement**: Capture users' attention with an optimized page design that highlights relevant information, such as promotions.
 * **Improve discoverability**: Strategically place new components or content on web or mobile apps to streamline actions and enhance navigation.
-* **Increase additional touchpoints**: Effectively guide users towards conversion events and goals to accelerate business impact.
+* **Increase additional touch points**: Effectively guide users towards conversion events and goals to accelerate business impact.
 
 ## Possible scenarios
 

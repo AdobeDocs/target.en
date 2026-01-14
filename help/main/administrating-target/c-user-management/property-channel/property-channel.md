@@ -182,7 +182,7 @@ After a reorganization, using the personas in the illustrations above, you might
 
 * **Diana**: Diana is now an Analyst for the organization and has been granted Observer permissions for the Hospital Site and the Consumer Site that give her read-only access to activities. Diana can view activities, but cannot create or edit them.
 
-## Target UI Property and Permissions touchpoints {#section_3414371393BB42999A268628B5456EC9}
+## Target UI Property and Permissions touch points {#section_3414371393BB42999A268628B5456EC9}
 
 The new Permissions functionality can be seen in various places in the [!DNL Target] UI.
 
