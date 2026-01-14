@@ -55,7 +55,7 @@ An experience consists of the offers, image assets, or other HTML elements (such
 
 An experience can also be a different page design. For example, one experience might have one set of links across the top of the page, where another experience has different links or the same links arranged in a different order. You might want to test whether one image provides more lift than another, or whether an ad is more likely to be clicked near the top of your page or in a different location.
 
-[!DNL Target] optimizes experiences for each of your visitors across your digital touchpoints and to test different experiences to determine which will be most successful. By carefully planned targeting of experiences, you can make sure that your site visitors see the most relevant offers in the right locations on your page, improving your chances of a successful visit.
+[!DNL Target] optimizes experiences for each of your visitors across your digital touch points and to test different experiences to determine which will be most successful. By carefully planned targeting of experiences, you can make sure that your site visitors see the most relevant offers in the right locations on your page, improving your chances of a successful visit.
 
 ## Offers {#section_973D4CC4CEB44711BBB9A21BF74B89E9}
 
