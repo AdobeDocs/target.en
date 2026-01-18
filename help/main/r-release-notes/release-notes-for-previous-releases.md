@@ -15,9 +15,9 @@ Release notes are arraigned in descending order by month and year of release.
 >
 >See [Target release notes (current)](/help/main/r-release-notes/release-notes.md#reference_8FE40B43A5A34DDF8F26A53D55EE036A) for information about the current month's Target releases (platform and Target Standard/Premium).
 
-### Release notes - 2025
+## Release notes - 2025
 
-## [!DNL Target Standard/Premium] 25.11.2 (November 14, 2025)
+### [!DNL Target Standard/Premium] 25.11.2 (November 14, 2025)
 
 **Decisioning offers**
 
