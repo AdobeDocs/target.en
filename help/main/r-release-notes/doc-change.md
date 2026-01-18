@@ -11,6 +11,12 @@ This page lists significant changes made to the [!DNL Adobe Target] product docu
 
 ## Updates
 
+### [!DNL Target Standard/Premium] 26.1.1 (January 18, 2026)
+
+|Date|Topic|Changes|
+|--- |--- |--- |
+|January 18|[[!DNL Target] release notes (current)](/help/main/r-release-notes/release-notes.md)|Added release notes for the [!DNL Target Standard/Premium] 25.11.1 release.|
+
 ### [!DNL Target Standard/Premium] 25.11.1 (November 10, 2025)
 
 |Date|Topic|Changes|
