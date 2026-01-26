@@ -15,7 +15,8 @@ This page lists significant changes made to the [!DNL Adobe Target] product docu
 
 |Date|Topic|Changes|
 |--- |--- |--- |
-|January 18|[[!DNL Target] release notes (current)](/help/main/r-release-notes/release-notes.md)|Added release notes for the [!DNL Target Standard/Premium] 25.11.1 release.|
+|January 17|[[!UICONTROL Visual Editing Helper] extension](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/visual-editing-helper-extension.md)|Added new section: Changes to the [!UICONTROL Visual Editing Helper] extension (January 17, 2026). |
+||[[!DNL Target] release notes (current)](/help/main/r-release-notes/release-notes.md)|Added release notes for the [!DNL Target Standard/Premium] 26.1.1 release.|
 
 ### [!DNL Target Standard/Premium] 25.11.1 (November 10, 2025)
 
