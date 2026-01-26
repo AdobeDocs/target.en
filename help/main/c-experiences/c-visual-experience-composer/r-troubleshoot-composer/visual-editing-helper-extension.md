@@ -16,6 +16,7 @@ The [!DNL Adobe Experience Cloud] [!UICONTROL Visual Editing Helper] browser ext
 ## Changes to the [!UICONTROL Visual Editing Helper] extension (January 17, 2026)
 
 ### **Fixed an issue by adding the new startup cookie cleanup experimental feature in the VEC Helper.** 
+
 * Fixed an issue by adding a new startup cookie cleanup experimental feature in the VEC Helper. 
 * This enhancement improves performance and reliability by cleaning unpartitioned cookies once per tab when authoring begins instead of continuously. 
 * The feature tracks tab history to prevent redundant cleanup, and it clears the history on tab close so cleanup behaves correctly when a tab is reopened. 
