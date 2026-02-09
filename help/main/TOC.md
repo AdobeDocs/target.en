@@ -111,6 +111,7 @@ feature-set: Target
    + [Integrate Target with Adobe Campaign](c-integrating-target-with-mac/campaign-and-target.md)
 + Activities {#activities}
    + [Activities overview](c-activities/activities.md)
+   + [Insights Dashboard](c-activities/insights-dashboard.md)
    + [Target activity types](c-activities/target-activities-guide.md)
    + A/B Test {#abtest}
       + [A/B test overview](c-activities/t-test-ab/test-ab.md)

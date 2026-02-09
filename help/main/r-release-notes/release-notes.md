@@ -23,6 +23,15 @@ For time-sensitive updates related to [!DNL Adobe Target] and your implementatio
 
 For more information, see [[!DNL Target] UI update FAQs](/help/main/c-intro/updated-ui-faq.md).
 
+## [!DNL Target Standard/Premium] 26.1.2 (January 30, 2026)
+
+**Adobe Target Insights Dashboard**
+
+Adobe Target now includes a new insights dashboard that provides a high-level view of how your organization is using Target for experimentation and personalization. The dashboard surfaces key metrics such as live activities, activities live and modified, completed activities, published activities, and A/B testing activity. Use the time range selector to explore trends over different periods, including a recap view for 2025. This dashboard remains available as an ongoing way to track adoption and activity over time.
+
+See [Adobe Target Insights Dashboard](/help/main/c-activities/insights-dashboard.md) 
+
+
 ## [!DNL Target Standard/Premium] 26.1.1 (January 18, 2026)
 
 **Activities**
@@ -41,6 +50,7 @@ For more information, see [[!DNL Target] UI update FAQs](/help/main/c-intro/upda
 **Properties**
 
 +++See details
+
 * **Activity edit should not add auto‑detected property if already removed.** This fix addresses an issue where editing an activity would automatically reintroduce an auto‑detected property that the user had previously removed. When reopening an activity for editing, the system incorrectly restored the removed property, leading to inconsistent behavior and confusion in the [!UICONTROL Properties List]. The update ensures that once an auto‑detected property is removed, it remains removed during all subsequent edits and does not reappear unless the user explicitly adds it back. (TGT-54182)
 * **Do not add auto‑detected properties if already removed.** This fix ensures that once a user manually removes an auto‑detected property from an activity, the system no longer reintroduces it during subsequent navigation within the activity editor. Previously, if a user deselected an auto‑detected property, moved to the [!UICONTROL Targeting] step, and then returned to [!UICONTROL Experiences], the editor would repopulate the removed property based on the auto‑detected list stored in the Activity Editor state slice. The updated logic now compares the auto‑detected properties against the current properties in the ~ActivityState~ slice and prevents re‑adding any auto‑detected property that the user has already removed. This results in consistent behavior across steps and respects user intent. (TGT-54181)
 * **Add Auto‑detected text into the properties list.** This enhancement updates the [!UICONTROL Properties List] to clearly label any property that was automatically detected by the system. When an auto‑detected property is also present in the user‑visible [!UICONTROL Properties List], it now displays the "(Auto‑Detected)" text next to its name, using the value stored in the ~ActivityEditorSlice~ state. This mirrors the behavior of the legacy UI and helps users easily distinguish between manually selected properties and those properties identified automatically. (TGT-54120)
@@ -51,6 +61,7 @@ For more information, see [[!DNL Target] UI update FAQs](/help/main/c-intro/upda
 **Recommendations**
 
 +++See details
+
 * **[!UICONTROL Environment] drop‑down shows only 100 results.** This fix addresses a limitation where customers with more than 100 environments could only see the first 100 entries in the [!UICONTROL Environment] drop‑down within [!UICONTROL Recommendations]. The underlying GraphQL query (~getEnvironmentsV2~) was paginated with a hard‑coded page size of 100, causing the UI to display only a partial list even when additional pages were available. For customers who have more than 100 environments, this issue resulted in missing options and an incomplete selection experience. The update increases the limit so that all environments are returned and displayed, ensuring full visibility regardless of environment count. (TGT-53903)
 
 +++
@@ -74,6 +85,7 @@ For more information, see [[!DNL Target] UI update FAQs](/help/main/c-intro/upda
 **[!UICONTROL Visual Experience Composer] (VEC)**
 
 +++See details
+
 * **[!UICONTROL Experience Fragment] name was truncated in the new VEC UI** (TGT-54312)
 * **Unable to use [!UICONTROL Advanced Settings] for [!UICONTROL Revenue] metric.** This fix resolves an issue where users encountered a 403 "Access denied" error when configuring [!UICONTROL Advanced Settings] for the [!UICONTROL Revenue] metric in [!UICONTROL Goals & Settings]. The problem occurred when adding a dependency condition tied to the primary goal; the backend incorrectly required the editor privilege even for users who already had sufficient permissions to create and edit activities. As a result, saving the activity failed despite valid configuration. The update corrects the permission check so that users with appropriate access can successfully add Revenue metric dependencies without triggering a forbidden‑resource error. (TGT-54092)
 * **Fixed an issue where the Add button did not apply to selected images.** Fixed an issue that prevented customers from adding certain images when selecting or updating an image in the activity‑create process. When customers searched for specific assets, for example, images returned when searching for "ipp," clicking the [!UICONTROL Add] button did not apply the selected image and no modification was created. Selecting other images, such as `Homepage-banner-1-moz.jpg`, continued to work as expected. This update ensures that all valid images can be applied consistently in the updated UI. (TGT-53610)
