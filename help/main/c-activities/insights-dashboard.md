@@ -3,6 +3,7 @@ keywords: activities;activity;insights dashboard
 description: The [!UICONTROL Adobe Target Dashboard] provides a high-level view of how your organization is using Target over time. It helps teams understand adoption, activity volume, and experimentation usage at a glance.
 title: Adobe Target Insights Dashboard
 feature: Activities
+exl-id: 042befcd-025b-4592-a6b2-5dc0b952b031
 ---
 # Adobe Target Insights Dashboard
 
