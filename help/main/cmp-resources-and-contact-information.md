@@ -23,8 +23,6 @@ Join the conversation, contribute your expertise, and get the answers you needâ€
 
 Visit the [Target Community Forum](https://experienceleaguecommunities.adobe.com/t5/adobe-target/ct-p/adobe-target-community) to get started. 
 
-+++
-
 ## Target Basics Webinar Series {#concept_11902FAC95C64479AABE020557A7EEE4}
 
 +++See details

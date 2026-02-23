@@ -101,7 +101,7 @@ There are several limitations with using the UI version toggle, including visibi
 
 For more information, see [Time-sensitive updates you need to know](/help/main/r-release-notes/release-notes.md#time-sensitive).
 
-++++
++++
 
 ## Can [!DNL Adobe] delay our migration to the updated UI until the full rollout is complete?
 
