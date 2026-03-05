@@ -8,6 +8,18 @@ badgeBeta: label="Beta" type="Informative" url="https://experienceleague.adobe.c
 hide: yes
 hidefromtoc: yes
 exl-id: 81bbbd51-47fc-4e23-a1cb-7c18fea1c159
+TQID: https://experienceleague.adobe.com/JA--Ll80bDZwn9WtGqIb-z3YxyJLOvOYPzuhZeKA17w
+product_v2:
+  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+    internal-label: Target
+feature_v2:
+  - id: f7c7de77-382f-4f48-8b36-61a170f06d3d
+    internal-label: Integrations
+topic_v2:
+  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+    internal-label: Customer experience
+  - id: d00e9f03-e50b-4162-b143-0c0817c937c2
+    internal-label: Customer journeys
 ---
 # Integrate [!DNL Adobe Target Recommendations] and [!DNL Adobe Journey Optimizer]
 

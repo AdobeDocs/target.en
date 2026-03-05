@@ -4,6 +4,13 @@ description: Learn how to use the Adobe [!DNL Target] QA bookmarklet to force [!
 title: How Do I use the Activity QA Bookmarklet?
 feature: Activities
 exl-id: dbfe59eb-6853-4909-abf1-e5630e979a98
+TQID: https://experienceleague.adobe.com/kOQcdF2WgiAGkOS3rrLWfDSFTvRJX8jb-IeaahWnM0c
+product_v2:
+  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+    internal-label: Target
+topic_v2:
+  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+    internal-label: Customer experience
 ---
 # Activity QA bookmarklet
 

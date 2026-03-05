@@ -1,9 +1,27 @@
 ---
-keywords: Target;home;popular topics;adobe target;target standard;target premium;target documentation;adobe target documentation;practitioner guide;user guide 
+keywords: Target;home;popular topics;adobe target;target standard;target premium;target documentation;adobe target documentation;practitioner guide;user guide
 title: Adobe Target Business Practitioner Guide
 description: Learn how to use Adobe [!DNL Target] to personalize your customers' experience to maximize revenue on your web and mobile sites, apps, and other digital channels.
 feature: Overview
 exl-id: 6003a663-4c0c-4179-8025-aee2ae107c5c
+TQID: https://experienceleague.adobe.com/FZseZZEVSfBXtgdDTjo08FJoJ1OesGwoxcMiCxrkegM
+product_v2:
+  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+    internal-label: Target
+feature_v2:
+  - id: adee20bd-51f4-461d-b9db-d215f8756eeb
+    internal-label: Audiences
+  - id: c93393a4-e558-47e1-992e-c91ed4d480ce
+    internal-label: Implementation
+topic_v2:
+  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+    internal-label: Customer experience
+  - id: c1579802-ddd4-4214-8a91-97b2066abe11
+    internal-label: Troubleshooting
+  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+    internal-label: Optimization
+  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+    internal-label: Personalization
 ---
 # [!DNL Adobe Target] Business Practitioner Guide
 

@@ -4,6 +4,21 @@ description: Learn about the new features, enhancements, and fixes included in t
 title: What New Features and Enhancements Are Included in the Upcoming [!DNL Target] Release?
 feature: Release Notes
 exl-id: f2783042-f6ee-4f73-b487-ede11d55d530
+TQID: https://experienceleague.adobe.com/ITCtRvL0t6ZyT-BRkO7oYDq6-D08qoUP6XIQTe9RPKY
+product_v2:
+  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+    internal-label: Target
+feature_v2:
+  - id: c93393a4-e558-47e1-992e-c91ed4d480ce
+    internal-label: Implementation
+subfeature_v2:
+  - id: fd0ff162-b6d3-4a11-8aeb-e165a01c0f0a
+    internal-label: at.js
+topic_v2:
+  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
+  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+    internal-label: Customer experience
 ---
 # [!DNL Target] release notes (prerelease)
 

@@ -4,6 +4,15 @@ description: Ust the Executive Summary Results template to help you communicate 
 title: How Can I Share the Results of My [!DNL Target] Actities with My Organization?
 feature: Overview
 exl-id: 35dd83d6-30fd-4568-a59e-b5748b192eb9
+TQID: https://experienceleague.adobe.com/mO9F-HaF2IvFvB4m9uILZOondvs-POKUUGeb6Oq24EQ
+product_v2:
+  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+    internal-label: Target
+topic_v2:
+  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+    internal-label: Customer experience
+  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+    internal-label: Personalization
 ---
 # Chapter 8: Communicate your activity results
 

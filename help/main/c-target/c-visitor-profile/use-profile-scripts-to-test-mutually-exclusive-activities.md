@@ -4,6 +4,16 @@ description: Learn how to use profile attributes to set up tests in Adobe [!DNL 
 title: Can I Use Profile Scripts to Test Mutually Exclusive Activities?
 feature: Audiences
 exl-id: b0b23887-3339-411e-9f5c-64f9d1ba778c
+TQID: https://experienceleague.adobe.com/9BA1U7UXUyrBWjUohZpXj-v-O-DepEISMFgkaDnVuPU
+product_v2:
+  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+    internal-label: Target
+feature_v2:
+  - id: adee20bd-51f4-461d-b9db-d215f8756eeb
+    internal-label: Audiences
+topic_v2:
+  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+    internal-label: Customer experience
 ---
 # Use profile scripts to test mutually exclusive activities 
 
