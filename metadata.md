@@ -7,7 +7,7 @@ type: Documentation
 git-repo: https://github.com/AdobeDocs/target.en
 landing-page-breadcrumb-title: Target 
 landing-page-name: target
-index: yes
+index: true
 ---
 
 # Metadata for internal use
