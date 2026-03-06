@@ -9,7 +9,7 @@ feature-set: Target
 
 + [Adobe Target Business Practitioner Guide Home](target-home.md)
 + Target release notes {#release-notes}
-   + [Target announcements and events](/help/main/r-release-notes/target-announcements.md)
+   + {hide-from-toc} [Target announcements and events](/help/main/r-release-notes/target-announcements.md)
    + [Target release notes (current)](r-release-notes/release-notes.md)
    + [Target release notes (prerelease)](r-release-notes/target-release-notes.md)
    + [Target documentation overview](/help/main/r-release-notes/target-documentation.md)
@@ -26,7 +26,7 @@ feature-set: Target
       + [AI Assistant overview](/help/main/c-intro/ai-assistant.md)
       + [Enable AI Assistant](/help/main/c-intro/enabling-ai-assistant.md)
       + [Use AI Assistant to gain product knowledge](/help/main/c-intro/ai-assistant-product-knowledge.md)
-      + [Use AI Assistant for content generation](/help/main/c-intro/ai-assistant-content-generation.md)
+      + {hide-from-toc} [Use AI Assistant for content generation](/help/main/c-intro/ai-assistant-content-generation.md)
    + Adobe Target welcome kit {#welcome}
       + [Target welcome kit overview](/help/main/c-intro/target-welcome-kit.md)
       + [Chapter 1: Introduction](/help/main/c-intro/target-welcome-kit-1.md)
@@ -94,11 +94,11 @@ feature-set: Target
       + [Target reporting in Adobe Customer Journey Analytics](/help/main/c-integrating-target-with-mac/cja/target-reporting-in-cja.md)
    + Integrate Target with Adobe Journey Optimizer (AJO) {#ajo}
       + [Use offer decisions](/help/main/c-integrating-target-with-mac/ajo/offer-decision.md)
-      + [Integrate [!DNL Adobe Target Recommendations] and [!DNL Adobe Journey Optimizer]](/help/main/c-integrating-target-with-mac/ajo/recs-ajo-integration.md)
+      + {hide-from-toc} [Integrate [!DNL Adobe Target Recommendations] and [!DNL Adobe Journey Optimizer]](/help/main/c-integrating-target-with-mac/ajo/recs-ajo-integration.md)
       + Adobe Journey Optimizer Use Cases {#use-cases}
-         + [Top optimization use cases in Adobe Journey Optimizer - web and code-based channels](/help/main/c-integrating-target-with-mac/ajo/top-ajo-use-cases.md)
-         + [Content changes through A/B testing in Adobe Journey Optimizer](/help/main/c-integrating-target-with-mac/ajo/content-change-using-ajo.md)
-         + [Add or hide components to your web page](/help/main/c-integrating-target-with-mac/ajo/add-hide-content-using-ajo.md)
+         + {hide-from-toc} [Top optimization use cases in Adobe Journey Optimizer - web and code-based channels](/help/main/c-integrating-target-with-mac/ajo/top-ajo-use-cases.md)
+         + {hide-from-toc} [Content changes through A/B testing in Adobe Journey Optimizer](/help/main/c-integrating-target-with-mac/ajo/content-change-using-ajo.md)
+         + {hide-from-toc} [Add or hide components to your web page](/help/main/c-integrating-target-with-mac/ajo/add-hide-content-using-ajo.md)
    + [Experience Cloud Audiences](/help/main/c-integrating-target-with-mac/mmp.md)
    + Integrate Target with Adobe Experience Manager (AEM) {#aem}
       + [Integrate Target with AEM overview](/help/main/c-integrating-target-with-mac/aem/aem-target-integration.md)
@@ -321,7 +321,7 @@ feature-set: Target
       + [Create a Recommendations activity](c-recommendations/t-create-recs-activity/create-recs-activity.md)
       + [Add promotions](c-recommendations/t-create-recs-activity/adding-promotions.md)
       + [Recommendations activity settings](c-recommendations/t-create-recs-activity/recs-activity-settings.md)
-      + [Preview and launch your Recommendations activity](/help/main/c-recommendations/t-create-recs-activity/previewing-and-launching-your-recommendations-activity.md)
+      + {hide-from-toc} [Preview and launch your Recommendations activity](/help/main/c-recommendations/t-create-recs-activity/previewing-and-launching-your-recommendations-activity.md)
    + [Recommendations as an offer](c-recommendations/recommendations-as-an-offer.md)
    + Frequently asked questions {#recommendations-faq}
       + [Recommendations FAQ](c-recommendations/c-recommendations-faq/recommendations-faq.md)
