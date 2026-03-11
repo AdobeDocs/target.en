@@ -93,7 +93,8 @@ The [!UICONTROL Automated Personalization] (AP) activity workflow in [!DNL Targe
 
    If you do not currently have any exclusion groups included in your activity, click **Create Exclusion Group**. You can filter to create a list that shows only the combinations you want to exclude. Name your exclusion group, then click **Save**.
 
-   To edit an existing exclusion group, hover over the group you want to edit, then click the pencil icon.-->
+   To edit an existing exclusion group, hover over the group you want to edit, then click the pencil icon.
+-->
 
 1. Click **[!UICONTROL Done]** when you have finished setting up the content of your activity.
 

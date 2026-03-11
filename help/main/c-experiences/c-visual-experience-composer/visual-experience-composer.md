@@ -39,7 +39,8 @@ As you move your mouse around the page, a context-sensitive box follows the curs
 
 <!--Click the **[!UICONTROL Overlays]** icon to change the way the highlight displays. For example, you can choose to highlight only images, links, regional mboxes, modifications, or JavaScript. You can change the color of the highlight. You can also specify a highlight color and type of fill used to highlight different element types.
 
-![Change Overlay settings](/help/main/c-experiences/c-visual-experience-composer/assets/change-overlay.png)-->
+![Change Overlay settings](/help/main/c-experiences/c-visual-experience-composer/assets/change-overlay.png)
+-->
 
 Click a highlighted element for a menu of options available for that element type. For example, you can click an image and select **[!UICONTROL Change Image]** to change the image to another image. Or click a button and change the text color.
 

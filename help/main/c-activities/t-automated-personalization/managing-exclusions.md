@@ -66,7 +66,8 @@ Excluding default content is a great way to change the look and feel of the rest
 
    For background color: 
 
-   ![Include checkbox in Edit Background Color dialog box](/help/main/c-activities/t-automated-personalization/assets/exclude_content_vec_3a.png)-->
+   ![Include checkbox in Edit Background Color dialog box](/help/main/c-activities/t-automated-personalization/assets/exclude_content_vec_3a.png)
+-->
    
 <!-- 1. Click **[!UICONTROL Save]**.
 
@@ -93,4 +94,5 @@ Excluding default content is a great way to change the look and feel of the rest
 
    You can see the experiences created from the offers you specified under [!UICONTROL Manage Content]. You notice that no experiences are created in [!UICONTROL Manage Content] using the default offer you excluded. 
 
-   ![exclude_content_form_3 image](assets/exclude_content_form_3.png)-->
+   ![exclude_content_form_3 image](assets/exclude_content_form_3.png)
+-->
