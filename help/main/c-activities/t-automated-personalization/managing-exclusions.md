@@ -68,7 +68,7 @@ Excluding default content is a great way to change the look and feel of the rest
    For background color: 
 
    ![Include checkbox in Edit Background Color dialog box](/help/main/c-activities/t-automated-personalization/assets/exclude_content_vec_3a.png)
--->
+   -->
    
 <!--
 1. Click **[!UICONTROL Save]**.
