@@ -19,9 +19,6 @@ This article contains prerelease information for upcoming [!DNL Adobe Target] re
 >
 >* The issue numbers in parentheses are for internal [!DNL Adobe] use.
 
-## [!DNL Target Standard/Premium] 25.11.2 (November 14, 2025)
-
-This release is now live. See [[!DNL Target] release notes (current)](/help/main/r-release-notes/release-notes.md) for more details.
 
 ## Additional release notes and version details
 
@@ -30,9 +27,8 @@ This release is now live. See [[!DNL Target] release notes (current)](/help/main
 |[Release notes: Adobe Target Platform Experience Web SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/release-notes.html?lang=en)|Details about changes in each version of the Platform Web SDK.|
 |[at.js version details](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/target-atjs-versions.html){target=_blank}|Details about changes in each version of the [!DNL Adobe Target] at.js JavaScript library.|
 
-## Prerelease information {#section_7B9D4AAFC6A74388B9D7DEF0658D8B63} 
+## Prerelease information
 
 To receive advance notifications about upcoming product enhancements to [!DNL Target] and other [!DNL Adobe Experience Cloud] solutions, sign up for the [!DNL Adobe Priority Product Update]:
 
 [https://www.adobe.com/subscription/priority-product-update.html](https://www.adobe.com/subscription/priority-product-update.html)
-
