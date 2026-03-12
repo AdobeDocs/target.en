@@ -41,7 +41,7 @@ The redirect offer executes JavaScript code to redirect the browser. It uses the
 
    >[!NOTE]
    >
-   >Redirect offers result in an infinite loop if the redirect URL also qualifies the user for the same activity. Ensure that the user does not re-qualify for the activity after being redirected.
+   >Redirect offers result in an infinite loop if the redirect URL also qualifies the user for the same activity. To prevent this, add a query parameter to the redirect URL (for example, `?redirect=true`). Then, in the activity audience or in the template rule, check that this query parameter is not present. This ensures that the user does not re-qualify for the activity after being redirected.
 
 1. Select the desired options to customize your redirect offer:
 
@@ -72,7 +72,7 @@ The redirect offer executes JavaScript code to redirect the browser. It uses the
 
    >[!NOTE]
    >
-   >Redirect offers result in an infinite loop if the redirect URL also qualifies the user for the same activity. Ensure that the user does not re-qualify for the activity after being redirected.
+   >Redirect offers result in an infinite loop if the redirect URL also qualifies the user for the same activity. To prevent this, add a query parameter to the redirect URL (for example, `?redirect=true`). Then, in the activity audience or in the template rule, check that this query parameter is not present. This ensures that the user does not re-qualify for the activity after being redirected.
 
 1. Select the desired options to customize your redirect offer:
 
