@@ -40,7 +40,7 @@ The following sections show which type of personalization use case (next-session
 
 |Solutions|Use Case Enabled|
 | --- | --- |
-|<ul><li>[!DNL RTCDP] (any SKU) and [!DNL Target]</li></ul>|<ul><li>Next-session personalization</li><ul><li>For all pages with [!UICONTROL at.js]</li></ul><li>Same-page personalization</li><ul><li>For all pages with [!DNL Platform Web SDK]</li></ul>|
+|<ul><li>[!DNL RTCDP] (any SKU) and [!DNL Target]</li></ul>|<ul><li>Next-session personalization<ul><li>For all pages with [!UICONTROL at.js]</li></ul></li><li>Same-page personalization<ul><li>For all pages with [!DNL Platform Web SDK]</li></ul></li></ul>|
 |<ul><li>[!DNL RTCDP] (any SKU), [!DNL AAM], and [!DNL Target]</li></ul>|<ul><li>Next-session personalization</li><ul><li>For all pages with [!UICONTROL at.js]</li><li>[!DNL AAM] segments</li><li>3rd-party segments via [!DNL AAM]</li></ul>|
 
 ## Segment evaluation time
