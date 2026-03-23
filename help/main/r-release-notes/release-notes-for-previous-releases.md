@@ -4,7 +4,6 @@ description: View a list of features, enhancements, and fixes included in previo
 title: What Features Are Included in Previous Releases?
 feature: Release Notes
 exl-id: e4d261a1-d3aa-46ea-b1ce-efa76a90dc71
-hold: true
 ---
 # Release notes for previous releases
 

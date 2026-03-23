@@ -6,7 +6,6 @@ short-description: Learn about the new features, enhancements, and fixes include
 title: What Is Included in the Current Release?
 feature: Release Notes
 exl-id: 3ffead4f-113c-4153-b0b1-fc2aff710063
-hold: true
 ---
 # [!DNL Target] release notes (current)
 
@@ -50,13 +49,6 @@ For more information, see [[!DNL Target] UI update FAQs](/help/main/c-intro/upda
 
 +++
 
-**[!UICONTROL Visual Experience Composer] (VEC)**
-
-+++See details
-
-* **VEC changes not reflected on sites using Shadow DOM (Salesforce Lightning Web Components).** This fix addresses an issue where changes made in Adobe Target (such as CTA color changes) were not being saved or reflected on the live site for Salesforce-based sites using Lightning Web Components (LWC). The CMS was not accepting updates from Target activities, and this issue occurred consistently across A/B tests and other activity types. (TGT-54059)
-
-+++
 
 ## Additional release notes and version details
 
