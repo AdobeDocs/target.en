@@ -6,6 +6,7 @@ short-description: Learn about the new features, enhancements, and fixes include
 title: What Is Included in the Current Release?
 feature: Release Notes
 exl-id: 3ffead4f-113c-4153-b0b1-fc2aff710063
+hold: true
 ---
 # [!DNL Target] release notes (current)
 
@@ -23,32 +24,17 @@ For time-sensitive updates related to [!DNL Adobe Target] and your implementatio
 
 For more information, see [[!DNL Target] UI update FAQs](/help/main/c-intro/updated-ui-faq.md).
 
-## [!DNL Target Standard/Premium] 26.3.2 (March 10, 2026)
+## [!DNL Target Standard/Premium] 26.3.4 (March 19, 2026)
 
-**Activities**
-
-+++See details
-
-* **Direct offer changes in experience are not saved.** This fix resolves an issue where modifications made to direct offers within an activity experience were not being saved. Previously, when users opened a direct offer, made changes, and saved it, the changes appeared reflected initially but were lost when reopening the offer. The fix ensures that changes to direct offers are properly saved and persist when the offer is reopened. (TGT-54653)
-
-+++
-
-**Implementation**
+**[!UICONTROL Visual Experience Composer] (VEC)**
 
 +++See details
 
-* **Add flicker management toggle on the Implementation screen.** A new toggle has been added to the [!UICONTROL Implementation] screen to control the enablement of the flicker management setting. This toggle allows administrators to configure flicker management directly from the Implementation screen. (TGT-52247)
+* **Design/Browse mode selection visible in the Visual Experience Composer web editor.** This fix resolves an issue where switching between Design, Browse, and Preview modes worked correctly, but the active mode was not clearly indicated in the interface. The selected mode is now visibly highlighted so you can see which mode you are in. (TGT-54790)
+
+* **Private network URLs in the Visual Experience Composer (Chrome).** Chrome can block pages on a private network unless local network access is allowed. The **[!UICONTROL Visual Experience Composer]** now requests that permission in the framing Experience Cloud uses, so Chrome can show an allow prompt instead of failing silently. After you allow access, internal URLs can load in the VEC when your environment supports it. (TGT-54346)
 
 +++
-
-**Overview**
-
-+++See details
-
-* **Show full name of audience and experience in Overview page.** This enhancement updates the [!UICONTROL Overview] page to display the full name of audiences and experiences. Previously, long names were truncated and not fully visible, requiring users to triple-click to select all text to see the complete name. The update ensures that full audience and experience names are visible, making it easier for users to identify and review activity configurations. (TGT-53323)
-
-+++
-
 
 ## Additional release notes and version details
 

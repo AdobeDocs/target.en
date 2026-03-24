@@ -17,6 +17,32 @@ Release notes are listed in descending order by month and year of release.
 
 ## Release notes - 2026
 
+## [!DNL Target Standard/Premium] 26.3.2 (March 10, 2026)
+
+**Activities**
+
++++See details
+
+* **Direct offer changes in experience are not saved.** This fix resolves an issue where modifications made to direct offers within an activity experience were not being saved. Previously, when users opened a direct offer, made changes, and saved it, the changes appeared reflected initially but were lost when reopening the offer. The fix ensures that changes to direct offers are properly saved and persist when the offer is reopened. (TGT-54653)
+
++++
+
+**Implementation**
+
++++See details
+
+* **Add flicker management toggle on the Implementation screen.** A new toggle has been added to the [!UICONTROL Implementation] screen to control the enablement of the flicker management setting. This toggle allows administrators to configure flicker management directly from the Implementation screen. (TGT-52247)
+
++++
+
+**Overview**
+
++++See details
+
+* **Show full name of audience and experience in Overview page.** This enhancement updates the [!UICONTROL Overview] page to display the full name of audiences and experiences. Previously, long names were truncated and not fully visible, requiring users to triple-click to select all text to see the complete name. The update ensures that full audience and experience names are visible, making it easier for users to identify and review activity configurations. (TGT-53323)
+
++++
+
 ### [!DNL Target Standard/Premium] 26.3.1 (March 3, 2026)
 
 **Activities**
