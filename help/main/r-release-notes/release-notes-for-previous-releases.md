@@ -43,6 +43,14 @@ Release notes are listed in descending order by month and year of release.
 
 +++
 
+**[!UICONTROL Visual Experience Composer] (VEC)**
+
++++See details
+
+* **VEC changes not reflected on sites using Shadow DOM (Salesforce Lightning Web Components).** This fix addresses an issue where changes made in Adobe Target (such as CTA color changes) were not being saved or reflected on the live site for Salesforce-based sites using Lightning Web Components (LWC). The CMS was not accepting updates from Target activities, and this issue occurred consistently across A/B tests and other activity types. (TGT-54059)
+
++++
+
 ### [!DNL Target Standard/Premium] 26.3.1 (March 3, 2026)
 
 **Activities**
