@@ -6,7 +6,6 @@ short-description: Learn about the new features, enhancements, and fixes include
 title: What Is Included in the Current Release?
 feature: Release Notes
 exl-id: 3ffead4f-113c-4153-b0b1-fc2aff710063
-hold: true
 ---
 # [!DNL Target] release notes (current)
 
@@ -34,7 +33,6 @@ For more information, see [[!DNL Target] UI update FAQs](/help/main/c-intro/upda
 * **Audience source label accuracy in the Audiences interface.** Fixed an issue where audiences coming from the Adobe Target v2 destination in Adobe Experience Platform could appear with **Adobe Experience Cloud** as the source instead of **Adobe Experience Platform**. This update improves source-label consistency when filtering and reviewing audiences. (TGT-54802)
 
 +++
-
 
 ## Additional release notes and version details
 
