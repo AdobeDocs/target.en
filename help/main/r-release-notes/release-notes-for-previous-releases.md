@@ -17,6 +17,28 @@ Release notes are listed in descending order by month and year of release.
 
 ## Release notes - 2026
 
+## [!DNL Target Standard/Premium] 26.3.6 (March 23, 2026)
+
+**[!UICONTROL Visual Experience Composer] (VEC)**
+
++++See details
+
+* **Intermittent grey screen after authentication in the new Visual Experience Composer UI.** Fixed an issue where users could intermittently see a grey screen after signing in to the new Visual Experience Composer, which prevented further editing. This update improves post-authentication loading reliability. (TGT-54626)
+
++++
+
+## [!DNL Target Standard/Premium] 26.3.4 (March 19, 2026)
+
+**[!UICONTROL Visual Experience Composer] (VEC)**
+
++++See details
+
+* **Design/Browse mode selection visible in the Visual Experience Composer web editor.** This fix resolves an issue where switching between Design, Browse, and Preview modes worked correctly, but the active mode was not clearly indicated in the interface. The selected mode is now visibly highlighted so you can see which mode you are in. (TGT-54790)
+
+* **Private network URLs in the Visual Experience Composer (Chrome).** Chrome can block pages on a private network unless local network access is allowed. The **[!UICONTROL Visual Experience Composer]** now requests that permission in the framing Experience Cloud uses, so Chrome can show an allow prompt instead of failing silently. After you allow access, internal URLs can load in the VEC when your environment supports it. (TGT-54346)
+
++++
+
 ## [!DNL Target Standard/Premium] 26.3.2 (March 10, 2026)
 
 **Activities**

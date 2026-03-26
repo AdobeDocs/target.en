@@ -24,17 +24,17 @@ For time-sensitive updates related to [!DNL Adobe Target] and your implementatio
 
 For more information, see [[!DNL Target] UI update FAQs](/help/main/c-intro/updated-ui-faq.md).
 
-## [!DNL Target Standard/Premium] 26.3.4 (March 19, 2026)
 
-**[!UICONTROL Visual Experience Composer] (VEC)**
+## [!DNL Target Standard/Premium] 26.3.7 (March 26, 2026)
+
+**Audiences**
 
 +++See details
 
-* **Design/Browse mode selection visible in the Visual Experience Composer web editor.** This fix resolves an issue where switching between Design, Browse, and Preview modes worked correctly, but the active mode was not clearly indicated in the interface. The selected mode is now visibly highlighted so you can see which mode you are in. (TGT-54790)
-
-* **Private network URLs in the Visual Experience Composer (Chrome).** Chrome can block pages on a private network unless local network access is allowed. The **[!UICONTROL Visual Experience Composer]** now requests that permission in the framing Experience Cloud uses, so Chrome can show an allow prompt instead of failing silently. After you allow access, internal URLs can load in the VEC when your environment supports it. (TGT-54346)
+* **Audience source label accuracy in the Audiences interface.** Fixed an issue where audiences coming from the Adobe Target v2 destination in Adobe Experience Platform could appear with **Adobe Experience Cloud** as the source instead of **Adobe Experience Platform**. This update improves source-label consistency when filtering and reviewing audiences. (TGT-54802)
 
 +++
+
 
 ## Additional release notes and version details
 
