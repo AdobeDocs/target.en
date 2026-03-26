@@ -434,3 +434,4 @@ This message displays when you add the first action to a View for every new acti
 >[!VIDEO](https://video.tv.adobe.com/v/26249)
 
 See [Using the Visual Experience Composer for Single Page Application (SPA VEC) in Adobe Target](https://helpx.adobe.com/target/kt/using/visual-experience-composer-for-single-page-applications-feature-video-use.html) for more information.
+
