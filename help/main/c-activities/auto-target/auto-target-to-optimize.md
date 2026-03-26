@@ -157,3 +157,4 @@ For [!UICONTROL Auto-Target], simple rules of thumb can be used to understand tr
 ## Reporting and [!UICONTROL Auto-Target] {#section_42EE7F5E65E84F89A872FE9921917F76}
 
 For more information, see [Reporting and Auto-Target](/help/main/c-activities/auto-target/reporting-and-auto-target.md).
+
