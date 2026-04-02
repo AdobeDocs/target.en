@@ -33,7 +33,7 @@ Consider the following information before using the [!DNL Customer Journey Analy
 * Use one reporting source or the other. You cannot collect data for a single activity to multiple reporting sources. 
 * When you set [!DNL Customer Journey Analytics] as your reporting source, you are prompted to specify the sandbox for reporting. During configuration, you see only the sandboxes to which you have access.
 * Any existing [!DNL Target] activities continue to use [!DNL Target] data collection and are not affected by enabling this integration.
-* To use this integration, the preferred implementation method is having [[!DNL Adobe Experience Platform]](https://experienceleague.adobe.com/en/docs/experience-platform){target=_blank} and [!DNL Target] implemented through the [[!DNL Adobe Experience Platform Web SDK]](https://experienceleague.adobe.com/en/docs/target-dev/developer/client-side/aep-web-sdk){target=_blank}. 
+* To use this integration, the preferred implementation method is having [[!DNL Adobe Experience Platform]](https://experienceleague.adobe.com/en/docs/experience-platform){target=_blank} and [!DNL Target] implemented through the [[!DNL Adobe Experience Platform Web SDK]](https://experienceleague.adobe.com/en/docs/target-dev/developer/client-side/aep/aep-web-sdk-overview){target=_blank}. 
 
   If you do not currently have the [!DNL Adobe Experience Platform Web SDK] implemented, you can also create an [[!DNL Adobe Analytics] source connection](https://experienceleague.adobe.com/en/docs/experience-platform/sources/ui-tutorials/create/adobe-applications/analytics) to bring the data into [!DNL Adobe Experience Platform]. If you plan to use this method you must select an [!DNL Analytics] report suite alongside the [!DNL Adobe Experience Platform] sandbox that you use with [!DNL Customer Journey Analytics].
 
@@ -47,7 +47,7 @@ Consider the following information before using the [!DNL Customer Journey Analy
 
 ## Supported activity types {#supported-activities}
 
-The following activity types are supported when using the [Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/en/docs/target-dev/developer/client-side/aep-web-sdk){target=_blank} or the [at.js](https://experienceleague.adobe.com/en/docs/target-dev/developer/client-side/at-js-implementation/overview){target=_blank} JavaScript library:
+The following activity types are supported when using the [Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/en/docs/target-dev/developer/client-side/aep/aep-web-sdk-overview){target=_blank} or the [at.js](https://experienceleague.adobe.com/en/docs/target-dev/developer/client-side/at-js-implementation/overview){target=_blank} JavaScript library:
 
 | Activity types | Supported? |
 |--- |--- |

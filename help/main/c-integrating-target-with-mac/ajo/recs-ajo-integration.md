@@ -19,7 +19,7 @@ This integration helps you drive more conversions and see the impact of email me
 
 To use the [!DNL Target Recommendations] and [!DNL Adobe Journey Optimizer] integration, you need the following:
 
-* [[!DNL Adobe Target Premium]](/help/main/c-intro/intro.md#premium) implemented using the [Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/en/docs/target-dev/developer/client-side/aep-web-sdk){target=_blank}.
+* [[!DNL Adobe Target Premium]](/help/main/c-intro/intro.md#premium) implemented using the [Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/en/docs/target-dev/developer/client-side/aep/aep-web-sdk-overview){target=_blank}.
 
   This feature is not available with a [!DNL Target Standard] license or when implementing [!DNL Target] with at.js or other [!DNL Target] SDKs.
 
