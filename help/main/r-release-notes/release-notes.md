@@ -6,6 +6,7 @@ short-description: Learn about the new features, enhancements, and fixes include
 title: What Is Included in the Current Release?
 feature: Release Notes
 exl-id: 3ffead4f-113c-4153-b0b1-fc2aff710063
+hold: true
 ---
 # [!DNL Target] release notes (current)
 
@@ -23,6 +24,56 @@ For time-sensitive updates related to [!DNL Adobe Target] and your implementatio
 
 For more information, see [[!DNL Target] UI update FAQs](/help/main/c-intro/updated-ui-faq.md).
 
+
+## [!DNL Target Standard/Premium] 26.4.1 (April 2, 2026)
+
+**Activities**
+
++++See details
+
+* **Audience attributes visible in the Activities view.** Fixed an issue where audience rule details viewed from an **[!UICONTROL Activity]** did not display certain attributes that appeared when opening the same audience from the **[!UICONTROL Audiences]** section.(TGT-54742)
+
+* **Custom code preserved when applied to additional views.** Fixed an issue where custom code applied to one **[!UICONTROL View]** could be removed when adding or saving custom code for another **[!UICONTROL View]** in the same **[!UICONTROL Activity]**. (TGT-53933)
+
+* **Export CSV on Activities and Audiences list pages.** Added an **[!UICONTROL Export CSV]** action so you can export activity or audience lists from the user interface, including when filters are applied, without relying solely on APIs for routine exports. (TGT-51466)
+
+* **Experience modifications flagged when selectors are not found.** Experience modifications now run a selector-existence check; when a selector is not found on the page, the modification is flagged as invalid. (TGT-54815)
+
++++
+
+**Audiences**
+
++++See details
+
+* **Audience name and description visible when creating audiences from an activity.** Fixed an issue where the audience **[!UICONTROL Name]** and **[!UICONTROL Description]** fields did not stand out clearly when creating or editing an audience from the activity flow, compared to creating the audience directly under **[!UICONTROL Audiences]**. (TGT-54837)
+
++++
+
+**Insights**
+
++++See details
+
+* **[!UICONTROL Live Activities] count on Insights.** Fixed an issue where the **[!UICONTROL Live Activities]** metric on the Insights dashboard could report a higher total than the number of activities that appeared as live in **[!UICONTROL All Activities]**. (TGT-54788)
+
++++
+
+**Recommendations**
+
++++See details
+
+* **Long ID lists in [!UICONTROL Global Exclusions].** Fixed an issue where pasting or entering a long list of IDs in **[!UICONTROL Global Exclusions]** could be truncated in the updated interface compared with the legacy, causing an incomplete exclusion list. (TGT-54422)
+
++++
+
+**[!UICONTROL Visual Experience Composer] (VEC)**
+
++++See details
+
+* **Enhanced Experience Composer (EEC) status indicator in the [!UICONTROL Visual Experience Composer].** The EEC indicator denotes whether Enhanced Experience Composer is enabled. Its presentation has been revised so that it no longer resembles an interactive toggle since it serves only as a non-interactive status display. (TGT-54828)
+
+* **Collapsible left rail in the [!UICONTROL Visual Experience Composer].** The left rail can now be collapsed while an activity is open for editing. This improves access to **[!UICONTROL Components]** and **[!UICONTROL Properties]** for activities that include multiple audiences and pages, including on smaller displays. (TGT-54269)
+
++++
 
 ## [!DNL Target Standard/Premium] 26.3.7 (March 26, 2026)
 
