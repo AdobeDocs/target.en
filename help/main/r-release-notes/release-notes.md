@@ -31,13 +31,15 @@ For more information, see [[!DNL Target] UI update FAQs](/help/main/c-intro/upda
 
 +++See details
 
-* **Audience attributes visible in the Activities view.** Fixed an issue where audience rule details viewed from an **[!UICONTROL Activity]** did not display certain attributes that appeared when opening the same audience from the **[!UICONTROL Audiences]** section.(TGT-54742)
+* **Audience attributes visible in the Activities view.** Fixed an issue where audience rule details viewed from an **[!UICONTROL Activity]** did not display certain attributes that appeared when opening the same audience from the **[!UICONTROL Audiences]** section. (TGT-54742)
 
 * **Custom code preserved when applied to additional views.** Fixed an issue where custom code applied to one **[!UICONTROL View]** could be removed when adding or saving custom code for another **[!UICONTROL View]** in the same **[!UICONTROL Activity]**. (TGT-53933)
 
 * **Export CSV on Activities and Audiences list pages.** Added an **[!UICONTROL Export CSV]** action so you can export activity lists from the user interface, including when filters are applied, without relying solely on APIs for routine exports. (TGT-51466)
 
 * **Experience modifications flagged when selectors are not found.** Experience modifications now run a selector-existence check; when a selector is not found on the page, the modification is flagged as invalid. (TGT-54815)
+
+* **[!UICONTROL Automated personalization] activities.** Fixed interface and activity-loading issues that prevented users from reliably creating, editing, or managing Automated personalization activities, which blocked campaign setup and delayed personalization use cases. (TGT-54421)
 
 +++
 
