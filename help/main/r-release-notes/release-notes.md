@@ -23,7 +23,6 @@ For time-sensitive updates related to [!DNL Adobe Target] and your implementatio
 
 For more information, see [[!DNL Target] UI update FAQs](/help/main/c-intro/updated-ui-faq.md).
 
-<!--
 ## [!DNL Target Standard/Premium] 26.4.2 (April 7, 2026)
 
 **Activities**
@@ -35,8 +34,6 @@ For more information, see [[!DNL Target] UI update FAQs](/help/main/c-intro/upda
 * **Reporting metrics column order.** The updated [!DNL Target] interface allows reporting metrics to be reordered without clearing the full selection and re-adding metrics in sequence. Previously, users were required to unselect all metrics and select them again in the desired order, which was time-consuming when many metrics were enabled and when adjusting column placement to limit horizontal scrolling. (TGT-53044)
 
 +++
-
--->
 
 ## [!DNL Target Standard/Premium] 26.4.1 (April 2, 2026)
 
