@@ -17,6 +17,16 @@ Release notes are listed in descending order by month and year of release.
 
 ## Release notes - 2026
 
+## [!DNL Target Standard/Premium] 26.3.7 (March 26, 2026)
+
+**Audiences**
+
++++See details
+
+* **Audience source label accuracy in the Audiences interface.** Fixed an issue where audiences coming from the Adobe Target v2 destination in Adobe Experience Platform could appear with **Adobe Experience Cloud** as the source instead of **Adobe Experience Platform**. This update improves source-label consistency when filtering and reviewing audiences. (TGT-54802)
+
++++
+
 ## [!DNL Target Standard/Premium] 26.3.6 (March 23, 2026)
 
 **[!UICONTROL Visual Experience Composer] (VEC)**

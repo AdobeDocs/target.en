@@ -6,7 +6,6 @@ short-description: Learn about the new features, enhancements, and fixes include
 title: What Is Included in the Current Release?
 feature: Release Notes
 exl-id: 3ffead4f-113c-4153-b0b1-fc2aff710063
-hold: true
 ---
 # [!DNL Target] release notes (current)
 
@@ -24,6 +23,20 @@ For time-sensitive updates related to [!DNL Adobe Target] and your implementatio
 
 For more information, see [[!DNL Target] UI update FAQs](/help/main/c-intro/updated-ui-faq.md).
 
+<!--
+## [!DNL Target Standard/Premium] 26.4.2 (April 7, 2026)
+
+**Activities**
+
++++See details
+
+* **Custom code preserved when applied to additional views.** Fixed an issue where custom code applied to one **[!UICONTROL View]** could be removed when adding or saving custom code for another **[!UICONTROL View]** in the same **[!UICONTROL Activity]**. (TGT-53933)
+
+* **Reporting metrics column order.** The updated [!DNL Target] interface allows reporting metrics to be reordered without clearing the full selection and re-adding metrics in sequence. Previously, users were required to unselect all metrics and select them again in the desired order, which was time-consuming when many metrics were enabled and when adjusting column placement to limit horizontal scrolling. (TGT-53044)
+
++++
+
+-->
 
 ## [!DNL Target Standard/Premium] 26.4.1 (April 2, 2026)
 
@@ -32,8 +45,6 @@ For more information, see [[!DNL Target] UI update FAQs](/help/main/c-intro/upda
 +++See details
 
 * **Audience attributes visible in the Activities view.** Fixed an issue where audience rule details viewed from an **[!UICONTROL Activity]** did not display certain attributes that appeared when opening the same audience from the **[!UICONTROL Audiences]** section. (TGT-54742)
-
-* **Custom code preserved when applied to additional views.** Fixed an issue where custom code applied to one **[!UICONTROL View]** could be removed when adding or saving custom code for another **[!UICONTROL View]** in the same **[!UICONTROL Activity]**. (TGT-53933)
 
 * **Export CSV on Activities and Audiences list pages.** Added an **[!UICONTROL Export CSV]** action so you can export activity lists from the user interface, including when filters are applied, without relying solely on APIs for routine exports. (TGT-51466)
 
@@ -77,15 +88,6 @@ For more information, see [[!DNL Target] UI update FAQs](/help/main/c-intro/upda
 
 +++
 
-## [!DNL Target Standard/Premium] 26.3.7 (March 26, 2026)
-
-**Audiences**
-
-+++See details
-
-* **Audience source label accuracy in the Audiences interface.** Fixed an issue where audiences coming from the Adobe Target v2 destination in Adobe Experience Platform could appear with **Adobe Experience Cloud** as the source instead of **Adobe Experience Platform**. This update improves source-label consistency when filtering and reviewing audiences. (TGT-54802)
-
-+++
 
 ## Additional release notes and version details
 
