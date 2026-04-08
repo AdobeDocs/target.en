@@ -31,6 +31,8 @@ For more information, see [[!DNL Target] UI update FAQs](/help/main/c-intro/upda
 
 * **Location missing from some activities.** Fixed an issue where **[!UICONTROL Location]** was missing from some activities. (TGT-54951)
 
+* **Reporting metrics column order.** The updated [!DNL Target] interface allows reporting metrics to be reordered without clearing the full selection and re-adding metrics in sequence. Previously, users were required to unselect all metrics and select them again in the desired order, which was time-consuming when many metrics were enabled and when adjusting column placement to limit horizontal scrolling. (TGT-53044)
+
 +++
 
 **[!UICONTROL Visual Experience Composer] (VEC)**
@@ -48,12 +50,6 @@ For more information, see [[!DNL Target] UI update FAQs](/help/main/c-intro/upda
 +++See details
 
 * **Custom code preserved when applied to additional views.** Fixed an issue where custom code applied to one **[!UICONTROL View]** could be removed when adding or saving custom code for another **[!UICONTROL View]** in the same **[!UICONTROL Activity]**. (TGT-53933)
-
-* **Location missing from some activities.** Fixed an issue where **[!UICONTROL Location]** was missing from some activities. (TGT-54951)
-
-<!--
-* **Reporting metrics column order.** The updated [!DNL Target] interface allows reporting metrics to be reordered without clearing the full selection and re-adding metrics in sequence. Previously, users were required to unselect all metrics and select them again in the desired order, which was time-consuming when many metrics were enabled and when adjusting column placement to limit horizontal scrolling. (TGT-53044)
--->
 +++
 
 ## Additional release notes and version details
