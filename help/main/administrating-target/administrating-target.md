@@ -8,7 +8,7 @@ exl-id: 89023213-b109-4d07-af4e-4b8da481806d
 ---
 # Administer [!DNL Target] Overview
 
-Information to help you administer [!DNL Adobe Target], including configuration settings for the Visual Experience Composer (VEC), reporting, Scene7 configuration, implementation, hosts, environments, response tokens, users, and [!DNL Recommendations].
+Information to help you administer [!DNL Adobe Target], including configuration settings for the Visual Experience Composer (VEC), reporting, Scene7 configuration, implementation, hosts, environments, allowlisted URLs, response tokens, users, and [!DNL Recommendations].
 
 {{permissions-update}}
 
@@ -21,6 +21,7 @@ To access the [!UICONTROL Administration] menu items, click **[!UICONTROL Admini
 * [Properties](/help/main/administrating-target/c-user-management/property-channel/property-channel.md)
 * [Hosts](/help/main/administrating-target/hosts.md)
 * [Environments](/help/main/administrating-target/environments.md)
+* [Allowlisted URLs](/help/main/administrating-target/allowlisted-urls.md)
 * [Response Tokens](/help/main/administrating-target/response-tokens.md)
 * [Users](/help/main/administrating-target/c-user-management/user-management.md)
 * [Recommendations](/help/main/administrating-target/recommendations-settings.md)

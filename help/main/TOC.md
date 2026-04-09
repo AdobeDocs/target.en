@@ -54,6 +54,7 @@ feature-set: Target
    + [Implementation](/help/main/administrating-target/implementation.md)
    + [Hosts](administrating-target/hosts.md)
    + [Environments](/help/main/administrating-target/environments.md)
+   + [Allowlisted URLs](administrating-target/allowlisted-urls.md)
    + [Response tokens](administrating-target/response-tokens.md)
    + Manage users {#manage-users}
       + [User management](administrating-target/c-user-management/user-management.md)
