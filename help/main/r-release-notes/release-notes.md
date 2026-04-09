@@ -23,7 +23,7 @@ For time-sensitive updates related to [!DNL Adobe Target] and your implementatio
 
 For more information, see [[!DNL Target] UI update FAQs](/help/main/c-intro/updated-ui-faq.md).
 
-## [!DNL Target Standard/Premium] 26.4.2 (April 9, 2026)
+## [!DNL Target Standard/Premium] 26.4.3 (April 9, 2026)
 
 **Activities**
 
