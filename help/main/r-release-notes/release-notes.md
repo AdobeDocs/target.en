@@ -35,6 +35,7 @@ For more information, see [[!DNL Target] UI update FAQs](/help/main/c-intro/upda
 
 +++
 
+<!--
 **[!UICONTROL Visual Experience Composer] (VEC)**
 
 +++See details
@@ -42,6 +43,7 @@ For more information, see [[!DNL Target] UI update FAQs](/help/main/c-intro/upda
 * **Click tracking for Experience B.** Fixed an issue where click tracking was not saved for **[!UICONTROL Experience B]** in the [!UICONTROL Visual Experience Composer]. (TGT-54843)
 
 +++
+-->
 
 ## [!DNL Target Standard/Premium] 26.4.2 (April 7, 2026)
 
