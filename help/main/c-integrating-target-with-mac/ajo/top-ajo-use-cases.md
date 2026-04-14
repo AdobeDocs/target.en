@@ -4,8 +4,8 @@ description: Learn how to implement the top optimization use cases in Adobe Jour
 title: Top Optimization Use Cases in [!DNL Adobe Journey Optimizer] - web and code-based channels
 badgeBeta: label="Beta" type="Informative" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html#beta newtab=true" tooltip="What are Beta features in [!DNL Adobe Target]."
 feature: Integrations
-hide: yes
-hidefromtoc: yes
+hide: true
+hidefromtoc: true
 exl-id: a00b4732-2740-4b35-a1c5-1ef2d78fecff
 ---
 # Top optimization use cases in [!DNL Adobe Journey Optimizer] - web and code-based channels

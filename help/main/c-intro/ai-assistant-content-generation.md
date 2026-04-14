@@ -4,8 +4,8 @@ description: Learn how to generate engaging content with [!DNL AI Assistant].
 title: How Do I Use the [!DNL AI Assistant] in [!DNL Target] to Generate Engaging Content?
 feature: Overview
 badgeBeta: label="Beta" type="Informative" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html#beta newtab=true" tooltip="What are Beta features in [!DNL Adobe Target]."
-hide: yes
-hidefromtoc: yes
+hide: true
+hidefromtoc: true
 exl-id: eb6f07d8-729e-4f94-ae7a-a054bf54b030
 ---
 # Use [!DNL AI Assistant] in [!DNL Adobe Target] for content generation

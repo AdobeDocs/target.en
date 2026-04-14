@@ -3,8 +3,8 @@ keywords: Recommendations;offer;preview;launch;status;criteria;algorithm
 description: Learn how to preview your Adobe [!DNL Target] Recommendations activity to ensure results are available before launching the activity. 
 title: How Do I Preview and Launch a Recommendations Activity?
 feature: Recommendations
-hide: yes
-hidefromtoc: yes
+hide: true
+hidefromtoc: true
 ---
 # Preview and launch your Recommendations activity
 
