@@ -5,8 +5,8 @@ title: How do I use [!DNL Target Recommendations] in customer journeys using [!D
 feature: Integrations
 badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="See what's included in Target Premium."
 badgeBeta: label="Beta" type="Informative" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html#beta newtab=true" tooltip="What are Beta features in [!DNL Adobe Target]."
-hide: yes
-hidefromtoc: yes
+hide: true
+hidefromtoc: true
 exl-id: 81bbbd51-47fc-4e23-a1cb-7c18fea1c159
 ---
 # Integrate [!DNL Adobe Target Recommendations] and [!DNL Adobe Journey Optimizer]

@@ -4,8 +4,8 @@ description: Learn how to add or hide components on your web page using [!DNL Ad
 title: Add Or Hide Components To Your Web Page in [!DNL Adobe Journey Optimizer]
 badgeBeta: label="Beta" type="Informative" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html#beta newtab=true" tooltip="What are Beta features in [!DNL Adobe Target]."
 feature: Integrations
-hide: yes
-hidefromtoc: yes
+hide: true
+hidefromtoc: true
 exl-id: 8c4fba88-908e-4742-ac4b-bdf7f4c882db
 ---
 # Add or hide components to your web page

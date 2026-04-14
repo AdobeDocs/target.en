@@ -4,8 +4,8 @@ description: Unlock the Secrets to Effective A/B Testing Content Changes in Adob
 title: Content changes through A/B testing in [!DNL Adobe Journey Optimizer]
 badgeBeta: label="Beta" type="Informative" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html#beta newtab=true" tooltip="What are Beta features in [!DNL Adobe Target]."
 feature: Integrations
-hide: yes
-hidefromtoc: yes
+hide: true
+hidefromtoc: true
 exl-id: e5aed7cd-7701-4133-ac7c-98e528c8a763
 ---
 # Content changes through A/B testing in [!DNL Adobe Journey Optimizer]

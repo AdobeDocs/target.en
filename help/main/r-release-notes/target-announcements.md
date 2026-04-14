@@ -3,8 +3,8 @@ keywords: announcements;skill builder;developer chat;coffee break;events;forrest
 description: Read announcements and sign up for Adobe [!DNL Target] events, including Skill Builder sessions, developer and product manager chats, webinars, and more.
 title: Where Can I find [!DNL Target] Announcements and Event Information?
 feature: Release Notes
-hide: yes
-hidefromtoc: yes
+hide: true
+hidefromtoc: true
 exl-id: 02bbc049-ab41-469b-8f7b-dc93ffb8ae73
 ---
 # [!DNL Adobe Target] announcements and events
