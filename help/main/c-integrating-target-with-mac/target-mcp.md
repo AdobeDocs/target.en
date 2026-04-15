@@ -188,9 +188,9 @@ Before connecting the [!DNL Adobe Target] MCP server to your MCP client, ensure 
 **To connect from Claude Desktop or Claude Web:**
 
 1. Open your MCP client settings and add a new MCP server.
-2. Enter the server URL: `https://targetmcp.adobe.io/mcp`
-3. When prompted, complete the Adobe IMS OAuth login with your Adobe Experience Cloud credentials.
-4. Once authenticated, all tools are immediately available. Try "List all active Target activities" to verify the connection.
+1. Enter the server URL: `https://targetmcp.adobe.io/mcp`
+1. When prompted, complete the Adobe IMS OAuth login with your Adobe Experience Cloud credentials.
+1. Once authenticated, all tools are immediately available. Try "List all active Target activities" to verify the connection.
 
 **To connect from Claude Code:**
 
@@ -235,30 +235,30 @@ Complete the OAuth browser flow when prompted on first use.
 +++OAuth flow fails or redirects incorrectly
 
 1. Log out of Adobe Experience Cloud completely.
-2. Clear browser cookies for adobe.com domains.
-3. Retry the authentication flow.
-4. Ensure you select the correct organization when prompted.
+1. Clear browser cookies for adobe.com domains.
+1. Retry the authentication flow.
+1. Ensure you select the correct organization when prompted.
 +++
 
 +++Activities or data from the wrong organization appear
 
 1. Log out of Adobe Experience Cloud completely.
-2. Disconnect and reconnect the MCP server in your client settings.
-3. Select the correct organization carefully during re-authentication.
+1. Disconnect and reconnect the MCP server in your client settings.
+1. Select the correct organization carefully during re-authentication.
 +++
 
 +++A tool returns an error message
 
 1. Verify you have the required permissions in [!DNL Adobe Target] for the operation (see [Prerequisites](#mcp-prerequisites)).
-2. Check that the referenced resources — activities, offers, audiences — exist in your organization.
-3. Confirm that activity IDs and other identifiers are correct.
+1. Check that the referenced resources — activities, offers, audiences — exist in your organization.
+1. Confirm that activity IDs and other identifiers are correct.
 +++
 
 +++Cannot connect to the MCP server
 
 1. Verify your internet connection.
-2. Check that the MCP server URL is entered correctly in your client configuration.
-3. Try removing and re-adding the server in your MCP client settings.
+1. Check that the MCP server URL is entered correctly in your client configuration.
+1. Try removing and re-adding the server in your MCP client settings.
 +++
 
 ## Security and permissions {#mcp-security}
