@@ -211,7 +211,7 @@ Complete the OAuth browser flow when prompted on first use.
 **To connect from Cursor:**
 
 1. Open **Cursor** and navigate to **Settings** → **MCP** → **Add New Global MCP Server**.
-2. Add the following configuration:
+1. Add the following configuration:
 
 ```json
 {
@@ -224,7 +224,7 @@ Complete the OAuth browser flow when prompted on first use.
 }
 ```
 
-3. Save the configuration. The [!DNL Target] MCP server will appear in your available MCP servers.
+1. Save the configuration. The [!DNL Target] MCP server will appear in your available MCP servers.
 
 >[!TIP]
 >
