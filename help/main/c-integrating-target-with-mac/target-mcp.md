@@ -1,6 +1,6 @@
 ---
-solution: Adobe Target
-product: adobe target
+solution: Target
+product: target
 title: Work with MCP clients
 description: Learn how to connect Adobe Target to MCP clients using the MCP server
 feature: Integrations
