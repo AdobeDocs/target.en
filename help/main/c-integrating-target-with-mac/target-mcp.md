@@ -14,9 +14,9 @@ hide: true
 
 >[!AVAILABILITY]
 >
->The [!DNL Adobe Target] MCP server is currently available in **Claude Web**, **Claude Desktop**, and **Claude Code**. Support for additional MCP-compatible applications will be added in future releases.
+>The [!DNL Adobe Target] MCP server is currently available in **Claude Web**, **Claude Desktop**, **Claude Code**, and **Cursor**. Support for additional MCP-compatible applications will be added in future releases.
 
-The [!DNL Adobe Target] MCP integration lets you inspect, analyze, and manage A/B tests, personalization activities, and Recommendations criteria directly from Claude. Turn [!DNL Target]'s read and write APIs into plain-language workflows — audit your experiment portfolio, review performance reports, manage audiences and offers, and take governed actions without navigating the UI or writing API calls. This page explains how the integration works, what you can do with it, and how to get started.
+The [!DNL Adobe Target] MCP integration lets you inspect, analyze, and manage A/B tests, personalization activities, and Recommendations criteria directly from your AI assistant. Turn [!DNL Target]'s read and write APIs into plain-language workflows — audit your experiment portfolio, review performance reports, manage audiences and offers, and take governed actions without navigating the UI or writing API calls. This page explains how the integration works, what you can do with it, and how to get started.
 
 ## What is the Model Context Protocol? {#mcp-overview}
 
@@ -173,7 +173,7 @@ The following examples show how to interact with the [!DNL Adobe Target] MCP ser
 Before connecting the [!DNL Adobe Target] MCP server to your MCP client, ensure the following:
 
 * You have an active [!DNL Adobe Target] license (Adobe Experience Cloud subscription) with an Adobe Experience Platform organization.
-* You have a supported MCP-compatible application (currently Claude Web, Claude Desktop, or Claude Code).
+* You have a supported MCP-compatible application (currently Claude Web, Claude Desktop, Claude Code, or Cursor).
 * You have [!DNL Adobe Target] permissions configured in Adobe Admin Console:
   * **Observer** role: read-only tools
   * **Editor** role: read + create tools
@@ -183,7 +183,7 @@ Before connecting the [!DNL Adobe Target] MCP server to your MCP client, ensure 
 
 >[!NOTE]
 >
->The MCP server URL is `https://targetmcp.adobe.io/mcp`. Authentication uses OAuth 2.0 with dynamic client registration and PKCE — no static credentials are required.
+>The [!DNL Adobe Target] MCP server uses OAuth 2.0 for authentication. When you first use a Target MCP tool, you are redirected to Adobe Experience Cloud to log in, select your organization, and grant the requested permissions. No static credentials are required.
 
 **To connect from Claude Desktop or Claude Web:**
 
@@ -208,16 +208,88 @@ Add the following to your Claude Code MCP configuration:
 
 Complete the OAuth browser flow when prompted on first use.
 
+**To connect from Cursor:**
+
+1. Open **Cursor** and navigate to **Settings** → **MCP** → **Add New Global MCP Server**.
+2. Add the following configuration:
+
+```json
+{
+  "mcpServers": {
+    "target": {
+      "type": "streamable-http",
+      "url": "https://targetmcp.adobe.io/mcp"
+    }
+  }
+}
+```
+
+3. Save the configuration. The [!DNL Target] MCP server will appear in your available MCP servers.
+
+>[!TIP]
+>
+>If activities or data from the wrong organization appear, log out of Adobe Experience Cloud completely, reconnect the MCP server, and carefully select the correct organization during re-authentication.
+
+## Troubleshooting {#mcp-troubleshooting}
+
++++OAuth flow fails or redirects incorrectly
+
+1. Log out of Adobe Experience Cloud completely.
+2. Clear browser cookies for adobe.com domains.
+3. Retry the authentication flow.
+4. Ensure you select the correct organization when prompted.
++++
+
++++Activities or data from the wrong organization appear
+
+1. Log out of Adobe Experience Cloud completely.
+2. Disconnect and reconnect the MCP server in your client settings.
+3. Select the correct organization carefully during re-authentication.
++++
+
++++A tool returns an error message
+
+1. Verify you have the required permissions in [!DNL Adobe Target] for the operation (see [Prerequisites](#mcp-prerequisites)).
+2. Check that the referenced resources — activities, offers, audiences — exist in your organization.
+3. Confirm that activity IDs and other identifiers are correct.
++++
+
++++Cannot connect to the MCP server
+
+1. Verify your internet connection.
+2. Check that the MCP server URL is entered correctly in your client configuration.
+3. Try removing and re-adding the server in your MCP client settings.
++++
+
+## Security and permissions {#mcp-security}
+
+The [!DNL Adobe Target] MCP server can only access data that your Adobe user account has permission to view or modify. All operations respect your [!DNL Target] role assignments and workspace permissions.
+
+The server requests the following OAuth scopes:
+
+* `AdobeID` — Basic Adobe identity
+* `openid` — OpenID Connect authentication
+* `additional_info.projectedProductContext` — Tenant discovery
+* `read_organizations` — Organization-level operations
+* `additional_info.roles` — Role-based access control
+
+OAuth tokens are validated against Adobe IMS on each request, are not stored persistently by the MCP server, and all communication uses HTTPS.
+
 ## Frequently asked questions {#mcp-faq}
 
 +++Which MCP clients are supported?
 
-The [!DNL Adobe Target] MCP server is currently available for **Claude Web**, **Claude Desktop**, and **Claude Code**. Support for additional MCP-compatible applications may be added in future releases.
+The [!DNL Adobe Target] MCP server is currently available for **Claude Web**, **Claude Desktop**, **Claude Code**, and **Cursor**. Support for additional MCP-compatible applications may be added in future releases.
 +++
 
 +++What [!DNL Adobe Target] objects can I access via MCP?
 
 You can access activities (A/B, XT, AP), audiences, offers, properties, mboxes, Recommendations criteria, response tokens, at.js configuration, A4T reports, and entity revision history. Read and write operations are both supported across 52 tools — write operations require the appropriate role and explicit confirmation.
++++
+
++++Can the MCP server create or modify activities?
+
+Yes. In addition to read operations, the server exposes write operations that let you create activities, pause them, update priorities, adjust traffic splits, and more. Write operations follow the same permission model as the [!DNL Adobe Target] UI — you need the appropriate role to make changes, and no action is executed without explicit user confirmation.
 +++
 
 +++Do I need developer access to use the MCP server?
@@ -232,7 +304,7 @@ When you submit a prompt, the MCP client may send relevant context (including [!
 
 +++Can write operations cause unintended changes to live activities?
 
-Write tools include safety annotations and confirmation gates. Before any state-changing action — such as activating an activity, changing priority, or updating ML model configuration — the server presents a structured confirmation showing the affected object, estimated traffic impact, and a required explicit approval step. No changes are made until confirmed.
+Write tools include safety annotations and confirmation gates. Before any state-changing action — such as activating an activity, changing priority, or updating traffic allocation — the server presents a structured confirmation showing the affected object, estimated traffic impact, and a required explicit approval step. No changes are made until confirmed.
 +++
 
 +++What permissions do I need in [!DNL Adobe Target]?
