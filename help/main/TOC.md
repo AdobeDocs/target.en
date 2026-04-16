@@ -101,9 +101,9 @@ feature-set: Target
          + {hide-from-toc} [Add or hide components to your web page](/help/main/c-integrating-target-with-mac/ajo/add-hide-content-using-ajo.md)
    + [Experience Cloud Audiences](/help/main/c-integrating-target-with-mac/mmp.md)
    + Work with MCP clients {#mcp}
-      + {hide-from-toc} [Work with MCP clients](/help/main/c-integrating-target-with-mac/target-mcp.md)
-      + {hide-from-toc} [Adobe Target MCP server tools reference](/help/main/c-integrating-target-with-mac/target-mcp-tools-reference.md)
-      + {hide-from-toc} [Self-host the Adobe Target MCP server](/help/main/c-integrating-target-with-mac/target-mcp-self-hosted.md)
+      + {hide-from-toc} [Work with MCP clients](/help/main/mcp/target-mcp.md)
+      + {hide-from-toc} [Adobe Target MCP server tools reference](/help/main/mcp/target-mcp-tools-reference.md)
+      + {hide-from-toc} [Self-host the Adobe Target MCP server](/help/main/mcp/target-mcp-self-hosted.md)
    + Integrate Target with Adobe Experience Manager (AEM) {#aem}
       + [Integrate Target with AEM overview](/help/main/c-integrating-target-with-mac/aem/aem-target-integration.md)
       + Experience Fragments and Content Fragments {#fragments}
