@@ -12,6 +12,16 @@ hide: true
 ---
 # Work with MCP clients {#target-mcp}
 
+>[!BEGINSHADEBOX]
+
+Table of contents:
+
+* **[Work with MCP clients](target-mcp.md)**
+* [MCP server tools reference](target-mcp-tools-reference.md)
+* [Self-host the MCP server](target-mcp-self-hosted.md)
+
+>[!ENDSHADEBOX]
+
 >[!AVAILABILITY]
 >
 >The [!DNL Adobe Target] MCP server is currently available in **Claude Web**, **Claude Desktop**, **Claude Code**, and **Cursor**. Support for additional MCP-compatible applications will be added in future releases.
@@ -168,6 +178,73 @@ The following examples show how to interact with the [!DNL Adobe Target] MCP ser
 | **Implementation audit** | "What version of at.js is configured, and what response tokens are currently active?" |
 | **Change audit** | "Show me all changes made to activity 98765 in the last 30 days and who made them." |
 
+## Use case walkthroughs {#mcp-use-case-walkthroughs}
+
+The following walkthroughs show how to complete common tasks using natural-language prompts with the [!DNL Adobe Target] MCP server.
+
++++Creating an A/B test
+
+**Prompt:**
+> "Create an A/B test called 'Homepage Hero Image Test' with two experiences: 'Control' showing the current hero and 'Variant' showing a new summer-themed hero image. Target the homepage mbox."
+
+The AI assistant uses the `create_ab_activity` tool to create the activity with the configuration you described. The tool returns the new activity ID and a confirmation of the created experiences.
+
++++
+
++++Checking activity performance
+
+**Prompt:**
+> "Show me the performance metrics for my 'Checkout Flow Optimization' activity over the last 30 days."
+
+The AI assistant uses `get_ab_performance_report` or `get_xt_performance_report` (depending on activity type) to retrieve conversion rates, visitor counts, and other metrics for the specified time window.
+
++++
+
++++Managing offers
+
+**Prompt:**
+> "Create an HTML offer called 'Summer Sale Banner' with a promotional banner that says '20% off all summer items'."
+
+The AI assistant uses the `create_target_offer` tool to create the offer with your specified HTML content and returns a confirmation with the new offer ID.
+
++++
+
++++Building an audience
+
+**Prompt:**
+> "Create an audience called 'Mobile Visitors from California' that targets users on mobile devices located in California."
+
+The AI assistant uses the `create_target_audience` tool with the appropriate targeting rules derived from your description.
+
++++
+
++++Generating QA preview links
+
+**Prompt:**
+> "Generate preview URLs for activity 12345 so I can test each experience."
+
+The AI assistant uses the `preview_activity` tool to generate clickable URLs that bypass audience targeting, letting you view each experience directly in your browser.
+
++++
+
++++Creating an Experience Targeting activity
+
+**Prompt:**
+> "Create an Experience Targeting activity called 'Geo Personalization' that shows different hero banners to visitors from different regions."
+
+The AI assistant uses `create_xt_activity` to build the activity with audience-based experience mapping according to the regions you describe.
+
++++
+
++++Scheduling an activity
+
+**Prompt:**
+> "Update the schedule for activity 12345 to start on May 1st and end on May 31st."
+
+The AI assistant uses the `update_activity_schedule` tool to apply the new start and end dates to the activity.
+
++++
+
 ## Prerequisites {#mcp-prerequisites}
 
 Before connecting the [!DNL Adobe Target] MCP server to your MCP client, ensure the following:
@@ -316,3 +393,11 @@ At minimum, **Observer** role grants access to all read tools. **Editor** role e
 
 The MCP server scopes operations to the organization associated with your authenticated Adobe IMS credentials. If you have access to multiple properties within that organization, you can query by property using the `list_target_properties` tool and filter subsequent requests accordingly.
 +++
+
+## Related resources {#mcp-related}
+
+* [MCP server tools reference](target-mcp-tools-reference.md)
+* [Self-host the [!DNL Adobe Target] MCP server](target-mcp-self-hosted.md)
+* [Model Context Protocol documentation](https://modelcontextprotocol.io/introduction){target="_blank"}
+* [[!DNL Adobe Target] Admin API reference](https://developers.adobe.com/target/administer/admin-api/){target="_blank"}
+* [Cursor documentation](https://docs.cursor.com/){target="_blank"}
