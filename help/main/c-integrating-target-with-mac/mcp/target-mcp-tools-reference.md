@@ -30,7 +30,7 @@ This page is a complete reference for all public tools exposed by the [!DNL Adob
 
 ## Activity tools {#tools-activities}
 
-### list_target_activities
++++list_target_activities
 
 List [!DNL Adobe Target] activities with server-side filtering and sorting.
 
@@ -61,7 +61,9 @@ Retrieves a paginated list of activities. All filters are applied server-side by
 
 **Example prompt:** "List all active A/B tests sorted by most recently modified."
 
-### get_ab_activity
++++
+
++++get_ab_activity
 
 Get detailed information about an A/B activity.
 
@@ -75,7 +77,9 @@ Retrieves the full configuration of a specific A/B test, including experiences, 
 
 **Example prompt:** "Get details for A/B activity 12345."
 
-### get_xt_activity
++++
+
++++get_xt_activity
 
 Get detailed information about an Experience Targeting (XT) activity.
 
@@ -89,7 +93,9 @@ Retrieves the full configuration of a specific XT activity, including audience-e
 
 **Example prompt:** "Get details for Experience Targeting activity 12345."
 
-### get_abt_activity
++++
+
++++get_abt_activity
 
 Get detailed information about an Automated Personalization (AP) activity.
 
@@ -101,7 +107,9 @@ Get detailed information about an Automated Personalization (AP) activity.
 
 **Example prompt:** "Get details for Auto-Personalization activity 12345."
 
-### create_ab_activity
++++
+
++++create_ab_activity
 
 Create a new A/B test activity.
 
@@ -124,7 +132,9 @@ Creates a new A/B test with the specified configuration including experiences, o
 
 **Example prompt:** "Create an A/B test called 'Homepage Hero Test' with two experiences testing different hero images on the homepage-hero mbox."
 
-### create_xt_activity
++++
+
++++create_xt_activity
 
 Create a new Experience Targeting (XT) activity.
 
@@ -146,7 +156,9 @@ Creates an XT activity that delivers different experiences to different audience
 
 **Example prompt:** "Create an Experience Targeting activity called 'Geo Personalization' that shows different content to visitors from different regions."
 
-### update_ab_activity
++++
+
++++update_ab_activity
 
 Update an existing A/B activity.
 
@@ -161,7 +173,9 @@ Uses a read-modify-write pattern: fetches the current state, merges your changes
 
 **Example prompt:** "Update activity 12345 to change the traffic allocation to 70/30."
 
-### update_xt_activity
++++
+
++++update_xt_activity
 
 Update an existing Experience Targeting activity.
 
@@ -176,7 +190,9 @@ Uses a read-modify-write pattern.
 
 **Example prompt:** "Update XT activity 12345 to add a new experience for mobile visitors."
 
-### update_abt_activity
++++
+
++++update_abt_activity
 
 Update an existing Automated Personalization activity.
 
@@ -191,7 +207,9 @@ Uses a read-modify-write pattern.
 
 **Example prompt:** "Update Auto-Personalization activity 12345 to change the optimization goal."
 
-### update_activity_schedule
++++
+
++++update_activity_schedule
 
 Update activity start and end dates.
 
@@ -208,7 +226,9 @@ Updates the schedule for an activity without modifying other settings.
 
 **Example prompt:** "Update the schedule for A/B activity 12345 to run from May 1st to May 31st."
 
-### update_activity_state
++++
+
++++update_activity_state
 
 Change activity state (activate, deactivate, or pause).
 
@@ -221,7 +241,9 @@ Change activity state (activate, deactivate, or pause).
 
 **Example prompt:** "Activate activity 12345" or "Pause the Homepage Hero Test."
 
-### update_activity_name
++++
+
++++update_activity_name
 
 Rename an activity.
 
@@ -236,7 +258,9 @@ Updates only the name without modifying the full configuration.
 
 **Example prompt:** "Rename activity 12345 to 'Summer Campaign Hero Test'."
 
-### update_activity_priority
++++
+
++++update_activity_priority
 
 Change activity priority.
 
@@ -251,7 +275,9 @@ Higher-priority activities take precedence when multiple activities target the s
 
 **Example prompt:** "Set the priority of activity 12345 to 100."
 
-### add_activity_variant
++++
+
++++add_activity_variant
 
 Add a new experience/variant to an activity.
 
@@ -272,7 +298,9 @@ Handles all structural coordination including creating options, mapping to locat
 
 **Example prompt:** "Add a new variant called 'Holiday Theme' to A/B activity 12345 using offer 67890."
 
-### update_traffic_split
++++
+
++++update_traffic_split
 
 Update traffic allocation across variants.
 
@@ -288,7 +316,9 @@ The percentages must sum to exactly 100.
 
 **Example prompt:** "Change the traffic split for activity 12345 to 70% Control and 30% Variant A."
 
-### update_variant_offer
++++
+
++++update_variant_offer
 
 Change the offer for a specific variant.
 
@@ -307,7 +337,9 @@ Works for both form-based activities (using `offer_id`) and VEC activities (usin
 
 **Example prompt:** "Update the 'Variant A' experience in activity 12345 to use offer 99999."
 
-### remove_activity_variant
++++
+
++++remove_activity_variant
 
 Remove an experience/variant from an activity.
 
@@ -323,9 +355,11 @@ Removes the experience, cleans up orphaned options, and rebalances traffic evenl
 
 **Example prompt:** "Remove the 'Test Variant' experience from A/B activity 12345."
 
++++
+
 ## Offer tools {#tools-offers}
 
-### list_target_offers
++++list_target_offers
 
 List all offers in your [!DNL Target] tenant.
 
@@ -342,7 +376,9 @@ Retrieves a paginated list of content offers with optional filtering.
 
 **Example prompt:** "List all JSON offers."
 
-### get_target_offer
++++
+
++++get_target_offer
 
 Get detailed information about a specific offer.
 
@@ -354,7 +390,9 @@ Get detailed information about a specific offer.
 
 **Example prompt:** "Get details for offer 67890."
 
-### create_target_offer
++++
+
++++create_target_offer
 
 Create a new HTML content offer.
 
@@ -368,7 +406,9 @@ Create a new HTML content offer.
 
 **Example prompt:** "Create an HTML offer called 'Summer Sale Banner' with a promotional banner."
 
-### create_target_json_offer
++++
+
++++create_target_json_offer
 
 Create a new JSON offer for delivering structured data.
 
@@ -382,7 +422,9 @@ Create a new JSON offer for delivering structured data.
 
 **Example prompt:** "Create a JSON offer called 'Feature Flags Config' with feature toggle settings."
 
-### update_target_offer
++++
+
++++update_target_offer
 
 Update an existing offer.
 
@@ -396,9 +438,11 @@ Update an existing offer.
 
 **Example prompt:** "Update offer 67890 with new promotional content."
 
++++
+
 ## Audience tools {#tools-audiences}
 
-### list_target_audiences
++++list_target_audiences
 
 List all audiences in your [!DNL Target] tenant.
 
@@ -411,7 +455,9 @@ List all audiences in your [!DNL Target] tenant.
 
 **Example prompt:** "List all audiences."
 
-### create_target_audience
++++
+
++++create_target_audience
 
 Create a new audience with targeting rules.
 
@@ -426,9 +472,11 @@ Create a new audience with targeting rules.
 
 **Example prompt:** "Create an audience called 'Mobile Visitors from California' targeting mobile users in CA."
 
++++
+
 ## Mbox tools {#tools-mboxes}
 
-### list_target_mboxes
++++list_target_mboxes
 
 List all mboxes in your [!DNL Target] tenant.
 
@@ -443,7 +491,9 @@ List all mboxes in your [!DNL Target] tenant.
 
 **Example prompt:** "List all mboxes containing 'homepage'."
 
-### get_target_mbox
++++
+
++++get_target_mbox
 
 Get detailed information about a specific mbox.
 
@@ -455,7 +505,9 @@ Get detailed information about a specific mbox.
 
 **Example prompt:** "Get details for mbox 'homepage-hero'."
 
-### list_target_mbox_profile_attributes
++++
+
++++list_target_mbox_profile_attributes
 
 List all mbox profile attributes available for targeting.
 
@@ -465,9 +517,11 @@ No parameters required.
 
 **Example prompt:** "What profile attributes are available for targeting?"
 
++++
+
 ## Property tools {#tools-properties}
 
-### list_target_properties
++++list_target_properties
 
 List all properties in your [!DNL Target] tenant.
 
@@ -479,9 +533,11 @@ No parameters required.
 
 **Example prompt:** "List all Target properties."
 
++++
+
 ## Reporting tools {#tools-reporting}
 
-### get_ab_performance_report
++++get_ab_performance_report
 
 Get a performance report for an A/B activity.
 
@@ -496,7 +552,9 @@ Retrieves conversion rates, lift, and confidence levels.
 
 **Example prompt:** "Show me the performance report for A/B test 12345 over the last 30 days."
 
-### get_ab_orders_report
++++
+
++++get_ab_orders_report
 
 Get an orders/revenue report for an A/B activity.
 
@@ -509,7 +567,9 @@ Get an orders/revenue report for an A/B activity.
 
 **Example prompt:** "Get the orders report for activity 12345."
 
-### get_xt_performance_report
++++
+
++++get_xt_performance_report
 
 Get a performance report for an Experience Targeting activity.
 
@@ -522,7 +582,9 @@ Get a performance report for an Experience Targeting activity.
 
 **Example prompt:** "Show performance for my Experience Targeting activity 54321."
 
-### get_xt_orders_report
++++
+
++++get_xt_orders_report
 
 Get an orders/revenue report for an Experience Targeting activity.
 
@@ -535,7 +597,9 @@ Get an orders/revenue report for an Experience Targeting activity.
 
 **Example prompt:** "Get orders data for XT activity 54321."
 
-### get_activity_report_by_name
++++
+
++++get_activity_report_by_name
 
 Search for an activity by name and get its performance report.
 
@@ -550,9 +614,11 @@ Useful when you know the activity name but not its ID.
 
 **Example prompt:** "Get the performance report for my 'Homepage Hero Test' activity."
 
++++
+
 ## Preview tools {#tools-preview}
 
-### preview_activity
++++preview_activity
 
 Generate browser QA preview URLs for a [!DNL Target] activity.
 
@@ -568,9 +634,11 @@ Creates clickable preview links that force specific experiences to display, bypa
 
 **Example prompt:** "Generate preview URLs for activity 12345 so I can test each experience in my browser."
 
++++
+
 ## Response token tools {#tools-response-tokens}
 
-### list_target_response_tokens
++++list_target_response_tokens
 
 List all response tokens in your [!DNL Target] tenant.
 
@@ -582,7 +650,9 @@ No parameters required.
 
 **Example prompt:** "List all response tokens."
 
-### create_target_response_token
++++
+
++++create_target_response_token
 
 Create a new custom response token for collecting additional data in [!DNL Target] responses.
 
@@ -595,9 +665,11 @@ Create a new custom response token for collecting additional data in [!DNL Targe
 
 **Example prompt:** "Create a custom response token called 'campaign_id' of type ACTIVITY."
 
++++
+
 ## Revision tools {#tools-revisions}
 
-### get_target_revisions
++++get_target_revisions
 
 Get the audit log for a resource type.
 
@@ -614,7 +686,9 @@ Retrieves changes made to [!DNL Target] resources with optional filtering by aut
 
 **Example prompt:** "Show me the audit log for activity changes."
 
-### get_target_entity_revisions
++++
+
++++get_target_entity_revisions
 
 Get all revisions of a specific entity by ID.
 
@@ -627,9 +701,11 @@ Get all revisions of a specific entity by ID.
 
 **Example prompt:** "Show me all changes made to activity 12345."
 
++++
+
 ## Template tools {#tools-templates}
 
-### list_target_templates
++++list_target_templates
 
 List available MCP resources and templates for creating activities and offers.
 
@@ -638,6 +714,8 @@ No parameters required.
 **Returns:** JSON object listing available templates and resources.
 
 **Example prompt:** "What templates are available for creating activities?"
+
++++
 
 ## Tools summary {#tools-summary}
 
