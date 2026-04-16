@@ -185,7 +185,7 @@ The following walkthroughs show how to complete common tasks using natural-langu
 +++Creating an A/B test
 
 **Prompt:**
-> "Create an A/B test called 'Homepage Hero Image Test' with two experiences: 'Control' showing the current hero and 'Variant' showing a new summer-themed hero image. Target the homepage mbox."
+"Create an A/B test called 'Homepage Hero Image Test' with two experiences: 'Control' showing the current hero and 'Variant' showing a new summer-themed hero image. Target the homepage mbox."
 
 The AI assistant uses the `create_ab_activity` tool to create the activity with the configuration you described. The tool returns the new activity ID and a confirmation of the created experiences.
 
@@ -194,7 +194,7 @@ The AI assistant uses the `create_ab_activity` tool to create the activity with 
 +++Checking activity performance
 
 **Prompt:**
-> "Show me the performance metrics for my 'Checkout Flow Optimization' activity over the last 30 days."
+"Show me the performance metrics for my 'Checkout Flow Optimization' activity over the last 30 days."
 
 The AI assistant uses `get_ab_performance_report` or `get_xt_performance_report` (depending on activity type) to retrieve conversion rates, visitor counts, and other metrics for the specified time window.
 
@@ -203,7 +203,7 @@ The AI assistant uses `get_ab_performance_report` or `get_xt_performance_report`
 +++Managing offers
 
 **Prompt:**
-> "Create an HTML offer called 'Summer Sale Banner' with a promotional banner that says '20% off all summer items'."
+"Create an HTML offer called 'Summer Sale Banner' with a promotional banner that says '20% off all summer items'."
 
 The AI assistant uses the `create_target_offer` tool to create the offer with your specified HTML content and returns a confirmation with the new offer ID.
 
@@ -212,7 +212,7 @@ The AI assistant uses the `create_target_offer` tool to create the offer with yo
 +++Building an audience
 
 **Prompt:**
-> "Create an audience called 'Mobile Visitors from California' that targets users on mobile devices located in California."
+"Create an audience called 'Mobile Visitors from California' that targets users on mobile devices located in California."
 
 The AI assistant uses the `create_target_audience` tool with the appropriate targeting rules derived from your description.
 
@@ -221,7 +221,7 @@ The AI assistant uses the `create_target_audience` tool with the appropriate tar
 +++Generating QA preview links
 
 **Prompt:**
-> "Generate preview URLs for activity 12345 so I can test each experience."
+"Generate preview URLs for activity 12345 so I can test each experience."
 
 The AI assistant uses the `preview_activity` tool to generate clickable URLs that bypass audience targeting, letting you view each experience directly in your browser.
 
@@ -230,7 +230,7 @@ The AI assistant uses the `preview_activity` tool to generate clickable URLs tha
 +++Creating an Experience Targeting activity
 
 **Prompt:**
-> "Create an Experience Targeting activity called 'Geo Personalization' that shows different hero banners to visitors from different regions."
+"Create an Experience Targeting activity called 'Geo Personalization' that shows different hero banners to visitors from different regions."
 
 The AI assistant uses `create_xt_activity` to build the activity with audience-based experience mapping according to the regions you describe.
 
@@ -239,7 +239,7 @@ The AI assistant uses `create_xt_activity` to build the activity with audience-b
 +++Scheduling an activity
 
 **Prompt:**
-> "Update the schedule for activity 12345 to start on May 1st and end on May 31st."
+"Update the schedule for activity 12345 to start on May 1st and end on May 31st."
 
 The AI assistant uses the `update_activity_schedule` tool to apply the new start and end dates to the activity.
 
