@@ -18,15 +18,22 @@ Table of contents:
 
 * **[Work with MCP clients](target-mcp.md)**
 * [MCP server tools reference](target-mcp-tools-reference.md)
-* [Self-host the MCP server](target-mcp-self-hosted.md)
 
 >[!ENDSHADEBOX]
 
 >[!AVAILABILITY]
 >
->The [!DNL Adobe Target] MCP server is currently available in **Claude Web**, **Claude Desktop**, **Claude Code**, and **Cursor**. Support for additional MCP-compatible applications will be added in future releases.
+>The [!DNL Adobe Target] MCP server is currently available in **Claude Web**, **Claude Desktop**, **Claude Code**, **Cursor**, and **ChatGPT**. Support for additional MCP-compatible applications will be added in future releases.
 
 The [!DNL Adobe Target] MCP integration lets you inspect, analyze, and manage A/B tests, personalization activities, and Recommendations criteria directly from your AI assistant. Turn [!DNL Target]'s read and write APIs into plain-language workflows — audit your experiment portfolio, review performance reports, manage audiences and offers, and take governed actions without navigating the UI or writing API calls. This page explains how the integration works, what you can do with it, and how to get started.
+
+>[!IMPORTANT]
+>
+>The Model Context Protocol (MCP) is an emerging open-source standard and may present security or reliability risks. Adobe MCP server integrations and related documentation are provided "as is," without warranties of any kind.
+>
+>Connecting MCP clients or servers to Adobe products is a customer-elected configuration, and customers are responsible for evaluating the security and suitability of any MCP integration. Adobe is not responsible for issues arising from misconfiguration, misuse of the MCP, vulnerabilities in third-party implementations, or unintended actions performed through MCP-enabled workflows.
+>
+>To reduce risk, Adobe encourages testing integrations in a sandbox environment prior to productive use and carefully reviewing and validating all MCP-initiated actions and responses before confirming or relying on them.
 
 ## What is the Model Context Protocol? {#mcp-overview}
 
@@ -250,7 +257,7 @@ The AI assistant uses the `update_activity_schedule` tool to apply the new start
 Before connecting the [!DNL Adobe Target] MCP server to your MCP client, ensure the following:
 
 * You have an active [!DNL Adobe Target] license (Adobe Experience Cloud subscription) with an Adobe Experience Platform organization.
-* You have a supported MCP-compatible application (currently Claude Web, Claude Desktop, Claude Code, or Cursor).
+* You have a supported MCP-compatible application (currently Claude Web, Claude Desktop, Claude Code, Cursor, or ChatGPT).
 * You have [!DNL Adobe Target] permissions configured in Adobe Admin Console:
   * **Observer** role: read-only tools
   * **Editor** role: read + create tools
@@ -356,7 +363,7 @@ OAuth tokens are validated against Adobe IMS on each request, are not stored per
 
 +++Which MCP clients are supported?
 
-The [!DNL Adobe Target] MCP server is currently available for **Claude Web**, **Claude Desktop**, **Claude Code**, and **Cursor**. Support for additional MCP-compatible applications may be added in future releases.
+The [!DNL Adobe Target] MCP server is currently available for **Claude Web**, **Claude Desktop**, **Claude Code**, **Cursor**, and **ChatGPT**. Support for additional MCP-compatible applications may be added in future releases.
 +++
 
 +++What [!DNL Adobe Target] objects can I access via MCP?
@@ -397,7 +404,6 @@ The MCP server scopes operations to the organization associated with your authen
 ## Related resources {#mcp-related}
 
 * [MCP server tools reference](target-mcp-tools-reference.md)
-* [Self-host the [!DNL Adobe Target] MCP server](target-mcp-self-hosted.md)
 * [Model Context Protocol documentation](https://modelcontextprotocol.io/introduction){target="_blank"}
 * [[!DNL Adobe Target] Admin API reference](https://developers.adobe.com/target/administer/admin-api/){target="_blank"}
 * [Cursor documentation](https://docs.cursor.com/){target="_blank"}

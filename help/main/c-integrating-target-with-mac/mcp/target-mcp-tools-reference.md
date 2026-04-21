@@ -18,7 +18,6 @@ Table of contents:
 
 * [Work with MCP clients](target-mcp.md)
 * **[MCP server tools reference](target-mcp-tools-reference.md)**
-* [Self-host the MCP server](target-mcp-self-hosted.md)
 
 >[!ENDSHADEBOX]
 
@@ -26,7 +25,15 @@ This page is a complete reference for all public tools exposed by the [!DNL Adob
 
 >[!NOTE]
 >
->Only public tools are documented here. Internal and agent-only tools are excluded. Read tools are available to all connected users with **Observer** role or higher; write tools require **Editor** or **Approver** role.
+>Read tools are available to all connected users with **Observer** role or higher; write tools require **Editor** or **Approver** role.
+
+>[!IMPORTANT]
+>
+>The Model Context Protocol (MCP) is an emerging open-source standard and may present security or reliability risks. Adobe MCP server integrations and related documentation are provided "as is," without warranties of any kind.
+>
+>Connecting MCP clients or servers to Adobe products is a customer-elected configuration, and customers are responsible for evaluating the security and suitability of any MCP integration. Adobe is not responsible for issues arising from misconfiguration, misuse of the MCP, vulnerabilities in third-party implementations, or unintended actions performed through MCP-enabled workflows.
+>
+>To reduce risk, Adobe encourages testing integrations in a sandbox environment prior to productive use and carefully reviewing and validating all MCP-initiated actions and responses before confirming or relying on them.
 
 ## Activity tools {#tools-activities}
 
@@ -736,5 +743,4 @@ No parameters required.
 ## Related resources {#tools-related}
 
 * [Work with MCP clients](target-mcp.md)
-* [Self-host the [!DNL Adobe Target] MCP server](target-mcp-self-hosted.md)
 * [[!DNL Adobe Target] Admin API reference](https://developers.adobe.com/target/administer/admin-api/){target="_blank"}

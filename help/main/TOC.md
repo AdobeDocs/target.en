@@ -103,7 +103,6 @@ feature-set: Target
    + Work with MCP clients {#mcp}
       + {hide-from-toc} [Work with MCP clients](c-integrating-target-with-mac/mcp/target-mcp.md)
       + {hide-from-toc} [Adobe Target MCP server tools reference](c-integrating-target-with-mac/mcp/target-mcp-tools-reference.md)
-      + {hide-from-toc} [Self-host the Adobe Target MCP server](c-integrating-target-with-mac/mcp/target-mcp-self-hosted.md)
    + Integrate Target with Adobe Experience Manager (AEM) {#aem}
       + [Integrate Target with AEM overview](/help/main/c-integrating-target-with-mac/aem/aem-target-integration.md)
       + Experience Fragments and Content Fragments {#fragments}
