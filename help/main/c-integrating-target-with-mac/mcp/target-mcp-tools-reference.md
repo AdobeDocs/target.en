@@ -37,7 +37,9 @@ This page is a complete reference for all public tools exposed by the [!DNL Adob
 
 ## Activity tools {#tools-activities}
 
-+++list_target_activities
++++List activities
+
+**Tool:** `list_target_activities`
 
 List [!DNL Adobe Target] activities with server-side filtering and sorting.
 
@@ -70,7 +72,9 @@ Retrieves a paginated list of activities. All filters are applied server-side by
 
 +++
 
-+++get_ab_activity
++++Get an A/B activity
+
+**Tool:** `get_ab_activity`
 
 Get detailed information about an A/B activity.
 
@@ -86,7 +90,9 @@ Retrieves the full configuration of a specific A/B test, including experiences, 
 
 +++
 
-+++get_xt_activity
++++Get an Experience Targeting activity
+
+**Tool:** `get_xt_activity`
 
 Get detailed information about an Experience Targeting (XT) activity.
 
@@ -102,7 +108,9 @@ Retrieves the full configuration of a specific XT activity, including audience-e
 
 +++
 
-+++get_abt_activity
++++Get an Automated Personalization activity
+
+**Tool:** `get_abt_activity`
 
 Get detailed information about an Automated Personalization (AP) activity.
 
@@ -116,7 +124,9 @@ Get detailed information about an Automated Personalization (AP) activity.
 
 +++
 
-+++create_ab_activity
++++Create an A/B activity
+
+**Tool:** `create_ab_activity`
 
 Create a new A/B test activity.
 
@@ -141,7 +151,9 @@ Creates a new A/B test with the specified configuration including experiences, o
 
 +++
 
-+++create_xt_activity
++++Create an Experience Targeting activity
+
+**Tool:** `create_xt_activity`
 
 Create a new Experience Targeting (XT) activity.
 
@@ -165,7 +177,9 @@ Creates an XT activity that delivers different experiences to different audience
 
 +++
 
-+++update_ab_activity
++++Update an A/B activity
+
+**Tool:** `update_ab_activity`
 
 Update an existing A/B activity.
 
@@ -182,7 +196,9 @@ Uses a read-modify-write pattern: fetches the current state, merges your changes
 
 +++
 
-+++update_xt_activity
++++Update an Experience Targeting activity
+
+**Tool:** `update_xt_activity`
 
 Update an existing Experience Targeting activity.
 
@@ -199,7 +215,9 @@ Uses a read-modify-write pattern.
 
 +++
 
-+++update_abt_activity
++++Update an Automated Personalization activity
+
+**Tool:** `update_abt_activity`
 
 Update an existing Automated Personalization activity.
 
@@ -216,7 +234,9 @@ Uses a read-modify-write pattern.
 
 +++
 
-+++update_activity_schedule
++++Update activity schedule
+
+**Tool:** `update_activity_schedule`
 
 Update activity start and end dates.
 
@@ -235,7 +255,9 @@ Updates the schedule for an activity without modifying other settings.
 
 +++
 
-+++update_activity_state
++++Change activity state
+
+**Tool:** `update_activity_state`
 
 Change activity state (activate, deactivate, or pause).
 
@@ -250,7 +272,9 @@ Change activity state (activate, deactivate, or pause).
 
 +++
 
-+++update_activity_name
++++Rename an activity
+
+**Tool:** `update_activity_name`
 
 Rename an activity.
 
@@ -267,7 +291,9 @@ Updates only the name without modifying the full configuration.
 
 +++
 
-+++update_activity_priority
++++Change activity priority
+
+**Tool:** `update_activity_priority`
 
 Change activity priority.
 
@@ -284,7 +310,9 @@ Higher-priority activities take precedence when multiple activities target the s
 
 +++
 
-+++add_activity_variant
++++Add a variant to an activity
+
+**Tool:** `add_activity_variant`
 
 Add a new experience/variant to an activity.
 
@@ -307,7 +335,9 @@ Handles all structural coordination including creating options, mapping to locat
 
 +++
 
-+++update_traffic_split
++++Update traffic split
+
+**Tool:** `update_traffic_split`
 
 Update traffic allocation across variants.
 
@@ -325,7 +355,9 @@ The percentages must sum to exactly 100.
 
 +++
 
-+++update_variant_offer
++++Change a variant's offer
+
+**Tool:** `update_variant_offer`
 
 Change the offer for a specific variant.
 
@@ -346,7 +378,9 @@ Works for both form-based activities (using `offer_id`) and VEC activities (usin
 
 +++
 
-+++remove_activity_variant
++++Remove a variant from an activity
+
+**Tool:** `remove_activity_variant`
 
 Remove an experience/variant from an activity.
 
@@ -366,7 +400,9 @@ Removes the experience, cleans up orphaned options, and rebalances traffic evenl
 
 ## Offer tools {#tools-offers}
 
-+++list_target_offers
++++List offers
+
+**Tool:** `list_target_offers`
 
 List all offers in your [!DNL Target] tenant.
 
@@ -385,7 +421,9 @@ Retrieves a paginated list of content offers with optional filtering.
 
 +++
 
-+++get_target_offer
++++Get an offer
+
+**Tool:** `get_target_offer`
 
 Get detailed information about a specific offer.
 
@@ -399,7 +437,9 @@ Get detailed information about a specific offer.
 
 +++
 
-+++create_target_offer
++++Create an HTML offer
+
+**Tool:** `create_target_offer`
 
 Create a new HTML content offer.
 
@@ -415,7 +455,9 @@ Create a new HTML content offer.
 
 +++
 
-+++create_target_json_offer
++++Create a JSON offer
+
+**Tool:** `create_target_json_offer`
 
 Create a new JSON offer for delivering structured data.
 
@@ -431,7 +473,9 @@ Create a new JSON offer for delivering structured data.
 
 +++
 
-+++update_target_offer
++++Update an offer
+
+**Tool:** `update_target_offer`
 
 Update an existing offer.
 
@@ -449,7 +493,9 @@ Update an existing offer.
 
 ## Audience tools {#tools-audiences}
 
-+++list_target_audiences
++++List audiences
+
+**Tool:** `list_target_audiences`
 
 List all audiences in your [!DNL Target] tenant.
 
@@ -464,7 +510,9 @@ List all audiences in your [!DNL Target] tenant.
 
 +++
 
-+++create_target_audience
++++Create an audience
+
+**Tool:** `create_target_audience`
 
 Create a new audience with targeting rules.
 
@@ -483,7 +531,9 @@ Create a new audience with targeting rules.
 
 ## Mbox tools {#tools-mboxes}
 
-+++list_target_mboxes
++++List mboxes
+
+**Tool:** `list_target_mboxes`
 
 List all mboxes in your [!DNL Target] tenant.
 
@@ -500,7 +550,9 @@ List all mboxes in your [!DNL Target] tenant.
 
 +++
 
-+++get_target_mbox
++++Get an mbox
+
+**Tool:** `get_target_mbox`
 
 Get detailed information about a specific mbox.
 
@@ -514,7 +566,9 @@ Get detailed information about a specific mbox.
 
 +++
 
-+++list_target_mbox_profile_attributes
++++List mbox profile attributes
+
+**Tool:** `list_target_mbox_profile_attributes`
 
 List all mbox profile attributes available for targeting.
 
@@ -528,7 +582,9 @@ No parameters required.
 
 ## Property tools {#tools-properties}
 
-+++list_target_properties
++++List properties
+
+**Tool:** `list_target_properties`
 
 List all properties in your [!DNL Target] tenant.
 
@@ -544,7 +600,9 @@ No parameters required.
 
 ## Reporting tools {#tools-reporting}
 
-+++get_ab_performance_report
++++Get an A/B performance report
+
+**Tool:** `get_ab_performance_report`
 
 Get a performance report for an A/B activity.
 
@@ -561,7 +619,9 @@ Retrieves conversion rates, lift, and confidence levels.
 
 +++
 
-+++get_ab_orders_report
++++Get an A/B orders report
+
+**Tool:** `get_ab_orders_report`
 
 Get an orders/revenue report for an A/B activity.
 
@@ -576,7 +636,9 @@ Get an orders/revenue report for an A/B activity.
 
 +++
 
-+++get_xt_performance_report
++++Get an Experience Targeting performance report
+
+**Tool:** `get_xt_performance_report`
 
 Get a performance report for an Experience Targeting activity.
 
@@ -591,7 +653,9 @@ Get a performance report for an Experience Targeting activity.
 
 +++
 
-+++get_xt_orders_report
++++Get an Experience Targeting orders report
+
+**Tool:** `get_xt_orders_report`
 
 Get an orders/revenue report for an Experience Targeting activity.
 
@@ -606,7 +670,9 @@ Get an orders/revenue report for an Experience Targeting activity.
 
 +++
 
-+++get_activity_report_by_name
++++Get a performance report by activity name
+
+**Tool:** `get_activity_report_by_name`
 
 Search for an activity by name and get its performance report.
 
@@ -625,7 +691,9 @@ Useful when you know the activity name but not its ID.
 
 ## Preview tools {#tools-preview}
 
-+++preview_activity
++++Preview an activity
+
+**Tool:** `preview_activity`
 
 Generate browser QA preview URLs for a [!DNL Target] activity.
 
@@ -645,7 +713,9 @@ Creates clickable preview links that force specific experiences to display, bypa
 
 ## Response token tools {#tools-response-tokens}
 
-+++list_target_response_tokens
++++List response tokens
+
+**Tool:** `list_target_response_tokens`
 
 List all response tokens in your [!DNL Target] tenant.
 
@@ -659,7 +729,9 @@ No parameters required.
 
 +++
 
-+++create_target_response_token
++++Create a response token
+
+**Tool:** `create_target_response_token`
 
 Create a new custom response token for collecting additional data in [!DNL Target] responses.
 
@@ -676,7 +748,9 @@ Create a new custom response token for collecting additional data in [!DNL Targe
 
 ## Revision tools {#tools-revisions}
 
-+++get_target_revisions
++++Get the audit log
+
+**Tool:** `get_target_revisions`
 
 Get the audit log for a resource type.
 
@@ -695,7 +769,9 @@ Retrieves changes made to [!DNL Target] resources with optional filtering by aut
 
 +++
 
-+++get_target_entity_revisions
++++Get revisions for a specific entity
+
+**Tool:** `get_target_entity_revisions`
 
 Get all revisions of a specific entity by ID.
 
@@ -712,7 +788,9 @@ Get all revisions of a specific entity by ID.
 
 ## Template tools {#tools-templates}
 
-+++list_target_templates
++++List available templates
+
+**Tool:** `list_target_templates`
 
 List available MCP resources and templates for creating activities and offers.
 
