@@ -16,16 +16,14 @@ hide: true
 
 Table of contents:
 
-* [Work with MCP clients](target-mcp.md)
+* [Overview](target-mcp.md)
+* [Get started](target-mcp-get-started.md)
+* [Use cases and walkthroughs](target-mcp-use-cases.md)
 * **[MCP server tools reference](target-mcp-tools-reference.md)**
 
 >[!ENDSHADEBOX]
 
-This page is a complete reference for all public tools exposed by the [!DNL Adobe Target] MCP server. For each tool you'll find a description, parameter details, return value, and an example natural-language prompt. For setup instructions and use cases, see [Work with MCP clients](target-mcp.md).
-
->[!NOTE]
->
->Read tools are available to all connected users with **Observer** role or higher; write tools require **Editor** or **Approver** role.
+This page is a complete reference for all public tools exposed by the [!DNL Adobe Target] MCP server. For each tool you'll find a description, parameter details, return value, and an example natural-language prompt. For setup instructions and use cases, see [Get started](target-mcp-get-started.md) and [Use cases and walkthroughs](target-mcp-use-cases.md).
 
 >[!IMPORTANT]
 >
@@ -34,6 +32,16 @@ This page is a complete reference for all public tools exposed by the [!DNL Adob
 >Connecting MCP clients or servers to Adobe products is a customer-elected configuration, and customers are responsible for evaluating the security and suitability of any MCP integration. Adobe is not responsible for issues arising from misconfiguration, misuse of the MCP, vulnerabilities in third-party implementations, or unintended actions performed through MCP-enabled workflows.
 >
 >To reduce risk, Adobe encourages testing integrations in a sandbox environment prior to productive use and carefully reviewing and validating all MCP-initiated actions and responses before confirming or relying on them.
+
+## Prerequisites {#tools-prerequisites}
+
+Your [!DNL Adobe Target] role determines which tools are available to you:
+
+* **Observer** role or higher: access to all read tools
+* **Editor** role: access to read and write (create) tools
+* **Approver** role: access to read, write, and activate/deactivate tools
+
+For full setup instructions, see [Get started](target-mcp-get-started.md).
 
 ## Activity tools {#tools-activities}
 

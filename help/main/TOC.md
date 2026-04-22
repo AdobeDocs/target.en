@@ -100,9 +100,11 @@ feature-set: Target
          + {hide-from-toc} [Content changes through A/B testing in Adobe Journey Optimizer](/help/main/c-integrating-target-with-mac/ajo/content-change-using-ajo.md)
          + {hide-from-toc} [Add or hide components to your web page](/help/main/c-integrating-target-with-mac/ajo/add-hide-content-using-ajo.md)
    + [Experience Cloud Audiences](/help/main/c-integrating-target-with-mac/mmp.md)
-   + Work with MCP clients {#mcp}
-      + {hide-from-toc} [Work with MCP clients](c-integrating-target-with-mac/mcp/target-mcp.md)
-      + {hide-from-toc} [Adobe Target MCP server tools reference](c-integrating-target-with-mac/mcp/target-mcp-tools-reference.md)
+   + Adobe Target MCP server {#mcp}
+      + {hide-from-toc} [Overview](c-integrating-target-with-mac/mcp/target-mcp.md)
+      + {hide-from-toc} [Get started](c-integrating-target-with-mac/mcp/target-mcp-get-started.md)
+      + {hide-from-toc} [Use cases and walkthroughs](c-integrating-target-with-mac/mcp/target-mcp-use-cases.md)
+      + {hide-from-toc} [MCP server tools reference](c-integrating-target-with-mac/mcp/target-mcp-tools-reference.md)
    + Integrate Target with Adobe Experience Manager (AEM) {#aem}
       + [Integrate Target with AEM overview](/help/main/c-integrating-target-with-mac/aem/aem-target-integration.md)
       + Experience Fragments and Content Fragments {#fragments}
