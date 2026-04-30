@@ -61,10 +61,12 @@ For more information, see [[!DNL Target] UI update FAQs](/help/main/c-intro/upda
 
 * **Modifications removed when deleting insert HTML.** Fixed an issue where deleting the extra **[!UICONTROL HTML]** block added with **[!UICONTROL Insert before]** or **[!UICONTROL Insert after]** also removed a linked modification that had no CSS selector. (TGT-54530)
 
++++
+
 <!--
 * **Blank page or CORS errors with Enhanced Experience Composer.** Fixed an issue where the [!UICONTROL Visual Experience Composer] could fail to load when Enhanced Experience Composer (EEC) was enabled. (TGT-54576)
 
-+++
+
 
 
 **[!UICONTROL Visual Experience Composer] (VEC)**
