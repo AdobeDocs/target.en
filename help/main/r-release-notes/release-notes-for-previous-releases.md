@@ -17,6 +17,46 @@ Release notes are listed in descending order by month and year of release.
 
 ## Release notes - 2026
 
+## [!DNL Target Standard/Premium] 26.4.4 (April 28, 2026)
+
+**Activities**
+
++++See details
+
+* **Error with Audience filter in Reports.** Fixed an issue where changing the audience filter within **[!UICONTROL Goals & Settings]** caused an error in the Reporting section of the [!DNL Target] user interface. (TGT-55006)
+
+* **Sort activities by priority.** Added sorting by priority on the activities list using the **[!UICONTROL Priority]** column header, with ascending and descending order consistent with other sortable columns. (TGT-54948)
+
+* **Additional activity properties not retained after save.** Fixed an issue where certain **[!UICONTROL Properties]** selections did not persist after saving and reopening an activity. (TGT-53889)
+
++++
+
+**Localization**
+
++++See details
+
+* **Japanese labels for [!UICONTROL Page Delivery] rule operators.** Fixed unreadable or corrupted strings for page delivery rule operator labels in the Japanese UI. (TGT-53097)
+
++++
+
+**APIs**
+
++++See details
+
+* **Reporting [!DNL GraphQL] API support for `segmentId`.** Added `segmentId` to the reporting [!DNL GraphQL] API. (TGT-55021)
+
++++
+
+**[!UICONTROL Visual Experience Composer] (VEC)**
+
++++See details
+
+* **Modifications shown on the wrong experience in the editor.** Fixed an issue where a delete or other modification could appear on the wrong experience after switching between experiences in the [!UICONTROL Visual Experience Composer]. (TGT-54955)
+
+* **Modifications removed when deleting insert HTML.** Fixed an issue where deleting the extra **[!UICONTROL HTML]** block added with **[!UICONTROL Insert before]** or **[!UICONTROL Insert after]** also removed a linked modification that had no CSS selector. (TGT-54530)
+
++++
+
 ## [!DNL Target Standard/Premium] 26.4.3 (April 9, 2026)
 
 **Activities**
