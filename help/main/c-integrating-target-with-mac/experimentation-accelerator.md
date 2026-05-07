@@ -1,14 +1,12 @@
 ---
 keywords: experimentation accelerator;target workspace;sandbox assignment;adobe journey optimizer;integrations
 description: Learn how to map Adobe Target workspaces to Experimentation Accelerator sandboxes so teams can view experiments from Adobe Target and Adobe Journey Optimizer in one place.
-title: How Do I Integrate [!DNL Target] with Experimentation Accelerator?
+title: How do I integrate [!DNL Target] with Experimentation Accelerator?
 feature: Integrations
 ---
 # Integrate [!DNL Target] with Experimentation Accelerator
 
 Experimentation Accelerator helps administrators manage how [!DNL Adobe Target] workspace activities are organized and displayed in the application. By mapping each [!DNL Target] workspace to the appropriate Experimentation Accelerator sandbox, teams can view experiments from [!DNL Adobe Target] and [!DNL Adobe Journey Optimizer] in one place.
-
-This integration is intended for organizations that run [!DNL Adobe Target] tests in Experimentation Accelerator. It is especially helpful when sandbox access restrictions prevent teams from seeing [!DNL Target] experiments.
 
 ➡️ [Learn more about Adobe Experimentation Accelerator](https://experienceleague.adobe.com/en/docs/experimentation-accelerator/using/overview)
 

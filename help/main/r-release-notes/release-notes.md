@@ -23,7 +23,7 @@ For time-sensitive updates related to [!DNL Adobe Target] and your implementatio
 
 For more information, see [[!DNL Target] UI update FAQs](/help/main/c-intro/updated-ui-faq.md).
 
-## [!DNL Target Standard/Premium] 26.4.4 (April 28, 2026)
+## [!DNL Target Standard/Premium] 26.5.1 (May 7, 2026)
 
 **Integrations**
 
@@ -32,6 +32,8 @@ For more information, see [[!DNL Target] UI update FAQs](/help/main/c-intro/upda
 * **[!DNL Adobe Target] management in Experimentation Accelerator.** Added support for assigning [!DNL Target] workspaces to Experimentation Accelerator sandboxes so teams can view experiments from [!DNL Adobe Target] and [!DNL Adobe Journey Optimizer] in one place. (DOCAC-14693)
 
 +++
+
+## [!DNL Target Standard/Premium] 26.4.4 (April 28, 2026)
 
 **Activities**
 
