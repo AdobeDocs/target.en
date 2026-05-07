@@ -33,6 +33,14 @@ For more information, see [[!DNL Target] UI update FAQs](/help/main/c-intro/upda
 
 +++
 
+**[!UICONTROL Audiences]**
+
++++See details
+
+* **Audience usage list not fully rendered.** Fixed an issue in which the **[!UICONTROL Usage]** section in audience details could display only a subset of mapped activities even when additional activities were associated with that audience. (TGT-55094)
+
++++
+
 **[!UICONTROL Administration]**
 
 +++See details
