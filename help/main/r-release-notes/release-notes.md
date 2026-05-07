@@ -29,7 +29,7 @@ For more information, see [[!DNL Target] UI update FAQs](/help/main/c-intro/upda
 
 +++See details
 
-* **[!DNL Adobe Target] management in Experimentation Accelerator.** Added support for assigning [!DNL Target] workspaces to Experimentation Accelerator sandboxes so teams can view experiments from [!DNL Adobe Target] and [!DNL Adobe Journey Optimizer] in one place. (DOCAC-14693)
+* **[!DNL Adobe Target] management in Experimentation Accelerator.** Added support for assigning [!DNL Target] workspaces to Experimentation Accelerator sandboxes so teams can view experiments from [!DNL Adobe Target] in Experimentation Accelerator in one place. [Learn more](../c-integrating-target-with-mac/experimentation-accelerator.md)
 
 +++
 
