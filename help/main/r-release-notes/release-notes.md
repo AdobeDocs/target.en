@@ -33,33 +33,27 @@ For more information, see [[!DNL Target] UI update FAQs](/help/main/c-intro/upda
 
 +++
 
-## [!DNL Target Standard/Premium] 26.4.4 (April 28, 2026)
-
 **Activities**
 
 +++See details
 
-* **Error with Audience filter in Reports.** Fixed an issue where changing the audience filter within **[!UICONTROL Goals & Settings]** caused an error in the Reporting section of the [!DNL Target] user interface. (TGT-55006)
-
-* **Sort activities by priority.** Added sorting by priority on the activities list using the **[!UICONTROL Priority]** column header, with ascending and descending order consistent with other sortable columns. (TGT-54948)
-
-* **Additional activity properties not retained after save.** Fixed an issue where certain **[!UICONTROL Properties]** selections did not persist after saving and reopening an activity. (TGT-53889)
+* **[!UICONTROL Graph View] out of sync with table and download.** Fixed an issue where activity reports could show missing or zero metrics in **[!UICONTROL Graph View]** for some date ranges even though **[!UICONTROL Table View]** and the downloaded report still showed the correct values. (TGT-54998)
 
 +++
 
-**Localization**
+**[!UICONTROL Audiences]**
 
 +++See details
 
-* **Japanese labels for [!UICONTROL Page Delivery] rule operators.** Fixed unreadable or corrupted strings for page delivery rule operator labels in the Japanese UI. (TGT-53097)
+* **Audience usage list not fully rendered.** Fixed an issue in which the **[!UICONTROL Usage]** section in audience details could display only a subset of mapped activities even when additional activities were associated with that audience. (TGT-55094)
 
 +++
 
-**APIs**
+**[!UICONTROL Administration]**
 
 +++See details
 
-* **Reporting [!DNL GraphQL] API support for `segmentId`.** Added `segmentId` to the reporting [!DNL GraphQL] API. (TGT-55021)
+* **Clearer confirmation for last-octet IP obfuscation.** When you change **[!UICONTROL Obfuscate Visitor IP addresses]** to **[!UICONTROL Last octet]** on **[!UICONTROL Administration]** > **[!UICONTROL Implementation]**, the confirmation dialog now explains that [!DNL Target] hides the last octet of the visitor IP address. (TGT-44821)
 
 +++
 
@@ -67,11 +61,10 @@ For more information, see [[!DNL Target] UI update FAQs](/help/main/c-intro/upda
 
 +++See details
 
-* **Modifications shown on the wrong experience in the editor.** Fixed an issue where a delete or other modification could appear on the wrong experience after switching between experiences in the [!UICONTROL Visual Experience Composer]. (TGT-54955)
-
-* **Modifications removed when deleting insert HTML.** Fixed an issue where deleting the extra **[!UICONTROL HTML]** block added with **[!UICONTROL Insert before]** or **[!UICONTROL Insert after]** also removed a linked modification that had no CSS selector. (TGT-54530)
+* **Blank or incomplete page with Enhanced Experience Composer (EEC).** Fixed an issue where the [!UICONTROL Visual Experience Composer] could fail to load the site in the editor when **[!UICONTROL Enhanced Experience Composer]** was enabled. (TGT-54576)
 
 +++
+
 
 <!--
 * **Blank page or CORS errors with Enhanced Experience Composer.** Fixed an issue where the [!UICONTROL Visual Experience Composer] could fail to load when Enhanced Experience Composer (EEC) was enabled. (TGT-54576)
