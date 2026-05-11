@@ -33,8 +33,6 @@ For more information, see [[!DNL Target] UI update FAQs](/help/main/c-intro/upda
 
 +++
 
-## [!DNL Target Standard/Premium] 26.4.4 (April 28, 2026)
-
 **Activities**
 
 +++See details
