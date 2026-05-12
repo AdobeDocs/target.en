@@ -14,18 +14,25 @@ badgeBeta: label="Beta" type="Informative" url="https://experienceleague.adobe.c
 
 When a visitor loads a page, default content can appear briefly and then be replaced by personalized content from [!DNL Adobe Target]. That visible switch is often called **flicker**, and it is a common experience issue for personalization programs.
 
-**Content pre-hiding** uses a small library in the page `<head>` and a rule list [!DNL Target] keeps for your organization. It hides only the regions your live activities will change until delivery finishes, instead of hiding the whole `<body>`. Visitors see less flicker and less of a blank full-page wait.
+**Content pre-hiding** is a small library in the page `<head>` plus a rule list from [!DNL Target] for your organization. It hides only the parts of the page your activities will personalize until delivery finishes, not the whole `<body>`, so visitors see less flicker and less empty screen time.
 
+Here is how content pre-hiding works, from the account default through your page implementation and per-activity choices.
 
-## Configure content pre-hiding
+1. Enable content pre-hiding for your account to set the global default. It is off by default. [Learn more](#content-pre-hiding-enable-account)
 
-1. [Turn on content pre-hiding](#content-pre-hiding-enable-account) for the account (off by default) to set the global default. For more information about accessing [!UICONTROL Administration] settings, see [Permissions required for editing [!UICONTROL Administration] settings](/help/main/administrating-target/start-target.md#admin-permissions).
-1. [Add the Content pre-hiding library](#content-pre-hiding-add-library) in the document head before the personalization libraries run. You typically add this script once. You do not need to change it for each new activity.
-1. Target [builds a rule set](#content-pre-hiding-rule-set) from live VEC and Form-Based Composer activities. The rule set describes the selectors and areas that delivery can change.
-1. [The library loads the rule set from the Adobe CDN and pre-hides matching elements when needed](#content-pre-hiding-library-cdn).
-1. [Turn content pre-hiding on or off per activity in Goals & Settings](#content-pre-hiding-per-activity). This overrides the account default without changing the global setting.
+1. Add the Content pre-hiding script to the document `<head>` before your personalization code runs. Deploy it once. You do not need to update it for every new activity.
 
-### Enable content pre-hiding for your instance {#content-pre-hiding-enable-account}
+1. [!DNL Target] builds a rule set from live [!UICONTROL Visual Experience Composer] (VEC) and [!UICONTROL Form-Based Composer] activities. The rule set lists selectors and regions that delivery may change.
+
+1. The library fetches that rule set from the Adobe CDN and pre-hides matching elements only while personalized content is still loading.
+
+1. In **[!UICONTROL Goals & Settings]**, turn **[!UICONTROL Content pre-hiding]** on or off for each activity. Activity choices override the account default without changing the global setting. [Learn more](#content-pre-hiding-activity)
+
+## Enable content pre-hiding for your instance {#content-pre-hiding-enable-account}
+
+>[!IMPORTANT]
+>
+>To enable content pre-hiding for the instance, you must be an **Administrator**.
 
 Content pre-hiding is off for your instance until you enable it. Use **[!UICONTROL Administration]** > **[!UICONTROL Implementation]** to turn on the feature, set defaults, and access the download for your implementation team.
 
@@ -45,23 +52,26 @@ Content pre-hiding is off for your instance until you enable it. Use **[!UICONTR
 
 Your instance now uses the saved content pre-hiding and timeout settings as the default for activities that opt in.
 
-### Enable content pre-hiding for your activity {#content-pre-hiding-activity}
+## Enable content pre-hiding for your activity {#content-pre-hiding-activity}
 
-[!DNL Target] builds a lightweight rule set from live activities authored in the [!UICONTROL Visual Experience Composer] (VEC) and the [!UICONTROL Form-Based Composer], describing the selectors and areas that delivery can change.
+With pre-hiding enabled for your instance, choose whether each activity uses it in **[!UICONTROL Goals & Settings]**. Activities for which you enable pre-hiding are included in the targeted behavior when they are live.
 
-As activities go live or are deactivated, the rule set is updated so pre-hiding stays aligned with what is actually delivering, without edits to your page code for each launch.
-
-The library retrieves that rule set from the Adobe CDN and pre-hides matching elements only when needed.
+[!DNL Target] then builds a lightweight rule set from live activities authored in the [!UICONTROL Visual Experience Composer] (VEC) and the [!UICONTROL Form-Based Composer], describing the selectors and areas that delivery can change.
 
 When you create or edit an activity:
 
-1. Go to the **[!UICONTROL Goals & Settings]** step.
-1. Use the **[!UICONTROL Content pre-hiding]** option to opt this activity in or out of pre-hiding.
+1. Access the activity you want to enable the pre-hiding option.
 
-This setting affects only the current activity. It does not change the account default configured under **[!UICONTROL Administration]** > **[!UICONTROL Implementation]**.
+1. Access the **[!UICONTROL Edit activity]** drop-down and select **[!UICONTROL Edit Goals & Settings]**.
 
-## See also
+    ![](assets/content-pre-hiding-3.png)
 
-* [Implementation](/help/main/administrating-target/implementation.md)
-* [Implement [!DNL Target]](/help/main/c-implementing-target/implementing-target.md)
-* [Troubleshoot activity content](/help/main/c-activities/c-troubleshooting-activities/content-trouble.md)
+1. From the **[!UICONTROL Content pre-hiding]** menu, toggle on the **[!UICONTROL Enable content pre-hiding]** option to opt this activity in or out of pre-hiding.
+
+    ![](assets/content-pre-hiding-4.png)
+
+1. Once done, click **[!UICONTROL Save & Close]**.
+
+After you save and as activities go live or are deactivated, the rule set is updated so pre-hiding stays aligned with what is actually delivering, without edits to your page code for each launch.
+
+On the visitor side, the library retrieves that rule set from the Adobe CDN on each page load and pre-hides matching elements only when needed until personalized content is ready.
