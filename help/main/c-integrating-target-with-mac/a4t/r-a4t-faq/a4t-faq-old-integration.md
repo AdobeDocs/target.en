@@ -4,6 +4,18 @@ description: Find answers to questions that are frequently asked about the legac
 title: Where Can I Find FAQs About the SiteCatalyst to Test&Target Integration?
 feature: Analytics for Target (A4T)
 exl-id: cd16b08b-e58e-4208-95b5-97c5eb441fb7
+TQID: https://experienceleague.adobe.com/mOxSRfT-QHQctFWFfIECidu639ybfGfGWPmFTf6jGLc
+product_v2:
+  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+    internal-label: Target
+feature_v2:
+  - id: adee20bd-51f4-461d-b9db-d215f8756eeb
+    internal-label: Audiences
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
+  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+    internal-label: Customer experience
 ---
 # Legacy SiteCatalyst to Test&Target integration - A4T FAQ
 

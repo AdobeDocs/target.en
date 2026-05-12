@@ -4,6 +4,22 @@ description: Let's get started with your first activity in Adobe [!DNL Target] s
 title: I Need to Create My First Activity in Target. Where Do I Start?
 feature: Overview
 exl-id: 4d07b088-a577-4c82-b35f-18d0be8428d8
+TQID: https://experienceleague.adobe.com/q9wWzcT6SV-CjcPBnxGmf4Nqwh8hIFBclxBo5O8nQ-M
+product_v2:
+  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+    internal-label: Target
+feature_v2:
+  - id: adee20bd-51f4-461d-b9db-d215f8756eeb
+    internal-label: Audiences
+topic_v2:
+  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+    internal-label: Customer experience
+  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+    internal-label: Personalization
+  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+    internal-label: Insights
+  - id: eb30f47f-d87a-400f-8f78-63ce7979ff56
+    internal-label: Machine learning
 ---
 # Chapter 7: Create and run your first [!DNL Target] activity
 

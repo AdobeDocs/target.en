@@ -4,6 +4,20 @@ description: Find answers to questions that are frequently asked about provision
 title: Where Can I Find Information about A4T Initial Provisioning?
 feature: Analytics for Target (A4T)
 exl-id: 4b098444-3e5b-45e3-b635-1857c2c8d183
+TQID: https://experienceleague.adobe.com/O2NhhiytLUaXarno3zH4DHi4EechHxUCMr8QifbEltw
+product_v2:
+  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+    internal-label: Target
+feature_v2:
+  - id: c93393a4-e558-47e1-992e-c91ed4d480ce
+    internal-label: Implementation
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
+  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+    internal-label: Customer experience
+  - id: c1579802-ddd4-4214-8a91-97b2066abe11
+    internal-label: Troubleshooting
 ---
 # Initial provisioning - A4T FAQ
 

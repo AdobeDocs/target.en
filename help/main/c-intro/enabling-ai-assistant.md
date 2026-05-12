@@ -4,6 +4,17 @@ description: Learn how to enable [!DNL AI Assistant] in[!DNL  Adobe Target].
 title: How Do I Enable the [!DNL AI Assistant] in [!DNL Target]?
 feature: Overview
 exl-id: 6897059c-65e2-4e21-b4b5-bef0a04fa6b6
+TQID: https://experienceleague.adobe.com/CJl-OFlDJhs-G99Cqy8i0xrHolV8GRQQcuXoKvXYNY4
+product_v2:
+  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+    internal-label: Target
+topic_v2:
+  - id: bbbea26f-9621-49eb-9ab8-e06fb3bbce8c
+    internal-label: Artificial intelligence
+  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+    internal-label: Customer experience
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+    internal-label: Administration
 ---
 # Enable [!DNL Adobe Experience Platform] [!DNL AI Assistant] in [!DNL Adobe Target]
 

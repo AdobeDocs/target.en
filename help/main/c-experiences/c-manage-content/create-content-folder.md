@@ -4,6 +4,13 @@ description: How do I create folders in the [!UICONTROL Offers] library?
 title: Learn how to create folders in the [!UICONTROL Offers] library to hold code and image offers, as well as other folders.
 feature: Experiences and Offers
 exl-id: 64d1a24a-5ce1-4f64-9ff2-1c2f13a112bb
+TQID: https://experienceleague.adobe.com/Z-iggfiOB-GEAhHr-J-IpK6qD9T-TGoASkVwcVMP3oY
+product_v2:
+  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+    internal-label: Target
+topic_v2:
+  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+    internal-label: Customer experience
 ---
 # Create offer folders
 

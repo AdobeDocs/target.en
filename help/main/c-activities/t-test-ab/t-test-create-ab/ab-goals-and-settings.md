@@ -4,6 +4,22 @@ description: Discover how to use the [!UICONTROL Goals and Settings] page to def
 title: How Do I Specify Goals and Settings in a [!DNL Target] A/B Activity?
 feature: A/B Tests
 exl-id: 6c970289-a897-46bc-a8d2-ba8c045abe12
+TQID: https://experienceleague.adobe.com/X3JDvfXDHM2rAOodEY5N9TVO-tBpz4vNDUvhOpC0XZ4
+product_v2:
+  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+    internal-label: Target
+feature_v2:
+  - id: adee20bd-51f4-461d-b9db-d215f8756eeb
+    internal-label: Audiences
+topic_v2:
+  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+    internal-label: Metadata
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
+  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+    internal-label: Customer experience
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+    internal-label: Administration
 ---
 # Goals and settings
 

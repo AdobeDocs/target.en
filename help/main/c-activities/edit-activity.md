@@ -4,6 +4,16 @@ description: Learn about the different ways that you can edit an existing activi
 title: How Do I Edit an Activity?
 feature: Activities
 exl-id: 5f2a930a-9950-430e-a898-50af1f917ec1
+TQID: https://experienceleague.adobe.com/joqYeCK6Zy6Xz27eRKodA4M1kfPMi-AJu84wNXsGgQA
+product_v2:
+  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+    internal-label: Target
+feature_v2:
+  - id: adee20bd-51f4-461d-b9db-d215f8756eeb
+    internal-label: Audiences
+topic_v2:
+  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+    internal-label: Customer experience
 ---
 # Edit an activity
 

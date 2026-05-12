@@ -4,6 +4,15 @@ description: Learn how to specify metrics in an [!DNL Adobe Target] [!UICONTROL 
 title: How Do I Set Goal Metrics in an [!UICONTROL Experience Targeting] Activity?
 feature: Experience Targeting
 exl-id: 16249930-8b9c-441c-bd14-5f32332556d2
+TQID: https://experienceleague.adobe.com/DRFhQ7plSdYqXdzodxFe8h22fSz9xZs9ATt5Ri2s6AA
+product_v2:
+  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+    internal-label: Target
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
+  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+    internal-label: Customer experience
 ---
 # Set metrics in [!UICONTROL Experience Targeting] (XT) activities
 

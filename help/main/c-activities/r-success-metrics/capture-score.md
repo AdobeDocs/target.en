@@ -4,6 +4,13 @@ description: Learn about the Capture Score engagement metric in Adobe [!DNL Targ
 title: What Is the Capture Score metric?
 feature: Success Metrics
 exl-id: 3446cdef-7ee0-40dd-bf17-27def56668d4
+TQID: https://experienceleague.adobe.com/iqCPEY9x7Lg9TlAhxn8e-B1XOnUfNgUWFdOf8Bw2F3w
+product_v2:
+  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+    internal-label: Target
+topic_v2:
+  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+    internal-label: Customer experience
 ---
 # Capture Score
 

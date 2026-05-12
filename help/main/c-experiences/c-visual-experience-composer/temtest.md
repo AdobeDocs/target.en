@@ -4,6 +4,18 @@ description: Learn how to use the Adobe [!DNL Target] Visual Experience Composer
 title: Can I Include the Same Experience on Similar Pages?
 feature: Experiences and Offers
 exl-id: 4ea95794-496c-4eff-96ec-8a9d1f732c4a
+TQID: https://experienceleague.adobe.com/zk7U6g7gk7XkpWsEFQbwuCm7xbpIb1lCaZefxjn-39g
+product_v2:
+  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+    internal-label: Target
+feature_v2:
+  - id: adee20bd-51f4-461d-b9db-d215f8756eeb
+    internal-label: Audiences
+topic_v2:
+  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+    internal-label: Customer experience
+  - id: c1579802-ddd4-4214-8a91-97b2066abe11
+    internal-label: Troubleshooting
 ---
 # Include the same experience on similar pages
 

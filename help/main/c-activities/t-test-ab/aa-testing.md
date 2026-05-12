@@ -4,6 +4,15 @@ description: Learn what an A/A test is, why you might want to perform an A/A tes
 title: What is A/A Testing?
 feature: A/B Tests
 exl-id: 7489f4f5-3655-45f9-a743-651ba1c23c53
+TQID: https://experienceleague.adobe.com/-kLz0mG8LaFqEbB-9M89vJWTFjfypupbcOQ3MjQz-jQ
+product_v2:
+  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+    internal-label: Target
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
+  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+    internal-label: Customer experience
 ---
 # A/A testing
 

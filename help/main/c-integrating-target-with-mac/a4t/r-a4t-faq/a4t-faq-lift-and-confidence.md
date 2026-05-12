@@ -4,6 +4,17 @@ description: Find answers to questions about lift and confidence when using Anal
 title: Where Can I Find Information about Lift And Confidence with A4T?
 feature: Analytics for Target (A4T)
 exl-id: 42fd179b-944a-4a0a-b299-85ea4a7ea244
+TQID: https://experienceleague.adobe.com/QirHdzsM8SfNeGdQPEPM51KUqD5TDFUQmaB4th4-htY
+product_v2:
+  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+    internal-label: Target
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
+  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+    internal-label: Customer experience
+  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+    internal-label: Optimization
 ---
 # Lift and confidence - A4T FAQ
 

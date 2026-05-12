@@ -6,6 +6,46 @@ badgePremium: label="Premium" type="Positive" url="https://experienceleague.adob
 feature: Administration & Configuration
 role: Admin
 exl-id: 838abe87-dba7-4274-97b4-31a7905846dc
+TQID: https://experienceleague.adobe.com/-BGfedOu33CmhLMoKT543SebVtnp-H3DiWhmwO9OkCw
+product_v2:
+  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+    internal-label: Target
+feature_v2:
+  - id: adee20bd-51f4-461d-b9db-d215f8756eeb
+    internal-label: Audiences
+  - id: c93393a4-e558-47e1-992e-c91ed4d480ce
+    internal-label: Implementation
+  - id: dfc8a233-f2b5-4811-bf63-b4262aebc5a5
+    internal-label: Administration and configuration
+subfeature_v2:
+  - id: c011fe9c-b94b-4a88-93d8-f2acece55112
+    internal-label: Administration
+  - id: cf6b8469-14d0-4c0e-90ee-fb54066a035e
+    internal-label: Roles and permissions
+  - id: e22d67ea-317b-44f8-abd1-52e07f636ca8
+    internal-label: Reporting
+  - id: faed1c89-faf7-4df1-910d-a88263e03b15
+    internal-label: Target UI
+  - id: fc9c2184-9102-403f-bd6c-0055021e4bea
+    internal-label: Overview
+  - id: fd0ff162-b6d3-4a11-8aeb-e165a01c0f0a
+    internal-label: at.js
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
+  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
+  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+    internal-label: Customer experience
+  - id: c1579802-ddd4-4214-8a91-97b2066abe11
+    internal-label: Troubleshooting
+  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+    internal-label: Optimization
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+    internal-label: Administration
 ---
 # Enterprise user permissions
 

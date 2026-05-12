@@ -4,6 +4,13 @@ description: Learn how to specify the [!UICONTROL Activity URL] that determines 
 title: What Is the [!UICONTROL Activity URL] In an [!UICONTROL Experience Targeting] (XT) Activity?
 feature: Experience Targeting
 exl-id: 8e3be814-6ad6-4ffa-be8d-68f0cb7857b5
+TQID: https://experienceleague.adobe.com/igvyk-2atEe7JdYuFj3IXlXyE1CzVkLuwv50DSmSxuY
+product_v2:
+  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+    internal-label: Target
+topic_v2:
+  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+    internal-label: Customer experience
 ---
 # Activity URL in [!UICONTROL Experience Targeting] (XT) activities
 

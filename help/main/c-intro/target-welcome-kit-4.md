@@ -4,6 +4,35 @@ description: Read tips from our panel of experts about using Adobe [!DNL Target]
 title: Where Can I Find Tips and Tricks for Using Target?
 feature: Overview
 exl-id: 86437ad1-83ea-4670-b503-6c3c1fff0c16
+TQID: https://experienceleague.adobe.com/c7wWYsy-0l8BCAlmPxtqthYjD1R6CiCsHEBrTYCjOR0
+product_v2:
+  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+    internal-label: Target
+feature_v2:
+  - id: adee20bd-51f4-461d-b9db-d215f8756eeb
+    internal-label: Audiences
+  - id: c93393a4-e558-47e1-992e-c91ed4d480ce
+    internal-label: Implementation
+subfeature_v2:
+  - id: fd0ff162-b6d3-4a11-8aeb-e165a01c0f0a
+    internal-label: at.js
+topic_v2:
+  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
+  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+    internal-label: Customer experience
+  - id: c2296997-5d79-4905-b32e-99b5aa892429
+    internal-label: Search optimization
+  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+    internal-label: Optimization
+  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+    internal-label: Personalization
+  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+    internal-label: Insights
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+    internal-label: Administration
+  - id: ff2b9b37-92e0-45fc-b853-379d44c08c89
+    internal-label: Audience segmentation
 ---
 # Chapter 4: Tips for using Target
 

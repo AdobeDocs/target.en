@@ -5,6 +5,15 @@ title: How Can I Preview [!UICONTROL Automated Personalization] Experiences in t
 badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="See what's included in Target Premium."
 feature: Automated Personalization
 exl-id: b346e9cb-f4db-4777-8671-cf714bed465a
+TQID: https://experienceleague.adobe.com/wkD1Z3b72D9Wm31yKFvSKJDNUeyHjKL0tzkeah7teQQ
+product_v2:
+  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+    internal-label: Target
+topic_v2:
+  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+    internal-label: Customer experience
+  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+    internal-label: Personalization
 ---
 # Preview experiences in [!UICONTROL Automated Personalization] activities in the [!UICONTROL Visual Experience Composer] (VEC)
 
