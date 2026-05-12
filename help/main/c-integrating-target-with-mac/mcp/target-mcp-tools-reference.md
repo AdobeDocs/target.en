@@ -2,7 +2,7 @@
 solution: Target
 product: target
 title: Adobe Target MCP server tools reference
-description: Complete parameter reference for all 21 read-only tools exposed by the Adobe Target MCP server.
+description: Complete parameter reference for all 23 read-only tools exposed by the Adobe Target MCP server.
 feature: Integrations
 topic: Experimentation, Personalization, Artificial Intelligence
 badge: label="Beta" type="Informative"
@@ -29,9 +29,11 @@ This page is a complete reference for all read-only tools exposed by the [!DNL A
 
 Your [!DNL Adobe Target] role determines which tools are available to you:
 
-* **Observer** role or higher: access to all read tools
-* **Editor** role: access to read and write (create) tools
-* **Approver** role: access to read, write, and activate/deactivate tools
+* **Observer** role or higher: access to all 23 read-only tools
+
+>[!NOTE]
+>
+>Write tools (create, update, activate, deactivate) are not exposed via the public MCP catalog in Public Beta. All 23 tools listed on this page are read-only. Write access will be available in a future release.
 
 For full setup instructions, see [Get started](target-mcp-get-started.md).
 
@@ -538,6 +540,24 @@ List all audiences in your [!DNL Target] tenant.
 
 +++
 
++++Get an audience
+
+**Tool:** `get_target_audience`
+
+Get audience details including targeting rules.
+
+Retrieves the full configuration of a specific audience, including its targeting rules and conditions.
+
+| Parameter | Type | Required | Description |
+|---|---|---|---|
+| `audience_id` | integer | Yes | The unique identifier of the audience |
+
+**Returns:** Full audience details including `id`, `name`, `description`, `origin`, targeting rules, and associated activity count.
+
+**Example prompt:** "Get details for audience 12345 and show me its targeting rules."
+
++++
+
 <!--
 +++Create an audience
 
@@ -719,6 +739,25 @@ Useful when you know the activity name but not its ID.
 
 +++
 
++++Get an Analytics for Target (A4T) report
+
+**Tool:** `get_a4t_report`
+
+Fetch an Analytics for Target (A4T) report for a [!DNL Target] activity.
+
+Validates the A4T configuration for the activity, then executes GraphQL queries against [!DNL Adobe Analytics] to retrieve Analytics-side metrics. Only available for activities that have A4T reporting configured.
+
+| Parameter | Type | Required | Description |
+|---|---|---|---|
+| `activity_id` | integer | Yes | The unique identifier of the [!DNL Target] activity |
+| `report_interval` | string | No | Time period for the report (e.g., `last7days`, `last30days`, or a custom date range) |
+
+**Returns:** Analytics-side metrics for the activity including visitor counts, conversions, revenue, and lift by experience, sourced directly from [!DNL Adobe Analytics].
+
+**Example prompt:** "Pull the A4T report for my checkout optimization test and summarize the Analytics-side conversion data."
+
++++
+
 ## Preview tools {#tools-preview}
 
 +++Preview an activity
@@ -840,15 +879,15 @@ No parameters required.
 |---|---|---|
 | Activity | 4 | `list_target_activities`, `get_ab_activity`, `get_xt_activity`, `get_abt_activity` |
 | Offer | 2 | `list_target_offers`, `get_target_offer` |
-| Audience | 1 | `list_target_audiences` |
+| Audience | 2 | `list_target_audiences`, `get_target_audience` |
 | Mbox | 3 | `list_target_mboxes`, `get_target_mbox`, `list_target_mbox_profile_attributes` |
 | Property | 1 | `list_target_properties` |
-| Reporting | 5 | `get_ab_performance_report`, `get_ab_orders_report`, `get_xt_performance_report`, `get_xt_orders_report`, `get_activity_report_by_name` |
+| Reporting | 6 | `get_ab_performance_report`, `get_ab_orders_report`, `get_xt_performance_report`, `get_xt_orders_report`, `get_activity_report_by_name`, `get_a4t_report` |
 | Preview | 1 | `preview_activity` |
 | Response token | 1 | `list_target_response_tokens` |
 | Revision | 2 | `get_target_revisions`, `get_target_entity_revisions` |
 | Template | 1 | `list_target_templates` |
-| **Total** | **21** | |
+| **Total** | **23** | |
 
 ## Related resources {#tools-related}
 

@@ -15,7 +15,7 @@ level: Beginner, Intermediate
 >
 >The [!DNL Adobe Target] MCP server is available to all customers in **Public Beta**. It is currently supported in **Claude Web**, **Claude Desktop**, **Claude Code**, **Cursor**, and **ChatGPT**.
 
-This page shows you what you can accomplish with the [!DNL Adobe Target] MCP server using natural-language prompts, from quick lookups to multi-step activity management tasks.
+This page shows you what you can accomplish with the [!DNL Adobe Target] MCP server using natural-language prompts, from quick lookups to multi-step analysis and reporting tasks.
 
 >[!IMPORTANT]
 >
@@ -35,7 +35,6 @@ The following examples show how to interact with the [!DNL Adobe Target] MCP ser
 | **Performance review** | "Show me all active tests that have reached statistical significance — which experiences are winning?" |
 | **Revenue analysis** | "Get the orders and revenue report for activity AT4821 and summarize which experience is driving the most revenue per visitor." |
 | **A4T reporting** | "Pull the A4T report for my checkout optimization test and summarize the Analytics-side conversion data." |
-| **Activity management** | "Pause activity 98765 and update the priority of activity 11111 to 200." |
 | **Activity insights** | "Get insights for my 'Summer Sale Banner' test — what does performance look like and are there any anomalies?" |
 | **Audience management** | "List all audiences targeting mobile users and show me which activities they're associated with." |
 | **QA and preview** | "Generate QA preview URLs for activity 12345 so I can review all variants before activating." |
@@ -47,6 +46,7 @@ The following examples show how to interact with the [!DNL Adobe Target] MCP ser
 
 The following walkthroughs show how to complete common tasks using natural-language prompts with the [!DNL Adobe Target] MCP server.
 
+<!--
 +++Creating an A/B test
 
 **Prompt:**
@@ -55,6 +55,7 @@ The following walkthroughs show how to complete common tasks using natural-langu
 The AI assistant uses the `create_ab_activity` tool to create the activity with the configuration you described. The tool returns the new activity ID and a confirmation of the created experiences.
 
 +++
+-->
 
 +++Checking activity performance
 
@@ -65,6 +66,7 @@ The AI assistant uses `get_ab_performance_report` or `get_xt_performance_report`
 
 +++
 
+<!--
 +++Managing offers
 
 **Prompt:**
@@ -82,6 +84,7 @@ The AI assistant uses the `create_target_offer` tool to create the offer with yo
 The AI assistant uses the `create_target_audience` tool with the appropriate targeting rules derived from your description.
 
 +++
+-->
 
 +++Generating QA preview links
 
@@ -92,6 +95,7 @@ The AI assistant uses the `preview_activity` tool to generate clickable URLs tha
 
 +++
 
+<!--
 +++Creating an Experience Targeting activity
 
 **Prompt:**
@@ -109,6 +113,7 @@ The AI assistant uses `create_xt_activity` to build the activity with audience-b
 The AI assistant uses the `update_activity_schedule` tool to apply the new start and end dates to the activity.
 
 +++
+-->
 
 ## Related resources {#mcp-use-cases-related}
 
