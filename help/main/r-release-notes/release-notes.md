@@ -37,7 +37,7 @@ Explore the latest features, enhancements, and fixes in [!DNL Adobe Target]. The
 
 **[!DNL Adobe Target] MCP server (Public Beta)** 
 
-[!DNL Adobe Target] now provides an MCP (Model Context Protocol) server that surfaces experimentation, personalization, and reporting operations directly inside any MCP-compatible application. With this integration, marketing and technical personas can inspect A/B tests, analyze performance reports, manage audiences and offers, and take governed actions — all using natural-language prompts instead of navigating multiple UI screens or writing queries against the [!DNL Adobe Target] REST API. This capability is currently available in **Claude Web**, **Claude Desktop**, **Claude Code**, **Cursor**, and **ChatGPT**.
+[!DNL Adobe Target] now provides an MCP (Model Context Protocol) server that surfaces experimentation, personalization, and reporting operations directly inside any MCP-compatible application. With this integration, marketing and technical personas can inspect A/B tests, analyze performance reports, and explore audiences and offers — all using natural-language prompts instead of navigating multiple UI screens or writing queries against the [!DNL Adobe Target] REST API. This capability is currently available in **Claude Web**, **Claude Desktop**, **Claude Code**, **Cursor**, and **ChatGPT**.
 
 This capability is available to all customers in Public Beta.
 
