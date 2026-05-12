@@ -8,20 +8,13 @@ topic: Experimentation, Personalization, Artificial Intelligence
 badge: label="Beta" type="Informative"
 role: Developer, User
 level: Intermediate, Experienced
-hide: true
 ---
 # [!DNL Adobe Target] MCP server tools reference {#target-mcp-tools-reference}
 
->[!BEGINSHADEBOX]
 
-Table of contents:
-
-* [Overview](target-mcp.md)
-* [Get started](target-mcp-get-started.md)
-* [Use cases and walkthroughs](target-mcp-use-cases.md)
-* **[MCP server tools reference](target-mcp-tools-reference.md)**
-
->[!ENDSHADEBOX]
+>[!AVAILABILITY]
+>
+>The [!DNL Adobe Target] MCP server is available to all customers in **Public Beta**. It is currently supported in **Claude Web**, **Claude Desktop**, **Claude Code**, **Cursor**, and **ChatGPT**.
 
 This page is a complete reference for all read-only tools exposed by the [!DNL Adobe Target] MCP server. For each tool you'll find a description, parameter details, return value, and an example natural-language prompt. For setup instructions and use cases, see [Get started](target-mcp-get-started.md) and [Use cases and walkthroughs](target-mcp-use-cases.md).
 

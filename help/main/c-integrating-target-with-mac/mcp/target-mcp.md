@@ -8,26 +8,23 @@ topic: Experimentation, Personalization, Artificial Intelligence
 badge: label="Beta" type="Informative"
 role: User, Developer
 level: Beginner, Intermediate
-hide: true
 ---
 # [!DNL Adobe Target] MCP server {#target-mcp}
 
->[!BEGINSHADEBOX]
 
-Table of contents:
-
-* **[Overview](target-mcp.md)**
-* [Get started](target-mcp-get-started.md)
-* [Use cases and walkthroughs](target-mcp-use-cases.md)
-* [MCP server tools reference](target-mcp-tools-reference.md)
-
->[!ENDSHADEBOX]
+The [!DNL Adobe Target] MCP integration lets you inspect, analyze, and manage A/B tests, personalization activities, and Recommendations criteria directly from your AI assistant. Turn [!DNL Target]'s read and write APIs into plain-language workflows — audit your experiment portfolio, review performance reports, manage audiences and offers, and take governed actions without navigating the UI or writing API calls.
 
 >[!AVAILABILITY]
 >
->The [!DNL Adobe Target] MCP server is currently available in **Claude Web**, **Claude Desktop**, **Claude Code**, **Cursor**, and **ChatGPT**. Support for additional MCP-compatible applications will be added in future releases.
+>The [!DNL Adobe Target] MCP server is available to all customers in **Public Beta**. It is currently supported in **Claude Web**, **Claude Desktop**, **Claude Code**, **Cursor**, and **ChatGPT**. Support for additional MCP-compatible applications will be added in future releases.
 
-The [!DNL Adobe Target] MCP integration lets you inspect, analyze, and manage A/B tests, personalization activities, and Recommendations criteria directly from your AI assistant. Turn [!DNL Target]'s read and write APIs into plain-language workflows — audit your experiment portfolio, review performance reports, manage audiences and offers, and take governed actions without navigating the UI or writing API calls.
+
+## What is the Model Context Protocol? {#mcp-overview}
+
+Marketing and optimization teams increasingly rely on chat-based applications and developer tools — such as Anthropic Claude, OpenAI ChatGPT, Cursor, and Microsoft Copilot Studio — to streamline their day-to-day work. These applications support the **Model Context Protocol (MCP)**, an open standard that lets applications expose back-end tools to large language models (LLMs) in a uniform way.
+
+[!DNL Adobe Target] now provides an MCP server that surfaces experimentation, personalization, and recommendations operations directly inside any MCP-compatible application. [!DNL Adobe Target] acts as the decisioning and execution layer while the AI assistant handles reasoning and explanation — giving teams faster access to optimization insights without navigating multiple product screens or writing queries against the [!DNL Adobe Target] REST API.
+
 
 >[!IMPORTANT]
 >
@@ -36,12 +33,6 @@ The [!DNL Adobe Target] MCP integration lets you inspect, analyze, and manage A/
 >Connecting MCP clients or servers to Adobe products is a customer-elected configuration, and customers are responsible for evaluating the security and suitability of any MCP integration. Adobe is not responsible for issues arising from misconfiguration, misuse of the MCP, vulnerabilities in third-party implementations, or unintended actions performed through MCP-enabled workflows.
 >
 >To reduce risk, Adobe encourages testing integrations in a sandbox environment prior to productive use and carefully reviewing and validating all MCP-initiated actions and responses before confirming or relying on them.
-
-## What is the Model Context Protocol? {#mcp-overview}
-
-Marketing and optimization teams increasingly rely on chat-based applications and developer tools — such as Anthropic Claude, OpenAI ChatGPT, Cursor, and Microsoft Copilot Studio — to streamline their day-to-day work. These applications support the **Model Context Protocol (MCP)**, an open standard that lets applications expose back-end tools to large language models (LLMs) in a uniform way.
-
-[!DNL Adobe Target] now provides an MCP server that surfaces experimentation, personalization, and recommendations operations directly inside any MCP-compatible application. [!DNL Adobe Target] acts as the decisioning and execution layer while the AI assistant handles reasoning and explanation — giving teams faster access to optimization insights without navigating multiple product screens or writing queries against the [!DNL Adobe Target] REST API.
 
 ## Key capabilities {#mcp-capabilities}
 

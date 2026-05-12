@@ -8,21 +8,16 @@ topic: Experimentation, Personalization, Artificial Intelligence
 badge: label="Beta" type="Informative"
 role: User, Developer
 level: Beginner, Intermediate
-hide: true
 ---
 # [!DNL Adobe Target] MCP server — use cases and walkthroughs {#target-mcp-use-cases}
 
->[!BEGINSHADEBOX]
 
-Table of contents:
+>[!AVAILABILITY]
+>
+>The [!DNL Adobe Target] MCP server is available to all customers in **Public Beta**. It is currently supported in **Claude Web**, **Claude Desktop**, **Claude Code**, **Cursor**, and **ChatGPT**.
 
-* [Overview](target-mcp.md)
-* [Get started](target-mcp-get-started.md)
-* **[Use cases and walkthroughs](target-mcp-use-cases.md)**
-* [MCP server tools reference](target-mcp-tools-reference.md)
 
->[!ENDSHADEBOX]
-
+This page shows you what you can accomplish with the [!DNL Adobe Target] MCP server using natural-language prompts, from quick lookups to multi-step activity management tasks.
 
 >[!IMPORTANT]
 >
@@ -31,8 +26,6 @@ Table of contents:
 >Connecting MCP clients or servers to Adobe products is a customer-elected configuration, and customers are responsible for evaluating the security and suitability of any MCP integration. Adobe is not responsible for issues arising from misconfiguration, misuse of the MCP, vulnerabilities in third-party implementations, or unintended actions performed through MCP-enabled workflows.
 >
 >To reduce risk, Adobe encourages testing integrations in a sandbox environment prior to productive use and carefully reviewing and validating all MCP-initiated actions and responses before confirming or relying on them.
-
-This page shows you what you can accomplish with the [!DNL Adobe Target] MCP server using natural-language prompts, from quick lookups to multi-step activity management tasks.
 
 ## Use cases {#mcp-use-cases}
 
