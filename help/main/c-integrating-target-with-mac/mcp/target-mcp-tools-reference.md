@@ -11,7 +11,6 @@ level: Intermediate, Experienced
 ---
 # [!DNL Adobe Target] MCP server tools reference {#target-mcp-tools-reference}
 
-
 >[!AVAILABILITY]
 >
 >The [!DNL Adobe Target] MCP server is available to all customers in **Public Beta**. It is currently supported in **Claude Web**, **Claude Desktop**, **Claude Code**, **Cursor**, and **ChatGPT**.

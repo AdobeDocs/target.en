@@ -11,11 +11,9 @@ level: Beginner, Intermediate
 ---
 # [!DNL Adobe Target] MCP server — use cases and walkthroughs {#target-mcp-use-cases}
 
-
 >[!AVAILABILITY]
 >
 >The [!DNL Adobe Target] MCP server is available to all customers in **Public Beta**. It is currently supported in **Claude Web**, **Claude Desktop**, **Claude Code**, **Cursor**, and **ChatGPT**.
-
 
 This page shows you what you can accomplish with the [!DNL Adobe Target] MCP server using natural-language prompts, from quick lookups to multi-step activity management tasks.
 

@@ -11,7 +11,6 @@ level: Beginner, Intermediate
 ---
 # [!DNL Adobe Target] MCP server {#target-mcp}
 
-
 The [!DNL Adobe Target] MCP integration lets you inspect, analyze, and manage A/B tests, personalization activities, and Recommendations criteria directly from your AI assistant. Turn [!DNL Target]'s read and write APIs into plain-language workflows — audit your experiment portfolio, review performance reports, manage audiences and offers, and take governed actions without navigating the UI or writing API calls.
 
 >[!AVAILABILITY]
