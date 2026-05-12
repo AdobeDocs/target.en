@@ -42,6 +42,19 @@ This page lists significant changes made to the [!DNL Adobe Target] product docu
 
 ## Updates
 
+### [!DNL Target Standard/Premium] 26.5.1 (May 7, 2026)
+
+|Date|Topic|Changes|
+|--- |--- |--- |
+|May 12|[[!DNL Adobe Target] Business Practitioner Guide](/help/main/target-home.md)|Updated the home page to feature the [!DNL Adobe Target] MCP server (Public Beta) announcement and removed outdated 2025 announcements.|
+||[[!DNL Target] release notes (current)](/help/main/r-release-notes/release-notes.md)|Added release notes for the [!DNL Adobe Target] MCP server (Public Beta) feature update.|
+||[[!DNL Adobe Target] MCP server overview](/help/main/c-integrating-target-with-mac/mcp/target-mcp.md)|New article. Learn what the [!DNL Adobe Target] MCP server is, its key capabilities, and how it connects to your AI assistant.|
+||[Get started with the [!DNL Adobe Target] MCP server](/help/main/c-integrating-target-with-mac/mcp/target-mcp-get-started.md)|New article. Learn how to connect the [!DNL Adobe Target] MCP server to your AI assistant, including prerequisites, client configuration, and troubleshooting.|
+||[[!DNL Adobe Target] MCP server — use cases and walkthroughs](/help/main/c-integrating-target-with-mac/mcp/target-mcp-use-cases.md)|New article. Explore common use cases and step-by-step prompt walkthroughs for the [!DNL Adobe Target] MCP server.|
+||[[!DNL Adobe Target] MCP server tools reference](/help/main/c-integrating-target-with-mac/mcp/target-mcp-tools-reference.md)|New article. Complete parameter reference for all read-only tools exposed by the [!DNL Adobe Target] MCP server.|
+||[Self-host the [!DNL Adobe Target] MCP server](/help/main/c-integrating-target-with-mac/mcp/target-mcp-self-hosted.md)|New article. Learn how to run your own instance of the [!DNL Adobe Target] MCP server using Python, Docker, or a local development environment.|
+|May 7|[[!DNL Target] release notes (current)](/help/main/r-release-notes/release-notes.md)|Added release notes for the [!DNL Target Standard/Premium] 26.5.1 release.|
+
 ### [!DNL Target Standard/Premium] 26.1.1 (January 18, 2026)
 
 |Date|Topic|Changes|

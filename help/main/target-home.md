@@ -27,25 +27,17 @@ topic_v2:
 
 [!DNL Adobe Target] is the [!DNL Adobe Experience Cloud] solution that provides everything you need to tailor and personalize your customers' experience so you can maximize revenue on your web and mobile sites, apps, social media, and other digital channels.
 
-**Last Updated: January 26, 2026 ( [see what changed](r-release-notes/doc-change.md) )**
+**Last Updated: May 12, 2026 ( [see what changed](r-release-notes/doc-change.md) )**
 
 >[!BEGINTABS]
 
->[!TAB Attention!]
-
-**Updated: [!DNL Target] UI version toggle deprecation (June 17, 2025)**
-
-The [!DNL Target] team has adjusted the timeline for the UI version toggle deprecation.
-
-[![Learn More icon](/help/main/assets/learn-more.svg)](/help/main/c-intro/updated-ui-faq.md)
-
 >[!TAB What's new]
 
-**Target 26.1.1 is live!**
+**[!DNL Adobe Target] MCP server (Public Beta)**
 
-This release focuses on fixes and enhancements to the updated [!DNL Target] UI and [!UICONTROL Visual Experience Composer] (VEC).
+[!DNL Adobe Target] now provides an MCP (Model Context Protocol) server that surfaces experimentation, personalization, and reporting operations directly inside any MCP-compatible application, including Claude, Cursor, and ChatGPT.
 
-[![Learn More icon](/help/main/assets/learn-more.svg)](/help/main/r-release-notes/release-notes.md)
+[![Learn More icon](/help/main/assets/learn-more.svg)](/help/main/c-integrating-target-with-mac/mcp/target-mcp.md)
 
 >[!TAB Updated Target UI]
 

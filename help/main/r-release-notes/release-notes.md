@@ -32,16 +32,6 @@ Explore the latest features, enhancements, and fixes in [!DNL Adobe Target]. The
 
 (The issue numbers in parentheses are for internal [!DNL Adobe] use.)
 
-## Time-sensitive updates you need to know {#time-sensitive}
-
-[!BADGE Important]{type=Informative}
-
-For time-sensitive updates related to [!DNL Adobe Target] and your implementation, [!DNL Adobe] provides detailed release notes and documentation through [!UICONTROL Experience League]. Here are some keys highlights relevant to your implementation:
-
-### [!DNL Target] UI version toggle deprecation
-
-For more information, see [[!DNL Target] UI update FAQs](/help/main/c-intro/updated-ui-faq.md).
-
 
 ## Latest updates - May 12, 2026
 
@@ -111,6 +101,16 @@ For more information, see [[!DNL Adobe Target] MCP server](../c-integrating-targ
 
 +++
 -->
+
+## Time-sensitive updates you need to know {#time-sensitive}
+
+[!BADGE Important]{type=Informative}
+
+For time-sensitive updates related to [!DNL Adobe Target] and your implementation, [!DNL Adobe] provides detailed release notes and documentation through [!UICONTROL Experience League]. Here are some keys highlights relevant to your implementation:
+
+### [!DNL Target] UI version toggle deprecation
+
+For more information, see [[!DNL Target] UI update FAQs](/help/main/c-intro/updated-ui-faq.md).
 
 ## Additional release notes and version details
 
