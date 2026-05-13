@@ -14,19 +14,21 @@ badgeBeta: label="Beta" type="Informative" url="https://experienceleague.adobe.c
 
 When a visitor loads a page, default content can appear briefly and then be replaced by personalized content from [!DNL Adobe Target]. That visible switch is often called **flicker**, and it is a common experience issue for personalization programs.
 
-**Content pre-hiding** is a small library in the page `<head>` plus a rule list from [!DNL Target] for your organization. It hides only the parts of the page your activities will personalize until delivery finishes, not the whole `<body>`, so visitors see less flicker and less empty screen time.
+With content pre-hiding you can manage flicker by hiding only the parts of the page your activities personalize during page loading, so your customers see less flicker and less empty screen time.
 
 Here is how content pre-hiding works, from the account default through your page implementation and per-activity choices.
 
 1. Enable content pre-hiding for your account to set the global default. It is off by default. [Learn more](#content-pre-hiding-enable-account)
 
-1. Add the Content pre-hiding script to the document `<head>` before your personalization code runs. Deploy it once. You do not need to update it for every new activity.
+1. Add the Content pre-hiding library to the `<head>` of all the pages where you run personalization activities.
 
-1. [!DNL Target] builds a rule set from live [!UICONTROL Visual Experience Composer] (VEC) and [!UICONTROL Form-Based Composer] activities. The rule set lists selectors and regions that delivery may change.
+1. [!DNL Target] builds a rule set from live [!UICONTROL Visual Experience Composer] and [!UICONTROL Enhanced Experience Composer] activities. The rule set lists selectors and regions that delivery may change. 
+
+    Note that [!UICONTROL Form-Based Composer] activities are not supported.
 
 1. The library fetches that rule set from the Adobe CDN and pre-hides matching elements only while personalized content is still loading.
 
-1. In **[!UICONTROL Goals & Settings]**, turn **[!UICONTROL Content pre-hiding]** on or off for each activity. Activity choices override the account default without changing the global setting. [Learn more](#content-pre-hiding-activity)
+1. In **[!UICONTROL Goals & Settings]**, you can disable **[!UICONTROL Content pre-hiding]** for individual activities, but only if it is enabled at the account level. [Learn more](#content-pre-hiding-activity)
 
 ## Enable content pre-hiding for your instance {#content-pre-hiding-enable-account}
 
@@ -46,7 +48,7 @@ Content pre-hiding is off for your instance until you enable it. Use **[!UICONTR
 
 1. Click **[!UICONTROL Save]**. This will apply flicker management settings to your instance.
 
-1. Once enabled, click **[!UICONTROL Download prehide.min.js]**, then add the file to the document `<head>` so it loads before [!DNL at.js] or the [!DNL Web SDK].
+1. Once enabled, click **[!UICONTROL Download]**, then add the file to the page `<head>` so it loads before [!DNL at.js] or the [!DNL Web SDK].
 
     ![](assets/content-pre-hiding-2.png)
 
