@@ -8,26 +8,22 @@ topic: Experimentation, Personalization, Artificial Intelligence
 badge: label="Beta" type="Informative"
 role: User, Developer
 level: Beginner, Intermediate
-hide: true
 ---
 # [!DNL Adobe Target] MCP server {#target-mcp}
 
->[!BEGINSHADEBOX]
-
-Table of contents:
-
-* **[Overview](target-mcp.md)**
-* [Get started](target-mcp-get-started.md)
-* [Use cases and walkthroughs](target-mcp-use-cases.md)
-* [MCP server tools reference](target-mcp-tools-reference.md)
-
->[!ENDSHADEBOX]
+The [!DNL Adobe Target] MCP integration lets you inspect and analyze A/B tests and personalization activities directly from your AI assistant. Turn [!DNL Target]'s experimentation and personalization data into plain-language workflows — audit your experiment portfolio, review performance reports, and explore audiences and offers without navigating the UI or writing API calls.
 
 >[!AVAILABILITY]
 >
->The [!DNL Adobe Target] MCP server is currently available in **Claude Web**, **Claude Desktop**, **Claude Code**, **Cursor**, and **ChatGPT**. Support for additional MCP-compatible applications will be added in future releases.
+>The [!DNL Adobe Target] MCP server is available to all customers in **Public Beta**. It is currently supported in **Claude Web**, **Claude Desktop**, **Claude Code**, **Cursor**, and **ChatGPT**. Support for additional MCP-compatible applications will be added in future releases.
 
-The [!DNL Adobe Target] MCP integration lets you inspect, analyze, and manage A/B tests, personalization activities, and Recommendations criteria directly from your AI assistant. Turn [!DNL Target]'s read and write APIs into plain-language workflows — audit your experiment portfolio, review performance reports, manage audiences and offers, and take governed actions without navigating the UI or writing API calls.
+
+## What is the Model Context Protocol? {#mcp-overview}
+
+Marketing and optimization teams increasingly rely on chat-based applications and developer tools — such as Anthropic Claude, OpenAI ChatGPT, Cursor, and Microsoft Copilot Studio — to streamline their day-to-day work. These applications support the **Model Context Protocol (MCP)**, an open standard that lets applications expose back-end tools to large language models (LLMs) in a uniform way.
+
+[!DNL Adobe Target] now provides an MCP server that surfaces experimentation and personalization operations directly inside any MCP-compatible application. [!DNL Adobe Target] acts as the decisioning and execution layer while the AI assistant handles reasoning and explanation — giving teams faster access to optimization insights without navigating multiple product screens or writing queries against the [!DNL Adobe Target] REST API.
+
 
 >[!IMPORTANT]
 >
@@ -37,28 +33,22 @@ The [!DNL Adobe Target] MCP integration lets you inspect, analyze, and manage A/
 >
 >To reduce risk, Adobe encourages testing integrations in a sandbox environment prior to productive use and carefully reviewing and validating all MCP-initiated actions and responses before confirming or relying on them.
 
-## What is the Model Context Protocol? {#mcp-overview}
-
-Marketing and optimization teams increasingly rely on chat-based applications and developer tools — such as Anthropic Claude, OpenAI ChatGPT, Cursor, and Microsoft Copilot Studio — to streamline their day-to-day work. These applications support the **Model Context Protocol (MCP)**, an open standard that lets applications expose back-end tools to large language models (LLMs) in a uniform way.
-
-[!DNL Adobe Target] now provides an MCP server that surfaces experimentation, personalization, and recommendations operations directly inside any MCP-compatible application. [!DNL Adobe Target] acts as the decisioning and execution layer while the AI assistant handles reasoning and explanation — giving teams faster access to optimization insights without navigating multiple product screens or writing queries against the [!DNL Adobe Target] REST API.
-
 ## Key capabilities {#mcp-capabilities}
 
-The [!DNL Adobe Target] MCP server provides both read and write access to activities, audiences, offers, recommendations, and implementation configuration. With the integration, you can:
+The [!DNL Adobe Target] MCP server provides read access to activities, audiences, offers, and implementation configuration. With the integration, you can:
 
 * **Inspect and audit experiments** - Get status, performance, change history, and QA preview links for any activity without navigating the UI.
 * **Analyze results** - Retrieve performance, revenue, and A4T reports for A/B, XT, AP, and Auto-Target activities.
-* **Manage activities** - Create, update, and activate A/B and XT activities; adjust traffic splits, variants, schedules, and priorities.
-* **Manage audiences and offers** - List, inspect, and create audiences, HTML offers, and JSON offers.
-* **Explore Recommendations criteria** - List and inspect criteria and cart-based algorithms.
+* **Explore activities** - List, inspect, and analyze A/B and XT activities.
+* **Explore audiences and offers** - List and inspect audiences, HTML offers, and JSON offers.
+<!-- * **Explore Recommendations criteria** - List and inspect criteria and cart-based algorithms. -->
 * **Audit implementation** - Review at.js settings, response tokens, and per-entity revision history.
 
 >[!NOTE]
 >
->Write operations (create, update, activate, deactivate) include safety annotations. No changes are executed without explicit user confirmation.
+>Write tools (create, update, activate, deactivate) are not exposed via the public MCP catalog in **Public Beta**. All currently available tools are read-only. Write access will be available in a future release.
 
-The [!DNL Adobe Target] MCP server exposes 52 tools across 10 categories — from activity management and reporting to audience creation and QA previews. For the complete parameter reference, see [MCP server tools reference](target-mcp-tools-reference.md).
+The [!DNL Adobe Target] MCP server exposes 23 read-only tools across 10 categories — from activity inspection and reporting to audience exploration and QA previews. For the complete parameter reference, see [MCP server tools reference](target-mcp-tools-reference.md).
 
 To explore what you can do with the [!DNL Adobe Target] MCP server — including step-by-step prompt walkthroughs — see [Use cases and walkthroughs](target-mcp-use-cases.md).
 
@@ -73,12 +63,12 @@ The [!DNL Adobe Target] MCP server is currently available for **Claude Web**, **
 
 +++What [!DNL Adobe Target] objects can I access via MCP?
 
-You can access activities (A/B, XT, AP), audiences, offers, properties, mboxes, Recommendations criteria, response tokens, at.js configuration, A4T reports, and entity revision history. Read and write operations are both supported across 52 tools — write operations require the appropriate role and explicit confirmation.
+You can access activities (A/B, XT, AP), audiences, offers, properties, mboxes, response tokens, at.js configuration, A4T reports, and entity revision history. All 23 currently available tools are read-only.
 +++
 
 +++Can the MCP server create or modify activities?
 
-Yes. In addition to read operations, the server exposes write operations that let you create activities, pause them, update priorities, adjust traffic splits, and more. Write operations follow the same permission model as the [!DNL Adobe Target] UI — you need the appropriate role to make changes, and no action is executed without explicit user confirmation.
+Not in Public Beta. The public MCP catalog currently exposes 23 read-only tools. Write operations (create, update, activate, deactivate) are not yet available via the public MCP server. Write access will be available in a future release.
 +++
 
 +++Do I need developer access to use the MCP server?
@@ -93,12 +83,12 @@ When you submit a prompt, the MCP client may send relevant context (including [!
 
 +++Can write operations cause unintended changes to live activities?
 
-Write tools include safety annotations and confirmation gates. Before any state-changing action — such as activating an activity, changing priority, or updating traffic allocation — the server presents a structured confirmation showing the affected object, estimated traffic impact, and a required explicit approval step. No changes are made until confirmed.
+Write tools are not available via the public MCP catalog in Public Beta — all 23 currently exposed tools are read-only. When write tools are introduced in a future release, they will include safety annotations and confirmation gates so that no state-changing action is executed without explicit user confirmation.
 +++
 
 +++What permissions do I need in [!DNL Adobe Target]?
 
-At minimum, **Observer** role grants access to all read tools. **Editor** role enables creating activities, audiences, and offers. **Approver** role is required to activate, deactivate, or archive activities. Contact your [!DNL Adobe Target] administrator if you are unsure about your current access level.
+**Observer** role or higher grants access to all 23 read-only tools available in Public Beta. Write tools are not yet exposed via the public MCP catalog, so Editor and Approver role privileges do not unlock additional MCP tools at this time. Contact your [!DNL Adobe Target] administrator if you are unsure about your current access level.
 +++
 
 +++Can I use the MCP server across multiple Target organizations or properties?

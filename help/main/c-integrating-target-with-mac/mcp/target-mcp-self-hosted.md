@@ -8,25 +8,21 @@ topic: Experimentation, Personalization, Artificial Intelligence
 badge: label="Beta" type="Informative"
 role: Developer
 level: Experienced
-hide: true
 ---
 # Self-host the [!DNL Adobe Target] MCP server {#target-mcp-self-hosted}
 
->[!BEGINSHADEBOX]
 
-Table of contents:
+>[!AVAILABILITY]
+>
+>The [!DNL Adobe Target] MCP server is available to all customers in **Public Beta**. It is currently supported in **Claude Web**, **Claude Desktop**, **Claude Code**, **Cursor**, and **ChatGPT**.
 
-* [Work with MCP clients](target-mcp.md)
-* [MCP server tools reference](target-mcp-tools-reference.md)
-* **[Self-host the MCP server](target-mcp-self-hosted.md)**
-
->[!ENDSHADEBOX]
+This page explains how to clone, configure, and run your own instance of the [!DNL Adobe Target] MCP server. Self-hosting is useful when you need a local development environment, custom network configuration, or want to contribute to the server codebase.
 
 >[!AVAILABILITY]
 >
 >Self-hosted deployment is intended for developers and advanced users who need full control over the [!DNL Adobe Target] MCP server runtime. For most users, the hosted endpoint (`https://targetmcp.adobe.io/mcp`) is recommended. See [Work with MCP clients](target-mcp.md).
 
-This page explains how to clone, configure, and run your own instance of the [!DNL Adobe Target] MCP server. Self-hosting is useful when you need a local development environment, custom network configuration, or want to contribute to the server codebase.
+
 
 ## Prerequisites {#self-hosted-prereqs}
 

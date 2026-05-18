@@ -4,6 +4,16 @@ description: Learn how to use categories (such as Browser, Geo, Network, Operati
 title: What Are the Categories for Audiences?
 feature: Audiences
 exl-id: 37d6435d-4139-47c5-a871-6595e089d052
+TQID: https://experienceleague.adobe.com/gdwPSImsbXfvaX2Z4bL9-hGyLwo0b0q-At0fokUfYN8
+product_v2:
+  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+    internal-label: Target
+feature_v2:
+  - id: adee20bd-51f4-461d-b9db-d215f8756eeb
+    internal-label: Audiences
+topic_v2:
+  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+    internal-label: Customer experience
 ---
 # Categories for audiences
 

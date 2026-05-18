@@ -68,6 +68,11 @@ feature-set: Target
    + [Recommendations](/help/main/administrating-target/recommendations-settings.md)
 + Implement Target {#implement-target}
     + [Implement Target overview](c-implementing-target/implementing-target.md) 
++ Adobe Target MCP server {#mcp}
+   + [Overview](c-integrating-target-with-mac/mcp/target-mcp.md)
+   + [Get started](c-integrating-target-with-mac/mcp/target-mcp-get-started.md)
+   + [Use cases and walkthroughs](c-integrating-target-with-mac/mcp/target-mcp-use-cases.md)
+   + [MCP server tools reference](c-integrating-target-with-mac/mcp/target-mcp-tools-reference.md)
 + Integrate Target with the Experience Cloud {#integrate}
    + Adobe Analytics as the reporting source for Target (A4T) {#a4t}
       + [A4T overview](c-integrating-target-with-mac/a4t/a4t.md)
@@ -102,11 +107,6 @@ feature-set: Target
          + {hide-from-toc} [Add or hide components to your web page](/help/main/c-integrating-target-with-mac/ajo/add-hide-content-using-ajo.md)
    + [Integrate Target with Experimentation Accelerator](/help/main/c-integrating-target-with-mac/experimentation-accelerator.md)
    + [Experience Cloud Audiences](/help/main/c-integrating-target-with-mac/mmp.md)
-   + Adobe Target MCP server {#mcp}
-      + {hide-from-toc} [Overview](c-integrating-target-with-mac/mcp/target-mcp.md)
-      + {hide-from-toc} [Get started](c-integrating-target-with-mac/mcp/target-mcp-get-started.md)
-      + {hide-from-toc} [Use cases and walkthroughs](c-integrating-target-with-mac/mcp/target-mcp-use-cases.md)
-      + {hide-from-toc} [MCP server tools reference](c-integrating-target-with-mac/mcp/target-mcp-tools-reference.md)
    + Integrate Target with Adobe Experience Manager (AEM) {#aem}
       + [Integrate Target with AEM overview](/help/main/c-integrating-target-with-mac/aem/aem-target-integration.md)
       + Experience Fragments and Content Fragments {#fragments}

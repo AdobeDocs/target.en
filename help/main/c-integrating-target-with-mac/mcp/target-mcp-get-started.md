@@ -8,21 +8,14 @@ topic: Experimentation, Personalization, Artificial Intelligence
 badge: label="Beta" type="Informative"
 role: User, Developer
 level: Beginner, Intermediate
-hide: true
 ---
 # Get started with the [!DNL Adobe Target] MCP server {#target-mcp-get-started}
 
->[!BEGINSHADEBOX]
+>[!AVAILABILITY]
+>
+>The [!DNL Adobe Target] MCP server is available to all customers in **Public Beta**. It is currently supported in **Claude Web**, **Claude Desktop**, **Claude Code**, **Cursor**, and **ChatGPT**.
 
-Table of contents:
-
-* [Overview](target-mcp.md)
-* **[Get started](target-mcp-get-started.md)**
-* [Use cases and walkthroughs](target-mcp-use-cases.md)
-* [MCP server tools reference](target-mcp-tools-reference.md)
-
->[!ENDSHADEBOX]
-
+This page walks you through everything you need to connect the [!DNL Adobe Target] MCP server to your AI assistant and verify your setup.
 
 >[!IMPORTANT]
 >
@@ -32,18 +25,17 @@ Table of contents:
 >
 >To reduce risk, Adobe encourages testing integrations in a sandbox environment prior to productive use and carefully reviewing and validating all MCP-initiated actions and responses before confirming or relying on them.
 
-This page walks you through everything you need to connect the [!DNL Adobe Target] MCP server to your AI assistant and verify your setup.
-
 ## Prerequisites {#mcp-prerequisites}
 
 Before connecting the [!DNL Adobe Target] MCP server to your MCP client, ensure the following:
 
 * You have an active [!DNL Adobe Target] license (Adobe Experience Cloud subscription) with an Adobe Experience Platform organization.
 * You have a supported MCP-compatible application (currently Claude Web, Claude Desktop, Claude Code, Cursor, or ChatGPT).
-* You have [!DNL Adobe Target] permissions configured in Adobe Admin Console:
-  * **Observer** role: read-only tools
-  * **Editor** role: read + create tools
-  * **Approver** role: read + create + activate/deactivate tools
+* You have [!DNL Adobe Target] permissions configured in Adobe Admin Console. In Public Beta, all 23 available tools are read-only. **Observer** role or higher is sufficient to use the MCP server.
+
+>[!NOTE]
+>
+>Write tools (create, update, activate, deactivate) are not exposed via the public MCP catalog in Public Beta. Editor and Approver role privileges do not unlock additional tools at this time. Write access will be available in a future release.
 
 ## Connect the [!DNL Adobe Target] MCP server {#mcp-connect}
 
@@ -115,7 +107,7 @@ Complete the OAuth browser flow when prompted on first use.
 
 +++A tool returns an error message
 
-1. Verify you have the required permissions in [!DNL Adobe Target] for the operation (see [Prerequisites](#mcp-prerequisites)).
+1. Verify you have **Observer** role or higher in [!DNL Adobe Target] (see [Prerequisites](#mcp-prerequisites)).
 1. Check that the referenced resources — activities, offers, audiences — exist in your organization.
 1. Confirm that activity IDs and other identifiers are correct.
 +++

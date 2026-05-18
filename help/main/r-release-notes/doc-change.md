@@ -1,15 +1,59 @@
 ---
-keywords: target documentation change log;documentation updates;new topics;edits;updates;update;changes 
+keywords: target documentation change log;documentation updates;new topics;edits;updates;update;changes
 description: Keep up to date with important additions and changes to the [!DNL Target] documentation.
-title: Where Can I See Documentation Updates for [!DNL Target]? 
+title: Where Can I See Documentation Updates for [!DNL Target]?
 feature: Release Notes
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
+TQID: https://experienceleague.adobe.com/8EcK9hck9HDIrY94Pr7bmoGIWNz54B-odkfHlQwpuv4
+product_v2:
+  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+    internal-label: Target
+feature_v2:
+  - id: adee20bd-51f4-461d-b9db-d215f8756eeb
+    internal-label: Audiences
+  - id: c93393a4-e558-47e1-992e-c91ed4d480ce
+    internal-label: Implementation
+subfeature_v2:
+  - id: fd0ff162-b6d3-4a11-8aeb-e165a01c0f0a
+    internal-label: at.js
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
+  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
+  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+    internal-label: Customer experience
+  - id: c1579802-ddd4-4214-8a91-97b2066abe11
+    internal-label: Troubleshooting
+  - id: cc72dcf1-72e1-48cc-b434-e7c27d62d67c
+    internal-label: Accessibility
+  - id: d3cdead0-685a-4489-9250-4bb709942f66
+    internal-label: Data collection
+  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+    internal-label: Personalization
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+    internal-label: Administration
+  - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+    internal-label: Privacy
 ---
 # Documentation changes
 
 This page lists significant changes made to the [!DNL Adobe Target] product documentation. 
 
 ## Updates
+
+### [!DNL Target Standard/Premium] 26.5.1 (May 7, 2026)
+
+|Date|Topic|Changes|
+|--- |--- |--- |
+|May 12|[[!DNL Adobe Target] Business Practitioner Guide](/help/main/target-home.md)|Updated the home page to feature the [!DNL Adobe Target] MCP server (Public Beta) announcement and removed outdated 2025 announcements.|
+||[[!DNL Target] release notes (current)](/help/main/r-release-notes/release-notes.md)|Added release notes for the [!DNL Adobe Target] MCP server (Public Beta) feature update.|
+||[[!DNL Adobe Target] MCP server overview](/help/main/c-integrating-target-with-mac/mcp/target-mcp.md)|New article. Learn what the [!DNL Adobe Target] MCP server is, its key capabilities, and how it connects to your AI assistant.|
+||[Get started with the [!DNL Adobe Target] MCP server](/help/main/c-integrating-target-with-mac/mcp/target-mcp-get-started.md)|New article. Learn how to connect the [!DNL Adobe Target] MCP server to your AI assistant, including prerequisites, client configuration, and troubleshooting.|
+||[[!DNL Adobe Target] MCP server — use cases and walkthroughs](/help/main/c-integrating-target-with-mac/mcp/target-mcp-use-cases.md)|New article. Explore common use cases and step-by-step prompt walkthroughs for the [!DNL Adobe Target] MCP server.|
+||[[!DNL Adobe Target] MCP server tools reference](/help/main/c-integrating-target-with-mac/mcp/target-mcp-tools-reference.md)|New article. Complete parameter reference for all read-only tools exposed by the [!DNL Adobe Target] MCP server.|
+||[Self-host the [!DNL Adobe Target] MCP server](/help/main/c-integrating-target-with-mac/mcp/target-mcp-self-hosted.md)|New article. Learn how to run your own instance of the [!DNL Adobe Target] MCP server using Python, Docker, or a local development environment.|
+|May 7|[[!DNL Target] release notes (current)](/help/main/r-release-notes/release-notes.md)|Added release notes for the [!DNL Target Standard/Premium] 26.5.1 release.|
 
 ### [!DNL Target Standard/Premium] 26.1.1 (January 18, 2026)
 
