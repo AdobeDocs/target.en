@@ -49,7 +49,7 @@ Content pre-hiding is off for your instance until you enable it. Use **[!UICONTR
 
 1. Click **[!UICONTROL Save]**. This will apply flicker management settings to your instance.
 
-1. Once enabled, click **[!UICONTROL Download]**, then add the file to the page `<head>` so it loads before [!DNL at.js] or the [!DNL Web SDK].
+1. Once enabled, click **[!UICONTROL Download]**, then add the file to the page `<head>` so it loads before [!DNL at.js] or the [!DNL Web SDK]. For complete implementation instructions, see [Content pre-hiding SDK](https://experienceleague.adobe.com/en/docs/target-dev/developer/client-side/prehide-sdk).
 
     ![](assets/content-pre-hiding-2.png)
 
