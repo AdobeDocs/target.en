@@ -11,7 +11,7 @@ level: Beginner, Intermediate
 ---
 # [!DNL Adobe Target] MCP server {#target-mcp}
 
-The [!DNL Adobe Target] MCP integration lets you inspect and analyze A/B tests, personalization activities, and Recommendations criteria directly from your AI assistant. Turn [!DNL Target]'s experimentation and personalization data into plain-language workflows — audit your experiment portfolio, review performance reports, and explore audiences and offers without navigating the UI or writing API calls.
+The [!DNL Adobe Target] MCP integration lets you inspect and analyze A/B tests and personalization activities directly from your AI assistant. Turn [!DNL Target]'s experimentation and personalization data into plain-language workflows — audit your experiment portfolio, review performance reports, and explore audiences and offers without navigating the UI or writing API calls.
 
 >[!AVAILABILITY]
 >
@@ -22,7 +22,7 @@ The [!DNL Adobe Target] MCP integration lets you inspect and analyze A/B tests, 
 
 Marketing and optimization teams increasingly rely on chat-based applications and developer tools — such as Anthropic Claude, OpenAI ChatGPT, Cursor, and Microsoft Copilot Studio — to streamline their day-to-day work. These applications support the **Model Context Protocol (MCP)**, an open standard that lets applications expose back-end tools to large language models (LLMs) in a uniform way.
 
-[!DNL Adobe Target] now provides an MCP server that surfaces experimentation, personalization, and recommendations operations directly inside any MCP-compatible application. [!DNL Adobe Target] acts as the decisioning and execution layer while the AI assistant handles reasoning and explanation — giving teams faster access to optimization insights without navigating multiple product screens or writing queries against the [!DNL Adobe Target] REST API.
+[!DNL Adobe Target] now provides an MCP server that surfaces experimentation and personalization operations directly inside any MCP-compatible application. [!DNL Adobe Target] acts as the decisioning and execution layer while the AI assistant handles reasoning and explanation — giving teams faster access to optimization insights without navigating multiple product screens or writing queries against the [!DNL Adobe Target] REST API.
 
 
 >[!IMPORTANT]
@@ -35,13 +35,13 @@ Marketing and optimization teams increasingly rely on chat-based applications an
 
 ## Key capabilities {#mcp-capabilities}
 
-The [!DNL Adobe Target] MCP server provides read access to activities, audiences, offers, recommendations, and implementation configuration. With the integration, you can:
+The [!DNL Adobe Target] MCP server provides read access to activities, audiences, offers, and implementation configuration. With the integration, you can:
 
 * **Inspect and audit experiments** - Get status, performance, change history, and QA preview links for any activity without navigating the UI.
 * **Analyze results** - Retrieve performance, revenue, and A4T reports for A/B, XT, AP, and Auto-Target activities.
 * **Explore activities** - List, inspect, and analyze A/B and XT activities.
 * **Explore audiences and offers** - List and inspect audiences, HTML offers, and JSON offers.
-* **Explore Recommendations criteria** - List and inspect criteria and cart-based algorithms.
+<!-- * **Explore Recommendations criteria** - List and inspect criteria and cart-based algorithms. -->
 * **Audit implementation** - Review at.js settings, response tokens, and per-entity revision history.
 
 >[!NOTE]
@@ -63,7 +63,7 @@ The [!DNL Adobe Target] MCP server is currently available for **Claude Web**, **
 
 +++What [!DNL Adobe Target] objects can I access via MCP?
 
-You can access activities (A/B, XT, AP), audiences, offers, properties, mboxes, Recommendations criteria, response tokens, at.js configuration, A4T reports, and entity revision history. All 23 currently available tools are read-only.
+You can access activities (A/B, XT, AP), audiences, offers, properties, mboxes, response tokens, at.js configuration, A4T reports, and entity revision history. All 23 currently available tools are read-only.
 +++
 
 +++Can the MCP server create or modify activities?
