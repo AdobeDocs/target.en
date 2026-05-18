@@ -38,7 +38,7 @@ The following examples show how to interact with the [!DNL Adobe Target] MCP ser
 | **Activity insights** | "Get insights for my 'Summer Sale Banner' test — what does performance look like and are there any anomalies?" |
 | **Audience management** | "List all audiences targeting mobile users and show me which activities they're associated with." |
 | **QA and preview** | "Generate QA preview URLs for activity 12345 so I can review all variants before activating." |
-| **Recommendations review** | "List all Recommendations criteria configured in this account and summarize the algorithm types in use." |
+<!-- | **Recommendations review** | "List all Recommendations criteria configured in this account and summarize the algorithm types in use." | -->
 | **Implementation audit** | "What version of at.js is configured, and what response tokens are currently active?" |
 | **Change audit** | "Show me all changes made to activity 98765 in the last 30 days and who made them." |
 
