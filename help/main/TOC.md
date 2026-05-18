@@ -52,7 +52,7 @@ feature-set: Target
       + [Estimating lift in revenue](/help/main/administrating-target/r-target-account-preferences/estimating-lift-in-revenue.md)
    + [Scene7 configuration](administrating-target/scene7-settings.md)
    + [Implementation](/help/main/administrating-target/implementation.md)
-   + [Content pre-hiding](administrating-target/content-pre-hiding.md)
+   + {hide-from-toc}[Content pre-hiding](administrating-target/content-pre-hiding.md)
    + [Hosts](administrating-target/hosts.md)
    + [Environments](/help/main/administrating-target/environments.md)
    + [Response tokens](administrating-target/response-tokens.md)

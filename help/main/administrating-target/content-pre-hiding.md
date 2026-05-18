@@ -5,6 +5,7 @@ title: Content pre-hiding for personalized experiences
 feature: Administration & Configuration
 role: Admin
 badgeBeta: label="Beta" type="Informative" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html#beta newtab=true" tooltip="What are Beta features in [!DNL Adobe Target]."
+hide: true
 ---
 # Content pre-hiding for personalized experiences
 
