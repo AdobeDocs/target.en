@@ -82,6 +82,48 @@ Release notes are listed in descending order by month and year of release.
 
 ## Release notes - 2026
 
+## [!DNL Target Standard/Premium] 26.5.1 (May 7, 2026)
+
+**Integrations**
+
++++See details
+
+* **[!DNL Adobe Target] management in Experimentation Accelerator.** Added support for assigning [!DNL Target] workspaces to Experimentation Accelerator sandboxes so teams can view experiments from [!DNL Adobe Target] in Experimentation Accelerator in one place. [Learn more](../c-integrating-target-with-mac/experimentation-accelerator.md)
+
++++
+
+**Activities**
+
++++See details
+
+* **[!UICONTROL Graph View] out of sync with table and download.** Fixed an issue where activity reports could show missing or zero metrics in **[!UICONTROL Graph View]** for some date ranges even though **[!UICONTROL Table View]** and the downloaded report still showed the correct values. (TGT-54998)
+
++++
+
+**[!UICONTROL Audiences]**
+
++++See details
+
+* **Audience usage list not fully rendered.** Fixed an issue in which the **[!UICONTROL Usage]** section in audience details could display only a subset of mapped activities even when additional activities were associated with that audience. (TGT-55094)
+
++++
+
+**[!UICONTROL Administration]**
+
++++See details
+
+* **Clearer confirmation for last-octet IP obfuscation.** When you change **[!UICONTROL Obfuscate Visitor IP addresses]** to **[!UICONTROL Last octet]** on **[!UICONTROL Administration]** > **[!UICONTROL Implementation]**, the confirmation dialog now explains that [!DNL Target] hides the last octet of the visitor IP address. (TGT-44821)
+
++++
+
+**[!UICONTROL Visual Experience Composer] (VEC)**
+
++++See details
+
+* **Blank or incomplete page with Enhanced Experience Composer (EEC).** Fixed an issue where the [!UICONTROL Visual Experience Composer] could fail to load the site in the editor when **[!UICONTROL Enhanced Experience Composer]** was enabled. (TGT-54576)
+
++++
+
 ## [!DNL Target Standard/Premium] 26.4.4 (April 28, 2026)
 
 **Activities**
