@@ -67,7 +67,10 @@ Unlike an A/B activity in which the experience allocation for a given visitor is
 
 There are a few important considerations to keep in mind when using [!UICONTROL Auto-Target]:
 
-* Limit [!UICONTROL Auto-Target] and [!UICONTROL Automated Personalization] activities to 4–6 locations with 4–6 offers per location. Since the total number of experiences grows from the combination of locations and offers, larger configurations can lead to slow loading or editing in the [!UICONTROL Visual Experience Composer].
+* Mind the activity shape. Performance depends more on the number of locations × offers than on the raw experience count. Large cartesian combinations can slow loading and editing in the [!UICONTROL Visual Experience Composer], even below documented experience limits.
+
+  As a best practice, keep [!UICONTROL Auto-Target] and [!UICONTROL Automated Personalization] activities to 4–6 locations with 4–6 offers per location. Larger configurations are not recommended. Because these activities are built directly in the [!UICONTROL Experiences] step, the [!DNL Target] UI may show inline warnings or block saving when the configuration exceeds supported thresholds.
+
 * You cannot switch a specific activity from [!UICONTROL Auto-Target] to [!UICONTROL Automated Personalization], and the opposite way. 
 * You cannot switch from [!UICONTROL Manual] traffic allocation (traditional [!UICONTROL A/B Test]) to [!UICONTROL Auto-Target], and the opposite way after an activity is saved as draft. 
 * One model is built to identify the performance of the personalized strategy versus randomly served traffic versus sending all traffic to the overall winning experience. This model considers hits and conversions in the default environment only. 
