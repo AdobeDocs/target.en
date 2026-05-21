@@ -54,6 +54,7 @@ There is no turn-key option of comparing [!UICONTROL Automated Personalization] 
 
 +++See details
 
+* Limit [!UICONTROL Automated Personalization] and [!UICONTROL Auto-Target] activities to 4–6 locations with 4–6 offers per location. Larger configurations can lead to slow loading or editing in the [!UICONTROL Visual Experience Composer].
 * If you are looking to personalize a lower-traffic page, or you want to make structural changes to the experience you are personalizing, consider using an [!UICONTROL Auto-Target] activity in place of [!UICONTROL Automated Personalization]. See [Auto-Target](/help/main/c-activities/auto-target/auto-target-to-optimize.md). 
 * Consider completing an [!UICONTROL A/B Test] activity between the offers and locations that you are planning to use in your [!UICONTROL Automated Personalization] activity to ensure that the location and offers have an impact on the optimization goal. If an [!UICONTROL A/B Test] activity fails to demonstrate a significant difference, [!UICONTROL Automated Personalization] likely also fails to generate lift.
 
@@ -93,6 +94,8 @@ There is no turn-key option of comparing [!UICONTROL Automated Personalization] 
 [!DNL Target] has a hard limit of 30,000 experiences, but it functions at its best when fewer than 10,000 experiences are created.
 
 This same limit is applied even when the activity has enabled the [!UICONTROL Disalow Duplicates] option.
+
+For optimal performance, limit [!UICONTROL Automated Personalization] and [!UICONTROL Auto-Target] activities to 4–6 locations with 4–6 offers per location. Since the total number of experiences grows from the combination of locations and offers, larger configurations can lead to slow loading or editing in the [!UICONTROL Visual Experience Composer].
 
 For more information about character limits and other limits (offer size, audiences, profiles, values, parameters, and so forth) that affect activities and other elements in [!DNL Target], see [Limits](/help/main/r-troubleshooting-target/target-limits.md).
 
