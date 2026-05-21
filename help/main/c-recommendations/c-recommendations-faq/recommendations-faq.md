@@ -203,6 +203,12 @@ Ensure that the audience has a unique name. If you gave the audience the same na
 
 There is no hard limit on the number of rows or file size for a feed's CSV file upload. However, as a best practice, Adobe recommends limiting the CSV file size to 1 GB to avoid failures during the file upload process. If the size of the file exceeds 1 GB, it can ideally be split into multiple feed files. The maximum number of custom attribute columns is 100 and custom attributes are limited to 4096 characters. Other limits on the length of required columns are available on the [[!DNL Target] Limitations page](/help/main/r-troubleshooting-target/target-limits.md#reference_BEFE60C3AAA442FF94D4EBFB9D3CC9B1).
 
+## Why does my [!UICONTROL Download data] action fail in a [!DNL Recommendations] activity? {#download-data-error}
+
+When you click **[!UICONTROL Download data]** on the [!UICONTROL Activity Overview] page of a [!DNL Recommendations] activity, the [!DNL Target] user interface might display the error `Error while fetching recommendation data file.`
+
+This typically happens when the activity has a very large result set: the generated CSV exceeds the response size that can be returned through the user interface in a single download. The recommendation data itself is intact, only the in-browser download path is unable to deliver a file of that size.
+
 ## Can I dynamically exclude an entity? {#exclude}
 
 In the query string, you can pass entity IDs for entities that you want to exclude from your recommendations. For example, you can exclude items that are already in the shopping cart.
