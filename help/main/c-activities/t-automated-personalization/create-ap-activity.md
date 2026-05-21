@@ -102,7 +102,7 @@ Define the pool of content variations that [!UICONTROL Automated Personalization
 
    >[!IMPORTANT]
    >
-   >**Best practice:** For optimal performance, limit [!UICONTROL Automated Personalization] and [!UICONTROL Auto-Target] activities to 4–6 locations with 4–6 offers per location. The total number of experiences grows from the cartesian combination of locations and offers. Larger configurations can lead to slow loading or editing in the [!UICONTROL Visual Experience Composer]. Keep the total under 5,000 experiences for best results; the hard limit is 30,000 (the same limit applies when the [!UICONTROL Disallow Duplicates] option is enabled).
+   >For optimal performance, limit [!UICONTROL Automated Personalization] and [!UICONTROL Auto-Target] activities to 4–6 locations with 4–6 offers per location. The total number of experiences grows from the cartesian combination of locations and offers. Larger configurations can lead to slow loading or editing in the [!UICONTROL Visual Experience Composer]. Keep the total under 5,000 experiences for best results; the hard limit is 30,000 (the same limit applies when the [!UICONTROL Disallow Duplicates] option is enabled).
 
 1. (Conditional) Click **[!UICONTROL Offers]** to select pieces of content and assign them to reporting groups or only allow certain visitors to see certain offers with targeting.
 
@@ -113,7 +113,7 @@ Define the pool of content variations that [!UICONTROL Automated Personalization
 
    ![Exclusion Groups tab of Manage Content dialog box](/help/main/c-activities/t-automated-personalization/assets/exclusion_groups-new.png)
 
-   Although you can create up to 30,000 experiences in an AP test, the algorithm performs its best when fewer than 10,000 distinct experiences are used. This same limit is applied even when the activity has enabled the [!UICONTROL Disalow Duplicates] option.
+   Although you can create up to 30,000 experiences in an AP test, the algorithm performs its best when fewer than 10,000 distinct experiences are used. This same limit is applied even when the activity has enabled the [!UICONTROL Disallow Duplicates] option.
 
    If you do not currently have any exclusion groups included in your activity, click **Create Exclusion Group**. You can filter to create a list that shows only the combinations you want to exclude. Name your exclusion group, then click **Save**.
 
