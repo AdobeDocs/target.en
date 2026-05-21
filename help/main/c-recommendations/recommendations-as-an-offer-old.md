@@ -4,8 +4,8 @@ description: Learn how to use Adobe Recommendations as an offer in A/B Tests (in
 title: How Do I Use Recommendations as an Offer in Other Activity Types?
 badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="See what's included in Target Premium."
 feature: Recommendations
-hide: yes
-hidefromtoc: yes
+hide: true
+hidefromtoc: true
 ---
 # Recommendations as an offer
 

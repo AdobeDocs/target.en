@@ -5,6 +5,15 @@ title: Where Can I find Questions and Answers about [!DNL Recommendations]?
 badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="See what's included in Target Premium."
 feature: Recommendations
 exl-id: aaa52923-1c2d-44ae-bd89-671329222077
+TQID: https://experienceleague.adobe.com/Hz37Dp21q-25Pj6mmbiaGqONY14eImVB9Ebz8VH9hMA
+product_v2:
+  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+    internal-label: Target
+topic_v2:
+  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+    internal-label: Customer experience
+  - id: c1579802-ddd4-4214-8a91-97b2066abe11
+    internal-label: Troubleshooting
 ---
 # Recommendations FAQ
 
@@ -193,6 +202,12 @@ Ensure that the audience has a unique name. If you gave the audience the same na
 ## What is the maximum size of a CSV file for a feed upload? {#section_20F1AF4839A447B9889B246D6E873538}
 
 There is no hard limit on the number of rows or file size for a feed's CSV file upload. However, as a best practice, Adobe recommends limiting the CSV file size to 1 GB to avoid failures during the file upload process. If the size of the file exceeds 1 GB, it can ideally be split into multiple feed files. The maximum number of custom attribute columns is 100 and custom attributes are limited to 4096 characters. Other limits on the length of required columns are available on the [[!DNL Target] Limitations page](/help/main/r-troubleshooting-target/target-limits.md#reference_BEFE60C3AAA442FF94D4EBFB9D3CC9B1).
+
+## Why does my [!UICONTROL Download data] action fail in a [!DNL Recommendations] activity? {#download-data-error}
+
+When you click **[!UICONTROL Download data]** on the [!UICONTROL Activity Overview] page of a [!DNL Recommendations] activity, the [!DNL Target] user interface might display the error `Error while fetching recommendation data file.`
+
+This typically happens when the activity has a very large result set: the generated CSV exceeds the response size that can be returned through the user interface in a single download. The recommendation data itself is intact, only the in-browser download path is unable to deliver a file of that size.
 
 ## Can I dynamically exclude an entity? {#exclude}
 

@@ -6,12 +6,77 @@ short-description: Learn about the new features, enhancements, and fixes include
 title: What Is Included in the Current Release?
 feature: Release Notes
 exl-id: 3ffead4f-113c-4153-b0b1-fc2aff710063
+TQID: https://experienceleague.adobe.com/-Unx6cVsw3wch2LJgPtvBYPe-10rdpiJ4v9F7tMSP08
+product_v2:
+  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+    internal-label: Target
+feature_v2:
+  - id: c93393a4-e558-47e1-992e-c91ed4d480ce
+    internal-label: Implementation
+subfeature_v2:
+  - id: fd0ff162-b6d3-4a11-8aeb-e165a01c0f0a
+    internal-label: at.js
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
+  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
+  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+    internal-label: Customer experience
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+    internal-label: Administration
 ---
 # [!DNL Target] release notes (current)
 
 Explore the latest features, enhancements, and fixes in [!DNL Adobe Target]. These release notes also cover updates to [!DNL Target] APIs, SDKs, the [!DNL Adobe Experience Platform Web SDK], at.js, and other platform components when applicable. 
 
 (The issue numbers in parentheses are for internal [!DNL Adobe] use.)
+
+## [!DNL Target Standard/Premium] 26.5.2 (May 14, 2026)
+
+**Administration**
+
++++See details
+
+* **Regex validation for Allowed URLs.** Fixed an issue where invalid regular expressions could be entered in the **[!UICONTROL Allowed URLs]** field without proper validation. (TGT-55095)
+
++++
+
+**Audiences**
+
++++See details
+
+* **Buttons in [!UICONTROL Edit Audience] dialog.** Fixed an issue where buttons within the **[!UICONTROL Edit Audience]** dialog no longer rendered correctly. (TGT-54638)
+
++++
+
+**[!DNL Adobe Target] MCP server (Public Beta)** 
+
++++See details
+
+[!DNL Adobe Target] now provides an MCP (Model Context Protocol) server that surfaces experimentation, personalization, and reporting operations directly inside any MCP-compatible application. With this integration, marketing and technical personas can inspect A/B tests, analyze performance reports, and explore audiences and offers — all using natural-language prompts instead of navigating multiple UI screens or writing queries against the [!DNL Adobe Target] REST API. This capability is currently available in **Claude Web**, **Claude Desktop**, **Claude Code**, **Cursor**, and **ChatGPT**.
+
+This capability is available to all customers in Public Beta.
+
+For more information, see [[!DNL Adobe Target] MCP server](../c-integrating-target-with-mac/mcp/target-mcp.md).
+
++++
+
+
+<!--
+* **Blank page or CORS errors with Enhanced Experience Composer.** Fixed an issue where the [!UICONTROL Visual Experience Composer] could fail to load when Enhanced Experience Composer (EEC) was enabled. (TGT-54576)
+
+
+
+
+**[!UICONTROL Visual Experience Composer] (VEC)**
+
++++See details
+
+* **Click tracking for Experience B.** Fixed an issue where click tracking was not saved for **[!UICONTROL Experience B]** in the [!UICONTROL Visual Experience Composer]. (TGT-54843)
+
++++
+-->
 
 ## Time-sensitive updates you need to know {#time-sensitive}
 
@@ -22,72 +87,6 @@ For time-sensitive updates related to [!DNL Adobe Target] and your implementatio
 ### [!DNL Target] UI version toggle deprecation
 
 For more information, see [[!DNL Target] UI update FAQs](/help/main/c-intro/updated-ui-faq.md).
-
-<!--
-## [!DNL Target Standard/Premium] 26.4.2 (April 7, 2026)
-
-**Activities**
-
-+++See details
-
-* **Custom code preserved when applied to additional views.** Fixed an issue where custom code applied to one **[!UICONTROL View]** could be removed when adding or saving custom code for another **[!UICONTROL View]** in the same **[!UICONTROL Activity]**. (TGT-53933)
-
-* **Reporting metrics column order.** The updated [!DNL Target] interface allows reporting metrics to be reordered without clearing the full selection and re-adding metrics in sequence. Previously, users were required to unselect all metrics and select them again in the desired order, which was time-consuming when many metrics were enabled and when adjusting column placement to limit horizontal scrolling. (TGT-53044)
-
-+++
-
--->
-
-## [!DNL Target Standard/Premium] 26.4.1 (April 2, 2026)
-
-**Activities**
-
-+++See details
-
-* **Audience attributes visible in the Activities view.** Fixed an issue where audience rule details viewed from an **[!UICONTROL Activity]** did not display certain attributes that appeared when opening the same audience from the **[!UICONTROL Audiences]** section. (TGT-54742)
-
-* **Export CSV on Activities and Audiences list pages.** Added an **[!UICONTROL Export CSV]** action so you can export activity lists from the user interface, including when filters are applied, without relying solely on APIs for routine exports. (TGT-51466)
-
-* **Experience modifications flagged when selectors are not found.** Experience modifications now run a selector-existence check; when a selector is not found on the page, the modification is flagged as invalid. (TGT-54815)
-
-* **[!UICONTROL Automated personalization] activities.** Fixed interface and activity-loading issues that prevented users from reliably creating, editing, or managing Automated personalization activities, which blocked campaign setup and delayed personalization use cases. (TGT-54421)
-
-+++
-
-**Audiences**
-
-+++See details
-
-* **Audience name and description visible when creating audiences from an activity.** Fixed an issue where the audience **[!UICONTROL Name]** and **[!UICONTROL Description]** fields did not stand out clearly when creating or editing an audience from the activity flow, compared to creating the audience directly under **[!UICONTROL Audiences]**. (TGT-54837)
-
-+++
-
-**Insights**
-
-+++See details
-
-* **[!UICONTROL Live Activities] count on Insights.** Fixed an issue where the **[!UICONTROL Live Activities]** metric on the Insights dashboard could report a higher total than the number of activities that appeared as live in **[!UICONTROL All Activities]**. (TGT-54788)
-
-+++
-
-**Recommendations**
-
-+++See details
-
-* **Long ID lists in [!UICONTROL Global Exclusions].** Fixed an issue where pasting or entering a long list of IDs in **[!UICONTROL Global Exclusions]** could be truncated in the updated interface compared with the legacy, causing an incomplete exclusion list. (TGT-54422)
-
-+++
-
-**[!UICONTROL Visual Experience Composer] (VEC)**
-
-+++See details
-
-* **Enhanced Experience Composer (EEC) status indicator in the [!UICONTROL Visual Experience Composer].** The EEC indicator denotes whether Enhanced Experience Composer is enabled. Its presentation has been revised so that it no longer resembles an interactive toggle since it serves only as a non-interactive status display. (TGT-54828)
-
-* **Collapsible left rail in the [!UICONTROL Visual Experience Composer].** The left rail can now be collapsed while an activity is open for editing. This improves access to **[!UICONTROL Components]** and **[!UICONTROL Properties]** for activities that include multiple audiences and pages, including on smaller displays. (TGT-54269)
-
-+++
-
 
 ## Additional release notes and version details
 

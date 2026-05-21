@@ -3,8 +3,8 @@ keywords: Recommendations;offer;preview;launch;status;criteria;algorithm
 description: Learn how to preview your Adobe [!DNL Target] Recommendations activity to ensure results are available before launching the activity. 
 title: How Do I Preview and Launch a Recommendations Activity?
 feature: Recommendations
-hide: yes
-hidefromtoc: yes
+hide: true
+hidefromtoc: true
 ---
 # Preview and launch your Recommendations activity
 
@@ -85,6 +85,8 @@ From left to right is a list of recommended items, in this case the most frequen
 If an asterisk (*) is the first value of a row, it indicates [backup items](/help/main/c-recommendations/c-algorithms/backup-recs.md). Backup items display if not all the slots in a design can be filled by the recommended items of the algorithm (criteria).
 
 For other algorithm types based on a key value, such as [!UICONTROL People Who Viewed This, Viewed That], the key values (i.e. the "This" items) are listed in the left-most column and the recommended items (i.e. the "That" items) are listed left-to-right in the Recommendation_X columns.
+
+Note that for activities with very large result sets, the **[!UICONTROL Download data]** option might fail with the error `Error while fetching recommendation data file.` This happens when the generated CSV exceeds the response size that can be returned through the user interface in a single download.
 
 >[!NOTE]
 >

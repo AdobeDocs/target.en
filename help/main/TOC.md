@@ -52,6 +52,7 @@ feature-set: Target
       + [Estimating lift in revenue](/help/main/administrating-target/r-target-account-preferences/estimating-lift-in-revenue.md)
    + [Scene7 configuration](administrating-target/scene7-settings.md)
    + [Implementation](/help/main/administrating-target/implementation.md)
+   + {hide-from-toc}[Content pre-hiding](administrating-target/content-pre-hiding.md)
    + [Hosts](administrating-target/hosts.md)
    + [Environments](/help/main/administrating-target/environments.md)
    + [Allowlisted URLs](administrating-target/allowlisted-urls.md)
@@ -68,6 +69,11 @@ feature-set: Target
    + [Recommendations](/help/main/administrating-target/recommendations-settings.md)
 + Implement Target {#implement-target}
     + [Implement Target overview](c-implementing-target/implementing-target.md) 
++ Adobe Target MCP server {#mcp}
+   + [Overview](c-integrating-target-with-mac/mcp/target-mcp.md)
+   + [Get started](c-integrating-target-with-mac/mcp/target-mcp-get-started.md)
+   + [Use cases and walkthroughs](c-integrating-target-with-mac/mcp/target-mcp-use-cases.md)
+   + [MCP server tools reference](c-integrating-target-with-mac/mcp/target-mcp-tools-reference.md)
 + Integrate Target with the Experience Cloud {#integrate}
    + Adobe Analytics as the reporting source for Target (A4T) {#a4t}
       + [A4T overview](c-integrating-target-with-mac/a4t/a4t.md)
@@ -100,6 +106,7 @@ feature-set: Target
          + {hide-from-toc} [Top optimization use cases in Adobe Journey Optimizer - web and code-based channels](/help/main/c-integrating-target-with-mac/ajo/top-ajo-use-cases.md)
          + {hide-from-toc} [Content changes through A/B testing in Adobe Journey Optimizer](/help/main/c-integrating-target-with-mac/ajo/content-change-using-ajo.md)
          + {hide-from-toc} [Add or hide components to your web page](/help/main/c-integrating-target-with-mac/ajo/add-hide-content-using-ajo.md)
+   + [Integrate Target with Experimentation Accelerator](/help/main/c-integrating-target-with-mac/experimentation-accelerator.md)
    + [Experience Cloud Audiences](/help/main/c-integrating-target-with-mac/mmp.md)
    + Integrate Target with Adobe Experience Manager (AEM) {#aem}
       + [Integrate Target with AEM overview](/help/main/c-integrating-target-with-mac/aem/aem-target-integration.md)

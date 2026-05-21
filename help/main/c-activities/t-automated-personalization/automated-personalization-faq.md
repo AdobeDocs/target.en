@@ -5,6 +5,26 @@ title: How Can I Find FAQs about [!UICONTROL Automated Personalization] Activiti
 badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="See what's included in Target Premium."
 feature: Automated Personalization
 exl-id: 2bf62cc1-1781-4021-a400-2884e0bae893
+TQID: https://experienceleague.adobe.com/cYdFwvkJDlfGYdcxql9iWGwNiTed4Lb2kC7JdN7xgdo
+product_v2:
+  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+    internal-label: Target
+feature_v2:
+  - id: adee20bd-51f4-461d-b9db-d215f8756eeb
+    internal-label: Audiences
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
+  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+    internal-label: Customer experience
+  - id: c1579802-ddd4-4214-8a91-97b2066abe11
+    internal-label: Troubleshooting
+  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+    internal-label: Optimization
+  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+    internal-label: Personalization
+  - id: eb30f47f-d87a-400f-8f78-63ce7979ff56
+    internal-label: Machine learning
 ---
 # Automated Personalization FAQs
 
@@ -34,6 +54,7 @@ There is no turn-key option of comparing [!UICONTROL Automated Personalization] 
 
 +++See details
 
+* Limit [!UICONTROL Automated Personalization] and [!UICONTROL Auto-Target] activities to 4–6 locations with 4–6 offers per location. Larger configurations can lead to slow loading or editing in the [!UICONTROL Visual Experience Composer].
 * If you are looking to personalize a lower-traffic page, or you want to make structural changes to the experience you are personalizing, consider using an [!UICONTROL Auto-Target] activity in place of [!UICONTROL Automated Personalization]. See [Auto-Target](/help/main/c-activities/auto-target/auto-target-to-optimize.md). 
 * Consider completing an [!UICONTROL A/B Test] activity between the offers and locations that you are planning to use in your [!UICONTROL Automated Personalization] activity to ensure that the location and offers have an impact on the optimization goal. If an [!UICONTROL A/B Test] activity fails to demonstrate a significant difference, [!UICONTROL Automated Personalization] likely also fails to generate lift.
 
@@ -73,6 +94,8 @@ There is no turn-key option of comparing [!UICONTROL Automated Personalization] 
 [!DNL Target] has a hard limit of 30,000 experiences, but it functions at its best when fewer than 10,000 experiences are created.
 
 This same limit is applied even when the activity has enabled the [!UICONTROL Disalow Duplicates] option.
+
+For optimal performance, limit [!UICONTROL Automated Personalization] and [!UICONTROL Auto-Target] activities to 4–6 locations with 4–6 offers per location. Since the total number of experiences grows from the combination of locations and offers, larger configurations can lead to slow loading or editing in the [!UICONTROL Visual Experience Composer].
 
 For more information about character limits and other limits (offer size, audiences, profiles, values, parameters, and so forth) that affect activities and other elements in [!DNL Target], see [Limits](/help/main/r-troubleshooting-target/target-limits.md).
 

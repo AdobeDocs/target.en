@@ -4,6 +4,19 @@ description: Learn from others' mistakes so that you don't make the same ones wh
 title: What are Common Mistakes When Using [!DNL Target] and How Can I Avoid Them?
 feature: Overview
 exl-id: 17f379bd-81d7-4f4e-b08d-aee42fe5e81f
+TQID: https://experienceleague.adobe.com/AKPsKnKLbro9zbfYTwUXvSq9MJ0ObQoWWHkPH6PYGos
+product_v2:
+  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+    internal-label: Target
+topic_v2:
+  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+    internal-label: Customer experience
+  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+    internal-label: Optimization
+  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+    internal-label: Personalization
+  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+    internal-label: Insights
 ---
 # Chapter 6: Easily avoidable pitfalls
 

@@ -4,6 +4,18 @@ description: Learn about targeting visitors using pre-built legacy audiences.
 title: Can I Target Visitors Based on Pre-built Targeting Rules?
 feature: Audiences
 exl-id: 7d7b7768-8da4-4c0d-9362-7c1bd6602b61
+TQID: https://experienceleague.adobe.com/CsHCC82HHrlZ44W8msuqAs3iJSk5xzv1FUg9Dsoa0ig
+product_v2:
+  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+    internal-label: Target
+feature_v2:
+  - id: adee20bd-51f4-461d-b9db-d215f8756eeb
+    internal-label: Audiences
+topic_v2:
+  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+    internal-label: Customer experience
+  - id: c1579802-ddd4-4214-8a91-97b2066abe11
+    internal-label: Troubleshooting
 ---
 # Target Library
 

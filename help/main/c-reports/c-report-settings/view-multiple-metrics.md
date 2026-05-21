@@ -4,6 +4,13 @@ description: Learn how to select multiple metrics to view in a report using Adob
 title: How Do I View Multiple Metrics in a Report?
 feature: Reports
 exl-id: 8d8aedd8-4583-4131-8ae0-df14e071940a
+TQID: https://experienceleague.adobe.com/mXLlrS1wwfISfxWxq2c-sMDJP1vqxQjbqM-DsLJK9bY
+product_v2:
+  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+    internal-label: Target
+topic_v2:
+  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+    internal-label: Customer experience
 ---
 # View multiple metrics in a report
 

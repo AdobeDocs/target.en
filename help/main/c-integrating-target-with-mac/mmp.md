@@ -4,6 +4,20 @@ description: Learn how Adobe Experience Cloud Audiences let Experience Cloud app
 title: How Do I Use Adobe Experience Cloud Audiences in Target?
 feature: Integrations
 exl-id: 4502e77d-1310-41f3-8d14-ba69692df1af
+TQID: https://experienceleague.adobe.com/p56TdIW44Ben1VdjbBBJptKai9pHhPx4ptc8IzmbtiE
+product_v2:
+  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+    internal-label: Target
+feature_v2:
+  - id: adee20bd-51f4-461d-b9db-d215f8756eeb
+    internal-label: Audiences
+  - id: f7c7de77-382f-4f48-8b36-61a170f06d3d
+    internal-label: Integrations
+topic_v2:
+  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+    internal-label: Customer experience
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+    internal-label: Administration
 ---
 # Experience Cloud Audiences
 

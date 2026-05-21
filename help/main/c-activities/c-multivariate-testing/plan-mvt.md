@@ -4,6 +4,13 @@ description: Learn how to plan a [!UICONTROL Multivariate Test] in [!DNL Adobe T
 title: How Do I Plan a [!UICONTROL Multivariate Test]?
 feature: Multivariate Tests
 exl-id: 130718d5-7bd9-4b1a-b81a-7a146f0ffd0d
+TQID: https://experienceleague.adobe.com/Fg9jOrPlkLxpbJdG-AKoWHD3YvIGEJPu7Os-RdfXvQA
+product_v2:
+  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+    internal-label: Target
+topic_v2:
+  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+    internal-label: Customer experience
 ---
 # Plan a [!UICONTROL Multivariate Test]
 

@@ -4,6 +4,17 @@ description: Access an activity's change log in Adobe [!DNL Target] to view a re
 title: How Can I See an Activities Change Log?
 feature: Activities
 exl-id: 72a901c1-4fba-4044-b72b-393cab56b936
+TQID: https://experienceleague.adobe.com/YmadzVwbj4Hy1bk3Q7a0hp9oZ7-lSgl12ImQaEsiDwU
+product_v2:
+  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+    internal-label: Target
+topic_v2:
+  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+    internal-label: Customer experience
+  - id: c1579802-ddd4-4214-8a91-97b2066abe11
+    internal-label: Troubleshooting
+  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+    internal-label: Insights
 ---
 # Activity change log
 
