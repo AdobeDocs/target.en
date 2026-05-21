@@ -82,6 +82,36 @@ Release notes are listed in descending order by month and year of release.
 
 ## Release notes - 2026
 
+## [!DNL Target Standard/Premium] 26.5.2 (May 14, 2026)
+
+**Administration**
+
++++See details
+
+* **Regex validation for Allowed URLs.** Fixed an issue where invalid regular expressions could be entered in the **[!UICONTROL Allowed URLs]** field without proper validation. (TGT-55095)
+
++++
+
+**Audiences**
+
++++See details
+
+* **Buttons in [!UICONTROL Edit Audience] dialog.** Fixed an issue where buttons within the **[!UICONTROL Edit Audience]** dialog no longer rendered correctly. (TGT-54638)
+
++++
+
+**[!DNL Adobe Target] MCP server (Public Beta)** 
+
++++See details
+
+[!DNL Adobe Target] now provides an MCP (Model Context Protocol) server that surfaces experimentation, personalization, and reporting operations directly inside any MCP-compatible application. With this integration, marketing and technical personas can inspect A/B tests, analyze performance reports, and explore audiences and offers — all using natural-language prompts instead of navigating multiple UI screens or writing queries against the [!DNL Adobe Target] REST API. This capability is currently available in **Claude Web**, **Claude Desktop**, **Claude Code**, **Cursor**, and **ChatGPT**.
+
+This capability is available to all customers in Public Beta.
+
+For more information, see [[!DNL Adobe Target] MCP server](../c-integrating-target-with-mac/mcp/target-mcp.md).
+
++++
+
 ## [!DNL Target Standard/Premium] 26.5.1 (May 7, 2026)
 
 **Integrations**
