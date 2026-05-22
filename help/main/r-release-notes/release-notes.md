@@ -32,7 +32,7 @@ Explore the latest features, enhancements, and fixes in [!DNL Adobe Target]. The
 
 (The issue numbers in parentheses are for internal [!DNL Adobe] use.)
 
-## [!DNL Target Standard/Premium] 26.5.2 (May 21, 2026)
+## [!DNL Target Standard/Premium] 26.5.3 (May 21, 2026)
 
 **[!UICONTROL What's new] page**
 
