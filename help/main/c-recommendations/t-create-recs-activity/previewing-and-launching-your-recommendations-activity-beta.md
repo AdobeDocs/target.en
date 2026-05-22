@@ -86,6 +86,8 @@ If an asterisk (*) is the first value of a row, it indicates [backup items](/hel
 
 For other algorithm types based on a key value, such as [!UICONTROL People Who Viewed This, Viewed That], the key values (i.e. the "This" items) are listed in the left-most column and the recommended items (i.e. the "That" items) are listed left-to-right in the Recommendation_X columns.
 
+Note that for activities with very large result sets, the **[!UICONTROL Download data]** option might fail with the error `Error while fetching recommendation data file.` This happens when the generated CSV exceeds the response size that can be returned through the user interface in a single download.
+
 >[!NOTE]
 >
 >Results downloads are not available for activities containing a [!UICONTROL User-Based Recommendations] algorithm. Results downloads are not available for criteria using the [!UICONTROL Recently-Viewed Items] recommendation logic.

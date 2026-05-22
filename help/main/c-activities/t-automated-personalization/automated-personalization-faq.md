@@ -54,6 +54,8 @@ There is no turn-key option of comparing [!UICONTROL Automated Personalization] 
 
 +++See details
 
+* Pay close attention to *activity shape* (number of locations × number of offers), not only the total experience count. Cartesian combinations of locations and offers drive authoring-time performance more than the raw number of experiences.
+* For optimal performance and manageability, limit [!UICONTROL Automated Personalization] and [!UICONTROL Auto-Target] activities to 4–6 locations with 4–6 offers per location. Larger configurations are not recommended,  they can lead to slow loading or editing in the [!UICONTROL Visual Experience Composer], and may be restricted in the [!DNL Target] UI. In the current UI, [!DNL Target] surfaces inline warnings or prevents saving the activity when the configuration exceeds supported thresholds.
 * If you are looking to personalize a lower-traffic page, or you want to make structural changes to the experience you are personalizing, consider using an [!UICONTROL Auto-Target] activity in place of [!UICONTROL Automated Personalization]. See [Auto-Target](/help/main/c-activities/auto-target/auto-target-to-optimize.md). 
 * Consider completing an [!UICONTROL A/B Test] activity between the offers and locations that you are planning to use in your [!UICONTROL Automated Personalization] activity to ensure that the location and offers have an impact on the optimization goal. If an [!UICONTROL A/B Test] activity fails to demonstrate a significant difference, [!UICONTROL Automated Personalization] likely also fails to generate lift.
 
@@ -92,7 +94,13 @@ There is no turn-key option of comparing [!UICONTROL Automated Personalization] 
 
 [!DNL Target] has a hard limit of 30,000 experiences, but it functions at its best when fewer than 10,000 experiences are created.
 
-This same limit is applied even when the activity has enabled the [!UICONTROL Disalow Duplicates] option.
+This same limit is applied even when the activity has enabled the [!UICONTROL Disallow Duplicates] option.
+
+Although [!UICONTROL Automated Personalization] and [!UICONTROL Auto-Target] activities can support a large number of experiences, authoring performance depends heavily on *activity shape* (number of locations × number of offers). Certain configurations create large cartesian combinations that can significantly impact load and edit performance, even below the documented experience limits.
+
+For optimal performance and manageability, limit [!UICONTROL Automated Personalization] and [!UICONTROL Auto-Target] activities to 4–6 locations with 4–6 offers per location. Larger configurations are not recommended and may be restricted in the [!DNL Target] UI.
+
+In the current [!DNL Target] UI, [!UICONTROL Automated Personalization] and [!UICONTROL Auto-Target] activities are configured directly in the [!UICONTROL Experiences] step. [!DNL Target] may surface inline warnings or prevent saving activities when configurations exceed supported thresholds, and re-validates the activity shape on [!UICONTROL Next], [!UICONTROL Save], and [!UICONTROL Publish].
 
 For more information about character limits and other limits (offer size, audiences, profiles, values, parameters, and so forth) that affect activities and other elements in [!DNL Target], see [Limits](/help/main/r-troubleshooting-target/target-limits.md).
 

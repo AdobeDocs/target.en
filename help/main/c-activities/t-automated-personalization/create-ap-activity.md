@@ -32,6 +32,16 @@ Create an [!UICONTROL Automated Personalization] (AP) activity in [!DNL Adobe Ta
 
 The [!UICONTROL Automated Personalization] (AP) activity workflow in [!DNL Target] varies from the workflow of the other activity types.
 
+This procedure follows the three-step guided workflow in the [!UICONTROL Visual Experience Composer]:
+
+1. [Step 1: Build experiences](#build-experiences)
+1. [Step 2: Set targeting](#set-targeting)
+1. [Step 3: Configure goals and settings](#configure-goals-and-settings)
+
+## Step 1: Build experiences {#build-experiences}
+
+Define the pool of content variations that [!UICONTROL Automated Personalization] can personalize against. The richer and more distinct your experiences and offers, the better the algorithm can match the right content to each visitor.
+
 1. From the [!DNL Target] [!UICONTROL Activities] list, click **[!UICONTROL Create Activity]** > **[!UICONTROL Automated Personalization]**.
 
 1. To use the [!UICONTROL Visual Experience Composer] (VEC), click **[!UICONTROL Visual]**.
@@ -88,17 +98,11 @@ The [!UICONTROL Automated Personalization] (AP) activity workflow in [!DNL Targe
 
 1. Click the **[!UICONTROL Manage Content]** icon ( ![Manage Content icon](/help/main/assets/icons/Experience.svg) ) to configure the available combinations.
 
-   A dialog box displays with two options at the top of the screen: [!UICONTROL Experiences] and [!UICONTROL Offers].
+   A dialog box displays with two tabs: [!UICONTROL Experiences] and [!UICONTROL Offers]. The [!UICONTROL Experiences] tab lists each piece of content and the location it is assigned to. To exclude one or more experiences, select the corresponding checkboxes and click the [!UICONTROL Exclude] icon. For more options, see [Managing exclusions](/help/main/c-activities/t-automated-personalization/managing-exclusions.md).
 
-   >[!NOTE]
+   >[!IMPORTANT]
    >
-   >Although you can create up to 30,000 experiences in an AP activity, the activity performs best when fewer than 5,000 experiences are used. This same limit is applied even when the activity has enabled the [!UICONTROL Disalow Duplicates] option.
-
-   The [!UICONTROL Experiences] list shows each piece of content selected for the activity and the location that it is assigned to. 
-   
-   You can exclude specific experiences by selecting checkbox next to the desired experience and then clicking the [!UICONTROL Exclude] icon.
-   
-   You can batch exclude or include experiences by selecting the checkbox for the relevant experiences and then by clicking the [!UICONTROL Exclude] icon.
+   >For optimal performance, limit [!UICONTROL Automated Personalization] and [!UICONTROL Auto-Target] activities to 4–6 locations with 4–6 offers per location. The total number of experiences grows from the cartesian combination of locations and offers. Larger configurations can lead to slow loading or editing in the [!UICONTROL Visual Experience Composer]. Keep the total under 5,000 experiences for best results; the hard limit is 30,000 (the same limit applies when the [!UICONTROL Disallow Duplicates] option is enabled).
 
 1. (Conditional) Click **[!UICONTROL Offers]** to select pieces of content and assign them to reporting groups or only allow certain visitors to see certain offers with targeting.
 
@@ -109,7 +113,7 @@ The [!UICONTROL Automated Personalization] (AP) activity workflow in [!DNL Targe
 
    ![Exclusion Groups tab of Manage Content dialog box](/help/main/c-activities/t-automated-personalization/assets/exclusion_groups-new.png)
 
-   Although you can create up to 30,000 experiences in an AP test, the algorithm performs its best when fewer than 10,000 distinct experiences are used. This same limit is applied even when the activity has enabled the [!UICONTROL Disalow Duplicates] option.
+   Although you can create up to 30,000 experiences in an AP test, the algorithm performs its best when fewer than 10,000 distinct experiences are used. This same limit is applied even when the activity has enabled the [!UICONTROL Disallow Duplicates] option.
 
    If you do not currently have any exclusion groups included in your activity, click **Create Exclusion Group**. You can filter to create a list that shows only the combinations you want to exclude. Name your exclusion group, then click **Save**.
 
@@ -118,35 +122,21 @@ The [!UICONTROL Automated Personalization] (AP) activity workflow in [!DNL Targe
 
 1. Click **[!UICONTROL Done]** when you have finished setting up the content of your activity.
 
+## Step 2: Set targeting {#set-targeting}
+
+Decide which visitors enter the activity and how much of your traffic is exposed. Pair them with a control group so [!DNL Target] can measure the lift personalization delivers.
+
 1. Click **[!UICONTROL Targeting]** at the top of the [!UICONTROL Visual Experience Composer] to move to the next step in the three-step guided workflow.
 
    The **Targeting** step looks familiar if you have used other [!DNL Target] activity types. Here you can select an audience and specify the percentage of visitors who see each experience.
 
-   The flow diagram opens.
+1. The flow diagram leads you through the steps of assigning an audience and its traffic percentage, selecting the traffic allocation method, and specifying the traffic allocation for each experience in the activity.
 
    ![AP Test Targeting step](/help/main/c-activities/t-automated-personalization/assets/ap-traffic-flow.png)
 
-   The flow diagram leads you through the steps of assigning an audience and its traffic percentage, selecting the traffic allocation method, and specifying the traffic allocation for each experience in the activity.
+1. (Conditional) Click the **[!UICONTROL All Visitors]** control to [select another audience](/help/main/c-activities/t-test-ab/t-test-create-ab/ab-audience.md) for the activity and set its visitor percentage.
 
-1. (Conditional) Click the **[!UICONTROL All Visitors]** control to select another audience for the activity.
-
-   The [!UICONTROL All Visitors] audience is set as the default. If you select another audience, its name displays in the leftmost control.
-
-   The right frame displays, which lets you add or delete an audience and assign the visitor percentage for the activity.
-
-   1. To change the audience, click the **[!UICONTROL Replace] icon** ( ![Replace icon](/help/main/assets/icons/Retweet.svg) ) in the right frame.
-   1. In the [!UICONTROL Add Audience] dialog box, [select the desired audience](/help/main/c-activities/t-test-ab/t-test-create-ab/ab-audience.md), then click **[!UICONTROL Assign Audience]**.
-
-      You can click **Combine Audiences** to [create an audience that combines multiple audiences](/help/main/c-target/combining-multiple-audiences.md). 
-
-      If you need to create a new audience that is not already in the [!UICONTROL Audience Library], click **Create Audience**. During the [create-audience workflow](/help/main/c-target/c-audiences/audiences.md) you can choose from the following options:
-
-      * **[!UICONTROL Audience Library]**: Create an on-demand audience that is saved to the [!UICONTROL Audience Library] that can be reused in other activities.
-      * **[!UICONTROL This activity only]**: Create an [activity-specific audience](/help/main/c-target/creating-activity-only-audience.md) that is not saved to the [!UICONTROL Audience Library] and can be used in the current activity only.
-   
-   1. Click **[!UICONTROL Visitor Percentage]** in the right frame, then choose the percentage of qualifying visitors that you want to enter the activity.
-
-   For example, you might limit entries to 50% of all visitors or 45% of your "Californians" audience.
+   The [!UICONTROL All Visitors] audience is set as the default. If you select another audience, its name displays in the leftmost control, e.g. you might limit entries to 50% of all visitors or 45% of your "Californians" audience.
 
 1. Click the **[!UICONTROL Traffic Allocation]** control to choose from the following options:
 
@@ -165,6 +155,10 @@ The [!UICONTROL Automated Personalization] (AP) activity workflow in [!DNL Targe
    >[!NOTE]
    >
    >In [!UICONTROL Automated Personalization] activities, entry criteria (URL targeting, template rules, and audience targets) are evaluated for each request. In previous versions, entry criteria were evaluated once per session.
+
+## Step 3: Configure goals and settings {#configure-goals-and-settings}
+
+Tell [!DNL Target] what success looks like. The optimization goal you choose is the metric the personalization algorithm trains against, so pick the outcome that matters most for this activity.
 
 1. Click **[!UICONTROL Next]** to display the **[!UICONTROL Goals & Settings]** page.
 1. Configure the activity with the following settings, then click **[!UICONTROL Save & Close]**.
