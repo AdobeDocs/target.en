@@ -114,14 +114,6 @@ For more information, see [[!DNL Adobe Target] MCP server](../c-integrating-targ
 
 ## [!DNL Target Standard/Premium] 26.5.1 (May 7, 2026)
 
-**Integrations**
-
-+++See details
-
-* **[!DNL Adobe Target] management in Experimentation Accelerator.** Added support for assigning [!DNL Target] workspaces to Experimentation Accelerator sandboxes so teams can view experiments from [!DNL Adobe Target] in Experimentation Accelerator in one place. [Learn more](../c-integrating-target-with-mac/experimentation-accelerator.md)
-
-+++
-
 **Activities**
 
 +++See details
@@ -700,7 +692,7 @@ Previously, the term "Details" was incorrectly translated as "详情" in the Sim
 * **Criteria could not be edited within an activity.** The [!UICONTROL Edit Criteria ]and [!UICONTROL Remove Criteria] options were disabled when accessing criteria from within an activity. However, the same criteria could be edited successfully via the [!UICONTROL Recommendations] tab. Criteria are now fully editable from both the activity-edit workflow and the [!UICONTROL Recommendations] tab, ensuring a consistent and efficient editing experience. (TGT-53814)
 
 +++
-
+ 
 +++[!UICONTROL Reports]
 
 * **Generating ad-hoc offers in A[!UICONTROL utomated Personalization] activities caused reporting inconsistencies.** Using the Generate ad-hoc offers feature in [!UICONTROL Automated Personalization] (AP) activities led to inaccurate reporting. Specifically, offer IDs were reused across locations, causing reporting data to be misattributed or overwritten. Ad-hoc offers now generate with distinct identifiers per location, ensuring accurate tracking and reporting across all configured experiences. (TGT-53757)

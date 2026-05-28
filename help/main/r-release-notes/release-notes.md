@@ -27,7 +27,7 @@ topic_v2:
     internal-label: Administration
 ---
 # [!DNL Target] release notes (current)
-
+ 
 Explore the latest features, enhancements, and fixes in [!DNL Adobe Target]. These release notes also cover updates to [!DNL Target] APIs, SDKs, the [!DNL Adobe Experience Platform Web SDK], at.js, and other platform components when applicable. 
 
 (The issue numbers in parentheses are for internal [!DNL Adobe] use.)
