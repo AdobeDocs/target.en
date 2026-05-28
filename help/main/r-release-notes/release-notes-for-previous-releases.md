@@ -114,14 +114,6 @@ For more information, see [[!DNL Adobe Target] MCP server](../c-integrating-targ
 
 ## [!DNL Target Standard/Premium] 26.5.1 (May 7, 2026)
 
-**Integrations**
-
-+++See details
-
-* **[!DNL Adobe Target] management in Experimentation Accelerator.** Added support for assigning [!DNL Target] workspaces to Experimentation Accelerator sandboxes so teams can view experiments from [!DNL Adobe Target] in Experimentation Accelerator in one place. [Learn more](../c-integrating-target-with-mac/experimentation-accelerator.md)
-
-+++
-
 **Activities**
 
 +++See details

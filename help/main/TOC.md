@@ -106,7 +106,6 @@ feature-set: Target
          + {hide-from-toc} [Top optimization use cases in Adobe Journey Optimizer - web and code-based channels](/help/main/c-integrating-target-with-mac/ajo/top-ajo-use-cases.md)
          + {hide-from-toc} [Content changes through A/B testing in Adobe Journey Optimizer](/help/main/c-integrating-target-with-mac/ajo/content-change-using-ajo.md)
          + {hide-from-toc} [Add or hide components to your web page](/help/main/c-integrating-target-with-mac/ajo/add-hide-content-using-ajo.md)
-   + [Integrate Target with Experimentation Accelerator](/help/main/c-integrating-target-with-mac/experimentation-accelerator.md)
    + [Experience Cloud Audiences](/help/main/c-integrating-target-with-mac/mmp.md)
    + Integrate Target with Adobe Experience Manager (AEM) {#aem}
       + [Integrate Target with AEM overview](/help/main/c-integrating-target-with-mac/aem/aem-target-integration.md)
