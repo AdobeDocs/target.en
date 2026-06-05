@@ -2,7 +2,7 @@
 solution: Target
 product: target
 title: Adobe Target MCP server tools reference
-description: Complete parameter reference for all 23 read-only tools exposed by the Adobe Target MCP server.
+description: Complete parameter reference for all tools exposed by the Adobe Target MCP server, including read and write operations.
 feature: Integrations
 topic: Experimentation, Personalization, Artificial Intelligence
 badge: label="Beta" type="Informative"
@@ -15,7 +15,7 @@ level: Intermediate, Experienced
 >
 >The [!DNL Adobe Target] MCP server is available to all customers in **Public Beta**. It is currently supported in **Claude Web**, **Claude Desktop**, **Claude Code**, **Cursor**, and **ChatGPT**.
 
-This page is a complete reference for all read-only tools exposed by the [!DNL Adobe Target] MCP server. For each tool you'll find a description, parameter details, return value, and an example natural-language prompt. For setup instructions and use cases, see [Get started](target-mcp-get-started.md) and [Use cases and walkthroughs](target-mcp-use-cases.md).
+This page is a complete reference for all tools exposed by the [!DNL Adobe Target] MCP server. For each tool you'll find a description, parameter details, return value, and an example natural-language prompt. For setup instructions and use cases, see [Get started](target-mcp-get-started.md) and [Use cases and walkthroughs](target-mcp-use-cases.md).
 
 >[!IMPORTANT]
 >
@@ -29,11 +29,9 @@ This page is a complete reference for all read-only tools exposed by the [!DNL A
 
 Your [!DNL Adobe Target] role determines which tools are available to you:
 
-* **Observer** role or higher: access to all 23 read-only tools
-
->[!NOTE]
->
->Write tools (create, update, activate, deactivate) are not exposed via the public MCP catalog in Public Beta. All 23 tools listed on this page are read-only. Write access will be available in a future release.
+* **Observer** role or higher: access to all read-only tools
+* **Editor** role or higher: access to read tools plus write tools (create, update)
+* **Approver** role: access to all tools including activation and deactivation
 
 For full setup instructions, see [Get started](target-mcp-get-started.md).
 
@@ -126,7 +124,6 @@ Get detailed information about an Automated Personalization (AP) activity.
 
 +++
 
-<!--
 +++Create an A/B activity
 
 **Tool:** `create_ab_activity`
@@ -153,9 +150,7 @@ Creates a new A/B test with the specified configuration including experiences, o
 **Example prompt:** "Create an A/B test called 'Homepage Hero Test' with two experiences testing different hero images on the homepage-hero mbox."
 
 +++
--->
 
-<!--
 +++Create an Experience Targeting activity
 
 **Tool:** `create_xt_activity`
@@ -181,9 +176,7 @@ Creates an XT activity that delivers different experiences to different audience
 **Example prompt:** "Create an Experience Targeting activity called 'Geo Personalization' that shows different content to visitors from different regions."
 
 +++
--->
 
-<!--
 +++Update an A/B activity
 
 **Tool:** `update_ab_activity`
@@ -202,9 +195,7 @@ Uses a read-modify-write pattern: fetches the current state, merges your changes
 **Example prompt:** "Update activity 12345 to change the traffic allocation to 70/30."
 
 +++
--->
 
-<!--
 +++Update an Experience Targeting activity
 
 **Tool:** `update_xt_activity`
@@ -223,9 +214,7 @@ Uses a read-modify-write pattern.
 **Example prompt:** "Update XT activity 12345 to add a new experience for mobile visitors."
 
 +++
--->
 
-<!--
 +++Update an Automated Personalization activity
 
 **Tool:** `update_abt_activity`
@@ -244,9 +233,7 @@ Uses a read-modify-write pattern.
 **Example prompt:** "Update Auto-Personalization activity 12345 to change the optimization goal."
 
 +++
--->
 
-<!--
 +++Update activity schedule
 
 **Tool:** `update_activity_schedule`
@@ -267,9 +254,7 @@ Updates the schedule for an activity without modifying other settings.
 **Example prompt:** "Update the schedule for A/B activity 12345 to run from May 1st to May 31st."
 
 +++
--->
 
-<!--
 +++Change activity state
 
 **Tool:** `update_activity_state`
@@ -286,9 +271,7 @@ Change activity state (activate, deactivate, or pause).
 **Example prompt:** "Activate activity 12345" or "Pause the Homepage Hero Test."
 
 +++
--->
 
-<!--
 +++Rename an activity
 
 **Tool:** `update_activity_name`
@@ -307,9 +290,7 @@ Updates only the name without modifying the full configuration.
 **Example prompt:** "Rename activity 12345 to 'Summer Campaign Hero Test'."
 
 +++
--->
 
-<!--
 +++Change activity priority
 
 **Tool:** `update_activity_priority`
@@ -328,9 +309,7 @@ Higher-priority activities take precedence when multiple activities target the s
 **Example prompt:** "Set the priority of activity 12345 to 100."
 
 +++
--->
 
-<!--
 +++Add a variant to an activity
 
 **Tool:** `add_activity_variant`
@@ -355,9 +334,7 @@ Handles all structural coordination including creating options, mapping to locat
 **Example prompt:** "Add a new variant called 'Holiday Theme' to A/B activity 12345 using offer 67890."
 
 +++
--->
 
-<!--
 +++Update traffic split
 
 **Tool:** `update_traffic_split`
@@ -377,9 +354,7 @@ The percentages must sum to exactly 100.
 **Example prompt:** "Change the traffic split for activity 12345 to 70% Control and 30% Variant A."
 
 +++
--->
 
-<!--
 +++Change a variant's offer
 
 **Tool:** `update_variant_offer`
@@ -402,9 +377,7 @@ Works for both form-based activities (using `offer_id`) and VEC activities (usin
 **Example prompt:** "Update the 'Variant A' experience in activity 12345 to use offer 99999."
 
 +++
--->
 
-<!--
 +++Remove a variant from an activity
 
 **Tool:** `remove_activity_variant`
@@ -424,7 +397,6 @@ Removes the experience, cleans up orphaned options, and rebalances traffic evenl
 **Example prompt:** "Remove the 'Test Variant' experience from A/B activity 12345."
 
 +++
--->
 
 ## Offer tools {#tools-offers}
 
@@ -465,7 +437,6 @@ Get detailed information about a specific offer.
 
 +++
 
-<!--
 +++Create an HTML offer
 
 **Tool:** `create_target_offer`
@@ -519,7 +490,6 @@ Update an existing offer.
 **Example prompt:** "Update offer 67890 with new promotional content."
 
 +++
--->
 
 ## Audience tools {#tools-audiences}
 
@@ -558,7 +528,6 @@ Retrieves the full configuration of a specific audience, including its targeting
 
 +++
 
-<!--
 +++Create an audience
 
 **Tool:** `create_target_audience`
@@ -577,7 +546,6 @@ Create a new audience with targeting rules.
 **Example prompt:** "Create an audience called 'Mobile Visitors from California' targeting mobile users in CA."
 
 +++
--->
 
 ## Mbox tools {#tools-mboxes}
 
@@ -798,7 +766,6 @@ No parameters required.
 
 +++
 
-<!--
 +++Create a response token
 
 **Tool:** `create_target_response_token`
@@ -815,7 +782,6 @@ Create a new custom response token for collecting additional data in [!DNL Targe
 **Example prompt:** "Create a custom response token called 'campaign_id' of type ACTIVITY."
 
 +++
--->
 
 ## Revision tools {#tools-revisions}
 
@@ -877,17 +843,17 @@ No parameters required.
 
 | Category | Count | Tools |
 |---|---|---|
-| Activity | 4 | `list_target_activities`, `get_ab_activity`, `get_xt_activity`, `get_abt_activity` |
-| Offer | 2 | `list_target_offers`, `get_target_offer` |
-| Audience | 2 | `list_target_audiences`, `get_target_audience` |
+| Activity | 17 | `list_target_activities`, `get_ab_activity`, `get_xt_activity`, `get_abt_activity`, `create_ab_activity`, `create_xt_activity`, `update_ab_activity`, `update_xt_activity`, `update_abt_activity`, `update_activity_schedule`, `update_activity_state`, `update_activity_name`, `update_activity_priority`, `add_activity_variant`, `update_traffic_split`, `update_variant_offer`, `remove_activity_variant` |
+| Offer | 5 | `list_target_offers`, `get_target_offer`, `create_target_offer`, `create_target_json_offer`, `update_target_offer` |
+| Audience | 3 | `list_target_audiences`, `get_target_audience`, `create_target_audience` |
 | Mbox | 3 | `list_target_mboxes`, `get_target_mbox`, `list_target_mbox_profile_attributes` |
 | Property | 1 | `list_target_properties` |
 | Reporting | 6 | `get_ab_performance_report`, `get_ab_orders_report`, `get_xt_performance_report`, `get_xt_orders_report`, `get_activity_report_by_name`, `get_a4t_report` |
 | Preview | 1 | `preview_activity` |
-| Response token | 1 | `list_target_response_tokens` |
+| Response token | 2 | `list_target_response_tokens`, `create_target_response_token` |
 | Revision | 2 | `get_target_revisions`, `get_target_entity_revisions` |
 | Template | 1 | `list_target_templates` |
-| **Total** | **23** | |
+| **Total** | **41** | |
 
 ## Related resources {#tools-related}
 
