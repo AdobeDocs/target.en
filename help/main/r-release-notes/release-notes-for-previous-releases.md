@@ -112,6 +112,38 @@ For more information, see [[!DNL Adobe Target] MCP server](../c-integrating-targ
 
 +++
 
+## [!DNL Target Standard/Premium] 26.5.3 (May 21, 2026)
+
+**[!UICONTROL What's new] page**
+
++++See details
+
+* **New [!UICONTROL What's new] page.** Added a new **[!UICONTROL What's new]** page in the [!DNL Adobe Target] UI to help you discover the latest features, enhancements, and updates without leaving the product. (TGT-55137)
+
++++
+
+**Activities**
+
++++See details
+
+* **Wrong experience selected when editing Targeting in [!UICONTROL Automated Personalization] activities.** Fixed an issue where the wrong experience could be selected while editing the **[!UICONTROL Targeting]** step in an [!UICONTROL Automated Personalization] (AP) activity. (TGT-55176)
+
+* **Earlier date when closing a scheduled activity.** Fixed an issue that prevented you from selecting an earlier date to close a scheduled activity. (TGT-55163)
+
++++
+
+<!--
+* **Blank page or CORS errors with Enhanced Experience Composer.** Fixed an issue where the [!UICONTROL Visual Experience Composer] could fail to load when Enhanced Experience Composer (EEC) was enabled. (TGT-54576)
+
+**[!UICONTROL Visual Experience Composer] (VEC)**
+
++++See details
+
+* **Click tracking for Experience B.** Fixed an issue where click tracking was not saved for **[!UICONTROL Experience B]** in the [!UICONTROL Visual Experience Composer]. (TGT-54843)
+
++++
+-->
+
 ## [!DNL Target Standard/Premium] 26.5.1 (May 7, 2026)
 
 **Activities**
