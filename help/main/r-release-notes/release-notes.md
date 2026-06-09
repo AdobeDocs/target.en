@@ -32,23 +32,51 @@ Explore the latest features, enhancements, and fixes in [!DNL Adobe Target]. The
 
 (The issue numbers in parentheses are for internal [!DNL Adobe] use.)
 
-## [!DNL Target Standard/Premium] 26.5.3 (May 21, 2026)
-
-**[!UICONTROL What's new] page**
-
-+++See details
-
-* **New [!UICONTROL What's new] page.** Added a new **[!UICONTROL What's new]** page in the [!DNL Adobe Target] UI to help you discover the latest features, enhancements, and updates without leaving the product. (TGT-55137)
-
-+++
+## [!DNL Target Standard/Premium] 26.6.1 (June 4, 2026)
 
 **Activities**
 
 +++See details
 
-* **Wrong experience selected when editing Targeting in [!UICONTROL Automated Personalization] activities.** Fixed an issue where the wrong experience could be selected while editing the **[!UICONTROL Targeting]** step in an [!UICONTROL Automated Personalization] (AP) activity. (TGT-55176)
+* **Incomplete activity URL on [!UICONTROL Activity Overview].** Fixed an issue where the [!UICONTROL Activity Overview] did not display the complete URL for an activity. (TGT-54029)
 
-* **Earlier date when closing a scheduled activity.** Fixed an issue that prevented you from selecting an earlier date to close a scheduled activity. (TGT-55163)
+* **Unlocalized date format in Activity reports.** Fixed an issue where the date format was not localized on the **[!UICONTROL Reports]** tab when you chose a **Last X days** option from the **[!UICONTROL Preset Date Range]** drop-down list. (TGT-51637)
+
+* **Unable to save Form-based Activity with certain GB18030 characters in [!UICONTROL Location].** Fixed an issue where you could not save a form-based activity when the **[!UICONTROL Location]** field contained specific GB18030 characters. (TGT-46980)
+
++++
+
+**[!UICONTROL Audiences]**
+
++++See details
+
+* **Unlocalized Calendar in Create Audience flow for Simplified and Traditional Chinese.** Fixed an issue where the calendar in the **[!UICONTROL Start]** and **[!UICONTROL End]** fields of **[!UICONTROL Time frame]** attributes was not localized in Simplified Chinese (CHS) and Traditional Chinese (CHT) locales during the Create Audience flow. (TGT-50619)
+
++++
+
+**[!UICONTROL Visual Experience Composer] (VEC)**
+
++++See details
+
+* **Unlocalized tooltips in the updated Activity builder.** Fixed localization issues where **[!UICONTROL Refinements]** and **[!UICONTROL Content]** information tooltips were not localized in the updated [!UICONTROL Visual Experience Composer] activity builder. (TGT-53721)
+
+* **Unlocalized [!UICONTROL All Visitors] in [!UICONTROL Experience Audiences].** Fixed an issue where the **[!UICONTROL All Visitors]** string in **[!UICONTROL Experience Audiences]** in the left rail was not localized in the [!UICONTROL Visual Experience Composer]. (TGT-50086)
+
++++
+
+**[!UICONTROL Reports]**
+
++++See details
+
+* **Unlocalized date format in the [!UICONTROL Create Preset] window.** Fixed an issue where the date format in the **[!UICONTROL Date range]** field of the **[!UICONTROL Create Preset]** window was not localized. (TGT-49239)
+
++++
+
+**Localization**
+
++++See details
+
+* **GB18030 character display in multiple areas.** Fixed issues where some Private Use Area characters displayed incorrectly as letters in the **[!UICONTROL Audience]** UI, **[!UICONTROL Administration]** > **[!UICONTROL Properties]**, mobile viewport configuration, and toast notifications. (TGT-49622, TGT-49623, TGT-49624, & TGT-49625)
 
 +++
 
