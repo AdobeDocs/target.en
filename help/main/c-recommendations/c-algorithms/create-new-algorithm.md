@@ -76,6 +76,11 @@ The following steps assume you access the [!UICONTROL Create New Criteria] scree
 
 ## [!UICONTROL Recommendations Algorithm] {#rec-algo}
 
+>[!CONTEXTUALHELP]
+>id="target_recommendations_profile_attribute"
+>title="Profile Attribute"
+>abstract="You can create a Profile attribute using Profile scripts."
+
 1. Select an **[!UICONTROL Algorithm Type]** and **[!UICONTROL Algorithm]**:
 
    ![Recommended Algorithm section](assets/recommended-algorithm.png)
