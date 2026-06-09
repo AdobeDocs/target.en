@@ -11,7 +11,7 @@ level: Beginner, Intermediate
 ---
 # [!DNL Adobe Target] MCP server {#target-mcp}
 
-The [!DNL Adobe Target] MCP integration lets you inspect and analyze A/B tests and personalization activities directly from your AI assistant. Turn [!DNL Target]'s experimentation and personalization data into plain-language workflows — audit your experiment portfolio, review performance reports, and explore audiences and offers without navigating the UI or writing API calls.
+The [!DNL Adobe Target] MCP integration lets you inspect, analyze, and manage A/B tests and personalization activities directly from your AI assistant. Turn [!DNL Target]'s experimentation and personalization data into plain-language workflows — audit your experiment portfolio, review performance reports, explore audiences and offers, create activities, and make updates without navigating the UI or writing API calls.
 
 >[!AVAILABILITY]
 >
@@ -35,20 +35,17 @@ Marketing and optimization teams increasingly rely on chat-based applications an
 
 ## Key capabilities {#mcp-capabilities}
 
-The [!DNL Adobe Target] MCP server provides read access to activities, audiences, offers, and implementation configuration. With the integration, you can:
+The [!DNL Adobe Target] MCP server provides both read and write access to activities, audiences, offers, and implementation configuration. With the integration, you can:
 
 * **Inspect and audit experiments** - Get status, performance, change history, and QA preview links for any activity without navigating the UI.
 * **Analyze results** - Retrieve performance, revenue, and A4T reports for A/B, XT, AP, and Auto-Target activities.
 * **Explore activities** - List, inspect, and analyze A/B and XT activities.
-* **Explore audiences and offers** - List and inspect audiences, HTML offers, and JSON offers.
+* **Create and update activities** - Create new A/B and Experience Targeting activities, update configurations, manage traffic splits, add or remove variants, and control activity state (activate, pause, deactivate).
+* **Explore and manage audiences and offers** - List, inspect, create, and update audiences, HTML offers, and JSON offers.
 <!-- * **Explore Recommendations criteria** - List and inspect criteria and cart-based algorithms. -->
 * **Audit implementation** - Review at.js settings, response tokens, and per-entity revision history.
 
->[!NOTE]
->
->Write tools (create, update, activate, deactivate) are not exposed via the public MCP catalog in **Public Beta**. All currently available tools are read-only. Write access will be available in a future release.
-
-The [!DNL Adobe Target] MCP server exposes 23 read-only tools across 10 categories — from activity inspection and reporting to audience exploration and QA previews. For the complete parameter reference, see [MCP server tools reference](target-mcp-tools-reference.md).
+The [!DNL Adobe Target] MCP server exposes 41 tools across 10 categories — from activity creation and reporting to audience management and QA previews. For the complete parameter reference, see [MCP server tools reference](target-mcp-tools-reference.md).
 
 To explore what you can do with the [!DNL Adobe Target] MCP server — including step-by-step prompt walkthroughs — see [Use cases and walkthroughs](target-mcp-use-cases.md).
 
@@ -63,12 +60,12 @@ The [!DNL Adobe Target] MCP server is currently available for **Claude Web**, **
 
 +++What [!DNL Adobe Target] objects can I access via MCP?
 
-You can access activities (A/B, XT, AP), audiences, offers, properties, mboxes, response tokens, at.js configuration, A4T reports, and entity revision history. All 23 currently available tools are read-only.
+You can access and manage activities (A/B, XT, AP), audiences, offers, properties, mboxes, response tokens, at.js configuration, A4T reports, and entity revision history. The MCP server exposes 41 tools covering both read and write operations.
 +++
 
 +++Can the MCP server create or modify activities?
 
-Not in Public Beta. The public MCP catalog currently exposes 23 read-only tools. Write operations (create, update, activate, deactivate) are not yet available via the public MCP server. Write access will be available in a future release.
+Yes. The MCP server supports write operations including creating A/B and Experience Targeting activities, updating activity configurations, managing traffic splits, adding or removing variants, activating, pausing, and deactivating activities. Editor role or higher is required for write operations; Approver role is required for activation and deactivation.
 +++
 
 +++Do I need developer access to use the MCP server?
@@ -83,12 +80,12 @@ When you submit a prompt, the MCP client may send relevant context (including [!
 
 +++Can write operations cause unintended changes to live activities?
 
-Write tools are not available via the public MCP catalog in Public Beta — all 23 currently exposed tools are read-only. When write tools are introduced in a future release, they will include safety annotations and confirmation gates so that no state-changing action is executed without explicit user confirmation.
+Write tools include safety annotations and confirmation gates so that no state-changing action is executed without explicit user confirmation. Adobe recommends testing integrations in a sandbox environment before using write tools in production, and carefully reviewing all MCP-initiated actions before confirming them.
 +++
 
 +++What permissions do I need in [!DNL Adobe Target]?
 
-**Observer** role or higher grants access to all 23 read-only tools available in Public Beta. Write tools are not yet exposed via the public MCP catalog, so Editor and Approver role privileges do not unlock additional MCP tools at this time. Contact your [!DNL Adobe Target] administrator if you are unsure about your current access level.
+**Observer** role or higher grants access to all read-only tools. **Editor** role or higher is required for write tools (create, update). **Approver** role is required for state-change tools (activate, deactivate). Contact your [!DNL Adobe Target] administrator if you are unsure about your current access level.
 +++
 
 +++Can I use the MCP server across multiple Target organizations or properties?
