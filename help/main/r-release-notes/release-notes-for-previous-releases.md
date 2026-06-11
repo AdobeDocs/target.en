@@ -987,8 +987,8 @@ This release contains the following updates and fixes:
 * **Advanced search in the updated [!UICONTROL Product Catalog Search] UI did not provide suggestions**: Customers using the advanced search feature in the updated [!UICONTROL Product Catalog Search] UI were required to enter exact values with correct spelling, as no suggestions were displayed. This issue made it difficult to locate products efficiently. Suggestions now appear as expected during advanced search input. (TGT-52008)
 * **Some approvers were unable to view products in [!UICONTROL Product Catalog Search]**: Customers with [!UICONTROL Approver] permissions were unable to see any products in [!UICONTROL Product Catalog Search], despite other users with identical roles having access. This issue was caused by a permissions inconsistency affecting catalog visibility. All approvers can now view products in the [!UICONTROL Recommendations] section as expected. (TGT-53617)
 
-+++
-
++++ 
+ 
 **[!UICONTROL Reports]**
 
 +++See details
