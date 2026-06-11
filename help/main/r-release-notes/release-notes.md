@@ -35,7 +35,7 @@ Explore the latest features, enhancements, and fixes in [!DNL Adobe Target]. The
 ## [!DNL Target Standard/Premium] 26.6.3 (June 11, 2026)
 
 **Localization**
-
+ 
 +++See details
 
 * **Unlocalized first day of the week in Audience calendar modals during activity creation.** Fixed an issue where the first day of the week was not localized in the calendar in the **[!UICONTROL Create]**, **[!UICONTROL Edit]**, and **[!UICONTROL Duplicate Audience]** modals during Activity creation. (TGT-50510)
