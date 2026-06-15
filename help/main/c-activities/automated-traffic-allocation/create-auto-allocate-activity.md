@@ -134,6 +134,8 @@ To create an [!UICONTROL Auto-Allocate] activity:
    >[!NOTE]
    >
    >If you want to use [Analytics for Target](/help/main/c-integrating-target-with-mac/a4t/a4t.md) (A4T) with this activity, see important information in [A4T support for Auto-Allocate and Auto-Target activities](/help/main/c-integrating-target-with-mac/a4t/a4t-at-aa.md).
+   >
+   >If you want to use [[!DNL Target] reporting in [!DNL Adobe Customer Journey Analytics]](/help/main/c-integrating-target-with-mac/cja/target-reporting-in-cja.md) with this activity, follow [Create an activity that uses [!DNL Customer Journey Analytics] as the reporting source](/help/main/c-integrating-target-with-mac/cja/target-reporting-in-cja.md#create-an-activity-that-uses-customer-journey-analytics-as-the-reporting-source) in *Target reporting in Adobe Customer Journey Analytics*.
 
 1. Click **[!UICONTROL Save & Close]** or **[!UICONTROL Save]**.
 
