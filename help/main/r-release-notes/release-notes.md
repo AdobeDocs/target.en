@@ -40,6 +40,8 @@ Explore the latest features, enhancements, and fixes in [!DNL Adobe Target]. The
 
 * **[!UICONTROL Save & Close] in the updated [!DNL Target] UI.** Restored the **[!UICONTROL Save & Close]** option in the updated [!DNL Target] UI. (TGT-55152)
 
+* **QA URLs in the updated [!DNL Target] UI.** Fixed an issue where QA URLs did not work correctly in the updated [!DNL Target] UI. ([TGT-55110](https://jira.corp.adobe.com/browse/TGT-55110))
+
 +++
 
 **Localization**
