@@ -82,6 +82,20 @@ Release notes are listed in descending order by month and year of release.
 
 ## Release notes - 2026
 
+## [!DNL Target Standard/Premium] 26.6.3 (June 11, 2026)
+
+**Localization**
+ 
++++See details
+
+* **Unlocalized first day of the week in Audience calendar modals during activity creation.** Fixed an issue where the first day of the week was not localized in the calendar in the **[!UICONTROL Create]**, **[!UICONTROL Edit]**, and **[!UICONTROL Duplicate Audience]** modals during Activity creation. (TGT-50510)
+
+* **Unlocalized percent format in Activity overview reports.** Fixed an issue where the percent format was not localized in a table on the **[!UICONTROL Reports]** tab on the **[!UICONTROL Activity Overview]** page. (TGT-50094)
+
+* **Unlocalized number format in the [!UICONTROL Create Criteria] dialog.** Fixed an issue where the number format was not localized in the **[!UICONTROL Create Criteria]** dialog in **[!UICONTROL Recommendations]**. (TGT-52250)
+
++++
+
 ## [!DNL Target Standard/Premium] 26.6.1 (June 4, 2026)
 
 **Activities**

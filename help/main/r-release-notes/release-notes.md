@@ -32,17 +32,35 @@ Explore the latest features, enhancements, and fixes in [!DNL Adobe Target]. The
 
 (The issue numbers in parentheses are for internal [!DNL Adobe] use.)
 
-## [!DNL Target Standard/Premium] 26.6.3 (June 11, 2026)
+## [!DNL Target Standard/Premium] 26.6.4 (June 16, 2026)
 
-**Localization**
- 
+**Activities**
+
 +++See details
 
-* **Unlocalized first day of the week in Audience calendar modals during activity creation.** Fixed an issue where the first day of the week was not localized in the calendar in the **[!UICONTROL Create]**, **[!UICONTROL Edit]**, and **[!UICONTROL Duplicate Audience]** modals during Activity creation. (TGT-50510)
+* **[!UICONTROL Save & Close] in the updated [!DNL Target] UI.** Restored the **[!UICONTROL Save & Close]** option in the updated [!DNL Target] UI. (TGT-55152)
 
-* **Unlocalized percent format in Activity overview reports.** Fixed an issue where the percent format was not localized in a table on the **[!UICONTROL Reports]** tab on the **[!UICONTROL Activity Overview]** page. (TGT-50094)
+* **QA URLs in the updated [!DNL Target] UI.** Fixed an issue where QA URLs did not work correctly in the updated [!DNL Target] UI. ([TGT-55110](https://jira.corp.adobe.com/browse/TGT-55110))
 
-* **Unlocalized number format in the [!UICONTROL Create Criteria] dialog.** Fixed an issue where the number format was not localized in the **[!UICONTROL Create Criteria]** dialog in **[!UICONTROL Recommendations]**. (TGT-52250)
++++
+
+**Localization**
+
++++See details
+
+* **Unlocalized percent format in Activity overview graph reports.** Fixed an issue where the percent format was not localized in the chart in **[!UICONTROL Graph view]** on the **[!UICONTROL Reports]** tab on the **[!UICONTROL Activity Overview]** page. (TGT-50100)
+
+* **Japanese characters in the activity URL.** Fixed an issue where Japanese characters in the activity URL appeared corrupted on the **[!UICONTROL Activity Overview]** page and in the activity list after you saved an activity. (TGT-53459)
+
+* **Unlocalized timestamp in the default activity name.** Fixed an issue where the timestamp was not localized in the activity title when you retained the default activity name during activity creation. (TGT-53273)
+
++++
+
+**[!UICONTROL Recommendations]**
+
++++See details
+
+* **Multi-byte characters in the URL after creating feeds.** Fixed an issue where multi-byte characters appeared corrupted in the URL after you created feeds. (TGT-54793)
 
 +++
 
