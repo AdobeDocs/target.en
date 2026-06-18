@@ -61,7 +61,7 @@ Explore the latest features, enhancements, and fixes in [!DNL Adobe Target]. The
   * `get_activity_performance_report` replaces `get_ab_performance_report` and `get_xt_performance_report`. Retrieves conversion, lift, and confidence metrics for all activity types.
   * `get_activity_orders_report` replaces `get_ab_orders_report` and `get_xt_orders_report`. Retrieves order and revenue metrics for all activity types.
 
-  For more information, see [[!DNL Adobe Target] MCP server tools reference](../c-integrating-target-with-mac/mcp/target-mcp-tools-reference.md). (TNT-55878)
+  For more information, see [[!DNL Adobe Target] MCP server tools reference](../c-integrating-target-with-mac/mcp/target-mcp-tools-reference.md).
 
 +++
 

@@ -46,7 +46,7 @@ This page lists significant changes made to the [!DNL Adobe Target] product docu
 
 |Date|Topic|Changes|
 |--- |--- |--- |
-|June 18|[[!DNL Adobe Target] MCP server tools reference](/help/main/c-integrating-target-with-mac/mcp/target-mcp-tools-reference.md)|Updated to reflect activity tool consolidation (TNT-55878): replaced six per-type tools (`get_ab_activity`, `get_xt_activity`, `get_abt_activity`, `update_ab_activity`, `update_xt_activity`, `update_abt_activity`) and four per-type report tools with four unified tools (`get_activity`, `update_activity`, `get_activity_performance_report`, `get_activity_orders_report`). Updated `list_target_activities` and `update_activity_schedule` to list all six supported activity types. Added scope note for write operations.|
+|June 18|[[!DNL Adobe Target] MCP server tools reference](/help/main/c-integrating-target-with-mac/mcp/target-mcp-tools-reference.md)|Updated to reflect activity tool consolidation: replaced six per-type tools (`get_ab_activity`, `get_xt_activity`, `get_abt_activity`, `update_ab_activity`, `update_xt_activity`, `update_abt_activity`) and four per-type report tools with four unified tools (`get_activity`, `update_activity`, `get_activity_performance_report`, `get_activity_orders_report`). Updated `list_target_activities` and `update_activity_schedule` to list all six supported activity types. Added scope note for write operations.|
 ||[[!DNL Target] release notes (current)](/help/main/r-release-notes/release-notes.md)|Added release notes for the [!DNL Adobe Target] MCP server activity tool consolidation.|
 
 ### [!DNL Target Standard/Premium] 26.5.1 (May 7, 2026)
