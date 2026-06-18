@@ -32,6 +32,24 @@ Explore the latest features, enhancements, and fixes in [!DNL Adobe Target]. The
 
 (The issue numbers in parentheses are for internal [!DNL Adobe] use.)
 
+## [!DNL Target Standard/Premium] 26.6.5 (June 17, 2026)
+
+**Activities**
+
++++See details
+
+* **Error when an activity uses audiences deleted at source.** Fixed an issue where you could see an error indicating that an activity uses one or more audiences that were deleted at the source. (TGT-55272)
+
++++
+
+**[!UICONTROL Analytics for Target] (A4T)**
+
++++See details
+
+* **A4T reports not visible.** Fixed an issue where [!UICONTROL Analytics for Target] (A4T) reports did not display. (TGT-55432)
+
++++
+
 ## [!DNL Target Standard/Premium] 26.6.4 (June 16, 2026)
 
 **Activities**
