@@ -41,6 +41,17 @@ For full setup instructions, see [Get started](target-mcp-get-started.md).
 >
 >Read and write operations have different scope. `get_activity` retrieves activities of all types (A/B Test, Experience Targeting, Automated Personalization, Auto-Allocate, Multivariate Test, Recommendations). `update_activity` supports A/B Test and Experience Targeting activities only; Automated Personalization, Auto-Allocate, Multivariate Test, and Recommendations activities are read-only through the MCP server.
 
+| Capability | A/B Test | Experience Targeting | Automated Personalization | Auto-Allocate | Multivariate Test | Recommendations |
+|---|---|---|---|---|---|---|
+| `get_activity` | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ |
+| `list_target_activities` | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ |
+| `get_activity_performance_report` | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ |
+| `get_activity_orders_report` | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ |
+| `update_activity` | ✓ | ✓ | — | — | — | — |
+| Lifecycle edits (state, priority, name, schedule) | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ |
+| Variant and traffic edits | ✓ | ✓ | ✓ | — | — | — |
+| Create | ✓ | ✓ | — | — | — | — |
+
 +++List activities
 
 **Tool:** `list_target_activities`
