@@ -37,6 +37,10 @@ For full setup instructions, see [Get started](target-mcp-get-started.md).
 
 ## Activity tools {#tools-activities}
 
+>[!NOTE]
+>
+>Read and write operations have different scope. `get_activity` retrieves activities of all types (A/B Test, Experience Targeting, Automated Personalization, Auto-Allocate, Multivariate Test, Recommendations). `update_activity` supports A/B Test and Experience Targeting activities only; Automated Personalization, Auto-Allocate, Multivariate Test, and Recommendations activities are read-only through the MCP server.
+
 +++List activities
 
 **Tool:** `list_target_activities`
@@ -51,7 +55,7 @@ Retrieves a paginated list of activities. All filters are applied server-side by
 | `offset` | integer | No | Number of activities to skip for pagination |
 | `sort_by` | string | No | Field to sort by. Prefix with `-` for descending order (e.g., `-modifiedAt`). Options: `id`, `name`, `state`, `priority`, `startsAt`, `endsAt`, `lifetimeStart`, `lifetimeEnd`, `createdAt`, `createdBy`, `modifiedAt`, `modifiedBy`, `type`, `thirdPartyId` |
 | `state` | string | No | Filter by activity state: `approved` (live/active), `deactivated` (inactive), `paused`, `saved` (draft) |
-| `activity_type` | string | No | Filter by type: `ab` (A/B Test), `xt` (Experience Targeting), `abt` (Automated Personalization) |
+| `activity_type` | string | No | Filter by type: `ab` (A/B Test), `xt` (Experience Targeting), `abt` (Automated Personalization), `auto_allocate` (Auto-Allocate), `mvt` (Multivariate Test), `recs` (Recommendations) |
 | `name_contains` | string | No | Filter activities whose name contains this string (case-insensitive) |
 | `starts_after` | string | No | ISO 8601 date — activities starting after this date |
 | `starts_before` | string | No | ISO 8601 date — activities starting before this date |
@@ -72,55 +76,21 @@ Retrieves a paginated list of activities. All filters are applied server-side by
 
 +++
 
-+++Get an A/B activity
++++Get an activity
 
-**Tool:** `get_ab_activity`
+**Tool:** `get_activity`
 
-Get detailed information about an A/B activity.
+Get detailed information about an activity of any type.
 
-Retrieves the full configuration of a specific A/B test, including experiences, locations, metrics, and targeting rules.
+Retrieves the full configuration of a specific activity, automatically detecting the activity type. Supports A/B Test, Experience Targeting, Automated Personalization, Auto-Allocate, Multivariate Test, and Recommendations activities.
 
 | Parameter | Type | Required | Description |
 |---|---|---|---|
-| `activity_id` | integer | Yes | The unique identifier of the A/B activity |
+| `activity_id` | integer | Yes | The unique identifier of the activity |
 
 **Returns:** Full activity details including metadata (name, state, priority, dates), experiences, locations and offers, goals and metrics, and targeting rules.
 
-**Example prompt:** "Get details for A/B activity 12345."
-
-+++
-
-+++Get an Experience Targeting activity
-
-**Tool:** `get_xt_activity`
-
-Get detailed information about an Experience Targeting (XT) activity.
-
-Retrieves the full configuration of a specific XT activity, including audience-experience mappings, locations, and metrics.
-
-| Parameter | Type | Required | Description |
-|---|---|---|---|
-| `activity_id` | integer | Yes | The unique identifier of the XT activity |
-
-**Returns:** Full activity details including metadata, experiences with audience mappings, locations and offers, and goals and metrics.
-
-**Example prompt:** "Get details for Experience Targeting activity 12345."
-
-+++
-
-+++Get an Automated Personalization activity
-
-**Tool:** `get_abt_activity`
-
-Get detailed information about an Automated Personalization (AP) activity.
-
-| Parameter | Type | Required | Description |
-|---|---|---|---|
-| `activity_id` | integer | Yes | The unique identifier of the AP activity |
-
-**Returns:** Full activity details including metadata, experiences, locations, and algorithmic settings.
-
-**Example prompt:** "Get details for Auto-Personalization activity 12345."
+**Example prompt:** "Get details for activity 12345."
 
 +++
 
@@ -177,13 +147,13 @@ Creates an XT activity that delivers different experiences to different audience
 
 +++
 
-+++Update an A/B activity
++++Update an activity
 
-**Tool:** `update_ab_activity`
+**Tool:** `update_activity`
 
-Update an existing A/B activity.
+Update an existing A/B Test or Experience Targeting activity.
 
-Uses a read-modify-write pattern: fetches the current state, merges your changes, validates, and sends the update.
+Uses a read-modify-write pattern: fetches the current state, merges your changes, validates, and sends the update. Supports A/B Test and Experience Targeting activities only; Automated Personalization, Auto-Allocate, Multivariate Test, and Recommendations activities are read-only.
 
 | Parameter | Type | Required | Description |
 |---|---|---|---|
@@ -193,44 +163,6 @@ Uses a read-modify-write pattern: fetches the current state, merges your changes
 **Returns:** The updated activity object.
 
 **Example prompt:** "Update activity 12345 to change the traffic allocation to 70/30."
-
-+++
-
-+++Update an Experience Targeting activity
-
-**Tool:** `update_xt_activity`
-
-Update an existing Experience Targeting activity.
-
-Uses a read-modify-write pattern.
-
-| Parameter | Type | Required | Description |
-|---|---|---|---|
-| `activity_id` | integer | Yes | The unique identifier of the XT activity to update |
-| `activity` | object | Yes | Fields to update |
-
-**Returns:** The updated activity object.
-
-**Example prompt:** "Update XT activity 12345 to add a new experience for mobile visitors."
-
-+++
-
-+++Update an Automated Personalization activity
-
-**Tool:** `update_abt_activity`
-
-Update an existing Automated Personalization activity.
-
-Uses a read-modify-write pattern.
-
-| Parameter | Type | Required | Description |
-|---|---|---|---|
-| `activity_id` | integer | Yes | The unique identifier of the AP activity to update |
-| `activity` | object | Yes | Fields to update |
-
-**Returns:** The updated activity object.
-
-**Example prompt:** "Update Auto-Personalization activity 12345 to change the optimization goal."
 
 +++
 
@@ -618,73 +550,41 @@ No parameters required.
 
 ## Reporting tools {#tools-reporting}
 
-+++Get an A/B performance report
++++Get an activity performance report
 
-**Tool:** `get_ab_performance_report`
+**Tool:** `get_activity_performance_report`
 
-Get a performance report for an A/B activity.
+Get a performance report for an activity of any type.
 
-Retrieves conversion rates, lift, and confidence levels.
+Retrieves conversion rates, lift, and confidence levels. Supports A/B Test, Experience Targeting, Automated Personalization, Auto-Allocate, Multivariate Test, and Recommendations activities.
 
 | Parameter | Type | Required | Description |
 |---|---|---|---|
-| `activity_id` | integer | Yes | The unique identifier of the A/B activity |
+| `activity_id` | integer | Yes | The unique identifier of the activity |
 | `report_interval` | string | No | Time period for the report (e.g., `last7days`, `last30days`, or a custom date range) |
 
 **Returns:** Experience-level metrics (visitors, conversions, conversion rate), lift calculations, statistical confidence levels, and revenue metrics (if configured).
 
-**Example prompt:** "Show me the performance report for A/B test 12345 over the last 30 days."
+**Example prompt:** "Show me the performance report for activity 12345 over the last 30 days."
 
 +++
 
-+++Get an A/B orders report
++++Get an activity orders report
 
-**Tool:** `get_ab_orders_report`
+**Tool:** `get_activity_orders_report`
 
-Get an orders/revenue report for an A/B activity.
+Get an orders/revenue report for an activity of any type.
+
+Supports A/B Test, Experience Targeting, Automated Personalization, Auto-Allocate, Multivariate Test, and Recommendations activities.
 
 | Parameter | Type | Required | Description |
 |---|---|---|---|
-| `activity_id` | integer | Yes | The unique identifier of the A/B activity |
+| `activity_id` | integer | Yes | The unique identifier of the activity |
 | `report_interval` | string | No | Time period for the report |
 
 **Returns:** Order counts, revenue, and average order value by experience.
 
 **Example prompt:** "Get the orders report for activity 12345."
-
-+++
-
-+++Get an Experience Targeting performance report
-
-**Tool:** `get_xt_performance_report`
-
-Get a performance report for an Experience Targeting activity.
-
-| Parameter | Type | Required | Description |
-|---|---|---|---|
-| `activity_id` | integer | Yes | The unique identifier of the XT activity |
-| `report_interval` | string | No | Time period for the report |
-
-**Returns:** Experience-level performance metrics.
-
-**Example prompt:** "Show performance for my Experience Targeting activity 54321."
-
-+++
-
-+++Get an Experience Targeting orders report
-
-**Tool:** `get_xt_orders_report`
-
-Get an orders/revenue report for an Experience Targeting activity.
-
-| Parameter | Type | Required | Description |
-|---|---|---|---|
-| `activity_id` | integer | Yes | The unique identifier of the XT activity |
-| `report_interval` | string | No | Time period for the report |
-
-**Returns:** Order metrics by experience.
-
-**Example prompt:** "Get orders data for XT activity 54321."
 
 +++
 
@@ -843,17 +743,17 @@ No parameters required.
 
 | Category | Count | Tools |
 |---|---|---|
-| Activity | 17 | `list_target_activities`, `get_ab_activity`, `get_xt_activity`, `get_abt_activity`, `create_ab_activity`, `create_xt_activity`, `update_ab_activity`, `update_xt_activity`, `update_abt_activity`, `update_activity_schedule`, `update_activity_state`, `update_activity_name`, `update_activity_priority`, `add_activity_variant`, `update_traffic_split`, `update_variant_offer`, `remove_activity_variant` |
+| Activity | 13 | `list_target_activities`, `get_activity`, `create_ab_activity`, `create_xt_activity`, `update_activity`, `update_activity_schedule`, `update_activity_state`, `update_activity_name`, `update_activity_priority`, `add_activity_variant`, `update_traffic_split`, `update_variant_offer`, `remove_activity_variant` |
 | Offer | 5 | `list_target_offers`, `get_target_offer`, `create_target_offer`, `create_target_json_offer`, `update_target_offer` |
 | Audience | 3 | `list_target_audiences`, `get_target_audience`, `create_target_audience` |
 | Mbox | 3 | `list_target_mboxes`, `get_target_mbox`, `list_target_mbox_profile_attributes` |
 | Property | 1 | `list_target_properties` |
-| Reporting | 6 | `get_ab_performance_report`, `get_ab_orders_report`, `get_xt_performance_report`, `get_xt_orders_report`, `get_activity_report_by_name`, `get_a4t_report` |
+| Reporting | 4 | `get_activity_performance_report`, `get_activity_orders_report`, `get_activity_report_by_name`, `get_a4t_report` |
 | Preview | 1 | `preview_activity` |
 | Response token | 2 | `list_target_response_tokens`, `create_target_response_token` |
 | Revision | 2 | `get_target_revisions`, `get_target_entity_revisions` |
 | Template | 1 | `list_target_templates` |
-| **Total** | **41** | |
+| **Total** | **35** | |
 
 ## Related resources {#tools-related}
 
