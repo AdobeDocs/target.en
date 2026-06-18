@@ -177,7 +177,7 @@ Updates the schedule for an activity without modifying other settings.
 | Parameter | Type | Required | Description |
 |---|---|---|---|
 | `activity_id` | integer | Yes | The unique identifier of the activity |
-| `activity_type` | string | Yes | Type of activity: `ab`, `xt`, or `abt` |
+| `activity_type` | string | Yes | Type of activity: `ab`, `xt`, `abt`, `auto_allocate`, `mvt`, or `recs` |
 | `starts_at` | string | No | New start date (ISO 8601) |
 | `ends_at` | string | No | New end date (ISO 8601) |
 
