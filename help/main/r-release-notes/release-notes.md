@@ -57,7 +57,7 @@ Explore the latest features, enhancements, and fixes in [!DNL Adobe Target]. The
 * **Consolidated activity tools.** The [!DNL Adobe Target] MCP server activity tools have been consolidated to reduce tool-selection overhead and extend read and report coverage to all activity types. Six per-type tools have been replaced with four unified tools:
 
   * `get_activity` replaces `get_ab_activity`, `get_xt_activity`, and `get_abt_activity`. Retrieves full activity details for all types: A/B Test, Experience Targeting, Automated Personalization, Auto-Allocate, Multivariate Test (MVT), and Recommendations. The activity type is auto-detected from the ID.
-  * `update_activity` replaces `update_ab_activity`, `update_xt_activity`, and `update_abt_activity`. Supports A/B Test and Experience Targeting activities; Automated Personalization, Auto-Allocate, MVT, and Recommendations activities are read-only.
+  * `update_activity` replaces `update_ab_activity`, `update_xt_activity`, and `update_abt_activity`. Supports A/B Test, Experience Targeting, and Automated Personalization activities; Auto-Allocate, MVT, and Recommendations activities are read-only.
   * `get_activity_performance_report` replaces `get_ab_performance_report` and `get_xt_performance_report`. Retrieves conversion, lift, and confidence metrics for all activity types.
   * `get_activity_orders_report` replaces `get_ab_orders_report` and `get_xt_orders_report`. Retrieves order and revenue metrics for all activity types.
 

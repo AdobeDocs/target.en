@@ -39,7 +39,7 @@ For full setup instructions, see [Get started](target-mcp-get-started.md).
 
 >[!NOTE]
 >
->Read and write operations have different scope. `get_activity` retrieves activities of all types (A/B Test, Experience Targeting, Automated Personalization, Auto-Allocate, Multivariate Test, Recommendations). `update_activity` supports A/B Test and Experience Targeting activities only; Automated Personalization, Auto-Allocate, Multivariate Test, and Recommendations activities are read-only through the MCP server.
+>Read and write operations have different scope. `get_activity` retrieves activities of all types (A/B Test, Experience Targeting, Automated Personalization, Auto-Allocate, Multivariate Test, Recommendations). `update_activity` supports A/B Test, Experience Targeting, and Automated Personalization; Auto-Allocate, Multivariate Test, and Recommendations activities are read-only through the MCP server.
 
 | Capability | A/B Test | Experience Targeting | Automated Personalization | Auto-Allocate | Multivariate Test | Recommendations |
 |---|---|---|---|---|---|---|
@@ -47,7 +47,7 @@ For full setup instructions, see [Get started](target-mcp-get-started.md).
 | `list_target_activities` | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ |
 | `get_activity_performance_report` | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ |
 | `get_activity_orders_report` | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ |
-| `update_activity` | ✓ | ✓ | — | — | — | — |
+| `update_activity` | ✓ | ✓ | ✓ | — | — | — |
 | Lifecycle edits (state, priority, name, schedule) | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ |
 | Variant and traffic edits | ✓ | ✓ | ✓ | — | — | — |
 | Create | ✓ | ✓ | — | — | — | — |
@@ -162,9 +162,9 @@ Creates an XT activity that delivers different experiences to different audience
 
 **Tool:** `update_activity`
 
-Update an existing A/B Test or Experience Targeting activity.
+Update an existing A/B Test, Experience Targeting, or Automated Personalization activity.
 
-Uses a read-modify-write pattern: fetches the current state, merges your changes, validates, and sends the update. Supports A/B Test and Experience Targeting activities only; Automated Personalization, Auto-Allocate, Multivariate Test, and Recommendations activities are read-only.
+Uses a read-modify-write pattern: fetches the current state, merges your changes, validates, and sends the update. Supports A/B Test, Experience Targeting, and Automated Personalization activities; Auto-Allocate, Multivariate Test, and Recommendations activities are read-only. The structured `goal`, `audience_ids`, and `additional_metrics` parameters are supported for A/B Test and Experience Targeting only; Automated Personalization activities accept plain field-merge updates.
 
 | Parameter | Type | Required | Description |
 |---|---|---|---|
@@ -188,7 +188,6 @@ Updates the schedule for an activity without modifying other settings.
 | Parameter | Type | Required | Description |
 |---|---|---|---|
 | `activity_id` | integer | Yes | The unique identifier of the activity |
-| `activity_type` | string | Yes | Type of activity: `ab`, `xt`, `abt`, `auto_allocate`, `mvt`, or `recs` |
 | `starts_at` | string | No | New start date (ISO 8601) |
 | `ends_at` | string | No | New end date (ISO 8601) |
 
@@ -756,15 +755,16 @@ No parameters required.
 |---|---|---|
 | Activity | 13 | `list_target_activities`, `get_activity`, `create_ab_activity`, `create_xt_activity`, `update_activity`, `update_activity_schedule`, `update_activity_state`, `update_activity_name`, `update_activity_priority`, `add_activity_variant`, `update_traffic_split`, `update_variant_offer`, `remove_activity_variant` |
 | Offer | 5 | `list_target_offers`, `get_target_offer`, `create_target_offer`, `create_target_json_offer`, `update_target_offer` |
-| Audience | 3 | `list_target_audiences`, `get_target_audience`, `create_target_audience` |
+| Audience | 4 | `list_target_audiences`, `get_target_audience`, `create_target_audience`, `update_target_audience` |
 | Mbox | 3 | `list_target_mboxes`, `get_target_mbox`, `list_target_mbox_profile_attributes` |
 | Property | 1 | `list_target_properties` |
 | Reporting | 4 | `get_activity_performance_report`, `get_activity_orders_report`, `get_activity_report_by_name`, `get_a4t_report` |
 | Preview | 1 | `preview_activity` |
 | Response token | 2 | `list_target_response_tokens`, `create_target_response_token` |
 | Revision | 2 | `get_target_revisions`, `get_target_entity_revisions` |
+| AT.js | 2 | `get_atjs_settings`, `get_atjs_versions` |
 | Template | 1 | `list_target_templates` |
-| **Total** | **35** | |
+| **Total** | **38** | |
 
 ## Related resources {#tools-related}
 
