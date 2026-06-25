@@ -38,11 +38,9 @@ Explore the latest features, enhancements, and fixes in [!DNL Adobe Target]. The
 
 +++See details
 
-* **Activity listing filter by authors.** Updated the [!UICONTROL GraphQL] activity listing query to support filtering activities by authors. (TGT-54682)
-
 * **Source filter for API and MCP created resources.** Fixed an issue where filtering by [!UICONTROL Adobe Target API] or [!UICONTROL Adobe Target MCP] did not work on the activities, audiences, and offers listing pages. (TGT-55236)
 
-* **Activity source filter values.** Fixed an issue where the [!UICONTROL Adobe Target API] source filter did not display newly API-created activities. (TGT-55237)
+* **Activity source filter values.** Fixed an issue where the [!UICONTROL Adobe Target API] or [!UICONTROL Adobe Target MCP] source filter did not display newly API-created audiences. (TGT-55237)
 
 +++
 
