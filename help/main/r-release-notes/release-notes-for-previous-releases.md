@@ -82,6 +82,68 @@ Release notes are listed in descending order by month and year of release.
 
 ## Release notes - 2026
 
+## [!DNL Target Standard/Premium] 26.6.5 (June 17, 2026)
+
+**Activities**
+
++++See details
+
+* **Error when an activity uses audiences deleted at source.** Fixed an issue where you could see an error indicating that an activity uses one or more audiences that were deleted at the source. (TGT-55272)
+
++++
+
+**[!UICONTROL Analytics for Target] (A4T)**
+
++++See details
+
+* **A4T reports not visible.** Fixed an issue where [!UICONTROL Analytics for Target] (A4T) reports did not display. (TGT-55432)
+
++++ 
+
+## [!DNL Target Standard/Premium] 26.6.4 (June 16, 2026)
+
+**Activities**
+
++++See details
+
+* **[!UICONTROL Save & Close] in the updated [!DNL Target] UI.** Restored the **[!UICONTROL Save & Close]** option in the updated [!DNL Target] UI. (TGT-55152)
+
+* **QA URLs in the updated [!DNL Target] UI.** Fixed an issue where QA URLs did not work correctly in the updated [!DNL Target] UI. ([TGT-55110](https://jira.corp.adobe.com/browse/TGT-55110))
+
++++
+
+**Localization**
+
++++See details
+
+* **Unlocalized percent format in Activity overview graph reports.** Fixed an issue where the percent format was not localized in the chart in **[!UICONTROL Graph view]** on the **[!UICONTROL Reports]** tab on the **[!UICONTROL Activity Overview]** page. (TGT-50100)
+
+* **Japanese characters in the activity URL.** Fixed an issue where Japanese characters in the activity URL appeared corrupted on the **[!UICONTROL Activity Overview]** page and in the activity list after you saved an activity. (TGT-53459)
+
+* **Unlocalized timestamp in the default activity name.** Fixed an issue where the timestamp was not localized in the activity title when you retained the default activity name during activity creation. (TGT-53273)
+
++++
+
+**[!UICONTROL Recommendations]**
+
++++See details
+
+* **Multi-byte characters in the URL after creating feeds.** Fixed an issue where multi-byte characters appeared corrupted in the URL after you created feeds. (TGT-54793)
+
++++
+
+<!--
+* **Blank page or CORS errors with Enhanced Experience Composer.** Fixed an issue where the [!UICONTROL Visual Experience Composer] could fail to load when Enhanced Experience Composer (EEC) was enabled. (TGT-54576)
+
+**[!UICONTROL Visual Experience Composer] (VEC)**
+
++++See details
+
+* **Click tracking for Experience B.** Fixed an issue where click tracking was not saved for **[!UICONTROL Experience B]** in the [!UICONTROL Visual Experience Composer]. (TGT-54843)
+
++++
+-->
+
 ## [!DNL Target Standard/Premium] 26.6.3 (June 11, 2026)
 
 **Localization**
