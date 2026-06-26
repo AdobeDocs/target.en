@@ -164,7 +164,13 @@ Set up a data view in [!DNL Customer Journey Analytics]. A data view ensures tha
    * [!UICONTROL Activity Name]
    * [!UICONTROL Activity ID]
 
-   ![Names and IDs options in Customer Journey Analytics](/help/main/c-integrating-target-with-mac/cja/assets/names-and-ids.png){width="600" zoomable="yes"}
+    ![Names and IDs options in Customer Journey Analytics](/help/main/c-integrating-target-with-mac/cja/assets/names-and-ids.png){width="600" zoomable="yes"}
+
+1. To ensure that [!DNL Customer Journey Analytics] attributes metrics to the correct [!DNL Target] experience across the visitor journey, configure persistence for the [!UICONTROL Activity Name] and [!UICONTROL Activity ID] dimensions.
+
+   Without persistence configured, [!DNL Customer Journey Analytics] links only metrics that occur on the same event as the [!DNL Target] experience. For example, if a visitor sees a Target experience on the homepage, that visitor's revenue metric from a purchase on a later page is not attributed to the Target activity.
+
+   For more information about persistence, refer to [Adobe Customer Journey Analytics documentation](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-dataviews/component-settings/persistence){target=_blank}.
 
 1. To use [!DNL Target] dimensions in the [!UICONTROL Experimentation] panel, set up the following context labels:
 
