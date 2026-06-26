@@ -32,31 +32,31 @@ Explore the latest features, enhancements, and fixes in [!DNL Adobe Target]. The
 
 (The issue numbers in parentheses are for internal [!DNL Adobe] use.)
 
-## [!DNL Target Standard/Premium] 26.6.3 (June 11, 2026)
+## [!DNL Target Standard/Premium] 26.6.8 (June 24, 2026)
+
+**Activities**
+
++++See details
+
+* **Source filter for API and MCP created resources.** Fixed an issue where filtering by [!UICONTROL Adobe Target API] or [!UICONTROL Adobe Target MCP] did not work on the activities, audiences, and offers listing pages. (TGT-55236)
+
+* **Activity source filter values.** Fixed an issue where the [!UICONTROL Adobe Target API] or [!UICONTROL Adobe Target MCP] source filter did not display newly API-created audiences. (TGT-55237)
+
++++
 
 **Localization**
- 
-+++See details
-
-* **Unlocalized first day of the week in Audience calendar modals during activity creation.** Fixed an issue where the first day of the week was not localized in the calendar in the **[!UICONTROL Create]**, **[!UICONTROL Edit]**, and **[!UICONTROL Duplicate Audience]** modals during Activity creation. (TGT-50510)
-
-* **Unlocalized percent format in Activity overview reports.** Fixed an issue where the percent format was not localized in a table on the **[!UICONTROL Reports]** tab on the **[!UICONTROL Activity Overview]** page. (TGT-50094)
-
-* **Unlocalized number format in the [!UICONTROL Create Criteria] dialog.** Fixed an issue where the number format was not localized in the **[!UICONTROL Create Criteria]** dialog in **[!UICONTROL Recommendations]**. (TGT-52250)
-
-+++
-
-<!--
-* **Blank page or CORS errors with Enhanced Experience Composer.** Fixed an issue where the [!UICONTROL Visual Experience Composer] could fail to load when Enhanced Experience Composer (EEC) was enabled. (TGT-54576)
-
-**[!UICONTROL Visual Experience Composer] (VEC)**
 
 +++See details
 
-* **Click tracking for Experience B.** Fixed an issue where click tracking was not saved for **[!UICONTROL Experience B]** in the [!UICONTROL Visual Experience Composer]. (TGT-54843)
+* **Unlocalized strings in the [!UICONTROL Create JSON Offer] modal.** Fixed an issue where strings in the [!UICONTROL Create JSON Offer] modal, including [!UICONTROL Name] and [!UICONTROL Workspace], were not localized during activity creation. (TGT-50084)
+
+* **Unlocalized toast message in a [!UICONTROL Recommendations] activity.** Fixed an issue where an unlocalized toast message appeared when adding recommendations in a form-based [!UICONTROL Recommendations] activity. (TGT-50463)
+
+* **Unlocalized string in the [!UICONTROL Collections] and [!UICONTROL Exclusions] dialogs.** Fixed an issue where the "Item Payload" string was not localized in the [!UICONTROL Collections] and [!UICONTROL Exclusions] dialogs in [!UICONTROL Recommendations]. (TGT-51542)
+
+* **Unlocalized "Approver" string in the [!UICONTROL Audiences] tab.** Fixed an issue where the "Approver" string was not localized in the [!UICONTROL Workspace] column on the [!UICONTROL Audience Library] page. (TGT-51751)
 
 +++
--->
 
 ## Time-sensitive updates you need to know {#time-sensitive}
 
