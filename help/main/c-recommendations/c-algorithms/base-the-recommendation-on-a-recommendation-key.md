@@ -31,7 +31,7 @@ Each algorithm type provides different algorithms appropriate for its type, as s
 |Algorithm type|When to use / Available algorithms|
 | --- | --- |
 |[!UICONTROL Cart-Based]|Make recommendations based on the user's cart contents.<ul><li>[!UICONTROL People Who Viewed These, Also Viewed]</li><li>[!UICONTROL People Who Viewed These, Also Bought]</li><li>[!UICONTROL People Who Bought These, Also Bought]</li></ul>|
-|[!UICONTROL Popularity-Based]|Make recommendations based on the overall popularity of an item across your site or based on the popularity of items within a user's favorite or most-viewed category, brand, genre, and so forth. <ul><li>[!UICONTROL Most Viewed Across the Site]</li><li>[!UICONTROL Most Viewed by Category]</li><li>[!UICONTROL Most Viewed by Item Attribute]</li><li>[!UICONTROL Top Sellers Across the Site]</li><li>[!UICONTROL Top Sellers by Category]</li><li>[!UICONTROL Top Sellers by Item Attribute]</li><li>[!UICONTROL Top by Analytics Metric]</li></ul>|
+|[!UICONTROL Popularity-Based]|Make recommendations based on the overall popularity of an item across your site or based on the popularity of items within a user's favorite or most-viewed category, brand, genre, and so forth. <ul><li>[!UICONTROL Most Viewed Across the Site]</li><li>[!UICONTROL Most Viewed by Category]</li><li>[!UICONTROL Most Viewed by Item Attribute]</li><li>[!UICONTROL Most Viewed by Profile Attribute]</li><li>[!UICONTROL Top Sellers Across the Site]</li><li>[!UICONTROL Top Sellers by Category]</li><li>[!UICONTROL Top Sellers by Item Attribute]</li><li>[!UICONTROL Top Sellers by Profile Attribute]</li><li>[!UICONTROL Top by Analytics Metric]</li></ul>|
 |[!UICONTROL Item-Based]|Make recommendations based on finding similar items to an item that the user is currently viewing or has recently viewed. <ul><li>[!UICONTROL People Who Viewed This, Viewed That]</li><li>[!UICONTROL People Who Viewed This, Bought That]</li><li>[!UICONTROL People Who Bought This, Bought That]</li><li>[!UICONTROL Items with Similar Attributes]</li></ul>|
 |[!UICONTROL User-Based]|Make recommendations based on the user's behavior. <ul><li>[!UICONTROL Recently Viewed Items]</li><li>[!UICONTROL Recommended for You]</li></ul>|
 |[!UICONTROL Custom Criteria]|Make recommendations based on a custom file you upload. <ul><li>Custom Algorithm</li></ul>|
@@ -179,6 +179,26 @@ Recommends items or media similar to the most-purchased items or media on your s
 This algorithm lets you select which item attribute you want to base the recommendation on, for example, "Name," or "Brand."
 
 You then select which profile attributes stored in the visitor's profile to match, for example "Favorite Brand," "Last Item Added to Cart," or "Most Viewed Show."
+
+### [!UICONTROL Most Viewed by Profile Attribute]
+
+Recommends the most-viewed items grouped by a visitor profile attribute.
+
+Unlike [!UICONTROL Most Viewed by Category] or [!UICONTROL Most Viewed by Item Attribute], this algorithm groups view counts by a *visitor* profile attribute, such as country, region, or membership tier. [!DNL Target] maintains an independent ranked list for each unique attribute value and serves the appropriate list to each visitor at delivery time based on their stored attribute value.
+
+For example, if you select `profile.country` as the profile attribute, visitors from the United States see the items most viewed by US visitors, while visitors from India see India's top-viewed picks.
+
+To configure this algorithm, select a **[!UICONTROL Profile Attribute]** to group the popularity data by.
+
+### [!UICONTROL Top Sellers by Profile Attribute]
+
+Recommends the top-selling items grouped by a visitor profile attribute.
+
+Similar to [!UICONTROL Most Viewed by Profile Attribute], this algorithm groups purchase counts by a *visitor* profile attribute. [!DNL Target] builds an independent top-sellers list for each unique attribute value and serves the matching list to each visitor at delivery time.
+
+For example, if you select `profile.membershipTier` as the profile attribute, a visitor with a Gold membership sees the top-selling items among Gold-tier visitors, while a Silver-tier visitor sees the top sellers among Silver-tier visitors.
+
+To configure this algorithm, select a **[!UICONTROL Profile Attribute]** to group the popularity data by.
 
 ### [!UICONTROL Top by Analytics Metric]
 
