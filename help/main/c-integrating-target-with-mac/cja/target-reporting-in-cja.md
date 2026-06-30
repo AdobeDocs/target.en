@@ -126,7 +126,7 @@ Creating a [!DNL Target] activity that uses [!DNL Customer Journey Analytics] as
 
    Select a success metric to use as a goal for each activity. You can choose one of the [!DNL Target] conversion metrics or use a [!DNL Customer Journey Analytics] metric.
 
-   For [!UICONTROL Auto-Allocate] activities, select **[!UICONTROL Use a CJA Metric]**, then choose a [!DNL Customer Journey Analytics] metric or calculated metric from the selected data view. [!UICONTROL Auto-Allocate] uses this metric as the optimization criterion—the model runs on [!DNL Customer Journey Analytics] data—and continues to refresh performance data on the regular cadence used for [!DNL Customer Journey Analytics] reporting.
+   For [!UICONTROL Auto-Allocate] activities, select **[!UICONTROL Use a CJA Metric]**, then choose a [!DNL Customer Journey Analytics] metric or calculated metric from the selected data view. [!UICONTROL Auto-Allocate] uses this metric as the optimization criterion, the model runs on [!DNL Customer Journey Analytics] data, and continues to refresh performance data on the regular cadence used for [!DNL Customer Journey Analytics] reporting.
 
    ![Use a Customer Journey Analytics metric option under Goal Metric](/help/main/c-integrating-target-with-mac/cja/assets/goal-metric.png)
 
