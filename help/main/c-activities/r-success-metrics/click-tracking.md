@@ -110,6 +110,8 @@ There are several things to consider when selecting elements:
 
 * Multiple activities can define a click-track metric for the same selector. If so, when a visitor qualifies for one of those activities and clicks that selector, the click-track metric increases for all associated activities that the visitor qualified for.
 
+* For [!UICONTROL Automated Personalization] (AP) and Auto-Target activities on single page applications (SPAs), you can select elements for click tracking that belong to a specific [!DNL Target] View. For more information about Views, see [Adobe Target Views and Single Page Applications](/help/main/c-experiences/spa-visual-experience-composer.md).
+
 ## Training Video {#section_36607204DAE146E3B8E2C609D244EDB1}
 
 This video includes information about creating click-tracking success metrics.
