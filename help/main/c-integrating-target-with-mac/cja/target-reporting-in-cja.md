@@ -102,8 +102,6 @@ Creating a [!DNL Target] activity that uses [!DNL Customer Journey Analytics] as
 
 1. From the **[!UICONTROL Activities]** list, click **[!UICONTROL Create Activity]**, then select the activity type (according to the [supported activity chart above](#supported-activities)) and begin setting up the activity.
 
-   For an [!UICONTROL Auto-Allocate] activity, create an [!UICONTROL A/B Test] and select **[!UICONTROL Auto-Allocate to best experience]** on the **[!UICONTROL Targeting]** page. For more information, see [Create an [!UICONTROL Auto-Allocate] activity](/help/main/c-activities/automated-traffic-allocation/create-auto-allocate-activity.md).
-
 1. When you get to the **[!UICONTROL Goals & Settings]** page of the three-part activity creation workflow, select **[!DNL Customer Journey Analytics]** as the reporting source.
 
    ![Customer Journey Analytics as the reporting source option](/help/main/c-integrating-target-with-mac/cja/assets/cja-as-reporting-source.png)
@@ -112,21 +110,15 @@ Creating a [!DNL Target] activity that uses [!DNL Customer Journey Analytics] as
    >
    >The reporting source cannot be changed after a [!DNL Target] activity goes live.
 
-1. Select a sandbox.
-
-   Select the [!DNL Adobe Experience Platform] sandbox that matches the data you use for [!DNL Customer Journey Analytics] reporting. You see only the sandboxes that you have access to in this drop-down list. If one or more of the sandboxes you have access to is missing from the list, verify that you have access to the sandbox. Contact [Customer Care](/help/main/cmp-resources-and-contact-information.md#reference_ACA3391A00EF467B87930A450050077C) if you continue to see issues. 
+1. Select the [!DNL Adobe Experience Platform] sandbox that matches the data you use for [!DNL Customer Journey Analytics] reporting. You see only the sandboxes that you have access to in this drop-down list. If one or more of the sandboxes you have access to is missing from the list, verify that you have access to the sandbox. Contact [Customer Care](/help/main/cmp-resources-and-contact-information.md#reference_ACA3391A00EF467B87930A450050077C) if you continue to see issues. 
 
    ![Select sandbox option](/help/main/c-integrating-target-with-mac/cja/assets/sandbox.png)
 
-1. Select a data view.
+1. Specify the goal metric. Choose one of the following options:
 
-   The data view is the functional equivalent of an [!DNL Analytics] report suite for [!DNL Customer Journey Analytics] reporting. You see only data views in the selected sandbox that you have access to.
+   * **[!UICONTROL Conversion]**: Choose the action your audience must take to indicate the goal has been reached. [Learn more about success metrics](/help/main/c-activities/r-success-metrics/success-metrics.md).
 
-1. Specify the activity goal.
-
-   Select a success metric to use as a goal for each activity. You can choose one of the [!DNL Target] conversion metrics or use a [!DNL Customer Journey Analytics] metric.
-
-   For [!UICONTROL Auto-Allocate] activities, select **[!UICONTROL Use a CJA Metric]**, then choose a [!DNL Customer Journey Analytics] metric or calculated metric from the selected data view. [!UICONTROL Auto-Allocate] uses this metric as the optimization criterion, the model runs on [!DNL Customer Journey Analytics] data, and continues to refresh performance data on the regular cadence used for [!DNL Customer Journey Analytics] reporting.
+   * **[!UICONTROL Use a Customer Journey Analytics metric]**: Choose a [!DNL Customer Journey Analytics] metric or calculated metric from the selected data view. This metric serves as the optimization criterion. The model runs on [!DNL Customer Journey Analytics] data and refreshes performance data at the same cadence used for [!DNL Customer Journey Analytics] reporting.
 
    ![Use a Customer Journey Analytics metric option under Goal Metric](/help/main/c-integrating-target-with-mac/cja/assets/goal-metric.png)
 
