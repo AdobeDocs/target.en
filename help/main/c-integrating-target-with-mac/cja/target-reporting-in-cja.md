@@ -114,6 +114,10 @@ Creating a [!DNL Target] activity that uses [!DNL Customer Journey Analytics] as
 
    ![Select sandbox option](/help/main/c-integrating-target-with-mac/cja/assets/sandbox.png)
 
+1. Select a **[!UICONTROL Data view]**. A data view functions like an [!DNL Analytics] report suite for [!DNL Customer Journey Analytics] reporting. Only data views in the selected sandbox that you have access to are shown.
+
+    ➡️ [Learn more about Data view in Adobe Customer Journey Analytics documentation](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-dataviews/data-views)
+
 1. Specify the goal metric. Choose one of the following options:
 
    * **[!UICONTROL Conversion]**: Choose the action your audience must take to indicate the goal has been reached. [Learn more about success metrics](/help/main/c-activities/r-success-metrics/success-metrics.md).
