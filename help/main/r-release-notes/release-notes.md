@@ -32,15 +32,23 @@ Explore the latest features, enhancements, and fixes in [!DNL Adobe Target]. The
 
 (The issue numbers in parentheses are for internal [!DNL Adobe] use.)
 
-## [!DNL Target Standard/Premium] 26.6.8 (June 24, 2026)
+## [!DNL Target Standard/Premium] 26.7.1 (July 9, 2026)
 
 **Activities**
 
 +++See details
 
-* **Source filter for API and MCP created resources.** Fixed an issue where filtering by [!UICONTROL Adobe Target API] or [!UICONTROL Adobe Target MCP] did not work on the activities, audiences, and offers listing pages. (TGT-55236)
+* **Inconsistent source display across [!UICONTROL Activities], [!UICONTROL Audiences], and [!UICONTROL Offers] pages.** Fixed an issue where the source displayed inconsistently across the [!UICONTROL Activities], [!UICONTROL Audiences], and [!UICONTROL Offers] pages. (TGT-55247)
 
-* **Activity source filter values.** Fixed an issue where the [!UICONTROL Adobe Target API] or [!UICONTROL Adobe Target MCP] source filter did not display newly API-created audiences. (TGT-55237)
+* **Activity source changes when editing via UI.** Fixed an issue where editing an activity through the UI changed the original activity source. (TGT-55248)
+
++++
+
+**Audiences**
+
++++See details
+
+* **Incorrect default workspace when editing an audience.** Fixed an issue where the default workspace was incorrect after you edited an audience. (TGT-55510)
 
 +++
 
@@ -48,13 +56,15 @@ Explore the latest features, enhancements, and fixes in [!DNL Adobe Target]. The
 
 +++See details
 
-* **Unlocalized strings in the [!UICONTROL Create JSON Offer] modal.** Fixed an issue where strings in the [!UICONTROL Create JSON Offer] modal, including [!UICONTROL Name] and [!UICONTROL Workspace], were not localized during activity creation. (TGT-50084)
+* **Unlocalized strings in the [!UICONTROL Create Profile Script] dialog.** Fixed an issue where strings in the [!UICONTROL Create Profile Script] dialog were not localized. (TGT-51527)
 
-* **Unlocalized toast message in a [!UICONTROL Recommendations] activity.** Fixed an issue where an unlocalized toast message appeared when adding recommendations in a form-based [!UICONTROL Recommendations] activity. (TGT-50463)
++++
 
-* **Unlocalized string in the [!UICONTROL Collections] and [!UICONTROL Exclusions] dialogs.** Fixed an issue where the "Item Payload" string was not localized in the [!UICONTROL Collections] and [!UICONTROL Exclusions] dialogs in [!UICONTROL Recommendations]. (TGT-51542)
+**Reporting**
 
-* **Unlocalized "Approver" string in the [!UICONTROL Audiences] tab.** Fixed an issue where the "Approver" string was not localized in the [!UICONTROL Workspace] column on the [!UICONTROL Audience Library] page. (TGT-51751)
++++See details
+
+* **CSV download failure for May reports.** Fixed an issue where downloading a CSV report for May failed. (TGT-55524)
 
 +++
 
