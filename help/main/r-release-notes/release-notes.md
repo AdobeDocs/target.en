@@ -32,62 +32,31 @@ Explore the latest features, enhancements, and fixes in [!DNL Adobe Target]. The
 
 (The issue numbers in parentheses are for internal [!DNL Adobe] use.)
 
-## [!DNL Target Standard/Premium] 26.6.8 (June 24, 2026)
+## [!DNL Target Standard/Premium] 26.7.1 (July 9, 2026)
 
 **Activities**
 
 +++See details
 
-* **Source filter for API and MCP created resources.** Fixed an issue where filtering by [!UICONTROL Adobe Target API] or [!UICONTROL Adobe Target MCP] did not work on the activities, audiences, and offers listing pages. (TGT-55236)
+* **Inconsistent source display across [!UICONTROL Activities], [!UICONTROL Audiences], and [!UICONTROL Offers] pages.** Fixed an issue where the source displayed inconsistently across the [!UICONTROL Activities], [!UICONTROL Audiences], and [!UICONTROL Offers] pages. (TGT-55247)
+
+* **Activity source changes when editing via UI.** Fixed an issue where editing an activity through the UI changed the original activity source. (TGT-55248)
 
 +++
 
-**[!UICONTROL Analytics for Target] (A4T)**
+**Audiences**
 
 +++See details
 
-* **A4T reports not visible.** Fixed an issue where [!UICONTROL Analytics for Target] (A4T) reports did not display. (TGT-55432)
+* **Incorrect default workspace when editing an audience.** Fixed an issue where the default workspace was incorrect after you edited an audience. (TGT-55510)
 
 +++
 
-**[!DNL Adobe Target] MCP server**
+**Reporting**
 
 +++See details
 
-* **Consolidated activity tools.** The [!DNL Adobe Target] MCP server activity tools have been consolidated to reduce tool-selection overhead and extend read and report coverage to all activity types. Six per-type tools have been replaced with four unified tools:
-
-  * `get_activity` replaces `get_ab_activity`, `get_xt_activity`, and `get_abt_activity`. Retrieves full activity details for all types: A/B Test, Experience Targeting, Automated Personalization, Auto-Allocate, Multivariate Test (MVT), and Recommendations. The activity type is auto-detected from the ID.
-  * `update_activity` replaces `update_ab_activity`, `update_xt_activity`, and `update_abt_activity`. Supports A/B Test, Experience Targeting, and Automated Personalization activities; Auto-Allocate, MVT, and Recommendations activities are read-only.
-  * `get_activity_performance_report` replaces `get_ab_performance_report` and `get_xt_performance_report`. Retrieves conversion, lift, and confidence metrics for all activity types.
-  * `get_activity_orders_report` replaces `get_ab_orders_report` and `get_xt_orders_report`. Retrieves order and revenue metrics for all activity types.
-
-  For more information, see [[!DNL Adobe Target] MCP server tools reference](../c-integrating-target-with-mac/mcp/target-mcp-tools-reference.md).
-
-+++
-
-## [!DNL Target Standard/Premium] 26.6.4 (June 16, 2026)
-
-**Activities**
-
-+++See details
-
-* **[!UICONTROL Save & Close] in the updated [!DNL Target] UI.** Restored the **[!UICONTROL Save & Close]** option in the updated [!DNL Target] UI. (TGT-55152)
-
-* **QA URLs in the updated [!DNL Target] UI.** Fixed an issue where QA URLs did not work correctly in the updated [!DNL Target] UI. ([TGT-55110](https://jira.corp.adobe.com/browse/TGT-55110))
-
-+++
-
-**Localization**
-
-+++See details
-
-* **Unlocalized strings in the [!UICONTROL Create JSON Offer] modal.** Fixed an issue where strings in the [!UICONTROL Create JSON Offer] modal, including [!UICONTROL Name] and [!UICONTROL Workspace], were not localized during activity creation. (TGT-50084)
-
-* **Unlocalized toast message in a [!UICONTROL Recommendations] activity.** Fixed an issue where an unlocalized toast message appeared when adding recommendations in a form-based [!UICONTROL Recommendations] activity. (TGT-50463)
-
-* **Unlocalized string in the [!UICONTROL Collections] and [!UICONTROL Exclusions] dialogs.** Fixed an issue where the "Item Payload" string was not localized in the [!UICONTROL Collections] and [!UICONTROL Exclusions] dialogs in [!UICONTROL Recommendations]. (TGT-51542)
-
-* **Unlocalized "Approver" string in the [!UICONTROL Audiences] tab.** Fixed an issue where the "Approver" string was not localized in the [!UICONTROL Workspace] column on the [!UICONTROL Audience Library] page. (TGT-51751)
+* **CSV download failure for May reports.** Fixed an issue where downloading a CSV report for May failed. (TGT-55524)
 
 +++
 

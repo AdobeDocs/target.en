@@ -82,6 +82,32 @@ Release notes are listed in descending order by month and year of release.
 
 ## Release notes - 2026
 
+## [!DNL Target Standard/Premium] 26.6.8 (June 24, 2026)
+
+**Activities**
+
++++See details
+
+* **Source filter for API and MCP created resources.** Fixed an issue where filtering by [!UICONTROL Adobe Target API] or [!UICONTROL Adobe Target MCP] did not work on the activities, audiences, and offers listing pages. (TGT-55236)
+
+* **Activity source filter values.** Fixed an issue where the [!UICONTROL Adobe Target API] or [!UICONTROL Adobe Target MCP] source filter did not display newly API-created audiences. (TGT-55237)
+
++++
+
+**Localization**
+
++++See details
+
+* **Unlocalized strings in the [!UICONTROL Create JSON Offer] modal.** Fixed an issue where strings in the [!UICONTROL Create JSON Offer] modal, including [!UICONTROL Name] and [!UICONTROL Workspace], were not localized during activity creation. (TGT-50084)
+
+* **Unlocalized toast message in a [!UICONTROL Recommendations] activity.** Fixed an issue where an unlocalized toast message appeared when adding recommendations in a form-based [!UICONTROL Recommendations] activity. (TGT-50463)
+
+* **Unlocalized string in the [!UICONTROL Collections] and [!UICONTROL Exclusions] dialogs.** Fixed an issue where the "Item Payload" string was not localized in the [!UICONTROL Collections] and [!UICONTROL Exclusions] dialogs in [!UICONTROL Recommendations]. (TGT-51542)
+
+* **Unlocalized "Approver" string in the [!UICONTROL Audiences] tab.** Fixed an issue where the "Approver" string was not localized in the [!UICONTROL Workspace] column on the [!UICONTROL Audience Library] page. (TGT-51751)
+
++++
+
 ## [!DNL Target Standard/Premium] 26.6.5 (June 17, 2026)
 
 **Activities**
