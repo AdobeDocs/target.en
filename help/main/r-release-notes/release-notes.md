@@ -52,14 +52,6 @@ Explore the latest features, enhancements, and fixes in [!DNL Adobe Target]. The
 
 +++
 
-**Localization**
-
-+++See details
-
-* **Unlocalized strings in the [!UICONTROL Create Profile Script] dialog.** Fixed an issue where strings in the [!UICONTROL Create Profile Script] dialog were not localized. (TGT-51527)
-
-+++
-
 **Reporting**
 
 +++See details
