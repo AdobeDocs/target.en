@@ -40,7 +40,40 @@ Explore the latest features, enhancements, and fixes in [!DNL Adobe Target]. The
 
 * **Source filter for API and MCP created resources.** Fixed an issue where filtering by [!UICONTROL Adobe Target API] or [!UICONTROL Adobe Target MCP] did not work on the activities, audiences, and offers listing pages. (TGT-55236)
 
-* **Activity source filter values.** Fixed an issue where the [!UICONTROL Adobe Target API] or [!UICONTROL Adobe Target MCP] source filter did not display newly API-created audiences. (TGT-55237)
++++
+
+**[!UICONTROL Analytics for Target] (A4T)**
+
++++See details
+
+* **A4T reports not visible.** Fixed an issue where [!UICONTROL Analytics for Target] (A4T) reports did not display. (TGT-55432)
+
++++
+
+**[!DNL Adobe Target] MCP server**
+
++++See details
+
+* **Consolidated activity tools.** The [!DNL Adobe Target] MCP server activity tools have been consolidated to reduce tool-selection overhead and extend read and report coverage to all activity types. Six per-type tools have been replaced with four unified tools:
+
+  * `get_activity` replaces `get_ab_activity`, `get_xt_activity`, and `get_abt_activity`. Retrieves full activity details for all types: A/B Test, Experience Targeting, Automated Personalization, Auto-Allocate, Multivariate Test (MVT), and Recommendations. The activity type is auto-detected from the ID.
+  * `update_activity` replaces `update_ab_activity`, `update_xt_activity`, and `update_abt_activity`. Supports A/B Test, Experience Targeting, and Automated Personalization activities; Auto-Allocate, MVT, and Recommendations activities are read-only.
+  * `get_activity_performance_report` replaces `get_ab_performance_report` and `get_xt_performance_report`. Retrieves conversion, lift, and confidence metrics for all activity types.
+  * `get_activity_orders_report` replaces `get_ab_orders_report` and `get_xt_orders_report`. Retrieves order and revenue metrics for all activity types.
+
+  For more information, see [[!DNL Adobe Target] MCP server tools reference](../c-integrating-target-with-mac/mcp/target-mcp-tools-reference.md).
+
++++
+
+## [!DNL Target Standard/Premium] 26.6.4 (June 16, 2026)
+
+**Activities**
+
++++See details
+
+* **[!UICONTROL Save & Close] in the updated [!DNL Target] UI.** Restored the **[!UICONTROL Save & Close]** option in the updated [!DNL Target] UI. (TGT-55152)
+
+* **QA URLs in the updated [!DNL Target] UI.** Fixed an issue where QA URLs did not work correctly in the updated [!DNL Target] UI. ([TGT-55110](https://jira.corp.adobe.com/browse/TGT-55110))
 
 +++
 
