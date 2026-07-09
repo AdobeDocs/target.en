@@ -32,33 +32,6 @@ Explore the latest features, enhancements, and fixes in [!DNL Adobe Target]. The
 
 (The issue numbers in parentheses are for internal [!DNL Adobe] use.)
 
-## [!DNL Target Standard/Premium] 26.7.1 (July 9, 2026)
-
-**Activities**
-
-+++See details
-
-* **Inconsistent source display across [!UICONTROL Activities], [!UICONTROL Audiences], and [!UICONTROL Offers] pages.** Fixed an issue where the source displayed inconsistently across the [!UICONTROL Activities], [!UICONTROL Audiences], and [!UICONTROL Offers] pages. (TGT-55247)
-
-* **Activity source changes when editing via UI.** Fixed an issue where editing an activity through the UI changed the original activity source. (TGT-55248)
-
-+++
-
-**Audiences**
-
-+++See details
-
-* **Incorrect default workspace when editing an audience.** Fixed an issue where the default workspace was incorrect after you edited an audience. (TGT-55510)
-
-+++
-
-**Reporting**
-
-+++See details
-
-* **CSV download failure for May reports.** Fixed an issue where downloading a CSV report for May failed. (TGT-55524)
-
-+++
 
 ## Time-sensitive updates you need to know {#time-sensitive}
 
