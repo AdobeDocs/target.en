@@ -18,10 +18,14 @@ A/B tests in Flags are performed using **feature groups**. By configuring more t
 ## Step 1: Create a feature group with multiple variants {#create}
 
 1. Navigate to **Feature Testing > Feature Groups** and select **New Feature Group**.
-2. In **Basic Details**, provide a title, key, and description.
-3. Set a **percentage rollout** to define how much of your audience participates in the test.
-4. Set **Variants** to a value greater than one (for example, two variants for a classic A/B test).
-5. See [Set a feature group to gradually roll out](set-feature-group-gradual-rollout.md) to understand how the exposure percentage is distributed across variants.
+1. In **Basic Details**, provide a title, key, and description.
+1. Set a **percentage rollout** to define how much of your audience participates in the test.
+1. Set **Variants** to a value greater than one (for example, two variants for a classic A/B test). You can define up to **3 variants plus a control group**.
+1. See [Set a feature group to gradually roll out](set-feature-group-gradual-rollout.md) to understand how the exposure percentage is distributed across variants.
+
+>[!NOTE]
+>
+>Exposure is split **equally** across variants — for example, 50/50 for two variants. Custom splits such as 60/40 are not supported. A single feature flag can be added to **more than one variant**. The audience is set **once per feature group**, not per variant.
 
 ## Step 2: Set the audience {#audience}
 
@@ -47,6 +51,6 @@ Save the feature group settings. When you are ready to start the test, set the f
 
 * [Create a feature group](create-a-feature-group.md)
 * [Set a feature group to gradually roll out](set-feature-group-gradual-rollout.md)
-* [Analytics](analytics.md)
+* [Reporting](analytics.md)
 
 <!-- -->

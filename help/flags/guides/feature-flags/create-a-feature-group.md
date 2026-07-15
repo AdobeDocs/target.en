@@ -55,6 +55,12 @@ Assign the feature flags that will be controlled by this group:
 >
 >A feature flag can only be served through one method — either directly as a feature flag, through a feature group, or through a release. When you add a feature flag to a feature group, any audience or percentage rollout set on the flag is removed. Feature flags already assigned to another release or feature group will not appear in the list.
 
+>[!IMPORTANT]
+>
+>When you **remove** a feature flag from a feature group, the flag returns to a **disabled** state and its audience is **not** restored — treat it as a fresh flag. A **disabled** flag inside a group always evaluates to `false`. Enabling a feature group does **not** enable its member flags; enable each flag explicitly.
+>
+>Feature groups are a **management layer**. At runtime you always evaluate at the **feature (flag) level**, never at the group level; the response includes the variant the user fell into.
+
 ## Step 5: Schedule (optional) {#schedule}
 
 You can schedule the feature group to activate at a future date and time using the **Schedule** option in the feature group settings.

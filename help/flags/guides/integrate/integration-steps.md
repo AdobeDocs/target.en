@@ -16,13 +16,20 @@ Backend services integrate using a server-side SDK. Contact Flags support for gu
 >
 >Server-side SDK documentation is currently being prepared and will be available soon. Contact your Adobe representative for early access guidance.
 
-## Web and mobile applications {#web-mobile}
+## Mobile applications {#mobile}
 
-Web and mobile applications integrate via the web SDK and mobile SDK respectively.
+Mobile applications integrate via the AEP Mobile SDK extensions:
+
+* [Android extension integration guide](../sdk-releases/android/android-extension-integration-guide.md)
+* [iOS extension integration guide](../sdk-releases/ios/ios-extension-integration-guide.md)
+
+## Web applications {#web}
+
+Web application support is coming soon.
 
 >[!NOTE]
 >
->Web SDK and mobile SDK documentation is currently being prepared and will be available soon. Contact your Adobe representative for early access guidance.
+>Web SDK documentation is currently being prepared and will be available soon. Contact your Adobe representative for early access guidance.
 
 ## Desktop applications {#desktop}
 

@@ -10,11 +10,11 @@ You must have the **Admin** role to add a new application. Contact your admin if
 
 ## Add a new application {#add-application}
 
-1. Log in to the Flags console and navigate to **Experience Rollout > Applications**.
+1. Log in to the Flags console and navigate to **Flags > Applications**.
 
    >[!NOTE]
    >
-   >If the **New Application** button is not visible, verify that you have the **Floodgate Admin** role.
+   >If the **New Application** button is not visible, verify that you have the **Admin** role.
 
 2. Select **New Application**.
 
@@ -22,10 +22,13 @@ You must have the **Admin** role to add a new application. Contact your admin if
 
 4. Provide the following information:
 
+   Fields marked with * are required.
+
    | Field | Description |
-   |---|---|
-   | **Application ID** | A unique identifier used when calling Flags from your code. Use your application's client ID. |
-   | **TTL** | The polling interval (in seconds) for refreshing the per-application cache. Applies to server-side SDKs only. |
+   | --- | --- |
+   | **Application name** * | A display name for the application. |
+   | **Application ID** * | A unique identifier used when calling Flags from your code. Use your application's client ID. |
+   | **Poll interval** | The polling interval (in seconds) for refreshing the per-application cache. Applies to server-side SDKs only. |
 
 5. Select **Add**. Your application is now registered and ready for feature flag configuration.
 

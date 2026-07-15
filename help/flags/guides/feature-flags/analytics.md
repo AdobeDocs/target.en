@@ -1,36 +1,41 @@
 ---
-title: Analytics
-description: Learn how to enable and use the built-in analytics dashboard in Flags to track feature flag performance and measure rollout impact.
+title: Reporting
+description: Learn how to view feature flag reporting in Flags using Customer Journey Analytics.
 hide: true
 exl-id: edddca99-f263-461b-a16f-b46ee7c15f6c
 ---
-# Analytics {#analytics}
+# Reporting {#reporting}
 
-Flags provides built-in analytics for feature flags, feature groups, cross-team feature groups, and releases. Use the analytics dashboard to understand how many users are participating in your rollout and how the variant and control groups compare. You can also export Flags data to your preferred reporting environment for analysis alongside your other Adobe data.
+Flags delivers reporting through **Customer Journey Analytics (CJA)**. There is no in-console Results or Reports tab — instead, a **Report** button on each feature flag or feature group opens a scoped CJA dashboard for that item.
 
-## Enable analytics {#enable}
+## Prerequisites {#prerequisites}
 
-Analytics must be enabled at two levels:
+Before you can view reports, ensure that:
 
-1. **Application level** — Contact Flags support to enable analytics for your application.
-2. **Feature flag level** — Once analytics is enabled for your application, check the **Enable analytics** checkbox on the **Basic Details** tab of each feature flag you want to track.
+1. Reporting is set up for your application — see [Set up reporting with Customer Journey Analytics](#setup).
+1. Your feature flag or feature group is active and has accumulated data.
 
->[!NOTE]
->
->Analytics can be enabled for up to 20 feature flags per application by default. Contact support if you need to increase this limit.
+## View a report {#view-report}
 
-## View the analytics dashboard {#dashboard}
+To open a report for a feature flag or feature group:
 
-Once analytics is enabled, all feature flags, feature groups, and releases for your application will start tracking data. Access the dashboard by selecting **Results** on the feature flag, feature group, or release you want to analyze.
+1. Navigate to the feature flag or feature group in the console.
+1. Select **Report**.
 
-The dashboard displays:
+A scoped Customer Journey Analytics dashboard opens, showing data for that flag or feature group. The dashboard includes:
 
 * **Participants** — Total number of users who qualified for the feature (variant + control group combined)
 * **Control group** — Number of users assigned to the control group (users who received the default experience)
-* **Day-level graph** — Daily line charts showing enrollment in the variant and control group over time; markers indicate when the feature flag configuration was updated
-* **Variant-level analytics** — Cumulative count of users enrolled in the control group and each variant
+* **Variant breakdown** — Cumulative count of users enrolled in each variant and the control group
+* **Daily enrollment** — Day-level charts showing enrollment in each variant and the control group over time
 
-For feature groups and releases, select the **Results** drop-down to pick an application and view analytics for that application. Analytics is only available for applications that have it enabled.
+## Set up reporting with Customer Journey Analytics {#setup}
+
+Reporting requires a Customer Journey Analytics dataset connected to your Flags application. Contact Flags support or your Adobe representative to enable reporting for your application.
+
+>[!NOTE]
+>
+>The identity passed in the feature request does not need to be linked to a profile. Evaluation happens at runtime and the event is sent to Customer Journey Analytics.
 
 ## See also {#see-also}
 

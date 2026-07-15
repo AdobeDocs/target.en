@@ -19,7 +19,7 @@ hide: true
   + [Gradual rollout](concepts/gradual-rollout.md)
 + Getting started with the console {#console}
   + [Log in to Flags](guides/console/log-in-to-the-console.md)
-  + [Select your sandbox](guides/console/environments-overview.md)
+  + [Environments overview](guides/console/environments-overview.md)
   + [Request access](guides/console/request-access.md)
 + Applications {#applications}
   + [Manage applications](guides/applications/manage-applications.md)
@@ -40,7 +40,7 @@ hide: true
   + [Create a feature group](guides/feature-flags/create-a-feature-group.md)
   + [Set a feature group to gradually roll out](guides/feature-flags/set-feature-group-gradual-rollout.md)
   + [A/B testing with feature flags](guides/feature-flags/a-b-testing.md)
-  + [Analytics](guides/feature-flags/analytics.md)
+  + [Reporting](guides/feature-flags/analytics.md)
 + Audience criteria {#audience}
   + [Audience in feature flags and feature groups](guides/audience/audience-in-feature-flags-and-feature-groups.md)
   + [Use context in audience rules](guides/audience/using-context-in-audience-rules.md)

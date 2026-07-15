@@ -26,15 +26,33 @@ Before onboarding, prepare the following:
 
 ## Step 3: Get your credentials {#step-3-credentials}
 
-If you are integrating via a server-side SDK, you need a service token client ID. Contact Flags support to have your client ID allowlisted before you can make API calls from the SDK.
+The credentials you need depend on your integration path:
+
+* **Web and mobile (tag-based):** Use the **environment file ID** from your published tag property. See Step 4a for how to get this.
+* **Server-side SDKs:** Request a **service token client ID** and have Flags support allowlist it before you can make API calls from the SDK.
+* **Desktop:** A product code and product version can be used in place of a client ID.
 
 ## Step 4: Integrate using an SDK {#step-4-integrate}
 
 Follow the [integration steps](integration-steps.md) for your application type. Choose the path that fits your stack:
 
 * **Web services** → Java SDK or Node.js SDK
-* **Web and mobile apps** → Web SDK or mobile SDK (coming soon)
+* **Web and mobile apps** → AEP Mobile SDK — see [Android](../sdk-releases/android/android-extension-integration-guide.md) and [iOS](../sdk-releases/ios/ios-extension-integration-guide.md) guides
 * **Desktop apps** → SDK (coming soon)
+
+## Step 4a: Set up Data Collection and publish your configuration {#step-4a-data-collection}
+
+If you are integrating via a tag-based approach (web or mobile), configure your tag property before initializing the SDK:
+
+1. In [Adobe Experience Platform Data Collection](https://experience.adobe.com/#/data-collection), open your mobile or web property.
+1. Install the **Edge Network** extension, then the **Experience Rollout** extension (in that order).
+1. Select your **data stream** (must include the Customer Journey Analytics dataset) and your edge domain.
+1. Publish the configuration through **Dev → Staging → Production**.
+1. Copy the **environment file ID** from the **Environments** tab — you will use this to initialize the SDK.
+
+>[!IMPORTANT]
+>
+>In the **staging** environment, prefix the environment file ID with `staging/` — that is, use `staging/<environmentId>`. In **production**, use the environment file ID directly.
 
 ## Step 5: Create and test your first feature flag {#step-5-feature-flag}
 
