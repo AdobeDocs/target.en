@@ -16,19 +16,25 @@ topic_v2:
 ---
 # Statistical calculations in A/Bn tests
 
-This article documents the detailed statistical calculations used in manual A/Bn tests in [!DNL Adobe Target]. Definitions are provided for [!UICONTROL Conversion Rate], [!UICONTROL Confidence Interval of Conversion Rate], [!UICONTROL Lift], [!UICONTROL Confidence Interval for Lift], and [!UICONTROL Confidence].
+This article documents the detailed statistical calculations used in manual A/Bn tests in [!DNL Adobe Target]. Definitions are provided for [!UICONTROL Conversion Rate], [!UICONTROL Confidence Interval of Conversion Rate], [!UICONTROL Lift], [!UICONTROL Confidence Interval for Lift], [!UICONTROL Confidence], and [!UICONTROL Bayesian] decision metrics.
 
->[!NOTE]
->
->The information in this article replaces the *Adobe Target Calculations for A/B Testing* pdf file that was previously available for download on this site.
+An [!UICONTROL A/B Test] (Manual) activity supports two statistical methodologies, selected per activity in [Goals & Settings](/help/main/c-activities/t-test-ab/t-test-create-ab/ab-goals-and-settings.md#section_13119392051044FBA6387D9B3B1C43CF):
+
+* [Welch's t-test](#welchs-t-test) (default): a frequentist methodology that reports a [!UICONTROL Confidence] percentage and confidence interval, based on a fixed-sample-size hypothesis test. Used for activities with a [!UICONTROL Revenue] or [!UICONTROL Engagement] primary goal.
+
+* [Bayesian](#bayesian-statistics): reports results as probabilities, such as [!UICONTROL Chance to Beat Control] and credible intervals, computed from the full posterior distribution of each experience's goal metric. This setting is only available for activities whose primary goal metric is [!UICONTROL Conversion].
+
+There is one report per activity, and the report renders according to the activity's selected methodology, a methodology badge on the report indicates which one applies.
+
+## Welch's t-test
+
+### Mean performance
+
+The following section explains the calculations used in the following illustration.
 
 ![Target report showing the [!UICONTROL Conversion Rate], [!UICONTROL Average Lift and Confidence Interval], and [!UICONTROL Confidence] of an A/B Test activity.](/help/main/c-reports/statistical-methodology/img/target_report.png)
 
-## Mean performance
-
-The following section explains the calculations used in the previous illustration.
-
-### Conversion Rate and Revenue Per Visitor (RPV) Campaigns
+#### Conversion Rate and Revenue Per Visitor (RPV) Campaigns
 
 The following illustration shows [!UICONTROL Conversion Rate], [!UICONTROL Confidence Interval of Conversion Rate], and the number of [!UICONTROL Conversions] in a [!DNL Target] report. For example, the first line shows that for Experience A: the [!UICONTROL Conversion Rate] is 25.81% with a [!UICONTROL Confidence Interval] of ±7.7% and 32 conversions were recorded. Given that 124 Visitors saw the experience, this equates to 32/124 = 25.81%.
 
@@ -48,7 +54,7 @@ Here,
     * If *[!UICONTROL Visits]* is used as the counting methodology, each unit is a unique visit defined as a unique participant in an experience during a [!DNL Target] session (with a unique `sessionId`). When the `sessionId` changes, or the visitor reaches the conversion step, a new visit is counted.
     * If *[!UICONTROL Activity Impressions]* is used as the counting methodology, each unit is a unique impression defined as each time a visitor loads any page of the activity.
 
-## [!UICONTROL Confidence Interval of Mean]/[!UICONTROL Conversion Rate]
+### [!UICONTROL Confidence Interval of Mean]/[!UICONTROL Conversion Rate]
 
 The confidence interval of the conversion rate is intuitively defined as range of possible conversion rates that is consistent with the underlying data. 
 
@@ -72,7 +78,7 @@ When the campaign is a conversion rate campaign (i.e., the conversion metric is 
 
 <p style="text-align:center;"><img width=150px src="img/se_conv.png"></p>
 
-## Lift
+### Lift
 
 The following illustration shows [!UICONTROL Lift] and [!UICONTROL Confidence Interval of Lift] in a [!DNL Target] Report. The number represents the average of the range of the lift bounds, and the arrow reflects if the lift is positive or negative. The arrow displays in grey until the confidence passes 95%. After confidence passes the threshold, the arrow is green or red based on a positive or negative lift. 
 
@@ -90,7 +96,7 @@ Lift(Experience N) = (Performance_Experience_N - Performance_Control)/ Performan
 
 If the conversion rate of the control experience *ν<sub>0</sub>* is 0, there is no lift. 
 
-## [!DNL Confidence Interval of Lift]
+### [!DNL Confidence Interval of Lift]
 
 The boxplot graph in the [!UICONTROL Average Lift and Confidence Interval] column represents the average value and 95% [!UICONTROL Confidence Interval of Lift]. The boxplot is grey when there is any overlap in the confidence interval of a given non-control experience with the confidence interval of control experience. The boxplot is green or red when the range of given experience's confidence interval is above or below the confidence interval of control experience.
 
@@ -104,7 +110,7 @@ Then the 95% Confidence Interval of the lift is:
 
 This calculation uses the "Delta" method, and is described [in more detail in this document](/help/main/assets/confidence_interval_lift.pdf)
 
-## [!UICONTROL Confidence]
+### [!UICONTROL Confidence]
 
 The last column shows the confidence in a [!DNL Target] report. The confidence of an experience is a probability (denoted as a percentage) of obtaining a result as extreme as the one that is observed, given the null hypothesis is true. In terms of p-values, the confidence displayed is *1 - p-value*. Intuitively, higher confidence means that it is less likely that the control and non-control experience have equal conversion rates. 
 
@@ -139,6 +145,41 @@ Then the p-value can be computed from the area in the tails of the *t*-distribut
 Finally, the confidence reported in [!DNL Target] is defined as:
 
 <p style="text-align:center;"><img width=20% src="img/confidence.png"></p>
+
+## Bayesian statistics
+
+Instead of computing a p-value from an approximated distribution, a [!UICONTROL Bayesian] activity's report expresses results as probabilities, computed from the full posterior distribution of each experience's goal metric. This makes it safe to monitor a [!UICONTROL Bayesian] report continuously, since there is no statistical penalty for checking results before a fixed sample size is reached, and it can converge faster on smaller samples than [!UICONTROL Welch's t-test].
+
+The [!UICONTROL Bayesian] methodology is only available for activities whose primary goal metric is [!UICONTROL Conversion]; activities with a [!UICONTROL Revenue] or [!UICONTROL Engagement] primary goal always use [!UICONTROL Welch's t-test]. For more information about selecting a methodology, see [Goals and settings](/help/main/c-activities/t-test-ab/t-test-create-ab/ab-goals-and-settings.md#section_13119392051044FBA6387D9B3B1C43CF).
+
+### [!UICONTROL Chance to Beat Control]
+
+[!UICONTROL Chance to Beat Control] is the probability that an experience's goal metric outperforms the [!UICONTROL Control] experience, for example, "92% chance B beats A". This is the primary decision metric for a [!UICONTROL Bayesian] activity: a challenger experience is a candidate to replace [!UICONTROL Control] when its [!UICONTROL Chance to Beat Control] meets the activity's decision threshold.
+
+* An up arrow displays when [!UICONTROL Chance to Beat Control] is greater than 50%. A down arrow displays when it is less than 50%.
+* A row is colored green when [!UICONTROL Chance to Beat Control] is greater than the decision threshold configured for the activity.
+* An information icon next to the column header explains: "The probability that experience metric outperforms control."
+
+### [!UICONTROL Probability to be Best]
+
+[!UICONTROL Probability to be Best] is the probability that an experience is the single best of all experiences in the activity. Use this decision metric to pick which winner to ship in a test with more than one challenger experience.
+
+### Credible interval and Average Lift
+
+For a [!UICONTROL Bayesian] activity, the primary goal metric's deviation renders as a credible interval range (shown as `x to y`), and the lift column is labeled [!UICONTROL Average Lift and Credible Interval]. This replaces the `± dev` and [!UICONTROL Confidence Interval] labeling used by [!UICONTROL Welch's t-test].
+
+A 95% credible interval is a pair of values, for example (10%, 50%), meaning that the uplift is between 10% and 50% with 95% confidence.
+
+No frequentist statistical significance is shown on a [!UICONTROL Bayesian] report.
+
+### Graph views
+
+In addition to the time-series graph types available for [!UICONTROL Welch's t-test] activities, a [!UICONTROL Bayesian] activity's report offers the following graph types:
+
+* **Posterior Distribution**: the full probability distribution of the goal metric for each experience.
+* **Lift-vs-Control Distribution**: the distribution of the uplift of an experience relative to [!UICONTROL Control]. The shaded area greater than 0% corresponds to [!UICONTROL Chance to Beat Control].
+* **Forest / interval plot**: one row per experience, showing the point estimate and 95% credible interval on the lift-vs-Control scale, with a 0% [!UICONTROL Control] reference line. This view scales to activities with many experiences.
+* **Probability-to-be-Best partition**: a single 100%-stacked bar showing each experience's share of [!UICONTROL Probability to be Best].
 
 ## Performing Calculations offline
 
