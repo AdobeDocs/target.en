@@ -12,8 +12,8 @@ Mobile applications integrate with Flags via the AEP Mobile SDK extensions for A
 
 Follow the guide for your platform:
 
-* [Android extension integration guide](../../sdk-releases/android/android-extension-integration-guide.md)
-* [iOS extension integration guide](../../sdk-releases/ios/ios-extension-integration-guide.md)
+* [Android extension integration guide](../sdk-releases/android/android-extension-integration-guide.md)
+* [iOS extension integration guide](../sdk-releases/ios/ios-extension-integration-guide.md)
 
 ## See also {#see-also}
 

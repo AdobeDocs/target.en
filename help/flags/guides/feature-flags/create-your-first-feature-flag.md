@@ -43,7 +43,7 @@ To create a new feature flag, follow these steps in the console:
 
 ## Step 2: Add an audience criteria {#audience}
 
-Audience criteria control which users see the feature. You can target users with **context attributes** — values your website or app sends in the feature request (for example `locale` or `platform`). Combine them with **AND**, **OR**, and **NOT**. See [Use context in audience rules](../../audience/using-context-in-audience-rules.md).
+Audience criteria control which users see the feature. You can target users with **context attributes** — values your website or app sends in the feature request (for example `locale` or `platform`). Combine them with **AND**, **OR**, and **NOT**. See [Use context in audience rules](../audience/using-context-in-audience-rules.md).
 
 To add audience criteria, go to the **Audience** tab when creating or editing a feature flag.
 
