@@ -23,10 +23,10 @@ Select the guide that matches your application type:
 ## Application types at a glance {#overview}
 
 | Application type | Recommended integration |
-|---|---|
+| --- | --- |
 | **Web service / backend** | Java SDK or Node.js SDK |
 | **Web application** | Web SDK (coming soon) |
-| **Mobile application** | Mobile SDK (coming soon) |
+| **Mobile application** | AEP Mobile SDK — see [Android](../sdk-releases/android/android-extension-integration-guide.md) and [iOS](../sdk-releases/ios/ios-extension-integration-guide.md) guides |
 | **Desktop application** | SDK (coming soon) |
 
 <!-- -->

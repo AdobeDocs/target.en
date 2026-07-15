@@ -55,6 +55,10 @@ Ensure these extensions are installed in your Data Collection mobile property an
 1. Select the box icon under the **Install** column for your environment.
 1. In the **Mobile Install Instructions** dialog, copy the **Environment File ID**.
 
+>[!IMPORTANT]
+>
+>In the **staging** environment, prefix the environment file ID with `staging/` — that is, use `staging/<environmentId>`. In **production**, use the environment file ID directly.
+
 ## Add Experience Rollout extension to your app {#add-to-app}
 
 ### Add dependencies {#add-dependencies}
@@ -230,6 +234,15 @@ FeatureEvaluationContext ctx = FeatureEvaluationContext.builder()
 | `platform` | Platform identifier | `["ANDROID"]` |
 | `appVersion` | Application version | `["3.0.0"]` |
 | `deviceType` | Device type | `["phone"]`, `["tablet"]` |
+
+## Key concepts for feature evaluation {#key-concepts}
+
+Keep the following in mind when implementing feature gates in your app:
+
+* **Pass attribute values, not display labels.** Context attribute values are **case-sensitive**. Pass the raw value your app or website sends (for example `"en_US"` or `"ANDROID"`), not the label shown in the console.
+* **Evaluate at the feature (flag) level.** Even when a flag belongs to a feature group, always call the API with the individual **feature key**. There is no group-level evaluation. The response returns the variant the user fell into.
+* **Identity does not need to be linked to a profile.** Evaluation happens at runtime. The evaluation event is sent to Customer Journey Analytics regardless of whether the identity is linked to a known profile.
+* **Each new flag requires a code change.** Add a gate for each flag key in your code. Use `isFeatureEnabled()` to check a boolean on/off state, or `getFeature()` to retrieve the full feature payload including the variant.
 
 ## API reference {#api-reference}
 

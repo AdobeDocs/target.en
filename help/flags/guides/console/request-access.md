@@ -30,7 +30,14 @@ You will receive a confirmation once the request is submitted. You can monitor t
 
 ## Available roles {#roles}
 
-The role assigned to you determines what actions you can perform in the console. Contact your team admin if you are unsure which role to request.
+The role assigned to you determines what actions you can perform in the console. Contact your admin if you are unsure which role to request.
+
+| Role | Description |
+| --- | --- |
+| **Admin** | Full access to the console. Can manage applications and team members, and approve or reject access requests. |
+| **Feature Admin** | Can approve or reject access requests and manage feature flags and feature groups. |
+| **Product Release Owner** | Can create and manage feature flags and feature groups, and release features to external users. |
+| **Developer** | Sandboxed access for private testing. Can expose features only to themselves by adding their own User ID to an audience. Cannot release features to external users. |
 
 ## After access is granted {#after-access}
 
