@@ -34,6 +34,16 @@ Explore the latest features, enhancements, and fixes in [!DNL Adobe Target]. The
 
 ## [!DNL Target Standard/Premium] 26.7.2 (July 16, 2026)
 
+**Activities**
+
++++See details
+
+* **Incorrect goal information on the [!UICONTROL Activity Overview] page.** Fixed an issue where the [!UICONTROL Activity Overview] page for [!DNL Automated Personalization] activities showed additional goals instead of the optimization goal. (TGT-55553)
+
+* **Unresponsive screen when navigating pages in [!UICONTROL Browse] mode.** Fixed an issue where the screen became unresponsive when navigating between pages in [!UICONTROL Browse] mode. (TGT-55565)
+
++++
+
 **Homepage**
 
 +++See details
