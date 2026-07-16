@@ -32,6 +32,34 @@ Explore the latest features, enhancements, and fixes in [!DNL Adobe Target]. The
 
 (The issue numbers in parentheses are for internal [!DNL Adobe] use.)
 
+## [!DNL Target Standard/Premium] 26.7.2 (July 16, 2026)
+
+**Activities**
+
++++See details
+
+* **Incorrect goal information on the [!UICONTROL Activity Overview] page.** Fixed an issue where the [!UICONTROL Activity Overview] page for [!DNL Automated Personalization] activities showed additional goals instead of the optimization goal. (TGT-55553)
+
+* **Unresponsive screen when navigating pages in [!UICONTROL Browse] mode.** Fixed an issue where the screen became unresponsive when navigating between pages in [!UICONTROL Browse] mode. (TGT-55565)
+
++++
+
+**Homepage**
+
++++See details
+
+* **UI change for [!UICONTROL Top performers] and [!UICONTROL Saves].** Updated the UI for the top performers and saves experience. (TGT-54975)
+
++++
+
+**Audiences**
+
++++See details
+
+* **Unlocalized strings in [!UICONTROL Create Profile Script] dialog.** Fixed an issue where strings in the [!UICONTROL Create Profile Script] dialog were not localized. (TGT-51527)
+
++++
+
 ## [!DNL Target Standard/Premium] 26.7.1 (July 9, 2026)
 
 **Activities**
