@@ -12,7 +12,7 @@ Before creating a feature group, complete the following:
 
 * You have access to the Flags console — see [Log in to the console](../console/log-in-to-the-console.md)
 * Your application is onboarded — see [Onboard your application](../applications/onboard-your-application.md)
-* You have the **Developer** or **Product Release Owner** role
+* You have the **Product Release Owner** role
 * You have created the feature flags you want to add to the group — see [Create your first feature flag](create-your-first-feature-flag.md)
 
 For an introduction to feature groups, see [Feature groups to control multiple features](../../concepts/feature-groups-to-control-multiple-features.md).
@@ -21,7 +21,7 @@ For an introduction to feature groups, see [Feature groups to control multiple f
 
 Open the console and start a new feature group:
 
-1. Log in to the Flags console and navigate to **Feature Testing > Feature Groups**.
+1. Log in to the **Flags console**, go to the left panel, and select **Feature Groups**.
 2. Select **New Feature Group**.
 
 ## Step 2: Basic details {#basic-details}
@@ -38,10 +38,6 @@ Define who will receive the features in this group:
 
 1. On the **Audience** tab, add audience criteria to define which users receive the feature.
 2. Under **Applications**, add one or more applications from your team. Feature groups can span multiple applications as long as they all belong to the same team.
-
->[!NOTE]
->
->The **Developer** role is sandboxed. Add your own User ID under **Audience > Profile > User ID** to test privately. To target external users, you need the **Product Release Owner** role.
 
 ## Step 4: Features {#features}
 
@@ -60,10 +56,6 @@ Assign the feature flags that will be controlled by this group:
 >When you **remove** a feature flag from a feature group, the flag returns to a **disabled** state and its audience is **not** restored — treat it as a fresh flag. A **disabled** flag inside a group always evaluates to `false`. Enabling a feature group does **not** enable its member flags; enable each flag explicitly.
 >
 >Feature groups are a **management layer**. At runtime you always evaluate at the **feature (flag) level**, never at the group level; the response includes the variant the user fell into.
-
-## Step 5: Schedule (optional) {#schedule}
-
-You can schedule the feature group to activate at a future date and time using the **Schedule** option in the feature group settings.
 
 ## See also {#see-also}
 

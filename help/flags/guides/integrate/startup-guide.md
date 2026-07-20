@@ -21,24 +21,18 @@ Before onboarding, prepare the following:
 | Requirement | Details |
 |---|---|
 | **Application ID** | A unique client identifier used when calling the Flags APIs. Use your application's existing client ID where available. |
-| **Server-side clients** | If integrating with a server-side SDK, you need an admin client ID with appropriate permissions. |
-| **Desktop clients** | A product code and product version can be used in place of a client ID. |
 
-## Step 3: Get your credentials {#step-3-credentials}
+## Step 3: Get your Environment File ID {#step-3-credentials}
 
-The credentials you need depend on your integration path:
+The Environment File ID you need depends on your integration path:
 
 * **Web and mobile (tag-based):** Use the **environment file ID** from your published tag property. See Step 4a for how to get this.
-* **Server-side SDKs:** Request a **service token client ID** and have Flags support allowlist it before you can make API calls from the SDK.
-* **Desktop:** A product code and product version can be used in place of a client ID.
 
 ## Step 4: Integrate using an SDK {#step-4-integrate}
 
-Follow the [integration steps](integration-steps.md) for your application type. Choose the path that fits your stack:
+Follow the integration guide for your application type. Choose the path that fits your stack:
 
-* **Web services** → Java SDK or Node.js SDK
-* **Web and mobile apps** → AEP Mobile SDK — see [Android](../sdk-releases/android/android-extension-integration-guide.md) and [iOS](../sdk-releases/ios/ios-extension-integration-guide.md) guides
-* **Desktop apps** → SDK (coming soon)
+* **Web and mobile apps** — see [Android](../sdk-releases/android/android-extension-integration-guide.md), [iOS](../sdk-releases/ios/ios-extension-integration-guide.md), and [Web](../sdk-releases/web/web-extension-integration-guide.md) guides in the integration guide section
 
 ## Step 4a: Set up Data Collection and publish your configuration {#step-4a-data-collection}
 
@@ -63,7 +57,6 @@ Once integration is complete, create your first feature flag in the console and 
 ## See also {#see-also}
 
 * [Integrate Flags in your app](integrating-in-your-app.md)
-* [Integration steps](integration-steps.md)
 * [SDKs](sdks.md)
 
 <!-- -->

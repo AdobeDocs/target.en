@@ -1,53 +1,32 @@
 ---
 title: Use context in audience rules
-description: Learn how to use context variables in audience rules for feature flags and feature groups in Flags.
+description: Learn how to use context attributes in audience rules for feature flags and feature groups in Flags.
 hide: true
 exl-id: 0367f475-9209-4d53-86b4-a739a73a23a7
 ---
 # Use context in audience rules {#context-in-audience-rules}
 
-Context variables are values provided by the client application at runtime. They allow you to target users based on dynamic, session-level information such as the user's active language, device type, or application state.
+Context attributes are values provided by the client application at runtime. They allow you to target users based on dynamic, session-level information such as the user's active language, device type, or application state.
 
-Context variables are relevant for web and mobile clients.
+Context attributes are relevant for web and mobile clients.
 
-## How context variables work {#how-context-works}
+## How context attributes work {#how-context-attributes-work}
 
-Your application passes context variables to Flags when evaluating a feature flag. You define rules in the console that check these values, and the platform uses them at the time of evaluation to determine whether the user qualifies.
+Your application passes context attributes to Flags when evaluating a feature flag. You define rules in the console that check these values, and the platform uses them at the time of evaluation to determine whether the user qualifies.
 
-## Context variable types {#variable-types}
+## Adding a context attribute {#adding-context-attribute}
 
-### Pre-defined (list) type {#predefined-type}
-
-A context variable with a fixed set of allowed values, such as a list of languages or countries.
-
-Available operators: **Is**, **Is not equal to**, **Exists**, **In**
-
-### Integer type {#integer-type}
-
-A context variable that holds a numeric value.
-
-Available operators: **Greater than**, **Greater than or equal to**, **Is**, **Less than**, **Less than or equal to**
-
-### String type {#string-type}
-
-A context variable that holds a free-form text value.
-
-Available operators: **Is**, **Is not equal to**
-
-## Adding a context variable {#adding-context-variable}
-
-To add a context variable to an audience rule:
+To add a context attribute to an audience rule:
 
 1. Open the feature flag or feature group in the console.
 2. Go to the **Audience** tab.
 3. Under **Context**, add a new condition.
-4. Select the context variable, operator, and value.
+4. Select the context attribute, operator, and value.
 
-If the context variable you need does not appear in the list, you can create a new one in a self-serve manner from the console's context variable management section.
+If the context attribute you need does not appear in the list, you can create a new one — see [Creating your context attributes](creating-your-context-attributes.md).
 
 ## See also {#see-also}
 
 * [Audience in feature flags and feature groups](audience-in-feature-flags-and-feature-groups.md)
-* [Add percentage rules in audience criteria](adding-percentage-rules.md)
 
 <!-- -->

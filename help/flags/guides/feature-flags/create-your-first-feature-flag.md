@@ -12,15 +12,15 @@ Before creating a feature flag, complete the following:
 
 * You have access to the Flags console — see [Log in to the console](../console/log-in-to-the-console.md)
 * Your application is onboarded — see [Onboard your application](../applications/onboard-your-application.md)
-* You have the **Developer** or **Product Release Owner** role
+* You have the **Product Release Owner** role
 
 ## Step 1: Create the feature flag {#create}
 
 To create a new feature flag, follow these steps in the console:
 
-1. Log in to the Flags console and navigate to **Features & Releases > Feature Flags**.
+1. Log in to the **Flags console**, go to the left panel, and select **Feature Flags**.
 1. Select your application from the **Application** drop-down.
-1. Select **New Feature**.
+1. Select **New Feature Flags**.
 1. Complete the form fields:
 
    | Field | Description |
@@ -29,6 +29,7 @@ To create a new feature flag, follow these steps in the console:
    | **Key** * | The identifier used in your code to evaluate the flag. Cannot be changed after creation. |
    | **Description** | Optional description for documentation purposes. |
    | **Metadata** | Optional. Up to 1,024 characters. Use this field for any additional metadata to associate with the flag. |
+   | **Tags** | Optional tags for documentation purposes. |
    | **Identity** * | The identity the flag is evaluated against (for example, ECID). This is the identity passed in the feature request. |
    | **Percentage rollout** | The percentage of your defined audience that is served this feature. Defaults to 100%. See [Set a feature to gradually roll out](set-feature-gradual-rollout.md). |
 
@@ -46,22 +47,6 @@ To create a new feature flag, follow these steps in the console:
 Audience criteria control which users see the feature. You can target users with **context attributes** — values your website or app sends in the feature request (for example `locale` or `platform`). Combine them with **AND**, **OR**, and **NOT**. See [Use context in audience rules](../audience/using-context-in-audience-rules.md).
 
 To add audience criteria, go to the **Audience** tab when creating or editing a feature flag.
-
->[!NOTE]
->
->The **Developer** role is sandboxed. Developers can only expose a feature to themselves by adding their own User ID under **Audience > Profile > User ID**. To expose a feature to external users, you need the **Product Release Owner** role.
-
-## Step 3: Calculate audience size {#audience-size}
-
-After adding audience criteria, select **Calculate** in the bottom bar to get an estimated count of users who qualify for the feature. This helps validate your targeting before going live.
-
-## Step 4: Schedule (optional) {#schedule}
-
-You can schedule a feature flag to activate at a future date and time using the **Schedule** option in the feature flag settings.
-
-## FAQ: I cannot add a feature flag as a Developer {#faq}
-
-The **Developer** role is sandboxed. Developers can test features privately by adding their User ID to the audience. They cannot expose features to external users. Use the **Product Release Owner** role to release features to external users. Contact your admin to update your role.
 
 ## See also {#see-also}
 

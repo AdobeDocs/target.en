@@ -30,11 +30,9 @@ Flags is a feature management platform that provides:
 
 * **Feature flags** — Turn any feature on or off at runtime for a targeted audience, without redeploying code.
 
-* **Audience targeting** — Control who sees a feature using user profile data, percentage-based rules, email address, email domain, IP address, or contextual attributes.
+* **Audience targeting** — Control who sees a feature using contextual attributes.
 
 * **Feature groups** — Bundle multiple related feature flags across applications and manage them as a single unit, ensuring the same audience sees a consistent experience.
-
-* **Releases** — Coordinate large, cross-team rollouts by grouping feature flags from multiple teams and applications into a single release event.
 
 * **Gradual rollouts** — Phase feature delivery incrementally to reduce risk, gather feedback, and manage backend load.
 

@@ -33,7 +33,7 @@ Getting value from Flags starts with three steps:
 
 1. **Create and publish a flag** — Follow the [Create your first feature flag](guides/feature-flags/create-your-first-feature-flag.md) guide to define a flag, set your initial audience, and publish it to your environment.
 
-1. **Integrate with your application** — Connect your app using the AEP Web SDK or AEP Mobile SDK so it can retrieve and apply flags at runtime. Start with the [integration steps](guides/integrate/integration-steps.md) for your application type.
+1. **Integrate with your application** — Connect your app using the AEP Web SDK or AEP Mobile SDK so it can retrieve and apply flags at runtime. Start with the [integration guide](guides/integrate/sdks.md) for your application type.
 
 Once your first flag is live, you can refine its audience, configure a gradual rollout, and promote it from saved to full rollout.
 
