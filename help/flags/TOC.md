@@ -49,7 +49,3 @@ hide: true
   + [Android extension integration guide](guides/sdk-releases/android/android-extension-integration-guide.md)
   + [iOS extension integration guide](guides/sdk-releases/ios/ios-extension-integration-guide.md)
   + [Web extension integration guide](guides/sdk-releases/web/web-extension-integration-guide.md)
-
-<!-- 
-Bob was here again.
--->

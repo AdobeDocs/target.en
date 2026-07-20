@@ -2,7 +2,6 @@
 title: Creating your context attributes
 description: Learn how to create and organize context attributes and context groups in Flags so you can use them in audience criteria.
 hide: true
-exl-id: d27cf563-0d8b-4962-afd3-64dbc66a8637
 ---
 # Creating your context attributes {#creating-your-context-attributes}
 
