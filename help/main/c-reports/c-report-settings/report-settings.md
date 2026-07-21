@@ -192,7 +192,7 @@ Consider the following:
 
 * Available only when viewing reports in [!UICONTROL Table View]. 
 * This feature is not available for activities that use [Analytics as the reporting source (A4T)](/help/main/c-integrating-target-with-mac/a4t/a4t.md).
-* For [!UICONTROL A/B Test] (Manual) activities that use the [!UICONTROL Bayesian] statistical methodology, the report shows [!UICONTROL Chance to Beat Control] and [!UICONTROL Probability to be Best] columns and a credible interval instead of the [!UICONTROL Confidence] column used by [!UICONTROL Welch's t-test] activities, along with a methodology badge. For more information, see [Bayesian statistics](/help/main/c-reports/statistical-methodology/statistical-calculations.md#bayesian-statistics).
+* For [!UICONTROL A/B Test] (Manual) activities that use the [!UICONTROL Bayesian] statistical methodology, the report shows [!UICONTROL Chance to Beat Control] and [!UICONTROL Probability to be Best] columns and a credible interval instead of the [!UICONTROL Confidence] column used by [!UICONTROL Welch's t-test] activities. For more information, see [Bayesian statistics](/help/main/c-reports/statistical-methodology/statistical-calculations.md#bayesian-statistics).
 
 ## Location Contribution {#section_5832F126AC114AE1ABFFF4D9B904393B}
 
