@@ -12,6 +12,8 @@ Flags is built on Adobe Experience Platform. Before working with feature flags, 
 
 Use the sandbox switcher in the top navigation bar of the Flags console to select the correct sandbox before creating or modifying feature flags.
 
+![Sandbox switcher in the Flags console](assets/sandbox-selection.png)
+
 ## See also {#see-also}
 
 * [Log in to the console](log-in-to-the-console.md)

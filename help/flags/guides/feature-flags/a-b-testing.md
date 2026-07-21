@@ -12,7 +12,7 @@ A/B tests in Flags are performed using **feature groups**. By configuring more t
 
 * You have access to the console — see [Log in to the console](../console/log-in-to-the-console.md)
 * You belong to a team and your application is onboarded
-* You have the **Developer** or **Product Release Owner** role
+* You have the **Product Release Owner** role
 * You have created the feature flags to test — see [Create your first feature flag](create-your-first-feature-flag.md)
 
 ## Step 1: Create a feature group with multiple variants {#create}
@@ -31,10 +31,6 @@ A/B tests in Flags are performed using **feature groups**. By configuring more t
 
 On the **Audience** tab, add audience criteria and select the applications to include. Feature groups can span multiple applications within the same team.
 
->[!NOTE]
->
->To target external users in an A/B test, you must have the **Product Release Owner** role. The Developer role is sandboxed and limited to private testing.
-
 ## Step 3: Add features per variant {#features}
 
 Under the **Features** tab, each variant has its own tab. Add the appropriate feature flags to each variant to define the different experiences you want to compare.
@@ -51,6 +47,6 @@ Save the feature group settings. When you are ready to start the test, set the f
 
 * [Create a feature group](create-a-feature-group.md)
 * [Set a feature group to gradually roll out](set-feature-group-gradual-rollout.md)
-* [Reporting](analytics.md)
+* [Reporting](reporting.md)
 
 <!-- -->

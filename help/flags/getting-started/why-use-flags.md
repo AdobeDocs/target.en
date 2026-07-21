@@ -23,7 +23,7 @@ Open a new feature progressively — 1%, 10%, 50%, then 100% of users. Monitor p
 Phase a rollout incrementally to avoid sudden traffic spikes on backend services, rather than exposing all users to a new feature at once.
 
 **Coordinated multi-application releases**
-Enable a feature simultaneously across multiple applications and teams for a specific set of users. Flags ensures consistency across the full release surface.
+Enable a feature simultaneously across multiple applications for a specific set of users. Flags ensures consistency across the full release surface.
 
 **Deferred releases**
 Deploy code to production ahead of time, then activate the feature at a precise moment — for example, at the start of a product launch event — without any last-minute code change.

@@ -42,7 +42,7 @@ See the [iOS extension integration guide](../sdk-releases/ios/ios-extension-inte
 ## See also {#see-also}
 
 * [Android extension integration guide](../sdk-releases/android/android-extension-integration-guide.md)
-* [Web services](web-services.md)
-* [Integration steps](integration-steps.md)
+* [iOS extension integration guide](../sdk-releases/ios/ios-extension-integration-guide.md)
+* [Web extension integration guide](../sdk-releases/web/web-extension-integration-guide.md)
 
 <!-- -->
