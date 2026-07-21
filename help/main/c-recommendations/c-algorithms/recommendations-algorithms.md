@@ -187,7 +187,7 @@ Individual algorithm nuances are as follows:
 
 * [!UICONTROL Most Viewed Across the Site] and [!UICONTROL Top Sellers Across the Site] rank items by the aggregate counts of sessions in which these items were viewed or purchased respectively. The output is a single (key-less) list of recommended items.
 * Most Viewed/Top sellers by Category/Item Attribute are recommendations where items are ordered by the aggregate counts of sessions in which these items were viewed or purchased, but grouped by the item category or specific item attribute. The outputs are lists of recommended items, keyed by values of categories, or values of item attributes.
-* [!UICONTROL Most Viewed by Profile Attribute] and [!UICONTROL Top Sellers by Profile Attribute] group item interaction counts by a visitor profile attribute (such as country, region, or membership tier) rather than by an item attribute or category. [!DNL Target] builds an independent ranked list for each unique attribute value and serves the appropriate list to the visitor based on their profile at delivery time.
+* [!UICONTROL Most Viewed by Profile Attribute] and [!UICONTROL Top Sellers by Profile Attribute] also rank items by aggregate view or purchase counts, but the grouping key is a visitor profile attribute , such as country, region, or membership tier, instead of an item property. Each session's count is attributed to whatever profile value the visitor held at the time of the interaction, not to any attribute of the item. The result is a set of recommendation lists keyed by the distinct values of that profile attribute.
 
 ## Recently Viewed
 

@@ -182,23 +182,35 @@ You then select which profile attributes stored in the visitor's profile to matc
 
 ### [!UICONTROL Most Viewed by Profile Attribute]
 
-Recommends the most-viewed items grouped by a visitor profile attribute.
+Recommends the most viewed items grouped by a visitor profile attribute rather than by item information, as [!UICONTROL Most Viewed by Category] and [!UICONTROL Most Viewed by Item Attribute] do. [!DNL Target] keeps a separate ranked list per attribute value and, at delivery time, shows each visitor the list matching their own stored value.
 
-Unlike [!UICONTROL Most Viewed by Category] or [!UICONTROL Most Viewed by Item Attribute], this algorithm groups view counts by a *visitor* profile attribute, such as country, region, or membership tier. [!DNL Target] maintains an independent ranked list for each unique attribute value and serves the appropriate list to each visitor at delivery time based on their stored attribute value.
+This algorithm depends on a profile script to populate the attribute, and the script's name must begin with the `recsAttribute` prefix so [!DNL Target] stores it as `user.recsAttribute<Name>`. You can write a script for any visitor characteristic relevant to your use case. 
 
-For example, if you select `profile.country` as the profile attribute, visitors from the United States see the items most viewed by US visitors, while visitors from India see India's top-viewed picks.
+Learn more about setting profile attributes using profile scripts in [this page](https://experienceleague.adobe.com/en/docs/target/using/audiences/visitor-profiles/profile-parameters).
 
-To configure this algorithm, select a **[!UICONTROL Profile Attribute]** to group the popularity data by.
+For example, a script named `recsAttributeRegion` that bases recommendations on the visitor's region might look like this:
+
+```
+var region = mbox.param('userRegion');
+if (region) return region;
+```
+
+After the script is created and activated, the corresponding [!UICONTROL Region] entry becomes available in the profile attribute drop-down of the create criteria window. Note that the `recsAttribute` prefix itself is not shown in the drop-down.
 
 ### [!UICONTROL Top Sellers by Profile Attribute]
 
-Recommends the top-selling items grouped by a visitor profile attribute.
+Recommends the top-selling items grouped by a visitor profile attribute rather than by item information, as [!UICONTROL Top Sellers by Category] and [!UICONTROL Top Sellers by Item Attribute] do. [!DNL Target] keeps a separate top-sellers list per attribute value and, at delivery time, shows each visitor the list matching their own stored value.
 
-Similar to [!UICONTROL Most Viewed by Profile Attribute], this algorithm groups purchase counts by a *visitor* profile attribute. [!DNL Target] builds an independent top-sellers list for each unique attribute value and serves the matching list to each visitor at delivery time.
+As with [!UICONTROL Most Viewed by Profile Attribute], this algorithm depends on a profile script to populate the attribute, and the script's name must begin with the `recsAttribute` prefix so [!DNL Target] stores it as `user.recsAttribute<Name>`. You can write a script for any visitor characteristic relevant to your use case. Learn more about setting profile attributes using profile scripts in [this page](https://experienceleague.adobe.com/en/docs/target/using/audiences/visitor-profiles/profile-parameters).
 
-For example, if you select `profile.membershipTier` as the profile attribute, a visitor with a Gold membership sees the top-selling items among Gold-tier visitors, while a Silver-tier visitor sees the top sellers among Silver-tier visitors.
+For example, a script named `recsAttributeLoyaltyTier` that bases recommendations on the visitor's loyalty tier might look like this:
 
-To configure this algorithm, select a **[!UICONTROL Profile Attribute]** to group the popularity data by.
+```
+var tier = mbox.param('visitorLoyaltyTier');
+if (tier) return tier;
+```
+
+After the script is created and activated, the corresponding [!UICONTROL Loyalty Tier] entry becomes available in the profile attribute drop-down of the create criteria window. Note that the `recsAttribute` prefix itself is not shown in the drop-down.
 
 ### [!UICONTROL Top by Analytics Metric]
 
