@@ -1,6 +1,7 @@
 ---
 title: Access Flags in Adobe Target
 description: Learn how to get started with Flags by requesting access and opening Flags from within Adobe Target.
+badge: label="Beta" type="Informative"
 hide: true
 exl-id: 4b109759-43b5-440a-89b4-78c0f0483cd0
 ---

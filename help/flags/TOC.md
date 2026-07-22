@@ -37,6 +37,7 @@ hide: true
   + [Set a feature group to gradually roll out](guides/feature-flags/set-feature-group-gradual-rollout.md)
   + [A/B testing with feature flags](guides/feature-flags/a-b-testing.md)
   + [Reporting](guides/feature-flags/reporting.md)
+  + [Set up CJA for feature flags reporting](guides/feature-flags/set-up-cja-reporting.md)
 + Audience criteria {#audience}
   + [Audience in feature flags and feature groups](guides/audience/audience-in-feature-flags-and-feature-groups.md)
   + [Use context in audience rules](guides/audience/using-context-in-audience-rules.md)

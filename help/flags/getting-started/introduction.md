@@ -1,6 +1,7 @@
 ---
 title: Introduction to Flags
 description: Learn how Flags in Adobe Target provides a controlled release system for deploying features progressively to targeted audiences.
+badge: label="Beta" type="Informative"
 hide: true
 exl-id: befe7899-096d-4f74-a5a2-35b1fc3cbc58
 ---

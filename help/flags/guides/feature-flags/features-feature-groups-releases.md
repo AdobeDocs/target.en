@@ -1,6 +1,7 @@
 ---
 title: Features and feature groups
 description: Learn about the differences between feature flags and feature groups in Flags and when to use each.
+badge: label="Beta" type="Informative"
 hide: true
 exl-id: 852aa777-6f8a-47c9-bf54-e645a5ee2f3e
 ---

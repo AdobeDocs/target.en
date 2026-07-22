@@ -1,6 +1,7 @@
 ---
 title: Feature flags to enable and disable features
 description: Learn how feature flags in Flags let you control feature availability, manage dependencies, and reduce deployment risk.
+badge: label="Beta" type="Informative"
 hide: true
 exl-id: 627775e8-9b17-4bc7-9565-07a438ae8ed7
 ---

@@ -1,6 +1,7 @@
 ---
 title: Import feature flags
 description: Learn how to import feature flags from one sandbox into another in Flags to avoid recreating flag configurations manually.
+badge: label="Beta" type="Informative"
 hide: true
 exl-id: 37c84d75-a565-4202-8c99-f630e05b6bb6
 ---

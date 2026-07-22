@@ -1,6 +1,7 @@
 ---
 title: Request access
 description: Learn how to request access to a Flags team in Adobe Target and the roles available to new members.
+badge: label="Beta" type="Informative"
 hide: true
 exl-id: 30d05c90-2913-4e88-a8f9-28a142297337
 ---

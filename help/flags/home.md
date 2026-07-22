@@ -1,6 +1,7 @@
 ---
 title: Flags
 description: Learn how to use Flags in Adobe Target to deliver features safely and gradually with controlled rollouts, feature flags, and targeted audience management.
+badge: label="Beta" type="Informative"
 hide: true
 index: false
 exl-id: c400d75d-d928-4cf6-a094-1a2f443389f0

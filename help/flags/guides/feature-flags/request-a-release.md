@@ -1,6 +1,7 @@
 ---
 title: Request a release
 description: Learn how to request a new coordinated release in Flags and what information to provide.
+badge: label="Beta" type="Informative"
 hide: true
 exl-id: 8eee84b2-fbd5-4713-90ac-92fd7b74c163
 ---

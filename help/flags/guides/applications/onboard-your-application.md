@@ -1,6 +1,7 @@
 ---
 title: Onboard your application
 description: Learn how to onboard a new application to Flags so you can start creating and managing feature flags.
+badge: label="Beta" type="Informative"
 hide: true
 exl-id: d88c27a5-f490-4504-9764-5e4ce98fdf20
 ---

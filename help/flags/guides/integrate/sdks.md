@@ -1,6 +1,7 @@
 ---
 title: SDKs
 description: Learn about the SDK architecture in Flags and the available AEP Web SDK and AEP Mobile SDK extensions.
+badge: label="Beta" type="Informative"
 hide: true
 exl-id: 110a440d-b52a-4e1e-a94f-86f9741a223a
 ---

@@ -1,6 +1,7 @@
 ---
 title: Why use Flags
 description: Learn about the key use cases for Flags in Adobe Target, from selective feature testing to coordinated multi-application releases.
+badge: label="Beta" type="Informative"
 hide: true
 exl-id: c39c6b34-2024-4c38-b2f2-a9b58f5eff63
 ---
