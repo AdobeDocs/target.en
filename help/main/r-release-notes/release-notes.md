@@ -58,6 +58,14 @@ Explore the latest features, enhancements, and fixes in [!DNL Adobe Target]. The
 
 +++
 
+**Recommendations**
+
++++See details
+
+* **Popularity-based recommendations using profile attributes.** [!DNL Target] now supports grouping popularity recommendations, Most Viewed and Top Sellers, dynamically by visitor profile attributes such as country, preferred language, or membership level. (TAPER-7614)
+
++++
+
 ## [!DNL Target Standard/Premium] 26.7.2 (July 16, 2026)
 
 **Activities**
