@@ -13,20 +13,14 @@ This section provides integration guidelines for all Flags clients, organized by
 Select the guide that matches your application type:
 
 1. [Startup guide](startup-guide.md) — Start here for a high-level overview of all integration steps
-2. [Desktop applications](desktop-applications.md) — SDK integration for desktop apps
-3. [Mobile applications](mobile-applications.md) — SDK integration for mobile apps
-4. [Web applications](web-applications.md) — SDK integration for web properties
-5. [Web services](web-services.md) — Server-side SDK integration for backend services
-6. [SDKs](sdks.md) — SDK architecture, prerequisites, and available SDKs
-7. [Integration steps](integration-steps.md) — Detailed step-by-step integration instructions
+1. [Mobile applications](mobile-applications.md) — SDK integration for mobile apps
+1. [Web applications](web-applications.md) — SDK integration for web properties
 
 ## Application types at a glance {#overview}
 
 | Application type | Recommended integration |
-|---|---|
-| **Web service / backend** | Java SDK or Node.js SDK |
-| **Web application** | Web SDK (coming soon) |
-| **Mobile application** | Mobile SDK (coming soon) |
-| **Desktop application** | SDK (coming soon) |
+| --- | --- |
+| **Mobile application** | AEP Mobile SDK — see [Android](../sdk-releases/android/android-extension-integration-guide.md) and [iOS](../sdk-releases/ios/ios-extension-integration-guide.md) guides |
+| **Web application** | Web SDK — see [Web integration guides](../sdk-releases/web/web-extension-integration-guide.md) |
 
 <!-- -->

@@ -14,14 +14,18 @@ All Flags SDKs share the same core architecture:
 
 * **Initialization** — The SDK is configured at startup and registers with the Flags service.
 * **Feature retrieval** — The SDK retrieves feature flag data and evaluates flags locally.
-* **Caching** — The SDK caches feature flag data and refreshes it on a configurable polling interval (TTL).
+* **Caching** — The SDK caches feature flag data and refreshes it on a configurable poll interval.
 * **Error handling** — If the service is unavailable, the SDK continues serving feature flag evaluations from the local cache.
 
 ## Available SDKs {#available-sdks}
 
 ### AEP Web SDK {#web-sdk}
 
-The Flags extension for web integrates with the Adobe Experience Platform Web SDK, enabling flag evaluation in web applications.
+The Flags extension for web integrates with the Adobe Experience Platform Web SDK.
+
+>[!NOTE]
+>
+>Web SDK support is coming soon. Contact your Adobe representative for early access guidance.
 
 ### Android extension {#android-extension}
 
@@ -38,7 +42,7 @@ See the [iOS extension integration guide](../sdk-releases/ios/ios-extension-inte
 ## See also {#see-also}
 
 * [Android extension integration guide](../sdk-releases/android/android-extension-integration-guide.md)
-* [Web services](web-services.md)
-* [Integration steps](integration-steps.md)
+* [iOS extension integration guide](../sdk-releases/ios/ios-extension-integration-guide.md)
+* [Web extension integration guide](../sdk-releases/web/web-extension-integration-guide.md)
 
 <!-- -->
