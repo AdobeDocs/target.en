@@ -182,6 +182,11 @@ You then select which profile attributes stored in the visitor's profile to matc
 
 ### [!UICONTROL Most Viewed by Profile Attribute]
 
+>[!CONTEXTUALHELP]
+>id="target_recommendations_profile_attribute"
+>title="Profile Attribute"
+>abstract="You can create a Profile attribute using Profile Scripts. Once a Profile Script is created and activated, its corresponding Profile attribute can be used with this algorithm."
+
 Recommends the most viewed items grouped by a visitor profile attribute rather than by item information, as [!UICONTROL Most Viewed by Category] and [!UICONTROL Most Viewed by Item Attribute] do. [!DNL Target] keeps a separate ranked list per attribute value and, at delivery time, shows each visitor the list matching their own stored value.
 
 This algorithm depends on a profile script to populate the attribute, and the script's name must begin with the `recsAttribute` prefix so [!DNL Target] stores it as `user.recsAttribute<Name>`. You can write a script for any visitor characteristic relevant to your use case. 
