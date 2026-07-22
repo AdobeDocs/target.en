@@ -32,6 +32,32 @@ Explore the latest features, enhancements, and fixes in [!DNL Adobe Target]. The
 
 (The issue numbers in parentheses are for internal [!DNL Adobe] use.)
 
+## [!DNL Target Standard/Premium] 26.7.4 (July 16, 2026)
+
+**Reporting**
+
++++See details
+
+* **Conversion rate graph not available for specific mobile audience.** Fixed an issue where the [!UICONTROL Conversion Rate] graph did not render for certain mobile audiences. (TGT-55611)
+
++++
+
+**Audiences**
+
++++See details
+
+* **Layout issue on the Audience Library page.** Fixed a layout issue that occurred when filters were enabled on the [!UICONTROL Audience Library] page while the side navigation was collapsed. (TGT-55502)
+
++++
+
+**[!UICONTROL Visual Experience Composer] (VEC)**
+
++++See details
+
+* **Mobile version does not load correctly.** Fixed an issue where the [!UICONTROL Visual Experience Composer] did not offer a way to refresh, preventing the mobile view from loading correctly. (TGT-54408)
+
++++
+
 ## [!DNL Target Standard/Premium] 26.7.2 (July 16, 2026)
 
 **Activities**
