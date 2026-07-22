@@ -173,9 +173,11 @@ Algorithms include:
 * [!UICONTROL Most Viewed Across the Site]
 * [!UICONTROL Most Viewed by Category]
 * [!UICONTROL Most Viewed by Item Attribute]
+* [!UICONTROL Most Viewed by Profile Attribute]
 * [!UICONTROL Top Sellers Across the Site]
 * [!UICONTROL Top Sellers by Category]
 * [!UICONTROL Top Sellers by Item Attribute]
+* [!UICONTROL Top Sellers by Profile Attribute]
 
 [!DNL Target] provides popularity-based algorithms for both the most viewed items, as well as the top selling items either across a website, or broken down by an item attribute or category. Popularity based algorithms rank items based on the number of sessions in which that item was viewed or purchased in a given time frame.
 
@@ -185,6 +187,7 @@ Individual algorithm nuances are as follows:
 
 * [!UICONTROL Most Viewed Across the Site] and [!UICONTROL Top Sellers Across the Site] rank items by the aggregate counts of sessions in which these items were viewed or purchased respectively. The output is a single (key-less) list of recommended items.
 * Most Viewed/Top sellers by Category/Item Attribute are recommendations where items are ordered by the aggregate counts of sessions in which these items were viewed or purchased, but grouped by the item category or specific item attribute. The outputs are lists of recommended items, keyed by values of categories, or values of item attributes.
+* [!UICONTROL Most Viewed by Profile Attribute] and [!UICONTROL Top Sellers by Profile Attribute] also rank items by aggregate view or purchase counts, but the grouping key is a visitor profile attribute , such as country, region, or membership tier, instead of an item property. Each session's count is attributed to whatever profile value the visitor held at the time of the interaction, not to any attribute of the item. The result is a set of recommendation lists keyed by the distinct values of that profile attribute.
 
 ## Recently Viewed
 

@@ -79,7 +79,7 @@ The following steps assume you access the [!UICONTROL Create New Criteria] scree
 >[!CONTEXTUALHELP]
 >id="target_recommendations_profile_attribute"
 >title="Profile Attribute"
->abstract="You can create a Profile attribute using Profile scripts."
+>abstract="You can create a Profile Attribute using Profile Scripts."
 
 1. Select an **[!UICONTROL Algorithm Type]** and **[!UICONTROL Algorithm]**:
 
@@ -88,7 +88,7 @@ The following steps assume you access the [!UICONTROL Create New Criteria] scree
    |Algorithm type|When to use / Available algorithms|
    | --- | --- |
    |[!UICONTROL Cart-Based]|Make recommendations based on the user's cart contents. <ul><li>[!UICONTROL People Who Viewed These, Also Viewed] </li><li>[!UICONTROL People Who Viewed These, Also Bought]</li><li>[!UICONTROL People Who Bought These, Also Bought]</li></ul>|
-   |[!UICONTROL Popularity-Based]|Make recommendations based on the overall popularity of an item across your site or based on the popularity of items within a user's favorite or most-viewed category, brand, genre, and so forth. <ul><li>[!UICONTROL Most Viewed Across the Site]</li><li>[!UICONTROL Most Viewed by Category]</li><li>[!UICONTROL Most Viewed by Item Attribute]</li><li>[!UICONTROL Top Sellers Across the Site]</li><li>[!UICONTROL Top Sellers by Category]</li><li>[!UICONTROL Top Sellers by Item Attribute]</li><li>[!UICONTROL Top by Analytics Metric]</li></ul>|
+   |[!UICONTROL Popularity-Based]|Make recommendations based on the overall popularity of an item across your site or based on the popularity of items within a user's favorite or most-viewed category, brand, genre, and so forth. <ul><li>[!UICONTROL Most Viewed Across the Site]</li><li>[!UICONTROL Most Viewed by Category]</li><li>[!UICONTROL Most Viewed by Item Attribute]</li><li>[!UICONTROL Most Viewed by Profile Attribute]</li><li>[!UICONTROL Top Sellers Across the Site]</li><li>[!UICONTROL Top Sellers by Category]</li><li>[!UICONTROL Top Sellers by Item Attribute]</li><li>[!UICONTROL Top Sellers by Profile Attribute]</li><li>[!UICONTROL Top by Analytics Metric]</li></ul>|
    |[!UICONTROL Item-Based]|Make recommendations based on finding similar items to an item that the user is currently viewing or has recently viewed. <ul><li>[!UICONTROL People Who Viewed This, Viewed That]</li><li>[!UICONTROL People Who Viewed This, Bought That]</li><li>[!UICONTROL People Who Bought This, Bought That]</li><li>[!UICONTROL Items with Similar Attributes]</li></ul>|
    |[!UICONTROL User-Based]|Make recommendations based on the user's behavior.<ul><li>[!UICONTROL Recently Viewed Items]</li><li>[!UICONTROL Recommended for You]</li></ul>|
    |[!UICONTROL Custom Criteria]|Make recommendations based on a custom file you upload.<ul><li>Custom Algorithm</li></ul>|
@@ -100,6 +100,8 @@ The following steps assume you access the [!UICONTROL Create New Criteria] scree
 1. As required, select an **Item Attribute** and **Profile Attribute to Match**, a **Recommendation Key**, **Filtering Key**, and/or **Analytics Metric** to configure the algorithm.
 
 The remaining algorithm configuration options vary depending on the selected algorithm. To finish configuring the algorithm, select a [!UICONTROL Recommendation Key], [!UICONTROL Filtering Key], [!UICONTROL Co-Occurrence Basis], [!UICONTROL Analytics Metric], and/or [!UICONTROL Item Attribute] and [!UICONTROL Profile Attribute to Match].
+
+When you select [!UICONTROL Most Viewed by Profile Attribute] or [!UICONTROL Top Sellers by Profile Attribute], select a **[!UICONTROL Profile Attribute]** to group the interaction data by. Profile attributes come from a profile script that captures a visitor characteristic, such as region or country, and the script name must carry the `recsAttribute` prefix, so it is stored as `user.recsAttribute<Name>`, for example, `user.recsAttributeRegion`. At delivery time, [!DNL Target] serves each visitor the ranked list that corresponds to their own value of that attribute.
 
 For more information about choosing a [!UICONTROL Recommendation Key], see [Base the recommendation on a recommendation key](/help/main/c-recommendations/c-algorithms/base-the-recommendation-on-a-recommendation-key.md).
 

@@ -31,7 +31,7 @@ Each algorithm type provides different algorithms appropriate for its type, as s
 |Algorithm type|When to use / Available algorithms|
 | --- | --- |
 |[!UICONTROL Cart-Based]|Make recommendations based on the user's cart contents.<ul><li>[!UICONTROL People Who Viewed These, Also Viewed]</li><li>[!UICONTROL People Who Viewed These, Also Bought]</li><li>[!UICONTROL People Who Bought These, Also Bought]</li></ul>|
-|[!UICONTROL Popularity-Based]|Make recommendations based on the overall popularity of an item across your site or based on the popularity of items within a user's favorite or most-viewed category, brand, genre, and so forth. <ul><li>[!UICONTROL Most Viewed Across the Site]</li><li>[!UICONTROL Most Viewed by Category]</li><li>[!UICONTROL Most Viewed by Item Attribute]</li><li>[!UICONTROL Top Sellers Across the Site]</li><li>[!UICONTROL Top Sellers by Category]</li><li>[!UICONTROL Top Sellers by Item Attribute]</li><li>[!UICONTROL Top by Analytics Metric]</li></ul>|
+|[!UICONTROL Popularity-Based]|Make recommendations based on the overall popularity of an item across your site or based on the popularity of items within a user's favorite or most-viewed category, brand, genre, and so forth. <ul><li>[!UICONTROL Most Viewed Across the Site]</li><li>[!UICONTROL Most Viewed by Category]</li><li>[!UICONTROL Most Viewed by Item Attribute]</li><li>[!UICONTROL Most Viewed by Profile Attribute]</li><li>[!UICONTROL Top Sellers Across the Site]</li><li>[!UICONTROL Top Sellers by Category]</li><li>[!UICONTROL Top Sellers by Item Attribute]</li><li>[!UICONTROL Top Sellers by Profile Attribute]</li><li>[!UICONTROL Top by Analytics Metric]</li></ul>|
 |[!UICONTROL Item-Based]|Make recommendations based on finding similar items to an item that the user is currently viewing or has recently viewed. <ul><li>[!UICONTROL People Who Viewed This, Viewed That]</li><li>[!UICONTROL People Who Viewed This, Bought That]</li><li>[!UICONTROL People Who Bought This, Bought That]</li><li>[!UICONTROL Items with Similar Attributes]</li></ul>|
 |[!UICONTROL User-Based]|Make recommendations based on the user's behavior. <ul><li>[!UICONTROL Recently Viewed Items]</li><li>[!UICONTROL Recommended for You]</li></ul>|
 |[!UICONTROL Custom Criteria]|Make recommendations based on a custom file you upload. <ul><li>Custom Algorithm</li></ul>|
@@ -179,6 +179,38 @@ Recommends items or media similar to the most-purchased items or media on your s
 This algorithm lets you select which item attribute you want to base the recommendation on, for example, "Name," or "Brand."
 
 You then select which profile attributes stored in the visitor's profile to match, for example "Favorite Brand," "Last Item Added to Cart," or "Most Viewed Show."
+
+### [!UICONTROL Most Viewed by Profile Attribute]
+
+Recommends the most viewed items grouped by a visitor profile attribute rather than by item information, as [!UICONTROL Most Viewed by Category] and [!UICONTROL Most Viewed by Item Attribute] do. [!DNL Target] keeps a separate ranked list per attribute value and, at delivery time, shows each visitor the list matching their own stored value.
+
+This algorithm depends on a profile script to populate the attribute, and the script's name must begin with the `recsAttribute` prefix so [!DNL Target] stores it as `user.recsAttribute<Name>`. You can write a script for any visitor characteristic relevant to your use case. 
+
+Learn more about setting profile attributes using profile scripts in [this page](https://experienceleague.adobe.com/en/docs/target/using/audiences/visitor-profiles/profile-parameters).
+
+For example, a script named `recsAttributeRegion` that bases recommendations on the visitor's region might look like this:
+
+```
+var region = mbox.param('userRegion');
+if (region) return region;
+```
+
+After the script is created and activated, the corresponding [!UICONTROL Region] entry becomes available in the profile attribute drop-down of the create criteria window. Note that the `recsAttribute` prefix itself is not shown in the drop-down.
+
+### [!UICONTROL Top Sellers by Profile Attribute]
+
+Recommends the top-selling items grouped by a visitor profile attribute rather than by item information, as [!UICONTROL Top Sellers by Category] and [!UICONTROL Top Sellers by Item Attribute] do. [!DNL Target] keeps a separate top-sellers list per attribute value and, at delivery time, shows each visitor the list matching their own stored value.
+
+As with [!UICONTROL Most Viewed by Profile Attribute], this algorithm depends on a profile script to populate the attribute, and the script's name must begin with the `recsAttribute` prefix so [!DNL Target] stores it as `user.recsAttribute<Name>`. You can write a script for any visitor characteristic relevant to your use case. Learn more about setting profile attributes using profile scripts in [this page](https://experienceleague.adobe.com/en/docs/target/using/audiences/visitor-profiles/profile-parameters).
+
+For example, a script named `recsAttributeLoyaltyTier` that bases recommendations on the visitor's loyalty tier might look like this:
+
+```
+var tier = mbox.param('visitorLoyaltyTier');
+if (tier) return tier;
+```
+
+After the script is created and activated, the corresponding [!UICONTROL Loyalty Tier] entry becomes available in the profile attribute drop-down of the create criteria window. Note that the `recsAttribute` prefix itself is not shown in the drop-down.
 
 ### [!UICONTROL Top by Analytics Metric]
 
