@@ -16,7 +16,7 @@ Flags delivers reporting through **Customer Journey Analytics (CJA)**. A **Repor
 
 Before you can view reports, ensure that:
 
-1. Reporting is set up for your application — see [Set up reporting with Customer Journey Analytics](#setup).
+1. Reporting is set up for your application — see [Set up CJA for feature flags reporting](set-up-cja-reporting.md).
 1. Your feature flag or feature group is active and has accumulated data.
 
 ## View a report {#view-report}
@@ -60,28 +60,9 @@ See the [Experimentation panel documentation](https://experienceleague.adobe.com
 
 ![Experimentation results showing Lift, Confidence, and conversion rate by variant](assets/experimentation.png)
 
-### Analyze in CJA (optional) {#analyze-in-cja}
-
-Once a report is loaded, an **Analyze in CJA** button appears at the top-right of the Report tab. Selecting it opens the same report full-page in Customer Journey Analytics in a new browser tab, where you have the complete CJA toolset for deeper, ad-hoc analysis.
-
-![Flags Overview report opened in the Customer Journey Analytics workspace](assets/cja-workspace.png)
-
->[!IMPORTANT]
->
->The report opens as a temporary, unsaved project. If you customize it in CJA (add metrics, change panels, adjust filters, and so on) and want to keep those changes, save it using **Project > Save as template**. Otherwise your edits are lost when you close the report.
-
-![Project menu with Save as template highlighted](assets/save-as-template.png)
-
-## Set up reporting with Customer Journey Analytics {#setup}
-
-Reporting requires a Customer Journey Analytics dataset connected to your Flags application. Contact Flags support or your Adobe representative to enable reporting for your application.
-
->[!NOTE]
->
->The identity passed in the feature request does not need to be linked to a profile. Evaluation happens at runtime and the event is sent to Customer Journey Analytics.
-
 ## See also {#see-also}
 
+* [Set up CJA for feature flags reporting](set-up-cja-reporting.md)
 * [Create your first feature flag](create-your-first-feature-flag.md)
 * [A/B testing with feature flags](a-b-testing.md)
 * [Create a feature group](create-a-feature-group.md)

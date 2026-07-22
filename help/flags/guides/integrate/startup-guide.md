@@ -38,9 +38,10 @@ Follow the integration guide for your application type. Choose the path that fit
 
 If you are integrating via a tag-based approach (web or mobile), configure your tag property before initializing the SDK:
 
-1. In [Adobe Experience Platform Data Collection](https://experience.adobe.com/#/data-collection), open your mobile or web property.
-1. Install the **Edge Network** extension, then the **Flags** extension (in that order).
-1. Select your **data stream** (must include the Customer Journey Analytics dataset) and your edge domain.
+1. In [Adobe Experience Platform Data Collection](https://experience.adobe.com/#/data-collection), create a [tag property](https://experienceleague.adobe.com/en/docs/experience-platform/tags/get-started/quick-start) if you do not already have one, or use an existing tag property.
+1. Open the mobile or web tag property and go to [Extensions](https://experienceleague.adobe.com/en/docs/experience-platform/tags/ui/extensions/overview).
+1. Install and configure the **Edge Network** extension. Then install the **Flags** extension.
+1. Select the **datastream** (it must include the Customer Journey Analytics dataset) and configure the edge domain.
 1. Publish the configuration through **Dev → Staging → Production**.
 1. Copy the **environment file ID** from the **Environments** tab — you will use this to initialize the SDK.
 
