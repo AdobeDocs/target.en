@@ -1,6 +1,7 @@
 ---
 title: Flags extension for iOS integration guide
 description: Learn how to integrate the Flags extension with the Adobe Experience Platform Mobile SDK on iOS.
+badge: label="Beta" type="Informative"
 hide: true
 ---
 # Flags extension for iOS {#ios-extension-integration-guide}

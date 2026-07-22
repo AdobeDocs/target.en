@@ -1,6 +1,7 @@
 ---
 title: Reporting
 description: Learn how to view feature flag reporting in Flags using Customer Journey Analytics.
+badge: label="Beta" type="Informative"
 hide: true
 exl-id: edddca99-f263-461b-a16f-b46ee7c15f6c
 ---

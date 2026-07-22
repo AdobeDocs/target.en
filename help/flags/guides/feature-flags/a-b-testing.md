@@ -1,6 +1,7 @@
 ---
 title: A/B testing with feature flags
 description: Learn how to run A/B tests using feature groups in Flags by configuring multiple variants for a set of feature flags.
+badge: label="Beta" type="Informative"
 hide: true
 exl-id: bb849049-229c-40ff-bbfe-7996f868bcc3
 ---

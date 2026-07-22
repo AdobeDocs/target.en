@@ -1,6 +1,7 @@
 ---
 title: Flags extension for Android integration guide
 description: Learn how to integrate the Flags extension with the Adobe Experience Platform Mobile SDK on Android.
+badge: label="Beta" type="Informative"
 hide: true
 exl-id: 683ef4d4-e637-4b7b-b694-689c7e65a99e
 ---

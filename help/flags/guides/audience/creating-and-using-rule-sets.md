@@ -1,6 +1,7 @@
 ---
 title: Creating and using Rule Sets
 description: Learn how to create a reusable Rule Set of audience context criteria in Flags and import it into feature flags and feature groups.
+badge: label="Beta" type="Informative"
 hide: true
 ---
 # Creating and using Rule Sets {#creating-and-using-rule-sets}

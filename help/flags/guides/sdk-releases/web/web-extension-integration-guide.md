@@ -1,6 +1,7 @@
 ---
 title: Flags extension for Web integration guide
 description: Learn how to integrate the Flags extension with the Adobe Experience Platform Web SDK (Alloy) for web applications.
+badge: label="Beta" type="Informative"
 hide: true
 ---
 # Flags extension for Web {#web-extension-integration-guide}

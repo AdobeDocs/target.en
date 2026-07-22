@@ -1,6 +1,7 @@
 ---
 title: Use context in audience rules
 description: Learn how to use context attributes in audience rules for feature flags and feature groups in Flags.
+badge: label="Beta" type="Informative"
 hide: true
 exl-id: 0367f475-9209-4d53-86b4-a739a73a23a7
 ---

@@ -1,6 +1,7 @@
 ---
 title: Integrate Flags in your app
 description: Learn how to integrate Flags into your application, whether it is a web service, web property, mobile app, or desktop application.
+badge: label="Beta" type="Informative"
 hide: true
 exl-id: e67a34d8-aaba-41d4-bc34-15b23782caa1
 ---

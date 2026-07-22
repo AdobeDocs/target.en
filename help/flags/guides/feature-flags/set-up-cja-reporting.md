@@ -1,6 +1,7 @@
 ---
 title: Set up CJA for feature flags reporting
 description: Configure the datastream, connection, and data view required to view feature flag and feature group reports through Customer Journey Analytics.
+badge: label="Beta" type="Informative"
 hide: true
 exl-id: 57bd1106-2b3d-4e03-882a-acfef1c0df66
 ---

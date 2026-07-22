@@ -1,6 +1,7 @@
 ---
 title: Update release audience rules
 description: Learn how to configure and update audience criteria for a release in Flags, including supported rule types and how to combine them.
+badge: label="Beta" type="Informative"
 hide: true
 exl-id: 8d546cd7-af66-47c7-aab3-c667568e8582
 ---
