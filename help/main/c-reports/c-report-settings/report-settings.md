@@ -178,7 +178,7 @@ Click the **[!UICONTROL More Options]** icon ( ![More Options icon](/help/main/a
 You can view the report in various formats, depending on the activity type. Select the desired option.
 
 * **Table View**: Click the **[!UICONTROL Table View]** ( ![Table View icon](/help/main/assets/icons/Table.svg) ) icon to view the report as a table.
-* **Graph View**: Click the **[!UICONTROL Graph View]** ( ![Graph View icon](/help/main/assets/icons/GraphTrend.svg) ) icon to view the report as a graph. For [!UICONTROL A/B Test] (Manual) activities that use the [!UICONTROL Bayesian] statistical methodology, the graph view also offers [!UICONTROL Posterior Distribution], [!UICONTROL Lift-vs-Control Distribution], [!UICONTROL Forest / interval plot], and [!UICONTROL Probability-to-be-Best partition] graph types, in addition to the time-series types available today. For more information, see [Bayesian statistics](/help/main/c-reports/statistical-methodology/statistical-calculations.md#bayesian-statistics).
+* **Graph View**: Click the **[!UICONTROL Graph View]** ( ![Graph View icon](/help/main/assets/icons/GraphTrend.svg) ) icon to view the report as a graph.
 * **Automated Segments**:(Available only for [!UICONTROL Automated Personalization] (AP) and [!UICONTROL Auto-Target] (AT) activities.) Click the **[!UICONTROL Automated Segments] ( ![Automated Segments icon](/help/main/assets/icons/AutomatedSegment.svg) ) icon to view the [Automated segments report](/help/main/c-reports/c-personalization-insights-reports/automated-segments-report.md).
 * **Important Attributes**: (Available only for [!DNL Automated Personalization] (AP) and [!UICONTROL Auto-Target] (AT) activities.) Click the **[!UICONTROL Important Attributes]** ( ![Important Attributes icon](/help/main/assets/icons/ViewList.svg) ) icon to view the [Important Attributes report](/help/main/c-reports/c-personalization-insights-reports/important-attributes-report.md).
 
@@ -192,7 +192,6 @@ Consider the following:
 
 * Available only when viewing reports in [!UICONTROL Table View]. 
 * This feature is not available for activities that use [Analytics as the reporting source (A4T)](/help/main/c-integrating-target-with-mac/a4t/a4t.md).
-* For [!UICONTROL A/B Test] (Manual) activities that use the [!UICONTROL Bayesian] statistical methodology, the report shows [!UICONTROL Chance to Beat Control] and [!UICONTROL Probability to be Best] columns and a credible interval instead of the [!UICONTROL Confidence] column used by [!UICONTROL Welch's t-test] activities. For more information, see [Bayesian statistics](/help/main/c-reports/statistical-methodology/statistical-calculations.md#bayesian-statistics).
 
 ## Location Contribution {#section_5832F126AC114AE1ABFFF4D9B904393B}
 

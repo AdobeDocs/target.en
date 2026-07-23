@@ -24,8 +24,6 @@ An [!UICONTROL A/B Test] (Manual) activity supports two statistical methodologie
 
 * [Bayesian](#bayesian-statistics): reports results as probabilities, such as [!UICONTROL Chance to Beat Control] and credible intervals, computed from the full posterior distribution of each experience's goal metric. This setting is only available for activities whose primary goal metric is [!UICONTROL Conversion].
 
-There is one report per activity, and the report renders according to the activity's selected methodology, a methodology badge on the report indicates which one applies.
-
 ## Welch's t-test
 
 ### Mean performance
@@ -150,36 +148,25 @@ Finally, the confidence reported in [!DNL Target] is defined as:
 
 Instead of computing a p-value from an approximated distribution, a [!UICONTROL Bayesian] activity's report expresses results as probabilities, computed from the full posterior distribution of each experience's goal metric. This makes it safe to monitor a [!UICONTROL Bayesian] report continuously, since there is no statistical penalty for checking results before a fixed sample size is reached, and it can converge faster on smaller samples than [!UICONTROL Welch's t-test].
 
-The [!UICONTROL Bayesian] methodology is only available for activities whose primary goal metric is [!UICONTROL Conversion]; activities with a [!UICONTROL Revenue] or [!UICONTROL Engagement] primary goal always use [!UICONTROL Welch's t-test]. For more information about selecting a methodology, see [Goals and settings](/help/main/c-activities/t-test-ab/t-test-create-ab/ab-goals-and-settings.md#section_13119392051044FBA6387D9B3B1C43CF).
+The [!UICONTROL Bayesian] methodology is only available for activities whose primary goal metric is [!UICONTROL Conversion], activities with a [!UICONTROL Revenue] or [!UICONTROL Engagement] primary goal always use [!UICONTROL Welch's t-test]. For more information about selecting a methodology, see [Goals and settings](/help/main/c-activities/t-test-ab/t-test-create-ab/ab-goals-and-settings.md#section_13119392051044FBA6387D9B3B1C43CF).
+
+### Average Lift and Credible interval
+
+<p style="text-align:center;"><img width=35% src="img/bayesian_1.png"></p>
+
+Average lift and the credible interval together measure performance improvement and its uncertainty in a [!UICONTROL Bayesian] activity. Average lift is the mean percentage change between a treatment and the control, while the credible interval defines the range within which the true lift falls at a specified probability.
 
 ### [!UICONTROL Chance to Beat Control]
 
+<p style="text-align:center;"><img width=35% src="img/bayesian_2.png"></p>
+
 [!UICONTROL Chance to Beat Control] is the probability that an experience's goal metric outperforms the [!UICONTROL Control] experience, for example, "92% chance B beats A". This is the primary decision metric for a [!UICONTROL Bayesian] activity: a challenger experience is a candidate to replace [!UICONTROL Control] when its [!UICONTROL Chance to Beat Control] meets the activity's decision threshold.
 
-* An up arrow displays when [!UICONTROL Chance to Beat Control] is greater than 50%. A down arrow displays when it is less than 50%.
-* A row is colored green when [!UICONTROL Chance to Beat Control] is greater than the decision threshold configured for the activity.
-* An information icon next to the column header explains: "The probability that experience metric outperforms control."
-
+<!--
 ### [!UICONTROL Probability to be Best]
 
 [!UICONTROL Probability to be Best] is the probability that an experience is the single best of all experiences in the activity. Use this decision metric to pick which winner to ship in a test with more than one challenger experience.
-
-### Credible interval and Average Lift
-
-For a [!UICONTROL Bayesian] activity, the primary goal metric's deviation renders as a credible interval range (shown as `x to y`), and the lift column is labeled [!UICONTROL Average Lift and Credible Interval]. This replaces the `± dev` and [!UICONTROL Confidence Interval] labeling used by [!UICONTROL Welch's t-test].
-
-A 95% credible interval is a pair of values, for example (10%, 50%), meaning that the uplift is between 10% and 50% with 95% confidence.
-
-No frequentist statistical significance is shown on a [!UICONTROL Bayesian] report.
-
-### Graph views
-
-In addition to the time-series graph types available for [!UICONTROL Welch's t-test] activities, a [!UICONTROL Bayesian] activity's report offers the following graph types:
-
-* **Posterior Distribution**: the full probability distribution of the goal metric for each experience.
-* **Lift-vs-Control Distribution**: the distribution of the uplift of an experience relative to [!UICONTROL Control]. The shaded area greater than 0% corresponds to [!UICONTROL Chance to Beat Control].
-* **Forest / interval plot**: one row per experience, showing the point estimate and 95% credible interval on the lift-vs-Control scale, with a 0% [!UICONTROL Control] reference line. This view scales to activities with many experiences.
-* **Probability-to-be-Best partition**: a single 100%-stacked bar showing each experience's share of [!UICONTROL Probability to be Best].
+-->
 
 ## Performing Calculations offline
 
