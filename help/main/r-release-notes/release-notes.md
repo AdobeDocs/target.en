@@ -40,6 +40,10 @@ Explore the latest features, enhancements, and fixes in [!DNL Adobe Target]. The
 
 * **Conversion rate graph not available for specific mobile audience.** Fixed an issue where the [!UICONTROL Conversion Rate] graph did not render for certain mobile audiences. (TGT-55611)
 
+* **"Viewed an mbox" conversion goal not working when selected from dropdown.** Fixed an issue where selecting an mbox from the dropdown in [!UICONTROL Goals & Settings] for a "Viewed an mbox" conversion goal saved the mbox name incorrectly, preventing conversions from being recorded. (TGT-55588)
+
+* **Add [!DNL Customer Journey Analytics] as a reporting source selector.** Added the ability to select [!DNL Customer Journey Analytics] (CJA) as a reporting source. (TGT-54952)
+
 +++
 
 **Audiences**
@@ -56,6 +60,22 @@ Explore the latest features, enhancements, and fixes in [!DNL Adobe Target]. The
 
 * **Mobile version does not load correctly.** Fixed an issue where the [!UICONTROL Visual Experience Composer] did not offer a way to refresh, preventing the mobile view from loading correctly. (TGT-54408)
 
+* **Edit or delete modification actions not working.** Fixed an issue where editing or deleting a modification from the [!UICONTROL Edit Experience] view did not work. (TGT-55250)
+
+* **Browse mode unresponsive after activity loads.** Fixed an issue where [!UICONTROL Browse] mode became unresponsive for experiences containing a modification, preventing further navigation and authoring. (TGT-55306)
+
+* **Unable to select elements inside Salesforce LWC (Shadow DOM).** Fixed an issue where the [!UICONTROL Visual Experience Composer] could not select elements nested inside Salesforce Lightning Web Components using Shadow DOM, resulting in a "selector not found" error. (TGT-54956)
+
+* **Duplicate offers appeared in the [!UICONTROL Visual Experience Composer].** Fixed an issue where modifications and offers intermittently appeared duplicated in the activity authoring UI. (TGT-55685)
+
++++
+
+**Administration**
+
++++See details
+
+* **Renamed the content generation assistant to [!UICONTROL Generate content].** Renamed the "AI Assistant" content-generation capability to [!UICONTROL Generate content] across [!DNL Target] UI surfaces. (TGT-55689)
+
 +++
 
 **Recommendations**
@@ -63,6 +83,8 @@ Explore the latest features, enhancements, and fixes in [!DNL Adobe Target]. The
 +++See details
 
 * **Popularity-based recommendations using profile attributes.** [!DNL Target] now supports grouping popularity recommendations, Most Viewed and Top Sellers, dynamically by visitor profile attributes such as country, preferred language, or membership level. (TAPER-7614)
+
+* **Recommendation collection mismatch between [!UICONTROL Collections] and activity configuration.** Fixed an issue where a [!UICONTROL Recommendations] collection returned additional, non-qualifying entities when viewed from activity configuration compared to the [!UICONTROL Recommendations] > [!UICONTROL Collections] view. (TGT-55554)
 
 +++
 
