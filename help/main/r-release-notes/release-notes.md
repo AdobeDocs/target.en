@@ -42,8 +42,6 @@ Explore the latest features, enhancements, and fixes in [!DNL Adobe Target]. The
 
 * **"Viewed an mbox" conversion goal not working when selected from dropdown.** Fixed an issue where selecting an mbox from the dropdown in [!UICONTROL Goals & Settings] for a "Viewed an mbox" conversion goal saved the mbox name incorrectly, preventing conversions from being recorded. (TGT-55588)
 
-* **Add [!DNL Customer Journey Analytics] as a reporting source selector.** Added the ability to select [!DNL Customer Journey Analytics] (CJA) as a reporting source. (TGT-54952)
-
 +++
 
 **Audiences**
