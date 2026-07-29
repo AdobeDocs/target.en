@@ -20,7 +20,7 @@ This article documents the detailed statistical calculations used in manual A/Bn
 
 An [!UICONTROL A/B Test] (Manual) activity supports two statistical methodologies, selected per activity in [Goals & Settings](/help/main/c-activities/t-test-ab/t-test-create-ab/ab-goals-and-settings.md#section_13119392051044FBA6387D9B3B1C43CF):
 
-* [Welch's t-test](#welchs-t-test) (default): a frequentist methodology that reports a [!UICONTROL Confidence] percentage and confidence interval, based on a fixed-sample-size hypothesis test. Used for activities with a [!UICONTROL Revenue] or [!UICONTROL Engagement] primary goal.
+* [Welch's t-test](#welchs-t-test): a frequentist methodology that reports a [!UICONTROL Confidence] percentage and confidence interval, based on a fixed-sample-size hypothesis test. Used for activities with a [!UICONTROL Revenue] or [!UICONTROL Engagement] primary goal.
 
 * [Bayesian](#bayesian-statistics): reports results as probabilities, such as [!UICONTROL Chance to Beat Control] and credible intervals, computed from the full posterior distribution of each experience's goal metric. This setting is only available for activities whose primary goal metric is [!UICONTROL Conversion].
 
