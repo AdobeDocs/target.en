@@ -1,6 +1,7 @@
 ---
 title: Manage applications
 description: Learn how to manage applications in Flags, including adding new applications.
+badge: label="Beta" type="Informative"
 hide: true
 exl-id: 6109fdd5-b5f5-41ca-8690-8aa78df50499
 ---

@@ -1,6 +1,7 @@
 ---
 title: Set a feature group to gradually roll out
 description: Learn how to configure a percentage-based gradual rollout for a feature group in Flags.
+badge: label="Beta" type="Informative"
 hide: true
 exl-id: fcf187f1-2f33-4e3a-b740-985d5bc0bcdc
 ---
@@ -10,7 +11,7 @@ The percentage rollout for a feature group is configured in the **Basic Details*
 
 ## How it works {#how-it-works}
 
-When you set a percentage rollout — for example, 60% — that percentage of your defined audience is exposed to the feature group. The remaining 40% is placed in the **control group**, which receives default behavior.
+When you set a percentage rollout — for example, 60% — that percentage of your defined audience is exposed to the feature group. The percentage rollout is **required** and defaults to **100%** (the feature group is served to the entire matching audience). You can adjust it in **1% increments**. The remaining percentage is placed in the **control group**, which receives default behavior.
 
 If you have configured multiple variants (for A/B testing), the exposure percentage is distributed equally across variants. For example, 60% exposure with three variants results in 20% per variant, with 40% in the control group.
 
