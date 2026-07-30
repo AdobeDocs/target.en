@@ -1,6 +1,7 @@
 ---
 title: Gradual rollout
 description: Learn how gradual rollouts in Flags let you phase feature delivery into production safely, with real-time feedback and minimal risk.
+badge: label="Beta" type="Informative"
 hide: true
 exl-id: ede24236-de19-4008-893c-e67bd82e23e3
 ---

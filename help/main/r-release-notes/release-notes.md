@@ -32,6 +32,108 @@ Explore the latest features, enhancements, and fixes in [!DNL Adobe Target]. The
 
 (The issue numbers in parentheses are for internal [!DNL Adobe] use.)
 
+## [!DNL Target Standard/Premium] 26.7.5 (July 30, 2026)
+
+**Activities**
+
++++See details
+
+* **Bayesian statistics for [!DNL A/B Test (Manual)] activities** [!DNL A/B Test (Manual)] activities now support Bayesian statistics as an alternative to Welch's t-test. Choose the statistical methodology in [!UICONTROL Goals & Settings]: a Bayesian activity's report shows probability-based decision metrics, such as [!UICONTROL Chance to Beat Control], and credible intervals instead of the frequentist confidence interval.
+
+* **[!DNL Customer Journey Analytics] reporting for [!DNL Auto-Allocate] activities.** [!DNL Auto-Allocate] activities can now use [!DNL Customer Journey Analytics] as their reporting source, in addition to [!DNL Target] and [!DNL Adobe Analytics] (A4T).
+
++++
+
+**[!UICONTROL Visual Experience Composer] (VEC)**
+
++++See details
+
+* **Unable to select or modify HTML offers in activity.** Fixed an issue where adding certain HTML or Experience Fragment offers to an activity caused the [!UICONTROL Visual Experience Composer] to crash, preventing offers from being selected or modified. (TGT-55732)
+
++++
+
+## [!DNL Target Standard/Premium] 26.7.4 (July 23, 2026)
+
+**Reporting**
+
++++See details
+
+* **Conversion rate graph not available for specific mobile audience.** Fixed an issue where the [!UICONTROL Conversion Rate] graph did not render for certain mobile audiences. (TGT-55611)
+
+* **"Viewed an mbox" conversion goal not working when selected from dropdown.** Fixed an issue where selecting an mbox from the dropdown in [!UICONTROL Goals & Settings] for a "Viewed an mbox" conversion goal saved the mbox name incorrectly, preventing conversions from being recorded. (TGT-55588)
+
++++
+
+**Audiences**
+
++++See details
+
+* **Layout issue on the Audience Library page.** Fixed a layout issue that occurred when filters were enabled on the [!UICONTROL Audience Library] page while the side navigation was collapsed. (TGT-55502)
+
++++
+
+**[!UICONTROL Visual Experience Composer] (VEC)**
+
++++See details
+
+* **Mobile version does not load correctly.** Fixed an issue where the [!UICONTROL Visual Experience Composer] did not offer a way to refresh, preventing the mobile view from loading correctly. (TGT-54408)
+
+* **Edit or delete modification actions not working.** Fixed an issue where editing or deleting a modification from the [!UICONTROL Edit Experience] view did not work. (TGT-55250)
+
+* **Browse mode unresponsive after activity loads.** Fixed an issue where [!UICONTROL Browse] mode became unresponsive for experiences containing a modification, preventing further navigation and authoring. (TGT-55306)
+
+* **Unable to select elements inside Salesforce LWC (Shadow DOM).** Fixed an issue where the [!UICONTROL Visual Experience Composer] could not select elements nested inside Salesforce Lightning Web Components using Shadow DOM, resulting in a "selector not found" error. (TGT-54956)
+
+* **Duplicate offers appeared in the [!UICONTROL Visual Experience Composer].** Fixed an issue where modifications and offers intermittently appeared duplicated in the activity authoring UI. (TGT-55685)
+
++++
+
+**Administration**
+
++++See details
+
+* **Renamed the content generation assistant to [!UICONTROL Generate content].** Renamed the "AI Assistant" content-generation capability to [!UICONTROL Generate content] across [!DNL Target] UI surfaces. (TGT-55689)
+
++++
+
+**Recommendations**
+
++++See details
+
+* **Popularity-based recommendations using profile attributes.** [!DNL Target] now supports grouping popularity recommendations, Most Viewed and Top Sellers, dynamically by visitor profile attributes such as country, preferred language, or membership level. (TAPER-7614)
+
+* **Recommendation collection mismatch between [!UICONTROL Collections] and activity configuration.** Fixed an issue where a [!UICONTROL Recommendations] collection returned additional, non-qualifying entities when viewed from activity configuration compared to the [!UICONTROL Recommendations] > [!UICONTROL Collections] view. (TGT-55554)
+
++++
+
+## [!DNL Target Standard/Premium] 26.7.2 (July 16, 2026)
+
+**Activities**
+
++++See details
+
+* **Incorrect goal information on the [!UICONTROL Activity Overview] page.** Fixed an issue where the [!UICONTROL Activity Overview] page for [!DNL Automated Personalization] activities showed additional goals instead of the optimization goal. (TGT-55553)
+
+* **Unresponsive screen when navigating pages in [!UICONTROL Browse] mode.** Fixed an issue where the screen became unresponsive when navigating between pages in [!UICONTROL Browse] mode. (TGT-55565)
+
++++
+
+**Homepage**
+
++++See details
+
+* **UI change for [!UICONTROL Top performers] and [!UICONTROL Saves].** Updated the UI for the top performers and saves experience. (TGT-54975)
+
++++
+
+**Audiences**
+
++++See details
+
+* **Unlocalized strings in [!UICONTROL Create Profile Script] dialog.** Fixed an issue where strings in the [!UICONTROL Create Profile Script] dialog were not localized. (TGT-51527)
+
++++
+
 ## [!DNL Target Standard/Premium] 26.7.1 (July 9, 2026)
 
 **Activities**
