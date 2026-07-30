@@ -32,6 +32,26 @@ Explore the latest features, enhancements, and fixes in [!DNL Adobe Target]. The
 
 (The issue numbers in parentheses are for internal [!DNL Adobe] use.)
 
+## [!DNL Target Standard/Premium] 26.7.5 (July 30, 2026)
+
+**Activities**
+
++++See details
+
+* **Bayesian statistics for [!DNL A/B Test (Manual)] activities** [!DNL A/B Test (Manual)] activities now support Bayesian statistics as an alternative to Welch's t-test. Choose the statistical methodology in [!UICONTROL Goals & Settings]: a Bayesian activity's report shows probability-based decision metrics, such as [!UICONTROL Chance to Beat Control], and credible intervals instead of the frequentist confidence interval.
+
+* **[!DNL Customer Journey Analytics] reporting for [!DNL Auto-Allocate] activities.** [!DNL Auto-Allocate] activities can now use [!DNL Customer Journey Analytics] as their reporting source, in addition to [!DNL Target] and [!DNL Adobe Analytics] (A4T).
+
++++
+
+**[!UICONTROL Visual Experience Composer] (VEC)**
+
++++See details
+
+* **Unable to select or modify HTML offers in activity.** Fixed an issue where adding certain HTML or Experience Fragment offers to an activity caused the [!UICONTROL Visual Experience Composer] to crash, preventing offers from being selected or modified. (TGT-55732)
+
++++
+
 ## [!DNL Target Standard/Premium] 26.7.4 (July 23, 2026)
 
 **Reporting**
