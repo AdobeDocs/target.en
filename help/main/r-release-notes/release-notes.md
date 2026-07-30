@@ -38,7 +38,7 @@ Explore the latest features, enhancements, and fixes in [!DNL Adobe Target]. The
 
 +++See details
 
-* **Bayesian statistics for [!DNL A/B Test (Manual)] activities** [!DNL A/B Test (Manual)] activities now support Bayesian statistics as an alternative to Welch's t-test. Choose the statistical methodology in [!UICONTROL Goals & Settings]: a Bayesian activity's report shows probability-based decision metrics, such as [!UICONTROL Chance to Beat Control], and credible intervals instead of the frequentist confidence interval.
+* **Bayesian statistics for [!DNL A/B Test (Manual)] activities** [!DNL A/B Test (Manual)] activities now support Bayesian statistics as an alternative to Welch's t-test. Choose the statistical methodology in [!UICONTROL Goals & Settings]: a Bayesian activity's report shows probability-based decision metrics, such as [!UICONTROL Chance to Beat Control], and credible intervals instead of the frequentist confidence interval. [Learn more](../c-reports/statistical-methodology/statistical-calculations.md)
 
 * **[!DNL Customer Journey Analytics] reporting for [!DNL Auto-Allocate] activities.** [!DNL Auto-Allocate] activities can now use [!DNL Customer Journey Analytics] as their reporting source, in addition to [!DNL Target] and [!DNL Adobe Analytics] (A4T). [Learn more](../c-integrating-target-with-mac/cja/target-reporting-in-cja.md)
 
