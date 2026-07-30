@@ -1,6 +1,7 @@
 ---
 title: Set a feature to gradually roll out
 description: Learn how to configure a percentage-based gradual rollout for a feature flag in Flags.
+badge: label="Beta" type="Informative"
 hide: true
 exl-id: 1e03c533-398d-4a83-9f4a-c0419828b460
 ---
@@ -10,7 +11,7 @@ The percentage rollout for a feature flag is configured in the **Basic Details**
 
 ## How it works {#how-it-works}
 
-When you set a percentage rollout — for example, 25% — that percentage of your defined audience is exposed to the feature. The remaining percentage is placed in the **control group**, which receives the default experience.
+When you set a percentage rollout — for example, 25% — that percentage of your defined audience is exposed to the feature. The percentage rollout is **required** and defaults to **100%** (the feature is served to the entire matching audience). You can adjust it in **1% increments**. The remaining percentage is placed in the **control group**, which receives the default experience.
 
 You can increase or decrease the percentage over time to expand or contract the rollout. Reducing the percentage to 0% effectively turns off the feature for everyone in the audience without deleting the flag.
 

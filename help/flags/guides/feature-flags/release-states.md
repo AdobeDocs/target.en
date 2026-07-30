@@ -1,6 +1,7 @@
 ---
 title: Release states
 description: Learn about the lifecycle states of a release in Flags, including what each state means and which transitions are allowed.
+badge: label="Beta" type="Informative"
 hide: true
 exl-id: c1311353-9c36-43c5-8e75-3b3ee225da41
 ---
