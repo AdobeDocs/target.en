@@ -68,11 +68,11 @@ When determining your reporting source, consider the following information:
 
 * **[!DNL Customer Journey Analytics]**: For a matrix of supported activities using [!DNL Target] reporting in [!DNL Customer Journey Analytics], see [Supported activity types](/help/main/c-integrating-target-with-mac/cja/target-reporting-in-cja.md#supported-activities) in *[!DNL Target] reporting in [!DNL Adobe Customer Journey Analytics]*.
 
-    [!UICONTROL Automated Personalization] (AP), [!UICONTROL Auto-Allocate], and [!UICONTROL Auto-Target] activity creation and activation are allowed irrespective of the reporting source selected. These activities are not supported when you choose [Adobe Customer Journey Analytics as the reporting source](/help/main/c-integrating-target-with-mac/cja/target-reporting-in-cja.md). 
+    [!UICONTROL Automated Personalization] (AP) and [!UICONTROL Auto-Target] activity creation and activation are allowed irrespective of the reporting source selected at the account level. These activity types are not supported when you choose [Adobe Customer Journey Analytics as the reporting source](/help/main/c-integrating-target-with-mac/cja/target-reporting-in-cja.md) for an activity.
     
-    Even if you specify [!DNL Customer Journey Analytics] as your reporting source, [!DNL Target] is used as the reporting source for [!DNL Automated Personalization] activities. 
+    Even if you specify [!DNL Customer Journey Analytics] as your reporting source at the account level, [!DNL Target] is used as the reporting source for [!DNL Automated Personalization] activities. 
     
-    If you specify [!DNL Customer Journey Analytics] as your reporting source for [!UICONTROL Auto-Allocate] or [!UICONTROL Auto-Target] activities, [!DNL Target] or [!DNL Analytics] can be used as the reporting source. 
+    [!UICONTROL Auto-Allocate] activities can use [!DNL Customer Journey Analytics] as the reporting source. See [Create an activity that uses [!DNL Customer Journey Analytics] as the reporting source](/help/main/c-integrating-target-with-mac/cja/target-reporting-in-cja.md#create-an-activity-that-uses-customer-journey-analytics-as-the-reporting-source) in *[!DNL Target] reporting in [!DNL Adobe Customer Journey Analytics]*. If you specify [!DNL Customer Journey Analytics] as your reporting source for [!UICONTROL Auto-Target] activities, [!DNL Target] or [!DNL Analytics] can be used as the reporting source. 
 
 ## Timezone for Reporting
 
