@@ -34,11 +34,21 @@ Explore the latest features, enhancements, and fixes in [!DNL Adobe Target]. The
 
 ## [!DNL Target Standard/Premium] 26.8.2 (August 11, 2026)
 
+**Audiences**
+
++++See details
+
+* **Unable to copy and save a custom code modification in an activity using an activity-only audience.** Fixed an issue where copying an activity that used an activity-only audience failed to save with an "Invalid audience ids" error after you added a custom code modification. (TGT-55785)
+
++++
+
 **Localization**
 
 +++See details
 
 * **Corrupted multi-byte characters in activity URL.** Fixed an issue where multi-byte characters in the activity URL appeared corrupted in the [!UICONTROL Visual Experience Composer] and on the **[!UICONTROL Collisions]** tab. (TGT-55708)
+
+* **Unlocalized error message when opening a deleted design.** Fixed an issue where the **[!UICONTROL Requested resource was not found]** error message was not localized when you tried to open a design that had been deleted by another user. (TGT-50902)
 
 +++
 
