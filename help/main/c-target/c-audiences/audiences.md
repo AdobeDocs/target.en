@@ -46,9 +46,11 @@ To access the [!UICONTROL Audiences] list, click **[!UICONTROL Audiences]** in t
 
 ![[!UICONTROL Audiences] list](assets/audiences_list.png)
 
-The [!UICONTROL Audiences] list contains the audiences that you can use in your activities. Use the [!UICONTROL Audiences] list to create, edit, duplicate, copy, or combine audiences. The list also shows the source where the audience was created:
+The [!UICONTROL Audiences] list contains the audiences that you can use in your activities. Use the [!UICONTROL Audiences] list to create, edit, duplicate, copy, or combine audiences. Any audience can be edited, including audiences created via the [!DNL Adobe Target] API or the [[!DNL Adobe Target] MCP server](/help/main/c-integrating-target-with-mac/mcp/target-mcp.md). The list also shows the source where the audience was created:
 
 * [!DNL Adobe Target]
+* [!DNL Adobe Target] API
+* [!DNL Adobe Target] MCP server
 * [!DNL Adobe Target Classic]
 * [!DNL Experience Cloud]
 * [!DNL Adobe Experience Platform]
