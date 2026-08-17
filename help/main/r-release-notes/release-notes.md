@@ -32,6 +32,16 @@ Explore the latest features, enhancements, and fixes in [!DNL Adobe Target]. The
 
 (The issue numbers in parentheses are for internal [!DNL Adobe] use.)
 
+## [!DNL Target Standard/Premium] 26.8.3 (August 13, 2026)
+
+**Activities and audiences**
+
++++See details
+
+* **Edit enabled for API/MCP-created activities and audiences.** Activities and audiences created via the [!DNL Adobe Target] Admin API and [!DNL Target] MCP can now be edited in the [!DNL Target] UI.
+
++++
+
 ## [!DNL Target Standard/Premium] 26.8.2 (August 11, 2026)
 
 **Audiences**
