@@ -32,6 +32,24 @@ Explore the latest features, enhancements, and fixes in [!DNL Adobe Target]. The
 
 (The issue numbers in parentheses are for internal [!DNL Adobe] use.)
 
+## [!DNL Target Standard/Premium] 26.8.4 (August 18, 2026)
+
+**Recommendations**
+
++++See details
+
+* **Null-value filter for exclusions and collections.** You can now use the **Value is present** and **Value is not present** operators when defining exclusion rules and collection filters in [!DNL Recommendations]. (TGT-55790)
+
++++
+
+**[!UICONTROL Visual Experience Composer] (VEC)**
+
++++See details
+
+* **Click metrics elements not showing in the VEC editor after saving the activity.** Fixed an issue where previously configured click metrics were not displayed when you edited the goals and metrics for an activity in the [!UICONTROL Visual Experience Composer], even though the metrics continued to be tracked correctly in activity reports. (TGT-55826)
+
++++
+
 ## [!DNL Target Standard/Premium] 26.8.3 (August 13, 2026)
 
 **Activities and audiences**
