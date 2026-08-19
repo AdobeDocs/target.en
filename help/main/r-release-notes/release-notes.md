@@ -48,6 +48,8 @@ Explore the latest features, enhancements, and fixes in [!DNL Adobe Target]. The
 
 * **Click metrics elements not showing in the VEC editor after saving the activity.** Fixed an issue where previously configured click metrics were not displayed when you edited the goals and metrics for an activity in the [!UICONTROL Visual Experience Composer], even though the metrics continued to be tracked correctly in activity reports. (TGT-55826)
 
+* **Intermittent "No Modifications" message in the VEC.** Fixed an issue where the **[!UICONTROL Modifications]** panel intermittently displayed "No Modifications" for existing modifications in active Experience Targeting activities. (TGT-55842)
+
 +++
 
 ## [!DNL Target Standard/Premium] 26.8.3 (August 13, 2026)
