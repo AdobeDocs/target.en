@@ -32,63 +32,11 @@ Explore the latest features, enhancements, and fixes in [!DNL Adobe Target]. The
 
 (The issue numbers in parentheses are for internal [!DNL Adobe] use.)
 
-## [!DNL Target Standard/Premium] 26.8.5 (August 18, 2026)
+## [!DNL Target Standard/Premium] 26.9.1 (September, 2026)
 
-**Recommendations**
++++ Audience
 
-+++See details
-
-* **Null-value filter for exclusions and collections.** You can now use the **Value is present** and **Value is not present** operators when defining exclusion rules and collection filters in [!DNL Recommendations]. (TGT-55790)
-
-+++
-
-**[!UICONTROL Visual Experience Composer] (VEC)**
-
-+++See details
-
-* **Click metrics elements not showing in the VEC editor after saving the activity.** Fixed an issue where previously configured click metrics were not displayed when you edited the goals and metrics for an activity in the [!UICONTROL Visual Experience Composer], even though the metrics continued to be tracked correctly in activity reports. (TGT-55826)
-
-* **Intermittent "No Modifications" message in the VEC.** Fixed an issue where the **[!UICONTROL Modifications]** panel intermittently displayed "No Modifications" for existing modifications in active Experience Targeting activities. (TGT-55842)
-
-+++
-
-## [!DNL Target Standard/Premium] 26.8.3 (August 13, 2026)
-
-**Activities and audiences**
-
-+++See details
-
-* **Edit enabled for API/MCP-created activities and audiences.** Activities and audiences created via the [!DNL Adobe Target] Admin API and [!DNL Target] MCP can now be edited in the [!DNL Target] UI.
-
-+++
-
-## [!DNL Target Standard/Premium] 26.8.2 (August 11, 2026)
-
-**Audiences**
-
-+++See details
-
-* **Unable to copy and save a custom code modification in an activity using an activity-only audience.** Fixed an issue where copying an activity that used an activity-only audience failed to save with an "Invalid audience ids" error after you added a custom code modification. (TGT-55785)
-
-+++
-
-**Localization**
-
-+++See details
-
-* **Corrupted multi-byte characters in activity URL.** Fixed an issue where multi-byte characters in the activity URL appeared corrupted in the [!UICONTROL Visual Experience Composer] and on the **[!UICONTROL Collisions]** tab. (TGT-55708)
-
-* **Unlocalized error message when opening a deleted design.** Fixed an issue where the **[!UICONTROL Requested resource was not found]** error message was not localized when you tried to open a design that had been deleted by another user. (TGT-50902)
-
-+++
-
-## [!DNL Target Standard/Premium] 26.8.1 (August 4, 2026)
-
-**[!UICONTROL Visual Experience Composer] (VEC)**
-
-+++See details
-
-* **Truncated icons in [!UICONTROL Experience Audiences] panel.** Fixed an issue where the **[!UICONTROL Add]** and expand/collapse icons were hidden or truncated in the **[!UICONTROL Experience Audiences]** panel during activity creation. (TGT-55372)
+* **Copying an Activity with an activity-only audience fails to save**. When an A/B activity uses an activity-only (locally-scoped) audience rule and a Custom Code modification, copying it and saving the copy fails with an "Invalid audience ids" error. (TGT-55785)
 
 +++
 
