@@ -32,9 +32,11 @@ Explore the latest features, enhancements, and fixes in [!DNL Adobe Target]. The
 
 (The issue numbers in parentheses are for internal [!DNL Adobe] use.)
 
-## [!DNL Target Standard/Premium] 26.9.1 (September, 2026)
+## [!DNL Target Standard/Premium] 26.9.1 (September 1, 2026)
 
-+++ Audience
+**[!UICONTROL Audience]**
+
++++See details
 
 * **Copying an Activity with an activity-only audience fails to save**. When an A/B activity uses an activity-only (locally-scoped) audience rule and a Custom Code modification, copying it and saving the copy fails with an "Invalid audience ids" error. (TGT-55785)
 

@@ -140,7 +140,7 @@ Release notes are listed in descending order by month and year of release.
 
 * **Truncated icons in [!UICONTROL Experience Audiences] panel.** Fixed an issue where the **[!UICONTROL Add]** and expand/collapse icons were hidden or truncated in the **[!UICONTROL Experience Audiences]** panel during activity creation. (TGT-55372)
 
-+++v
++++
 
 ## [!DNL Target Standard/Premium] 26.7.5 (July 30, 2026)
 
