@@ -38,6 +38,10 @@ Built on [!DNL Adobe Experience Platform], [!DNL Real-Time Customer Data Platfor
 
 For more information about RTCDP, see [Real-Time Customer Data Platform overview](https://experienceleague.adobe.com/docs/experience-platform/rtcdp/overview.html){target=_blank}.
 
+>[!NOTE]
+>
+>This article focuses on the [!DNL Target]/RTCDP integration. As of August 2026, the underlying **[!UICONTROL Adobe Target]** destination in the Experience Platform destinations catalog is also available to organizations with [!DNL Adobe Journey Optimizer] that do not have Real-Time CDP. See [Entitlement](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/personalization/adobe-target-connection.html#entitlement){target=_blank} in the *Adobe Target connection* guide for details on which capabilities are available for each entitlement type.
+
 ## Key features
 
 Key features include:
