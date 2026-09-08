@@ -43,6 +43,14 @@ Explore the latest features, enhancements, and fixes in [!DNL Adobe Target]. The
 
 +++
 
+**[!UICONTROL Reporting]**
+
++++See details
+
+* **Automated Segments report does not consistently display attribute values**. The Automated Segments report inconsistently displayed attribute values and ranges for [!DNL Automated Personalization] and [!DNL Auto-Target] activities. Some automated segments showed only the attribute name instead of the associated value or range. (TGT-55855)
+
++++
+
 ## [!DNL Target Standard/Premium] 26.9.1 (September 1, 2026)
 
 **[!UICONTROL Audience]**
