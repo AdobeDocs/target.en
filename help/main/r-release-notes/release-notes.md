@@ -32,6 +32,17 @@ Explore the latest features, enhancements, and fixes in [!DNL Adobe Target]. The
 
 (The issue numbers in parentheses are for internal [!DNL Adobe] use.)
 
+## [!DNL Target Standard/Premium] 26.9.2 (September 8, 2026)
+
+
+**[!UICONTROL Recommendations]**
+
++++See details
+
+* **[!DNL New] user interface encodes feed URLs incorrectly**. When creating a recommendations feed from a URL in the new [!DNL Target] interface, the feed URL was encoded incorrectly, causing feed creation to fail with an unknown error. (TGT-56084)
+
++++
+
 ## [!DNL Target Standard/Premium] 26.9.1 (September 1, 2026)
 
 **[!UICONTROL Audience]**
