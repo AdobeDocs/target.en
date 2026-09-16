@@ -32,6 +32,24 @@ Explore the latest features, enhancements, and fixes in [!DNL Adobe Target]. The
 
 (The issue numbers in parentheses are for internal [!DNL Adobe] use.)
 
+## [!DNL Target Standard/Premium] 26.9.3 (September 16, 2026)
+
+**[!UICONTROL Reporting]**
+
++++See details
+
+* **Missing [!UICONTROL Lift] and [!UICONTROL Confidence] values in some [!DNL A4T Auto-Target] reports**. For [!DNL A4T Auto-Target] activities using the **[!UICONTROL Maximize Visit Conversion Rate]** optimization goal, the default **[!UICONTROL My Primary Metric]** report metric did not resolve correctly, leaving **[!UICONTROL Lift]** and **[!UICONTROL Confidence]** blank. (TGT-56137)
+
++++
+
+**[!UICONTROL Analytics for Target]**
+
++++See details
+
+* **[!UICONTROL Reporting Source] field is now read-only for live activities without [!DNL Analytics] access**. Previously, when a live activity's owner did not have access to [!DNL Adobe Analytics], the **[!UICONTROL Reporting Source]** field and its related field remained editable. (TGT-56089)
+
++++
+
 ## [!DNL Target Standard/Premium] 26.9.2 (September 8, 2026)
 
 
