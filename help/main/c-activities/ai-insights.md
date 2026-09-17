@@ -33,40 +33,25 @@ The **[!UICONTROL AI insights]** menu in your [!UICONTROL Activity Overview] pro
 
 The [!UICONTROL AI insights] tab can display AI-generated experiment insights and optimization opportunities in cards. The cards help you review the results of an experiment and identify potential follow-up treatments.
 
-The available cards depend on the data and experiment configuration. Insights are generated after the experiment has sufficient data for statistical validation and the required experiment details have been confirmed.
+The available cards depend on how you set up your Goals & Settings. [Learn more](../c-activities/t-test-ab/t-test-create-ab/ab-goals-and-settings.md)
 
 1. Open your activity in [!DNL Adobe Target].
 
 1. Select the **[!UICONTROL AI insights]** menu.
 
-1. Review the insight or opportunity cards.
+1. Click **[!UICONTROL Open]** to add screenshot.
 
-1. Select a card to open its details.
+    ![](assets/ai-insights-1.png)
 
-The card details can include:
+1. Select **[!UICONTROL Upload image]** to upload a preferred screenshot from your local files for your Treatments.
 
-* A description of the insight or recommended opportunity.
-* The expected business or conversion impact.
-* Statistical validation for the experiment result.
-* A comparison of the treatments associated with the recommendation.
+    ![](assets/ai-insights-2.png)
 
-Use the arrows in the card viewer to move between available insights and opportunities. The position indicator shows your location in the set of cards.
+1. Once your treatment each has a screenshot, click **[!UICONTROL Confirm]**.
 
-## Compare treatment screenshots
+Once you finished configuring your AI insights and opportunities, you will to get valuable Insights and Opportunities.
 
-Opportunity cards can include screenshots of the treatments used in the experiment. Review the screenshots to compare the recommended treatment with the existing experience.
-
-If the automatically generated image does not represent the treatment accurately, use the upload control to add a screenshot. You can also replace an existing screenshot with an updated image.
-
->[!NOTE]
->
->Upload a screenshot that captures the entire page so that the treatment can be evaluated in its full context.
-
-## Open Experimentation Accelerator
-
-To continue working with an insight or opportunity, use the link in the card details to open **[!UICONTROL Experimentation Accelerator]**. The Experimentation Accelerator view provides the related experiment context and the available actions for the recommendation.
-
-For activities created in [!DNL Adobe Journey Optimizer], the related experiment opens in the content experimentation workflow. For activities created in [!DNL Adobe Target], the recommendation opens in the corresponding Target experimentation workflow when that action is supported.
+Insights are generated after the experiment has sufficient data for statistical validation and the required experiment details have been confirmed.
 
 ## Supported activities and limitations
 
@@ -83,6 +68,7 @@ The following conditions can affect what appears in the tab:
 For information about planning experiment inputs, see [Sample Size Calculator](sample-size-calculator.md).
 
 ## Insights
+
 
 >[!CONTEXTUALHELP]
 >id="target_ai_insights"
