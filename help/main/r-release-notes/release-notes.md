@@ -32,6 +32,16 @@ Explore the latest features, enhancements, and fixes in [!DNL Adobe Target]. The
 
 (The issue numbers in parentheses are for internal [!DNL Adobe] use.)
 
+## [!DNL Target Standard/Premium] 26.9.4 (September 17, 2026)
+
+**[!UICONTROL Visual Experience Composer] (VEC)**
+
++++See details
+
+* **[!UICONTROL Insert Before] control inaccessible for [!DNL Experience Fragments] on the top-most page element**. In the Visual Experience Composer, selecting the top-most element on a page scrolled the page upward, causing the **[!UICONTROL Insert Before]** control to render above the visible viewport where it coul not be selected. (TGT-55829)
+
++++
+
 ## [!DNL Target Standard/Premium] 26.9.3 (September 16, 2026)
 
 **[!UICONTROL Reporting]**
