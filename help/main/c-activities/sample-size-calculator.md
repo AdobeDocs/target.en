@@ -165,4 +165,6 @@ Estimate the planning inputs for an A/B activity that relies on Adobe Analytics 
 
 The **[!UICONTROL Result]** panel displays the estimate after you complete the required fields and run the calculation. If required fields are incomplete, the panel prompts you to enter the missing values.
 
+![](assets/calculator-cja-analytics-4.png)
+
 The calculator provides an estimate for planning an experiment. Use the result together with your experiment design, expected traffic, baseline performance, and statistical requirements when deciding how long to run the activity.
