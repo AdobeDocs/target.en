@@ -29,6 +29,97 @@ topic_v2:
 ---
 # Introduction to [!DNL Target]
 
+
+>[!CONTEXTUALHELP]
+>id="target_sample_size_ab_daily_traffic"
+>title="Daily traffic"
+>abstract="How many users enter your experiment each day. If you do not know your daily traffic, choose \"Traffic volume\" above and the calculator will solve for it using your other inputs."
+
+>[!CONTEXTUALHELP]
+>id="target_sample_size_setup"
+>title="Set up the test"
+>abstract="These fields define your A/B test, what you expect to see and how confident you need to be in the result. The field tied to what you selected above will be solved for automatically. Fill in the rest with your expected values."
+
+>[!CONTEXTUALHELP]
+>id="target_sample_size_number_experiences"
+>title="Number of experiences"
+>abstract="Number of variants in your experiment, including the control. An A/B test has 2 arms. Five variants plus a control equals 6. More arms require proportionally more traffic to maintain statistical power."
+
+>[!CONTEXTUALHELP]
+>id="target_sample_size_duration"
+>title="Duration of A/B test"
+>abstract="How many days your experiment will run. Longer durations give your experiment more time to collect data, letting you reliably detect smaller effects. Shorter durations need larger effects or more daily traffic to reach a reliable result."
+
+>[!CONTEXTUALHELP]
+>id="target_sample_size_minimum_detectable_effect"
+>title="Minimum Detectable Effect"
+>abstract="The smallest improvement worth detecting, the minimum change in your metric that you would act on. This is the size of the lift in percentage points, not the percent change relative to your baseline. For example, if your baseline is 5% and a 1 percentage point lift matters, enter 1."
+
+>[!CONTEXTUALHELP]
+>id="target_sample_size_expected_improvement"
+>title="Expected improvement"
+>abstract="The improvement you expect the experiment to produce."
+
+>[!CONTEXTUALHELP]
+>id="target_sample_size_variance"
+>title="Variance"
+>abstract="How spread out your metric's values are, not its average. A metric like a click rate (mostly 0s and 1s) has low variance, a metric like revenue per user (a few high spenders, many low) can have much higher variance. If you are unsure, leave the default value of 1."
+
+>[!CONTEXTUALHELP]
+>id="target_sample_size_confidence_level"
+>title="Confidence level"
+>abstract="How confident you need to be that a result is not just random chance before calling it real, the threshold for statistical significance. A 95% confidence level means there is at most a 5% chance of a false positive. Higher values reduce false positives but require more data."
+
+>[!CONTEXTUALHELP]
+>id="target_sample_size_statistical_power"
+>title="Statistical power"
+>abstract="The probability of detecting an effect if one truly exists, the sensitivity of the experiment. 80% power means there is an 80% chance of detecting a real effect. Higher power reduces false negatives but requires more traffic or a longer runtime."
+
+>[!CONTEXTUALHELP]
+>id="target_sample_size_traffic_mode"
+>title="Traffic mode"
+>abstract="How users enter your experiment. Continuous: users enter daily over the experiment duration. Traffic automatically shifts toward better performing variants as results come in."
+
+>[!CONTEXTUALHELP]
+>id="target_sample_size_metric_type"
+>title="Metric type"
+>abstract="What kind of metric you are measuring. Percentage: use this for binary outcomes like clicks or conversions, where each user either does or does not do something. Number: use this for metrics like revenue or page views, where the value can vary widely from user to user."
+
+>[!CONTEXTUALHELP]
+>id="target_sample_size_auto_daily_traffic"
+>title="Daily traffic"
+>abstract="How many users enter your experiment each day. Used for continuous experiments that run over multiple days, with traffic automatically shifting toward better performing variants as results come in."
+
+>[!CONTEXTUALHELP]
+>id="target_sample_size_baseline_metric_rate"
+>title="Baseline metric rate"
+>abstract="Your current performance before the experiment starts, the control arm average. Always required. For percentage metrics, enter as a percentage: if 5% of visitors click Buy today, enter 5. For count metrics, enter the raw decimal value."
+
+>[!CONTEXTUALHELP]
+>id="target_ai_insights_primary_metric"
+>title="Primary metric"
+>abstract="The primary metric is automatically pulled from the reporting settings. To make changes, modify the goal metric under Goals & Settings."
+
+>[!CONTEXTUALHELP]
+>id="target_ai_insights_hypothesis"
+>title="Hypothesis"
+>abstract="The hypothesis is a statement you define that explains the expected outcome of the experiment. Include a description of what is being changed and where, then state which metric you expect to change and how."
+
+>[!CONTEXTUALHELP]
+>id="target_ai_insights_insights"
+>title="Insights"
+>abstract="Experiment insights are the learnings found by AI when the experiment data has met statistical significance."
+
+>[!CONTEXTUALHELP]
+>id="target_ai_insights_opportunities"
+>title="Opportunities"
+>abstract="Experiment opportunities are AI suggested treatment ideas based on patterns AI found in your experiment screenshots and results."
+
+>[!CONTEXTUALHELP]
+>id="target_ai_insights_treatment_details"
+>title="Treatment details"
+>abstract="Treatment details show images of what a treatment looks like when a user qualifies for it. You can review these images for all experiments. Some experiments may ask you to confirm the image or replace it if needed."
+
 [!DNL Adobe Target], part of the [!DNL Adobe Experience Cloud], offers comprehensive tools to personalize customer experiences across web, mobile sites, apps, social media, and other digital channels. 
 
 [!DNL Target] helps maximize revenue and can be licensed as [!DNL Target Standard] or [!DNL Target Premium].
@@ -126,92 +217,4 @@ The following video explains the activity types available in [!DNL Target Standa
 
 >[!VIDEO](https://video.tv.adobe.com/v/17386)
 
->[!CONTEXTUALHELP]
->id="target_sample_size_ab_daily_traffic"
->title="Daily traffic"
->abstract="How many users enter your experiment each day. If you do not know your daily traffic, choose \"Traffic volume\" above and the calculator will solve for it using your other inputs."
 
->[!CONTEXTUALHELP]
->id="target_sample_size_setup"
->title="Set up the test"
->abstract="These fields define your A/B test, what you expect to see and how confident you need to be in the result. The field tied to what you selected above will be solved for automatically. Fill in the rest with your expected values."
-
->[!CONTEXTUALHELP]
->id="target_sample_size_number_experiences"
->title="Number of experiences"
->abstract="Number of variants in your experiment, including the control. An A/B test has 2 arms. Five variants plus a control equals 6. More arms require proportionally more traffic to maintain statistical power."
-
->[!CONTEXTUALHELP]
->id="target_sample_size_duration"
->title="Duration of A/B test"
->abstract="How many days your experiment will run. Longer durations give your experiment more time to collect data, letting you reliably detect smaller effects. Shorter durations need larger effects or more daily traffic to reach a reliable result."
-
->[!CONTEXTUALHELP]
->id="target_sample_size_minimum_detectable_effect"
->title="Minimum Detectable Effect"
->abstract="The smallest improvement worth detecting, the minimum change in your metric that you would act on. This is the size of the lift in percentage points, not the percent change relative to your baseline. For example, if your baseline is 5% and a 1 percentage point lift matters, enter 1."
-
->[!CONTEXTUALHELP]
->id="target_sample_size_expected_improvement"
->title="Expected improvement"
->abstract="The improvement you expect the experiment to produce."
-
->[!CONTEXTUALHELP]
->id="target_sample_size_variance"
->title="Variance"
->abstract="How spread out your metric's values are, not its average. A metric like a click rate (mostly 0s and 1s) has low variance, a metric like revenue per user (a few high spenders, many low) can have much higher variance. If you are unsure, leave the default value of 1."
-
->[!CONTEXTUALHELP]
->id="target_sample_size_confidence_level"
->title="Confidence level"
->abstract="How confident you need to be that a result is not just random chance before calling it real, the threshold for statistical significance. A 95% confidence level means there is at most a 5% chance of a false positive. Higher values reduce false positives but require more data."
-
->[!CONTEXTUALHELP]
->id="target_sample_size_statistical_power"
->title="Statistical power"
->abstract="The probability of detecting an effect if one truly exists, the sensitivity of the experiment. 80% power means there is an 80% chance of detecting a real effect. Higher power reduces false negatives but requires more traffic or a longer runtime."
-
->[!CONTEXTUALHELP]
->id="target_sample_size_traffic_mode"
->title="Traffic mode"
->abstract="How users enter your experiment. Continuous: users enter daily over the experiment duration. Traffic automatically shifts toward better performing variants as results come in."
-
->[!CONTEXTUALHELP]
->id="target_sample_size_metric_type"
->title="Metric type"
->abstract="What kind of metric you are measuring. Percentage: use this for binary outcomes like clicks or conversions, where each user either does or does not do something. Number: use this for metrics like revenue or page views, where the value can vary widely from user to user."
-
->[!CONTEXTUALHELP]
->id="target_sample_size_auto_daily_traffic"
->title="Daily traffic"
->abstract="How many users enter your experiment each day. Used for continuous experiments that run over multiple days, with traffic automatically shifting toward better performing variants as results come in."
-
->[!CONTEXTUALHELP]
->id="target_sample_size_baseline_metric_rate"
->title="Baseline metric rate"
->abstract="Your current performance before the experiment starts, the control arm average. Always required. For percentage metrics, enter as a percentage: if 5% of visitors click Buy today, enter 5. For count metrics, enter the raw decimal value."
-
->[!CONTEXTUALHELP]
->id="target_ai_insights_primary_metric"
->title="Primary metric"
->abstract="The primary metric is automatically pulled from the reporting settings. To make changes, modify the goal metric under Goals & Settings."
-
->[!CONTEXTUALHELP]
->id="target_ai_insights_hypothesis"
->title="Hypothesis"
->abstract="The hypothesis is a statement you define that explains the expected outcome of the experiment. Include a description of what is being changed and where, then state which metric you expect to change and how."
-
->[!CONTEXTUALHELP]
->id="target_ai_insights_insights"
->title="Insights"
->abstract="Experiment insights are the learnings found by AI when the experiment data has met statistical significance."
-
->[!CONTEXTUALHELP]
->id="target_ai_insights_opportunities"
->title="Opportunities"
->abstract="Experiment opportunities are AI suggested treatment ideas based on patterns AI found in your experiment screenshots and results."
-
->[!CONTEXTUALHELP]
->id="target_ai_insights_treatment_details"
->title="Treatment details"
->abstract="Treatment details show images of what a treatment looks like when a user qualifies for it. You can review these images for all experiments. Some experiments may ask you to confirm the image or replace it if needed."
