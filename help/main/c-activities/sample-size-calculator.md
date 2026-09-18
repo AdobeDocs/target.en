@@ -9,12 +9,101 @@ feature: Activities
 >[!CONTEXTUALHELP]
 >id="target_sample_size_ab_daily_traffic"
 >title="Daily traffic"
->abstract="How many users enter your experiment each day. If you do not know your daily traffic, choose \"Traffic volume\" above and the calculator will solve for it using your other inputs."
+>abstract="How many users enter the experiment each day. If you do not know this value, choose Traffic volume above, and the calculator will solve for it using the other inputs."
 
 >[!CONTEXTUALHELP]
->id="target_sample_size_setup"
+>id="target_sample_size_confidence_level"
+>title="Confidence level"
+>abstract="How certain you need to be that a result is not due to random chance before calling it significant. A 95% confidence level means there is at most a 5% chance of a false positive. Higher values reduce false positives, but they also require more data."
+
+>[!CONTEXTUALHELP]
+>id="target_sample_size_statistical_power"
+>title="Statistical power"
+>abstract="The probability of detecting a real effect if one exists. An 80% power level means there is an 80% chance of detecting a true effect. Higher power reduces false negatives, but it requires more traffic or a longer runtime."
+
+>[!CONTEXTUALHELP]
+>id="target_sample_size_setup_cja"
 >title="Set up the test"
->abstract="These fields define your A/B test, what you expect to see and how confident you need to be in the result. The field tied to what you selected above will be solved for automatically. Fill in the rest with your expected values."
+>abstract="These fields define the experiment, the expected outcome, and the confidence threshold for the result. The field tied to the value you selected above is solved automatically; complete the remaining fields with your expected values."
+
+
+>[!AVAILABILITY]
+>
+>The Sample Size Calculator is available as a beta feature
+
+The **[!UICONTROL Sample Size Calculator]** allows you to estimate the inputs needed to plan an experiment before you launch it. The calculator helps you determine how much traffic you need, how long the test should run, how many experiences to include, or what minimum effect you can reliably detect based on the values you provide.
+
+To access the **[!UICONTROL Sample Size Calculator]**, go to the **[!UICONTROL Activities]** menu.
+
+![](assets/calculator_menu.png)
+
+## A/B (Target reporting)
+
+>[!CONTEXTUALHELP]
+>id="target_sample_size_bonferroni"
+>title="Bonferroni correction"
+>abstract="Adjusts the confidence level to account for comparing more than one offer against the control at the same time. This matters only when the number of offers is greater than two. It matches the same correction used in Adobe's public Target Calculator tool."
+
+>[!CONTEXTUALHELP]
+>id="target_sample_size_metric_type"
+>title="Metric type"
+>abstract="What kind of metric you are measuring. Use Percentage for binary outcomes, such as clicks or conversions, where each user either does or does not complete the action. Use Number for metrics like revenue or page views, where the values can vary widely from user to user."
+
+>[!CONTEXTUALHELP]
+>id="target_sample_size_number_offers"
+>title="Number of offers"
+>abstract="The number of experiences in the experiment, including the control. More than two offers automatically applies a Bonferroni correction (when enabled) to keep the overall confidence level accurate across all comparisons."
+
+>[!CONTEXTUALHELP]
+>id="target_sample_size_lift"
+>title="Lift"
+>abstract="The relative improvement over baseline that you want to detect. Enter it as a percentage of the baseline. For example, a 5% lift on an 11.8% baseline conversion rate targets 12.39%."
+
+>[!CONTEXTUALHELP]
+>id="target_sample_size_baseline_conversion_rate"
+>title="Baseline conversion rate"
+>abstract="Your current conversion rate before the experiment starts, which is the control arm average. This value is always required. For percentage metrics, enter a percentage such as 5 for 5%. For count metrics, enter the raw decimal value."
+
+Estimate the inputs required to plan and run an A/B test. These values help you decide how much traffic you need, how long the test should run, and what effect size you can realistically detect.
+
+1. Access the **[!UICONTROL A/B (Target Reporting)]** tab to calculate planning inputs for an A/B test.
+
+1. Enable the **[!UICONTROL Apply correction]** option to adjust your confidence level to account for comparing more than one offer against the control at the same time.
+
+1. Choose your **[!UICONTROL Metric type]**:
+
+    * Conversion rate: use this for binary outcomes like clicks or purchases, where each visitor either does or does not complete the action.
+    * Revenue per visitor: use this for revenue-style metrics, where values can vary widely from visitor to visitor.
+
+        ![](assets/calculator-target_reporting_1.png)
+
+1. Specify the **[!UICONTROL Daily traffic]**, the number of users entering the experiment each day.
+
+1. Under **[!UICONTROL Set up the test]**, enter the remaining values:
+
+    * **[!UICONTROL Number of offers]**: The number of experiences in your experiment, including the control. More than two offers applies a Bonferroni correction, when enabled, to maintain the overall confidence level.
+
+    * **[!UICONTROL Lift]**: The relative improvement over baseline that you want to detect. Enter it as a percentage of the baseline, for example, a 5% lift on an 11.8% baseline conversion rate targets 12.39%.
+
+        ![](assets/calculator-target_reporting_2.png)
+
+1. Specify the **[!UICONTROL Baseline conversion rate]** for your current experience before the experiment starts.
+
+1. You can expand **[!UICONTROL Advanced statistical settings]** to provide additional statistical inputs when they are available for the selected calculation.
+
+    * **[!UICONTROL Confidence level]**: The likelihood that a result is not due to chance. A 95% level allows a 5% chance of a false positive.
+
+    * **[!UICONTROL Statistical power]**: The likelihood of detecting a real effect. An 80% power reduces false negatives but requires more traffic or time.
+
+1. Select **[!UICONTROL Run calculation]** to generate the estimate. Select **[!UICONTROL Reset]** to clear the current inputs and start again.
+
+The **[!UICONTROL Result]** panel displays the estimate after you complete the required fields and run the calculation. If required fields are incomplete, the panel prompts you to enter the missing values.
+
+![](assets/calculator-cja-analytics-3.png)
+
+The calculator provides an estimate for planning an experiment. Use the result together with your experiment design, expected traffic, baseline performance, and statistical requirements when deciding how long to run the activity.
+
+## A/B (CJA/Adobe Analytics)
 
 >[!CONTEXTUALHELP]
 >id="target_sample_size_number_experiences"
@@ -34,92 +123,9 @@ feature: Activities
 >[!CONTEXTUALHELP]
 >id="target_sample_size_variance"
 >title="Variance"
->abstract="How spread out your metric's values are, not its average. A metric like a click rate (mostly 0s and 1s) has low variance, a metric like revenue per user (a few high spenders, many low) can have much higher variance. If you are unsure, leave the default value of 1."
+>abstract="How spread out the values of your metric are, not the average value. A metric such as click rate (mostly 0s and 1s) typically has low variance, while a metric like revenue per user can have much higher variance. If you are unsure, leave the default value at 1."
 
->[!CONTEXTUALHELP]
->id="target_sample_size_confidence_level"
->title="Confidence level"
->abstract="How confident you need to be that a result is not just random chance before calling it real, the threshold for statistical significance. A 95% confidence level means there is at most a 5% chance of a false positive. Higher values reduce false positives but require more data."
-
->[!CONTEXTUALHELP]
->id="target_sample_size_statistical_power"
->title="Statistical power"
->abstract="The probability of detecting an effect if one truly exists, the sensitivity of the experiment. 80% power means there is an 80% chance of detecting a real effect. Higher power reduces false negatives but requires more traffic or a longer runtime."
-
->[!CONTEXTUALHELP]
->id="target_sample_size_auto_daily_traffic"
->title="Daily traffic"
->abstract="How many users enter your experiment each day. Used for continuous experiments that run over multiple days, with traffic automatically shifting toward better-performing variants as results come in."
-
->[!AVAILABILITY]
->
->The Sample Size Calculator is available as a beta feature
-
-Use the **[!UICONTROL Sample Size Calculator]** to estimate the inputs needed to plan an experiment. You can calculate the expected duration, number of experiences, traffic volume, or minimum detectable effect based on the values you provide.
-
-The calculator is available as a standalone page in [!DNL Adobe Target]. To open it, select **[!UICONTROL Sample Size Calculator]** from the left navigation.
-
-Select one of the following tabs:
-
-* **[!UICONTROL A/B]**: Calculate planning inputs for an A/B test.
-* **[!UICONTROL Auto Allocate]**: Calculate planning inputs for an Auto Allocate activity.
-
-## For A/B activities
-
-1. Access the **[!UICONTROL A/B]** tab to calculate planning inputs for an A/B test.
-
-1. Under **[!UICONTROL What do you want to know?]**, select the value you want the calculator to determine:
-
-    * **[!UICONTROL Duration]**
-    * **[!UICONTROL Traffic volume (Audience size)]**
-    * **[!UICONTROL Minimum Detectable Effect]**
-
-    The fields in the form change depending on the value you select. The calculator uses the other inputs to determine the selected result.
-
-1. Enter the values requested in the form. Depending on the experiment type and the calculation you selected, the form can include the following inputs:
-
-    * **[!UICONTROL Daily traffic]**: The number of users entering the experiment each day.
-
-1. Under **[!UICONTROL Set up the test]**, enter the remaining values:
-
-    * **[!UICONTROL Number of experiences]**: The number of experiences, including the control.
-
-    * **[!UICONTROL Duration of A/B test]**: The number of days the experiment runs.
-
-    * **[!UICONTROL Minimum Detectable Effect]**: The smallest improvement worth detecting. Enter the lift in percentage points.
-
-    * **[!UICONTROL Expected improvement]**: The improvement you expect the experiment to produce.
-
-    * **[!UICONTROL Variance]**: How spread out the metric values are.
-
-1. You can expand **[!UICONTROL Advanced statistical settings]** to provide additional statistical inputs when they are available for the selected calculation.
-
-    * **[!UICONTROL Confidence level]**: The likelihood that a result is not due to chance. A 95% level allows a 5% chance of a false positive.
-
-    * **[!UICONTROL Statistical power]**: The likelihood of detecting a real effect. An 80% power reduces false negatives but requires more traffic or time.
-
-1. Select **[!UICONTROL Run calculation]** to generate the estimate. Select **[!UICONTROL Reset]** to clear the current inputs and start again.
-
-The **[!UICONTROL Result]** panel displays the estimate after you complete the required fields and run the calculation. If required fields are incomplete, the panel prompts you to enter the missing values.
-
-The calculator provides an estimate for planning an experiment. Use the result together with your experiment design, expected traffic, baseline performance, and statistical requirements when deciding how long to run the activity.
-
-## For Auto-Allocate activity
-
->[!CONTEXTUALHELP]
->id="target_sample_size_traffic_mode"
->title="Traffic mode"
->abstract="How users enter your experiment. Continuous: users enter daily over the experiment duration. Traffic automatically shifts toward better-performing variants as results come in."
-
->[!CONTEXTUALHELP]
->id="target_sample_size_metric_type"
->title="Metric type"
->abstract="What kind of metric you are measuring. Percentage: use this for binary outcomes like clicks or conversions, where each user either does or does not do something. Number: use this for metrics like revenue or page views, where the value can vary widely from user to user."
-
->[!CONTEXTUALHELP]
->id="target_sample_size_baseline_metric_rate"
->title="Baseline metric rate"
->abstract="Your current performance before the experiment starts, the control arm average. Always required. For percentage metrics, enter as a percentage: if 5% of visitors click Buy today, enter 5. For count metrics, enter the raw decimal value."
+Estimate the planning inputs for an A/B activity that relies on Adobe Analytics or Customer Journey Analytics data. It helps you define the experiment size, expected lift, and test duration before you launch the activity.
 
 1. Access the **[!UICONTROL Auto Allocate]** tab to calculate planning inputs for an Auto Allocate activity.
 
@@ -132,12 +138,11 @@ The calculator provides an estimate for planning an experiment. Use the result t
 
     The fields in the form change depending on the value you select. The calculator uses the other inputs to determine the selected result.
 
-1. Enter the values requested in the form. Depending on the experiment type and the calculation you selected, the form can include the following inputs:
+    ![](assets/calculator-cja-analytics-1.png)
 
-    * **[!UICONTROL Traffic mode]**: How users enter. In continuous mode, users enter daily and traffic shifts to better-performing variants.
-    * **[!UICONTROL Metric type]**: Use **[!UICONTROL Percentage]** for binary outcomes, or **[!UICONTROL Number]** for variable values.
-    * **[!UICONTROL Daily traffic]**: The number of users entering daily in continuous experiments.
-    * **[!UICONTROL Baseline metric rate]**: The control average before the experiment. Enter a percentage or raw decimal value, based on the metric type.
+1. Specify the **[!UICONTROL Daily traffic]**, the number of users entering the experiment each day.
+
+1. Specify the **[!UICONTROL Baseline metric rate]** for the control before the experiment starts. Use a percentage or raw decimal value, depending on the metric type.
 
 1. Under **[!UICONTROL Set up the test]**, enter the remaining values:
 
@@ -145,13 +150,16 @@ The calculator provides an estimate for planning an experiment. Use the result t
 
     * **[!UICONTROL Duration of A/B test]**: The number of days the experiment runs. Longer tests can detect smaller effects.
 
-    * **[!UICONTROL Minimum Detectable Effect]**: The smallest improvement worth detecting. Enter the lift in percentage points.
+    * **[!UICONTROL Expected improvement]**: The improvement you expect the experiment to produce.
+
+    * **[!UICONTROL Variance]**: How spread out your metric values are. A click-through rate typically has low variance, revenue per user can be much higher. If you are unsure, leave the default value at 1.
+
+        ![](assets/calculator-cja-analytics-2.png)
 
 1. You can expand **[!UICONTROL Advanced statistical settings]** to provide additional statistical inputs when they are available for the selected calculation.
 
     * **[!UICONTROL Confidence level]**: The likelihood that a result is not due to chance. A 95% level allows a 5% chance of a false positive.
     * **[!UICONTROL Statistical power]**: The likelihood of detecting a real effect. An 80% power reduces false negatives but requires more traffic or time.
-
 
 1. Select **[!UICONTROL Run calculation]** to generate the estimate. Select **[!UICONTROL Reset]** to clear the current inputs and start again.
 
