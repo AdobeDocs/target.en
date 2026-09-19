@@ -171,7 +171,7 @@ Activity and content databases, [!DNL Analytics] data, APIs, and marketer user i
 
 Each Edge Cluster contains all necessary information to respond to visitor content requests and track analytics data. Visitor requests are routed to the nearest Edge Cluster.
 
-For more information, see the [Adobe Target Security Overview](https://www.adobe.com/content/dam/cc/en/security/pdfs/AdobeTargetSecurityOverview.pdf) white paper.
+For more information, see the [Adobe Target Security Overview](https://experienceleague.adobe.com/en/docs/target-dev/developer/implementation/target-security-overview) white paper.
 
 [!DNL Target] is hosted on Adobe-owned and Adobe-leased data centers worldwide.
 
