@@ -32,6 +32,16 @@ Explore the latest features, enhancements, and fixes in [!DNL Adobe Target]. The
 
 (The issue numbers in parentheses are for internal [!DNL Adobe] use.)
 
+## [!DNL Target Standard/Premium] 26.9.5 (September 21, 2026)
+
+**[!UICONTROL Analytics for Target]**
+
++++See details
+
+* **A4T report link not generated in [!DNL Target] UI**. For [!DNL A4T] activities, the report link was not generated in the **[!UICONTROL Reports]** section, even though the underlying report data was visible in both the [!DNL Target] UI and the [!DNL Adobe Analytics] UI. (TGT-56247)
+
++++
+
 ## [!DNL Target Standard/Premium] 26.9.4 (September 17, 2026)
 
 **[!UICONTROL Visual Experience Composer] (VEC)**
