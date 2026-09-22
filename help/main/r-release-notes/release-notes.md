@@ -99,6 +99,18 @@ Explore the latest features, enhancements, and fixes in [!DNL Adobe Target]. The
 
 +++
 
+**[!DNL Adobe Target] MCP server — Recommendations tools (Public Beta)**
+
++++See details
+
+The [!DNL Adobe Target] MCP server now exposes Recommendations tools, letting you list, inspect, create, and update criteria, collections, designs, promotions, and exclusions, and search the product catalog directly from your AI assistant.
+
+This capability requires a Recommendations-enabled tenant with **Target Premium**; it is not available on non-Premium accounts.
+
+For more information, see [MCP server tools reference](../c-integrating-target-with-mac/mcp/target-mcp-tools-reference.md).
+
++++
+
 ## Time-sensitive updates you need to know {#time-sensitive}
 
 [!BADGE Important]{type=Informative}
