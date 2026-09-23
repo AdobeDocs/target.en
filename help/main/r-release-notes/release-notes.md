@@ -34,6 +34,27 @@ Explore the latest features, enhancements, and fixes in [!DNL Adobe Target]. The
 
 ## [!DNL Target Standard/Premium] 26.9.5 (September 21, 2026)
 
+### Feature
+
+<table>
+<thead>
+<tr>
+<th><strong>Content pre-hiding</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>Content pre-hiding helps reduce page flicker by hiding only the sections that Adobe Target personalization is about to change, providing a smoother experience while content loads. This approach avoids hiding the entire page and helps minimize implementation effort when new activities are launched.</p>
+<p>Previously released in Limited Availability, this capability is now available to all environments (General Availability).</p>
+<p>For more information, refer to the <a href="../administrating-target/content-pre-hiding.md">detailed documentation</a>.</p>
+</td>
+</tr>
+</tbody>
+</table>
+
+### Improvements
+
 **[!UICONTROL Analytics for Target]**
 
 +++See details
