@@ -127,22 +127,20 @@ The calculator provides an estimate for planning an experiment. Use the result t
 
 Estimate the planning inputs for an A/B activity that relies on Adobe Analytics or Customer Journey Analytics data. It helps you define the experiment size, expected lift, and test duration before you launch the activity.
 
-1. Access the **[!UICONTROL Auto Allocate]** tab to calculate planning inputs for an Auto Allocate activity.
+1. Access the **[!UICONTROL A/B (CJA/Adobe Analytics)]** tab to calculate planning inputs for an A/B test.
 
 1. Under **[!UICONTROL What do you want to know?]**, select the value you want the calculator to determine:
 
-    * **[!UICONTROL Duration]**
-    * **[!UICONTROL Number of experiences]**
-    * **[!UICONTROL Traffic volume]**
-    * **[!UICONTROL Minimum Detectable Effect]**
+    * **[!UICONTROL Duration]**: You have an experiment in mind and want to know how long it would take to run and whether it is worth running.
+    * **[!UICONTROL Number of experiences]**: You have a location to run an experiment and want to figure out how many treatments your traffic could support.
+    * **[!UICONTROL Traffic volume]**: You have an experiment in mind and want to know how many visitors you need to reach statistical significance.
+    * **[!UICONTROL Minimum Detectable Effect]**: You have an experiment you want to run but want to know how much of a lift you need to reach statistical significance. This helps you assess whether the experiment is worth running or planning.
 
     The fields in the form change depending on the value you select. The calculator uses the other inputs to determine the selected result.
 
     ![](assets/calculator-cja-analytics-1.png)
 
 1. Specify the **[!UICONTROL Daily traffic]**, the number of users entering the experiment each day.
-
-1. Specify the **[!UICONTROL Baseline metric rate]** for the control before the experiment starts. Use a percentage or raw decimal value, depending on the metric type.
 
 1. Under **[!UICONTROL Set up the test]**, enter the remaining values:
 
@@ -158,7 +156,8 @@ Estimate the planning inputs for an A/B activity that relies on Adobe Analytics 
 
 1. You can expand **[!UICONTROL Advanced statistical settings]** to provide additional statistical inputs when they are available for the selected calculation.
 
-    * **[!UICONTROL Confidence level]**: The likelihood that a result is not due to chance. A 95% level allows a 5% chance of a false positive.
+    * **[!UICONTROL Confidence level]**: The likelihood that a result is not due to chance. A 95% level allows a 5% chance of a false positive. Lower confidence levels mean less traffic is needed, but they also increase the risk of a false positive.
+
     * **[!UICONTROL Statistical power]**: The likelihood of detecting a real effect. An 80% power reduces false negatives but requires more traffic or time.
 
 1. Select **[!UICONTROL Run calculation]** to generate the estimate. Select **[!UICONTROL Reset]** to clear the current inputs and start again.
