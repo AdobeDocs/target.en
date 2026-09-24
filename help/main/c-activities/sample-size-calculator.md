@@ -152,6 +152,8 @@ Estimate the planning inputs for an A/B activity that relies on Adobe Analytics 
 
     * **[!UICONTROL Variance]**: How spread out your metric values are. A click-through rate typically has low variance, revenue per user can be much higher. If you are unsure, leave the default value at 1.
 
+        Learn how to calculate a **[!UICONTROL Variance]** in [Analytics documentation](https://experienceleague.adobe.com/en/docs/analytics/components/calculated-metrics/calcmetrics-reference/cm-functions#variance)
+
         ![](assets/calculator-cja-analytics-2.png)
 
 1. You can expand **[!UICONTROL Advanced statistical settings]** to provide additional statistical inputs when they are available for the selected calculation.
