@@ -4,14 +4,8 @@ description: Learn how content pre-hiding reduces flicker by hiding only the reg
 title: Content pre-hiding for personalized experiences
 feature: Administration & Configuration
 role: Admin
-badgeBeta: label="Beta" type="Informative" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html#beta newtab=true" tooltip="What are Beta features in [!DNL Adobe Target]."
-hide: true
 ---
 # Content pre-hiding for personalized experiences
-
->[!AVAILABILITY]
->
->Content pre-hiding for personalized content is available as a **beta** capability.
 
 When a visitor loads a page, default content can appear briefly and then be replaced by personalized content from [!DNL Adobe Target]. That visible switch is often called **flicker**, and it is a common experience issue for personalization programs.
 

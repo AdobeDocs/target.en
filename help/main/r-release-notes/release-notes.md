@@ -44,6 +44,27 @@ Explore the latest features, enhancements, and fixes in [!DNL Adobe Target]. The
 
 ## [!DNL Target Standard/Premium] 26.9.5 (September 21, 2026)
 
+### Feature
+
+<table>
+<thead>
+<tr>
+<th><strong>Content pre-hiding</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>Content pre-hiding helps reduce page flicker by hiding only the sections that Adobe Target personalization is about to change, providing a smoother experience while content loads. This approach avoids hiding the entire page and helps minimize implementation effort when new activities are launched.</p>
+<p>Previously released in Limited Availability, this capability is now available to all environments (General Availability).</p>
+<p>For more information, refer to the <a href="../administrating-target/content-pre-hiding.md">detailed documentation</a>.</p>
+</td>
+</tr>
+</tbody>
+</table>
+
+### Improvements
+
 **[!UICONTROL Analytics for Target]**
 
 +++See details
@@ -106,6 +127,18 @@ Explore the latest features, enhancements, and fixes in [!DNL Adobe Target]. The
 +++See details
 
 * **Copying an Activity with an activity-only audience fails to save**. When an A/B activity uses an activity-only (locally-scoped) audience rule and a Custom Code modification, copying it and saving the copy fails with an "Invalid audience ids" error. (TGT-55785)
+
++++
+
+**[!DNL Adobe Target] MCP server — Recommendations tools (Public Beta)**
+
++++See details
+
+The [!DNL Adobe Target] MCP server now exposes Recommendations tools, letting you list, inspect, create, and update criteria, collections, designs, promotions, and exclusions, and search the product catalog directly from your AI assistant.
+
+This capability requires a Recommendations-enabled tenant with **Target Premium**; it is not available on non-Premium accounts.
+
+For more information, see [MCP server tools reference](../c-integrating-target-with-mac/mcp/target-mcp-tools-reference.md).
 
 +++
 
