@@ -32,6 +32,16 @@ Explore the latest features, enhancements, and fixes in [!DNL Adobe Target]. The
 
 (The issue numbers in parentheses are for internal [!DNL Adobe] use.)
 
+## [!DNL Target Standard/Premium] 26.9.6 (September 24, 2026)
+
+**[!UICONTROL Visual Experience Composer] (VEC)**
+
++++See details
+
+* **Endless redirection loop when accessing an SSO-authenticated page through the Visual Experience Composer**. When a page URL loaded in the Visual Experience Composer went through an SSO/login redirection flow, the Visual Experience Composer entered an endless redirect loop and never reached the intended page. (TGT-56233)
+
++++
+
 ## [!DNL Target Standard/Premium] 26.9.5 (September 21, 2026)
 
 **[!UICONTROL Analytics for Target]**
