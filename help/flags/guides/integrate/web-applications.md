@@ -4,6 +4,9 @@ description: Learn how to integrate Flags into a web application using the web S
 badge: label="Beta" type="Informative"
 hide: true
 exl-id: 9b5d744a-263d-4b10-8745-2891f111519f
+product_v2:
+  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+    internal-label: Target
 ---
 # Web applications {#web-applications}
 

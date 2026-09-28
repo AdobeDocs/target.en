@@ -4,6 +4,9 @@ description: Learn how to request access to a Flags team in Adobe Target and the
 badge: label="Beta" type="Informative"
 hide: true
 exl-id: 30d05c90-2913-4e88-a8f9-28a142297337
+product_v2:
+  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+    internal-label: Target
 ---
 # Request access {#request-access}
 

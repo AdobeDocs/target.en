@@ -4,16 +4,20 @@ description: Learn how to navigate and understand [!DNL Target] concepts with [!
 title: How Do I Use the [!DNL AI Assistant] in [!DNL Target]?
 feature: Overview
 exl-id: f46d95f3-0ca3-4d96-92a7-b67a2c8a4678
-TQID: https://experienceleague.adobe.com/booNLyfhofLtyVawW4f5jGtYkgzGr1ddJYn9DpEhUgM
+TQID: 'https://experienceleague.adobe.com/booNLyfhofLtyVawW4f5jGtYkgzGr1ddJYn9DpEhUgM'
 product_v2:
   - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
     internal-label: Target
 feature_v2:
   - id: c93393a4-e558-47e1-992e-c91ed4d480ce
     internal-label: Implementation
+  - id: dfc8a233-f2b5-4811-bf63-b4262aebc5a5
+    internal-label: Administration and configuration
 subfeature_v2:
   - id: fd0ff162-b6d3-4a11-8aeb-e165a01c0f0a
     internal-label: at.js
+  - id: fc9c2184-9102-403f-bd6c-0055021e4bea
+    internal-label: Overview
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
     internal-label: Implementation

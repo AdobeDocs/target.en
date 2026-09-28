@@ -4,6 +4,9 @@ description: Learn how to request a new coordinated release in Flags and what in
 badge: label="Beta" type="Informative"
 hide: true
 exl-id: 8eee84b2-fbd5-4713-90ac-92fd7b74c163
+product_v2:
+  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+    internal-label: Target
 ---
 # Request a release {#request-a-release}
 

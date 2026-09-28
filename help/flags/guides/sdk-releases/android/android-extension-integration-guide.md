@@ -4,6 +4,9 @@ description: Learn how to integrate the Flags extension with the Adobe Experienc
 badge: label="Beta" type="Informative"
 hide: true
 exl-id: 683ef4d4-e637-4b7b-b694-689c7e65a99e
+product_v2:
+  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+    internal-label: Target
 ---
 # Flags extension for Android {#android-extension-integration-guide}
 

@@ -4,6 +4,12 @@ description: Learn how to use the Traffic Estimator that lets you know if you ha
 title: How Much Traffic Is Needed for a [!UICONTROL Multivariate Test] (MVT) Activity?
 feature: Multivariate Tests
 exl-id: 2b32f4a7-b9b4-40bf-a17b-88225bc88787
+product_v2:
+  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+    internal-label: Target
+feature_v2:
+  - id: b934e7cf-c07f-5a64-924b-3c9da8413e3d
+    internal-label: Multivariate Tests
 ---
 # Estimate the traffic required for a successful [!UICONTROL Multivariate Test] activity
 

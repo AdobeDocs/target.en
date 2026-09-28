@@ -4,6 +4,12 @@ description: Learn how to preview each experience in a [!UICONTROL Multivariate 
 title: How Can I Preview Experiences for a [!UICONTROL Multivariate Test] (MVT)?
 feature: Multivariate Tests
 exl-id: 33c3ef24-eb58-437b-bae5-fdca25317c25
+product_v2:
+  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+    internal-label: Target
+feature_v2:
+  - id: b934e7cf-c07f-5a64-924b-3c9da8413e3d
+    internal-label: Multivariate Tests
 ---
 # Preview experiences for a [!UICONTROL Multivariate Test]
 

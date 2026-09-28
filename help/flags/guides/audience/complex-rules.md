@@ -4,6 +4,9 @@ description: Learn how to work with large or complex audience rule sets in Flags
 badge: label="Beta" type="Informative"
 hide: true
 exl-id: 37e037b6-45eb-4261-b580-30d94d8e55da
+product_v2:
+  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+    internal-label: Target
 ---
 # Complex audience rules {#complex-rules}
 

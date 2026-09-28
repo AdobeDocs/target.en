@@ -4,6 +4,9 @@ description: Learn how to create a feature group in Flags to manage multiple fea
 badge: label="Beta" type="Informative"
 hide: true
 exl-id: 58148df1-84ee-4a78-a4b4-71f74cd8ce0a
+product_v2:
+  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+    internal-label: Target
 ---
 # Create a feature group {#create-feature-group}
 
