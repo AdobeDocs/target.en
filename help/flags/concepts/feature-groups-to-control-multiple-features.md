@@ -4,6 +4,9 @@ description: Learn how feature groups in Flags let you bundle and manage related
 badge: label="Beta" type="Informative"
 hide: true
 exl-id: dfeb7eff-34f1-4cb5-9c3e-a40d1eda3016
+product_v2:
+  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+    internal-label: Target
 ---
 # Feature groups to control multiple features {#feature-groups}
 

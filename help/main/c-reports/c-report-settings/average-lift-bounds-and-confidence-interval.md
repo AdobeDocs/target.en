@@ -4,6 +4,12 @@ description: Learn how to interpret Adobe [!DNL Target] reports, that include da
 title: How Do I View Average Lift, Lift Bounds, and Confidence Interval?
 feature: Reports
 exl-id: 0453aec1-cca5-462c-8eed-0d40bb4cf323
+product_v2:
+  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+    internal-label: Target
+feature_v2:
+  - id: e8a43148-398f-56c7-9433-6564f96999c2
+    internal-label: Reports
 ---
 # Average Lift, Lift Bounds, and Confidence Interval
 

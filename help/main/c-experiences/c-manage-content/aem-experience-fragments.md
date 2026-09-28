@@ -4,10 +4,16 @@ description: Learn how to use [!DNL Adobe Experience Manager] experience fragmen
 title: How Do I Use [!DNL Adobe Experience Manager] (AEM) Experience Fragments?
 feature: Experiences and Offers
 exl-id: 3dd811a4-c7be-443d-a5ad-5b9adcaf1a2c
-TQID: https://experienceleague.adobe.com/Cp4jbwxmIVlbwIc-Y4z5Y98M0svVST-IaXCUcCQFvyQ
+TQID: 'https://experienceleague.adobe.com/Cp4jbwxmIVlbwIc-Y4z5Y98M0svVST-IaXCUcCQFvyQ'
 product_v2:
   - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
     internal-label: Target
+feature_v2:
+  - id: dfc8a233-f2b5-4811-bf63-b4262aebc5a5
+    internal-label: Administration and configuration
+subfeature_v2:
+  - id: ef98a6e0-f26c-4870-9bd4-e6b72e9cc699
+    internal-label: Experiences and offers
 topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
     internal-label: Customer experience

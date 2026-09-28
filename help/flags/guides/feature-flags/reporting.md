@@ -4,6 +4,9 @@ description: Learn how to view feature flag reporting in Flags using Customer Jo
 badge: label="Beta" type="Informative"
 hide: true
 exl-id: edddca99-f263-461b-a16f-b46ee7c15f6c
+product_v2:
+  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+    internal-label: Target
 ---
 # Reporting {#reporting}
 

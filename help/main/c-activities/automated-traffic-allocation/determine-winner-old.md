@@ -4,6 +4,15 @@ description: Learn how to interpret the results of an [!UICONTROL Auto-Allocate]
 title: How Do I Interpret [!UICONTROL Auto-Allocate] Reports?
 feature: Auto-Allocate
 exl-id: 4ed00eee-8939-4958-9be6-b45a8c08afbc
+product_v2:
+  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+    internal-label: Target
+feature_v2:
+  - id: f69bc5f1-ebdb-4306-a281-f2e77daf734c
+    internal-label: Activities and tests
+subfeature_v2:
+  - id: f2d0aafb-18af-41a0-a32e-2788eafacc2b
+    internal-label: Auto-allocate
 ---
 # Interpret Auto-Allocate reports 
 

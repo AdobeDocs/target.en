@@ -4,10 +4,16 @@ description: Download a PDF of the legacy Adobe Recommendations Classic document
 title: Where Can I Find Documentation for Adobe Recommendations Classic?
 feature: Recommendations
 exl-id: e59fbf51-0c2d-4ec3-941d-d10633ce8a28
-TQID: https://experienceleague.adobe.com/kq-os5PQzYnTY9YIgP2r1IAyEJTQ0Uf3mCu7zvMrHWU
+TQID: 'https://experienceleague.adobe.com/kq-os5PQzYnTY9YIgP2r1IAyEJTQ0Uf3mCu7zvMrHWU'
 product_v2:
   - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
     internal-label: Target
+feature_v2:
+  - id: f69bc5f1-ebdb-4306-a281-f2e77daf734c
+    internal-label: Activities and tests
+subfeature_v2:
+  - id: ed58f4a1-16eb-4c8c-b505-be9da766a9ec
+    internal-label: Recommendations
 topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
     internal-label: Customer experience

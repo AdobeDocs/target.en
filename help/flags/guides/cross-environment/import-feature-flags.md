@@ -4,6 +4,9 @@ description: Learn how to import feature flags from one sandbox into another in 
 badge: label="Beta" type="Informative"
 hide: true
 exl-id: 37c84d75-a565-4202-8c99-f630e05b6bb6
+product_v2:
+  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+    internal-label: Target
 ---
 # Import feature flags {#import-feature-flags}
 

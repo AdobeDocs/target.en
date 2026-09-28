@@ -1,9 +1,18 @@
 ---
 keywords: redirect offer;create redirect offer;add html offer;Pass all URL parameters in redirect;Pass mboxSessionId in redirect (only needed when the redirect is going to a different domain)
-description: Learn how to create redirect offers in Adobe [!DNL Target] to cause a browser to redirect to a new page. 
+description: Learn how to create redirect offers in Adobe [!DNL Target] to cause a browser to redirect to a new page.
 title: How Do I Create Redirect Offers?
 feature: Experiences and Offers
 exl-id: b7b960cb-5057-455b-8fab-86dd37343a04
+product_v2:
+  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+    internal-label: Target
+feature_v2:
+  - id: dfc8a233-f2b5-4811-bf63-b4262aebc5a5
+    internal-label: Administration and configuration
+subfeature_v2:
+  - id: ef98a6e0-f26c-4870-9bd4-e6b72e9cc699
+    internal-label: Experiences and offers
 ---
 # Create redirect offers
 

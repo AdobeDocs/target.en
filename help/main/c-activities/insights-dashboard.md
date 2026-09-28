@@ -4,6 +4,12 @@ description: The [!UICONTROL Adobe Target Dashboard] gives a high-level view of 
 title: Adobe Target Insights Dashboard
 feature: Activities
 exl-id: 042befcd-025b-4592-a6b2-5dc0b952b031
+product_v2:
+  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+    internal-label: Target
+feature_v2:
+  - id: 6efa6b7a-8062-5c41-aef4-b4853cc306ae
+    internal-label: Activities
 ---
 # Adobe Target Insights Dashboard
 

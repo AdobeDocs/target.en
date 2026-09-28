@@ -4,6 +4,12 @@ description: Learn how to minimize the effects of inflated Visit and Visitor cou
 title: How Do I Minimize Inflated Visit and Visitor Counts in A4T?
 feature: Analytics for Target (A4T)
 exl-id: 308711f7-e630-4f6b-8a6d-a1f36ed7902d
+product_v2:
+  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+    internal-label: Target
+feature_v2:
+  - id: 891742a5-242d-5099-966a-ca76c17cd2d2
+    internal-label: Analytics for Target (A4T)
 ---
 # Minimizing inflated visit and visitor counts in A4T
 

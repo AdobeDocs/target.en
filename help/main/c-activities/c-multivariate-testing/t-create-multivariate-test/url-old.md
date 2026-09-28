@@ -4,6 +4,12 @@ description: Learn how to specify the activity URL that determines the page that
 title: What Is the Activity URL In a [!UICONTROL Multivariate Test] (MVT) Activity?
 feature: Multivariate Tests
 exl-id: 336169ae-7c8b-4fd5-9b1c-0bd3e9524425
+product_v2:
+  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+    internal-label: Target
+feature_v2:
+  - id: b934e7cf-c07f-5a64-924b-3c9da8413e3d
+    internal-label: Multivariate Tests
 ---
 # Activity URL
 
