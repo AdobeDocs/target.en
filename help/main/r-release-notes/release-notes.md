@@ -32,6 +32,17 @@ Explore the latest features, enhancements, and fixes in [!DNL Adobe Target]. The
 
 (The issue numbers in parentheses are for internal [!DNL Adobe] use.)
 
+## [!DNL Target Standard/Premium] 26.9.7 (September 28, 2026)
+
+**[!UICONTROL Recommendations]**
+
++++ See details
+
+* **"Invalid user input" error in the Visual Experience Composer**. When editing a Recommendations activity in the Visual Experience Composer, an "Invalid user input" error appeared when attempting to save and close the activity.
+
++++
+
+
 ## [!DNL Target Standard/Premium] 26.9.6 (September 24, 2026)
 
 **[!UICONTROL Visual Experience Composer] (VEC)**
