@@ -94,7 +94,7 @@ Now that we have covered what Adobe Target Views are, we can leverage this conce
 
    Download the at.js 2.x via the Adobe Target UI located in [!UICONTROL Administration > Implementation]. at.js 2.x can also be deployed via tags in [Adobe Experience Platform](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/deploy-at-js/implement-target-using-adobe-launch.html){target=_blank}. However, the Adobe Target extensions are not currently up to date and supported.
 
-  +++
+    +++
 
 1. +++ Implement at.js 2.x's newest function
 
@@ -211,7 +211,7 @@ Now that we have covered what Adobe Target Views are, we can leverage this conce
    }
    ```
 
-  +++
+    +++
 
 1. +++ Launch A/B or XT activities via the VEC.
 
