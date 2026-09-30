@@ -4,6 +4,9 @@ description: Learn about the differences between feature flags and feature group
 badge: label="Beta" type="Informative"
 hide: true
 exl-id: 852aa777-6f8a-47c9-bf54-e645a5ee2f3e
+product_v2:
+  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+    internal-label: Target
 ---
 # Features and feature groups {#features-feature-groups}
 

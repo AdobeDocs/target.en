@@ -3,6 +3,9 @@ title: Creating your context attributes
 description: Learn how to create and organize context attributes and context groups in Flags so you can use them in audience criteria.
 badge: label="Beta" type="Informative"
 hide: true
+product_v2:
+  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+    internal-label: Target
 ---
 # Creating your context attributes {#creating-your-context-attributes}
 

@@ -4,6 +4,9 @@ description: Learn how to select the correct Adobe Experience Platform sandbox w
 badge: label="Beta" type="Informative"
 hide: true
 exl-id: 84b6b640-7f43-4e51-a3b1-29f4efd3670f
+product_v2:
+  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+    internal-label: Target
 ---
 # Environments overview {#environments-overview}
 

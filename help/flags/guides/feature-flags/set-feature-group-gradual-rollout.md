@@ -4,6 +4,9 @@ description: Learn how to configure a percentage-based gradual rollout for a fea
 badge: label="Beta" type="Informative"
 hide: true
 exl-id: fcf187f1-2f33-4e3a-b740-985d5bc0bcdc
+product_v2:
+  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+    internal-label: Target
 ---
 # Set a feature group to gradually roll out {#gradual-rollout-feature-group}
 

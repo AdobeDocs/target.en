@@ -5,10 +5,13 @@ title: How Can I Troubleshoot Problems with User Management?
 feature: Administration & Configuration
 role: Admin
 exl-id: 4848b811-04f8-4857-8309-f5d3f9086197
-TQID: https://experienceleague.adobe.com/EnqgqdxG6QiRrLCzhgq2oErL-PNsHBcXRfMbp094cxI
+TQID: 'https://experienceleague.adobe.com/EnqgqdxG6QiRrLCzhgq2oErL-PNsHBcXRfMbp094cxI'
 product_v2:
   - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
     internal-label: Target
+feature_v2:
+  - id: dfc8a233-f2b5-4811-bf63-b4262aebc5a5
+    internal-label: Administration and configuration
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
     internal-label: Admin

@@ -4,6 +4,15 @@ description: Learn how to use the [!UICONTROL Goals and Settings] page to specif
 title: How Do I Specify Goals and Settings in a [!DNL Target] A/B Activity?
 feature: A/B Tests
 exl-id: 6c970289-a897-46bc-a8d2-ba8c045abe12
+product_v2:
+  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+    internal-label: Target
+feature_v2:
+  - id: f69bc5f1-ebdb-4306-a281-f2e77daf734c
+    internal-label: Activities and tests
+subfeature_v2:
+  - id: ab2570eb-4844-49aa-8334-e91a345525e5
+    internal-label: A/B Tests
 ---
 # Goals and settings
 
