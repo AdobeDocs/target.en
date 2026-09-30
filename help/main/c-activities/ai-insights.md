@@ -3,8 +3,13 @@ keywords: AI insights;Experimentation Accelerator;opportunities;activity overvie
 description: Learn how to use AI-generated insights and optimization opportunities from Experimentation Accelerator in the Adobe Target Activity Overview.
 title: AI insights in the Activity Overview
 feature: Activities
+badge: label="Beta" type="Informative"
 ---
-# AI insights in the Activity Overview
+# AI insights
+
+>[!AVAILABILITY]
+>
+>The AI insights feature is currently available as a beta feature.
 
 The **[!UICONTROL AI insights]** menu in your **[!UICONTROL Activity Overview]** provides access to insights and optimization opportunities. Use this tab to review experiment learnings, compare treatments, and identify changes that might improve conversion rates.
 
@@ -27,7 +32,7 @@ The **[!UICONTROL AI insights]** menu in your **[!UICONTROL Activity Overview]**
 
 Before you can access AI-generated insights and opportunities, you first need to set up your activity by confirming the primary metric, hypothesis, and experience screenshots.
 
-The primary metric and hypothesis are automatically pulled from the reporting settings and depend on how you set up your Goals & Settings. [Learn more](../c-activities/t-test-ab/t-test-create-ab/ab-goals-and-settings.md)
+The primary metric is automatically pulled from the reporting settings and depends on how you set up your Goals & Settings. You must create the hypothesis in the AI insights panel. [Learn more](../c-activities/t-test-ab/t-test-create-ab/ab-goals-and-settings.md)
 
 1. Open your activity in [!DNL Adobe Target].
 
@@ -65,17 +70,17 @@ After setup is complete, your activity is ready to generate opportunities. Insig
 >title="Insights"
 >abstract="Experiment insights are the learnings found by AI when the experiment data has met statistical significance."
 
-Experiment insights are AI-generated learnings derived from this experiment. These insights become available once the experiment reaches statistical significance and provide context about what contributed to its success. They highlight the key attributes present in the winning A/B test that are distinct from the control and likely influenced the outcome.
+Experiment insights are AI-generated learnings derived from this experiment. These insights become available once the experiment reaches statistical significance and provide context about what contributed to its success. They highlight the key attributes present in the winning Experience that are distinct from the control and likely influenced the outcome.
 
 1. Click the card to access the **[!UICONTROL Insights]** menu.
 
     ![](assets/ai-insights-3.png)
 
-1. Browse through your AI-generated insights to review the A/B test learning and compare the winning A/B test against the control.
+1. Browse through your AI-generated insights to review the experiment learning and compare the winning Experience against the control.
 
     ![](assets/ai-insights-4.png)
 
-1. In **[!UICONTROL What made this Experience win?]**, review the details explaining why this A/B test outperformed the control.
+1. In **[!UICONTROL What made this Experience win?]**, review the details explaining why this Experience outperformed the control.
 
 ## Opportunities
 
@@ -90,13 +95,13 @@ The **[!UICONTROL Opportunities]** panel shows AI-generated recommendations desi
 
     ![](assets/ai-insights-5.png)
 
-1. Select an opportunity to open the Opportunity Details window, which outlines a specific A/B test or variation. This view includes:
+1. Select an opportunity to open the Opportunity Details window, which outlines a specific Experience or variation. This view includes:
 
     * The current experience image used to generate the opportunity.
 
-    * An AI-generated hypothesis that explains the expected outcome of the suggested A/B test and why it may improve performance.
+    * An AI-generated hypothesis that explains the expected outcome of the suggested Experience and why it may improve performance.
 
-    * Guidance on how to implement the recommendation in your A/B test and measure the effect on the selected metric.
+    * Guidance on how to implement the recommendation in your Experience and measure the effect on the selected metric.
 
     ![](assets/ai-insights-6.png)
 
