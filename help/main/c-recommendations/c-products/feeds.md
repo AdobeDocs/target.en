@@ -1,5 +1,5 @@
 ---
-keywords: recommendations feed;feed;SAINT;ftp;csv;classifications;analytics classifications
+keywords: recommendations feed;feed;SAINT;ftp;sftp;csv;classifications;analytics classifications
 description: Learn how feeds import entities into [!DNL Adobe Target] [!DNL Recommendations] using CSV files, the [!DNL Google Product Search] feed format, and [!DNL Analytics] product classifications.
 title: How Do I Use [!UICONTROL Feeds] in [!DNL Target Recommendations]?
 badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="See what's included in Target Premium."
@@ -257,8 +257,20 @@ Create a feed to insert information about your products or services into [!DNL R
 
      * FTP and FTPS must be set to use Passive FTP.
      * For FTPS, configure the server to accept Explicit FTPS connections.
-     * SFTP is not supported.
      * You can manually specify a port on which to initiate the connection (for example, `ftp://ftp.yoursite.com:2121`). If you do not specify a port, the default FTP or FTPS port is used.
+
+   * **SFTP**: If you selected SFTP, provide the host name or IP address of your SFTP server, the port (default 22), the username, a password and/or SSH private key, the directory, and the filename.
+
+     ### Supported SFTP server settings {#sftp-settings}
+
+     * Authentication uses a password, an SSH private key, or both. At least one is required.
+     * The customer generates and owns the key pair. Install the public key in the SFTP user's `authorized_keys` file, then paste the private key into Target as PEM text. Accepted key types are RSA, Ed25519, and ECDSA, in PEM (`-----BEGIN RSA PRIVATE KEY-----`), PKCS#8 (`-----BEGIN PRIVATE KEY-----`), or OpenSSH (`-----BEGIN OPENSSH PRIVATE KEY-----`) format.
+     * Passphrase-protected private keys are not supported; a feed cannot be saved with one.
+     * Target stores the private key encrypted and does not display it again. To rotate it, edit the feed and enter the new key.
+     * Enter a bare host name or IP address, without an `sftp://` prefix, port, or path. Use the Port field for a non-default port.
+     * The server host key is accepted on first connection; no fingerprint exchange with Adobe is needed.
+     * SFTP is available in the Target UI and Recommendations API, but not in the legacy Recommendations Classic admin UI. Adobe does not host an SFTP endpoint; use a customer-hosted server.
+     * The SFTP server must be reachable from the internet and allow inbound connections from Adobe Target's download addresses. The production IP list must be confirmed by engineering before publication of this update.
 
    * **URL**: If you select [!UICONTROL URL], specify the URL.
 
