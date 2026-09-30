@@ -3,6 +3,7 @@ keywords: sample size calculator;A/B;Auto Allocate;statistical significance;traf
 description: Use the Adobe Target Sample Size Calculator to estimate experiment duration, traffic volume, or minimum detectable effect.
 title: Sample Size Calculator
 feature: Activities
+badge: label="Beta" type="Informative"
 ---
 # Sample Size Calculator
 
@@ -29,7 +30,7 @@ feature: Activities
 
 >[!AVAILABILITY]
 >
->The Sample Size Calculator is available as a beta feature
+>By using this Sample size calculator (Beta), you hereby acknowledge that the Beta is provided "as is" without warranty of any kind. Adobe shall have no obligation to maintain, correct, update, change, modify or otherwise support the Beta. You are advised to use caution and not to rely in any way on the correct functioning or performance of such Beta and/or accompanying materials. The Beta is considered Confidential Information of Adobe.  Any "Feedback" (information regarding the Beta including but not limited to problems or defects you encounter while using the Beta, suggestions, improvements, and recommendations) provided by You to Adobe is hereby assigned to Adobe including all rights, title, and interest in and to such Feedback.
 
 The **[!UICONTROL Sample Size Calculator]** allows you to estimate the inputs needed to plan an experiment before you launch it. The calculator helps you determine how much traffic you need, how long the test should run, how many experiences to include, or what minimum effect you can reliably detect based on the values you provide.
 
