@@ -30,11 +30,12 @@ The following table is a high-level comparison of related capabilities.
 | List running experiments, audiences, offers, or recently changed items | Yes | Yes |
 | Create a Target audience | Yes | Yes |
 | Create a Target VEC activity, Experience Targeting activity, or A/B test | Yes | Yes |
-| Create a Target Recommendations activity | Needs confirmation | Yes |
-| Create an Automated Personalization activity | No | Needs confirmation |
+| Create a Target Recommendations activity | Yes | Yes |
 | Create an HTML or JSON offer in Target | Yes | Yes |
 | Use an AEM Content Fragment in a Target activity | No | Yes |
 | Recommend what is working and what to test next | No or generic advice | Yes |
+
+<!--| Create an Automated Personalization activity | No | Needs confirmation |-->
 
 ## Target plugin
 
