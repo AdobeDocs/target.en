@@ -94,7 +94,7 @@ Now that we have covered what Adobe Target Views are, we can leverage this conce
 
    Download the at.js 2.x via the Adobe Target UI located in [!UICONTROL Administration > Implementation]. at.js 2.x can also be deployed via tags in [Adobe Experience Platform](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/deploy-at-js/implement-target-using-adobe-launch.html){target=_blank}. However, the Adobe Target extensions are not currently up to date and supported.
 
-    +++
+   +++
 
 1. +++ Implement at.js 2.x's newest function
 
@@ -211,81 +211,83 @@ Now that we have covered what Adobe Target Views are, we can leverage this conce
    }
    ```
 
-    +++
+   +++
 
 1. +++ Launch A/B or XT activities via the VEC.
 
-When `adobe.target.triggerView()` is implemented on your SPA with View names passed in as parameters, the VEC will be able to detect these views and allow users to create actions and modifications for their A/B or XT activities.
+   When `adobe.target.triggerView()` is implemented on your SPA with View names passed in as parameters, the VEC will be able to detect these views and allow users to create actions and modifications for their A/B or XT activities.
 
->[!NOTE]
->
->The VEC for SPAs is really the same VEC that you use on regular web pages, but some additional capabilities are available when you open a single page app with `triggerView()` implemented.
+   >[!NOTE]
+   >
+   >The VEC for SPAs is really the same VEC that you use on regular web pages, but some additional capabilities are available when you open a single page app with `triggerView()` implemented.
 
-There are two major improvements to the [Modifications](/help/main/c-experiences/c-visual-experience-composer/c-vec-code-editor/vec-code-editor.md) panel and Actions for the VEC that allow the VEC to work well with SPAs.
+   There are two major improvements to the [Modifications](/help/main/c-experiences/c-visual-experience-composer/c-vec-code-editor/vec-code-editor.md) panel and Actions for the VEC that allow the VEC to work well with SPAs.
 
-**Modifications Panel**
+   **Modifications Panel**
 
-The [!UICONTROL Modifications] panel, as shown below, captures the actions created for a particular view. Notice that all actions for a View are grouped under that View.
+   The [!UICONTROL Modifications] panel, as shown below, captures the actions created for a particular view. Notice that all actions for a View are grouped under that View.
 
-**Actions** 
+   **Actions** 
 
-Clicking an action highlights the element on the site where this action will be applied. Each VEC action created under a View has the following icons, as shown below: Information, Edit, Clone, Move, and Delete.
+   Clicking an action highlights the element on the site where this action will be applied. Each VEC action created under a View has the following icons, as shown below: Information, Edit, Clone, Move, and Delete.
 
-![Modifications](/help/main/c-experiences/assets/modifications.png)
+   ![Modifications](/help/main/c-experiences/assets/modifications.png)
 
-The following table describes each action:
+   The following table describes each action:
 
-|Page|Description|
-| --- | --- |
-|Information|Displays the details of the action.|
-|Edit|Allows you to edit the properties of the action directly.|
-|Clone|Clone the action to one or more Views that exist on the [!UICONTROL Modifications] panel or to one or more Views that you have browsed and navigated to in the VEC. The action doesn't have to necessarily exist in the [!UICONTROL Modifications] panel.<br>**Note**: After a clone operation is made, you need to navigate to the View in the VEC via [!UICONTROL Browse] to see whether the cloned action was a valid operation. If the action cannot be applied to the View, you will see an error.|
-|Move|Moves the action to a Page Load Event or any other View that already exists in the modifications panel.<br>[!UICONTROL Page Load Event] – any actions corresponding to the page load event are applied on the initial page load of your web application.<br>**Note** After a move operation is made, you need to navigate to the View in the VEC via Browse to see whether the move was a valid operation. If the action cannot be applied to the View, you will see an error|
-|Delete|Deletes the action.|
+   |Page|Description|
+   | --- | --- |
+   |Information|Displays the details of the action.|
+   |Edit|Allows you to edit the properties of the action directly.|
+   |Clone|Clone the action to one or more Views that exist on the [!UICONTROL Modifications] panel or to one or more Views that you have browsed and navigated to in the VEC. The action doesn't have to necessarily exist in the [!UICONTROL Modifications] panel.<br>**Note**: After a clone operation is made, you need to navigate to the View in the VEC via [!UICONTROL Browse] to see whether the cloned action was a valid operation. If the action cannot be applied to the View, you will see an error.|
+   |Move|Moves the action to a Page Load Event or any other View that already exists in the modifications panel.<br>[!UICONTROL Page Load Event] – any actions corresponding to the page load event are applied on the initial page load of your web application.<br>**Note** After a move operation is made, you need to navigate to the View in the VEC via Browse to see whether the move was a valid operation. If the action cannot be applied to the View, you will see an error|
+   |Delete|Deletes the action.|
 
->[!NOTE]
->
->You can perform many actions before the page loads in the VEC, or even if the page fails to load altogether. Actions that cannot be edited before the site loads are disabled in the UI.
+   >[!NOTE]
+   >
+   >You can perform many actions before the page loads in the VEC, or even if the page fails to load altogether. Actions that cannot be edited before the site loads are disabled in the UI.
 
-**Example 1**
+   **Example 1**
 
-Let's refer to the example above where we created a Home view. Our goal is two-fold for this view:
+   Let's refer to the example above where we created a Home view. Our goal is two-fold for this view:
 
-1. Change the Add to Cart and the Like button to a lighter blue color. This should be in a "Page Load" because we are changing components of the header.
-1. Change the "Latest Products for 2019" label to "Hottest Products for 2019" with the text color changed to purple.
+   1. Change the Add to Cart and the Like button to a lighter blue color. This should be in a "Page Load" because we are changing components of the header.
+   1. Change the "Latest Products for 2019" label to "Hottest Products for 2019" with the text color changed to purple.
 
-To execute these goals, in the VEC, click [!UICONTROL Compose] and apply those changes on the Home view.
+   To execute these goals, in the VEC, click [!UICONTROL Compose] and apply those changes on the Home view.
 
-![Example 1](/help/main/c-experiences/assets/example1.png)
+   ![Example 1](/help/main/c-experiences/assets/example1.png)
 
-**Example 2**
+   **Example 2**
 
-Let's refer to the example above where we created a PRODUCTS-PAGE-2 view. Our goal is to change the "Price" label to "Sale Price" with the label color as red.
+   Let's refer to the example above where we created a PRODUCTS-PAGE-2 view. Our goal is to change the "Price" label to "Sale Price" with the label color as red.
 
-1. Click [!UICONTROL Browse], then click the [!UICONTROL Products] link at the header. 
-1. Click [!UICONTROL Load More] once to get to the second row of products. 
-1. Click [!UICONTROL Compose].
-1. Apply actions to change the text label to "Sale Price" and the color to red.
+   1. Click [!UICONTROL Browse], then click the [!UICONTROL Products] link at the header. 
+   1. Click [!UICONTROL Load More] once to get to the second row of products. 
+   1. Click [!UICONTROL Compose].
+   1. Apply actions to change the text label to "Sale Price" and the color to red.
 
    ![Example 2](/help/main/c-experiences/assets/example2.png)
    
    **Example 3**
 
-Lastly, as mentioned before, Views can be defined at a granular level. Views can be a state or even an option from a radio button. Previously we have created Views as CHECKOUT-EXPRESS and CHECKOUT-NORMAL. Our goal is to change the button color to red for the CHECKOUT-EXPRESS view.
+   Lastly, as mentioned before, Views can be defined at a granular level. Views can be a state or even an option from a radio button. Previously we have created Views as CHECKOUT-EXPRESS and CHECKOUT-NORMAL. Our goal is to change the button color to red for the CHECKOUT-EXPRESS view.
 
-1. Click [!UICONTROL Browse].
-1. Add couple of products to the cart.
-1. Click the cart icon at the top right corner.
-1. Click Checkout your Order.
-1. Click on the Express Delivery radio button.
-1. Click [!UICONTROL Compose].
-1. Change the "Pay" button to read "Complete the Order" button and change the color to red.
+   1. Click [!UICONTROL Browse].
+   1. Add couple of products to the cart.
+   1. Click the cart icon at the top right corner.
+   1. Click Checkout your Order.
+   1. Click on the Express Delivery radio button.
+   1. Click [!UICONTROL Compose].
+   1. Change the "Pay" button to read "Complete the Order" button and change the color to red.
 
-![Example 3](/help/main/c-experiences/assets/example3.png)
+   ![Example 3](/help/main/c-experiences/assets/example3.png)
 
->[!NOTE]
->
->The CHECKOUT-EXPRESS view will not show up in the modification panel until you click the Express Delivery radio button. This is because the `triggerView()` function is triggered when the Express Delivery radio button is selected and this is only when VEC knows that there is a View to show in the modification panel.
+   >[!NOTE]
+   >
+   >The CHECKOUT-EXPRESS view will not show up in the modification panel until you click the Express Delivery radio button. This is because the `triggerView()` function is triggered when the Express Delivery radio button is selected and this is only when VEC knows that there is a View to show in the modification panel.
+
+   +++
 
 ## Deep dive into at.js and SPAs
 
