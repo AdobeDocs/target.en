@@ -111,11 +111,6 @@ topic_v2:
 >abstract="The hypothesis is a statement you define that explains the expected outcome of the experiment. Include a description of what is being changed and where, then state which metric you expect to change and how."
 
 >[!CONTEXTUALHELP]
->id="target_ai_insights_insights"
->title="Insights"
->abstract="Experiment insights are the learnings found by AI when the experiment data has met statistical significance."
-
->[!CONTEXTUALHELP]
 >id="target_ai_insights_opportunities"
 >title="Opportunities"
 >abstract="Experiment opportunities are AI suggested treatment ideas based on patterns AI found in your experiment screenshots and results."
