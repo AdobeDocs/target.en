@@ -18,6 +18,11 @@ The **[!UICONTROL AI insights]** menu in your **[!UICONTROL Activity Overview]**
 ## Setup for AI insights and opportunities
 
 >[!CONTEXTUALHELP]
+>id="target_ai_insights"
+>title="Insights"
+>abstract="Experiment insights are the learnings found by AI when the experiment data has met statistical significance."
+
+>[!CONTEXTUALHELP]
 >id="target_ai_insights_primary_metric"
 >title="Primary metric"
 >abstract="The primary metric is automatically pulled from the reporting settings. To make changes, modify the goal metric under Goals & Settings."
@@ -65,10 +70,10 @@ The primary metric is automatically pulled from the reporting settings and depen
 
 After setup is complete, your activity is ready to generate opportunities. Insights become available after the experiment has sufficient data for statistical validation and the required experiment details have been confirmed.
 
-## Insights
+## Insights {#insights}
 
 >[!CONTEXTUALHELP]
->id="target_ai_insights"
+>id="target_ai_insights_insights"
 >title="Insights"
 >abstract="Experiment insights are the learnings found by AI when the experiment data has met statistical significance."
 
