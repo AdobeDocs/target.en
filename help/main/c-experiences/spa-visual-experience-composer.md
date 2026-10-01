@@ -217,9 +217,9 @@ Now that we have covered what Adobe Target Views are, we can leverage this conce
 
    When `adobe.target.triggerView()` is implemented on your SPA with View names passed in as parameters, the VEC will be able to detect these views and allow users to create actions and modifications for their A/B or XT activities.
 
-   >[!NOTE]
-   >
-   >The VEC for SPAs is really the same VEC that you use on regular web pages, but some additional capabilities are available when you open a single page app with `triggerView()` implemented.
+>[!NOTE]
+>
+>The VEC for SPAs is really the same VEC that you use on regular web pages, but some additional capabilities are available when you open a single page app with `triggerView()` implemented.
 
    There are two major improvements to the [Modifications](/help/main/c-experiences/c-visual-experience-composer/c-vec-code-editor/vec-code-editor.md) panel and Actions for the VEC that allow the VEC to work well with SPAs.
 
@@ -243,9 +243,9 @@ Now that we have covered what Adobe Target Views are, we can leverage this conce
    |Move|Moves the action to a Page Load Event or any other View that already exists in the modifications panel.<br>[!UICONTROL Page Load Event] – any actions corresponding to the page load event are applied on the initial page load of your web application.<br>**Note** After a move operation is made, you need to navigate to the View in the VEC via Browse to see whether the move was a valid operation. If the action cannot be applied to the View, you will see an error|
    |Delete|Deletes the action.|
 
-   >[!NOTE]
-   >
-   >You can perform many actions before the page loads in the VEC, or even if the page fails to load altogether. Actions that cannot be edited before the site loads are disabled in the UI.
+>[!NOTE]
+>
+>You can perform many actions before the page loads in the VEC, or even if the page fails to load altogether. Actions that cannot be edited before the site loads are disabled in the UI.
 
    **Example 1**
 
@@ -283,9 +283,9 @@ Now that we have covered what Adobe Target Views are, we can leverage this conce
 
    ![Example 3](/help/main/c-experiences/assets/example3.png)
 
-   >[!NOTE]
-   >
-   >The CHECKOUT-EXPRESS view will not show up in the modification panel until you click the Express Delivery radio button. This is because the `triggerView()` function is triggered when the Express Delivery radio button is selected and this is only when VEC knows that there is a View to show in the modification panel.
+>[!NOTE]
+>
+>The CHECKOUT-EXPRESS view will not show up in the modification panel until you click the Express Delivery radio button. This is because the `triggerView()` function is triggered when the Express Delivery radio button is selected and this is only when VEC knows that there is a View to show in the modification panel.
 
    +++
 
