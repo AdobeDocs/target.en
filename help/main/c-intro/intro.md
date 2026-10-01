@@ -100,25 +100,6 @@ topic_v2:
 >title="Baseline metric rate"
 >abstract="Your current performance before the experiment starts, the control arm average. Always required. For percentage metrics, enter as a percentage: if 5% of visitors click Buy today, enter 5. For count metrics, enter the raw decimal value."
 
->[!CONTEXTUALHELP]
->id="target_ai_insights_primary_metric"
->title="Primary metric"
->abstract="The primary metric is automatically pulled from the reporting settings. To make changes, modify the goal metric under Goals & Settings."
-
->[!CONTEXTUALHELP]
->id="target_ai_insights_hypothesis"
->title="Hypothesis"
->abstract="The hypothesis is a statement you define that explains the expected outcome of the experiment. Include a description of what is being changed and where, then state which metric you expect to change and how."
-
->[!CONTEXTUALHELP]
->id="target_ai_insights_opportunities"
->title="Opportunities"
->abstract="Experiment opportunities are AI suggested treatment ideas based on patterns AI found in your experiment screenshots and results."
-
->[!CONTEXTUALHELP]
->id="target_ai_insights_treatment_details"
->title="Treatment details"
->abstract="Treatment details show images of what a treatment looks like when a user qualifies for it. You can review these images for all experiments. Some experiments may ask you to confirm the image or replace it if needed."
 
 [!DNL Adobe Target], part of the [!DNL Adobe Experience Cloud], offers comprehensive tools to personalize customer experiences across web, mobile sites, apps, social media, and other digital channels. 
 
