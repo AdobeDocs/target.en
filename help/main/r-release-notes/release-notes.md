@@ -48,6 +48,46 @@ Explore the latest features, enhancements, and fixes in [!DNL Adobe Target]. The
 
 ## [!DNL Target Standard/Premium] 26.9.7 (September 28, 2026)
 
+### Features
+
+<table>
+<thead>
+<tr>
+<th><strong>Sample size calculator</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>The Sample Size Calculator helps you plan experiments before launch by estimating required traffic, test duration, the number of experiences, or the minimum effect you can reliably detect. Available from the Activities menu, it uses your inputs to help you determine the resources and runtime needed for your test.</p>
+<p>The Sample size calculator feature is currently available as a beta feature.</p>
+<p>For more information, refer to the <a href="../c-activities/sample-size-calculator.md">detailed documentation</a>.</p>
+</td>
+</tr>
+</tbody>
+</table>
+
+<table>
+<thead>
+<tr>
+<th><strong>AI Insights</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>AI insights provides AI-generated experiment learnings and optimization opportunities for A/B Test activities with Manual traffic allocation. Once an experiment reaches statistical significance, insights highlight attributes of the winning experience that likely contributed to its performance. Suggested opportunities include new experience ideas, hypotheses, and implementation guidance to help improve conversion rates.</p>
+<p>The AI insights feature is currently available as a beta feature.</p>
+<p>For more information, refer to the <a href="../c-activities/ai-insights.md">detailed documentation</a>.</p>
+</td>
+</tr>
+</tbody>
+</table>
+
+### Improvements
+
+
+
 **[!UICONTROL Recommendations]**
 
 +++ See details

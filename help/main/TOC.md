@@ -119,6 +119,7 @@ feature-set: Target
 + Activities {#activities}
    + [Activities overview](c-activities/activities.md)
    + [Insights Dashboard](c-activities/insights-dashboard.md)
+   + [Sample Size Calculator](c-activities/sample-size-calculator.md)
    + [Target activity types](c-activities/target-activities-guide.md)
    + A/B Test {#abtest}
       + [A/B test overview](c-activities/t-test-ab/test-ab.md)
@@ -190,6 +191,7 @@ feature-set: Target
       + [Click tracking](c-activities/r-success-metrics/click-tracking.md)
       + [Capture score](c-activities/r-success-metrics/capture-score.md)
    + [Activity change log](c-activities/change-log.md)
+   + [AI insights](c-activities/ai-insights.md)
    + Troubleshoot activities {#troubleshoot-activities}
       + [Troubleshoot activities overview](c-activities/c-troubleshooting-activities/troubleshooting-activities.md)
       + [Troubleshoot content delivery](c-activities/c-troubleshooting-activities/content-trouble.md)
