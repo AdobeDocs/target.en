@@ -86,7 +86,7 @@ Now, marketers might want to run an A/B Test to see whether changing the color f
 
 Now that we have covered what Adobe Target Views are, we can leverage this concept in Target to empower marketers to run A/B and XT tests on SPAs via the VEC. This will require a one-time developer setup. Let's go through the steps to set this up.
 
-1. +++ Install at.js 2.x.
++++ Install at.js 2.x.
 
    First, we need to install at.js 2.x. This version of at.js was developed with SPAs in mind. Previous versions of at.js and do not support Adobe Target Views and the VEC for SPA.
 
@@ -96,7 +96,7 @@ Now that we have covered what Adobe Target Views are, we can leverage this conce
 
    +++
 
-1. +++ Implement at.js 2.x's newest function
++++ Implement at.js 2.x's newest function
 
    Implement at.js 2.x's newest function [triggerView()](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/functions-overview/adobe-target-triggerview-atjs-2.html){target=_blank} on your sites.
 
@@ -213,7 +213,7 @@ Now that we have covered what Adobe Target Views are, we can leverage this conce
 
    +++
 
-1. +++ Launch A/B or XT activities via the VEC.
++++ Launch A/B or XT activities via the VEC.
 
    When `adobe.target.triggerView()` is implemented on your SPA with View names passed in as parameters, the VEC will be able to detect these views and allow users to create actions and modifications for their A/B or XT activities.
 
