@@ -10,6 +10,8 @@ badge: label="Beta" type="Informative"
 >[!AVAILABILITY]
 >
 >The AI insights feature is currently available as a beta feature.
+></br>
+>The **[!UICONTROL AI insights]** section is available only for **[!UICONTROL A/B Test]** activities with **[!UICONTROL Manual]** traffic allocation.
 
 The **[!UICONTROL AI insights]** menu in your **[!UICONTROL Activity Overview]** provides access to insights and optimization opportunities. Use this tab to review experiment learnings, compare treatments, and identify changes that might improve conversion rates.
 
