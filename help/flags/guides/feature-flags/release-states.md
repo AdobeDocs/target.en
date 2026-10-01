@@ -4,6 +4,9 @@ description: Learn about the lifecycle states of a release in Flags, including w
 badge: label="Beta" type="Informative"
 hide: true
 exl-id: c1311353-9c36-43c5-8e75-3b3ee225da41
+product_v2:
+  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+    internal-label: Target
 ---
 # Release states {#release-states}
 

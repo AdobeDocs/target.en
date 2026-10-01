@@ -4,6 +4,9 @@ description: Learn how to create a feature flag in Flags, set an audience, and t
 badge: label="Beta" type="Informative"
 hide: true
 exl-id: ae115120-8da9-465e-a556-c17591ea7054
+product_v2:
+  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+    internal-label: Target
 ---
 # Create your first feature flag {#create-feature-flag}
 

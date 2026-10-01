@@ -6,16 +6,20 @@ short-description: Learn about the new features, enhancements, and fixes include
 title: What Is Included in the Current Release?
 feature: Release Notes
 exl-id: 3ffead4f-113c-4153-b0b1-fc2aff710063
-TQID: https://experienceleague.adobe.com/-Unx6cVsw3wch2LJgPtvBYPe-10rdpiJ4v9F7tMSP08
+TQID: 'https://experienceleague.adobe.com/-Unx6cVsw3wch2LJgPtvBYPe-10rdpiJ4v9F7tMSP08'
 product_v2:
   - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
     internal-label: Target
 feature_v2:
   - id: c93393a4-e558-47e1-992e-c91ed4d480ce
     internal-label: Implementation
+  - id: dfc8a233-f2b5-4811-bf63-b4262aebc5a5
+    internal-label: Administration and configuration
 subfeature_v2:
   - id: fd0ff162-b6d3-4a11-8aeb-e165a01c0f0a
     internal-label: at.js
+  - id: c5abb976-5170-45d6-bcac-66d15d10a4d4
+    internal-label: Release notes
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
     internal-label: Reporting
@@ -31,6 +35,68 @@ topic_v2:
 Explore the latest features, enhancements, and fixes in [!DNL Adobe Target]. These release notes also cover updates to [!DNL Target] APIs, SDKs, the [!DNL Adobe Experience Platform Web SDK], at.js, and other platform components when applicable. 
 
 (The issue numbers in parentheses are for internal [!DNL Adobe] use.)
+
+## [!DNL Target Standard/Premium] 26.9.7 (September 28, 2026)
+
+**[!UICONTROL Recommendations]**
+
++++ See details
+
+* **"Invalid user input" error in the Visual Experience Composer**. When editing a Recommendations activity in the Visual Experience Composer, an "Invalid user input" error appeared when attempting to save and close the activity.
+
++++
+
+
+## [!DNL Target Standard/Premium] 26.9.6 (September 24, 2026)
+
+**[!UICONTROL Visual Experience Composer] (VEC)**
+
++++See details
+
+* **Endless redirection loop when accessing an SSO-authenticated page through the Visual Experience Composer**. When a page URL loaded in the Visual Experience Composer went through an SSO/login redirection flow, the Visual Experience Composer entered an endless redirect loop and never reached the intended page. (TGT-56233)
+
++++
+
+## [!DNL Target Standard/Premium] 26.9.5 (September 21, 2026)
+
+### Feature
+
+<table>
+<thead>
+<tr>
+<th><strong>Content pre-hiding</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>Content pre-hiding helps reduce page flicker by hiding only the sections that Adobe Target personalization is about to change, providing a smoother experience while content loads. This approach avoids hiding the entire page and helps minimize implementation effort when new activities are launched.</p>
+<p>Previously released in Limited Availability, this capability is now available to all environments (General Availability).</p>
+<p>For more information, refer to the <a href="../administrating-target/content-pre-hiding.md">detailed documentation</a>.</p>
+</td>
+</tr>
+</tbody>
+</table>
+
+### Improvements
+
+**[!UICONTROL Analytics for Target]**
+
++++See details
+
+* **A4T report link not generated in [!DNL Target] UI**. For [!DNL A4T] activities, the report link was not generated in the **[!UICONTROL Reports]** section, even though the underlying report data was visible in both the [!DNL Target] UI and the [!DNL Adobe Analytics] UI. (TGT-56247)
+
++++
+
+## [!DNL Target Standard/Premium] 26.9.4 (September 17, 2026)
+
+**[!UICONTROL Visual Experience Composer] (VEC)**
+
++++See details
+
+* **[!UICONTROL Insert Before] control inaccessible for [!DNL Experience Fragments] on the top-most page element**. In the Visual Experience Composer, selecting the top-most element on a page scrolled the page upward, causing the **[!UICONTROL Insert Before]** control to render above the visible viewport where it coul not be selected. (TGT-55829)
+
++++
 
 ## [!DNL Target Standard/Premium] 26.9.3 (September 16, 2026)
 
@@ -76,6 +142,18 @@ Explore the latest features, enhancements, and fixes in [!DNL Adobe Target]. The
 +++See details
 
 * **Copying an Activity with an activity-only audience fails to save**. When an A/B activity uses an activity-only (locally-scoped) audience rule and a Custom Code modification, copying it and saving the copy fails with an "Invalid audience ids" error. (TGT-55785)
+
++++
+
+**[!DNL Adobe Target] MCP server — Recommendations tools (Public Beta)**
+
++++See details
+
+The [!DNL Adobe Target] MCP server now exposes Recommendations tools, letting you list, inspect, create, and update criteria, collections, designs, promotions, and exclusions, and search the product catalog directly from your AI assistant.
+
+This capability requires a Recommendations-enabled tenant with **Target Premium**; it is not available on non-Premium accounts.
+
+For more information, see [MCP server tools reference](../c-integrating-target-with-mac/mcp/target-mcp-tools-reference.md).
 
 +++
 

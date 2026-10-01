@@ -4,6 +4,9 @@ description: Learn how Flags in Adobe Target provides a controlled release syste
 badge: label="Beta" type="Informative"
 hide: true
 exl-id: befe7899-096d-4f74-a5a2-35b1fc3cbc58
+product_v2:
+  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+    internal-label: Target
 ---
 # Introduction to Flags {#introduction}
 

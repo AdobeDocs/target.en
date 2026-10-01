@@ -8,6 +8,22 @@ topic: Experimentation, Personalization, Artificial Intelligence
 badge: label="Beta" type="Informative"
 role: User, Developer
 level: Beginner, Intermediate
+product_v2:
+  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+    internal-label: Target
+feature_v2:
+  - id: f7c7de77-382f-4f48-8b36-61a170f06d3d
+    internal-label: Integrations
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
+level_v2:
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+    internal-label: Beginner
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
 ---
 # [!DNL Adobe Target] MCP server {#target-mcp}
 
@@ -42,10 +58,10 @@ The [!DNL Adobe Target] MCP server provides both read and write access to activi
 * **Explore activities** - List, inspect, and analyze A/B and XT activities.
 * **Create and update activities** - Create new A/B and Experience Targeting activities, update configurations, manage traffic splits, add or remove variants, and control activity state (activate, pause, deactivate).
 * **Explore and manage audiences and offers** - List, inspect, create, and update audiences, HTML offers, and JSON offers.
-<!-- * **Explore Recommendations criteria** - List and inspect criteria and cart-based algorithms. -->
+* **Manage Recommendations** - List, inspect, create, and update criteria, collections, designs, promotions, and exclusions, and search the product catalog. Requires a Target Premium entitlement.
 * **Audit implementation** - Review at.js settings, response tokens, and per-entity revision history.
 
-The [!DNL Adobe Target] MCP server exposes 41 tools across 10 categories — from activity creation and reporting to audience management and QA previews. For the complete parameter reference, see [MCP server tools reference](target-mcp-tools-reference.md).
+The [!DNL Adobe Target] MCP server exposes 62 tools across 11 categories — from activity creation and reporting to audience management, QA previews, and Recommendations configuration. For the complete parameter reference, see [MCP server tools reference](target-mcp-tools-reference.md).
 
 To explore what you can do with the [!DNL Adobe Target] MCP server — including step-by-step prompt walkthroughs — see [Use cases and walkthroughs](target-mcp-use-cases.md).
 
@@ -60,7 +76,7 @@ The [!DNL Adobe Target] MCP server is currently available for **Claude Web**, **
 
 +++What [!DNL Adobe Target] objects can I access via MCP?
 
-You can access and manage activities (A/B, XT, AP), audiences, offers, properties, mboxes, response tokens, at.js configuration, A4T reports, and entity revision history. The MCP server exposes 41 tools covering both read and write operations.
+You can access and manage activities (A/B, XT, AP), audiences, offers, properties, mboxes, response tokens, at.js configuration, A4T reports, entity revision history, and Recommendations configuration (criteria, collections, designs, promotions, exclusions, and catalog search). The MCP server exposes 62 tools covering both read and write operations. Recommendations tools require a Target Premium entitlement and are not available on non-Premium accounts.
 +++
 
 +++Can the MCP server create or modify activities?

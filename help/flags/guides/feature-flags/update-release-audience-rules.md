@@ -4,6 +4,9 @@ description: Learn how to configure and update audience criteria for a release i
 badge: label="Beta" type="Informative"
 hide: true
 exl-id: 8d546cd7-af66-47c7-aab3-c667568e8582
+product_v2:
+  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+    internal-label: Target
 ---
 # Update release audience rules {#update-release-audience-rules}
 

@@ -4,6 +4,9 @@ description: Learn about the SDK architecture in Flags and the available AEP Web
 badge: label="Beta" type="Informative"
 hide: true
 exl-id: 110a440d-b52a-4e1e-a94f-86f9741a223a
+product_v2:
+  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+    internal-label: Target
 ---
 # SDKs {#sdks}
 
