@@ -53,15 +53,15 @@ The following steps assume you access the [!UICONTROL Create New Criteria] scree
 
    The CSV file must be formatted correctly to upload successfully. Click **[!UICONTROL Download the CSV template]** to get a correctly formatted CSV file.
 
-  You have three location options:
+    You have three location options:
 
-   * **FTP:** To upload your CSV file from an FTP server, select **[!UICONTROL FTP]**, then enter the required information. You can use SSL, which uses the FTPS protocol to transfer your CSV file securely.
+    * **FTP:** To upload your CSV file from an FTP server, select **[!UICONTROL FTP]**, then enter the required information. You can use SSL, which uses the FTPS protocol to transfer your CSV file securely.
 
-  * **SFTP:** To upload your CSV file from an SFTP server, select **[!UICONTROL SFTP]**, then enter the host name or IP address, port (default 22), username, a password and/or SSH private key, directory, and filename. For details, see [Supported SFTP server settings](/help/main/c-recommendations/c-products/feeds.md#sftp-settings).
+    * **SFTP:** To upload your CSV file from an SFTP server, select **[!UICONTROL SFTP]**, then enter the host name or IP address, port (default 22), username, a password and/or SSH private key, directory, and filename. For details, see [Supported SFTP server settings](/help/main/c-recommendations/c-products/feeds.md#sftp-settings). 
+      
+      SFTP does not change the custom-criteria CSV format. Use the `# Key,Recommendation_1,...` format, using a different feed type's format causes the import to fail.
 
-   * **URL:** To upload your CSV file from a URL, select **[!UICONTROL URL]**, then enter a feed URL.
-
-  SFTP does not change the custom-criteria CSV format. Use the `# Key,Recommendation_1,...` format; using a different feed type's format causes the import to fail.
+    * **URL:** To upload your CSV file from a URL, select **[!UICONTROL URL]**, then enter a feed URL.
 
 1. Click **[!UICONTROL Create]**.
 

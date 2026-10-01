@@ -124,31 +124,28 @@ na3457,RipCurl Watch with Black Dial,Watches & Sport,Cutting edge matte black wi
 
 ### [!DNL Google] {#section_8EFA98B5BC064140B3F74534AA93AFFF}
 
-The [!DNL Google Product Search] feed type uses the [!DNL Google] format. This is different from the [!DNL Adobe] proprietary CSV upload format.
-
-If you have an existing [!DNL Google Product Feed], you can use that as your import file.
+The [!DNL Google Product Search] feed type uses the [!DNL Google] format rather than the [!DNL Adobe] proprietary CSV format. You can reuse an existing [!DNL Google Product Feed] to import product data into [!DNL Recommendations].
 
 >[!NOTE]
 >
->It is not required to use [!DNL Google] data. [!DNL Recommendations] uses the same format as [!DNL Google]. You can use this method to upload any data you have, and use the available scheduling features. However, you must retain the [!DNL Google] predefined attribute names when you set up the file.
+>You do not need to submit your data to [!DNL Google]. You can import your own data and schedule updates, provided the file uses the predefined [!DNL Google] attribute names.
 
-Most retailers upload products to [!DNL Google], so when a visitor uses the [!DNL Google] product search, their products display. [!DNL Recommendations] follows the [!DNL Google] specification exactly for entity feeds. Entity feeds can be sent to [!DNL Recommendations] via .xml, .txt, or .tsv, and can use the [attributes defined by Google](https://support.google.com/merchants/answer/188494?hl=en&topic=2473824&ctx=topic#US). The results are searchable on the [[!DNL Google] shopping pages](https://www.google.com/prdhp).
+[!DNL Recommendations] accepts .xml, .txt, and .tsv files that follow the [!DNL Google] feed specification and use the [attributes defined by Google](https://support.google.com/merchants/answer/188494?hl=en&topic=2473824&ctx=topic#US). Specify the feed's URL or FTP location so the [!DNL Recommendations] server can retrieve the file and build your catalog.
 
 >[!NOTE]
 >
->The POST method must be allowed on the server that is hosting the [!DNL Google] feed content.
+>The server hosting the [!DNL Google] feed must allow the POST method.
 
-Because [!DNL Recommendations] users already configure .xml or .txt feeds to send to [!DNL Google] either via URL or FTP, entity feeds accept that product data and use it to build the recommendations catalog. Specify where that feed exists and the recommendations server retrieves the data.
+Keep the following requirements and limitations in mind:
 
-If you use [!DNL Google Product Search] for the entity feed upload, you still must have a product page mbox on the page if you want to show recommendations there or track product views for algorithm delivery based on views.
+* A product page mbox is still required to display recommendations on that page or track product views for view-based algorithms.
+* [!DNL Google] feeds do not support multiple values for a custom attribute.
 
-[!DNL Google] feeds do not support multiple values for a custom attribute.
+The feed runs when you save and activate it, then daily one hour later than the initial run time.
 
-The feed runs at the time that you save and activate it. It runs at the time that you save the feed, then every day an hour later.
+The following example shows a [!DNL Google Product Search] feed in .xml format:
 
-The following is sample code for a [!DNL Google Product Search] feed .xml file:
-
-```
+```xml
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?> 
 <feed xmlns="https://www.w3.org/2005/Atom" xmlns:ns2="https://base.google.com/ns/1.0" xmlns:ns3="https://base.google.com/cns/1.0"> 
     <title>Product Feed</title> 
@@ -253,24 +250,28 @@ Create a feed to insert information about your products or services into [!DNL R
 
    * **FTP**: If you selected FTP, provide the FTP server information, the login credentials, the filename, and the FTP directory. You can use FTP with SSL (FTPS) for more secure uploads.
 
-     Supported FTP server settings:
+     +++ Supported FTP server settings
 
      * FTP and FTPS must be set to use Passive FTP.
      * For FTPS, configure the server to accept Explicit FTPS connections.
      * You can manually specify a port on which to initiate the connection (for example, `ftp://ftp.yoursite.com:2121`). If you do not specify a port, the default FTP or FTPS port is used.
 
-   * **SFTP**: If you selected SFTP, provide the host name or IP address of your SFTP server, the port (default 22), the username, a password and/or SSH private key, the directory, and the filename.
+    +++
 
-     ### Supported SFTP server settings {#sftp-settings}
+   * **SFTP**: Enter your SFTP server's host name or IP address, port (default: 22), username, directory, and filename. For authentication, provide a password, an SSH private key, or both.
+
+     +++ Supported SFTP server settings and limitations
 
      * Authentication uses a password, an SSH private key, or both. At least one is required.
      * The customer generates and owns the key pair. Install the public key in the SFTP user's `authorized_keys` file, then paste the private key into Target as PEM text. Accepted key types are RSA, Ed25519, and ECDSA, in PEM (`-----BEGIN RSA PRIVATE KEY-----`), PKCS#8 (`-----BEGIN PRIVATE KEY-----`), or OpenSSH (`-----BEGIN OPENSSH PRIVATE KEY-----`) format.
-     * Passphrase-protected private keys are not supported; a feed cannot be saved with one.
+     * Passphrase-protected private keys are not supported, a feed cannot be saved with one.
      * Target stores the private key encrypted and does not display it again. To rotate it, edit the feed and enter the new key.
      * Enter a bare host name or IP address, without an `sftp://` prefix, port, or path. Use the Port field for a non-default port.
-     * The server host key is accepted on first connection; no fingerprint exchange with Adobe is needed.
-     * SFTP is available in the Target UI and Recommendations API, but not in the legacy Recommendations Classic admin UI. Adobe does not host an SFTP endpoint; use a customer-hosted server.
+     * The server host key is accepted on first connection, no fingerprint exchange with Adobe is needed.
+     * SFTP is available in the Target Interface and Recommendations API, but not in the legacy Recommendations Classic admin interface. Adobe does not host an SFTP endpoint, use a customer-hosted server.
      * The SFTP server must be reachable from the internet and allow inbound connections from Adobe Target's download addresses. The production IP list must be confirmed by engineering before publication of this update.
+
+    +++
 
    * **URL**: If you select [!UICONTROL URL], specify the URL.
 
@@ -297,11 +298,11 @@ Create a feed to insert information about your products or services into [!DNL R
 
 1. Click **[!UICONTROL Save]**.
 
-After you create or edit a feed, the feed runs immediately. The feed then updates according to the parameters that you set. It takes some time for the information to be available. First, the feed must sync, then it must be processed and indexed before it can be published and made available. The current status appears under [Feed Status](/help/main/c-recommendations/c-products/feeds.md#status) in the [!UICONTROL Feeds] list. You can close [!DNL Target] before the process is complete and the process continues.
+After you create or edit a feed, it runs immediately, then updates according to your settings. The feed must sync, process, and index before its data is available. Check [Feed Status](/help/main/c-recommendations/c-products/feeds.md#status) in the [!UICONTROL Feeds] list for progress. Processing continues even if you close [!DNL Target].
 
-While indexing is in progress, products and feed headers appear before individual values have been indexed. This lets you search and see products so you can create collections, exclusions, designs, and activities before indexing has been completed.
+During indexing, products and feed headers appear before individual values, so you can search for products and create collections, exclusions, designs, and activities before indexing finishes.
 
-When the Status says "Success," it means that the file was found and it parsed correctly. The information is not available to use within [!DNL Recommendations] until the file is indexed, which can take some time, depending on the size of your file. If the process fails, it means that the file was not found. For example, you used an incorrect URL or your FTP information was incorrect, or that there was a parsing error.
+The "Success" status means the file was found and parsed correctly. Its data is available in [!DNL Recommendations] only after indexing, which takes time depending on file size. Failures can result from an incorrect URL or FTP information, a missing file, or a parsing error.
 
 ## Feed Statuses and Indicators {#concept_E475986720D1400999868B3DFD14A7A0}
 
@@ -323,7 +324,7 @@ The following are possible statuses for a feed:
 |Feed Imported Successfully at *time*|[!DNL Target] has imported the feed file into its content delivery system. Changes to item attributes have been made in the content delivery system and will soon be reflected in delivered recommendations. If you do not see the expected changes, try again and refresh the page containing recommendations.<br>Notes:<ul><li>If changes to an item's attributes result in an item being excluded from recommendations, the exclusion is immediately reflected. If an item is newly added, or changes to attributes result in an item being *no longer* excluded from recommendations, it is not reflected until the next algorithm update, which occurs within 24 hours.</li><li>When this status is displayed, updates might not yet be reflected in the [!UICONTROL Catalog Search] UI. A separate status is listed in [!UICONTROL Catalog Search] indicating the last time that the searchable catalog was updated.</li></ul>|
 |Partial Import Failed|Previously, when all the rows were not uploaded, the feed was still marked as success. Thus, creating a false impression that all the rows have been uploaded as the feed shows successful.<P>Here's a scenario of why you might encounter a partial feed import:<ul><li>You uploaded a feed file for the production environment, for example 100 rows.</li><li>The feed ran and uploaded 80 out of those rows and dropped 20 rows due to incorrect formatting, field exceeded characters, and so forth.</li><li>The feed was marked as success in the UI, giving you the impression that all 100 rows were uploaded.</li><li>You are expecting some of those 20 products in the delivery of an activity but it is not happening.</li><li> You are puzzled at this point because you uploaded the feed that has the product details for products in question. You don't see it in the backend when you query via the Entity API, which tells you it is not in the backend.</li></ul>To remove this confusion, the message is improved to tell exactly what happened with the feed. Rather than marking it as a success, it is now marked as partial import failed.|
 |[!UICONTROL Failed to Index]|The index operation failed. Try again.|
-|[!UICONTROL Server Not Found]|FTP or URL locations are invalid or otherwise unreachable.|
+|[!UICONTROL Server Not Found]|FTP, SFTP or URL locations are invalid or otherwise unreachable.|
 
 To update a feed (for example, to make changes to your feed configuration or feed file), open the feed, make any desired changes, and click **[!UICONTROL Save]**. 
 
