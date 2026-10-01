@@ -4,6 +4,9 @@ description: Learn how gradual rollouts in Flags let you phase feature delivery 
 badge: label="Beta" type="Informative"
 hide: true
 exl-id: ede24236-de19-4008-893c-e67bd82e23e3
+product_v2:
+  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+    internal-label: Target
 ---
 # Gradual rollout {#gradual-rollout}
 

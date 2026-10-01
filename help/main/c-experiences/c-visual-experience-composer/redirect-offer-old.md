@@ -4,6 +4,12 @@ description: Learn how to use the Redirect to URL option in Adobe [!DNL Target] 
 title: Can I Redirect a Page to a Different URL?
 feature: Visual Experience Composer (VEC)
 exl-id: bd448482-0079-4689-aa24-65ecbb31b8ae
+product_v2:
+  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+    internal-label: Target
+feature_v2:
+  - id: f7501c88-b36a-590b-9cc4-dea607bda94b
+    internal-label: Visual Experience Composer (VEC)
 ---
 # Redirect to a URL
 

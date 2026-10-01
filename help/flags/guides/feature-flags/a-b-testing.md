@@ -4,6 +4,9 @@ description: Learn how to run A/B tests using feature groups in Flags by configu
 badge: label="Beta" type="Informative"
 hide: true
 exl-id: bb849049-229c-40ff-bbfe-7996f868bcc3
+product_v2:
+  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+    internal-label: Target
 ---
 # A/B testing with feature flags {#a-b-testing}
 

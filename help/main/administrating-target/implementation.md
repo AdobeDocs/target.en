@@ -5,13 +5,15 @@ title: How Do Implement [!DNL Target] on My Site?
 feature: Administration & Configuration
 role: Admin
 exl-id: 7cbe95cf-82f7-490f-a3f1-cc882ca489a6
-TQID: https://experienceleague.adobe.com/2QbhX9ZAYmeC6szEtqe18-q6bKIkWGwJBsuj2xExn8A
+TQID: 'https://experienceleague.adobe.com/2QbhX9ZAYmeC6szEtqe18-q6bKIkWGwJBsuj2xExn8A'
 product_v2:
   - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
     internal-label: Target
 feature_v2:
   - id: c93393a4-e558-47e1-992e-c91ed4d480ce
     internal-label: Implementation
+  - id: dfc8a233-f2b5-4811-bf63-b4262aebc5a5
+    internal-label: Administration and configuration
 subfeature_v2:
   - id: fd0ff162-b6d3-4a11-8aeb-e165a01c0f0a
     internal-label: at.js

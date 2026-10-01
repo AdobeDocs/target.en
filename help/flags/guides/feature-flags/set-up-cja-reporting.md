@@ -4,6 +4,9 @@ description: Configure the datastream, connection, and data view required to vie
 badge: label="Beta" type="Informative"
 hide: true
 exl-id: 57bd1106-2b3d-4e03-882a-acfef1c0df66
+product_v2:
+  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+    internal-label: Target
 ---
 # Set up CJA for feature flags reporting {#set-up-cja-reporting}
 

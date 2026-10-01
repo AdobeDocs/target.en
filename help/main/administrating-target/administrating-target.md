@@ -5,13 +5,15 @@ title: How Do I Administer Target?
 feature: Administration & Configuration
 role: Admin
 exl-id: 89023213-b109-4d07-af4e-4b8da481806d
-TQID: https://experienceleague.adobe.com/cLBqYpq9TTkS7fPllFUOHP73z482Z5nfoM79UtVBo8E
+TQID: 'https://experienceleague.adobe.com/cLBqYpq9TTkS7fPllFUOHP73z482Z5nfoM79UtVBo8E'
 product_v2:
   - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
     internal-label: Target
 feature_v2:
   - id: c93393a4-e558-47e1-992e-c91ed4d480ce
     internal-label: Implementation
+  - id: dfc8a233-f2b5-4811-bf63-b4262aebc5a5
+    internal-label: Administration and configuration
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
     internal-label: Admin

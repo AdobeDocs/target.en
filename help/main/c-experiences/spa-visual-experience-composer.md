@@ -4,7 +4,7 @@ description: Learn how to use the SPA VEC in Adobe [!DNL Target] to create tests
 title: How Do I Use the Single Page App Visual Experience Composer (SPA VEC)?
 feature: Visual Experience Composer (VEC)
 exl-id: fd3dcfaa-e5c6-45a1-8229-9c206562e5b0
-TQID: https://experienceleague.adobe.com/SilMhoqEp7o5GvyO2vzBt83e8EmiULUvo14Y-E-PcJA
+TQID: 'https://experienceleague.adobe.com/SilMhoqEp7o5GvyO2vzBt83e8EmiULUvo14Y-E-PcJA'
 product_v2:
   - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
     internal-label: Target
@@ -15,6 +15,8 @@ feature_v2:
     internal-label: Implementation
   - id: f7c7de77-382f-4f48-8b36-61a170f06d3d
     internal-label: Integrations
+  - id: f7501c88-b36a-590b-9cc4-dea607bda94b
+    internal-label: Visual Experience Composer (VEC)
 subfeature_v2:
   - id: df62f171-ac37-440f-8f0f-f41a72ebdd34
     internal-label: Analytics integration
@@ -84,7 +86,7 @@ Now, marketers might want to run an A/B Test to see whether changing the color f
 
 Now that we have covered what Adobe Target Views are, we can leverage this concept in Target to empower marketers to run A/B and XT tests on SPAs via the VEC. This will require a one-time developer setup. Let's go through the steps to set this up.
 
-1. Install at.js 2.x.
++++ Install at.js 2.x.
 
    First, we need to install at.js 2.x. This version of at.js was developed with SPAs in mind. Previous versions of at.js and do not support Adobe Target Views and the VEC for SPA.
 
@@ -92,7 +94,11 @@ Now that we have covered what Adobe Target Views are, we can leverage this conce
 
    Download the at.js 2.x via the Adobe Target UI located in [!UICONTROL Administration > Implementation]. at.js 2.x can also be deployed via tags in [Adobe Experience Platform](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/deploy-at-js/implement-target-using-adobe-launch.html){target=_blank}. However, the Adobe Target extensions are not currently up to date and supported.
 
-1. Implement at.js 2.x's newest function: [triggerView()](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/functions-overview/adobe-target-triggerview-atjs-2.html){target=_blank} on your sites.
+   +++
+
++++ Implement at.js 2.x's newest function
+
+   Implement at.js 2.x's newest function [triggerView()](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/functions-overview/adobe-target-triggerview-atjs-2.html){target=_blank} on your sites.
 
    After defining the Views of your SPA where you want to run an A/B or XT test, implement at.js 2.x's `triggerView()` function with the Views passed in as a parameter. This allows marketers to use the VEC to design and run the A/B and XT tests for those Views defined. If the `triggerView()` function is not defined for those Views, the VEC will not detect the Views and thus marketers cannot use the VEC to design and run A/B and XT tests.
 
@@ -205,15 +211,17 @@ Now that we have covered what Adobe Target Views are, we can leverage this conce
    }
    ```
 
-1. Launch A/B or XT activities via the VEC.
+   +++
+
++++ Launch A/B or XT activities via the VEC.
 
    When `adobe.target.triggerView()` is implemented on your SPA with View names passed in as parameters, the VEC will be able to detect these views and allow users to create actions and modifications for their A/B or XT activities.
 
-   >[!NOTE]
-   >
-   >The VEC for SPAs is really the same VEC that you use on regular web pages, but some additional capabilities are available when you open a single page app with `triggerView()` implemented.
+>[!NOTE]
+>
+>The VEC for SPAs is really the same VEC that you use on regular web pages, but some additional capabilities are available when you open a single page app with `triggerView()` implemented.
 
-  There are two major improvements to the [Modifications](/help/main/c-experiences/c-visual-experience-composer/c-vec-code-editor/vec-code-editor.md) panel and Actions for the VEC that allow the VEC to work well with SPAs.
+   There are two major improvements to the [Modifications](/help/main/c-experiences/c-visual-experience-composer/c-vec-code-editor/vec-code-editor.md) panel and Actions for the VEC that allow the VEC to work well with SPAs.
 
    **Modifications Panel**
 
@@ -235,9 +243,9 @@ Now that we have covered what Adobe Target Views are, we can leverage this conce
    |Move|Moves the action to a Page Load Event or any other View that already exists in the modifications panel.<br>[!UICONTROL Page Load Event] – any actions corresponding to the page load event are applied on the initial page load of your web application.<br>**Note** After a move operation is made, you need to navigate to the View in the VEC via Browse to see whether the move was a valid operation. If the action cannot be applied to the View, you will see an error|
    |Delete|Deletes the action.|
 
-   >[!NOTE]
-   >
-   >You can perform many actions before the page loads in the VEC, or even if the page fails to load altogether. Actions that cannot be edited before the site loads are disabled in the UI.
+>[!NOTE]
+>
+>You can perform many actions before the page loads in the VEC, or even if the page fails to load altogether. Actions that cannot be edited before the site loads are disabled in the UI.
 
    **Example 1**
 
@@ -260,7 +268,7 @@ Now that we have covered what Adobe Target Views are, we can leverage this conce
    1. Apply actions to change the text label to "Sale Price" and the color to red.
 
    ![Example 2](/help/main/c-experiences/assets/example2.png)
-
+   
    **Example 3**
 
    Lastly, as mentioned before, Views can be defined at a granular level. Views can be a state or even an option from a radio button. Previously we have created Views as CHECKOUT-EXPRESS and CHECKOUT-NORMAL. Our goal is to change the button color to red for the CHECKOUT-EXPRESS view.
@@ -275,9 +283,11 @@ Now that we have covered what Adobe Target Views are, we can leverage this conce
 
    ![Example 3](/help/main/c-experiences/assets/example3.png)
 
-   >[!NOTE]
-   >
-   >The CHECKOUT-EXPRESS view will not show up in the modification panel until you click the Express Delivery radio button. This is because the `triggerView()` function is triggered when the Express Delivery radio button is selected and this is only when VEC knows that there is a View to show in the modification panel.
+>[!NOTE]
+>
+>The CHECKOUT-EXPRESS view will not show up in the modification panel until you click the Express Delivery radio button. This is because the `triggerView()` function is triggered when the Express Delivery radio button is selected and this is only when VEC knows that there is a View to show in the modification panel.
+
+   +++
 
 ## Deep dive into at.js and SPAs
 

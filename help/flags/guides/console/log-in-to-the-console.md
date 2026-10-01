@@ -4,6 +4,9 @@ description: Learn how to get started with Flags by requesting access and openin
 badge: label="Beta" type="Informative"
 hide: true
 exl-id: 4b109759-43b5-440a-89b4-78c0f0483cd0
+product_v2:
+  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+    internal-label: Target
 ---
 # Access Flags in Adobe Target {#log-in}
 
