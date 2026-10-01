@@ -37,6 +37,26 @@ The **[!UICONTROL AI insights]** menu in your **[!UICONTROL Activity Overview]**
 >title="Experience details"
 >abstract="Experience details show images of what a experience looks like when a user qualifies for it. You can review these images for all experiments. Some experiments may ask you to confirm the image or replace it if needed."
 
+>[!CONTEXTUALHELP]
+>id="target_ai_insights_primary_metric"
+>title="Primary metric"
+>abstract="The primary metric is automatically pulled from the reporting settings. To make changes, modify the goal metric under Goals & Settings."
+
+>[!CONTEXTUALHELP]
+>id="target_ai_insights_hypothesis"
+>title="Hypothesis"
+>abstract="The hypothesis is a statement you define that explains the expected outcome of the experiment. Include a description of what is being changed and where, then state which metric you expect to change and how."
+
+>[!CONTEXTUALHELP]
+>id="target_ai_insights_opportunities"
+>title="Opportunities"
+>abstract="Experiment opportunities are AI suggested treatment ideas based on patterns AI found in your experiment screenshots and results."
+
+>[!CONTEXTUALHELP]
+>id="target_ai_insights_treatment_details"
+>title="Treatment details"
+>abstract="Treatment details show images of what a treatment looks like when a user qualifies for it. You can review these images for all experiments. Some experiments may ask you to confirm the image or replace it if needed."
+
 Before you can access AI-generated insights and opportunities, you first need to set up your activity by confirming the primary metric, hypothesis, and experience screenshots.
 
 The primary metric is automatically pulled from the reporting settings and depends on how you set up your Goals & Settings. You must create the hypothesis in the AI insights panel. [Learn more](../c-activities/t-test-ab/t-test-create-ab/ab-goals-and-settings.md)
