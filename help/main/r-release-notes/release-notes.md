@@ -38,16 +38,6 @@ Explore the latest features, enhancements, and fixes in [!DNL Adobe Target]. The
 
 ## [!DNL Target Standard/Premium] 26.9.8 (September 30, 2026)
 
-**[!UICONTROL Administration]**
-
-+++ See details
-
-* **Unable to grant AI permissions to users**. Users with Product Admin and System Admin access could not grant AI permissions to other users. Attempting to enable the AI permission resulted in an `Unauthorized` error, even when AI was enabled for the organization. (TGT-56261)
-
-+++
-
-## [!DNL Target Standard/Premium] 26.9.7 (September 28, 2026)
-
 ### Features
 
 <table>
@@ -86,6 +76,15 @@ Explore the latest features, enhancements, and fixes in [!DNL Adobe Target]. The
 
 ### Improvements
 
+**[!UICONTROL Administration]**
+
++++ See details
+
+* **Unable to grant AI permissions to users**. Users with Product Admin and System Admin access could not grant AI permissions to other users. Attempting to enable the AI permission resulted in an `Unauthorized` error, even when AI was enabled for the organization. (TGT-56261)
+
++++
+
+## [!DNL Target Standard/Premium] 26.9.7 (September 28, 2026)
 
 
 **[!UICONTROL Recommendations]**
