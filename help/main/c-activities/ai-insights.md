@@ -20,7 +20,7 @@ The **[!UICONTROL AI insights]** menu in your **[!UICONTROL Activity Overview]**
 >[!CONTEXTUALHELP]
 >id="target_ai_insights"
 >title="Insights"
->abstract="Experiment insights are the learnings found by AI when the experiment data has met statistical significance."
+>abstract="Insights are AI-generated findings that become available when your experiment reaches statistical significance."
 
 >[!CONTEXTUALHELP]
 >id="target_ai_insights_primary_metric"
@@ -95,7 +95,7 @@ After setup is complete, your activity is ready to generate opportunities. Insig
 >[!CONTEXTUALHELP]
 >id="target_ai_insights_insights"
 >title="Insights"
->abstract="Experiment insights are the learnings found by AI when the experiment data has met statistical significance."
+>abstract="Experiment insights are AI-generated learnings that become available when the experiment reaches statistical significance."
 
 Experiment insights are AI-generated learnings derived from this experiment. These insights become available once the experiment reaches statistical significance and provide context about what contributed to its success. They highlight the key attributes present in the winning Experience that are distinct from the control and likely influenced the outcome.
 
