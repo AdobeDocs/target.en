@@ -27,6 +27,7 @@ feature-set: Target
       + [Enable AI Assistant](/help/main/c-intro/enabling-ai-assistant.md)
       + [Use AI Assistant to gain product knowledge](/help/main/c-intro/ai-assistant-product-knowledge.md)
       + {hide-from-toc} [Use AI Assistant for content generation](/help/main/c-intro/ai-assistant-content-generation.md)
+   + [Coworker skills for Adobe Target](c-intro/coworker-skills.md)
    + Adobe Target welcome kit {#welcome}
       + [Target welcome kit overview](/help/main/c-intro/target-welcome-kit.md)
       + [Chapter 1: Introduction](/help/main/c-intro/target-welcome-kit-1.md)
