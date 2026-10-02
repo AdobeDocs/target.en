@@ -58,11 +58,11 @@ Select the desired organization from the [!UICONTROL Organization] drop-down lis
 
 Provide a description for your feedback, include applicable files or screenshots, and any additional details, as necessary, then click **[!UICONTROL Submit]**.
 
-### [!DNL AI Assistant]
+### [!DNL Coworker]
 
-(Conditional) If you have been granted the rights to use [!DNL AI Assistant] by your organization, click the [!DNL AI Assistant] icon.
+(Conditional) If you have been granted the rights to use [!DNL Coworker] by your organization, click the [!DNL Coworker] icon.
 
-For more information, see [Adobe Experience Platform AI Assistant overview](/help/main/c-intro/ai-assistant.md).
+For more information, see [Coworker skills for Adobe Target](/help/main/c-intro/coworker-skills.md).
 
 ### Help
 
