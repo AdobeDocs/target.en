@@ -22,11 +22,6 @@ feature-set: Target
    + [Target key concepts](c-intro/target-key-concepts.md)
    + [Understand the Target UI](/help/main/c-intro/understand-the-target-ui.md)
    + [Target UI update FAQs](/help/main/c-intro/updated-ui-faq.md)
-   + Adobe Target AI Assistant {#assistant-ai}
-      + [AI Assistant overview](/help/main/c-intro/ai-assistant.md)
-      + [Enable AI Assistant](/help/main/c-intro/enabling-ai-assistant.md)
-      + [Use AI Assistant to gain product knowledge](/help/main/c-intro/ai-assistant-product-knowledge.md)
-      + {hide-from-toc} [Use AI Assistant for content generation](/help/main/c-intro/ai-assistant-content-generation.md)
    + [Coworker skills for Adobe Target](c-intro/coworker-skills.md)
    + Adobe Target welcome kit {#welcome}
       + [Target welcome kit overview](/help/main/c-intro/target-welcome-kit.md)

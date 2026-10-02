@@ -45,21 +45,21 @@ The following skills are available under the **Target** plugin:
 
   Provides read-only discovery, inspection, and counting of Target entities, including activities, audiences, offers, and related configuration.
 
-    >[!BEGINSHADEBOX]
+>[!BEGINSHADEBOX]
     
-    *Example prompts:*
+  *Example prompts:*
     
-    * "List my active activities."
-    * "How many activities are currently running?"
-    * "Show me the audiences and offers used by this activity."
+  * "List my active activities."
+  * "How many activities are currently running?"
+  * "Show me the audiences and offers used by this activity."
     
-    >[!ENDSHADEBOX]
+>[!ENDSHADEBOX]
 
 * **Target Activity Verdict**
 
   Determines whether an activity is ready to ship, should wait for more data, should stop, or needs a fix, using significance calculations and configuration checks.
 
-  >[!BEGINSHADEBOX]
+>[!BEGINSHADEBOX]
     
   *Example prompts:*
     
@@ -67,13 +67,13 @@ The following skills are available under the **Target** plugin:
   * "Is this activity ready to stop?"
   * "Does the current activity configuration have any issues?"
     
-  >[!ENDSHADEBOX]
+>[!ENDSHADEBOX]
 
 * **Target Design**
 
   Creates and configures activities and offers, generates QA URLs, and authors or optimizes offer content.
 
-  >[!BEGINSHADEBOX]
+>[!BEGINSHADEBOX]
     
   *Example prompts:*
     
@@ -81,13 +81,13 @@ The following skills are available under the **Target** plugin:
   * "Create an offer for the returning visitor experience."
   * "Generate a QA URL for this activity."
     
-  >[!ENDSHADEBOX]
+>[!ENDSHADEBOX]
 
 * **Target VEC**
 
   Creates and edits Visual Experience Composer activities and their page-delivery audiences.
 
-  >[!BEGINSHADEBOX]
+>[!BEGINSHADEBOX]
     
   *Example prompts:*
     
@@ -95,13 +95,13 @@ The following skills are available under the **Target** plugin:
   * "Edit the hero headline in my VEC activity."
   * "Create a page-delivery audience for this VEC activity."
     
-  >[!ENDSHADEBOX]
+>[!ENDSHADEBOX]
 
 * **Target Setup**
 
   Guides complete A/B, Experience Targeting, or Visual Experience Composer activity creation, including prerequisites, scheduling, QA, and activation.
 
-    >[!BEGINSHADEBOX]
+>[!BEGINSHADEBOX]
     
     *Example prompts:*
     
@@ -109,13 +109,13 @@ The following skills are available under the **Target** plugin:
     * "What do I need before I create an Experience Targeting activity?"
     * "Walk me through scheduling, QA, and activating this activity."
     
-    >[!ENDSHADEBOX]
+>[!ENDSHADEBOX]
 
 * **Target Intelligence**
 
   Audits Target programs for risks, collisions, misconfigurations, hygiene issues, and quick wins.
 
-  >[!BEGINSHADEBOX]
+>[!BEGINSHADEBOX]
     
   *Example prompts:*
     
@@ -123,13 +123,13 @@ The following skills are available under the **Target** plugin:
   * "Find collisions or configuration risks across my activities."
   * "What quick wins can improve the hygiene of my Target program?"
     
-  >[!ENDSHADEBOX]
+>[!ENDSHADEBOX]
 
 * **Target Strategist**
 
   Analyzes historical Target data for winning patterns and recommends future tests.
 
-  >[!BEGINSHADEBOX]
+>[!BEGINSHADEBOX]
     
   *Example prompts:*
     
@@ -137,13 +137,13 @@ The following skills are available under the **Target** plugin:
   * "What patterns appear in my highest-performing tests?"
   * "Recommend a follow-up test based on this activity's results."
     
-  >[!ENDSHADEBOX]
+>[!ENDSHADEBOX]
 
 * **Target Test Calculator**
 
   Plans A/B/n sample size, duration, and detectable lift for conversion and revenue metrics, with Bonferroni correction for multiple comparisons.
 
-  >[!BEGINSHADEBOX]
+>[!BEGINSHADEBOX]
     
   *Example prompts:*
     
@@ -151,13 +151,13 @@ The following skills are available under the **Target** plugin:
   * "How long should I run this A/B test to detect a 5% lift?"
   * "What detectable lift can I measure with this traffic?"
     
-  >[!ENDSHADEBOX]
+>[!ENDSHADEBOX]
 
 * **Target Portfolio Report**
 
   Provides read-only, program-wide performance rollups and activity trend and momentum analysis.
 
-  >[!BEGINSHADEBOX]
+>[!BEGINSHADEBOX]
     
   *Example prompts:*
     
@@ -165,13 +165,13 @@ The following skills are available under the **Target** plugin:
   * "Show me performance trends across my activities."
   * "Which activities have gained or lost momentum recently?"
     
-  >[!ENDSHADEBOX]
+>[!ENDSHADEBOX]
 
 * **Target Audience Composer**
 
   Creates or edits Target-native audiences from natural-language descriptions or explicit rules.
 
-  >[!BEGINSHADEBOX]
+>[!BEGINSHADEBOX]
     
   *Example prompts:*
     
@@ -179,13 +179,13 @@ The following skills are available under the **Target** plugin:
   * "Edit this audience to include visitors from organic search."
   * "Create a Target audience for visitors who viewed the pricing page."
     
-  >[!ENDSHADEBOX]
+>[!ENDSHADEBOX]
 
 * **Target Recommendations**
 
   Manages and works with Target Recommendations activities and configurations.
 
-  >[!BEGINSHADEBOX]
+>[!BEGINSHADEBOX]
     
   *Example prompts:*
     
@@ -193,13 +193,13 @@ The following skills are available under the **Target** plugin:
   * "Show me my Recommendations activities and configurations."
   * "Update the settings for this Recommendations activity."
     
-  >[!ENDSHADEBOX]
+>[!ENDSHADEBOX]
 
 * **Target Recommendations Diagnose**
 
   Diagnoses Recommendations delivery, configuration, catalog, and feed issues.
 
-  >[!BEGINSHADEBOX]
+>[!BEGINSHADEBOX]
     
   *Example prompts:*
     
@@ -207,4 +207,4 @@ The following skills are available under the **Target** plugin:
   * "Diagnose the feed and catalog configuration for this Recommendations activity."
   * "Are delivery or configuration issues affecting my recommendations?"
     
-  >[!ENDSHADEBOX]
+>[!ENDSHADEBOX]
