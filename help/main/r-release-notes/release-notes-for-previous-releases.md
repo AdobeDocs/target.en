@@ -2081,6 +2081,7 @@ This release includes the following fixes and updates:
 * Added an error message to alert users when an audience timeframe is invalid. (TGT52522)
 * Updated the activity structure to support duplicate audiences of different types. (TGT-51200)
 
+<!--
 ### [!DNL Adobe Target] [!DNL AI Assistant] release (May 16, 2025)
 
 We are thrilled to announce the launch of the [!DNL AI Assistant] in [!DNL Adobe Target]! This powerful user interface feature is designed to help you navigate and understand [!DNL Target] concepts with ease. Available across multiple products in [!DNL Adobe Experience Cloud], including [!DNL Target], [!DNL AI Assistant] is here to revolutionize your experience.
@@ -2089,7 +2090,8 @@ We are thrilled to announce the launch of the [!DNL AI Assistant] in [!DNL Adobe
 
 In [!DNL Target], the first phase of [!DNL AI Assistant] provides invaluable product knowledge grounded in [!DNL Experience League] documentation. Whether you're setting up a profile script, troubleshooting errors, or considering an upgrade to the AEP Web SDK, [!DNL AI Assistant] has you covered.
 
-For more information, see [Adobe Experience Platform AI Assistant overview](/help/main/c-intro/ai-assistant.md).
+For more information, see [Coworker skills for Adobe Target](/help/main/c-intro/coworker-skills.md).
+-->
 
 ### [!DNL Target Standard/Premium] 25.5.2 (May 8, 2025)
 
