@@ -108,11 +108,11 @@ Release notes are listed in descending order by month and year of release.
 
 ## [!DNL Target Standard/Premium] 26.8.3 (August 13, 2026)
 
-**Activities and audiences**
+**Activities, offers, and audiences**
 
 +++See details
 
-* **Edit enabled for API/MCP-created activities and audiences.** Activities and audiences created via the [!DNL Adobe Target] Admin API and [!DNL Target] MCP can now be edited in the [!DNL Target] UI.
+* **Edit enabled for API/MCP-created activities, offers, and audiences.** Activities, offers, and audiences created via the [!DNL Adobe Target] Admin API and [!DNL Target] MCP can now be edited in the [!DNL Target] UI. After an API-created activity is edited in the UI, it is treated as UI-modified. Previously restricted actions, including [!UICONTROL Copy] and [!UICONTROL Delete], become available, subject to your permissions and the activity status. (TGT-55116)
 
 +++
 
