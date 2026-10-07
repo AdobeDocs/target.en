@@ -4,6 +4,9 @@ description: Learn how feature flags in Flags let you control feature availabili
 badge: label="Beta" type="Informative"
 hide: true
 exl-id: 627775e8-9b17-4bc7-9565-07a438ae8ed7
+product_v2:
+  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+    internal-label: Target
 ---
 # Feature flags to enable and disable features {#feature-flags}
 

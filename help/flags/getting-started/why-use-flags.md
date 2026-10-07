@@ -4,6 +4,9 @@ description: Learn about the key use cases for Flags in Adobe Target, from selec
 badge: label="Beta" type="Informative"
 hide: true
 exl-id: c39c6b34-2024-4c38-b2f2-a9b58f5eff63
+product_v2:
+  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+    internal-label: Target
 ---
 # Why use Flags {#why-use}
 

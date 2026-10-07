@@ -4,6 +4,12 @@ description: Learn how to specify metrics in an [!DNL Adobe Target] [!UICONTROL 
 title: How Do I Set Goal Metrics in a [!UICONTROL Multivariate Test] (MVT) Activity?
 feature: Multivariate Tests
 exl-id: 8530b3f1-5daa-4a03-a482-93b10eb23208
+product_v2:
+  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+    internal-label: Target
+feature_v2:
+  - id: b934e7cf-c07f-5a64-924b-3c9da8413e3d
+    internal-label: Multivariate Tests
 ---
 # Set metrics for a [!UICONTROL Multivariate Test] activity
 

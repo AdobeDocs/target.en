@@ -5,6 +5,9 @@ badge: label="Beta" type="Informative"
 hide: true
 index: false
 exl-id: c400d75d-d928-4cf6-a094-1a2f443389f0
+product_v2:
+  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+    internal-label: Target
 ---
 # Flags {#experience-rollouts-home}
 

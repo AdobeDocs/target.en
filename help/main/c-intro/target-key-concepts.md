@@ -4,7 +4,7 @@ description: Learn the basics of Adobe Target. This article introduces you to Ta
 title: How do I use Target?
 feature: Overview
 exl-id: c9555d79-d505-41ff-ba4b-ab94793f9efa
-TQID: https://experienceleague.adobe.com/l4bZ9esCTiZNakTrNp89n5mAeFci5dp0HCLZYV-GleA
+TQID: 'https://experienceleague.adobe.com/l4bZ9esCTiZNakTrNp89n5mAeFci5dp0HCLZYV-GleA'
 product_v2:
   - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
     internal-label: Target
@@ -13,6 +13,8 @@ feature_v2:
     internal-label: Audiences
   - id: f69bc5f1-ebdb-4306-a281-f2e77daf734c
     internal-label: Activities and tests
+  - id: dfc8a233-f2b5-4811-bf63-b4262aebc5a5
+    internal-label: Administration and configuration
 subfeature_v2:
   - id: b077c1f1-7e5f-4dbf-a193-70e9fe784bb2
     internal-label: Analytics data
@@ -32,6 +34,8 @@ subfeature_v2:
     internal-label: Automated personalization
   - id: f2d0aafb-18af-41a0-a32e-2788eafacc2b
     internal-label: Auto-allocate
+  - id: fc9c2184-9102-403f-bd6c-0055021e4bea
+    internal-label: Overview
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
     internal-label: Reporting

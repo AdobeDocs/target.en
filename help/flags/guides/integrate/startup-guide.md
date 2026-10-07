@@ -4,6 +4,9 @@ description: Follow these steps to get your application integrated with Flags, f
 badge: label="Beta" type="Informative"
 hide: true
 exl-id: 7aa09535-45fa-4ddf-9e3f-a23f8a8ee666
+product_v2:
+  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+    internal-label: Target
 ---
 # Startup guide {#startup-guide}
 

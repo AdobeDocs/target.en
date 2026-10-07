@@ -6,13 +6,18 @@ short-description: Personalize your customers' experience to maximize revenue on
 title: What is Target?
 feature: Overview
 exl-id: 0e729c71-618b-4ab8-93a3-d37e73ec2740
-TQID: https://experienceleague.adobe.com/Mr8fwY1FNfJShSezC50YX1QeBagmuovUySsQUO8jPqo
+TQID: 'https://experienceleague.adobe.com/Mr8fwY1FNfJShSezC50YX1QeBagmuovUySsQUO8jPqo'
 product_v2:
   - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
     internal-label: Target
 feature_v2:
   - id: c93393a4-e558-47e1-992e-c91ed4d480ce
     internal-label: Implementation
+  - id: dfc8a233-f2b5-4811-bf63-b4262aebc5a5
+    internal-label: Administration and configuration
+subfeature_v2:
+  - id: fc9c2184-9102-403f-bd6c-0055021e4bea
+    internal-label: Overview
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
     internal-label: Implementation
@@ -28,6 +33,73 @@ topic_v2:
     internal-label: Customer profiles
 ---
 # Introduction to [!DNL Target]
+
+
+>[!CONTEXTUALHELP]
+>id="target_sample_size_ab_daily_traffic"
+>title="Daily traffic"
+>abstract="How many users enter your experiment each day. If you do not know your daily traffic, choose \"Traffic volume\" above and the calculator will solve for it using your other inputs."
+
+>[!CONTEXTUALHELP]
+>id="target_sample_size_setup"
+>title="Set up the test"
+>abstract="These fields define your A/B test, what you expect to see and how confident you need to be in the result. The field tied to what you selected above will be solved for automatically. Fill in the rest with your expected values."
+
+>[!CONTEXTUALHELP]
+>id="target_sample_size_number_experiences"
+>title="Number of experiences"
+>abstract="Number of variants in your experiment, including the control. An A/B test has 2 arms. Five variants plus a control equals 6. More arms require proportionally more traffic to maintain statistical power."
+
+>[!CONTEXTUALHELP]
+>id="target_sample_size_duration"
+>title="Duration of A/B test"
+>abstract="How many days your experiment will run. Longer durations give your experiment more time to collect data, letting you reliably detect smaller effects. Shorter durations need larger effects or more daily traffic to reach a reliable result."
+
+>[!CONTEXTUALHELP]
+>id="target_sample_size_minimum_detectable_effect"
+>title="Minimum Detectable Effect"
+>abstract="The smallest improvement worth detecting, the minimum change in your metric that you would act on. This is the size of the lift in percentage points, not the percent change relative to your baseline. For example, if your baseline is 5% and a 1 percentage point lift matters, enter 1."
+
+>[!CONTEXTUALHELP]
+>id="target_sample_size_expected_improvement"
+>title="Expected improvement"
+>abstract="The improvement you expect the experiment to produce."
+
+>[!CONTEXTUALHELP]
+>id="target_sample_size_variance"
+>title="Variance"
+>abstract="How spread out your metric's values are, not its average. A metric like a click rate (mostly 0s and 1s) has low variance, a metric like revenue per user (a few high spenders, many low) can have much higher variance. If you are unsure, leave the default value of 1."
+
+>[!CONTEXTUALHELP]
+>id="target_sample_size_confidence_level"
+>title="Confidence level"
+>abstract="How confident you need to be that a result is not just random chance before calling it real, the threshold for statistical significance. A 95% confidence level means there is at most a 5% chance of a false positive. Higher values reduce false positives but require more data."
+
+>[!CONTEXTUALHELP]
+>id="target_sample_size_statistical_power"
+>title="Statistical power"
+>abstract="The probability of detecting an effect if one truly exists, the sensitivity of the experiment. 80% power means there is an 80% chance of detecting a real effect. Higher power reduces false negatives but requires more traffic or a longer runtime."
+
+>[!CONTEXTUALHELP]
+>id="target_sample_size_traffic_mode"
+>title="Traffic mode"
+>abstract="How users enter your experiment. Continuous: users enter daily over the experiment duration. Traffic automatically shifts toward better performing variants as results come in."
+
+>[!CONTEXTUALHELP]
+>id="target_sample_size_metric_type"
+>title="Metric type"
+>abstract="What kind of metric you are measuring. Percentage: use this for binary outcomes like clicks or conversions, where each user either does or does not do something. Number: use this for metrics like revenue or page views, where the value can vary widely from user to user."
+
+>[!CONTEXTUALHELP]
+>id="target_sample_size_auto_daily_traffic"
+>title="Daily traffic"
+>abstract="How many users enter your experiment each day. Used for continuous experiments that run over multiple days, with traffic automatically shifting toward better performing variants as results come in."
+
+>[!CONTEXTUALHELP]
+>id="target_sample_size_baseline_metric_rate"
+>title="Baseline metric rate"
+>abstract="Your current performance before the experiment starts, the control arm average. Always required. For percentage metrics, enter as a percentage: if 5% of visitors click Buy today, enter 5. For count metrics, enter the raw decimal value."
+
 
 [!DNL Adobe Target], part of the [!DNL Adobe Experience Cloud], offers comprehensive tools to personalize customer experiences across web, mobile sites, apps, social media, and other digital channels. 
 
@@ -125,3 +197,5 @@ The following video explains the activity types available in [!DNL Target Standa
 * Describe the three-step guided workflow that applies to all activity types
 
 >[!VIDEO](https://video.tv.adobe.com/v/17386)
+
+

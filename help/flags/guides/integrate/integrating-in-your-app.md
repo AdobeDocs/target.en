@@ -4,6 +4,9 @@ description: Learn how to integrate Flags into your application, whether it is a
 badge: label="Beta" type="Informative"
 hide: true
 exl-id: e67a34d8-aaba-41d4-bc34-15b23782caa1
+product_v2:
+  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+    internal-label: Target
 ---
 # Integrate Flags in your app {#integrate}
 

@@ -4,6 +4,9 @@ description: Learn how to onboard a new application to Flags so you can start cr
 badge: label="Beta" type="Informative"
 hide: true
 exl-id: d88c27a5-f490-4504-9764-5e4ce98fdf20
+product_v2:
+  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+    internal-label: Target
 ---
 # Onboard your application {#onboard-your-application}
 

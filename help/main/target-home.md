@@ -4,7 +4,7 @@ title: Adobe Target Business Practitioner Guide
 description: Learn how to use Adobe [!DNL Target] to personalize your customers' experience to maximize revenue on your web and mobile sites, apps, and other digital channels.
 feature: Overview
 exl-id: 6003a663-4c0c-4179-8025-aee2ae107c5c
-TQID: https://experienceleague.adobe.com/FZseZZEVSfBXtgdDTjo08FJoJ1OesGwoxcMiCxrkegM
+TQID: 'https://experienceleague.adobe.com/FZseZZEVSfBXtgdDTjo08FJoJ1OesGwoxcMiCxrkegM'
 product_v2:
   - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
     internal-label: Target
@@ -13,6 +13,11 @@ feature_v2:
     internal-label: Audiences
   - id: c93393a4-e558-47e1-992e-c91ed4d480ce
     internal-label: Implementation
+  - id: dfc8a233-f2b5-4811-bf63-b4262aebc5a5
+    internal-label: Administration and configuration
+subfeature_v2:
+  - id: fc9c2184-9102-403f-bd6c-0055021e4bea
+    internal-label: Overview
 topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
     internal-label: Customer experience
@@ -53,13 +58,13 @@ This FAQ addresses common questions about the new [!DNL Target] UI and [!UICONTR
 
 [![Learn More icon](/help/main/assets/learn-more.svg)](/help/main/c-intro/updated-ui-faq.md)
 
->[!TAB AI Assistant]
+>[!TAB AI Coworker]
 
-**Meet [!DNL AI Assistant] in [!DNL Adobe Experience Platform]**
+**Meet [!DNL Coworker] in [!DNL Adobe Experience Platform]**
 
-[!DNL AI Assistant] is your smart guide to navigating [!DNL Adobe Experience Cloud]. Available in products like [!DNL Target], [!DNL AI Assistant] helps you quickly understand key concepts and features&mdash;right from the interface.
+[!DNL Coworker] is your smart guide to navigating [!DNL Adobe Experience Cloud]. Available in products like [!DNL Target], [!DNL Coworker] helps you quickly understand key concepts and features&mdash;right from the interface.
 
-[![Learn More icon](/help/main/assets/learn-more.svg)](/help/main/c-intro/ai-assistant.md)
+[![Learn More icon](/help/main/assets/learn-more.svg)](/help/main/c-intro/coworker-skills.md)
 
 >[!TAB Target resources]
 
@@ -87,7 +92,7 @@ Marketers, developers, administrators, analysts, and quality assurance engineers
 - [[!DNL Target] release notes](r-release-notes/release-notes.md): Contains information about the current release, information about known issues that affect [!DNL Target], a list of important changes to this documentation, and an archive of past release notes.
 - [Introduction to [!DNL Target]](c-intro/intro.md): Explains the core concepts of [!DNL Target].
 - [Understand the [!DNL Target] UI](/help/main/c-intro/understand-the-target-ui.md): Helps you get familiarized with [!DNL Target] and provides links for more in-depth information and step-by-step instructions.
-- [[!UICONTROL AI Assistant] overview](/help/main/c-intro/ai-assistant.md): [!DNL AI Assistant] in A[!DNL dobe Experience Platform] is a user interface feature that you can use to navigate and understand [!DNL Adobe Target] concepts.
+- [Coworker skills for Adobe Target](/help/main/c-intro/coworker-skills.md): Learn about Coworker skills for exploring activities and audiences, creating tests, analyzing performance, and troubleshooting Recommendations in [!DNL Adobe Target].
 - Integrate [!DNL Target] with the [!DNL Adobe Experience Cloud]: Explains how to integrate [!DNL Target] with other [!DNL Experience Cloud] solutions, including [[!UICONTROL Analytics for Target]](/help/main/c-integrating-target-with-mac/a4t/a4t.md) (A4T), [[!DNL Experience Cloud Audiences]](/help/main/c-integrating-target-with-mac/mmp.md), and [[!DNL Adobe Campaign]](/help/main/c-integrating-target-with-mac/campaign-and-target.md).
 - [[!DNL Adobe Target] Tutorials](https://experienceleague.adobe.com/docs/target-learn/tutorials/overview.html): Provides tutorials and videos to help you get the most out of [!DNL Target].
 - [Troubleshooting [!DNL Target]](r-troubleshooting-target/troubleshooting-target.md): Provides links to troubleshooting information contained in this guide, including information about the character limits and other limits (offer size, audiences, profiles, values, parameters, and so forth) that affect activities and other elements in [!DNL Target].

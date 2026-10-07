@@ -4,7 +4,7 @@ description: View a list of features, enhancements, and fixes included in previo
 title: What Features Are Included in Previous Releases?
 feature: Release Notes
 exl-id: e4d261a1-d3aa-46ea-b1ce-efa76a90dc71
-TQID: https://experienceleague.adobe.com/cjheajZKokzwCNspfQckh6PHh5ecetdj7vZrrq9IqXw
+TQID: 'https://experienceleague.adobe.com/cjheajZKokzwCNspfQckh6PHh5ecetdj7vZrrq9IqXw'
 product_v2:
   - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
     internal-label: Target
@@ -15,6 +15,8 @@ feature_v2:
     internal-label: Implementation
   - id: f7c7de77-382f-4f48-8b36-61a170f06d3d
     internal-label: Integrations
+  - id: dfc8a233-f2b5-4811-bf63-b4262aebc5a5
+    internal-label: Administration and configuration
 subfeature_v2:
   - id: df62f171-ac37-440f-8f0f-f41a72ebdd34
     internal-label: Analytics integration
@@ -22,6 +24,8 @@ subfeature_v2:
     internal-label: at.js
   - id: fff07a91-d479-45f4-ae95-9762e79b1b7c
     internal-label: Shared audiences
+  - id: c5abb976-5170-45d6-bcac-66d15d10a4d4
+    internal-label: Release notes
 topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
     internal-label: Metadata
@@ -104,11 +108,11 @@ Release notes are listed in descending order by month and year of release.
 
 ## [!DNL Target Standard/Premium] 26.8.3 (August 13, 2026)
 
-**Activities and audiences**
+**Activities, offers, and audiences**
 
 +++See details
 
-* **Edit enabled for API/MCP-created activities and audiences.** Activities and audiences created via the [!DNL Adobe Target] Admin API and [!DNL Target] MCP can now be edited in the [!DNL Target] UI.
+* **Edit enabled for API/MCP-created activities, offers, and audiences.** Activities, offers, and audiences created via the [!DNL Adobe Target] Admin API and [!DNL Target] MCP can now be edited in the [!DNL Target] UI. After an API-created activity is edited in the UI, it is treated as UI-modified. Previously restricted actions, including [!UICONTROL Copy] and [!UICONTROL Delete], become available, subject to your permissions and the activity status. (TGT-55116)
 
 +++
 
@@ -2077,6 +2081,7 @@ This release includes the following fixes and updates:
 * Added an error message to alert users when an audience timeframe is invalid. (TGT52522)
 * Updated the activity structure to support duplicate audiences of different types. (TGT-51200)
 
+<!--
 ### [!DNL Adobe Target] [!DNL AI Assistant] release (May 16, 2025)
 
 We are thrilled to announce the launch of the [!DNL AI Assistant] in [!DNL Adobe Target]! This powerful user interface feature is designed to help you navigate and understand [!DNL Target] concepts with ease. Available across multiple products in [!DNL Adobe Experience Cloud], including [!DNL Target], [!DNL AI Assistant] is here to revolutionize your experience.
@@ -2085,7 +2090,8 @@ We are thrilled to announce the launch of the [!DNL AI Assistant] in [!DNL Adobe
 
 In [!DNL Target], the first phase of [!DNL AI Assistant] provides invaluable product knowledge grounded in [!DNL Experience League] documentation. Whether you're setting up a profile script, troubleshooting errors, or considering an upgrade to the AEP Web SDK, [!DNL AI Assistant] has you covered.
 
-For more information, see [Adobe Experience Platform AI Assistant overview](/help/main/c-intro/ai-assistant.md).
+For more information, see [Coworker skills for Adobe Target](/help/main/c-intro/coworker-skills.md).
+-->
 
 ### [!DNL Target Standard/Premium] 25.5.2 (May 8, 2025)
 

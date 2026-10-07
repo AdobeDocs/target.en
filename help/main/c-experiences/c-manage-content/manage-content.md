@@ -4,10 +4,16 @@ description: Discover how to efficiently manage code and image offers using the 
 title: How Do I Manage Code and Image Offers?
 feature: Experiences and Offers
 exl-id: d8c24656-64d6-4a4b-a5f2-bcde57180007
-TQID: https://experienceleague.adobe.com/A8ZLHW-FrWHGPJR7P-mhl2pO6SPoDc--LWpFEjtQzBY
+TQID: 'https://experienceleague.adobe.com/A8ZLHW-FrWHGPJR7P-mhl2pO6SPoDc--LWpFEjtQzBY'
 product_v2:
   - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
     internal-label: Target
+feature_v2:
+  - id: dfc8a233-f2b5-4811-bf63-b4262aebc5a5
+    internal-label: Administration and configuration
+subfeature_v2:
+  - id: ef98a6e0-f26c-4870-9bd4-e6b72e9cc699
+    internal-label: Experiences and offers
 topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
     internal-label: Customer experience
@@ -20,7 +26,7 @@ To display the [!UICONTROL Offers] library, click the **[!UICONTROL Offers]** ta
 
 ![Offers page](/help/main/c-experiences/c-manage-content/assets/offers-page-new.png) 
 
-The [!UICONTROL Offers] library contains offers that have been set up via [!DNL Target Standard/Premium], [!DNL Target Classic], [!DNL Adobe Experience Manager] (AEM), [!DNL Adobe Mobile Services] (AMS), and APIs. Offers created in [!DNL Target Classic] or other solutions are editable in [!DNL Target Standard/Premium].
+The [!UICONTROL Offers] library contains offers that have been set up via [!DNL Target Standard/Premium], [!DNL Target Classic], [!DNL Adobe Experience Manager] (AEM), [!DNL Adobe Mobile Services] (AMS), and APIs. Offers created in [!DNL Target Classic] or other solutions are editable in [!DNL Target Standard/Premium]. Offers created via the [!DNL Adobe Target] API or the [!DNL Adobe Target] MCP server can also be edited in the [!DNL Target] UI.
 
 The [!UICONTROL Offers] library provides an overview of all code and image offers and lets you perform various actions:
 

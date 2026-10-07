@@ -62,7 +62,7 @@ Consider the following information before using the [!DNL Customer Journey Analy
 * Be part of a role in [!DNL Adobe Experience Platform] to set up a [!DNL Target] activity with [!DNL Customer Journey Analytics] as the reporting source. For more information, see [Add a Role in [!DNL Adobe Experience Platform]](https://experienceleague.adobe.com/en/docs/platform-learn/getting-started-for-data-architects-and-data-engineers/configure-permissions#add-a-role-in-adobe-experience-platform-requires-a-system-administrator-or-product-admin){target=_blank} in *Configure permissions* in the *Data Architect and Engineer Tutorial.*
 * Depending on your settings, reporting can be changed per activity or at an organization level. See [Reporting Cloud Solution](/help/main/administrating-target/reporting.md#solution) in *Configure reporting in Target*.
 * Use one reporting source or the other. You cannot collect data for a single activity to multiple reporting sources. 
-* When you set [!DNL Customer Journey Analytics] as your reporting source, you are prompted to specify the sandbox and data view for reporting. During configuration, you see only the sandboxes and data views to which you have access.
+* When you set [!DNL Customer Journey Analytics] as your reporting source, you are prompted to specify the sandbox for reporting. For A/B activities with manual traffic split or [!UICONTROL Auto-Allocate], you can also select a data view and a [!DNL Customer Journey Analytics] metric in [!DNL Target]. These selection options are not available for [!UICONTROL Experience Targeting], [!UICONTROL Multivariate Test], or [!UICONTROL Recommendations] activities. During configuration, you see only the sandboxes and data views to which you have access.
 * Any existing [!DNL Target] activities continue to use [!DNL Target] data collection and are not affected by enabling this integration.
 * To use this integration, the preferred implementation method is having [[!DNL Adobe Experience Platform]](https://experienceleague.adobe.com/en/docs/experience-platform){target=_blank} and [!DNL Target] implemented through the [[!DNL Adobe Experience Platform Web SDK]](https://experienceleague.adobe.com/en/docs/target-dev/developer/client-side/aep/aep-web-sdk-overview){target=_blank}. 
 
@@ -80,15 +80,15 @@ Consider the following information before using the [!DNL Customer Journey Analy
 
 The following activity types are supported when using the [Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/en/docs/target-dev/developer/client-side/aep/aep-web-sdk-overview){target=_blank} or the [at.js](https://experienceleague.adobe.com/en/docs/target-dev/developer/client-side/at-js-implementation/overview){target=_blank} JavaScript library:
 
-| Activity types | Supported? |
-|--- |--- |
-|[A/B activity with manual traffic split](/help/main/c-activities/t-test-ab/test-ab.md)|Yes|
-|[A/B activity with Auto-Allocate](/help/main/c-activities/automated-traffic-allocation/automated-traffic-allocation.md)|Yes|
-|[A/B activity with Auto-Target](/help/main/c-activities/auto-target/auto-target-to-optimize.md)|No|
-|[Experience Targeting (XT)](/help/main/c-activities/t-experience-target/experience-target.md)|Yes|
-|[Multivariate test (MVT)](/help/main/c-activities/c-multivariate-testing/multivariate-testing.md)|Yes|
-|[Automated Personalization (AP) activity](/help/main/c-activities/t-automated-personalization/automated-personalization.md)|No|
-|[Recommendations activity](/help/main/c-recommendations/recommendations.md)|Yes|
+| Activity types | Supported? | Data View supported? |
+|--- |--- |--- |
+|[A/B activity with manual traffic split](/help/main/c-activities/t-test-ab/test-ab.md)|Yes|Yes|
+|[A/B activity with Auto-Allocate](/help/main/c-activities/automated-traffic-allocation/automated-traffic-allocation.md)|Yes|Yes|
+|[A/B activity with Auto-Target](/help/main/c-activities/auto-target/auto-target-to-optimize.md)|No|No|
+|[Experience Targeting (XT)](/help/main/c-activities/t-experience-target/experience-target.md)|Yes|No|
+|[Multivariate test (MVT)](/help/main/c-activities/c-multivariate-testing/multivariate-testing.md)|Yes|No|
+|[Automated Personalization (AP) activity](/help/main/c-activities/t-automated-personalization/automated-personalization.md)|No|No|
+|[Recommendations activity](/help/main/c-recommendations/recommendations.md)|Yes|No|
 
 [!UICONTROL Auto-Target] and [!UICONTROL Automated Personalization] activities do not yet support [!DNL Customer Journey Analytics] as the reporting source.
 
@@ -114,7 +114,7 @@ Creating a [!DNL Target] activity that uses [!DNL Customer Journey Analytics] as
 
    ![Select sandbox option](/help/main/c-integrating-target-with-mac/cja/assets/sandbox.png)
 
-1. Select a **[!UICONTROL Data view]**. A data view functions like an [!DNL Analytics] report suite for [!DNL Customer Journey Analytics] reporting. Only data views in the selected sandbox that you have access to are shown.
+1. For A/B activities with manual traffic split or [!UICONTROL Auto-Allocate], select a **[!UICONTROL Data view]**. A data view functions like an [!DNL Analytics] report suite for [!DNL Customer Journey Analytics] reporting. Only data views in the selected sandbox that you have access to are shown.
 
     ➡️ [Learn more about Data view in Adobe Customer Journey Analytics documentation](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-dataviews/data-views)
 
@@ -122,7 +122,7 @@ Creating a [!DNL Target] activity that uses [!DNL Customer Journey Analytics] as
 
    * **[!UICONTROL Conversion]**: Choose the action your audience must take to indicate the goal has been reached. [Learn more about success metrics](/help/main/c-activities/r-success-metrics/success-metrics.md).
 
-   * **[!UICONTROL Use a Customer Journey Analytics metric]**: Choose a [!DNL Customer Journey Analytics] metric or calculated metric from the selected data view. This metric serves as the optimization criterion. The model runs on [!DNL Customer Journey Analytics] data and refreshes performance data at the same cadence used for [!DNL Customer Journey Analytics] reporting.
+   * **[!UICONTROL Use a Customer Journey Analytics metric]**: Available only for A/B activities with manual traffic split or [!UICONTROL Auto-Allocate]. Choose a [!DNL Customer Journey Analytics] metric or calculated metric from the selected data view. This metric serves as the optimization criterion. The model runs on [!DNL Customer Journey Analytics] data and refreshes performance data at the same cadence used for [!DNL Customer Journey Analytics] reporting.
 
    ![Use a Customer Journey Analytics metric option under Goal Metric](/help/main/c-integrating-target-with-mac/cja/assets/goal-metric.png)
 

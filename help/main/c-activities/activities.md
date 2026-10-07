@@ -4,7 +4,7 @@ description: Personalize content and test page designs for specific audiences wi
 title: How Can I Personalize Content and Test Page Designs with [!DNL Target]?
 feature: Activities
 exl-id: 7e61525d-b2db-44f6-a7c2-df5a8d28eca2
-TQID: https://experienceleague.adobe.com/q3-Z8r2eEWTISBkZBBJTJ8XarLi-lTa2qsqj961hhEQ
+TQID: 'https://experienceleague.adobe.com/q3-Z8r2eEWTISBkZBBJTJ8XarLi-lTa2qsqj961hhEQ'
 product_v2:
   - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
     internal-label: Target
@@ -13,6 +13,8 @@ feature_v2:
     internal-label: Audiences
   - id: c93393a4-e558-47e1-992e-c91ed4d480ce
     internal-label: Implementation
+  - id: 6efa6b7a-8062-5c41-aef4-b4853cc306ae
+    internal-label: Activities
 topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
     internal-label: Metadata
@@ -114,7 +116,7 @@ The following actions are available (depending on your permissions and the activ
 
 |Action|Description|
 | --- | --- |
-|[!UICONTROL Edit]|Change the activity. Any activity can be edited, including activities created via the [!DNL Adobe Target] API or the [!DNL Adobe Target] MCP server.<P>For more information about the various ways you can edit activities, see [Edit an activity or save as draft](/help/main/c-activities/edit-activity.md).|
+|[!UICONTROL Edit]|Change the activity. Any activity can be edited, including activities created via the [!DNL Adobe Target] API or the [!DNL Adobe Target] MCP server. After an API-created activity is edited in the UI, it is treated as UI-modified. Previously restricted actions, including [!UICONTROL Copy] and [!UICONTROL Delete], become available, subject to your permissions and the activity status.<P>For more information about the various ways you can edit activities, see [Edit an activity or save as draft](/help/main/c-activities/edit-activity.md).|
 |[!UICONTROL Deactivate]|Stop a live or scheduled activity. A deactivated activity can be reactivated or archived.<P>If you deactivate or archive an activity and then later reactivate it, a visitor will continue being a part of that activity after the reactivation if they were in it before it was deactivated or archived. Any conversion metrics recorded during the time between the two events won't be attributed to that activity.|
 |[!UICONTROL Activate]|Start an inactive activity or an activity that is ready to be activated.|
 |[!UICONTROL Archive]|Send the activity to the archive. By default, archived activities no longer appear in the [!UICONTROL Activities] list. Change the filter for the [!UICONTROL Activities] list to include archived activities to see them. You can activate an archived activity to use it again.<P>If you deactivate or archive an activity and then later reactivate it, a visitor will continue being a part of that activity after the reactivation if they were in that activity before it was deactivated or archived. Any conversion metrics recorded during the time between the two events won't be attributed to that activity.|

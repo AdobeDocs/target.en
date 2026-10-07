@@ -4,6 +4,9 @@ description: Learn how to use context attributes in audience rules for feature f
 badge: label="Beta" type="Informative"
 hide: true
 exl-id: 0367f475-9209-4d53-86b4-a739a73a23a7
+product_v2:
+  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+    internal-label: Target
 ---
 # Use context in audience rules {#context-in-audience-rules}
 
