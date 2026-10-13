@@ -46,6 +46,14 @@ Explore the latest features, enhancements, and fixes in [!DNL Adobe Target]. The
 
 +++
 
+**[!UICONTROL Visual Experience Composer] (VEC)**
+
++++See details
+
+* **Raw HTML displayed instead of the offer name for [!DNL Experience Fragments] delivered through an mbox**. Fixed an issue where the **[!UICONTROL Modifications]** panel displayed raw HTML/code instead of the offer name when an [!DNL Experience Fragment] was delivered through an mbox. (TGT-56241)
+
++++
+
 ## Time-sensitive updates you need to know {#time-sensitive}
 
 [!BADGE Important]{type=Informative}
