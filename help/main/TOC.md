@@ -15,7 +15,10 @@ feature-set: Target
    + [Target documentation overview](/help/main/r-release-notes/target-documentation.md)
    + [System status updates and proactive notifications](r-release-notes/system-status-updates.md)
    + [Documentation changes](r-release-notes/doc-change.md)
-   + [Release notes for previous releases](r-release-notes/release-notes-for-previous-releases.md)
+   + Release notes for previous releases {#previous-rn}
+      + [2026](r-release-notes/release-notes-for-previous-releases.md)
+      + [2025](r-release-notes/release-notes-for-previous-releases-2025.md)
+      + [2024](r-release-notes/release-notes-for-previous-releases-2024.md)
 + Introduction {#introduction}
    + [Introduction to Target](c-intro/intro.md)
    + [Access Target from the Adobe Experience Cloud](c-intro/target-access-from-mac.md)
