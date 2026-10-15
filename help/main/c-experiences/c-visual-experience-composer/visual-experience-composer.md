@@ -27,7 +27,7 @@ Create experiences and offers for [!DNL Target] activities by dragging and dropp
 
 ## Browser requirements {#browser-requirements}
 
-[!DNL Safari] is supported for the [!DNL Adobe Target] interface, but not for the VEC. If you open the VEC in [!DNL Safari], an overlay prompts you to switch to [!DNL Google Chrome] to edit experiences.
+[!DNL Safari] is supported for the [!DNL Adobe Target] interface. You can create form-based activities in [!DNL Safari] and use all functionality, except the VEC and the [!UICONTROL Enhanced Experience Composer] (EEC). If you open the Visual Experience Composer in [!DNL Safari], an overlay prompts you to switch to [!DNL Google Chrome] to edit experiences.
 
 Browsers such as [!DNL Firefox] might block pages that contain mixed content, such as a non-secure page within a secure site, from displaying in the VEC. If a page does not display, click the icon next to the URL in the browser address bar, then click **[!UICONTROL Disable protection on this page]**. This issue does not affect how pages display to site visitors.
 
