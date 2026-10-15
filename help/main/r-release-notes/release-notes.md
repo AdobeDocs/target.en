@@ -36,6 +36,41 @@ Explore the latest features, enhancements, and fixes in [!DNL Adobe Target]. The
 
 (The issue numbers in parentheses are for internal [!DNL Adobe] use.)
 
+## [!DNL Target Standard/Premium] 26.10.2 (October 15, 2026)
+
+**[!UICONTROL Activities]**
+
++++See details
+
+* **Incorrect goal settings displayed in the Activity Overview**. Fixed an issue where the goal settings shown in the **[!UICONTROL Overview]** page of an activity were incorrect. For example, `https://` was added to the page URL, and the **[!UICONTROL URL contains]** condition was not shown, even though the actual goal configuration was correct. (TGT-56326)
+
++++
+
+**[!UICONTROL Recommendations]**
+
++++See details
+
+* **Backup recommendations displayed after a promotion is updated in a live activity**. Fixed an issue where editing a promotion in a live [!DNL Recommendations] activity caused [!DNL Target] to create new promotions and recommendation units even though nothing changed in their definition. (TGT-56369)
+
++++
+
+**[!UICONTROL Reports]**
+
++++See details
+
+* **Reporting presets deleted after two weeks**. Fixed an issue where the reporting presets that users saved for an activity were deleted automatically after approximately two weeks. (TGT-56374)
+
++++
+
+**[!UICONTROL Visual Experience Composer] (VEC)**
+
++++See details
+
+* **Safari support added to [!DNL Adobe Target]**. [!DNL Target] is now supported in the [!DNL Safari] browser. Note that Visual Experience Composer and [!DNL Enhanced Experience Composer] are not supported in [!DNL Safari]. As a result, an overlay now appears in the [!DNL VEC] to notify users that they must switch to [!DNL Chrome] to use the editor. (TGT-55853)
+
++++
+
+
 ## [!DNL Target Standard/Premium] 26.10.1 (October 13, 2026)
 
 **[!UICONTROL Analytics for Target]**
