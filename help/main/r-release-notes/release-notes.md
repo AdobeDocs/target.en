@@ -67,7 +67,7 @@ Explore the latest features, enhancements, and fixes in [!DNL Adobe Target]. The
 +++See details
 
 * **Safari support added to [!DNL Adobe Target]**. [!DNL Target] is now supported in the [!DNL Safari] browser. Note that Visual Experience Composer and [!DNL Enhanced Experience Composer] are not supported in [!DNL Safari]. As a result, an overlay now appears in the [!DNL VEC] to notify users that they must switch to [!DNL Chrome] to use the editor. (TGT-55853)
-
+[Learn more](../c-experiences/c-visual-experience-composer/visual-experience-composer.md#browser-requirements)
 +++
 
 

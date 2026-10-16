@@ -92,6 +92,8 @@ Connect with fellow [!DNL Target] practitioners in the [Target Community Forum](
 +++See details
 Please read our [Supported Browsers](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/supported-browsers.html){target=_blank} matrix for more details. Notice that there are two aspects: the [!DNL Target Standard/Premium ] interface support and the end-user browser support on desktop/devices.
 
+[!DNL Safari] is supported for the [!DNL Target] interface. You can create form-based activities in [!DNL Safari] and use all functionality, except the [!UICONTROL Visual Experience Composer] (VEC) and the [!UICONTROL Enhanced Experience Composer] (EEC), which are not supported in [!DNL Safari]. To edit experiences in the VEC or EEC, use [!DNL Google Chrome].
+
 +++
 
 ## Activities {#section_CB95B3BF9934445DB98E8A7E22FC2CF6}
