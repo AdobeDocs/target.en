@@ -116,6 +116,8 @@ Creating a [!DNL Target] activity that uses [!DNL Customer Journey Analytics] as
 
 1. For A/B activities with manual traffic split or [!UICONTROL Auto-Allocate], select a **[!UICONTROL Data view]**. A data view functions like an [!DNL Analytics] report suite for [!DNL Customer Journey Analytics] reporting. Only data views in the selected sandbox that you have access to are shown.
 
+    The data view is required for [!UICONTROL Auto-Allocate] activities. It is optional for A/B activities with manual traffic split.
+
     ➡️ [Learn more about Data view in Adobe Customer Journey Analytics documentation](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-dataviews/data-views)
 
 1. Specify the goal metric. Choose one of the following options:
@@ -123,6 +125,8 @@ Creating a [!DNL Target] activity that uses [!DNL Customer Journey Analytics] as
    * **[!UICONTROL Conversion]**: Choose the action your audience must take to indicate the goal has been reached. [Learn more about success metrics](/help/main/c-activities/r-success-metrics/success-metrics.md).
 
    * **[!UICONTROL Use a Customer Journey Analytics metric]**: Available only for A/B activities with manual traffic split or [!UICONTROL Auto-Allocate]. Choose a [!DNL Customer Journey Analytics] metric or calculated metric from the selected data view. This metric serves as the optimization criterion. The model runs on [!DNL Customer Journey Analytics] data and refreshes performance data at the same cadence used for [!DNL Customer Journey Analytics] reporting.
+
+     The metric is required for [!UICONTROL Auto-Allocate] activities. It is optional for A/B activities with manual traffic split. If you choose a metric, you must also select a data view.
 
    ![Use a Customer Journey Analytics metric option under Goal Metric](/help/main/c-integrating-target-with-mac/cja/assets/goal-metric.png)
 
