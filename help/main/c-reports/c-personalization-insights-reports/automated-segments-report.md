@@ -136,6 +136,11 @@ To learn more about the random forest personalization algorithm, which is the ba
 
 A score is computed for each segment, based on its size and how differently it performed to the content in your activity. The combination of these inputs determines the order of the automated segments such that larger segments with larger differences in how they responded to the different content will appear closer to the top of the segment list.
 
+**Why do all cards in a multi-card AP experience show the same conversion rate when using "Any Card Clicked"?**
+
+In [!UICONTROL Automated Personalization], optimization and reporting are evaluated at the experience level, not at the individual card or component level. The [!UICONTROL Any Card Clicked] success metric records one conversion when a visitor clicks at least one card in the experience.
+Since the click is attributed to the experience as a whole, all cards in that experience can display the same conversion counts and conversion rates in reports, including [!UICONTROL Automated Segments]. This behavior is expected and reflects how [!UICONTROL Automated Personalization] optimizes combinations of content rather than individual cards.
+
 **Why are only some of my offers / experiences showing up in the Automated Segments report?**
 
 AP and AT activities build one model per offer (in the case of AP) and one model per experience (in the case of AT). These activities start serving personalized traffic and create your [!UICONTROL Personalization Insights] with as little as two models built. If you don't see all of your offers / experiences in [!UICONTROL Personalization Insights], it is likely you don't have models built for those specific offers/ experiences. You can check your activity's [!UICONTROL Summary] report and see if there is a clock icon beside that offer / experience. This icon indicates that models aren't built yet for that offer / experience.
