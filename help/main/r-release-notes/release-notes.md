@@ -36,124 +36,56 @@ Explore the latest features, enhancements, and fixes in [!DNL Adobe Target]. The
 
 (The issue numbers in parentheses are for internal [!DNL Adobe] use.)
 
-## [!DNL Target Standard/Premium] 26.9.7 (September 28, 2026)
+## [!DNL Target Standard/Premium] 26.10.2 (October 15, 2026)
 
-**[!UICONTROL Recommendations]**
-
-+++ See details
-
-* **"Invalid user input" error in the Visual Experience Composer**. When editing a Recommendations activity in the Visual Experience Composer, an "Invalid user input" error appeared when attempting to save and close the activity.
-
-+++
-
-
-## [!DNL Target Standard/Premium] 26.9.6 (September 24, 2026)
-
-**[!UICONTROL Visual Experience Composer] (VEC)**
+**[!UICONTROL Activities]**
 
 +++See details
 
-* **Endless redirection loop when accessing an SSO-authenticated page through the Visual Experience Composer**. When a page URL loaded in the Visual Experience Composer went through an SSO/login redirection flow, the Visual Experience Composer entered an endless redirect loop and never reached the intended page. (TGT-56233)
+* **Incorrect goal settings displayed in the Activity Overview**. Fixed an issue where the goal settings shown in the **[!UICONTROL Overview]** page of an activity were incorrect. For example, `https://` was added to the page URL, and the **[!UICONTROL URL contains]** condition was not shown, even though the actual goal configuration was correct. (TGT-56326)
 
 +++
-
-## [!DNL Target Standard/Premium] 26.9.5 (September 21, 2026)
-
-### Feature
-
-<table>
-<thead>
-<tr>
-<th><strong>Content pre-hiding</strong><br/></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>
-<p>Content pre-hiding helps reduce page flicker by hiding only the sections that Adobe Target personalization is about to change, providing a smoother experience while content loads. This approach avoids hiding the entire page and helps minimize implementation effort when new activities are launched.</p>
-<p>Previously released in Limited Availability, this capability is now available to all environments (General Availability).</p>
-<p>For more information, refer to the <a href="../administrating-target/content-pre-hiding.md">detailed documentation</a>.</p>
-</td>
-</tr>
-</tbody>
-</table>
-
-### Improvements
-
-**[!UICONTROL Analytics for Target]**
-
-+++See details
-
-* **A4T report link not generated in [!DNL Target] UI**. For [!DNL A4T] activities, the report link was not generated in the **[!UICONTROL Reports]** section, even though the underlying report data was visible in both the [!DNL Target] UI and the [!DNL Adobe Analytics] UI. (TGT-56247)
-
-+++
-
-## [!DNL Target Standard/Premium] 26.9.4 (September 17, 2026)
-
-**[!UICONTROL Visual Experience Composer] (VEC)**
-
-+++See details
-
-* **[!UICONTROL Insert Before] control inaccessible for [!DNL Experience Fragments] on the top-most page element**. In the Visual Experience Composer, selecting the top-most element on a page scrolled the page upward, causing the **[!UICONTROL Insert Before]** control to render above the visible viewport where it coul not be selected. (TGT-55829)
-
-+++
-
-## [!DNL Target Standard/Premium] 26.9.3 (September 16, 2026)
-
-**[!UICONTROL Reporting]**
-
-+++See details
-
-* **Missing [!UICONTROL Lift] and [!UICONTROL Confidence] values in some [!DNL A4T Auto-Target] reports**. For [!DNL A4T Auto-Target] activities using the **[!UICONTROL Maximize Visit Conversion Rate]** optimization goal, the default **[!UICONTROL My Primary Metric]** report metric did not resolve correctly, leaving **[!UICONTROL Lift]** and **[!UICONTROL Confidence]** blank. (TGT-56137)
-
-+++
-
-**[!UICONTROL Analytics for Target]**
-
-+++See details
-
-* **[!UICONTROL Reporting Source] field is now read-only for live activities without [!DNL Analytics] access**. Previously, when a live activity's owner did not have access to [!DNL Adobe Analytics], the **[!UICONTROL Reporting Source]** field and its related field remained editable. (TGT-56089)
-
-+++
-
-## [!DNL Target Standard/Premium] 26.9.2 (September 8, 2026)
-
 
 **[!UICONTROL Recommendations]**
 
 +++See details
 
-* **[!DNL New] user interface encodes feed URLs incorrectly**. When creating a recommendations feed from a URL in the new [!DNL Target] interface, the feed URL was encoded incorrectly, causing feed creation to fail with an unknown error. (TGT-56084)
+* **Backup recommendations displayed after a promotion is updated in a live activity**. Fixed an issue where editing a promotion in a live [!DNL Recommendations] activity caused [!DNL Target] to create new promotions and recommendation units even though nothing changed in their definition. (TGT-56369)
 
 +++
 
-**[!UICONTROL Reporting]**
+**[!UICONTROL Reports]**
 
 +++See details
 
-* **Automated Segments report does not consistently display attribute values**. The Automated Segments report inconsistently displayed attribute values and ranges for [!DNL Automated Personalization] and [!DNL Auto-Target] activities. Some automated segments showed only the attribute name instead of the associated value or range. (TGT-55855)
+* **Reporting presets deleted after two weeks**. Fixed an issue where the reporting presets that users saved for an activity were deleted automatically after approximately two weeks. (TGT-56374)
 
 +++
 
-## [!DNL Target Standard/Premium] 26.9.1 (September 1, 2026)
-
-**[!UICONTROL Audience]**
+**[!UICONTROL Visual Experience Composer] (VEC)**
 
 +++See details
 
-* **Copying an Activity with an activity-only audience fails to save**. When an A/B activity uses an activity-only (locally-scoped) audience rule and a Custom Code modification, copying it and saving the copy fails with an "Invalid audience ids" error. (TGT-55785)
+* **Safari support added to [!DNL Adobe Target]**. [!DNL Target] is now supported in the [!DNL Safari] browser. Note that Visual Experience Composer and [!DNL Enhanced Experience Composer] are not supported in [!DNL Safari]. As a result, an overlay now appears in the [!DNL VEC] to notify users that they must switch to [!DNL Chrome] to use the editor. (TGT-55853)
 
 +++
 
-**[!DNL Adobe Target] MCP server — Recommendations tools (Public Beta)**
+
+## [!DNL Target Standard/Premium] 26.10.1 (October 13, 2026)
+
+**[!UICONTROL Analytics for Target]**
 
 +++See details
 
-The [!DNL Adobe Target] MCP server now exposes Recommendations tools, letting you list, inspect, create, and update criteria, collections, designs, promotions, and exclusions, and search the product catalog directly from your AI assistant.
+* **A4T reporting fails with a "Something went Wrong" error**. Fixed an issue where [!DNL A4T] activities using a newly added report suite displayed a "Something went Wrong" error in the [!DNL Target] report instead of results. Clicking **[!UICONTROL View in Analytics]** also displayed an "Incompatible report suite" message with missing [!DNL Analytics for Target] classification information. (TGT-56389)
 
-This capability requires a Recommendations-enabled tenant with **Target Premium**; it is not available on non-Premium accounts.
++++
 
-For more information, see [MCP server tools reference](../c-integrating-target-with-mac/mcp/target-mcp-tools-reference.md).
+**[!UICONTROL Visual Experience Composer] (VEC)**
+
++++See details
+
+* **Raw HTML displayed instead of the offer name for [!DNL Experience Fragments] delivered through an mbox**. Fixed an issue where the **[!UICONTROL Modifications]** panel displayed raw HTML/code instead of the offer name when an [!DNL Experience Fragment] was delivered through an mbox. (TGT-56241)
 
 +++
 

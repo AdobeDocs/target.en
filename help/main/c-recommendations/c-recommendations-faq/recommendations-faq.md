@@ -306,5 +306,4 @@ The following are known issues with [!UICONTROL Recommendations] activities:
 * When [!DNL Target] returns a JSON offer with getOffer(), it returns with type of JSON. However, if you return a JSON Recommendations design it returns with a type of HTML.
 * Expired entities are correctly expired after 60 days of receiving no updates via feed or API; however, the expired entities are not removed from the Catalog Search index after expiration. Entities deleted via feed or API are also not currently removed from the Catalog Search index. (IRI-857)
 * Recommendations Offers in A/B and Experience Targeting activities do not show a visual preview of the Recommendations tray (TGT-33426)
-* Recommendations activities created via API can be viewed in the user interface, but can only be edited via API.
 * The Custom Criteria feed status displayed in the Criteria list (card) view is refreshed every ten minutes and might be more than ten minutes out of date in rare circumstances. The status displayed in the Custom Criteria edit view is fetched in real time and is always up to date. (TGT-35896, TGT-36173)

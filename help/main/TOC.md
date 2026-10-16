@@ -15,18 +15,17 @@ feature-set: Target
    + [Target documentation overview](/help/main/r-release-notes/target-documentation.md)
    + [System status updates and proactive notifications](r-release-notes/system-status-updates.md)
    + [Documentation changes](r-release-notes/doc-change.md)
-   + [Release notes for previous releases](r-release-notes/release-notes-for-previous-releases.md)
+   + Release notes for previous releases {#previous-rn}
+      + [2026](r-release-notes/release-notes-for-previous-releases.md)
+      + [2025](r-release-notes/release-notes-for-previous-releases-2025.md)
+      + [2024](r-release-notes/release-notes-for-previous-releases-2024.md)
 + Introduction {#introduction}
    + [Introduction to Target](c-intro/intro.md)
    + [Access Target from the Adobe Experience Cloud](c-intro/target-access-from-mac.md)
    + [Target key concepts](c-intro/target-key-concepts.md)
    + [Understand the Target UI](/help/main/c-intro/understand-the-target-ui.md)
    + [Target UI update FAQs](/help/main/c-intro/updated-ui-faq.md)
-   + Adobe Target AI Assistant {#assistant-ai}
-      + [AI Assistant overview](/help/main/c-intro/ai-assistant.md)
-      + [Enable AI Assistant](/help/main/c-intro/enabling-ai-assistant.md)
-      + [Use AI Assistant to gain product knowledge](/help/main/c-intro/ai-assistant-product-knowledge.md)
-      + {hide-from-toc} [Use AI Assistant for content generation](/help/main/c-intro/ai-assistant-content-generation.md)
+   + [Coworker skills for Adobe Target](c-intro/coworker-skills.md)
    + Adobe Target welcome kit {#welcome}
       + [Target welcome kit overview](/help/main/c-intro/target-welcome-kit.md)
       + [Chapter 1: Introduction](/help/main/c-intro/target-welcome-kit-1.md)
@@ -119,6 +118,7 @@ feature-set: Target
 + Activities {#activities}
    + [Activities overview](c-activities/activities.md)
    + [Insights Dashboard](c-activities/insights-dashboard.md)
+   + [Sample Size Calculator](c-activities/sample-size-calculator.md)
    + [Target activity types](c-activities/target-activities-guide.md)
    + A/B Test {#abtest}
       + [A/B test overview](c-activities/t-test-ab/test-ab.md)
@@ -190,6 +190,7 @@ feature-set: Target
       + [Click tracking](c-activities/r-success-metrics/click-tracking.md)
       + [Capture score](c-activities/r-success-metrics/capture-score.md)
    + [Activity change log](c-activities/change-log.md)
+   + [AI insights](c-activities/ai-insights.md)
    + Troubleshoot activities {#troubleshoot-activities}
       + [Troubleshoot activities overview](c-activities/c-troubleshooting-activities/troubleshooting-activities.md)
       + [Troubleshoot content delivery](c-activities/c-troubleshooting-activities/content-trouble.md)
