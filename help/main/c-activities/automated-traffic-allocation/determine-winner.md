@@ -38,6 +38,8 @@ When a clear winner is declared, [!DNL Target] displays the "Winner: Experience 
 
 ![Winner badge](/help/main/c-activities/automated-traffic-allocation/assets/winner-new.png)
 
+The winner badge also appears in the information pop-up of an activity in the [!UICONTROL Activities] list, so you can see the status of an [!UICONTROL Auto-Allocate] activity without opening it. 
+
 >[!NOTE]
 >
 >[!UICONTROL Auto-Allocate] activities are designed to find the best experience among all options and not just to do pairwise comparisons with control.
@@ -88,6 +90,6 @@ Any of the following reasons describe why 0% displays in the report's [!UICONTRO
 
 ### Are the "No Winner," "Winner," and "star" badges available for [!UICONTROL Auto-Allocate] activities that use [!UICONTROL Analytics as the reporting source] (A4T)?
 
-The "No Winner Yet" and "Winner" badges are currently not available in the [!UICONTROL A4T] panel in [!DNL Analysis Workspace]. These badges are also not available if the same report is viewed in [!DNL Target]. A winner "star" badge shown in a [!DNL Target] report for an [!UICONTROL Auto-Allocate] activity using A4T should be ignored. 
+The "No Winner Yet" and "Winner" badges appear in the activity information pop-up in the [!UICONTROL Activities] list. They do not appear in the [!UICONTROL A4T] panel in [!DNL Analysis Workspace] or when you view the same report in [!DNL Target]. If a [!DNL Target] report for an A4T [!UICONTROL Auto-Allocate] activity shows a winner "star" badge, ignore it.
 
 For more information about this and other limitations and notes, see [Auto-Allocate](/help/main/c-integrating-target-with-mac/a4t/a4t-at-aa.md#aa) in *A4T support for [!UICONTROL Auto-Allocate] and [!UICONTROL Auto-Target] activities*.
