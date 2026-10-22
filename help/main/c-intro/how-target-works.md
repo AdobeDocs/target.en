@@ -232,13 +232,7 @@ No changes are made to the page if the visitor's browser cannot connect within a
 
 [!DNL Adobe Target] aligns with search engine guidelines for testing.
 
-For more information, see the following Google resources:
-
-* [Website testing and Google Search](https://webmasters.googleblog.com/2012/08/website-testing-google-search.html) 
-* [Experiments and Cloaking](https://support.google.com/analytics/answer/12979939?hl)
-
-
-Guidelines were presented in a [Google Webmaster Central Blog](https://webmasters.googleblog.com/2012/08/website-testing-google-search.html) post. Although the post dates back to 2012, it remains [!DNL Google]'s most recent statement on the matter, and the guidelines are still relevant.
+For more information, refer to [Google documentation](https://developers.google.com/search/docs/crawling-indexing/website-testing).
 
 * **No cloaking**: Cloaking involves showing one set of content to users and a different set to search engine bots by specifically identifying bots and feeding them different content.
 
@@ -262,13 +256,7 @@ Guidelines were presented in a [Google Webmaster Central Blog](https://webmaster
 
   Also, consider the accessibility of the page you're testing. If the page is not accessible to search engines and was never intended to rank in organic search, these considerations do not apply. An example is a dedicated landing page for an email campaign.
 
-Google states that following these guidelines "should result in your tests having little or no impact on your site in search results."
-
-In addition to these guidelines, Google also provides one more guideline in the documentation to their Content Experiments tool:
-
-* "Your variation pages should maintain the spirit of the content on your original pages. Those variations shouldn't change the meaning of or your user's general perception of that original content."
-
-Google states as an example that "if a site's original page is loaded with keywords that don't relate to the combinations being shown to users, we may remove that site from our index."
+Google states that variations in a test often have little or no impact on the search result snippet or ranking of a page.
 
 [!UICONTROL Adobe] feels that it would be difficult to unintentionally change the meaning of the original content within test variations. However, [!UICONTROL Adobe] recommends being aware of the keyword themes on a page and maintaining those themes. Changes to page content, especially adding or deleting relevant keywords, can result in ranking changes for the URL in organic search. [!DNL Adobe] recommends that you engage with your SEO partner as part of your testing protocol.
 
