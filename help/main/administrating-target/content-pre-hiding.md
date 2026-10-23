@@ -62,7 +62,7 @@ Your instance now uses the saved content pre-hiding and timeout settings as the 
 
 With pre-hiding enabled for your instance, choose whether each activity uses it in **[!UICONTROL Goals & Settings]**. Activities for which you enable pre-hiding are included in the targeted behavior when they are live.
 
-[!DNL Target] then builds a lightweight rule set from live activities authored in the [!UICONTROL Visual Experience Composer] (VEC) and the [!UICONTROL Form-Based Composer], describing the selectors and areas that delivery can change.
+[!DNL Target] then builds a lightweight rule set from live activities authored in the [!UICONTROL Visual Experience Composer] (VEC), describing the selectors and areas that delivery can change.
 
 When you create or edit an activity:
 
