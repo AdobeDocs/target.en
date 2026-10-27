@@ -221,3 +221,5 @@ After the activity is live and you complete the connection and data view setup, 
    The [!UICONTROL Experimentation] panel returns a rich set of data and visualizations to help you better understand how your experiments are performing. For more information, see [[!UICONTROL Panel output]](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-workspace/panels/experimentation#panel-output){target=_blank} under *Experimentation panel* in the *[!DNL Customer Journey Analytics]* guide.
 
    ![Experimentation](/help/main/c-integrating-target-with-mac/cja/assets/experimentation.png)
+
+   
