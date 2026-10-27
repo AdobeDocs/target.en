@@ -27,7 +27,7 @@ topic_v2:
 
 Display problems sometimes occur in the [!DNL Adobe Target] [!UICONTROL Enhanced Experience Composer] (EEC) under certain conditions.
 
-## The EEC won't load an internal QA URL that is not accessible on public IP. {#section_D29E96911D5C401889B5EACE267F13CF}
+## The EEC will not load an internal QA URL that is not accessible on public IP. {#section_D29E96911D5C401889B5EACE267F13CF}
 
 
 +++Details
@@ -151,14 +151,14 @@ The following are reasons that you might see this error message and remedies to 
 
 * **Issue:** The IP addresses are allowlisted but your website does not support TLS version 1.2. [!DNL Target] currently uses the default configuration of 1.2. Prior to the [!DNL Target] 18.4.1 (April 25, 2018), the default configuration supported TLS 1.0. For more information, see [TLS (Transport Layer Security) Encryption Changes](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/tls-transport-layer-security-encryption.html){target=_blank}.
 
-  **Solution:** See the following question (The [!UICONTROL Enhanced Visual Experience Composer] won't load on secure pages on my site that use TLS 1.2).
+  **Solution:** See the following question (The [!UICONTROL Enhanced Visual Experience Composer] will not load on secure pages on my site that use TLS 1.2).
 
 +++
 
-## The EEC won't load on secure pages on my site that use TLS 1.0. (EEC only) {#section_C5B31E3D32A844F68E5A8153BD17551F}
+## The EEC will not load on secure pages on my site that use TLS 1.0. (EEC only) {#section_C5B31E3D32A844F68E5A8153BD17551F}
 
 +++Details
-You might see the error message described above in "The [!UICONTROL Enhanced Visual Experience Composer] won't load on secure pages on my site." if the above IP addresses are allowlisted but your website does not support TLS version 1.2. [!DNL Target] currently uses the default configuration of 1.2. Prior to the [!DNL Target] 18.4.1 (April 25, 2018), the default configuration supported TLS 1.0. For more information, see [TLS (Transport Layer Security) Encryption Changes](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/tls-transport-layer-security-encryption.html){target=_blank}.
+You might see the error message described above in "The [!UICONTROL Enhanced Visual Experience Composer] will not load on secure pages on my site." if the above IP addresses are allowlisted but your website does not support TLS version 1.2. [!DNL Target] currently uses the default configuration of 1.2. Prior to the [!DNL Target] 18.4.1 (April 25, 2018), the default configuration supported TLS 1.0. For more information, see [TLS (Transport Layer Security) Encryption Changes](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/tls-transport-layer-security-encryption.html){target=_blank}.
 
 To check the TLS version on your website using Firefox (other browsers have similar steps):
 

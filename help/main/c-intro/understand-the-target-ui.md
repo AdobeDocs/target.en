@@ -155,7 +155,7 @@ To edit your notifications preferences:
 
 1. Select the frequency at which you want to receive notification emails:
 
-   * [!UICONTROL Don't send emails]
+   * [!UICONTROL Do not send emails]
    * [!UICONTROL Instant notifications]
    * [!UICONTROL Daily digest]
    * [!UICONTROL Weekly digest]

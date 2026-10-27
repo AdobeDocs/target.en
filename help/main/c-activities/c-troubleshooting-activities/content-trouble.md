@@ -134,7 +134,7 @@ For more detailed information, see [Debug at.js using the Adobe Experience Cloud
 
 ## Top sellers are not appearing in Recommendations {#section_3920C857270A406C80BE6CBAC8221ECD}
 
-The *`SiteCatalyst: purchase`* call can't be used for Purchase algorithm traffic data. Use the *`orderConfirmPage`* call instead.
+The *`SiteCatalyst: purchase`* call cannot be used for Purchase algorithm traffic data. Use the *`orderConfirmPage`* call instead.
 
 ## Check activity priority {#section_3D0DD07240F0465BAF655D0804100AED}
 

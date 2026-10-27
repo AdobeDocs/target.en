@@ -54,7 +54,7 @@ A SW is a web technology that can be used to intercept requests for the domain t
 
 The SW can control the caching; can cache the web page itself, static resources like JS, CSS, IMG, AJAX requests, their contents, and their response headers, including the ones that our [Target VEC Helper extension](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/vec-helper-browser-extension.md) tries to remove, like X-Frame-Options: SAMEORIGIN, CSP (Content-Security-Policy), or Set-Cookie.
 
-Unfortunately, the Chrome extension APIs that intercept web requests don't receive the requests that were intercepted and handled by a SW. Therefore, the extension can't fix the headers and the cookies if the web page request was served from a cache by a SW because the web page won't load inside the VEC because of the X-Frame-Options or CSP headers that were also cached.
+Unfortunately, the Chrome extension APIs that intercept web requests do not receive the requests that were intercepted and handled by a SW. Therefore, the extension cannot fix the headers and the cookies if the web page request was served from a cache by a SW because the web page will not load inside the VEC because of the X-Frame-Options or CSP headers that were also cached.
 
 As a potential workaround, you can disable Service Workers from the Chrome Developer Tools > Application tab, then to enable the "Bypass for network" checkbox under the Service Workers section.
 

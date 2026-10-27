@@ -80,7 +80,7 @@ Default values can also be specified for values you want to expose to offers. Th
 
 `${user.testAttribute default="All Items!"}`
 
-When `testAttribute` doesn't exist or is blank, "All Items!" is written out. If an empty attribute value is valid, and you want to write it out instead of showing the default, you can use:
+When `testAttribute` does not exist or is blank, "All Items!" is written out. If an empty attribute value is valid, and you want to write it out instead of showing the default, you can use:
 
 `${user.testAttribute default="All Items!" show_blank="true"}`
 

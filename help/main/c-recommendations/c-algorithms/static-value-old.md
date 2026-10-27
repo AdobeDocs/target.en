@@ -25,7 +25,7 @@ You can create as many inclusion rules as necessary. The inclusion rules are joi
 
 >[!NOTE]
 >
->If you are familiar with how inclusion rules were configured prior to the Target 17.6.1 release (June 2017), you'll notice that some of the options and operators have changed. Only those operators applicable to the selected option display and some operators were renamed ("matches" is now "equals") to be more consistent and intuitive. All existing exclusion rules created prior to this release were automatically migrated into the new structure. No restructuring is necessary on your part.
+>If you are familiar with how inclusion rules were configured prior to the Target 17.6.1 release (June 2017), you will notice that some of the options and operators have changed. Only those operators applicable to the selected option display and some operators were renamed ("matches" is now "equals") to be more consistent and intuitive. All existing exclusion rules created prior to this release were automatically migrated into the new structure. No restructuring is necessary on your part.
 
 ## Recommend content rated G or PG
 

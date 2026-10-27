@@ -75,7 +75,7 @@ The [!DNL Adobe Experience Cloud] [!UICONTROL Visual Editing Helper] browser ext
 1. Open the VEC in [!DNL Target].
 1. To use the extension, click the [!UICONTROL Visual Editing Helper] browser extension icon ( ![Visual Editing Extension icon](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/assets/visual-editing-helper.png) ) in your Chrome browser's toolbar while in the VEC or QA Mode.
 
-   The [!UICONTROL Visual Editing Helper] is automatically enabled when a website is opened in the [!UICONTROL Target] VEC to power authoring. The extension doesn't have any conditional settings. The extension handles all the settings automatically, including SameSite cookies settings.
+   The [!UICONTROL Visual Editing Helper] is automatically enabled when a website is opened in the [!UICONTROL Target] VEC to power authoring. The extension does not have any conditional settings. The extension handles all the settings automatically, including SameSite cookies settings.
 
    For more information on the `SameSite=None` attribute browser fix, see "How do the recently announced Google Chrome SameSite cookie enforcement policies impact the VEC and EEC?" in [Troubleshooting Issues Related to the Visual Experience Composer and Enhanced Experience Composer](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/issues-related-to-the-visual-experience-composer-vec-and-enhanced-experience-composer-eec.md).
 

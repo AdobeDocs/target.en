@@ -31,9 +31,9 @@ If you do not use a backup recommendation, if a recommendation does not have eno
 
 >[!NOTE]
 >
->Additional information is included in the [Content section of the Create criteria](/help/main/c-recommendations/c-algorithms/create-new-algorithm.md#content) topic, including a matrix that explains the results you'll observe when using the [!UICONTROL Partial Design Rendering] and [!UICONTROL Show Backup Recommendations] options together or separately.
+>Additional information is included in the [Content section of the Create criteria](/help/main/c-recommendations/c-algorithms/create-new-algorithm.md#content) topic, including a matrix that explains the results you will observe when using the [!UICONTROL Partial Design Rendering] and [!UICONTROL Show Backup Recommendations] options together or separately.
 
-The backup recommendation feature always uses the top-viewed items on the site to fill any remaining slots after the algorithm's data is used. For example, your template is configured to show five recommended items, and you're using the *Purchase Affinities* algorithm. However, you only have enough data to fill two of the five slots, so the backup recommendation feature fills the other three spots with top-viewed items.
+The backup recommendation feature always uses the top-viewed items on the site to fill any remaining slots after the algorithm's data is used. For example, your template is configured to show five recommended items, and you are using the *Purchase Affinities* algorithm. However, you only have enough data to fill two of the five slots, so the backup recommendation feature fills the other three spots with top-viewed items.
 
 Backup recommendations are randomly chosen from the top 500 most-viewed products across the entire site. The data time period for backup recommendations is one week.
 
@@ -60,4 +60,4 @@ Duplicates are removed from batches of recommendations.
 
 Using backup recommendations is usually part of the discussion with the implementation team during your initial setup. If you want to change the backup recommendation setting after implementation, contact your account manager.
 
-If Enable Partial Design Rendering (see [Content Settings](/help/main/c-recommendations/c-algorithms/create-new-algorithm.md#content)) is not enabled and the template doesn't show, then either the backup recommendation or default content is shown instead.
+If Enable Partial Design Rendering (see [Content Settings](/help/main/c-recommendations/c-algorithms/create-new-algorithm.md#content)) is not enabled and the template does not show, then either the backup recommendation or default content is shown instead.

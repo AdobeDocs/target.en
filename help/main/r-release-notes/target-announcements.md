@@ -313,7 +313,7 @@ View tool kit and use cases for implementing cross-functional personalization st
 
   +++Details
 
-  More than ever, marketers, product owners, and developers are being tasked with optimizing the overall customer experience on sites, in apps, and everywhere else they connect with their customers. Multiple tools with data silos and complicated implementations won't cut it.
+  More than ever, marketers, product owners, and developers are being tasked with optimizing the overall customer experience on sites, in apps, and everywhere else they connect with their customers. Multiple tools with data silos and complicated implementations will not cut it.
 
   In this recorded webinar, Adobe Target product experts discuss how moving critical experience optimization decisions on-device to execute locally with zero latency can open doors to exciting new use cases while improving site performance for your customers.
 

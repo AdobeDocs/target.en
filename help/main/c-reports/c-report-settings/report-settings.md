@@ -262,8 +262,8 @@ If you hover over any of the greyed experiences, a new grey plot line correspond
 
 The graph displays the lines for the first 16 experiences (some overlap, so it appears that there are fewer than 16 lines). The colored dot in the Experiences pane on the left side next to each experience name indicate that the experience's plot line displays in the corresponding color.
 
-If you scroll down in the Experiences pane, you'll notice that the names for the 17th through 26th experiences are greyed out, as shown in the following illustration:
+If you scroll down in the Experiences pane, you will notice that the names for the 17th through 26th experiences are greyed out, as shown in the following illustration:
 
 If you hover over one of the greyed experiences, a new grey plot line corresponding to that experience temporarily displays in the graph.
 
-Suppose you want to display the plot line for Experience R and you don't want to see the line for Experience P. You can click Experience P's name to deselect it and then click Experience R's name to select it, as shown below:
+Suppose you want to display the plot line for Experience R and you do not want to see the line for Experience P. You can click Experience P's name to deselect it and then click Experience R's name to select it, as shown below:

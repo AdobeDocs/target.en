@@ -52,12 +52,12 @@ To enable the [!UICONTROL Enhanced Experience Composer] at the activity level wh
 
 +++
 
-### You can allowlist certain IP addresses if the [!UICONTROL Enhanced Experience Composer] won't load on secure pages on your site.
+### You can allowlist certain IP addresses if the [!UICONTROL Enhanced Experience Composer] will not load on secure pages on your site.
 
 +++See details
 Problems loading the [!UICONTROL Enhanced Experience Composer] can be resolved by allowlisting the following IP addresses. These IP addresses are for [!DNL Adobe] servers used for the [!UICONTROL Enhanced Experience Composer] proxy. They are only required for activity editing. Visitors to your site do not need these IP addresses allowlisted.
 
-For more information, see [The EEC won't load an internal QA URL that is not accessible on public IP](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/troubleshooting-issues-related-to-the-enhanced-experience-composer-eec.md) in *Troubleshooting issues related to the Enhanced Experience Composer*.
+For more information, see [The EEC will not load an internal QA URL that is not accessible on public IP](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/troubleshooting-issues-related-to-the-enhanced-experience-composer-eec.md) in *Troubleshooting issues related to the Enhanced Experience Composer*.
 
 +++
 
@@ -75,7 +75,7 @@ Anything immediately inside the body element should have a unique ID. If new ele
 +++Details
 When editing CSS classes in the [!DNL Visual Experience Composer], it is helpful to make the classes easy to identify by using descriptive class names. This helps to ensure that you edit the right CSS classes, and your pages appear as expected.
 
-Don't use the `!important` CSS property when hiding or removing elements.
+Do not use the `!important` CSS property when hiding or removing elements.
 
 If the `!important` CSS property is present, changes made by `target.js` during delivery is overridden by the site's CSS rules.
 
@@ -120,7 +120,7 @@ Block-level elements should not be used inside inline elements, such as anchor, 
 
 +++
 
-### Don't use the base tag in your website to resolve URLs and links.
+### Do not use the base tag in your website to resolve URLs and links.
 
 +++Details
 The VEC manipulates the website behind the scenes, using a proxy server that updates the links. If you add a base tag, the URLs used by the proxy server are resolved again by the browser and appear broken.
@@ -137,7 +137,7 @@ For example, if you have taken two actions:
 
 Each change creates a new element in the VEC. Because the second action modifies Element 1, if you delete Element 1, the second action no longer has anything to modify, so the change no longer works.
 
-In other words, if you add an element with text, then in a separate action you edit that element with different text, the code editor shows both actions as separate elements. When you edited the element, you created a new element that modifies the original one you created, containing the edited text. If you then delete the original element, the edited text won't be able to find the element that was edited, and will not display. The second element remains in the list of elements, but it does not affect the page because the element it changes no longer exists.
+In other words, if you add an element with text, then in a separate action you edit that element with different text, the code editor shows both actions as separate elements. When you edited the element, you created a new element that modifies the original one you created, containing the edited text. If you then delete the original element, the edited text will not be able to find the element that was edited, and will not display. The second element remains in the list of elements, but it does not affect the page because the element it changes no longer exists.
 
 See [Element Selectors Used in the [!UICONTROL Visual Experience Composer]](/help/main/c-experiences/c-visual-experience-composer/vec-selectors.md#concept_4EB7663E255F439B8D24079D23479337).
 
@@ -167,7 +167,7 @@ Because `mboxCreate` uses `document.write`, it is not recommended to include `mb
 
 +++
 
-### Don't update an HTML snippet using [!DNL Target] if it requires JavaScript code for its initialization.
+### Do not update an HTML snippet using [!DNL Target] if it requires JavaScript code for its initialization.
 
 
 +++Details
@@ -184,7 +184,7 @@ Test your page multiple times to make sure delivery works as expected.
 
 +++
 
-### Don't use a base tag in your website to resolve URLs and links.
+### Do not use a base tag in your website to resolve URLs and links.
 
 +++Details
 When you use the [!UICONTROL Enhanced Experience Composer], the website is manipulated behind the scenes by a proxy server that updates all link URLs to make them work in the proxy. If you add a base tag, all these URLs are resolved by the browser, so they appear broken.
@@ -212,7 +212,7 @@ In this example, the entire anchor element is selected in the VEC, which adverse
 
 +++
 
-### Don't use `top` or `self` variables in JavaScript code.
+### Do not use `top` or `self` variables in JavaScript code.
 
 +++Details
 When the [!UICONTROL Enhanced Experience Composer] is enabled, the value of the top and self variables are updated to disable iframe busting. Use an X-frame-options header to add iframe busting instead of custom JavaScript codes.
@@ -261,7 +261,7 @@ Consider the following caveats when using the [!UICONTROL Visual Experience Comp
 ### The [!UICONTROL Move] feature does not support z-index.
 
 +++Details
-Because there is no z-index functionality, the moved element can't be moved on top of another element. See [Limitations](/help/main/c-experiences/c-visual-experience-composer/experience-composer-best-practices.md#section_F33C2EA27F2E417AA036BC199DD6C721) for more details.
+Because there is no z-index functionality, the moved element cannot be moved on top of another element. See [Limitations](/help/main/c-experiences/c-visual-experience-composer/experience-composer-best-practices.md#section_F33C2EA27F2E417AA036BC199DD6C721) for more details.
 
 +++
 
@@ -476,6 +476,6 @@ Due to IE8 limitations when handling script content, `target.js` does not suppor
 ### Click tracking is supported only on the page on which experiences are created or on the redirected page.
 
 +++Details
-Although [!UICONTROL Browse] mode is available for click tracking in the VEC, [!UICONTROL Browse] mode can't be used to add click tracking on a page.
+Although [!UICONTROL Browse] mode is available for click tracking in the VEC, [!UICONTROL Browse] mode cannot be used to add click tracking on a page.
 
 +++

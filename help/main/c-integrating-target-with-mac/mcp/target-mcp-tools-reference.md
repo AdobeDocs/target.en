@@ -31,7 +31,7 @@ level_v2:
 >
 >The [!DNL Adobe Target] MCP server is available to all customers in **Public Beta**. It is currently supported in **Claude Web**, **Claude Desktop**, **Claude Code**, **Cursor**, and **ChatGPT**.
 
-This page is a complete reference for all tools exposed by the [!DNL Adobe Target] MCP server. For each tool you'll find a description, parameter details, return value, and an example natural-language prompt. For setup instructions and use cases, see [Get started](target-mcp-get-started.md) and [Use cases and walkthroughs](target-mcp-use-cases.md).
+This page is a complete reference for all tools exposed by the [!DNL Adobe Target] MCP server. For each tool you will find a description, parameter details, return value, and an example natural-language prompt. For setup instructions and use cases, see [Get started](target-mcp-get-started.md) and [Use cases and walkthroughs](target-mcp-use-cases.md).
 
 >[!IMPORTANT]
 >

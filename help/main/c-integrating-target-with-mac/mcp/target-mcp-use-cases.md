@@ -52,7 +52,7 @@ The following examples show how to interact with the [!DNL Adobe Target] MCP ser
 | **Revenue analysis** | "Get the orders and revenue report for activity AT4821 and summarize which experience is driving the most revenue per visitor." |
 | **A4T reporting** | "Pull the A4T report for my checkout optimization test and summarize the Analytics-side conversion data." |
 | **Activity insights** | "Get insights for my 'Summer Sale Banner' test — what does performance look like and are there any anomalies?" |
-| **Audience management** | "List all audiences targeting mobile users and show me which activities they're associated with." |
+| **Audience management** | "List all audiences targeting mobile users and show me which activities they are associated with." |
 | **QA and preview** | "Generate QA preview URLs for activity 12345 so I can review all variants before activating." |
 <!-- | **Recommendations review** | "List all Recommendations criteria configured in this account and summarize the algorithm types in use." | -->
 | **Implementation audit** | "What version of at.js is configured, and what response tokens are currently active?" |

@@ -52,7 +52,7 @@ Best practices for using remote offers in your activities:
 * Remote offers are not supported in:
 
   * [Premium features](/help/main/c-intro/intro.md#premium) (Automated Personalization (AP), Auto-Target, and Recommendations)
-  * Multivariate Testing (MVT), due to reliance on the VEC, which doesn't support remote offers.
+  * Multivariate Testing (MVT), due to reliance on the VEC, which does not support remote offers.
 
 * If your offer resides in the same domain as the [!DNL Target] requests, using the [!UICONTROL Cached] option lets you use relative URLs in describing your offer location.
 
@@ -129,7 +129,7 @@ You can click **[!UICONTROL Add Parameter]** to add one or more [!DNL Target] re
 
 Apply remote offers using the [!UICONTROL Form-Based Experience Composer]. You cannot currently apply remote offers using the [!UICONTROL Visual Experience Composer] (VEC).
 
-The [!DNL Adobe Target] [!UICONTROL Form-Based Experience Composer] is a non-visual experience and offer creation interface that's useful in creating experiences for use in [!UICONTROL A/B Tests], [!UICONTROL Experience Targeting] (XT), [!UICONTROL Automated Personalization] (AP), and [!UICONTROL Recommendations] activities when the [!UICONTROL Visual Experience Composer] is not available or practical for use. For example, you might use the [!UICONTROL Form-Based Experience Composer] to create experiences that use remote offers.
+The [!DNL Adobe Target] [!UICONTROL Form-Based Experience Composer] is a non-visual experience and offer creation interface that is useful in creating experiences for use in [!UICONTROL A/B Tests], [!UICONTROL Experience Targeting] (XT), [!UICONTROL Automated Personalization] (AP), and [!UICONTROL Recommendations] activities when the [!UICONTROL Visual Experience Composer] is not available or practical for use. For example, you might use the [!UICONTROL Form-Based Experience Composer] to create experiences that use remote offers.
 
 1. Create or edit an activity in the [!UICONTROL Form-Based Experience Composer].
 

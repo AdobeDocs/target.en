@@ -403,7 +403,7 @@ This release contains the following updates and fixes:
 
   * Preventing rule creation when the mbox parameter is empty
   * Displaying appropriate error messages for invalid rule states
-  * Correcting validation logic for unary and parameter-based operators that don't require operand values
+  * Correcting validation logic for unary and parameter-based operators that do not require operand values
   * Enabling hash fragment rules with unary operators by restoring save functionality
 
   These updates ensure accurate rule configuration and improve usability across complex page delivery scenarios. (TGT-53722)
@@ -802,7 +802,7 @@ Due to recent issues identified, primarily related to complex customer customiza
 
 +++See details
 
-* Fixed an issue in the backend persistence layer where deleted options were correctly stored but not accessible via existing API endpoints. As a result, frontend applications couldn't retrieve meaningful names for deleted options, impacting historical reporting views. This fix ensures that preserved deleted option data can now be surfaced properly in the UI. (TGT-52973)
+* Fixed an issue in the backend persistence layer where deleted options were correctly stored but not accessible via existing API endpoints. As a result, frontend applications could not retrieve meaningful names for deleted options, impacting historical reporting views. This fix ensures that preserved deleted option data can now be surfaced properly in the UI. (TGT-52973)
 * Implemented a new migration endpoint to support the transfer of deleted activity options from JCR-based activities to [!DNL Target] Central. This functionality enables consistent tracking and reporting across systems. This feature ensures that deleted options are preserved and synchronized across the [!DNL Target] frontend and backend, improving historical reporting and data integrity. (TGT-53217)
 * Introduced a new API endpoint that allows users to restore previously deleted activity options from a secondary database. This functionality leverages the existing infrastructure provided by the `RemovedCampaignElements` and `RemovedOptionInfo` classes, ensuring seamless reintegration of deleted options into active activities. (TGT-52903)
 * Fixed an issue where [!DNL Recommendations] activities containing metric names longer than 25 characters could not be opened or edited due to API limitations. This fix ensures compatibility with metric names exceeding the character limit, restoring full access to affected activities. (TGT-52839)
@@ -893,7 +893,7 @@ Due to recent issues identified, primarily related to complex customer customiza
 
 +++See details
 
-* Added an additional confirmation warning when canceling activity edits with unsaved changes: "Do you really want to save this activity? If you don't save, all your changes will be lost." This message helps prevent accidental data loss. (TGT-52865)
+* Added an additional confirmation warning when canceling activity edits with unsaved changes: "Do you really want to save this activity? If you do not save, all your changes will be lost." This message helps prevent accidental data loss. (TGT-52865)
 * Restored legacy functionality to the [!UICONTROL Priority] slider in [!UICONTROL Goals & Settings], allowing customers to enter a numeric value directly, as supported in the legacy UI. (TGT-53185 & TGT-53219)
 
 +++
@@ -969,7 +969,7 @@ Due to recent issues identified, primarily related to complex customer customiza
 * Fixed an issue that prevented customers from [copying activities between different workspaces](/help/main/c-activities/edit-activity.md#section_45A92E1DD3934523B07E71EF90C4F8B6). (TGT-52753 & TGT-47094)
 * Fixed an issue when changing properties between workspaces. 
   * When switching between the default workspace to a non-default workspace, if the current property exists in the destination workspace, the property is preserved. 
-  * If the [!UICONTROL Properties] list displays a warning (likely to indicate some properties may not be compatible) and the customer clicks [!UICONTROL Add] or [!UICONTROL Remove] and then clicks [!UICONTROL Save], all properties not in the destination workspace are removed. If the customer clicks [!UICONTROL Cancel], all properties remain, even if they don't exist in the destination workspace. (TGT-47094)
+  * If the [!UICONTROL Properties] list displays a warning (likely to indicate some properties may not be compatible) and the customer clicks [!UICONTROL Add] or [!UICONTROL Remove] and then clicks [!UICONTROL Save], all properties not in the destination workspace are removed. If the customer clicks [!UICONTROL Cancel], all properties remain, even if they do not exist in the destination workspace. (TGT-47094)
   * If staying in the same workspace or switching from a non-default workspace to the default or another workspace, everything remains as is. (TGT-53078)
 * Updated entity validation logic to respect the original workspace context of the activity. Entities such as [!UICONTROL Experience Fragments] (XFs) are now validated based on the workspace in which the activity was originally created. For example, if an XF exists in the default workspace and the activity is copied from workspace X to workspace Y, validation still passes as long as the XF is valid in the original (default) workspace. (TGT-53196)
 * Enhanced support for copying ad-hoc audiences during activity duplication.
@@ -1242,7 +1242,7 @@ We are thrilled to announce the launch of the [!DNL AI Assistant] in [!DNL Adobe
 
 [!DNL AI Assistant] in [!UICONTROL Target] is a conversational tool that you can use to accelerate your workflows with [!DNL Experience Platform] applications and services. Use [!DNL AI Assistant] to boost your overall productivity and amplify your understanding of product knowledge
 
-In [!DNL Target], the first phase of [!DNL AI Assistant] provides invaluable product knowledge grounded in [!DNL Experience League] documentation. Whether you're setting up a profile script, troubleshooting errors, or considering an upgrade to the AEP Web SDK, [!DNL AI Assistant] has you covered.
+In [!DNL Target], the first phase of [!DNL AI Assistant] provides invaluable product knowledge grounded in [!DNL Experience League] documentation. Whether you are setting up a profile script, troubleshooting errors, or considering an upgrade to the AEP Web SDK, [!DNL AI Assistant] has you covered.
 
 For more information, see [Coworker skills for Adobe Target](/help/main/c-intro/coworker-skills.md).
 -->
@@ -1253,7 +1253,7 @@ This release includes the following fixes and updates:
 
 * [!DNL Target] users with [!UICONTROL Product Administrator] and [!UICONTROL System Administrator] rights can now edit all settings on the [!UICONTROL Administration] pages, regardless of their role in [!DNL Target]. Users without these permissions have read-only access to these settings. This update ensures stricter access control over [Administration settings](/help/main/administrating-target/administrating-target.md). (TGT-48179)
 * Fixed a caching issue that prevented saving activity [Site Preferences](/help/main/c-experiences/c-visual-experience-composer/viztarget-options.md#settings). (TGT-52213) 
-* Fixed an issue where customers couldn't enable selection by ID and class in the [!UICONTROL Site Preferences] section after loading the site in the VEC. The [!UICONTROL Site Preferences] setting automatically reverted to disabled even after being enabled. (TGT-52207)
+* Fixed an issue where customers could not enable selection by ID and class in the [!UICONTROL Site Preferences] section after loading the site in the VEC. The [!UICONTROL Site Preferences] setting automatically reverted to disabled even after being enabled. (TGT-52207)
 * Fixed an issue where the [!UICONTROL Visual Experience Composer] (VEC) failed to display the correct page when [page delivery](/help/main/c-experiences/c-visual-experience-composer/viztarget-options.md#settings) URLs ended with a forward slash (/). (TGT-52237)
 * Fixed an issue that prevented the removal of custom code modifications when changing experiences. (TGT-52240)
 * Fixed an issue where HTML modifications in the VEC overlaid existing page elements. (TGT-52265)

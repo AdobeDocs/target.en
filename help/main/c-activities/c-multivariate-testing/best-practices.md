@@ -30,7 +30,7 @@ Tips to help you improve performance, avoid issues, and correct known issues tha
 
 ## Create {#section_C59C722CA82E48ABA58A4A7FA758F193}
 
-* Don't include more combinations than necessary for the test.
+* Do not include more combinations than necessary for the test.
 
   Every combination tested significantly increases the amount of traffic and time required to achieve acceptable results. For example, if you have three locations with three offers each, there are 27 possible combinations (3x3x3). Three locations, where two locations contain three possible offers and one location has two offers, provide 18 options (3x3x2). The numbers increase substantially with each additional location and offer. 
 

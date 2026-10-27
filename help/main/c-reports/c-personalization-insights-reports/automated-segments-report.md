@@ -64,13 +64,13 @@ Different visitors respond differently to the offers/experiences in your AP/AT a
 
    >[!IMPORTANT]
    >
-   >The [!UICONTROL Automated Segments] report won't be available until at least 15 days after you've activated your activity. During this initial period, you won't be able to access this report or click the [!UICONTROL Automated Segments] icon. After 15 days have passed, assuming there is sufficient personalized traffic in your activity, the [!UICONTROL Automated Segments] report will be available.
+   >The [!UICONTROL Automated Segments] report will not be available until at least 15 days after you have activated your activity. During this initial period, you will not be able to access this report or click the [!UICONTROL Automated Segments] icon. After 15 days have passed, assuming there is sufficient personalized traffic in your activity, the [!UICONTROL Automated Segments] report will be available.
 
 1. After 15 days from activating the activity, you can click the **[!UICONTROL Automated Segments]** icon.
 
 1. Select the desired date range.
 
-   Unlike the [!UICONTROL Summary] report (performance reporting), [!UICONTROL Personalization Insights], including [!UICONTROL Automated Segments], is available only for fixed date ranges: 15 days, 30 days, and 60 days. These fixed date ranges allow [!UICONTROL Personalization Insights] to use a large enough range of data to reduce the likelihood that you derive insights from a short-lived pattern in your activity. The two decisions you can make for your date range is the "End Date" and the "Duration." You'll notice that the "Start" is grayed out. The start date automatically changes based on your selections for the end date and duration.
+   Unlike the [!UICONTROL Summary] report (performance reporting), [!UICONTROL Personalization Insights], including [!UICONTROL Automated Segments], is available only for fixed date ranges: 15 days, 30 days, and 60 days. These fixed date ranges allow [!UICONTROL Personalization Insights] to use a large enough range of data to reduce the likelihood that you derive insights from a short-lived pattern in your activity. The two decisions you can make for your date range is the "End Date" and the "Duration." You will notice that the "Start" is grayed out. The start date automatically changes based on your selections for the end date and duration.
 
    You can access the available fixed date ranges from the [!UICONTROL Preset Date Range] drop-down list.
 
@@ -114,7 +114,7 @@ This automated segment is defined based on two attributes. Visitors included in 
 
 There are several reasons why the [!UICONTROL Personalization Insights] reports are not yet available for your activity:
 
-* 15 days have not passed since you activated the activity. Automated Segments and Important Attributes reports won't be available until at least 15 days after you've started your activity. During this initial period, you won't be able to access these reports or click the Automated Segments and Important Attributes icons. 
+* 15 days have not passed since you activated the activity. Automated Segments and Important Attributes reports will not be available until at least 15 days after you have started your activity. During this initial period, you will not be able to access these reports or click the Automated Segments and Important Attributes icons. 
 * Your activity has not had sufficient traffic during the specified time frame. After 15 days have passed, assuming there is sufficient personalized traffic in your activity to build the personalization models, Automated Segments and Important Attributes reports will be available. 
 * Your activity has a revenue optimization goal. Currently, [!UICONTROL Personalization Insights] is available only for conversion optimization goal activities. Adobe will be adding support for revenue optimization goal activities in a future release.
 
@@ -143,7 +143,7 @@ Since the click is attributed to the experience as a whole, all cards in that ex
 
 **Why are only some of my offers / experiences showing up in the Automated Segments report?**
 
-AP and AT activities build one model per offer (in the case of AP) and one model per experience (in the case of AT). These activities start serving personalized traffic and create your [!UICONTROL Personalization Insights] with as little as two models built. If you don't see all of your offers / experiences in [!UICONTROL Personalization Insights], it is likely you don't have models built for those specific offers/ experiences. You can check your activity's [!UICONTROL Summary] report and see if there is a clock icon beside that offer / experience. This icon indicates that models aren't built yet for that offer / experience.
+AP and AT activities build one model per offer (in the case of AP) and one model per experience (in the case of AT). These activities start serving personalized traffic and create your [!UICONTROL Personalization Insights] with as little as two models built. If you do not see all of your offers / experiences in [!UICONTROL Personalization Insights], it is likely you do not have models built for those specific offers/ experiences. You can check your activity's [!UICONTROL Summary] report and see if there is a clock icon beside that offer / experience. This icon indicates that models are not built yet for that offer / experience.
 
 **Why are some offers / experiences with a lower conversion rate receiving a larger amount of traffic compared to other offers / experiences for a certain automated segment?**
 
@@ -189,4 +189,4 @@ At this time, [!UICONTROL Personalization Insights] is available only for conver
 
 **Is there any logic to the order that attributes appear in a segment card?**
 
-No, the order of the cards is based only on a ranking described above. The order of the attributes within a card isn't based on any logic.
+No, the order of the cards is based only on a ranking described above. The order of the attributes within a card is not based on any logic.

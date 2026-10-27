@@ -254,7 +254,7 @@ For more information, refer to [Google documentation](https://developers.google.
 
   Consider what your test has changed. Minor updates, such as button colors, do not impact organic rankings. However, text changes should be hardcoded.
 
-  Also, consider the accessibility of the page you're testing. If the page is not accessible to search engines and was never intended to rank in organic search, these considerations do not apply. An example is a dedicated landing page for an email campaign.
+  Also, consider the accessibility of the page you are testing. If the page is not accessible to search engines and was never intended to rank in organic search, these considerations do not apply. An example is a dedicated landing page for an email campaign.
 
 Google states that variations in a test often have little or no impact on the search result snippet or ranking of a page.
 

@@ -40,7 +40,7 @@ A New Visitor's first visit lasts as long as the visitor is active on the site.
 If the user is inactive for 30 minutes or longer, the session is reset. Resetting the session means that this visitor becomes a Return Visitor upon the next visit or becoming active again after 30 minutes of inactivity. 
 If the visitor moves around the site every 29 minutes for an entire day, this visitor is counted as a New Visitor that entire day. The session was never reset because the visitor never went over the 30-minute threshold.  
 
-The following information explains in more detail how New Visitors and Returning Visitors are counted. Examples are also included explaining why the sum of these two segments doesn't always add up to the number of total visitors.
+The following information explains in more detail how New Visitors and Returning Visitors are counted. Examples are also included explaining why the sum of these two segments does not always add up to the number of total visitors.
 
 ### New Visitors
 
@@ -97,10 +97,10 @@ If an activity's content was successfully delivered to visitors but its report c
 
 There are a few possible reasons that data is missing from activity reports:
 
-* You don't have the correct environment selected in the report's settings
-* You don't have any traffic allocated to the control experience
+* You do not have the correct environment selected in the report's settings
+* You do not have any traffic allocated to the control experience
 
-### You don't have the correct environment selected in the report's settings:
+### You do not have the correct environment selected in the report's settings:
 
 If an activity's content was successfully delivered to users but its report contains no data, ensure that you have the correct environment ([host group](/help/main/administrating-target/hosts.md)) selected in the report's settings.
 
@@ -119,7 +119,7 @@ To change the environment for an activity's report:
 
 For more information about environments, see [Hosts](/help/main/administrating-target/hosts.md#concept_516BB01EBFBD4449AB03940D31AEB66E).
 
-### You don't have any traffic allocated to the control experience
+### You do not have any traffic allocated to the control experience
 
 If an activity's content was successfully delivered to users but its report contains no data, ensure that you use an experience with traffic as the control experience.
 
@@ -140,7 +140,7 @@ If an activity's content was successfully delivered to users but its report cont
 For example, I set the traffic split to be 50/50 or 25/25/25/25 but I'm seeing a vastly different distribution between experiences in the reporting. There are several explainable reasons for uneven visitor counts in [!DNL Target] reporting:
 
 * When a [!DNL Target] activity is first launched, the traffic distribution can be uneven because of the edge node architecture that [!DNL Target] uses to optimize experience delivery. The best practice is to give an activity some time to collect more data and the distribution will normalize. For more information on [!DNL Adobe Target] architecture and Edge nodes, see [How Adobe Target works](/help/main/c-intro/how-target-works.md).
-* If you are in [!DNL Target] or [!DNL Analytics] and you're using the **[!UICONTROL Visits]** metric, remember that [!DNL Target] is a visitor-based system and the traffic distribution for an A/B or MVT test is assigned at the visitor level. Thus, if you examine activity results using the **[!UICONTROL Visits]** metric, the traffic distribution might appear uneven because certain visitors might have multiple visits. Visitors is the standard normalizing metric when evaluating activity performance.
+* If you are in [!DNL Target] or [!DNL Analytics] and you are using the **[!UICONTROL Visits]** metric, remember that [!DNL Target] is a visitor-based system and the traffic distribution for an A/B or MVT test is assigned at the visitor level. Thus, if you examine activity results using the **[!UICONTROL Visits]** metric, the traffic distribution might appear uneven because certain visitors might have multiple visits. Visitors is the standard normalizing metric when evaluating activity performance.
 * The best practice for A/B and MVT tests is to keep traffic splits even. Changing the traffic distribution between experiences (say from 90/10 to 50/50) during a test can lead to uneven visitors across experiences. The lower traffic experience might never "catch up."
 * If you are following the above best practices and the traffic split does not normalize over time, you should check the following:
 

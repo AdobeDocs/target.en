@@ -227,7 +227,7 @@ The visual representation of an activity in Target Standard.
 
 **Form-Based Experience Composer**
 
-A non-visual experience and offer creation interface that’s useful in creating experiences for use in A/B tests, Experience Targeting, Automated Personalization, and Recommendations activities when the visual experience composer is not available or practical for use. For example, you might use the form-based composer to create experiences and offers for delivery in emails, kiosks, and voice assistants. 
+A non-visual experience and offer creation interface that is useful in creating experiences for use in A/B tests, Experience Targeting, Automated Personalization, and Recommendations activities when the visual experience composer is not available or practical for use. For example, you might use the form-based composer to create experiences and offers for delivery in emails, kiosks, and voice assistants. 
 
 ## G {#section_D7B3B62BD3A449EFAA11DF9704773B28}
 

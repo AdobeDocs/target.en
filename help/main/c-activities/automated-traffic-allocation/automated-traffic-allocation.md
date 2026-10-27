@@ -36,7 +36,7 @@ While [creating an A/B activity](/help/main/c-activities/t-test-ab/t-test-create
 
 ## The challenge {#section_85D5A03637204BACA75E19646162ACFF}
  
-Standard A/B tests have an inherent cost. You must spend traffic to measure performance of each experience and through analysis figure out the winning experience. Traffic distribution remains fixed even after you recognize that some experiences are outperforming others. Also, it's complicated to figure out the sample size, and the activity must run its entire course before you can act on a winner. And, there is still a chance the identified winner is not a true winner.
+Standard A/B tests have an inherent cost. You must spend traffic to measure performance of each experience and through analysis figure out the winning experience. Traffic distribution remains fixed even after you recognize that some experiences are outperforming others. Also, it is complicated to figure out the sample size, and the activity must run its entire course before you can act on a winner. And, there is still a chance the identified winner is not a true winner.
 
 ## The solution: [!UICONTROL Auto-Allocate] {#section_98388996F0584E15BF3A99C57EEB7629}
 
@@ -46,7 +46,7 @@ An [!UICONTROL Auto-Allocate] activity reduces this cost and overhead of determi
 
 A normal A/B test in [!DNL Target] shows only pairwise comparisons of challengers with the control. For example, if an activity has experiences: A, B, C, and D where A is the control, a normal [!DNL Target] A/B test would compare A versus B, A versus C, and A versus D.
 
-In such tests, most products, including [!DNL Target], use a [Welch's t-test](https://en.wikipedia.org/wiki/Welch%27s_t-test){target=_blank} to produce p-value-based confidence. This confidence value is then used to determine if the challenger is sufficiently different from the control. However, [!DNL Target] doesn't automatically perform the implicit comparisons (B versus C, B versus D, and C versus D) that are required to find the "best" experience. As a result, the marketer must manually analyze the results to determine the "best" experience.
+In such tests, most products, including [!DNL Target], use a [Welch's t-test](https://en.wikipedia.org/wiki/Welch%27s_t-test){target=_blank} to produce p-value-based confidence. This confidence value is then used to determine if the challenger is sufficiently different from the control. However, [!DNL Target] does not automatically perform the implicit comparisons (B versus C, B versus D, and C versus D) that are required to find the "best" experience. As a result, the marketer must manually analyze the results to determine the "best" experience.
 
 [!UICONTROL Auto-Allocate] performs all implicit comparisons across experiences and produces a "true" winner. There is no notion of a "control" experience in the test.
 
@@ -56,7 +56,7 @@ In such tests, most products, including [!DNL Target], use a [Welch's t-test](ht
 
 * Use **[!UICONTROL Auto-Allocate]** when you want to optimize your activity from the beginning and identify the winning experiences as quickly as possible. By serving high-performing experiences more often, the overall activity performance is increased. 
 * Use a standard **[A/B Test](/help/main/c-activities/t-test-ab/test-ab.md#task_05E33EB15C4D4459B5EAFF90A94A7977)** when you want to characterize the performance of all experiences before optimizing your site. An A/B test helps you rank all of your experiences, whereas [!UICONTROL Auto-Allocate] finds top performers but does not guarantee differentiation among the lower performers. 
-* Use [Automated Personalization](/help/main/c-activities/t-automated-personalization/automated-personalization.md#task_8AAF837796D74CF893CA2F88BA1491C9) when you want optimization algorithms of the highest complexity, such as machine-learning models that build predictions based on individual profile attributes. [!UICONTROL Auto-Allocate] looks at the aggregate behavior of experiences (just like standard A/B tests), and doesn't differentiate between visitors.
+* Use [Automated Personalization](/help/main/c-activities/t-automated-personalization/automated-personalization.md#task_8AAF837796D74CF893CA2F88BA1491C9) when you want optimization algorithms of the highest complexity, such as machine-learning models that build predictions based on individual profile attributes. [!UICONTROL Auto-Allocate] looks at the aggregate behavior of experiences (just like standard A/B tests), and does not differentiate between visitors.
 
 ## Key benefits of [!UICONTROL Auto-Allocate] {#section_0913BF06F73C4794862561388BBDDFF0}
 
@@ -94,7 +94,7 @@ The illustration shows how the traffic allocated to each experience progresses o
 |![Round 2](/help/main/c-activities/automated-traffic-allocation/assets/aa-phase-2.png){width="200" zoomable="yes"}|**Round 2**: During this round, 80% of traffic is allocated to experiences A and D (40% each). 20% of traffic is allocated randomly, so that means A, B, C, and D each get 5% of traffic. During this round, experience B performs well.<ul><li>The algorithm picks experience D to move forward into the next round because it has the highest conversion rate (as indicated by each activity's vertical scale).</li><li>The algorithm picks experience B to move forward as well because it has the highest upper bound of the Bernstein 95% confidence interval of the remaining experiences.</li></ul>Experiences D and B move forward.|
 |![Round 3](/help/main/c-activities/automated-traffic-allocation/assets/aa-phase-3.png){width="200" zoomable="yes"}|**Round 3**: During this round, 80% of traffic is allocated to experiences B and D (40% each). 20% of traffic is allocated randomly, so that means A, B, C, and D each get 5% of traffic. During this round, experience D continues to perform well and experience C performs well.<ul><li>The algorithm picks experience D to move forward into the next round because it has the highest conversion rate (as indicated by each activity's vertical scale).</li><li>The algorithm picks experience C to move forward as well because it has the highest upper bound of the Bernstein 95% confidence interval of the remaining experiences.</li></ul>Experiences D and C move forward.|
 |![Round 4](/help/main/c-activities/automated-traffic-allocation/assets/aa-phase-4.png){width="200" zoomable="yes"}|**Round 4**: During this round, 80% of traffic is allocated to experiences C and D (40% each). 20% of traffic is allocated randomly, so that means A, B, C, and D each get 5% of traffic. During this round, experience C performs well.<ul><li>The algorithm picks experience C to move forward into the next round because it has the highest conversion rate (as indicated by each activity's vertical scale).</li><li>The algorithm picks experience D to move forward as well because it has the highest upper bound of the Bernstein 95% confidence interval of the remaining experiences.</li></ul>Experiences C and D move forward.|
-|![Round n](/help/main/c-activities/automated-traffic-allocation/assets/aa-phase-n.png){width="200" zoomable="yes"}|**Round *n***: As the activity progresses, a high-performing experience starts to emerge and the process continues until there is a winning experience. When the confidence interval of the experience with the highest conversion rate doesn't overlap with any other experience's confidence interval, it is labeled the winner. A [badge displays on the winning activity's page](/help/main/c-activities/automated-traffic-allocation/determine-winner.md) and in the [!UICONTROL Activity] list.<ul><li>The algorithm picks experience C as the clear winner.</li></ul>At this point the algorithm serves 80% of traffic to experience C, while 20% of traffic continues to be served randomly to all experiences (A, B, C, and D). In total, C gets 85% of traffic. In the unlikely event that the confidence interval of the winner begins to overlap again, the algorithm reverts to the behavior of round 4 above.<P>**Important**: If you manually chose a winner earlier in the process, it would have been easy to choose the wrong experience. For this reason, it is best practice to wait until the algorithm determines the winning experience.|
+|![Round n](/help/main/c-activities/automated-traffic-allocation/assets/aa-phase-n.png){width="200" zoomable="yes"}|**Round *n***: As the activity progresses, a high-performing experience starts to emerge and the process continues until there is a winning experience. When the confidence interval of the experience with the highest conversion rate does not overlap with any other experience's confidence interval, it is labeled the winner. A [badge displays on the winning activity's page](/help/main/c-activities/automated-traffic-allocation/determine-winner.md) and in the [!UICONTROL Activity] list.<ul><li>The algorithm picks experience C as the clear winner.</li></ul>At this point the algorithm serves 80% of traffic to experience C, while 20% of traffic continues to be served randomly to all experiences (A, B, C, and D). In total, C gets 85% of traffic. In the unlikely event that the confidence interval of the winner begins to overlap again, the algorithm reverts to the behavior of round 4 above.<P>**Important**: If you manually chose a winner earlier in the process, it would have been easy to choose the wrong experience. For this reason, it is best practice to wait until the algorithm determines the winning experience.|
 
 >[!NOTE]
 >
@@ -126,7 +126,7 @@ If return visitors are randomly distributed, their effect on conversion rates is
 
 ### Differentiates between high-performers, not between low-performers. 
 
-[!UICONTROL Auto-Allocate] is good at differentiating between high-performing experiences (and finding a winner). There could be times when you don't have enough differentiation among the under-performing experiences.
+[!UICONTROL Auto-Allocate] is good at differentiating between high-performing experiences (and finding a winner). There could be times when you do not have enough differentiation among the under-performing experiences.
 
 If you want to produce statistically significant differentiation between all experiences, you might want to consider using the manual traffic allocation mode. 
 
@@ -140,7 +140,7 @@ Following are examples of factors that can affect experience performance unequal
 
   For example:
 
-  * "Thank God it's Friday" results in higher conversions on Friday.
+  * "Thank God it is Friday" results in higher conversions on Friday.
   * "Jump-start your Monday" has higher conversion on Monday. 
   * "Gear up for an East-coast winter" provides higher conversion in East-coast or winter-afflicted locations.
 
@@ -148,7 +148,7 @@ Following are examples of factors that can affect experience performance unequal
 
 * Experiences with varying delays in conversion, possibly due to the urgency of the message.
 
-  For example, "30% sale ends today" signals the visitor to convert today, but "50% off first purchase" doesn't create the same sense of urgency.
+  For example, "30% sale ends today" signals the visitor to convert today, but "50% off first purchase" does not create the same sense of urgency.
 
 ## Frequently Asked Questions {#section_0E72C1D72DE74F589F965D4B1763E5C3}
 
@@ -194,7 +194,7 @@ Currently, the logic favors visitors that convert quickly or visit more often be
 
 ### Can I use the sample size calculator when using [!UICONTROL Auto-Allocate] to estimate how long the activity takes to identify the winner?
 
-You can use the existing [!DNL Adobe Target] [Sample Size Calculator](/help/main/c-activities/t-test-ab/sample-size-determination.md#section_6B8725BD704C4AFE939EF2A6B6E834E6) to get an estimate of how long the test runs. (As with traditional A/B testing, apply Bonferroni correction if you are testing more than two offers or more than one conversion metric/hypothesis.) This calculator is designed for traditional fixed-horizon A/B testing and provides an estimate only. Using the calculator for an [!UICONTROL Auto-Allocate] activity is optional because [!UICONTROL Auto-Allocate] declares a winner for you. You don't need to pick a fixed point in time to look at the test results. The provided values are always statistically valid. 
+You can use the existing [!DNL Adobe Target] [Sample Size Calculator](/help/main/c-activities/t-test-ab/sample-size-determination.md#section_6B8725BD704C4AFE939EF2A6B6E834E6) to get an estimate of how long the test runs. (As with traditional A/B testing, apply Bonferroni correction if you are testing more than two offers or more than one conversion metric/hypothesis.) This calculator is designed for traditional fixed-horizon A/B testing and provides an estimate only. Using the calculator for an [!UICONTROL Auto-Allocate] activity is optional because [!UICONTROL Auto-Allocate] declares a winner for you. You do not need to pick a fixed point in time to look at the test results. The provided values are always statistically valid. 
 
 Internal [!DNL Adobe] experiments have found the following:
 

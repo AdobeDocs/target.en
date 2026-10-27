@@ -43,7 +43,7 @@ The following steps assume you access the [!UICONTROL Create New Criteria] scree
 
 1. Type a **[!UICONTROL Criteria Name]**.
 
-   This is the "internal" name used to describe the criteria. For example, you might want to call your criteria "Highest margin products," but you don't want that title to display publicly. See the next step to set the public-facing title.
+   This is the "internal" name used to describe the criteria. For example, you might want to call your criteria "Highest margin products," but you do not want that title to display publicly. See the next step to set the public-facing title.
 
    ![Basic Information section](assets/basic-information.png)
 
@@ -121,7 +121,7 @@ For more information about choosing a [!UICONTROL Recommendation Key], see [Base
 
    If your site has a lot of traffic and behaviors change frequently, choose a shorter data window. A shorter window enables [!DNL Recommendations] to be more responsive to changes in the market and in your business. For example, a shorter window means that [!DNL Recommendations] will detect changes in visitor behavior as your visitors begin seasonal shopping, such as back-to-school shopping or Christmas, and will recommend items appropriate to those shopping seasons.
 
-   If you don't have a lot of data, or visitor behavior does not change frequently, you might select a longer window. However, for many sites, a shorter window results in higher-quality recommendations.
+   If you do not have a lot of data, or visitor behavior does not change frequently, you might select a longer window. However, for many sites, a shorter window results in higher-quality recommendations.
 
    The available data ranges are:
 
@@ -157,7 +157,7 @@ For more information about choosing a [!UICONTROL Recommendation Key], see [Base
 
    Suppose your criteria causes only two items to be recommended. If you enable the [!UICONTROL Partial Design Rendering] option, the fist two slots are filled, but the remaining two slots remain empty. However, if you enable the [!UICONTROL Show Backup Recommendations] option, the first two slots are filled based on your specified criteria and the remaining two slots are filled based on your backup recommendations.
 
-   The following matrix shows the result you'll observe when using the [!UICONTROL Partial Design Rendering] and [!UICONTROL Backup Content] options:
+   The following matrix shows the result you will observe when using the [!UICONTROL Partial Design Rendering] and [!UICONTROL Backup Content] options:
 
    | Partial Design Rendering | Backup Content | Result |
    |--- |--- |--- |

@@ -72,7 +72,7 @@ Click the **[!UICONTROL Configure]** gear option > **[!UICONTROL Duplicate Offer
 
 Exclude specific experiences if you want to exclude certain offer combinations from your [!UICONTROL Automated Personalization] activity. 
 
-There might be certain combinations that don't work together, or you might be limiting the number of experiences tested to decrease traffic requirements for your activity. 
+There might be certain combinations that do not work together, or you might be limiting the number of experiences tested to decrease traffic requirements for your activity. 
 
 1. While [creating or editing an AP activity](/help/main/c-activities/t-automated-personalization/create-ap-activity.md), click **Manage Content** in the header bar.
 

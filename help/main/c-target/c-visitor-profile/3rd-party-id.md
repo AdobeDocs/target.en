@@ -48,7 +48,7 @@ When the visitor logs out, the merged profile is maintained.
 
 ## Considerations {#considerations}
 
-* If your page contains several mboxes and only some use `3rdPartyID`, [!DNL Target] does not have a separate visitor profile/context for each visitor request. The `3rdPartyID` context takes priority over the PCID context. It’s enough for one mbox to pass `3rdPartyId` for its context to take priority over PCID.
+* If your page contains several mboxes and only some use `3rdPartyID`, [!DNL Target] does not have a separate visitor profile/context for each visitor request. The `3rdPartyID` context takes priority over the PCID context. It is enough for one mbox to pass `3rdPartyId` for its context to take priority over PCID.
 
   For example, suppose that a visitor accesses a page before logging in and sees an experience. The global mbox does not use `3rdPartyID`. After logging in, the visitor sees one of three experiences with child mboxes, some of which use `3rdPartyID`. The visitor visits various pages on the site and then uses the Back button to return to the main page accessed before logging in and sees a different experience. In this scenario, the global mbox did not pass `3rdPartyID`, but one or more of the child mboxes did. `3rdPartyID` took priority over PCID.
 

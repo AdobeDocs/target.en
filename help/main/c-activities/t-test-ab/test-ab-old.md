@@ -1,6 +1,6 @@
 ---
 keywords: AB;A/B;AB...n;compare experiences;Targeting;compare content;auto-target;auto-allocate
-description: Learn about the different types of A/B Test activities in Adobe [!DNL Target] - Manual, Auto-Allocate, and Auto-Target. Choose the one that's right for you.
+description: Learn about the different types of A/B Test activities in Adobe [!DNL Target] - Manual, Auto-Allocate, and Auto-Target. Choose the one that is right for you.
 title: Which Type of A/B Activities Are Available in Target?
 feature: A/B Tests
 exl-id: e8ff8994-a0a9-4fc7-8fcb-e3a1b7697604
@@ -34,7 +34,7 @@ When you set up your A/B test, you can determine the percentage of visitors that
 >
 >For detailed information about determining the optimum sample size for an A/B test, see [Plan Your A/B Test](/help/main/c-activities/t-test-ab/sample-size-determination.md).
 
-When the number of different experiences exceeds five and spans two or more locations, it's a good idea to consider an [MVT test](/help/main/c-activities/c-multivariate-testing/multivariate-testing.md) before running your A/B tests. The multivariate test shows which areas on the page are most likely to improve conversion. These areas are the locations that a marketer should focus on. For example, the MVT test might show that the call to action is the most important location for meeting your goals. After you determine which locations and content are most useful for helping you meet your goals, you can then run an A/B test to further refine the results. For example, to test two specific images against each other, or to compare the wording or colors of a call to action. By following an MVT test with one or more A/B tests, you can determine the best possible content for the results you desire.
+When the number of different experiences exceeds five and spans two or more locations, it is a good idea to consider an [MVT test](/help/main/c-activities/c-multivariate-testing/multivariate-testing.md) before running your A/B tests. The multivariate test shows which areas on the page are most likely to improve conversion. These areas are the locations that a marketer should focus on. For example, the MVT test might show that the call to action is the most important location for meeting your goals. After you determine which locations and content are most useful for helping you meet your goals, you can then run an A/B test to further refine the results. For example, to test two specific images against each other, or to compare the wording or colors of a call to action. By following an MVT test with one or more A/B tests, you can determine the best possible content for the results you desire.
 
 ## Types of A/B Testing activities {#types}
 

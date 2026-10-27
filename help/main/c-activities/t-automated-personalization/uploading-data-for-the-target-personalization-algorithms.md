@@ -51,7 +51,7 @@ The following list presents best practices for uploading data for [!DNL Target] 
 
 * The more high-quality data that is available to [!DNL Target] personalization algorithms, the better the quality the resulting models in your [!UICONTROL Automated Personalization] and [!UICONTROL Auto-Target] activities. 
 * Limit using multiple profile scripts or attributes that serve the same purpose. 
-* Don't pass a unique Id, such as a session ID if not needed. 
-* Review what data [!DNL Target] automatically collects ( [Data Collection for Target's Personalization Algorithms](/help/main/c-activities/t-automated-personalization/ap-data.md)) so that you don't send duplicate information. For example, [!DNL Target] uses IP addresses to determine visitors' ZIP codes. It is not necessary to pass this information as a separate variable. 
+* Do not pass a unique Id, such as a session ID if not needed. 
+* Review what data [!DNL Target] automatically collects ( [Data Collection for Target's Personalization Algorithms](/help/main/c-activities/t-automated-personalization/ap-data.md)) so that you do not send duplicate information. For example, [!DNL Target] uses IP addresses to determine visitors' ZIP codes. It is not necessary to pass this information as a separate variable. 
 * Do not pass multiple values in the same attribute or variable. If multiple variables are concatenated, [!DNL Target] personalization algorithms treat each string as a unique value, reducing the value of the information for personalization. 
 * Use a memorable and meaningful naming convention to make your [Personalization Insights Reports](/help/main/c-reports/c-personalization-insights-reports/personalization-insights-reports.md#concept_A897070E1EDC403EB84CFB7A6ECAD767) more understandable.

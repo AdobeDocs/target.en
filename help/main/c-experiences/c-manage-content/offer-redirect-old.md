@@ -116,7 +116,7 @@ The redirect offer executes JavaScript code to redirect the browser. It uses the
 
 You must apply redirect offers using the [!UICONTROL Form-Based Experience Composer]. You cannot currently apply redirect offers using the VEC.
 
-The [!DNL Adobe Target] [!UICONTROL Form-Based Experience Composer] is a non-visual experience and offer creation interface that’s useful in creating experiences for use in [!UICONTROL A/B Tests], [!UICONTROL Experience Targeting] (XT), [!UICONTROL Automated Personalization] (AP), and [!UICONTROL Recommendations] activities when the visual experience composer is not available or practical for use. For example, you might use the [!UICONTROL Form-Based Experience Composer] to create experiences that use redirect offers.
+The [!DNL Adobe Target] [!UICONTROL Form-Based Experience Composer] is a non-visual experience and offer creation interface that is useful in creating experiences for use in [!UICONTROL A/B Tests], [!UICONTROL Experience Targeting] (XT), [!UICONTROL Automated Personalization] (AP), and [!UICONTROL Recommendations] activities when the visual experience composer is not available or practical for use. For example, you might use the [!UICONTROL Form-Based Experience Composer] to create experiences that use redirect offers.
 
 1. Create or edit an activity in the [!UICONTROL Form-Based Experience Composer].
 

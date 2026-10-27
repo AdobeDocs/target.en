@@ -27,7 +27,7 @@ topic_v2:
 ---
 # Troubleshoot [!UICONTROL Automated Personalization]
 
-Sometimes activities don't go as expected. Here are some potential challenges that you might face while using [!UICONTROL Automated Personalization] (AP), and some suggested solutions.
+Sometimes activities do not go as expected. Here are some potential challenges that you might face while using [!UICONTROL Automated Personalization] (AP), and some suggested solutions.
 
 ## My [!UICONTROL Automated Personalization] activity is taking too long to build models. {#section_20028B204DBB4D77A324BA193434AEE2}
 
@@ -44,7 +44,7 @@ There are several activity setup changes that can decrease the expected time to 
 
 +++
 
-## My [!UICONTROL Automated Personalization] activity didn't generate lift. {#section_8900BC8968474438B8092F7A94C0C6CF}
+## My [!UICONTROL Automated Personalization] activity did not generate lift. {#section_8900BC8968474438B8092F7A94C0C6CF}
 
 +++See details
 

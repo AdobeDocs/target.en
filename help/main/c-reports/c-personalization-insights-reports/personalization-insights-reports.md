@@ -93,7 +93,7 @@ There are two types of attributes represented in [!UICONTROL Personalization Ins
 
 | Data Type | Description | Data Type Naming Convention |
 |--- |--- |--- |
-|Profile Attributes, including profile scripts, Profile Update API, and in-page profile attributes|Any information you've decided to include in Target's user profile.<br>This information could come from profile scripts, information uploaded using the Profile Update API, or in-mbox profile parameters prefixed with "profile."|`Custom - Profile - [parameter name]`|
+|Profile Attributes, including profile scripts, Profile Update API, and in-page profile attributes|Any information you have decided to include in Target's user profile.<br>This information could come from profile scripts, information uploaded using the Profile Update API, or in-mbox profile parameters prefixed with "profile."|`Custom - Profile - [parameter name]`|
 |Page Parameters (also called "mbox parameters")|Name/value pairs passed in directly through page code that are not stored in the visitor's profile for future use.|`Custom - Mbox Parameter - [parameter name]`|
 |Customer Attributes|Customer attributes let you upload visitor profile data via FTP to the Experience Cloud. Once uploaded, leverage the data in Adobe Analytics and Adobe Target.|`Custom - Customer Attributes - [parameter name]`|
 |Shared Audiences (Adobe Audience Manager or Adobe Analytics)|Audiences created through Adobe Audience Manager or Adobe Analytics and shared with Target.|`Custom - Experience Cloud Segment - [segment name]`|

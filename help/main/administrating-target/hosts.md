@@ -44,7 +44,7 @@ The primary goal of host management is to ensure that no inactive content accide
 
 A host is any domain from which a [!DNL Target] request is made. On a website, it is usually the `location.hostname` property of the URL making the [!DNL Target] request.
 
-By default, [!DNL Target] does not limit a host that can make [!DNL Target] requests and receive [!DNL Target] responses. When new hosts make requests, they automatically work. This process also enables testing on different domains you don't know or can't anticipate. If you want to override this default behavior, you can set up an allowlist or blocklist to limit which hosts work with [!DNL Target].
+By default, [!DNL Target] does not limit a host that can make [!DNL Target] requests and receive [!DNL Target] responses. When new hosts make requests, they automatically work. This process also enables testing on different domains you do not know or cannot anticipate. If you want to override this default behavior, you can set up an allowlist or blocklist to limit which hosts work with [!DNL Target].
 
 {{permissions-update}}
 
@@ -142,7 +142,7 @@ Try the following troubleshooting tips if you experience problems with your host
 
 * Refresh the [!UICONTROL Hosts] page in your browser. 
 * Confirm that the [!DNL Target] request is correct, including the at.js reference. 
-* Try browsing to one of the [!DNL Target] requests on the host. It's possible that no [!DNL Target] request on the host was ever rendered in a browser.
+* Try browsing to one of the [!DNL Target] requests on the host. It is possible that no [!DNL Target] request on the host was ever rendered in a browser.
 
 **Random or unknown domains appear in the [!UICONTROL Host] list.**
 

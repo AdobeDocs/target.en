@@ -23,9 +23,9 @@ topic_v2:
 
 List of frequently asked questions (FAQs) about [!DNL Adobe Target] [!DNL Recommendations] designs.
 
-## My recommended item's price isn't displaying both values to the right of the decimal point. How can I display them?
+## My recommended item's price is not displaying both values to the right of the decimal point. How can I display them?
 
-By default, numeric values (such as `entity.value`) returned in design templates won't display any trailing zeroes after the decimal point. For example, if an item is $35.00, `entity.value` is equal to 35 and only 35 is displayed on the page, not $35.00. 
+By default, numeric values (such as `entity.value`) returned in design templates will not display any trailing zeroes after the decimal point. For example, if an item is $35.00, `entity.value` is equal to 35 and only 35 is displayed on the page, not $35.00. 
 
 Two options are available to address this issue: 
 
@@ -37,9 +37,9 @@ Two options are available to address this issue:
 
   `"entity.value" : 35.00, "entity.displayValue" : "$35.00"`
 
-## Why isn't category showing in the design? I'm using `$entity1.categoryId`. {#section_073309B8051049C7953D396A93EA0713}
+## Why is not category showing in the design? I'm using `$entity1.categoryId`. {#section_073309B8051049C7953D396A93EA0713}
 
-Category ID can't be displayed in the design. Because multiple categories can be stored, the system does not know which category to display.
+Category ID cannot be displayed in the design. Because multiple categories can be stored, the system does not know which category to display.
 
 ## How should I change a design to get an instant update? {#section_28EE35A5B10B47ECA4A332F0E5B2598F}
 

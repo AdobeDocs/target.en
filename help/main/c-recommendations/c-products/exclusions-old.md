@@ -26,7 +26,7 @@ Some examples of times you would use exclusions include:
 * Fall/Winter catalog is now the only catalog that should be present online. Any item from the Summer catalog is no longer available for purchase.
 * Items that might be inappropriate to recommend on most pages/screens (adult products, NC-17 movies, etc.)
 * Products with incomplete metadata fields (missing thumbnail, price, or other important metadata)
-* Products that should never be recommended (maybe a SKU exists in the system for something but it isn't a purchasable item, or maybe it is a fake SKU for the QA team to simulate a purchase without actually ordering something, etc,)
+* Products that should never be recommended (maybe a SKU exists in the system for something but it is not a purchasable item, or maybe it is a fake SKU for the QA team to simulate a purchase without actually ordering something, etc,)
 
 >[!IMPORTANT]
 >

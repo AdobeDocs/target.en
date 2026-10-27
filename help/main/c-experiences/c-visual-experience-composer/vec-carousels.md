@@ -33,7 +33,7 @@ When you use the steps below, [!DNL Target] always knows that the selected slide
 
 1. Add CSS to design the look and feel.
 
-   Don't use JavaScript for this.
+   Do not use JavaScript for this.
 
    >[!NOTE]
    >

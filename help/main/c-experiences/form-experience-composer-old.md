@@ -16,7 +16,7 @@ subfeature_v2:
 ---
 # Form-Based Experience Composer
 
-The [!DNL Adobe Target] [!UICONTROL Form-Based Experience Composer] is a non-visual experience and offer creation interface that’s useful in creating experiences for use in [!UICONTROL A/B Test], [!UICONTROL Experience Targeting], [!UICONTROL Automated Personalization], and [!UICONTROL Recommendations] activities when the [!UICONTROL Visual Experience Composer] (VEC) is not available or practical for use. For example, you might use the Form-Based Experience Composer to create experiences and offers for delivery in emails, kiosks, and voice assistants.
+The [!DNL Adobe Target] [!UICONTROL Form-Based Experience Composer] is a non-visual experience and offer creation interface that is useful in creating experiences for use in [!UICONTROL A/B Test], [!UICONTROL Experience Targeting], [!UICONTROL Automated Personalization], and [!UICONTROL Recommendations] activities when the [!UICONTROL Visual Experience Composer] (VEC) is not available or practical for use. For example, you might use the Form-Based Experience Composer to create experiences and offers for delivery in emails, kiosks, and voice assistants.
 
 If you are creating a [!UICONTROL Recommendations] activity, there are no experiences. Choose your criteria and design. If you choose multiple criteria or designs, [!UICONTROL Target] automatically generates the experiences. 
 

@@ -203,7 +203,7 @@ The following skills are available under the **Target** plugin:
     
   *Example prompts:*
     
-  * "Why aren't my recommendations appearing?"
+  * "Why are not my recommendations appearing?"
   * "Diagnose the feed and catalog configuration for this Recommendations activity."
   * "Are delivery or configuration issues affecting my recommendations?"
     

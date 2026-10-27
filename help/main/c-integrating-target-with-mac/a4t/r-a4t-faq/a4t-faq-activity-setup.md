@@ -40,24 +40,24 @@ Although this is supported when using [!DNL Target] as the reporting source, usi
 
 +++
 
-## While configuring my Goal Metrics, why can't I access Advanced Settings?
+## While configuring my Goal Metrics, why cannot I access Advanced Settings?
 
 +++Answer
 For activities using [!DNL Analytics] as the reporting source (A4T), the goal metric uses the "[!UICONTROL Increment Count & Keep User in Activity]" and "[!UICONTROL On Every Impression]" settings. These settings are *not* configurable. 
 
-For more information, see "While configuring my goal metrics, why can't I access the Advanced Settings options?" in [Metric definitions - A4T FAQ](/help/main/c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-metric-definition.md).
+For more information, see "While configuring my goal metrics, why cannot I access the Advanced Settings options?" in [Metric definitions - A4T FAQ](/help/main/c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-metric-definition.md).
 
 +++
 
-## I just created an activity. Why don't I see any data coming in? {#section_9F8092BE4225442896F926540292F221}
+## I just created an activity. Why do not I see any data coming in? {#section_9F8092BE4225442896F926540292F221}
 
 
 +++Answer
-When an activity is created, [!DNL Target] sends a classification file to [!DNL Analytics]. Although [!DNL Analytics] is capturing and processing the data, it does not show that in the reports until the classification file has been updated. This process can take 24 to 72 hours to complete. If after 72 hours you don't see your data, [contact Client Care](/help/main/cmp-resources-and-contact-information.md#reference_ACA3391A00EF467B87930A450050077C). Alternately, if you know you launch an activity, you can create the activity a few days beforehand and the classifications are sent when the activity is saved. That way, data appears in the reports upon launch. Please note that it takes 45-90 minutes for data to be processed in [!DNL Analytics].
+When an activity is created, [!DNL Target] sends a classification file to [!DNL Analytics]. Although [!DNL Analytics] is capturing and processing the data, it does not show that in the reports until the classification file has been updated. This process can take 24 to 72 hours to complete. If after 72 hours you do not see your data, [contact Client Care](/help/main/cmp-resources-and-contact-information.md#reference_ACA3391A00EF467B87930A450050077C). Alternately, if you know you launch an activity, you can create the activity a few days beforehand and the classifications are sent when the activity is saved. That way, data appears in the reports upon launch. Please note that it takes 45-90 minutes for data to be processed in [!DNL Analytics].
 
 +++
 
-## Why can't I select Analytics as my reporting source when I create an activity? {#section_9F4F69C3085F4C2480AF439127EB27CD}
+## Why cannot I select Analytics as my reporting source when I create an activity? {#section_9F4F69C3085F4C2480AF439127EB27CD}
 
 +++Answer
 You can change your [!UICONTROL Reporting Settings] options in [!UICONTROL Administration].
@@ -78,7 +78,7 @@ To always use [!DNL Analytics] as the reporting source, select **[!UICONTROL Ado
 +++Answer
 The following is true assuming the visitorId does not change for a visitor between visits.
 
-If the traffic-allocation percentage is adjusted mid-activity, it's possible that a visitor could move between targeted and control experiences. 
+If the traffic-allocation percentage is adjusted mid-activity, it is possible that a visitor could move between targeted and control experiences. 
 
 If the percentages are not adjusted mid-activity, a visitor who initially sees the control is always sent to control. A visitor that is sent to targeted experiences is always sent to targeted experiences. 
 

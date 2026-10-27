@@ -78,11 +78,11 @@ You can create a .csv file using the [!DNL Adobe] proprietary CSV upload format.
 
 Using the .csv format has the following advantages over the [!DNL Google] feed format:
 
-* The .csv format doesn't require field mappings.
+* The .csv format does not require field mappings.
 * The .csv format supports multi-value attributes (see example below).
 * The .csv format supports up to 100 custom attributes. If you need more than 100 custom attributes, you can create a second feed file with a different set of custom attributes specified.
 
-Use the bulk upload method to send display information if you don't have mboxes on your page, or if you want to supplement your display information with items that are not available on your site. For example, you might want to send inventory information that might not be published on your site.
+Use the bulk upload method to send display information if you do not have mboxes on your page, or if you want to supplement your display information with items that are not available on your site. For example, you might want to send inventory information that might not be published on your site.
 
 Any data uploaded using the .csv file, Google Product Feed, or [!DNL Analytics] Product classification feed overwrites the existing entity attribute value in the database. If you send price information via mbox requests and then send different price values in the file, the values in the file overwrite the values set with the mbox request. An exception to this is the `categoryId` entity attribute where the category values are appended instead of being overwritten up to the 250-character limit.
 
@@ -104,7 +104,7 @@ The following syntax is correct:
 
 >[!NOTE]
 >
->You can't overwrite an existing value with a blank value. Pass another value in its place to overwrite the existing value. In the case of a sale price, a common solution is to either pass in an actual "NULL" or some other message. You can then write a template rule to exclude items with that value.
+>You cannot overwrite an existing value with a blank value. Pass another value in its place to overwrite the existing value. In the case of a sale price, a common solution is to either pass in an actual "NULL" or some other message. You can then write a template rule to exclude items with that value.
 
 The product is available in the admin interface approximately two hours after successfully uploading its entity.
 
@@ -220,7 +220,7 @@ na3455    RipCurl Watch with Black Dial    Cutting edge matte black with round c
 
 ### [!DNL Analytics] Product Classifications {#section_79E430D2C75443BEBC9AA0916A337E0A}
 
-The [!DNL Adobe Analytics] Product classification is the only classification available for recommendations. For more information about this classification file, see [About classifications](https://experienceleague.adobe.com/docs/analytics/components/classifications/c-classifications.html) in the *Analytics Components* guide. It's possible that not all the information you need for recommendations is available in your current implementation, so follow this user guide if you want to add to your classifications file.
+The [!DNL Adobe Analytics] Product classification is the only classification available for recommendations. For more information about this classification file, see [About classifications](https://experienceleague.adobe.com/docs/analytics/components/classifications/c-classifications.html) in the *Analytics Components* guide. It is possible that not all the information you need for recommendations is available in your current implementation, so follow this user guide if you want to add to your classifications file.
 
 >[!IMPORTANT]
 >
@@ -322,7 +322,7 @@ The following are possible statuses for a feed:
 |[!UICONTROL Downloading Feed File]|[!DNL Target] is downloading the feed file.|
 |[!UICONTROL Importing Items]|[!DNL Target] is importing items from the feed file.|
 |Feed Imported Successfully at *time*|[!DNL Target] has imported the feed file into its content delivery system. Changes to item attributes have been made in the content delivery system and will soon be reflected in delivered recommendations. If you do not see the expected changes, try again and refresh the page containing recommendations.<br>Notes:<ul><li>If changes to an item's attributes result in an item being excluded from recommendations, the exclusion is immediately reflected. If an item is newly added, or changes to attributes result in an item being *no longer* excluded from recommendations, it is not reflected until the next algorithm update, which occurs within 24 hours.</li><li>When this status is displayed, updates might not yet be reflected in the [!UICONTROL Catalog Search] UI. A separate status is listed in [!UICONTROL Catalog Search] indicating the last time that the searchable catalog was updated.</li></ul>|
-|Partial Import Failed|Previously, when all the rows were not uploaded, the feed was still marked as success. Thus, creating a false impression that all the rows have been uploaded as the feed shows successful.<P>Here's a scenario of why you might encounter a partial feed import:<ul><li>You uploaded a feed file for the production environment, for example 100 rows.</li><li>The feed ran and uploaded 80 out of those rows and dropped 20 rows due to incorrect formatting, field exceeded characters, and so forth.</li><li>The feed was marked as success in the UI, giving you the impression that all 100 rows were uploaded.</li><li>You are expecting some of those 20 products in the delivery of an activity but it is not happening.</li><li> You are puzzled at this point because you uploaded the feed that has the product details for products in question. You don't see it in the backend when you query via the Entity API, which tells you it is not in the backend.</li></ul>To remove this confusion, the message is improved to tell exactly what happened with the feed. Rather than marking it as a success, it is now marked as partial import failed.|
+|Partial Import Failed|Previously, when all the rows were not uploaded, the feed was still marked as success. Thus, creating a false impression that all the rows have been uploaded as the feed shows successful.<P>Here's a scenario of why you might encounter a partial feed import:<ul><li>You uploaded a feed file for the production environment, for example 100 rows.</li><li>The feed ran and uploaded 80 out of those rows and dropped 20 rows due to incorrect formatting, field exceeded characters, and so forth.</li><li>The feed was marked as success in the UI, giving you the impression that all 100 rows were uploaded.</li><li>You are expecting some of those 20 products in the delivery of an activity but it is not happening.</li><li> You are puzzled at this point because you uploaded the feed that has the product details for products in question. You do not see it in the backend when you query via the Entity API, which tells you it is not in the backend.</li></ul>To remove this confusion, the message is improved to tell exactly what happened with the feed. Rather than marking it as a success, it is now marked as partial import failed.|
 |[!UICONTROL Failed to Index]|The index operation failed. Try again.|
 |[!UICONTROL Server Not Found]|FTP, SFTP or URL locations are invalid or otherwise unreachable.|
 
@@ -339,7 +339,7 @@ The following feed status indicators display in the [!UICONTROL Status] column:
 | Status Indicator | Description |
 |--- |--- |
 |Green status indicator|When a feed successfully finishes indexing, a green status dot indicates that the feed is in a successful state.|
-|Yellow status indicator|When a feed or feed index is delayed by 25% of the feed frequency, a yellow status dot displays. For example, a yellow dot displays for a feed set to run daily if the index hasn't completed six hours after the scheduled time. Note: Once the feed status is "Waiting for Index Queue," the newly updated values are available in delivery and criteria processing.|
+|Yellow status indicator|When a feed or feed index is delayed by 25% of the feed frequency, a yellow status dot displays. For example, a yellow dot displays for a feed set to run daily if the index has not completed six hours after the scheduled time. Note: Once the feed status is "Waiting for Index Queue," the newly updated values are available in delivery and criteria processing.|
 |White status indicator|When a feed is not scheduled, a white status dot indicates that the feed has not run yet.|
 |Red status indicator|If the feed fails to upload data to the server, a red status indicator is shown.|
 
@@ -348,14 +348,14 @@ Consider the following examples:
 **Example 1:** 
 
 * Day one: daily feed processes at 9:00 a.m. PST.
-* Day two: it is 3:30 p.m. and the feed hasn't run since yesterday at 9:00 a.m. 
+* Day two: it is 3:30 p.m. and the feed has not run since yesterday at 9:00 a.m. 
 
 The status should be yellow because the index should have run roughly 6.5 hours ago. 6.5 hours +24 is 127% of the feed window. 
 
 **Example 2:** 
 
 * January 1: monthly feed processes at 9:00 a.m. PST.
-* February 3: it is 10:00 a.m. and the feed hasn't run for one month, one day, and one hour ago. 
+* February 3: it is 10:00 a.m. and the feed has not run for one month, one day, and one hour ago. 
 
 The status should be yellow because the index should have run roughly one day and one hour ago. Although this is only (31+(1/25))/30 = 1.03% of frequency setting, it surpassed the maximum of one-day delay. 
 

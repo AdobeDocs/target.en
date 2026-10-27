@@ -40,7 +40,7 @@ It is tempting to stop an activity if one of the offers performs better or worse
 
 An [Auto-Allocate](/help/main/c-activities/automated-traffic-allocation/automated-traffic-allocation.md) activity is a type of A/B test that identifies a winner among two or more experiences. An [!UICONTROL Auto-Allocate] test automatically reallocates more traffic to the winner to increase conversions while the test continues to run and learn.
 
-Standard A/B tests have an inherent cost. You must spend traffic to measure performance of each experience and through analysis figure out the winning experience. Traffic distribution remains fixed even after you recognize that some experiences are outperforming others. Also, it's complicated to figure out the sample size, and the activity must run its entire course before you can act on a winner. And there is still a chance the identified winner is not a true winner.
+Standard A/B tests have an inherent cost. You must spend traffic to measure performance of each experience and through analysis figure out the winning experience. Traffic distribution remains fixed even after you recognize that some experiences are outperforming others. Also, it is complicated to figure out the sample size, and the activity must run its entire course before you can act on a winner. And there is still a chance the identified winner is not a true winner.
 
 The solution is [!UICONTROL Auto-Allocate]. [!UICONTROL Auto-Allocate] reduces this cost and overhead of determining a winning experience. [!UICONTROL Auto-Allocate] monitors the goal metric performance of all experiences and sends more new entrants to the high-performing experiences proportionately. Enough traffic is reserved to explore the other experiences. You can see the benefits of the activity on your results, even while the activity is still running: optimization occurs in parallel with learning.
 
@@ -158,7 +158,7 @@ Again, it is recommended that the required time always be rounded up to the near
 
 When using Revenue per Visit (RPV) as a metric, an additional source of variance is added because RPV is the product of revenue per order and conversion rate (RPV = Revenue / #visitors = (Revenue per order &#42; #orders) / # visitors = Revenue per order &#42; (#visitors &#42; CTR) / #visitors = Revenue per Order &#42; CTR), each with its own variance. The variance of the conversion rate can be estimated directly using a mathematical model but the variance of revenue per order is specific to the activity. Therefore, use knowledge of this variance from past activities or run the A/B test for a few days to estimate the variance in revenue. The variance is calculated from the values of Sum of Sales, Sum of Sales Squared, and Number of Visitors that are found in the CSV download file. After this is established, use the spreadsheet to calculate the required time to complete the test.
 
-The sample size calculator (link provided above) can help you configure the RPV metric. When you open the calculator, you'll see a tab labeled [!UICONTROL RPV Metric]. You'll need the following information when using the RPV version of the calculator:
+The sample size calculator (link provided above) can help you configure the RPV metric. When you open the calculator, you will see a tab labeled [!UICONTROL RPV Metric]. You will need the following information when using the RPV version of the calculator:
 
 * Number of visitors to the control offer
 * Total revenue for the control offer
