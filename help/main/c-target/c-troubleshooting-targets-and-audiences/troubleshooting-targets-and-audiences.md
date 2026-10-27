@@ -96,7 +96,7 @@ Audience names in [!DNL Target] are unique; however, in [!DNL AAM] and the [!DNL
 
 For example, you might see the following audiences: "PC Users" (in [!DNL AAM]) and "PC Users #1" (in [!DNL Target]).
 
-## Why can't I rename an audience? {#section_54E420556F534D20836E261E253D8B97}
+## Why cannot I rename an audience? {#section_54E420556F534D20836E261E253D8B97}
 
 Some Target audiences are predefined, such as "New Visitors" and "Returning Visitors." These predefined audiences cannot be renamed by users.
 
@@ -104,9 +104,9 @@ Some Target audiences are predefined, such as "New Visitors" and "Returning Visi
 
 [!DNL Target] has a limit of 50 unique profile attributes per mbox call. If you need to pass more than 50 profile attributes to [!DNL Target], you can pass them using the [!UICONTROL Profile Update] API method. For more information, see [Profile Update](https://developers.adobetarget.com/api/#authentication-tokens) in the Adobe Target API documentation.
 
-## Why are visitors seeing experiences for an AP activity that they shouldn't see? {#section_41CECEAE0881446A8D9F3B016857914B}
+## Why are visitors seeing experiences for an AP activity that they should not see? {#section_41CECEAE0881446A8D9F3B016857914B}
 
-Automated Personalization activities are evaluated once per session. If there were active sessions that have qualified for a particular experience and now new offers have been added to it, users will see the new content along with the previously shown offers. Because they have previously qualified for those experiences, they would still see them for the duration of the session. If there's a desire to evaluate this at every single page visit, you should change to the Experience Targeting (XT) activity type.
+Automated Personalization activities are evaluated once per session. If there were active sessions that have qualified for a particular experience and now new offers have been added to it, users will see the new content along with the previously shown offers. Because they have previously qualified for those experiences, they would still see them for the duration of the session. If there is a desire to evaluate this at every single page visit, you should change to the Experience Targeting (XT) activity type.
 
 ## Why are changes made to audiences created via API not reflected in the [!DNL Target] UI? {#section_6BEB237CAC004A06A290F9644E5BF0FB}
 

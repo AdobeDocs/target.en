@@ -58,14 +58,14 @@ Check the following if any of these problems occur:
 
 +++
 
-## Why don't I see Analytics options in Target? {#section_EDD996AFB08B4DB196DD934BE55BF48D}
+## Why do not I see Analytics options in Target? {#section_EDD996AFB08B4DB196DD934BE55BF48D}
 
 +++Answer
 See "Why are my report suites not loading?" Above. The root cause of this problem is the same.
 
 +++
 
-## Why don't I see A4T reports in Analytics? {#section_FEB41E7B7E4F4F78897E4D9F021DEA59}
+## Why do not I see A4T reports in Analytics? {#section_FEB41E7B7E4F4F78897E4D9F021DEA59}
 
 +++Answer
 See "Why are my report suites not loading?" above. The root cause of this problem is the same.

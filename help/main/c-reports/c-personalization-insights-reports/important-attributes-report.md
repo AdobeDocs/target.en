@@ -69,7 +69,7 @@ In different activities, different attributes are more, or less, important to ho
 
    >[!IMPORTANT]
    >
-   >The [!UICONTROL Important Attributes] report won't be available until at least 15 days after you've activated your activity. During this initial period, you won't be able to access this report or click the [!UICONTROL Important Attributes] icon. After 15 days have passed, assuming there is sufficient personalized traffic in your activity, the [!UICONTROL Important Attributes] report is available.
+   >The [!UICONTROL Important Attributes] report will not be available until at least 15 days after you have activated your activity. During this initial period, you will not be able to access this report or click the [!UICONTROL Important Attributes] icon. After 15 days have passed, assuming there is sufficient personalized traffic in your activity, the [!UICONTROL Important Attributes] report is available.
 
 1. After 15 days from activating the activity, click the **[!UICONTROL Important Attributes]** ( ![Important Attributes icon](/help/main/assets/icons/ViewList.svg) )icon.
 
@@ -77,7 +77,7 @@ In different activities, different attributes are more, or less, important to ho
 
    Unlike the [!UICONTROL Summary] report (performance reporting), [!UICONTROL Personalization Insights], including [!UICONTROL Important Attributes], is available only for fixed date ranges: 15 days, 30 days, and 60 days. 
    
-   These fixed date ranges allow [!UICONTROL Personalization Insights] to use a large enough range of data to reduce the likelihood that you derive insights from a short-lived pattern in your activity. The two decisions you can make for your date range is the "End Date" and the "Duration." You'll notice that the "Start" is greyed out. The start date automatically changes based on your selections for the end date and duration.
+   These fixed date ranges allow [!UICONTROL Personalization Insights] to use a large enough range of data to reduce the likelihood that you derive insights from a short-lived pattern in your activity. The two decisions you can make for your date range is the "End Date" and the "Duration." You will notice that the "Start" is greyed out. The start date automatically changes based on your selections for the end date and duration.
 
    You can access the available fixed date ranges from the [!UICONTROL Preset Date Range] drop-down list.
 
@@ -87,7 +87,7 @@ In different activities, different attributes are more, or less, important to ho
 
    >[!NOTE]
    >
-   >The Personalization Insights UI report contains select information. The CSV download for the Important Attributes report contains additional details. The Important Attributes report download includes the full list of the top 100 attributes, while the UI report includes the top 10 only. If you are looking for a specific attribute on the report but it is not there, that doesn't mean that the attribute didn't influence the activity, it just didn't make the list for the top 100 attributes.
+   >The Personalization Insights UI report contains select information. The CSV download for the Important Attributes report contains additional details. The Important Attributes report download includes the full list of the top 100 attributes, while the UI report includes the top 10 only. If you are looking for a specific attribute on the report but it is not there, that does not mean that the attribute did not influence the activity, it just did not make the list for the top 100 attributes.
 
 ## Interpret the Important Attributes report
 
@@ -106,7 +106,7 @@ Consult the following FAQs for answers to commonly asked questions about using t
 
 There are several reasons why the [!UICONTROL Personalization Insights] reports might not yet be available for your activity:
 
-* 15 days has not passed since you activated the activity. Automated Segments and Important Attributes reports won't be available until at least 15 days after you've started your activity. During this initial period, you won't be able to access these reports or click the Automated Segments and Important Attributes icons. 
+* 15 days has not passed since you activated the activity. Automated Segments and Important Attributes reports will not be available until at least 15 days after you have started your activity. During this initial period, you will not be able to access these reports or click the Automated Segments and Important Attributes icons. 
 * Your activity has not had sufficient traffic during the specified time frame. After 15 days have passed, assuming there is [sufficient personalized traffic](/help/main/c-activities/auto-target/auto-target-to-optimize.md#section_BA4D83BE40F14A96BE7CBC7C7CF2A8FB) in your activity to build the personalization models, Automated Segments and Important Attributes reports will be available. 
 * Your activity has a revenue optimization goal. At this time, [!UICONTROL Personalization Insights] is available only for conversion optimization goal activities. We will be adding support for revenue optimization goal activities in a future release.
 
@@ -116,7 +116,7 @@ An attribute is information about a visitor or his or her specific visit used by
 
 For more information about what attributes [!DNL Target] uses in its personalization models, see [Data Collection for Target's Personalization Algorithms](/help/main/c-activities/t-automated-personalization/ap-data.md). For more information about how to upload new attributes into Target to use in Target's personalization models, see [Methods to get Data into Target](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/methods/methods-to-get-data-into-target.html){target=_blank}.
 
-### I see one or more attributes that I don't want the model to use for training. Can I remove those attributes from the training model? {#models-api}
+### I see one or more attributes that I do not want the model to use for training. Can I remove those attributes from the training model? {#models-api}
 
 The [!UICONTROL Models API], also called the Blocklist API, lets users view and manage the list of attributes (also called features) used in machine learning models for [!UICONTROL Automated Personalization] (AP) and [!UICONTROL Auto-Target] (AT) activities. If you want to exclude one or more attributes from being used by the models for AP or AT activities, you can use the Models API to add those attributes to the "blocklist."
 
@@ -150,7 +150,7 @@ There are several potential reasons why you might see more visits to a lower-con
 * Lower-volume activities in which certain offers or experiences do not have models built. 
 * Lower-volume activities in which models were built sooner for some offers/experiences than others. For example, suppose an additional model was built on day 22, and you are looking at data from days 10-24.
 * Targeting rules on a specific offer that limit which visitors can see which offers/experiences.
-* There are no confidence intervals in the insight reporting. However, if conversion rates are close enough, the model might serve traffic so that it is higher in the point amount, but they aren't "statistically different" numbers.
+* There are no confidence intervals in the insight reporting. However, if conversion rates are close enough, the model might serve traffic so that it is higher in the point amount, but they are not "statistically different" numbers.
 
 Knowing how the model works that serves traffic can be helpful. Each individual is served based on his or her total profile. However, the Insights reports generalize this behavior to make it more interpretable by a human. As a result, segments are not mutually exclusive. This can lead to individual segments displaying this type of behavior because the same person can appear in multiple segments.
 

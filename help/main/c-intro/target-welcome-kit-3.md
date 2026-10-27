@@ -32,7 +32,7 @@ topic_v2:
 ---
 # Chapter 3: Develop your testing and personalization ideas
 
-For your first activity, you might test something super simple like changing the color or copy on a call to action button. Just to get your feet wet. Longer term, though, you’ll want to establish a formal, repeatable process for coming up with ideas for testing and personalization activities that helps mature your optimization and personalization program. The following six steps outline a proven process for doing just that, along with details about what to do at each step.
+For your first activity, you might test something super simple like changing the color or copy on a call to action button. Just to get your feet wet. Longer term, though, you will want to establish a formal, repeatable process for coming up with ideas for testing and personalization activities that helps mature your optimization and personalization program. The following six steps outline a proven process for doing just that, along with details about what to do at each step.
 
 ![Iterative Execution of Optimization and Personalization Strategy diagram](/help/main/c-intro/assets/six-steps.png)
 
@@ -69,7 +69,7 @@ Do this by:
 * Completing and approving final designs for activity experiences.
 * Documenting requirements for the [!DNL Target] activity, including test entry criteria, reporting metrics, and experience changes.
 
-Use the Activity Planner, provided later in the welcome kit, to document the details of the activity, including the metrics you’ll use to measure activity performance, such as clicks on a call to action button, video launches, or revenue generated. Be sure to include screenshots or images of the experience designs you plan to test or personalize.
+Use the Activity Planner, provided later in the welcome kit, to document the details of the activity, including the metrics you will use to measure activity performance, such as clicks on a call to action button, video launches, or revenue generated. Be sure to include screenshots or images of the experience designs you plan to test or personalize.
 
 ## Step 4: Build and run
 
@@ -81,7 +81,7 @@ Do this by:
 * Securing sign-off from all required stakeholders.
 * Launching the activity and reviewing metrics at one hour, at 24 hours, and periodically for the duration of the activity.
 
-For example, if you want to target new visitors with a lightbox offer for 10% off their first order, you’d have your creatives develop the lightbox design and copy, get stakeholder sign off on the design, have your developers write the code for it, QA it in a staging environment, and then launch your activity. You’d then monitor the activity to make sure it doesn’t cause any major negative impact.
+For example, if you want to target new visitors with a lightbox offer for 10% off their first order, you’d have your creatives develop the lightbox design and copy, get stakeholder sign off on the design, have your developers write the code for it, QA it in a staging environment, and then launch your activity. You’d then monitor the activity to make sure it does not cause any major negative impact.
 
 ## Step 5: Analyze
 

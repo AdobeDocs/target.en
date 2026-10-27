@@ -214,7 +214,7 @@ After the activity is live and you complete the connection and data view setup, 
 
    >[!IMPORTANT]
    >
-   >If the activity doesn't appear in the [!UICONTROL Experiment] drop-down list, verify that the correct data view is selected and that the [!DNL Target] dimensions include the required context labels (see Step 3 in [Set up data views](https://experienceleague.adobe.com/en/docs/target/using/integrate/cja/target-reporting-in-cja#set-up-data-views){target=_blank}).
+   >If the activity does not appear in the [!UICONTROL Experiment] drop-down list, verify that the correct data view is selected and that the [!DNL Target] dimensions include the required context labels (see Step 3 in [Set up data views](https://experienceleague.adobe.com/en/docs/target/using/integrate/cja/target-reporting-in-cja#set-up-data-views){target=_blank}).
 
 1. Click **[!UICONTROL Build]**.
 

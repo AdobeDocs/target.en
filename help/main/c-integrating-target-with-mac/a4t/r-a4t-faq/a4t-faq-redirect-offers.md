@@ -141,14 +141,14 @@ Work with your IT team to have these parameters ( `adobe_mc_sdid` and `adobe_mc_
 
 +++
 
-## What if I am not using A4T with my redirect activity and don't want to have these extra parameters added to my URLs? {#section_9E608D75FF9349FE96C65FEDD7539F45}
+## What if I am not using A4T with my redirect activity and do not want to have these extra parameters added to my URLs? {#section_9E608D75FF9349FE96C65FEDD7539F45}
 
 +++Answer
 Use a custom-coded redirect if:
 
 * You are not using A4T with your redirect activity
 * You have the Visitor Id service implemented
-* You don't want these parameters to be automatically added to your URLs
+* You do not want these parameters to be automatically added to your URLs
 
 However, as best practice, you might want to keep the `adobe_mc_ref` parameter in the URL in order to report the referrer information to [!DNL Analytics] correctly.
 
@@ -159,7 +159,7 @@ However, as best practice, you might want to keep the `adobe_mc_ref` parameter i
 +++Answer
 If you use A4T and redirect offers, Target appends the `adobe_mc_ref` and `adobe_mc_sdid` parameters to the URL. These values are already URL encoded. Most of the time everything works as expected, however, some customers might have load balancers or WEB servers that try to encode the query string parameters one more time.
 
-Because of this double encoding when the Visitor API tries to decode the `adobe_mc_sdid` value, it can't extract the SDID value and generates a new SDID. This process leads to incorrect SDID values being sent to Target and Analytics and you see uneven split for redirects in Analytics reports.
+Because of this double encoding when the Visitor API tries to decode the `adobe_mc_sdid` value, it cannot extract the SDID value and generates a new SDID. This process leads to incorrect SDID values being sent to Target and Analytics and you see uneven split for redirects in Analytics reports.
 
 Adobe recommends that you talk to your IT team to ensure that `adobe_mc_ref` and `adobe_mc_sdid` are allowlisted so that these values are not transformed in any way.
 
@@ -179,13 +179,13 @@ With [!DNL at.js] version 0.9.6 (or later) and [!DNL AppMeasurement.js] 2.1 (or 
 ## Can I use custom/HTML redirect offers? {#section_E49F9A83A286488C8F1098A040203D7E}
 
 +++Answer
-No, you must use a built-in redirect offer for activities that use [!DNL Analytics] as the reporting source (A4T). From the [!DNL Target] perspective, HTML offers are opaque: [!DNL Target] can't know that a particular piece of HTML contains JavaScript that instantiates a redirect.
+No, you must use a built-in redirect offer for activities that use [!DNL Analytics] as the reporting source (A4T). From the [!DNL Target] perspective, HTML offers are opaque: [!DNL Target] cannot know that a particular piece of HTML contains JavaScript that instantiates a redirect.
 
 +++
 
 ### Can I use custom/HTML redirect offers with the [!DNL Platform Web SDK]? 
 
 +++Answer
-No, you must use a built-in redirect offer for activities that use A4T. From the [!DNL Target] perspective, HTML offers are opaque. [!DNL Target] can't know that a particular piece of HTML contains JavaScript that instantiates a redirect.
+No, you must use a built-in redirect offer for activities that use A4T. From the [!DNL Target] perspective, HTML offers are opaque. [!DNL Target] cannot know that a particular piece of HTML contains JavaScript that instantiates a redirect.
 
 +++

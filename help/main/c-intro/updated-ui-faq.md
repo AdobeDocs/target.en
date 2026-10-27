@@ -36,7 +36,7 @@ topic_v2:
 ---
 # [!DNL Target] UI update FAQs
 
-New in 2025, the [!DNL Adobe Target] redesigned user interface offers a cleaner, more intuitive experience for all users. This FAQ covers key updates to the [!DNL Target] UI and [!UICONTROL Visual Experience Composer] (VEC), including navigation changes, feature placements, and the removal of the temporary UI toggle. Whether you're a marketer, developer, or admin, it's your guide to a smooth transition and smarter workflows.
+New in 2025, the [!DNL Adobe Target] redesigned user interface offers a cleaner, more intuitive experience for all users. This FAQ covers key updates to the [!DNL Target] UI and [!UICONTROL Visual Experience Composer] (VEC), including navigation changes, feature placements, and the removal of the temporary UI toggle. Whether you are a marketer, developer, or admin, it is your guide to a smooth transition and smarter workflows.
 
 ## Has the timeline for the deprecation of the Target UI version toggle been updated?
 
@@ -79,7 +79,7 @@ The following information describes the limitations that you should be aware of 
 
 ### More resources to learn about the updated UI
 
-* [[!DNL Target] UI update FAQs](/help/main/c-intro/updated-ui-faq.md): This FAQ addresses common questions about the new [!DNL Target] UI and [!UICONTROL Visual Experience Composer] (VEC), including navigation changes, feature locations, and the deprecation of the temporary UI version toggle. Whether you're a marketer, developer, or admin, this FAQ helps you transition smoothly and make the most of the updated UI.
+* [[!DNL Target] UI update FAQs](/help/main/c-intro/updated-ui-faq.md): This FAQ addresses common questions about the new [!DNL Target] UI and [!UICONTROL Visual Experience Composer] (VEC), including navigation changes, feature locations, and the deprecation of the temporary UI version toggle. Whether you are a marketer, developer, or admin, this FAQ helps you transition smoothly and make the most of the updated UI.
 * [[!DNL Target Standard/Premium] 25.2.1 (February 17, 2025) release notes](/help/main/r-release-notes/release-notes-for-previous-releases.md#ui-update-2): Provides a summary of the key UI changes in [!DNL Target] for [!UICONTROL Activities], [!UICONTROL Recommendations], and the [!UICONTROL Visual Experience Composer] (VEC).
 * [[!DNL Target Standard/Premium] 25.1.1 (January 9, 2025) release notes](/help/main/r-release-notes/release-notes-for-previous-releases.md#ui-update-1): Provides a summary of the key UI changes in [!DNL Target] for the [!UICONTROL Offers Library].
 * [Understand the [!DNL Target] UI](/help/main/c-intro/understand-the-target-ui.md): Provides a brief overview to help you get familiarized with [!DNL Target] and provides links for more in-depth information and step-by-step instructions.
@@ -164,7 +164,7 @@ For more information, see [Time-sensitive updates you need to know](/help/main/r
   * Define the z-index for layering
   * Choose a positioning type
 
-  The updated [!UICONTROL Properties] rail also supports custom inline styles, offering flexibility when preset options don't meet layout needs.
+  The updated [!UICONTROL Properties] rail also supports custom inline styles, offering flexibility when preset options do not meet layout needs.
 
 **[!UICONTROL Hide]**: The [!UICONTROL Hide] feature is located in the [!UICONTROL Properties] panel. After selecting an element, click [!UICONTROL Hide Element] to remove it from view without deleting it. This is useful for managing visibility during design or preview.
 
@@ -206,7 +206,7 @@ With the latest updates to the user interface, the [!UICONTROL Save as Draft] an
 ## How can I tell if an activity was created or edited in the legacy UI or in the updated UI?
 
 +++Details
-Activities created or edited in the updated UI follow the same guided, three-step workflow and might include UI-specific metadata or formatting not present in legacy-created activities. Although there's no visible tag or label in the interface, differences in layout, structure, or available options (such as enhanced targeting or preview features) can indicate which UI was used. For detailed identification, check the activity's change history or consult your implementation logs.
+Activities created or edited in the updated UI follow the same guided, three-step workflow and might include UI-specific metadata or formatting not present in legacy-created activities. Although there is no visible tag or label in the interface, differences in layout, structure, or available options (such as enhanced targeting or preview features) can indicate which UI was used. For detailed identification, check the activity's change history or consult your implementation logs.
 
 +++
 
@@ -238,7 +238,7 @@ For more information, see [Visual Editing Helper extension](/help/main/c-experie
 +++Details
 For more information about IP addresses that you can allowlist, see the following articles:
 
-* **Enhanced Experience Composer (EEC)**: See [The EEC won't load an internal QA URL that is not accessible on public IP](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/troubleshooting-issues-related-to-the-enhanced-experience-composer-eec.md#section_D29E96911D5C401889B5EACE267F13CF) in *Troubleshooting issues related to the Enhanced Experience Composer*
+* **Enhanced Experience Composer (EEC)**: See [The EEC will not load an internal QA URL that is not accessible on public IP](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/troubleshooting-issues-related-to-the-enhanced-experience-composer-eec.md#section_D29E96911D5C401889B5EACE267F13CF) in *Troubleshooting issues related to the Enhanced Experience Composer*
 * **[!UICONTROL Recommendations]**: See [IP addresses used by Recommendations feed-processing servers](/help/main/c-recommendations/c-recommendations-faq/ip-addresses-marketing-cloud.md).
 
 +++
@@ -255,7 +255,7 @@ Environments now default to the last one used by the customer. To switch environ
 ## How complex is it to connect [!DNL Adobe Analytics] or [!DNL Customer Journey Analytics] to [!DNL Target]?
 
 +++Details
-Integrating [!DNL Adobe Analytics] (AA) or [!DNL Customer Journey Analytics] (CJA) with [!DNL Target] can range from moderate to advanced effort, depending on your current setup. If you're using [!DNL Adobe Experience Platform] and have implemented the [!DNL Platform Web SDK], the integration is more streamlined. However, legacy implementations using at.js or AppMeasurement may require additional configuration, including:
+Integrating [!DNL Adobe Analytics] (AA) or [!DNL Customer Journey Analytics] (CJA) with [!DNL Target] can range from moderate to advanced effort, depending on your current setup. If you are using [!DNL Adobe Experience Platform] and have implemented the [!DNL Platform Web SDK], the integration is more streamlined. However, legacy implementations using at.js or AppMeasurement may require additional configuration, including:
 
 * Enable the [Analytics for Target (A4T) integration](/help/main/c-integrating-target-with-mac/a4t/a4t.md)
 * Integrate [[!DNL Target] reporting in [!DNL Adobe Customer Journey Analytics]](/help/main/c-integrating-target-with-mac/cja/target-reporting-in-cja.md).

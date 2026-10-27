@@ -21,14 +21,14 @@ topic_v2:
 
 This topic contains answers to questions that are frequently asked about metric definitions and using [!DNL Adobe Analytics] as the reporting source for [!DNL Adobe Target] (A4T).
 
-## What's the expiration for activity membership? How long after visitors enter the activity are their actions counted in the activity if they don't see it again? {#section_41B4958F33534E4B96DEE0C981227A79}
+## What's the expiration for activity membership? How long after visitors enter the activity are their actions counted in the activity if they do not see it again? {#section_41B4958F33534E4B96DEE0C981227A79}
 
 +++Answer
 The default expiration for the activity is 90 days after a visitor's last interaction with the activity. This setting can be adjusted by ClientCare if needed. This setting is global for all activities, however, so it should not be adjusted for one case.
 
 +++
 
-## While configuring my goal metrics, why can't I access the Advanced Settings options? {#adv-settings}
+## While configuring my goal metrics, why cannot I access the Advanced Settings options? {#adv-settings}
 
 +++Answer
 The [!UICONTROL Advanced Settings] options are not available for activities that use [!DNL Analytics] as the reporting source (A4T).

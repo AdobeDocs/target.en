@@ -62,7 +62,7 @@ For more information about these and other [!DNL Recommendations] criteria, see 
 
 ## Terms
 
-Before you get started using [!DNL Recommendations], it is helpful to become familiar with some of the terms used in this section. Don't worry if you don't fully understand these terms yet, you'll become more familiar with them as you set up your [!DNL Recommendations] activities.
+Before you get started using [!DNL Recommendations], it is helpful to become familiar with some of the terms used in this section. Do not worry if you do not fully understand these terms yet, you will become more familiar with them as you set up your [!DNL Recommendations] activities.
 
 |Term|Definition|
 | --- | --- |

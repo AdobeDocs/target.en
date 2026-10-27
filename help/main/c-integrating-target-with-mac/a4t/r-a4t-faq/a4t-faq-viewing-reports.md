@@ -62,12 +62,12 @@ When you segment for an activity to be present in a hit, you get all the experie
 
 +++
 
-## While configuring my [!UICONTROL Goal Metrics], why can't I access [!UICONTROL Advanced Settings]?
+## While configuring my [!UICONTROL Goal Metrics], why cannot I access [!UICONTROL Advanced Settings]?
 
 +++Answer
 For activities using [!DNL Analytics] as the reporting source (A4T), the goal metric uses the "[!UICONTROL Increment Count & Keep User in Activity]" and "[!UICONTROL On Every Impression]" settings. These settings are *not* configurable. 
 
-For more information, see "While configuring my goal metrics, why can't I access the Advanced Settings options?" in [Metric definitions - A4T FAQ](/help/main/c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-metric-definition.md).
+For more information, see "While configuring my goal metrics, why cannot I access the Advanced Settings options?" in [Metric definitions - A4T FAQ](/help/main/c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-metric-definition.md).
 
 +++
 
@@ -110,11 +110,11 @@ To evaluate accurate [!UICONTROL Activity Impressions] and [!UICONTROL Activity 
 ## Why do I see "unspecified" in the [!DNL Analytics] reports? What does it mean? {#unspecified}
 
 +++Answer
-In other reports, "unspecified" means data did not meet a classification rule, but in A4T this should never happen. If you see "unspecified," then the classification service hasn't run yet. It generally takes between 24 to 72 hours for activity data to appear in the reports. Even though the activities do not appear in this report until that time, all visitor data tied to those activities is captured and appear when the classification is complete.
+In other reports, "unspecified" means data did not meet a classification rule, but in A4T this should never happen. If you see "unspecified," then the classification service has not run yet. It generally takes between 24 to 72 hours for activity data to appear in the reports. Even though the activities do not appear in this report until that time, all visitor data tied to those activities is captured and appear when the classification is complete.
 
 After the classification period, data appears in these reports approximately an hour after it is collected from the website. All metrics, segments, and values in the reports come from the report suite you selected when you set up the activity.
 
-In case classification was done for that activity, and you still see an "Unspecified" row in the report, make sure that the report isn't using a non-[!DNL Target] metric to display the data. Unless the report is using a [!DNL Target]-specific metric, that "Unspecified" row contains events for calls that are not associated with [!DNL Target]. That row will not contain any [!DNL Target]-associated information (for example, visitors/visits/impressions).
+In case classification was done for that activity, and you still see an "Unspecified" row in the report, make sure that the report is not using a non-[!DNL Target] metric to display the data. Unless the report is using a [!DNL Target]-specific metric, that "Unspecified" row contains events for calls that are not associated with [!DNL Target]. That row will not contain any [!DNL Target]-associated information (for example, visitors/visits/impressions).
 
 +++
 
@@ -123,13 +123,13 @@ In case classification was done for that activity, and you still see an "Unspeci
 +++Answer
 The [!DNL Target] variable sent to [!DNL Analytics] has a default 90-day expiration period. This expiration period can be adjusted by Customer Care if needed. This setting is global for all activities; however, so it should not be adjusted for one case.
 
-You might see [!DNL Target] variables sent to [!DNL Analytics] after the expiration period because the expiration is 90 days, but only if that user never sees another A4T-enabled [!DNL Target] activity. If a user comes back to the site on day 45 and sees another activity, the entire A4T eVar value has its counter reset to 90 days. That means the first campaign from day 1 now could be persisting for up to 45 + 90 = 135 days. If the user keeps coming back, you might get to the point where you see metrics sent to [!DNL Analytics] in your reporting from much older activities. As users delete cookies and don't return to the site, the numbers in that activity drop, but you can still see them.
+You might see [!DNL Target] variables sent to [!DNL Analytics] after the expiration period because the expiration is 90 days, but only if that user never sees another A4T-enabled [!DNL Target] activity. If a user comes back to the site on day 45 and sees another activity, the entire A4T eVar value has its counter reset to 90 days. That means the first campaign from day 1 now could be persisting for up to 45 + 90 = 135 days. If the user keeps coming back, you might get to the point where you see metrics sent to [!DNL Analytics] in your reporting from much older activities. As users delete cookies and do not return to the site, the numbers in that activity drop, but you can still see them.
 
 This means that activities continue to get page views, visits, and so forth, for up to 90 days after the activity ends for visitors that became part of the activity while it was active. However, if you look at the [!UICONTROL Activity Impressions] metric, you should not see any impressions after the activity ended.
 
 This is normal and expected behavior. The A4T variable functions like any other eVar—the value is associated with the user until it hits the expiration time period (90 days). As a result, if an activity is active for only two weeks, the value is still associated with the user for at least the next 90 days.
 
-Best practice is view reports for that activity only for the time period the activity was live. The dates should be set correctly by default when you view the activity in [!DNL Analytics], so unless you have manually extended the date this shouldn't be an issue from a reporting standpoint.
+Best practice is view reports for that activity only for the time period the activity was live. The dates should be set correctly by default when you view the activity in [!DNL Analytics], so unless you have manually extended the date this should not be an issue from a reporting standpoint.
 
 As an example, let's assume that the A4T variable expires after 90 days and the test is active from January 1 through January 15.
 
@@ -139,7 +139,7 @@ On January 1, the user comes to the site and sees activity XYZ once and has five
 |--- |--- |--- |--- |--- |
 |XYZ|1|5|1|1|
 
-The user returns on February 1, views five more pages, and doesn't encounter any more Target activities and the original activity is no longer active. Even though the activity is no longer active, it is still following the user via eVar persistence. The data now looks like this:
+The user returns on February 1, views five more pages, and does not encounter any more Target activities and the original activity is no longer active. Even though the activity is no longer active, it is still following the user via eVar persistence. The data now looks like this:
 
 | Activity Name | Instances (Impressions) | Page Views | Visits | Unique Visitors |
 |--- |--- |--- |--- |--- |
@@ -160,7 +160,7 @@ The user then comes back on April 1, views another five pages, and makes a purch
 |ABC|1|10|2|1|1|
 |Total|2|20|3|1|1|
 
-Because both experiences were seen before the conversion, they both get "credit" for the order. But, only one order took place in the system and the total reflects that. For [!DNL Target] reporting, because you aren't putting a [!DNL Target] activity against another activity to see which is more successful, it doesn't matter that all activities the user saw got credit. You're comparing the results of two items within the single activity. It's not possible for a user to see different experiences in the same activity so you don't have to worry about cross-contamination of order credit.
+Because both experiences were seen before the conversion, they both get "credit" for the order. But, only one order took place in the system and the total reflects that. For [!DNL Target] reporting, because you are not putting a [!DNL Target] activity against another activity to see which is more successful, it does not matter that all activities the user saw got credit. You are comparing the results of two items within the single activity. It is not possible for a user to see different experiences in the same activity so you do not have to worry about cross-contamination of order credit.
 
 For more information, see [Conversion Variables (eVar](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/conversion-variables/conversion-var-admin.html)) in the *Analytics Admin Guide*.
 
@@ -169,20 +169,20 @@ For more information, see [Conversion Variables (eVar](https://experienceleague.
 ## Why do I continue to see more impressions after my activity has been deactivated? {#deactivated}
 
 +++Answer
-A source of impressions to an A4T activity's report after deactivation can be QA-mode traffic. Target normally doesn't log events for a deactivated activity, but Analytics doesn't have a way to know that impressions are coming from QA mode. When the Target activity report is retrieved from Analytics, it shows these impressions. This is working as designed because customers need a way to check A4T reports even if the activity is not active using QA mode.
+A source of impressions to an A4T activity's report after deactivation can be QA-mode traffic. Target normally does not log events for a deactivated activity, but Analytics does not have a way to know that impressions are coming from QA mode. When the Target activity report is retrieved from Analytics, it shows these impressions. This is working as designed because customers need a way to check A4T reports even if the activity is not active using QA mode.
 
 +++
 
 ## Why do [!DNL Analytics] and [!UICONTROL Analytics for Adobe Target] (A4T) calculate numbers for the [!UICONTROL Unique Visitors] metric differently? {#section_0C3B648AB54041F9A2AA839D51791883}
 
 +++Answer
-When you run an A/B test, which uses the [Welch's t-test](https://en.wikipedia.org/wiki/Welch%27s_t-test){target=_blank} (the confidence metric) to choose a winner of a test, one of the assumptions is that there is a fixed time horizon. The test isn't statistically valid unless you are looking at that fixed sample size.
+When you run an A/B test, which uses the [Welch's t-test](https://en.wikipedia.org/wiki/Welch%27s_t-test){target=_blank} (the confidence metric) to choose a winner of a test, one of the assumptions is that there is a fixed time horizon. The test is not statistically valid unless you are looking at that fixed sample size.
 
-The [!UICONTROL Unique Visitors] metric is different in [!DNL Analytics] and [!DNL Target] only when you are looking at a period that is shorter than the actual test. If you haven't reached your sample size, the test isn't as reliable. See [How Not to Run an A/B Test](https://www.evanmiller.org/how-not-to-run-an-ab-test.html) on [Evan Miller's website](https://www.evanmiller.org/index.html) for more information.
+The [!UICONTROL Unique Visitors] metric is different in [!DNL Analytics] and [!DNL Target] only when you are looking at a period that is shorter than the actual test. If you have not reached your sample size, the test is not as reliable. See [How Not to Run an A/B Test](https://www.evanmiller.org/how-not-to-run-an-ab-test.html) on [Evan Miller's website](https://www.evanmiller.org/index.html) for more information.
 
 The [!UICONTROL Unique Visitors] metric displays the number of people who have been exposed to the test who have visited the site during the specified time period. Those people are part of the test and should be counted. If you want to see only the number of people who were exposed during a single week, you can create a segment of visitors who had an activity impression and apply it to the report.
 
-You can shorten the amount of time the [!DNL Target] variable persists down to a session; however, that is problematic for tests where the conversion event isn't as likely to happen within the same session.
+You can shorten the amount of time the [!DNL Target] variable persists down to a session; however, that is problematic for tests where the conversion event is not as likely to happen within the same session.
 
 +++
 

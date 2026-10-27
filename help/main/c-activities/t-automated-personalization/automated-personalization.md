@@ -77,7 +77,7 @@ Random Forest is a leading machine-learning approach. In data-science terms, it 
 
 * The multi-arm bandit ensures that the model is always "spending" a small fraction of traffic to continue learning throughout the life of the activity and to prevent over-exploitation of previously learned trends. 
 * The underlying models are rebuilt every 24 hours using the latest visitor behavior data to ensure that [!DNL Target] is always using changing visitor preferences. 
-* If the algorithm can't determine winning experiences for individual visitors, it automatically switches to showing the overall best-performing experience, while still continuing to look for personalized winners. The best-performing experience is found using [Thompson Sampling](https://en.wikipedia.org/wiki/Thompson_sampling).
+* If the algorithm cannot determine winning experiences for individual visitors, it automatically switches to showing the overall best-performing experience, while still continuing to look for personalized winners. The best-performing experience is found using [Thompson Sampling](https://en.wikipedia.org/wiki/Thompson_sampling).
 
 ## The model continually optimizes a single goal metric
 
@@ -89,7 +89,7 @@ Random Forest is a leading machine-learning approach. In data-science terms, it 
 
 ## [!DNL Target] automatically uses all [!DNL Adobe Experience Cloud] shared audiences to build the personalization models
 
-* You don't need to do anything specific to add audiences to the model. For information about using [!DNL Experience Cloud Audiences] with [!DNL Target], see [Experience Cloud Audiences](/help/main/c-integrating-target-with-mac/mmp.md).
+* You do not need to do anything specific to add audiences to the model. For information about using [!DNL Experience Cloud Audiences] with [!DNL Target], see [Experience Cloud Audiences](/help/main/c-integrating-target-with-mac/mmp.md).
 
 ## Marketers can upload offline data, propensity scores, or other custom data to build personalization models
 

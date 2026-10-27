@@ -54,7 +54,7 @@ The UI is designed for clarity and efficiency, helping you get the most from [!D
 
 *[!DNL *Targe]t UI update FAQs**
 
-This FAQ addresses common questions about the new [!DNL Target] UI and [!UICONTROL Visual Experience Composer] (VEC), including navigation changes, feature locations, and the deprecation of the temporary UI version toggle. Whether you're a marketer, developer, or admin, this FAQ helps you transition smoothly and make the most of the updated UI.
+This FAQ addresses common questions about the new [!DNL Target] UI and [!UICONTROL Visual Experience Composer] (VEC), including navigation changes, feature locations, and the deprecation of the temporary UI version toggle. Whether you are a marketer, developer, or admin, this FAQ helps you transition smoothly and make the most of the updated UI.
 
 [![Learn More icon](/help/main/assets/learn-more.svg)](/help/main/c-intro/updated-ui-faq.md)
 

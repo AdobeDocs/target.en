@@ -47,7 +47,7 @@ brand - equals - the value/text stored in - profile.favoritebrand
 
 ### Matching jobs to job seekers
 
-Suppose that you're trying to match jobs to job seekers. You want to recommend only jobs that are in the same city as the job seeker.
+Suppose that you are trying to match jobs to job seekers. You want to recommend only jobs that are in the same city as the job seeker.
 
 You can use inclusion rules to match a job seeker's location from his or her visitor's profile to a job listing, as in the following example:
 

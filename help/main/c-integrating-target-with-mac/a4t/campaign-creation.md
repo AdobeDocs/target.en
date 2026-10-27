@@ -52,9 +52,9 @@ Creating a [!DNL Target] activity that uses [!DNL Analytics] as the reporting so
 
      Check your [!DNL Analytics] company. If your [!DNL Adobe Experience Cloud] account is tied to more than one [!DNL Analytics] company, log out of [!DNL Target], and log in to [!DNL Analytics] under the right company. Then return to [!DNL Target], and the report suites load. 
 
-   * You don't see the report suite that you expect.
+   * You do not see the report suite that you expect.
 
-     Only report suites that are provisioned to connect to [!DNL Target] are available for selection. If you don't see the report suites that you expect, first try logging out and logging back in to the [!DNL Adobe Experience Cloud] to try again.
+     Only report suites that are provisioned to connect to [!DNL Target] are available for selection. If you do not see the report suites that you expect, first try logging out and logging back in to the [!DNL Adobe Experience Cloud] to try again.
 
    If one or more report suites are still missing from the list, please [contact Customer Care](/help/main/cmp-resources-and-contact-information.md#reference_ACA3391A00EF467B87930A450050077C).
 
@@ -71,7 +71,7 @@ Creating a [!DNL Target] activity that uses [!DNL Analytics] as the reporting so
    >
    >You can send a custom Target-based metric to [!DNL Analytics] rather than relying only on [!DNL Analytics] data. For example, you can monitor clicking a page, which is not usually tracked by [!DNL Analytics]. This custom metric is sent to [!DNL Analytics] automatically from the [!DNL Target] server, and appears as the "[!DNL Target] Conversion" metric in the metrics selector in [!DNL Analytics]. The [!DNL Target] Conversion metric is empty if you choose to use [!DNL Analytics] metrics.
 
-   Setting a goal doesn't mean you can't use another metric when evaluating test results. The goal is, however, a reminder of the one thing you want to improve with the activity.
+   Setting a goal does not mean you cannot use another metric when evaluating test results. The goal is, however, a reminder of the one thing you want to improve with the activity.
 
    The visitor remains in the activity after they reach the goal. The visitor continues to see activity content but is not counted as a new activity entry.
 

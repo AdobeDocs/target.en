@@ -40,7 +40,7 @@ topic_v2:
 ---
 # Chapter 4: Tips for using Target
 
-Based on our work with many [!DNL Target] users, we've observed ways that you can get more value from your [!DNL Target] solution. We've summarized those in the many tips we've included in this chapter. Although you might not be ready to use all of these ideas right away, hold on to this list. The more experience you get with the solution and the more your program matures, the more you'll see how these tips can help you accomplish more with [!DNL Target].
+Based on our work with many [!DNL Target] users, we've observed ways that you can get more value from your [!DNL Target] solution. We've summarized those in the many tips we've included in this chapter. Although you might not be ready to use all of these ideas right away, hold on to this list. The more experience you get with the solution and the more your program matures, the more you will see how these tips can help you accomplish more with [!DNL Target].
 
 ## Tip 1: Deepen personalization by augmenting the visitor profile with additional data.
 
@@ -72,7 +72,7 @@ See [Response tokens](/help/main/administrating-target/response-tokens.md) for s
 
 See [Response tokens](/help/main/administrating-target/response-tokens.md) for step-by-step instructions.
 
-**Do this first**: Make sure you are using at.js version 1.1 or later. If you are using a previous version, you'll see the response tokens, but at.js won't be able to use them.
+**Do this first**: Make sure you are using at.js version 1.1 or later. If you are using a previous version, you will see the response tokens, but at.js will not be able to use them.
 
 ## Tip 4: Build audiences from these key variables to increase the value of your activity.
 
@@ -100,7 +100,7 @@ See how an offer, such as free shipping, performs during a customer journey that
 
 See [Multipage activity](/help/main/c-experiences/c-visual-experience-composer/multipage-activity.md) for step-by-step instructions.
 
-**Helpful hint**: Changing the URL after you've specified a page range will reset the experience. That means the variations you specified will no longer appear. If you need to change the URL, remember to re-define the experience.
+**Helpful hint**: Changing the URL after you have specified a page range will reset the experience. That means the variations you specified will no longer appear. If you need to change the URL, remember to re-define the experience.
 
 ## Tip 7: Test an offer with different audiences to discover if audiences hae different preferences.
 
@@ -116,7 +116,7 @@ See [Include the same experience on similar pages](/help/main/c-experiences/c-vi
 
 ## Tip 9: Reduce clutter in your Audience Library by creating one-time audiences.
 
-If you're targeting a segment you know won't target again--for example, customers affected by an unexpected weather event--creating a one-time-use audience can help you get the job done without adding clutter to your Audience Library. This makes it easier to find audiences you use over and over again. 
+If you are targeting a segment you know will not target again--for example, customers affected by an unexpected weather event--creating a one-time-use audience can help you get the job done without adding clutter to your Audience Library. This makes it easier to find audiences you use over and over again. 
 
 See [Create an activity-only audience](/help/main/c-target/creating-activity-only-audience.md) for step-by-step instructions.
 
@@ -140,7 +140,7 @@ Many marketers launch optimization programs for audience segmentation and target
 
 ## Tip 12: Design simpler tests to make sure you can create and implement them.
 
-After considering all aspects of how to design a test, a plan can get very complex. Based on where your business is with testing, and your group's ability to design, code,execute, and analyze the results, determine if the test seems too ambitious. If it is, be prepared to reduce its scope and complexity. Better to start small than not perform the test at all. You can't deliver impactful lift if you never launch the test. It's important to balance the aspirations of the team with the realities of your resources and abilities.
+After considering all aspects of how to design a test, a plan can get very complex. Based on where your business is with testing, and your group's ability to design, code,execute, and analyze the results, determine if the test seems too ambitious. If it is, be prepared to reduce its scope and complexity. Better to start small than not perform the test at all. You cannot deliver impactful lift if you never launch the test. It is important to balance the aspirations of the team with the realities of your resources and abilities.
 
 ## Tip 13: Break complex tests into smaller test activities to make them achievable.
 
@@ -156,7 +156,7 @@ Testing as close to the page where visitors click Complete Purchase, Submit Appl
 
 ## Tip 15: Constantly update your tests to make iterative improvements.
 
-If your hypothesis did not prove to be true, think of ways to improve your test. Remember that even if none of the tested experiences performed better, your experiment wasn't a waste of time. A successful test doesn't always mean a boost in revenue or conversions. If the test actually supported your hypothesis, then you're on your way to developing a general theory. But even when you do have a clear winning result, don't stop there. Too often, marketers make the mistake of testing once and then banking on those results without really understanding what led to the success. Instead, plan to iterate on those results to figure out why the front-runner was ahead. This will lead you to deeper insights that you can use in future campaigns.
+If your hypothesis did not prove to be true, think of ways to improve your test. Remember that even if none of the tested experiences performed better, your experiment was not a waste of time. A successful test does not always mean a boost in revenue or conversions. If the test actually supported your hypothesis, then you are on your way to developing a general theory. But even when you do have a clear winning result, do not stop there. Too often, marketers make the mistake of testing once and then banking on those results without really understanding what led to the success. Instead, plan to iterate on those results to figure out why the front-runner was ahead. This will lead you to deeper insights that you can use in future campaigns.
 
 ## Tip 16: Compare tests and personalization activities for ideas to improve targeting.
 
@@ -166,19 +166,19 @@ For example, a financial services customer ran a promotional campaign for a cred
 
 ## Tip 17: Make tests useful by only launching them if you know you can act on the data.
 
-A test is pointless if you aren't clear about how you are going to act on the data. This includes knowing your key success metric, what needs to happen to push a winner, how you will follow up on test results, and what you will do with the audience information. For a speedy and successful test, it's vital that every group involved in the test (developers, creatives, testing specialists, and others) is aware of its role before the test launch.
+A test is pointless if you are not clear about how you are going to act on the data. This includes knowing your key success metric, what needs to happen to push a winner, how you will follow up on test results, and what you will do with the audience information. For a speedy and successful test, it is vital that every group involved in the test (developers, creatives, testing specialists, and others) is aware of its role before the test launch.
 
 ## Tip 18: Before launching a test, be sure the business supports pushing the winner.
 
-Successful optimization organizations believe in the concept of testing and understand that their professional opinions about what experience will win the test don't always prove true. They determine the winner based on a solid foundation of data, and are eager and willing to push the winning experience live after the results are in, even if it's not in line with their expectations or seems counterintuitive. 
+Successful optimization organizations believe in the concept of testing and understand that their professional opinions about what experience will win the test do not always prove true. They determine the winner based on a solid foundation of data, and are eager and willing to push the winning experience live after the results are in, even if it is not in line with their expectations or seems counterintuitive. 
 
-For example, an Adobe healthcare services customer recently demonstrated the value of testing by showing how a hero banner that the team had considered a slam dunk actually negatively impacted conversion. If your organization hasn't yet fully embraced testing, it's best to first conduct simpler, smaller scope tests so that changes from test results can be made incrementally.
+For example, an Adobe healthcare services customer recently demonstrated the value of testing by showing how a hero banner that the team had considered a slam dunk actually negatively impacted conversion. If your organization has not yet fully embraced testing, it is best to first conduct simpler, smaller scope tests so that changes from test results can be made incrementally.
 
-## Tip 19: Let everyone know you've launched a test to avoid concern when the site changes.
+## Tip 19: Let everyone know you have launched a test to avoid concern when the site changes.
 
-One of the benefits of setting up your activities to use QA parameters is that you can share those links with everyone on your team. You make more people aware of the activity and ensure they don't assume the site isn't functioning properly when they hit a test variant. 
+One of the benefits of setting up your activities to use QA parameters is that you can share those links with everyone on your team. You make more people aware of the activity and ensure they do not assume the site is not functioning properly when they hit a test variant. 
 
-After you finish your tests, communicating campaign launches, test results, and especially lessons learned helps you build awareness of and interest in the test results. Sharing the results with everyone in the organization also avoids retesting a hypothesis, educates everyone about what works, and helps them fundamentally challenge their own ideas of what works based on what you've found. It's a good idea to prepare a template that you use each time for sharing your findings and key learnings.
+After you finish your tests, communicating campaign launches, test results, and especially lessons learned helps you build awareness of and interest in the test results. Sharing the results with everyone in the organization also avoids retesting a hypothesis, educates everyone about what works, and helps them fundamentally challenge their own ideas of what works based on what you have found. It is a good idea to prepare a template that you use each time for sharing your findings and key learnings.
 Then consider creating a sharable book or Microsoft PowerPoint deck that cumulatively captures these learnings.
 
 ## Tip 20: Tap into mobile functionality to create more innovative mobile activities.
@@ -195,13 +195,13 @@ Understand how and when to reach your audience and how to better manage your dai
 
 Many marketers make the mistake of failing to allocate enough budget to capture that share of voice in the hours when the use of particular devices is heaviest, thus leaving a lot of revenue and leads on the table. 
 
-For instance, tablet usage typically spikes in the evening hours, and many users browse while watching television. In contrast, smartphone users typically access content on the go. Peak conversion times also vary by industry, so it's important to understand when your unique customers are most likely to act.
+For instance, tablet usage typically spikes in the evening hours, and many users browse while watching television. In contrast, smartphone users typically access content on the go. Peak conversion times also vary by industry, so it is important to understand when your unique customers are most likely to act.
 
 ## Keep in mind
 
 Consider the following ideas before we move on to the next chapter: "Inspiration for testing and personalization activities."
 
-### When you create your tests, don't decorate, be intentional.
+### When you create your tests, do not decorate, be intentional.
 
 * Control the flow with intentional Eye Paths focused on conversion points.
 * Ensure you use your Real Estate to your advantage.
@@ -212,7 +212,7 @@ Consider the following ideas before we move on to the next chapter: "Inspiration
 
 ### Simplify your website.
 
-* Don't "make" customers read. They won't.
+* Do not "make" customers read. They will not.
 * Make it easy to scan.
 * Use bulleted copy blocks.
 * Ensure your copy follows a clear, sequential thought process.

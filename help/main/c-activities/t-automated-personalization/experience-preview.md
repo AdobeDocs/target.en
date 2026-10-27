@@ -34,11 +34,11 @@ Use experience preview URLs to share experiences with team members and to QA exp
 1. Review and/or specify your URLs.
 
    * If you are using the [!UICONTROL Visual Experience Composer] (VEC), the default URL you specified for the activity is entered automatically and a link is generated for each experience in your activity. You can change this URL and add others, if desired. 
-   * If you are using the [!UICONTROL Form-Based Experience Composer], no default URL is entered automatically. If you haven't previously created experience preview URLs, click **Add New URL**. You must specify all URLs you want to preview as well as a name for each URL.
+   * If you are using the [!UICONTROL Form-Based Experience Composer], no default URL is entered automatically. If you have not previously created experience preview URLs, click **Add New URL**. You must specify all URLs you want to preview as well as a name for each URL.
 
    You can add multiple URLs, which is useful when running a multi-page test or a template test and you want to preview the activity on more than one page.
 
-   A modal window displays links to your experiences on your site to get a "true preview" of the experiences outside of the [!DNL Target] VEC. You must share the links from the message to share the preview. Clicking a link and then copying the resulting URL from the page won't work because the URL contains a parameter that only displays the page correctly when you access the page from the link in the message. Instead, copy the text in the modal window and email the whole text to your team.
+   A modal window displays links to your experiences on your site to get a "true preview" of the experiences outside of the [!DNL Target] VEC. You must share the links from the message to share the preview. Clicking a link and then copying the resulting URL from the page will not work because the URL contains a parameter that only displays the page correctly when you access the page from the link in the message. Instead, copy the text in the modal window and email the whole text to your team.
 
 1. Click **[!UICONTROL Generate All]**, then click each experience to preview it.
 
@@ -68,11 +68,11 @@ Use experience preview URLs to share experiences with team members and to QA exp
 **Sharing Experience Preview URLs**
 
 * You can preview an experience even if you are not part of the targeted audience. 
-* You can share experience preview URLs with colleagues who don't have access to [!DNL Adobe Target].
+* You can share experience preview URLs with colleagues who do not have access to [!DNL Adobe Target].
 
 **Viewing Experiences with Experience Preview URLs**
 
-* The preview functions for any saved activity, as long as the page hasn't changed. 
+* The preview functions for any saved activity, as long as the page has not changed. 
 * The experience preview URL is available whether the activity is active or inactive. 
 * You cannot preview an experience that is in [!UICONTROL Draft] status.
 * Reporting is not impacted by viewing experience preview URLs.

@@ -201,7 +201,7 @@ If you do not need the custom code anymore, just leave this container empty, but
 
 **Do not use the element ID "CDQID" for modifications to the page made in the Code Editor.**
 
-Target applies a new element ID with the value "CDQID" to any element on the page that's modified by Target. Because this ID is applied by Target, it should not be used for any further modifications or adjustments in the Code Editor.
+Target applies a new element ID with the value "CDQID" to any element on the page that is modified by Target. Because this ID is applied by Target, it should not be used for any further modifications or adjustments in the Code Editor.
 
 **Do not perform document.write actions in custom code scripts.**
 
@@ -238,7 +238,7 @@ For example, if you have taken two actions:
 
 Each change creates a new element in the Modifications panel. Because the second action modifies Element 1, if you delete Element 1, the second action no longer has anything to modify, so the change no longer works.
 
-In other words, if you add an element with text, then in a separate action you edit that element with different text, the Modifications panel shows both actions as separate elements. When you edited the element, you created a new element that modifies the original one you created, containing the edited text. If you then delete the original element, the edited text won't be able to find the element that was edited, and will not display. The second element remains in the list of elements, but it does not affect the page because the element it changes no longer exists.
+In other words, if you add an element with text, then in a separate action you edit that element with different text, the Modifications panel shows both actions as separate elements. When you edited the element, you created a new element that modifies the original one you created, containing the edited text. If you then delete the original element, the edited text will not be able to find the element that was edited, and will not display. The second element remains in the list of elements, but it does not affect the page because the element it changes no longer exists.
 
 ***An element I created using `document.write` in a script does not appear where I expect it to.***
 

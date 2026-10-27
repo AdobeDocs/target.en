@@ -164,9 +164,9 @@ The following example shows how JSON responses can be returned when configuring 
    | Parameter | Value |
    |--- |--- |
    |`[YOUR_CLIENT_CODE]`|Target Client code (available on /help/target/products.html#recsSettings  > Recommendations API Token > Client Code).|
-   |`[YOUR_MBOX_NAME]`|The name you've selected in the "locations" section of the form-based Recommendations, in this case Sample_Recs_Response.|
+   |`[YOUR_MBOX_NAME]`|The name you have selected in the "locations" section of the form-based Recommendations, in this case Sample_Recs_Response.|
    |`[ENTITY_ID`|The `entity.id` of an item in your catalog.|
-   |`[AT_PROPERTY_TOKEN]`|(Optional) Add if you've selected a Property (part of Enterprise Permissions) during your activity setup.|
+   |`[AT_PROPERTY_TOKEN]`|(Optional) Add if you have selected a Property (part of Enterprise Permissions) during your activity setup.|
 
 After your algorithm has run, and you have results, your response should look something like this:
 

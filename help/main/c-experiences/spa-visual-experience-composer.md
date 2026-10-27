@@ -239,7 +239,7 @@ Now that we have covered what Adobe Target Views are, we can leverage this conce
    | --- | --- |
    |Information|Displays the details of the action.|
    |Edit|Allows you to edit the properties of the action directly.|
-   |Clone|Clone the action to one or more Views that exist on the [!UICONTROL Modifications] panel or to one or more Views that you have browsed and navigated to in the VEC. The action doesn't have to necessarily exist in the [!UICONTROL Modifications] panel.<br>**Note**: After a clone operation is made, you need to navigate to the View in the VEC via [!UICONTROL Browse] to see whether the cloned action was a valid operation. If the action cannot be applied to the View, you will see an error.|
+   |Clone|Clone the action to one or more Views that exist on the [!UICONTROL Modifications] panel or to one or more Views that you have browsed and navigated to in the VEC. The action does not have to necessarily exist in the [!UICONTROL Modifications] panel.<br>**Note**: After a clone operation is made, you need to navigate to the View in the VEC via [!UICONTROL Browse] to see whether the cloned action was a valid operation. If the action cannot be applied to the View, you will see an error.|
    |Move|Moves the action to a Page Load Event or any other View that already exists in the modifications panel.<br>[!UICONTROL Page Load Event] – any actions corresponding to the page load event are applied on the initial page load of your web application.<br>**Note** After a move operation is made, you need to navigate to the View in the VEC via Browse to see whether the move was a valid operation. If the action cannot be applied to the View, you will see an error|
    |Delete|Deletes the action.|
 
@@ -293,7 +293,7 @@ Now that we have covered what Adobe Target Views are, we can leverage this conce
 
 **How can I retrieve views for the latest audience data hydrated by actions after the initial page load on my SPA?**
 
-The typical workflow of at.js 2.x is when your site loads, all of your views and actions are cached so that subsequent user actions on your site won't trigger server calls to retrieve offers. If you want to retrieve views depending on the most up-to-date profile data that might have been updated depending on subsequent user actions, you can call `getOffers()` and `applyOffers()` with the latest audience user or profile data passed.
+The typical workflow of at.js 2.x is when your site loads, all of your views and actions are cached so that subsequent user actions on your site will not trigger server calls to retrieve offers. If you want to retrieve views depending on the most up-to-date profile data that might have been updated depending on subsequent user actions, you can call `getOffers()` and `applyOffers()` with the latest audience user or profile data passed.
 
 For example, consider that you are a telecom company and you have an SPA that uses at.js 2.x. As a business, you want to achieve the following objectives:
 
@@ -362,7 +362,7 @@ Yes, at.js 2.x supports A4T for SPA via the `triggerView()` function given that 
 |6|Target data is matched to Analytics data via the SDID and is processed into the Analytics reporting storage. Analytics data can then be viewed in both Analytics and Target via A4T reports.|
 
 >[!NOTE]
->If you don't want to send notifications to Adobe Analytics for impression counting every time a view is triggered, pass in `{page: false}` to the `triggerView()` function so that impression counting is not inflated when a view is triggered multiple times for a component that re-renders constantly. For example:
+>If you do not want to send notifications to Adobe Analytics for impression counting every time a view is triggered, pass in `{page: false}` to the `triggerView()` function so that impression counting is not inflated when a view is triggered multiple times for a component that re-renders constantly. For example:
 >
 >`adobe.target.triggerView("PRODUCTS-PAGE-2", {page:false})`
 
@@ -379,7 +379,7 @@ Yes, at.js 2.x supports A4T for SPA via the `triggerView()` function given that 
 |[Automated Personalization](/help/main/c-activities/t-automated-personalization/automated-personalization.md)|No|
 |[Recommendations](/help/main/c-recommendations/recommendations.md)|No|
 
-**If we installed at.js 2.x and implemented `triggerView()` on our sites, how do we run Auto-Target A/B activities because the SPA VEC doesn't support Auto-Target?**
+**If we installed at.js 2.x and implemented `triggerView()` on our sites, how do we run Auto-Target A/B activities because the SPA VEC does not support Auto-Target?**
 
 If you want to use Auto-Target A/B activities, you can move all of your actions to be executed on Page Load Event in the VEC. Hover over each action, and click the [!UICONTROL Move to Page Load Event] button. After this is done, in the next step, you can select Auto-Target for the traffic allocation method.
 
@@ -456,7 +456,7 @@ Note: The user navigating to [https://experienceleague.adobe.com/developer/ashop
 
 ### Best Practice
 
-You can see that managing the user journey can be quite difficult as users can land on any URL of your SPA and navigate to any other page. Therefore, it is best to specify a Page Delivery rule that includes the base URL so that it includes your entire SPA. In this way, you don't need to think about all the different journeys and paths that a user might take to get to a page on which you want to show an A/B Test or Experience Targeting (XT) activity.
+You can see that managing the user journey can be quite difficult as users can land on any URL of your SPA and navigate to any other page. Therefore, it is best to specify a Page Delivery rule that includes the base URL so that it includes your entire SPA. In this way, you do not need to think about all the different journeys and paths that a user might take to get to a page on which you want to show an A/B Test or Experience Targeting (XT) activity.
 
 For example, in order to resolve the issue faced above, we can specify the base URL in the Page Delivery settings as such:
 

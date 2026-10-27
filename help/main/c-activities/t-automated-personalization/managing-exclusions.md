@@ -28,7 +28,7 @@ topic_v2:
 ---
 # Manage exclusions
 
-Take control of your [!UICONTROL Automated Personalization] (AP) strategy by mastering exclusions. Whether you're preventing duplicate offers, refining experience combinations, or removing default content, exclusions empower you to deliver cleaner, more relevant experiences that align with your goals and audience expectations.
+Take control of your [!UICONTROL Automated Personalization] (AP) strategy by mastering exclusions. Whether you are preventing duplicate offers, refining experience combinations, or removing default content, exclusions empower you to deliver cleaner, more relevant experiences that align with your goals and audience expectations.
 
 ## Allow or disallow duplicate offers {#concept_4EF78013F80E48EFA024AE0274C9F037}
 
@@ -42,7 +42,7 @@ You might have an activity, for example, with six locations on a page with 12 of
 
 Exclude specific experiences if you want to exclude certain offer combinations from your AP activity. 
 
-There might be certain combinations that don't work together, or you might be limiting the number of experiences tested to decrease traffic requirements for your activity. 
+There might be certain combinations that do not work together, or you might be limiting the number of experiences tested to decrease traffic requirements for your activity. 
 
 1. While [creating or editing an AP activity](/help/main/c-activities/t-automated-personalization/create-ap-activity.md), click the **Manage Content** icon ( ![Manage Content icon](/help/main/assets/icons/Experience.svg) ).
 

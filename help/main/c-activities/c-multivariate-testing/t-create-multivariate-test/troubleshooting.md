@@ -21,7 +21,7 @@ topic_v2:
 
 This article contains suggestions for resolving some issues that might occur when designing a [!UICONTROL Multivariate Test] (MVT) in [!DNL Adobe Target].
 
-* When editing an activity, if you used [!DNL Analytics]-based metrics and the report suite doesn't load (spinner displays), switch the metrics to [!DNL Target] metrics and then switch again to [!DNL Analytics]-based metric. The report suite should now load. 
+* When editing an activity, if you used [!DNL Analytics]-based metrics and the report suite does not load (spinner displays), switch the metrics to [!DNL Target] metrics and then switch again to [!DNL Analytics]-based metric. The report suite should now load. 
 * If you make changes to a test that is already running, you might reset the test and its data.
 
   [!DNL Target] lets you edit a live activity. Editing an activity that is in progress could reset the test, so reports might not recognize some of the changes.

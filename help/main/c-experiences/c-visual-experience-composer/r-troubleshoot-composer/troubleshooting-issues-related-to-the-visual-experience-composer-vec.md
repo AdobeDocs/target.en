@@ -43,14 +43,14 @@ To avoid this problem, ensure that you do not trim or remove these two parameter
 
 +++
 
-## My page won't open in the EEC, or loads slowly. Activities or experiences load slowly in the VEC. (VEC only) {#section_71E7601BE9894E3DA3A7FBBB72B6B0C1}
+## My page will not open in the EEC, or loads slowly. Activities or experiences load slowly in the VEC. (VEC only) {#section_71E7601BE9894E3DA3A7FBBB72B6B0C1}
 
 +++Details
 Several issues can affect page performance in the [!UICONTROL Target] experience composers. Some common issues include:
 
 * You do not have an mbox on the page. 
 * Your site uses proxy blocking, which does not allow the page to be opened in either experience composer. 
-* Your site doesn't allow itself to be opened in an iFrame.
+* Your site does not allow itself to be opened in an iFrame.
 
 If issues occur in the [!UICONTROL Enhanced Experience Composer], try turning off the [!UICONTROL Enhanced Experience Composer] and use the [!UICONTROL Visual Experience Composer] instead.
 
@@ -76,7 +76,7 @@ If neither the [!UICONTROL Visual Experience Composer] nor the [!UICONTROL Enhan
 >
 >* Enable the rule when you are editing in the VEC and disable the rule when you are not using the VEC.
 >
->For the [!UICONTROL Modify Response Header] extension ([!DNL Firefox]), because you can't add a URL rule, you must do the following:
+>For the [!UICONTROL Modify Response Header] extension ([!DNL Firefox]), because you cannot add a URL rule, you must do the following:
 >
 >* Enable the rule when you are editing in the VEC and disable the rule when you are not using the VEC.
 

@@ -31,7 +31,7 @@ Use [!UICONTROL Experience Fragments] (XFs) and [!UICONTROL Content Fragments] (
 
 Using [!UICONTROL Experience Fragments] and [!UICONTROL Content Fragments] created in [!DNL AEM] in [!DNL Target] activities let you combine the ease-of-use and power of [!DNL AEM] with powerful Artificial Intelligence (AI) and Machine Learning (ML) capabilities in [!DNL Target] to test and personalize experiences at scale.
 
-[!DNL AEM] brings together all of your content and assets in a central location to fuel your personalization strategy. [!DNL AEM] lets you easily create content for desktops, tablets, and mobile devices in one location without writing code. There's no need to create pages for every device. [!DNL AEM] automatically adjusts each experience for each device using your content.
+[!DNL AEM] brings together all of your content and assets in a central location to fuel your personalization strategy. [!DNL AEM] lets you easily create content for desktops, tablets, and mobile devices in one location without writing code. There is no need to create pages for every device. [!DNL AEM] automatically adjusts each experience for each device using your content.
 
 [!DNL Target] lets you deliver personalized experiences at scale based on a combination of rules-based and AI-driven machine learning approaches that incorporate behavioral, contextual, and offline variables.
 

@@ -287,7 +287,7 @@ Check out [Template Rules](/help/main/c-experiences/c-visual-experience-composer
 **I am tired of the "allow your browser to load scripts" message when I attempt to load my page in the [!UICONTROL Visual Experience Composer] (VEC). How can I avoid this?**
 
 +++See details
-This is because your site has mixed content—it's a site that fetches both HTTP and HTTPS resources. Request that your IT team move to HTTPS completely.
+This is because your site has mixed content—it is a site that fetches both HTTP and HTTPS resources. Request that your IT team move to HTTPS completely.
 
 Until this happens, follow the instructions in [Enabling Mixed Content in Your Browser](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/mixed-content.md#concept_46D022D50280468C9EF6D5DF6EFC911C) to allow your browser to load mixed content. This is a security feature of most modern browsers.
 
@@ -325,7 +325,7 @@ You can always use [Enhanced Experience Composer option at the activity level](/
 
 +++
 
-**Why don't I see an option to swap images?**
+**Why do not I see an option to swap images?**
 
 +++See details
 Reach out to Adobe to [ensure that your account is set up for Scene7](/help/main/administrating-target/scene7-settings.md#task_37AD0768EFBA4E588955FE3D5DD670A5). Once provisioned, you will be able to swap an image with another image with ease.
@@ -355,7 +355,7 @@ One of the ways is to use the [Custom Code Editor](/help/main/c-experiences/c-vi
 
 +++
 
-**Why can't I go past the log-in page within the [!UICONTROL Visual Experience Composer] (VEC) or to a page buried deep within for which I don't have a specific URL?**
+**Why cannot I go past the log-in page within the [!UICONTROL Visual Experience Composer] (VEC) or to a page buried deep within for which I do not have a specific URL?**
 
 +++See details
 Use the [!UICONTROL Compose] and [!UICONTROL Browse] features to navigate to the page of choice and start creating your experience.
@@ -391,7 +391,7 @@ We have [Redirect URL feature](/help/main/c-experiences/c-manage-content/offer-r
 **Why is content delivery not happening in my QA process?**
 
 +++See details
-It's possible that your site might have dynamic IDs, duplicate IDs, or dynamic classes on elements. You might have to evaluate the site preference options at the account level (or at activity level if the issue is specific to a domain or a page). See [CSS Selectors](/help/main/administrating-target/visual-experience-composer-set-up.md#css).
+It is possible that your site might have dynamic IDs, duplicate IDs, or dynamic classes on elements. You might have to evaluate the site preference options at the account level (or at activity level if the issue is specific to a domain or a page). See [CSS Selectors](/help/main/administrating-target/visual-experience-composer-set-up.md#css).
 
 +++
 
@@ -436,7 +436,7 @@ Note that [!DNL Target] collects the data in this regard from the time you add t
 **I cannot define audiences prior to running the activity. I find this aspect of reporting audiences in [!DNL Target] activities restrictive. What can I do to make this process easier?**
 
 +++See details
-This is where [Analytics for Target (A4T)](/help/main/c-integrating-target-with-mac/a4t/a4t.md#concept_7540C8C04259434AB6EE33B09F47A1DE) is handy. If you have [!DNL Adobe Analytics], simply choose the source as [!DNL Analytics], which eliminates this restriction. Now you can perform analysis on any audience at any point and you don't need to define the reporting audiences up front.
+This is where [Analytics for Target (A4T)](/help/main/c-integrating-target-with-mac/a4t/a4t.md#concept_7540C8C04259434AB6EE33B09F47A1DE) is handy. If you have [!DNL Adobe Analytics], simply choose the source as [!DNL Analytics], which eliminates this restriction. Now you can perform analysis on any audience at any point and you do not need to define the reporting audiences up front.
 
 +++
 

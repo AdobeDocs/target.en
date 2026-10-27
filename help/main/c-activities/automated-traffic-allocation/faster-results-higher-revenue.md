@@ -20,7 +20,7 @@ topic_v2:
 ---
 # [!UICONTROL Auto-Allocate] gives you faster test results and higher revenue than a manual test
 
-With a manual A/B activity, you might be losing conversions because you can't deliver the winning experience to your entire audience until the activity completes. Your traffic distribution remains fixed even after you recognize that some experiences are outperforming others, and the activity must run its entire course before you can act on a winner.
+With a manual A/B activity, you might be losing conversions because you cannot deliver the winning experience to your entire audience until the activity completes. Your traffic distribution remains fixed even after you recognize that some experiences are outperforming others, and the activity must run its entire course before you can act on a winner.
 
 ## Auto-allocating traffic
 

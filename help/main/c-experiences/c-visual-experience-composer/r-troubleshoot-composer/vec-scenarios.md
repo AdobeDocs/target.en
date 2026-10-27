@@ -91,7 +91,7 @@ Selector: `#wrap > ul.nav:eq(0) > li.women-section:eq(0)`
 
 **Result:**
 
-The selector does not work, because `ul.nav:eq(0)` provides a dynamically added element. The element won't be available and the action is not applied. When a similar list item with same class is added dynamically or manually after an activity has been created, a new element at the first position is created. This breaks the selector.
+The selector does not work, because `ul.nav:eq(0)` provides a dynamically added element. The element will not be available and the action is not applied. When a similar list item with same class is added dynamically or manually after an activity has been created, a new element at the first position is created. This breaks the selector.
 
 Before:
 

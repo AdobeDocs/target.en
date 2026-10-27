@@ -40,7 +40,7 @@ Information about additional resources to help you learn about Target features a
 
 Discover the [!UICONTROL Adobe Target Community]: Your hub for insights and collaboration.
 
-The [!UICONTROL Adobe Target Community Forum ]is your go-to destination for everything [!DNL Adobe Targe]t. Whether you're just getting started or you're a seasoned practitioner, the community offers valuable opportunities to:
+The [!UICONTROL Adobe Target Community Forum ]is your go-to destination for everything [!DNL Adobe Targe]t. Whether you are just getting started or you are a seasoned practitioner, the community offers valuable opportunities to:
 
 * **Explore [!DNL Target] features**: Learn best practices and discover new ways to use [!DNL Target].
 * **Connect and collaborate**: Engage with peers and [!DNL Adobe] experts to share insights and solve challenges together.

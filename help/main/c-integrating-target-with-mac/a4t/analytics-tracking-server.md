@@ -50,7 +50,7 @@ The debugger should be viewed on a page where the activity is delivered to ensur
 
    The [!DNL Analytics] tracking server is found in the [!UICONTROL Hostname] section of the debugger.
 
-   * **First-party tracking server**: If the hostname of the request matches the domain you are on, then it's a first-party tracking server. For example, if you are on `adobe.com`, `adobe.com` is the first-party tracking server.
+   * **First-party tracking server**: If the hostname of the request matches the domain you are on, then it is a first-party tracking server. For example, if you are on `adobe.com`, `adobe.com` is the first-party tracking server.
    * **Third-party tracking server**: A third-party tracking server is typically `[company].sc.omtrdc.net` where the company is the name of your company, but always ends in `sc.omtrdc.net`.
    * **CNAME implementations**: `sstats.adobe.com` is an example of a CNAME first-party tracking server for an https (secure) request. `stats.adobe.com` is an example of a CNAME first-party request for an http (non-secure) page.
 
@@ -78,7 +78,7 @@ The Developer Tools should be viewed on a page where the activity is delivered t
 
    The tracking server is the hostname of the request.
 
-   * **First-party tracking server**: If the hostname of the request matches the domain you are on, then it's a first-party tracking server. For example, if you are on `adobe.com`, `adobe.com` is the first-party tracking server.
+   * **First-party tracking server**: If the hostname of the request matches the domain you are on, then it is a first-party tracking server. For example, if you are on `adobe.com`, `adobe.com` is the first-party tracking server.
    * **Third-party tracking server**: A third-party tracking server is typically `[company].sc.omtrdc.net` where the company is the name of your company, but always ends in `sc.omtrdc.net`.
    * **CNAME implementations**: `sstats.adobe.com` is an example of a CNAME first-party tracking server for an https (secure) request. `stats.adobe.com` is an example of a CNAME first-party request for an http (non-secure) page.
 

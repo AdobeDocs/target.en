@@ -32,7 +32,7 @@ Mobile targeting is delivered by [DeviceAtlas](https://deviceatlas.com/device-da
 
 Device detection is accomplished by analyzing User-Agent strings. Some device manufacturers, such as Apple, disable this functionality by not providing enough information in the UA.
 
-For example, Apple devices don't share device model-specific tokens in the UA. The result is that it is not possible to detect iPhone models (such as iPhone 12 Pro, iPhone 12, iPhone 11 Pro Max, and so forth) using a simple keyword-based method.
+For example, Apple devices do not share device model-specific tokens in the UA. The result is that it is not possible to detect iPhone models (such as iPhone 12 Pro, iPhone 12, iPhone 11 Pro Max, and so forth) using a simple keyword-based method.
 
 To solve this issue, [!DNL Target] collects additional data to accurately detect iPhones and other Apple devices using the following parameters:
 

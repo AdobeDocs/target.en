@@ -63,7 +63,7 @@ If you then view a Brand B product page, the `entity.brand` value will be reset 
 
 ### Upselling to a more expensive product
 
-Suppose that you're an apparel retailer and want to encourage users to consider higher-priced and, therefore, more profitable items. You can use the "equals" and "is between" operators to promote more expensive items that are from the same category and the same brand. For example, a shoe retailer can promote more expensive running shoes in an effort to up-sell a visitor looking at running shoes, as in the following sample:
+Suppose that you are an apparel retailer and want to encourage users to consider higher-priced and, therefore, more profitable items. You can use the "equals" and "is between" operators to promote more expensive items that are from the same category and the same brand. For example, a shoe retailer can promote more expensive running shoes in an effort to up-sell a visitor looking at running shoes, as in the following sample:
 
 ![Upselling](/help/main/c-recommendations/c-algorithms/assets/upsell-new.png)
 

@@ -28,9 +28,9 @@ A/B testing in [!DNL Adobe Target] forms the backbone of most digital marketing 
 
 ## Pitfall 1: Ignoring the effects of the significance level {#section_55F5577A13C6470BA1417C2B735C6B1D}
 
-How likely is it that your test reports a significant difference in conversion rate between two offers when in fact there is none? That's what the *significance level* of a test helps determine. Such misleading findings are often called a false positive, and in the world of statistics, are called a Type I error (if you incorrectly reject the null hypothesis that is true).
+How likely is it that your test reports a significant difference in conversion rate between two offers when in fact there is none? That is what the *significance level* of a test helps determine. Such misleading findings are often called a false positive, and in the world of statistics, are called a Type I error (if you incorrectly reject the null hypothesis that is true).
 
-When you specify the significance level of an A/B test, you're making a trade-off between your tolerance for accepting that one experience is better than the other when it really isn't (Type I error or "false positive") versus seeing no statistical difference between the experiences when there actually is a true difference (Type II error or "false negative"). The *confidence level* is determined before a test is run.
+When you specify the significance level of an A/B test, you are making a trade-off between your tolerance for accepting that one experience is better than the other when it really is not (Type I error or "false positive") versus seeing no statistical difference between the experiences when there actually is a true difference (Type II error or "false negative"). The *confidence level* is determined before a test is run.
 
 The *confidence interval*, which is determined after a test is complete, is impacted by three key factors: 
 
@@ -38,7 +38,7 @@ The *confidence interval*, which is determined after a test is complete, is impa
 * Significance level
 * Population standard deviation 
 
-Because the marketer selected the significance level before the test is designed and the population standard deviation can't be impacted, the only "controllable" factor is the sample size. The sample size required for a confidence interval you are comfortable with, and the resulting time it takes to reach that sample size, is a key decision a marketer must determine during the test design.
+Because the marketer selected the significance level before the test is designed and the population standard deviation cannot be impacted, the only "controllable" factor is the sample size. The sample size required for a confidence interval you are comfortable with, and the resulting time it takes to reach that sample size, is a key decision a marketer must determine during the test design.
 
 Another directly related term, the *confidence level*, takes more of a glass half-full approach. Rather than stating the likelihood that you get a false positive, as the significance level does, the confidence level represents the likelihood that your test does not make that mistake.
 
@@ -46,7 +46,7 @@ Confidence level and significance level are directly related because:
 
 100% - confidence level = significance level
 
-In A/B testing, marketers often use 95% confidence levels. Clearly, based on the above equation, that corresponds to a significance level of 5%. Testing with a 95% confidence level means you have a 5% chance of detecting a statistically significant lift, even when in reality, there's no difference between the offers.
+In A/B testing, marketers often use 95% confidence levels. Clearly, based on the above equation, that corresponds to a significance level of 5%. Testing with a 95% confidence level means you have a 5% chance of detecting a statistically significant lift, even when in reality, there is no difference between the offers.
 
 As the graph below illustrates, the more tests that you run, the more likely at least one of those tests results in a false positive. For example, if you run 10 tests using a 95% confidence level, there is approximately a 40% chance that you detect one or more false positives (given that there is no real lift: Pr(at least one false positive) = 1 - Pr(no false positives) = 1 - 0.95^10 = 40%).
 
@@ -62,11 +62,11 @@ However, two situations warrant paying close attention to the significance level
 
   The more tests that you run, the greater the likelihood that you experience at least one false positive among those tests. In essence, each post-test segment represents a separate test, which increases the likelihood of a false positive. This increase can be even more significant if segments are correlated.
 
-  Should you not do post-test segmentation? No, post-test segments are valuable. Instead, to avoid this cumulative false positive issue with post-test segmentation, after you've identified a post-test segment, consider testing it in a new test. Alternatively, you can apply the Bonferroni correction, discussed next. 
+  Should you not do post-test segmentation? No, post-test segments are valuable. Instead, to avoid this cumulative false positive issue with post-test segmentation, after you have identified a post-test segment, consider testing it in a new test. Alternatively, you can apply the Bonferroni correction, discussed next. 
 
-* **Testing Multiple Offers:** Marketers frequently test more than two offers (or experiences) against each other. That's why you sometimes see A/B testing solutions called A/B/n testing, where n is the number of offers that you are testing simultaneously.
+* **Testing Multiple Offers:** Marketers frequently test more than two offers (or experiences) against each other. That is why you sometimes see A/B testing solutions called A/B/n testing, where n is the number of offers that you are testing simultaneously.
 
-  It's important to note that *each* offer tested has a false positive rate equal to the significance level, as described above. Again, you are effectively running multiple tests when several offers are pitted against each other within a single test environment. For example, if you compare five offers in an A/B/C/D/E test, effectively you form four comparisons: control to B, control to C, control to D, control to E. With a confidence level of 95%, rather than the 5% probability of a false positive, you actually have 18.5%.
+  It is important to note that *each* offer tested has a false positive rate equal to the significance level, as described above. Again, you are effectively running multiple tests when several offers are pitted against each other within a single test environment. For example, if you compare five offers in an A/B/C/D/E test, effectively you form four comparisons: control to B, control to C, control to D, control to E. With a confidence level of 95%, rather than the 5% probability of a false positive, you actually have 18.5%.
 
   To keep your overall confidence level at 95% and avoid this issue, you apply what is known as the Bonferroni correction. Using this correction, you simply divide the significance level by the number of comparisons to come up with the significance level that you must achieve a 95% confidence level.
 
@@ -82,7 +82,7 @@ Offers A and B have the highest observed lift during the test, and it would be u
 
 The takeaway here is that both offers A and B should be considered winners of the test.
 
-It's typically not feasible to run the test long enough to identify the true relative performance of the alternatives, and oftentimes the difference in performance between the alternatives is too small to substantially impact the conversion rate. In such cases, you can interpret the outcome as a tie and use other considerations, such as strategy or alignment with other elements of the page, to determine which offer to implement. With multiple tests, you must be open to more than one winner, which sometimes considerably opens up the possibilities for the direction to take with your website development.
+It is typically not feasible to run the test long enough to identify the true relative performance of the alternatives, and oftentimes the difference in performance between the alternatives is too small to substantially impact the conversion rate. In such cases, you can interpret the outcome as a tie and use other considerations, such as strategy or alignment with other elements of the page, to determine which offer to implement. With multiple tests, you must be open to more than one winner, which sometimes considerably opens up the possibilities for the direction to take with your website development.
 
 If you do want to identify the offer with the highest conversion rate, you are comparing all offers to every other offer. In the example above, you have n = 5 offers—you have to make n(n-1)/2 comparisons, or 5&#42;(5-1)/2 = 10 comparisons. In this case, the Bonferroni correction requires that the significance level of the test be 5%/10 = 0.5%, which corresponds to a confidence level of 99.5%. However, such a high confidence level might require you to run the test for an unreasonably long period.
 
@@ -90,7 +90,7 @@ If you do want to identify the offer with the highest conversion rate, you are c
 
 Statistical power is the probability that a test detects a real difference in conversion rate between offers. Because of the random, or as statisticians like to call it, "stochastic," nature of conversion events, a test might not show a statistically significant difference, even when a real difference exists in conversion rate between two offers in the end. Call it bad luck or by chance. Failing to detect a true difference in conversion rate is called a false negative or a Type II error.
 
-There are two key factors that determine the power of a test. First is the sample size, that is, the number of visitors included in the test. Second is the magnitude of the difference in conversion rate that you want the test to detect. Perhaps this is intuitive, but if you are interested in detecting only large conversion rate differences, there's a higher probability that the test will actually detect such large differences. Along those lines, the smaller the difference you want to detect, the larger the sample size, and therefore, time to get that larger sample size, you require.
+There are two key factors that determine the power of a test. First is the sample size, that is, the number of visitors included in the test. Second is the magnitude of the difference in conversion rate that you want the test to detect. Perhaps this is intuitive, but if you are interested in detecting only large conversion rate differences, there is a higher probability that the test will actually detect such large differences. Along those lines, the smaller the difference you want to detect, the larger the sample size, and therefore, time to get that larger sample size, you require.
 
 Today's marketers under-power a remarkable number of tests. In other words, they use a sample size that is too small. That means that they have a slim chance of detecting true positives, even when a substantial difference in conversion rate actually exists. In fact, if you continually run underpowered tests, the number of false positives can be comparable to, or even dominate, the number of true positives. This often leads to implementing neutral changes to a site (a waste of time) or changes that actually reduce conversion rates.
 
@@ -100,25 +100,25 @@ To avoid under-powering your test, consider that a typical standard for a well-p
 
 ## Pitfall 4: Using one-tailed tests {#section_8BB136D1DD6341FA9772F4C31E9AA37C}
 
-One-tailed tests require a smaller observed difference in conversion rates between the offers to call a winner at a certain significance level. This type of test seems to appeal because winners can be called earlier and more often than when using two-tailed tests. But in keeping with the saying, "There's no free lunch," one-tailed tests come at an expense.
+One-tailed tests require a smaller observed difference in conversion rates between the offers to call a winner at a certain significance level. This type of test seems to appeal because winners can be called earlier and more often than when using two-tailed tests. But in keeping with the saying, "There is no free lunch," one-tailed tests come at an expense.
 
 In a one-tailed test, you test whether offer B is better than offer A. The direction of the test has to be determined before the test commences, or "a priori" in statistics-speak. In other words, you must decide whether to test for B being better than A or A being better than B *before* initiating the test. However, if you look at the results of the A/B test and see that B is doing better than A and *then* decide to do a one-tailed test to see whether that difference is statistically significant, you are violating the assumptions behind the statistical test. Violating the assumptions of the test means that your confidence intervals are unreliable and the test has a higher false positive rate than you would expect.
 
-You might view a one-tailed test as putting an offer on trial with a judge who has already made up his or her mind. In a one-tailed test, you've already decided what the winning offer is and want to prove it, rather than giving each experience an equal chance to prove itself as the winner. One-tailed tests should only be used in the rare situations in which you are only interested in whether one offer is better than the other and not the other way around. To avoid the issue of the one-tailed test, use an A/B testing solution that always uses two-tailed tests, such as [!DNL Adobe Target].
+You might view a one-tailed test as putting an offer on trial with a judge who has already made up his or her mind. In a one-tailed test, you have already decided what the winning offer is and want to prove it, rather than giving each experience an equal chance to prove itself as the winner. One-tailed tests should only be used in the rare situations in which you are only interested in whether one offer is better than the other and not the other way around. To avoid the issue of the one-tailed test, use an A/B testing solution that always uses two-tailed tests, such as [!DNL Adobe Target].
 
 ## Pitfall 5: Monitoring tests {#section_EA42F8D5967B439284D863C46706A1BA}
 
-Marketers frequently monitor A/B tests until the test determines a significant result. After all, why test after you've achieved statistical significance?
+Marketers frequently monitor A/B tests until the test determines a significant result. After all, why test after you have achieved statistical significance?
 
-Unfortunately, it's not that simple. Not to throw a wrench in the works, but it turns out that monitoring the results adversely impacts the effective statistical significance of the test. It greatly increases the likelihood of false positives and makes your confidence intervals untrustworthy.
+Unfortunately, it is not that simple. Not to throw a wrench in the works, but it turns out that monitoring the results adversely impacts the effective statistical significance of the test. It greatly increases the likelihood of false positives and makes your confidence intervals untrustworthy.
 
-This might seem confusing. It sounds like we are saying that just from looking at your results mid-test, you can cause them to lose their statistical significance. That's not exactly what's going on. The following example explains why.
+This might seem confusing. It sounds like we are saying that just from looking at your results mid-test, you can cause them to lose their statistical significance. That is not exactly what's going on. The following example explains why.
 
 Let's say you simulate 10,000 conversion events of two offers, with both offers having 10% conversion rates. Because the conversion rates are the same, you should detect no difference in conversion lift when you test the two offers against each other. Using a 95% confidence interval, the test results in the expected 5% false positive rate when it is evaluated after collecting all 10,000 observations. So if we run 100 of these tests, on average we get five false positives (in actuality, all positives are false in this example because there is no difference in conversion rate between the two offers). However, if we evaluate the test ten times during the test—every 1,000 observations—it turns out that the false positive rate jumps up to 16%. Monitoring the test has more than tripled the risk of false positives! How can this be?
 
 To understand why this occurs, you must consider the different actions taken when a significant result is detected and when it is not detected. When a statistically significant result is detected, the test is stopped and a winner is declared. However, if the result is not statistically significant, we allow the test to continue. This situation strongly favors the positive outcome, and hence, distorts the effective significance level of the test.
 
-To avoid this problem, you should determine an adequate length of time the test runs before initiating the test. Although it's fine to look at the test results during the test to make sure that you implemented the test correctly, do not draw conclusions or stop the test before the required number of visitors is reached. In other words, no peeking!
+To avoid this problem, you should determine an adequate length of time the test runs before initiating the test. Although it is fine to look at the test results during the test to make sure that you implemented the test correctly, do not draw conclusions or stop the test before the required number of visitors is reached. In other words, no peeking!
 
 ## Pitfall 6: Stopping tests prematurely {#section_DF01A97275E44CA5859D825E0DE2F49F}
 
@@ -150,9 +150,9 @@ As another example, if your A/B test's traffic allocation is split 50/50, and th
 
 ## Pitfall 8: Not considering novelty effects {#section_90F0D24C40294A8F801B1A6D6DEF9003}
 
-Other unexpected things can happen if we don't allow enough time for running a test. This time the problem is not a statistics problem; it's simply a reaction to change by the visitors. If you change a well-established part of your website, returning visitors might at first engage less fully with the new offer because of changes to their usual workflow. This can temporarily cause a superior new offer to perform less optimally until returning visitors become accustomed to it—-a small price to pay given the long-term gains that the superior offer delivers.
+Other unexpected things can happen if we do not allow enough time for running a test. This time the problem is not a statistics problem; it is simply a reaction to change by the visitors. If you change a well-established part of your website, returning visitors might at first engage less fully with the new offer because of changes to their usual workflow. This can temporarily cause a superior new offer to perform less optimally until returning visitors become accustomed to it—-a small price to pay given the long-term gains that the superior offer delivers.
 
-To determine if the new offer under-performs because of a novelty effect or because it's truly inferior, you can segment your visitors into new and returning visitors and compare the conversion rates. If it's just the novelty effect, the new offer wins with new visitors. Eventually, as returning visitors get accustomed to the new changes, the offer wins with them, too.
+To determine if the new offer under-performs because of a novelty effect or because it is truly inferior, you can segment your visitors into new and returning visitors and compare the conversion rates. If it is just the novelty effect, the new offer wins with new visitors. Eventually, as returning visitors get accustomed to the new changes, the offer wins with them, too.
 
 The novelty effect can also work in reverse. Visitors often react positively to a change just because it introduces something new. After a while, as the new content becomes stale or less exciting to the visitor, the conversion rate drops. This effect is harder to identify, but carefully monitoring changes in the conversion rate is key to detecting this.
 

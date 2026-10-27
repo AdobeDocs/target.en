@@ -42,7 +42,7 @@ The following success metrics are available:
 |Custom Scoring|Engagement-based|Aggregated score based on the value assigned to pages visited on the site, from the point the visitor first sees the activity's first display [!DNL Target] request.|
 |Time on Site|Engagement-based|Time spent in the visit (in seconds) from the point the visitor sees the activity's first display [!DNL Target] request to the load of the final page with a request in the session.|
 
-For engagement-based metrics (unlike for conversion-based and revenue-based metrics), visitors must re-qualify for the activity on each visit in order to increment the count for that session. The associated metric begins incrementing after re-qualification and stops at the end of each visitor's session. A session ends after 30 minutes of inactivity. Therefore, you won't see results immediately during testing; however, all results from that session are available within a few minutes of the session ending.
+For engagement-based metrics (unlike for conversion-based and revenue-based metrics), visitors must re-qualify for the activity on each visit in order to increment the count for that session. The associated metric begins incrementing after re-qualification and stops at the end of each visitor's session. A session ends after 30 minutes of inactivity. Therefore, you will not see results immediately during testing; however, all results from that session are available within a few minutes of the session ending.
 
 ## Custom success metrics
 

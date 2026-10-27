@@ -19,7 +19,7 @@ topic_v2:
 ---
 # Edit an activity
 
-Learn how to edit existing activities in [!DNL Adobe Target]. This article covers the different methods available in the [!DNL Target] interface for modifying activities. Whether you're updating experiences, adjusting targeting rules, or configuring goals, [!DNL Target] ensures that your changes are saved safely before activation.
+Learn how to edit existing activities in [!DNL Adobe Target]. This article covers the different methods available in the [!DNL Target] interface for modifying activities. Whether you are updating experiences, adjusting targeting rules, or configuring goals, [!DNL Target] ensures that your changes are saved safely before activation.
 
 [!DNL Target] provides various places in the UI where you can edit existing activities. The process varies depending on the method that you choose.
 

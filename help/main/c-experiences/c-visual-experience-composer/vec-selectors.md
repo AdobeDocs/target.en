@@ -82,7 +82,7 @@ For information about when to use CSS selectors and when to use unique IDs, see 
 
    Selector: `#container` > `ul.navigation:eq(0)` > `li.item:eq(0)` (" > " indicates the immediate child.)
 
-   `eq` tells the index there's an element that has "tagName=UL" and the first class is `navigation`. Therefore, `index` is 0. See the [Selectors](https://developer.mozilla.org/en-US/docs/Web/Guide/CSS/Getting_started/Selectors) article in MDN for more information. 
+   `eq` tells the index there is an element that has "tagName=UL" and the first class is `navigation`. Therefore, `index` is 0. See the [Selectors](https://developer.mozilla.org/en-US/docs/Web/Guide/CSS/Getting_started/Selectors) article in MDN for more information. 
 
 1. If an element does not contain a class, [!DNL Target] uses `tagName` for the element and traverses up the parent element until either the `<HTML>` element or an element with an ID is found.
 

@@ -38,4 +38,4 @@ The [!UICONTROL Collisions] list shows every [!DNL Target] scenario where the mb
 
 The list shows the status and priority of each potential collision, along with other information. You can use the status and priority to help you determine the likelihood of a collision occurring. Consider two activities that might collide. If one activity is not currently active, a collision cannot occur. A collision is only possible if the inactive activity becomes active. If the potential collision is between two live activities with the same priority and the same audience, a collision occurs. You can change the priority or status to prevent the collision.
 
-If the audiences are different, there is still a potential collision because it's possible a particular visitor could belong to multiple audiences.
+If the audiences are different, there is still a potential collision because it is possible a particular visitor could belong to multiple audiences.

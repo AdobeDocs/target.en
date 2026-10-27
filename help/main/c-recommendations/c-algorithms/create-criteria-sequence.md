@@ -29,7 +29,7 @@ Use sequences of up to five criteria to exercise greater control of the items th
 
 To create a criteria sequence, you must first create the criteria you want to include in the sequence. See [Create criteria](/help/main/c-recommendations/c-algorithms/create-new-algorithm.md) for more information.
 
-By using a criteria sequence, you can provide additional targeted recommendations, instead of using more generic backup recommendations, when a criteria doesn't return enough results to fill your design. Typically, a criteria sequence proceeds from more specific targeting, which might return fewer results, to more general targeting, which usually returns more results.
+By using a criteria sequence, you can provide additional targeted recommendations, instead of using more generic backup recommendations, when a criteria does not return enough results to fill your design. Typically, a criteria sequence proceeds from more specific targeting, which might return fewer results, to more general targeting, which usually returns more results.
 
 Your criteria sequences might vary in order depending on the page type, as shown in the following examples:
 

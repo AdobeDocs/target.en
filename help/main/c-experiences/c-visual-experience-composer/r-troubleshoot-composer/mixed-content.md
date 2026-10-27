@@ -31,7 +31,7 @@ A warning message displays if the [!UICONTROL Visual Experience Composer] (VEC) 
 
 Previously, when mixed content was not allowed, you could still perform some actions in Step 1 of the three-step guided workflow when creating activities. [!DNL Target] now blocks actions in Step 1. When this message displays, you must enable mixed content before continuing creating the activity.
 
-Your browser's security settings might block mixed content or insecure (HTTP) content being loaded into a secure (HTTPS) page or frame (such as the VEC). If you don't want to disable your browser's security settings, you must have an HTTPS website.
+Your browser's security settings might block mixed content or insecure (HTTP) content being loaded into a secure (HTTPS) page or frame (such as the VEC). If you do not want to disable your browser's security settings, you must have an HTTPS website.
 
 If your website is running on an insecure (HTTP) domain, you are required to allow the VEC to load active mixed content.
 
@@ -43,7 +43,7 @@ For more information, see [Mixed Content](https://developer.mozilla.org/en-US/do
 
 ## Enabling mixed content in [!DNL Google Chrome] {#task_FF297A08F66E47A588C14FD67C037B3A}
 
-If you're visiting a site via a secure connection, [!DNL Chrome] verifies that the content on the web page has been transmitted safely.
+If you are visiting a site via a secure connection, [!DNL Chrome] verifies that the content on the web page has been transmitted safely.
 
 See "[Manage warnings about unsafe sites](https://support.google.com/chrome/answer/99020?hl=en)" in Google Chrome Help.
 
@@ -82,7 +82,7 @@ By default, [!DNL Firebox] blocks pages that mix secure and insecure content. Yo
 
 ## Enabling mixed content in [!DNL Microsoft Edge]
 
-If you're visiting a site via a secure connection, [!DNL Edge] verifies that the content on the web page has been transmitted safely.
+If you are visiting a site via a secure connection, [!DNL Edge] verifies that the content on the web page has been transmitted safely.
 
 If you are using the VEC with the latest version of [!DNL Edge], you must update your site settings. Visitors to your site do not need to complete these steps.
 

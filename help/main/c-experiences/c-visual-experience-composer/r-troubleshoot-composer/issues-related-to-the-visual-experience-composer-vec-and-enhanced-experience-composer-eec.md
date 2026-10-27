@@ -53,7 +53,7 @@ Be aware of the changes that impact the VEC and EEC when using the following [!D
 
 **Chrome 80 (August 2020)**: With the changes implemented in August 2020, all users with Chrome 80+ browser versions:
 
-* Will *not* be able to download [!DNL Target] libraries while editing an activity (when these aren't already on the site). This is because the download call is made from the customer domain towards a secured [!DNL Adobe] domain and is rejected as unauthenticated.
+* Will *not* be able to download [!DNL Target] libraries while editing an activity (when these are not already on the site). This is because the download call is made from the customer domain towards a secured [!DNL Adobe] domain and is rejected as unauthenticated.
 
 * The EEC will *not* function for all users because it is not able to set the SameSite attribute for cookies on `adobemc.com domain`. Without this attribute, the browser rejects these cookies, causing the EEC to fail.
 
@@ -135,7 +135,7 @@ If the same DOM element ID is used on multiple elements on the page, changing on
 
 +++
 
-## I can't edit experiences for an iFrame-busting site. (VEC and EEC) {#section_9FE266B964314F2EB75604B4D7047200}
+## I cannot edit experiences for an iFrame-busting site. (VEC and EEC) {#section_9FE266B964314F2EB75604B4D7047200}
 
 +++Details
 This issue can be addressed by enabling the [!UICONTROL Enhanced Experience Composer] (EEC). Click **[!UICONTROL Administation]** > **[!UICONTROL Visual Experience Composer]**, then select the check box that enables the [!UICONTROL Enhanced Experience Composer]. The EEC uses an [!DNL Adobe]-managed proxy to load your page for editing. This proxy allows editing on iFrame-busting sites and allows editing on sites and pages where you have not yet added [!DNL Adobe Target] code. The activities do not deliver to the site until the code has been added. Some sites might not load via the EEC, in which case you can uncheck this option to load the EEC via an iFrame.
@@ -146,10 +146,10 @@ This issue can be addressed by enabling the [!UICONTROL Enhanced Experience Comp
 
 +++
 
-## I want to set up tests on pages that don't have the mbox/[!DNL Target] implementation done yet. (VEC and EEC) {#section_DE63BCCB5B124E10A71FA579B582A80A}
+## I want to set up tests on pages that do not have the mbox/[!DNL Target] implementation done yet. (VEC and EEC) {#section_DE63BCCB5B124E10A71FA579B582A80A}
 
 +++Details
-See "I can't edit experiences for an iFrame-bursting site" above.
+See "I cannot edit experiences for an iFrame-bursting site" above.
 
 +++
 

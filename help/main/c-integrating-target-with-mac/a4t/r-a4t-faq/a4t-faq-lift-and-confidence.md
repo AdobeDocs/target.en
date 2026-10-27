@@ -44,7 +44,7 @@ The confidence level is a probability, expressed as a percentage, that is equal 
 
 +++
 
-## Why can't I see lift and confidence on calculated metrics? {#lift-confidence}
+## Why cannot I see lift and confidence on calculated metrics? {#lift-confidence}
 
 +++Answer
 Calculated metrics are not currently supported in lift and confidence functions. Analytics calculates metrics at an aggregate-level, rather than at a visitor-level. Confidence, in particular, is a visitor-level calculation. 
@@ -65,7 +65,7 @@ Examples of unsupported metrics or use cases include:
 
 +++
 
-## Do lift and confidence work in Ad Hoc and Report Builder? If it's not native, can I do it in there myself? {#section_D8BB69AE700B4C5CB5FD28DB51F9A4E9}
+## Do lift and confidence work in Ad Hoc and Report Builder? If it is not native, can I do it in there myself? {#section_D8BB69AE700B4C5CB5FD28DB51F9A4E9}
 
 +++Answer
 Lift and confidence do not work in Ad Hoc or Report Builder, and cannot be calculated yourself for continuous variables. It is possible to calculate it manually for binary metrics.

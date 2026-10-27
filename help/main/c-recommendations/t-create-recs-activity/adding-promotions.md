@@ -29,7 +29,7 @@ Add promoted items and control their placement in your [!DNL Adobe Target Recomm
 
 When you create a [!DNL Recommendations] activity, you have the option to include promoted items in your [!DNL Recommendations] design. Promotions use available slots in a design and take precedence over criteria results and backup recommendations. For example, if your design has six slots and you use two of them for promotions, four slots are available for items recommended based on criteria.
 
-Promotions are de-duplicated against items recommended by the criteria for your activity, so a given item won't appear twice in a single recommendations tray.
+Promotions are de-duplicated against items recommended by the criteria for your activity, so a given item will not appear twice in a single recommendations tray.
 
 You can promote specific items, dynamically promote items, promote items based on attributes, or promote collections.
 
@@ -53,7 +53,7 @@ You can promote specific items, dynamically promote items, promote items based o
 
 1. Set a start date and end date for your promoted items.
 
-   If you don't set a start date, the promotion begins immediately. If you don't set an end date the promotion runs indefinitely.
+   If you do not set a start date, the promotion begins immediately. If you do not set an end date the promotion runs indefinitely.
 
 1. Select a **[!UICONTROL Promotion Type]**.
 
