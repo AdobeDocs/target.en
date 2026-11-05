@@ -4,7 +4,7 @@ description: Watch training videos to help you get the most out of [!DNL Target]
 title: Where Can I Find [!DNL Target] Training Videos?
 feature: Overview
 exl-id: 649eaf48-210c-4192-b727-53f0d146a1e2
-TQID: https://experienceleague.adobe.com/-jBPe4kOv1SBOEooHqskLy5s0DC5PiAGMTEjk4SkLCs
+TQID: 'https://experienceleague.adobe.com/-jBPe4kOv1SBOEooHqskLy5s0DC5PiAGMTEjk4SkLCs'
 product_v2:
   - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
     internal-label: Target
@@ -13,6 +13,11 @@ feature_v2:
     internal-label: Audiences
   - id: c93393a4-e558-47e1-992e-c91ed4d480ce
     internal-label: Implementation
+  - id: dfc8a233-f2b5-4811-bf63-b4262aebc5a5
+    internal-label: Administration and configuration
+subfeature_v2:
+  - id: fc9c2184-9102-403f-bd6c-0055021e4bea
+    internal-label: Overview
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
     internal-label: Implementation

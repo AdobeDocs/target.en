@@ -112,7 +112,7 @@ Users can be part of multiple workspaces and can even have different roles withi
 
 ### Obtain your workspace ID {#workspace-id}
 
-You'll need to pass the workspace ID to leverage Enterprise Permissions in [Target APIs](https://experienceleague.adobe.com/docs/target-dev/developer/server-side/server-side-overview.html){target=_blank}.
+You will need to pass the workspace ID to leverage Enterprise Permissions in [Target APIs](https://experienceleague.adobe.com/docs/target-dev/developer/server-side/server-side-overview.html){target=_blank}.
 
 1. In the [Adobe Admin Console](https://adminconsole.adobe.com), click the [!UICONTROL Products] tab, then click the product in the left menu to display the PLC(workspace) list.
 1. Click the desired PLC(workspace), then locate the "profiles" ID in the URL, as shown below.
@@ -143,7 +143,7 @@ Properties belong to specific channels (Web, Mobile, Email, and API/Other).
     * **Description:** Specify an optional description for the property.
     * **Channel:** Select the desired channel for the property: Web, Mobile App, Email, or Other/API (for example a set-top box or PlayStation console). 
 
-1. Click **[!UICONTROL Copy]** to copy the code to your clipboard that you'll use while performing the steps in [5: Update Your Implementation to Include the at_property Parameter](/help/main/administrating-target/c-user-management/property-channel/properties-overview.md#section_9B17A59807A94712BE642942442EBBC8).
+1. Click **[!UICONTROL Copy]** to copy the code to your clipboard that you will use while performing the steps in [5: Update Your Implementation to Include the at_property Parameter](/help/main/administrating-target/c-user-management/property-channel/properties-overview.md#section_9B17A59807A94712BE642942442EBBC8).
 1. Click **[!UICONTROL Save]** when done.
 
 >[!NOTE]

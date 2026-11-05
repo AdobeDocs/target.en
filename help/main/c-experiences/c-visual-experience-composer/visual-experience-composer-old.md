@@ -4,6 +4,12 @@ description: Learn the basics of using the Visual Experience Composer (VEC) in A
 title: How Do I Use the Visual Experience Composer (VEC)?
 feature: Visual Experience Composer (VEC)
 exl-id: 51650f2a-1f24-40c7-8692-77f55656b4f6
+product_v2:
+  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+    internal-label: Target
+feature_v2:
+  - id: f7501c88-b36a-590b-9cc4-dea607bda94b
+    internal-label: Visual Experience Composer (VEC)
 ---
 # Visual Experience Composer (VEC)
 
@@ -23,7 +29,7 @@ This URL determines where you start when you open the VEC. If you do not enter a
 >
 >Certain browsers, such as Firefox, might block a page from displaying in the VEC if the page contains mixed content (for example, a non-secure page in a secure site). If your page does not display, click the icon next to the URL in the browser address bar and click **[!UICONTROL Disable protection on this page]**. This issue does not affect the display of your pages to site visitors.
 
-Content inside an iframe on the page can't be modified in the VEC. To edit content within an iframe, ensure that the iframe document is Target-enabled, then load that iframe URL in the VEC.
+Content inside an iframe on the page cannot be modified in the VEC. To edit content within an iframe, ensure that the iframe document is Target-enabled, then load that iframe URL in the VEC.
 
 You can use the drop-down menus across the top of the page to view your page as it would appear to different audiences or with different experiences. You can provide a name for each experience in the second drop-down list. For example, if you are testing the location of the Home link in your nav bar, you might name an experience where the Home link appears first something like, "Home link" to make it easier to identify the experiences in the list.
 

@@ -5,13 +5,18 @@ title: How Do I Base the [!UICONTROL Recommendation] on a [!UICONTROL Recommenda
 feature: Recommendations
 mini-toc-levels: 2
 exl-id: 49764f18-88fb-41be-b2a0-e7ced9de742c
-TQID: https://experienceleague.adobe.com/1gI3rMMf9s5ogc4BvBz4fMUqxed1Nqad0XoaR8SlU58
+TQID: 'https://experienceleague.adobe.com/1gI3rMMf9s5ogc4BvBz4fMUqxed1Nqad0XoaR8SlU58'
 product_v2:
   - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
     internal-label: Target
 feature_v2:
   - id: f7c7de77-382f-4f48-8b36-61a170f06d3d
     internal-label: Integrations
+  - id: f69bc5f1-ebdb-4306-a281-f2e77daf734c
+    internal-label: Activities and tests
+subfeature_v2:
+  - id: ed58f4a1-16eb-4c8c-b505-be9da766a9ec
+    internal-label: Recommendations
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
     internal-label: Reporting
@@ -31,7 +36,7 @@ Each algorithm type provides different algorithms appropriate for its type, as s
 |Algorithm type|When to use / Available algorithms|
 | --- | --- |
 |[!UICONTROL Cart-Based]|Make recommendations based on the user's cart contents.<ul><li>[!UICONTROL People Who Viewed These, Also Viewed]</li><li>[!UICONTROL People Who Viewed These, Also Bought]</li><li>[!UICONTROL People Who Bought These, Also Bought]</li></ul>|
-|[!UICONTROL Popularity-Based]|Make recommendations based on the overall popularity of an item across your site or based on the popularity of items within a user's favorite or most-viewed category, brand, genre, and so forth. <ul><li>[!UICONTROL Most Viewed Across the Site]</li><li>[!UICONTROL Most Viewed by Category]</li><li>[!UICONTROL Most Viewed by Item Attribute]</li><li>[!UICONTROL Top Sellers Across the Site]</li><li>[!UICONTROL Top Sellers by Category]</li><li>[!UICONTROL Top Sellers by Item Attribute]</li><li>[!UICONTROL Top by Analytics Metric]</li></ul>|
+|[!UICONTROL Popularity-Based]|Make recommendations based on the overall popularity of an item across your site or based on the popularity of items within a user's favorite or most-viewed category, brand, genre, and so forth. <ul><li>[!UICONTROL Most Viewed Across the Site]</li><li>[!UICONTROL Most Viewed by Category]</li><li>[!UICONTROL Most Viewed by Item Attribute]</li><li>[!UICONTROL Most Viewed by Profile Attribute]</li><li>[!UICONTROL Top Sellers Across the Site]</li><li>[!UICONTROL Top Sellers by Category]</li><li>[!UICONTROL Top Sellers by Item Attribute]</li><li>[!UICONTROL Top Sellers by Profile Attribute]</li><li>[!UICONTROL Top by Analytics Metric]</li></ul>|
 |[!UICONTROL Item-Based]|Make recommendations based on finding similar items to an item that the user is currently viewing or has recently viewed. <ul><li>[!UICONTROL People Who Viewed This, Viewed That]</li><li>[!UICONTROL People Who Viewed This, Bought That]</li><li>[!UICONTROL People Who Bought This, Bought That]</li><li>[!UICONTROL Items with Similar Attributes]</li></ul>|
 |[!UICONTROL User-Based]|Make recommendations based on the user's behavior. <ul><li>[!UICONTROL Recently Viewed Items]</li><li>[!UICONTROL Recommended for You]</li></ul>|
 |[!UICONTROL Custom Criteria]|Make recommendations based on a custom file you upload. <ul><li>Custom Algorithm</li></ul>|
@@ -54,11 +59,11 @@ Cart-based recommendation logic is similar to the "[!UICONTROL Recommended For Y
 
 * **[!UICONTROL Single Session]**: Based on what other visitors did within a single session.
 
-  Looking at behavior within a single session might make sense when there's a sense that products strongly "go with" each other based on a usage, occasion, or event. For example, a visitor is buying a printer and might also need ink and paper. Or, a visitor is buying peanut butter and might also need bread and jelly.
+  Looking at behavior within a single session might make sense when there is a sense that products strongly "go with" each other based on a usage, occasion, or event. For example, a visitor is buying a printer and might also need ink and paper. Or, a visitor is buying peanut butter and might also need bread and jelly.
 
 * **[!UICONTROL Across Sessions]**: Based on what other visitors did across multiple sessions.
 
-  Looking at behavior across multiple sessions might make sense when there's a sense that products strongly "go with" each other based on visitor preference or taste. For example, a visitor likes Star Wars and might also like Indiana Jones, even if the visitor doesn't necessarily want to watch both movies in the same sitting. Or, a visitor likes the board game "Codenames" and might also like the board game "Avalon," even if the visitor cannot play both games simultaneously.
+  Looking at behavior across multiple sessions might make sense when there is a sense that products strongly "go with" each other based on visitor preference or taste. For example, a visitor likes Star Wars and might also like Indiana Jones, even if the visitor does not necessarily want to watch both movies in the same sitting. Or, a visitor likes the board game "Codenames" and might also like the board game "Avalon," even if the visitor cannot play both games simultaneously.
 
 [!DNL Target] makes recommendations for each visitor based on the items in their current cart, regardless whether you look at visitor behavior within a single session or across multiple sessions.
 
@@ -180,9 +185,46 @@ This algorithm lets you select which item attribute you want to base the recomme
 
 You then select which profile attributes stored in the visitor's profile to match, for example "Favorite Brand," "Last Item Added to Cart," or "Most Viewed Show."
 
+### [!UICONTROL Most Viewed by Profile Attribute]
+
+>[!CONTEXTUALHELP]
+>id="target_recommendations_profile_attribute"
+>title="Profile Attribute"
+>abstract="You can create a Profile attribute using Profile Scripts. Once a Profile Script is created and activated, its corresponding Profile attribute can be used with this algorithm."
+
+Recommends the most viewed items grouped by a visitor profile attribute rather than by item information, as [!UICONTROL Most Viewed by Category] and [!UICONTROL Most Viewed by Item Attribute] do. [!DNL Target] keeps a separate ranked list per attribute value and, at delivery time, shows each visitor the list matching their own stored value.
+
+This algorithm depends on a profile script to populate the attribute, and the script's name must begin with the `recsAttribute` prefix so [!DNL Target] stores it as `user.recsAttribute<Name>`. You can write a script for any visitor characteristic relevant to your use case. 
+
+Learn more about setting profile attributes using profile scripts in [this page](https://experienceleague.adobe.com/en/docs/target/using/audiences/visitor-profiles/profile-parameters).
+
+For example, a script named `recsAttributeRegion` that bases recommendations on the visitor's region might look like this:
+
+```
+var region = mbox.param('userRegion');
+if (region) return region;
+```
+
+After the script is created and activated, the corresponding [!UICONTROL Region] entry becomes available in the profile attribute drop-down of the create criteria window. Note that the `recsAttribute` prefix itself is not shown in the drop-down.
+
+### [!UICONTROL Top Sellers by Profile Attribute]
+
+Recommends the top-selling items grouped by a visitor profile attribute rather than by item information, as [!UICONTROL Top Sellers by Category] and [!UICONTROL Top Sellers by Item Attribute] do. [!DNL Target] keeps a separate top-sellers list per attribute value and, at delivery time, shows each visitor the list matching their own stored value.
+
+As with [!UICONTROL Most Viewed by Profile Attribute], this algorithm depends on a profile script to populate the attribute, and the script's name must begin with the `recsAttribute` prefix so [!DNL Target] stores it as `user.recsAttribute<Name>`. You can write a script for any visitor characteristic relevant to your use case. Learn more about setting profile attributes using profile scripts in [this page](https://experienceleague.adobe.com/en/docs/target/using/audiences/visitor-profiles/profile-parameters).
+
+For example, a script named `recsAttributeLoyaltyTier` that bases recommendations on the visitor's loyalty tier might look like this:
+
+```
+var tier = mbox.param('visitorLoyaltyTier');
+if (tier) return tier;
+```
+
+After the script is created and activated, the corresponding [!UICONTROL Loyalty Tier] entry becomes available in the profile attribute drop-down of the create criteria window. Note that the `recsAttribute` prefix itself is not shown in the drop-down.
+
 ### [!UICONTROL Top by Analytics Metric]
 
-Displays the "Top x" where *x* is an arbitrary [!DNL Analytics] metric. When using behavioral data from mboxes, you can use [!UICONTROL Top Sold] or [!UICONTROL Top Viewed] (x = "Sold" or x = "Viewed"). If you're using behavioral data from [!DNL Adobe Analytics], you could use  x = "Cart Adds" or some other [!DNL Analytics] metric.
+Displays the "Top x" where *x* is an arbitrary [!DNL Analytics] metric. When using behavioral data from mboxes, you can use [!UICONTROL Top Sold] or [!UICONTROL Top Viewed] (x = "Sold" or x = "Viewed"). If you are using behavioral data from [!DNL Adobe Analytics], you could use  x = "Cart Adds" or some other [!DNL Analytics] metric.
 
 ## [!UICONTROL Item-Based]
 
@@ -291,7 +333,7 @@ Both views and purchases are used to determine the recommended items. The specif
 
 For example, you can:
 
-* Exclude items that don't meet certain criteria (products out of stock, articles published more than 30 days ago, movies rated R, and so forth).
+* Exclude items that do not meet certain criteria (products out of stock, articles published more than 30 days ago, movies rated R, and so forth).
 * Limit included items to a single category or to the current category.
 
 If you select this algorithm, you can select the following Filtering Keys:
@@ -322,7 +364,7 @@ With the addition of inclusion rules on [!UICONTROL Custom Criteria], this turns
 
 Possible use-cases include:
 
-* You want to recommend movies from a custom-curated list, but only if the visitor hasn't already watched them.
+* You want to recommend movies from a custom-curated list, but only if the visitor has not already watched them.
 * You want to run an offline algorithm and use the results to power your recommendations, but you must ensure that out-of-stock items are never recommended.
 * You want to include only items that are from this visitor's favorite category.
 
@@ -373,7 +415,7 @@ You can base recommendations on the value of a custom profile attribute. For exa
 1. Select your custom profile attribute from the **[!UICONTROL Recommendation Key]** drop-down list (for example, "[!UICONTROL Last Show Added to Watchlist]").
 1. Then select your **[!UICONTROL Recommendation Logic]** (for example "[!UICONTROL People Who Viewed This, Viewed That]").
 
-If your custom profile attribute doesn't directly match to a single entity ID, it is necessary to explain to [!DNL Recommendations] how you want the match to an entity to occur. For example, suppose that you want to display the top selling items from a visitor's favorite brand.
+If your custom profile attribute does not directly match to a single entity ID, it is necessary to explain to [!DNL Recommendations] how you want the match to an entity to occur. For example, suppose that you want to display the top selling items from a visitor's favorite brand.
 
 1. Select your custom profile attribute from the **[!UICONTROL Recommendation Key]** drop-down list (for example, "Favorite Brand").
 
@@ -381,7 +423,7 @@ If your custom profile attribute doesn't directly match to a single entity ID, i
 
    The [!UICONTROL Group By Unique Value Of] option displays. 
 
-1. Select the entity attribute that matches to the key you've chosen. In this case "[!UICONTROL Favorite Brand]" matches to `entity.brand`.
+1. Select the entity attribute that matches to the key you have chosen. In this case "[!UICONTROL Favorite Brand]" matches to `entity.brand`.
 
    [!DNL Recommendations] now produces a "[!UICONTROL Top Sellers]" list for each brand and shows the visitor the appropriate "[!UICONTROL Top Sellers]" list based on the value stored in the visitor's [!UICONTROL Favorite Brand] profile attribute.
 

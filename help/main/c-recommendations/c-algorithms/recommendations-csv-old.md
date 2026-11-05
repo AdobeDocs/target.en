@@ -5,6 +5,15 @@ title: How Do I Upload Custom Criteria in Recommendations?
 badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="See what's included in Target Premium."
 feature: Recommendations
 exl-id: 33434121-e0ae-4b82-b1dd-78b9738026cb
+product_v2:
+  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+    internal-label: Target
+feature_v2:
+  - id: f69bc5f1-ebdb-4306-a281-f2e77daf734c
+    internal-label: Activities and tests
+subfeature_v2:
+  - id: ed58f4a1-16eb-4c8c-b505-be9da766a9ec
+    internal-label: Recommendations
 ---
 # Upload custom criteria
 
@@ -53,9 +62,9 @@ The following steps assume you access the [!UICONTROL Create New Criteria] scree
 
 * Custom criteria entities (rows) can contain up to 1,000 recommended items (columns).
 
-* Custom criteria updates are by default "cumulative." New key-value pairs specified in the CSV upload file overwrite existing key-value pairs. Existing key-value pairs that don't have keys specified in the CSV upload are still available for delivery and expire in 31 days from the time they are last uploaded as part of the CSV file.
+* Custom criteria updates are by default "cumulative." New key-value pairs specified in the CSV upload file overwrite existing key-value pairs. Existing key-value pairs that do not have keys specified in the CSV upload are still available for delivery and expire in 31 days from the time they are last uploaded as part of the CSV file.
 
-  Contact Client Care to enable the setting to discard the existing results that aren't included in the next CSV upload. If this setting is enabled, only the keys present in the custom CSV feed file are available for delivery. This setting applies to all custom criteria.
+  Contact Client Care to enable the setting to discard the existing results that are not included in the next CSV upload. If this setting is enabled, only the keys present in the custom CSV feed file are available for delivery. This setting applies to all custom criteria.
 
 * Custom criteria feeds update once every 24 hours.
 

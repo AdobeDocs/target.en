@@ -4,13 +4,18 @@ description: Where can I find ideas and inspiration for my testing and personali
 title: Where Can I Find Inspiration for My Testing and Personalization Efforts?
 feature: Overview
 exl-id: ac4eb710-3f8b-417f-ad8a-ebe48771170d
-TQID: https://experienceleague.adobe.com/8pCTZy1NR9Pt-TEWZFDinlS66fxhlYybFe69QrpMyT4
+TQID: 'https://experienceleague.adobe.com/8pCTZy1NR9Pt-TEWZFDinlS66fxhlYybFe69QrpMyT4'
 product_v2:
   - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
     internal-label: Target
 feature_v2:
   - id: adee20bd-51f4-461d-b9db-d215f8756eeb
     internal-label: Audiences
+  - id: dfc8a233-f2b5-4811-bf63-b4262aebc5a5
+    internal-label: Administration and configuration
+subfeature_v2:
+  - id: fc9c2184-9102-403f-bd6c-0055021e4bea
+    internal-label: Overview
 topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
     internal-label: Customer experience
@@ -23,7 +28,7 @@ topic_v2:
 ---
 # Chapter 5: Inspiration for testing and personalization activities.
 
-These testing and personalization ideas, inspired by real activities run by our customers that have lifted conversion rates and revenue, are worth giving a try or using as inspiration for your own [!DNL Target] activities. Even if the idea isn’t an exact fit for your organization, with a little creativity and brainstorming, consider developing an activity based on the spirit of the test or personalization idea.
+These testing and personalization ideas, inspired by real activities run by our customers that have lifted conversion rates and revenue, are worth giving a try or using as inspiration for your own [!DNL Target] activities. Even if the idea is not an exact fit for your organization, with a little creativity and brainstorming, consider developing an activity based on the spirit of the test or personalization idea.
 
 ## Idea 1: Test customer journey personalization.
 
@@ -51,9 +56,9 @@ Consider providing additional contextual information directly on search thumbnai
 
 ## Idea 5: Reduce the number of touches required to convert.
 
-Understand the business goals and KPIs you’re trying to drive toward with your mobile efforts. Then design the mobile experience to offer customers the path of least resistance to achieving those goals. Conversion should occur within three touches, but aim for reducing that to two touches if at all possible.
+Understand the business goals and KPIs you are trying to drive toward with your mobile efforts. Then design the mobile experience to offer customers the path of least resistance to achieving those goals. Conversion should occur within three touches, but aim for reducing that to two touches if at all possible.
 
-## Idea 6: Don't lead visitors to a dead end.
+## Idea 6: Do not lead visitors to a dead end.
 
 If visitors who are referred to you from Google get sent to content that is expired or out of stock, re-engage them by using recommendations to offer them another opportunity to make a purchase. 
 
@@ -71,7 +76,7 @@ Maybe just change the order of options to choose from when customers want to tak
 
 ## Idea 8: Promote your mobile app on your website.
 
-If your company is spending resources to develop a mobile app for iOS, Android, or other devices, don’t just sit back and hope users will stumble on your app within the app store. Instead, have a sound strategy in place for how to promote it. Test different approaches to drive app downloads and usage. If your non-mobile site has a link to download your app, try testing the effectiveness of an interstitial landing page that explicitly promotes your app when visitors arrive on your home page. Set up a redirect test that filters half your mobile traffic to your current site page and the other half to the interstitial landing page.
+If your company is spending resources to develop a mobile app for iOS, Android, or other devices, do not just sit back and hope users will stumble on your app within the app store. Instead, have a sound strategy in place for how to promote it. Test different approaches to drive app downloads and usage. If your non-mobile site has a link to download your app, try testing the effectiveness of an interstitial landing page that explicitly promotes your app when visitors arrive on your home page. Set up a redirect test that filters half your mobile traffic to your current site page and the other half to the interstitial landing page.
 
 ## Idea 9: Use mobile app innovations.
 

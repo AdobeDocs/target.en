@@ -5,10 +5,16 @@ title: How Can I Troubleshoot [!UICONTROL Auto-Target] Activities?
 badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="See what's included in Target Premium."
 feature: Auto-Target
 exl-id: 934f738e-560a-4847-9608-432ecfa2afe7
-TQID: https://experienceleague.adobe.com/LXOa1Ma0y8VbncCPN1Az33p-GDsd-bW-BDqJjSGbVQU
+TQID: 'https://experienceleague.adobe.com/LXOa1Ma0y8VbncCPN1Az33p-GDsd-bW-BDqJjSGbVQU'
 product_v2:
   - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
     internal-label: Target
+feature_v2:
+  - id: f69bc5f1-ebdb-4306-a281-f2e77daf734c
+    internal-label: Activities and tests
+subfeature_v2:
+  - id: db15a02f-03cd-46fe-a53e-02064cdeadfa
+    internal-label: Auto target
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
     internal-label: Reporting
@@ -35,7 +41,7 @@ Consult the following FAQs and answers as you work with [!UICONTROL Auto-Target]
 * Decide if the business value of a [!UICONTROL Revenue per Visit] (RPV) success metric is worth the additional traffic requirements. RPV typically needs at least 1,000 conversions per experience for an activity to work versus conversion.
 * Decide on the allocation between control and personalized experiences before beginning the activity based on your goals.
 * Determine if you have sufficient traffic to the page where your [!UICONTROL Auto-Target] activity runs for personalization models to build in a reasonable amount of time.
-* If you are testing the personalization algorithm, you shouldn't change experiences or add or remove profile attributes while the activity is live.
+* If you are testing the personalization algorithm, you should not change experiences or add or remove profile attributes while the activity is live.
 * Consider completing an A/B activity between the offers and locations that you are planning to use in your [!UICONTROL Auto-Target] activity to ensure the locations and offers have an impact on the optimization goal. If an A/B activity fails to demonstrate a significant difference, [!UICONTROL Auto-Target] likely also fails to generate lift.
 
   If an A/B test shows no statistically significant differences between experiences, it is likely the offers you are considering are not sufficiently different from each other, the locations you selected do not impact the success metric, or the optimization goal is too far in the conversion funnel to be affected by your chosen offers.
@@ -51,12 +57,12 @@ Your optimal traffic allocation split depends on what you want to accomplish.
 
 If your goal is to personalize as much traffic as possible, you can stick with 90% targeted allocation and 10% control for the lifetime of the activity. If your goal is to run an experiment comparing how personalized algorithms do versus the control, then a 50/50 split is best for the lifetime of the activity.
 
-Best practice is to maintain the traffic-allocation split for the lifetime of the activity so that visitors don't switch between targeted and control experiences.
+Best practice is to maintain the traffic-allocation split for the lifetime of the activity so that visitors do not switch between targeted and control experiences.
 
 <!-- 
 ### Do the check marks indicating a model is built for that experience update if the report date range changes?
 
-No, check marks for model generation show only the models built to date. There's no way to go back and see when a model was completed.
+No, check marks for model generation show only the models built to date. There is no way to go back and see when a model was completed.
 -->
 
 +++
@@ -68,7 +74,7 @@ No, only visitors who qualify for and view the [!UICONTROL Auto-Target] activity
 
 +++
 
-### Why doesn't my [!UICONTROL Auto-Target] activity seem to be generating any lift.
+### Why does not my [!UICONTROL Auto-Target] activity seem to be generating any lift.
 
 +++Answer
 There are four factors required for an [!UICONTROL Auto-Target] activity to generate lift:
@@ -156,13 +162,13 @@ This guidance also applies to [!UICONTROL Auto-Allocate] and [!UICONTROL Automat
 +++Answer
 [!DNL Target] builds one model per experience, so removing one experience means [!DNL Target] builds one fewer model and does not affect models for the other experiences.
 
-For example, suppose you have an [!UICONTROL Auto-Target] activity with eight experiences and you don't like the performance of one experience. You can remove that experience and it doesn't affect the models for the seven remaining experiences.
+For example, suppose you have an [!UICONTROL Auto-Target] activity with eight experiences and you do not like the performance of one experience. You can remove that experience and it does not affect the models for the seven remaining experiences.
 
 +++
 
 ## Troubleshooting [!UICONTROL Auto-Target] {#section_23995AB813F24525AF294D20A20875C8}
 
-Sometimes activities don't go as expected. Here are some potential challenges that you might face while using [!UICONTROL Auto-Target] and some suggested solutions.
+Sometimes activities do not go as expected. Here are some potential challenges that you might face while using [!UICONTROL Auto-Target] and some suggested solutions.
 
 ### My [!UICONTROL Auto-Target] activity is taking too long to build models.
 
@@ -178,7 +184,7 @@ There are several activity setup changes that can decrease the expected time to 
 
 +++
 
-### My [!UICONTROL Auto-Target] activity isn't generating any lift.
+### My [!UICONTROL Auto-Target] activity is not generating any lift.
 
 +++Troubleshooting suggestions
 There are four factors required for an [!UICONTROL Auto-Target] activity to generate lift:
@@ -188,7 +194,7 @@ There are four factors required for an [!UICONTROL Auto-Target] activity to gene
 * There must be enough traffic and statistical "power" in the test to detect the lift.
 * The personalization algorithm must work well.
 
-**Solution:** First, make sure that your activity is personalizing traffic. If models aren't built for all of the experiences, your [!UICONTROL Auto-Target] activity is still randomly serving a significant portion of visits to attempt to build all models as quickly as possible. If models aren't built, [!UICONTROL Auto-Target] is not personalizing traffic.
+**Solution:** First, make sure that your activity is personalizing traffic. If models are not built for all of the experiences, your [!UICONTROL Auto-Target] activity is still randomly serving a significant portion of visits to attempt to build all models as quickly as possible. If models are not built, [!UICONTROL Auto-Target] is not personalizing traffic.
 
 Next, make sure that the offers and the activity locations truly make a difference to the overall response rates using a simple, non-personalized A/B test. Be sure to compute the sample sizes ahead of time to ensure there is enough power to see a reasonable lift and run the A/B test for a fixed duration without stopping it or making any changes. If an A/B test results show statistically significant lift on one or more of the experiences, then it is likely that a personalized activity works. Personalization can work even if there are no differences in the overall response rates of the experiences. Typically, the issue stems from the offers and locations not having a large enough impact on the optimization goal to be detected with statistical significance.
 

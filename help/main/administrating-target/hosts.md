@@ -5,7 +5,7 @@ title: What are Hosts and How Do I Use Them?
 feature: Administration & Configuration
 role: Admin
 exl-id: 31c661c0-686d-440e-ad58-864fb853b1c4
-TQID: https://experienceleague.adobe.com/xgqNVseu3l-0JjsJuUp74zkyYDAs3klz1YllL64vHWo
+TQID: 'https://experienceleague.adobe.com/xgqNVseu3l-0JjsJuUp74zkyYDAs3klz1YllL64vHWo'
 product_v2:
   - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
     internal-label: Target
@@ -14,6 +14,8 @@ feature_v2:
     internal-label: Implementation
   - id: f69bc5f1-ebdb-4306-a281-f2e77daf734c
     internal-label: Activities and tests
+  - id: dfc8a233-f2b5-4811-bf63-b4262aebc5a5
+    internal-label: Administration and configuration
 subfeature_v2:
   - id: fd0ff162-b6d3-4a11-8aeb-e165a01c0f0a
     internal-label: at.js
@@ -42,7 +44,7 @@ The primary goal of host management is to ensure that no inactive content accide
 
 A host is any domain from which a [!DNL Target] request is made. On a website, it is usually the `location.hostname` property of the URL making the [!DNL Target] request.
 
-By default, [!DNL Target] does not limit a host that can make [!DNL Target] requests and receive [!DNL Target] responses. When new hosts make requests, they automatically work. This process also enables testing on different domains you don't know or can't anticipate. If you want to override this default behavior, you can set up an allowlist or blocklist to limit which hosts work with [!DNL Target].
+By default, [!DNL Target] does not limit a host that can make [!DNL Target] requests and receive [!DNL Target] responses. When new hosts make requests, they automatically work. This process also enables testing on different domains you do not know or cannot anticipate. If you want to override this default behavior, you can set up an allowlist or blocklist to limit which hosts work with [!DNL Target].
 
 {{permissions-update}}
 
@@ -140,7 +142,7 @@ Try the following troubleshooting tips if you experience problems with your host
 
 * Refresh the [!UICONTROL Hosts] page in your browser. 
 * Confirm that the [!DNL Target] request is correct, including the at.js reference. 
-* Try browsing to one of the [!DNL Target] requests on the host. It's possible that no [!DNL Target] request on the host was ever rendered in a browser.
+* Try browsing to one of the [!DNL Target] requests on the host. It is possible that no [!DNL Target] request on the host was ever rendered in a browser.
 
 **Random or unknown domains appear in the [!UICONTROL Host] list.**
 

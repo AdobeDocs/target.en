@@ -4,6 +4,15 @@ description: Learn about success metrics in Adobe [!DNL Target] that help you de
 title: What Are Success Metrics?
 feature: Success Metrics
 exl-id: 38d5314d-4950-4106-a058-0d221faf5a24
+product_v2:
+  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+    internal-label: Target
+feature_v2:
+  - id: dfc8a233-f2b5-4811-bf63-b4262aebc5a5
+    internal-label: Administration and configuration
+subfeature_v2:
+  - id: eb2bfbe8-b0f3-4cc3-ae8d-af79179585eb
+    internal-label: Success metrics
 ---
 # Success metrics
 
@@ -33,7 +42,7 @@ The following success metrics are available:
 |Custom Scoring|Engagement-based|Aggregated score based on the value assigned to pages visited on the site, from the point the visitor first sees the activity's first display [!DNL Target] request.|
 |Time on Site|Engagement-based|Time spent in the visit (in seconds) from the point the visitor sees the activity's first display [!DNL Target] request to the load of the final page with a request in the session.|
 
-For engagement-based metrics (unlike for conversion-based and revenue-based metrics), visitors must re-qualify for the activity on each visit in order to increment the count for that session. The associated metric begins incrementing after re-qualification and stops at the end of each visitor's session. A session ends after 30 minutes of inactivity. Therefore, you won't see results immediately during testing; however, all results from that session are available within a few minutes of the session ending.
+For engagement-based metrics (unlike for conversion-based and revenue-based metrics), visitors must re-qualify for the activity on each visit in order to increment the count for that session. The associated metric begins incrementing after re-qualification and stops at the end of each visitor's session. A session ends after 30 minutes of inactivity. Therefore, you will not see results immediately during testing; however, all results from that session are available within a few minutes of the session ending.
 
 ## Custom success metrics
 

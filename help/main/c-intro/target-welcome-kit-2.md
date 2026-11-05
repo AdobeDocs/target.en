@@ -4,7 +4,7 @@ description: Take a high-level look at Adobe Target. Learn about available activ
 title: Where Can I Find a High-level Introduction to Target?
 feature: Overview
 exl-id: 19238d4c-b7e1-418d-96e5-c46a3769f7bf
-TQID: https://experienceleague.adobe.com/nPXW07lMjkfeUeuElqoTVYd7-JG7N7uVVZ-m9cOKE8w
+TQID: 'https://experienceleague.adobe.com/nPXW07lMjkfeUeuElqoTVYd7-JG7N7uVVZ-m9cOKE8w'
 product_v2:
   - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
     internal-label: Target
@@ -17,6 +17,8 @@ feature_v2:
     internal-label: Governance and control
   - id: f7c7de77-382f-4f48-8b36-61a170f06d3d
     internal-label: Integrations
+  - id: dfc8a233-f2b5-4811-bf63-b4262aebc5a5
+    internal-label: Administration and configuration
 subfeature_v2:
   - id: a94ced60-8199-4549-b453-ede2acb4101e
     internal-label: Hybrid implementation
@@ -24,6 +26,8 @@ subfeature_v2:
     internal-label: Adobe Admin Console for Enterprise
   - id: df62f171-ac37-440f-8f0f-f41a72ebdd34
     internal-label: Analytics integration
+  - id: fc9c2184-9102-403f-bd6c-0055021e4bea
+    internal-label: Overview
 topic_v2:
   - id: b5520579-b31f-4df7-9281-f0d9f91e2edc
     internal-label: Customer engagement
@@ -72,18 +76,18 @@ For a more in-depth understanding of when and how to use each capability, see [T
 
 ## Channels
 
-You can use [!DNL Target] to test and personalize digital experiences just about anywhere--traditional digital touch points like your web site, mobile site, and mobile app, but also on touch points like kiosks, email, IoT devices, gaming consoles, and even voice assistants like Alexa and Cortana. Many companies start using [!DNL Target] on their web site. However, recent research indicates that more people visit brands from their mobile devices. Optimizing your mobile channels is now essential. Ideally, you'll connect the visitor's experiences across all your touch points to deliver a seamless, consistent experience.
+You can use [!DNL Target] to test and personalize digital experiences just about anywhere--traditional digital touch points like your web site, mobile site, and mobile app, but also on touch points like kiosks, email, IoT devices, gaming consoles, and even voice assistants like Alexa and Cortana. Many companies start using [!DNL Target] on their web site. However, recent research indicates that more people visit brands from their mobile devices. Optimizing your mobile channels is now essential. Ideally, you will connect the visitor's experiences across all your touch points to deliver a seamless, consistent experience.
 
 |Channel|Details|
 | --- | --- |
 |Website|[!DNL Target] can be used to run A/B Testing, Multivariate Testing, Experience Targeting, Auto-Allocate, Auto-Target, Automated Personalization, and Recommendations activities on pages of your multi-page, single page application (SPA), and mobile websites to improve visitor and customer engagement, increase conversions, and increase revenue.|
 |Mobile Web|[!DNL Target] can be used to run all the same activity types that you run on your website on your mobile website pages to similarly improve visitor and customer engagement, increase conversions, and increase revenue.|
 |Mobile App|[!DNL Target] can be used to test and personalize mobile app experiences based on user behavior and mobile context. [!DNL Target] lets you deliver interactions that engage and convert through iterative testing as well as Experience Targeting and AI-powered personalization. To use [!DNL Target] on your mobile app, you must use the Adobe Mobile Services SDK.|
-|IoT/Everywhere|[!DNL Target] offers a server-side implementation so that you can use the same testing and personalization capabilities in activities that you use on your traditional website, mobile site, and mobile apps in emails and on touch points that lack a browser or don't use JavaScript code. For example, so you could test and personalize kiosks, set-top boxes, gaming consoles, voice assistants, and other non-traditional touch points.|
+|IoT/Everywhere|[!DNL Target] offers a server-side implementation so that you can use the same testing and personalization capabilities in activities that you use on your traditional website, mobile site, and mobile apps in emails and on touch points that lack a browser or do not use JavaScript code. For example, so you could test and personalize kiosks, set-top boxes, gaming consoles, voice assistants, and other non-traditional touch points.|
 
 ## Implementations
 
-Many of you might want to use [!DNL Target] to test and personalize on your many different digital touch points, including traditional web and mobile touch points, but also touch points that lack a browser or don't use JavaScript code. In some cases, internal or external policy requires you to have additional levels of control and security. You might also have processes that need to run on a backend server for performance reasons. To meet this wide variety of uses, we give you the ability to implement [!DNL Target] in different ways: client-side, server-side, or a combination of the two.
+Many of you might want to use [!DNL Target] to test and personalize on your many different digital touch points, including traditional web and mobile touch points, but also touch points that lack a browser or do not use JavaScript code. In some cases, internal or external policy requires you to have additional levels of control and security. You might also have processes that need to run on a backend server for performance reasons. To meet this wide variety of uses, we give you the ability to implement [!DNL Target] in different ways: client-side, server-side, or a combination of the two.
 
 |Implementation type|Details|
 | --- | --- |
@@ -93,7 +97,7 @@ Many of you might want to use [!DNL Target] to test and personalize on your many
 
 ## Activity elements
 
-In [!DNL Target], you can create a personalization activity, an optimization activity, or an activity that optimizes your personalization approach. Each activity has key elements--the experiences or offers you're testing or personalizing, the audiences or individuals to whom you're delivering an experience, the metrics by which you measure the impact of the activity, and the reports that visually display that impact.
+In [!DNL Target], you can create a personalization activity, an optimization activity, or an activity that optimizes your personalization approach. Each activity has key elements--the experiences or offers you are testing or personalizing, the audiences or individuals to whom you are delivering an experience, the metrics by which you measure the impact of the activity, and the reports that visually display that impact.
 
 |Element type|Details|
 | --- | --- |
@@ -105,12 +109,12 @@ In [!DNL Target], you can create a personalization activity, an optimization act
 
 ## Activity-creation tools
 
-[!DNL Target] provides you with three main ways to set up your testing and personalization activities, the [!UICONTROL Visual Experience Composer] (VEC), the [!UICONTROL Form-based Experience Composer], and the [!UICONTROL Single Page Application (SPA) Visual Experience Composer]. Both guide you through the activity setup process in three-steps—defining the experiences, selecting or defining the audiences, and selecting the primary and secondary success metrics by which you'll measure the results of your activity.
+[!DNL Target] provides you with three main ways to set up your testing and personalization activities, the [!UICONTROL Visual Experience Composer] (VEC), the [!UICONTROL Form-based Experience Composer], and the [!UICONTROL Single Page Application (SPA) Visual Experience Composer]. Both guide you through the activity setup process in three-steps—defining the experiences, selecting or defining the audiences, and selecting the primary and secondary success metrics by which you will measure the results of your activity.
 
 |Tool|Details|
 | --- | --- |
 |[!UICONTROL Visual Experience Composer] (VEC)|A WYSIWYG user interface that lets you easily create and test personalized experiences and offers in the site context. You can create experiences and offers for [!DNL Target] activities by dragging and dropping, swapping, and modifying the layout and content of a web page (or offer) or mobile web page. [Learn more](/help/main/c-experiences/c-visual-experience-composer/visual-experience-composer.md).|
-|[!UICONTROL Form-based Experience Composer]|A non-visual experience and offer creation interface that's useful in creating experiences for use in A/B tests, Experience Targeting, Automated Personalization, and Recommendations activities when the Visual Experience Composer is not available or practical for use. For example, you might use the form-based composer to create experiences and offers for delivery in emails, kiosks, and voice assistants. [Learn more](/help/main/c-experiences/form-experience-composer.md).|
+|[!UICONTROL Form-based Experience Composer]|A non-visual experience and offer creation interface that is useful in creating experiences for use in A/B tests, Experience Targeting, Automated Personalization, and Recommendations activities when the Visual Experience Composer is not available or practical for use. For example, you might use the form-based composer to create experiences and offers for delivery in emails, kiosks, and voice assistants. [Learn more](/help/main/c-experiences/form-experience-composer.md).|
 |[!UICONTROL Single Page Application (SPA) Visual Experience Composer]|The VEC for SPAs enables marketers to create tests and personalize content on SPAs in a do-it-yourself fashion without continuous development dependencies. The VEC can be used to create A/B Test and Experience Targeting (XT) activities on popular frameworks, such as React and Angular. [Learn more](/help/main/c-experiences/spa-visual-experience-composer.md).|
 
 ## Governance and control
@@ -147,13 +151,13 @@ Consider the following ideas before we move on to the next chapter: "Develop you
 
 ### Opinions can negatively affect your results
 
-* Opinions that can negatively impact your effectiveness. Highest Paid Person's Opinion (HIPPO), attitudes, biases. For example, the CEO wants to reduce the size of the search box to make more room on each page. We should test to make sure that it doesn't reduce the number of searches.
-* Are you acting on opinions? I don't like the way that test looks. The customer won't like this experience at all. While intuition is useful, A/B testing has proven time and again that it's not always spot on.
+* Opinions that can negatively impact your effectiveness. Highest Paid Person's Opinion (HIPPO), attitudes, biases. For example, the CEO wants to reduce the size of the search box to make more room on each page. We should test to make sure that it does not reduce the number of searches.
+* Are you acting on opinions? I do not like the way that test looks. The customer will not like this experience at all. While intuition is useful, A/B testing has proven time and again that it is not always spot on.
 * Or do you have an optimization mindset? I'm excited to see which experience wins. Do we have enough options to test?
 
 ### Assumptions can also negatively affect results
 
 * Assumptions that can negatively impact your effectiveness. Herd mentality (this is how our competitors are doing it). For example, all our competitors use hero banners with rotating images, so we should, too.
-* Assuming we know why something is or isn't working. Assuming we don't need to test something. For example, we always list hotel rooms in order of highest to lowest priced as the default.
-* Are you acting on assumptions? We don't need to test that, we've checked analytics. (Yes, but there may be more to the story than analytics reveals.)
+* Assuming we know why something is or is not working. Assuming we do not need to test something. For example, we always list hotel rooms in order of highest to lowest priced as the default.
+* Are you acting on assumptions? We do not need to test that, we've checked analytics. (Yes, but there may be more to the story than analytics reveals.)
 * Or do you have an optimization mindset? We test everything.

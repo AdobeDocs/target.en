@@ -1,9 +1,18 @@
 ---
 keywords: redirect offer;create redirect offer;add html offer;Pass all URL parameters in redirect;Pass mboxSessionId in redirect (only needed when the redirect is going to a different domain)
-description: Learn how to create redirect offers in Adobe [!DNL Target] to cause a browser to redirect to a new page. 
+description: Learn how to create redirect offers in Adobe [!DNL Target] to cause a browser to redirect to a new page.
 title: How Do I Create Redirect Offers?
 feature: Experiences and Offers
 exl-id: b7b960cb-5057-455b-8fab-86dd37343a04
+product_v2:
+  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+    internal-label: Target
+feature_v2:
+  - id: dfc8a233-f2b5-4811-bf63-b4262aebc5a5
+    internal-label: Administration and configuration
+subfeature_v2:
+  - id: ef98a6e0-f26c-4870-9bd4-e6b72e9cc699
+    internal-label: Experiences and offers
 ---
 # Create redirect offers
 
@@ -107,7 +116,7 @@ The redirect offer executes JavaScript code to redirect the browser. It uses the
 
 You must apply redirect offers using the [!UICONTROL Form-Based Experience Composer]. You cannot currently apply redirect offers using the VEC.
 
-The [!DNL Adobe Target] [!UICONTROL Form-Based Experience Composer] is a non-visual experience and offer creation interface that’s useful in creating experiences for use in [!UICONTROL A/B Tests], [!UICONTROL Experience Targeting] (XT), [!UICONTROL Automated Personalization] (AP), and [!UICONTROL Recommendations] activities when the visual experience composer is not available or practical for use. For example, you might use the [!UICONTROL Form-Based Experience Composer] to create experiences that use redirect offers.
+The [!DNL Adobe Target] [!UICONTROL Form-Based Experience Composer] is a non-visual experience and offer creation interface that is useful in creating experiences for use in [!UICONTROL A/B Tests], [!UICONTROL Experience Targeting] (XT), [!UICONTROL Automated Personalization] (AP), and [!UICONTROL Recommendations] activities when the visual experience composer is not available or practical for use. For example, you might use the [!UICONTROL Form-Based Experience Composer] to create experiences that use redirect offers.
 
 1. Create or edit an activity in the [!UICONTROL Form-Based Experience Composer].
 

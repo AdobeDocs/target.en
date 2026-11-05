@@ -4,13 +4,15 @@ description: Discover why some websites might not open reliably in the [!UICONTR
 title: How Do I Use the [!UICONTROL Visual Experience Composer] (VEC) Helper Extension?
 feature: Visual Experience Composer (VEC)
 exl-id: 3f38db69-046d-42c9-8c09-eca11d404b12
-TQID: https://experienceleague.adobe.com/lqZGGWG1NVtKDzNGPq5k2bDPzxDfNWqPtJ-bYfLCr3Q
+TQID: 'https://experienceleague.adobe.com/lqZGGWG1NVtKDzNGPq5k2bDPzxDfNWqPtJ-bYfLCr3Q'
 product_v2:
   - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
     internal-label: Target
 feature_v2:
   - id: c93393a4-e558-47e1-992e-c91ed4d480ce
     internal-label: Implementation
+  - id: f7501c88-b36a-590b-9cc4-dea607bda94b
+    internal-label: Visual Experience Composer (VEC)
 subfeature_v2:
   - id: fd0ff162-b6d3-4a11-8aeb-e165a01c0f0a
     internal-label: at.js
@@ -52,7 +54,7 @@ A SW is a web technology that can be used to intercept requests for the domain t
 
 The SW can control the caching; can cache the web page itself, static resources like JS, CSS, IMG, AJAX requests, their contents, and their response headers, including the ones that our [Target VEC Helper extension](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/vec-helper-browser-extension.md) tries to remove, like X-Frame-Options: SAMEORIGIN, CSP (Content-Security-Policy), or Set-Cookie.
 
-Unfortunately, the Chrome extension APIs that intercept web requests don't receive the requests that were intercepted and handled by a SW. Therefore, the extension can't fix the headers and the cookies if the web page request was served from a cache by a SW because the web page won't load inside the VEC because of the X-Frame-Options or CSP headers that were also cached.
+Unfortunately, the Chrome extension APIs that intercept web requests do not receive the requests that were intercepted and handled by a SW. Therefore, the extension cannot fix the headers and the cookies if the web page request was served from a cache by a SW because the web page will not load inside the VEC because of the X-Frame-Options or CSP headers that were also cached.
 
 As a potential workaround, you can disable Service Workers from the Chrome Developer Tools > Application tab, then to enable the "Bypass for network" checkbox under the Service Workers section.
 

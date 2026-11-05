@@ -5,13 +5,18 @@ title: How Can I Find FAQs about [!UICONTROL Automated Personalization] Activiti
 badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="See what's included in Target Premium."
 feature: Automated Personalization
 exl-id: 2bf62cc1-1781-4021-a400-2884e0bae893
-TQID: https://experienceleague.adobe.com/cYdFwvkJDlfGYdcxql9iWGwNiTed4Lb2kC7JdN7xgdo
+TQID: 'https://experienceleague.adobe.com/cYdFwvkJDlfGYdcxql9iWGwNiTed4Lb2kC7JdN7xgdo'
 product_v2:
   - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
     internal-label: Target
 feature_v2:
   - id: adee20bd-51f4-461d-b9db-d215f8756eeb
     internal-label: Audiences
+  - id: f69bc5f1-ebdb-4306-a281-f2e77daf734c
+    internal-label: Activities and tests
+subfeature_v2:
+  - id: f0055dd2-93f3-4ac8-9abc-d69d4ed2d977
+    internal-label: Automated personalization
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
     internal-label: Reporting
@@ -68,11 +73,11 @@ There is no turn-key option of comparing [!UICONTROL Automated Personalization] 
 * Make sure to use the [Traffic Estimator](/help/main/c-activities/t-automated-personalization/ap-traffic-estimator.md#task_71AA6922AFD447EA8C5E610A78ABA714) so you can have a sense of how long it takes for personalization models to build in your [!UICONTROL Automated Personalization] activity. 
 * Decide on the allocation between the control and targeted before beginning the activity, based on your goals.
 
-  There are three scenarios to consider based on the goal of your activity and the type of control you've selected:
+  There are three scenarios to consider based on the goal of your activity and the type of control you have selected:
 
   * **Random Experiences as your control and your activity goal is to test the effectiveness of the personalization algorithm**: If your goal is to evaluate the personalization algorithm, you want to have a more accurate picture of lift. You also most likely want to compare what the conversion rate for your experiences or offers is if you simply did an [!UICONTROL A/B Test] (a randomly served control). In that situation, using a 50% allocation to a control of randomly served experiences is recommended.
   * **"Random Experiences" as your control and your activity goal is to maximize personalized traffic**: If you are comfortable with the algorithm and want to have the maximum amount of traffic personalized, a 10% to 30% allocation to control is recommended. The tradeoff here is the accuracy that you see in your lift information. The confidence intervals of your control traffic are larger because there is less traffic flowing to them.
-  * **Specific Experience as your control, with either goal type**: If you want to compare a specific marketer-driven experience to the personalization models, a 10% to 30% allocation to control is recommended. When you select only one experience as a control, that traffic isn't spread across every offer or experience in the activity.
+  * **Specific Experience as your control, with either goal type**: If you want to compare a specific marketer-driven experience to the personalization models, a 10% to 30% allocation to control is recommended. When you select only one experience as a control, that traffic is not spread across every offer or experience in the activity.
 
 * Targeting rules should be used as sparingly as possible because they can interfere with the model's ability to optimize. 
 * Reporting groups can limit the success of your [!UICONTROL Automated Personalization] activity. Use reporting groups only under specific conditions:
@@ -145,7 +150,7 @@ For example, assume that an [!UICONTROL Automated Personalization] activity had 
 
 +++See details
 
-[!UICONTROL Automated Personalization] can be used as "always on" personalization that constantly optimizes. Especially for evergreen content, there is no need to stop your [!UICONTROL Automated Personalization] activity. If you want to make substantial changes to the content that aren't similar to offers currently in your [!UICONTROL Automated Personalization] activity, the best practice is to start a new activity. Starting a new activity helps other users reviewing reports to not confuse or relate past results with different content.
+[!UICONTROL Automated Personalization] can be used as "always on" personalization that constantly optimizes. Especially for evergreen content, there is no need to stop your [!UICONTROL Automated Personalization] activity. If you want to make substantial changes to the content that are not similar to offers currently in your [!UICONTROL Automated Personalization] activity, the best practice is to start a new activity. Starting a new activity helps other users reviewing reports to not confuse or relate past results with different content.
 
 +++
 
@@ -186,7 +191,7 @@ Review your activity setup and see if there are any changes you are willing to m
 
 +++
 
-## Why are visitors seeing experiences for an [!UICONTROL Automated Personalization] activity that they shouldn't see? {#section_41CECEAE0881446A8D9F3B016857914B}
+## Why are visitors seeing experiences for an [!UICONTROL Automated Personalization] activity that they should not see? {#section_41CECEAE0881446A8D9F3B016857914B}
 
 +++See details
 

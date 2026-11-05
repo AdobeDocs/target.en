@@ -4,6 +4,12 @@ description: Learn how to use the [!UICONTROL Visual Experience Composer] (VEC) 
 title: How Do I Create a [!UICONTROL Multivariate Test]?
 feature: Multivariate Tests
 exl-id: 7712b747-543a-4e19-b689-bea36c44805c
+product_v2:
+  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+    internal-label: Target
+feature_v2:
+  - id: b934e7cf-c07f-5a64-924b-3c9da8413e3d
+    internal-label: Multivariate Tests
 ---
 # Create a Multivariate Test
 

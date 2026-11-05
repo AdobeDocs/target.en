@@ -5,10 +5,13 @@ title: How Do I Configure User Management?
 feature: Administration & Configuration
 role: Admin
 exl-id: 3bf0c23c-7382-43d2-af54-734221063872
-TQID: https://experienceleague.adobe.com/07Lay5EQLeUlmi4I5N097q936tXWXCFt7I9VZ7dfNvQ
+TQID: 'https://experienceleague.adobe.com/07Lay5EQLeUlmi4I5N097q936tXWXCFt7I9VZ7dfNvQ'
 product_v2:
   - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
     internal-label: Target
+feature_v2:
+  - id: dfc8a233-f2b5-4811-bf63-b4262aebc5a5
+    internal-label: Administration and configuration
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
     internal-label: Admin

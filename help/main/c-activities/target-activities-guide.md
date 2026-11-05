@@ -4,13 +4,15 @@ description: Download an interactive PDF that describes the different activity t
 title: Which Activity Types Are Available in [!DNL Target]?
 feature: Activities
 exl-id: fa62592d-230a-4388-94bb-d9bc3bdfe973
-TQID: https://experienceleague.adobe.com/-q-l6teGnZIZWbS7MR9-yCoBKnEbc156-YybqoYZ0a0
+TQID: 'https://experienceleague.adobe.com/-q-l6teGnZIZWbS7MR9-yCoBKnEbc156-YybqoYZ0a0'
 product_v2:
   - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
     internal-label: Target
 feature_v2:
   - id: adee20bd-51f4-461d-b9db-d215f8756eeb
     internal-label: Audiences
+  - id: 6efa6b7a-8062-5c41-aef4-b4853cc306ae
+    internal-label: Activities
 topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
     internal-label: Customer experience

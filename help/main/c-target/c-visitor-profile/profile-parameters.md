@@ -90,7 +90,7 @@ Keep the following information in mind:
 * Parameters and values are case-sensitive. Match the case of the parameters and values you receive during the activity or test. 
 * See the "JavaScript reference for script profile parameters" section below for more JavaScript syntax.
 * The parameter remains in the profile after disabling the script. Users whose profiles already contain a parameter that is used in an activity's audience qualify in that activity.
-* Profile scripts cannot be deleted while they're being used in an activity.
+* Profile scripts cannot be deleted while they are being used in an activity.
 * Creating dependent profile scripts that use the result of one profile script in another profile script is not recommended. The order of profile script execution is not guaranteed.
 
 ## Viewing profile script information cards {#section_18EA3B919A8E49BBB09AA9215E1E3F17}
@@ -268,7 +268,7 @@ The following objects and methods can be referenced by script profile parameters
 |`user.get('<par_name>')`|Returns the value of the "`user.<par_name>`" set for the current visitor; returns null if no value has been set.|
 |`user.categoryAffinity`|Returns the name of the best category.|
 |`user.categoryAffinities`|Returns an array with the best categories.|
-|`user.isFirstSession`|Returns true if it's the visitor's first session.|
+|`user.isFirstSession`|Returns true if it is the visitor's first session.|
 |`user.browser`|Returns the user-agent in the HTTP header. As an example, you can create an expression target to target Safari users only: `if (user.browser != null && user.browser.indexOf('Safari') != -1) { return true; }`|
 
 ### Common operators

@@ -4,13 +4,15 @@ description: Learn how to use Analytics for [!DNL Target] (A4T). A4T provides ac
 title: How Do I Use Reporting in A4T?
 feature: Analytics for Target (A4T)
 exl-id: cab5dc5f-166a-468e-8382-ae734684afdd
-TQID: https://experienceleague.adobe.com/oYF9-9IHLmdxfWV-k3FLYd26rkXgOE9CddNTldF9TSY
+TQID: 'https://experienceleague.adobe.com/oYF9-9IHLmdxfWV-k3FLYd26rkXgOE9CddNTldF9TSY'
 product_v2:
   - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
     internal-label: Target
 feature_v2:
   - id: adee20bd-51f4-461d-b9db-d215f8756eeb
     internal-label: Audiences
+  - id: 891742a5-242d-5099-966a-ca76c17cd2d2
+    internal-label: Analytics for Target (A4T)
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
     internal-label: Reporting
@@ -75,7 +77,7 @@ When [!DNL Analytics] is used as the reporting source, reports in [!DNL Target] 
 
   Any numbers that increase are shown as positives in the report, even when an increase is undesired. For example, even though you want a lower bounce rate, the higher bounce rate is shown as the winner with highest lift. Be aware of these and similar metrics, and whether you'd prefer to decrease or increase the numbers, when making decisions based on your reports.
 
-You can apply the metric or audience to the report in [!DNL Target] after the activity has started, or even after the test has completed. You don't have to know exactly what you want to measure beforehand.
+You can apply the metric or audience to the report in [!DNL Target] after the activity has started, or even after the test has completed. You do not have to know exactly what you want to measure beforehand.
 
 Click to view the full [!DNL Analytics] report directly from the activity report page.
 
@@ -89,7 +91,7 @@ You can perform offline calculations for confidence and confidence intervals for
 
 For A4T, we use a [Welch's t-test](https://en.wikipedia.org/wiki/Welch%27s_t-test){target=_blank} calculation for continuous variables (rather than binary metrics). In Analytics, a visitor is always tracked, and every action taken is counted. Therefore, if the visitor purchases multiple times or visit a success metric multiple times, those additional hits are counted. This makes the metric a continuous variable. To perform the Welch's t-test calculation, the "sum of squares" is required to calculate the variance, which is used in the denominator of the t-statistic. [Statistical calculations in A/Bn tests](/help/main/c-reports/statistical-methodology/statistical-calculations.md) explains the details of the mathematical formulas used. The sum of squares can be retrieved from [!DNL Analytics]. To get the sum of squares data, you need to perform a visitor-level export for the metric you are optimizing to, for a sample time period.
 
-For example, if you're optimizing to page views per visitor, you'd export a sample of the total number of page views on a per visitor basis for a specified time frame, perhaps a couple of days (a few thousand data points is all you need). You would then square each value and sum the totals (the order of operations is critical here). This "sum of squares" value is then used in the Complete Confidence Calculator. Use the "revenue" section of that spreadsheet for these values.
+For example, if you are optimizing to page views per visitor, you'd export a sample of the total number of page views on a per visitor basis for a specified time frame, perhaps a couple of days (a few thousand data points is all you need). You would then square each value and sum the totals (the order of operations is critical here). This "sum of squares" value is then used in the Complete Confidence Calculator. Use the "revenue" section of that spreadsheet for these values.
 
 **To use the [!DNL Analytics] data export feature to do this:**
 
@@ -113,7 +115,7 @@ For example, if you're optimizing to page views per visitor, you'd export a samp
 
    File delivery can take up to 72 hours, depending on the amount of data requested. You can check on the progress of your request at any time by clicking [!UICONTROL Tools] > [!UICONTROL Data Warehouse] > [!UICONTROL Request Manager].
 
-   If you would like to re-request data that you've requested in the past, you can duplicate an old request from the [!UICONTROL Request Manager] as needed.
+   If you would like to re-request data that you have requested in the past, you can duplicate an old request from the [!UICONTROL Request Manager] as needed.
 
 For more information about [!DNL Data Warehouse], see the following links in the [!DNL Analytics] Help documentation:
 

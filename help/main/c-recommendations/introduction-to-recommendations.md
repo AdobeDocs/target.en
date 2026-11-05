@@ -5,7 +5,7 @@ title: What Are Recommendations Activities?
 badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="See what's included in Target Premium."
 feature: Recommendations
 exl-id: bc4d9a46-ea21-4687-b8a0-7f2e1dc33ebf
-TQID: https://experienceleague.adobe.com/6jmXI9CsdCnyyQrQXKzq5WF8OQPQSCbE2Zb8AnpUvks
+TQID: 'https://experienceleague.adobe.com/6jmXI9CsdCnyyQrQXKzq5WF8OQPQSCbE2Zb8AnpUvks'
 product_v2:
   - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
     internal-label: Target
@@ -14,6 +14,11 @@ feature_v2:
     internal-label: Audiences
   - id: c93393a4-e558-47e1-992e-c91ed4d480ce
     internal-label: Implementation
+  - id: f69bc5f1-ebdb-4306-a281-f2e77daf734c
+    internal-label: Activities and tests
+subfeature_v2:
+  - id: ed58f4a1-16eb-4c8c-b505-be9da766a9ec
+    internal-label: Recommendations
 topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
     internal-label: Metadata
@@ -42,7 +47,7 @@ The following illustration shows a recommendation that displays accessories that
 
 ![Recommendation showing accessories others have purchased with a new phone.](/help/main/c-recommendations/assets/intro-1.png)
 
-But what we don't always think about is how digital-first brands are raising the bar of customer expectations. Increasingly, the way we consume media and content is driven by personalized recommendations. Think about the first thing you see when you open Netflix, Spotify, or YouTube. These brands start the customer experience with recommendations. In a world where more alternatives are available than ever, it's critical that you can identify the most relevant content for your customer at the point of interaction.
+But what we do not always think about is how digital-first brands are raising the bar of customer expectations. Increasingly, the way we consume media and content is driven by personalized recommendations. Think about the first thing you see when you open Netflix, Spotify, or YouTube. These brands start the customer experience with recommendations. In a world where more alternatives are available than ever, it is critical that you can identify the most relevant content for your customer at the point of interaction.
 
 ![Recommendation showing digital-first brands](/help/main/c-recommendations/assets/intro-2.png)
 
@@ -69,9 +74,9 @@ What makes for great recommendations?
 
 Great recommendations should be relevant and personalized. This means you need three things to drive relevance and personalization:
 
-* **Marketer controls** to help drive relevance of the items that are recommended. As a marketer, you bring valuable context to the table and you know what attributes of your products or content are relevant for a recommendations model to consider. If you're running a video site, you know that users might be interested in seeing movies from the same director, but probably don't care about seeing movies that were produced by the same studio. [!DNL Target] empowers you with controls that allow you to enhance your algorithms with this domain knowledge.
+* **Marketer controls** to help drive relevance of the items that are recommended. As a marketer, you bring valuable context to the table and you know what attributes of your products or content are relevant for a recommendations model to consider. If you are running a video site, you know that users might be interested in seeing movies from the same director, but probably do not care about seeing movies that were produced by the same studio. [!DNL Target] empowers you with controls that allow you to enhance your algorithms with this domain knowledge.
 * **Sophisticated models** to make sense of millions of items in your catalog and interaction events. [!DNL Target] has sophisticated machine learning capabilities built over a decade of experience and we handle billions of recommendations per year.
-* **User context** to ensure that recommendations are timely and relevant to your users. You don't want to recommend the video that someone just watched or the shirt that someone just added to their cart. Target's rich user profile can be used in recommendations to ensure personalization.
+* **User context** to ensure that recommendations are timely and relevant to your users. You do not want to recommend the video that someone just watched or the shirt that someone just added to their cart. Target's rich user profile can be used in recommendations to ensure personalization.
 
 ## Implement [!DNL Target] Recommendations
 
@@ -119,9 +124,9 @@ Next, you should add tags or leverage you existing [!DNL Analytics] implementati
 
 ![Illustration showing how to capture user behavior](/help/main/c-recommendations/assets/intro-9.png)
 
-You need to ensure that [!DNL Target] is aware of the items that your users are viewing and purchasing. If purchasing isn't relevant to your context, you might want to track a different type of conversion event, for example, downloading a PDF, completing a survey, subscribing to a newsletter, watching a video, and so forth.
+You need to ensure that [!DNL Target] is aware of the items that your users are viewing and purchasing. If purchasing is not relevant to your context, you might want to track a different type of conversion event, for example, downloading a PDF, completing a survey, subscribing to a newsletter, watching a video, and so forth.
 
-If you are already using [!DNL Target] to run A/B Tests activities on your site, you might have already completed this step. Or if you are already using [!DNL Adobe Analytics] to report on site visits and conversion behavior, you can use [!DNL Analytics] as your behavioral datasource. If not, it's easiest to set this up using a tag manager such as tags in [[!DNL Adobe Experience Platform]](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/deploy-at-js/implement-target-using-adobe-launch.html){target=_blank}. It's also possible to send offline or in-app interactions to [!DNL Target] via real-time API.
+If you are already using [!DNL Target] to run A/B Tests activities on your site, you might have already completed this step. Or if you are already using [!DNL Adobe Analytics] to report on site visits and conversion behavior, you can use [!DNL Analytics] as your behavioral datasource. If not, it is easiest to set this up using a tag manager such as tags in [[!DNL Adobe Experience Platform]](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/deploy-at-js/implement-target-using-adobe-launch.html){target=_blank}. It is also possible to send offline or in-app interactions to [!DNL Target] via real-time API.
 
 ### Get recommendations with the right context
 
@@ -159,13 +164,13 @@ The following sections describe the various parts of this funnel and how they wo
 
 ### Static filters (collections and exclusions)
 
-Static filters are broadly applicable rules related to catalog attributes that you don't expect to change frequently.
+Static filters are broadly applicable rules related to catalog attributes that you do not expect to change frequently.
 
 ![Collections and exclusions illustration](/help/main/c-recommendations/assets/intro-16.png)
 
 For example, in a content context, you might want to include all movies in recommendations, but exclude movies rated NC-17. In a retail context, you might have multiple brands in different parts of the world, but you want to recommend only products available in the United States. You might also want to exclude products from a regional private label.
 
-These are all catalog attributes that are broadly applicable that you might want to use in multiple recommendations and you don't expect them to change frequently.
+These are all catalog attributes that are broadly applicable that you might want to use in multiple recommendations and you do not expect them to change frequently.
 
 ### Algorithm (recommendation key and logic)
 

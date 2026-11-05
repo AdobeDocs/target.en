@@ -4,13 +4,15 @@ description: Explore common issues customers have encountered when using Analyti
 title: How Do I Troubleshoot the Analytics and [!DNL Target] Integration (A4T)
 feature: Analytics for Target (A4T)
 exl-id: 7d155cbe-e799-43b5-afc2-1aea43f432ba
-TQID: https://experienceleague.adobe.com/R-gDENE45OcDN1OmptsqpH3iMF9f2pllHJbJl2Vmk2o
+TQID: 'https://experienceleague.adobe.com/R-gDENE45OcDN1OmptsqpH3iMF9f2pllHJbJl2Vmk2o'
 product_v2:
   - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
     internal-label: Target
 feature_v2:
   - id: c93393a4-e558-47e1-992e-c91ed4d480ce
     internal-label: Implementation
+  - id: 891742a5-242d-5099-966a-ca76c17cd2d2
+    internal-label: Analytics for Target (A4T)
 subfeature_v2:
   - id: fd0ff162-b6d3-4a11-8aeb-e165a01c0f0a
     internal-label: at.js
@@ -32,11 +34,11 @@ This topic covers some common issues that have been encountered when using [!DNL
 
 There are several reasons why data shows as "unspecified" could happen:
 
-* Classification in [!DNL Target] hasn't fully processed.
+* Classification in [!DNL Target] has not fully processed.
 
   Classification generally takes from 24 through 72 hours to classify reports after the first save.
 
-* The report suite doesn't contain any data, but [!DNL Target] has tried to classify hits. [!DNL Target] cannot classify data until the first hit occurs.
+* The report suite does not contain any data, but [!DNL Target] has tried to classify hits. [!DNL Target] cannot classify data until the first hit occurs.
 
   Ensure that the report suite has had at least one hit. 
 
@@ -48,7 +50,7 @@ If you break down the "unspecified" row by the "Analytics for Target" dimension 
 
 >[!NOTE]
 >
->Sometimes data displays correctly in reports, but then reverts to "unspecified" because a new activity was added that hasn't completed classification. Remember that it generally takes from 24 through 72 hours to classify reports after the first save.
+>Sometimes data displays correctly in reports, but then reverts to "unspecified" because a new activity was added that has not completed classification. Remember that it generally takes from 24 through 72 hours to classify reports after the first save.
 >
 >No data is lost when listed as "unspecified." The data is properly assigned to the appropriate activity or experience after the classification runs.
 
@@ -58,7 +60,7 @@ There might be an "[!UICONTROL Unspecified]" events row shown in your report, de
 
 Typically, this row displays if you choose a common metric in the report that is not [!DNL Target]-specific (for example, [!UICONTROL Page Views], [!UICONTROL Visits], [!UICONTROL Unique Visitors], and so forth). In this case, the [!UICONTROL "Unspecified"] row includes all the [!UICONTROL Page Views], [!UICONTROL Visits], and [!UICONTROL Unique Visitors] that are not associated to [!DNL Target] activities.
 
-That row won't have any [!DNL Target]-associated information (for example, no visitors, visits, or impressions). For more information, see ["Unspecified," "None," "Other," and "Unknown" in reporting](https://experienceleague.adobe.com/docs/analytics/technotes/unspecified.html?lang=en) in the *Analytics tech notes*.
+That row will not have any [!DNL Target]-associated information (for example, no visitors, visits, or impressions). For more information, see ["Unspecified," "None," "Other," and "Unknown" in reporting](https://experienceleague.adobe.com/docs/analytics/technotes/unspecified.html?lang=en) in the *Analytics tech notes*.
 
 If you choose a [!DNL Target]-specific metric in the report, that [!UICONTROL "Unspecified"] row does not display. The only way to avoid having it in the report altogether is to set a [!DNL Target] call on every request sent from that page, which is not common or necessary.
 
@@ -74,7 +76,7 @@ A4T activities require an analytics tracking server to be specified. See [Using 
 >
 >You do not need to specify a tracking server during activity creation if you are using at.js version 0.9.1 (or later). The at.js library automatically sends tracking server values to [!DNL Target]. During activity creation, you can leave the [!UICONTROL Tracking Server] field empty on the [!UICONTROL Goals & Settings] page.
 
-## My Analytics segments don't appear in Target. {#section_DEE87F1557834F448E99381D3D02EEEF}
+## My Analytics segments do not appear in Target. {#section_DEE87F1557834F448E99381D3D02EEEF}
 
 Make sure you have the right permissions before you start creating A4T activities:
 
@@ -94,7 +96,7 @@ The list of report suites that appears in [!DNL Target Standard/Premium] is the 
 
 If you are using multiple reporting sources, the report suites must be present in the default reporting source set in [!DNL Target] as well. If the report suites are not in the default reporting source, the reports suites do not display.
 
-If you still don't see the report suite that you are looking for, contact [Client Care](/help/main/cmp-resources-and-contact-information.md#reference_ACA3391A00EF467B87930A450050077C) to get it enabled.
+If you still do not see the report suite that you are looking for, contact [Client Care](/help/main/cmp-resources-and-contact-information.md#reference_ACA3391A00EF467B87930A450050077C) to get it enabled.
 
 ## I'm not seeing as much data in reports as expected. {#section_75002584FA63456D8D9086172925DD8D}
 

@@ -5,6 +5,15 @@ title: What Is an [!UICONTROL Auto-Target] Activity?
 badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="See what's included in Target Premium."
 feature: Auto-Target
 exl-id: 59ca30dc-45a0-4129-b832-84e1132d3b69
+product_v2:
+  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+    internal-label: Target
+feature_v2:
+  - id: f69bc5f1-ebdb-4306-a281-f2e77daf734c
+    internal-label: Activities and tests
+subfeature_v2:
+  - id: db15a02f-03cd-46fe-a53e-02064cdeadfa
+    internal-label: Auto target
 ---
 # [!UICONTROL Auto-Target] overview
 
@@ -108,13 +117,13 @@ There are several scenarios in which you might prefer to use [!UICONTROL Auto-Ta
 
 * The algorithm predicts a visitor's propensity for conversion (or estimated revenue from conversion) to serve the best experience. 
 * A visitor is eligible for a new experience upon the end of an existing session (unless the visitor is in the control group, in which case the experience that visitor is assigned on the first visit remains the same for subsequent visits). 
-* Within a session, the prediction doesn't change, to maintain visual consistency.
+* Within a session, the prediction does not change, to maintain visual consistency.
 
 ### The algorithm adapts to changes in visitor behavior.
 
 * The multi-arm bandit ensures that the model is always "spending" a small fraction traffic to continue to learn throughout the life of the activity learning and to prevent over-exploitation of previously learned trends. 
 * The underlying models are rebuilt every 24 hours using the latest visitor behavior data to ensure that [!DNL Target] is always exploiting changing visitor preferences. 
-* If the algorithm can't determine winning experiences for individuals, it automatically switches to showing the overall best-performing experience while still continuing to look for personalized winners. The best-performing experience is found using [Thompson sampling](https://en.wikipedia.org/wiki/Thompson_sampling).
+* If the algorithm cannot determine winning experiences for individuals, it automatically switches to showing the overall best-performing experience while still continuing to look for personalized winners. The best-performing experience is found using [Thompson sampling](https://en.wikipedia.org/wiki/Thompson_sampling).
 
 ### The algorithm continually optimizes for a single goal metric.
 
@@ -126,7 +135,7 @@ There are several scenarios in which you might prefer to use [!UICONTROL Auto-Ta
 
 ### [!DNL Target] automatically uses all [!DNL Adobe Experience Cloud] shared audiences to build the personalization models.
 
-* You don't have to do anything specific to add audiences to the model. For information about using [!DNL Experience Cloud Audiences] with [!DNL Target], see [Experience Cloud Audiences](/help/main/c-integrating-target-with-mac/mmp.md).
+* You do not have to do anything specific to add audiences to the model. For information about using [!DNL Experience Cloud Audiences] with [!DNL Target], see [Experience Cloud Audiences](/help/main/c-integrating-target-with-mac/mmp.md).
 
 ### Marketers can upload offline data, propensity scores, or other custom data to build personalization models.
 
@@ -138,7 +147,7 @@ There are several scenarios in which you might prefer to use [!UICONTROL Auto-Ta
 
 Although the amount of traffic *per experience* required for [!UICONTROL Auto-Target] or [!UICONTROL Auto Personalization] models to build are the same, there are usually more experiences in an [!UICONTROL Automated Personalization] activity than an [!UICONTROL Auto-Target] activity. 
 
-For example, if you had an [!UICONTROL Auto Personalization] activity in which you've created two offers per location with two locations, there would be four (2 = 4) total experiences included in the activity (with no exclusions). Using [!UICONTROL Auto-Target], you could set experience 1 to include offer 1 in location 1 and offer 2 in location 2, and experience 2 to include offer 1 in location 1 and offer 2 in location 2. Because [!UICONTROL Auto-Target] allows you could choose to have multiple changes within one experience, you can reduce the number of total experiences in your activity.
+For example, if you had an [!UICONTROL Auto Personalization] activity in which you have created two offers per location with two locations, there would be four (2 = 4) total experiences included in the activity (with no exclusions). Using [!UICONTROL Auto-Target], you could set experience 1 to include offer 1 in location 1 and offer 2 in location 2, and experience 2 to include offer 1 in location 1 and offer 2 in location 2. Because [!UICONTROL Auto-Target] allows you could choose to have multiple changes within one experience, you can reduce the number of total experiences in your activity.
 
 For [!UICONTROL Auto-Target], simple rules of thumb can be used to understand traffic requirements:
 

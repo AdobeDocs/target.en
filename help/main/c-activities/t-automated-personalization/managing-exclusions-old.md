@@ -6,6 +6,17 @@ badgePremium: label="Premium" type="Positive" url="https://experienceleague.adob
 feature: Automated Personalization
 solution: Target,Analytics
 exl-id: d9e9f2a2-5914-4b81-acae-eaf388646652
+product_v2:
+  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+    internal-label: Target
+  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+    internal-label: Analytics
+feature_v2:
+  - id: f69bc5f1-ebdb-4306-a281-f2e77daf734c
+    internal-label: Activities and tests
+subfeature_v2:
+  - id: f0055dd2-93f3-4ac8-9abc-d69d4ed2d977
+    internal-label: Automated personalization
 ---
 # Manage exclusions
 
@@ -61,7 +72,7 @@ Click the **[!UICONTROL Configure]** gear option > **[!UICONTROL Duplicate Offer
 
 Exclude specific experiences if you want to exclude certain offer combinations from your [!UICONTROL Automated Personalization] activity. 
 
-There might be certain combinations that don't work together, or you might be limiting the number of experiences tested to decrease traffic requirements for your activity. 
+There might be certain combinations that do not work together, or you might be limiting the number of experiences tested to decrease traffic requirements for your activity. 
 
 1. While [creating or editing an AP activity](/help/main/c-activities/t-automated-personalization/create-ap-activity.md), click **Manage Content** in the header bar.
 

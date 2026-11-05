@@ -4,7 +4,7 @@ description: Explore a list of frequently asked questions about using the featur
 title: Where Can I Find Answers to My Optimization and Personalization Questions?
 feature: Overview
 exl-id: 75e29d2a-78e7-40aa-b134-36a7cc8b3ed8
-TQID: https://experienceleague.adobe.com/ZLjNWdMjyDhOM4i7SzNGKZ5izqeusWmDLLNWG1HBaFg
+TQID: 'https://experienceleague.adobe.com/ZLjNWdMjyDhOM4i7SzNGKZ5izqeusWmDLLNWG1HBaFg'
 product_v2:
   - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
     internal-label: Target
@@ -15,11 +15,15 @@ feature_v2:
     internal-label: Implementation
   - id: f7c7de77-382f-4f48-8b36-61a170f06d3d
     internal-label: Integrations
+  - id: dfc8a233-f2b5-4811-bf63-b4262aebc5a5
+    internal-label: Administration and configuration
 subfeature_v2:
   - id: df62f171-ac37-440f-8f0f-f41a72ebdd34
     internal-label: Analytics integration
   - id: fd0ff162-b6d3-4a11-8aeb-e165a01c0f0a
     internal-label: at.js
+  - id: fc9c2184-9102-403f-bd6c-0055021e4bea
+    internal-label: Overview
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
     internal-label: Reporting
@@ -87,6 +91,8 @@ Connect with fellow [!DNL Target] practitioners in the [Target Community Forum](
 
 +++See details
 Please read our [Supported Browsers](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/supported-browsers.html){target=_blank} matrix for more details. Notice that there are two aspects: the [!DNL Target Standard/Premium ] interface support and the end-user browser support on desktop/devices.
+
+[!DNL Safari] is supported for the [!DNL Target] interface. You can create form-based activities in [!DNL Safari] and use all functionality, except the [!UICONTROL Visual Experience Composer] (VEC) and the [!UICONTROL Enhanced Experience Composer] (EEC), which are not supported in [!DNL Safari]. To edit experiences in the VEC or EEC, use [!DNL Google Chrome].
 
 +++
 
@@ -281,7 +287,7 @@ Check out [Template Rules](/help/main/c-experiences/c-visual-experience-composer
 **I am tired of the "allow your browser to load scripts" message when I attempt to load my page in the [!UICONTROL Visual Experience Composer] (VEC). How can I avoid this?**
 
 +++See details
-This is because your site has mixed content—it's a site that fetches both HTTP and HTTPS resources. Request that your IT team move to HTTPS completely.
+This is because your site has mixed content—it is a site that fetches both HTTP and HTTPS resources. Request that your IT team move to HTTPS completely.
 
 Until this happens, follow the instructions in [Enabling Mixed Content in Your Browser](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/mixed-content.md#concept_46D022D50280468C9EF6D5DF6EFC911C) to allow your browser to load mixed content. This is a security feature of most modern browsers.
 
@@ -319,7 +325,7 @@ You can always use [Enhanced Experience Composer option at the activity level](/
 
 +++
 
-**Why don't I see an option to swap images?**
+**Why do not I see an option to swap images?**
 
 +++See details
 Reach out to Adobe to [ensure that your account is set up for Scene7](/help/main/administrating-target/scene7-settings.md#task_37AD0768EFBA4E588955FE3D5DD670A5). Once provisioned, you will be able to swap an image with another image with ease.
@@ -349,7 +355,7 @@ One of the ways is to use the [Custom Code Editor](/help/main/c-experiences/c-vi
 
 +++
 
-**Why can't I go past the log-in page within the [!UICONTROL Visual Experience Composer] (VEC) or to a page buried deep within for which I don't have a specific URL?**
+**Why cannot I go past the log-in page within the [!UICONTROL Visual Experience Composer] (VEC) or to a page buried deep within for which I do not have a specific URL?**
 
 +++See details
 Use the [!UICONTROL Compose] and [!UICONTROL Browse] features to navigate to the page of choice and start creating your experience.
@@ -385,7 +391,7 @@ We have [Redirect URL feature](/help/main/c-experiences/c-manage-content/offer-r
 **Why is content delivery not happening in my QA process?**
 
 +++See details
-It's possible that your site might have dynamic IDs, duplicate IDs, or dynamic classes on elements. You might have to evaluate the site preference options at the account level (or at activity level if the issue is specific to a domain or a page). See [CSS Selectors](/help/main/administrating-target/visual-experience-composer-set-up.md#css).
+It is possible that your site might have dynamic IDs, duplicate IDs, or dynamic classes on elements. You might have to evaluate the site preference options at the account level (or at activity level if the issue is specific to a domain or a page). See [CSS Selectors](/help/main/administrating-target/visual-experience-composer-set-up.md#css).
 
 +++
 
@@ -430,7 +436,7 @@ Note that [!DNL Target] collects the data in this regard from the time you add t
 **I cannot define audiences prior to running the activity. I find this aspect of reporting audiences in [!DNL Target] activities restrictive. What can I do to make this process easier?**
 
 +++See details
-This is where [Analytics for Target (A4T)](/help/main/c-integrating-target-with-mac/a4t/a4t.md#concept_7540C8C04259434AB6EE33B09F47A1DE) is handy. If you have [!DNL Adobe Analytics], simply choose the source as [!DNL Analytics], which eliminates this restriction. Now you can perform analysis on any audience at any point and you don't need to define the reporting audiences up front.
+This is where [Analytics for Target (A4T)](/help/main/c-integrating-target-with-mac/a4t/a4t.md#concept_7540C8C04259434AB6EE33B09F47A1DE) is handy. If you have [!DNL Adobe Analytics], simply choose the source as [!DNL Analytics], which eliminates this restriction. Now you can perform analysis on any audience at any point and you do not need to define the reporting audiences up front.
 
 +++
 

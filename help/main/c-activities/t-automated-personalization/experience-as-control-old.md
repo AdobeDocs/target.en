@@ -6,6 +6,19 @@ badgePremium: label="Premium" type="Positive" url="https://experienceleague.adob
 feature: Automated Personalization, Auto-Target
 solution: Target,Analytics
 exl-id: a0a36ace-3cba-4d8d-9bbd-e35204ff6453
+product_v2:
+  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+    internal-label: Target
+  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+    internal-label: Analytics
+feature_v2:
+  - id: f69bc5f1-ebdb-4306-a281-f2e77daf734c
+    internal-label: Activities and tests
+subfeature_v2:
+  - id: f0055dd2-93f3-4ac8-9abc-d69d4ed2d977
+    internal-label: Automated personalization
+  - id: db15a02f-03cd-46fe-a53e-02064cdeadfa
+    internal-label: Auto target
 ---
 # Select the control for your [!UICONTROL Automated Personalization] or [!UICONTROL Auto-Target] activity
 
@@ -13,11 +26,11 @@ You can select a randomly served experience or a specific experience to be used 
 
 This feature lets you route the control traffic to the relevant experiences, based on the traffic allocation percentage configured in the activity. You can then evaluate the performance reports of the personalized traffic against control traffic to that control.
 
-The options for setting a control in [!UICONTROL Automated Personalization] and [!UICONTROL Auto-Target] activities are a little different from other activity types. In a manual [!UICONTROL A/B Test], you can change what reporting shows as your control, and lift is calculated based on the conversion rate of that control experience. You can make this change easily because traffic is served randomly to each of the experiences you included in your activity, no matter what the control is initially set to. In other words, selecting the control doesn't impact how traffic is served. In [!UICONTROL Automated Personalization] and [!UICONTROL Auto-Target] activities, your decision on what to choose as the control does impact how the visitor traffic is served. As a result, you must think more carefully about your decision.
+The options for setting a control in [!UICONTROL Automated Personalization] and [!UICONTROL Auto-Target] activities are a little different from other activity types. In a manual [!UICONTROL A/B Test], you can change what reporting shows as your control, and lift is calculated based on the conversion rate of that control experience. You can make this change easily because traffic is served randomly to each of the experiences you included in your activity, no matter what the control is initially set to. In other words, selecting the control does not impact how traffic is served. In [!UICONTROL Automated Personalization] and [!UICONTROL Auto-Target] activities, your decision on what to choose as the control does impact how the visitor traffic is served. As a result, you must think more carefully about your decision.
 
 There are two options available for your control in your [!UICONTROL Automated Personalization] and [!UICONTROL Auto-Target] activities:
 
-* **Randomly served**: For a random control, the control percentage of traffic randomly serves all experiences in the activity, without considering that visitor's profile. You can think of the control as helping answer the question, "If I just randomly serve an experience (or offer) to visitors and don't consider their profiles, what is the conversion rate for that experience (or offer)?" The control is like an [!UICONTROL A/B Test] within your AI activity. Having this information of the non-personalized conversion rate for each experience or offer can be helpful to understand when analyzing your activity results.
+* **Randomly served**: For a random control, the control percentage of traffic randomly serves all experiences in the activity, without considering that visitor's profile. You can think of the control as helping answer the question, "If I just randomly serve an experience (or offer) to visitors and do not consider their profiles, what is the conversion rate for that experience (or offer)?" The control is like an [!UICONTROL A/B Test] within your AI activity. Having this information of the non-personalized conversion rate for each experience or offer can be helpful to understand when analyzing your activity results.
 
 * **Specific experience**: A specific experience control lets you compare your traffic served by [!DNL Target] personalization models to a specific marketer-defined experience (for example, your default homepage). With this option, the control percentage of traffic randomly serves traffic for only that one experience.
 
@@ -35,11 +48,11 @@ There are two options available for your control in your [!UICONTROL Automated P
 
 Keep the following points in mind when using a specific experience as a control:
 
-* Changing the control experience in an already live activity isn't advised. The latest control experience selected is named in reporting (even if older reports are based on another experience).
-* Deleting the control experience isn't advised.
+* Changing the control experience in an already live activity is not advised. The latest control experience selected is named in reporting (even if older reports are based on another experience).
+* Deleting the control experience is not advised.
 * Adding many new offers or experiences to a live activity with a specific experience as the control is not advised.
-* In [!UICONTROL Automated Personalization] activities, including targeting on the control experience that could further constrain who can see that experience isn't advised.
-* In [!UICONTROL Automated Personalization] activities, lift and confidence information is *NOT* available in the offer-level report if a specific experience is selected. Lift and confidence information is available at the overall "targeted" versus "control" traffic level for the [!UICONTROL Automated Personalization] activity. Lift and confidence information is available if "random" is selected as the control. This difference is because comparing a specific experience's conversion rate to an offer's conversion rate isn't logical due to the difference in units. The information available in an [!UICONTROL Auto-Target] activity is the same, no matter what type of control is selected.
+* In [!UICONTROL Automated Personalization] activities, including targeting on the control experience that could further constrain who can see that experience is not advised.
+* In [!UICONTROL Automated Personalization] activities, lift and confidence information is *NOT* available in the offer-level report if a specific experience is selected. Lift and confidence information is available at the overall "targeted" versus "control" traffic level for the [!UICONTROL Automated Personalization] activity. Lift and confidence information is available if "random" is selected as the control. This difference is because comparing a specific experience's conversion rate to an offer's conversion rate is not logical due to the difference in units. The information available in an [!UICONTROL Auto-Target] activity is the same, no matter what type of control is selected.
 * Because all control traffic goes to a single experience or set of offers when you select the experience as control (compared to random, where the control traffic amount is split over the number of experiences or offers in your activity), you generally do not need as much traffic to flow to the control. 10% is a good place to start.
 * If you do one of the following to a live activity with a specific experience as a control, the control is automatically reset to randomly served experiences (instead of the previously selected specific experience):
 

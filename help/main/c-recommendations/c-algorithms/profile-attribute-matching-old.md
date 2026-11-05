@@ -5,6 +5,15 @@ title: How Do I Filter by Profile Attribute Matching In Recommendations Activiti
 badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="See what's included in Target Premium."
 feature: Recommendations
 exl-id: d4b837af-771b-41b4-982b-f9f08e4753f2
+product_v2:
+  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+    internal-label: Target
+feature_v2:
+  - id: f69bc5f1-ebdb-4306-a281-f2e77daf734c
+    internal-label: Activities and tests
+subfeature_v2:
+  - id: ed58f4a1-16eb-4c8c-b505-be9da766a9ec
+    internal-label: Recommendations
 ---
 # Profile Attribute matching
 
@@ -38,7 +47,7 @@ brand - equals - the value/text stored in - profile.favoritebrand
 
 ### Matching jobs to job seekers
 
-Suppose that you're trying to match jobs to job seekers. You want to recommend only jobs that are in the same city as the job seeker.
+Suppose that you are trying to match jobs to job seekers. You want to recommend only jobs that are in the same city as the job seeker.
 
 You can use inclusion rules to match a job seeker's location from his or her visitor's profile to a job listing, as in the following example:
 

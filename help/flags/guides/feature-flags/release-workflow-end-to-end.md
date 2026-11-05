@@ -1,8 +1,12 @@
 ---
 title: Release workflow end-to-end
 description: Learn the end-to-end workflow for managing a coordinated release in Flags, from defining feature flags to going live.
+badge: label="Beta" type="Informative"
 hide: true
 exl-id: 086e3192-c22b-4de8-a15a-89edb09ac230
+product_v2:
+  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+    internal-label: Target
 ---
 # Release workflow end-to-end {#release-workflow}
 

@@ -4,13 +4,18 @@ description: Learn more about the Adobe Experience Composers - Visual Experience
 title: Which Experience Composers Does [!DNL Target] Offer?
 feature: Experiences and Offers
 exl-id: 83daca9f-c154-487e-83cd-e458d50cece2
-TQID: https://experienceleague.adobe.com/M6qSdXMgnhZjKOwvH6dMI35uetwpnt7oa9GmlrMkMjw
+TQID: 'https://experienceleague.adobe.com/M6qSdXMgnhZjKOwvH6dMI35uetwpnt7oa9GmlrMkMjw'
 product_v2:
   - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
     internal-label: Target
 feature_v2:
   - id: adee20bd-51f4-461d-b9db-d215f8756eeb
     internal-label: Audiences
+  - id: dfc8a233-f2b5-4811-bf63-b4262aebc5a5
+    internal-label: Administration and configuration
+subfeature_v2:
+  - id: ef98a6e0-f26c-4870-9bd4-e6b72e9cc699
+    internal-label: Experiences and offers
 topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
     internal-label: Customer experience
@@ -32,5 +37,5 @@ Target provides the following experience composers:
 |Type|Details|
 | --- | --- |
 |[Visual Experience Composer (VEC)](/help/main/c-experiences/c-visual-experience-composer/visual-experience-composer.md#concept_CF63320EB8924B2F9BDA3C72256DCE50)|The VEC is one of the main features of Adobe Target. The VEC is an editor that lets marketers and designers create and change content using a visual interface. Many design choices can be made without requiring direct editing of the code. Editing HTML and JavaScript is also possible using the editing options available in the composer.|
-|[Form-Based Experience Composer](/help/main/c-experiences/form-experience-composer.md#task_FAC842A6535045B68B4C1AD3E657E56E)|The Form-Based Experience Composer provides non-visual experience creation. This feature enables Target Standard A/B tests, Experience Targeting, Automated Personalization, and Recommendations activities to be delivered in emails, kiosks, and other places that don't work with a Visual Experience Composer.|
+|[Form-Based Experience Composer](/help/main/c-experiences/form-experience-composer.md#task_FAC842A6535045B68B4C1AD3E657E56E)|The Form-Based Experience Composer provides non-visual experience creation. This feature enables Target Standard A/B tests, Experience Targeting, Automated Personalization, and Recommendations activities to be delivered in emails, kiosks, and other places that do not work with a Visual Experience Composer.|
 |[Single Page Application (SPA) Visual Experience Composer (VEC)](/help/main/c-experiences/spa-visual-experience-composer.md)|The VEC for SPAs enables marketers to create tests and personalize content on SPAs in a do-it-yourself fashion without continuous development dependencies. The VEC can be used to create A/B Test and Experience Targeting (XT) activities on popular frameworks, such as React and Angular.|

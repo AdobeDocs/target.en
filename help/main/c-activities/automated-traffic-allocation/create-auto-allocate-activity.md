@@ -4,13 +4,18 @@ description: Learn how to use the [!UICONTROL Visual Experience Composer] (VEC) 
 title: How Do I Create an [!UICONTROL Auto-Allocate] Activity?
 feature: Auto-Allocate
 exl-id: 30bc95e0-4f5e-4d1f-bad2-7b20b8f3c7d2
-TQID: https://experienceleague.adobe.com/dInypDH72qyoj5UygbEt-BWpq1gZkbxJiSXSheNPO54
+TQID: 'https://experienceleague.adobe.com/dInypDH72qyoj5UygbEt-BWpq1gZkbxJiSXSheNPO54'
 product_v2:
   - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
     internal-label: Target
 feature_v2:
   - id: adee20bd-51f4-461d-b9db-d215f8756eeb
     internal-label: Audiences
+  - id: f69bc5f1-ebdb-4306-a281-f2e77daf734c
+    internal-label: Activities and tests
+subfeature_v2:
+  - id: f2d0aafb-18af-41a0-a32e-2788eafacc2b
+    internal-label: Auto-allocate
 topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
     internal-label: Customer experience
@@ -81,7 +86,7 @@ To create an [!UICONTROL Auto-Allocate] activity:
    
 1. Create new experiences by changing the elements on the page.
 
-   The [!UICONTROL Visual Experience Composer] displays two tabs on the left side after you create a new activity: [!UICONTROL Experience A] and [!UICONTROL Experience B]. [!UICONTROL Experience A] is the control experience. Your focus is on the [!UICONTROL Experience B] tab, which you can modify as desired. [!UICONTROL Experience B] is the alternate experience that you can add to your test. You can add multiple experiences to the test by clicking the [!UICONTROL Add] icon ( ![Add icon](/help/main/assets/icons/Add.svg) ) at the top of the [!UICONTROL Experiences] pane. You can also delete Experience A from the activity if you don't want to include a default site experience as an option.
+   The [!UICONTROL Visual Experience Composer] displays two tabs on the left side after you create a new activity: [!UICONTROL Experience A] and [!UICONTROL Experience B]. [!UICONTROL Experience A] is the control experience. Your focus is on the [!UICONTROL Experience B] tab, which you can modify as desired. [!UICONTROL Experience B] is the alternate experience that you can add to your test. You can add multiple experiences to the test by clicking the [!UICONTROL Add] icon ( ![Add icon](/help/main/assets/icons/Add.svg) ) at the top of the [!UICONTROL Experiences] pane. You can also delete Experience A from the activity if you do not want to include a default site experience as an option.
 
    For more information about adding and modifying experiences in the [!UICONTROL Visual Experience Composer], see [Add Experience](/help/main/c-activities/t-test-ab/t-test-create-ab/ab-add-experience.md#task_454646F2895242D3B92DC395A0CE1A00). To modify [!UICONTROL Experience B], start with Step 2. 
 
@@ -134,6 +139,8 @@ To create an [!UICONTROL Auto-Allocate] activity:
    >[!NOTE]
    >
    >If you want to use [Analytics for Target](/help/main/c-integrating-target-with-mac/a4t/a4t.md) (A4T) with this activity, see important information in [A4T support for Auto-Allocate and Auto-Target activities](/help/main/c-integrating-target-with-mac/a4t/a4t-at-aa.md).
+   >
+   >If you want to use [[!DNL Target] reporting in [!DNL Adobe Customer Journey Analytics]](/help/main/c-integrating-target-with-mac/cja/target-reporting-in-cja.md) with this activity, refer to [this page](/help/main/c-integrating-target-with-mac/cja/target-reporting-in-cja.md#create-an-activity-that-uses-customer-journey-analytics-as-the-reporting-source).
 
 1. Click **[!UICONTROL Save & Close]** or **[!UICONTROL Save]**.
 

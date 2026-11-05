@@ -4,13 +4,15 @@ description: Find answers to questions that are frequently asked about provision
 title: Where Can I Find Information about A4T Initial Provisioning?
 feature: Analytics for Target (A4T)
 exl-id: 4b098444-3e5b-45e3-b635-1857c2c8d183
-TQID: https://experienceleague.adobe.com/O2NhhiytLUaXarno3zH4DHi4EechHxUCMr8QifbEltw
+TQID: 'https://experienceleague.adobe.com/O2NhhiytLUaXarno3zH4DHi4EechHxUCMr8QifbEltw'
 product_v2:
   - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
     internal-label: Target
 feature_v2:
   - id: c93393a4-e558-47e1-992e-c91ed4d480ce
     internal-label: Implementation
+  - id: 891742a5-242d-5099-966a-ca76c17cd2d2
+    internal-label: Analytics for Target (A4T)
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
     internal-label: Reporting
@@ -56,14 +58,14 @@ Check the following if any of these problems occur:
 
 +++
 
-## Why don't I see Analytics options in Target? {#section_EDD996AFB08B4DB196DD934BE55BF48D}
+## Why do not I see Analytics options in Target? {#section_EDD996AFB08B4DB196DD934BE55BF48D}
 
 +++Answer
 See "Why are my report suites not loading?" Above. The root cause of this problem is the same.
 
 +++
 
-## Why don't I see A4T reports in Analytics? {#section_FEB41E7B7E4F4F78897E4D9F021DEA59}
+## Why do not I see A4T reports in Analytics? {#section_FEB41E7B7E4F4F78897E4D9F021DEA59}
 
 +++Answer
 See "Why are my report suites not loading?" above. The root cause of this problem is the same.

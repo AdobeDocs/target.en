@@ -5,10 +5,16 @@ title: How Do I Interpret an [!UICONTROL Auto-Target] Report?
 badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="See what's included in Target Premium."
 feature: Auto-Target
 exl-id: df3f2d91-13f8-4acb-ba31-68f91500610b
-TQID: https://experienceleague.adobe.com/kULapGCJA-c5IUDhu-2opyah6rRuU4l91KetAJ-oHYs
+TQID: 'https://experienceleague.adobe.com/kULapGCJA-c5IUDhu-2opyah6rRuU4l91KetAJ-oHYs'
 product_v2:
   - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
     internal-label: Target
+feature_v2:
+  - id: f69bc5f1-ebdb-4306-a281-f2e77daf734c
+    internal-label: Activities and tests
+subfeature_v2:
+  - id: db15a02f-03cd-46fe-a53e-02064cdeadfa
+    internal-label: Auto target
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
     internal-label: Reporting

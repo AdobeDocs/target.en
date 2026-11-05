@@ -4,10 +4,13 @@ description: An element selector is a CSS expression that can identify one or mo
 title: Can I Use Element Selectors in the Visual Experience Composer (VEC)?
 feature: Visual Experience Composer (VEC)
 exl-id: f4ddb30a-f599-4fe5-861c-2deeeb9a70dd
-TQID: https://experienceleague.adobe.com/sqvUyLFddt7HPHH62jwpOZmwTIMSg-hyLIUr8w-x7vg
+TQID: 'https://experienceleague.adobe.com/sqvUyLFddt7HPHH62jwpOZmwTIMSg-hyLIUr8w-x7vg'
 product_v2:
   - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
     internal-label: Target
+feature_v2:
+  - id: f7501c88-b36a-590b-9cc4-dea607bda94b
+    internal-label: Visual Experience Composer (VEC)
 topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
     internal-label: Customer experience
@@ -79,7 +82,7 @@ For information about when to use CSS selectors and when to use unique IDs, see 
 
    Selector: `#container` > `ul.navigation:eq(0)` > `li.item:eq(0)` (" > " indicates the immediate child.)
 
-   `eq` tells the index there's an element that has "tagName=UL" and the first class is `navigation`. Therefore, `index` is 0. See the [Selectors](https://developer.mozilla.org/en-US/docs/Web/Guide/CSS/Getting_started/Selectors) article in MDN for more information. 
+   `eq` tells the index there is an element that has "tagName=UL" and the first class is `navigation`. Therefore, `index` is 0. See the [Selectors](https://developer.mozilla.org/en-US/docs/Web/Guide/CSS/Getting_started/Selectors) article in MDN for more information. 
 
 1. If an element does not contain a class, [!DNL Target] uses `tagName` for the element and traverses up the parent element until either the `<HTML>` element or an element with an ID is found.
 

@@ -68,7 +68,9 @@ The following settings are available:
 
   Allows editing on iFrame-busting sites and sites with mixed content. Some sites might not be compatible with the enhanced version. Deselect this option to revert to the original [!UICONTROL Visual Experience Composer]. Activity delivery on sites is not affected by this choice.
 
-  For troubleshooting guidance, see [Learn how to troubleshoot the Visual Experience Composer](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/troubleshoot-composer.md).
+  Note that the [!UICONTROL Enhanced Experience Composer] is not supported in [!DNL Safari]. 
+
+  For more information, see [Troubleshooting the Visual Experience Composer](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/troubleshoot-composer.md).
 
   You can also enable the [!UICONTROL Enhanced Experience Composer] at the activity level. See [Learn how to enable the Enhanced Experience Composer at the activity level](/help/main/c-experiences/c-visual-experience-composer/experience-composer-best-practices.md).
 

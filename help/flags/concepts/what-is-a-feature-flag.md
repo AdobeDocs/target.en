@@ -1,8 +1,12 @@
 ---
 title: What is a feature flag
 description: Learn what feature flags are and how they let you turn application features on or off at runtime without redeployment.
+badge: label="Beta" type="Informative"
 hide: true
 exl-id: c4ed4ab5-0d73-4697-b05c-476d6e4010ce
+product_v2:
+  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+    internal-label: Target
 ---
 # What is a feature flag {#what-is-a-feature-flag}
 

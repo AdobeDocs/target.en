@@ -4,13 +4,15 @@ description: Learn how to use the [!UICONTROL Goals & Settings] page in [!DNL Ad
 title: How Do I Specify Goals and Settings in a [!UICONTROL Multivariate Test] (MVT) Activity?
 feature: Multivariate Tests
 exl-id: 823a1435-ccb9-4357-9c33-a0968d704b7a
-TQID: https://experienceleague.adobe.com/FKRQnliVYaVby-SiFunkRWX7iFMi76JAP3D3TKUdMXE
+TQID: 'https://experienceleague.adobe.com/FKRQnliVYaVby-SiFunkRWX7iFMi76JAP3D3TKUdMXE'
 product_v2:
   - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
     internal-label: Target
 feature_v2:
   - id: adee20bd-51f4-461d-b9db-d215f8756eeb
     internal-label: Audiences
+  - id: b934e7cf-c07f-5a64-924b-3c9da8413e3d
+    internal-label: Multivariate Tests
 topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
     internal-label: Metadata
@@ -84,7 +86,7 @@ You cannot change your reporting source after the activity goes live to keep rep
 
 **[!DNL Adobe Analytics]**: See [[!DNL Adobe Analytics] as the reporting source for [!DNL Target]](/help/main/c-integrating-target-with-mac/a4t/a4t.md) to learn about the differences between the reporting solutions and the advantages of each.
 
-When selecting [!DNL Analytics] as the reporting source for [!DNL Target] (A4T), you select an [!DNL Analytics] report suite to receive [!DNL Target] activity data. To do this, first choose from any of the [!DNL Analytics] companies your account is tied to, and then select the appropriate report suite for the activity. Only report suites that are provisioned to connect to [!DNL Target] are available for selection. If you don't see the report suite that you expect, first try logging out and logging back in to the [!DNL Adobe Experience Cloud] to try again. If the report suite is still missing from the list, contact [Customer Care](/help/main/cmp-resources-and-contact-information.md#reference_ACA3391A00EF467B87930A450050077C).
+When selecting [!DNL Analytics] as the reporting source for [!DNL Target] (A4T), you select an [!DNL Analytics] report suite to receive [!DNL Target] activity data. To do this, first choose from any of the [!DNL Analytics] companies your account is tied to, and then select the appropriate report suite for the activity. Only report suites that are provisioned to connect to [!DNL Target] are available for selection. If you do not see the report suite that you expect, first try logging out and logging back in to the [!DNL Adobe Experience Cloud] to try again. If the report suite is still missing from the list, contact [Customer Care](/help/main/cmp-resources-and-contact-information.md#reference_ACA3391A00EF467B87930A450050077C).
 
 [!DNL Analytics for Target] (A4T) requires a tracking server to report results correctly. A default tracking server displays in the [!UICONTROL Tracking Server] field. If you use more than one tracking server, ensure you include the correct tracking server in this field. See [Using an Analytics Tracking Server](/help/main/c-integrating-target-with-mac/a4t/analytics-tracking-server.md#task_72077BA7E93C4A65A715A18F32228823) for more information.
 

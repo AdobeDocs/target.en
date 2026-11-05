@@ -4,13 +4,15 @@ description: Learn how to specify an Analytics tracking server for activities th
 title: How do I Use an Analytics Tracking Server?
 feature: Analytics for Target (A4T)
 exl-id: 8066d6a6-661e-428b-9d5c-18537a80fb43
-TQID: https://experienceleague.adobe.com/mJM5kZPQfnWodzwQ3qDKxu1e1Oq2Y53fA2LpSB4SVSc
+TQID: 'https://experienceleague.adobe.com/mJM5kZPQfnWodzwQ3qDKxu1e1Oq2Y53fA2LpSB4SVSc'
 product_v2:
   - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
     internal-label: Target
 feature_v2:
   - id: c93393a4-e558-47e1-992e-c91ed4d480ce
     internal-label: Implementation
+  - id: 891742a5-242d-5099-966a-ca76c17cd2d2
+    internal-label: Analytics for Target (A4T)
 subfeature_v2:
   - id: fd0ff162-b6d3-4a11-8aeb-e165a01c0f0a
     internal-label: at.js
@@ -48,7 +50,7 @@ The debugger should be viewed on a page where the activity is delivered to ensur
 
    The [!DNL Analytics] tracking server is found in the [!UICONTROL Hostname] section of the debugger.
 
-   * **First-party tracking server**: If the hostname of the request matches the domain you are on, then it's a first-party tracking server. For example, if you are on `adobe.com`, `adobe.com` is the first-party tracking server.
+   * **First-party tracking server**: If the hostname of the request matches the domain you are on, then it is a first-party tracking server. For example, if you are on `adobe.com`, `adobe.com` is the first-party tracking server.
    * **Third-party tracking server**: A third-party tracking server is typically `[company].sc.omtrdc.net` where the company is the name of your company, but always ends in `sc.omtrdc.net`.
    * **CNAME implementations**: `sstats.adobe.com` is an example of a CNAME first-party tracking server for an https (secure) request. `stats.adobe.com` is an example of a CNAME first-party request for an http (non-secure) page.
 
@@ -76,7 +78,7 @@ The Developer Tools should be viewed on a page where the activity is delivered t
 
    The tracking server is the hostname of the request.
 
-   * **First-party tracking server**: If the hostname of the request matches the domain you are on, then it's a first-party tracking server. For example, if you are on `adobe.com`, `adobe.com` is the first-party tracking server.
+   * **First-party tracking server**: If the hostname of the request matches the domain you are on, then it is a first-party tracking server. For example, if you are on `adobe.com`, `adobe.com` is the first-party tracking server.
    * **Third-party tracking server**: A third-party tracking server is typically `[company].sc.omtrdc.net` where the company is the name of your company, but always ends in `sc.omtrdc.net`.
    * **CNAME implementations**: `sstats.adobe.com` is an example of a CNAME first-party tracking server for an https (secure) request. `stats.adobe.com` is an example of a CNAME first-party request for an http (non-secure) page.
 

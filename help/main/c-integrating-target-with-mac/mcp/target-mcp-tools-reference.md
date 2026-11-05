@@ -8,6 +8,22 @@ topic: Experimentation, Personalization, Artificial Intelligence
 badge: label="Beta" type="Informative"
 role: Developer, User
 level: Intermediate, Experienced
+product_v2:
+  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+    internal-label: Target
+feature_v2:
+  - id: f7c7de77-382f-4f48-8b36-61a170f06d3d
+    internal-label: Integrations
+role_v2:
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
+  - id: d378ca77-2da1-4f39-ad92-1917fe974a38
+    internal-label: Experienced
 ---
 # [!DNL Adobe Target] MCP server tools reference {#target-mcp-tools-reference}
 
@@ -15,7 +31,7 @@ level: Intermediate, Experienced
 >
 >The [!DNL Adobe Target] MCP server is available to all customers in **Public Beta**. It is currently supported in **Claude Web**, **Claude Desktop**, **Claude Code**, **Cursor**, and **ChatGPT**.
 
-This page is a complete reference for all tools exposed by the [!DNL Adobe Target] MCP server. For each tool you'll find a description, parameter details, return value, and an example natural-language prompt. For setup instructions and use cases, see [Get started](target-mcp-get-started.md) and [Use cases and walkthroughs](target-mcp-use-cases.md).
+This page is a complete reference for all tools exposed by the [!DNL Adobe Target] MCP server. For each tool you will find a description, parameter details, return value, and an example natural-language prompt. For setup instructions and use cases, see [Get started](target-mcp-get-started.md) and [Use cases and walkthroughs](target-mcp-use-cases.md).
 
 >[!IMPORTANT]
 >
@@ -37,6 +53,21 @@ For full setup instructions, see [Get started](target-mcp-get-started.md).
 
 ## Activity tools {#tools-activities}
 
+>[!NOTE]
+>
+>Read and write operations have different scope. `get_activity` retrieves activities of all types (A/B Test, Experience Targeting, Automated Personalization, Auto-Allocate, Multivariate Test, Recommendations). `update_activity` supports A/B Test, Experience Targeting, and Automated Personalization; Auto-Allocate, Multivariate Test, and Recommendations activities are read-only through the MCP server.
+
+| Capability | A/B Test | Experience Targeting | Automated Personalization | Auto-Allocate | Multivariate Test | Recommendations |
+|---|---|---|---|---|---|---|
+| `get_activity` | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ |
+| `list_target_activities` | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ |
+| `get_activity_performance_report` | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ |
+| `get_activity_orders_report` | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ |
+| `update_activity` | ✓ | ✓ | ✓ | — | — | — |
+| Lifecycle edits (state, priority, name, schedule) | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ |
+| Variant and traffic edits | ✓ | ✓ | ✓ | — | — | — |
+| Create | ✓ | ✓ | — | — | — | — |
+
 +++List activities
 
 **Tool:** `list_target_activities`
@@ -51,7 +82,7 @@ Retrieves a paginated list of activities. All filters are applied server-side by
 | `offset` | integer | No | Number of activities to skip for pagination |
 | `sort_by` | string | No | Field to sort by. Prefix with `-` for descending order (e.g., `-modifiedAt`). Options: `id`, `name`, `state`, `priority`, `startsAt`, `endsAt`, `lifetimeStart`, `lifetimeEnd`, `createdAt`, `createdBy`, `modifiedAt`, `modifiedBy`, `type`, `thirdPartyId` |
 | `state` | string | No | Filter by activity state: `approved` (live/active), `deactivated` (inactive), `paused`, `saved` (draft) |
-| `activity_type` | string | No | Filter by type: `ab` (A/B Test), `xt` (Experience Targeting), `abt` (Automated Personalization) |
+| `activity_type` | string | No | Filter by type: `ab` (A/B Test), `xt` (Experience Targeting), `abt` (Automated Personalization), `auto_allocate` (Auto-Allocate), `mvt` (Multivariate Test), `recs` (Recommendations) |
 | `name_contains` | string | No | Filter activities whose name contains this string (case-insensitive) |
 | `starts_after` | string | No | ISO 8601 date — activities starting after this date |
 | `starts_before` | string | No | ISO 8601 date — activities starting before this date |
@@ -72,55 +103,21 @@ Retrieves a paginated list of activities. All filters are applied server-side by
 
 +++
 
-+++Get an A/B activity
++++Get an activity
 
-**Tool:** `get_ab_activity`
+**Tool:** `get_activity`
 
-Get detailed information about an A/B activity.
+Get detailed information about an activity of any type.
 
-Retrieves the full configuration of a specific A/B test, including experiences, locations, metrics, and targeting rules.
+Retrieves the full configuration of a specific activity, automatically detecting the activity type. Supports A/B Test, Experience Targeting, Automated Personalization, Auto-Allocate, Multivariate Test, and Recommendations activities.
 
 | Parameter | Type | Required | Description |
 |---|---|---|---|
-| `activity_id` | integer | Yes | The unique identifier of the A/B activity |
+| `activity_id` | integer | Yes | The unique identifier of the activity |
 
 **Returns:** Full activity details including metadata (name, state, priority, dates), experiences, locations and offers, goals and metrics, and targeting rules.
 
-**Example prompt:** "Get details for A/B activity 12345."
-
-+++
-
-+++Get an Experience Targeting activity
-
-**Tool:** `get_xt_activity`
-
-Get detailed information about an Experience Targeting (XT) activity.
-
-Retrieves the full configuration of a specific XT activity, including audience-experience mappings, locations, and metrics.
-
-| Parameter | Type | Required | Description |
-|---|---|---|---|
-| `activity_id` | integer | Yes | The unique identifier of the XT activity |
-
-**Returns:** Full activity details including metadata, experiences with audience mappings, locations and offers, and goals and metrics.
-
-**Example prompt:** "Get details for Experience Targeting activity 12345."
-
-+++
-
-+++Get an Automated Personalization activity
-
-**Tool:** `get_abt_activity`
-
-Get detailed information about an Automated Personalization (AP) activity.
-
-| Parameter | Type | Required | Description |
-|---|---|---|---|
-| `activity_id` | integer | Yes | The unique identifier of the AP activity |
-
-**Returns:** Full activity details including metadata, experiences, locations, and algorithmic settings.
-
-**Example prompt:** "Get details for Auto-Personalization activity 12345."
+**Example prompt:** "Get details for activity 12345."
 
 +++
 
@@ -177,13 +174,13 @@ Creates an XT activity that delivers different experiences to different audience
 
 +++
 
-+++Update an A/B activity
++++Update an activity
 
-**Tool:** `update_ab_activity`
+**Tool:** `update_activity`
 
-Update an existing A/B activity.
+Update an existing A/B Test, Experience Targeting, or Automated Personalization activity.
 
-Uses a read-modify-write pattern: fetches the current state, merges your changes, validates, and sends the update.
+Uses a read-modify-write pattern: fetches the current state, merges your changes, validates, and sends the update. Supports A/B Test, Experience Targeting, and Automated Personalization activities; Auto-Allocate, Multivariate Test, and Recommendations activities are read-only. The structured `goal`, `audience_ids`, and `additional_metrics` parameters are supported for A/B Test and Experience Targeting only; Automated Personalization activities accept plain field-merge updates.
 
 | Parameter | Type | Required | Description |
 |---|---|---|---|
@@ -193,44 +190,6 @@ Uses a read-modify-write pattern: fetches the current state, merges your changes
 **Returns:** The updated activity object.
 
 **Example prompt:** "Update activity 12345 to change the traffic allocation to 70/30."
-
-+++
-
-+++Update an Experience Targeting activity
-
-**Tool:** `update_xt_activity`
-
-Update an existing Experience Targeting activity.
-
-Uses a read-modify-write pattern.
-
-| Parameter | Type | Required | Description |
-|---|---|---|---|
-| `activity_id` | integer | Yes | The unique identifier of the XT activity to update |
-| `activity` | object | Yes | Fields to update |
-
-**Returns:** The updated activity object.
-
-**Example prompt:** "Update XT activity 12345 to add a new experience for mobile visitors."
-
-+++
-
-+++Update an Automated Personalization activity
-
-**Tool:** `update_abt_activity`
-
-Update an existing Automated Personalization activity.
-
-Uses a read-modify-write pattern.
-
-| Parameter | Type | Required | Description |
-|---|---|---|---|
-| `activity_id` | integer | Yes | The unique identifier of the AP activity to update |
-| `activity` | object | Yes | Fields to update |
-
-**Returns:** The updated activity object.
-
-**Example prompt:** "Update Auto-Personalization activity 12345 to change the optimization goal."
 
 +++
 
@@ -245,7 +204,6 @@ Updates the schedule for an activity without modifying other settings.
 | Parameter | Type | Required | Description |
 |---|---|---|---|
 | `activity_id` | integer | Yes | The unique identifier of the activity |
-| `activity_type` | string | Yes | Type of activity: `ab`, `xt`, or `abt` |
 | `starts_at` | string | No | New start date (ISO 8601) |
 | `ends_at` | string | No | New end date (ISO 8601) |
 
@@ -618,73 +576,41 @@ No parameters required.
 
 ## Reporting tools {#tools-reporting}
 
-+++Get an A/B performance report
++++Get an activity performance report
 
-**Tool:** `get_ab_performance_report`
+**Tool:** `get_activity_performance_report`
 
-Get a performance report for an A/B activity.
+Get a performance report for an activity of any type.
 
-Retrieves conversion rates, lift, and confidence levels.
+Retrieves conversion rates, lift, and confidence levels. Supports A/B Test, Experience Targeting, Automated Personalization, Auto-Allocate, Multivariate Test, and Recommendations activities.
 
 | Parameter | Type | Required | Description |
 |---|---|---|---|
-| `activity_id` | integer | Yes | The unique identifier of the A/B activity |
+| `activity_id` | integer | Yes | The unique identifier of the activity |
 | `report_interval` | string | No | Time period for the report (e.g., `last7days`, `last30days`, or a custom date range) |
 
 **Returns:** Experience-level metrics (visitors, conversions, conversion rate), lift calculations, statistical confidence levels, and revenue metrics (if configured).
 
-**Example prompt:** "Show me the performance report for A/B test 12345 over the last 30 days."
+**Example prompt:** "Show me the performance report for activity 12345 over the last 30 days."
 
 +++
 
-+++Get an A/B orders report
++++Get an activity orders report
 
-**Tool:** `get_ab_orders_report`
+**Tool:** `get_activity_orders_report`
 
-Get an orders/revenue report for an A/B activity.
+Get an orders/revenue report for an activity of any type.
+
+Supports A/B Test, Experience Targeting, Automated Personalization, Auto-Allocate, Multivariate Test, and Recommendations activities.
 
 | Parameter | Type | Required | Description |
 |---|---|---|---|
-| `activity_id` | integer | Yes | The unique identifier of the A/B activity |
+| `activity_id` | integer | Yes | The unique identifier of the activity |
 | `report_interval` | string | No | Time period for the report |
 
 **Returns:** Order counts, revenue, and average order value by experience.
 
 **Example prompt:** "Get the orders report for activity 12345."
-
-+++
-
-+++Get an Experience Targeting performance report
-
-**Tool:** `get_xt_performance_report`
-
-Get a performance report for an Experience Targeting activity.
-
-| Parameter | Type | Required | Description |
-|---|---|---|---|
-| `activity_id` | integer | Yes | The unique identifier of the XT activity |
-| `report_interval` | string | No | Time period for the report |
-
-**Returns:** Experience-level performance metrics.
-
-**Example prompt:** "Show performance for my Experience Targeting activity 54321."
-
-+++
-
-+++Get an Experience Targeting orders report
-
-**Tool:** `get_xt_orders_report`
-
-Get an orders/revenue report for an Experience Targeting activity.
-
-| Parameter | Type | Required | Description |
-|---|---|---|---|
-| `activity_id` | integer | Yes | The unique identifier of the XT activity |
-| `report_interval` | string | No | Time period for the report |
-
-**Returns:** Order metrics by experience.
-
-**Example prompt:** "Get orders data for XT activity 54321."
 
 +++
 
@@ -839,21 +765,160 @@ No parameters required.
 
 +++
 
+## Recommendations tools {#tools-recommendations}
+
+>[!NOTE]
+>
+>* Recommendations tools require a Recommendations-enabled tenant with **Target Premium**. On non-Premium accounts, these tools are not shown in the client's tool list, and the underlying API returns a 403 error.
+>* These tools support list, get, create, and update operations for Criteria, Collections, Designs, Promotions, and Exclusions. Delete operations are not exposed through the MCP server.
+
++++Criteria
+
+**Tools:** `list_target_criteria`, `get_target_criteria`, `list_target_criteria_by_type`, `get_target_criteria_by_type`, `create_target_criteria`, `update_target_criteria`
+
+Criteria are rules that determine which items to recommend, based on a predetermined set of visitor behaviors. Criteria are grouped into 9 typed families: `category`, `custom`, `item`, `cart`, `popularity`, `profileattribute`, `recent`, `sequence`, `userhistory`.
+
+| Parameter | Type | Required | Description |
+|---|---|---|---|
+| `criteria_id` | integer | For get/update | The unique identifier of the criteria |
+| `criteria_type` | string | For typed operations | One of the 9 criteria families |
+| `limit` / `offset` | integer | No | Pagination |
+| `name` | string | Yes (create) | Unique name of the criteria |
+| `criteriaTitle` | string | No | Display title used in the design via `$criteria.title` |
+| `description` | string | No | Description of the criteria |
+| `key` | string | Yes (create/update, most types) | Recommendation key (e.g. `CURRENT`, `LAST_VIEWED`, `LAST_PURCHASED`, `MOST_VIEWED`, `PROFILE_ATTRIBUTE`) |
+| `type` | string | Yes (create/update, most types) | Recommendation logic (e.g. `VIEWED_BOUGHT`, `BOUGHT_CF`, `VIEWED_CF`, `SITE_AFFINITY`, `SIMILARITY`) |
+| `configuration` | object | Yes (create/update) | Inclusion rules, attribute weighting, price filter, and other family-specific settings |
+| `daysCount` | string | Varies | Historical time range considered (e.g. `ONE_DAY` through `TWO_MONTHS`) |
+
+`list_target_criteria` and `get_target_criteria` return minimal, cross-family criteria metadata (`id`, `name`, `criteriaTitle`, `criteriaGroup`). Use `list_target_criteria_by_type` / `get_target_criteria_by_type` (or `create_target_criteria` / `update_target_criteria`) with a `criteria_type` to work with the full, type-specific configuration. Field requirements differ per family — see the [!DNL Adobe] [Recommendations API Reference](https://developer.adobe.com/target/administer/recommendations-api/){target="_blank"} for the complete per-type schema.
+
+**Returns:** The criteria object, or a paginated list with `offset`, `limit`, `total`, and `list`.
+
+**Example prompt:** "List all Recommendations criteria configured in this account and summarize the algorithm types in use."
+
++++
+
++++Collections
+
+**Tools:** `list_target_collections`, `get_target_collection`, `create_target_collection`, `update_target_collection`
+
+Collections group catalog entities by matching rules, for use in criteria and promotions.
+
+| Parameter | Type | Required | Description |
+|---|---|---|---|
+| `collection_id` | integer | For get/update | The unique identifier of the collection |
+| `limit` / `offset` | integer | No | Pagination |
+| `name` | string | Yes | Unique name of the collection (max 250 characters) |
+| `description` | string | No | Description of the collection (max 1000 characters) |
+| `rules` | array | Yes | 1–1000 rules (`attribute` + operator/operand) that determine catalog membership |
+
+**Returns:** The collection object, including `id`, `name`, `description`, `rules`, and last-modified metadata.
+
+**Example prompt:** "What collections do I have, and which catalog attributes do they filter on?"
+
++++
+
++++Designs
+
+**Tools:** `list_target_designs`, `get_target_design`, `create_target_design`, `update_target_design`
+
+Designs are Velocity or HTML templates that control how recommended entities are rendered.
+
+| Parameter | Type | Required | Description |
+|---|---|---|---|
+| `design_id` | integer | For get/update | The unique identifier of the design |
+| `limit` / `offset` | integer | No | Pagination |
+| `includeScript` | boolean | No | Whether to include the design's template content |
+| `name` | string | Yes | Unique name of the design (max 250 characters) |
+| `script` | string | Yes | Velocity template referencing at least one entity object (max 65,000 characters) |
+| `type` | string | No | Content type of the script: `HTML`, `JSON`, or `OTHER` (default) |
+
+**Returns:** The design object, including `id`, `name`, `script`, and `type`.
+
+**Example prompt:** "What designs and collections do I have configured for Recommendations?"
+
++++
+
++++Promotions
+
+**Tools:** `list_target_promotions`, `get_target_promotion`, `create_target_promotion`, `update_target_promotion`
+
+Promotions force specific entities into recommendation results, taking precedence over criteria and backup recommendations.
+
+| Parameter | Type | Required | Description |
+|---|---|---|---|
+| `promotion_id` | integer | For get/update | The unique identifier of the promotion |
+| `limit` / `offset` | integer | No | Pagination |
+| `name` | string | Yes | Unique name of the promotion (max 250 characters) |
+| `type` | string | Yes | Currently only `EXTERNAL` is supported |
+| `key` | string | No | Promotion key: `CURRENT`, `LAST_VIEWED`, `LAST_PURCHASED`, `MOST_VIEWED`, or `PROFILE_ATTRIBUTE` |
+| `attribute` | string | No | Profile attribute name, applicable when `key` is `PROFILE_ATTRIBUTE` |
+| `schedule` | object | No | Start/end time window during which the promotion applies |
+| `order` | object | No | Ordering configuration for promoted entities |
+| `configuration` | object | No | Collection reference for the promoted items (used when `rules` is empty) |
+| `rules` | array | No | Inclusion rules identifying which entities to promote |
+
+**Returns:** The promotion object.
+
+**Example prompt:** "Create an external promotion that features the 'Backpacking Tents' collection through the end of August."
+
++++
+
++++Exclusions
+
+**Tools:** `list_target_exclusions`, `get_target_exclusion`, `create_target_exclusion`, `update_target_exclusion`
+
+Exclusions remove matching entities from recommendation results. Exclusions apply account-wide, across all criteria and activities.
+
+| Parameter | Type | Required | Description |
+|---|---|---|---|
+| `exclusion_id` | integer | For get/update | The unique identifier of the exclusion |
+| `name` | string | Yes | Unique name of the exclusion (max 250 characters) |
+| `description` | string | No | Description of the exclusion (max 1000 characters) |
+| `rule` | object | No | A single rule (`attribute` + operator/operand) identifying entities to exclude |
+
+**Returns:** The exclusion object.
+
+**Example prompt:** "Are any account-wide exclusions currently configured, and what do they filter on?"
+
++++
+
++++Catalog
+
+**Tools:** `get_target_entity`, `search_target_catalog`
+
+Read-only tools for inspecting the Recommendations product/content catalog. There is no create, update, or delete tool for catalog entities through the MCP server.
+
+| Parameter | Type | Required | Description |
+|---|---|---|---|
+| `catalog_entity_id` | string | Yes (get) | The catalog entity ID (e.g. SKU) |
+| `environment_id` | string | No | Environment to look up the entity in |
+| `query` | object | Yes (search) | A `meta` block (requires `environmentId`, optional `displayFields`) plus a `query` block (`simple` or `compound`); simple queries use `queryFields`, an `operator` (`eq`, `lt`, `gt`, `le`, `ge`, `contains`), and a `matchValue` |
+
+**Returns:** `get_target_entity` returns the entity's catalog attributes. `search_target_catalog` returns matches in an `entities` array. Field names in `query` must be real catalog attributes configured for the tenant.
+
+**Example prompt:** "Search the catalog for products with inventory under 1000."
+
++++
+
 ## Tools summary {#tools-summary}
 
 | Category | Count | Tools |
 |---|---|---|
-| Activity | 17 | `list_target_activities`, `get_ab_activity`, `get_xt_activity`, `get_abt_activity`, `create_ab_activity`, `create_xt_activity`, `update_ab_activity`, `update_xt_activity`, `update_abt_activity`, `update_activity_schedule`, `update_activity_state`, `update_activity_name`, `update_activity_priority`, `add_activity_variant`, `update_traffic_split`, `update_variant_offer`, `remove_activity_variant` |
+| Activity | 13 | `list_target_activities`, `get_activity`, `create_ab_activity`, `create_xt_activity`, `update_activity`, `update_activity_schedule`, `update_activity_state`, `update_activity_name`, `update_activity_priority`, `add_activity_variant`, `update_traffic_split`, `update_variant_offer`, `remove_activity_variant` |
 | Offer | 5 | `list_target_offers`, `get_target_offer`, `create_target_offer`, `create_target_json_offer`, `update_target_offer` |
-| Audience | 3 | `list_target_audiences`, `get_target_audience`, `create_target_audience` |
+| Audience | 4 | `list_target_audiences`, `get_target_audience`, `create_target_audience`, `update_target_audience` |
 | Mbox | 3 | `list_target_mboxes`, `get_target_mbox`, `list_target_mbox_profile_attributes` |
 | Property | 1 | `list_target_properties` |
-| Reporting | 6 | `get_ab_performance_report`, `get_ab_orders_report`, `get_xt_performance_report`, `get_xt_orders_report`, `get_activity_report_by_name`, `get_a4t_report` |
+| Reporting | 4 | `get_activity_performance_report`, `get_activity_orders_report`, `get_activity_report_by_name`, `get_a4t_report` |
 | Preview | 1 | `preview_activity` |
 | Response token | 2 | `list_target_response_tokens`, `create_target_response_token` |
 | Revision | 2 | `get_target_revisions`, `get_target_entity_revisions` |
+| AT.js | 2 | `get_atjs_settings`, `get_atjs_versions` |
 | Template | 1 | `list_target_templates` |
-| **Total** | **41** | |
+| Recommendations | 24 | `list_target_criteria`, `get_target_criteria`, `list_target_criteria_by_type`, `get_target_criteria_by_type`, `create_target_criteria`, `update_target_criteria`, `list_target_collections`, `get_target_collection`, `create_target_collection`, `update_target_collection`, `list_target_designs`, `get_target_design`, `create_target_design`, `update_target_design`, `list_target_promotions`, `get_target_promotion`, `create_target_promotion`, `update_target_promotion`, `list_target_exclusions`, `get_target_exclusion`, `create_target_exclusion`, `update_target_exclusion`, `get_target_entity`, `search_target_catalog` |
+| **Total** | **62** | |
 
 ## Related resources {#tools-related}
 

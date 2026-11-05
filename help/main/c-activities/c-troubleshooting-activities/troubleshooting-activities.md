@@ -1,13 +1,16 @@
 ---
-keywords: troubleshoot target;troubleshooting target;default content;test not live;activity not live;targeting not working;previous experience displays;cannot create activities;can't create activities;create activities;page structure changed;page structure modified;error message;error delete profile script;ajax not working
+keywords: troubleshoot target;troubleshooting target;default content;test not live;activity not live;targeting not working;previous experience displays;cannot create activities;cannot create activities;create activities;page structure changed;page structure modified;error message;error delete profile script;ajax not working
 description: Find troubleshooting suggestions should your Adobe [!DNL Target] activity not appear on your site.
 title: How Can I Troubleshoot Activities?
 feature: Activities
 exl-id: 6aa0486a-9ca3-4545-ae06-9b02e586d777
-TQID: https://experienceleague.adobe.com/L-011t7q6c3aICs0ZrM01m9pZByH86FKGiLG1A7Rl2s
+TQID: 'https://experienceleague.adobe.com/L-011t7q6c3aICs0ZrM01m9pZByH86FKGiLG1A7Rl2s'
 product_v2:
   - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
     internal-label: Target
+feature_v2:
+  - id: 6efa6b7a-8062-5c41-aef4-b4853cc306ae
+    internal-label: Activities
 topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
     internal-label: Customer experience
@@ -45,7 +48,7 @@ Make sure that your activity is complete and has been activated.
 * Activate test.  
 * Use Preview Links to display inactive test.
 
-## You don't qualify for the audience-targeting conditions.
+## You do not qualify for the audience-targeting conditions.
 
 **Validate:** Review targeting conditions on overview page.
 
@@ -54,7 +57,7 @@ Make sure that your activity is complete and has been activated.
 * Qualify and try again.
 * Use Preview Links to bypass targeting conditions.
 
-## The page doesn't qualify for the page-targeting conditions.
+## The page does not qualify for the page-targeting conditions.
 
 **Validate:** On the [!UICONTROL Overview] page, determine if the page falls outside of the targeting conditions.
 
@@ -141,6 +144,6 @@ When you perform certain actions, such as activating an activity outside of the 
 
 ## After activity conversion, the visitor is not in any experience.
 
-In rare cases, if the activity's conversion metric to qualify for an experience is sent in the same request as activity qualification, the visitor might not be in any experience after the request is sent. In this situation, the visitor sees default content and experience ID captured via tokens would be -1. [!DNL Adobe] doesn't recommend sending activity qualification and conversion in the same [!DNL Target] request.
+In rare cases, if the activity's conversion metric to qualify for an experience is sent in the same request as activity qualification, the visitor might not be in any experience after the request is sent. In this situation, the visitor sees default content and experience ID captured via tokens would be -1. [!DNL Adobe] does not recommend sending activity qualification and conversion in the same [!DNL Target] request.
 
 If you want to send both metrics in the same request, you can use [!UICONTROL Advanced Settings] to specify that the visitor stays in the same experience after conversion.

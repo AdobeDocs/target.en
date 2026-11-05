@@ -4,10 +4,16 @@ description: Learn about the Capture Score engagement metric in Adobe [!DNL Targ
 title: What Is the Capture Score metric?
 feature: Success Metrics
 exl-id: 3446cdef-7ee0-40dd-bf17-27def56668d4
-TQID: https://experienceleague.adobe.com/iqCPEY9x7Lg9TlAhxn8e-B1XOnUfNgUWFdOf8Bw2F3w
+TQID: 'https://experienceleague.adobe.com/iqCPEY9x7Lg9TlAhxn8e-B1XOnUfNgUWFdOf8Bw2F3w'
 product_v2:
   - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
     internal-label: Target
+feature_v2:
+  - id: dfc8a233-f2b5-4811-bf63-b4262aebc5a5
+    internal-label: Administration and configuration
+subfeature_v2:
+  - id: eb2bfbe8-b0f3-4cc3-ae8d-af79179585eb
+    internal-label: Success metrics
 topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
     internal-label: Customer experience
@@ -58,6 +64,6 @@ Best practice is to assign values in the [!DNL Target] request. This allows you 
 
 You can combine the two methods, but this might result in a higher score than expected. For example, if you assign a value of 10 to each of three [!DNL Target] requests and no score to a fourth request, then pass the URL parameter `?mboxPageValue=5`, your page score will be 50, 30 for the three requests with assigned values, and then 5 for each of the four requests on the page.
 
-The counter starts with the first display request, not the entry request. For example, if you enter the activity on the homepage which doesn't have a display request, then link to catalog page containing a display request, the counter begins when you move to the catalog page.
+The counter starts with the first display request, not the entry request. For example, if you enter the activity on the homepage which does not have a display request, then link to catalog page containing a display request, the counter begins when you move to the catalog page.
 
 You can also pass in negative values on certain pages that cost you money or are not good for a visitor to see. The negative values affect the overall score as well. This technique can be used on a page that visitors reach from an advertisement, so you know how much the CPC was. Or, for example, it can be used for a support or contact page, where you know that visitors might call or request assistance from this page.

@@ -5,10 +5,16 @@ title: How Do I Customize a Design Using Velocity?
 badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="See what's included in Target Premium."
 feature: Recommendations
 exl-id: 035d7988-80d8-4080-bb0d-1d0e9f8856d1
-TQID: https://experienceleague.adobe.com/cccBRfwqqn-eL2hraSDAoJHPYSCkcA9tVne3OWDXxEU
+TQID: 'https://experienceleague.adobe.com/cccBRfwqqn-eL2hraSDAoJHPYSCkcA9tVne3OWDXxEU'
 product_v2:
   - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
     internal-label: Target
+feature_v2:
+  - id: f69bc5f1-ebdb-4306-a281-f2e77daf734c
+    internal-label: Activities and tests
+subfeature_v2:
+  - id: ed58f4a1-16eb-4c8c-b505-be9da766a9ec
+    internal-label: Recommendations
 topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
     internal-label: Customer experience
@@ -241,13 +247,13 @@ The following code is a complete conditional example of a sale price:
 
 ## Customizing the template size and checking for blank values {#default}
 
-Using a [!DNL Velocity] script to control for dynamic sizing of the entity display, the following template accommodates a 1-to-many result to avoid creating empty HTML elements when there aren't enough matching entities returned from [!DNL Recommendations]. This script is best for scenarios when back-up recommendations wouldn't make sense and [!UICONTROL Partial Template Rendering] is enabled.
+Using a [!DNL Velocity] script to control for dynamic sizing of the entity display, the following template accommodates a 1-to-many result to avoid creating empty HTML elements when there are not enough matching entities returned from [!DNL Recommendations]. This script is best for scenarios when back-up recommendations would not make sense and [!UICONTROL Partial Template Rendering] is enabled.
 
 The following HTML snippet replaces the existing HTML portion in the 4x2 default design (the CSS is not included here, for the sake of brevity):
 
 * If a fifth entity exists, the script inserts a closing div and opens a new row with `<div class="at-table-row">`.
 * With 4x2, the maximum results shown will be eight, but this could be customized for smaller or larger lists by modifying `$count <=8`.
-* Be aware that the logic won't balance the entities on multiple rows. For example, if there are five or six entities to display, it won't dynamically become three on top and two on the bottom (or three on top and three on the bottom). The top row will display four items before starting a second row.
+* Be aware that the logic will not balance the entities on multiple rows. For example, if there are five or six entities to display, it will not dynamically become three on top and two on the bottom (or three on top and three on the bottom). The top row will display four items before starting a second row.
 
 ```
 <div class="at-table">

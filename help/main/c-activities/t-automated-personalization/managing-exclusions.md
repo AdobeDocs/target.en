@@ -6,12 +6,18 @@ badgePremium: label="Premium" type="Positive" url="https://experienceleague.adob
 feature: Automated Personalization
 solution: Target,Analytics
 exl-id: d9e9f2a2-5914-4b81-acae-eaf388646652
-TQID: https://experienceleague.adobe.com/ERpNwQPsIRBmU0vTZbGa-lYg30BYl-uJxA8UT0f6060
+TQID: 'https://experienceleague.adobe.com/ERpNwQPsIRBmU0vTZbGa-lYg30BYl-uJxA8UT0f6060'
 product_v2:
   - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
     internal-label: Target
   - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
     internal-label: Analytics
+feature_v2:
+  - id: f69bc5f1-ebdb-4306-a281-f2e77daf734c
+    internal-label: Activities and tests
+subfeature_v2:
+  - id: f0055dd2-93f3-4ac8-9abc-d69d4ed2d977
+    internal-label: Automated personalization
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
     internal-label: Reporting
@@ -22,7 +28,7 @@ topic_v2:
 ---
 # Manage exclusions
 
-Take control of your [!UICONTROL Automated Personalization] (AP) strategy by mastering exclusions. Whether you're preventing duplicate offers, refining experience combinations, or removing default content, exclusions empower you to deliver cleaner, more relevant experiences that align with your goals and audience expectations.
+Take control of your [!UICONTROL Automated Personalization] (AP) strategy by mastering exclusions. Whether you are preventing duplicate offers, refining experience combinations, or removing default content, exclusions empower you to deliver cleaner, more relevant experiences that align with your goals and audience expectations.
 
 ## Allow or disallow duplicate offers {#concept_4EF78013F80E48EFA024AE0274C9F037}
 
@@ -36,7 +42,7 @@ You might have an activity, for example, with six locations on a page with 12 of
 
 Exclude specific experiences if you want to exclude certain offer combinations from your AP activity. 
 
-There might be certain combinations that don't work together, or you might be limiting the number of experiences tested to decrease traffic requirements for your activity. 
+There might be certain combinations that do not work together, or you might be limiting the number of experiences tested to decrease traffic requirements for your activity. 
 
 1. While [creating or editing an AP activity](/help/main/c-activities/t-automated-personalization/create-ap-activity.md), click the **Manage Content** icon ( ![Manage Content icon](/help/main/assets/icons/Experience.svg) ).
 

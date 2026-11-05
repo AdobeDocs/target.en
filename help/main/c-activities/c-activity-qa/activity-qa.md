@@ -4,7 +4,7 @@ description: Learn how to use Adobe [!DNL Target] QA URLs to perform easy end-to
 title: How Do I QA Activities?
 feature: Activities
 exl-id: 5c606d61-6d13-4a9b-9a23-4840f1754d3c
-TQID: https://experienceleague.adobe.com/glE1Kx2xhqagq9v-SgSkdwr6lYwpioe4DlSkLRFQ0jI
+TQID: 'https://experienceleague.adobe.com/glE1Kx2xhqagq9v-SgSkdwr6lYwpioe4DlSkLRFQ0jI'
 product_v2:
   - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
     internal-label: Target
@@ -13,6 +13,8 @@ feature_v2:
     internal-label: Audiences
   - id: c93393a4-e558-47e1-992e-c91ed4d480ce
     internal-label: Implementation
+  - id: 6efa6b7a-8062-5c41-aef4-b4853cc306ae
+    internal-label: Activities
 subfeature_v2:
   - id: fd0ff162-b6d3-4a11-8aeb-e165a01c0f0a
     internal-label: at.js
@@ -42,7 +44,7 @@ Use QA URLs in [!DNL Adobe Target] to perform easy end-to-end activity QA with p
 
   >[!NOTE]
   >
-  >This functionality is true for at.js implementations with version 2.*x* or later. For at.js 1.*x* implementations, this functionality is true only if the visitor's browser doesn't block third-party cookies.
+  >This functionality is true for at.js implementations with version 2.*x* or later. For at.js 1.*x* implementations, this functionality is true only if the visitor's browser does not block third-party cookies.
 
 ## Accessing and Sharing a QA URL {#section_1C59BAA247B247BDB125D1BE8EAD4547}
 
@@ -68,7 +70,7 @@ Use QA URLs in [!DNL Adobe Target] to perform easy end-to-end activity QA with p
 
    Each Activity link URL (for Experience A, Experience B, and so forth) lets you start the user journey from the corresponding experience. Click the URL generated for an experience and then proceed with normal site browsing to see experiences on multiple pages (if multiple pages exist). Only one URL is generated per experience, even if the experience spans multiple pages (template testing or multi-page testing). 
    
-   You can navigate the site to see the other pages because the [!UICONTROL Activity QA] mode is sticky. This situation is true for at.js implementations with version 2.*x* or later. For at.js 1.*x* implementations, this situation is true only if the visitor's browser doesn't block third-party cookies.
+   You can navigate the site to see the other pages because the [!UICONTROL Activity QA] mode is sticky. This situation is true for at.js implementations with version 2.*x* or later. For at.js 1.*x* implementations, this situation is true only if the visitor's browser does not block third-party cookies.
 
 1. To see reports generated from activity link URLs, click the activity's **[!UICONTROL Reports]** page, click the **[!UICONTROL Settings]** icon (  ![icon_gear image](assets/icon_gear.png) ), then select **[!UICONTROL QA Mode Traffic]** from the **[!UICONTROL Environment]** drop-down list.
 
@@ -105,7 +107,7 @@ If your site has the [[!UICONTROL Platform Web SDK]](https://experienceleague.ad
 * If an activity uses multiple experience audiences (for example, a US and UK site that are included in the same activity), QA links are not generated for the four combinations (Experience A/US Site, Experience A/UK Site, Experience B/US Site, Experience B/UK Site). Only two QA links (Experience A and Experience B) are created and users must qualify for the appropriate audience to see the page. A UK QA person cannot see the US site. 
 * All `at_preview` parameters and values are already URL encoded. Most of the time, everything works as expected. However, some customers must load balancers or Web servers that try to encode the query string parameters again.
 
-  Because of this double encoding, when [!DNL Target] tries to decode the `at_preview_token`, [!DNL Target] can't extract the correct token value, resulting in preview not working.
+  Because of this double encoding, when [!DNL Target] tries to decode the `at_preview_token`, [!DNL Target] cannot extract the correct token value, resulting in preview not working.
 
   [!DNL Adobe] recommends that you talk to your IT team to ensure that all preview parameters are allowlisted so that these values are not transformed in any way.
 

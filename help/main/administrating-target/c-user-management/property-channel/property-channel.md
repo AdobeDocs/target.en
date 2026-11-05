@@ -169,7 +169,7 @@ The new [!DNL Target] [!UICONTROL Permissions] model has the same three permissi
 
 In this example, Jan has Approver permissions to the US Homepage and the US Site and Observer permissions to the France Site.
 
-Furthermore, Jan cannot see pages, properties, or sites in [!DNL Target] that she doesn't have permission to see, as shown below:
+Furthermore, Jan cannot see pages, properties, or sites in [!DNL Target] that she does not have permission to see, as shown below:
 
 ![permissions_4 image](assets/permissions_4.png)
 

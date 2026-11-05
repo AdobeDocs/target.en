@@ -5,10 +5,16 @@ title: Where Can I Get Answers to Design Questions for [!DNL Target Recommendati
 badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="See what's included in Target Premium."
 feature: Recommendations
 exl-id: e970f734-9bc7-43b8-af1b-75e527d6353c
-TQID: https://experienceleague.adobe.com/xRu0XEnc8wX8PZngba7CO67mFdja7HALL-1OSnhAmuY
+TQID: 'https://experienceleague.adobe.com/xRu0XEnc8wX8PZngba7CO67mFdja7HALL-1OSnhAmuY'
 product_v2:
   - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
     internal-label: Target
+feature_v2:
+  - id: f69bc5f1-ebdb-4306-a281-f2e77daf734c
+    internal-label: Activities and tests
+subfeature_v2:
+  - id: ed58f4a1-16eb-4c8c-b505-be9da766a9ec
+    internal-label: Recommendations
 topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
     internal-label: Customer experience
@@ -17,9 +23,9 @@ topic_v2:
 
 List of frequently asked questions (FAQs) about [!DNL Adobe Target] [!DNL Recommendations] designs.
 
-## My recommended item's price isn't displaying both values to the right of the decimal point. How can I display them?
+## My recommended item's price is not displaying both values to the right of the decimal point. How can I display them?
 
-By default, numeric values (such as `entity.value`) returned in design templates won't display any trailing zeroes after the decimal point. For example, if an item is $35.00, `entity.value` is equal to 35 and only 35 is displayed on the page, not $35.00. 
+By default, numeric values (such as `entity.value`) returned in design templates will not display any trailing zeroes after the decimal point. For example, if an item is $35.00, `entity.value` is equal to 35 and only 35 is displayed on the page, not $35.00. 
 
 Two options are available to address this issue: 
 
@@ -31,9 +37,9 @@ Two options are available to address this issue:
 
   `"entity.value" : 35.00, "entity.displayValue" : "$35.00"`
 
-## Why isn't category showing in the design? I'm using `$entity1.categoryId`. {#section_073309B8051049C7953D396A93EA0713}
+## Why is not category showing in the design? I'm using `$entity1.categoryId`. {#section_073309B8051049C7953D396A93EA0713}
 
-Category ID can't be displayed in the design. Because multiple categories can be stored, the system does not know which category to display.
+Category ID cannot be displayed in the design. Because multiple categories can be stored, the system does not know which category to display.
 
 ## How should I change a design to get an instant update? {#section_28EE35A5B10B47ECA4A332F0E5B2598F}
 

@@ -8,6 +8,22 @@ topic: Experimentation, Personalization, Artificial Intelligence
 badge: label="Beta" type="Informative"
 role: User, Developer
 level: Beginner, Intermediate
+product_v2:
+  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+    internal-label: Target
+feature_v2:
+  - id: f7c7de77-382f-4f48-8b36-61a170f06d3d
+    internal-label: Integrations
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
+level_v2:
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+    internal-label: Beginner
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
 ---
 # [!DNL Adobe Target] MCP server — use cases and walkthroughs {#target-mcp-use-cases}
 
@@ -36,7 +52,7 @@ The following examples show how to interact with the [!DNL Adobe Target] MCP ser
 | **Revenue analysis** | "Get the orders and revenue report for activity AT4821 and summarize which experience is driving the most revenue per visitor." |
 | **A4T reporting** | "Pull the A4T report for my checkout optimization test and summarize the Analytics-side conversion data." |
 | **Activity insights** | "Get insights for my 'Summer Sale Banner' test — what does performance look like and are there any anomalies?" |
-| **Audience management** | "List all audiences targeting mobile users and show me which activities they're associated with." |
+| **Audience management** | "List all audiences targeting mobile users and show me which activities they are associated with." |
 | **QA and preview** | "Generate QA preview URLs for activity 12345 so I can review all variants before activating." |
 <!-- | **Recommendations review** | "List all Recommendations criteria configured in this account and summarize the algorithm types in use." | -->
 | **Implementation audit** | "What version of at.js is configured, and what response tokens are currently active?" |

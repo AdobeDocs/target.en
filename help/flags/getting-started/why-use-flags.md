@@ -1,8 +1,12 @@
 ---
 title: Why use Flags
 description: Learn about the key use cases for Flags in Adobe Target, from selective feature testing to coordinated multi-application releases.
+badge: label="Beta" type="Informative"
 hide: true
 exl-id: c39c6b34-2024-4c38-b2f2-a9b58f5eff63
+product_v2:
+  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+    internal-label: Target
 ---
 # Why use Flags {#why-use}
 
@@ -23,7 +27,7 @@ Open a new feature progressively — 1%, 10%, 50%, then 100% of users. Monitor p
 Phase a rollout incrementally to avoid sudden traffic spikes on backend services, rather than exposing all users to a new feature at once.
 
 **Coordinated multi-application releases**
-Enable a feature simultaneously across multiple applications and teams for a specific set of users. Flags ensures consistency across the full release surface.
+Enable a feature simultaneously across multiple applications for a specific set of users. Flags ensures consistency across the full release surface.
 
 **Deferred releases**
 Deploy code to production ahead of time, then activate the feature at a precise moment — for example, at the start of a product launch event — without any last-minute code change.

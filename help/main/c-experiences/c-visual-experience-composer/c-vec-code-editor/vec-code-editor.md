@@ -4,10 +4,13 @@ description: Learn how to use the Modifications panel in Adobe [!DNL Target] to 
 title: What Modifications Can I Make to My Page?
 feature: Visual Experience Composer (VEC)
 exl-id: 23456a4b-9457-4f05-989e-a7c39ce17cc2
-TQID: https://experienceleague.adobe.com/sOgNlejLNcnSwKf46-AHRXTLkM5Y6laB7QMLu5oYBUU
+TQID: 'https://experienceleague.adobe.com/sOgNlejLNcnSwKf46-AHRXTLkM5Y6laB7QMLu5oYBUU'
 product_v2:
   - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
     internal-label: Target
+feature_v2:
+  - id: f7501c88-b36a-590b-9cc4-dea607bda94b
+    internal-label: Visual Experience Composer (VEC)
 topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
     internal-label: Customer experience
@@ -198,7 +201,7 @@ If you do not need the custom code anymore, just leave this container empty, but
 
 **Do not use the element ID "CDQID" for modifications to the page made in the Code Editor.**
 
-Target applies a new element ID with the value "CDQID" to any element on the page that's modified by Target. Because this ID is applied by Target, it should not be used for any further modifications or adjustments in the Code Editor.
+Target applies a new element ID with the value "CDQID" to any element on the page that is modified by Target. Because this ID is applied by Target, it should not be used for any further modifications or adjustments in the Code Editor.
 
 **Do not perform document.write actions in custom code scripts.**
 
@@ -235,7 +238,7 @@ For example, if you have taken two actions:
 
 Each change creates a new element in the Modifications panel. Because the second action modifies Element 1, if you delete Element 1, the second action no longer has anything to modify, so the change no longer works.
 
-In other words, if you add an element with text, then in a separate action you edit that element with different text, the Modifications panel shows both actions as separate elements. When you edited the element, you created a new element that modifies the original one you created, containing the edited text. If you then delete the original element, the edited text won't be able to find the element that was edited, and will not display. The second element remains in the list of elements, but it does not affect the page because the element it changes no longer exists.
+In other words, if you add an element with text, then in a separate action you edit that element with different text, the Modifications panel shows both actions as separate elements. When you edited the element, you created a new element that modifies the original one you created, containing the edited text. If you then delete the original element, the edited text will not be able to find the element that was edited, and will not display. The second element remains in the list of elements, but it does not affect the page because the element it changes no longer exists.
 
 ***An element I created using `document.write` in a script does not appear where I expect it to.***
 

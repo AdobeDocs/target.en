@@ -5,13 +5,18 @@ title: How Do I Create [!UICONTROL Criteria] in [!DNL Recommendations]?
 badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="See what's included in Target Premium."
 feature: Recommendations
 exl-id: 3f4f59b2-6637-4c33-bf17-bff11bef7173
-TQID: https://experienceleague.adobe.com/r9FWgHWw6NX1CmhqI-7MLoamNFDepeCq1bpiJ8eyISM
+TQID: 'https://experienceleague.adobe.com/r9FWgHWw6NX1CmhqI-7MLoamNFDepeCq1bpiJ8eyISM'
 product_v2:
   - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
     internal-label: Target
 feature_v2:
   - id: c93393a4-e558-47e1-992e-c91ed4d480ce
     internal-label: Implementation
+  - id: f69bc5f1-ebdb-4306-a281-f2e77daf734c
+    internal-label: Activities and tests
+subfeature_v2:
+  - id: ed58f4a1-16eb-4c8c-b505-be9da766a9ec
+    internal-label: Recommendations
 topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
     internal-label: Metadata
@@ -48,7 +53,7 @@ The following steps assume you access the [!UICONTROL Create New Criteria] scree
 
 1. Type a **[!UICONTROL Criteria Name]**.
 
-   This is the "internal" name used to describe the criteria. For example, you might want to call your criteria "Highest margin products," but you don't want that title to display publicly. See the next step to set the public-facing title.
+   This is the "internal" name used to describe the criteria. For example, you might want to call your criteria "Highest margin products," but you do not want that title to display publicly. See the next step to set the public-facing title.
 
 1. Type a public-facing **[!UICONTROL Display Title]** to appear on the page for any recommendations that use this criteria.
 
@@ -79,7 +84,7 @@ The following steps assume you access the [!UICONTROL Create New Criteria] scree
 >[!CONTEXTUALHELP]
 >id="target_recommendations_profile_attribute"
 >title="Profile Attribute"
->abstract="You can create a Profile attribute using Profile scripts."
+>abstract="You can create a Profile Attribute using Profile Scripts."
 
 1. Select an **[!UICONTROL Algorithm Type]** and **[!UICONTROL Algorithm]**:
 
@@ -88,7 +93,7 @@ The following steps assume you access the [!UICONTROL Create New Criteria] scree
    |Algorithm type|When to use / Available algorithms|
    | --- | --- |
    |[!UICONTROL Cart-Based]|Make recommendations based on the user's cart contents. <ul><li>[!UICONTROL People Who Viewed These, Also Viewed] </li><li>[!UICONTROL People Who Viewed These, Also Bought]</li><li>[!UICONTROL People Who Bought These, Also Bought]</li></ul>|
-   |[!UICONTROL Popularity-Based]|Make recommendations based on the overall popularity of an item across your site or based on the popularity of items within a user's favorite or most-viewed category, brand, genre, and so forth. <ul><li>[!UICONTROL Most Viewed Across the Site]</li><li>[!UICONTROL Most Viewed by Category]</li><li>[!UICONTROL Most Viewed by Item Attribute]</li><li>[!UICONTROL Top Sellers Across the Site]</li><li>[!UICONTROL Top Sellers by Category]</li><li>[!UICONTROL Top Sellers by Item Attribute]</li><li>[!UICONTROL Top by Analytics Metric]</li></ul>|
+   |[!UICONTROL Popularity-Based]|Make recommendations based on the overall popularity of an item across your site or based on the popularity of items within a user's favorite or most-viewed category, brand, genre, and so forth. <ul><li>[!UICONTROL Most Viewed Across the Site]</li><li>[!UICONTROL Most Viewed by Category]</li><li>[!UICONTROL Most Viewed by Item Attribute]</li><li>[!UICONTROL Most Viewed by Profile Attribute]</li><li>[!UICONTROL Top Sellers Across the Site]</li><li>[!UICONTROL Top Sellers by Category]</li><li>[!UICONTROL Top Sellers by Item Attribute]</li><li>[!UICONTROL Top Sellers by Profile Attribute]</li><li>[!UICONTROL Top by Analytics Metric]</li></ul>|
    |[!UICONTROL Item-Based]|Make recommendations based on finding similar items to an item that the user is currently viewing or has recently viewed. <ul><li>[!UICONTROL People Who Viewed This, Viewed That]</li><li>[!UICONTROL People Who Viewed This, Bought That]</li><li>[!UICONTROL People Who Bought This, Bought That]</li><li>[!UICONTROL Items with Similar Attributes]</li></ul>|
    |[!UICONTROL User-Based]|Make recommendations based on the user's behavior.<ul><li>[!UICONTROL Recently Viewed Items]</li><li>[!UICONTROL Recommended for You]</li></ul>|
    |[!UICONTROL Custom Criteria]|Make recommendations based on a custom file you upload.<ul><li>Custom Algorithm</li></ul>|
@@ -100,6 +105,8 @@ The following steps assume you access the [!UICONTROL Create New Criteria] scree
 1. As required, select an **Item Attribute** and **Profile Attribute to Match**, a **Recommendation Key**, **Filtering Key**, and/or **Analytics Metric** to configure the algorithm.
 
 The remaining algorithm configuration options vary depending on the selected algorithm. To finish configuring the algorithm, select a [!UICONTROL Recommendation Key], [!UICONTROL Filtering Key], [!UICONTROL Co-Occurrence Basis], [!UICONTROL Analytics Metric], and/or [!UICONTROL Item Attribute] and [!UICONTROL Profile Attribute to Match].
+
+When you select [!UICONTROL Most Viewed by Profile Attribute] or [!UICONTROL Top Sellers by Profile Attribute], select a **[!UICONTROL Profile Attribute]** to group the interaction data by. Profile attributes come from a profile script that captures a visitor characteristic, such as region or country, and the script name must carry the `recsAttribute` prefix, so it is stored as `user.recsAttribute<Name>`, for example, `user.recsAttributeRegion`. At delivery time, [!DNL Target] serves each visitor the ranked list that corresponds to their own value of that attribute.
 
 For more information about choosing a [!UICONTROL Recommendation Key], see [Base the recommendation on a recommendation key](/help/main/c-recommendations/c-algorithms/base-the-recommendation-on-a-recommendation-key.md).
 
@@ -123,7 +130,7 @@ For more information about choosing a [!UICONTROL Recommendation Key], see [Base
 
    Suppose your criteria causes only two items to be recommended. If you enable the [!UICONTROL Partial Design Rendering] option, the fist two slots are filled, but the remaining two slots remain empty. However, if you enable the [!UICONTROL Show Backup Recommendations] option, the first two slots are filled based on your specified criteria and the remaining two slots are filled based on your backup recommendations.
 
-   The following matrix shows the result you'll observe when using the [!UICONTROL Partial Design Rendering] and [!UICONTROL Backup Content] options:
+   The following matrix shows the result you will observe when using the [!UICONTROL Partial Design Rendering] and [!UICONTROL Backup Content] options:
 
    | Partial Design Rendering | Backup Content | Result |
    |--- |--- |--- |
@@ -166,7 +173,7 @@ For more information about choosing a [!UICONTROL Recommendation Key], see [Base
 
    If your site has a lot of traffic and behaviors change frequently, choose a shorter data window. A shorter window enables [!DNL Recommendations] to be more responsive to changes in the market and in your business. For example, a shorter window means that [!DNL Recommendations] will detect changes in visitor behavior as your visitors begin seasonal shopping, such as back-to-school shopping or Christmas, and will recommend items appropriate to those shopping seasons.
 
-   If you don't have a lot of data, or visitor behavior does not change frequently, you might select a longer window. However, for many sites, a shorter window results in higher-quality recommendations.
+   If you do not have a lot of data, or visitor behavior does not change frequently, you might select a longer window. However, for many sites, a shorter window results in higher-quality recommendations.
 
    The available data ranges are:
 

@@ -1,8 +1,12 @@
 ---
 title: Import feature flags
 description: Learn how to import feature flags from one sandbox into another in Flags to avoid recreating flag configurations manually.
+badge: label="Beta" type="Informative"
 hide: true
 exl-id: 37c84d75-a565-4202-8c99-f630e05b6bb6
+product_v2:
+  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+    internal-label: Target
 ---
 # Import feature flags {#import-feature-flags}
 
@@ -10,7 +14,9 @@ Flags lets you import feature flags from one sandbox (for example, sandbox 1) in
 
 ## Step 1: Go to the destination sandbox and application {#step-1}
 
-Log in to the console for the **destination** sandbox — the sandbox you want to import flags *into*. Select the application you want to import flags into from the application drop-down on the Feature Flags page.
+Log in to the console for the **destination** sandbox — the sandbox you want to import flags into. Click **Import Feature Flags**, then select the application you want to import flags into from the application drop-down.
+
+![Import Feature Flags button on the Feature Flags page](assets/import-feature-flags.png)
 
 >[!IMPORTANT]
 >

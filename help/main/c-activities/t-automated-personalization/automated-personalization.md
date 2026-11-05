@@ -5,7 +5,7 @@ title: What is an [!UICONTROL Automated Personalization] (AP) Activity?
 badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="See what's included in Target Premium."
 feature: Automated Personalization
 exl-id: 3654dce4-0d6c-42a3-8be7-e081ec478075
-TQID: https://experienceleague.adobe.com/BBtKgNRTlqNFFoAjr1LQkhHyZeAlXG2h8D7bsndh4kQ
+TQID: 'https://experienceleague.adobe.com/BBtKgNRTlqNFFoAjr1LQkhHyZeAlXG2h8D7bsndh4kQ'
 product_v2:
   - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
     internal-label: Target
@@ -14,9 +14,13 @@ feature_v2:
     internal-label: Audiences
   - id: c93393a4-e558-47e1-992e-c91ed4d480ce
     internal-label: Implementation
+  - id: f69bc5f1-ebdb-4306-a281-f2e77daf734c
+    internal-label: Activities and tests
 subfeature_v2:
   - id: fff07a91-d479-45f4-ae95-9762e79b1b7c
     internal-label: Shared audiences
+  - id: f0055dd2-93f3-4ac8-9abc-d69d4ed2d977
+    internal-label: Automated personalization
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
     internal-label: Reporting
@@ -73,7 +77,7 @@ Random Forest is a leading machine-learning approach. In data-science terms, it 
 
 * The multi-arm bandit ensures that the model is always "spending" a small fraction of traffic to continue learning throughout the life of the activity and to prevent over-exploitation of previously learned trends. 
 * The underlying models are rebuilt every 24 hours using the latest visitor behavior data to ensure that [!DNL Target] is always using changing visitor preferences. 
-* If the algorithm can't determine winning experiences for individual visitors, it automatically switches to showing the overall best-performing experience, while still continuing to look for personalized winners. The best-performing experience is found using [Thompson Sampling](https://en.wikipedia.org/wiki/Thompson_sampling).
+* If the algorithm cannot determine winning experiences for individual visitors, it automatically switches to showing the overall best-performing experience, while still continuing to look for personalized winners. The best-performing experience is found using [Thompson Sampling](https://en.wikipedia.org/wiki/Thompson_sampling).
 
 ## The model continually optimizes a single goal metric
 
@@ -85,7 +89,7 @@ Random Forest is a leading machine-learning approach. In data-science terms, it 
 
 ## [!DNL Target] automatically uses all [!DNL Adobe Experience Cloud] shared audiences to build the personalization models
 
-* You don't need to do anything specific to add audiences to the model. For information about using [!DNL Experience Cloud Audiences] with [!DNL Target], see [Experience Cloud Audiences](/help/main/c-integrating-target-with-mac/mmp.md).
+* You do not need to do anything specific to add audiences to the model. For information about using [!DNL Experience Cloud Audiences] with [!DNL Target], see [Experience Cloud Audiences](/help/main/c-integrating-target-with-mac/mmp.md).
 
 ## Marketers can upload offline data, propensity scores, or other custom data to build personalization models
 

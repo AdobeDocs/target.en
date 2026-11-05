@@ -6,16 +6,20 @@ short-description: Learn about the new features, enhancements, and fixes include
 title: What Is Included in the Current Release?
 feature: Release Notes
 exl-id: 3ffead4f-113c-4153-b0b1-fc2aff710063
-TQID: https://experienceleague.adobe.com/-Unx6cVsw3wch2LJgPtvBYPe-10rdpiJ4v9F7tMSP08
+TQID: 'https://experienceleague.adobe.com/-Unx6cVsw3wch2LJgPtvBYPe-10rdpiJ4v9F7tMSP08'
 product_v2:
   - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
     internal-label: Target
 feature_v2:
   - id: c93393a4-e558-47e1-992e-c91ed4d480ce
     internal-label: Implementation
+  - id: dfc8a233-f2b5-4811-bf63-b4262aebc5a5
+    internal-label: Administration and configuration
 subfeature_v2:
   - id: fd0ff162-b6d3-4a11-8aeb-e165a01c0f0a
     internal-label: at.js
+  - id: c5abb976-5170-45d6-bcac-66d15d10a4d4
+    internal-label: Release notes
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
     internal-label: Reporting
@@ -32,45 +36,13 @@ Explore the latest features, enhancements, and fixes in [!DNL Adobe Target]. The
 
 (The issue numbers in parentheses are for internal [!DNL Adobe] use.)
 
-## [!DNL Target Standard/Premium] 26.6.5 (June 17, 2026)
+## [!DNL Target Standard/Premium] 26.10.2 (October 15, 2026)
 
-**Activities**
-
-+++See details
-
-* **Error when an activity uses audiences deleted at source.** Fixed an issue where you could see an error indicating that an activity uses one or more audiences that were deleted at the source. (TGT-55272)
-
-+++
-
-**[!UICONTROL Analytics for Target] (A4T)**
+**[!UICONTROL Activities]**
 
 +++See details
 
-* **A4T reports not visible.** Fixed an issue where [!UICONTROL Analytics for Target] (A4T) reports did not display. (TGT-55432)
-
-+++
-
-## [!DNL Target Standard/Premium] 26.6.4 (June 16, 2026)
-
-**Activities**
-
-+++See details
-
-* **[!UICONTROL Save & Close] in the updated [!DNL Target] UI.** Restored the **[!UICONTROL Save & Close]** option in the updated [!DNL Target] UI. (TGT-55152)
-
-* **QA URLs in the updated [!DNL Target] UI.** Fixed an issue where QA URLs did not work correctly in the updated [!DNL Target] UI. ([TGT-55110](https://jira.corp.adobe.com/browse/TGT-55110))
-
-+++
-
-**Localization**
-
-+++See details
-
-* **Unlocalized percent format in Activity overview graph reports.** Fixed an issue where the percent format was not localized in the chart in **[!UICONTROL Graph view]** on the **[!UICONTROL Reports]** tab on the **[!UICONTROL Activity Overview]** page. (TGT-50100)
-
-* **Japanese characters in the activity URL.** Fixed an issue where Japanese characters in the activity URL appeared corrupted on the **[!UICONTROL Activity Overview]** page and in the activity list after you saved an activity. (TGT-53459)
-
-* **Unlocalized timestamp in the default activity name.** Fixed an issue where the timestamp was not localized in the activity title when you retained the default activity name during activity creation. (TGT-53273)
+* **Incorrect goal settings displayed in the Activity Overview**. Fixed an issue where the goal settings shown in the **[!UICONTROL Overview]** page of an activity were incorrect. For example, `https://` was added to the page URL, and the **[!UICONTROL URL contains]** condition was not shown, even though the actual goal configuration was correct. (TGT-56326)
 
 +++
 
@@ -78,21 +50,44 @@ Explore the latest features, enhancements, and fixes in [!DNL Adobe Target]. The
 
 +++See details
 
-* **Multi-byte characters in the URL after creating feeds.** Fixed an issue where multi-byte characters appeared corrupted in the URL after you created feeds. (TGT-54793)
+* **Backup recommendations displayed after a promotion is updated in a live activity**. Fixed an issue where editing a promotion in a live [!DNL Recommendations] activity caused [!DNL Target] to create new promotions and recommendation units even though nothing changed in their definition. (TGT-56369)
 
 +++
 
-<!--
-* **Blank page or CORS errors with Enhanced Experience Composer.** Fixed an issue where the [!UICONTROL Visual Experience Composer] could fail to load when Enhanced Experience Composer (EEC) was enabled. (TGT-54576)
+**[!UICONTROL Reports]**
+
++++See details
+
+* **Reporting presets deleted after two weeks**. Fixed an issue where the reporting presets that users saved for an activity were deleted automatically after approximately two weeks. (TGT-56374)
+
++++
 
 **[!UICONTROL Visual Experience Composer] (VEC)**
 
 +++See details
 
-* **Click tracking for Experience B.** Fixed an issue where click tracking was not saved for **[!UICONTROL Experience B]** in the [!UICONTROL Visual Experience Composer]. (TGT-54843)
+* **Safari support added to [!DNL Adobe Target]**. [!DNL Target] is now supported in the [!DNL Safari] browser. Note that Visual Experience Composer and [!DNL Enhanced Experience Composer] are not supported in [!DNL Safari]. As a result, an overlay now appears in the [!DNL VEC] to notify users that they must switch to [!DNL Chrome] to use the editor. (TGT-55853)
+[Learn more](../c-experiences/c-visual-experience-composer/visual-experience-composer.md#browser-requirements)
++++
+
+
+## [!DNL Target Standard/Premium] 26.10.1 (October 13, 2026)
+
+**[!UICONTROL Analytics for Target]**
+
++++See details
+
+* **A4T reporting fails with a "Something went Wrong" error**. Fixed an issue where [!DNL A4T] activities using a newly added report suite displayed a "Something went Wrong" error in the [!DNL Target] report instead of results. Clicking **[!UICONTROL View in Analytics]** also displayed an "Incompatible report suite" message with missing [!DNL Analytics for Target] classification information. (TGT-56389)
 
 +++
--->
+
+**[!UICONTROL Visual Experience Composer] (VEC)**
+
++++See details
+
+* **Raw HTML displayed instead of the offer name for [!DNL Experience Fragments] delivered through an mbox**. Fixed an issue where the **[!UICONTROL Modifications]** panel displayed raw HTML/code instead of the offer name when an [!DNL Experience Fragment] was delivered through an mbox. (TGT-56241)
+
++++
 
 ## Time-sensitive updates you need to know {#time-sensitive}
 

@@ -4,6 +4,12 @@ description: Learn how to minimize the effects of inflated Visit and Visitor cou
 title: How Do I Minimize Inflated Visit and Visitor Counts in A4T?
 feature: Analytics for Target (A4T)
 exl-id: 308711f7-e630-4f6b-8a6d-a1f36ed7902d
+product_v2:
+  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+    internal-label: Target
+feature_v2:
+  - id: 891742a5-242d-5099-966a-ca76c17cd2d2
+    internal-label: Analytics for Target (A4T)
 ---
 # Minimizing inflated visit and visitor counts in A4T
 
@@ -63,7 +69,7 @@ The following information relating to this change includes instructions to help 
 
 In most situations, a [!DNL Target] hit is stitched with an  [!DNL Analytics] hit on each webpage. This stitching happens if there is a consistent SDID in both the  [!DNL Target] and [!DNL Analytics] call and a [!DNL Experience Cloud ID] (MCID) in the  [!DNL Analytics] call on the same page. [!DNL Target] typically has the MCID as well, but if the call to [!DNL Target] happens before the visitor ID returns, the hit is still stitched because of the SDID. Also, the user must remain on the page long enough to fire an  [!DNL Analytics] call after a  [!DNL Target]&nbsp;call was fired. This scenario is ideal.
 
-**Partial-data hits:** Users sometimes don't remain on a page long enough to send an [!DNL Analytics] call, but [!DNL Target] has a proper MCID. This scenario results in partial-data hits (hits with no [!DNL Analytics] page view). If these users come back to your site and view a page containing [!DNL Analytics] code, they are properly counted as returning visitors. These hits would have been lost if you had only [!DNL Analytics] code on the page. Some clients don't want data for these hits because they inflate certain metrics (visits) and deflate other metrics (page views per visit, time per visit, and so forth). You also see visits without any page views. However, there are still valid reasons for keeping this data.
+**Partial-data hits:** Users sometimes do not remain on a page long enough to send an [!DNL Analytics] call, but [!DNL Target] has a proper MCID. This scenario results in partial-data hits (hits with no [!DNL Analytics] page view). If these users come back to your site and view a page containing [!DNL Analytics] code, they are properly counted as returning visitors. These hits would have been lost if you had only [!DNL Analytics] code on the page. Some clients do not want data for these hits because they inflate certain metrics (visits) and deflate other metrics (page views per visit, time per visit, and so forth). You also see visits without any page views. However, there are still valid reasons for keeping this data.
 
 To minimize partial-data hits, you can make your page load faster, update to the latest versions of the libraries, or create a [virtual report suite](https://experienceleague.adobe.com/docs/analytics/components/virtual-report-suites/vrs-workflow/vrs-create.html) that excludes those hits. For step-by-step instructions, see [Create virtual report suites](https://experienceleague.adobe.com/docs/analytics/components/virtual-report-suites/vrs-workflow/vrs-create.html) in the *Analytics Components Guide*.
 
@@ -84,7 +90,7 @@ When creating the virtual report suite, specify the following configuration for 
 *   And
 *   Exit Link Instances: Does not exist
 
-**Orphaned hits:&nbsp;** In fewer situations, users don't remain on the page long enough for an Analytics call and Target didn't get a proper MCID. These hits are what Adobe defines as "orphaned" hits. These hits represent customers that rarely return and they inflate visit and visitor counts inappropriately.
+**Orphaned hits:&nbsp;** In fewer situations, users do not remain on the page long enough for an Analytics call and Target did not get a proper MCID. These hits are what Adobe defines as "orphaned" hits. These hits represent customers that rarely return and they inflate visit and visitor counts inappropriately.
 
 To minimize these "orphaned" hits, you can create a [virtual report suite](https://experienceleague.adobe.com/docs/analytics/components/virtual-report-suites/vrs-workflow/vrs-create.html) that excludes those hits, as explained above.
 

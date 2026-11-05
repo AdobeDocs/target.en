@@ -1,19 +1,23 @@
 ---
 keywords: welcome kit;target welcome kit;intro;introduction;getting started
-description: You've create your first activity in Adobe Target. What's next? Use this article to find links to additional resouces, training tutorials, and how-to videos.
+description: You have create your first activity in Adobe Target. What's next? Use this article to find links to additional resouces, training tutorials, and how-to videos.
 title: Where Can I Find Additional Resources to More Effectively Use Target?
 feature: Overview
 exl-id: 76bd62e6-07fa-40b9-9d81-529a825500fb
-TQID: https://experienceleague.adobe.com/gnPAfU7eUX1v-Ku2KYzbn4l1SNqdLLtwcnpbVbiyrQM
+TQID: 'https://experienceleague.adobe.com/gnPAfU7eUX1v-Ku2KYzbn4l1SNqdLLtwcnpbVbiyrQM'
 product_v2:
   - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
     internal-label: Target
 feature_v2:
   - id: c93393a4-e558-47e1-992e-c91ed4d480ce
     internal-label: Implementation
+  - id: dfc8a233-f2b5-4811-bf63-b4262aebc5a5
+    internal-label: Administration and configuration
 subfeature_v2:
   - id: fd0ff162-b6d3-4a11-8aeb-e165a01c0f0a
     internal-label: at.js
+  - id: fc9c2184-9102-403f-bd6c-0055021e4bea
+    internal-label: Overview
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
     internal-label: Reporting
@@ -28,9 +32,9 @@ topic_v2:
 ---
 # Chapter 9: Next steps and resources
 
-We've covered the basics of running your first activity. We hope that activity showed you and your company the incredible potential that using [!DNL Adobe Target] to optimize and personalize has for impacting the business bottom line. This is just a start. It's time to think about what you'll focus on for your second activity? Consider creating a prioritized list of activities you want to run. You'll be surprised by just how quickly you see how activity by activity you improve the customer experience and drive business success.
+We've covered the basics of running your first activity. We hope that activity showed you and your company the incredible potential that using [!DNL Adobe Target] to optimize and personalize has for impacting the business bottom line. This is just a start. It is time to think about what you will focus on for your second activity? Consider creating a prioritized list of activities you want to run. You will be surprised by just how quickly you see how activity by activity you improve the customer experience and drive business success.
 
-By the way, you have so many ways to learn more about testing, personalization, and using [!DNL Target]. Review the list of resources below to start building that knowledge. Listen in on our webinars, read the Adobe Target blog, attend Adobe Summit, and get active in the Adobe Target online community. Don't forget that we're here always here to help you launch your program and put it on a path to success. Reach out any time.
+By the way, you have so many ways to learn more about testing, personalization, and using [!DNL Target]. Review the list of resources below to start building that knowledge. Listen in on our webinars, read the Adobe Target blog, attend Adobe Summit, and get active in the Adobe Target online community. Do not forget that we are here always here to help you launch your program and put it on a path to success. Reach out any time.
 
 We've compiled an organized list of valuable information to help you gain even more knowledge about optimization and personalization using [!DNL Target].
 
@@ -57,6 +61,6 @@ We've compiled an organized list of valuable information to help you gain even m
 
 * **Adobe Target Homepage**: The homepage of [!DNL Adobe Target], learn about our capabilities and see our latest success stories here. See [Adobe Target](https://www.adobe.com/marketing/target.html).
 * **The Blog**: Stay up to date with the latest news, tips, and success stories by following the [Target blog](https://blog.adobe.com/en/topics/target).
-* **Experience League**: Discover the guides, events, and training you need to kick-start your experience business, and get connected with the Target community and find the answers you're looking for. See the [Adobe Experience League homepage](https://experienceleague.adobe.com/#home).
+* **Experience League**: Discover the guides, events, and training you need to kick-start your experience business, and get connected with the Target community and find the answers you are looking for. See the [Adobe Experience League homepage](https://experienceleague.adobe.com/#home).
 * **Adobe Target Certification**: Achieve Adobe certified expert status with new Adobe Target exams. Schedule an exam here or training courses. See [Training and certification](/help/main/c-intro/training-and-certification.md).
 * **Adobe Target release notes**: Information about features, enhancements, and fixes for each [!DNL Target Standard] and [!DNL Target Premium] release. In addition, release notes for Target APIs, SDKs, the JavaScript library (at.js), and other platform changes are also included, when applicable. See [Target release notes (current)](/help/main/r-release-notes/release-notes.md).

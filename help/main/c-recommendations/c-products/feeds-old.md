@@ -5,6 +5,15 @@ title: How Do I Use [!UICONTROL Feeds] in [!DNL Target Recommendations]?
 badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="See what's included in Target Premium."
 feature: Recommendations
 exl-id: 7b336a9e-23f4-4b09-9c8f-b9cb68162b1b
+product_v2:
+  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+    internal-label: Target
+feature_v2:
+  - id: f69bc5f1-ebdb-4306-a281-f2e77daf734c
+    internal-label: Activities and tests
+subfeature_v2:
+  - id: ed58f4a1-16eb-4c8c-b505-be9da766a9ec
+    internal-label: Recommendations
 ---
 # Feeds
 
@@ -61,11 +70,11 @@ You can create a .csv file using the [!DNL Adobe] proprietary CSV upload format.
 
 Using the .csv format has the following advantages over the Google Feed format:
 
-* The .csv format doesn't require field mappings.
+* The .csv format does not require field mappings.
 * The .csv format supports multi-value attributes (see example below).
 * The .csv format supports up to 100 custom attributes. If you need more than 100 custom attributes, you can create a second feed file with a different set of custom attributes specified.
 
-Use the bulk upload method to send display information if you don't have mboxes on your page, or if you want to supplement your display information with items that are not available on your site. For example, you might want to send inventory information that might not be published on your site.
+Use the bulk upload method to send display information if you do not have mboxes on your page, or if you want to supplement your display information with items that are not available on your site. For example, you might want to send inventory information that might not be published on your site.
 
 Any data uploaded using the .csv file, Google product feed, or [!DNL Analytics] Product classification feed overwrites the existing entity attribute value in the database. If you send price information via mbox requests and then send different price values in the file, the values in the file overwrite the values set with the mbox request. An exception to this is the `categoryId` entity attribute where the category values are appended instead of being overwritten up to the 250-character limit.
 
@@ -87,7 +96,7 @@ The following syntax is correct:
 
 >[!NOTE]
 >
->You can't overwrite an existing value with a blank value. Pass another value in its place to overwrite it. In the case of a sale price, a common solution is to either pass in an actual "NULL" or some other message. You can then write a template rule to exclude items with that value.
+>You cannot overwrite an existing value with a blank value. Pass another value in its place to overwrite it. In the case of a sale price, a common solution is to either pass in an actual "NULL" or some other message. You can then write a template rule to exclude items with that value.
 
 The product is available in the admin interface approximately two hours after successfully uploading its entity.
 
@@ -206,7 +215,7 @@ na3455    RipCurl Watch with Black Dial    Cutting edge matte black with round c
 
 ### [!DNL Analytics] Product Classifications {#section_79E430D2C75443BEBC9AA0916A337E0A}
 
-The [!DNL Analytics] Product classification is the only classification available for recommendations. For more information about this classification file, see [About classifications](https://experienceleague.adobe.com/docs/analytics/components/classifications/c-classifications.html) in the *Analytics Components* guide. It's possible that not all the information you need for recommendations is available in your current implementation, so follow this user guide if you want to add to your classifications file.
+The [!DNL Analytics] Product classification is the only classification available for recommendations. For more information about this classification file, see [About classifications](https://experienceleague.adobe.com/docs/analytics/components/classifications/c-classifications.html) in the *Analytics Components* guide. It is possible that not all the information you need for recommendations is available in your current implementation, so follow this user guide if you want to add to your classifications file.
 
 >[!IMPORTANT]
 >
@@ -314,7 +323,7 @@ The following feed status indicators display in the [!UICONTROL Status] column:
 | Status Indicator | Description |
 |--- |--- |
 |Green status indicator|When a feed successfully finishes indexing, a green status dot indicates that the feed is in a successful state.|
-|Yellow status indicator|When a feed or feed index is delayed by 25% of the feed frequency, a yellow status dot displays. For example, a yellow dot displays for a feed set to run daily if the index hasn't completed six hours after the scheduled time. Note: Once the feed status is "Waiting for Index Queue," the newly updated values are available in delivery and criteria processing.|
+|Yellow status indicator|When a feed or feed index is delayed by 25% of the feed frequency, a yellow status dot displays. For example, a yellow dot displays for a feed set to run daily if the index has not completed six hours after the scheduled time. Note: Once the feed status is "Waiting for Index Queue," the newly updated values are available in delivery and criteria processing.|
 |White status indicator|When a feed is not scheduled, a white status dot indicates that the feed has not run yet.|
 |Red status indicator|If the feed fails to upload data to the server, a red status indicator is shown.|
 
@@ -323,14 +332,14 @@ Consider the following examples:
 **Example 1:** 
 
 * Day one: daily feed processes at 9:00 a.m. PST.
-* Day two: it is 3:30 p.m. and the feed hasn't run since yesterday at 9:00 a.m. 
+* Day two: it is 3:30 p.m. and the feed has not run since yesterday at 9:00 a.m. 
 
 The status should be yellow because the index should have run roughly 6.5 hours ago. 6.5 hours +24 is 127% of the feed window. 
 
 **Example 2:** 
 
 * January 1: monthly feed processes at 9:00 a.m. PST.
-* February 3: it is 10:00 a.m. and the feed hasn't run for one month, one day, and one hour ago. 
+* February 3: it is 10:00 a.m. and the feed has not run for one month, one day, and one hour ago. 
 
 The status should be yellow because the index should have run roughly one day and one hour ago. Although this is only (31+(1/25))/30 = 1.03% of frequency setting, it surpassed the maximum of one-day delay. 
 

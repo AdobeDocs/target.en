@@ -4,6 +4,15 @@ description: Learn how to create exclusions in Adobe [!DNL Target] Recommendatio
 title: How Do I Use Exclusions in Recommendations Activities?
 feature: Recommendations
 exl-id: e41487c7-6d47-4958-8e4b-616a2ad56b3c
+product_v2:
+  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+    internal-label: Target
+feature_v2:
+  - id: f69bc5f1-ebdb-4306-a281-f2e77daf734c
+    internal-label: Activities and tests
+subfeature_v2:
+  - id: ed58f4a1-16eb-4c8c-b505-be9da766a9ec
+    internal-label: Recommendations
 ---
 # Exclusions
 
@@ -17,7 +26,7 @@ Some examples of times you would use exclusions include:
 * Fall/Winter catalog is now the only catalog that should be present online. Any item from the Summer catalog is no longer available for purchase.
 * Items that might be inappropriate to recommend on most pages/screens (adult products, NC-17 movies, etc.)
 * Products with incomplete metadata fields (missing thumbnail, price, or other important metadata)
-* Products that should never be recommended (maybe a SKU exists in the system for something but it isn't a purchasable item, or maybe it is a fake SKU for the QA team to simulate a purchase without actually ordering something, etc,)
+* Products that should never be recommended (maybe a SKU exists in the system for something but it is not a purchasable item, or maybe it is a fake SKU for the QA team to simulate a purchase without actually ordering something, etc,)
 
 >[!IMPORTANT]
 >

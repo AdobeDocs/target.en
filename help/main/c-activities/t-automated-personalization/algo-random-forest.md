@@ -5,10 +5,16 @@ title: How Does [!DNL Target] Use the Random Forest Algorithm?
 badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="See what's included in Target Premium."
 feature: Automated Personalization
 exl-id: 07a89525-4071-4434-ac96-c59a4f4422ad
-TQID: https://experienceleague.adobe.com/Ui8E8CkiiJSdqim9fzIgPDdsKG1MMtuu3EUuAqgmm0M
+TQID: 'https://experienceleague.adobe.com/Ui8E8CkiiJSdqim9fzIgPDdsKG1MMtuu3EUuAqgmm0M'
 product_v2:
   - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
     internal-label: Target
+feature_v2:
+  - id: f69bc5f1-ebdb-4306-a281-f2e77daf734c
+    internal-label: Activities and tests
+subfeature_v2:
+  - id: f0055dd2-93f3-4ac8-9abc-d69d4ed2d977
+    internal-label: Automated personalization
 topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
     internal-label: Customer experience
@@ -48,7 +54,7 @@ The example would result in the below tree:
 
 ## How are decision trees used by Random Forest? {#section_536C105EF9F540C096D60450CAC6F627}
 
-Decision trees can be a powerful statistical tool. However, they have some disadvantages. Most critically, they can "over-fit" the data so that an individual tree poorly predicts future data that wasn't used to build the initial tree. This challenge is known as the [bias-variance tradeoff](https://en.wikipedia.org/wiki/Bias%E2%80%93variance_tradeoff) in statistical learning. Random forests help overcome this over-fitting challenge. At the highest level, a random forest is a collection of decision trees that are built slightly differently on the same data set that "vote" together to yield a better model than an individual tree. The trees are built by randomly selecting a subset of visit records with replacement (known as bagging), and randomly selecting a subset of the attributes, so that the forest consists of slightly different decision trees. This method introduces small variations into the trees that are created in the Random Forest. Adding in this controlled amount of variance helps improve the predictive accuracy of the algorithm.  
+Decision trees can be a powerful statistical tool. However, they have some disadvantages. Most critically, they can "over-fit" the data so that an individual tree poorly predicts future data that was not used to build the initial tree. This challenge is known as the [bias-variance tradeoff](https://en.wikipedia.org/wiki/Bias%E2%80%93variance_tradeoff) in statistical learning. Random forests help overcome this over-fitting challenge. At the highest level, a random forest is a collection of decision trees that are built slightly differently on the same data set that "vote" together to yield a better model than an individual tree. The trees are built by randomly selecting a subset of visit records with replacement (known as bagging), and randomly selecting a subset of the attributes, so that the forest consists of slightly different decision trees. This method introduces small variations into the trees that are created in the Random Forest. Adding in this controlled amount of variance helps improve the predictive accuracy of the algorithm.  
 
 ## How do the [!DNL Target] personalization algorithms use Random Forest? {#section_32FB53CAD8DF40FB9C0F1217FBDBB691}
 

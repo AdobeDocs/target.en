@@ -4,10 +4,16 @@ description: Discover how to leverage remote offers in [!DNL Target] to host ext
 title: How Do I Create Remote Offers?
 feature: Experiences and Offers
 exl-id: 6a5283ee-c1fb-49f7-8e7f-c23ccde26ade
-TQID: https://experienceleague.adobe.com/maKcis5ROOKMcc3-axxGv1qJIQzC6o-Qc-Cjl8clQ1I
+TQID: 'https://experienceleague.adobe.com/maKcis5ROOKMcc3-axxGv1qJIQzC6o-Qc-Cjl8clQ1I'
 product_v2:
   - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
     internal-label: Target
+feature_v2:
+  - id: dfc8a233-f2b5-4811-bf63-b4262aebc5a5
+    internal-label: Administration and configuration
+subfeature_v2:
+  - id: ef98a6e0-f26c-4870-9bd4-e6b72e9cc699
+    internal-label: Experiences and offers
 topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
     internal-label: Customer experience
@@ -46,7 +52,7 @@ Best practices for using remote offers in your activities:
 * Remote offers are not supported in:
 
   * [Premium features](/help/main/c-intro/intro.md#premium) (Automated Personalization (AP), Auto-Target, and Recommendations)
-  * Multivariate Testing (MVT), due to reliance on the VEC, which doesn't support remote offers.
+  * Multivariate Testing (MVT), due to reliance on the VEC, which does not support remote offers.
 
 * If your offer resides in the same domain as the [!DNL Target] requests, using the [!UICONTROL Cached] option lets you use relative URLs in describing your offer location.
 
@@ -123,7 +129,7 @@ You can click **[!UICONTROL Add Parameter]** to add one or more [!DNL Target] re
 
 Apply remote offers using the [!UICONTROL Form-Based Experience Composer]. You cannot currently apply remote offers using the [!UICONTROL Visual Experience Composer] (VEC).
 
-The [!DNL Adobe Target] [!UICONTROL Form-Based Experience Composer] is a non-visual experience and offer creation interface that's useful in creating experiences for use in [!UICONTROL A/B Tests], [!UICONTROL Experience Targeting] (XT), [!UICONTROL Automated Personalization] (AP), and [!UICONTROL Recommendations] activities when the [!UICONTROL Visual Experience Composer] is not available or practical for use. For example, you might use the [!UICONTROL Form-Based Experience Composer] to create experiences that use remote offers.
+The [!DNL Adobe Target] [!UICONTROL Form-Based Experience Composer] is a non-visual experience and offer creation interface that is useful in creating experiences for use in [!UICONTROL A/B Tests], [!UICONTROL Experience Targeting] (XT), [!UICONTROL Automated Personalization] (AP), and [!UICONTROL Recommendations] activities when the [!UICONTROL Visual Experience Composer] is not available or practical for use. For example, you might use the [!UICONTROL Form-Based Experience Composer] to create experiences that use remote offers.
 
 1. Create or edit an activity in the [!UICONTROL Form-Based Experience Composer].
 

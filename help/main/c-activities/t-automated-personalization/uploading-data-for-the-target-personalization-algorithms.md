@@ -5,7 +5,7 @@ title: How Can I Upload Data for Personalization Algorithms?
 feature: Automated Personalization, Auto-Target
 badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="See what's included in Target Premium."
 exl-id: c750e0e5-8ebd-49a2-9705-05f593aaf0b9
-TQID: https://experienceleague.adobe.com/B1vwWrii4DfQzXftwcmgzbhBkDAZFo5mDRn3a7dULj0
+TQID: 'https://experienceleague.adobe.com/B1vwWrii4DfQzXftwcmgzbhBkDAZFo5mDRn3a7dULj0'
 product_v2:
   - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
     internal-label: Target
@@ -14,9 +14,15 @@ feature_v2:
     internal-label: Audiences
   - id: c93393a4-e558-47e1-992e-c91ed4d480ce
     internal-label: Implementation
+  - id: f69bc5f1-ebdb-4306-a281-f2e77daf734c
+    internal-label: Activities and tests
 subfeature_v2:
   - id: fff07a91-d479-45f4-ae95-9762e79b1b7c
     internal-label: Shared audiences
+  - id: f0055dd2-93f3-4ac8-9abc-d69d4ed2d977
+    internal-label: Automated personalization
+  - id: db15a02f-03cd-46fe-a53e-02064cdeadfa
+    internal-label: Auto target
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
     internal-label: Reporting
@@ -45,7 +51,7 @@ The following list presents best practices for uploading data for [!DNL Target] 
 
 * The more high-quality data that is available to [!DNL Target] personalization algorithms, the better the quality the resulting models in your [!UICONTROL Automated Personalization] and [!UICONTROL Auto-Target] activities. 
 * Limit using multiple profile scripts or attributes that serve the same purpose. 
-* Don't pass a unique Id, such as a session ID if not needed. 
-* Review what data [!DNL Target] automatically collects ( [Data Collection for Target's Personalization Algorithms](/help/main/c-activities/t-automated-personalization/ap-data.md)) so that you don't send duplicate information. For example, [!DNL Target] uses IP addresses to determine visitors' ZIP codes. It is not necessary to pass this information as a separate variable. 
+* Do not pass a unique Id, such as a session ID if not needed. 
+* Review what data [!DNL Target] automatically collects ( [Data Collection for Target's Personalization Algorithms](/help/main/c-activities/t-automated-personalization/ap-data.md)) so that you do not send duplicate information. For example, [!DNL Target] uses IP addresses to determine visitors' ZIP codes. It is not necessary to pass this information as a separate variable. 
 * Do not pass multiple values in the same attribute or variable. If multiple variables are concatenated, [!DNL Target] personalization algorithms treat each string as a unique value, reducing the value of the information for personalization. 
 * Use a memorable and meaningful naming convention to make your [Personalization Insights Reports](/help/main/c-reports/c-personalization-insights-reports/personalization-insights-reports.md#concept_A897070E1EDC403EB84CFB7A6ECAD767) more understandable.

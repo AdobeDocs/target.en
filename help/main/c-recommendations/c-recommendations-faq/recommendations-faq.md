@@ -5,10 +5,16 @@ title: Where Can I find Questions and Answers about [!DNL Recommendations]?
 badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="See what's included in Target Premium."
 feature: Recommendations
 exl-id: aaa52923-1c2d-44ae-bd89-671329222077
-TQID: https://experienceleague.adobe.com/Hz37Dp21q-25Pj6mmbiaGqONY14eImVB9Ebz8VH9hMA
+TQID: 'https://experienceleague.adobe.com/Hz37Dp21q-25Pj6mmbiaGqONY14eImVB9Ebz8VH9hMA'
 product_v2:
   - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
     internal-label: Target
+feature_v2:
+  - id: f69bc5f1-ebdb-4306-a281-f2e77daf734c
+    internal-label: Activities and tests
+subfeature_v2:
+  - id: ed58f4a1-16eb-4c8c-b505-be9da766a9ec
+    internal-label: Recommendations
 topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
     internal-label: Customer experience
@@ -49,7 +55,7 @@ After importing a feed file, or after receiving entity updates via API or mbox, 
 
 * If an item was previously excluded but should now be included, the item will be included on the next algorithm run (12-24 hours).
 
-  This situation occurs because [!DNL Target] applies exclusions both online and offline. When an item is newly excluded, the online exclusion applies quickly. When an item is newly included, the online exclusion goes away quickly but the offline exclusion doesn't go away until the next algorithm run.
+  This situation occurs because [!DNL Target] applies exclusions both online and offline. When an item is newly excluded, the online exclusion applies quickly. When an item is newly included, the online exclusion goes away quickly but the offline exclusion does not go away until the next algorithm run.
 
 * If an item was previously included but should now be excluded, the item is excluded per the "Item attributes updated..." time line discussed above depending on feed source (15 minutes via mbox/API or 12-24 hours via feed).
 
@@ -71,7 +77,7 @@ The following changes are not reflected until the next algorithm run occurs (wit
 * A change to other criteria settings might not be reflected until the next algorithm run:
 
   * Some criteria settings (for example, "addition of a dynamic inclusion rule") are reflected instantly.
-  * Other criteria settings (for example "removal of a dynamic inclusion rule", change of lookback window, and so forth) can't be incorporated until the next algorithm run.
+  * Other criteria settings (for example "removal of a dynamic inclusion rule", change of lookback window, and so forth) cannot be incorporated until the next algorithm run.
   * Algorithm runs are triggered by these changes but can take up to 24 hours to be completed. Algorithms also run on a scheduled basis every 12-24 hours.
 
 ## How long does it take for a user's behavior (for example, clicking product A and buying product B) to be reflected in the recommendations *that* user receives?
@@ -98,11 +104,11 @@ names.push("$escaper.escapeJavaScript($entity4.name)")
 </script>
 ```
 
-## Why aren't all criteria, including custom criteria, available for selection when creating a Recommendations activity? {#section_B2265AC8B8A94E0298D495A05C5D817F}
+## Why are not all criteria, including custom criteria, available for selection when creating a Recommendations activity? {#section_B2265AC8B8A94E0298D495A05C5D817F}
 
 The available criteria is based on the current category. When you are creating recommendations offers, the algorithm picker displays criteria based on category Id.
 
-If the location on which you're applying this criteria doesn't contain the category Id, certain criteria is not available in the algorithm picker.
+If the location on which you are applying this criteria does not contain the category Id, certain criteria is not available in the algorithm picker.
 
 If you use a location where category Id is present in the mbox, the criteria picker contains all applicable criteria.
 
@@ -195,7 +201,7 @@ Using either method, there is no link between the mbox and the parameter. The cr
 
 If you edit an existing criteria, promotion, or template testing rule, the filtering criteria displays with the mbox name that was supplied during creation.
 
-## Why can't I save my legacy Recommendations activity after defining a new audience? {#section_1E47C40B1FE7479BAC3EE0F50CE7C2C4}
+## Why cannot I save my legacy Recommendations activity after defining a new audience? {#section_1E47C40B1FE7479BAC3EE0F50CE7C2C4}
 
 Ensure that the audience has a unique name. If you gave the audience the same name as an existing audience, you cannot save your legacy Recommendations activity (a Recommendations activity created before October 2016).
 
@@ -219,7 +225,7 @@ The exclusion is performed for the current [!DNL Target] call only; items are no
 
 >[!NOTE]
 >
->If too many entities are excluded, recommendations behave as if there aren't enough entities to fill the recommendation template.
+>If too many entities are excluded, recommendations behave as if there are not enough entities to fill the recommendation template.
 
 To exclude `entityIds`, append the `&excludes=${mbox.excludedIds}` token to the offer content url. When the content url is extracted, the required parameters are substituted using current mbox request parameters.
 
@@ -300,5 +306,4 @@ The following are known issues with [!UICONTROL Recommendations] activities:
 * When [!DNL Target] returns a JSON offer with getOffer(), it returns with type of JSON. However, if you return a JSON Recommendations design it returns with a type of HTML.
 * Expired entities are correctly expired after 60 days of receiving no updates via feed or API; however, the expired entities are not removed from the Catalog Search index after expiration. Entities deleted via feed or API are also not currently removed from the Catalog Search index. (IRI-857)
 * Recommendations Offers in A/B and Experience Targeting activities do not show a visual preview of the Recommendations tray (TGT-33426)
-* Recommendations activities created via API can be viewed in the user interface, but can only be edited via API.
 * The Custom Criteria feed status displayed in the Criteria list (card) view is refreshed every ten minutes and might be more than ten minutes out of date in rare circumstances. The status displayed in the Custom Criteria edit view is fetched in real time and is always up to date. (TGT-35896, TGT-36173)

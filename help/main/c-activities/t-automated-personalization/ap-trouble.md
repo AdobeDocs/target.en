@@ -5,10 +5,16 @@ title: How Do I Troubleshoot [!UICONTROL Automated Personalization] activities?
 badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="See what's included in Target Premium."
 feature: Automated Personalization
 exl-id: bc23e5db-5b65-44be-be45-c972287a64e7
-TQID: https://experienceleague.adobe.com/1Qevyq-TiutN1dEZnfC1DDmUgXoHIxtBl-3RMPq-m-0
+TQID: 'https://experienceleague.adobe.com/1Qevyq-TiutN1dEZnfC1DDmUgXoHIxtBl-3RMPq-m-0'
 product_v2:
   - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
     internal-label: Target
+feature_v2:
+  - id: f69bc5f1-ebdb-4306-a281-f2e77daf734c
+    internal-label: Activities and tests
+subfeature_v2:
+  - id: f0055dd2-93f3-4ac8-9abc-d69d4ed2d977
+    internal-label: Automated personalization
 topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
     internal-label: Customer experience
@@ -21,7 +27,7 @@ topic_v2:
 ---
 # Troubleshoot [!UICONTROL Automated Personalization]
 
-Sometimes activities don't go as expected. Here are some potential challenges that you might face while using [!UICONTROL Automated Personalization] (AP), and some suggested solutions.
+Sometimes activities do not go as expected. Here are some potential challenges that you might face while using [!UICONTROL Automated Personalization] (AP), and some suggested solutions.
 
 ## My [!UICONTROL Automated Personalization] activity is taking too long to build models. {#section_20028B204DBB4D77A324BA193434AEE2}
 
@@ -38,7 +44,7 @@ There are several activity setup changes that can decrease the expected time to 
 
 +++
 
-## My [!UICONTROL Automated Personalization] activity didn't generate lift. {#section_8900BC8968474438B8092F7A94C0C6CF}
+## My [!UICONTROL Automated Personalization] activity did not generate lift. {#section_8900BC8968474438B8092F7A94C0C6CF}
 
 +++See details
 

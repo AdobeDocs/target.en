@@ -4,13 +4,15 @@ description: Find FAQs about sharing metrics, audiences, and reports when using 
 title: Where Can Find FAQs Sharing Metrics, Audiences, and Reports in A4T?
 feature: Analytics for Target (A4T)
 exl-id: 59084e19-dfac-4796-a0b4-1da27ca9d43a
-TQID: https://experienceleague.adobe.com/eCcPdeeOZ2h9wDrkT-wZxN2meh5dD0QW9rNsQU1ytLA
+TQID: 'https://experienceleague.adobe.com/eCcPdeeOZ2h9wDrkT-wZxN2meh5dD0QW9rNsQU1ytLA'
 product_v2:
   - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
     internal-label: Target
 feature_v2:
   - id: adee20bd-51f4-461d-b9db-d215f8756eeb
     internal-label: Audiences
+  - id: 891742a5-242d-5099-966a-ca76c17cd2d2
+    internal-label: Analytics for Target (A4T)
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
     internal-label: Reporting

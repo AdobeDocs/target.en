@@ -1,19 +1,23 @@
 ---
 title: Request a release
 description: Learn how to request a new coordinated release in Flags and what information to provide.
+badge: label="Beta" type="Informative"
 hide: true
 exl-id: 8eee84b2-fbd5-4713-90ac-92fd7b74c163
+product_v2:
+  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+    internal-label: Target
 ---
 # Request a release {#request-a-release}
 
 ## Prerequisites {#prerequisites}
 
-* You have the **Release Manager** role — see <!-- broken link[User roles](../teams/user-roles.md) -->
+* You have the **Release Manager** role
 * Your application is onboarded — see [Onboard your application](../applications/onboard-your-application.md)
 
 >[!TIP]
 >
->Before requesting a release, review <!--[Releases and cross-team feature groups](releases-and-cross-team-feature-groups.md)-->. A cross-team feature group may meet your needs with less overhead — it is self-serve and supports richer audience targeting.
+>Before requesting a release, consider whether a cross-team feature group meets your needs with less overhead — it is self-serve and supports richer audience targeting.
 
 ## Submit a support request {#submit}
 

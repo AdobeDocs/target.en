@@ -1,20 +1,23 @@
 ---
 keywords: Target;reports;report settings;extreme orders;extreme values
-description: Learn how to exclude extreme values from affecting reports in Adobe [!DNL Target] so a few unusual orders don't affect your activity results.
+description: Learn how to exclude extreme values from affecting reports in Adobe [!DNL Target] so a few unusual orders do not affect your activity results.
 title: How Do I Exclude Extreme Values in Reports?
 feature: Reports
 exl-id: fd2d0c18-62c0-41e0-800c-b2ae123f0e74
-TQID: https://experienceleague.adobe.com/yQtG4u-sLVJ66PezWW9ZgmY8ZuK177m-hLdQq-zlmfI
+TQID: 'https://experienceleague.adobe.com/yQtG4u-sLVJ66PezWW9ZgmY8ZuK177m-hLdQq-zlmfI'
 product_v2:
   - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
     internal-label: Target
+feature_v2:
+  - id: e8a43148-398f-56c7-9433-6564f96999c2
+    internal-label: Reports
 topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
     internal-label: Customer experience
 ---
 # Exclude extreme values
 
-You can exclude extreme values from affecting reports in [!DNL Adobe Target] so a few unusual orders don't affect your activity results. An example of an unusual order might be a coach buying uniforms for an entire team instead of individual shoppers buying individual uniforms.
+You can exclude extreme values from affecting reports in [!DNL Adobe Target] so a few unusual orders do not affect your activity results. An example of an unusual order might be a coach buying uniforms for an entire team instead of individual shoppers buying individual uniforms.
 
 >[!NOTE]
 >
@@ -24,7 +27,7 @@ Extreme values are automatically flagged based on the rules described below. You
 
 A value is considered extreme if it is more than +/- 3 standard deviations from the average order value using the last month of data (up to the point in time in which the calculation was made).
 
-For example, the extreme value filter is often useful when using RPV. RPV combines conversion rate and average order value, and often exposes the volatility of those metrics. If you use RPV and determine that orders don't appear to be distributed normally, you might see more normal results if you apply the extreme order filter.
+For example, the extreme value filter is often useful when using RPV. RPV combines conversion rate and average order value, and often exposes the volatility of those metrics. If you use RPV and determine that orders do not appear to be distributed normally, you might see more normal results if you apply the extreme order filter.
 
 When a value is marked extreme, its order value is replaced with the average order value of the experience for the last month, excluding the extremes. The order is also marked as extreme in the [!UICONTROL Order Details] report and in the CSV download for daily results.
 

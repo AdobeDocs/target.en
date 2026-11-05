@@ -1,14 +1,20 @@
 ---
-keywords: creating custom criteria;algorithms;criteria;recommendations criteria;csv;ftp;upload csv
+keywords: creating custom criteria;algorithms;criteria;recommendations criteria;csv;ftp;sftp;upload csv
 description: Learn how to upload a CSV file to customize your recommendations in Adobe [!DNL Target] Recommendations.
 title: How Do I Upload Custom Criteria in [!DNL Recommendations]?
 badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="See what's included in Target Premium."
 feature: Recommendations
 exl-id: 33434121-e0ae-4b82-b1dd-78b9738026cb
-TQID: https://experienceleague.adobe.com/8gSKOQxHGB5TPe6vdhjgy5sAFxN8O7dodITo7wgrR50
+TQID: 'https://experienceleague.adobe.com/8gSKOQxHGB5TPe6vdhjgy5sAFxN8O7dodITo7wgrR50'
 product_v2:
   - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
     internal-label: Target
+feature_v2:
+  - id: f69bc5f1-ebdb-4306-a281-f2e77daf734c
+    internal-label: Activities and tests
+subfeature_v2:
+  - id: ed58f4a1-16eb-4c8c-b505-be9da766a9ec
+    internal-label: Recommendations
 topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
     internal-label: Customer experience
@@ -47,11 +53,15 @@ The following steps assume you access the [!UICONTROL Create New Criteria] scree
 
    The CSV file must be formatted correctly to upload successfully. Click **[!UICONTROL Download the CSV template]** to get a correctly formatted CSV file.
 
-   You have two location options:
+    You have three location options:
 
-   * **FTP:** To upload your CSV file from an FTP server, select **[!UICONTROL FTP]**, then enter the required information. You can use SSL, which uses the FTPS protocol to transfer your CSV file securely.
+    * **FTP:** To upload your CSV file from an FTP server, select **[!UICONTROL FTP]**, then enter the required information. You can use SSL, which uses the FTPS protocol to transfer your CSV file securely.
 
-   * **URL:** To upload your CSV file from a URL, select **[!UICONTROL URL]**, then enter a feed URL.
+    * **SFTP:** To upload your CSV file from an SFTP server, select **[!UICONTROL SFTP]**, then enter the host name or IP address, port (default 22), username, a password and/or SSH private key, directory, and filename. For details, see [Supported SFTP server settings](/help/main/c-recommendations/c-products/feeds.md#sftp-settings). 
+      
+      SFTP does not change the custom-criteria CSV format. Use the `# Key,Recommendation_1,...` format, using a different feed type's format causes the import to fail.
+
+    * **URL:** To upload your CSV file from a URL, select **[!UICONTROL URL]**, then enter a feed URL.
 
 1. Click **[!UICONTROL Create]**.
 
@@ -59,9 +69,9 @@ The following steps assume you access the [!UICONTROL Create New Criteria] scree
 
 * Custom criteria entities (rows) can contain up to 1,000 recommended items (columns).
 
-* Custom criteria updates are by default "cumulative." New key-value pairs specified in the CSV upload file overwrite existing key-value pairs. Existing key-value pairs that don't have keys specified in the CSV upload are still available for delivery and expire in 31 days from the time they are last uploaded as part of the CSV file.
+* Custom criteria updates are by default "cumulative." New key-value pairs specified in the CSV upload file overwrite existing key-value pairs. Existing key-value pairs that do not have keys specified in the CSV upload are still available for delivery and expire in 31 days from the time they are last uploaded as part of the CSV file.
 
-  Contact Client Care to enable the setting to discard the existing results that aren't included in the next CSV upload. If this setting is enabled, only the keys present in the custom CSV feed file are available for delivery. This setting applies to all custom criteria.
+  Contact Client Care to enable the setting to discard the existing results that are not included in the next CSV upload. If this setting is enabled, only the keys present in the custom CSV feed file are available for delivery. This setting applies to all custom criteria.
 
 * Custom criteria feeds update once every 24 hours.
 

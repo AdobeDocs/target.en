@@ -4,6 +4,7 @@ description: Learn how to add an offer decision created in [!DNL Adobe Journey O
 title: How Do I Use Offer Decisions?
 feature: Integrations
 exl-id: cec46d5c-bb5e-4cc9-8785-370f158d3f8e
+badge: label="Legacy" type="Informative"
 TQID: https://experienceleague.adobe.com/xEae4As4rNbPv-an3Iu8PCMzxftSAmN4iu0PEq6VDFQ
 product_v2:
   - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a

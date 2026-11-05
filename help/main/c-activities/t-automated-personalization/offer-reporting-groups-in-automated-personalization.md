@@ -5,13 +5,15 @@ title: Can I Use Offer Reporting Groups in [!UICONTROL Automated Personalization
 badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="See what's included in Target Premium."
 feature: Reports
 exl-id: 9058a6c5-c651-480f-9b23-d0782a13b042
-TQID: https://experienceleague.adobe.com/VW3zVGXb3IuQMDaRyidbkjsbUrojvwFsvwP3yRVeHp4
+TQID: 'https://experienceleague.adobe.com/VW3zVGXb3IuQMDaRyidbkjsbUrojvwFsvwP3yRVeHp4'
 product_v2:
   - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
     internal-label: Target
 feature_v2:
   - id: adee20bd-51f4-461d-b9db-d215f8756eeb
     internal-label: Audiences
+  - id: e8a43148-398f-56c7-9433-6564f96999c2
+    internal-label: Reports
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
     internal-label: Reporting
@@ -31,7 +33,7 @@ Reporting groups perform two key functions:
 
 When you use reporting groups, [!DNL Target] creates one personalization model for each reporting group using the data from all offers in that group. Without reporting groups, [!DNL Target] creates a personalization model for each offer in your AP activity.
 
-If your activity setup doesn't have enough data for a personalization model to be built per offer, reporting groups help reduce the data requirements to use [!UICONTROL Automated Personalization]. Reporting groups can also help solve the "cold start" problem for new offers by grouping similar offers so that each model gets more data to train on. Modeling groups can also be used for activities where new offers are introduced regularly to your AP activity.
+If your activity setup does not have enough data for a personalization model to be built per offer, reporting groups help reduce the data requirements to use [!UICONTROL Automated Personalization]. Reporting groups can also help solve the "cold start" problem for new offers by grouping similar offers so that each model gets more data to train on. Modeling groups can also be used for activities where new offers are introduced regularly to your AP activity.
 
 This approach works well if visitors respond the same way to all offers in a group. Best practice is to group offers that similar groups of visitors respond to in a similar way. In order words, group offers with similar conversion rates. You should never put all offers into a single reporting group. Grouping all offers or grouping offers with different conversion rates likely reduces the effectiveness of the [!DNL Target] personalization models.
 
@@ -65,7 +67,7 @@ For information about targeting an offer to specific audiences, see [Target [!UI
 
   For example, an activity might have several locations and several offers, which might overlap. If a visitor sees more than one of these offers in different locations, [!DNL Target] records data for those offers only. If the same visitor later clicks an offer, [!DNL Target] records an event from that combination only (not for all combinations).
 
-  Similarly, if the click comes from a different location, which is present in a metric, but doesn't display an offer, this event is logged under the activity, but not for any offer+location combination. As a result, this offer does not appear in the offer reporting group.
+  Similarly, if the click comes from a different location, which is present in a metric, but does not display an offer, this event is logged under the activity, but not for any offer+location combination. As a result, this offer does not appear in the offer reporting group.
 
   This behavior is because the click might be made from a different mbox and not the mbox that served the offer. Because of this, the metric is associated with the activity, but not with the offer. 
 

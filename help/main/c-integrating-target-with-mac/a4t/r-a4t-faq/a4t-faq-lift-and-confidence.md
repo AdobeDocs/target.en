@@ -4,10 +4,13 @@ description: Find answers to questions about lift and confidence when using Anal
 title: Where Can I Find Information about Lift And Confidence with A4T?
 feature: Analytics for Target (A4T)
 exl-id: 42fd179b-944a-4a0a-b299-85ea4a7ea244
-TQID: https://experienceleague.adobe.com/QirHdzsM8SfNeGdQPEPM51KUqD5TDFUQmaB4th4-htY
+TQID: 'https://experienceleague.adobe.com/QirHdzsM8SfNeGdQPEPM51KUqD5TDFUQmaB4th4-htY'
 product_v2:
   - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
     internal-label: Target
+feature_v2:
+  - id: 891742a5-242d-5099-966a-ca76c17cd2d2
+    internal-label: Analytics for Target (A4T)
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
     internal-label: Reporting
@@ -41,7 +44,7 @@ The confidence level is a probability, expressed as a percentage, that is equal 
 
 +++
 
-## Why can't I see lift and confidence on calculated metrics? {#lift-confidence}
+## Why cannot I see lift and confidence on calculated metrics? {#lift-confidence}
 
 +++Answer
 Calculated metrics are not currently supported in lift and confidence functions. Analytics calculates metrics at an aggregate-level, rather than at a visitor-level. Confidence, in particular, is a visitor-level calculation. 
@@ -62,7 +65,7 @@ Examples of unsupported metrics or use cases include:
 
 +++
 
-## Do lift and confidence work in Ad Hoc and Report Builder? If it's not native, can I do it in there myself? {#section_D8BB69AE700B4C5CB5FD28DB51F9A4E9}
+## Do lift and confidence work in Ad Hoc and Report Builder? If it is not native, can I do it in there myself? {#section_D8BB69AE700B4C5CB5FD28DB51F9A4E9}
 
 +++Answer
 Lift and confidence do not work in Ad Hoc or Report Builder, and cannot be calculated yourself for continuous variables. It is possible to calculate it manually for binary metrics.

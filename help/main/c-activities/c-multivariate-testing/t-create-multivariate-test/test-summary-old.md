@@ -4,6 +4,12 @@ description: View a [!UICONTROL Multivariate Test] (MVT) activity's summary that
 title: How Can I View a [!UICONTROL Multivariate Test] (MVT) Activity's Summary?
 feature: Multivariate Tests
 exl-id: 8fcbd296-a1a9-42a1-ae46-edc861fc036a
+product_v2:
+  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+    internal-label: Target
+feature_v2:
+  - id: b934e7cf-c07f-5a64-924b-3c9da8413e3d
+    internal-label: Multivariate Tests
 ---
 # Test summary ([!UICONTROL Multivariate Test])
 

@@ -1,24 +1,25 @@
 ---
 title: Web applications
 description: Learn how to integrate Flags into a web application using the web SDK.
+badge: label="Beta" type="Informative"
 hide: true
 exl-id: 9b5d744a-263d-4b10-8745-2891f111519f
+product_v2:
+  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+    internal-label: Target
 ---
 # Web applications {#web-applications}
 
 Web applications integrate with Flags via the web SDK.
 
->[!NOTE]
->
->Web SDK documentation is currently being prepared and will be available soon. Contact your Adobe representative for early access guidance.
+## Integration guide {#integration-steps}
 
-## Integration steps {#integration-steps}
+Follow the guide for web:
 
-For a complete walkthrough of the integration process, see [Integration steps](integration-steps.md).
+* [Web extension integration guide](../sdk-releases/web/web-extension-integration-guide.md)
 
 ## See also {#see-also}
 
-* [Integration steps](integration-steps.md)
 * [Startup guide](startup-guide.md)
 
 <!-- -->

@@ -5,6 +5,15 @@ title: How Do I Base the Recommendation on a Recommendation Key?
 feature: Recommendations
 mini-toc-levels: 2
 exl-id: 49764f18-88fb-41be-b2a0-e7ced9de742c
+product_v2:
+  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+    internal-label: Target
+feature_v2:
+  - id: f69bc5f1-ebdb-4306-a281-f2e77daf734c
+    internal-label: Activities and tests
+subfeature_v2:
+  - id: ed58f4a1-16eb-4c8c-b505-be9da766a9ec
+    internal-label: Recommendations
 ---
 # Base the recommendation on a recommendation key
 
@@ -38,11 +47,11 @@ Cart-based recommendation logic is similar to the "[!UICONTROL Recommended For Y
 
 * **[!UICONTROL Single Session]**: Based on what other visitors did within a single session.
 
-  Looking at behavior within a single session might make sense when there's a sense that products strongly "go with" each other based on a usage, occasion, or event. For example, a visitor is buying a printer and might also need ink and paper. Or, a visitor is buying peanut butter and might also need bread and jelly.
+  Looking at behavior within a single session might make sense when there is a sense that products strongly "go with" each other based on a usage, occasion, or event. For example, a visitor is buying a printer and might also need ink and paper. Or, a visitor is buying peanut butter and might also need bread and jelly.
 
 * **[!UICONTROL Across Sessions]**: Based on what other visitors did across multiple sessions.
 
-  Looking at behavior across multiple sessions might make sense when there's a sense that products strongly "go with" each other based on visitor preference or taste. For example, a visitor likes Star Wars and might also like Indiana Jones, even if the visitor doesn't necessarily want to watch both movies in the same sitting. Or, a visitor likes the board game "Codenames" and might also like the board game "Avalon," even if the visitor cannot play both games simultaneously. 
+  Looking at behavior across multiple sessions might make sense when there is a sense that products strongly "go with" each other based on visitor preference or taste. For example, a visitor likes Star Wars and might also like Indiana Jones, even if the visitor does not necessarily want to watch both movies in the same sitting. Or, a visitor likes the board game "Codenames" and might also like the board game "Avalon," even if the visitor cannot play both games simultaneously. 
 
 [!DNL Target] makes recommendations for each visitor based on the items in their current cart, regardless whether you look at visitor behavior within a single session or across multiple sessions.
 
@@ -166,7 +175,7 @@ You then select which profile attributes stored in the visitor's profile to matc
 
 ### Top by Analytics Metric
 
-Displays the "Top x" where *x* is an arbitrary [!DNL Analytics] metric. When using behavioral data from mboxes, you can use Top Sold or Top Viewed (x = "Sold" or x = "Viewed"). If you're using behavioral data from [!DNL Adobe Analytics], you could use  x = "Cart Adds" or some other [!DNL Analytics] metric.
+Displays the "Top x" where *x* is an arbitrary [!DNL Analytics] metric. When using behavioral data from mboxes, you can use Top Sold or Top Viewed (x = "Sold" or x = "Viewed"). If you are using behavioral data from [!DNL Adobe Analytics], you could use  x = "Cart Adds" or some other [!DNL Analytics] metric.
 
 ## [!UICONTROL Item-Based]
 
@@ -275,7 +284,7 @@ Both views and purchases are used to determine the recommended items. The specif
 
 For example, you can:
 
-* Exclude items that don't meet certain criteria (products out of stock, articles published more than 30 days ago, movies rated R, and so forth).
+* Exclude items that do not meet certain criteria (products out of stock, articles published more than 30 days ago, movies rated R, and so forth).
 * Limit included items to a single category or to the current category.
 
 If you select this algorithm, you can select the following Filtering Keys:
@@ -306,7 +315,7 @@ With the addition of inclusion rules on Custom criteria, this turns otherwise st
 
 Possible use-cases include:
 
-* You want to recommend movies from a custom-curated list, but only if the visitor hasn't already watched them.
+* You want to recommend movies from a custom-curated list, but only if the visitor has not already watched them.
 * You want to run an offline algorithm and use the results to power your recommendations, but you must ensure that out-of-stock items are never recommended.
 * You want to include only items that are from this visitor's favorite category.
 
@@ -359,7 +368,7 @@ You can base recommendations on the value of a custom profile attribute. For exa
 
    ![Create new criteria dialog box](/help/main/c-recommendations/c-algorithms/assets/create-new-criteria-1.png)
 
-If your custom profile attribute doesn't directly match to a single entity ID, it is necessary to explain to [!DNL Recommendations] how you want the match to an entity to occur. For example, suppose that you want to display the top selling items from a visitor's favorite brand.
+If your custom profile attribute does not directly match to a single entity ID, it is necessary to explain to [!DNL Recommendations] how you want the match to an entity to occur. For example, suppose that you want to display the top selling items from a visitor's favorite brand.
 
 1. Select your custom profile attribute from the **[!UICONTROL Recommendation Key]** drop-down list (for example, "Favorite Brand").
 
@@ -367,7 +376,7 @@ If your custom profile attribute doesn't directly match to a single entity ID, i
 
    The [!UICONTROL Group By Unique Value Of] option displays. 
 
-1. Select the entity attribute that matches to the key you've chosen. In this case "Favorite Brand" matches to `entity.brand`.
+1. Select the entity attribute that matches to the key you have chosen. In this case "Favorite Brand" matches to `entity.brand`.
 
    [!DNL Recommendations] now produces a "Top Sellers" list for each brand and shows the visitor the appropriate "Top Sellers" list based on the value stored in the visitor's Favorite Brand profile attribute.
 

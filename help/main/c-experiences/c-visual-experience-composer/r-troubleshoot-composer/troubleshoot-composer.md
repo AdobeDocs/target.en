@@ -4,13 +4,15 @@ description: Learn how to troubleshoot problems that sometimes occur in the Visu
 title: How Do I Troubleshoot the Visual Experience Composer and Enhanced Experience Composer?
 feature: Visual Experience Composer (VEC)
 exl-id: a971627c-662e-487b-bf0c-f73d196e3e71
-TQID: https://experienceleague.adobe.com/Dlh0ovXPkgDgeMvcWi2GChACuDmYWKuFRH7Kx4VPrYw
+TQID: 'https://experienceleague.adobe.com/Dlh0ovXPkgDgeMvcWi2GChACuDmYWKuFRH7Kx4VPrYw'
 product_v2:
   - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
     internal-label: Target
 feature_v2:
   - id: c93393a4-e558-47e1-992e-c91ed4d480ce
     internal-label: Implementation
+  - id: f7501c88-b36a-590b-9cc4-dea607bda94b
+    internal-label: Visual Experience Composer (VEC)
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
     internal-label: Implementation

@@ -4,13 +4,15 @@ description: Learn how to use a [!UICONTROL Multivariate Test] (MVT) in [!DNL Ad
 title: What is a [!UICONTROL Multivariate Test]?
 feature: Multivariate Tests
 exl-id: c8b60011-cb3a-4e28-b84f-06910687b14b
-TQID: https://experienceleague.adobe.com/JKmjIHJuRxAXlhvUOrrmLMVLnJFhA3T4xkahgH-ozHE
+TQID: 'https://experienceleague.adobe.com/JKmjIHJuRxAXlhvUOrrmLMVLnJFhA3T4xkahgH-ozHE'
 product_v2:
   - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
     internal-label: Target
 feature_v2:
   - id: c93393a4-e558-47e1-992e-c91ed4d480ce
     internal-label: Implementation
+  - id: b934e7cf-c07f-5a64-924b-3c9da8413e3d
+    internal-label: Multivariate Tests
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
     internal-label: Implementation
@@ -35,7 +37,7 @@ In [!DNL Target], each combination is one experience. The [!UICONTROL Multivaria
 
 Because of the number of combinations that can be generated, a [!UICONTROL Multivariate Test] requires more time and traffic than an A/B test. The page must receive enough traffic to produce statistically significant results for each experience. To obtain useful results, you must understand the amount of traffic your page receives and test the optimal number of combinations for the right amount of time to get the required results. 
 
-Target's [Traffic Estimator](/help/main/c-activities/c-multivariate-testing/t-create-multivariate-test/traffic-estimator.md#task_71AA6922AFD447EA8C5E610A78ABA714) can help you design a test that works with your traffic. Before you use the Traffic Estimator, you should have good statistics showing the number of impressions and conversions your site normally receives. Consider your traffic levels per day. The more experiences in an activity, the more traffic the activity must include or the longer your activity must run. If your amount of traffic isn't high, you should test a few combinations; otherwise, the amount of time required to produce meaningful test results might be too long to be useful.
+Target's [Traffic Estimator](/help/main/c-activities/c-multivariate-testing/t-create-multivariate-test/traffic-estimator.md#task_71AA6922AFD447EA8C5E610A78ABA714) can help you design a test that works with your traffic. Before you use the Traffic Estimator, you should have good statistics showing the number of impressions and conversions your site normally receives. Consider your traffic levels per day. The more experiences in an activity, the more traffic the activity must include or the longer your activity must run. If your amount of traffic is not high, you should test a few combinations; otherwise, the amount of time required to produce meaningful test results might be too long to be useful.
 
 ## MVT terminology {#section_DF475CA7F34B4CFDB7BE7363761D64AE}
 
@@ -61,13 +63,13 @@ Multivariate tests can be used together with A/B tests to optimize your page. Ex
 
 * Use an MVT test to determine which element is the most important, then follow up with a more focused A/B test on that element.
 
-  When the number of different experiences exceeds five and spans two or more elements, it's a good idea to consider an MVT test before running your A/B tests. The MVT test shows which areas on the page are most likely to improve conversion. These are the elements that a marketer should focus on. For example, the MVT test might show that the call to action is the most important element for meeting your goals. Once you have determined which elements and content are most useful for helping you meet your goals, you can run an A/B test to further refine the results. For example, you could test two specific images against each other, or compare the wording or colors of a call to action. By following an MVT test with one or more A/B tests, you can determine the best possible content for the results you desire.
+  When the number of different experiences exceeds five and spans two or more elements, it is a good idea to consider an MVT test before running your A/B tests. The MVT test shows which areas on the page are most likely to improve conversion. These are the elements that a marketer should focus on. For example, the MVT test might show that the call to action is the most important element for meeting your goals. Once you have determined which elements and content are most useful for helping you meet your goals, you can run an A/B test to further refine the results. For example, you could test two specific images against each other, or compare the wording or colors of a call to action. By following an MVT test with one or more A/B tests, you can determine the best possible content for the results you desire.
 
 ## Considerations {#section_979FE3F398654C1EA1C86E7DBC9A8DAD}
 
 * Use an MVT test when you have at least three elements to test. If you have fewer, run a series of A/B tests. 
 * Select the page elements that you believe have the strongest impact on the results. 
-* Don't include too many elements or locations in a test. The larger the number, the longer the test duration. 
+* Do not include too many elements or locations in a test. The larger the number, the longer the test duration. 
 * Plan the test design in advance. Do not edit a test after it goes live and data starts being collected and analyzed. 
 * Elements should be independent of each other.
 

@@ -4,20 +4,22 @@ description: Learn about the different ways that you can edit an existing activi
 title: How Do I Edit an Activity?
 feature: Activities
 exl-id: 5f2a930a-9950-430e-a898-50af1f917ec1
-TQID: https://experienceleague.adobe.com/joqYeCK6Zy6Xz27eRKodA4M1kfPMi-AJu84wNXsGgQA
+TQID: 'https://experienceleague.adobe.com/joqYeCK6Zy6Xz27eRKodA4M1kfPMi-AJu84wNXsGgQA'
 product_v2:
   - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
     internal-label: Target
 feature_v2:
   - id: adee20bd-51f4-461d-b9db-d215f8756eeb
     internal-label: Audiences
+  - id: 6efa6b7a-8062-5c41-aef4-b4853cc306ae
+    internal-label: Activities
 topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
     internal-label: Customer experience
 ---
 # Edit an activity
 
-Learn how to edit existing activities in [!DNL Adobe Target]. This article covers the different methods available in the [!DNL Target] interface for modifying activities. Whether you're updating experiences, adjusting targeting rules, or configuring goals, [!DNL Target] ensures that your changes are saved safely before activation.
+Learn how to edit existing activities in [!DNL Adobe Target]. This article covers the different methods available in the [!DNL Target] interface for modifying activities. Whether you are updating experiences, adjusting targeting rules, or configuring goals, [!DNL Target] ensures that your changes are saved safely before activation.
 
 [!DNL Target] provides various places in the UI where you can edit existing activities. The process varies depending on the method that you choose.
 

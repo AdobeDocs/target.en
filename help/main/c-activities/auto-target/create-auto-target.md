@@ -5,13 +5,18 @@ title: How Do I Create an [!UICONTROL Auto-Target] Activity?
 badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="See what's included in Target Premium."
 feature: Auto-Target
 exl-id: 5521740c-eee2-4ba2-8931-cf56d56a4561
-TQID: https://experienceleague.adobe.com/qbt-h-4C4uVz6r6xmwKmSeU-RuBdWikmtDQq40dBq9k
+TQID: 'https://experienceleague.adobe.com/qbt-h-4C4uVz6r6xmwKmSeU-RuBdWikmtDQq40dBq9k'
 product_v2:
   - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
     internal-label: Target
 feature_v2:
   - id: adee20bd-51f4-461d-b9db-d215f8756eeb
     internal-label: Audiences
+  - id: f69bc5f1-ebdb-4306-a281-f2e77daf734c
+    internal-label: Activities and tests
+subfeature_v2:
+  - id: db15a02f-03cd-46fe-a53e-02064cdeadfa
+    internal-label: Auto target
 topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
     internal-label: Customer experience
@@ -86,7 +91,7 @@ To create an [!UICONTROL Auto-Target] activity:
    
 1. Create new experiences by changing the elements on the page.
 
-   The [!UICONTROL Visual Experience Composer] displays two tabs on the left side after you create a new activity: [!UICONTROL Experience A] and [!UICONTROL Experience B]. [!UICONTROL Experience A] is the control experience. Your focus is on the [!UICONTROL Experience B] tab, which you can modify as desired. [!UICONTROL Experience B] is the alternate experience that you can add to your test. You can add multiple experiences to the test by clicking the [!UICONTROL Add] icon ( ![Add icon](/help/main/assets/icons/Add.svg) ) at the top of the [!UICONTROL Experiences] pane. You can also delete Experience A from the activity if you don't want to include a default site experience as an option.
+   The [!UICONTROL Visual Experience Composer] displays two tabs on the left side after you create a new activity: [!UICONTROL Experience A] and [!UICONTROL Experience B]. [!UICONTROL Experience A] is the control experience. Your focus is on the [!UICONTROL Experience B] tab, which you can modify as desired. [!UICONTROL Experience B] is the alternate experience that you can add to your test. You can add multiple experiences to the test by clicking the [!UICONTROL Add] icon ( ![Add icon](/help/main/assets/icons/Add.svg) ) at the top of the [!UICONTROL Experiences] pane. You can also delete Experience A from the activity if you do not want to include a default site experience as an option.
 
    For more information about adding and modifying experiences in the [!UICONTROL Visual Experience Composer], see [Add Experience](/help/main/c-activities/t-test-ab/t-test-create-ab/ab-add-experience.md#task_454646F2895242D3B92DC395A0CE1A00). To modify Experience B, start with Step 2. 
 

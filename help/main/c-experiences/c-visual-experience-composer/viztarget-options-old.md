@@ -4,6 +4,12 @@ description: Explore the options available in the [!DNL Adobe Target] [!UICONTRO
 title: How Do I Use the [!UICONTROL Visual Experience Composer] (VEC) Options?
 feature: Visual Experience Composer (VEC)
 exl-id: 50993d6c-5025-488a-8b33-9ed7c142de6e
+product_v2:
+  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+    internal-label: Target
+feature_v2:
+  - id: f7501c88-b36a-590b-9cc4-dea607bda94b
+    internal-label: Visual Experience Composer (VEC)
 ---
 # Visual Experience Composer options
 

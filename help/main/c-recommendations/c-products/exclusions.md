@@ -4,10 +4,16 @@ description: Learn how to create exclusions in [!DNL Target Recommendations] to 
 title: How Do I Use Exclusions in [!UICONTROL Recommendations] Activities?
 feature: Recommendations
 exl-id: e41487c7-6d47-4958-8e4b-616a2ad56b3c
-TQID: https://experienceleague.adobe.com/6-PWkqq5eXAwyLcGGbSqSZmFdJa85yU3x7FPNEt8-2o
+TQID: 'https://experienceleague.adobe.com/6-PWkqq5eXAwyLcGGbSqSZmFdJa85yU3x7FPNEt8-2o'
 product_v2:
   - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
     internal-label: Target
+feature_v2:
+  - id: f69bc5f1-ebdb-4306-a281-f2e77daf734c
+    internal-label: Activities and tests
+subfeature_v2:
+  - id: ed58f4a1-16eb-4c8c-b505-be9da766a9ec
+    internal-label: Recommendations
 topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
     internal-label: Metadata
@@ -26,7 +32,7 @@ Some examples of times you would use exclusions include:
 * The Fall and Winter catalog is now the only catalog that should be present online. Any item from the Summer catalog is no longer available for purchase.
 * Items that might be inappropriate to recommend on most pages or screens (adult products, NC-17 movies, and so forth).
 * Products with incomplete metadata fields (missing thumbnail, price, or other important metadata).
-* Products that should never be recommended (maybe a SKU exists in the system for something but it isn't a purchasable item. Or maybe it is a fake SKU for the QA team to simulate a purchase without actually ordering something, and so forth).
+* Products that should never be recommended (maybe a SKU exists in the system for something but it is not a purchasable item. Or maybe it is a fake SKU for the QA team to simulate a purchase without actually ordering something, and so forth).
 
 >[!IMPORTANT]
 >

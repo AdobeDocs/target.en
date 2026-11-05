@@ -4,10 +4,13 @@ description: Learn how to improve performance, avoid issues, and correct known i
 title: What Best Practices for a [!UICONTROL Multivariate Test] activity?
 feature: Multivariate Tests
 exl-id: bcd15517-1b5f-4425-9404-1d7dd0689e28
-TQID: https://experienceleague.adobe.com/nQEf5GZ8-zVZakygPtMAYWk-xoJPdcycFbzCNKTqJ-k
+TQID: 'https://experienceleague.adobe.com/nQEf5GZ8-zVZakygPtMAYWk-xoJPdcycFbzCNKTqJ-k'
 product_v2:
   - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
     internal-label: Target
+feature_v2:
+  - id: b934e7cf-c07f-5a64-924b-3c9da8413e3d
+    internal-label: Multivariate Tests
 topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
     internal-label: Customer experience
@@ -27,7 +30,7 @@ Tips to help you improve performance, avoid issues, and correct known issues tha
 
 ## Create {#section_C59C722CA82E48ABA58A4A7FA758F193}
 
-* Don't include more combinations than necessary for the test.
+* Do not include more combinations than necessary for the test.
 
   Every combination tested significantly increases the amount of traffic and time required to achieve acceptable results. For example, if you have three locations with three offers each, there are 27 possible combinations (3x3x3). Three locations, where two locations contain three possible offers and one location has two offers, provide 18 options (3x3x2). The numbers increase substantially with each additional location and offer. 
 

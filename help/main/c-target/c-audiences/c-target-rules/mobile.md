@@ -32,7 +32,7 @@ Mobile targeting is delivered by [DeviceAtlas](https://deviceatlas.com/device-da
 
 Device detection is accomplished by analyzing User-Agent strings. Some device manufacturers, such as Apple, disable this functionality by not providing enough information in the UA.
 
-For example, Apple devices don't share device model-specific tokens in the UA. The result is that it is not possible to detect iPhone models (such as iPhone 12 Pro, iPhone 12, iPhone 11 Pro Max, and so forth) using a simple keyword-based method.
+For example, Apple devices do not share device model-specific tokens in the UA. The result is that it is not possible to detect iPhone models (such as iPhone 12 Pro, iPhone 12, iPhone 11 Pro Max, and so forth) using a simple keyword-based method.
 
 To solve this issue, [!DNL Target] collects additional data to accurately detect iPhones and other Apple devices using the following parameters:
 
@@ -89,6 +89,14 @@ The iOS 12.2 (or later) update does not affect the identification of the followi
 ### Targeting devices running Safari 14.0.2 (or later)
 
 When using mobile rules to target devices running Safari version 14.0.2 (or later) on macOS, due to a known issue involving Apple's user agents and DeviceAtlas, [!DNL Target] incorrectly identifies Safari on Mac and iPad devices. This issue will be addressed in the future.
+
+### Custom scripts that overwrite the user agent {#custom-scripts-overwrite-user-agent}
+
+Since mobile device targeting relies on the User-Agent string, any custom script on your page that modifies `navigator.userAgent` before [!DNL Target] reads it can cause device targeting to fail.
+
+If your website has a custom script that listens for all events instead of the specific event it needs, it could unintentionally intercept a [!DNL Web SDK] event and overwrite `navigator.userAgent`. As a result, [!DNL Target] receives incorrect device information instead of the visitor's actual device, and the expected experience is not delivered.
+
+If mobile device targeting is not behaving as expected, check whether any custom scripts or event listeners on the page modify `navigator.userAgent`, and scope those listeners as narrowly as possible so they do not unintentionally intercept [!DNL Target] or Web SDK events.
 
 ## Training video: Creating Audiences
 

@@ -4,10 +4,16 @@ description: Learn how to preview your Adobe [!DNL Target] Recommendations activ
 title: How Do I Preview and Launch a Recommendations Activity?
 feature: Recommendations
 exl-id: 60391778-4d48-4c41-a7c5-fedcfabf2530
-TQID: https://experienceleague.adobe.com/21swhpZie0QN09m0LB7VwVO-9U6GWxQ0kbthPlnns18
+TQID: 'https://experienceleague.adobe.com/21swhpZie0QN09m0LB7VwVO-9U6GWxQ0kbthPlnns18'
 product_v2:
   - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
     internal-label: Target
+feature_v2:
+  - id: f69bc5f1-ebdb-4306-a281-f2e77daf734c
+    internal-label: Activities and tests
+subfeature_v2:
+  - id: ed58f4a1-16eb-4c8c-b505-be9da766a9ec
+    internal-label: Recommendations
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
     internal-label: Reporting
@@ -18,7 +24,7 @@ topic_v2:
 ---
 # Preview and launch your Recommendations activity
 
-After you've created your [!UICONTROL Recommendations], [!UICONTROL A/B Test], or [!UICONTROL Experience Targeting] (XT) activity containing [Recommendations offers](/help/main/c-recommendations/recommendations-as-an-offer.md), you'll want to preview your recommendations to ensure that results are available before launching the activity. [!DNL Target Recommendations] offers multiple ways to preview your recommendations.
+After you have created your [!UICONTROL Recommendations], [!UICONTROL A/B Test], or [!UICONTROL Experience Targeting] (XT) activity containing [Recommendations offers](/help/main/c-recommendations/recommendations-as-an-offer.md), you will want to preview your recommendations to ensure that results are available before launching the activity. [!DNL Target Recommendations] offers multiple ways to preview your recommendations.
 
 ## Checking Recommendations algorithm status
 
@@ -72,7 +78,7 @@ Using a QA link allows you to preview the recommendations on your page:
 
 >[!NOTE]
 >
->* Target QA mode is "sticky" and saved in a cookie. If you do not exit QA mode, you'll keep seeing the QA results throughout the site. To exit QA mode, use the [bookmarklet](/help/main/c-activities/c-activity-qa/activity-qa-bookmark.md).
+>* Target QA mode is "sticky" and saved in a cookie. If you do not exit QA mode, you will keep seeing the QA results throughout the site. To exit QA mode, use the [bookmarklet](/help/main/c-activities/c-activity-qa/activity-qa-bookmark.md).
 >
 >* While in QA mode, browsing the site will not affect your profile's [!UICONTROL Recently Viewed Items] or [!UICONTROL Recently Purchased Items]. This behavior occurs by design to avoid unintentional pollution of production behavioral data. To preview results from a [!UICONTROL Recently Viewed Items] or [!UICONTROL User-Based Recommendations] criteria, first browse the site outside of QA mode, then use the same session to open a QA mode link.
 

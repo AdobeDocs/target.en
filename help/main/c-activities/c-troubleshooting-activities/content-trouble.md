@@ -4,13 +4,15 @@ description: Find suggestions to help remedy issues if your page does not displa
 title: How Can I Troubleshoot Content Delivery?
 feature: Activities
 exl-id: 887b7956-1d61-439a-8339-c150deb9a378
-TQID: https://experienceleague.adobe.com/nkaoqcuoqMm67AnEjSg6dCnFDy-jvlwvD1a6YeXTkwk
+TQID: 'https://experienceleague.adobe.com/nkaoqcuoqMm67AnEjSg6dCnFDy-jvlwvD1a6YeXTkwk'
 product_v2:
   - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
     internal-label: Target
 feature_v2:
   - id: c93393a4-e558-47e1-992e-c91ed4d480ce
     internal-label: Implementation
+  - id: 6efa6b7a-8062-5c41-aef4-b4853cc306ae
+    internal-label: Activities
 subfeature_v2:
   - id: fd0ff162-b6d3-4a11-8aeb-e165a01c0f0a
     internal-label: at.js
@@ -132,7 +134,7 @@ For more detailed information, see [Debug at.js using the Adobe Experience Cloud
 
 ## Top sellers are not appearing in Recommendations {#section_3920C857270A406C80BE6CBAC8221ECD}
 
-The *`SiteCatalyst: purchase`* call can't be used for Purchase algorithm traffic data. Use the *`orderConfirmPage`* call instead.
+The *`SiteCatalyst: purchase`* call cannot be used for Purchase algorithm traffic data. Use the *`orderConfirmPage`* call instead.
 
 ## Check activity priority {#section_3D0DD07240F0465BAF655D0804100AED}
 

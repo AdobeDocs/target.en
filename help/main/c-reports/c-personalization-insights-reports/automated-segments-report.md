@@ -5,7 +5,7 @@ title: What Is the Automated Segments Report?
 badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="See what's included in Target Premium."
 feature: Reports
 exl-id: d21517b7-770b-4618-9899-7ac4948c2a8b
-TQID: https://experienceleague.adobe.com/ZC68Nd--YErTUrEfPs3GOVUsG03-QiTjos81TPRr2Yg
+TQID: 'https://experienceleague.adobe.com/ZC68Nd--YErTUrEfPs3GOVUsG03-QiTjos81TPRr2Yg'
 product_v2:
   - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
     internal-label: Target
@@ -14,6 +14,8 @@ feature_v2:
     internal-label: Audiences
   - id: c93393a4-e558-47e1-992e-c91ed4d480ce
     internal-label: Implementation
+  - id: e8a43148-398f-56c7-9433-6564f96999c2
+    internal-label: Reports
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
     internal-label: Reporting
@@ -62,13 +64,13 @@ Different visitors respond differently to the offers/experiences in your AP/AT a
 
    >[!IMPORTANT]
    >
-   >The [!UICONTROL Automated Segments] report won't be available until at least 15 days after you've activated your activity. During this initial period, you won't be able to access this report or click the [!UICONTROL Automated Segments] icon. After 15 days have passed, assuming there is sufficient personalized traffic in your activity, the [!UICONTROL Automated Segments] report will be available.
+   >The [!UICONTROL Automated Segments] report will not be available until at least 15 days after you have activated your activity. During this initial period, you will not be able to access this report or click the [!UICONTROL Automated Segments] icon. After 15 days have passed, assuming there is sufficient personalized traffic in your activity, the [!UICONTROL Automated Segments] report will be available.
 
 1. After 15 days from activating the activity, you can click the **[!UICONTROL Automated Segments]** icon.
 
 1. Select the desired date range.
 
-   Unlike the [!UICONTROL Summary] report (performance reporting), [!UICONTROL Personalization Insights], including [!UICONTROL Automated Segments], is available only for fixed date ranges: 15 days, 30 days, and 60 days. These fixed date ranges allow [!UICONTROL Personalization Insights] to use a large enough range of data to reduce the likelihood that you derive insights from a short-lived pattern in your activity. The two decisions you can make for your date range is the "End Date" and the "Duration." You'll notice that the "Start" is grayed out. The start date automatically changes based on your selections for the end date and duration.
+   Unlike the [!UICONTROL Summary] report (performance reporting), [!UICONTROL Personalization Insights], including [!UICONTROL Automated Segments], is available only for fixed date ranges: 15 days, 30 days, and 60 days. These fixed date ranges allow [!UICONTROL Personalization Insights] to use a large enough range of data to reduce the likelihood that you derive insights from a short-lived pattern in your activity. The two decisions you can make for your date range is the "End Date" and the "Duration." You will notice that the "Start" is grayed out. The start date automatically changes based on your selections for the end date and duration.
 
    You can access the available fixed date ranges from the [!UICONTROL Preset Date Range] drop-down list.
 
@@ -86,9 +88,9 @@ The following table explains how to interpret the report and describes its eleme
 
 | Element | Details |
 |--- |--- |
-|Left-hand side panel|The left-hand side panel lists the 20 largest "automated segments" identified by Target's personalization models for this activity. An "automated segment" is like an audience, but it is defined by Target's personalization models instead of by the marketer. Each automated segment is made up of specific values (or value ranges) of specific attributes.<br>Automated segments can overlap. Automated segments can be defined by one, two, three, or four attributes. See the examples below for more details.<br>To learn more about Target's personalization models, see [Random Forest Algorithm](/help/main/c-activities/t-automated-personalization/algo-random-forest.md). To learn more about the attributes Target's personalization models use to create the automated segments, see [Data Collection for Target's Personalization Algorithms](/help/main/c-activities/t-automated-personalization/ap-data.md).|
+|Left-hand side panel|The left-hand side panel lists up to 100 of the largest "automated segments" identified by Target's personalization models for this activity. An "automated segment" is like an audience, but it is defined by Target's personalization models instead of by the marketer. Each automated segment is made up of specific values (or value ranges) of specific attributes.<br>Automated segments can overlap. Automated segments can be defined by one, two, three, or four attributes. See the examples below for more details.<br>To learn more about Target's personalization models, see [Random Forest Algorithm](/help/main/c-activities/t-automated-personalization/algo-random-forest.md). To learn more about the attributes Target's personalization models use to create the automated segments, see [Data Collection for Target's Personalization Algorithms](/help/main/c-activities/t-automated-personalization/ap-data.md).|
 |Center graph|The center graphs display how your activity's content performed for the highlighted automated segment. As you click different segments on the left-hand panel, the center graphs update.|
-|Pie charts|The pie charts at the top of the center panel show the size of the automated segment, as well as the total number of personalized visits in the activity (for example, traffic to this activity that was served by the personalization model. It does not include control traffic or traffic served by the overall winner model). The size of the segment is based only on personalized visits.<br>![Pie chart](/help/main/c-reports/assets/pie.png)|
+|Pie charts|The pie charts at the top of the center panel show the size of the automated segment, as well as the total number of personalized visits in the activity. Personalized visits include only traffic for which Target's personalization model selected the offer or experience. They exclude control traffic, traffic served by the overall winner model, and random traffic used to continue training the models. The size of the segment is based only on personalized visits.<br>![Pie chart](/help/main/c-reports/assets/pie.png)|
 |Dual-axis bar chart|The dual-axis bar chart includes visit and conversion information by the offer or experience for that specific automated segment.|
 |Pink bar|The pink bar represents the conversion rate, and uses the bottom axis of the graph. You can hover over the bar for more information|
 |Blue bar|The blue bar represents the number of visits, and uses the top axis of the graph. You can hover over the bar for more information.|
@@ -112,7 +114,7 @@ This automated segment is defined based on two attributes. Visitors included in 
 
 There are several reasons why the [!UICONTROL Personalization Insights] reports are not yet available for your activity:
 
-* 15 days have not passed since you activated the activity. Automated Segments and Important Attributes reports won't be available until at least 15 days after you've started your activity. During this initial period, you won't be able to access these reports or click the Automated Segments and Important Attributes icons. 
+* 15 days have not passed since you activated the activity. Automated Segments and Important Attributes reports will not be available until at least 15 days after you have started your activity. During this initial period, you will not be able to access these reports or click the Automated Segments and Important Attributes icons. 
 * Your activity has not had sufficient traffic during the specified time frame. After 15 days have passed, assuming there is sufficient personalized traffic in your activity to build the personalization models, Automated Segments and Important Attributes reports will be available. 
 * Your activity has a revenue optimization goal. Currently, [!UICONTROL Personalization Insights] is available only for conversion optimization goal activities. Adobe will be adding support for revenue optimization goal activities in a future release.
 
@@ -134,9 +136,14 @@ To learn more about the random forest personalization algorithm, which is the ba
 
 A score is computed for each segment, based on its size and how differently it performed to the content in your activity. The combination of these inputs determines the order of the automated segments such that larger segments with larger differences in how they responded to the different content will appear closer to the top of the segment list.
 
+**Why do all cards in a multi-card AP experience show the same conversion rate when using "Any Card Clicked"?**
+
+In [!UICONTROL Automated Personalization], optimization and reporting are evaluated at the experience level, not at the individual card or component level. The [!UICONTROL Any Card Clicked] success metric records one conversion when a visitor clicks at least one card in the experience.
+Since the click is attributed to the experience as a whole, all cards in that experience can display the same conversion counts and conversion rates in reports, including [!UICONTROL Automated Segments]. This behavior is expected and reflects how [!UICONTROL Automated Personalization] optimizes combinations of content rather than individual cards.
+
 **Why are only some of my offers / experiences showing up in the Automated Segments report?**
 
-AP and AT activities build one model per offer (in the case of AP) and one model per experience (in the case of AT). These activities start serving personalized traffic and create your [!UICONTROL Personalization Insights] with as little as two models built. If you don't see all of your offers / experiences in [!UICONTROL Personalization Insights], it is likely you don't have models built for those specific offers/ experiences. You can check your activity's [!UICONTROL Summary] report and see if there is a clock icon beside that offer / experience. This icon indicates that models aren't built yet for that offer / experience.
+AP and AT activities build one model per offer (in the case of AP) and one model per experience (in the case of AT). These activities start serving personalized traffic and create your [!UICONTROL Personalization Insights] with as little as two models built. If you do not see all of your offers / experiences in [!UICONTROL Personalization Insights], it is likely you do not have models built for those specific offers/ experiences. You can check your activity's [!UICONTROL Summary] report and see if there is a clock icon beside that offer / experience. This icon indicates that models are not built yet for that offer / experience.
 
 **Why are some offers / experiences with a lower conversion rate receiving a larger amount of traffic compared to other offers / experiences for a certain automated segment?**
 
@@ -182,4 +189,4 @@ At this time, [!UICONTROL Personalization Insights] is available only for conver
 
 **Is there any logic to the order that attributes appear in a segment card?**
 
-No, the order of the cards is based only on a ranking described above. The order of the attributes within a card isn't based on any logic.
+No, the order of the cards is based only on a ranking described above. The order of the attributes within a card is not based on any logic.

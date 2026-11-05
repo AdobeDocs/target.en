@@ -4,7 +4,7 @@ description: Keep up to date with important additions and changes to the [!DNL T
 title: Where Can I See Documentation Updates for [!DNL Target]?
 feature: Release Notes
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
-TQID: https://experienceleague.adobe.com/8EcK9hck9HDIrY94Pr7bmoGIWNz54B-odkfHlQwpuv4
+TQID: 'https://experienceleague.adobe.com/8EcK9hck9HDIrY94Pr7bmoGIWNz54B-odkfHlQwpuv4'
 product_v2:
   - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
     internal-label: Target
@@ -13,9 +13,13 @@ feature_v2:
     internal-label: Audiences
   - id: c93393a4-e558-47e1-992e-c91ed4d480ce
     internal-label: Implementation
+  - id: dfc8a233-f2b5-4811-bf63-b4262aebc5a5
+    internal-label: Administration and configuration
 subfeature_v2:
   - id: fd0ff162-b6d3-4a11-8aeb-e165a01c0f0a
     internal-label: at.js
+  - id: c5abb976-5170-45d6-bcac-66d15d10a4d4
+    internal-label: Release notes
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
     internal-label: Reporting
@@ -42,6 +46,13 @@ This page lists significant changes made to the [!DNL Adobe Target] product docu
 
 ## Updates
 
+### [!DNL Target Standard/Premium] 26.6.5 (June 17, 2026)
+
+|Date|Topic|Changes|
+|--- |--- |--- |
+|June 18|[[!DNL Adobe Target] MCP server tools reference](/help/main/c-integrating-target-with-mac/mcp/target-mcp-tools-reference.md)|Updated to reflect activity tool consolidation: replaced six per-type tools (`get_ab_activity`, `get_xt_activity`, `get_abt_activity`, `update_ab_activity`, `update_xt_activity`, `update_abt_activity`) and four per-type report tools with four unified tools (`get_activity`, `update_activity`, `get_activity_performance_report`, `get_activity_orders_report`). Updated `list_target_activities` and `update_activity_schedule` to list all six supported activity types. Added scope note clarifying that `update_activity` supports A/B Test, Experience Targeting, and Automated Personalization activities; Auto-Allocate, Multivariate Test, and Recommendations activities are read-only.|
+||[[!DNL Target] release notes (current)](/help/main/r-release-notes/release-notes.md)|Added release notes for the [!DNL Adobe Target] MCP server activity tool consolidation.|
+
 ### [!DNL Target Standard/Premium] 26.5.1 (May 7, 2026)
 
 |Date|Topic|Changes|
@@ -52,7 +63,6 @@ This page lists significant changes made to the [!DNL Adobe Target] product docu
 ||[Get started with the [!DNL Adobe Target] MCP server](/help/main/c-integrating-target-with-mac/mcp/target-mcp-get-started.md)|New article. Learn how to connect the [!DNL Adobe Target] MCP server to your AI assistant, including prerequisites, client configuration, and troubleshooting.|
 ||[[!DNL Adobe Target] MCP server — use cases and walkthroughs](/help/main/c-integrating-target-with-mac/mcp/target-mcp-use-cases.md)|New article. Explore common use cases and step-by-step prompt walkthroughs for the [!DNL Adobe Target] MCP server.|
 ||[[!DNL Adobe Target] MCP server tools reference](/help/main/c-integrating-target-with-mac/mcp/target-mcp-tools-reference.md)|New article. Complete parameter reference for all read-only tools exposed by the [!DNL Adobe Target] MCP server.|
-||[Self-host the [!DNL Adobe Target] MCP server](/help/main/c-integrating-target-with-mac/mcp/target-mcp-self-hosted.md)|New article. Learn how to run your own instance of the [!DNL Adobe Target] MCP server using Python, Docker, or a local development environment.|
 |May 7|[[!DNL Target] release notes (current)](/help/main/r-release-notes/release-notes.md)|Added release notes for the [!DNL Target Standard/Premium] 26.5.1 release.|
 
 ### [!DNL Target Standard/Premium] 26.1.1 (January 18, 2026)
@@ -150,7 +160,7 @@ This page lists significant changes made to the [!DNL Adobe Target] product docu
 ||[Adobe Target cookies](https://experienceleague.adobe.com/en/docs/core-services/interface/data-collection/cookies/target){target=_blank}|Updated text to add that the `sessionId` cannot include curly braces ( {} ).<P>Text now reads: The session ID can be any printable string except a space, question mark ( ? ), curly braces ( { } ), or a forward slash ( / ). It should be between 1 and 128 characters in length.|
 ||[Adobe Target Delivery API](https://developer.adobe.com/target/implement/delivery-api/){target=_blank}|Updated text to add that the `sessionId` cannot include curly braces ( {} ).<P> Text now reads: The session ID can be any printable string except a space, question mark ( ? ), curly braces ( { } ), or a forward slash ( / ). It should be between 1 and 128 characters in length.|
 |June 12|[[!DNL Target] release notes (current)](/help/main/r-release-notes/release-notes.md)|Added release notes for the [!DNL Target Standard/Premium] 25.6.2 release.|
-||[[!DNL Target] UI update FAQs](/help/main/c-intro/updated-ui-faq.md)|New article.<P>This FAQ addresses common questions about the new [!DNL Target] UI and [!UICONTROL Visual Experience Composer] (VEC), including navigation changes, feature locations, and the deprecation of the temporary UI version toggle. Whether you're a marketer, developer, or admin, this FAQ helps you transition smoothly and make the most of the updated UI.|
+||[[!DNL Target] UI update FAQs](/help/main/c-intro/updated-ui-faq.md)|New article.<P>This FAQ addresses common questions about the new [!DNL Target] UI and [!UICONTROL Visual Experience Composer] (VEC), including navigation changes, feature locations, and the deprecation of the temporary UI version toggle. Whether you are a marketer, developer, or admin, this FAQ helps you transition smoothly and make the most of the updated UI.|
 |June 6|[[!DNL Target] release notes (current)](/help/main/r-release-notes/release-notes.md)|Added release notes for the [!DNL Target Standard/Premium] 25.6.1 release.|
 
 ### [!DNL Target Standard/Premium] 25.5.1 (May 5, 2025)

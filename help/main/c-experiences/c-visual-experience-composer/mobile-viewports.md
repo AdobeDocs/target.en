@@ -4,10 +4,13 @@ description: Mobile viewports help you see how your Adobe [!DNL Target] activiti
 title: How Do I Use Mobile Viewports for Responsive Experiences?
 feature: Visual Experience Composer (VEC)
 exl-id: 1062e7a1-10b4-4746-bce9-67017978578d
-TQID: https://experienceleague.adobe.com/uBJtaoaCh28mRGwc-SlK-XhU6sOIK3RaT58-ZXxSsHw
+TQID: 'https://experienceleague.adobe.com/uBJtaoaCh28mRGwc-SlK-XhU6sOIK3RaT58-ZXxSsHw'
 product_v2:
   - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
     internal-label: Target
+feature_v2:
+  - id: f7501c88-b36a-590b-9cc4-dea607bda94b
+    internal-label: Visual Experience Composer (VEC)
 topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
     internal-label: Customer experience
@@ -84,7 +87,7 @@ Below are the viewports and resolutions for popular devices. Remember to use the
 |  Samsung Galaxy Tab 10  | 800 x 1280  | 800 x 1280  |
 |  Chromebook Pixel  | 1280 x 850  | 2560 x 1700  |
 
-To deliver an activity to visitors on a particular device, choose the appropriate audience for that device in the activity diagram. Use the Mobile Web Composer to edit the page in the activity for that device. To run an activity across your entire digital experience to ensure it looks good across all devices, don't apply targeting. Instead, use mobile viewports to preview the activity on each screen size.
+To deliver an activity to visitors on a particular device, choose the appropriate audience for that device in the activity diagram. Use the Mobile Web Composer to edit the page in the activity for that device. To run an activity across your entire digital experience to ensure it looks good across all devices, do not apply targeting. Instead, use mobile viewports to preview the activity on each screen size.
 
 For responsive sites, typically your site is designed to open in a different view when accessed by a device with a specific screen size. Those screen sizes that trigger the new views are known as CSS breakpoints. CSS breakpoints are points where website content responds depending on device width to display the optimal layout to visitors. CSS breakpoints are also called [media queries](https://developer.mozilla.org/en-US/docs/Web/CSS/Media_Queries/Using_media_queries). 
 
@@ -94,7 +97,7 @@ If your site is not responsive, use the Mobile Web Composer to view a site if yo
 
 >[!IMPORTANT]
 >
->You can edit an experience from within mobile viewports. However, these changes apply to all viewports and devices, not just the viewport that you're working in. Similarly, editing an experience in the normal desktop view changes the page for all screen sizes, not just the desktop view. Currently, [!DNL Target] does not support viewport-specific page changes.
+>You can edit an experience from within mobile viewports. However, these changes apply to all viewports and devices, not just the viewport that you are working in. Similarly, editing an experience in the normal desktop view changes the page for all screen sizes, not just the desktop view. Currently, [!DNL Target] does not support viewport-specific page changes.
 
 ## Mobile viewport configuration {#task_B4B161499DC0470584ED922A4D20FCAB}
 

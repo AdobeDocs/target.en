@@ -5,10 +5,16 @@ title: How Do I Create Criteria Sequences in Recommendations?
 badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="See what's included in Target Premium."
 feature: Recommendations
 exl-id: 5366c86c-7685-478b-a621-9b3f24296ab7
-TQID: https://experienceleague.adobe.com/dxO5cKxesTxgzZyfcvydQUlSq4TAgFN0ztT5VIe1WKU
+TQID: 'https://experienceleague.adobe.com/dxO5cKxesTxgzZyfcvydQUlSq4TAgFN0ztT5VIe1WKU'
 product_v2:
   - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
     internal-label: Target
+feature_v2:
+  - id: f69bc5f1-ebdb-4306-a281-f2e77daf734c
+    internal-label: Activities and tests
+subfeature_v2:
+  - id: ed58f4a1-16eb-4c8c-b505-be9da766a9ec
+    internal-label: Recommendations
 topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
     internal-label: Customer experience
@@ -23,7 +29,7 @@ Use sequences of up to five criteria to exercise greater control of the items th
 
 To create a criteria sequence, you must first create the criteria you want to include in the sequence. See [Create criteria](/help/main/c-recommendations/c-algorithms/create-new-algorithm.md) for more information.
 
-By using a criteria sequence, you can provide additional targeted recommendations, instead of using more generic backup recommendations, when a criteria doesn't return enough results to fill your design. Typically, a criteria sequence proceeds from more specific targeting, which might return fewer results, to more general targeting, which usually returns more results.
+By using a criteria sequence, you can provide additional targeted recommendations, instead of using more generic backup recommendations, when a criteria does not return enough results to fill your design. Typically, a criteria sequence proceeds from more specific targeting, which might return fewer results, to more general targeting, which usually returns more results.
 
 Your criteria sequences might vary in order depending on the page type, as shown in the following examples:
 

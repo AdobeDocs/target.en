@@ -4,13 +4,15 @@ description: Learn how to troubleshoot problems in the [!UICONTROL Visual Experi
 title: How Do I Troubleshoot Issues Related to the [!UICONTROL Visual Experience Composer]?
 feature: Visual Experience Composer (VEC)
 exl-id: ca251025-25e8-4e56-9b59-81310fc763c1
-TQID: https://experienceleague.adobe.com/VNkydzzU-WRRAL0pqQPOs-sKrY8a6DS5Go764UGh0Hs
+TQID: 'https://experienceleague.adobe.com/VNkydzzU-WRRAL0pqQPOs-sKrY8a6DS5Go764UGh0Hs'
 product_v2:
   - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
     internal-label: Target
 feature_v2:
   - id: c93393a4-e558-47e1-992e-c91ed4d480ce
     internal-label: Implementation
+  - id: f7501c88-b36a-590b-9cc4-dea607bda94b
+    internal-label: Visual Experience Composer (VEC)
 subfeature_v2:
   - id: fd0ff162-b6d3-4a11-8aeb-e165a01c0f0a
     internal-label: at.js
@@ -41,14 +43,14 @@ To avoid this problem, ensure that you do not trim or remove these two parameter
 
 +++
 
-## My page won't open in the EEC, or loads slowly. Activities or experiences load slowly in the VEC. (VEC only) {#section_71E7601BE9894E3DA3A7FBBB72B6B0C1}
+## My page will not open in the EEC, or loads slowly. Activities or experiences load slowly in the VEC. (VEC only) {#section_71E7601BE9894E3DA3A7FBBB72B6B0C1}
 
 +++Details
 Several issues can affect page performance in the [!UICONTROL Target] experience composers. Some common issues include:
 
 * You do not have an mbox on the page. 
 * Your site uses proxy blocking, which does not allow the page to be opened in either experience composer. 
-* Your site doesn't allow itself to be opened in an iFrame.
+* Your site does not allow itself to be opened in an iFrame.
 
 If issues occur in the [!UICONTROL Enhanced Experience Composer], try turning off the [!UICONTROL Enhanced Experience Composer] and use the [!UICONTROL Visual Experience Composer] instead.
 
@@ -74,7 +76,7 @@ If neither the [!UICONTROL Visual Experience Composer] nor the [!UICONTROL Enhan
 >
 >* Enable the rule when you are editing in the VEC and disable the rule when you are not using the VEC.
 >
->For the [!UICONTROL Modify Response Header] extension ([!DNL Firefox]), because you can't add a URL rule, you must do the following:
+>For the [!UICONTROL Modify Response Header] extension ([!DNL Firefox]), because you cannot add a URL rule, you must do the following:
 >
 >* Enable the rule when you are editing in the VEC and disable the rule when you are not using the VEC.
 

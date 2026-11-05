@@ -4,13 +4,15 @@ description: Learn how to configure report settings in Adobe Target, including m
 title: How Do I Configure Report Settings?
 feature: Reports
 exl-id: 337579d1-c678-43b6-9e80-b5abe159c2d3
-TQID: https://experienceleague.adobe.com/Nz7EFST7BeVE2FqfFkbWnp-hRJug7HPlOodak73H-Uo
+TQID: 'https://experienceleague.adobe.com/Nz7EFST7BeVE2FqfFkbWnp-hRJug7HPlOodak73H-Uo'
 product_v2:
   - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
     internal-label: Target
 feature_v2:
   - id: adee20bd-51f4-461d-b9db-d215f8756eeb
     internal-label: Audiences
+  - id: e8a43148-398f-56c7-9433-6564f96999c2
+    internal-label: Reports
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
     internal-label: Reporting
@@ -260,8 +262,8 @@ If you hover over any of the greyed experiences, a new grey plot line correspond
 
 The graph displays the lines for the first 16 experiences (some overlap, so it appears that there are fewer than 16 lines). The colored dot in the Experiences pane on the left side next to each experience name indicate that the experience's plot line displays in the corresponding color.
 
-If you scroll down in the Experiences pane, you'll notice that the names for the 17th through 26th experiences are greyed out, as shown in the following illustration:
+If you scroll down in the Experiences pane, you will notice that the names for the 17th through 26th experiences are greyed out, as shown in the following illustration:
 
 If you hover over one of the greyed experiences, a new grey plot line corresponding to that experience temporarily displays in the graph.
 
-Suppose you want to display the plot line for Experience R and you don't want to see the line for Experience P. You can click Experience P's name to deselect it and then click Experience R's name to select it, as shown below:
+Suppose you want to display the plot line for Experience R and you do not want to see the line for Experience P. You can click Experience P's name to deselect it and then click Experience R's name to select it, as shown below:

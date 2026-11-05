@@ -4,13 +4,15 @@ description: Prevent content delivery collisions on the same page by configuring
 title: How Can I Avoid Activity Collisions?
 feature: Visual Experience Composer (VEC)
 exl-id: 1af90dd1-69c9-41ec-8785-095dcc557b32
-TQID: https://experienceleague.adobe.com/R6cwp4KnoYPO9Wxr47HswtBX6jKPJ0i-UGdtA1ZHawU
+TQID: 'https://experienceleague.adobe.com/R6cwp4KnoYPO9Wxr47HswtBX6jKPJ0i-UGdtA1ZHawU'
 product_v2:
   - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
     internal-label: Target
 feature_v2:
   - id: adee20bd-51f4-461d-b9db-d215f8756eeb
     internal-label: Audiences
+  - id: f7501c88-b36a-590b-9cc4-dea607bda94b
+    internal-label: Visual Experience Composer (VEC)
 topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
     internal-label: Customer experience
@@ -36,4 +38,4 @@ The [!UICONTROL Collisions] list shows every [!DNL Target] scenario where the mb
 
 The list shows the status and priority of each potential collision, along with other information. You can use the status and priority to help you determine the likelihood of a collision occurring. Consider two activities that might collide. If one activity is not currently active, a collision cannot occur. A collision is only possible if the inactive activity becomes active. If the potential collision is between two live activities with the same priority and the same audience, a collision occurs. You can change the priority or status to prevent the collision.
 
-If the audiences are different, there is still a potential collision because it's possible a particular visitor could belong to multiple audiences.
+If the audiences are different, there is still a potential collision because it is possible a particular visitor could belong to multiple audiences.

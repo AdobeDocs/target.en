@@ -4,6 +4,12 @@ description: Find answers to questions about inflated visit and visitor counts w
 title: Where Can I Find FAQs About Inflated Visit and Visitor Counts with A4T?
 feature: Analytics for Target (A4T)
 exl-id: e936b1f6-dc72-4ab2-9bb5-169d1710edbe
+product_v2:
+  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+    internal-label: Target
+feature_v2:
+  - id: 891742a5-242d-5099-966a-ca76c17cd2d2
+    internal-label: Analytics for Target (A4T)
 ---
 # Inflated visit and visitor counts - A4T FAQ
 

@@ -1,13 +1,19 @@
 ---
 keywords: welcome kit;target welcome kit;intro;introduction;getting started
-description: Learn from others' mistakes so that you don't make the same ones when using Adobe [!DNL Target] as part of your testing and personalization strategy.
+description: Learn from others' mistakes so that you do not make the same ones when using Adobe [!DNL Target] as part of your testing and personalization strategy.
 title: What are Common Mistakes When Using [!DNL Target] and How Can I Avoid Them?
 feature: Overview
 exl-id: 17f379bd-81d7-4f4e-b08d-aee42fe5e81f
-TQID: https://experienceleague.adobe.com/AKPsKnKLbro9zbfYTwUXvSq9MJ0ObQoWWHkPH6PYGos
+TQID: 'https://experienceleague.adobe.com/AKPsKnKLbro9zbfYTwUXvSq9MJ0ObQoWWHkPH6PYGos'
 product_v2:
   - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
     internal-label: Target
+feature_v2:
+  - id: dfc8a233-f2b5-4811-bf63-b4262aebc5a5
+    internal-label: Administration and configuration
+subfeature_v2:
+  - id: fc9c2184-9102-403f-bd6c-0055021e4bea
+    internal-label: Overview
 topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
     internal-label: Customer experience
@@ -33,7 +39,7 @@ The good thing about starting your optimization and personalization program now 
 |Failing to align activities with business objectives.|Increase focus on the prioritization methodology and communicate that methodology to internal stakeholders.|
 |Having little or no testing backlog.|Engage with internal stakeholders and allow them to submit tests that are aligned with key business goals.|
 |Extending activity launches past deadlines|Improve documentation for activities and include specific details about the test setup.|
-|Selecting activity success metrics data that don't help with decision making.|Document all primary test metrics and include additional metrics to gain additional insights.|
+|Selecting activity success metrics data that do not help with decision making.|Document all primary test metrics and include additional metrics to gain additional insights.|
 |Making changes during the test that could impact results.|Maintain a calendar of upcoming promotions and site changes. Clearly communicate [!DNL Target] activity launches to avoid conflicts.|
 |Changing test experiences or criteria close to an activity launch.|Request sign-off from key stakeholders early in the test activity process.|
 |Concluding an activity before the results are statistically significant.|Verify test duration using the [!DNL Adobe Target] [Sample Size Calculator](/help/main/c-activities/t-test-ab/sample-size-determination.md#section_6B8725BD704C4AFE939EF2A6B6E834E6).|
