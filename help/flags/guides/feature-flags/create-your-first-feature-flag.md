@@ -29,8 +29,8 @@ To create a new feature flag, follow these steps in the console:
 
    | Field | Description |
    | --- | --- |
-   | **Name** | A display label for the feature flag. Not used in code. |
-   | **Key** * | The identifier used in your code to evaluate the flag. Cannot be changed after creation. |
+   | **Name** | A display label for the feature flag. Not used in code. The **Name** is a display label only and is not used in code; the two are independent (the Name is not converted into the Key).|
+   | **Key** * | The identifier used in your code to evaluate the flag. Cannot be changed after creation. The **Key** is the identifier used in your code and cannot be changed after creation. Keys **cannot contain spaces** and are **case-sensitive**, entering a space in the Key field produces the error: _"Invalid value for feature key."_|
    | **Description** | Optional description for documentation purposes. |
    | **Metadata** | Optional. Up to 1,024 characters. Use this field for any additional metadata to associate with the flag. |
    | **Tags** | Optional tags for documentation purposes. |
@@ -41,7 +41,9 @@ To create a new feature flag, follow these steps in the console:
 
 >[!IMPORTANT]
 >
->The **Key** is the identifier used in your code and cannot be changed after creation. Keys **cannot contain spaces** and are **case-sensitive**. The **Name** is a display label only and is not used in code; the two are independent (the Name is not converted into the Key). Entering a space in the Key field produces the error: _"Invalid value for feature key."_
+>The identity you select here must match the identity your app passes to the SDK when it fetches feature flags. If the two do not match, the SDK cannot find the expected identity and falls back to a temporary, randomly generated ID to assign a variant. Flag evaluation continues to work, no error is shown, and users still receive a variant.
+>
+>However, with a temporary ID, a user can receive a different variant each time the app restarts, and the same person is not guaranteed a consistent variant across devices.
 
 1. Optionally add an audience criteria (see Step 2).
 1. Save your feature flag settings.
