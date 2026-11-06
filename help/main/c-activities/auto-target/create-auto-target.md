@@ -65,29 +65,7 @@ To create an [!UICONTROL Auto-Target] activity:
 
 1. Click the **[!UICONTROL Rename]** icon ( ![Rename icon](/help/main/assets/icons/MoreSmallListVert.svg) ), click **[!UICONTROL Rename]**, specify a name for the activity, then click **[!UICONTROL Save]**.
 
-   The activity name cannot begin with any of the following characters:
-
-   | Character | Description |
-   |--- |--- |
-   |`=`|Equals to|
-   |`+`|Plus|
-   |`-`|Minus|
-   |`@`|At sign|
-
-   The activity name cannot contain any of the following character sequences:
-
-   | Character Sequence | Description |
-   |--- |--- |
-   |;=|Semicolon, Equals to|
-   |;+|Semicolon, Plus|
-   |;-|Semicolon, Minus|
-   |;@|Semicolon, At sign|
-   |,=|Comma, Equals to|
-   |,+|Comma, Plus|
-   |,-|Comma, Minus|
-   |,@|Comma, At sign|
-   |`[`"|Open square bracket, Double quotation marks|
-   |"`]`|Double quotation marks, Close square bracket|
+   {{activity-name-rules}}
    
 1. Create new experiences by changing the elements on the page.
 

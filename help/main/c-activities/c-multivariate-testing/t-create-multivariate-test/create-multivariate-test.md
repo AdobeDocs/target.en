@@ -47,29 +47,7 @@ The [!UICONTROL Multivariate Test] (MVT) takes a page-first report. In other wor
 
 1. To name the activity, click the **[!UICONTROL Edit]** icon ( ![Edit icon](/help/main/assets/icons/Edit.svg) ) next to "[!UICONTROL Untitled Activity]," specify a descriptive name for the activity, and then click **[!UICONTROL Save]**.
 
-   The activity name cannot begin with any of the following characters:
-
-   | Character | Description |
-   |--- |--- |
-   |`=`|Equals to|
-   |`+`|Plus|
-   |`-`|Minus|
-   |`@`|At sign|
-
-   The activity name cannot contain any of the following character sequences:
-
-   | Character Sequence | Description |
-   |--- |--- |
-   |;=|Semicolon, Equals to|
-   |;+|Semicolon, Plus|
-   |;-|Semicolon, Minus|
-   |;@|Semicolon, At sign|
-   |,=|Comma, Equals to|
-   |,+|Comma, Plus|
-   |,-|Comma, Minus|
-   |,@|Comma, At sign|
-   |`[`"|Open square bracket, Double quotation marks|
-   |"`]`|Double quotation marks, Close square bracket|
+   {{activity-name-rules}}
 
 1. [Create the offers in each location](/help/main/c-activities/c-multivariate-testing/t-create-multivariate-test/add-offers.md#concept_DCE6B45C30F7419B8EC17AFDEE8D8AA6).
 

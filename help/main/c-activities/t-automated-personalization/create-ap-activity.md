@@ -73,29 +73,7 @@ Define the pool of content variations that [!UICONTROL Automated Personalization
  
 1. To name the activity, click the **[!UICONTROL Edit]** icon ( ![Edit icon](/help/main/assets/icons/Edit.svg) ) next to "[!UICONTROL Untitled Activity]," specify a descriptive name for the activity, and then click **[!UICONTROL Save]**.
 
-   The activity name cannot begin with any of the following characters:
-
-   | Character | Description |
-   |--- |--- |
-   |`=`|Equals to|
-   |`+`|Plus|
-   |`-`|Minus|
-   |`@`|At sign|
-
-   The activity name cannot contain any of the following character sequences:
-
-   | Character Sequence | Description |
-   |--- |--- |
-   |;=|Semicolon, Equals to|
-   |;+|Semicolon, Plus|
-   |;-|Semicolon, Minus|
-   |;@|Semicolon, At sign|
-   |,=|Comma, Equals to|
-   |,+|Comma, Plus|
-   |,-|Comma, Minus|
-   |,@|Comma, At sign|
-   |`[`"|Open square bracket, Double quotation marks|
-   |"`]`|Double quotation marks, Close square bracket|
+   {{activity-name-rules}}
 
 1. Modify page elements as explained in [Visual Experience Composer options](/help/main/c-experiences/c-visual-experience-composer/viztarget-options.md).
 
@@ -170,7 +148,7 @@ Tell [!DNL Target] what success looks like. The optimization goal you choose is 
 
    | Setting | Description |
    |--- |--- |
-   |[!UICONTROL Name]|Name the activity. Give the activity a name that is descriptive enough that team members can recognize it in the [!UICONTROL Activities] list. Consult the table above to see which characters are not allowed in an activity name.|
+   |[!UICONTROL Name]|Name the activity. Give the activity a name that is descriptive enough that team members can recognize it in the [!UICONTROL Activities] list. Follow the activity name rules described in [Step 1: Build experiences](#build-experiences).|
    |[!UICONTROL Objective]|(Optional) Type the objective of the test. The objective helps you remember the purpose of the activity.|
    |[!UICONTROL Priority]|Depending on your settings, the [!DNL Target] UI and options for [!UICONTROL Priority] vary. You can use the legacy settings of [!UICONTROL Low], [!UICONTROL Medium], or [!UICONTROL High], or you can enable fine-grained priorities from 0 to 999.<P>The priority is used if multiple activities are assigned to the same location with the same audience. If two or more activities are assigned to the location, the activity with the highest priority displays.<P>If this option is not enabled in [!UICONTROL Administration] > [!UICONTROL Reporting] (the default), specify a priority: [!UICONTROL Low], [!UICONTROL Medium], or [!UICONTROL High].<P>To enable fine-grained priorities, click [!UICONTROL Administration] > [!UICONTROL Reporting], then toggle the [!UICONTROL Enable Fine-Grained Priorities] option to the "On" position.<P>If this option is enabled, specify a value from 0 through 999:<ul><li>0 = Low</li><li>999 = High</li></ul>For activities created in previous versions of [!DNL Target Standard/Premium], [!UICONTROL Low] priority is converted to 0, [!UICONTROL Medium] priority is converted to 5, and [!UICONTROL High] priority is converted to 10. You can adjust these values as necessary.<P>**Note**: Before you can disable this option after using fine-grained priories, all priorities must be set back to 0, 5, and 10.|
    |[!UICONTROL Duration]|Set the start and end dates for the activity. You can select [!UICONTROL When Activated] or you can specify a specific date and time.|
