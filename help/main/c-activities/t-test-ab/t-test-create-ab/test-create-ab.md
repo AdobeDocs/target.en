@@ -108,7 +108,7 @@ To create a manual [!UICONTROL A/B Test] activity:
 
    +++ Steps to select a different audience
 
-   {{audience-selection-steps}}
+   {{$include /help/_includes/audience-selection-steps.md}}
 
    +++
 
