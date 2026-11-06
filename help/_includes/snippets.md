@@ -29,5 +29,23 @@
 >* [[!UICONTROL Visual Experience Composer] options](/help/main/c-experiences/c-visual-experience-composer/viztarget-options.md): This article explains the updated VEC UI and its options.
 >
 >* [[!DNL Target] UI update FAQs](/help/main/c-intro/updated-ui-faq.md): This FAQ addresses common questions about the new [!DNL Target] UI and [!UICONTROL Visual Experience Composer] (VEC), including navigation changes, feature locations, and the deprecation of the temporary UI version toggle. Whether you are a marketer, developer, or admin, this FAQ helps you transition smoothly and make the most of the updated UI.
+## Activity name rules {#activity-name-rules}
+
+The activity name cannot begin with `=`, `+`, `-`, or `@`. The activity name also cannot contain any of the following character sequences: `;=`, `;+`, `;-`, `;@`, `,=`, `,+`, `,-`, `,@`, `["`, or `"]`.
+
+## Select an audience in the Targeting step {#audience-selection-steps}
+
+1. To change the audience, click the **[!UICONTROL Replace]** icon ( ![Replace icon](/help/main/assets/icons/Retweet.svg) ) in the right frame.
+
+1. In the **[!UICONTROL Add Audience]** dialog box, [select the desired audience](/help/main/c-activities/t-test-ab/t-test-create-ab/ab-audience.md), then click **[!UICONTROL Assign Audience]**.
+
+   To create an audience that combines several audiences, click **[!UICONTROL Combine Audiences]**. For details, see [Combine multiple audiences](/help/main/c-target/combining-multiple-audiences.md).
+
+   To create a new audience that is not already in the [!UICONTROL Audience Library], click **[!UICONTROL Create Audience]**. In the [create-audience workflow](/help/main/c-target/c-audiences/audiences.md), choose one of the following options:
+
+   * **[!UICONTROL Audience Library]**: Create an on-demand audience that is saved to the [!UICONTROL Audience Library] and can be reused in other activities.
+   * **[!UICONTROL This activity only]**: Create an [activity-specific audience](/help/main/c-target/creating-activity-only-audience.md) that is not saved to the [!UICONTROL Audience Library] and can be used in the current activity only.
+
+1. Click **[!UICONTROL Visitor Percentage]** in the right frame, then choose the percentage of qualifying visitors that you want to enter the activity.
 
 
