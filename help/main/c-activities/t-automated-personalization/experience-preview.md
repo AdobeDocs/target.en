@@ -25,7 +25,7 @@ Experience preview URLs can be generated for [!DNL Target] [!UICONTROL Automated
 
 Use experience preview URLs to share experiences with team members and to QA experiences across browsers and environments, without creating a separate QA activity. This feature is particularly useful if a site is complex, or if your security policies do not allow the site to be viewed in a simulator. 
 
-1. Create an [Automated Personalization activity](/help/main/c-activities/t-automated-personalization/create-ap-activity.md#task_8AAF837796D74CF893CA2F88BA1491C9) or click the activity to open it.
+1. Create an [Automated Personalization activity](/help/main/c-activities/t-automated-personalization/create-ap-activity.md#create-ap-activity) or click the activity to open it.
 
    The activity does not have to be live to preview an experience.
 

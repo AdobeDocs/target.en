@@ -146,8 +146,8 @@ You can consume [!UICONTROL Experience Fragments] in [!DNL Target] activities us
     * **A/B Test:** [Create an A/B Test](/help/main/c-activities/t-test-ab/t-test-create-ab/test-create-ab.md) 
     * **Auto-Allocate:** [Auto-Allocate](/help/main/c-activities/automated-traffic-allocation/automated-traffic-allocation.md#concept_A1407678796B4C569E94CBA8A9F7F5D4) 
     * **Auto-Target:** [Auto-Target](/help/main/c-activities/auto-target/auto-target-to-optimize.md)
-    * **Automated Personalization (AP):** [Creating an Automated Personalization Activity](/help/main/c-activities/t-automated-personalization/create-ap-activity.md#task_8AAF837796D74CF893CA2F88BA1491C9) 
-    * **Experience Targeting (XT):** [Create an Experience Targeting Activity](/help/main/c-activities/t-experience-target/t-xt-create/xt-create.md#task_D6B3429AC31549E1A70EDF04B3DDC765)
+    * **Automated Personalization (AP):** [Creating an Automated Personalization Activity](/help/main/c-activities/t-automated-personalization/create-ap-activity.md#create-ap-activity) 
+    * **Experience Targeting (XT):** [Create an Experience Targeting Activity](/help/main/c-activities/t-experience-target/t-xt-create/xt-create.md#create-xt-activity)
     * **Recommendations in an A/B Test or XT activity:** [Recommendations as an offer](/help/main/c-recommendations/recommendations-as-an-offer.md)   
 
    [!UICONTROL Experience Fragments] exported as JSON in [!DNL Target] cannot be used in activities created using the VEC; only HTML [!UICONTROL Experience Fragments] are supported in VEC-based activities. If you want to use JSON [!UICONTROL Experience Fragments], use them in activities created using the [Form-based experience composer](/help/main/c-experiences/form-experience-composer.md).
