@@ -30,11 +30,6 @@ topic_v2:
 
 Before performing an A/A test on your site using [!DNL Adobe Target], it is important to understand what an A/A test is, why you might want to perform an A/A test, how long you should run the test, and how to interpret the results.
 
-* [What is A/A testing?](#what-is-aa)
-* [Why run an A/A test?](#why-aa)
-* [Why identical experiences can show lift](#why-lift)
-* [Best practice](#best-practice): sample size, how long to run the test, and how to read the results
-
 ## What is A/A testing? {#what-is-aa}
 
 An A/A test differs from a standard A/B test in the way traffic is allocated and in what you want to learn:
