@@ -71,6 +71,6 @@ For more information about **[!UICONTROL Experience Targeting]**, a use-case sce
 
     ![](../../assets/create-xt-2.png)
 
-1. Create new experiences targeted to different audiences. For step-by-step instructions, see [Add experience](/help/main/c-activities/t-experience-target/t-xt-create/xt-add-experience.md).
+1. Create new experiences targeted to different audiences. For step-by-step instructions, see [Add experience](/help/main/c-activities/t-experience-target/t-xt-create/xt-add-experience.md#xt-add-experience).
 
 1. Specify the [goals and settings](/help/main/c-activities/t-test-ab/t-test-create-ab/ab-goals-and-settings.md#ab-goals-and-settings) for the activity.
