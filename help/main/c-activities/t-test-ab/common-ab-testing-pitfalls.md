@@ -71,7 +71,7 @@ In A/B testing, marketers often use 95% confidence levels. Clearly, based on the
 
 As the graph below illustrates, the more tests that you run, the more likely at least one of those tests results in a false positive. For example, if you run 10 tests using a 95% confidence level, there is approximately a 40% chance that you detect one or more false positives (given that there is no real lift: Pr(at least one false positive) = 1 - Pr(no false positives) = 1 - 0.95^10 = 40%).
 
-![pitfalls1 image](assets/pitfalls1.png)
+![Bar chart of the probability of at least one false positive: 5% for 1 test, about 40% for 10 tests, and about 64% for 20 tests, at a 95% confidence level](assets/pitfalls1.png)
 
 In a marketing organization, 95% usually constitutes a reasonable trade-off between the risk of a false positive and false negative.
 
@@ -103,7 +103,7 @@ Applying the Bonferroni correction to the example above, you would use a 5%/4 = 
 
 With multiple offer testing, marketers often declare the offer with the highest lift as the test winner, even though there is no statistically significant difference between the winner and the runner-up. This situation occurs when the difference between the alternatives is smaller than the difference between the alternatives and the control. The figure below illustrates this concept, with the black error bars representing 95% lift confidence intervals. The true lift for each offer relative to the control offer is 95% likely to be included within the confidence interval-the range shown by the error bars.
 
-![pitfalls2 image](assets/pitfalls2.png)
+![Bar chart of the lift of Offers A, B, and C with confidence intervals: the intervals of A and B overlap, the interval of C does not](assets/pitfalls2.png)
 
 Offers A and B have the highest observed lift during the test, and it would be unlikely that offer C would outperform those offers in a future test, because the confidence interval of C does not overlap with the confidence intervals of A or B. However, even though offer A has the highest observed lift during the test, it is possible that offer B could perform better in a future test because the confidence intervals overlap.
 
@@ -121,7 +121,7 @@ There are two key factors that determine the power of a test. First is the sampl
 
 Today's marketers under-power a remarkable number of tests. In other words, they use a sample size that is too small. That means that they have a slim chance of detecting true positives, even when a substantial difference in conversion rate actually exists. In fact, if you continually run underpowered tests, the number of false positives can be comparable to, or even dominate, the number of true positives. This often leads to implementing neutral changes to a site (a waste of time) or changes that actually reduce conversion rates.
 
-![pitfalls3 image](assets/pitfalls3.png)
+![Table of the four possible outcomes of a test: true positive, false positive (controlled by the significance level), false negative (controlled by the power level), and true negative](assets/pitfalls3.png)
 
 To avoid under-powering your test, consider that a typical standard for a well-powered test includes a confidence level of 95% and a statistical power of 80%. Such a test offers a 95% probability that you avoid a false positive and an 80% probability that you avoid a false negative.
 
@@ -153,7 +153,7 @@ It is tempting to stop a test if one of the offers performs better or worse than
 
 The figure below shows five offers that have the same long-term conversion rate. Offer B had a poor conversion rate for the first 2,000 visitors, and it takes a long time before the estimated conversion rate returns to the true long-term rate.
 
-![pitfalls4 image](assets/pitfalls4.png)
+![Line chart of the difference in conversion rate between five alternative offers and the control: the differences are large for the first few thousand visitors, for example minus 8 to minus 9 percent for Offer B, and converge toward zero as the number of visitors grows](assets/pitfalls4.png)
 
 This phenomenon is known as "regression to the mean," and can lead to disappointment when an offer that performed well during the initial days of a test fails to keep up this level of performance in the end. It can also lead to lost revenue when a good offer is not implemented because it happened to under-perform in the early days of a test just by chance.
 
@@ -191,7 +191,7 @@ Such offers nudge visitors to convert sooner and will be favored if the test is 
 
 The figure below shows two offers that two different visitors see at the same time on a Sunday afternoon. The consideration period for offer A is short, and the visitor converts later that day. However, offer B has a longer consideration period, and the visitor who saw offer B thinks about the offer for a while and ends up converting Monday morning. If you stop the test Sunday night, the conversion associated with offer A is counted toward offer A's conversion metric, whereas the conversion associated with offer B is not counted toward offer B's conversion metric. This puts offer B at a significant disadvantage.
 
-![pitfalls5 image](assets/pitfalls5.png)
+![Timeline from Sunday to Monday: Offer A has a short consideration period and the visitor converts on Sunday, Offer B has a longer consideration period and the visitor converts on Monday](assets/pitfalls5.png)
 
 To avoid this pitfall, allow some time for visitors who were exposed to the test offers to convert after a new entry to the test has been stopped. This step gives you a fair comparison of the offers.
 
@@ -199,11 +199,11 @@ To avoid this pitfall, allow some time for visitors who were exposed to the test
 
 Marketers might be tempted to use high-traffic and low-variance conversion metrics in the upper funnel, such as click-through rate (CTR), to reach an adequate number of test conversions faster. However, carefully consider whether CTR is an adequate proxy for the business goal that you want to attain. Offers with higher CTRs can easily lead to lower revenue. This can happen when offers attract visitors with a lower propensity to buy, or when the offer itself, for example, a discount offer-simply leads to lower revenue.
 
-![pitfalls6 image](assets/pitfalls6.png)
+![Funnel and metrics from CTR at the top to life-time profit at the bottom: higher traffic and less variance at the top, closer to business goals at the bottom](assets/pitfalls6.png)
 
 Consider the skiing offer below. It generates a higher CTR than the cycling offer, but because visitors spend more money on average when they follow the cycling offer, the expected revenue of putting the cycling offer in front of a given visitor is higher. Therefore, an A/B test with CTR as the metric would pick an offer that does not maximize revenue, which might be the fundamental business objective.
 
-![pitfalls7 image](assets/pitfalls7.png)
+![Skiing offer with a CTR of 20% and an average revenue of $50, so an expected revenue of $10, compared with a cycling offer with a CTR of 10% and an average revenue of $250, so an expected revenue of $25](assets/pitfalls7.png)
 
 To avoid this issue, monitor your business metrics carefully to identify the business impact of the offers, or better yet, use a metric that is closer to your business goal, if possible.
 
