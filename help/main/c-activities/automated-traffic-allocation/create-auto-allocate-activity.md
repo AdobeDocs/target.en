@@ -96,7 +96,7 @@ To add more experiences to the test, click the **[!UICONTROL Add]** icon ( ![Add
 
 ![](../assets/create-ab-3.png)
 
-For more information about adding and modifying experiences in the **[!UICONTROL Visual Experience Composer]**, see [Add Experience](/help/main/c-activities/t-test-ab/t-test-create-ab/ab-add-experience.md#task_454646F2895242D3B92DC395A0CE1A00).
+For more information about adding and modifying experiences in the **[!UICONTROL Visual Experience Composer]**, see [Add Experience](/help/main/c-activities/t-test-ab/t-test-create-ab/ab-add-experience.md#ab-add-experience).
 
 ## Step 2: Set targeting and traffic allocation {#set-targeting}
 
