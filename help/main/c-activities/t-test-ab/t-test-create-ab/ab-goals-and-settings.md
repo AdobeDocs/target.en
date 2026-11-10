@@ -190,7 +190,7 @@ There are three options for how the count is incremented:
 * **[!UICONTROL On Every Impression (Excluding page refreshes)]**
 * **[!UICONTROL On Every Impression]**
 
-See [Success Metrics](/help/main/c-activities/r-success-metrics/success-metrics.md#reference_D011575C85DA48E989A244593D9B9924) for more information about advanced settings.
+See [Success Metrics](/help/main/c-activities/r-success-metrics/success-metrics.md#overview) for more information about advanced settings.
 
 ## Statistical Methodology {#section_statistical-methodology}
 

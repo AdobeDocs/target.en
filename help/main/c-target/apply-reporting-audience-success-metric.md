@@ -42,7 +42,7 @@ Or, to phrase it another way, you can specify that a visitor must have reached a
 
 >[!NOTE]
 >
->[Success metrics](/help/main/c-activities/r-success-metrics/success-metrics.md#reference_D011575C85DA48E989A244593D9B9924) are available only if you have configured them for your activity. If you have not defined success metrics, you see only two options from the drop-down list: [!UICONTROL Campaign Entry] and [!UICONTROL Conversion].
+>[Success metrics](/help/main/c-activities/r-success-metrics/success-metrics.md#overview) are available only if you have configured them for your activity. If you have not defined success metrics, you see only two options from the drop-down list: [!UICONTROL Campaign Entry] and [!UICONTROL Conversion].
 
 
 ## Considerations
