@@ -33,6 +33,6 @@ Enable a feature simultaneously across multiple applications for a specific set 
 Deploy code to production ahead of time, then activate the feature at a precise moment — for example, at the start of a product launch event — without any last-minute code change.
 
 **Kill switch**
-If an issue is discovered after release, turn the feature off instantly without a hotfix or redeployment.
+If an issue is discovered after release, turn the feature off without a hotfix or redeployment. Changes take effect on the next flag refresh (every 5 minutes by default).
 
 <!-- -->
