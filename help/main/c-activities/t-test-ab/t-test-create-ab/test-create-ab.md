@@ -64,29 +64,7 @@ To create a manual [!UICONTROL A/B Test] activity:
 
 1. To name the activity, click the **[!UICONTROL Edit]** icon ( ![Edit icon](/help/main/assets/icons/Edit.svg) ) next to "[!UICONTROL Untitled Activity]," specify a descriptive name for the activity, and then click **[!UICONTROL Save]**.
 
-   The activity name cannot begin with any of the following characters:
-
-   | Character | Description |
-   |--- |--- |
-   |`=`|Equals to|
-   |`+`|Plus|
-   |`-`|Minus|
-   |`@`|At sign|
-
-   The activity name cannot contain any of the following character sequences:
-
-   | Character Sequence | Description |
-   |--- |--- |
-   |;=|Semicolon, Equals to|
-   |;+|Semicolon, Plus|
-   |;-|Semicolon, Minus|
-   |;@|Semicolon, At sign|
-   |,=|Comma, Equals to|
-   |,+|Comma, Plus|
-   |,-|Comma, Minus|
-   |,@|Comma, At sign|
-   |`[`"|Open square bracket, Double quotation marks|
-   |"`]`|Double quotation marks, Close square bracket|
+   {{activity-name-rules}}
    
 1. Create new experiences by changing the elements on the page.
 
@@ -104,23 +82,25 @@ To create a manual [!UICONTROL A/B Test] activity:
 
 1. (Conditional) Click the **[!UICONTROL All Visitors]** control to select another audience for the activity.
 
-   The [!UICONTROL All Visitors] audience is set as the default. If you select another audience, its name displays in the leftmost control.
+   The [!UICONTROL All Visitors] audience is set as the default. If you select another audience, its name displays in the leftmost control. For example, you might limit entries to 50% of all visitors or 45% of your "Californians" audience.
+
+   +++ Steps to select a different audience
 
    The right frame displays, which lets you add or delete an audience and assign the visitor percentage for the activity.
 
-   1. To change the audience, click the **[!UICONTROL Replace] icon** ( ![Replace icon](/help/main/assets/icons/Retweet.svg) ) in the right frame.
-   1. In the [!UICONTROL Add Audience] dialog box, [select the desired audience](/help/main/c-activities/t-test-ab/t-test-create-ab/ab-audience.md), then click **[!UICONTROL Assign Audience]**.
+   1. To change the audience, click the **[!UICONTROL Replace]** icon ( ![Replace icon](/help/main/assets/icons/Retweet.svg) ) in the right frame.
+   1. In the **[!UICONTROL Add Audience]** dialog box, [select the desired audience](/help/main/c-activities/t-test-ab/t-test-create-ab/ab-audience.md), then click **[!UICONTROL Assign Audience]**.
 
-      You can click **Combine Audiences** to [create an audience that combines multiple audiences](/help/main/c-target/combining-multiple-audiences.md). 
+      To create an audience that combines several audiences, click **[!UICONTROL Combine Audiences]**. For details, see [Combine multiple audiences](/help/main/c-target/combining-multiple-audiences.md).
 
-      If you need to create a new audience that is not already in the [!UICONTROL Audience Library], click **Create Audience**. During the [create-audience workflow](/help/main/c-target/c-audiences/audiences.md) you can choose from the following options:
+      To create a new audience that is not already in the [!UICONTROL Audience Library], click **[!UICONTROL Create Audience]**. In the [create-audience workflow](/help/main/c-target/c-audiences/audiences.md), choose one of the following options:
 
-      * **[!UICONTROL Audience Library]**: Create an on-demand audience that is saved to the [!UICONTROL Audience Library] that can be reused in other activities.
+      * **[!UICONTROL Audience Library]**: Create an on-demand audience that is saved to the [!UICONTROL Audience Library] and can be reused in other activities.
       * **[!UICONTROL This activity only]**: Create an [activity-specific audience](/help/main/c-target/creating-activity-only-audience.md) that is not saved to the [!UICONTROL Audience Library] and can be used in the current activity only.
-   
+
    1. Click **[!UICONTROL Visitor Percentage]** in the right frame, then choose the percentage of qualifying visitors that you want to enter the activity.
 
-   For example, you might limit entries to 50% of all visitors or 45% of your "Californians" audience.
+   +++
 
 1. Click the **[!UICONTROL Traffic Allocation]** control, then choose the desired traffic allocation method in the right pane, as shown below:
 
