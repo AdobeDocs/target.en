@@ -30,13 +30,15 @@ topic_v2:
 
 >[!BEGINSHADEBOX]
 
-**On this page:** Learn what you can set on the **[!UICONTROL Goals & Settings]** page of an A/B activity: the activity settings, the reporting settings, the advanced settings, and notes.
+**On this page:** Learn what you can set on the **[!UICONTROL Goals & Settings]** page of an A/B, Experience Targeting (XT), or Multivariate Test (MVT) activity: the activity settings, the reporting settings, the advanced settings, and notes.
 
 >[!ENDSHADEBOX]
 
 The **[!UICONTROL Goals & Settings]** page in [!DNL Adobe Target] is where you specify information about the goals of the activity.
 
 The available settings depend on whether you use Target or [Analytics as the reporting source](/help/main/c-integrating-target-with-mac/a4t/a4t.md).
+
+The same settings apply to [!UICONTROL Experience Targeting] (XT) and [!UICONTROL Multivariate Test] (MVT) activities, except for [Statistical Methodology](#section_statistical-methodology), which is available only for A/B activities.
 
 * [Activity Settings](#section_DCBDC354261F420EBD4B43EA34947BAC): objective, priority, and duration
 * [Reporting Settings](#section_13119392051044FBA6387D9B3B1C43CF): reporting source, goal metric, additional metrics, and audiences
@@ -94,6 +96,8 @@ Specify which solution data is collected from:
   See [Adobe Analytics as the Reporting Source for Target](/help/main/c-integrating-target-with-mac/a4t/a4t.md) to learn about the differences between the reporting solutions and the advantages of each. When selecting [!DNL Analytics] as the reporting source for [!DNL Target], you select an [!DNL Analytics] report suite to receive [!DNL Target] activity data.
 
   To specify a reporting source, first choose from any of the [!DNL Analytics] companies your account is tied to, and then select the appropriate report suite for the activity. Only report suites that are provisioned to connect to [!DNL Adobe Target] are available for selection. If you do not see the report suites that you expect, first try logging out and logging back in to the [!DNL Adobe Experience Cloud] to try again. If the report suite is still missing from the list, contact Customer Care.
+
+  [!DNL Analytics for Target] (A4T) requires a tracking server to report results correctly. A default tracking server displays in the **[!UICONTROL Tracking Server]** field. If you use more than one tracking server, ensure you include the correct tracking server in this field. See [Using an Analytics Tracking Server](/help/main/c-integrating-target-with-mac/a4t/analytics-tracking-server.md#task_72077BA7E93C4A65A715A18F32228823) for more information.
 
   +++
 
@@ -164,7 +168,7 @@ To add a dependency:
 
 1. Click the **[!UICONTROL Add Dependency]** option.
 
-1. Drag and drop the desired metrics from the left pane into the right pane, then click **[!UICONTROL Reached]** to toggle the setting between **[!UICONTROL Reached]** and **[!UICONTROL Not Reached]**.
+1. Drag and drop the desired metrics, then click **[!UICONTROL Reached]** to toggle the setting between **[!UICONTROL Reached]** and **[!UICONTROL Not Reached]**.
 
 You can edit or remove dependencies after adding them.
 
@@ -174,9 +178,9 @@ After reaching the activity goal, a visitor continues to see the activity conten
 
 There are three options for what happens after a visitor reaches the goal metric:
 
-* Select **[!UICONTROL Increment Count & Keep User in Activity]** to specify how the count is incremented.
-* Select **[!UICONTROL Increment Count, Release User & Allow Reentry]** to specify the experience the user sees if they reenter the activity.
-* Select **[!UICONTROL Increment Count, Release User & Bar from Reentry]** to specify what the user sees instead of the activity content.
+* **[!UICONTROL Increment Count & Keep User in Activity]** to specify how the count is incremented.
+* **[!UICONTROL Increment Count, Release User & Allow Reentry]** to specify the experience the user sees if they reenter the activity.
+* **[!UICONTROL Increment Count, Release User & Bar from Reentry]** to specify what the user sees instead of the activity content.
 
 ### How will the count be incremented? {#count-increment}
 
@@ -190,7 +194,7 @@ See [Success Metrics](/help/main/c-activities/r-success-metrics/success-metrics.
 
 ## Statistical Methodology {#section_statistical-methodology}
 
-The [!UICONTROL Statistical Methodology] section of the [!UICONTROL Goals & Settings] page lets you choose how experiment results are analyzed.
+The **[!UICONTROL Statistical Methodology]** section of the **[!UICONTROL Goals & Settings]** page lets you choose how experiment results are analyzed.
 
 ### Methodology options {#methodology-options}
 
@@ -216,4 +220,4 @@ This setting is displayed only when **[!UICONTROL Bayesian]** is selected as the
 
 ## Other Metadata {#section_2E8917BEFB954480A4206B9E9E917F80}
 
-The **[!UICONTROL Other Metadata]** section of the **[!UICONTROL Goals & Settings]** page lets you specify any information about your activity that is useful to keep on hand for yourself or other team members. The **[!UICONTROL Notes]** pane is resizable.
+The **[!UICONTROL Other Metadata]** section of the **[!UICONTROL Goals & Settings]** page lets you specify any information about your activity that is useful to keep on hand for yourself or other team members.

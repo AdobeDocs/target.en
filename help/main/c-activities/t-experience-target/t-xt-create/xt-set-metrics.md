@@ -26,7 +26,7 @@ Use metrics in an [!DNL Adobe Target] [!UICONTROL Experience Targeting] (XT) act
 
 For detailed information about success metrics, see [Success Metrics](/help/main/c-activities/r-success-metrics/success-metrics.md#reference_D011575C85DA48E989A244593D9B9924). 
 
-1. Specify the goal of the activity.
+1. Specify the goal of the activity on the [Goals & Settings](/help/main/c-activities/t-test-ab/t-test-create-ab/ab-goals-and-settings.md#goal-metric) page.
 1. Select a [success metric](/help/main/c-activities/r-success-metrics/success-metrics.md#reference_D011575C85DA48E989A244593D9B9924)
 
    ![Select success metric](/help/main/c-activities/t-experience-target/t-xt-create/assets/ab_metrics-new.png)

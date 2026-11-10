@@ -137,7 +137,7 @@ On the **[!UICONTROL Goals & Settings]** page, you tell [!DNL Target] how to mea
 
 1. Click **[!UICONTROL Save and Close]** to create the activity.
 
-For details about every option, see [Goals and settings](/help/main/c-activities/c-multivariate-testing/t-create-multivariate-test/goals-and-settings.md#reference_B25389FD6F3A4989801E740364B089CC).
+For details about every option, see [Goals and settings](/help/main/c-activities/t-test-ab/t-test-create-ab/ab-goals-and-settings.md#ab-goals-and-settings).
 
 ## Training video: Creating Multivariate Tests (9:25) ![Tutorial badge](/help/main/assets/tutorial.png)
 
