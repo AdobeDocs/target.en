@@ -52,7 +52,7 @@ Choose the activity type and delivery type, specify the page to test, and name t
 
 1. (Conditional) If you are a [Target Premium](/help/main/c-intro/intro.md#premium) customer, [choose a workspace](/help/main/administrating-target/c-user-management/property-channel/property-channel.md).
 
-1. [Specify the URL](/help/main/c-activities/c-multivariate-testing/t-create-multivariate-test/url.md#concept_C12E4A85FF3B4E518E3110F6CF1AF9C0) for the page that you want to test. Use a complete URL, including HTTP or HTTPS at the beginning.
+1. [Specify the URL](/help/main/c-activities/t-test-ab/t-test-create-ab/ab-activity-url.md#ab-activity-url) for the page that you want to test. Use a complete URL, including HTTP or HTTPS at the beginning.
 
 1. Then, click **[!UICONTROL Create]**. The **[!UICONTROL Visual Experience Composer]** opens.
 

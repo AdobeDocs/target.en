@@ -61,7 +61,7 @@ For more information about **[!UICONTROL Experience Targeting]**, a use-case sce
 
 1. (Conditional) If you are a [!DNL Target Premium] customer, [choose a workspace](/help/main/administrating-target/c-user-management/property-channel/property-channel.md).
 
-1. Specify your [activity URL](/help/main/c-activities/t-experience-target/t-xt-create/xt-activity-url.md#concept_D28549AAA0A14E3BB5F05F32BE8ABC90), then click **[!UICONTROL Create]**. The VEC opens, showing the page specified in the URL.
+1. Specify your [activity URL](/help/main/c-activities/t-test-ab/t-test-create-ab/ab-activity-url.md#ab-activity-url), then click **[!UICONTROL Create]**. The VEC opens, showing the page specified in the URL.
 
    If your account is [configured with a default URL](/help/main/administrating-target/visual-experience-composer-set-up.md), that URL appears by default. You can change from the default to another URL, if necessary.
 
