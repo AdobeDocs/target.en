@@ -20,7 +20,13 @@ topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
     internal-label: Customer experience
 ---
-# A/A testing
+# A/A testing {#aa-testing}
+
+>[!BEGINSHADEBOX]
+
+**On this page:** Learn what an A/A test is, why you might run one, why you might see lift between identical experiences, and the best practice for running an A/A test in [!DNL Target].
+
+>[!ENDSHADEBOX]
 
 Before performing an A/A test on your site using [!DNL Adobe Target], it is important to understand what an A/A test is, why you might want to perform an A/A test, how long you should run the test, and how to interpret the results.
 
@@ -56,9 +62,9 @@ To avoid this, and as with a regular A/B test, you should therefore decide ahead
 
 In an A/A test, the goal would then be to *not* see a statistically significant result after your test has reached the desired sample size.
 
-The [!UICONTROL Adobe Target Sample Size Calculator] is an important tool to help you determine what sample size you should aim for and how long you should run the test.
+The **[!UICONTROL Adobe Target Sample Size Calculator]** is an important tool to help you determine what sample size you should aim for and how long you should run the test.
 
-* [Adobe Target Size Calculator](/help/main/c-activities/t-test-ab/sample-size-determination.md#section_6B8725BD704C4AFE939EF2A6B6E834E6)
+* [Adobe Target Sample Size Calculator](/help/main/c-activities/t-test-ab/sample-size-determination.md#section_6B8725BD704C4AFE939EF2A6B6E834E6)
 
 In addition, see the following articles for information about how long you should run an activity, and other helpful tips and tricks:
 
@@ -77,6 +83,6 @@ Suppose you want to achieve a 95% confidence level with your A/A test. With a 95
 
 If you decide that an A/A test is necessary in your organization, be aware that the identical experiences might temporarily show a difference from the control. This can be normal, depending on the time the test is allowed to run. The difference should shrink given more time and visitors.
 
-Best practice is to use regular A/B testing methodology: decide the sample size ahead of time based on a minimum relevant effect size, desired power, and significance by using the [Adobe Target Size Calculator](/help/main/c-activities/t-test-ab/sample-size-determination.md#section_6B8725BD704C4AFE939EF2A6B6E834E6).
+Best practice is to use regular A/B testing methodology: decide the sample size ahead of time based on a minimum relevant effect size, desired power, and significance by using the [Adobe Target Sample Size Calculator](/help/main/c-activities/t-test-ab/sample-size-determination.md#section_6B8725BD704C4AFE939EF2A6B6E834E6).
 
 Then, allow adequate time and visitors before you reach any conclusions, and remember that depending on the significance level of your test, there is a chance that one experience will show a difference in lift, and even be declared the winner.
