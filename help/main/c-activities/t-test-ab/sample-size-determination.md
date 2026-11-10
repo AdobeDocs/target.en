@@ -24,37 +24,39 @@ topic_v2:
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
     internal-label: Optimization
 ---
-# How long should you run an A/B test?
+# How long should you run an A/B test? {#sample-size-determination}
 
-A successful [!UICONTROL A/B Test] activity in [!DNL Adobe Target] requires enough visitors (sample size) to improve your conversion rate. How do you know how long to run an A/B test? This article contains information about [!UICONTROL Auto-Allocate] activities and the [!UICONTROL Adobe Target] Sample Size Calculator to help you ensure that your activity has enough visitors to achieve your goals.
+>[!BEGINSHADEBOX]
 
-It is tempting to stop an activity if one of the offers performs better or worse than the others in the first few days of the activity. However, when the number of observations is low, there is a high likelihood that a positive or negative lift is observed by chance because the conversion rate is averaged over a low number of visitors. As the activity collects more data points, the conversion rates converge toward their true long-term values.
+**On this page:** Learn how to decide how long to run an A/B test: why you should not stop an activity early, how Auto-Allocate helps, and how the five parameters of the Sample Size Calculator work together.
+
+>[!ENDSHADEBOX]
+
+A successful **[!UICONTROL A/B Test]** activity in [!DNL Adobe Target] requires enough visitors (sample size) to improve your conversion rate. How do you know how long to run an A/B test? This article contains information about **[!UICONTROL Auto-Allocate]** activities and the **[!UICONTROL Adobe Target]** Sample Size Calculator to help you ensure that your activity has enough visitors to achieve your goals.
+
+## Why not stop an activity early {#stop-early}
 
 >[!IMPORTANT]
 >
 >Stopping an activity prematurely is one of the ten significant pitfalls that you might fall prey to when performing A/B testing. For more information, see [Ten common A/B testing pitfalls and how to avoid them](/help/main/c-activities/t-test-ab/common-ab-testing-pitfalls.md#concept_578A7947C9554868B30F12DFF9E3F8E3).
 
-[!DNL Adobe Target] provides tools to help ensure that your activity has a large enough sample size to achieve your conversion goals: Auto-Allocate.
+It is tempting to stop an activity if one of the offers performs better or worse than the others in the first few days of the activity. However, when the number of observations is low, there is a high likelihood that a positive or negative lift is observed by chance because the conversion rate is averaged over a low number of visitors. As the activity collects more data points, the conversion rates converge toward their true long-term values.
+
+[!DNL Adobe Target] provides tools to help ensure that your activity has a large enough sample size to achieve your conversion goals: [Auto-Allocate](#auto-allocate) and the [Sample Size Calculator](#section_6B8725BD704C4AFE939EF2A6B6E834E6).
 
 ## Auto-Allocate {#auto-allocate}
 
-An [Auto-Allocate](/help/main/c-activities/automated-traffic-allocation/automated-traffic-allocation.md) activity is a type of A/B test that identifies a winner among two or more experiences. An [!UICONTROL Auto-Allocate] test automatically reallocates more traffic to the winner to increase conversions while the test continues to run and learn.
+An [Auto-Allocate](/help/main/c-activities/automated-traffic-allocation/automated-traffic-allocation.md) activity is a type of A/B test that identifies a winner among two or more experiences. An **[!UICONTROL Auto-Allocate]** test automatically reallocates more traffic to the winner to increase conversions while the test continues to run and learn.
 
-Standard A/B tests have an inherent cost. You must spend traffic to measure performance of each experience and through analysis figure out the winning experience. Traffic distribution remains fixed even after you recognize that some experiences are outperforming others. Also, it is complicated to figure out the sample size, and the activity must run its entire course before you can act on a winner. And there is still a chance the identified winner is not a true winner.
+Unlike a standard A/B test, where the traffic distribution remains fixed and the activity must run its entire course before you can act on a winner, **[!UICONTROL Auto-Allocate]** monitors the goal metric performance of all experiences and sends more new entrants to the high-performing experiences proportionately. Enough traffic is reserved to explore the other experiences. For the full explanation, see the [Auto-Allocate overview](/help/main/c-activities/automated-traffic-allocation/automated-traffic-allocation.md).
 
-The solution is [!UICONTROL Auto-Allocate]. [!UICONTROL Auto-Allocate] reduces this cost and overhead of determining a winning experience. [!UICONTROL Auto-Allocate] monitors the goal metric performance of all experiences and sends more new entrants to the high-performing experiences proportionately. Enough traffic is reserved to explore the other experiences. You can see the benefits of the activity on your results, even while the activity is still running: optimization occurs in parallel with learning.
-
-[!UICONTROL Auto-Allocate] moves visitors toward winning experiences gradually, rather than requiring that you wait until an activity ends to determine a winner. You benefit from lift more quickly because activity entrants who would have been sent to less-successful experiences are shown potential winning experiences.
-
-When using [!UICONTROL Auto-Allocate], [!DNL Target] displays a badge at the top of the activity's page indicating "No Winner Yet" until the activity reaches the minimum number of conversions with sufficient confidence. [!DNL Target] then declares the winning experience by displaying a badge at the top of the activity's page.
-
-For more information, see [Auto-Allocate overview](/help/main/c-activities/automated-traffic-allocation/automated-traffic-allocation.md).
+When using **[!UICONTROL Auto-Allocate]**, [!DNL Target] displays a badge at the top of the activity's page indicating "No Winner Yet" until the activity reaches the minimum number of conversions with sufficient confidence. [!DNL Target] then declares the winning experience by displaying a badge at the top of the activity's page.
 
 ## Adobe [!DNL Target] Sample Size Calculator {#section_6B8725BD704C4AFE939EF2A6B6E834E6}
 
-If you choose to use a manual [!UICONTROL A/B Test] activity rather than [!UICONTROL Auto-Allocate], the [!DNL Target] Sample Size Calculator helps you determine the sample size needed for a successful test. A manual A/B test is a fixed horizon test, so the calculator is helpful. Using the calculator for an [!UICONTROL Auto-Allocate] activity is optional because [!UICONTROL Auto-Allocate] declares a winner for you. The calculator gives you a rough estimate of the sample size needed. Continue reading for more information about how to use the calculator.
+If you choose to use a manual **[!UICONTROL A/B Test]** activity rather than **[!UICONTROL Auto-Allocate]**, the [!DNL Target] Sample Size Calculator helps you determine the sample size needed for a successful test. A manual A/B test is a fixed horizon test, so the calculator is helpful. Using the calculator for an **[!UICONTROL Auto-Allocate]** activity is optional because **[!UICONTROL Auto-Allocate]** declares a winner for you. The calculator gives you a rough estimate of the sample size needed. Continue reading for more information about how to use the calculator.
 
-Before setting up your A/B test, access the [!DNL Adobe Target] [Sample Size Calculator](https://experienceleague.adobe.com/tools/calculator/testcalculator.html).
+Before setting up your A/B test, access the [!DNL Adobe Target] [Sample Size Calculator](https://experienceleague.adobe.com/tools/calculator/testcalculator.html). You can also use the [Sample Size Calculator](/help/main/c-activities/sample-size-calculator.md) in the [!DNL Target] UI.
 
 ![Adobe Target Sample Size Calculator](/help/main/c-activities/t-test-ab/assets/sample_size_calculator-new.png)
 
@@ -62,21 +64,24 @@ It is important to determine an adequate sample size (number of visitors) before
 
 This procedure can result in many false positives, which leads to implementation of offers that do not deliver the predicted lift in the end. Poor lift itself is a dissatisfying outcome, but an even more serious consequence is that, over time, the inability to accurately predict lift erodes organizational trust in testing as a practice.
 
+
 This article discusses the factors that must be balanced when a sample size is determined and introduces a calculator for estimating an adequate sample size. Calculating the sample size using the sample size calculator (link provided above) before any A/B test begins helps ensure that you always run high-quality A/B tests that comply with statistical standards.
 
 There are five user-defined parameters that define an A/B test. These parameters are interlinked so when four of them are established, the fifth can be calculated:
 
-* Statistical significance
-* Statistical power
-* Minimum reliably detectable lift
-* Baseline conversion rate
-* Number of visitors
+| Parameter | What it controls | Typical value |
+|--- |--- |--- |
+|[Statistical significance](#section_8230FB9C6D1241D8B1786B72B379C3CD)|How much tolerance there is for false positives.|5% (a confidence level of 95%)|
+|[Statistical power](#section_1169C27F8E4643719D38FB9D6EBEB535)|The probability of detecting a real difference in conversion rate.|80%|
+|[Minimum reliably detectable lift](#section_6101367EE9634C298410BBC2148E33A9)|The smallest difference in conversion rate that the test detects reliably.|Determined by your business requirements|
+|[Baseline conversion rate](#section_39380C9CA3C649B6BE6E1F8A06178B05)|The conversion rate of the control offer (offer A).|Based on experience, or on a day or so of test data|
+|[Number of visitors](#section_19009F165505429E95291E6976E498DD)|The sample size that the test needs.|Calculated from the other four|
 
 >[!IMPORTANT]
 >
 >To get accurate results, you must reload the page before changing any parameter numbers. Repeat this process every time you change any parameter numbers.
 
-For an A/B test, the statistical significance, statistical power, minimum reliably detectable lift, and baseline conversion rate are set by the analyst and then the required number of visitors is calculated from these numbers. This article discusses these elements and gives guidelines for how to determine these metrics for a specific test.
+For an A/B test, the statistical significance, statistical power, minimum reliably detectable lift, and baseline conversion rate are set by the analyst and then the required number of visitors is calculated from these numbers.
 
 ![samplesize image](assets/samplesize.png)
 
@@ -104,7 +109,7 @@ Typical interpretations of the confidence level are summarized in the table belo
 |99-99.9%|Strong evidence that there is a difference between the conversion rates|
 |+99.9%|Very strong evidence that there is a difference between the conversion rates|
 
-It is recommended to always using a confidence level of 95% or above.
+It is recommended to always use a confidence level of 95% or above.
 
 It is desirable to use the highest possible confidence level, so that the test yields few false positives. However, a higher confidence level requires a larger number of visitors, which increases the time required to do the test. Furthermore, an increase in the confidence level causes a decrease in the statistical power.
 
@@ -122,6 +127,8 @@ A commonly used value for statistical power is 80%, which means that the test ha
 
 Most organizations want to measure the smallest possible difference in conversion rate because even a small lift is worth implementing. However, if you want the A/B test to have a high probability of detecting a small lift, the number of visitors that must be included in the test would be prohibitively large. The reason for this is that, if the difference in conversion rate is small, both conversion rates must be estimated with high accuracy to identify the difference, which requires many visitors. Therefore, the minimum reliably detectable lift should be determined by the business requirements considering the trade-offs between detecting small lifts and running the test for longer periods of time.
 
++++ Example: 100 visitors compared with 5,000 visitors
+
 For example, suppose that two offers (A and B) have true conversion rates of 10% and 15%, respectively. If these offers are shown to 100 visitors each, there is a 95% chance of observing conversion rates in the range 4% to 16% for offer A and 8% to 22% for offer B due to the stochastic nature of conversions. These ranges are known as confidence intervals in statistics. They represent the confidence in the accuracy of the estimated conversion rates. The larger the sample size (more visitors) the more confident you can be that the estimates of the conversion rates are accurate.
 
 The figure below shows these probability distributions.
@@ -133,6 +140,8 @@ Because of the large overlap between the two ranges, the test cannot determine w
 ![probability_distributions2 image](assets/probability_distributions2.png)
 
 In this case, it is unlikely that the test comes to a wrong conclusion, so the test with 5,000 visitors can distinguish between the two offers. The test with 5,000 visitors has a confidence interval of +/-1%. This means that the test can detect differences of about 1%. Therefore, even more visitors would be needed if the true conversion rates of the offers were, for example, 10% and 10.5% instead of 10% and 15%.
+
++++
 
 ### Baseline conversion rate {#section_39380C9CA3C649B6BE6E1F8A06178B05}
 
@@ -150,15 +159,19 @@ There is a trade-off between the minimum lift that can be reliably identified by
 
 ![samplesizecontrol image](assets/samplesizecontrol.png)
 
++++ Example: calculate the time to run the test
+
 In this example, you might decide that being able to detect a lift of 5% (corresponding to a conversion rate of the alternative offer of (100%+5%)&#42;5% = 5.25%) in 80 out of 100 tests is adequate, so you need a sample size of 100,000 visitors to each offer. If the site has 20,000 visitors per day and you are testing two offers, the test should be allowed to run for 2&#42;100,000/20,000 = 10 days before it can be determined whether the alternative offer is statistically significantly superior to the control offer. 
 
 Again, it is recommended that the required time always be rounded up to the nearest whole week, so day-of-week effects are avoided. Thus, in this example, the test would be run for two weeks before evaluating the results.
 
++++
+
 ### Revenue per Visit Metric {#section_C704C0861C9B4641AB02E911648D2DC2}
 
-When using Revenue per Visit (RPV) as a metric, an additional source of variance is added because RPV is the product of revenue per order and conversion rate (RPV = Revenue / #visitors = (Revenue per order &#42; #orders) / # visitors = Revenue per order &#42; (#visitors &#42; CTR) / #visitors = Revenue per Order &#42; CTR), each with its own variance. The variance of the conversion rate can be estimated directly using a mathematical model but the variance of revenue per order is specific to the activity. Therefore, use knowledge of this variance from past activities or run the A/B test for a few days to estimate the variance in revenue. The variance is calculated from the values of Sum of Sales, Sum of Sales Squared, and Number of Visitors that are found in the CSV download file. After this is established, use the spreadsheet to calculate the required time to complete the test.
+When using Revenue per Visit (RPV) as a metric, an additional source of variance is added because RPV is the product of revenue per order and conversion rate `(RPV = Revenue / #visitors = (Revenue per order &#42; #orders) / # visitors = Revenue per order &#42; (#visitors &#42; CTR) / #visitors = Revenue per Order &#42; CTR)`, each with its own variance. The variance of the conversion rate can be estimated directly using a mathematical model but the variance of revenue per order is specific to the activity. Therefore, use knowledge of this variance from past activities or run the A/B test for a few days to estimate the variance in revenue. The variance is calculated from the values of Sum of Sales, Sum of Sales Squared, and Number of Visitors that are found in the CSV download file. After this is established, use the spreadsheet to calculate the required time to complete the test.
 
-The sample size calculator (link provided above) can help you configure the RPV metric. When you open the calculator, you will see a tab labeled [!UICONTROL RPV Metric]. You will need the following information when using the RPV version of the calculator:
+The sample size calculator (link provided above) can help you configure the RPV metric. When you open the calculator, you will see a tab labeled **[!UICONTROL RPV Metric]**. You will need the following information when using the RPV version of the calculator:
 
 * Number of visitors to the control offer
 * Total revenue for the control offer
@@ -171,12 +184,7 @@ The sample size calculator (link provided above) can help you configure the RPV 
 
 In general, using RPV as a metric requires 20-30% longer to achieve the same level of statistical confidence for the same level of measured lift. This is because RPV has the added variance of different order sizes per conversion. This should be a consideration when choosing between straight conversion rate and RPV as the metric on which to base your final business decision.
 
+
 ## Correction for comparing multiple offers {#section_1474113764224D0B85472D8B023CCA15}
 
-Each time you compare two offers the chance of getting a false positive (observing a statistically significant difference even when there is no difference in conversion rate) is equal to the significance level. For example, if five offers are present, A/B/C/D/E, and A is the control offer, then four comparisons are done (control to B, control to C, control to D, and control to E), and the probability of a false positive is 18.5% even when the confidence level is 95% because Pr(at least one false positive) = 1 - Pr(no false positives) = 1 - 0.95 = 18.5%. A false positive is in this context defined as either the control being reported to be better than the alternative or the alternative being reported to be better than the control when, in fact, there is no difference between them.
-
-## Conclusion {#section_AEA2427B90AE4E9395C7FF4F9C5CA066}
-
-By using an [!UICONTROL Auto-Allocate] activity, [!DNL Target] identifies a winner among two or more experiences and automatically reallocates more traffic to the winner to increase conversions while the test continues to run and learn. [!UICONTROL Auto-Allocate] makes it easy to achieve your conversion goals while removing the guess-work.
-
-By using the sample size calculator (link provided above) introduced in this article and allowing the test to run for the amount of time suggested by it, you can ensure that you are always doing high-quality A/B tests that adhere to the false positive and false negative rates you have decided are adequate for the specific test. This ensures that your tests are consistent and able to reliably detect the lift you are looking for.
+Each time you compare two offers the chance of getting a false positive (observing a statistically significant difference even when there is no difference in conversion rate) is equal to the significance level. For example, if five offers are present, A/B/C/D/E, and A is the control offer, then four comparisons are done (control to B, control to C, control to D, and control to E), and the probability of a false positive is 18.5% even when the confidence level is 95% because Pr(at least one false positive) = 1 - Pr(no false positives) = 1 - 0.95<sup>4</sup> = 18.5%. A false positive is in this context defined as either the control being reported to be better than the alternative or the alternative being reported to be better than the control when, in fact, there is no difference between them.

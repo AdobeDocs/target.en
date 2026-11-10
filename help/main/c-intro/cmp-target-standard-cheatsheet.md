@@ -101,7 +101,7 @@ Please read our [Supported Browsers](https://experienceleague.adobe.com/docs/tar
 **Can I perform a statistically rigorous activity to find a winning and losing experience while using a control experience?**
 
 +++See details
-Use [A/B Testing](/help/main/c-activities/t-test-ab/test-ab.md#test-ab) (Manual Targeting option) along with the [Sample Size Calculator](/help/main/c-activities/t-test-ab/sample-size-determination.md#section_286EB6E671184239BB1552F0387DAEB5) for best results.
+Use [A/B Testing](/help/main/c-activities/t-test-ab/test-ab.md#test-ab) (Manual Targeting option) along with the [Sample Size Calculator](/help/main/c-activities/t-test-ab/sample-size-determination.md#section_6B8725BD704C4AFE939EF2A6B6E834E6) for best results.
 
 +++
 
