@@ -165,7 +165,6 @@ feature-set: Target
          + [Activity URL](c-activities/t-experience-target/t-xt-create/xt-activity-url.md)
          + [Create an experience](c-activities/t-experience-target/t-xt-create/xt-add-experience.md)
          + [Switching experiences in Experience Targeting](c-activities/t-experience-target/t-xt-create/xt-switching-experiences.md)
-         + [Goals and settings](c-activities/t-experience-target/t-xt-create/xt-goals-and-settings.md)
          + [Set metrics](c-activities/t-experience-target/t-xt-create/xt-set-metrics.md)
    + Multivariate Test {#multivariate-test}
       + [Multivariate Test overview](c-activities/c-multivariate-testing/multivariate-testing.md)
@@ -178,7 +177,6 @@ feature-set: Target
          + [Preview experiences for a Multivariate Test](c-activities/c-multivariate-testing/t-create-multivariate-test/preview-experiences.md)
          + [Estimate the traffic required for a successful test](c-activities/c-multivariate-testing/t-create-multivariate-test/traffic-estimator.md)
          + [Test summary](c-activities/c-multivariate-testing/t-create-multivariate-test/test-summary.md)
-         + [Goals and settings](c-activities/c-multivariate-testing/t-create-multivariate-test/goals-and-settings.md)
          + [Set metrics](c-activities/c-multivariate-testing/t-create-multivariate-test/mvt-set-metrics.md)
          + [Troubleshoot Multivariate Tests](c-activities/c-multivariate-testing/t-create-multivariate-test/troubleshooting.md)
    + [Recommendations activity](c-activities/recommendations-activity.md)
