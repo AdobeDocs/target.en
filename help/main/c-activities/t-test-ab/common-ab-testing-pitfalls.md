@@ -22,11 +22,32 @@ topic_v2:
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
     internal-label: Insights
 ---
-# Ten common A/B testing pitfalls and how to avoid them
+# Ten common A/B testing pitfalls and how to avoid them {#common-ab-testing-pitfalls}
+
+>[!BEGINSHADEBOX]
+
+**On this page:** Learn the ten most significant pitfalls of A/B testing, such as ignoring the significance level, monitoring tests, or stopping them early, and how to avoid each one.
+
+>[!ENDSHADEBOX]
 
 A/B testing in [!DNL Adobe Target] forms the backbone of most digital marketing optimization programs, helping marketers offer optimized and targeted experiences to their visitors and customers. This article outlines ten of the most significant pitfalls that companies fall prey to when performing A/B testing. It also includes ways to avoid them, so your company can achieve greater ROI through its testing efforts and have greater confidence in its reported A/B test results.
 
+The pitfalls are:
+
+* [Pitfall 1: Ignoring the effects of the significance level](#section_55F5577A13C6470BA1417C2B735C6B1D)
+* [Pitfall 2: Declaring winners of multiple offer tests with no statistically significant difference](#section_FA83977C71DB4F69B3D438AF850EF3B6)
+* [Pitfall 3: Ignoring the effects of statistical power](#section_0D517079B7D547CCAA75F80981CBE12A)
+* [Pitfall 4: Using one-tailed tests](#section_8BB136D1DD6341FA9772F4C31E9AA37C)
+* [Pitfall 5: Monitoring tests](#section_EA42F8D5967B439284D863C46706A1BA)
+* [Pitfall 6: Stopping tests prematurely](#section_DF01A97275E44CA5859D825E0DE2F49F)
+* [Pitfall 7: Changing the traffic allocation during the testing period](#allocation)
+* [Pitfall 8: Not considering novelty effects](#section_90F0D24C40294A8F801B1A6D6DEF9003)
+* [Pitfall 9: Not considering differences in the consideration period](#section_B166731B5BEE4E578816E351ECDEA992)
+* [Pitfall 10: Using metrics that do not reflect business objectives](#section_F0CD6DC7993B4A6F9BEEBB31CD1D9BEE)
+
 ## Pitfall 1: Ignoring the effects of the significance level {#section_55F5577A13C6470BA1417C2B735C6B1D}
+
+### Significance level and confidence level
 
 How likely is it that your test reports a significant difference in conversion rate between two offers when in fact there is none? That is what the *significance level* of a test helps determine. Such misleading findings are often called a false positive, and in the world of statistics, are called a Type I error (if you incorrectly reject the null hypothesis that is true).
 
@@ -54,23 +75,29 @@ As the graph below illustrates, the more tests that you run, the more likely at 
 
 In a marketing organization, 95% usually constitutes a reasonable trade-off between the risk of a false positive and false negative.
 
+### When to pay close attention
+
 However, two situations warrant paying close attention to the significance level and its implications for test results: post-test segmentation and testing multiple offers.
 
-* **Post-Test Segmentation:** Marketers often slice and dice the results of a test based on visitor segments after the A/B test concludes. Common segments include browser type, device type, geographic areas, time of day, and new versus returning visitors. This practice, known as post-test segmentation, provides excellent insight into visitor segments. In turn, marketers can use these insights to create better-targeted, more-relevant, and differentiated content.
+#### Post-test segmentation
 
-  If there is no real difference in conversion rate, each time you test a segment, the probability of a false positive equals the significance level. And, as mentioned, the more tests you run, the greater the likelihood that you experience at least one false positive among those tests. In essence, each post-test segment represents a separate test. With a significance level of 5%, on average you fall prey to one false positive every time you look at 20 post-test segments. The chart above shows how that likelihood increases.
+Marketers often slice and dice the results of a test based on visitor segments after the A/B test concludes. Common segments include browser type, device type, geographic areas, time of day, and new versus returning visitors. This practice, known as post-test segmentation, provides excellent insight into visitor segments. In turn, marketers can use these insights to create better-targeted, more-relevant, and differentiated content.
 
-  The more tests that you run, the greater the likelihood that you experience at least one false positive among those tests. In essence, each post-test segment represents a separate test, which increases the likelihood of a false positive. This increase can be even more significant if segments are correlated.
+If there is no real difference in conversion rate, each time you test a segment, the probability of a false positive equals the significance level. And, as mentioned, the more tests you run, the greater the likelihood that you experience at least one false positive among those tests. In essence, each post-test segment represents a separate test. With a significance level of 5%, on average you fall prey to one false positive every time you look at 20 post-test segments. The chart above shows how that likelihood increases.
 
-  Should you not do post-test segmentation? No, post-test segments are valuable. Instead, to avoid this cumulative false positive issue with post-test segmentation, after you have identified a post-test segment, consider testing it in a new test. Alternatively, you can apply the Bonferroni correction, discussed next. 
+The more tests that you run, the greater the likelihood that you experience at least one false positive among those tests. In essence, each post-test segment represents a separate test, which increases the likelihood of a false positive. This increase can be even more significant if segments are correlated.
 
-* **Testing Multiple Offers:** Marketers frequently test more than two offers (or experiences) against each other. That is why you sometimes see A/B testing solutions called A/B/n testing, where n is the number of offers that you are testing simultaneously.
+Should you not do post-test segmentation? No, post-test segments are valuable. Instead, to avoid this cumulative false positive issue with post-test segmentation, after you have identified a post-test segment, consider testing it in a new test. Alternatively, you can apply the Bonferroni correction, discussed next. 
 
-  It is important to note that *each* offer tested has a false positive rate equal to the significance level, as described above. Again, you are effectively running multiple tests when several offers are pitted against each other within a single test environment. For example, if you compare five offers in an A/B/C/D/E test, effectively you form four comparisons: control to B, control to C, control to D, control to E. With a confidence level of 95%, rather than the 5% probability of a false positive, you actually have 18.5%.
+#### Testing multiple offers
 
-  To keep your overall confidence level at 95% and avoid this issue, you apply what is known as the Bonferroni correction. Using this correction, you simply divide the significance level by the number of comparisons to come up with the significance level that you must achieve a 95% confidence level.
+Marketers frequently test more than two offers (or experiences) against each other. That is why you sometimes see A/B testing solutions called A/B/n testing, where n is the number of offers that you are testing simultaneously.
 
-  Applying the Bonferroni correction to the example above, you would use a 5%/4 = 1.25% significance level, which is the same as a 98.75% confidence level for an individual test (100% - 1.25% = 98.75%). This adjustment maintains the effective confidence level at 95% when you have four tests, as in the described example.
+It is important to note that *each* offer tested has a false positive rate equal to the significance level, as described above. Again, you are effectively running multiple tests when several offers are pitted against each other within a single test environment. For example, if you compare five offers in an A/B/C/D/E test, effectively you form four comparisons: control to B, control to C, control to D, control to E. With a confidence level of 95%, rather than the 5% probability of a false positive, you actually have 18.5%.
+
+To keep your overall confidence level at 95% and avoid this issue, you apply what is known as the Bonferroni correction. Using this correction, you simply divide the significance level by the number of comparisons to come up with the significance level that you must achieve a 95% confidence level.
+
+Applying the Bonferroni correction to the example above, you would use a 5%/4 = 1.25% significance level, which is the same as a 98.75% confidence level for an individual test (100% - 1.25% = 98.75%). This adjustment maintains the effective confidence level at 95% when you have four tests, as in the described example.
 
 ## Pitfall 2: Declaring winners of multiple offer tests with no statistically significant difference {#section_FA83977C71DB4F69B3D438AF850EF3B6}
 
