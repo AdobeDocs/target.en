@@ -51,21 +51,25 @@ Ensure this extension is installed in your Data Collection web property before i
 
    ![](../assets/extension-install.png)
 
-1. Configure the extension settings:
+#### Configure the extension settings {#configure-extension-settings}
 
-  * Client ID: a unique identifier for your application in Flags.
+When you install the Flags extension, you are taken to the configuration page. Configure the following settings:
 
-1. Select **[!UICONTROL Save]**.
+| Setting | Description | Required |
+|---|---|---|
+| Client ID | A unique identifier for your application in Flags. | Yes |
 
-1. Follow the [publishing process](https://experienceleague.adobe.com/en/docs/experience-platform/tags/publish/overview) to update your configuration.
+#### Publish the extension {#publish-extension}
 
-   1. Add the extension to a library.
+Follow the [publishing process](https://experienceleague.adobe.com/en/docs/experience-platform/tags/publish/overview) to update your configuration.
 
-   1. Build to your development environment.
+1. Add the extension to a library.
 
-   1. Validate with [Adobe Experience Platform Debugger](https://experienceleague.adobe.com/docs/experience-platform/debugger/home.html).
+1. Build to your development environment.
 
-   1. Promote to staging and production.
+1. Validate with [Adobe Experience Platform Debugger](https://experienceleague.adobe.com/docs/experience-platform/debugger/home.html).
+
+1. Promote to staging and production.
 
 ## Add the Tags embed code to your website {#embed-code}
 
@@ -271,10 +275,10 @@ getFeature(featureKey: string, context: FeatureEvaluationContext): FeatureResult
 | Field | Type | Description |
 |---|---|---|
 | `id` | number | Numeric feature identifier. `-1` for feature-level control sentinel. |
-| `key` | string \| null | Feature key. `null` for feature-level control sentinel. |
-| `featureGroupKey` | string \| null | Feature group key when available |
-| `meta` | string \| null | Feature metadata when available |
-| `analyticsParam` | AnalyticsParam \| null | Analytics details for the evaluated feature |
+| `key` | `string \| null` | Feature key. `null` for feature-level control sentinel. |
+| `featureGroupKey` | `string \| null` | Feature group key when available |
+| `meta` | `string \| null` | Feature metadata when available |
+| `analyticsParam` | `AnalyticsParam \| null` | Analytics details for the evaluated feature |
 
 *AnalyticsParam*
 
@@ -282,7 +286,7 @@ getFeature(featureKey: string, context: FeatureEvaluationContext): FeatureResult
 |---|---|---|
 | `featureGroupId` | number | Numeric feature group identifier |
 | `featureId` | number | Numeric feature identifier |
-| `variantId` | number \| null | Variant identifier (`0` if the user is in the control group) |
+| `variantId` | `number \| null` | Variant identifier (`0` if the user is in the control group) |
 
 **Control group behavior**
 
