@@ -83,11 +83,11 @@ There are five user-defined parameters that define an A/B test. These parameters
 
 For an A/B test, the statistical significance, statistical power, minimum reliably detectable lift, and baseline conversion rate are set by the analyst and then the required number of visitors is calculated from these numbers.
 
-![samplesize image](assets/samplesize.png)
+![Diagram: statistical significance, statistical power, minimum lift, and baseline conversion rate all determine the number of visitors](assets/samplesize.png)
 
 The figure below illustrates the four possible outcomes of an A/B test:
 
-![outcomes image](assets/outcomes.png)
+![Table of the four possible outcomes of an A/B test: true positive, false positive (controlled by the significance level), false negative (controlled by the power level), and true negative](assets/outcomes.png)
 
 It is desirable to get no false positives or false negatives. However, obtaining zero false positives can never be guaranteed by a statistical test. It is always possible that observed trends are not representative of the underlying conversion rates. For example, in a test to see if heads or tails on a coin flip was more likely, even with a fair coin, you could get ten heads on ten tosses just by chance. The statistical significance and power help us quantify the false positive and false negative rates and allow us to keep them at reasonable levels for a given test.
 
@@ -133,11 +133,11 @@ For example, suppose that two offers (A and B) have true conversion rates of 10%
 
 The figure below shows these probability distributions.
 
-![probability_distributions image](assets/probability_distributions.png)
+![Probability distributions of the observed conversion rates of Offers A and B with 100 visitors each: the curves overlap strongly](assets/probability_distributions.png)
 
 Because of the large overlap between the two ranges, the test cannot determine whether the conversion rates are different. Therefore, this test with 100 visitors cannot distinguish between the two offers. However, if [!DNL Target] exposes the offers to 5,000 visitors each, there is a 95% chance that the observed conversion rates fall in the ranges of 9% to 11% and 14% to 16%, respectively.
 
-![probability_distributions2 image](assets/probability_distributions2.png)
+![Probability distributions of the observed conversion rates of Offers A and B with 5,000 visitors each: the curves do not overlap](assets/probability_distributions2.png)
 
 In this case, it is unlikely that the test comes to a wrong conclusion, so the test with 5,000 visitors can distinguish between the two offers. The test with 5,000 visitors has a confidence interval of +/-1%. This means that the test can detect differences of about 1%. Therefore, even more visitors would be needed if the true conversion rates of the offers were, for example, 10% and 10.5% instead of 10% and 15%.
 
@@ -157,7 +157,7 @@ The sample size calculator (link provided above) asks you to decide on the stati
 
 There is a trade-off between the minimum lift that can be reliably identified by the test and the required number of visitors. The figure below, which is valid for a baseline (control) conversion rate of 5%, shows strong diminishing returns for increasing the number of visitors. The minimum lift that can be reliably detected improves tremendously when adding the first few visitors to the test, but it takes an increasingly larger number of visitors to improve the test. The figure helps in finding an adequate tradeoff between the time required to run the test (as determined by the number of visitors required and the site traffic) and the minimum lift that can be reliably detected by the test.
 
-![samplesizecontrol image](assets/samplesizecontrol.png)
+![Sample size curve for a control conversion rate of 5%: 15% lift needs 12k visitors, 10% lift 26k, and 5% lift 100k](assets/samplesizecontrol.png)
 
 +++ Example: calculate the time to run the test
 
