@@ -37,7 +37,7 @@ For detailed information about success metrics, see [Success Metrics](/help/main
    * [!UICONTROL Revenue] 
    * [!UICONTROL Engagement]
 
-   YUse any of the prebuilt success metrics, or you can create a custom success metric. You can also mark a success metric as a primary metric. Reports and Experience Cloud cards default to show the primary metric, if one is set. 
+   Use any of the prebuilt success metrics, or you can create a custom success metric. You can also mark a success metric as a primary metric. Reports and Experience Cloud cards default to show the primary metric, if one is set. 
 1. Specify the settings for your metrics.
 
    The available settings depend on the success metric that you are using.
