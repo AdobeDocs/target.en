@@ -52,6 +52,7 @@ The following table helps you understand various elements on the [!UICONTROL Act
 |[!UICONTROL Show filters] icon<P>![Show Filters icon](/help/main/assets/icons/Filter.svg)|Access filters by clicking the **[!UICONTROL Show Filters]** icon near the top of the list to filter activities by [!UICONTROL Type], [!UICONTROL Status], [!UICONTROL Reporting Source], [!UICONTROL Experience Composer], [!UICONTROL Metrics Type], [!UICONTROL Decisioning Source], [!UICONTROL Activity Source], and [!UICONTROL Properties].<P>Filters you configure are persistent across the current session.<P>For more information, see [Apply filters to the [!UICONTROL Activities] list](#filters) below.|
 |Search fields|Quickly find an activity or reduce the number of activities displayed in the [!UICONTROL Activity] list. You can search by [!UICONTROL Activity Name], [!UICONTROL URL], or [!UICONTROL ID] by using the drop-down.<P>Search options you configure are persistent across the current session.|
 |[!UICONTROL Create Activity]|Create an activity.<P>For more information about creating the various activity types, see: <ul><li>[Create an [!UICONTROL A/B Test] activity](/help/main/c-activities/t-test-ab/t-test-create-ab/test-create-ab.md)</li><li>[Create an [!UICONTROL Auto-Allocate] activity](/help/main/c-activities/automated-traffic-allocation/create-auto-allocate-activity.md)</li><li>[Create an [!UICONTROL Auto-Target] activity](/help/main/c-activities/auto-target/create-auto-target.md)</li><li>[Create an [!UICONTROL Automated Personalization] activity](/help/main/c-activities/t-automated-personalization/create-ap-activity.md)</li><li>[Create an [!UICONTROL Experience Targeting] activity](/help/main/c-activities/t-experience-target/t-xt-create/xt-create.md)</li><li>[Create an  activity](/help/main/c-activities/c-multivariate-testing/t-create-multivariate-test/create-multivariate-test.md)</li><li>[Create a [!UICONTROL Recommendations] activity](/help/main/c-recommendations/recommendations.md)</li></ul>For more information about each type, see [Activity types](#types) below.|
+|[!UICONTROL Review my live tests]|(Conditional) Review all of your live activities with [!DNL Coworker]. This button is displayed to the left of **[!UICONTROL Create Activity]** only if your organization has granted you the rights to use [!DNL Coworker].<P>For more information, see [Use Coworker from the Activities list](#coworker).|
 |[!UICONTROL Create mobile preview link]<P>![More actions menu](/help/main/assets/icons/MoreVertical.svg)|Use [mobile preview links](https://experienceleague.adobe.com/en/docs/target-dev/developer/mobile-apps/target-mobile-preview) to perform easy end-to-end QA for mobile app activities.<P>Click the **More options** icon, select the **Create Mobile Preview Link**, then choose the activities you want to test on mobile.|
 |Customize Table<P>![Customize Table icon](/help/main/assets/icons/ColumnSetting.svg)|Change which columns display in the [!UICONTROL Activity] list by clicking the **[!UICONTROL Customize Table]** icon on the upper right side of the page, then selecting or deselecting the desired columns.<P>The changes are applied to your account and remain active even after you log out of [!DNL Target].|
 |Bulk operations checkboxes<P>![Bulk Operations icon](/help/main/assets/icons/Rectangle.svg)|Perform bulk operations on all activities or on selected activities.<P>For a list of actions that are available (depending on your permissions and the activity status), see [Perform quick actions](#quick-actions) below.|
@@ -67,6 +68,20 @@ The following table helps you understand various elements on the [!UICONTROL Act
 |[!UICONTROL Decisioning Method]|The decisioning method used in each activity: [Server-Side](https://experienceleague.adobe.com/docs/target-dev/developer/server-side/on-device-decisioning/overview.html) or [Client-Side](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/on-device-decisioning/on-device-decisioning.html).|
 
 <!--|[!UICONTROL Location]|The URL for the activity identifies where the activity is displayed. This column helps you quickly identify an activity and determine whether a particular page already has an activity running on it.<P>If an activity runs on multiple URLs, a link shows how many more URLs are used. Click the link to view the complete list of URLs for that activity.<P>You can search based on the URL. Use the drop-down list next to the search box and select [!UICONTROL URL].|-->
+
+## Use Coworker from the Activities list {#coworker}
+
+If you have access to [!DNL Coworker] with your organization, the [!UICONTROL Activities] list provides two entry points:
+
+* **[!UICONTROL Review my live tests]**: Have [!DNL Coworker] review your live activities and recommend which ones to ship, fix, or stop. If you have no live activities, the button changes to **[!UICONTROL Plan my next test]**.
+
+  ![](assets/coworker-review.png)
+
+* **[!UICONTROL Ask Coworker]**: Use this menu next to an activity to ask [!DNL Coworker] a question about that activity, such as asking for a summary, checking for configuration issues, or getting suggestions to improve the test.
+
+  ![](assets/coworker-ask.png)
+
+For more information about the available skills, see [Coworker skills for Adobe Target](/help/main/c-intro/coworker-skills.md).
 
 ## Activity types {#types}
 

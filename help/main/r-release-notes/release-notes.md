@@ -36,6 +36,17 @@ Explore the latest features, enhancements, and fixes in [!DNL Adobe Target]. The
 
 (The issue numbers in parentheses are for internal [!DNL Adobe] use.)
 
+## [!DNL Target Standard/Premium] 26.11.1 (November 12, 2026)
+
+**[!UICONTROL Activities]**
+
++++See details
+
+* **[!DNL Coworker] entry points added to the Activities list**. If your organization has access to [!DNL Coworker], the [!UICONTROL Activities] list now includes a **[!UICONTROL Review my live tests]** button and an **[!UICONTROL Ask Coworker]** menu for each activity. Use them to have [!DNL Coworker] review your live activities or answer questions about a specific activity. (TGT-56536)
+[Learn more](../c-activities/activities.md#coworker)
++++
+
+
 ## [!DNL Target Standard/Premium] 26.10.2 (October 15, 2026)
 
 **[!UICONTROL Activities]**
