@@ -98,14 +98,12 @@ Specify which solution data is collected from:
   To specify a reporting source, first choose from any of the [!DNL Analytics] companies your account is tied to, and then select the appropriate report suite for the activity. Only report suites that are provisioned to connect to [!DNL Adobe Target] are available for selection. If you do not see the report suites that you expect, first try logging out and logging back in to the [!DNL Adobe Experience Cloud] to try again. If the report suite is still missing from the list, contact Customer Care.
 
   [!DNL Analytics for Target] (A4T) requires a tracking server to report results correctly. A default tracking server displays in the **[!UICONTROL Tracking Server]** field. If you use more than one tracking server, ensure you include the correct tracking server in this field. See [Using an Analytics Tracking Server](/help/main/c-integrating-target-with-mac/a4t/analytics-tracking-server.md#task_72077BA7E93C4A65A715A18F32228823) for more information.
-
-  +++
+ +++
 
 * +++ Customer Journey Analytics
 
   See [[!DNL Target] reporting in [!DNL Adobe Customer Journey Analytics]](/help/main/c-integrating-target-with-mac/cja/target-reporting-in-cja.md) for supported activity types, sandbox and data view selection, goal metrics, and reporting setup in [!DNL Customer Journey Analytics].
-
-  +++
+ +++
 
 If a reporting source is specified in your [account settings](/help/main/administrating-target/reporting.md), the specified source is used and this setting is not visible.
 
