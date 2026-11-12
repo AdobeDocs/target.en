@@ -91,7 +91,9 @@ Specify which solution data is collected from:
 
 * [!DNL Adobe Target]
 
-* +++Analytics
+* [!DNL Adobe Analytics]
+
+  +++ More about Analytics as the reporting source
 
   See [Adobe Analytics as the Reporting Source for Target](/help/main/c-integrating-target-with-mac/a4t/a4t.md) to learn about the differences between the reporting solutions and the advantages of each. When selecting [!DNL Analytics] as the reporting source for [!DNL Target], you select an [!DNL Analytics] report suite to receive [!DNL Target] activity data.
 
@@ -100,7 +102,9 @@ Specify which solution data is collected from:
   [!DNL Analytics for Target] (A4T) requires a tracking server to report results correctly. A default tracking server displays in the **[!UICONTROL Tracking Server]** field. If you use more than one tracking server, ensure you include the correct tracking server in this field. See [Using an Analytics Tracking Server](/help/main/c-integrating-target-with-mac/a4t/analytics-tracking-server.md#task_72077BA7E93C4A65A715A18F32228823) for more information.
   +++
 
-* +++Customer Journey Analytics
+* [!DNL Adobe Customer Journey Analytics]
+
+  +++ More about Customer Journey Analytics as the reporting source
 
   See [[!DNL Target] reporting in [!DNL Adobe Customer Journey Analytics]](/help/main/c-integrating-target-with-mac/cja/target-reporting-in-cja.md) for supported activity types, sandbox and data view selection, goal metrics, and reporting setup in [!DNL Customer Journey Analytics].
   +++
