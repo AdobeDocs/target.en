@@ -91,8 +91,8 @@ Specify which solution data is collected from:
 
 * [!DNL Adobe Target]
 
-* +++ [!DNL Adobe Analytics]
-  
+* +++ Analytics
+
   See [Adobe Analytics as the Reporting Source for Target](/help/main/c-integrating-target-with-mac/a4t/a4t.md) to learn about the differences between the reporting solutions and the advantages of each. When selecting [!DNL Analytics] as the reporting source for [!DNL Target], you select an [!DNL Analytics] report suite to receive [!DNL Target] activity data.
 
   To specify a reporting source, first choose from any of the [!DNL Analytics] companies your account is tied to, and then select the appropriate report suite for the activity. Only report suites that are provisioned to connect to [!DNL Adobe Target] are available for selection. If you do not see the report suites that you expect, first try logging out and logging back in to the [!DNL Adobe Experience Cloud] to try again. If the report suite is still missing from the list, contact Customer Care.
@@ -101,7 +101,7 @@ Specify which solution data is collected from:
 
   +++
 
-* +++ [!DNL Adobe Customer Journey Analytics]
+* +++ Customer Journey Analytics
 
   See [[!DNL Target] reporting in [!DNL Adobe Customer Journey Analytics]](/help/main/c-integrating-target-with-mac/cja/target-reporting-in-cja.md) for supported activity types, sandbox and data view selection, goal metrics, and reporting setup in [!DNL Customer Journey Analytics].
 

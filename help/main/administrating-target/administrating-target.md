@@ -49,6 +49,6 @@ To open an administration page, click **[!UICONTROL Administration]** in the top
 | [Environments](/help/main/administrating-target/environments.md) | Group hosts into environments such as Production, Staging, and Development. |
 | [Allowlisted URLs](/help/main/administrating-target/allowlisted-urls.md) | Manage trusted URL patterns for remote offers and related validations. |
 | [Response Tokens](/help/main/administrating-target/response-tokens.md) | Include profile and activity data in [!DNL Target] responses for debugging and integrations. |
-| [Properties](/help/main/administrating-target/c-user-management/property-channel/property-channel.md) | Create workspaces and assign enterprise roles ([!DNL Target Premium](/help/main/c-intro/intro.md#premium) only). |
+| [Properties](/help/main/administrating-target/c-user-management/property-channel/property-channel.md) | Create workspaces and assign enterprise roles ([Target Premium](/help/main/c-intro/intro.md#premium) only). |
 | [Users](/help/main/administrating-target/c-user-management/user-management.md) | Add users and assign [!DNL Target] roles and permissions. |
 | [Recommendations](/help/main/administrating-target/recommendations-settings.md) | Configure default settings for [!DNL Recommendations] activities. |
