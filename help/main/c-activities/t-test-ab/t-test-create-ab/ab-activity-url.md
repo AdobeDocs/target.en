@@ -1,7 +1,7 @@
 ---
 keywords: activity url;url;different url
-description: Discover how to set the [!UICONTROL Activity URL] to define test pages and to ensure accurate test design.
-title: What Is the Activity URL In an A/B Activity?
+description: Discover how to set the [!UICONTROL Activity URL] in an A/B, Experience Targeting, or Multivariate Test activity to define test pages and to ensure accurate test design.
+title: What Is the Activity URL in an A/B, Experience Targeting, or Multivariate Test Activity?
 feature: A/B Tests
 exl-id: 7f1b8364-790d-4767-bff3-4217ced1a77b
 reason: republish
@@ -19,44 +19,56 @@ topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
     internal-label: Customer experience
 ---
-# Activity URL
+# Activity URL {#ab-activity-url}
 
-The activity URL determines the page that is used in the test and that opens when the test is designed using [!DNL Adobe Target].
+>[!BEGINSHADEBOX]
+
+**On this page:** Learn how to specify the activity URL of an A/B, Experience Targeting (XT), or Multivariate Test (MVT) activity, how to display a different page, and how to add rules for more pages or sections.
+
+>[!ENDSHADEBOX]
+
+The [!UICONTROL Activity URL] determines the page that is used in the activity. This is the page that opens in the [!UICONTROL Visual Experience Composer] (VEC) or in the [!UICONTROL Form-Based Experience Composer] when the activity is designed in [!DNL Adobe Target].
+
+## Specify the activity URL {#specify-url}
 
 When prompted during activity creation, specify the activity URL. Type the complete URL (including `https://`), then click **[!UICONTROL Create]**.
 
 >[!NOTE]
 >
->[!DNL Target] does not differentiate between URL protocols ( [!DNL https] and [!DNL http]). As a result, [!DNL `http://www.adobe.com`] and [!DNL `https://www.adobe.com`] both match.
+>[!DNL Target] does not differentiate between URL protocols ([!DNL https] and [!DNL http]). As a result, [!DNL `http://www.adobe.com`] and [!DNL `https://www.adobe.com`] both match.
 
-## Specify a different URL
+If you specify a URL for a site that does not include the [!DNL Target] [at.js JavaScript library or [!DNL Adobe Experience Platform Web SDK]](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/overview.html){target=_blank}, you cannot select page elements.
 
-By default, the [!UICONTROL Visual Experience Composer] opens the page that is specified in your [Visual Experience Composer settings](/help/main/administrating-target/visual-experience-composer-set-up.md). You can specify a different page during activity creation.
+## Display a different page {#different-page}
 
-1. (Conditional) To display a different page after the [!UICONTROL Visual Experience Composer] opens, on the **[!UICONTROL Experiences]** page, click  **[!UICONTROL Configure]** at the top of the page, then select **[!UICONTROL Page Delivery]**. 
+By default, the VEC or the [Form-Based Experience Composer](/help/main/c-experiences/form-experience-composer.md) opens the page that is specified in your [Visual Experience Composer settings](/help/main/administrating-target/visual-experience-composer-set-up.md). You can specify a different page during activity creation.
+
+To display a different page after the VEC opens:
+
+1. On the **[!UICONTROL Experiences]** page, click **[!UICONTROL Configure]** at the top of the page, then select **[!UICONTROL Page Delivery]**.
 
 1. Specify the URL in the **[!UICONTROL URL]** field.
 
-1. (Conditional) Click **[!UICONTROL Add Rule]** to add more pages or sections to the activity.
-
-   Additional rules can be based on any of the following:
-
-   * URL 
-   * Domain 
-   * Path 
-   * Hash (#) Fragment 
-   * Query 
-   * mbox Parameter
-   * Custom
-
-   Additional rules can be joined to the activity URL with AND or OR. All rules you add are evaluated against each other with AND.
-
 1. Click **[!UICONTROL Save]** when you have finished.
 
-   If you entered a URL for a site that does not include the [!DNL Target]s JavaScript code, you cannot select page elements.
-
-   By default, the [!UICONTROL Visual Experience Composer] does not allow changes to elements containing JavaScript, such as rotating banners. You can toggle off **[!UICONTROL Render using JavaScript]** if you want to be able to alter those elements using the [!UICONTROL Visual Experience Composer].-->
+By default, the VEC does not allow changes to elements containing JavaScript, such as rotating banners. You can toggle off **[!UICONTROL Render using JavaScript]** if you want to be able to alter those elements using the VEC.
 
 >[!NOTE]
 >
 >If you change the URL after making changes to a page for one or more experiences, the experience is reset using the new page and the changes you made are lost.
+
+## Add rules for more pages or sections {#add-rules}
+
+To add more pages or sections to the activity, click **[!UICONTROL Add Rule]** in the **[!UICONTROL Page Delivery]** settings, then click **[!UICONTROL Save]** when you have finished.
+
+Additional rules can be based on any of the following:
+
+* URL
+* Domain
+* Path
+* Hash (#) Fragment
+* Query
+* mbox Parameter
+* Custom
+
+Additional rules can be joined to the activity URL with AND or OR. All rules you add are evaluated against each other with AND.

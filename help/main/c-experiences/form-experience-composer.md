@@ -142,7 +142,7 @@ If you are creating a [!UICONTROL Recommendations] activity, there are no experi
 1. Click **[!UICONTROL Next]**, then complete the activity creation steps as usual for your activity type.
 
 * [Create an A/B Test](/help/main/c-activities/t-test-ab/t-test-create-ab/test-create-ab.md) 
-* [Create an Experience Targeting Activity](/help/main/c-activities/t-experience-target/t-xt-create/xt-create.md#task_D6B3429AC31549E1A70EDF04B3DDC765) 
+* [Create an Experience Targeting Activity](/help/main/c-activities/t-experience-target/t-xt-create/xt-create.md#create-xt-activity) 
 * [Create a Recommendations Activity](/help/main/c-recommendations/t-create-recs-activity/create-recs-activity.md#task_6874328773C64C44A73F0A130AD3F96F)
 
 ## Training video: Form-based Composer ![Tutorial badge](/help/main/assets/tutorial.png)

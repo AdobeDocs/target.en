@@ -26,63 +26,91 @@ topic_v2:
   - id: fd2e3797-f2ea-4b36-a9af-52acf5e90513
     internal-label: Customer profiles
 ---
-# Create an A/B Test activity
+# Create an A/B Test activity {#create-ab-activity}
 
-Leverage the [!UICONTROL Visual Experience Composer] (VEC) in [!DNL Adobe Target] to create [!UICONTROL A/B Test] activities directly on a [!DNL Target]-enabled page and to modify page sections within [!DNL Target].
+>[!BEGINSHADEBOX]
+
+**On this page:** Learn how to create a manual **[!UICONTROL A/B Test]** activity in the **[!UICONTROL Visual Experience Composer]** (VEC). You build your experiences, set targeting and traffic allocation, then configure goals and settings.
+
+>[!ENDSHADEBOX]
+
+Leverage the **[!UICONTROL Visual Experience Composer]** (VEC) in [!DNL Adobe Target] to create **[!UICONTROL A/B Test]** activities directly on a [!DNL Target]-enabled page and to modify page sections within [!DNL Target].
 
 >[!NOTE]
 >
->In addition to the [!UICONTROL Manual] (Default) [!UICONTROL A/B Test] activity (discussed in this article), [!DNL Target] provides two additional types of [!UICONTROL A/B Test] activities: [!UICONTROL Auto-Allocate] and [!UICONTROL Auto-Target].
+>In addition to the **[!UICONTROL Manual]** (Default) **[!UICONTROL A/B Test]** activity (discussed in this article), [!DNL Target] provides two additional types of **[!UICONTROL A/B Test]** activities: **[!UICONTROL Auto-Allocate]** and **[!UICONTROL Auto-Target]**.
 >
 >See [Types of A/B Testing activities](/help/main/c-activities/t-test-ab/test-ab.md#types) in *A/B Test overview*.
 
-To create a manual [!UICONTROL A/B Test] activity:
+The activity follows the three-step guided workflow in the VEC:
+
+1. [Build experiences](#build-experiences)
+1. [Set targeting and traffic allocation](#set-targeting)
+1. [Configure goals and settings](#configure-goals-and-settings)
+
+## Step 1: Build experiences {#build-experiences}
+
+Create the activity, then design the alternate experiences that you want to test against the control.
+
+### Create the activity {#create-activity}
+
+Open the page that you want to test in the **[!UICONTROL Visual Experience Composer]** and name the activity.
 
 1. From the **[!UICONTROL Activities]** list, click **[!UICONTROL Create Activity]** > **[!UICONTROL A/B Test]**.
 
-1. From the [!UICONTROL Create A/B Test Activity] dialog, select **[!UICONTROL Visual]**, if necessary.
+   ![](../../assets/create-ab-1.png)
 
-   If you prefer to use the [!UICONTROL Form-Based Experience Composer], select [!UICONTROL Form]. See [Form-Based Experience Composer](/help/main/c-experiences/form-experience-composer.md) for more information.
+1. From the **[!UICONTROL Create A/B Test Activity]** dialog, choose your Experience Composer:
+
+    * **[!UICONTROL Visual]**.
+    * **[!UICONTROL Form-Based Experience Composer]**, see [Form-Based Experience Composer](/help/main/c-experiences/form-experience-composer.md) for more information.
 
    >[!NOTE]
    >
-   >In addition to the VEC and [!UICONTROL Form-Based Experience Composer], [!DNL Target] offers the [!UICONTROL Single Page Application] VEC. For more information about the various composers, see [Experiences and Offers](/help/main/c-experiences/experiences.md).
+   >In addition to the VEC and **[!UICONTROL Form-Based Experience Composer]**, [!DNL Target] offers the **[!UICONTROL Single Page Application]** VEC. For more information about the various composers, see [Experiences and Offers](/help/main/c-experiences/experiences.md).
    >
    >For troubleshooting information about the VEC, see [Troubleshooting the Visual Experience Composer](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/troubleshoot-composer.md).
 
 1. (Conditional) If you are a [Target Premium customer](/help/main/c-intro/intro.md#premium), from the **[!UICONTROL Choose Workspace]** drop-down list, choose a [workspace](/help/main/administrating-target/c-user-management/property-channel/property-channel.md).
 
-   The [[!UICONTROL Choose Workplace]](/help/main/administrating-target/c-user-management/property-channel/property-channel.md) option is a [Target Premium](/help/main/c-intro/intro.md) feature and might not display if your organization has a [!UICONTROL Target Standard] license.
-
 1. In the **[!UICONTROL Enter Activity URL]** box, specify your [activity URL](/help/main/c-activities/t-test-ab/t-test-create-ab/ab-activity-url.md).
 
    If your account is [configured with a default URL](/help/main/administrating-target/visual-experience-composer-set-up.md), that URL appears by default. You can change from the default to another URL if necessary.
 
-1. Click **[!UICONTROL Create]**.
+1. Click **[!UICONTROL Create]**. The **[!UICONTROL Visual Experience Composer]** opens, showing the page specified in the URL.
 
-   The [!UICONTROL Visual Experience Composer] opens, showing the page specified in the URL.
-
-1. To name the activity, click the **[!UICONTROL Edit]** icon ( ![Edit icon](/help/main/assets/icons/Edit.svg) ) next to "[!UICONTROL Untitled Activity]," specify a descriptive name for the activity, and then click **[!UICONTROL Save]**.
+1. To name the activity, click the **[!UICONTROL Edit]** icon ( ![Edit icon](/help/main/assets/icons/Edit.svg) ) and specify a descriptive name for the activity, and then click **[!UICONTROL Save]**.
 
    {{activity-name-rules}}
-   
-1. Create new experiences by changing the elements on the page.
 
-   The [!UICONTROL Visual Experience Composer] displays two tabs on the left side after you create a new activity: Experience A and Experience B. Experience A is the control experience. Your focus is on the Experience B tab, which you can modify as desired. Experience B is the alternate experience that you can add to your test. You can add multiple experiences to the test by clicking the [!UICONTROL Add] icon ( ![Add icon](/help/main/assets/icons/Add.svg) ) at the top of the [!UICONTROL Experiences] pane. You can also delete Experience A from the activity if you do not want to include a default site experience as an option.
+    ![](../../assets/create-ab-2.png)
 
-   For more information about adding and modifying experiences in the [!UICONTROL Visual Experience Composer], see [Add Experience](/help/main/c-activities/t-test-ab/t-test-create-ab/ab-add-experience.md#task_454646F2895242D3B92DC395A0CE1A00). To modify Experience B, start with Step 2. 
+### Design the experiences {#design-experiences}
 
-1. Click **[!UICONTROL Targeting]** at the top of the [!UICONTROL Visual Experience Composer] to move to the next step in the three-step guided workflow.
+Create new experiences by changing the elements on the page.
 
-   The flow diagram opens.
+After you create a new activity, the **[!UICONTROL Visual Experience Composer]** displays two tabs on the left side: Experience A and Experience B.
 
-   ![A/B Test Targeting step](/help/main/c-activities/t-test-ab/t-test-create-ab/assets/ab_flow-new-ui.png)
+* **Experience A** is the control experience. You can delete it if you do not want to include a default site experience as an option.
+* **Experience B** is the alternate experience that you add to your test. Your focus is on this tab, which you can modify as desired.
 
-   The flow diagram leads you through the steps of assigning an audience and its traffic percentage, selecting the traffic allocation method, and specifying the traffic allocation for each experience in the activity.
+To add more experiences to the test, click the **[!UICONTROL Add]** icon ( ![Add icon](/help/main/assets/icons/Add.svg) ).
+
+![](../../assets/create-ab-3.png)
+
+For more information about adding and modifying experiences in the **[!UICONTROL Visual Experience Composer]**, see [Add Experience](/help/main/c-activities/t-test-ab/t-test-create-ab/ab-add-experience.md#ab-add-experience). 
+
+## Step 2: Set targeting and traffic allocation {#set-targeting}
+
+After accessing the **[!UICONTROL Targeting]** menu, the flow diagram opens.
+
+![A/B Test Targeting step](/help/main/c-activities/t-test-ab/t-test-create-ab/assets/ab_flow-new-ui.png)
+
+The flow diagram leads you through assigning an audience and its traffic percentage, selecting the traffic allocation method, and specifying the traffic allocation for each experience in the activity.
 
 1. (Conditional) Click the **[!UICONTROL All Visitors]** control to select another audience for the activity.
 
-   The [!UICONTROL All Visitors] audience is set as the default. If you select another audience, its name displays in the leftmost control. For example, you might limit entries to 50% of all visitors or 45% of your "Californians" audience.
+   The **[!UICONTROL All Visitors]** audience is set as the default. If you select another audience, its name displays in the leftmost control. For example, you might limit entries to 50% of all visitors or 45% of your "Californians" audience.
 
    +++ Steps to select a different audience
 
@@ -93,33 +121,46 @@ To create a manual [!UICONTROL A/B Test] activity:
 
       To create an audience that combines several audiences, click **[!UICONTROL Combine Audiences]**. For details, see [Combine multiple audiences](/help/main/c-target/combining-multiple-audiences.md).
 
-      To create a new audience that is not already in the [!UICONTROL Audience Library], click **[!UICONTROL Create Audience]**. In the [create-audience workflow](/help/main/c-target/c-audiences/audiences.md), choose one of the following options:
+      To create a new audience that is not already in the **[!UICONTROL Audience Library]**, click **[!UICONTROL Create Audience]**. In the [create-audience workflow](/help/main/c-target/c-audiences/audiences.md), choose one of the following options:
 
-      * **[!UICONTROL Audience Library]**: Create an on-demand audience that is saved to the [!UICONTROL Audience Library] and can be reused in other activities.
-      * **[!UICONTROL This activity only]**: Create an [activity-specific audience](/help/main/c-target/creating-activity-only-audience.md) that is not saved to the [!UICONTROL Audience Library] and can be used in the current activity only.
+      * **[!UICONTROL Audience Library]**: Create an on-demand audience that is saved to the **[!UICONTROL Audience Library]** and can be reused in other activities.
+      * **[!UICONTROL This activity only]**: Create an [activity-specific audience](/help/main/c-target/creating-activity-only-audience.md) that is not saved to the **[!UICONTROL Audience Library]** and can be used in the current activity only.
 
    1. Click **[!UICONTROL Visitor Percentage]** in the right frame, then choose the percentage of qualifying visitors that you want to enter the activity.
 
    +++
 
-1. Click the **[!UICONTROL Traffic Allocation]** control, then choose the desired traffic allocation method in the right pane, as shown below:
+1. Click the **[!UICONTROL Traffic Allocation]** control, then choose a traffic allocation method in the right pane. See [Traffic allocation methods](#traffic-allocation-methods).
 
-    ![Traffic Allocation Method settings](/help/main/c-activities/t-test-ab/t-test-create-ab/assets/traffic-allocation-method-new.png)
+   ![Traffic Allocation Method settings](/help/main/c-activities/t-test-ab/t-test-create-ab/assets/traffic-allocation-method-new.png)
 
-   Choose your desired traffic allocation method:
+    +++Traffic allocation options
 
-   * **[!UICONTROL Manual (Default)]**: Specify the percentage of entrants that you want to see each experience. You can split the percentages evenly between all experiences, or specify higher or lower percentages for each experience. The total for all experiences must equal 100%.
+      |Method|What it does|
+      |---|---|
+      |**[!UICONTROL Manual (Default)]**|Specify the percentage of entrants that you want to see each experience. You can split the percentages evenly between all experiences, or specify higher or lower percentages for each experience. The total for all experiences must equal 100%.|
+      |**[!UICONTROL Auto-Allocate to best experience]**|Most activity entrants are automatically directed to higher-performing experiences. Some visitors are allocated to all experiences, to maintain exploration of experiences and to recognize changes in performance trends. For more information, see [**[!UICONTROL Auto-Allocate]** overview](/help/main/c-activities/automated-traffic-allocation/automated-traffic-allocation.md#concept_A1407678796B4C569E94CBA8A9F7F5D4).|
+      |**[!UICONTROL Auto-Target for personalized experiences]**|[!DNL Target] uses advanced machine learning to personalize content and drive conversions by identifying multiple high-performing, marketer-defined experiences, and then serving the most tailored experience to visitors based on their individual customer profiles and past behaviors of similar visitors. For more information, see [Auto-Target overview](/help/main/c-activities/auto-target/auto-target-to-optimize.md).|
 
-   * **[!UICONTROL Auto-Allocate to best experience]**: Most activity entrants are automatically directed to higher-performing experiences. Some visitors are allocated to all experiences, to maintain exploration of experiences and to recognize changes in performance trends. For more information, see [[!UICONTROL Auto-Allocate] overview](/help/main/c-activities/automated-traffic-allocation/automated-traffic-allocation.md#concept_A1407678796B4C569E94CBA8A9F7F5D4).
-
-   * **[!UICONTROL Auto-Target for personalized experiences]**: [!DNL Target] uses advanced machine learning to personalize content and drive conversions by identifying multiple high-performing, marketer-defined experiences, and then serving the most tailored experience to visitors based on their individual customer profiles and past behaviors of similar visitors. For more information, see [Auto-Target overview](/help/main/c-activities/auto-target/auto-target-to-optimize.md).
+    +++
 
 1. Click **[!UICONTROL Experiences]** in the right pane, then specify the desired traffic allocation for each experience.
 
 1. When you are satisfied with your audience, experience choices, and traffic allocation choices, click **[!UICONTROL Next]** to move to the third step of the three-step guided workflow.
 
-1. Specify the [goals and settings](/help/main/c-activities/t-test-ab/t-test-create-ab/ab-goals-and-settings.md) for the activity.
+## Step 3: Configure goals and settings {#configure-goals-and-settings}
+
+On the **[!UICONTROL Goals & Settings]** page, you tell [!DNL Target] how to measure the activity. The available settings depend on whether you use [!DNL Target] or [Analytics as the reporting source](/help/main/c-integrating-target-with-mac/a4t/a4t.md).
+
+1. Review the sections of the page and set what you need. See [What you set on the Goals & Settings page](#goals-settings-overview).
+
+    |Section|What you set|
+    |---|---|
+    |**[!UICONTROL Activity Settings]**|An optional objective, the **[!UICONTROL Priority]** (used when several activities share a location and an audience), and the **[!UICONTROL Duration]** (start and end dates).|
+    |**[!UICONTROL Reporting Settings]**|The reporting source, the goal metric (for example, a **[!UICONTROL Conversion]** metric), additional metrics, audiences for reporting, and the statistical methodology.|
+    |**[!UICONTROL Advanced Settings]**|Dependencies between success metrics, what happens after a visitor reaches the goal metric, and how the count is incremented.|
+    |**[!UICONTROL Other Metadata]**|Notes about the activity that are useful for you or for other team members.|
 
 1. Click **[!UICONTROL Save & Close]** or **[!UICONTROL Save]**.
 
-After you create the activity, the [!UICONTROL Overview] tab shows information about the activity, including a diagram of your activity.
+After you create the activity, the **[!UICONTROL Overview]** tab shows information about the activity, including a diagram of your activity.

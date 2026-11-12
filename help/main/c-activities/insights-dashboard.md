@@ -11,9 +11,15 @@ feature_v2:
   - id: 6efa6b7a-8062-5c41-aef4-b4853cc306ae
     internal-label: Activities
 ---
-# Adobe Target Insights Dashboard
+# Adobe Target Insights Dashboard {#insights-dashboard}
 
-The [!UICONTROL Adobe Target Dashboard] gives a high-level view of how your organization uses [!DNL Adobe Target] over time. It helps teams understand adoption, activity volume, and experimentation usage at a glance.
+>[!BEGINSHADEBOX]
+
+**On this page:** Learn how to read the **[!UICONTROL Adobe Target Dashboard]**: how to select a time range, and what the KPIs, the activity type breakdown, the A/B testing metrics, and the activities over time graph show.
+
+>[!ENDSHADEBOX]
+
+The **[!UICONTROL Adobe Target Dashboard]** gives a high-level view of how your organization uses [!DNL Adobe Target] over time. It helps teams understand adoption, activity volume, and experimentation usage at a glance.
 
 The dashboard is designed for both practitioners and stakeholders who want quick visibility into [!DNL Target] usage without having to dig into individual activity reports.
 
@@ -59,23 +65,23 @@ The KPI cards at the top of the page summarize key activity counts for the selec
 
 ![](assets/insights-4.png)
 
-The **Total live activities** metric details the number of activities that were live at any point during the selected time range. An activity is considered live if it was actively serving traffic, even if it started before or ended after the selected period. Use this metric to:
+The **[!UICONTROL Total live activities]** metric details the number of activities that were live at any point during the selected time range. An activity is considered live if it was actively serving traffic, even if it started before or ended after the selected period. Use this metric to:
 
 * Understand how actively [!DNL Target] was used during the time period.
 * Gauge the overall scale of your personalization and testing efforts.
 
-The **Activities live or modified** metric represents the total number of activities in your organization that were live, created, or modified within the selected time frame. Use this metric to:
+The **[!UICONTROL Activities live or modified]** metric represents the total number of activities in your organization that were live, created, or modified within the selected time frame. Use this metric to:
 
 * Understand the overall size of your [!DNL Target] activity library and how many activities are in use.
 
 * Track long-term growth of your experimentation and personalization programs.
 
-The **Ended activities** metric represents the number of activities that reached a completion or stop date during the selected time range. Use this metric to:
+The **[!UICONTROL Ended activities]** metric represents the number of activities that reached a completion or stop date during the selected time range. Use this metric to:
 
 * Understand how many activities concluded during the time period.
 * Track completion volume over time.
 
-The **Published activities** metric details the number of activities that were published during the selected time range. An activity is considered published when it is made live for the first time. If an activity is made live, stopped, and then made live again, only the first occurrence is counted in this metric. Use this metric to:
+The **[!UICONTROL Published activities]** metric details the number of activities that were published during the selected time range. An activity is considered published when it is made live for the first time. If an activity is made live, stopped, and then made live again, only the first occurrence is counted in this metric. Use this metric to:
 
 * Measure how many new activities were launched.
 * Understand activity creation and publishing velocity.
@@ -84,13 +90,13 @@ The **Published activities** metric details the number of activities that were p
 
 ![](assets/insights-5.png)
 
-The [!UICONTROL Activity Type] chart shows the distribution of live activities by type during the selected time range, including:
+The **[!UICONTROL Activity Type]** chart shows the distribution of live activities by type during the selected time range, including:
 
-* [!UICONTROL A/B Test]
-* [!UICONTROL Experience Targeting] 
-* [!UICONTROL Recommendations] 
-* [!UICONTROL Automated Personalization] 
-* [!UICONTROL Multivariate Test]
+* **[!UICONTROL A/B Test]**
+* **[!UICONTROL Experience Targeting]** 
+* **[!UICONTROL Recommendations]** 
+* **[!UICONTROL Automated Personalization]** 
+* **[!UICONTROL Multivariate Test]**
 
 Use this chart to identify which [!DNL Target] capabilities your organization relies on most, and to spot opportunities to broaden the mix of activity types you run.
 
@@ -106,7 +112,7 @@ The **[!UICONTROL Total A/B Tests published]** shows the number of **[!UICONTROL
 
 Use these metrics to understand how frequently A/B testing is being used and to track experimentation volume and adoption over time.
 
-### Activities Over time
+### Activities Over Time {#activities-over-time}
 
 ![](assets/insights-7.png){align="center"}
 

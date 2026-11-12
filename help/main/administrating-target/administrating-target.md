@@ -33,20 +33,22 @@ topic_v2:
 ---
 # Administer [!DNL Target] Overview
 
-Information to help you administer [!DNL Adobe Target], including configuration settings for the Visual Experience Composer (VEC), reporting, Scene7 configuration, implementation, hosts, environments, allowlisted URLs, response tokens, users, and [!DNL Recommendations].
+Use **[!UICONTROL Administration]** to configure account-wide defaults for the [!UICONTROL Visual Experience Composer] (VEC), reporting, delivery infrastructure, access control, and [!DNL Recommendations].
 
-{{permissions-update}}
+If you are setting up [!DNL Target] for the first time, start with [Administrator first steps](/help/main/administrating-target/start-target.md). For help locating **[!UICONTROL Administration]** in the updated interface, see [Understand the [!DNL Target] UI](/help/main/c-intro/understand-the-target-ui.md).
 
-To access the [!UICONTROL Administration] menu items, click **[!UICONTROL Administration]** in the top menu bar, then click the desired tab along the left side:
+To open an administration page, click **[!UICONTROL Administration]** in the top menu bar, then click the tab you want along the left side:
 
-* [Visual Experience Composer](/help/main/administrating-target/visual-experience-composer-set-up.md)
-* [Reporting](/help/main/administrating-target/reporting.md)
-* [Scene7 Configuration](/help/main/administrating-target/scene7-settings.md)
-* [Implementation](/help/main/c-implementing-target/implementing-target.md)
-* [Properties](/help/main/administrating-target/c-user-management/property-channel/property-channel.md)
-* [Hosts](/help/main/administrating-target/hosts.md)
-* [Environments](/help/main/administrating-target/environments.md)
-* [Allowlisted URLs](/help/main/administrating-target/allowlisted-urls.md)
-* [Response Tokens](/help/main/administrating-target/response-tokens.md)
-* [Users](/help/main/administrating-target/c-user-management/user-management.md)
-* [Recommendations](/help/main/administrating-target/recommendations-settings.md)
+| Administration tab | Description |
+| --- | --- |
+| [Visual Experience Composer](/help/main/administrating-target/visual-experience-composer-set-up.md) | Set the default page URL and options used when you build experiences in the VEC. |
+| [Reporting](/help/main/administrating-target/reporting.md) | Choose the reporting solution, time zone, currency, and other reporting defaults for your organization. See also [Estimating lift in revenue](/help/main/administrating-target/r-target-account-preferences/estimating-lift-in-revenue.md). |
+| [Scene7 Configuration](/help/main/administrating-target/scene7-settings.md) | Connect [!DNL Dynamic Media] (Scene7) for image delivery in offers and experiences. |
+| [Implementation](/help/main/administrating-target/implementation.md) | Review global implementation settings on the **[!UICONTROL Administration]** page. For full implementation guidance, see [Implement Target](/help/main/c-implementing-target/implementing-target.md). |
+| [Hosts](/help/main/administrating-target/hosts.md) | Organize the sites and pre-production environments where [!DNL Target] receives requests. |
+| [Environments](/help/main/administrating-target/environments.md) | Group hosts into environments such as Production, Staging, and Development. |
+| [Allowlisted URLs](/help/main/administrating-target/allowlisted-urls.md) | Manage trusted URL patterns for remote offers and related validations. |
+| [Response Tokens](/help/main/administrating-target/response-tokens.md) | Include profile and activity data in [!DNL Target] responses for debugging and integrations. |
+| [Properties](/help/main/administrating-target/c-user-management/property-channel/property-channel.md) | Create workspaces and assign enterprise roles ([Target Premium](/help/main/c-intro/intro.md#premium) only). |
+| [Users](/help/main/administrating-target/c-user-management/user-management.md) | Add users and assign [!DNL Target] roles and permissions. |
+| [Recommendations](/help/main/administrating-target/recommendations-settings.md) | Configure default settings for [!DNL Recommendations] activities. |

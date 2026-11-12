@@ -21,7 +21,7 @@ topic_v2:
 
 This article documents the detailed statistical calculations used in manual A/Bn tests in [!DNL Adobe Target]. Definitions are provided for **[!UICONTROL Conversion Rate]**, **[!UICONTROL Confidence Interval of Conversion Rate]**, **[!UICONTROL Lift]**, **[!UICONTROL Confidence Interval for Lift]**, **[!UICONTROL Confidence]**, and **[!UICONTROL Bayesian]** decision metrics.
 
-An **[!UICONTROL A/B Test]** (Manual) activity supports two statistical methodologies, selected per activity in [Goals & Settings](/help/main/c-activities/t-test-ab/t-test-create-ab/ab-goals-and-settings.md#section_13119392051044FBA6387D9B3B1C43CF):
+An **[!UICONTROL A/B Test]** (Manual) activity supports two statistical methodologies, selected per activity in [Goals & Settings](/help/main/c-activities/t-test-ab/t-test-create-ab/ab-goals-and-settings.md#section_statistical-methodology):
 
 * [Welch's t-test](#welchs-t-test): a frequentist methodology that reports a **[!UICONTROL Confidence]** percentage and confidence interval, based on a fixed-sample-size hypothesis test. Used for activities with a **[!UICONTROL Revenue]** or **[!UICONTROL Engagement]** primary goal.
 
@@ -153,7 +153,7 @@ Instead of computing a p-value from an approximated distribution, a **[!UICONTRO
 
 The **[!UICONTROL Bayesian]** methodology also lets marketers feed in a hypothesis based on their past experimentation and results for the control variant.
 
-The **[!UICONTROL Bayesian]** methodology is only available for activities whose primary goal metric is **[!UICONTROL Conversion]**, activities with a **[!UICONTROL Revenue]** or **[!UICONTROL Engagement]** primary goal always use **[!UICONTROL Welch's t-test]**. For more information about selecting a methodology, see [Goals and settings](/help/main/c-activities/t-test-ab/t-test-create-ab/ab-goals-and-settings.md#section_13119392051044FBA6387D9B3B1C43CF).
+The **[!UICONTROL Bayesian]** methodology is only available for activities whose primary goal metric is **[!UICONTROL Conversion]**, activities with a **[!UICONTROL Revenue]** or **[!UICONTROL Engagement]** primary goal always use **[!UICONTROL Welch's t-test]**. For more information about selecting a methodology, see [Goals and settings](/help/main/c-activities/t-test-ab/t-test-create-ab/ab-goals-and-settings.md#section_statistical-methodology).
 
 ### Average Lift and Credible interval
 

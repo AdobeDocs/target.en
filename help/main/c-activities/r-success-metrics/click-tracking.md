@@ -24,7 +24,13 @@ topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
     internal-label: Personalization
 ---
-# Click tracking
+# Click tracking {#click-tracking}
+
+>[!BEGINSHADEBOX]
+
+**On this page:** Learn how to track clicks on page elements as a success metric, how to manage the selected elements, and what to consider when you select elements.
+
+>[!ENDSHADEBOX]
 
 [!DNL Adobe Target] lets you track clicks on any element as a success metric. Click tracking refers to the process of monitoring and recording user interactions, specifically clicks, on elements within a webpage or experience. This is a key part of measuring engagement and performance in A/B tests, multivariate tests, and personalization activities.
 
@@ -32,16 +38,21 @@ topic_v2:
 >
 >Tracking clicks is not supported on the global [!DNL Target] request when it is used as a location in a form-based activity.
 
+* [Set up click tracking](#section_5540C5A533114E57BAE022A600B02E72)
+* [Selected Elements panel](#selected-elements)
+* [Considerations](#considerations): selecting elements, how clicks are counted, Analytics and at.js, and limits
+
 ## Set up click tracking {#section_5540C5A533114E57BAE022A600B02E72}
 
-1. When setting your goals on the [!UICONTROL Goals & Settings] page for your activity , select the **[!UICONTROL Conversion]** success metric. 
+1. When setting your goals on the **[!UICONTROL Goals & Settings]** page for your activity, select the **[!UICONTROL Conversion]** success metric.
+
 1. For the action, select **[!UICONTROL Clicked an element]**, then click **[!UICONTROL Select elements]**.
 
-   Your page opens in the [!UICONTROL Visual Experience Composer] (VEC). 
+   Your page opens in the **[!UICONTROL Visual Experience Composer]** (VEC).
 
 1. Select any elements that you want to track.
 
-   See the *Considerations* section below for tips on selecting elements. 
+   See [Considerations](#considerations) for tips on selecting elements.
 
 1. Click **[!UICONTROL Done]** at the top of the screen to save your selections.
 
@@ -49,37 +60,74 @@ When an activity entrant clicks a selected element, that click is counted as a c
 
 ## Selected Elements panel {#selected-elements}
 
-For [!UICONTROL A/B Test], [!UICONTROL Experience Targeting] (XT), [!UICONTROL Automated Personalization] (AP), and [!UICONTROL Multivariate Test] (MVT) activities, a [!UICONTROL Selected Elements] panel lists the selected elements for click tracking on the left side.
+For **[!UICONTROL A/B Test]**, **[!UICONTROL Experience Targeting]** (XT), **[!UICONTROL Automated Personalization]** (AP), and **[!UICONTROL Multivariate Test]** (MVT) activities, a **[!UICONTROL Selected Elements]** panel lists the selected elements for click tracking on the left side.
 
 ![Selected Elements panel](/help/main/c-activities/r-success-metrics/assets/selected-elements.png)
 
-There are several actions that can be applied when you click an element in the [!UICONTROL Tracked Components] panel. The following table describes each action that can be performed on an element:
+There are several actions that can be applied when you click an element in the **[!UICONTROL Tracked Components]** panel. The following table describes each action that can be performed on an element:
 
 |Action|Description|
 | --- | --- |
-|[!UICONTROL Tracked actions]|Displays the element action.|
-|[!UICONTROL CSS selector]|Lets you edit the CSS selector.|
+|**[!UICONTROL Tracked actions]**|Displays the element action.|
+|**[!UICONTROL CSS selector]**|Lets you edit the CSS selector.|
 |[!DNL Delete]|Deletes the element.|
 
 ### Add element
 
-If you already know the DOM path to the selector, you can add it manually by clicking the [!UICONTROL Add Component] icon at the top of the panel.
+If you already know the DOM path to the selector, you can add it manually by clicking the **[!UICONTROL Add Component]** icon at the top of the panel.
+
+![Add Component icon](/help/main/c-activities/r-success-metrics/assets/add-element.png)
 
 ## Considerations {#considerations}
 
-There are several things to consider when selecting elements:
+Consider the following points when you set up click tracking.
 
-* The DOM path feature is available when setting up click tracking. When you click an element on the page, the VEC options menu displays. In addition, the corresponding DOM path displays at the bottom of the page. You can use the DOM path to quickly see information about the selected element (type, ID, and class) and move up or down the DOM path to select the desired element. 
+### Select elements
+
+* The DOM path feature is available when setting up click tracking. When you click an element on the page, the VEC options menu displays. In addition, the corresponding DOM path displays at the bottom of the page. You can use the DOM path to quickly see information about the selected element (type, ID, and class) and move up or down the DOM path to select the desired element.
 
   Like when creating experiences in Step 1 in the activity-creation workflow, the DOM path selector at the bottom of the page lets you choose an element. On selecting an element from the DOM path, the corresponding element in the VEC displays as "Selected." To unselect a selected element, you can click the element again in the DOM path selector or click the "Selected" box within the VEC.
 
+  ![DOM path selector](/help/main/c-activities/r-success-metrics/assets/click-tracking-dom.png)
+
   For more information, see [Navigate elements using the DOM path](/help/main/c-experiences/c-visual-experience-composer/viztarget-options.md#dom-path) in *Visual Experience Composer Options*.
 
-* You can browse to a different page to track clicks on a page where you might not be changing content. This different page must be included in the activity using the [multipage feature](/help/main/c-experiences/c-visual-experience-composer/multipage-activity.md#concept_277E096063E14813AC5D8EDFA1D2ED48) and [!DNL at.js] must be implemented on it. 
+* You can browse to a different page to track clicks on a page where you might not be changing content. This different page must be included in the activity using the [multipage feature](/help/main/c-experiences/c-visual-experience-composer/multipage-activity.md#concept_277E096063E14813AC5D8EDFA1D2ED48) and [!DNL at.js] must be implemented on it.
+* Make sure you select the level of element you want to track. For example, when specifying a button, make sure you select the link and not the button text.
 * If you select more than one element, if an entrant clicks on any one of the chosen elements, the click is counted. To count each item separately, set up individual success metrics for each element. To count one item by clicking several elements on a page, edit the CSS Element Selector to match multiple elements.
-* Make sure you select the level of element you want to track. For example, when specifying a button, make sure you select the link and not the button text. 
-* Click events are sent to [!DNL Target] on the same page as the click. 
-* If the click-tracking metric is the Goal metric of an [!UICONTROL Analytics for Target] (A4T) activity, the visitor must click this element within 60 seconds of the page loading for the metric to track. 
+* For **[!UICONTROL Automated Personalization]** (AP) and Auto-Target activities on single page applications (SPAs), you can select elements for click tracking that belong to a specific [!DNL Target] View. For more information about Views, see [Adobe Target Views and Single Page Applications](/help/main/c-experiences/spa-visual-experience-composer.md).
+
+After you click **[!UICONTROL Done]**, the number of selected elements displays in the goal metric on the **[!UICONTROL Goals & Settings]** page. Hover over it to see the selected elements.
+
+![Elements selected](/help/main/c-activities/r-success-metrics/assets/elements-selected-link.png)
+
+### How clicks are counted
+
+* Click events are sent to [!DNL Target] on the same page as the click.
+* Click-tracking metrics are not linked to any specific experience in an activity.
+* Use audiences if it is necessary to restrict the scope of the click-tracking metrics.
+* Multiple activities can define a click-track metric for the same selector. If so, when a visitor qualifies for one of those activities and clicks that selector, the click-track metric increases for all associated activities that the visitor qualified for.
+
+### Analytics and at.js
+
+* If the click-tracking metric is the Goal metric of an **[!UICONTROL Analytics for Target]** (A4T) activity, the visitor must click this element within 60 seconds of the page loading for the metric to track.
+* If you use [!DNL at.js] click tracking and you also use [!DNL Analytics] AppMeasurement, [!DNL at.js] click tracking cancels all other click event handlers. As a result, the AppMeasurement click handler never executes.
+
+  [!DNL at.js] has special handling for click tracking when the underlying element is an `A` (link) tag or `FORM` tag. The following steps are executed by [!DNL at.js] when the click tracking event is attached to an `A` (link) tag or a `FORM` tag:
+
+  1. Invoke `event.preventDefault()`.
+
+  1. Fire [!DNL Target] request.
+
+  1. On [!DNL Target] request success or error callback, execute default behavior:
+
+     * `A` (link) tag: The default behavior is to navigate to the URL defined by HREF attribute.
+     * `FORM` tag: The default behavior is to submit the form.
+
+  This default behavior might interfere with [!DNL Analytics] click tracking. If you are using [!DNL Analytics], you should rely on [!DNL Analytics] for click tracking rather than [!DNL Target].
+
+### Limits
+
 * Click tracking does not work on elements that include escaped characters in their selectors, including the following:
 
   |  Character  | Description  |
@@ -90,39 +138,14 @@ There are several things to consider when selecting elements:
   |  $  | Dollar sign  |
   |  `[ ]`  | Square brackets  |
 
-* If you use [!DNL at.js] click tracking and you also use [!DNL Analytics] AppMeasurement, [!DNL at.js] click tracking cancels all other click event handlers. As a result, the AppMeasurement click handler never executes.
-
-  [!DNL at.js] has special handling for click tracking when the underlying element is an `A` (link) tag or `FORM` tag.
-
-  The following steps are executed by [!DNL at.js] when the click tracking event is attached to an `A` (link) tag or a `FORM` tag:
-
-  1. Invoke `event.preventDefault()`.
-
-  1. Fire [!DNL Target] request.
-
-  1. On [!DNL Target] request success or error callback, execute default behavior:
-
-     * `A` (link) tag: The default behavior is to navigate to the URL defined by HREF attribute. 
-     * `FORM` tag: The default behavior is to submit the form.
-
-  This default behavior might interfere with [!DNL Analytics] click tracking. If you are using [!DNL Analytics], you should rely on [!DNL Analytics] for click tracking rather than [!DNL Target].
-
 * Click tracking is not recorded on pages where the page and activity URL belong to different properties. Enterprise user permissions is a [!DNL Target Premium] feature. For more information, see [Enterprise user permissions](/help/main/administrating-target/c-user-management/property-channel/property-channel.md).
 
-* Click-tracking metrics are not linked to any specific experience in an activity.
-
-* Use audiences if it is necessary to restrict the scope of the click-tracking metrics.
-
-* Multiple activities can define a click-track metric for the same selector. If so, when a visitor qualifies for one of those activities and clicks that selector, the click-track metric increases for all associated activities that the visitor qualified for.
-
-* For [!UICONTROL Automated Personalization] (AP) and Auto-Target activities on single page applications (SPAs), you can select elements for click tracking that belong to a specific [!DNL Target] View. For more information about Views, see [Adobe Target Views and Single Page Applications](/help/main/c-experiences/spa-visual-experience-composer.md).
-
-## Training Video {#section_36607204DAE146E3B8E2C609D244EDB1}
+## Training video {#section_36607204DAE146E3B8E2C609D244EDB1}
 
 This video includes information about creating click-tracking success metrics.
 
-* Understand "goal" metrics 
-* Understand and build [!UICONTROL Conversion], [!UICONTROL Revenue], and [!UICONTROL Engagement] metrics 
+* Understand "goal" metrics
+* Understand and build **[!UICONTROL Conversion]**, **[!UICONTROL Revenue]**, and **[!UICONTROL Engagement]** metrics
 * Build a click-tracking metric
 
 >[!VIDEO](https://video.tv.adobe.com/v/17380)

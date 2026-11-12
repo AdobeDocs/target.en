@@ -90,7 +90,7 @@ The following list describes some of the situations that might cause a preset to
 
 ## [!UICONTROL Report Metric] {#section_894ABD7148244806B7CE556EBBA2AD62}
 
-Click the **[!UICONTROL Report Metric]** drop-down list to select a different [success metric](/help/main/c-activities/r-success-metrics/success-metrics.md#reference_D011575C85DA48E989A244593D9B9924) or multiple metrics to display in the graph and chart.
+Click the **[!UICONTROL Report Metric]** drop-down list to select a different [success metric](/help/main/c-activities/r-success-metrics/success-metrics.md#overview) or multiple metrics to display in the graph and chart.
 
 By default, the primary metric is determined in the success metrics setup when you create the activity. If you change the setup and re-save the activity, the primary metric for reporting is updated.
 
