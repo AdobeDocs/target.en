@@ -9,306 +9,365 @@ product_v2:
 ---
 # Flags extension for iOS {#ios-extension-integration-guide}
 
-This guide describes how to integrate the Flags extension with the Adobe Experience Platform Mobile SDK on iOS.
+This guide describes how to integrate the Flags extension with the Adobe Experience Platform Mobile SDK on iOS. The source code is available in the [aepsdk-flags-ios](https://github.com/adobe/aepsdk-flags-ios) repository.
 
 ## Prerequisites {#prerequisites}
 
-Before implementing the Flags extension, ensure you have:
+Before you start, make sure you have:
 
-* A mobile property configured in [Adobe Experience Platform Data Collection](https://experience.adobe.com/#/data-collection)
-* The Flags extension installed and configured in your mobile property
-* An Adobe Experience Cloud Organization ID
-* Minimum deployment target: iOS 12.0
+* iOS 12.0 or later, and Swift 5.7 or later
+* A mobile property in [Adobe Experience Platform Data Collection](https://experience.adobe.com/#/data-collection)
+* These extensions installed and configured in the mobile property:
 
-## Extension dependencies {#extension-dependencies}
+  | Extension | Description | Minimum SDK version |
+  |---|---|---|
+  | [Mobile Core](https://developer.adobe.com/client-sdks/home/base/mobile-core/) | Configuration and event processing | AEPCore 5.8.0 |
+  | [Lifecycle](https://developer.adobe.com/client-sdks/home/base/mobile-core/lifecycle/) | Application lifecycle data | Same as AEPCore |
+  | [Edge Network](https://developer.adobe.com/client-sdks/edge/edge-network/) | Communication with Adobe Experience Platform Edge Network. Requires a datastream. | AEPEdge 5.0.2 |
+  | [Identity for Edge Network](https://developer.adobe.com/client-sdks/edge/identity-for-edge-network/) | Identity management for Edge Network | AEPEdgeIdentity 5.0.0 |
+  | [Flags](https://experienceleague.adobe.com/en/docs/target/flags/home) | Feature flag evaluation | See [Installation](#installation) |
 
-The Flags extension requires the following Adobe Experience Platform extensions:
-
-| Extension | Description | Required |
-|---|---|---|
-| Mobile Core | Provides core functionality including configuration and event processing | Yes |
-| Lifecycle | Collects application lifecycle and session data for the Mobile SDK | Yes |
-| Edge Network | Enables communication with Adobe Experience Platform Edge Network | Yes |
-| Edge Identity | Enables identity management from a mobile app when using the Edge Network extension | Yes |
-
-Ensure these extensions are installed in your Data Collection mobile property and included in your app dependencies.
-
-## Configure Flags extension in Data Collection {#configure}
+## Configure Flags in Data Collection {#configure}
 
 ### Install the extension {#install-extension}
 
 1. Log in to [Adobe Experience Platform Data Collection](https://experience.adobe.com/#/data-collection).
-1. Select the **Tags** tab and choose your mobile property.
-1. Navigate to **Extensions** > **Catalog**.
-1. Search for **Flags extension** and select **Install**.
+
+1. Select the **[!UICONTROL Tags]** menu and choose your mobile property.
+
+1. Navigate to **[!UICONTROL Extensions]** > **[!UICONTROL Catalog]**.
+
+1. Search for **[!DNL Adobe Flags]** and select **[!UICONTROL Install]**.
+
+   ![](../assets/extension-install.png)
+
 1. Configure the extension settings:
 
-   | Setting | Description |
-   |---|---|
-   | Application ID | A unique identifier for your application in Flags |
+    * **[!UICONTROL Sandbox]**: The Adobe Experience Platform sandbox that contains your Flags configuration.
+    * **[!UICONTROL Application ID]**: The identifier of your application in Flags.
 
-1. Select **Save**.
+1. Select **[!UICONTROL Save]**.
+
 1. Follow the [publishing process](https://experienceleague.adobe.com/en/docs/experience-platform/tags/publish/overview) to update your configuration.
 
 ### Get the Environment File ID {#environment-file-id}
 
-1. In your mobile property, navigate to **Environments**.
-1. Select the box icon under the **Install** column for your environment.
-1. In the **Mobile Install Instructions** dialog, copy the **Environment File ID**.
+1. In your mobile property, navigate to **[!UICONTROL Environments]**.
 
-## Add Flags extension to your app {#add-to-app}
+1. Select the box icon in the **[!UICONTROL Install]** column of your selected environment.
 
-### Add dependencies {#add-dependencies}
+   ![](../assets/extension-install-2.png)
 
-Add the Mobile SDK dependencies to your project. The Flags extension requires Mobile Core and the Edge-related extensions listed below.
+1. In the **[!UICONTROL Mobile Install Instructions]** dialog, copy the **[!UICONTROL Environment File ID]**.
 
-#### Using Swift Package Manager {#swift-package-manager}
+   ![](../assets/extension-install-3.png)
 
-In Xcode, select **File** > **Add Packages** and add the following Adobe Experience Platform Mobile SDK package URLs:
+## Installation {#installation}
 
-| Package | URL |
-|---|---|
-| AEPCore | `https://github.com/adobe/aepsdk-core-ios.git` |
-| AEPEdge | `https://github.com/adobe/aepsdk-edge-ios.git` |
-| AEPEdgeIdentity | `https://github.com/adobe/aepsdk-edgeidentity-ios.git` |
+Add the extension with either Swift Package Manager or an XCFramework. Use one method per app target.
 
-When prompted, select the following libraries to add to your target:
+### Swift Package Manager {#swift-package-manager}
 
-* `AEPCore`, `AEPLifecycle` (from `aepsdk-core-ios`)
-* `AEPEdge` (from `aepsdk-edge-ios`)
-* `AEPEdgeIdentity` (from `aepsdk-edgeidentity-ios`)
+In Xcode:
 
-Use AEPCore 5.8.0 or later.
+1. Select **File** > **Add Package Dependencies**.
 
->[!NOTE]
->
->When adding a package in Xcode, choose a dependency rule for each package (for example **Up to Next Major Version**), which picks up new minor and patch releases automatically while excluding the next major version. For the latest released versions, check each extension's releases page on GitHub.
+1. Enter the package URL: `https://github.com/adobe/aepsdk-flags-ios.git`
 
-### Add the Flags package {#add-flags-package}
+1. For the version rule, select **Exact Version** and enter the latest version from the [releases page](https://github.com/adobe/aepsdk-flags-ios/releases).
 
-Use either the Swift package or the XCFramework integration method for an app target, not both.
+1. Add the `AEPFlags` library to your app target.
 
-#### For an Xcode project without a Package.swift file {#xcode-project}
+1. Add the Adobe packages that the extension depends on, and add their libraries to your app target:
 
-1. In Xcode, select **File** > **Add Packages**.
-1. Select **Add Local**.
-1. Select the supplied `Packages/AEPFlags` directory that contains `Package.swift`.
-1. Add the `AEPFlags` library to your application target.
+   * `https://github.com/adobe/aepsdk-core-ios.git`: `AEPCore`, `AEPLifecycle`, and `AEPServices`
+   * `https://github.com/adobe/aepsdk-edge-ios.git`: `AEPEdge`
+   * `https://github.com/adobe/aepsdk-edgeidentity-ios.git`: `AEPEdgeIdentity`
 
-Xcode stores the local package reference in the project, so your application does not need its own `Package.swift` file.
-
-#### For a project with a Package.swift file {#package-swift-project}
-
-In your existing manifest, add `AEPFlags` to your application target dependencies and add the binary target using the URL and checksum from the supplied manifest:
+If your project uses a `Package.swift` file, add the dependencies there instead. Replace `<latest-version>` with the latest version from the releases page.
 
 ```swift
+dependencies: [
+    .package(url: "https://github.com/adobe/aepsdk-flags-ios.git", exact: "<latest-version>"),
+    .package(url: "https://github.com/adobe/aepsdk-core-ios.git", .upToNextMajor(from: "5.8.0")),
+    .package(url: "https://github.com/adobe/aepsdk-edge-ios.git", .upToNextMajor(from: "5.0.2")),
+    .package(url: "https://github.com/adobe/aepsdk-edgeidentity-ios.git", .upToNextMajor(from: "5.0.0"))
+],
 targets: [
     .target(
-        name: "YourApp",
+        name: "YourTarget",
         dependencies: [
-            "AEPFlags"
+            .product(name: "AEPFlags", package: "aepsdk-flags-ios"),
+            .product(name: "AEPCore", package: "aepsdk-core-ios"),
+            .product(name: "AEPLifecycle", package: "aepsdk-core-ios"),
+            .product(name: "AEPServices", package: "aepsdk-core-ios"),
+            .product(name: "AEPEdge", package: "aepsdk-edge-ios"),
+            .product(name: "AEPEdgeIdentity", package: "aepsdk-edgeidentity-ios")
         ]
-    ),
-    .binaryTarget(
-        name: "AEPFlags",
-        url: "<AEPFlags binary URL>",
-        checksum: "<AEPFlags binary checksum>"
     )
 ]
 ```
 
-Swift Package Manager resolves the binary target for local Xcode, CI, and archive builds.
+### XCFramework {#xcframework}
 
-#### Add the XCFramework directly {#xcframework}
+1. From the [releases page](https://github.com/adobe/aepsdk-flags-ios/releases), download `AEPFlags-<version>.xcframework.zip` and unzip it.
 
-Alternatively, drag the supplied `AEPFlags.xcframework` into the Xcode project navigator and add it to your application target. Under **General** > **Frameworks, Libraries, and Embedded Content**, set the framework to **Embed & Sign**.
+1. Download the XCFrameworks that the extension depends on from each repository's releases page:
 
-### Initialize the SDK {#initialize-sdk}
+   * [aepsdk-core-ios releases](https://github.com/adobe/aepsdk-core-ios/releases): `AEPCore`, `AEPServices`, `AEPLifecycle`, and `AEPRulesEngine`
+   * [aepsdk-edge-ios releases](https://github.com/adobe/aepsdk-edge-ios/releases): `AEPEdge`
+   * [aepsdk-edgeidentity-ios releases](https://github.com/adobe/aepsdk-edgeidentity-ios/releases): `AEPEdgeIdentity`
 
-Register the Mobile SDK extensions in your `AppDelegate` before calling any Flags APIs. Register `Flag` after Identity, Edge, and Lifecycle, then configure the SDK using the Environment File ID from your mobile property.
+1. In Xcode, select your app target, then open **General** > **Frameworks, Libraries, and Embedded Content**.
 
-#### Register and configure extensions {#register-configure}
+1. Add `AEPFlags.xcframework` and all the dependent XCFrameworks.
 
->[!IMPORTANT]
->
->For production apps, use `.error` log level only; do not use `.debug` or `.trace` in release builds.
+1. Set each framework to **Embed & Sign**.
 
-**Swift**
+## Initialize the SDK {#initialize-sdk}
+
+Register the Flags extension, then initialize the SDK with the Environment File ID from your mobile property. `MobileCore.initialize` does not register the Flags extension for you, so register it first.
+
+>[!BEGINTABS]
+
+>[!TAB Swift]
 
 ```swift
-// AppDelegate.swift
 import AEPCore
-import AEPLifecycle
-import AEPEdge
-import AEPEdgeIdentity
 import AEPFlags
 import UIKit
 
-final class AppDelegate: NSObject, UIApplicationDelegate {
-
-    func application(_: UIApplication,
-                      didFinishLaunchingWithOptions _: [UIApplication.LaunchOptionsKey: Any]? = nil) -> Bool {
-        // Production: use .error only. Do not use .debug or .trace in release builds.
-        MobileCore.setLogLevel(.error)
-
-        MobileCore.registerExtensions([
-            Identity.self,
-            Edge.self,
-            Lifecycle.self,
-            Flag.self
-        ]) {
-            MobileCore.configureWith(appId: "YOUR_ENVIRONMENT_FILE_ID")
-            MobileCore.lifecycleStart(additionalContextData: nil)
-        }
-
+class AppDelegate: UIResponder, UIApplicationDelegate {
+    func application(
+        _ application: UIApplication,
+        didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?
+    ) -> Bool {
+        MobileCore.registerExtensions([Flag.self])
+        MobileCore.initialize(appId: "<your-environment-file-id>")
         return true
     }
 }
 ```
 
-**Objective-C**
+>[!TAB Objective-C]
 
 ```objc
-// AppDelegate.m
-#import "AppDelegate.h"
 @import AEPCore;
-@import AEPLifecycle;
+@import AEPFlags;
+
+- (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
+    [AEPMobileCore registerExtensions:@[AEPMobileFlag.class] completion:nil];
+    [AEPMobileCore initializeWithAppId:@"<your-environment-file-id>" completion:nil];
+    return YES;
+}
+```
+
+>[!ENDTABS]
+
+### Register extensions manually {#register-manually}
+
+If you register extensions yourself, register all of them. Call `MobileCore.lifecycleStart` when the app enters the foreground and `MobileCore.lifecyclePause` when it enters the background.
+
+If your app uses scenes, make these calls in `sceneWillEnterForeground(_:)` and `sceneDidEnterBackground(_:)` instead.
+
+>[!BEGINTABS]
+
+>[!TAB Swift]
+
+```swift
+import AEPCore
+import AEPEdge
+import AEPEdgeIdentity
+import AEPFlags
+import AEPLifecycle
+import UIKit
+
+class AppDelegate: UIResponder, UIApplicationDelegate {
+    func application(
+        _ application: UIApplication,
+        didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?
+    ) -> Bool {
+        MobileCore.registerExtensions([
+            Lifecycle.self,
+            Edge.self,
+            AEPEdgeIdentity.Identity.self,
+            Flag.self
+        ]) {
+            MobileCore.configureWith(appId: "<your-environment-file-id>")
+            DispatchQueue.main.async {
+                if application.applicationState != .background {
+                    MobileCore.lifecycleStart(additionalContextData: nil)
+                }
+            }
+        }
+        return true
+    }
+
+    func applicationWillEnterForeground(_ application: UIApplication) {
+        MobileCore.lifecycleStart(additionalContextData: nil)
+    }
+
+    func applicationDidEnterBackground(_ application: UIApplication) {
+        MobileCore.lifecyclePause()
+    }
+}
+```
+
+>[!TAB Objective-C]
+
+```objc
+@import AEPCore;
 @import AEPEdge;
 @import AEPEdgeIdentity;
 @import AEPFlags;
+@import AEPLifecycle;
 
-@implementation AppDelegate
-
-- (BOOL)application:(UIApplication *)application
-    didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
-
-    // Production: use AEPLogLevelError only. Do not use Debug or Trace in release builds.
-    [AEPMobileCore setLogLevel:AEPLogLevelError];
-
+- (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     [AEPMobileCore registerExtensions:@[
-        AEPMobileEdgeIdentity.class,
-        AEPMobileEdge.class,
         AEPMobileLifecycle.class,
+        AEPMobileEdge.class,
+        AEPMobileEdgeIdentity.class,
         AEPMobileFlag.class
     ] completion:^{
-        [AEPMobileCore configureWithAppId:@"YOUR_ENVIRONMENT_FILE_ID"];
-        [AEPMobileCore lifecycleStart:nil];
+        [AEPMobileCore configureWithAppId:@"<your-environment-file-id>"];
+        dispatch_async(dispatch_get_main_queue(), ^{
+            if (application.applicationState != UIApplicationStateBackground) {
+                [AEPMobileCore lifecycleStart:nil];
+            }
+        });
     }];
-
     return YES;
 }
 
-@end
+- (void)applicationWillEnterForeground:(UIApplication *)application {
+    [AEPMobileCore lifecycleStart:nil];
+}
+
+- (void)applicationDidEnterBackground:(UIApplication *)application {
+    [AEPMobileCore lifecyclePause];
+}
 ```
+
+>[!ENDTABS]
 
 ## Evaluation context {#evaluation-context}
 
-`FeatureEvaluationContext` includes targeting attributes (used for flag rule matching).
+Every evaluation call takes a `FeatureEvaluationContext`. It holds the attributes that the targeting rules of your flags use.
 
 | Parameter | Required | Description |
 |---|---|---|
-| `attributes` | No | `[String: [String]]`. Key is the context attribute name used by your flag rules (for example `locale`, `platform`, `appVersion`, `deviceType`). Value is the list of candidate attribute values for that key for the current user/session (for example `["en_US"]` or `["phone"]`). |
+| `attributes` | No | `[String: [String]]`. Each key is an attribute name used by your flag targeting rules. Each value is the list of values for the current user. |
 
-**Swift**
+* Use attribute names and values that match the targeting rules you defined in Flags.
+* Call `withAttributes` at most once per builder. A second call terminates the app.
+* To evaluate without attributes, call `build()` without calling `withAttributes`.
+
+>[!BEGINTABS]
+
+>[!TAB Swift]
 
 ```swift
 import AEPFlags
 
-let attrs: [String: [String]] = [
-    "locale": ["en_US"],
-    "platform": ["IOS"],
-    "appVersion": ["3.0.0"]
-]
-
-let ctx = FeatureEvaluationContext.builder()
-    .withAttributes(attrs)
+let context = FeatureEvaluationContext.builder()
+    .withAttributes([
+        "locale": ["en_US"],
+        "appVersion": ["3.0.0"]
+    ])
     .build()
 ```
 
-**Objective-C**
+>[!TAB Objective-C]
 
 ```objc
 @import AEPFlags;
 
-NSDictionary<NSString *, NSArray<NSString *> *> *attrs = @{
-    @"locale": @[@"en_US"],
-    @"platform": @[@"IOS"],
-    @"appVersion": @[@"3.0.0"]
-};
-
-AEPFeatureEvaluationContextBuilder *builder = [AEPFeatureEvaluationContext builder];
-AEPFeatureEvaluationContext *ctx = [[builder withAttributes:attrs] build];
+AEPFeatureEvaluationContext *context = [[[AEPFeatureEvaluationContext builder]
+    withAttributes:@{
+        @"locale": @[@"en_US"],
+        @"appVersion": @[@"3.0.0"]
+    }]
+    build];
 ```
 
-### Sample targeting attributes {#sample-attributes}
+>[!ENDTABS]
 
-| Attribute | Description | Example values |
-|---|---|---|
-| `locale` | User's locale/language | `["en_US"]`, `["fr_FR"]` |
-| `platform` | Platform identifier | `["IOS"]` |
-| `appVersion` | Application version | `["3.0.0"]` |
-| `deviceType` | Device type | `["phone"]`, `["tablet"]` |
-
-### Custom identity {#custom-identity}
+## Custom identity {#custom-identity}
 
 The Flags extension uses the Identity for Edge Network extension for identity resolution. A feature flag can be cohorted on a custom identity (for example, a CRM ID or a loyalty ID) so that variant splits and analytics are tied to the identity that matters to your application.
 
 The custom identity namespace must be selected in the Flags UI when the feature flag is authored. To evaluate a flag against that identity, the same identity must be present in the Edge Identity `identityMap` on the device, using the matching namespace. Provide it at runtime with the Identity for Edge Network `updateIdentities` API.
 
-#### Add the custom identity to the Identity Map {#add-identity}
+### Add the custom identity to the Identity Map {#add-identity}
 
 Add the identity under the same namespace configured on the feature flag.
 
-**Swift**
+Note the following behavior:
+
+* The namespace must match the one configured on the flag exactly, including uppercase and lowercase letters.
+* If there are several identities in the namespace, the one marked as primary is used. If none is marked as primary, the first one is used.
+* If the identity is missing, the call does not fail. The user is assigned to a variant at random for the current app session only, and can be assigned to a different variant after the app restarts. Set the identity before you evaluate flags that use it.
+
+>[!BEGINTABS]
+
+>[!TAB Swift]
 
 ```swift
 import AEPEdgeIdentity
 
 let identityMap = IdentityMap()
-identityMap.add(item: IdentityItem(id: "1111", authenticatedState: .authenticated, primary: true),
-                 withNamespace: "userCRMId") // must match the namespace configured on the feature flag
+identityMap.add(
+    item: IdentityItem(id: "1111", authenticatedState: .authenticated, primary: true),
+    withNamespace: "userCRMId" // must match the namespace configured on the feature flag
+)
 Identity.updateIdentities(with: identityMap)
 ```
 
-**Objective-C**
+>[!TAB Objective-C]
 
 ```objc
 @import AEPEdgeIdentity;
 
-AEPIdentityItem *item = [[AEPIdentityItem alloc]
-    initWithId:@"1111"
-    authenticatedState:AEPAuthenticatedStateAuthenticated
-    primary:YES];
+AEPIdentityItem *item = [[AEPIdentityItem alloc] initWithId:@"1111"
+                                         authenticatedState:AEPAuthenticatedStateAuthenticated
+                                                    primary:YES];
 AEPIdentityMap *identityMap = [[AEPIdentityMap alloc] init];
 [identityMap addItem:item withNamespace:@"userCRMId"]; // must match the namespace configured on the feature flag
 [AEPMobileEdgeIdentity updateIdentities:identityMap];
 ```
 
+>[!ENDTABS]
+
+
 ## API reference {#api-reference}
 
 ### isFeatureEnabled {#is-feature-enabled}
 
-`isFeatureEnabled` returns whether a Flags feature is on or off for the given context. Pass `featureKey`, a `FeatureEvaluationContext` (optional targeting attributes), and a completion closure. See [Evaluation context](#evaluation-context).
+Check whether a feature is enabled for the current user. The result is `true` when the feature exists, the user matches its targeting rules, and the user is not in a control group. Otherwise, the result is `false`.
 
-**Signature**
+>[!BEGINTABS]
 
-*Swift*
+>[!TAB Swift]
 
 ```swift
 static func isFeatureEnabled(
     _ featureKey: String,
     evaluationContext: FeatureEvaluationContext,
-    completion: @escaping (Bool) -> Void
+    completion: @escaping (Bool) -> Void,
+    errorCallback: ((AEPError) -> Void)?
 )
 ```
 
-*Objective-C*
+>[!TAB Objective-C]
 
 ```objc
 + (void)isFeatureEnabled:(NSString *)featureKey
        evaluationContext:(AEPFeatureEvaluationContext *)evaluationContext
-               completion:(void (^)(BOOL))completion;
+              completion:(void (^)(BOOL))completion
+           errorCallback:(void (^ _Nullable)(enum AEPError))errorCallback;
 ```
+
+>[!ENDTABS]
 
 **Parameters**
 
@@ -317,65 +376,91 @@ static func isFeatureEnabled(
 | `featureKey` | String | Feature key to evaluate in Flags |
 | `evaluationContext` | FeatureEvaluationContext | Include targeting attributes as needed; use `FeatureEvaluationContext.builder().build()` for an empty context. See [Evaluation context](#evaluation-context). |
 | `completion` | `(Bool) -> Void` | Called with `true` if the feature is enabled, `false` otherwise. |
+| `errorCallback` | `((AEPError) -> Void)?` | Optional. Called only for genuine failures, such as an empty key, missing configuration, a failed evaluation, or a timeout. |
 
 **Examples**
 
-*Swift*
+>[!BEGINTABS]
+
+>[!TAB Swift]
 
 ```swift
-import AEPFlags
-
-Flag.isFeatureEnabled(
-    "new-flag",
-    evaluationContext: ctx
-) { isEnabled in
-    if isEnabled {
-        // Feature is enabled: run the feature-specific behavior
-    } else {
-        // Feature is disabled: fall back to the default behavior
+Flag.isFeatureEnabled("new-flag", evaluationContext: context) { isEnabled in
+    DispatchQueue.main.async {
+        if isEnabled {
+            // Run the feature-specific behavior
+        } else {
+            // Run the default behavior
+        }
+    }
+} errorCallback: { _ in
+    DispatchQueue.main.async {
+        // Run the default behavior
     }
 }
 ```
 
-*Objective-C*
+>[!TAB Objective-C]
 
 ```objc
-@import AEPFlags;
-
 [AEPMobileFlag isFeatureEnabled:@"new-flag"
-              evaluationContext:ctx
-                      completion:^(BOOL isEnabled) {
-    if (isEnabled) {
-        // Feature is enabled: run the feature-specific behavior
-    } else {
-        // Feature is disabled: fall back to the default behavior
-    }
+              evaluationContext:context
+                     completion:^(BOOL isEnabled) {
+    dispatch_async(dispatch_get_main_queue(), ^{
+        if (isEnabled) {
+            // Run the feature-specific behavior
+        } else {
+            // Run the default behavior
+        }
+    });
+} errorCallback:^(enum AEPError error) {
+    dispatch_async(dispatch_get_main_queue(), ^{
+        // Run the default behavior
+    });
 }];
 ```
 
+>[!ENDTABS]
+
 ### getFeature {#get-feature}
 
-`getFeature` returns the evaluated feature payload for the provided context. Use this API when you need more than enabled/disabled and want feature metadata or values.
+>[!IMPORTANT]
+>
+>Earlier versions called the error callback with `AEPError.unexpected` when a feature was not served. If your app treated that error as "feature missing", handle `nil` in the completion instead.
 
-**Signature**
+Returns the details of a feature for the current user, including its metadata and the variant the user is assigned to. Use it when you need more than enabled or disabled.
 
-*Swift*
+The completion is called with a result only when the feature is served to the user. If the feature is not served, the completion is called with `nil`. This is a normal outcome, not an error, and the error callback is not called. The completion is called with `nil` when:
+
+* No feature has this key.
+* The user does not match the targeting rules.
+* The user is in a control group.
+
+The error callback is called with `AEPError.unexpected` (or another `AEPError`) only when something goes wrong: the feature key is empty, a required configuration value is missing, the evaluation fails, the response cannot be read, or the request times out.
+
+>[!BEGINTABS]
+
+>[!TAB Swift]
 
 ```swift
 static func getFeature(
     _ featureKey: String,
     evaluationContext: FeatureEvaluationContext,
-    completion: @escaping (FeatureEvaluationResult?) -> Void
+    completion: @escaping (FeatureEvaluationResult?) -> Void,
+    errorCallback: ((AEPError) -> Void)?
 )
 ```
 
-*Objective-C*
+>[!TAB Objective-C]
 
 ```objc
 + (void)getFeature:(NSString *)featureKey
  evaluationContext:(AEPFeatureEvaluationContext *)evaluationContext
-        completion:(void (^)(AEPFeatureEvaluationResult * _Nullable))completion;
+        completion:(void (^)(AEPFeatureEvaluationResult * _Nullable))completion
+     errorCallback:(void (^ _Nullable)(enum AEPError))errorCallback;
 ```
+
+>[!ENDTABS]
 
 **Parameters**
 
@@ -383,7 +468,8 @@ static func getFeature(
 |---|---|---|
 | `featureKey` | String | Feature key to evaluate in Flags |
 | `evaluationContext` | FeatureEvaluationContext | Include targeting attributes as needed; use `FeatureEvaluationContext.builder().build()` for an empty context. See [Evaluation context](#evaluation-context). |
-| `completion` | `(FeatureEvaluationResult?) -> Void` | Called with the evaluated feature payload; `nil` when the feature is not found. |
+| `completion` | `(FeatureEvaluationResult?) -> Void` | Called with the evaluated feature payload. Called with `nil` when the feature is not served to the user (unknown key, targeting not matched, or control group). `nil` is not an error. |
+| `errorCallback` | `((AEPError) -> Void)?` | Optional. Called only for genuine failures, such as an empty key, missing configuration, a failed evaluation, or a timeout. Not called when the feature is not served. |
 
 **Response**
 
@@ -391,75 +477,60 @@ static func getFeature(
 
 | Field | Type | Description |
 |---|---|---|
-| `id` | Int | Numeric feature identifier |
-| `key` | String | Feature key |
-| `featureGroupKey` | String? | Feature group key when available |
-| `meta` | String? | Opaque feature metadata when available |
-| `analyticsParam` | AnalyticsParam? | Analytics details for the evaluated feature |
-
-*AnalyticsParam*
-
-| Field | Type | Description |
-|---|---|---|
-| `featureGroupId` | Int | Numeric feature group identifier |
-| `featureId` | Int | Numeric feature identifier |
-| `variantId` | String? | Variant identifier |
+| `id` | Int | The feature ID |
+| `key` | String | The feature key |
+| `featureGroupKey` | String? | The key of the feature group that contains the feature |
+| `meta` | String? | The metadata configured for the feature, as text. If your metadata is JSON, decode it in your app. |
+| `analyticsParam` | AnalyticsParam? | Identifiers of the feature and the user's variant |
 
 **Examples**
 
-*Swift*
+>[!BEGINTABS]
+
+>[!TAB Swift]
 
 ```swift
-import AEPFlags
-
-Flag.getFeature(
-    "new-flag",
-    evaluationContext: ctx
-) { feature in
-    guard let meta = feature?.meta, !meta.isEmpty else {
-        // No metadata available: fall back to the default behavior
-        return
+Flag.getFeature("new-flag", evaluationContext: context) { feature in
+    DispatchQueue.main.async {
+        guard let meta = feature?.meta, !meta.isEmpty else {
+            // The feature is not served to this user (feature is nil), or it has no metadata.
+            // Run the default behavior
+            return
+        }
+        // Use the metadata to drive the feature behavior
     }
-    // Feature metadata is available: use it to drive the feature behavior
+} errorCallback: { _ in
+    DispatchQueue.main.async {
+        // A genuine failure occurred. Run the default behavior
+    }
 }
 ```
 
-*Objective-C*
+>[!TAB Objective-C]
 
 ```objc
-@import AEPFlags;
-
 [AEPMobileFlag getFeature:@"new-flag"
-        evaluationContext:ctx
-                completion:^(AEPFeatureEvaluationResult * _Nullable feature) {
-    NSString *meta = feature.meta;
-    if (meta.length > 0) {
-        // Feature metadata is available: use it to drive the feature behavior
-    } else {
-        // No metadata available: fall back to the default behavior
-    }
+        evaluationContext:context
+               completion:^(AEPFeatureEvaluationResult * _Nullable feature) {
+    dispatch_async(dispatch_get_main_queue(), ^{
+        if (feature.meta.length > 0) {
+            // Use the metadata to drive the feature behavior
+        } else {
+            // Run the default behavior
+        }
+    });
+} errorCallback:^(enum AEPError error) {
+    dispatch_async(dispatch_get_main_queue(), ^{
+        // Run the default behavior
+    });
 }];
 ```
 
+>[!ENDTABS]
+
 ### extensionVersion {#extension-version}
 
-Returns the version string of the Flags extension.
-
-**Syntax**
-
-*Swift*
-
-```swift
-static var extensionVersion: String
-```
-
-*Objective-C*
-
-```objc
-+ (nonnull NSString *)flagExtensionVersion;
-```
-
-**Example**
+Returns the version of the Flags extension.
 
 *Swift*
 
@@ -477,14 +548,6 @@ NSString *version = [AEPMobileFlag flagExtensionVersion];
 
 | API | Returns |
 |---|---|
-| `isFeatureEnabled(_:evaluationContext:completion:)`. `FeatureEvaluationContext` carries targeting attributes for rules. See [isFeatureEnabled](#is-feature-enabled). | Bool via completion closure |
-| `getFeature(_:evaluationContext:completion:)`. Returns the evaluated feature payload for the given context. See [getFeature](#get-feature). | FeatureEvaluationResult? via closure |
+| `isFeatureEnabled(_:evaluationContext:completion:errorCallback:)` | Bool through the completion |
+| `getFeature(_:evaluationContext:completion:errorCallback:)` | FeatureEvaluationResult? through the completion |
 | `extensionVersion` | String |
-
-## See also {#see-also}
-
-* [Mobile applications](../../integrate/mobile-applications.md)
-* [SDKs](../../integrate/sdks.md)
-* [Android extension integration guide](../android/android-extension-integration-guide.md)
-
-<!-- -->

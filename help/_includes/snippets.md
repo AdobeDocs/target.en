@@ -34,4 +34,3 @@
 
 The activity name cannot begin with `=`, `+`, `-`, or `@`. The activity name also cannot contain any of the following character sequences: `;=`, `;+`, `;-`, `;@`, `,=`, `,+`, `,-`, `,@`, `["`, or `"]`.
 
-

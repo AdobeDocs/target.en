@@ -41,14 +41,17 @@ Ensure this extension is installed in your Data Collection web property before i
 
 ### Install the extension {#install-extension}
 
-1. Log in to [experience.adobe.com](https://experience.adobe.com) using your Adobe ID credentials.
-1. Navigate to **Data Collection** > **Tags**.
-1. Select the desired tag property.
-1. Navigate to **Extensions** > **Catalog**.
-1. Search for **Flags** and select the extension card.
-1. Select **Install**.
+1. Log in to [Adobe Experience Platform Data Collection](https://experience.adobe.com/#/data-collection).
 
-### Configure extension settings {#configure-settings}
+1. Select the **[!UICONTROL Tags]** tab and choose your mobile property.
+
+1. Navigate to **[!UICONTROL Extensions]** > **[!UICONTROL Catalog]**.
+
+1. Search for **[!DNL Adobe Flags]** and select **[!UICONTROL Install]**.
+
+   ![](../assets/extension-install.png)
+
+#### Configure the extension settings {#configure-extension-settings}
 
 When you install the Flags extension, you are taken to the configuration page. Configure the following settings:
 
@@ -56,14 +59,17 @@ When you install the Flags extension, you are taken to the configuration page. C
 |---|---|---|
 | Client ID | A unique identifier for your application in Flags. | Yes |
 
-### Save and publish {#save-publish}
+#### Publish the extension {#publish-extension}
 
-1. Select **Save** to save your extension configuration.
-1. Follow the publishing flow to deploy your changes:
-   1. Add the extension to a library.
-   1. Build to your development environment.
-   1. Validate with Adobe Experience Platform Debugger.
-   1. Promote to staging and production.
+Follow the [publishing process](https://experienceleague.adobe.com/en/docs/experience-platform/tags/publish/overview) to update your configuration.
+
+1. Add the extension to a library.
+
+1. Build to your development environment.
+
+1. Validate with [Adobe Experience Platform Debugger](https://experienceleague.adobe.com/docs/experience-platform/debugger/home.html).
+
+1. Promote to staging and production.
 
 ## Add the Tags embed code to your website {#embed-code}
 
@@ -72,17 +78,28 @@ After publishing your Tags library, you must add the embed code to your website.
 ### Copy the embed code {#copy-embed-code}
 
 1. In Data Collection, navigate to your web property.
-1. Select **Environments** in the left navigation.
-1. In the row for your target environment (Development, Staging, or Production), select the box icon under the **Install** column.
-1. In the **Web Install Instructions** dialog, Tags defaults to the asynchronous embed code.
-1. Select the **Copy** icon to copy the embed code to your clipboard.
-1. Select **Close** to close the modal.
+
+1. Access the **[!UICONTROL Environments]** menu.
+
+1. Select the box icon in the **[!UICONTROL Install]** column of your selected environment.
+
+   ![](../assets/extension-install-2.png)
+
+1. In the **[!UICONTROL Web Install Instructions]** dialog, Tags defaults to the asynchronous embed code.
+
+1. Select the **[!UICONTROL Copy]** icon to copy the embed code to your clipboard.
+
+    >[!NOTE]
+    >
+    >Each environment has a unique embed code URL. See [Environments](https://experienceleague.adobe.com/docs/experience-platform/tags/publish/environments/environments.html) documentation for more information.
+
+   ![](../assets/extension-install-4.png)
+
+### Implement the embed code {#implement-embed-code}
 
 >[!NOTE]
 >
->Each environment has a unique embed code URL. See Environments for more information.
-
-### Implement the embed code {#implement-embed-code}
+>Replace the `src` URL with your actual embed code from the Environments page. The URL contains your company identifier, property identifier, and environment identifier (for example, `launch-EN123456789abcdef.min.js`).
 
 Add the embed code in the `<head>` element of your HTML pages. The embed code should be placed before other scripts that depend on the Tags library:
 
@@ -93,17 +110,13 @@ Add the embed code in the `<head>` element of your HTML pages. The embed code sh
   <title>My Website</title>
 
   <!-- Adobe Experience Platform Tags embed code -->
-  <script src="https://assets.adobedtm.com/yourcompany/your-property/launchENxxxxxxxxxxx.min.js" async></script>
+  <script src="https://assets.adobedtm.com/your-company/your-property/launch-ENxxxxxxxxxxx.min.js" async></script>
 </head>
 <body>
   <!-- Your page content -->
 </body>
 </html>
 ```
-
->[!NOTE]
->
->Replace the `src` URL with your actual embed code from the Environments page. The URL contains your company identifier, property identifier, and environment identifier (for example, `launch-EN123456789abcdef.min.js`).
 
 ### Evaluate flags with Tags components {#tags-components}
 
@@ -164,7 +177,7 @@ const context = {
 
 ## API reference {#api-reference}
 
-### isFeatureEnabled {#is-feature-enabled}
+### Feature evaluation {#is-feature-enabled}
 
 `isFeatureEnabled` returns whether a Flags feature is on or off for the given context. Pass `featureKey` and a `FeatureEvaluationContext`. See [Evaluation context](#evaluation-context). Use the **Feature Is Enabled** Tags condition or call `window._flagClient.isFeatureEnabled(...)` from custom code after initialization.
 
@@ -181,49 +194,52 @@ isFeatureEnabled(featureKey: string, context: FeatureEvaluationContext): boolean
 | `featureKey` | string | Feature key to evaluate in Flags |
 | `context` | FeatureEvaluationContext | Identity (required) and optional targeting attributes. See [Evaluation context](#evaluation-context). |
 
-### Create a Feature Flag data element {#create-data-element}
+## Create a Feature Flag data element {#create-data-element}
 
 Use a data element when you need a flag value available as `%Data Element Name%` in rules or custom code.
 
-**Steps**
+1. In your property, access **[!UICONTROL Data Elements]** menu and select **[!UICONTROL Add Data Element]**.
 
-1. In your property, go to **Data Elements** and select **Add Data Element**.
+   ![](../assets/extension-install-5.png)
+
 1. On the **Create Data Element** screen, configure the Tags fields:
 
-   | Field | Value |
-   |---|---|
-   | Name | A descriptive name (for example `checkout flag`) |
-   | Extension | Flags |
-   | Data Element Type | Feature Flag |
+    * **[!UICONTROL Name]**: a descriptive name (for example `checkout flag`)
+    * **[!UICONTROL Extension]**: Flags
+    * **[!UICONTROL Data Element Type]**: Feature Flag 
 
 1. Configure the **Flags** extension fields:
 
-   | Field | Required | Description |
-   |---|---|---|
-   | Feature Key | Yes | Unique flag key (for example `checkout_flag`) |
-   | Return Type | Yes | **Boolean (true/false)** — enabled/disabled, or **Feature Object (full details)** — full payload including `meta` |
+    * **[!UICONTROL Feature Key]**: Unique flag key (for example `checkout_flag`), required.
+    * **[!UICONTROL Return Type]**: **Boolean (true/false)** — enabled/disabled, or **Feature Object (full details)** — full payload including `meta`, required.
+      
+      | Return type | Resolves to |
+      |---|---|
+      | Boolean (true/false) | `true` if enabled, `false` otherwise |
+      | Feature Object (full details) | Evaluated feature payload when the flag is enabled and the context matches its audience; `null` when the flag is disabled, not found, or the context does not match |
 
 1. Select **Save**.
 
-**Return types**
-
-| Return type | Resolves to |
-|---|---|
-| Boolean (true/false) | `true` if enabled, `false` otherwise |
-| Feature Object (full details) | Full evaluated feature payload, or `null` when not satisfy rules |
-
 ### Use the data element {#use-data-element}
 
-In a rule — reference by name, for example `%Test Flag%`.
+In a rule, reference by name, for example `%Test Flag%`.
 
-In custom code — use `_satellite.getVar`. With runtime attributes, pass a flat attribute map as the second argument to evaluate:
+In custom code, use `_satellite.getVar`. With runtime attributes, pass a flat attribute map as the second argument to evaluate:
 
 ```javascript
 var isEnabled = _satellite.getVar('Test Flag', {
   locale: ['en-US'],
   platform: ['web']
 });
+```
 
+**Custom code**
+
+```javascript
+var isEnabled = _satellite.getVar('Test Flag', {
+  locale: ['en-US'],
+  platform: ['web']
+});
 if (isEnabled) {
   // your custom code
 } else {
@@ -235,7 +251,7 @@ if (isEnabled) {
 
 `getFeature` returns the evaluated feature payload when you need metadata beyond enabled/disabled.
 
-Use a **Feature Flag** data element with **Return Type: Feature Object (full details)** — see [Create a Feature Flag data element](#create-data-element) — or call `window._flagClient.getFeature(...)` from custom code after `flagClientReady` resolves.
+Use a **Feature Flag** data element with **Return Type: Feature Object (full details)**, see [Create a Feature Flag data element](#create-data-element), or call `window._flagClient.getFeature(...)` from custom code after `flagClientReady` resolves.
 
 **Signature**
 
@@ -252,15 +268,17 @@ getFeature(featureKey: string, context: FeatureEvaluationContext): FeatureResult
 
 **Response**
 
+`getFeature` evaluates a flag only when it is enabled and the provided context matches the flag audience criteria. In that case it returns a result object; otherwise, it returns `null`.
+
 *FeatureResult*
 
 | Field | Type | Description |
 |---|---|---|
 | `id` | number | Numeric feature identifier. `-1` for feature-level control sentinel. |
-| `key` | string \| null | Feature key. `null` for feature-level control sentinel. |
-| `featureGroupKey` | string \| null | Feature group key when available |
-| `meta` | string \| null | Feature metadata when available |
-| `analyticsParam` | AnalyticsParam \| null | Analytics details for the evaluated feature |
+| `key` | `string \| null` | Feature key. `null` for feature-level control sentinel. |
+| `featureGroupKey` | `string \| null` | Feature group key when available |
+| `meta` | `string \| null` | Feature metadata when available |
+| `analyticsParam` | `AnalyticsParam \| null` | Analytics details for the evaluated feature |
 
 *AnalyticsParam*
 
@@ -268,7 +286,7 @@ getFeature(featureKey: string, context: FeatureEvaluationContext): FeatureResult
 |---|---|---|
 | `featureGroupId` | number | Numeric feature group identifier |
 | `featureId` | number | Numeric feature identifier |
-| `variantId` | number \| null | Variant identifier (`0` for control) |
+| `variantId` | `number \| null` | Variant identifier (`0` if the user is in the control group) |
 
 **Control group behavior**
 
@@ -278,10 +296,16 @@ getFeature(featureKey: string, context: FeatureEvaluationContext): FeatureResult
 | Feature-level control | `false` | Sentinel (`id: -1`, `key: null`) | Yes (`variantId: 0`) | Yes |
 | Criteria mismatch / not found | `false` | `null` | No | No |
 
-**Example**
+**Examples**
+
+*Tags data element*
+
+Reference your data element (for example `%Test Feature%`) in a rule and fetch it via `_satellite.getVar`.
+
+*Custom code*
 
 ```javascript
-var feature = _flagClient.getFeature('new-testflag', {
+var feature = _flagClient.getFeature('new-test-flag', {
   identityNamespace: 'ECID',
   identityId: visitorEcid,
   attributes: {
@@ -335,6 +359,8 @@ The extension handles errors gracefully:
 | Missing identity in context | Evaluation throws an error; provide both `identityNamespace` and `identityId` |
 | Feature not found | `getFeature` returns `null`; `isFeatureEnabled` returns `false` |
 
+**Example**
+
 ```javascript
 try {
   const isEnabled = _flagClient.isFeatureEnabled('my-feature', context);
@@ -350,6 +376,8 @@ try {
 ### Provide consistent identity {#consistent-identity}
 
 Use the same identity namespace and ID across evaluations for consistent bucketing in percentage rollouts.
+
+**Example**
 
 ```javascript
 const context = {
@@ -369,7 +397,7 @@ const isEnabled = _flagClient.isFeatureEnabled('my-feature', context);
 Always provide fallback behavior when a feature is not found or evaluation fails.
 
 ```javascript
-const feature = _flagClient.getFeature('new-testflag', context);
+const feature = _flagClient.getFeature('new-test-flag', context);
 
 if (feature && feature.meta) {
   // your custom code
@@ -395,4 +423,3 @@ window.flagClientReady.then(function () {
 * [Audience in feature flags and feature groups](../../audience/audience-in-feature-flags-and-feature-groups.md)
 * [Reporting](../../feature-flags/reporting.md)
 
-<!-- -->
