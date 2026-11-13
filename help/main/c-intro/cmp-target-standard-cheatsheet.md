@@ -260,7 +260,7 @@ Try the [Profile Scripts feature](/help/main/c-target/c-visitor-profile/profile-
 **Can I start an activity with a fewer number of visitors?**
 
 +++See details
-Use the percentage allocation controls available from [Step 2 of the Target three-part guided workflow (Targeting page)](/help/main/c-activities/t-test-ab/t-test-create-ab/ab-audience.md#concept_A268236C1224451DB7844BF67F41A087) to decide how you want to set up the activity.
+Use the percentage allocation controls available from [Step 2 of the Target three-part guided workflow (Targeting page)](/help/main/c-activities/t-test-ab/t-test-create-ab/ab-audience.md#select-audience) to decide how you want to set up the activity.
 
 +++
 
@@ -335,7 +335,7 @@ Reach out to Adobe to [ensure that your account is set up for Scene7](/help/main
 **I want to test between two different experiences, for example Flat discount versus Percentage discount, but I want to target the experiences properly (show different locale text or different currency for people coming from different countries). How can I do this?**
 
 +++See details
-You can easily achieve this with our [Multiple Experience Versions feature](/help/main/c-activities/t-test-ab/t-test-create-ab/target-experience-to-multiple-audiences.md#task_0138112E283A4A5B9F8AB9AAF2FBC2FF). Note the nuances around delivery in such tests.
+You can easily achieve this with our [Multiple Experience Versions feature](/help/main/c-activities/t-test-ab/t-test-create-ab/target-experience-to-multiple-audiences.md#use-case). Note the nuances around delivery in such tests.
 
 +++
 
