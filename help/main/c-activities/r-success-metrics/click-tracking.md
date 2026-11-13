@@ -38,15 +38,15 @@ topic_v2:
 >
 >Tracking clicks is not supported on the global [!DNL Target] request when it is used as a location in a form-based activity.
 
-* [Set up click tracking](#section_5540C5A533114E57BAE022A600B02E72)
-* [Selected Elements panel](#selected-elements)
-* [Considerations](#considerations): selecting elements, how clicks are counted, Analytics and at.js, and limits
-
 ## Set up click tracking {#section_5540C5A533114E57BAE022A600B02E72}
+
+Click tracking is a type of conversion success metric. It counts the clicks that activity entrants make on the page elements that you select, so that you can measure how visitors engage with those elements. Any element of a page can be tracked, such as a link, a button, or an image.
 
 1. When setting your goals on the **[!UICONTROL Goals & Settings]** page for your activity, select the **[!UICONTROL Conversion]** success metric.
 
 1. For the action, select **[!UICONTROL Clicked an element]**, then click **[!UICONTROL Select elements]**.
+
+   ![Elements selected](../assets/click-tracking-1.png)
 
    Your page opens in the **[!UICONTROL Visual Experience Composer]** (VEC).
 
@@ -56,15 +56,19 @@ topic_v2:
 
 1. Click **[!UICONTROL Done]** at the top of the screen to save your selections.
 
+   The goal metric on the **[!UICONTROL Goals & Settings]** page then shows the number of selected elements. Hover over it to see the elements.
+
+   ![Elements selected](../assets/click-tracking-2.png)
+
 When an activity entrant clicks a selected element, that click is counted as a conversion.
 
 ## Selected Elements panel {#selected-elements}
 
 For **[!UICONTROL A/B Test]**, **[!UICONTROL Experience Targeting]** (XT), **[!UICONTROL Automated Personalization]** (AP), and **[!UICONTROL Multivariate Test]** (MVT) activities, a **[!UICONTROL Selected Elements]** panel lists the selected elements for click tracking on the left side.
 
-![Selected Elements panel](/help/main/c-activities/r-success-metrics/assets/selected-elements.png)
+![Selected Elements panel](../assets/click-tracking-3.png)
 
-There are several actions that can be applied when you click an element in the **[!UICONTROL Tracked Components]** panel. The following table describes each action that can be performed on an element:
+There are several actions that can be applied when you click an element in the **[!UICONTROL Selected Elements]** panel. The following table describes each action that can be performed on an element:
 
 |Action|Description|
 | --- | --- |
@@ -76,19 +80,17 @@ There are several actions that can be applied when you click an element in the *
 
 If you already know the DOM path to the selector, you can add it manually by clicking the **[!UICONTROL Add Component]** icon at the top of the panel.
 
-![Add Component icon](/help/main/c-activities/r-success-metrics/assets/add-element.png)
+![Add Component icon](../assets/click-tracking-4.png)
 
 ## Considerations {#considerations}
 
-Consider the following points when you set up click tracking.
-
 ### Select elements
 
-* The DOM path feature is available when setting up click tracking. When you click an element on the page, the VEC options menu displays. In addition, the corresponding DOM path displays at the bottom of the page. You can use the DOM path to quickly see information about the selected element (type, ID, and class) and move up or down the DOM path to select the desired element.
+* When you click an element, the VEC options menu displays, and the DOM path of the element displays at the bottom of the page. Use the DOM path to see information about the element (type, ID, and class) and to move up or down the path to select the element that you want.
 
-  Like when creating experiences in Step 1 in the activity-creation workflow, the DOM path selector at the bottom of the page lets you choose an element. On selecting an element from the DOM path, the corresponding element in the VEC displays as "Selected." To unselect a selected element, you can click the element again in the DOM path selector or click the "Selected" box within the VEC.
+  The element that you select in the DOM path displays as **[!UICONTROL Selected]** in the VEC. To unselect it, click it again in the DOM path or click the **[!UICONTROL Selected]** box in the VEC.
 
-  ![DOM path selector](/help/main/c-activities/r-success-metrics/assets/click-tracking-dom.png)
+  ![DOM path selector](../assets/click-tracking-5.png)
 
   For more information, see [Navigate elements using the DOM path](/help/main/c-experiences/c-visual-experience-composer/viztarget-options.md#dom-path) in *Visual Experience Composer Options*.
 
@@ -96,10 +98,6 @@ Consider the following points when you set up click tracking.
 * Make sure you select the level of element you want to track. For example, when specifying a button, make sure you select the link and not the button text.
 * If you select more than one element, if an entrant clicks on any one of the chosen elements, the click is counted. To count each item separately, set up individual success metrics for each element. To count one item by clicking several elements on a page, edit the CSS Element Selector to match multiple elements.
 * For **[!UICONTROL Automated Personalization]** (AP) and Auto-Target activities on single page applications (SPAs), you can select elements for click tracking that belong to a specific [!DNL Target] View. For more information about Views, see [Adobe Target Views and Single Page Applications](/help/main/c-experiences/spa-visual-experience-composer.md).
-
-After you click **[!UICONTROL Done]**, the number of selected elements displays in the goal metric on the **[!UICONTROL Goals & Settings]** page. Hover over it to see the selected elements.
-
-![Elements selected](/help/main/c-activities/r-success-metrics/assets/elements-selected-link.png)
 
 ### How clicks are counted
 
