@@ -115,7 +115,7 @@ Stopping activities prematurely can result in wrong conclusions. Be aware of [co
 **How can I perform an activity if the time-window is small and can I optimize for my goal as I test?**
 
 +++See details
-See [reports to determine the winning experience](/help/main/c-activities/automated-traffic-allocation/determine-winner.md#concept_5741A89ED7224E1285A3BC34B2CCD0F9).
+See [reports to determine the winning experience](/help/main/c-activities/automated-traffic-allocation/determine-winner.md#interpret-auto-allocate-reports).
 
 +++
 
