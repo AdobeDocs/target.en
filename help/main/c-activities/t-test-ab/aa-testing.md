@@ -28,7 +28,7 @@ topic_v2:
 
 >[!ENDSHADEBOX]
 
-Before performing an A/A test on your site using [!DNL Adobe Target], it is important to understand what an A/A test is, why you might want to perform an A/A test, how long you should run the test, and how to interpret the results.
+An A/A test splits traffic between two identical experiences. Because the experiences do not differ, the test is a way to check that your activity, your implementation, and your reporting work as expected. Even so, identical experiences can sometimes show a difference in lift. Understanding why helps you run the test and interpret its results correctly.
 
 ## What is A/A testing? {#what-is-aa}
 
@@ -45,21 +45,21 @@ Some organizations perform A/A testing when implementing a new testing tool, suc
 * The code was implemented correctly
 * The reporting is accurate
 
-Although few organizations run A/A tests, it is good practice to run them as "sanity" experiments to build trust after implementing the tool or before performing A/B tests that could impact conversion and revenue.
+Although few organizations run A/A tests, it is good practice to run them as sanity-check experiments to build trust after implementing the tool or before performing A/B tests that could impact conversion and revenue.
 
 ## Why identical experiences can show lift {#why-lift}
 
-There are numerous reasons why you might see lift in one experience over another (identical) experience:
+There are two main reasons why you might see lift in one experience over another (identical) experience:
 
-### The A/A test was monitored continually
+### The A/A test was monitored continually {#data-peeking}
 
 A common problem in running any kind of test, including an A/A test, is to look at the results continually, and prematurely stop a test when you see statistical significance, and declare a winning experience. Analysts often do what is called "data peeking." Data peeking involves looking at the test data early and frequently while trying to determine which experience is performing better. The risk is to stop the test prematurely, which could invalidate the results.
 
 In an A/A test, data peeking can often cause analysts to see lift in one experience, when in fact there should be no difference, because the two experiences are identical. In fact, with continuous peeking, A/A tests are *guaranteed* to show "statistical significance" (namely, a confidence above a certain threshold, such as 95%) at some point during the test.
 
-### Statistical significance impacts your test results
+### Statistical significance impacts your test results {#statistical-significance}
 
-The significance level of a test determines how likely it is that the test reports a significant difference in conversion rates between two different offers when, in fact, there is no real difference. This is known as a false positive, or a Type I error. The significance level is a threshold specified by the user and there is a trade-off between the tolerance for false positives and the number of visitors that must be included in the test in choosing the proper significance level.
+The significance level of a test determines how likely it is that the test reports a significant difference in conversion rates between two different experiences when, in fact, there is no real difference. This is known as a false positive, or a Type I error. The significance level is a threshold specified by the user and there is a trade-off between the tolerance for false positives and the number of visitors that must be included in the test in choosing the proper significance level.
 
 A commonly used significance level in A/A and A/B testing is 5%, which corresponds to a confidence level of 95% (confidence level = 100% - significance level). A confidence level of 95% means that every time you perform a test, there is a 5% chance of detecting a statistically significant lift even if there is no difference between the experiences.
 
@@ -67,15 +67,13 @@ Suppose you want to achieve a 95% confidence level with your A/A test. With a 95
 
 ## Best practice {#best-practice}
 
-If you decide that an A/A test is necessary in your organization, be aware that the identical experiences might temporarily show a difference from the control. This can be normal, depending on the time the test is allowed to run. The difference should shrink given more time and visitors.
+If you decide that an A/A test is necessary in your organization, be aware that the identical experiences might temporarily show a difference from the control. This can be normal, depending on the time the test is allowed to run. The difference should shrink given more time and visitors. Depending on the significance level of your test, there is also a chance that one experience shows a difference in lift and is even declared the winner.
 
 Use regular A/B testing methodology:
 
 1. Decide ahead of time what sample size to use, based on the minimum effect size (the minimum lift below which an effect is not important to your business), power, and significance levels you find acceptable. The **[!UICONTROL Adobe Target Sample Size Calculator]** is an important tool to help you determine what sample size you should aim for and how long you should run the test. See the [Adobe Target Sample Size Calculator](/help/main/c-activities/t-test-ab/sample-size-determination.md#section_6B8725BD704C4AFE939EF2A6B6E834E6).
 
 1. Allow adequate time and visitors before you reach any conclusions. In an A/A test, the goal is to *not* see a statistically significant result after your test has reached the desired sample size.
-
-1. Remember that, depending on the significance level of your test, there is a chance that one experience will show a difference in lift, and even be declared the winner.
 
 For information about how long you should run an activity, and other helpful tips and tricks, see the following articles:
 
