@@ -122,7 +122,7 @@ You can consume [!UICONTROL Experience Fragments] in [!DNL Target] activities us
 >
 >Use Artificial Intelligence, Machine Learning, and recommendations with [!UICONTROL Experience Fragments]:
 >
->* To fully use the [!DNL Target] AI and ML functionality, you can select [Auto-Allocate](/help/main/c-activities/automated-traffic-allocation/automated-traffic-allocation.md#concept_A1407678796B4C569E94CBA8A9F7F5D4) or [Auto-Target](/help/main/c-activities/auto-target/auto-target-to-optimize.md) while creating an  activity.
+>* To fully use the [!DNL Target] AI and ML functionality, you can select [Auto-Allocate](/help/main/c-activities/automated-traffic-allocation/automated-traffic-allocation.md#auto-allocate-overview) or [Auto-Target](/help/main/c-activities/auto-target/auto-target-to-optimize.md) while creating an  activity.
 >
 >* [!UICONTROL Experience Fragments] are not supported in [!DNL Recommendations] activities. However, to use [!UICONTROL Experience Fragments] for recommendations you can create an [!UICONTROL A/B Test] activity (including [!UICONTROL Auto-Allocate] and [!UICONTROL Auto-Target]) or an [!UICONTROL Experience Targeting] (XT) activity and [include recommendations as an offer](/help/main/c-recommendations/recommendations-as-an-offer.md). 
 
@@ -144,7 +144,7 @@ You can consume [!UICONTROL Experience Fragments] in [!DNL Target] activities us
    For more information about configuring the various activity types, see the following topics:
 
     * **A/B Test:** [Create an A/B Test](/help/main/c-activities/t-test-ab/t-test-create-ab/test-create-ab.md) 
-    * **Auto-Allocate:** [Auto-Allocate](/help/main/c-activities/automated-traffic-allocation/automated-traffic-allocation.md#concept_A1407678796B4C569E94CBA8A9F7F5D4) 
+    * **Auto-Allocate:** [Auto-Allocate](/help/main/c-activities/automated-traffic-allocation/automated-traffic-allocation.md#auto-allocate-overview) 
     * **Auto-Target:** [Auto-Target](/help/main/c-activities/auto-target/auto-target-to-optimize.md)
     * **Automated Personalization (AP):** [Creating an Automated Personalization Activity](/help/main/c-activities/t-automated-personalization/create-ap-activity.md#create-ap-activity) 
     * **Experience Targeting (XT):** [Create an Experience Targeting Activity](/help/main/c-activities/t-experience-target/t-xt-create/xt-create.md#create-xt-activity)

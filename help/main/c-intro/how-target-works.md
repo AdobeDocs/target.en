@@ -102,7 +102,7 @@ See [Create an A/B Test](/help/main/c-activities/t-test-ab/t-test-create-ab/test
 
 [!UICONTROL Auto-Allocate] identifies the winning experience among two or more options. It then automatically reallocates more traffic to the winner, increasing conversions as the test continues to run and learn.
 
-See [[!UICONTROL Auto-Allocate]](/help/main/c-activities/automated-traffic-allocation/automated-traffic-allocation.md#concept_A1407678796B4C569E94CBA8A9F7F5D4) for more information.
+See [[!UICONTROL Auto-Allocate]](/help/main/c-activities/automated-traffic-allocation/automated-traffic-allocation.md#auto-allocate-overview) for more information.
 
 ### [!UICONTROL Auto-Target] (AT)
 
