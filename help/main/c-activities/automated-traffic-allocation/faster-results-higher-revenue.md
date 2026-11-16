@@ -18,7 +18,7 @@ topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
     internal-label: Customer experience
 ---
-# [!UICONTROL Auto-Allocate] gives you faster test results and higher revenue than a manual test {#faster-results-higher-revenue}
+# How [!UICONTROL Auto-Allocate] outperforms a manual test {#faster-results-higher-revenue}
 
 >[!BEGINSHADEBOX]
 

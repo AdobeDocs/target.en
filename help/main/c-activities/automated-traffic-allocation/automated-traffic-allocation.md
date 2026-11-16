@@ -113,7 +113,7 @@ After an **[!UICONTROL Auto-Allocate]** activity is activated, the following ope
 * Changing the goal metric type.
 * Changing options in the **[!UICONTROL Advanced Settings]** panel.
 
-For more information, see [Auto-Allocate can give you faster test results and higher revenue than a manual test](/help/main/c-activities/automated-traffic-allocation/faster-results-higher-revenue.md).
+For more information, see [How Auto-Allocate outperforms a manual test](/help/main/c-activities/automated-traffic-allocation/faster-results-higher-revenue.md).
 
 ## Caveats {#caveats}
 
