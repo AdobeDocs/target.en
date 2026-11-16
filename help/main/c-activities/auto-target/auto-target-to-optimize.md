@@ -59,7 +59,7 @@ When you [create an A/B activity](/help/main/c-activities/t-test-ab/t-test-creat
 
 This option within the A/B activity flow lets you use machine learning to personalize content, based on a set of marketer-defined experiences, in one click. **[!UICONTROL Auto-Target]** is designed to deliver maximum optimization, compared to traditional A/B testing or **[!UICONTROL Auto-Allocate]**, by determining which experience to display for each visitor. Unlike an A/B activity, in which the objective is to find a single winner, **[!UICONTROL Auto-Target]** automatically determines the best experience for a given visitor. The best experience is based on the visitor profile and other contextual information.
 
-Similarly to **[!UICONTROL Automated Personalization]**, **[!UICONTROL Auto-Target]** uses a [Random Forest algorithm](/help/main/c-activities/t-automated-personalization/algo-random-forest.md), a leading data science ensemble method, to determine the best experience to show to a visitor. Because **[!UICONTROL Auto-Target]** can adapt to changes in visitor behavior, it can run perpetually to provide lift. This method is sometimes referred to as "always-on" mode.
+Similarly to **[!UICONTROL Automated Personalization]**, **[!UICONTROL Auto-Target]** uses a [Random Forest algorithm](/help/main/c-activities/t-automated-personalization/algo-random-forest.md), a leading data science ensemble method, to determine the best experience to show to a visitor. **[!UICONTROL Auto-Target]** can adapt to changes in visitor behavior, so it can run perpetually to provide lift. This method is sometimes referred to as "always-on" mode.
 
 Unlike an A/B activity, in which the experience allocation for a given visitor is sticky, **[!UICONTROL Auto-Target]** optimizes the specified business goal over each visit. As in **[!UICONTROL Automated Personalization]**, **[!UICONTROL Auto-Target]** reserves part of the activity traffic as a control group by default, to measure lift. Visitors in the control group are served a random experience in the activity.
 
@@ -69,7 +69,7 @@ Keep the following points in mind when you use **[!UICONTROL Auto-Target]**:
 
 * Pay attention to the activity shape. Performance depends more on the number of locations × offers than on the raw experience count. Large cartesian combinations can slow loading and editing in the **[!UICONTROL Visual Experience Composer]**, even below the documented experience limits.
 
-  As a best practice, keep **[!UICONTROL Auto-Target]** and **[!UICONTROL Automated Personalization]** activities to 4–6 locations with 4–6 offers per location. Larger configurations are not recommended. Because these activities are built directly in the **[!UICONTROL Experiences]** step, the [!DNL Target] UI may show inline warnings or block saving when the configuration exceeds supported thresholds.
+  As a best practice, keep **[!UICONTROL Auto-Target]** and **[!UICONTROL Automated Personalization]** activities to 4–6 locations with 4–6 offers per location. Larger configurations are not recommended. These activities are built directly in the **[!UICONTROL Experiences]** step, so the [!DNL Target] UI may show inline warnings or block saving when the configuration exceeds supported thresholds.
 
 * You cannot switch a specific activity from **[!UICONTROL Auto-Target]** to **[!UICONTROL Automated Personalization]**, or the opposite way.
 * You cannot switch from **[!UICONTROL Manual]** traffic allocation (traditional **[!UICONTROL A/B Test]**) to **[!UICONTROL Auto-Target]**, or the opposite way, after an activity is saved as a draft.
@@ -145,14 +145,14 @@ Consider **[!UICONTROL Auto-Target]** instead of **[!UICONTROL Automated Persona
 | | [!UICONTROL Auto-Target] | [!UICONTROL Automated Personalization] |
 |---|---|---|
 | **Experience definition** | You define the entire experience, which can contain multiple changes. | Individual offers are automatically combined to form an experience. |
-| **[!UICONTROL Visual Experience Composer] features** | Because **[!UICONTROL Auto-Target]** is embedded in the A/B activity workflow, it benefits from the more mature and full-fledged VEC. You can also use [QA links](/help/main/c-activities/c-activity-qa/activity-qa.md). | The custom code editor, multiple experience audiences, and other features are not supported. |
+| **[!UICONTROL Visual Experience Composer] features** | **[!UICONTROL Auto-Target]** is embedded in the A/B activity workflow, so it benefits from the more mature and full-fledged VEC. You can also use [QA links](/help/main/c-activities/c-activity-qa/activity-qa.md). | The custom code editor, multiple experience audiences, and other features are not supported. |
 | **Structural changes to the page** | More appropriate. For example, you can rearrange elements on your home page. | Less appropriate. |
 | **Number of experiences** | Usually fewer, because one experience can contain multiple changes. | Usually more, because the experiences are all the combinations of offers and locations. |
 | **Traffic needed to build the models** | Frequently less in total. | Frequently more in total. |
 
 The amount of traffic *per experience* required to build the models is the same for both activity types. **[!UICONTROL Auto-Target]** frequently requires less total traffic because it usually has fewer experiences.
 
-For example, in an **[!UICONTROL Automated Personalization]** activity with two offers per location and two locations, there are four (2 × 2 = 4) total experiences in the activity (with no exclusions). In **[!UICONTROL Auto-Target]**, you could set experience 1 to include offer 1 in location 1 and offer 2 in location 2, and experience 2 to include offer 2 in location 1 and offer 1 in location 2. Because **[!UICONTROL Auto-Target]** allows multiple changes within one experience, you can reduce the total number of experiences in your activity.
+For example, in an **[!UICONTROL Automated Personalization]** activity with two offers per location and two locations, there are four (2 × 2 = 4) total experiences in the activity (with no exclusions). In **[!UICONTROL Auto-Target]**, you could set experience 1 to include offer 1 in location 1 and offer 2 in location 2, and experience 2 to include offer 2 in location 1 and offer 1 in location 2. **[!UICONTROL Auto-Target]** allows multiple changes within one experience, so you can reduce the total number of experiences in your activity.
 
 ### Traffic requirements for [!UICONTROL Auto-Target] {#traffic-requirements}
 

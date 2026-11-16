@@ -46,7 +46,7 @@ More visitors see the variations that perform best. As a single variation pulls 
 
 ## How can [!UICONTROL Auto-Allocate] provide higher revenue? {#higher-revenue}
 
-**[!UICONTROL Auto-Allocate]** finds the winner faster than a manual A/B split and allows you to exploit that winner immediately, capturing upside revenue that would have been lost in a traditional or manual approach. Because **[!UICONTROL Auto-Allocate]** directs more traffic to the experience with the highest conversion rate, it can increase your revenue while the activity runs and learns.
+**[!UICONTROL Auto-Allocate]** finds the winner faster than a manual A/B split and allows you to exploit that winner immediately, capturing upside revenue that would have been lost in a traditional or manual approach. **[!UICONTROL Auto-Allocate]** directs more traffic to the experience with the highest conversion rate, so it can increase your revenue while the activity runs and learns.
 
 In the following example, **[!UICONTROL Auto-Allocate]** gained more revenue during the test by pushing more traffic (40%) to Experience D, which had the highest conversion rate.
 

@@ -101,7 +101,7 @@ Keep the following points in mind about model building in **[!UICONTROL Auto-Tar
 
 * After an activity is live, **[!UICONTROL Auto-Target]** considers up to the last 45 days of randomly served data when it attempts to build models. For example, control traffic, plus some extra randomly served data held out by the algorithm.
 * When **[!UICONTROL Revenue per Visit]** is your success metric, these activities typically require more data to build models, because the variance in visit revenue is typically higher than in conversion rate.
-* Because models are built on a per-experience basis, replacing one experience with another means that sufficient traffic (at least 50 conversions) must be collected for the new experience before the personalized models can be rebuilt.
+* Models are built on a per-experience basis, so replacing one experience with another means that sufficient traffic (at least 50 conversions) must be collected for the new experience before the personalized models can be rebuilt.
 
 If your models take too long to build, see [My Auto-Target activity is taking too long to build models](#section_23995AB813F24525AF294D20A20875C8).
 
