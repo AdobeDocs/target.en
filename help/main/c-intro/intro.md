@@ -121,7 +121,7 @@ Industry best practices are integrated into [!DNL Target Standard], making it su
 
 ### [!UICONTROL Automated Personalization]
 
-[[!UICONTROL Automated Personalization]](/help/main/c-activities/t-automated-personalization/automated-personalization.md#task_8AAF837796D74CF893CA2F88BA1491C9) (AP) uses advanced machine learning algorithms to deliver personalized experiences and improve conversion rates for digital interactions.
+[[!UICONTROL Automated Personalization]](/help/main/c-activities/t-automated-personalization/automated-personalization.md#automated-personalization-overview) (AP) uses advanced machine learning algorithms to deliver personalized experiences and improve conversion rates for digital interactions.
 
 AP records visitor activity, building profiles to target content to similar visitors. AP tracks responses to content for individuals and the population, using sophisticated modeling to automatically target each visitor based on everything known about them.
 

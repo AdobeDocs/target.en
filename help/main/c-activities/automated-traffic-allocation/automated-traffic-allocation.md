@@ -75,7 +75,7 @@ Choose between **[!UICONTROL Auto-Allocate]**, **[!UICONTROL A/B Test]**, and **
 |---|---|---|
 | **[!UICONTROL Auto-Allocate]** | You want to optimize your activity from the beginning and identify the winning experiences as quickly as possible. | By serving high-performing experiences more often, the overall activity performance is increased. |
 | [**[!UICONTROL A/B Test]**](/help/main/c-activities/t-test-ab/test-ab.md#test-ab) | You want to characterize the performance of all experiences before optimizing your site. | An A/B test helps you rank all of your experiences, whereas **[!UICONTROL Auto-Allocate]** finds top performers but does not guarantee differentiation among the lower performers. |
-| [**[!UICONTROL Automated Personalization]**](/help/main/c-activities/t-automated-personalization/automated-personalization.md#task_8AAF837796D74CF893CA2F88BA1491C9) | You want optimization algorithms of the highest complexity, such as machine-learning models that build predictions based on individual profile attributes. | **[!UICONTROL Auto-Allocate]** looks at the aggregate behavior of experiences (just like standard A/B tests) and does not differentiate between visitors. |
+| [**[!UICONTROL Automated Personalization]**](/help/main/c-activities/t-automated-personalization/automated-personalization.md#automated-personalization-overview) | You want optimization algorithms of the highest complexity, such as machine-learning models that build predictions based on individual profile attributes. | **[!UICONTROL Auto-Allocate]** looks at the aggregate behavior of experiences (just like standard A/B tests) and does not differentiate between visitors. |
 
 ## How the algorithm works {#how-it-works}
 

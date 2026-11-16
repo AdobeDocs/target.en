@@ -114,7 +114,7 @@ See [Auto-Target](/help/main/c-activities/auto-target/auto-target-to-optimize.md
 
 [!UICONTROL Automated Personalization] (AP) combines offers or messages and uses advanced machine learning to match different variations to each visitor. AP personalizes content based on individual customer profiles to drive lift.
 
-See [Automated Personalization](/help/main/c-activities/t-automated-personalization/automated-personalization.md#task_8AAF837796D74CF893CA2F88BA1491C9) for more information.
+See [Automated Personalization](/help/main/c-activities/t-automated-personalization/automated-personalization.md#automated-personalization-overview) for more information.
 
 ### [!UICONTROL Experience Targeting] (XT)
 
