@@ -37,21 +37,27 @@ topic_v2:
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
     internal-label: Insights
 ---
-# Upload data for the [!DNL Target] personalization algorithms
+# Upload data for the [!DNL Target] personalization algorithms {#upload-data-personalization}
 
-Offline data, such as CRM information or customer churn propensity scores, can be incredibly valuable when building personalization models in [!DNL Adobe Target] [!UICONTROL Automated Personalization] (AP) and [!UICONTROL Auto-Target] activities.
+>[!BEGINSHADEBOX]
 
- There are several ways to input data in [!UICONTROL Automated Personalization] (AP) and [!UICONTROL Auto-Target] personalization algorithms. In addition to the methods in [Methods to get Data into Target](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/methods/methods-to-get-data-into-target.html){target=_blank}, [!DNL Experience Cloud] shared audiences ([!UICONTROL Adobe Analytics], [!DNL Audience Manager]), and in-activity reporting audiences are also used in [!DNL Target] algorithms.
+**On this page:** Learn how to send offline and custom data to the **[!UICONTROL Automated Personalization]** and **[!UICONTROL Auto-Target]** algorithms, and the best practices to follow.
 
-For information about the data automatically collected and used by [!UICONTROL Automated Personalization] and [!UICONTROL Auto-Target] personalization algorithms, see [Automated Personalization Data Collection](/help/main/c-activities/t-automated-personalization/ap-data.md).
+>[!ENDSHADEBOX]
 
-## Best Practices {#section_DE96C7B7D114491DBB67FB5B7DA3D37B}
+Offline data, such as CRM information or customer churn propensity scores, can be incredibly valuable when you build personalization models in [!DNL Adobe Target] **[!UICONTROL Automated Personalization]** (AP) and **[!UICONTROL Auto-Target]** activities.
 
-The following list presents best practices for uploading data for [!DNL Target] personalization algorithms:
+There are several ways to input data in the **[!UICONTROL Automated Personalization]** (AP) and **[!UICONTROL Auto-Target]** personalization algorithms. In addition to the methods in [Methods to get Data into Target](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/methods/methods-to-get-data-into-target.html){target=_blank}, [!DNL Experience Cloud] shared audiences (**[!UICONTROL Adobe Analytics]**, [!DNL Audience Manager]) and in-activity reporting audiences are also used in the [!DNL Target] algorithms.
 
-* The more high-quality data that is available to [!DNL Target] personalization algorithms, the better the quality the resulting models in your [!UICONTROL Automated Personalization] and [!UICONTROL Auto-Target] activities. 
-* Limit using multiple profile scripts or attributes that serve the same purpose. 
-* Do not pass a unique Id, such as a session ID if not needed. 
-* Review what data [!DNL Target] automatically collects ( [Data Collection for Target's Personalization Algorithms](/help/main/c-activities/t-automated-personalization/ap-data.md)) so that you do not send duplicate information. For example, [!DNL Target] uses IP addresses to determine visitors' ZIP codes. It is not necessary to pass this information as a separate variable. 
-* Do not pass multiple values in the same attribute or variable. If multiple variables are concatenated, [!DNL Target] personalization algorithms treat each string as a unique value, reducing the value of the information for personalization. 
-* Use a memorable and meaningful naming convention to make your [Personalization Insights Reports](/help/main/c-reports/c-personalization-insights-reports/personalization-insights-reports.md#concept_A897070E1EDC403EB84CFB7A6ECAD767) more understandable.
+For information about the data automatically collected and used by the **[!UICONTROL Automated Personalization]** and **[!UICONTROL Auto-Target]** personalization algorithms, see [Automated Personalization Data Collection](/help/main/c-activities/t-automated-personalization/ap-data.md).
+
+## Best practices {#section_DE96C7B7D114491DBB67FB5B7DA3D37B}
+
+Follow these best practices when you upload data for the [!DNL Target] personalization algorithms:
+
+* The more high-quality data that is available to the [!DNL Target] personalization algorithms, the better the quality of the resulting models in your **[!UICONTROL Automated Personalization]** and **[!UICONTROL Auto-Target]** activities.
+* Limit the use of multiple profile scripts or attributes that serve the same purpose.
+* Do not pass a unique ID, such as a session ID, if it is not needed.
+* Review what data [!DNL Target] automatically collects ([Data Collection for Target Personalization Algorithms](/help/main/c-activities/t-automated-personalization/ap-data.md)) so that you do not send duplicate information. For example, [!DNL Target] uses IP addresses to determine the ZIP codes of visitors. It is not necessary to pass this information as a separate variable.
+* Do not pass multiple values in the same attribute or variable. If multiple variables are concatenated, the [!DNL Target] personalization algorithms treat each string as a unique value, which reduces the value of the information for personalization.
+* Use a memorable and meaningful naming convention to make your [Personalization Insights Reports](/help/main/c-reports/c-personalization-insights-reports/personalization-insights-reports.md) more understandable.
