@@ -138,7 +138,7 @@ Be sure to also consider [Recommendations activities](/help/main/c-recommendatio
 **How can I discover which combinations of elements on my page contribute to its success and to what degree each element helps?**
 
 +++See details
-Check out our [Full Factorial Multivariate (MVT) activities](/help/main/c-activities/c-multivariate-testing/multivariate-testing.md#concept_628695CDC71B449B8DCC2F5654C11499) with Element contribution analysis to see if it meets your needs.
+Check out our [Full Factorial Multivariate (MVT) activities](/help/main/c-activities/c-multivariate-testing/multivariate-testing.md#get-started-mvt) with Element contribution analysis to see if it meets your needs.
 
 Note that the traffic requirement increases with MVT activities.
 

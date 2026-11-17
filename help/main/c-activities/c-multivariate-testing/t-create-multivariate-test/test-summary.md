@@ -17,18 +17,24 @@ topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
     internal-label: Customer experience
 ---
-# Test summary ([!UICONTROL Multivariate Test])
+# Test summary ([!UICONTROL Multivariate Test]) {#mvt-test-summary}
 
-The [!UICONTROL Targeting] page provides a visual overview of your [!DNL Adobe Target] [!UICONTROL Multivariate Test].
+>[!BEGINSHADEBOX]
+
+**On this page:** Learn what the test summary of a **[!UICONTROL Multivariate Test]** shows, so that you can review the configuration before you continue.
+
+>[!ENDSHADEBOX]
+
+The **[!UICONTROL Targeting]** page provides a visual overview of your [!DNL Adobe Target] **[!UICONTROL Multivariate Test]**. Reviewing this summary lets you confirm the configuration of the test before you set the goals and settings.
 
 ![Test summary dialog box](/help/main/c-activities/c-multivariate-testing/t-create-multivariate-test/assets/summary-new.png)
 
 The test summary shows:
 
-* Test name 
-* URL 
-* Audience: Click the audience to select a different audience from the list of available audiences. 
-* Algorithm: The only available algorithm is [!UICONTROL Full Factorial]. The algorithm name is provided for informational purposes, so you are aware of the algorithm being used. 
+* The test name.
+* The URL.
+* The audience. Click the audience to select a different audience from the list of available audiences.
+* The algorithm. The only available algorithm is **[!UICONTROL Full Factorial]**. The algorithm name is provided for informational purposes, so that you are aware of the algorithm being used.
 * The numbers of included and excluded experiences.
 
-Click **[!UICONTROL Next]** when you are satisfied with the test configuration. The [!UICONTROL Goals and Settings] page opens.
+Click **[!UICONTROL Next]** when you are satisfied with the test configuration. The **[!UICONTROL Goals and Settings]** page opens.

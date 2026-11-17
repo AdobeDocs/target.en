@@ -126,7 +126,7 @@ See [Experience Targeting](/help/main/c-activities/t-experience-target/experienc
 
 [!UICONTROL Multivariate Testing] (MVT) compares combinations of offers in page elements to determine which combination performs best for a specific audience. MVT helps identify which element most impacts the activity's success.
 
-See [Multivariate Test](/help/main/c-activities/c-multivariate-testing/multivariate-testing.md#concept_628695CDC71B449B8DCC2F5654C11499) for more information.
+See [Multivariate Test](/help/main/c-activities/c-multivariate-testing/multivariate-testing.md#get-started-mvt) for more information.
 
 ### [!UICONTROL Recommendations]
 
