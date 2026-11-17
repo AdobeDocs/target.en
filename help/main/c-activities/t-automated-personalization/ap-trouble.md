@@ -1,5 +1,5 @@
 ---
-kewords: Automated Personalization;ap;troublshoot;troubleshooting;model;lift
+keywords: Automated Personalization;ap;troubleshoot;troubleshooting;model;lift
 description: Explore potential challenges that you might face while using [!UICONTROL Automated Personalization] (AP) activities in Adobe Target, along with suggested solutions.
 title: How Do I Troubleshoot [!UICONTROL Automated Personalization] activities?
 badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="See what's included in Target Premium."
@@ -25,67 +25,69 @@ topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
     internal-label: Personalization
 ---
-# Troubleshoot [!UICONTROL Automated Personalization]
+# Troubleshoot [!UICONTROL Automated Personalization] {#ap-troubleshooting}
 
-Sometimes activities do not go as expected. Here are some potential challenges that you might face while using [!UICONTROL Automated Personalization] (AP), and some suggested solutions.
+>[!BEGINSHADEBOX]
 
-## My [!UICONTROL Automated Personalization] activity is taking too long to build models. {#section_20028B204DBB4D77A324BA193434AEE2}
+**On this page:** Find solutions to common issues with **[!UICONTROL Automated Personalization]** activities.
 
-+++See details
+>[!ENDSHADEBOX]
 
-There are several activity setup changes that can decrease the expected time to build models, including the number of experiences in your [!UICONTROL Automated Personalization] activity, the traffic to your site, and your selected success metric.
+Activities do not always go as expected. Use the following list to identify the cause of common problems in [!UICONTROL Automated Personalization] (AP) activities and to apply the suggested solution.
 
-**Solution:** Review your activity setup and see if there are any changes you are willing to make to improve the speed at which models build.
+## Models and lift {#models-and-lift}
 
-* If your success metric is set to RPV, can you change to conversion? Conversion activities tend to require less traffic to build models. You do not lose activity data if you change the success metric from RPV to conversion. 
-* Is your success metric far down the sales funnel from your activity experiences? A lower activity conversion rate increases the traffic requirements needed for models to build, as a minimum number of conversions is required. 
-* Are there some offers or experiences you can exclude from your activity? Decreasing the number of experiences in an activity speeds the time to build models. 
++++ My [!UICONTROL Automated Personalization] activity is taking too long to build models
+
+Several activity setup choices affect the time that models need to build, including the number of experiences in your **[!UICONTROL Automated Personalization]** activity, the traffic to your site, and your selected success metric.
+
+**Solution:** Review your activity setup and check whether you can make changes that improve the speed at which models build.
+
+* If your success metric is set to RPV, can you change to conversion? Conversion activities tend to require less traffic to build models. You do not lose activity data if you change the success metric from RPV to conversion.
+* Is your success metric far down the sales funnel from your activity experiences? A lower activity conversion rate increases the traffic requirements for models to build, as a minimum number of conversions is required.
+* Are there some offers or experiences that you can exclude from your activity? Decreasing the number of experiences in an activity speeds up the time to build models.
 * Is there a higher-traffic page where this activity would be more successful? The more traffic and conversions in your activity locations, the quicker models build.
 
 +++
 
-## My [!UICONTROL Automated Personalization] activity did not generate lift. {#section_8900BC8968474438B8092F7A94C0C6CF}
++++ My [!UICONTROL Automated Personalization] activity did not generate lift
 
-+++See details
+Several factors are required for an **[!UICONTROL Automated Personalization]** activity to generate lift:
 
-There are several factors required for an [!UICONTROL Automated Personalization] activity to generate lift:
-
-* The offers must be different enough to influence visitors. 
-* The offers must be located somewhere that makes a difference to the optimization goal. 
-* There must be enough traffic and statistical "power" in the test to detect the lift. 
+* The offers must be different enough to influence visitors.
+* The offers must be located somewhere that makes a difference to the optimization goal.
+* There must be enough traffic and statistical "power" in the test to detect the lift.
 * The personalization algorithm must work well.
 
-**Solution:** The best course of action is to first make sure the content and locations that make up the activity experiences truly make a difference to the overall response rates using a simple, non-personalized A/B test. Be sure to compute the sample sizes ahead of time. Computing sample sizes ahead of time helps to ensure that there is enough power to see a reasonable lift. You can then run the A/B test for a fixed duration without stopping it or making any changes. If an A/B test result shows statistically significant lift on one or more of the experiences, it is likely that a personalized activity is successful. Personalization can work even if there are no differences in the overall response rates of the experiences. Typically, the issue stems from the offers or locations not having a large enough impact on the optimization goal to be detected with statistical significance.
+**Solution:** The best course of action is to first make sure that the content and locations that make up the activity experiences truly make a difference to the overall response rates, by using a simple, non-personalized A/B test. Compute the sample sizes ahead of time to ensure that there is enough power to see a reasonable lift, then run the A/B test for a fixed duration without stopping it or making any changes. If the A/B test results show statistically significant lift on one or more of the experiences, a personalized activity is likely to be successful. Personalization can work even if there are no differences in the overall response rates of the experiences. Typically, the issue stems from the offers or locations not having a large enough impact on the optimization goal to be detected with statistical significance.
 
 +++
 
-## My [!UICONTROL Automated Personalization] activity URL is showing offer content on incorrect pages. {#section_82A224406DBF4107B05204BEFBBE458C}
+## Activity setup and reporting {#setup-and-reporting}
 
-+++See details
++++ My [!UICONTROL Automated Personalization] activity URL is showing offer content on incorrect pages
 
-In [!UICONTROL Automated Personalization], the URL and template testing rules are added to the [!DNL Target] request entry constraint (for example, target-global-mbox), where they are evaluated only once. Once a user qualifies for an activity, the Target-request-level targeting rules are not reevaluated. However, the targeting audience is added to location targeting rules.
+**Cause:** In **[!UICONTROL Automated Personalization]**, the URL and template testing rules are added to the [!DNL Target] request entry constraint (for example, target-global-mbox), where they are evaluated only once. After a visitor qualifies for an activity, the [!DNL Target] request-level targeting rules are not reevaluated, whereas the targeting audience is added to the location targeting rules.
 
-**Solution:** Add the necessary template rules as the input-audience of the activity. Audience evaluation happens upon each request/call.
-
-+++
-
-## Any metric dependent on a conversion metric never converts. {#section_076D1F44298C4E4A849AC52F5A33214D}
-
-+++See details
-
-This is expected.
-
-In an [!UICONTROL Automated Personalization] activity, once a conversion metric (whether optimization goal or post goal) is converted, the visitor is released from the experience, and the activity is restarted.
-
-For example, there is an activity with a conversion metric (C1) and an additional metric (A1). A1 depends on C1. When a visitor enters the activity for the first time, and the criteria for converting A1 and C1 are not converted, metric A1 is not converted due to the success metric dependency. If the visitor converts C1 and then converts A1, A1 is still not converted because when C1 is converted, the visitor is released.
+**Solution:** Add the necessary template rules as the input audience of the activity. Audience evaluation happens upon each request (call).
 
 +++
 
-## My Experience URLs are not working as expected. {#section_7B08DA1F30AA483E9406336DAF361BA4}
++++ Any metric dependent on a conversion metric never converts
 
-+++See details
+This behavior is expected.
 
-* If you are not able to see the preview in the new tab (due to browser cache), try refreshing two or three times. You can also copy the link and open it in a new browser or new session. 
-* Regenerate the Experience URL links if you changed any content and share the new links with your teammates.
+In an **[!UICONTROL Automated Personalization]** activity, once a conversion metric (whether an optimization goal or a post goal) is converted, the visitor is released from the experience, and the activity is restarted.
+
+For example, an activity has a conversion metric (C1) and an additional metric (A1) that depends on C1. When a visitor enters the activity for the first time, and has converted neither C1 nor A1, A1 is not converted due to the success metric dependency. If the visitor converts C1 and then converts A1, A1 is still not converted, as the visitor is released when C1 is converted.
+
++++
+
++++ My Experience URLs are not working as expected
+
+**Solution:** Use the following actions:
+
+* If you are not able to see the preview in the new tab (due to the browser cache), try refreshing two or three times. You can also copy the link and open it in a new browser or a new session.
+* If you changed any content, regenerate the Experience URL links and share the new links with your teammates.
 
 +++

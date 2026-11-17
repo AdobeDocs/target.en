@@ -26,52 +26,62 @@ topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
     internal-label: Personalization
 ---
-# Manage exclusions
+# Manage exclusions {#manage-exclusions}
 
-Take control of your [!UICONTROL Automated Personalization] (AP) strategy by mastering exclusions. Whether you are preventing duplicate offers, refining experience combinations, or removing default content, exclusions empower you to deliver cleaner, more relevant experiences that align with your goals and audience expectations.
+>[!BEGINSHADEBOX]
 
-## Allow or disallow duplicate offers {#concept_4EF78013F80E48EFA024AE0274C9F037}
+**On this page:** Learn how to prevent duplicate offers, exclude specific experiences, and exclude default content in **[!UICONTROL Automated Personalization]** activities.
 
-Prevent offers from the offer library from being duplicated when used in different locations in AP activities. 
+>[!ENDSHADEBOX]
 
-You might have an activity, for example, with six locations on a page with 12 offers. There is a chance that the same offer could be placed in one or more locations in the activity. This feature lets you prevent duplicate offers from displaying at the same time in different locations within the same activity. 
+Exclusions control which offers and experiences an **[!UICONTROL Automated Personalization]** (AP) activity serves. They prevent the same offer from displaying twice, remove offer combinations that do not work together, and remove default content, so that the activity delivers cleaner and more relevant experiences that align with your goals and your audience.
 
-1. While [creating or editing an AP activity](/help/main/c-activities/t-automated-personalization/create-ap-activity.md), click the **[!UICONTROL Configure]** icon ( ![Configure icon](/help/main/assets/icons/Setting.svg ) ) > click the **[!UICONTROL Allow Duplicate Offers]** to toggle this feature on and off, depending on your needs.
+## Allow or disallow duplicate offers {#allow-duplicate-offers}
 
-## Exclude specific experiences {#task_C17D36EF58AF4908B17A3D84CA6DE85A}
+<a id="concept_4EF78013F80E48EFA024AE0274C9F037"></a>
 
-Exclude specific experiences if you want to exclude certain offer combinations from your AP activity. 
+Prevent offers from the offer library from being duplicated when used in different locations in AP activities.
 
-There might be certain combinations that do not work together, or you might be limiting the number of experiences tested to decrease traffic requirements for your activity. 
+An activity can have, for example, six locations on a page with 12 offers, so the same offer could be placed in more than one location. Disallowing duplicate offers prevents the same offer from displaying at the same time in different locations within the same activity.
 
-1. While [creating or editing an AP activity](/help/main/c-activities/t-automated-personalization/create-ap-activity.md), click the **Manage Content** icon ( ![Manage Content icon](/help/main/assets/icons/Experience.svg) ).
+1. While [creating or editing an AP activity](/help/main/c-activities/t-automated-personalization/create-ap-activity.md#create-ap-activity), click the **[!UICONTROL Configure]** icon ( ![Configure icon](/help/main/assets/icons/Setting.svg) ).
 
-   The [!UICONTROL Experiences] list shows each experience generated from the permutations of all content and location options. 
+1. Click **[!UICONTROL Allow Duplicate Offers]** to toggle this feature on or off, depending on your needs.
 
-1. Exclude experiences, as desired.
+    ![Configure icon](../assets/exclusion-1.png)
 
-   You can exclude specific experiences by clicking the [!UICONTROL **More Actions**] icon ( ![More Actions icon](/help/main/assets/icons/MoreSmall.svg) ), then clicking [!UICONTROL **Exclude**]. 
+## Exclude specific experiences {#exclude-experiences}
 
-   Or you can batch exclude experiences by selecting the checkbox for the relevant experiences and then clicking **[!UICONTROL Exclude]**. The [!UICONTROL Exclude] icon displays when one or more experiences are checked. 
+<a id="task_C17D36EF58AF4908B17A3D84CA6DE85A"></a>
+
+Exclude specific experiences to remove certain offer combinations from your AP activity. Some combinations might not work together, or you might limit the number of experiences tested to decrease the traffic requirements of the activity.
+
+1. While [creating or editing an AP activity](/help/main/c-activities/t-automated-personalization/create-ap-activity.md#create-ap-activity), click the **[!UICONTROL Manage Content]** icon ( ![Manage Content icon](/help/main/assets/icons/Experience.svg) ).
+
+   The **[!UICONTROL Experiences]** list shows each experience generated from the permutations of all content and location options.
+
+1. Exclude the experiences that you do not want to test.
+
+   * To exclude a single experience, click the **[!UICONTROL More Actions]** icon ( ![More Actions icon](/help/main/assets/icons/MoreSmall.svg) ), then click **[!UICONTROL Exclude]**.
+   * To exclude several experiences at once, select the checkbox for each experience, then click **[!UICONTROL Exclude]**. The **[!UICONTROL Exclude]** icon displays when one or more experiences are selected.
 
    ![Batch exclude experiences](/help/main/c-activities/t-automated-personalization/assets/exclude1.png)
 
-   The experiences are now excluded from the activity and their [!UICONTROL Status] show as [!UICONTROL Excluded]. 
+   The experiences are now excluded from the activity, and their **[!UICONTROL Status]** shows as **[!UICONTROL Excluded]**.
 
-## Exclude default content {#task_DCB4528989DF4C05A3A4729E5891D18F}
+## Exclude default content {#exclude-default-content}
 
-Sometimes, you might not want to include your default content as part of your AP activity. You can use this method to have only one offer (different from your default content) in a location as part of your activity. 
+<a id="task_DCB4528989DF4C05A3A4729E5891D18F"></a>
 
-Excluding default content is a great way to change the look and feel of the rest of the page to suit the offers you are testing with your AP activity. For example, suppose you want to match the color palette of the offers you are testing, you could change the background color of your page and exclude the default background color. 
+Exclude default content when you do not want it to be part of your AP activity, so that a location contains only one offer that differs from your default content. This approach also lets you change the look and feel of the rest of the page to suit the offers that you test. For example, to match the color palette of the offers, you can change the background color of the page and exclude the default background color.
 
-**To exclude default content using the [!UICONTROL Visual Experience Composer] (VEC):** 
+1. While [creating or editing an AP activity](/help/main/c-activities/t-automated-personalization/create-ap-activity.md#create-ap-activity), select the content that you want to replace, then click **[!UICONTROL Change Text/HTML]**, **[!UICONTROL Change Image Offer]**, or **[!UICONTROL Change Background Color]**. The available options vary depending on the type of content.
 
-1. While [creating or editing an AP activity](/help/main/c-activities/t-automated-personalization/create-ap-activity.md), select the content you want to replace and click to access **[!UICONTROL Change Text/HTML]**, **[!UICONTROL Change Image Offer]**, or **[!UICONTROL Change Background Color]**. The available options vary, depending on the type of content.
+   ![Change options](../assets/exclusion-1.png)
 
-   ![Change options](/help/main/c-activities/t-automated-personalization/assets/options.png)
 1. Create your new content.
 
-1. Click the **[!UICONTROL More Actions]** ( ![More Actions icon](/help/main/assets/icons/Setting.svg) ) icon, then click the **Exclude Default Offer/Include Defaul Offert**/ toggle to exclude or include the default offer.
+1. Click the **[!UICONTROL More Actions]** icon ( ![More Actions icon](/help/main/assets/icons/Setting.svg) ), then click the **Exclude Default Offer/Include Default Offer** toggle to exclude or include the default offer.
 
    <!--
    Depending on the content or offer type, the [!UICONTROL Include] checkbox is in a slightly different place. 
@@ -88,7 +98,7 @@ Excluding default content is a great way to change the look and feel of the rest
 
    ![Include checkbox in Edit Background Color dialog box](/help/main/c-activities/t-automated-personalization/assets/exclude_content_vec_3a.png)
    -->
-   
+
 <!--
 1. Click **[!UICONTROL Save]**.
 

@@ -155,7 +155,7 @@ feature-set: Target
       + [Target Automated Personalization offers](c-activities/t-automated-personalization/ap-target-offers.md)
       + [Manage exclusions](c-activities/t-automated-personalization/managing-exclusions.md)
       + [Offer reporting groups in Automated Personalization](/help/main/c-activities/t-automated-personalization/offer-reporting-groups-in-automated-personalization.md)
-      + [Select the control for your Automated Personalization or Auto-Target activity](c-activities/t-automated-personalization/experience-as-control.md)
+      + [Select the control experience](c-activities/t-automated-personalization/experience-as-control.md)
       + [Automated Personalization FAQ](c-activities/t-automated-personalization/automated-personalization-faq.md)
       + [Troubleshoot Automated Personalization](c-activities/t-automated-personalization/ap-trouble.md)
    + Experience Targeting {#experience-targeting}

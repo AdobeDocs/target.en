@@ -132,7 +132,7 @@ If an activity's content was successfully delivered to users but its report cont
 
 >[!NOTE]
 >
->For more information about how to update an [!UICONTROL Automated Personalization] (AP) activity and change the control experience to an experience that receives traffic, see [Select the control for your Automated Personalization or Auto-Target activity](/help/main/c-activities/t-automated-personalization/experience-as-control.md).
+>For more information about how to update an [!UICONTROL Automated Personalization] (AP) activity and change the control experience to an experience that receives traffic, see [Select the control experience](/help/main/c-activities/t-automated-personalization/experience-as-control.md).
 
 
 ## Why is the traffic split between my experiences uneven in my A/B or MVT activity? {#uneven}
