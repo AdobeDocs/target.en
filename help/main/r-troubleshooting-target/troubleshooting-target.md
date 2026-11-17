@@ -61,7 +61,7 @@ The following sections contain troubleshooting information about activities, sep
 
 ### Auto-Allocate
 
-* [Auto-Allocate overview](/help/main/c-activities/automated-traffic-allocation/automated-traffic-allocation.md#section_0E72C1D72DE74F589F965D4B1763E5C3)
+* [Auto-Allocate overview](/help/main/c-activities/automated-traffic-allocation/automated-traffic-allocation.md#faq)
 
 ### Auto-Target
 

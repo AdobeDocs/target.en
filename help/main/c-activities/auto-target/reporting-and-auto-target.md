@@ -27,16 +27,20 @@ topic_v2:
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
     internal-label: Insights
 ---
-# Reporting and [!UICONTROL Auto-Target]
+# Reporting and [!UICONTROL Auto-Target] {#reporting-and-auto-target}
 
-Information about how to interpret the [!UICONTROL Auto-Target Summary] reports in [!DNL Adobe Target], including the [!UICONTROL Automated Segments] and [!UICONTROL Important Attributes] reports.
+>[!BEGINSHADEBOX]
 
-For more information about each report, see the following topics:
+**On this page:** Learn which reports help you interpret the results of an **[!UICONTROL Auto-Target]** activity.
+
+>[!ENDSHADEBOX]
+
+[!DNL Adobe Target] provides three reports to interpret the results of an **[!UICONTROL Auto-Target]** activity: the **[!UICONTROL Auto-Target Summary]** report, the **[!UICONTROL Automated Segments]** report and the **[!UICONTROL Important Attributes]** report. For more information about each report, see the following topics:
 
 |Report|Details|
 | --- | --- |
-|[Auto-Target Summary report](/help/main/c-reports/personalization-reports/auto-target-summary-report.md)|The [!UICONTROL Auto-Target Summary] report lets you view reporting metrics in a table view or in a graph view.<P>This report lets you see metrics for [!UICONTROL Visits], [!UICONTROL Conversion Rate], [!UICONTROL Average Lift and Confidence Interval], and [!UICONTROL Confidence].|
-|[Automated Segments report](/help/main/c-reports/c-personalization-insights-reports/automated-segments-report.md)|The [!UICONTROL Automated Segments] report shows how different visitors respond differently to the offers/experiences in your [!UICONTROL Auto-Target] activity. This report shows how different automated segments defined by [!DNL Target]'s personalization models responded to the offers/experiences in the activity.|
-|[Important Attributes report](/help/main/c-reports/c-personalization-insights-reports/important-attributes-report.md)|The [!UICONTROL Important Attributes] report shows how, in different activities, different attributes are more (or less) important to how the model decides to personalize. This report shows the top attributes that influenced the model and their relative importance.|
+|[Auto-Target Summary report](/help/main/c-reports/personalization-reports/auto-target-summary-report.md)|The **[!UICONTROL Auto-Target Summary]** report lets you view reporting metrics in a table view or in a graph view.<P>This report lets you see metrics for **[!UICONTROL Visits]**, **[!UICONTROL Conversion Rate]**, **[!UICONTROL Average Lift and Confidence Interval]**, and **[!UICONTROL Confidence]**.|
+|[Automated Segments report](/help/main/c-reports/c-personalization-insights-reports/automated-segments-report.md)|The **[!UICONTROL Automated Segments]** report shows how different visitors respond differently to the offers and experiences in your **[!UICONTROL Auto-Target]** activity. It shows how the automated segments defined by the personalization models of [!DNL Target] responded to the offers and experiences in the activity.|
+|[Important Attributes report](/help/main/c-reports/c-personalization-insights-reports/important-attributes-report.md)|The **[!UICONTROL Important Attributes]** report shows how, in different activities, different attributes are more (or less) important to how the model decides to personalize. It shows the top attributes that influenced the model and their relative importance.|
 
 For general reporting information, see [Reports](/help/main/c-reports/reports.md).

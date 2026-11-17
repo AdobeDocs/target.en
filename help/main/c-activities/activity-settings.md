@@ -62,7 +62,7 @@ Use [!UICONTROL Activity Settings] in [!DNL Adobe Target] to manage the objectiv
 The [!UICONTROL Goal & Settings] page includes additional settings that vary based on the type of activity you are creating. For more information on these settings, refer to your activity type:
 
 * [A/B Test](/help/main/c-activities/t-test-ab/t-test-create-ab/ab-goals-and-settings.md#ab-goals-and-settings) 
- * [Automated Personalization](/help/main/c-activities/t-automated-personalization/automated-personalization.md#task_8AAF837796D74CF893CA2F88BA1491C9) 
+ * [Automated Personalization](/help/main/c-activities/t-automated-personalization/automated-personalization.md#automated-personalization-overview) 
 * [Experience Targeting](/help/main/c-activities/t-test-ab/t-test-create-ab/ab-goals-and-settings.md#ab-goals-and-settings) 
 * [Multivariate Test](/help/main/c-activities/t-test-ab/t-test-create-ab/ab-goals-and-settings.md#ab-goals-and-settings) 
 * [Recommendations](/help/main/c-recommendations/t-create-recs-activity/recs-activity-settings.md#reference_3FDA8388CEEC4159949151C1829E2FBB)

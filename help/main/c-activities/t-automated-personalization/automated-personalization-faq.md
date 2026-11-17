@@ -70,7 +70,7 @@ There is no turn-key option of comparing [!UICONTROL Automated Personalization] 
       * The locations you selected do not impact the success metric.
       * The optimization goal is too far in the conversion funnel to be affected by your chosen offers.
 
-* Make sure to use the [Traffic Estimator](/help/main/c-activities/t-automated-personalization/ap-traffic-estimator.md#task_71AA6922AFD447EA8C5E610A78ABA714) so you can have a sense of how long it takes for personalization models to build in your [!UICONTROL Automated Personalization] activity. 
+* Make sure to use the [Traffic Estimator](/help/main/c-activities/t-automated-personalization/ap-traffic-estimator.md#use-traffic-estimator) so you can have a sense of how long it takes for personalization models to build in your [!UICONTROL Automated Personalization] activity. 
 * Decide on the allocation between the control and targeted before beginning the activity, based on your goals.
 
   There are three scenarios to consider based on the goal of your activity and the type of control you have selected:
@@ -158,7 +158,7 @@ For example, assume that an [!UICONTROL Automated Personalization] activity had 
 
 +++See details
 
-The time it takes for models to build in your activity typically depends on the traffic to your selected activity locations and your activity success metric. Use the [Traffic Estimator](/help/main/c-activities/t-automated-personalization/ap-traffic-estimator.md#task_71AA6922AFD447EA8C5E610A78ABA714) to determine the expected length of time it takes for models to build in your activity.
+The time it takes for models to build in your activity typically depends on the traffic to your selected activity locations and your activity success metric. Use the [Traffic Estimator](/help/main/c-activities/t-automated-personalization/ap-traffic-estimator.md#use-traffic-estimator) to determine the expected length of time it takes for models to build in your activity.
 
 +++
 

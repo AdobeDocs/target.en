@@ -81,7 +81,7 @@ You can consume [!UICONTROL Content Fragments] in [!DNL Target] activities using
 >
 >Use Artificial Intelligence, Machine Learning, and recommendations with [!UICONTROL Content Fragments]:
 >
->* To fully use the [!DNL Target] AI and ML functionality, you can select [Auto-Allocate](/help/main/c-activities/automated-traffic-allocation/automated-traffic-allocation.md#concept_A1407678796B4C569E94CBA8A9F7F5D4) or [Auto-Target](/help/main/c-activities/auto-target/auto-target-to-optimize.md) while creating an [!UICONTROL A/B Test] activity.
+>* To fully use the [!DNL Target] AI and ML functionality, you can select [Auto-Allocate](/help/main/c-activities/automated-traffic-allocation/automated-traffic-allocation.md#auto-allocate-overview) or [Auto-Target](/help/main/c-activities/auto-target/auto-target-to-optimize.md) while creating an [!UICONTROL A/B Test] activity.
 >
 >* [!UICONTROL Content Fragments] are not supported in [!DNL Recommendations] activities. However, to use [!UICONTROL Content Fragments] for recommendations you can create an [!UICONTROL A/B Test] activity (including [!UICONTROL Auto-Allocate] and [!UICONTROL Auto-Target]) or an [!UICONTROL Experience Targeting] (XT) activity and [include recommendations as an offer](/help/main/c-recommendations/recommendations-as-an-offer.md). 
 

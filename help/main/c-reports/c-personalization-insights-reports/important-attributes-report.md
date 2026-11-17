@@ -56,7 +56,7 @@ In different activities, different attributes are more, or less, important to ho
 
 ## Access the [!UICONTROL Important Attributes] report {#section_8E8F997AAAF44A1B9EE06EB6FB652801}
 
-1. Click **[!UICONTROL Activities]**, then click the desired [Automated Personalization](/help/main/c-activities/t-automated-personalization/automated-personalization.md#task_8AAF837796D74CF893CA2F88BA1491C9) or [Auto-Target](/help/main/c-activities/auto-target/auto-target-to-optimize.md) activity from the list.
+1. Click **[!UICONTROL Activities]**, then click the desired [Automated Personalization](/help/main/c-activities/t-automated-personalization/automated-personalization.md#automated-personalization-overview) or [Auto-Target](/help/main/c-activities/auto-target/auto-target-to-optimize.md) activity from the list.
 
    If you have many activities, click the Filter ( ![Filter icon](/help/main/assets/icons/Filter.svg) ) icon to filter the list by selecting options from the [!UICONTROL Type], [!UICONTROL Status], [!UICONTROL Reporting Source], [!UICONTROL Experience Composer], [!UICONTROL Metrics Type], and [!UICONTROL Activity Source] drop-down lists. 
 
