@@ -21,7 +21,7 @@ topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
     internal-label: Personalization
 ---
-# Create audiences
+# Get started with creating audiences
 
 Audiences in [!DNL Adobe Target] determine who sees content and experiences in a targeted activity.
 

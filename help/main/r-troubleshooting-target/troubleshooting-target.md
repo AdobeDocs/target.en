@@ -78,7 +78,7 @@ The following sections contain troubleshooting information about activities, sep
 ### Multivariate Test (MVT)
 
 * [Multivariate Test best practices](/help/main/c-activities/c-multivariate-testing/best-practices.md)
-* [Troubleshooting Multivariate tests](/help/main/c-activities/c-multivariate-testing/best-practices.md)
+* [Troubleshooting Multivariate tests](/help/main/c-activities/c-multivariate-testing/best-practices.md#follow-up)
 * [Estimate the traffic required for a successful test](/help/main/c-activities/c-multivariate-testing/t-create-multivariate-test/traffic-estimator.md)
 
 ### Recommendations

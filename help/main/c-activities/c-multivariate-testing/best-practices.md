@@ -1,7 +1,7 @@
 ---
 keywords: mvt;multivariate test;multivariate test best practices;mvt best practices;mvt combinations;mvt reports
 description: Learn how to improve performance, avoid issues, and correct known issues that might occur when creating and running [!UICONTROL Multivariate Test] activities in [!DNL Adobe Target].
-title: What Best Practices for a [!UICONTROL Multivariate Test] activity?
+title: What Are the Best Practices for a [!UICONTROL Multivariate Test] Activity?
 feature: Multivariate Tests
 exl-id: bcd15517-1b5f-4425-9404-1d7dd0689e28
 TQID: 'https://experienceleague.adobe.com/nQEf5GZ8-zVZakygPtMAYWk-xoJPdcycFbzCNKTqJ-k'
@@ -15,58 +15,88 @@ topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
     internal-label: Customer experience
 ---
-# [!UICONTROL Multivariate Test] best practices
+# [!UICONTROL Multivariate Test] best practices {#mvt-best-practices}
 
-Tips to help you improve performance, avoid issues, and correct known issues that might occur when creating and running [!UICONTROL Multivariate Test] (MVT) activities in [!DNL Adobe Target].
+>[!BEGINSHADEBOX]
 
-## Plan {#section_4D4A1F6226F042379BF48DB753608579}
+**On this page:** Learn how to plan, create, analyze, and follow up on a **[!UICONTROL Multivariate Test]** activity to get reliable results.
 
-* Be aware of the locations on your page that are likely to produce significant results.
+>[!ENDSHADEBOX]
 
-  For example, a banner or a hero image is probably going to lead to more conversions than a change in the footer. Including less-influential locations in your test only increases the amount of traffic and time required to test the more prominent locations on the page. 
-* Prepare your page variations ahead of time.
+The following tips help you improve performance, avoid issues, and correct known issues that might occur when you create and run **[!UICONTROL Multivariate Test]** (MVT) activities in [!DNL Adobe Target].
+
+## Plan {#plan}
+
+* **Use at least three elements in the test.** 
+
+  If you have fewer, run a series of A/B tests. For more information, see [When to use Multivariate Test vs A/B](/help/main/c-activities/c-multivariate-testing/multivariate-testing.md#when-to-use-mvt).
+
+* **Be aware of the amount of traffic that you typically get, including the number of impressions and conversions.**
+
+  MVT requires sufficient traffic to generate useful results, and this information helps reduce the likelihood of designing a test with requirements that exceed the traffic of your site.
+
+* **Be aware of the locations on your page that are likely to produce significant results.** 
+
+  A banner or a hero image is probably going to lead to more conversions than a change in the footer. Including less-influential locations in your test only increases the amount of traffic and time required to test the more prominent locations on the page.
+
+* **Keep the elements independent of each other.** 
+
+  For example, do not test your layout and content in the same test.
+
+* **Examine the HTML code for the pages that you want to test.**
+
+  Make sure that the HTML elements on your site do not have duplicate DOM IDs. Duplicate IDs can result in the same piece of content being delivered to more than one location.
+
+* **Prepare your page variations ahead of time.** 
 
   Be aware of the content differences for each offer, and create any images, text, and HTML offers that you expect to use in the MVT test.
 
-## Create {#section_C59C722CA82E48ABA58A4A7FA758F193}
+* **Plan additional time for QA.**
 
-* Do not include more combinations than necessary for the test.
+  The number of experiences increases, so QA takes more time.
 
-  Every combination tested significantly increases the amount of traffic and time required to achieve acceptable results. For example, if you have three locations with three offers each, there are 27 possible combinations (3x3x3). Three locations, where two locations contain three possible offers and one location has two offers, provide 18 options (3x3x2). The numbers increase substantially with each additional location and offer. 
+## Create {#create}
 
-* Name locations and offers.
+* **Do not include more combinations than necessary for the test.** 
+
+  Every combination tested significantly increases the amount of traffic and time required to achieve acceptable results. For example, if you have three locations with three offers each, there are 27 possible combinations (3x3x3). Three locations, where two locations contain three possible offers and one location has two offers, provide 18 options (3x3x2). The numbers increase substantially with each additional location and offer.
+
+* **Name locations and offers.** 
 
   You can rename each location and offer in your test to something more useful. The number of offers in each location appears in the location header. Useful names help you identify your offers when examining reports.
 
-* Take advantage of the preview features to avoid undesirable combinations of content.
+* **Take advantage of the preview features to avoid undesirable combinations of content.** 
 
-  Review all the experiences generated by your test before going live. Make sure that there are no combinations with contradictory claims (for example, 20% off and $19 off in the same experience) or incompatible designs such as having background and font of the same color. 
+  Review all the experiences generated by your test before going live. Make sure that there are no combinations with contradictory claims (for example, 20% off and $19 off in the same experience) or incompatible designs, such as a background and a font of the same color.
 
-* Use the [Traffic Estimator](/help/main/c-activities/c-multivariate-testing/t-create-multivariate-test/traffic-estimator.md) to make sure that your test is designed for the amount of traffic your page receives.
+* **Use the [Traffic Estimator](/help/main/c-activities/c-multivariate-testing/t-create-multivariate-test/traffic-estimator.md#traffic-estimator) to make sure that your test is designed for the amount of traffic that your page receives.** 
+  
+  Make sure that the **[!UICONTROL Traffic Estimator]** gives your test configuration the green light so that you can get the results that you want.
 
-  Make sure that the Traffic Estimator gives your test configuration the green light so you can get the results you desire.
+* **Make the alternatives of each element significantly different from each other.** 
+  
+  Although it is not required, it is good practice for each element to have the same number of alternatives.
 
-* Each element's alternatives should be significantly different from each other.
+## Analyze {#analyze}
 
-## Analyze {#section_9A2118CF1039451681C13D9AE79A58AB}
+* **Make frequent use of the [Location Contribution report](/help/main/c-reports/multivariate-test-reports/location-contribution-report.md)** to monitor the performance of each location and offer.
 
-* Make frequent use of the [Location Contribution report](/help/main/c-reports/multivariate-test-reports/location-contribution-report.md) to monitor the performance of each location and offer. 
-* In the [Experience Performance report](/help/main/c-reports/multivariate-test-reports/experience-performance-report.md), base your decisions on the data shown using the [!UICONTROL Best 5] and [!UICONTROL Worst 5] filters.
+* **In the [Experience Performance report](/help/main/c-reports/multivariate-test-reports/experience-performance-report.md), base your decisions on the data shown by using the [!UICONTROL Best 5] and [!UICONTROL Worst 5] filters.** 
 
-  The [!UICONTROL All] filter makes it difficult to extract the desired information, and not all experiences can display in the graph. Use the [!UICONTROL All] filter if you want to look at a specific experience that is not in the best or worst five.
+  The **[!UICONTROL All]** filter makes it difficult to extract the desired information, and not all experiences can display in the graph. Use the **[!UICONTROL All]** filter if you want to look at a specific experience that is not in the best or worst five.
 
-## Follow Up {#section_1C44A767F6AB4441A3EAA8AC995F46B0}
+## Follow up {#follow-up}
 
-* Although [!DNL Target] allows you to edit a live activity, editing an activity that is in progress could reset the test. Reports might not recognize some of the changes. It is safe to make changes to HTML offers in offer library only.
+* Although [!DNL Target] allows you to edit a live activity, **editing an activity that is in progress could reset the test.** Reports might not recognize some of the changes. It is safe to make changes to HTML offers in the offer library only.
 
-  Specific actions that reset experience names and reports include:
+  The specific actions that reset experience names and reports include:
 
-    * Adding a new location 
-    * Deleting a location 
-    * Adding new offers or deleting offers from an existing location 
-    * Editing rich text offers 
-    * Editing background color offers
+  * Adding a new location
+  * Deleting a location
+  * Adding new offers or deleting offers from an existing location
+  * Editing rich text offers
+  * Editing background color offers
 
-* By following an MVT test with one or more A/B tests, you can determine the best possible content for the results you desire.
+* **If the report suite does not load when you edit an activity that uses [!DNL Analytics]-based metrics (a spinner displays),** switch the metrics to [!DNL Target] metrics, then switch again to the [!DNL Analytics]-based metrics. The report suite should now load.
 
-  Once you have determined which locations and content are most useful for helping you meet your goals, you can run an A/B test to further refine the results. For example, when you know which locations are most important, test two specific images against each other, or compare the wording or colors of a call to action.
+* **Follow an MVT test with one or more A/B tests** to determine the best possible content for the results that you want. Once you have determined which locations and content are most useful for helping you meet your goals, you can run an A/B test to further refine the results. For example, when you know which locations are most important, test two specific images against each other, or compare the wording or colors of a call to action.

@@ -23,7 +23,7 @@ topic_v2:
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
     internal-label: Insights
 ---
-# Reports
+# Get started with reports
 
 Reports provide information about the progress and results of your [!DNL Adobe Target] activities that help you make decisions based on data. Report data can help you decide when to end an activity, show you which experience or offer is the winner, and provide insights or learnings you need to determine next actions.
 

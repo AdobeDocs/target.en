@@ -20,7 +20,7 @@ topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
     internal-label: Personalization
 ---
-# Adobe [!DNL Target] welcome kit
+# Get started with the [!DNL Target] welcome kit
 
 Welcome to Adobe Target.
 

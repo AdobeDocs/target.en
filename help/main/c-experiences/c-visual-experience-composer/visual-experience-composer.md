@@ -19,7 +19,7 @@ topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
 ---
-# [!UICONTROL Visual Experience Composer] (VEC)
+# Get started with the [!UICONTROL Visual Experience Composer]
 
 The [!UICONTROL Visual Experience Composer] (VEC) in [!DNL Adobe Target] is a WYSIWYG editor for creating and testing personalized experiences directly on websites and mobile web pages without editing code.
 

@@ -21,7 +21,7 @@ topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
     internal-label: Personalization
 ---
-# Integrate [!DNL Target] with [!DNL Adobe Experience Manager] (AEM)
+# Get started with integrating [!DNL Target] with AEM
 
 The [!DNL Adobe Target]/[!DNL Adobe Experience Manager] (AEM) integration currently lets you use [!UICONTROL Experience Fragments] (XFs) and [!UICONTROL Content Fragments] (CFs) created in AEM in [!DNL Target] activities to aid optimization and personalization.
 

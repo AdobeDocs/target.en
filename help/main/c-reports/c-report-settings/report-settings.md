@@ -23,7 +23,7 @@ topic_v2:
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
     internal-label: Insights
 ---
-# Report settings
+# Get started with report settings
 
 Information to help you set the elements you want to appear in your report in [!DNL Adobe Target]. Report settings can be saved for later use.
 

@@ -29,7 +29,7 @@ topic_v2:
   - id: eb30f47f-d87a-400f-8f78-63ce7979ff56
     internal-label: Machine learning
 ---
-# Activities overview {#activities-overview}
+# Get started with activities {#activities-overview}
 
 >[!BEGINSHADEBOX]
 

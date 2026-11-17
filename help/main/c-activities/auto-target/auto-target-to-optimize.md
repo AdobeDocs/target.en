@@ -37,7 +37,7 @@ topic_v2:
   - id: fd2e3797-f2ea-4b36-a9af-52acf5e90513
     internal-label: Customer profiles
 ---
-# [!UICONTROL Auto-Target] overview {#auto-target-overview}
+# Get started with [!UICONTROL Auto-Target] {#auto-target-overview}
 
 >[!BEGINSHADEBOX]
 

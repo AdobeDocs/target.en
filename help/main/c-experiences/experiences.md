@@ -24,7 +24,7 @@ topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
     internal-label: Personalization
 ---
-# Experiences and offers
+# Get started with experiences and offers
 
 An experience in [!DNL Adobe Target] determines which content displays when the visitor meets the audience criteria for an activity.
 

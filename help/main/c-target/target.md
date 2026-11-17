@@ -17,7 +17,7 @@ topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
     internal-label: Customer experience
 ---
-# Audiences
+# Get started with audiences
 
 Use audiences in [!DNL Adobe Target] to target different content and experiences to specific audiences to optimize your web marketing by displaying the right messages to the right people at the right time.
 

@@ -18,7 +18,7 @@ topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
     internal-label: Customer experience
 ---
-# Offers
+# Get started with offers
 
 Discover how to efficiently manage code and image offers using the [!UICONTROL Offers] library in [!DNL Adobe Target]. 
 

@@ -31,200 +31,172 @@ topic_v2:
   - id: eb30f47f-d87a-400f-8f78-63ce7979ff56
     internal-label: Machine learning
 ---
-# Automated Personalization FAQs
+# Automated Personalization FAQs {#ap-faq}
 
-Consult the following FAQs and answers as you work with [!UICONTROL Automated Personalization] activities in [!DNL Adobe Target].
+>[!BEGINSHADEBOX]
 
-## Can I specify a specific experience to be used as a control in an [!UICONTROL Automated Personalization] activity?
+**On this page:** Find answers to frequently asked questions about **[!UICONTROL Automated Personalization]** activities.
 
-+++See details
+>[!ENDSHADEBOX]
 
-You can select an experience to be used as a control while creating an [Automated Personalization](/help/main/c-activities/t-automated-personalization/automated-personalization.md) (AP) or [Auto-Target](/help/main/c-activities/auto-target/auto-target-to-optimize.md) (AT) activity.
+The following questions and answers cover how to set up **[!UICONTROL Automated Personalization]** activities in [!DNL Adobe Target], how the personalization models are built, how traffic is allocated, and how to read the results.
 
-This feature lets you route the entire control traffic to a specific experience, based on the traffic allocation percentage configured in the activity. You can then evaluate the performance reports of the personalized traffic against control traffic to that one experience.
+## Set up an activity {#set-up-an-activity}
 
-For more information, see [Use a specific experience as control](/help/main/c-activities/t-automated-personalization/experience-as-control.md).
++++ What are the best practices to set up an [!UICONTROL Automated Personalization] activity?
 
-+++
+* Pay close attention to the *activity shape* (number of locations × number of offers), not only to the total experience count. The cartesian combinations of locations and offers affect authoring-time performance more than the raw number of experiences. For optimal performance and manageability, limit **[!UICONTROL Automated Personalization]** and **[!UICONTROL Auto-Target]** activities to 4–6 locations with 4–6 offers per location, as described in the question "What are some limits in Automated Personalization?" in this section. Larger configurations are not recommended and can lead to slow loading or editing in the **[!UICONTROL Visual Experience Composer]**.
+* To personalize a lower-traffic page, or to make structural changes to the experience that you are personalizing, consider using an [**[!UICONTROL Auto-Target]** activity](/help/main/c-activities/auto-target/auto-target-to-optimize.md) instead of **[!UICONTROL Automated Personalization]**.
+* Consider running an **[!UICONTROL A/B Test]** activity between the offers and locations that you plan to use in your **[!UICONTROL Automated Personalization]** activity, to confirm that the locations and offers have an impact on the optimization goal. If the **[!UICONTROL A/B Test]** activity fails to demonstrate a significant difference, **[!UICONTROL Automated Personalization]** likely also fails to generate lift.
 
-## How can I compare [!UICONTROL Automated Personalization] to a default experience? {#section_46C1A620A2384C2C8392D6716DD18495}
+  If an A/B…N test shows no statistically significant differences between experiences, one or more of the following situations is probably responsible:
 
-+++See details
+  * The offers are likely not sufficiently different from each other.
+  * The locations that you selected do not impact the success metric.
+  * The optimization goal is too far in the conversion funnel to be affected by your chosen offers.
 
-There is no turn-key option of comparing [!UICONTROL Automated Personalization] to a default experience. However, as a workaround, if a default offer or experience exists as part of the overall activity, to understand its baseline performance, click the "[!UICONTROL Control]" segment in reports and locate that particular offer in the resulting offer-level report. The conversion rate recorded for this offer can be used to compare with the conversation rate of the entire "Random Forest" segment. This helps to compare how the machine is doing compared to the default offer.
+* Use the [Traffic Estimator](/help/main/c-activities/t-automated-personalization/ap-traffic-estimator.md#use-traffic-estimator) to get a sense of how long it takes for personalization models to build in your **[!UICONTROL Automated Personalization]** activity.
+* Decide on the allocation between the control and the targeted traffic before beginning the activity, based on your goals. The following table lists the three scenarios to consider, based on the goal of your activity and the type of control that you selected.
 
-+++
+  | Control and activity goal | Recommended allocation to the control | Details |
+  | --- | --- | --- |
+  | **[!UICONTROL Random Experiences]** as the control, and the goal is to test the effectiveness of the personalization algorithm | 50% | This goal requires a more accurate picture of lift. You also most likely want to compare the conversion rate of your experiences or offers with the rate that a simple **[!UICONTROL A/B Test]** (a randomly served control) would give. |
+  | **[!UICONTROL Random Experiences]** as the control, and the goal is to maximize personalized traffic | 10% to 30% | Use this option if you are comfortable with the algorithm and want the maximum amount of traffic personalized. The tradeoff is the accuracy of your lift information: the confidence intervals of the control traffic are larger, as less traffic flows to them. |
+  | **[!UICONTROL Specific Experience]** as the control, with either goal | 10% to 30% | Use this option to compare a specific marketer-driven experience to the personalization models. When you select only one experience as the control, that traffic is not spread across every offer or experience in the activity. |
 
-## What are the best practices to set up an [!UICONTROL Automated Personalization] activity? {#section_E155B26282BE49B58EA2683413D11DE6}
+* Use targeting rules as sparingly as possible, as they can interfere with the ability of the model to optimize. For more information, see [Target Automated Personalization offers](/help/main/c-activities/t-automated-personalization/ap-target-offers.md).
+* Reporting groups can limit the success of your **[!UICONTROL Automated Personalization]** activity, so use them only under specific conditions. For more information, see [Offer reporting groups in Automated Personalization](/help/main/c-activities/t-automated-personalization/offer-reporting-groups-in-automated-personalization.md).
 
-+++See details
+  * Use reporting groups only if all of the following conditions are met:
 
-* Pay close attention to *activity shape* (number of locations × number of offers), not only the total experience count. Cartesian combinations of locations and offers drive authoring-time performance more than the raw number of experiences.
-* For optimal performance and manageability, limit [!UICONTROL Automated Personalization] and [!UICONTROL Auto-Target] activities to 4–6 locations with 4–6 offers per location. Larger configurations are not recommended,  they can lead to slow loading or editing in the [!UICONTROL Visual Experience Composer], and may be restricted in the [!DNL Target] UI. In the current UI, [!DNL Target] surfaces inline warnings or prevents saving the activity when the configuration exceeds supported thresholds.
-* If you are looking to personalize a lower-traffic page, or you want to make structural changes to the experience you are personalizing, consider using an [!UICONTROL Auto-Target] activity in place of [!UICONTROL Automated Personalization]. See [Auto-Target](/help/main/c-activities/auto-target/auto-target-to-optimize.md). 
-* Consider completing an [!UICONTROL A/B Test] activity between the offers and locations that you are planning to use in your [!UICONTROL Automated Personalization] activity to ensure that the location and offers have an impact on the optimization goal. If an [!UICONTROL A/B Test] activity fails to demonstrate a significant difference, [!UICONTROL Automated Personalization] likely also fails to generate lift.
+    * You plan to replace or add offers while the activity is running.
+    * The offers in the reporting group appeal to the same visitors.
+    * The offers in the reporting group have about the same overall response rate.
 
-    * If an A/B…N test shows no statistically significant differences between experiences, one or more of the following situations is probably responsible:
-    
-      * The offers are likely not sufficiently different from each other.
-      * The locations you selected do not impact the success metric.
-      * The optimization goal is too far in the conversion funnel to be affected by your chosen offers.
-
-* Make sure to use the [Traffic Estimator](/help/main/c-activities/t-automated-personalization/ap-traffic-estimator.md#use-traffic-estimator) so you can have a sense of how long it takes for personalization models to build in your [!UICONTROL Automated Personalization] activity. 
-* Decide on the allocation between the control and targeted before beginning the activity, based on your goals.
-
-  There are three scenarios to consider based on the goal of your activity and the type of control you have selected:
-
-  * **Random Experiences as your control and your activity goal is to test the effectiveness of the personalization algorithm**: If your goal is to evaluate the personalization algorithm, you want to have a more accurate picture of lift. You also most likely want to compare what the conversion rate for your experiences or offers is if you simply did an [!UICONTROL A/B Test] (a randomly served control). In that situation, using a 50% allocation to a control of randomly served experiences is recommended.
-  * **"Random Experiences" as your control and your activity goal is to maximize personalized traffic**: If you are comfortable with the algorithm and want to have the maximum amount of traffic personalized, a 10% to 30% allocation to control is recommended. The tradeoff here is the accuracy that you see in your lift information. The confidence intervals of your control traffic are larger because there is less traffic flowing to them.
-  * **Specific Experience as your control, with either goal type**: If you want to compare a specific marketer-driven experience to the personalization models, a 10% to 30% allocation to control is recommended. When you select only one experience as a control, that traffic is not spread across every offer or experience in the activity.
-
-* Targeting rules should be used as sparingly as possible because they can interfere with the model's ability to optimize. 
-* Reporting groups can limit the success of your [!UICONTROL Automated Personalization] activity. Use reporting groups only under specific conditions:
-
-    * Use reporting groups only if the following conditions are met: 
-    
-      * You plan on replacing or adding new offers while the activity is running.
-      * The offers in the reporting group appeal to the same visitors.
-      * The offers in that reporting group have about the same overall response rate.
-
-    * There is no personalization between offers in a reporting group. The offers are all treated as the same by the personalization model. 
-    * Never put all offers in an activity into a single reporting group. Doing so causes all offers to be uniformly randomly served to all visitors in the activity.
+  * There is no personalization between offers in a reporting group. The personalization model treats all the offers as the same.
+  * Never put all offers in an activity into a single reporting group. Doing so causes all offers to be uniformly randomly served to all visitors in the activity.
 
 +++
 
-## What are some limits in [!UICONTROL Automated Personalization]? {#section_08BA09ED51B547299963C94FE6417CFA}
++++ What are some limits in [!UICONTROL Automated Personalization]?
 
-+++See details
+[!DNL Target] has a hard limit of 30,000 experiences, but it functions at its best when fewer than 10,000 experiences are created. The same limit applies when the activity has the **[!UICONTROL Disallow Duplicates]** option enabled.
 
-[!DNL Target] has a hard limit of 30,000 experiences, but it functions at its best when fewer than 10,000 experiences are created.
+Although **[!UICONTROL Automated Personalization]** and **[!UICONTROL Auto-Target]** activities can support a large number of experiences, authoring performance depends heavily on the *activity shape* (number of locations × number of offers). Certain configurations create large cartesian combinations that can significantly impact load and edit performance, even below the documented experience limits.
 
-This same limit is applied even when the activity has enabled the [!UICONTROL Disallow Duplicates] option.
+For optimal performance and manageability, limit **[!UICONTROL Automated Personalization]** and **[!UICONTROL Auto-Target]** activities to 4–6 locations with 4–6 offers per location. Larger configurations are not recommended and may be restricted in the [!DNL Target] UI.
 
-Although [!UICONTROL Automated Personalization] and [!UICONTROL Auto-Target] activities can support a large number of experiences, authoring performance depends heavily on *activity shape* (number of locations × number of offers). Certain configurations create large cartesian combinations that can significantly impact load and edit performance, even below the documented experience limits.
-
-For optimal performance and manageability, limit [!UICONTROL Automated Personalization] and [!UICONTROL Auto-Target] activities to 4–6 locations with 4–6 offers per location. Larger configurations are not recommended and may be restricted in the [!DNL Target] UI.
-
-In the current [!DNL Target] UI, [!UICONTROL Automated Personalization] and [!UICONTROL Auto-Target] activities are configured directly in the [!UICONTROL Experiences] step. [!DNL Target] may surface inline warnings or prevent saving activities when configurations exceed supported thresholds, and re-validates the activity shape on [!UICONTROL Next], [!UICONTROL Save], and [!UICONTROL Publish].
+In the current [!DNL Target] UI, **[!UICONTROL Automated Personalization]** and **[!UICONTROL Auto-Target]** activities are configured directly in the **[!UICONTROL Experiences]** step. [!DNL Target] may display inline warnings or prevent you from saving an activity when the configuration exceeds the supported thresholds, and it re-validates the activity shape on **[!UICONTROL Next]**, **[!UICONTROL Save]**, and **[!UICONTROL Publish]**.
 
 For more information about character limits and other limits (offer size, audiences, profiles, values, parameters, and so forth) that affect activities and other elements in [!DNL Target], see [Limits](/help/main/r-troubleshooting-target/target-limits.md).
 
 +++
 
-## How is offer-level targeting implemented? {#section_9D7A86EA93D74E9B8C81072A681263A4}
++++ Can I specify a specific experience to be used as a control in an [!UICONTROL Automated Personalization] activity?
 
-+++See details
+You can select a specific experience to be used as the control while creating an [**[!UICONTROL Automated Personalization]**](/help/main/c-activities/t-automated-personalization/automated-personalization.md#automated-personalization-overview) (AP) or [**[!UICONTROL Auto-Target]**](/help/main/c-activities/auto-target/auto-target-to-optimize.md) (AT) activity.
 
-When each visitor arrives, the set of possible offers the visitor can see is determined by the offer-level targeting rules. Then, the algorithm chooses the offer that the model predicts has the best expected revenue or chance of conversion from among those offers. Offer targeting impacts the efficacy of [!DNL Target] machine learning algorithms and, as a result, should be used as sparingly as possible.
+This feature lets you route the entire control traffic to that experience, based on the traffic allocation percentage configured in the activity. You can then evaluate the performance reports of the personalized traffic against the control traffic to that one experience.
+
+For more information, see [Select the control experience](/help/main/c-activities/t-automated-personalization/experience-as-control.md).
 
 +++
 
-## Why is my [!UICONTROL Automated Personalization] activity not showing lift? {#section_BFA07C8C258F45318F73A461B8F32737}
++++ How is offer-level targeting implemented?
 
-+++See details
+When each visitor arrives, the offer-level targeting rules determine the set of offers that the visitor can see. The algorithm then chooses, from among those offers, the offer that the model predicts has the best expected revenue or chance of conversion. Offer targeting impacts the efficacy of the [!DNL Target] machine-learning algorithms, so use it as sparingly as possible. For more information, see [Target Automated Personalization offers](/help/main/c-activities/t-automated-personalization/ap-target-offers.md).
 
-There are four factors required for an [!UICONTROL Automated Personalization] activity to generate lift:
++++
 
-* The offers in each location must be different enough to influence visitors. 
-* The locations must be somewhere that make a difference to the optimization goal. 
-* There must be enough traffic and statistical power in the activity to detect the lift. 
+## Model building and traffic allocation {#models-and-traffic}
+
++++ How is [!UICONTROL Automated Personalization] allocating my activity's traffic?
+
+**[!UICONTROL Automated Personalization]** routes visitors to the experience that has the highest forecasted success metric, based on the most recent [Random Forest](/help/main/c-activities/t-automated-personalization/algo-random-forest.md) models. This forecast is based on the specific information and visit context of the visitor.
+
+For example, assume that an **[!UICONTROL Automated Personalization]** activity has two locations with two offers each. In the first location, Offer A has a forecasted conversion rate of 3% for a specific visitor, and Offer B has a forecasted conversion rate of 1%. In the second location, Offer C has a forecasted conversion rate of 2% for the same visitor, and Offer D has a forecasted conversion rate of 5%. Therefore, **[!UICONTROL Automated Personalization]** serves this visitor an experience with Offer A and Offer D.
+
++++
+
++++ How does [!UICONTROL Automated Personalization] build models with regard to environments?
+
+One model is built to identify the performance of the personalized strategy versus randomly served traffic versus sending all traffic to the overall winning experience. This model considers hits and conversions in the default environment only.
+
+A second set of models is built for each reporting group (**[!UICONTROL Automated Personalization]**) or experience (**[!UICONTROL Auto-Target]**). For each of these models, hits and conversions across all environments are considered.
+
+Requests are, therefore, served with the same model, regardless of environment. However, the plurality of traffic should come from the default environment to ensure that the identified overall winning experience is consistent with real-world behavior.
+
++++
+
++++ How long should I wait for models to build?
+
+The time it takes for models to build in your activity typically depends on the traffic to your selected activity locations and on your activity success metric. Use the [Traffic Estimator](/help/main/c-activities/t-automated-personalization/ap-traffic-estimator.md#use-traffic-estimator) to determine the expected length of time it takes for models to build in your activity.
+
++++
+
++++ How can I decrease the time needed for models to build in my [!UICONTROL Automated Personalization] activity?
+
+Review your activity setup for changes that improve the speed at which models build. For example, change an RPV success metric to conversion, choose a success metric that is closer to your activity experiences in the sales funnel, drop some experiences from the activity, or use a higher-traffic page. For more information, see [Troubleshoot Automated Personalization](/help/main/c-activities/t-automated-personalization/ap-trouble.md).
+
++++
+
++++ One model is built within my [!UICONTROL Automated Personalization] activity. Are the visits to that experience personalized?
+
+No. At least two models must be built within your activity for personalization to begin.
+
++++
+
+## Results and lift {#results-and-lift}
+
++++ When can I look at the results of my [!UICONTROL Automated Personalization] activity?
+
+You can begin to look at the results of your **[!UICONTROL Automated Personalization]** activity after at least two experiences have models built (indicated by a green checkmark).
+
++++
+
++++ Why is my [!UICONTROL Automated Personalization] activity not showing lift?
+
+Four factors are required for an **[!UICONTROL Automated Personalization]** activity to generate lift:
+
+* The offers in each location must be different enough to influence visitors.
+* The locations must be somewhere that makes a difference to the optimization goal.
+* There must be enough traffic and statistical power in the activity to detect the lift.
 * The personalization algorithm must work well.
 
-The best course of action is to first make sure the content and locations that make up the activity experiences truly make a difference to the overall response rates using a simple, non-personalized [!UICONTROL A/B Test] activity. Be sure to compute the sample sizes ahead of time to ensure there is enough power to see a reasonable lift and run the A/B test for a fixed duration without stopping it or making any changes. If the A/B test results show statistically significant lift on one or more experiences, it is likely that a personalized activity is successful. Personalization can work even if there are no differences in the overall response rates of the experiences. Typically, the issue stems from the offers or locations not having a large enough impact on the optimization goal to be detected with statistical significance.
-
-For more information, [Troubleshooting Automated Personalization](/help/main/c-activities/t-automated-personalization/ap-trouble.md#reference_281954549C3E49E2B5498009BBDC62CA).
+The best course of action is to first make sure, by using a simple, non-personalized **[!UICONTROL A/B Test]** activity, that the content and locations that make up the activity experiences truly make a difference to the overall response rates. For the complete procedure, see [Troubleshoot Automated Personalization](/help/main/c-activities/t-automated-personalization/ap-trouble.md).
 
 +++
 
-## How is [!UICONTROL Automated Personalization] allocating my activity's traffic? {#section_4369364F77804E0D9B78BEE551DA5659}
++++ How can I compare [!UICONTROL Automated Personalization] to a default experience?
 
-+++See details
-
-[!UICONTROL Automated Personalization] routes visitors to the experience that has the highest forecasted success metric based on the most recent [Random Forest](/help/main/c-activities/t-automated-personalization/algo-random-forest.md) models built for each model. This forecast is based on the visitor's specific information and visit context.
-
-For example, assume that an [!UICONTROL Automated Personalization] activity had two locations with two offers each. In the first location, Offer A has a forecasted conversion rate of 3% for a specific visitor, and Offer B has a forecasted conversion rate of 1%. In the second location, Offer C has a forecasted conversion rate of 2% for the same visitor, and Offer D has a forecasted conversion rate of 5%. Therefore, [!UICONTROL Automated Personalization] serves this visitor an experience with Offer A and Offer D.
+There is no turnkey option to compare **[!UICONTROL Automated Personalization]** to a default experience. As a workaround, if a default offer or experience exists as part of the activity, click the **[!UICONTROL Control]** segment in reports and locate that offer in the resulting offer-level report. The conversion rate recorded for this offer can be compared with the conversion rate of the entire "Random Forest" segment. This comparison shows how the model performs compared to the default offer.
 
 +++
 
-## When should I stop my [!UICONTROL Automated Personalization] activity? {#section_C51F3DAB8887463BB147373F6FE06B93}
+## Manage a live activity {#manage-live-activity}
 
-+++See details
++++ When should I stop my [!UICONTROL Automated Personalization] activity?
 
-[!UICONTROL Automated Personalization] can be used as "always on" personalization that constantly optimizes. Especially for evergreen content, there is no need to stop your [!UICONTROL Automated Personalization] activity. If you want to make substantial changes to the content that are not similar to offers currently in your [!UICONTROL Automated Personalization] activity, the best practice is to start a new activity. Starting a new activity helps other users reviewing reports to not confuse or relate past results with different content.
-
-+++
-
-## How long should I wait for models to build? {#section_6F6A5A9DB3564BE6B22FFEDFA5B29619}
-
-+++See details
-
-The time it takes for models to build in your activity typically depends on the traffic to your selected activity locations and your activity success metric. Use the [Traffic Estimator](/help/main/c-activities/t-automated-personalization/ap-traffic-estimator.md#use-traffic-estimator) to determine the expected length of time it takes for models to build in your activity.
+**[!UICONTROL Automated Personalization]** can be used as "always on" personalization that constantly optimizes. Especially for evergreen content, there is no need to stop your **[!UICONTROL Automated Personalization]** activity. If you want to make substantial changes to the content that are not similar to the offers currently in your activity, the best practice is to start a new activity. Starting a new activity helps other users who review reports to avoid confusing or relating past results with different content.
 
 +++
 
-## One model is built within my [!UICONTROL Automated Personalization] activity. Are the visits to that experience personalized? {#section_51EA953C6D1D4A3185FC9DD290D66621}
++++ Can I change the goal metric midway through an [!UICONTROL Automated Personalization] activity?
 
-+++See details
+[!DNL Adobe] does not recommend that you change the goal metric midway through an activity. Although it is possible to change the goal metric during an activity by using the [!DNL Target] UI, always start a new activity instead. [!DNL Adobe] does not guarantee what happens if you change the goal metric in an activity after it is running.
 
-No, there must be at least two models built within your activity for personalization to begin.
-
-+++
-
-## When can I look at the results of my [!UICONTROL Automated Personalization] activity? {#section_05DB5ACAE6AD429C9510766A7268EE2C}
-
-+++See details
-
-You can begin to look at the results of your [!UICONTROL Automated Personalization] activity after you have at least two experiences with models built (green checkmark) for the experience that has models built.
+This recommendation applies to **[!UICONTROL Auto-Allocate]**, **[!UICONTROL Auto-Target]**, and **[!UICONTROL Automated Personalization]** activities that use either [!DNL Target] or [!DNL Analytics] (A4T) as the reporting source.
 
 +++
 
-## How can I decrease the time needed for models to build in my [!UICONTROL Automated Personalization] activity? {#section_CCB8CEE98DAA40BA93AADCD596C48D82}
++++ Can I use the [!UICONTROL Reset Report Data] option while running an [!UICONTROL Automated Personalization] activity?
 
-+++See details
-
-Review your activity setup and see if there are any changes you are willing to make to improve the speed at which models build.
-
-* Is your success metric far down the sales funnel from your activity experiences? A lower activity conversion rate increases the traffic requirements needed for models to build, as a minimum number of conversions is required. 
-* If your success metric is set to RPV, can you change to conversion? Conversion activities tend to require less traffic to build models. 
-* Are there some experiences that you can drop from your activity? Decreasing the number of experiences in an activity speeds the time to build models. 
-* Is there a higher-traffic page where this activity would be more successful? The more traffic and conversions in your activity locations, the quicker models build.
+[!DNL Adobe] does not recommend using the **[!UICONTROL Reset Report Data]** option for **[!UICONTROL Automated Personalization]** activities. Although it removes the visible reporting data, this option does not remove all training records from the **[!UICONTROL Automated Personalization]** model. Instead of using the **[!UICONTROL Reset Report Data]** option, create a new activity and deactivate the original activity. This guidance also applies to **[!UICONTROL Auto-Allocate]** and **[!UICONTROL Auto-Target]** activities.
 
 +++
 
-## Why are visitors seeing experiences for an [!UICONTROL Automated Personalization] activity that they should not see? {#section_41CECEAE0881446A8D9F3B016857914B}
++++ Why are visitors seeing experiences for an [!UICONTROL Automated Personalization] activity that they should not see?
 
-+++See details
-
-[!UICONTROL Automated Personalization] activities are evaluated once per session. If there are active sessions that have qualified for a particular experience and now new offers have been added to it, visitors will see the new content along with the previously shown offers. Because these visitors previously qualified for those experiences, they still see those experiences during the session. To evaluate this at every page visit, you should change to the [!UICONTROL Experience Targeting] (XT) activity type.
-
-+++
-
-## Can I change the goal metric midway through an [!UICONTROL Automated Personalization] activity? {#change-metric}
-
-+++See details
-
-[!DNL Adobe] does not recommend that you change the goal metric midway through an activity. Although it is possible to change the goal metric during an activity using the [!DNL Target] UI, you should always start a new activity. [!DNL Adobe] do not warranty what happens if you change the goal metric in an activity after it is running. 
-
-This recommendation applies to [!UICONTROL Auto-Allocate], [!UICONTROL Auto-Target], and [!UICONTROL Automated Personalization] activities that use either [!DNL Target] or [!DNL Analytics] (A4T) as the reporting source.
-
-+++
-
-## Can I use the [!UICONTROL Reset Report Data] option while running an [!UICONTROL Automated Personalization] activity?
-
-+++See details
-
-[!DNL Adobe] does not recommend using the [!UICONTROL Reset Report Data] option for [!UICONTROL Automated Personalization] activities. Although it removes the visible reporting data, this option does not remove all training records from the [!UICONTROL Automated Personalization] model. Instead of using the [!UICONTROL Reset Report Data] option for [!UICONTROL Automated Personalization] activities, create a new activity and deactivate the original activity. This guidance also applies to [!UICONTROL Auto-Allocate] and [!UICONTROL Auto-Target] activities.
-
-+++
-
-## How does [!UICONTROL Automated Personalization] build models with regard to environments?
-
-+++See details
-
-One model is built to identify the performance of the personalized strategy versus randomly served traffic versus sending all traffic to the overall winning experience. This model considers hits and conversions in the default environment only. 
-
-Traffic from a second set of models is built for each modeling group ([!UICONTROL Automated Personalization]) or experience ([!UICONTROL Auto-Target]). For each of these models, hits and conversions across all environments are considered. 
-  
-Requests are, therefore, served with the same model, regardless of environment. However, the plurality of traffic should come from the default environment to ensure that the identified overall winning experience is consistent with real-world behavior.
+**[!UICONTROL Automated Personalization]** activities are evaluated once per session. If there are active sessions that have qualified for a particular experience and new offers have since been added to it, visitors see the new content along with the previously shown offers. These visitors previously qualified for those experiences, so they still see those experiences during the session. To evaluate the activity at every page visit, change to the **[!UICONTROL Experience Targeting]** (XT) activity type.
 
 +++

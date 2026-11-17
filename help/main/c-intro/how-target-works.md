@@ -120,13 +120,13 @@ See [Automated Personalization](/help/main/c-activities/t-automated-personalizat
 
 [!UICONTROL Experience Targeting] (XT) delivers content to specific audiences based on marketer-defined rules and criteria. Including geotargeting, XT is valuable for defining rules that target specific experiences or content to particular audiences. Multiple rules can be set in an activity to deliver different content variations to different audiences. When visitors view your site, XT evaluates them to determine if they meet the criteria. If they qualify, they enter the activity and see the experience designed for them. You can create experiences for multiple audiences within a single activity.
 
-See [Experience Targeting](/help/main/c-activities/t-experience-target/experience-target.md#task_A53DF336CB9F4D7BB87EF2106099EFC4) for more information.
+See [Experience Targeting](/help/main/c-activities/t-experience-target/experience-target.md#get-started-xt) for more information.
 
 ### [!UICONTROL Multivariate Test] (MVT)
 
 [!UICONTROL Multivariate Testing] (MVT) compares combinations of offers in page elements to determine which combination performs best for a specific audience. MVT helps identify which element most impacts the activity's success.
 
-See [Multivariate Test](/help/main/c-activities/c-multivariate-testing/multivariate-testing.md#concept_628695CDC71B449B8DCC2F5654C11499) for more information.
+See [Multivariate Test](/help/main/c-activities/c-multivariate-testing/multivariate-testing.md#get-started-mvt) for more information.
 
 ### [!UICONTROL Recommendations]
 

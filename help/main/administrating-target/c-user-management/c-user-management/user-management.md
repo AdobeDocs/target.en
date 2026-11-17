@@ -34,7 +34,7 @@ topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
 ---
-# Users
+# Get started with users
 
 Add users and manage their permissions in the [!DNL Adobe Admin Console] for a [!DNL Target Standard] account.
 

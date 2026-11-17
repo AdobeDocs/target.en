@@ -31,7 +31,7 @@ topic_v2:
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
     internal-label: Insights
 ---
-# [!UICONTROL Personalization Insights] reports
+# Get started with [!UICONTROL Personalization Insights] reports
 
 Two specialized reports are available to users of [!UICONTROL Automated Personalization] (AP) and [!UICONTROL Auto-Target] (AT) activities: the [!UICONTROL Automated Segments] and [!UICONTROL Important Attributes] reports.
 

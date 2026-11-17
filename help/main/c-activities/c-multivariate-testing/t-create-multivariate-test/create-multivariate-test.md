@@ -31,6 +31,8 @@ The [!DNL Target] point-and-click editor enables you to pick any location and ad
 
 The **[!UICONTROL Multivariate Test]** (MVT) takes a page-first report. In other words, the test runs on a specific URL, with the experiences you design for that page.
 
+Before you create the test, review the [planning recommendations](/help/main/c-activities/c-multivariate-testing/best-practices.md#plan) to check your traffic, choose the elements to test, and prepare your content.
+
 Follow the steps below to create a **[!UICONTROL Multivariate Test]** (MVT):
 
 1. [Create the activity](#create-activity)
@@ -66,7 +68,7 @@ Choose the activity type and delivery type, specify the page to test, and name t
 
 Add offers to each location, preview the resulting experiences, and check that your test plan is feasible.
 
-1. [Create the offers in each location](/help/main/c-activities/c-multivariate-testing/t-create-multivariate-test/add-offers.md#concept_DCE6B45C30F7419B8EC17AFDEE8D8AA6).
+1. [Create the offers in each location](/help/main/c-activities/c-multivariate-testing/t-create-multivariate-test/add-offers.md#create-combinations).
 
    You can add the following kinds of offers:
 
@@ -78,7 +80,7 @@ Add offers to each location, preview the resulting experiences, and check that y
 
 1. Click the **[!UICONTROL Show Experiences]** icon ( ![Show Experiences icon](/help/main/assets/icons/WebPages.svg) ) to display the list of all experiences in the left frame, then click a specific experience in the list to view that experience.
 
-1. [Use the Traffic Estimator](/help/main/c-activities/c-multivariate-testing/t-create-multivariate-test/traffic-estimator.md#task_71AA6922AFD447EA8C5E610A78ABA714) to test the feasibility of your test plan.
+1. [Use the Traffic Estimator](/help/main/c-activities/c-multivariate-testing/t-create-multivariate-test/traffic-estimator.md#use-traffic-estimator) to test the feasibility of your test plan.
 
 ### Exclude experiences (optional) {#exclude-experiences}
 
@@ -120,7 +122,7 @@ Choose which visitors enter the test, and review the test summary.
 
    +++
 
-1. [Review the test summary](/help/main/c-activities/c-multivariate-testing/t-create-multivariate-test/test-summary.md#reference_971AB225963A4DC18EEB5B0E20F0A4A7) and make any desired changes, then click **[!UICONTROL Next]**.
+1. [Review the test summary](/help/main/c-activities/c-multivariate-testing/t-create-multivariate-test/test-summary.md#mvt-test-summary) and make any desired changes, then click **[!UICONTROL Next]**.
 
 ## Configure goals and settings {#configure-goals-and-settings}
 

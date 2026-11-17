@@ -15,7 +15,7 @@ topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
     internal-label: Customer experience
 ---
-# Categories for audiences
+# Get started with categories for audiences
 
 You can target on any of several category attributes using [!DNL Adobe Target]. To create targeting rules (or groups) for each attribute, drag and drop the desired attributes into the Audience Builder pane.
 

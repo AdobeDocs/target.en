@@ -18,7 +18,7 @@ topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
     internal-label: Customer experience
 ---
-# Design overview
+# Get started with designs
 
 Designs in [!DNL Adobe Target Recommendations] define how recommendations appear on a page. Designs define the layout and format of your recommendations to improve visitor engagement, conversion, and revenue.
 

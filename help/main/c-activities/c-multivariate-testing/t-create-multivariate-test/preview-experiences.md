@@ -17,23 +17,29 @@ topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
     internal-label: Customer experience
 ---
-# Preview experiences for a [!UICONTROL Multivariate Test]
+# Preview experiences for a [!UICONTROL Multivariate Test] {#preview-mvt-experiences}
 
-Because a [!UICONTROL Multivariate Test] in [!DNL Adobe Target] compares multiple experiences on a page, it is helpful to preview the page with each experience.
+>[!BEGINSHADEBOX]
 
-1. Click **[!UICONTROL Preview]**, then click the **[!UICONTROL Show Experiences]** icon ( ![Show Experiences icon](/help/main/assets/icons/WebPages.svg) ) to display the list of all experiences in the left frame.
+**On this page:** Learn how to preview each experience of a **[!UICONTROL Multivariate Test]** in the **[!UICONTROL Visual Experience Composer]**, and how to exclude or include experiences.
+
+>[!ENDSHADEBOX]
+
+A **[!UICONTROL Multivariate Test]** (MVT) in [!DNL Adobe Target] compares multiple experiences on a page, so it is helpful to preview the page with each experience. The preview shows how the offers combine in each experience, so that you can decide whether to exclude an experience before the test goes live.
+
+1. In the **[!UICONTROL Visual Experience Composer]** (VEC), click **[!UICONTROL Preview]**, then click the **[!UICONTROL Show Experiences]** icon ( ![Show Experiences icon](/help/main/assets/icons/WebPages.svg) ) to display the list of all experiences in the left frame.
+
+    ![Change Image Offer menu](../assets/multivariate-5.png)
 
 1. Click a specific experience in the list to view that experience.
 
-1. (Conditional) To exclude one or more experiences from the activity, click the **[!UICONTROL Manage Content]** icon ( ![Manage Content icon](/help/main/assets/icons/Experience.svg) ) to display the [!UICONTROL Manage Content] dialog box.
+1. (Optional) To exclude or include experiences, click the **[!UICONTROL Manage Content]** icon ( ![Manage Content icon](/help/main/assets/icons/Experience.svg) ) to display the **[!UICONTROL Manage Content]** dialog box.
 
-1. (Conditional) In the [!UICONTROL Manage Content] dialog box, click the **[!UICONTROL More Actions]** icon ( ![More Actions icon](/help/main/assets/icons/MoreSmallList.svg) ) next to the experience that you want to exclude, then click **[!UICONTROL Exclude]**.
+1. You might choose to exclude an experience that shows conflicting variations or an experience that is not aesthetically balanced. Then do one of the following:
 
-   You might choose to exclude an experience that shows conflicting variations or an experience that is not aesthetically balanced.
-
-1. (Conditional) To exclude multiple experiences, select the check boxes for the desired experiences, then click **[!UICONTROL Exclude]**.
-
-1. (Conditional) To include multiple experiences that have been excluded, select the check boxes for the desired experiences, then click **[!UICONTROL Include]**.
+   * To exclude one experience, click the **[!UICONTROL More Actions]** icon ( ![More Actions icon](/help/main/assets/icons/MoreSmallList.svg) ) next to the experience, then click **[!UICONTROL Exclude]**.
+   * To exclude multiple experiences, select the check boxes for the experiences, then click **[!UICONTROL Exclude]**.
+   * To include multiple experiences that were excluded, select the check boxes for the experiences, then click **[!UICONTROL Include]**.
 
 >[!NOTE]
 >
