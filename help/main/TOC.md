@@ -166,14 +166,12 @@ feature-set: Target
    + Multivariate Test {#multivariate-test}
       + [Get started with Multivariate Test](c-activities/c-multivariate-testing/multivariate-testing.md)
       + [Multivariate Test best practices](c-activities/c-multivariate-testing/best-practices.md)
-      + [Plan a Multivariate Test](c-activities/c-multivariate-testing/plan-mvt.md)
       + Create a Multivariate Test {#create-mvt}
          + [Create a test](c-activities/c-multivariate-testing/t-create-multivariate-test/create-multivariate-test.md)
          + [Create combinations](c-activities/c-multivariate-testing/t-create-multivariate-test/add-offers.md)
          + [Preview experiences for a Multivariate Test](c-activities/c-multivariate-testing/t-create-multivariate-test/preview-experiences.md)
          + [Estimate the traffic required for a successful test](c-activities/c-multivariate-testing/t-create-multivariate-test/traffic-estimator.md)
          + [Test summary](c-activities/c-multivariate-testing/t-create-multivariate-test/test-summary.md)
-         + [Troubleshoot Multivariate Tests](c-activities/c-multivariate-testing/t-create-multivariate-test/troubleshooting.md)
    + [Recommendations activity](c-activities/recommendations-activity.md)
    + [Edit an activity](c-activities/edit-activity.md)
    + [Priority](c-activities/priority.md)
