@@ -39,7 +39,7 @@ topic_v2:
   - id: eb30f47f-d87a-400f-8f78-63ce7979ff56
     internal-label: Machine learning
 ---
-# [!UICONTROL Automated Personalization] (AP) {#automated-personalization-overview}
+# Get started with [!UICONTROL Automated Personalization] {#automated-personalization-overview}
 
 >[!BEGINSHADEBOX]
 

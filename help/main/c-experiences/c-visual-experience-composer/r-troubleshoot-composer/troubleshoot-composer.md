@@ -21,7 +21,7 @@ topic_v2:
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
     internal-label: Troubleshooting
 ---
-# Troubleshooting the Visual Experience Composer and Enhanced Experience Composer
+# Get started with troubleshooting the [!UICONTROL Visual Experience Composer] and [!UICONTROL Enhanced Experience Composer]
 
 Display problems sometimes occur in the [!DNL Adobe Target] [!UICONTROL Visual Experience Composer] (VEC) and the [!UICONTROL Enhanced Experience Composer] (EEC) under certain conditions.
 

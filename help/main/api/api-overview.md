@@ -28,7 +28,7 @@ topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
     internal-label: Customer experience
 ---
-# Adobe [!DNL Target] SDKs and APIs
+# Get started with the [!DNL Adobe Target] SDKs and APIs
 
 Before you start using [!DNL Adobe Target], you must implement it on your site.
 

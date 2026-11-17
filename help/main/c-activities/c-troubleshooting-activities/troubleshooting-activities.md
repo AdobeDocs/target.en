@@ -19,7 +19,7 @@ topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
 ---
-# Troubleshoot activities
+# Get started with troubleshooting activities
 
 If your [!DNL Adobe Target] activity does not appear on your site, these troubleshooting suggestions should help you find your solution.
 

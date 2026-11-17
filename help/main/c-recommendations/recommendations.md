@@ -27,7 +27,7 @@ topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
     internal-label: Personalization
 ---
-# Recommendations
+# Get started with Recommendations
 
 [!DNL Adobe Target Recommendations] activities automatically display products, services, or content that might interest your visitors based on previous user activity, preferences, or other criteria. [!DNL Target Recommendations] helps direct visitor to relevant items they might otherwise not know about. [!DNL Recommendations] lets you provide your visitors with relevant content at the right time and in the right place.
 

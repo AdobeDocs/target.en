@@ -26,7 +26,7 @@ topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
     internal-label: Personalization
 ---
-# [!UICONTROL Experience Targeting] (XT)
+# Get started with [!UICONTROL Experience Targeting]
 
 [!UICONTROL Experience Targeting] (XT) delivers content to a specific audience based on a set of marketer-defined rules and criteria.
 

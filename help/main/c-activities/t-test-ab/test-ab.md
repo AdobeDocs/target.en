@@ -22,7 +22,7 @@ topic_v2:
   - id: fd2e3797-f2ea-4b36-a9af-52acf5e90513
     internal-label: Customer profiles
 ---
-# A/B Test overview {#test-ab}
+# Get started with A/B tests {#test-ab}
 
 >[!BEGINSHADEBOX]
 

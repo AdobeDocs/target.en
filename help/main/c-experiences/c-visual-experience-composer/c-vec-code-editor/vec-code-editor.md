@@ -17,7 +17,7 @@ topic_v2:
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
     internal-label: Troubleshooting
 ---
-# Modifications
+# Get started with modifications
 
 Information about the [!UICONTROL Modifications] page in [!DNL Adobe Target] that lets you view modifications to your page and add additional modifications (CSS Selector, Mbox, and Custom Code).
 

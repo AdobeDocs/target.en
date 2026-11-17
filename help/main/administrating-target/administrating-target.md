@@ -31,7 +31,7 @@ topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
 ---
-# Administer [!DNL Target] Overview
+# Get started with administering [!DNL Target]
 
 Use **[!UICONTROL Administration]** to configure account-wide defaults for the [!UICONTROL Visual Experience Composer] (VEC), reporting, delivery infrastructure, access control, and [!DNL Recommendations].
 

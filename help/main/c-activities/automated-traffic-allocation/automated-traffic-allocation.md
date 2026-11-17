@@ -28,7 +28,7 @@ topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
 ---
-# [!UICONTROL Auto-Allocate] overview {#auto-allocate-overview}
+# Get started with [!UICONTROL Auto-Allocate] {#auto-allocate-overview}
 
 >[!BEGINSHADEBOX]
 

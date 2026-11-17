@@ -25,7 +25,7 @@ topic_v2:
   - id: eb30f47f-d87a-400f-8f78-63ce7979ff56
     internal-label: Machine learning
 ---
-# AEM [!UICONTROL Experience Fragments] and [!UICONTROL Content Fragments] overview
+# Get started with AEM [!UICONTROL Experience Fragments] and [!UICONTROL Content Fragments]
 
 Use [!UICONTROL Experience Fragments] (XFs) and [!UICONTROL Content Fragments] (CFs) created in [!DNL Adobe Experience Manager] (AEM) in [!DNL Target] activities to aid optimization and personalization.
 

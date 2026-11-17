@@ -19,7 +19,7 @@ topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
     internal-label: Customer experience
 ---
-# [!UICONTROL Multivariate Test] overview
+# Get started with [!UICONTROL Multivariate Test]
 
 A [!UICONTROL Multivariate Test] (MVT) activity in [!DNL Adobe Target] compares combinations of offers in elements on a page to determine which combination performs the best for a specific audience. A [!UICONTROL Multivariate Test] activity also helps to identify which element most impacts the activity's success.
 

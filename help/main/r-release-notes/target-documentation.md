@@ -22,7 +22,7 @@ topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
     internal-label: Customer experience
 ---
-# [!DNL Target] documentation and resource overview
+# Get started with [!DNL Target] documentation and resources
 
 [!DNL Adobe Target] documentation and resources are provided in multiple formats, including guides for using the [!DNL Target] UI, developers information (including SDKs and APIs), tutorials, community forums, videos, and webinars.
 

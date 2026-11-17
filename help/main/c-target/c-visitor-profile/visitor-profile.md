@@ -21,7 +21,7 @@ topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
     internal-label: Customer experience
 ---
-# Visitor profiles
+# Get started with visitor profiles
 
 Visitor profiles in [!DNL Adobe Target] contain information about how your visitors use your pages and other optimized content locations.
 
