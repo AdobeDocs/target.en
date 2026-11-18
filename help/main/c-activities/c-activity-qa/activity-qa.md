@@ -60,7 +60,7 @@ Use QA URLs in [!DNL Adobe Target] to perform easy end-to-end activity QA with p
 
       If this setting is toggled to "off," consider the following:
 
-        * If there are collisions between the activity you are testing and other live activities, [normal priority rules](/help/main/c-activities/priority.md#concept_1780C11FEA57440499F0047DD6900E0F) apply. Because of collisions, it is possible you cannot see the activity that you are intending to QA. 
+        * If there are collisions between the activity you are testing and other live activities, [normal priority rules](/help/main/c-activities/priority.md#priority) apply. Because of collisions, it is possible you cannot see the activity that you are intending to QA. 
         * Metrics increment for the viewed activities, but only in the QA reporting environment.
 
 1. Click **[!UICONTROL Done]** to save your changes. 

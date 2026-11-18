@@ -19,23 +19,30 @@ topic_v2:
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
     internal-label: Insights
 ---
-# Activity change log
+# Activity change log {#change-log}
 
-The [!DNL Adobe Target] [!UICONTROL Change Log] records activity actions, including what changed, who made the changes, and when they occurred. The [!UICONTROL Change Log] page is populated for real-time insights.
+>[!BEGINSHADEBOX]
 
-To access the [!UICONTROL Change Log] page: 
+**On this page:** Learn how to view the actions performed on an activity, who performed them, and when.
 
-1. Click **[!UICONTROL Activities]** > click the desired activity from the list.
-1. Cick **[!UICONTROL Change Log]** in the left rail.
+>[!ENDSHADEBOX]
 
-The action performed, the date the action was performed, and the user who performed the action are listed any time an activity is created, updated, activated, or deactivated. Changes to custom targets and offers used in the activity are also listed.
+The [!DNL Adobe Target] **[!UICONTROL Change Log]** records the actions performed on an activity, including what changed, who made the changes, and when they occurred. It gives a clear history of the activity, and the **[!UICONTROL Change Log]** page is populated for real-time insights.
 
-Refresh the page to see status changes. You can also list the actions performed in ascending or descending order by clicking the [!UICONTROL Date] column header.
+To access the **[!UICONTROL Change Log]** page:
+
+1. Click **[!UICONTROL Activities]**, then click the activity in the list.
+1. Click **[!UICONTROL Change Log]** in the left rail.
+
+    The page lists the action performed, the date of the action, and the user who performed it any time an activity is created, updated, activated, or deactivated. Changes to custom targets and offers used in the activity are also listed.
+
+    ![Change log menu](assets/change_logs.png)
+
+1. To list the actions in ascending or descending order, click the **[!UICONTROL Date]** column header.
+
+1. Refresh the page to see status changes. 
 
 ## Target audit log APIs
 
 * [Revisions: Get the audit log by last author's name and a modified-after timestamp](https://developer.adobe.com/target/administer/admin-api/#tag/Revisions){target=_blank}
 * [List activity changelog](https://developer.adobe.com/target/administer/admin-api/#tag/Activities/operation/getChangelog){target=_blank}
-
-
-

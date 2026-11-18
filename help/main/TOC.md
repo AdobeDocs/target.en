@@ -120,6 +120,8 @@ feature-set: Target
    + [Insights Dashboard](c-activities/insights-dashboard.md)
    + [Sample Size Calculator](c-activities/sample-size-calculator.md)
    + [Target activity types](c-activities/target-activities-guide.md)
+   + [Edit an activity](c-activities/edit-activity.md)
+   + [Priority](c-activities/priority.md)
    + A/B Test {#abtest}
       + [Get started with A/B tests](c-activities/t-test-ab/test-ab.md)
       + [How long should you run an A/B test?](c-activities/t-test-ab/sample-size-determination.md)
@@ -172,10 +174,6 @@ feature-set: Target
          + [Preview experiences for a Multivariate Test](c-activities/c-multivariate-testing/t-create-multivariate-test/preview-experiences.md)
          + [Estimate the traffic required for a successful test](c-activities/c-multivariate-testing/t-create-multivariate-test/traffic-estimator.md)
          + [Test summary](c-activities/c-multivariate-testing/t-create-multivariate-test/test-summary.md)
-   + [Recommendations activity](c-activities/recommendations-activity.md)
-   + [Edit an activity](c-activities/edit-activity.md)
-   + [Priority](c-activities/priority.md)
-   + [Activity settings](c-activities/activity-settings.md)
    + Success metrics {#success-metrics}
       + [Success metrics](c-activities/r-success-metrics/success-metrics.md)
       + [Click tracking](c-activities/r-success-metrics/click-tracking.md)

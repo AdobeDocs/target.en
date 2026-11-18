@@ -34,3 +34,6 @@
 
 The activity name cannot begin with `=`, `+`, `-`, or `@`. The activity name also cannot contain any of the following character sequences: `;=`, `;+`, `;-`, `;@`, `,=`, `,+`, `,-`, `,@`, `["`, or `"]`.
 
+## Visitor matching into activities {#visitor-matching}
+
+A visitor who is already in an **[!UICONTROL A/B Test]** or **[!UICONTROL Multivariate Test]** activity matches into that activity until they convert. A visitor who was previously in an **[!UICONTROL Experience Targeting]** activity must match into it again. If the visitor meets the audience rules, they fall into those activities and into specific experiences.

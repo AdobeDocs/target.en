@@ -190,14 +190,14 @@ Remember to activate the activity. Only live activities adhere to the specified 
 **Can I make a change to just the [!UICONTROL Targeting] step and not go through the entire three-step guided workflow for editing?**
 
 +++See details
-You can easily do that by [directly entering the desired step of your choice from the [!UICONTROL Activity Overview] page](/help/main/c-activities/edit-activity.md#concept_BB064C0D4A194BD1A1AE7CCA1E6BB8F0) and then exiting from that step by using the [!UICONTROL Save and Close] option.
+You can easily do that by [directly entering the desired step of your choice from the [!UICONTROL Activity Overview] page](/help/main/c-activities/edit-activity.md#section_176180DAD17E40CEA441903F39E0AA1C) and then exiting from that step by using the [!UICONTROL Save and Close] option.
 
 +++
 
 **Can I stay on a particular step, keep modifying the activity (offer text or custom code, for example), and then perform QA in another tab?**
 
 +++See details
-This is possible. Simply [use the [!UICONTROL Save] option available to make incremental changes without leaving the step](/help/main/c-activities/edit-activity.md#concept_BB064C0D4A194BD1A1AE7CCA1E6BB8F0).
+This is possible. Simply [use the [!UICONTROL Save] option available to make incremental changes without leaving the step](/help/main/c-activities/edit-activity.md#section_29EE2ECA6B88473A8F9AC5600FFBB174).
 
 +++
 
@@ -374,7 +374,7 @@ Use [form-based approach](/help/main/c-experiences/form-experience-composer.md#t
 **Why am I not seeing the desired offer/experience and am instead seeing some other activity?**
 
 +++See details
-Use our [debugger](/help/main/c-activities/c-troubleshooting-activities/content-trouble.md#concept_D2548B486C984B1E97ED7A72075B8EEA) and check for [activity collisions](/help/main/c-experiences/c-visual-experience-composer/activity-collisions.md#concept_0BC6B929592744DFA7DA01FF4F91052E).
+Use our [debugger](/help/main/c-activities/c-troubleshooting-activities/content-trouble.md#debugging-tools) and check for [activity collisions](/help/main/c-experiences/c-visual-experience-composer/activity-collisions.md#concept_0BC6B929592744DFA7DA01FF4F91052E).
 
 +++
 
@@ -398,7 +398,7 @@ It is possible that your site might have dynamic IDs, duplicate IDs, or dynamic 
 **Why am I not seeing the desired offer/experience and am instead seeing some other activity?**
 
 +++See details
-Use our [debugger](/help/main/c-activities/c-troubleshooting-activities/content-trouble.md#concept_D2548B486C984B1E97ED7A72075B8EEA) and check for [activity collisions](/help/main/c-experiences/c-visual-experience-composer/activity-collisions.md#concept_0BC6B929592744DFA7DA01FF4F91052E).
+Use our [debugger](/help/main/c-activities/c-troubleshooting-activities/content-trouble.md#debugging-tools) and check for [activity collisions](/help/main/c-experiences/c-visual-experience-composer/activity-collisions.md#concept_0BC6B929592744DFA7DA01FF4F91052E).
 
 +++
 
