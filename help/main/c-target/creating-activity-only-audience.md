@@ -26,7 +26,7 @@ Activity-only audiences provide the following benefits:
 * You can use activity-only audiences to create an audience that you want to use only once and you do not want to store it in the [!UICONTROL Audiences Library]. Activity-only audiences help prevent the [!UICONTROL Audiences Library] from being cluttered with audiences that you never want to use again. 
 * Activity-only audiences are not visible in the [!UICONTROL Audiences Library]. Because these audiences are not visible in the library, they are shielded from unwanted changes by others in your organization.
 
-1. While creating an [activity](/help/main/c-activities/activities.md#concept_D317A95A1AB54674BA7AB65C7985BA03), on the **[!UICONTROL Targeting]** page, click the three vertical ellipses, then click **[!UICONTROL Replace Audience]**.
+1. While creating an [activity](/help/main/c-activities/activities.md), on the **[!UICONTROL Targeting]** page, click the three vertical ellipses, then click **[!UICONTROL Replace Audience]**.
 
    ![Step Result](assets/edit_audience.png)
 

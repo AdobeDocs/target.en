@@ -71,7 +71,7 @@ Using a QA link allows you to preview the recommendations on your page:
 
 >[!NOTE]
 >
->* Target QA mode is "sticky" and saved in a cookie. If you do not exit QA mode, you will keep seeing the QA results throughout the site. To exit QA mode, use the [bookmarklet](/help/main/c-activities/c-activity-qa/activity-qa-bookmark.md).
+>* [!DNL Target] QA mode is saved in a cookie and persists across pages. If you do not exit QA mode, you keep seeing the QA results throughout the site. To exit QA mode, use the [bookmarklet](/help/main/c-activities/c-activity-qa/activity-qa-bookmark.md).
 >
 >* While in QA mode, browsing the site will not affect your profile's [!UICONTROL Recently Viewed Items] or [!UICONTROL Recently Purchased Items]. This behavior occurs by design to avoid unintentional pollution of production behavioral data. To preview results from a [!UICONTROL Recently Viewed Items] or [!UICONTROL User-Based Recommendations] criteria, first browse the site outside of QA mode, then use the same session to open a QA mode link.
 

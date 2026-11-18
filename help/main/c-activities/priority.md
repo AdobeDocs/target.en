@@ -46,7 +46,7 @@ If your company uses the VEC exclusively, content from multiple activities can b
    {{visitor-matching}}
 
 1. Content for all the activities and experiences that the visitor matches is returned to the page, so content from several activities can be delivered for the same call.
-1. [!DNL Target] compares the [CSS selectors](/help/main/c-experiences/c-visual-experience-composer/vec-selectors.md#concept_4EB7663E255F439B8D24079D23479337) that the content of each activity references. If the activities reference different selectors, all content is displayed.
+1. [!DNL Target] compares the [CSS selectors](/help/main/c-experiences/c-visual-experience-composer/vec-selectors.md) that the content of each activity references. If the activities reference different selectors, all content is displayed.
 1. If a selector overlaps or is duplicated, the content of the highest-priority activity is displayed.
 
    >[!IMPORTANT]

@@ -28,7 +28,7 @@ topic_v2:
 
 >[!ENDSHADEBOX]
 
-An A/A test splits traffic between two identical experiences. Because the experiences do not differ, the test is a way to check that your activity, your implementation, and your reporting work as expected. Even so, identical experiences can sometimes show a difference in lift. Understanding why helps you run the test and interpret its results correctly.
+An A/A test splits traffic between two identical experiences, so the test is a way to check that your activity, your implementation, and your reporting work as expected. Even so, identical experiences can sometimes show a difference in lift. Understanding why helps you run the test and interpret its results correctly.
 
 ## What is A/A testing? {#what-is-aa}
 

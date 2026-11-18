@@ -46,7 +46,7 @@ The winner badge also appears in the information pop-up of an activity in the **
 
 >[!NOTE]
 >
->**[!UICONTROL Auto-Allocate]** activities are designed to find the best experience among all options, not just to make pairwise comparisons with the control.
+>**[!UICONTROL Auto-Allocate]** activities are designed to find the best experience among all options, not only to make pairwise comparisons with the control.
 
 ## Statistical guarantees of [!UICONTROL Auto-Allocate] {#statistical-guarantees}
 

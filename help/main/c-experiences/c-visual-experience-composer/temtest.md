@@ -41,7 +41,7 @@ For example, you might use this feature to do one of the following:
 
 You can specify pages that include the change elements, or apply the change across your site or domain. 
 
-1. Create or edit an activity as described in [Activities](/help/main/c-activities/activities.md#concept_D317A95A1AB54674BA7AB65C7985BA03).
+1. Create or edit an activity as described in [Activities](/help/main/c-activities/activities.md).
 
 1. To specify the pages where the experience appears, in the [!UICONTROL Visual Experience Composer] (VEC) click the [!UICONTROL Configure] icon ( ![Configure icon](/help/main/assets/icons/Setting.svg) ), then select **[!UICONTROL Page Delivery]**.
 
@@ -97,7 +97,7 @@ You might consider using template rules to render the same activity across your 
 * To include a global banner (for example, COVID-19 announcements)
 * To include a global free-shipping promo
 
-1. Create or edit an activity as described in [Activities](/help/main/c-activities/activities.md#concept_D317A95A1AB54674BA7AB65C7985BA03).
+1. Create or edit an activity as described in [Activities](/help/main/c-activities/activities.md).
 
 1. To specify the domain where the experience appears, in the [!UICONTROL Visual Experience Composer] click the [!UICONTROL Configure] icon ( ![Configure icon](/help/main/assets/icons/Setting.svg) ), then select **[!UICONTROL Page Delivery]**.
 

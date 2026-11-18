@@ -60,7 +60,7 @@ Before setting up your A/B test, access the [!DNL Adobe Target] [Sample Size Cal
 
 ![Adobe Target Sample Size Calculator](/help/main/c-activities/t-test-ab/assets/sample_size_calculator-new.png)
 
-It is important to determine an adequate sample size (number of visitors) before doing any A/B test to establish the time that the activity should run before evaluating the results. Simply monitoring the activity until statistical significance is achieved causes the confidence interval to be vastly underestimated, making the test unreliable. The intuition behind this result is that, in the event a statistically significant result is detected, the test is stopped, and a winner is declared. However, if the result is not statistically significant, the test is allowed to continue. This procedure strongly favors the positive outcome, which increases the false positive rate, and so distorts the effective significance level of the test.
+It is important to determine an adequate sample size (number of visitors) before doing any A/B test to establish the time that the activity should run before evaluating the results. Monitoring the activity until statistical significance is achieved causes the confidence interval to be vastly underestimated, making the test unreliable. The intuition behind this result is that, in the event a statistically significant result is detected, the test is stopped, and a winner is declared. However, if the result is not statistically significant, the test is allowed to continue. This procedure strongly favors the positive outcome, which increases the false positive rate, and so distorts the effective significance level of the test.
 
 This procedure can result in many false positives, which leads to implementation of offers that do not deliver the predicted lift in the end. Poor lift itself is a dissatisfying outcome, but an even more serious consequence is that, over time, the inability to accurately predict lift erodes organizational trust in testing as a practice.
 
@@ -89,7 +89,7 @@ The figure below illustrates the four possible outcomes of an A/B test:
 
 ![Table of the four possible outcomes of an A/B test: true positive, false positive (controlled by the significance level), false negative (controlled by the power level), and true negative](assets/outcomes.png)
 
-It is desirable to get no false positives or false negatives. However, obtaining zero false positives can never be guaranteed by a statistical test. It is always possible that observed trends are not representative of the underlying conversion rates. For example, in a test to see if heads or tails on a coin flip was more likely, even with a fair coin, you could get ten heads on ten tosses just by chance. The statistical significance and power help us quantify the false positive and false negative rates and allow us to keep them at reasonable levels for a given test.
+It is desirable to get no false positives or false negatives. However, obtaining zero false positives can never be guaranteed by a statistical test. It is always possible that observed trends are not representative of the underlying conversion rates. For example, in a test to see if heads or tails on a coin flip was more likely, even with a fair coin, you could get ten heads on ten tosses by chance. The statistical significance and power help us quantify the false positive and false negative rates and allow us to keep them at reasonable levels for a given test.
 
 ### Statistical significance {#section_8230FB9C6D1241D8B1786B72B379C3CD}
 
@@ -115,7 +115,7 @@ It is desirable to use the highest possible confidence level, so that the test y
 
 ### Statistical power {#section_1169C27F8E4643719D38FB9D6EBEB535}
 
-The statistical power of an A/B test is the probability of detecting a real difference in conversion rate of a certain magnitude. Because of the random (stochastic) nature of conversion events, it is possible that a statistically significant difference is not observed--just by chance--even though there is a real difference in conversion rate between the two offers. This scenario is called a false negative or a Type II error.
+The statistical power of an A/B test is the probability of detecting a real difference in conversion rate of a certain magnitude. It is possible that a statistically significant difference is not observed--by chance--even though there is a real difference in conversion rate between the two offers, because of the random (stochastic) nature of conversion events. This scenario is called a false negative or a Type II error.
 
 The statistical power is often ignored because the determination of statistical power, in contrast to statistical significance, is not required to do an A/B test. However, by ignoring the statistical power there is a substantial chance that real differences between the conversion rates of different offers are not detected by the test because the sample size is too small. This situation results in the tests being dominated by false positives.
 
@@ -135,7 +135,7 @@ The figure below shows these probability distributions.
 
 ![Probability distributions of the observed conversion rates of Offers A and B with 100 visitors each: the curves overlap strongly](assets/probability_distributions.png)
 
-Because of the large overlap between the two ranges, the test cannot determine whether the conversion rates are different. Therefore, this test with 100 visitors cannot distinguish between the two offers. However, if [!DNL Target] exposes the offers to 5,000 visitors each, there is a 95% chance that the observed conversion rates fall in the ranges of 9% to 11% and 14% to 16%, respectively.
+The two ranges overlap largely, so the test cannot determine whether the conversion rates are different. Therefore, this test with 100 visitors cannot distinguish between the two offers. However, if [!DNL Target] exposes the offers to 5,000 visitors each, there is a 95% chance that the observed conversion rates fall in the ranges of 9% to 11% and 14% to 16%, respectively.
 
 ![Probability distributions of the observed conversion rates of Offers A and B with 5,000 visitors each: the curves do not overlap](assets/probability_distributions2.png)
 

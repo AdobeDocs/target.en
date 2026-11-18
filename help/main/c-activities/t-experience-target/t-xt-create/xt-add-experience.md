@@ -54,9 +54,9 @@ While [creating an **[!UICONTROL Experience Targeting]** activity](/help/main/c-
 
    +++ More about audiences
 
-   The audience library contains audiences that have previously been defined, including some common audiences that are pre-built as a part of [!DNL Target]. You can select an audience from the library or [create a new audience](/help/main/c-target/c-audiences/audiences.md#concept_65BE870D290E412D8BBF557EEA67C271).
+   The audience library contains audiences that have previously been defined, including some common audiences that are pre-built as a part of [!DNL Target]. You can select an audience from the library or [create a new audience](/help/main/c-target/c-audiences/audiences.md).
 
-   In addition to selecting an existing audience, you can combine multiple audiences to create on demand combined audiences rather than creating a new audience. For more information, see [Combining Multiple Audiences](/help/main/c-target/combining-multiple-audiences.md#concept_A7386F1EA4394BD2AB72399C225981E5).
+   In addition to selecting an existing audience, you can combine multiple audiences to create on demand combined audiences rather than creating a new audience. For more information, see [Combining Multiple Audiences](/help/main/c-target/combining-multiple-audiences.md).
 
    When creating an audience, you can select a location and specify parameters for that location. Under **[!UICONTROL Custom]** (**[!UICONTROL Create Audience]** > **[!UICONTROL Custom]**), select the location, then specify the desired parameters.
 

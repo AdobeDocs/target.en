@@ -94,7 +94,7 @@ If you already know the DOM path to the selector, you can add it manually by cli
 
   For more information, see [Navigate elements using the DOM path](/help/main/c-experiences/c-visual-experience-composer/viztarget-options.md#dom-path) in *Visual Experience Composer Options*.
 
-* You can browse to a different page to track clicks on a page where you might not be changing content. This different page must be included in the activity using the [multipage feature](/help/main/c-experiences/c-visual-experience-composer/multipage-activity.md#concept_277E096063E14813AC5D8EDFA1D2ED48) and [!DNL at.js] must be implemented on it.
+* You can browse to a different page to track clicks on a page where you might not be changing content. This different page must be included in the activity using the [multipage feature](/help/main/c-experiences/c-visual-experience-composer/multipage-activity.md) and [!DNL at.js] must be implemented on it.
 * Make sure you select the level of element you want to track. For example, when specifying a button, make sure you select the link and not the button text.
 * If you select more than one element, if an entrant clicks on any one of the chosen elements, the click is counted. To count each item separately, set up individual success metrics for each element. To count one item by clicking several elements on a page, edit the CSS Element Selector to match multiple elements.
 * For **[!UICONTROL Automated Personalization]** (AP) and Auto-Target activities on single page applications (SPAs), you can select elements for click tracking that belong to a specific [!DNL Target] View. For more information about Views, see [Adobe Target Views and Single Page Applications](/help/main/c-experiences/spa-visual-experience-composer.md).

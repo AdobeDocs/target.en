@@ -15,7 +15,13 @@ subfeature_v2:
   - id: f0055dd2-93f3-4ac8-9abc-d69d4ed2d977
     internal-label: Automated personalization
 ---
-# Preview Automated Personalization activities with experience preview URLs
+# Preview Automated Personalization activities with experience preview URLs {#experience-preview}
+
+>[!BEGINSHADEBOX]
+
+**On this page:** Learn how to generate experience preview URLs for **[!UICONTROL Automated Personalization]** activities to view the experiences on your site before the activity is live.
+
+>[!ENDSHADEBOX]
 
 Experience preview URLs can be generated for [!DNL Target] [!UICONTROL Automated Personalization] activities to see experience content directly on your site before the activity is live for preview and QA purposes. Experience preview URLs bypass targeting to force viewing of a particular experience.
 

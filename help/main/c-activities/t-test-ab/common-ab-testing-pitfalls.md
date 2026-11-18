@@ -59,7 +59,7 @@ The *confidence interval*, which is determined after a test is complete, is impa
 * Significance level
 * Population standard deviation 
 
-Because the marketer selected the significance level before the test is designed and the population standard deviation cannot be impacted, the only "controllable" factor is the sample size. The sample size required for a confidence interval you are comfortable with, and the resulting time it takes to reach that sample size, is a key decision a marketer must determine during the test design.
+The marketer selects the significance level before the test is designed and the population standard deviation cannot be impacted, so the only "controllable" factor is the sample size. The sample size required for a confidence interval you are comfortable with, and the resulting time it takes to reach that sample size, is a key decision a marketer must determine during the test design.
 
 Another directly related term, the *confidence level*, takes more of a glass half-full approach. Rather than stating the likelihood that you get a false positive, as the significance level does, the confidence level represents the likelihood that your test does not make that mistake.
 
@@ -95,7 +95,7 @@ Marketers frequently test more than two offers (or experiences) against each oth
 
 It is important to note that *each* offer tested has a false positive rate equal to the significance level, as described above. Again, you are effectively running multiple tests when several offers are pitted against each other within a single test environment. For example, if you compare five offers in an A/B/C/D/E test, effectively you form four comparisons: control to B, control to C, control to D, control to E. With a confidence level of 95%, rather than the 5% probability of a false positive, you actually have 18.5%.
 
-To keep your overall confidence level at 95% and avoid this issue, you apply what is known as the Bonferroni correction. Using this correction, you simply divide the significance level by the number of comparisons to come up with the significance level that you must achieve a 95% confidence level.
+To keep your overall confidence level at 95% and avoid this issue, you apply what is known as the Bonferroni correction. Using this correction, you divide the significance level by the number of comparisons to come up with the significance level that you must achieve a 95% confidence level.
 
 Applying the Bonferroni correction to the example above, you would use a 5%/4 = 1.25% significance level, which is the same as a 98.75% confidence level for an individual test (100% - 1.25% = 98.75%). This adjustment maintains the effective confidence level at 95% when you have four tests, as in the described example.
 
@@ -115,7 +115,7 @@ If you do want to identify the offer with the highest conversion rate, you are c
 
 ## Pitfall 3: Ignoring the effects of statistical power {#section_0D517079B7D547CCAA75F80981CBE12A}
 
-Statistical power is the probability that a test detects a real difference in conversion rate between offers. Because of the random, or as statisticians like to call it, "stochastic," nature of conversion events, a test might not show a statistically significant difference, even when a real difference exists in conversion rate between two offers in the end. Call it bad luck or by chance. Failing to detect a true difference in conversion rate is called a false negative or a Type II error.
+Statistical power is the probability that a test detects a real difference in conversion rate between offers. A test might not show a statistically significant difference, even when a real difference exists in conversion rate between two offers in the end, because of the random, or as statisticians like to call it, "stochastic," nature of conversion events. Call it bad luck or by chance. Failing to detect a true difference in conversion rate is called a false negative or a Type II error.
 
 There are two key factors that determine the power of a test. First is the sample size, that is, the number of visitors included in the test. Second is the magnitude of the difference in conversion rate that you want the test to detect. Perhaps this is intuitive, but if you are interested in detecting only large conversion rate differences, there is a higher probability that the test will actually detect such large differences. Along those lines, the smaller the difference you want to detect, the larger the sample size, and therefore, time to get that larger sample size, you require.
 
@@ -139,9 +139,9 @@ Marketers frequently monitor A/B tests until the test determines a significant r
 
 Unfortunately, it is not that simple. Not to throw a wrench in the works, but it turns out that monitoring the results adversely impacts the effective statistical significance of the test. It greatly increases the likelihood of false positives and makes your confidence intervals untrustworthy.
 
-This might seem confusing. It sounds like we are saying that just from looking at your results mid-test, you can cause them to lose their statistical significance. That is not exactly what's going on. The following example explains why.
+This might seem confusing. It sounds like we are saying that by looking at your results mid-test, you can cause them to lose their statistical significance. That is not exactly what's going on. The following example explains why.
 
-Let's say you simulate 10,000 conversion events of two offers, with both offers having 10% conversion rates. Because the conversion rates are the same, you should detect no difference in conversion lift when you test the two offers against each other. Using a 95% confidence interval, the test results in the expected 5% false positive rate when it is evaluated after collecting all 10,000 observations. So if we run 100 of these tests, on average we get five false positives (in actuality, all positives are false in this example because there is no difference in conversion rate between the two offers). However, if we evaluate the test ten times during the test—every 1,000 observations—it turns out that the false positive rate jumps up to 16%. Monitoring the test has more than tripled the risk of false positives! How can this be?
+Assume that you simulate 10,000 conversion events of two offers, with both offers having 10% conversion rates. The conversion rates are the same, so you should detect no difference in conversion lift when you test the two offers against each other. Using a 95% confidence interval, the test results in the expected 5% false positive rate when it is evaluated after collecting all 10,000 observations. So if we run 100 of these tests, on average we get five false positives (in actuality, all positives are false in this example because there is no difference in conversion rate between the two offers). However, if we evaluate the test ten times during the test—every 1,000 observations—it turns out that the false positive rate jumps up to 16%. Monitoring the test has more than tripled the risk of false positives! How can this be?
 
 To understand why this occurs, you must consider the different actions taken when a significant result is detected and when it is not detected. When a statistically significant result is detected, the test is stopped and a winner is declared. However, if the result is not statistically significant, we allow the test to continue. This situation strongly favors the positive outcome, and hence, distorts the effective significance level of the test.
 
@@ -149,13 +149,13 @@ To avoid this problem, you should determine an adequate length of time the test 
 
 ## Pitfall 6: Stopping tests prematurely {#section_DF01A97275E44CA5859D825E0DE2F49F}
 
-It is tempting to stop a test if one of the offers performs better or worse than the others in the first few days of the test. However, when the number of observations is low, there is a high likelihood that a positive or negative lift will be observed just by chance because the conversion rate is averaged over a low number of visitors. As the test collects more data points, the conversion rates converge toward their true long-term values.
+It is tempting to stop a test if one of the offers performs better or worse than the others in the first few days of the test. However, when the number of observations is low, there is a high likelihood that a positive or negative lift will be observed by chance because the conversion rate is averaged over a low number of visitors. As the test collects more data points, the conversion rates converge toward their true long-term values.
 
 The figure below shows five offers that have the same long-term conversion rate. Offer B had a poor conversion rate for the first 2,000 visitors, and it takes a long time before the estimated conversion rate returns to the true long-term rate.
 
 ![Line chart of the difference in conversion rate between five alternative offers and the control: the differences are large for the first few thousand visitors, for example minus 8 to minus 9 percent for Offer B, and converge toward zero as the number of visitors grows](assets/pitfalls4.png)
 
-This phenomenon is known as "regression to the mean," and can lead to disappointment when an offer that performed well during the initial days of a test fails to keep up this level of performance in the end. It can also lead to lost revenue when a good offer is not implemented because it happened to under-perform in the early days of a test just by chance.
+This phenomenon is known as "regression to the mean," and can lead to disappointment when an offer that performed well during the initial days of a test fails to keep up this level of performance in the end. It can also lead to lost revenue when a good offer is not implemented because it happened to under-perform in the early days of a test by chance.
 
 Much like the pitfall of monitoring your test, the best way to avoid these issues is to determine an adequate number of visitors before running the test and then let the test run until this number of visitors has been exposed to the offers.
 
@@ -177,11 +177,11 @@ As another example, if your A/B test's traffic allocation is split 50/50, and th
 
 ## Pitfall 8: Not considering novelty effects {#section_90F0D24C40294A8F801B1A6D6DEF9003}
 
-Other unexpected things can happen if we do not allow enough time for running a test. This time the problem is not a statistics problem; it is simply a reaction to change by the visitors. If you change a well-established part of your website, returning visitors might at first engage less fully with the new offer because of changes to their usual workflow. This can temporarily cause a superior new offer to perform less optimally until returning visitors become accustomed to it—-a small price to pay given the long-term gains that the superior offer delivers.
+Other unexpected things can happen if we do not allow enough time for running a test. This time the problem is not a statistics problem; it is a reaction to change by the visitors. If you change a well-established part of your website, returning visitors might at first engage less fully with the new offer because of changes to their usual workflow. This can temporarily cause a superior new offer to perform less optimally until returning visitors become accustomed to it—-a small price to pay given the long-term gains that the superior offer delivers.
 
-To determine if the new offer under-performs because of a novelty effect or because it is truly inferior, you can segment your visitors into new and returning visitors and compare the conversion rates. If it is just the novelty effect, the new offer wins with new visitors. Eventually, as returning visitors get accustomed to the new changes, the offer wins with them, too.
+To determine if the new offer under-performs because of a novelty effect or because it is truly inferior, you can segment your visitors into new and returning visitors and compare the conversion rates. If the novelty effect is the only cause, the new offer wins with new visitors. Eventually, as returning visitors get accustomed to the new changes, the offer wins with them, too.
 
-The novelty effect can also work in reverse. Visitors often react positively to a change just because it introduces something new. After a while, as the new content becomes stale or less exciting to the visitor, the conversion rate drops. This effect is harder to identify, but carefully monitoring changes in the conversion rate is key to detecting this.
+The novelty effect can also work in reverse. Visitors often react positively to a change only because it introduces something new. After a while, as the new content becomes stale or less exciting to the visitor, the conversion rate drops. This effect is harder to identify, but carefully monitoring changes in the conversion rate is key to detecting this.
 
 ## Pitfall 9: Not considering differences in the consideration period {#section_B166731B5BEE4E578816E351ECDEA992}
 
@@ -197,7 +197,7 @@ To avoid this pitfall, allow some time for visitors who were exposed to the test
 
 ## Pitfall 10: Using metrics that do not reflect business objectives {#section_F0CD6DC7993B4A6F9BEEBB31CD1D9BEE}
 
-Marketers might be tempted to use high-traffic and low-variance conversion metrics in the upper funnel, such as click-through rate (CTR), to reach an adequate number of test conversions faster. However, carefully consider whether CTR is an adequate proxy for the business goal that you want to attain. Offers with higher CTRs can easily lead to lower revenue. This can happen when offers attract visitors with a lower propensity to buy, or when the offer itself, for example, a discount offer-simply leads to lower revenue.
+Marketers might be tempted to use high-traffic and low-variance conversion metrics in the upper funnel, such as click-through rate (CTR), to reach an adequate number of test conversions faster. However, carefully consider whether CTR is an adequate proxy for the business goal that you want to attain. Offers with higher CTRs can lead to lower revenue. This can happen when offers attract visitors with a lower propensity to buy, or when the offer itself, for example, a discount offer--leads to lower revenue.
 
 ![Funnel and metrics from CTR at the top to life-time profit at the bottom: higher traffic and less variance at the top, closer to business goals at the bottom](assets/pitfalls6.png)
 

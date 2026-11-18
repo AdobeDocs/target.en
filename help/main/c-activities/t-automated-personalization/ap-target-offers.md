@@ -74,7 +74,7 @@ Audience targeting rules control which visitors can see each offer, which allows
 
    >[!NOTE]
    >
-   >Instead of creating a new audience, you can combine multiple audiences with existing ones to create on-demand combined audiences. For more information, see [Combining Multiple Audiences](/help/main/c-target/combining-multiple-audiences.md#concept_A7386F1EA4394BD2AB72399C225981E5).
+   >Instead of creating a new audience, you can combine multiple audiences with existing ones to create on-demand combined audiences. For more information, see [Combining Multiple Audiences](/help/main/c-target/combining-multiple-audiences.md).
 
 1. Click **[!UICONTROL Done]**.
 

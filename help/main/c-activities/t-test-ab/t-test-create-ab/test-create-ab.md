@@ -130,7 +130,7 @@ The flow diagram leads you through assigning an audience and its traffic percent
 
    +++
 
-1. Click the **[!UICONTROL Traffic Allocation]** control, then choose a traffic allocation method in the right pane. See [Traffic allocation methods](#traffic-allocation-methods).
+1. Click the **[!UICONTROL Traffic Allocation]** control, then choose a traffic allocation method in the right pane. The available methods are listed in the following table.
 
    ![Traffic Allocation Method settings](/help/main/c-activities/t-test-ab/t-test-create-ab/assets/traffic-allocation-method-new.png)
 
@@ -152,7 +152,7 @@ The flow diagram leads you through assigning an audience and its traffic percent
 
 On the **[!UICONTROL Goals & Settings]** page, you tell [!DNL Target] how to measure the activity. The available settings depend on whether you use [!DNL Target] or [Analytics as the reporting source](/help/main/c-integrating-target-with-mac/a4t/a4t.md).
 
-1. Review the sections of the page and set what you need. See [What you set on the Goals & Settings page](#goals-settings-overview).
+1. Review the sections of the page and set what you need. See [What you set on the Goals & Settings page](/help/main/c-activities/t-test-ab/t-test-create-ab/ab-goals-and-settings.md).
 
     |Section|What you set|
     |---|---|

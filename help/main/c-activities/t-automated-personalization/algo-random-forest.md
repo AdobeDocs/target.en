@@ -56,7 +56,7 @@ The tree poses the question, "What is the most predictive variable?" again, and 
 
 ## How are decision trees used by Random Forest? {#section_536C105EF9F540C096D60450CAC6F627}
 
-Decision trees can be a powerful statistical tool. However, they have some disadvantages. Most critically, they can "over-fit" the data, so that an individual tree poorly predicts future data that was not used to build the initial tree. This challenge is known as the [bias-variance tradeoff](https://en.wikipedia.org/wiki/Bias%E2%80%93variance_tradeoff) in statistical learning.
+Decision trees are a useful statistical tool. However, they have some disadvantages. Most critically, they can "over-fit" the data, so that an individual tree poorly predicts future data that was not used to build the initial tree. This challenge is known as the [bias-variance tradeoff](https://en.wikipedia.org/wiki/Bias%E2%80%93variance_tradeoff) in statistical learning.
 
 Random forests help overcome this challenge. A random forest is a collection of hundreds of decision trees that are built slightly differently on the same data set and that "vote" together to yield a better model than an individual tree. The trees are built by randomly selecting a subset of visit records with replacement (known as bagging) and randomly selecting a subset of the attributes, so that the forest consists of slightly different decision trees. This method introduces small variations into the trees. Adding this controlled amount of variance helps improve the predictive accuracy of the algorithm.
 
