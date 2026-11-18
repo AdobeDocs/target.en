@@ -190,14 +190,14 @@ Remember to activate the activity. Only live activities adhere to the specified 
 **Can I make a change to just the [!UICONTROL Targeting] step and not go through the entire three-step guided workflow for editing?**
 
 +++See details
-You can easily do that by [directly entering the desired step of your choice from the [!UICONTROL Activity Overview] page](/help/main/c-activities/edit-activity.md#concept_BB064C0D4A194BD1A1AE7CCA1E6BB8F0) and then exiting from that step by using the [!UICONTROL Save and Close] option.
+You can easily do that by [directly entering the desired step of your choice from the [!UICONTROL Activity Overview] page](/help/main/c-activities/edit-activity.md#section_176180DAD17E40CEA441903F39E0AA1C) and then exiting from that step by using the [!UICONTROL Save and Close] option.
 
 +++
 
 **Can I stay on a particular step, keep modifying the activity (offer text or custom code, for example), and then perform QA in another tab?**
 
 +++See details
-This is possible. Simply [use the [!UICONTROL Save] option available to make incremental changes without leaving the step](/help/main/c-activities/edit-activity.md#concept_BB064C0D4A194BD1A1AE7CCA1E6BB8F0).
+This is possible. Simply [use the [!UICONTROL Save] option available to make incremental changes without leaving the step](/help/main/c-activities/edit-activity.md#section_29EE2ECA6B88473A8F9AC5600FFBB174).
 
 +++
 
