@@ -56,14 +56,14 @@ Activity QA links let you and your team view each experience of an activity on y
 
 1. From the **[!UICONTROL Overview]** page of the activity, click **[!UICONTROL Activity QA]**.
 
-    ![example_score image](../assets/activity-qa.png)
+   ![Activity QA button in the Activity Location section of the Overview page](../assets/activity-qa.png)
 
 1. Set **[!UICONTROL Match audience rules to see experiences]** to choose whether testers must qualify for the audience. Turn it on to confirm that your audience matching works, or off to check the look and feel of the activity.
 
    * **On:** Testers must meet the targeting requirements to see the experiences. For Experience Targeting (XT) activities, a single activity URL is provided, and the experience you see depends on the targeting rule that you qualify for.
    * **Off:** The links show the experiences regardless of whether you qualify. You can switch between the two settings at any time during QA.
 
-      ![example_score image](../assets/activity-qa-1.png)
+   ![Activity QA window with the two settings and the QA URL of each experience](../assets/activity-qa-1.png)
 
 1. Set **[!UICONTROL Show default content for all other activities]** to choose whether other live activities appear on the page.
 
@@ -84,7 +84,7 @@ Activity QA links let you and your team view each experience of an activity on y
 
 1. To see the reports generated from the activity link URLs, access the **[!UICONTROL Reports]** page of the activity, click the **[!UICONTROL Settings]** icon (  ![icon_gear image](assets/icon_gear.png) ), then select **[!UICONTROL QA Mode Traffic]** from the **[!UICONTROL Environment]** drop-down list.
 
-    ![example_score image](../assets/activity-qa-2.png)
+   ![QA Mode Traffic option in the Environment list of the Reports settings](../assets/activity-qa-2.png)
 
 ## Exit Activity QA mode
 

@@ -99,7 +99,7 @@ Specify which solution data is collected from:
 
   To specify a reporting source, first choose from any of the [!DNL Analytics] companies your account is tied to, and then select the appropriate report suite for the activity. Only report suites that are provisioned to connect to [!DNL Adobe Target] are available for selection. If you do not see the report suites that you expect, first try logging out and logging back in to the [!DNL Adobe Experience Cloud] to try again. If the report suite is still missing from the list, contact Customer Care.
 
-  [!DNL Analytics for Target] (A4T) requires a tracking server to report results correctly. A default tracking server displays in the **[!UICONTROL Tracking Server]** field. If you use more than one tracking server, ensure you include the correct tracking server in this field. See [Using an Analytics Tracking Server](/help/main/c-integrating-target-with-mac/a4t/analytics-tracking-server.md#task_72077BA7E93C4A65A715A18F32228823) for more information.
+  [!DNL Analytics for Target] (A4T) requires a tracking server to report results correctly. A default tracking server displays in the **[!UICONTROL Tracking Server]** field. If you use more than one tracking server, ensure you include the correct tracking server in this field. See [Using an Analytics Tracking Server](/help/main/c-integrating-target-with-mac/a4t/analytics-tracking-server.md) for more information.
   +++
 
 * [!DNL Adobe Customer Journey Analytics]
@@ -148,7 +148,7 @@ Note that this setting is not available if you choose [!DNL Analytics] as your r
 
 ## Advanced Settings {#section_E2FE441AFB324E498793ABB025ED9974}
 
-The **[!UICONTROL Advanced Settings]** section of the **[!UICONTROL Goals & Settings]** page lets you configure the advanced options.
+The **[!UICONTROL Advanced Settings]** section of the **[!UICONTROL Goals & Settings]** page lets you refine how each success metric is counted: whether it depends on another metric, what happens to a visitor after the goal is reached, and how the count is incremented.
 
 To specify advanced settings, click the **[!UICONTROL More]** icon ( ![More icon](/help/main/assets/icons/MoreSmallList.svg) ) in the **[!UICONTROL My Primary Goal]** section, then click **[!UICONTROL Advanced Settings]**.
 
@@ -158,37 +158,37 @@ To specify advanced settings, click the **[!UICONTROL More]** icon ( ![More icon
 >
 >If you use [!DNL Adobe Analytics] as your reporting source, settings are managed by the [!DNL Analytics] server. The advanced settings option is not available.
 
-### Which success metric must be reached before incrementing this metric? {#dependencies}
+### Dependencies {#dependencies}
 
-Use this option to only count someone as reaching the success metric if they have previously reached a different success metric. For example, an activity conversion might only be valid if the visitor clicks the offer, or reaches a particular page before converting.
+Use this option to count a visitor as reaching a success metric only if the visitor has previously reached a different success metric. For example, an activity conversion might be valid only if the visitor clicks the offer or reaches a particular page before converting.
 
-You can provide dependency on multiple metrics along with the flexibility to choose whether the metric should be reached or not reached for the count to increase. Define both (or multiple) success metrics before you can make one dependent on another. The **[!UICONTROL Add Dependency]** option allows the success metric to increment if another success metric has been reached or has not been reached.
+You can make a metric dependent on multiple metrics, and choose for each one whether it must be reached or not reached for the count to increase. Define all the success metrics before you make one dependent on another. The **[!UICONTROL Add Dependency]** option lets the success metric increment if another success metric has been reached or has not been reached.
 
 To add a dependency:
 
-1. After adding additional metrics, click **[!UICONTROL Advanced Settings]**.
+1. After adding the additional metrics, click **[!UICONTROL Advanced Settings]**.
 
 1. Click the **[!UICONTROL Add Dependency]** option.
 
-1. Drag and drop the desired metrics, then click **[!UICONTROL Reached]** to toggle the setting between **[!UICONTROL Reached]** and **[!UICONTROL Not Reached]**.
+1. Drag and drop the metrics on which the success metric depends, then click **[!UICONTROL Reached]** to toggle the setting between **[!UICONTROL Reached]** and **[!UICONTROL Not Reached]**.
 
-You can edit or remove dependencies after adding them.
+You can edit or remove dependencies after adding them. For the cases in which dependencies are not supported, see [Add dependency](/help/main/c-activities/r-success-metrics/success-metrics.md#add-dependency).
 
-### What will happen after a user encounters this goal metric? {#after-goal}
+### After a visitor reaches the goal {#after-goal}
 
-After reaching the activity goal, a visitor continues to see the activity content, unless that visitor qualifies for a higher-priority activity. If the visitor reaches the goal again, it is counted as another conversion. This is different from the default behavior in [!DNL Target Classic], which counted visitors as new if they see the activity again.
+After reaching the activity goal, a visitor continues to see the activity content, unless that visitor qualifies for a higher-priority activity. If the visitor reaches the goal again, it is counted as another conversion. This differs from the default behavior in [!DNL Target Classic], which counted visitors as new when they saw the activity again.
 
 There are three options for what happens after a visitor reaches the goal metric:
 
-* **[!UICONTROL Increment Count & Keep User in Activity]** to specify how the count is incremented.
-* **[!UICONTROL Increment Count, Release User & Allow Reentry]** to specify the experience the user sees if they reenter the activity.
-* **[!UICONTROL Increment Count, Release User & Bar from Reentry]** to specify what the user sees instead of the activity content.
+* **[!UICONTROL Increment Count & Keep User in Activity]:** Specify how the count is incremented, as described in the next section.
+* **[!UICONTROL Increment Count, Release User & Allow Reentry]:** Specify the experience that the visitor sees if the visitor reenters the activity: the same experience (default), a random experience, or an unseen experience.
+* **[!UICONTROL Increment Count, Release User & Bar from Reentry]:** Specify what the visitor sees instead of the activity content: the same experience without tracking (default), or default content or other activity content.
 
-### How will the count be incremented? {#count-increment}
+### Count increment {#count-increment}
 
-There are three options for how the count is incremented:
+When you select **[!UICONTROL Increment Count & Keep User in Activity]**, there are three options for how the count is incremented:
 
-* **[!UICONTROL Once per Entrant]**
+* **[!UICONTROL Once per Entrant]** (default)
 * **[!UICONTROL On Every Impression (Excluding page refreshes)]**
 * **[!UICONTROL On Every Impression]**
 
