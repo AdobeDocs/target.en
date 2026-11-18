@@ -201,30 +201,39 @@ When the URL contains query string parameters, the page might not qualify for th
 
 The following options can be used to include additional template rules:
 
-* +++ Option 1: Replicate the URL and keep it in the template rule with the "contains" option
+* **Option 1:** Replicate the URL and keep it in the template rule with the "contains" option
+
+  +++ View the template rule setup
 
   This option ensures that this URL qualifies for the activity, but be aware that there are corner cases attached to it that can influence your reporting data with additional records to URLs that contains the base URL.
 
   In this scenario, the URL is `https://shopping.mycart.com?type=Summers%20Offers` and additional template rules "contains" the same URL, separated by an OR operator:
 
   ![Replicate URL in template rules](assets/option1.png)
-+++
 
-* +++ Option 2: Restrict the URL "contains" condition with only the query string
+  +++
+
+* **Option 2:** Restrict the URL "contains" condition with only the query string
+
+  +++ View the template rule setup
 
   The corner case discussed in the previous option is applied in this option, but here the conditional setup is limited to the query string only.
 
   In this scenario, the URL is `https://shopping.mycart.com?type=Summers%20Offers` and additional template rules "contains" only the query string, separated by an OR operator:
 
   ![Template rule contains only the query string](assets/option2.png)
-+++
 
-* +++ Option 3: Instead of targeting the complete URL, leverage a specific part of the URL
+  +++
+
+* **Option 3:** Instead of targeting the complete URL, leverage a specific part of the URL
+
+  +++ View the template rule setup
 
   In this scenario, the URL is `https://shopping.mycart.com?type=Summers%20Offers` and additional template rules specify a **[!UICONTROL Query]** with **[!UICONTROL type]** > **[!UICONTROL is (case sensitive)]** > type=Summers%20Offers, separated by an OR operator:
 
   ![Template rule leveraging a specific part of the URL](assets/option3.png)
-+++
+
+  +++
 
 ## Escaping double quotes in profile attribute values {#escape}
 
