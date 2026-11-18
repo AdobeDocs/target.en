@@ -374,7 +374,7 @@ Use [form-based approach](/help/main/c-experiences/form-experience-composer.md#t
 **Why am I not seeing the desired offer/experience and am instead seeing some other activity?**
 
 +++See details
-Use our [debugger](/help/main/c-activities/c-troubleshooting-activities/content-trouble.md#concept_D2548B486C984B1E97ED7A72075B8EEA) and check for [activity collisions](/help/main/c-experiences/c-visual-experience-composer/activity-collisions.md#concept_0BC6B929592744DFA7DA01FF4F91052E).
+Use our [debugger](/help/main/c-activities/c-troubleshooting-activities/content-trouble.md#debugging-tools) and check for [activity collisions](/help/main/c-experiences/c-visual-experience-composer/activity-collisions.md#concept_0BC6B929592744DFA7DA01FF4F91052E).
 
 +++
 
@@ -398,7 +398,7 @@ It is possible that your site might have dynamic IDs, duplicate IDs, or dynamic 
 **Why am I not seeing the desired offer/experience and am instead seeing some other activity?**
 
 +++See details
-Use our [debugger](/help/main/c-activities/c-troubleshooting-activities/content-trouble.md#concept_D2548B486C984B1E97ED7A72075B8EEA) and check for [activity collisions](/help/main/c-experiences/c-visual-experience-composer/activity-collisions.md#concept_0BC6B929592744DFA7DA01FF4F91052E).
+Use our [debugger](/help/main/c-activities/c-troubleshooting-activities/content-trouble.md#debugging-tools) and check for [activity collisions](/help/main/c-experiences/c-visual-experience-composer/activity-collisions.md#concept_0BC6B929592744DFA7DA01FF4F91052E).
 
 +++
 
