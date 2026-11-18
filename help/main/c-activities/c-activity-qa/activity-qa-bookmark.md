@@ -15,19 +15,23 @@ topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
     internal-label: Customer experience
 ---
-# Activity QA bookmarklet
+# Activity QA bookmarklet {#activity-qa-bookmarklet}
 
-Information to help you use the [!DNL Target] QA bookmarklet to force [!DNL Target] to release you from QA mode.
+>[!BEGINSHADEBOX]
+
+**On this page:** Learn how to use the [!DNL Target] QA bookmarklet to exit **[!UICONTROL Activity QA]** mode and view your site like a typical visitor.
+
+>[!ENDSHADEBOX]
+
+After you browse a website in [QA mode](/help/main/c-activities/c-activity-qa/activity-qa.md), QA mode persists across pages until your [!DNL Target] session expires. A bookmarklet is a browser bookmark that runs JavaScript. The [!DNL Target] QA bookmarklet forces [!DNL Target] to release you from QA mode, so you do not have to wait for the session to expire. Use the version that matches the at.js version deployed on your site.
 
 >[!NOTE]
 >
->The process to create a bookmarklet varies by browser type and version. Consult your browser's help or search on the Internet for specific directions.
+>The process to create a bookmarklet varies by browser type and version. Consult the help of your browser or search on the Internet for specific directions.
 
 ## Activity QA bookmarklet for at.js 1.*x*
 
-Because [QA mode](/help/main/c-activities/c-activity-qa/activity-qa.md) is sticky, after you browse a website in QA mode, your [!DNL Target] session must expire or you need to have [!DNL Target] release you from QA mode before you can view your site like a typical visitor. Use the QA [!DNL Target] bookmarklet to force yourself out of QA mode.
-
-To use the [!DNL Target] QA bookmarklet, create a bookmarklet containing the following JavaScript code and add it to your browser's Bookmarks Toolbar:
+To use the [!DNL Target] QA bookmarklet, create a bookmarklet containing the following JavaScript code and add it to the Bookmarks Toolbar of your browser:
 
 ```javascript
 javascript:(
@@ -46,17 +50,15 @@ javascript:(
 )();
 ```
 
-You can also manually force yourself out of QA mode by loading a page on your site with the `at_preview_token` parameter with an empty value. 
+You can also manually force yourself out of QA mode by loading a page on your site with the `at_preview_token` parameter set to an empty value. For example:
 
-For example:
-
-`https://www.mysite.com/?at_preview_token=` 
+`https://www.mysite.com/?at_preview_token=`
 
 ## Activity QA bookmarklet for at.js 2.*x*
 
-In contrast to at.js 1.*x*, at.js 2.*x* does not support third-party cookies, and QA mode is only sticky for the first-party domain (by means of a first-party cookie set by at.js). Thus, in at.js 2.*x*, QA mode session is managed only on the client-side and no QA mode cookies are sent to Target. 
+In contrast to at.js 1.*x*, at.js 2.*x* does not support third-party cookies. QA mode persists only for the first-party domain, by means of a first-party cookie set by at.js. As a result, the QA mode session is managed only on the client side, and no QA mode cookies are sent to [!DNL Target].
 
-To use the [!DNL Target] QA bookmarklet, create a bookmarklet containing the following JavaScript code and add it to your browser's Bookmarks Toolbar:
+To use the [!DNL Target] QA bookmarklet, create a bookmarklet containing the following JavaScript code and add it to the Bookmarks Toolbar of your browser:
 
 ```javascript
 javascript:(
@@ -76,4 +78,8 @@ javascript:(
 
 ## Use the Activity QA bookmarklet
 
-Click the bookmarklet on your browser's toolbar.
+After you add the bookmarklet that matches your at.js version to your browser, use it whenever you want to leave QA mode:
+
+1. Open any page of your site while you are in QA mode.
+1. Click the bookmarklet in the Bookmarks Toolbar of your browser.
+1. Load a page of your site. [!DNL Target] releases the session from QA mode, and the site displays as it does for a typical visitor.

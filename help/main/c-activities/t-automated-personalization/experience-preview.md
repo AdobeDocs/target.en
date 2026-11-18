@@ -21,7 +21,7 @@ Experience preview URLs can be generated for [!DNL Target] [!UICONTROL Automated
 
 >[!NOTE]
 >
->You can create experience preview URLs for other types of [!DNL Target] activities. However, the process is slightly different. For more information, see [Activity QA](/help/main/c-activities/c-activity-qa/activity-qa.md#preview).
+>You can create experience preview URLs for other types of [!DNL Target] activities. However, the process is slightly different. For more information, see [Activity QA](/help/main/c-activities/c-activity-qa/activity-qa.md#section_1C59BAA247B247BDB125D1BE8EAD4547).
 
 Use experience preview URLs to share experiences with team members and to QA experiences across browsers and environments, without creating a separate QA activity. This feature is particularly useful if a site is complex, or if your security policies do not allow the site to be viewed in a simulator. 
 
