@@ -23,17 +23,21 @@ topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
     internal-label: Customer experience
 ---
-# Feeds
+# Feeds {#feeds}
 
-Use feeds to get entities imported into [!DNL Adobe Target] [!DNL Recommendations]. Entities can be sent using CSV files, the [!DNL Google Product Search] feed format, and [!DNL Adobe Analytics] product classifications. 
+>[!BEGINSHADEBOX]
+
+**On this page:** Learn how feeds import entities into [!DNL Adobe Target Recommendations], which source types are available, and how to create and monitor a feed.
+
+>[!ENDSHADEBOX]
+
+Use feeds to get entities imported into [!DNL Adobe Target Recommendations]. Entities can be sent using CSV files, the [!DNL Google Product Search] feed format, and [!DNL Adobe Analytics] product classifications.
 
 ## Feeds overview {#concept_D1E9C7347C5D4583AA69B02E79607890}
 
-Feeds let you pass [Entities](/help/main/c-recommendations/c-products/products.md) or augment your mbox data with information that is either unavailable on the page or is unsafe to send directly from the page. For example, margin, Cost of Goods Sold (COGS), and so on.
+Feeds let you pass [entities](/help/main/c-recommendations/c-products/products.md) or augment your mbox data with information that is either unavailable on the page or is unsafe to send directly from the page. For example, margin, Cost of Goods Sold (COGS), and so on. Feeds also let you pass detailed item information into [!DNL Recommendations], such as product ID, category, name, message, and other attributes.
 
-Feeds also let you pass detailed item information into [!DNL Recommendations], such as product ID, category, name, message, and other attributes.
-
-You can select which columns from your [!DNL Target] product classifications file or [!DNL Google Product Search] file you want to send to the [!DNL Recommendations] server. 
+You can select which columns from your [!DNL Target] product classifications file or [!DNL Google Product Search] file you want to send to the [!DNL Recommendations] server.
 
 These pieces of data about each item can then be used to:
 
@@ -44,33 +48,34 @@ These pieces of data about each item can then be used to:
 
 Item descriptions can be passed into [!DNL Target] using feeds or mboxes. If [!DNL Target] collects data using both an entity feed and an mbox, the most recent data wins. Usually, the most recent data comes from an mbox, because it is viewed more often. In the rare event that entity feed data and mbox data hit at the same time, the mbox data is used.
 
-The [!UICONTROL Feeds] list ( **[!UICONTROL Recommendations]** > **[!UICONTROL Feeds]**) provides information about any feeds that you have created. 
+Uploaded entities and entity attributes expire after 61 days. This means:
 
-The [!UICONTROL Feeds] page contains the following columns:
+* Your feed should run at least monthly to ensure that your catalog contents do not expire.
 
-* **Name**: The name of the feed specified during creation. To edit the name of a feed, you must edit the feed itself. When you save the feed with the new name, the feed is refreshed.
-* **Status**: The feed's current [status](/help/main/c-recommendations/c-products/feeds.md#concept_E475986720D1400999868B3DFD14A7A0).
-* **Type**: Types include [CSV](/help/main/c-recommendations/c-products/feeds.md#section_65CC1148C7DD448FB213FDF499D35FCA), [[!DNL Google Product Feed]](/help/main/c-recommendations/c-products/feeds.md#section_8EFA98B5BC064140B3F74534AA93AFFF), and [Analytics Classifications](/help/main/c-recommendations/c-products/feeds.md#section_79E430D2C75443BEBC9AA0916A337E0A).
-* **Items**: Displays the number of items in the feed.
-* **Schedule**: Displays the update schedule for the feed: [!UICONTROL Daily], [!UICONTROL Weekly], [!DNL Every 2 Weeks], or [!UICONTROL Never].
-* **Last Updated**: Displays the date and time when the feed was last updated and the name of the person who updated the feed.
+* Removing an item from your feed file does not remove that item from your catalog. To remove the item from the catalog, manually delete the item via the [!DNL Target] UI or API. Or, modify the item attributes (such as inventory) to ensure that the item is excluded from consideration.
 
-Click the [!UICONTROL Customize Table] icon ( ![Customize Table icon](/help/main/assets/icons/ColumnSetting.svg) ) to select or deselect columns that you want to display.
+* Upload your feed file at least every 60 days to avoid a disruption to your recommendations activities. If an item is not included in a feed file (or other entity update method) at least once every 60 days, [!DNL Target] infers the item is no longer relevant and removes it from the catalog.
 
-Click the [!UICONTROL Information] icon ( ![Info icon](/help/main/assets/icons/InfoOutline.svg) ) to display a card that displays the last upload date and the feed's URL.
+### Feeds list
 
-Click the [!UICONTROL More Actions] icon ( ![More Actions icon](/help/main/assets/icons/MoreSmallList.svg) ) to access the following actions: [!UICONTROL Deactivate], [!DNL Edit], [!UICONTROL Copy], and [!UICONTROL Delete].
+The [!UICONTROL Feeds] list (**[!UICONTROL Recommendations]** > **[!UICONTROL Feeds]**) provides information about any feeds that you have created. It contains the following columns:
 
->[!IMPORTANT]
->
->Uploaded entities and entity attributes expire after 61 days. This means:
->
->* Your feed should run at least monthly to ensure that your catalog contents do not expire.
->* Removing an item from your feed file does not remove that item from your catalog. To remove the item from the catalog, manually delete the item via the [!DNL Target] UI or API. Or, modify the item attributes (such as inventory) to ensure that the item is excluded from consideration.
+| Column | Description |
+|---|---|
+| **Name** | The name of the feed specified during creation. To edit the name of a feed, you must edit the feed itself. When you save the feed with the new name, the feed is refreshed. |
+| **Status** | The feed's current [status](/help/main/c-recommendations/c-products/feeds.md#concept_E475986720D1400999868B3DFD14A7A0). |
+| **Type** | Types include [CSV](/help/main/c-recommendations/c-products/feeds.md#section_65CC1148C7DD448FB213FDF499D35FCA), [[!DNL Google Product Feed]](/help/main/c-recommendations/c-products/feeds.md#section_8EFA98B5BC064140B3F74534AA93AFFF), and [Analytics Classifications](/help/main/c-recommendations/c-products/feeds.md#section_79E430D2C75443BEBC9AA0916A337E0A). |
+| **Items** | Displays the number of items in the feed. |
+| **Schedule** | Displays the update schedule for the feed: **[!UICONTROL Daily]**, **[!UICONTROL Weekly]**, **[!DNL Every 2 Weeks]**, or **[!UICONTROL Never]**. |
+| **Last Updated** | Displays the date and time when the feed was last updated and the name of the person who updated the feed. |
 
-## Source types
+* Click the **[!UICONTROL Customize Table]** icon ( ![Customize Table icon](/help/main/assets/icons/ColumnSetting.svg) ) to select or deselect columns that you want to display.
+* Click the **[!UICONTROL Information]** icon ( ![Info icon](/help/main/assets/icons/InfoOutline.svg) ) to display a card that displays the last upload date and the feed's URL.
+* Click the **[!UICONTROL More Actions]** icon ( ![More Actions icon](/help/main/assets/icons/MoreSmallList.svg) ) to access the following actions: **[!UICONTROL Deactivate]**, **[!DNL Edit]**, **[!UICONTROL Copy]**, and **[!UICONTROL Delete]**.
 
-Entities can be sent using CSV files, the [!DNL Google Product Search] feed format, and [!DNL Adobe Analytics] product classifications.
+## Source types {#source-types}
+
+The following sections describe the source types that you can use to send entities.
 
 ### CSV {#section_65CC1148C7DD448FB213FDF499D35FCA}
 
@@ -102,13 +107,11 @@ The following syntax is correct:
 "Apples ""Bananas"" Grapes""",
 ```
 
->[!NOTE]
->
->You cannot overwrite an existing value with a blank value. Pass another value in its place to overwrite the existing value. In the case of a sale price, a common solution is to either pass in an actual "NULL" or some other message. You can then write a template rule to exclude items with that value.
+Note that you cannot overwrite an existing value with a blank value. Pass another value in its place to overwrite the existing value. In the case of a sale price, a common solution is to either pass in an actual "NULL" or some other message. You can then write a template rule to exclude items with that value.
 
 The product is available in the admin interface approximately two hours after successfully uploading its entity.
 
-The following is sample code for a .csv file:
++++ Sample .csv file
 
 ```
 ## RECSRecommendations Upload File 
@@ -122,19 +125,19 @@ na3456,RipCurl Watch with Titanium Dial,Watches & Sport,Cutting edge titanium wi
 na3457,RipCurl Watch with Black Dial,Watches & Sport,Cutting edge matte black with round case,https://example.com/s7/na3457_Viewer,275,https://example.com/shop/en-us/na3457_RipCurl,24,0.27,csv,"[""New"",""Web"",""Sales"",""[1,2,34,5]""]",in stock,US,CA,9.25,Shop by Category > Watches,dz1,Black,44mm,RipCurl,"075340 01060 7"
 ```
 
-### [!DNL Google] {#section_8EFA98B5BC064140B3F74534AA93AFFF}
++++
 
-The [!DNL Google Product Search] feed type uses the [!DNL Google] format rather than the [!DNL Adobe] proprietary CSV format. You can reuse an existing [!DNL Google Product Feed] to import product data into [!DNL Recommendations].
+### [!DNL Google] {#section_8EFA98B5BC064140B3F74534AA93AFFF}
 
 >[!NOTE]
 >
 >You do not need to submit your data to [!DNL Google]. You can import your own data and schedule updates, provided the file uses the predefined [!DNL Google] attribute names.
 
+The [!DNL Google Product Search] feed type uses the [!DNL Google] format rather than the [!DNL Adobe] proprietary CSV format. You can reuse an existing [!DNL Google Product Feed] to import product data into [!DNL Recommendations].
+
 [!DNL Recommendations] accepts .xml, .txt, and .tsv files that follow the [!DNL Google] feed specification and use the [attributes defined by Google](https://support.google.com/merchants/answer/188494?hl=en&topic=2473824&ctx=topic#US). Specify the feed's URL or FTP location so the [!DNL Recommendations] server can retrieve the file and build your catalog.
 
->[!NOTE]
->
->The server hosting the [!DNL Google] feed must allow the POST method.
+Note that the server hosting the [!DNL Google] feed must allow the POST method.
 
 Keep the following requirements and limitations in mind:
 
@@ -143,7 +146,7 @@ Keep the following requirements and limitations in mind:
 
 The feed runs when you save and activate it, then daily one hour later than the initial run time.
 
-The following example shows a [!DNL Google Product Search] feed in .xml format:
++++ Sample [!DNL Google Product Search] feed in .xml format
 
 ```xml
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?> 
@@ -210,7 +213,9 @@ The following example shows a [!DNL Google Product Search] feed in .xml format:
 </feed> 
 ```
 
-The following is sample code for a [!DNL Google Product Search] feed .tsv file:
++++
+
++++ Sample [!DNL Google Product Search] feed in .tsv format
 
 ```
 id    title    description    link    price    condition    availability    image_link    tax    shipping_weight    shipping    google_product_category    product_type    item_group_id    color    size    gender    age_group    pattern    brand    gtin    mpn 
@@ -218,7 +223,9 @@ na3454    RipCurl Watch with Titanium Dial    Cutting edge titanium with round c
 na3455    RipCurl Watch with Black Dial    Cutting edge matte black with round case    https://example.com/shop/en-us/na3455_RipCurl    275    new    in stock    https://example.com/s7/na3452_Viewer    US:CA:9.25:y    1.5 oz    US:::0.00 USD    Watches & Sport    Shop by Category > Watches    dz1    Black    44mm    male    adult    Solid    RipCurl    075340 01060 7    DZ1446
 ```
 
-### [!DNL Analytics] Product Classifications {#section_79E430D2C75443BEBC9AA0916A337E0A}
++++
+
+### [!DNL Analytics] product classifications {#section_79E430D2C75443BEBC9AA0916A337E0A}
 
 The [!DNL Adobe Analytics] Product classification is the only classification available for recommendations. For more information about this classification file, see [About classifications](https://experienceleague.adobe.com/docs/analytics/components/classifications/c-classifications.html) in the *Analytics Components* guide. It is possible that not all the information you need for recommendations is available in your current implementation, so follow this user guide if you want to add to your classifications file.
 
@@ -229,22 +236,31 @@ The [!DNL Adobe Analytics] Product classification is the only classification ava
 > Be aware of the following caveats:
 >
 >* Updates to entity attributes incur an additional delay of up to 24 hours.  
->* [!DNL Target] supports [!UICONTROL Product Classifications] only. The [!DNL Analytics] product SKU must map to the same level as the [!DNL Recommendations] `entity.id`. Custom [!DNL Analytics] Classifications can be engineered using [!UICONTROL Adobe Consulting Services]. Contact your Account Manager with questions.
+>* [!DNL Target] supports **[!UICONTROL Product Classifications]** only. The [!DNL Analytics] product SKU must map to the same level as the [!DNL Recommendations] `entity.id`. Custom [!DNL Analytics] Classifications can be engineered using **[!UICONTROL Adobe Consulting Services]**. Contact your Account Manager with questions.
 
-## Create Feed {#steps}
+## Create a feed {#steps}
 
 Create a feed to insert information about your products or services into [!DNL Recommendations].
 
-1. From within the [!DNL Target] interface, click **[!UICONTROL Recommendations]** > **[!UICONTROL Feeds]** > **[!UICONTROL Create Feed]**.
+### Define the source
+
+The source determines where [!DNL Recommendations] retrieves the entity data that builds your catalog.
+
+1. From within the [!DNL Target] interface, click **[!UICONTROL Recommendations]** > **[!UICONTROL Feeds]** > **[!UICONTROL Create Feed]**.   
+
+    ![Create Feed page](../assets/feeds_1.png)
 
 1. Specify a descriptive name for your feed.
+
 1. Select a **[!UICONTROL Source Type]**.
 
-   * [!UICONTROL CSV] 
-   * [!UICONTROL Google Product Feed]
-   * [!UICONTROL Analytics Classifications]
+   * **[!UICONTROL CSV]**
+   * **[!UICONTROL Google Product Feed]**
+   * **[!UICONTROL Analytics Classifications]**
 
-   For information about the [!UICONTROL CSV] and [!UICONTROL Google Product Feed] feed types, see [Feeds Overview](/help/main/c-recommendations/c-products/feeds.md#concept_D1E9C7347C5D4583AA69B02E79607890). You can also [download a model CSV guide](/help/main/c-recommendations/c-products/assets/EntityFileUploadTemplate.csv) to help you format the feed correctly.
+   For information about the **[!UICONTROL CSV]** and **[!UICONTROL Google Product Feed]** feed types, see [Source types](#source-types). You can also [download a model CSV guide](/help/main/c-recommendations/c-products/assets/EntityFileUploadTemplate.csv) to help you format the feed correctly.
+
+    ![Create Feed page](../assets/feeds_2.png)
 
 1. (Conditional) If you selected **[!UICONTROL CSV]** or **[!UICONTROL Google Product Feed]**, specify the location where the feed can be accessed.
 
@@ -252,9 +268,9 @@ Create a feed to insert information about your products or services into [!DNL R
 
      +++ Supported FTP server settings
 
-     * FTP and FTPS must be set to use Passive FTP.
-     * For FTPS, configure the server to accept Explicit FTPS connections.
-     * You can manually specify a port on which to initiate the connection (for example, `ftp://ftp.yoursite.com:2121`). If you do not specify a port, the default FTP or FTPS port is used.
+      * FTP and FTPS must be set to use Passive FTP.
+      * For FTPS, configure the server to accept Explicit FTPS connections.
+      * You can manually specify a port on which to initiate the connection (for example, `ftp://ftp.yoursite.com:2121`). If you do not specify a port, the default FTP or FTPS port is used.
 
     +++
 
@@ -262,35 +278,37 @@ Create a feed to insert information about your products or services into [!DNL R
 
      +++ Supported SFTP server settings and limitations
 
-     * Authentication uses a password, an SSH private key, or both. At least one is required.
-     * The customer generates and owns the key pair. Install the public key in the SFTP user's `authorized_keys` file, then paste the private key into Target as PEM text. Accepted key types are RSA, Ed25519, and ECDSA, in PEM (`-----BEGIN RSA PRIVATE KEY-----`), PKCS#8 (`-----BEGIN PRIVATE KEY-----`), or OpenSSH (`-----BEGIN OPENSSH PRIVATE KEY-----`) format.
-     * Passphrase-protected private keys are not supported, a feed cannot be saved with one.
-     * Target stores the private key encrypted and does not display it again. To rotate it, edit the feed and enter the new key.
-     * Enter a bare host name or IP address, without an `sftp://` prefix, port, or path. Use the Port field for a non-default port.
-     * The server host key is accepted on first connection, no fingerprint exchange with Adobe is needed.
-     * SFTP is available in the Target Interface and Recommendations API, but not in the legacy Recommendations Classic admin interface. Adobe does not host an SFTP endpoint, use a customer-hosted server.
-     * The SFTP server must be reachable from the internet and allow inbound connections from Adobe Target's download addresses. The production IP list must be confirmed by engineering before publication of this update.
+      * Authentication uses a password, an SSH private key, or both. At least one is required.
+      * The customer generates and owns the key pair. Install the public key in the SFTP user's `authorized_keys` file, then paste the private key into Target as PEM text. Accepted key types are RSA, Ed25519, and ECDSA, in PEM (`-----BEGIN RSA PRIVATE KEY-----`), PKCS#8 (`-----BEGIN PRIVATE KEY-----`), or OpenSSH (`-----BEGIN OPENSSH PRIVATE KEY-----`) format.
+      * Passphrase-protected private keys are not supported, a feed cannot be saved with one.
+      * Target stores the private key encrypted and does not display it again. To rotate it, edit the feed and enter the new key.
+      * Enter a bare host name or IP address, without an `sftp://` prefix, port, or path. Use the Port field for a non-default port.
+      * The server host key is accepted on first connection, no fingerprint exchange with Adobe is needed.
+      * SFTP is available in the Target Interface and Recommendations API, but not in the legacy Recommendations Classic admin interface. Adobe does not host an SFTP endpoint, use a customer-hosted server.
+      * The SFTP server must be reachable from the internet and allow inbound connections from Adobe Target's download addresses.
 
     +++
 
-   * **URL**: If you select [!UICONTROL URL], specify the URL.
+   * **URL**: If you select **[!UICONTROL URL]**, specify the URL.
 
 1. (Conditional) If you selected **[!UICONTROL Analytics Classifications]**, choose the report suite from the drop-down list.
 
-1. Click the **[!UICONTROL Next]** arrow to display the [!UICONTROL Schedule] options.
+1. Click the **[!UICONTROL Next]** arrow to display the **[!UICONTROL Schedule]** options and select an update option:
 
-1. Select an update option:
+   * **[!UICONTROL Daily]**
+   * **[!UICONTROL Weekly]**
+   * **[!UICONTROL Every 2 Weeks]**
+   * **[!UICONTROL Never]**: Do not schedule an update. Choose this if you do not want this feed to run.
 
-    * [!UICONTROL Daily] 
-    * [!UICONTROL Weekly] 
-    * [!UICONTROL Every 2 Weeks] 
-    * [!UICONTROL Never]: Do not schedule an update. Choose this if you do not want this feed to run.
+    ![Create Feed page](../assets/feeds_3.png)
 
 1. Specify the time that you want your feed to run.
 
    This option is based on the time zone used in your browser. If you want to use a time in a different time zone, you must calculate that time according to your time zone.
 
-1. Click the **[!UICONTROL Next]** arrow to display the [!UICONTROL Mapping] options, then specify how you want to map your data to [!DNL Target] definitions.
+1. Click the **[!UICONTROL Next]** arrow to display the **[!UICONTROL Mapping]** options, then specify how you want to map your data to [!DNL Target] definitions.
+
+    ![Create Feed page](../assets/feeds_4.png)
 
 1. (Optional) If you want the feed to belong to an environment (host group), select the host group.
 
@@ -298,43 +316,51 @@ Create a feed to insert information about your products or services into [!DNL R
 
 1. Click **[!UICONTROL Save]**.
 
-After you create or edit a feed, it runs immediately, then updates according to your settings. The feed must sync, process, and index before its data is available. Check [Feed Status](/help/main/c-recommendations/c-products/feeds.md#status) in the [!UICONTROL Feeds] list for progress. Processing continues even if you close [!DNL Target].
+After you create or edit a feed, it runs immediately, then updates according to your settings. The feed must sync, process, and index before its data is available. Processing continues even if you close [!DNL Target], and you can follow the progress in the **[!UICONTROL Feeds]** list with the [feed status](/help/main/c-recommendations/c-products/feeds.md#status).
 
-During indexing, products and feed headers appear before individual values, so you can search for products and create collections, exclusions, designs, and activities before indexing finishes.
+During indexing, products and feed headers appear before individual values, so you can already search for products and create collections, exclusions, designs, and activities.
 
-The "Success" status means the file was found and parsed correctly. Its data is available in [!DNL Recommendations] only after indexing, which takes time depending on file size. Failures can result from an incorrect URL or FTP information, a missing file, or a parsing error.
+The "Success" status means that the file was found and parsed correctly. Its data is available only after indexing, which takes longer for larger files. A failure can result from an incorrect URL or FTP information, a missing file, or a parsing error.
 
-## Feed Statuses and Indicators {#concept_E475986720D1400999868B3DFD14A7A0}
+## Feed statuses and indicators {#concept_E475986720D1400999868B3DFD14A7A0}
 
-Information about the possible feed statuses and their indicators. 
+This section describes the possible feed statuses and their indicators.
 
-### Feed Statuses {#status}
+### Feed statuses {#status}
 
 The following are possible statuses for a feed:
 
 | Status | Description |
 |--- |--- |
-|[!UICONTROL Syncing]|Feed setup details are being saved to [!DNL Target].|
-|[!UICONTROL Sync Failed]|Feed setup details could not be saved to [!DNL Target]. Try again.|
-|[!UICONTROL No Feed Run]|You have created a feed but it has not been scheduled (the frequency is set to Never).|
+|**[!UICONTROL Syncing]**|Feed setup details are being saved to [!DNL Target].|
+|**[!UICONTROL Sync Failed]**|Feed setup details could not be saved to [!DNL Target]. Try again.|
+|**[!UICONTROL No Feed Run]**|You have created a feed but it has not been scheduled (the frequency is set to Never).|
 |Scheduled at *date and time*|The feed has not been run, but is scheduled to run at the specified date and time.|
-|[!UICONTROL Waiting for Download]|[!DNL Target] is preparing to download the feed file.|
-|[!UICONTROL Downloading Feed File]|[!DNL Target] is downloading the feed file.|
-|[!UICONTROL Importing Items]|[!DNL Target] is importing items from the feed file.|
-|Feed Imported Successfully at *time*|[!DNL Target] has imported the feed file into its content delivery system. Changes to item attributes have been made in the content delivery system and will soon be reflected in delivered recommendations. If you do not see the expected changes, try again and refresh the page containing recommendations.<br>Notes:<ul><li>If changes to an item's attributes result in an item being excluded from recommendations, the exclusion is immediately reflected. If an item is newly added, or changes to attributes result in an item being *no longer* excluded from recommendations, it is not reflected until the next algorithm update, which occurs within 24 hours.</li><li>When this status is displayed, updates might not yet be reflected in the [!UICONTROL Catalog Search] UI. A separate status is listed in [!UICONTROL Catalog Search] indicating the last time that the searchable catalog was updated.</li></ul>|
-|Partial Import Failed|Previously, when all the rows were not uploaded, the feed was still marked as success. Thus, creating a false impression that all the rows have been uploaded as the feed shows successful.<P>Here's a scenario of why you might encounter a partial feed import:<ul><li>You uploaded a feed file for the production environment, for example 100 rows.</li><li>The feed ran and uploaded 80 out of those rows and dropped 20 rows due to incorrect formatting, field exceeded characters, and so forth.</li><li>The feed was marked as success in the UI, giving you the impression that all 100 rows were uploaded.</li><li>You are expecting some of those 20 products in the delivery of an activity but it is not happening.</li><li> You are puzzled at this point because you uploaded the feed that has the product details for products in question. You do not see it in the backend when you query via the Entity API, which tells you it is not in the backend.</li></ul>To remove this confusion, the message is improved to tell exactly what happened with the feed. Rather than marking it as a success, it is now marked as partial import failed.|
-|[!UICONTROL Failed to Index]|The index operation failed. Try again.|
-|[!UICONTROL Server Not Found]|FTP, SFTP or URL locations are invalid or otherwise unreachable.|
+|**[!UICONTROL Waiting for Download]**|[!DNL Target] is preparing to download the feed file.|
+|**[!UICONTROL Downloading Feed File]**|[!DNL Target] is downloading the feed file.|
+|**[!UICONTROL Importing Items]**|[!DNL Target] is importing items from the feed file.|
+|Feed Imported Successfully at *time*|[!DNL Target] has imported the feed file into its content delivery system. Changes to item attributes have been made in the content delivery system and will soon be reflected in delivered recommendations. If you do not see the expected changes, try again and refresh the page containing recommendations.<br>Notes:<ul><li>If changes to an item's attributes result in an item being excluded from recommendations, the exclusion is immediately reflected. If an item is newly added, or changes to attributes result in an item being *no longer* excluded from recommendations, it is not reflected until the next algorithm update, which occurs within 24 hours.</li><li>When this status is displayed, updates might not yet be reflected in the **[!UICONTROL Catalog Search]** UI. A separate status is listed in **[!UICONTROL Catalog Search]** indicating the last time that the searchable catalog was updated.</li></ul>|
+|Partial Import Failed|Not all rows of the feed file were uploaded. See [Partial import failed](#partial-import-failed).|
+|**[!UICONTROL Failed to Index]**|The index operation failed. Try again.|
+|**[!UICONTROL Server Not Found]**|FTP, SFTP or URL locations are invalid or otherwise unreachable.|
 
-To update a feed (for example, to make changes to your feed configuration or feed file), open the feed, make any desired changes, and click **[!UICONTROL Save]**. 
+#### Partial import failed {#partial-import-failed}
 
->[!IMPORTANT]
->
->Uploaded entities expire after 61 days. This means that your feed file should be uploaded at least every 60 days to avoid a disruption to your recommendations activities. If an item is not included in a feed file (or other entity update method) at least once every 60 days, [!DNL Target] infers the item is no longer relevant and removes it from the catalog.
+Previously, when not all rows were uploaded, the feed was still marked as success. This gave the false impression that all rows had been uploaded. The message now states what happened: the feed is marked as partial import failed instead of success.
 
-### Feed Status Indicators {#section_3C8A236C5CB84C769A9E9E36B8BFABA4}
+The following scenario shows why a partial feed import can occur:
 
-The following feed status indicators display in the [!UICONTROL Status] column: 
+* You uploaded a feed file for the production environment, for example 100 rows.
+* The feed ran and uploaded 80 out of those rows and dropped 20 rows due to incorrect formatting, field exceeded characters, and so forth.
+* The feed was marked as success in the UI, giving you the impression that all 100 rows were uploaded.
+* You are expecting some of those 20 products in the delivery of an activity but it is not happening.
+* The feed that you uploaded has the product details for the products in question, but you do not see them in the back end when you query via the Entity API, which shows that they are not in the back end.
+
+To update a feed (for example, to make changes to your feed configuration or feed file), open the feed, make any desired changes, and click **[!UICONTROL Save]**. Uploaded entities expire after 61 days. See the note in [Feeds overview](#concept_D1E9C7347C5D4583AA69B02E79607890) for the upload frequency.
+
+### Feed status indicators {#section_3C8A236C5CB84C769A9E9E36B8BFABA4}
+
+The following feed status indicators display in the **[!UICONTROL Status]** column:
 
 | Status Indicator | Description |
 |--- |--- |
@@ -363,7 +389,7 @@ The status should be yellow because the index should have run roughly one day an
 
 The following videos contain more information about the concepts discussed in this article.
 
-### Understanding feeds in Recommendations (3:01) ![Overview badge](/help/main/assets/overview.png)
++++ Understanding feeds in Recommendations
 
 This video contains the following information:
 
@@ -372,7 +398,9 @@ This video contains the following information:
 
 >[!VIDEO](https://video.tv.adobe.com/v/27695)
 
-### Create a feed (6:44) ![Tutorial badge](/help/main/assets/tutorial.png)
++++
+
++++ Create a feed
 
 This video contains the following information:
 
@@ -380,3 +408,5 @@ This video contains the following information:
 * Know which type of feed to use
 
 >[!VIDEO](https://video.tv.adobe.com/v/27696)
+
++++

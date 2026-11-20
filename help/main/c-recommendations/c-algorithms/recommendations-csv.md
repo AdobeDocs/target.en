@@ -57,7 +57,7 @@ The following steps assume you access the [!UICONTROL Create New Criteria] scree
 
     * **FTP:** To upload your CSV file from an FTP server, select **[!UICONTROL FTP]**, then enter the required information. You can use SSL, which uses the FTPS protocol to transfer your CSV file securely.
 
-    * **SFTP:** To upload your CSV file from an SFTP server, select **[!UICONTROL SFTP]**, then enter the host name or IP address, port (default 22), username, a password and/or SSH private key, directory, and filename. For details, see [Supported SFTP server settings](/help/main/c-recommendations/c-products/feeds.md#sftp-settings). 
+    * **SFTP:** To upload your CSV file from an SFTP server, select **[!UICONTROL SFTP]**, then enter the host name or IP address, port (default 22), username, a password and/or SSH private key, directory, and filename. For details, see [Supported SFTP server settings](/help/main/c-recommendations/c-products/feeds.md#steps). 
       
       SFTP does not change the custom-criteria CSV format. Use the `# Key,Recommendation_1,...` format, using a different feed type's format causes the import to fail.
 
