@@ -242,8 +242,6 @@ The [!DNL Adobe Analytics] Product classification is the only classification ava
 
 Create a feed to insert information about your products or services into [!DNL Recommendations].
 
-### Define the source
-
 The source determines where [!DNL Recommendations] retrieves the entity data that builds your catalog.
 
 1. From within the [!DNL Target] interface, click **[!UICONTROL Recommendations]** > **[!UICONTROL Feeds]** > **[!UICONTROL Create Feed]**.   
@@ -272,7 +270,7 @@ The source determines where [!DNL Recommendations] retrieves the entity data tha
       * For FTPS, configure the server to accept Explicit FTPS connections.
       * You can manually specify a port on which to initiate the connection (for example, `ftp://ftp.yoursite.com:2121`). If you do not specify a port, the default FTP or FTPS port is used.
 
-    +++
+      +++
 
    * **SFTP**: Enter your SFTP server's host name or IP address, port (default: 22), username, directory, and filename. For authentication, provide a password, an SSH private key, or both.
 
@@ -287,7 +285,7 @@ The source determines where [!DNL Recommendations] retrieves the entity data tha
       * SFTP is available in the Target Interface and Recommendations API, but not in the legacy Recommendations Classic admin interface. Adobe does not host an SFTP endpoint, use a customer-hosted server.
       * The SFTP server must be reachable from the internet and allow inbound connections from Adobe Target's download addresses.
 
-    +++
+      +++
 
    * **URL**: If you select **[!UICONTROL URL]**, specify the URL.
 
