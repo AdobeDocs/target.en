@@ -132,7 +132,7 @@ See [Multivariate Test](/help/main/c-activities/c-multivariate-testing/multivari
 
 [!UICONTROL Recommendations] activities automatically display products or content that might interest customers based on their previous activity or other algorithms. Recommendations help direct customers to relevant items that they might not otherwise discover.
 
-See [Recommendations](/help/main/c-recommendations/recommendations.md#concept_7556C8A4543942F2A77B13A29339C0C0) for more information.
+See [Recommendations](/help/main/c-recommendations/recommendations.md) for more information.
 
 <!--
 ## How [!DNL Target] counts server-call usage {#usage}

@@ -25,7 +25,7 @@ topic_v2:
 
 >[!ENDSHADEBOX]
 
-The **[!UICONTROL Visual Experience Composer]** (VEC) in [!DNL Adobe Target] makes it easy to create a **[!UICONTROL Multivariate Test]** and to modify portions of the page within [!DNL Target].
+The **[!UICONTROL Visual Experience Composer]** (VEC) in [!DNL Adobe Target] lets you create a **[!UICONTROL Multivariate Test]** and modify portions of the page within [!DNL Target].
 
 The [!DNL Target] point-and-click editor enables you to pick any location and add multiple offers.
 
@@ -46,7 +46,7 @@ Choose the activity type and delivery type, specify the page to test, and name t
 
 1. Click **[!UICONTROL Create Activity]** > **[!UICONTROL Multivariate Test]**.
 
-   For more information about the various activity types available in [!DNL Target] and their differences, see [Activities](/help/main/c-activities/activities.md#concept_D317A95A1AB54674BA7AB65C7985BA03). See [Target Activity types](/help/main/c-activities/target-activities-guide.md) to help you decide which activity type best suites your needs.
+   For more information about the various activity types available in [!DNL Target] and their differences, see [Activities](/help/main/c-activities/activities.md#types). See [Target Activity types](/help/main/c-activities/target-activities-guide.md) to help you decide which activity type best suites your needs.
 
    ![](../../assets/create-mvt-1.png)
 
@@ -128,7 +128,7 @@ Choose which visitors enter the test, and review the test summary.
 
 On the **[!UICONTROL Goals & Settings]** page, you tell [!DNL Target] how to measure the test. The available settings depend on whether you use [!DNL Target] or [!DNL Analytics] as the reporting source.
 
-1. Review the sections of the page and set what you need. See [What you set on the Goals & Settings page](#goals-settings-overview).
+1. Review the sections of the page and set what you need. See [What you set on the Goals & Settings page](/help/main/c-activities/t-test-ab/t-test-create-ab/ab-goals-and-settings.md).
 
 
    |Section|What you set|

@@ -23,11 +23,15 @@ topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
     internal-label: Customer experience
 ---
-# Use Activity QA with server-side delivery
+# Use Activity QA with server-side delivery {#qa-server-side}
 
-Use QA URLs with server-side delivery in [!DNL Adobe Target] to perform easy end-to-end activity QA with preview links that never change, optional audience targeting, and QA reporting that stays segmented from live activity data.
+>[!BEGINSHADEBOX]
 
-The standard implementation of Activity QA supports passing `qa_mode` parameters via `pageUrl` parameters. This approach is convenient for standard/ajax [!DNL Target] calls. However, for server-to-server calls, this is not the best approach for a Mobile SDK case when `pageUrl` is not available.
+**On this page:** Learn how to pass Activity QA parameters in a server-side [!DNL Adobe Target] call, so that you can test activities when `pageUrl` is not available.
+
+>[!ENDSHADEBOX]
+
+The standard implementation of Activity QA supports passing `qa_mode` parameters via `pageUrl` parameters. This approach is convenient for standard/ajax [!DNL Target] calls. However, it is not suitable for server-to-server calls, such as a Mobile SDK implementation, where `pageUrl` is not available. In these cases, pass the QA parameters in the request itself, which keeps the same preview links, optional audience targeting, and QA reporting that is segmented from live activity data.
 
 The following code sample shows Activity QA in a server-side call:
 
@@ -66,14 +70,14 @@ The following code sample shows Activity QA in a server-side call:
 }
 ```
 
-The following table explains a server-side request's details:
+The following table describes the parameters of a server-side request:
 
-| Parameter | Type | Default Value | Description |
+| Parameter | Type | Default value | Description |
 |--- |--- |--- |--- |
-|token|Encrypted token|None.<br>It cannot be empty.|An encrypted entity that contains the list of activity IDs that are allowed to be executed in Activity QA.<br>Validation rules: Should be an encrypted token belonging to the client specified in the [!DNL Target] request. All activities specified in the token should belong to the client.|
-|bypassEntryAudience|Boolean|False|Specifies whether entry step targets for QA activities should be evaluated or if they should be considered as matching.|
-|listedActivitiesOnly|Boolean|False|Specifies whether QA activities should be executed in isolation or if they should be evaluated as active activities for the current environment.|
-|evaluateAsTrueAudienceIds|List of IDs|Empty list.|List of audience IDs that should always be evaluated as true in the scope of the [!DNL Target] request.|
-|evaluateAsFalseAudienceIds|List of IDs|Empty list.|List of audience IDs that should always be evaluated as false in the scope of the [!DNL Target] request.|
-|activityIndex|Integer|Null.<br>It cannot be empty.|Activity index in the encrypted token. If  activityIndex is out of boundaries of the activity in the token or if null, it will be ignored. Index starts with 1.<br>Validation rules: Should be at least one activity index, and should reference an activity specified in the token.|
-|experienceIndex|Integer|Null.|When specified, selects an experience by index in the activity definition. If not specified or out of boundaries, it will fall-back to the activity's experience selector strategy. Index starts with 1  Validation rules: Can be null, or should reference an experience in the activity.|
+|token|Encrypted token|None. It cannot be empty.|An encrypted entity that contains the list of activity IDs that are allowed to be executed in Activity QA.<br>Validation rules: The token must be an encrypted token belonging to the client specified in the [!DNL Target] request. All activities specified in the token must belong to the client.|
+|bypassEntryAudience|Boolean|False|Specifies whether entry step targets for QA activities are evaluated or are considered as matching.|
+|listedActivitiesOnly|Boolean|False|Specifies whether QA activities are executed in isolation or are evaluated as active activities for the current environment.|
+|evaluateAsTrueAudienceIds|List of IDs|Empty list|List of audience IDs that are always evaluated as true in the scope of the [!DNL Target] request.|
+|evaluateAsFalseAudienceIds|List of IDs|Empty list|List of audience IDs that are always evaluated as false in the scope of the [!DNL Target] request.|
+|activityIndex|Integer|Null. It cannot be empty.|Activity index in the encrypted token. If `activityIndex` is null or out of the boundaries of the activities in the token, it is ignored. The index starts with 1.<br>Validation rules: At least one activity index is required, and it must reference an activity specified in the token.|
+|experienceIndex|Integer|Null|When specified, selects an experience by index in the activity definition. If not specified or out of boundaries, it falls back to the experience selector strategy of the activity. The index starts with 1.<br>Validation rules: The value can be null, or it must reference an experience in the activity.|

@@ -21,10 +21,14 @@ topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
     internal-label: Customer experience
 ---
-# Plan and implement [!DNL Recommendations] 
+# Plan and implement [!DNL Recommendations] {#plan-implement}
 
-Before you start using [!DNL Adobe Target Recommendations], you must complete several steps.
+>[!BEGINSHADEBOX]
 
-The [Adobe Target Developer Guide](https://experienceleague.adobe.com/docs/target-dev/developer/overview.html){target=_blank} contains information about how to implement [!DNL Recommendations] on your site, as well as how to implement [!DNL Target].
+**On this page:** Learn where to find the instructions to plan and implement [!DNL Adobe Target Recommendations] on your site.
+
+>[!ENDSHADEBOX]
+
+Several steps on your site must be completed before you start using [!DNL Adobe Target Recommendations]. The [Adobe Target Developer Guide](https://experienceleague.adobe.com/docs/target-dev/developer/overview.html){target=_blank} describes how to implement [!DNL Recommendations] on your site, as well as how to implement [!DNL Target].
 
 For more information and step-by-step instructions, see [Plan and implement Recommendations](https://experienceleague.adobe.com/docs/target-dev/developer/recommendations.html){target=_blank} in the *Adobe Target Developer Guide* portal.

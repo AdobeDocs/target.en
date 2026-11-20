@@ -37,7 +37,7 @@ A manual **[!UICONTROL A/B Test]** activity (sometimes referred to as an A/B...N
 Use a manual A/B test when:
 
 * You have a clear hypothesis of ways to improve your page performance, based on success metrics or alternative content delivery.
-* You want to test large changes, such as new layouts or drastically different treatments of the elements. If your test design does not easily break down into individual page elements, you should run an A/B test before running a [multivariate test](/help/main/c-activities/c-multivariate-testing/multivariate-testing.md).
+* You want to test large changes, such as new layouts or drastically different treatments of the elements. If your test design cannot be broken down into individual page elements, you should run an A/B test before running a [multivariate test](/help/main/c-activities/c-multivariate-testing/multivariate-testing.md).
 * You want to decide the percentage of visitors that see each experience. For example, you might split traffic evenly between the control and a second experience, or you might test a new, more risky experience by showing it to only 5% of your audience.
 
 For detailed information about determining the optimum sample size for an A/B test, see [Plan Your A/B Test](/help/main/c-activities/t-test-ab/sample-size-determination.md).

@@ -5,7 +5,13 @@ title: AI insights in the Activity Overview
 feature: Activities
 badge: label="Beta" type="Informative"
 ---
-# AI insights
+# AI insights {#ai-insights}
+
+>[!BEGINSHADEBOX]
+
+**On this page:** Learn how to use the **[!UICONTROL AI insights]** menu of the [!DNL Adobe Target] **[!UICONTROL Activity Overview]** to review experiment learnings, compare treatments, and identify optimization opportunities.
+
+>[!ENDSHADEBOX]
 
 >[!AVAILABILITY]
 >

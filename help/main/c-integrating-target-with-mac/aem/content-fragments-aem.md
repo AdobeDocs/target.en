@@ -31,7 +31,7 @@ Use [!UICONTROL Content Fragments] (CFs) created in [!DNL Adobe Experience Manag
 
 Consider the following as you work with AEM [!UICONTROL Content Fragments] in [!DNL Target]:
 
-* This feature requires that you are an [!DNL Adobe Experience Manager as a Cloud Service] customer. For more information, see [Requirements](#section_AE6F0971E1574B3AA324003599B96E5A) below.
+* This feature requires that you are an [!DNL Adobe Experience Manager as a Cloud Service] customer. For more information, see [Requirements](#requirements) below.
 * [!UICONTROL Experience Fragments] and [!UICONTROL Content Fragments] are available for the following activity types: 
 
   * [[!UICONTROL A/B Test]](/help/main/c-activities/t-test-ab/test-ab.md)

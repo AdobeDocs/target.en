@@ -5,7 +5,13 @@ title: Sample Size Calculator
 feature: Activities
 badge: label="Beta" type="Informative"
 ---
-# Sample Size Calculator
+# Sample Size Calculator {#sample-size-calculator}
+
+>[!BEGINSHADEBOX]
+
+**On this page:** Learn how to use the [!DNL Adobe Target] Sample Size Calculator to estimate the traffic, duration, number of experiences, or minimum detectable effect for an A/B test.
+
+>[!ENDSHADEBOX]
 
 >[!CONTEXTUALHELP]
 >id="target_sample_size_ab_daily_traffic"

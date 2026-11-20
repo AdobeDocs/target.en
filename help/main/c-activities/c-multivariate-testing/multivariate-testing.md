@@ -40,7 +40,7 @@ In [!DNL Target], each combination is one experience. The **[!UICONTROL Multivar
 
 ![Multivariate test combinations](assets/multivariate.png)
 
-Because of the number of combinations that can be generated, a **[!UICONTROL Multivariate Test]** requires more time and traffic than an A/B test. The page must receive enough traffic to produce statistically significant results for each experience. To obtain useful results, understand the amount of traffic that your page receives, and test the optimal number of combinations for the right amount of time.
+A **[!UICONTROL Multivariate Test]** requires more time and traffic than an A/B test because of the number of combinations that can be generated. The page must receive enough traffic to produce statistically significant results for each experience. To obtain useful results, understand the amount of traffic that your page receives, and test the optimal number of combinations for the right amount of time.
 
 The [Traffic Estimator](/help/main/c-activities/c-multivariate-testing/t-create-multivariate-test/traffic-estimator.md#traffic-estimator) can help you design a test that works with your traffic. Before you use it, you should have good statistics showing the number of impressions and conversions that your site normally receives, and consider your traffic levels per day. The more experiences an activity has, the more traffic the activity must include or the longer it must run. If your amount of traffic is not high, test a few combinations. Otherwise, the amount of time required to produce meaningful test results might be too long to be useful.
 

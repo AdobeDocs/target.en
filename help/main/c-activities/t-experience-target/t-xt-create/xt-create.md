@@ -44,7 +44,7 @@ For more information about **[!UICONTROL Experience Targeting]**, a use-case sce
    >
    >The available activity types depend on your [!DNL Target] account. Some activity types might not appear in your list. For example, **[!UICONTROL Automated Personalization]** is a [Target Premium feature](/help/main/c-intro/intro.md#premium).
    >
-   >For more information about the various activity types available in [!DNL Target] and their differences, see [Activities](/help/main/c-activities/activities.md#concept_D317A95A1AB54674BA7AB65C7985BA03). See [Target Activity types](/help/main/c-activities/target-activities-guide.md) to help you decide which activity type best suites your needs.
+   >For more information about the various activity types available in [!DNL Target] and their differences, see [Activities](/help/main/c-activities/activities.md#types). See [Target Activity types](/help/main/c-activities/target-activities-guide.md) to help you decide which activity type best suites your needs.
 
     ![](../../assets/create-xt-1.png)
 

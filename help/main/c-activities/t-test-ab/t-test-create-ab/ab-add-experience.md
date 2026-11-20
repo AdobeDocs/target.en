@@ -26,7 +26,7 @@ topic_v2:
 
 >[!ENDSHADEBOX]
 
-The [!DNL Adobe Target] **[!UICONTROL Visual Experience Composer]** (VEC) provides a visual interface for adding and editing the experiences on your page. For additional detail about experiences, see [Experiences](/help/main/c-experiences/experiences.md#concept_A2E10F6AFB3D4AEAB6951EE14688848D).
+The [!DNL Adobe Target] **[!UICONTROL Visual Experience Composer]** (VEC) provides a visual interface for adding and editing the experiences on your page. For additional detail about experiences, see [Experiences](/help/main/c-experiences/experiences.md).
 
 ## Add and design an experience {#add-experience}
 

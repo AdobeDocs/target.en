@@ -27,24 +27,28 @@ topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
     internal-label: Personalization
 ---
-# Get started with Recommendations
+# Get started with Recommendations {#recommendations}
 
-[!DNL Adobe Target Recommendations] activities automatically display products, services, or content that might interest your visitors based on previous user activity, preferences, or other criteria. [!DNL Target Recommendations] helps direct visitor to relevant items they might otherwise not know about. [!DNL Recommendations] lets you provide your visitors with relevant content at the right time and in the right place.
+>[!BEGINSHADEBOX]
+
+**On this page:** Learn what [!DNL Adobe Target Recommendations] does, how a recommendation works, and the terms used in this section.
+
+>[!ENDSHADEBOX]
+
+[!DNL Adobe Target Recommendations] activities automatically display products, services, or content that might interest your visitors based on previous user activity, preferences, or other criteria. [!DNL Recommendations] directs visitors to relevant items that they might otherwise not know about, and provides relevant content at the right time and in the right place.
 
 >[!NOTE]
 >
 >[!DNL Recommendations] activities are available as part of the [Target Premium solution](/help/main/c-intro/intro.md#premium). They are not available in [!DNL Target Standard] without a [!DNL Target Premium] license.
 >
->If you currently have [!DNL Recommendations Classic], see [Recommendations Classic versus Recommendations Activities in Target Premium](/help/main/c-recommendations/c-recommendations-faq/recommendations-classic-versus-recommendations-activities-target-premium.md#concept_A80223EF66634EA380580C2823A581C5) for more information about the two solutions.
+>If you currently have [!DNL Recommendations Classic], see [Recommendations Classic versus Recommendations Activities in Target Premium](/help/main/c-recommendations/c-recommendations-faq/recommendations-classic-versus-recommendations-activities-target-premium.md) for more information about the two solutions.
 
-[!DNL Recommendations] helps you optimize and customize real-time suggestions across channels, apps, pages, email messages, and other delivery options to increase engagement and conversion while reducing management effort.
+[!DNL Recommendations] optimizes and customizes real-time suggestions across channels, apps, pages, email messages, and other delivery options to increase engagement and conversion while reducing management effort. With [!DNL Recommendations], you can:
 
-[!DNL Recommendations] helps you:
-
-* Create sophisticated criteria (rules) to automate recommendations 
-* Automatically display the recommendations by using a few JavaScript snippets 
-* Test and optimize the recommendations criteria and designs that display the recommendations 
-* Report on the results of your recommendations activities
+* Create sophisticated criteria (rules) to automate recommendations.
+* Display the recommendations automatically by using a few JavaScript snippets.
+* Test and optimize the criteria and the designs that display the recommendations.
+* Report on the results of your recommendations activities.
 
 The following illustration shows recommendations on a web page:
 
@@ -52,7 +56,7 @@ The following illustration shows recommendations on a web page:
 
 A recommendation determines how a product is suggested to a visitor, depending on that visitor's activities on the site. For example:
 
-| Desired Action | Recommendation |
+| Desired action | Recommendation |
 |--- |--- |
 |Encourage people who purchase a backpack to consider buying hiking shoes and trekking poles.|Create a recommendation that shows items that are often purchased together, using the "People who bought this also bought that" criteria.|
 |Increase the time visitors spend on your media site by recommending media content similar to what they are watching.|Create a recommendation that suggests other videos, using the "People who viewed this viewed that" criteria.|
@@ -62,11 +66,11 @@ For more information about these and other [!DNL Recommendations] criteria, see 
 
 ## Terms
 
-Before you get started using [!DNL Recommendations], it is helpful to become familiar with some of the terms used in this section. Do not worry if you do not fully understand these terms yet, you will become more familiar with them as you set up your [!DNL Recommendations] activities.
+Before you use [!DNL Recommendations], become familiar with the terms used in this section. These terms become clearer as you set up your [!DNL Recommendations] activities.
 
 |Term|Definition|
 | --- | --- |
-|Activity|Activities in [!DNL Target] let you personalize content to specific audiences and test page designs. [!DNL Recommendations] is just one of the many activity types available in [!DNL Target]. For more information, see [Target activity types](/help/main/c-activities/target-activities-guide.md).|
+|Activity|Activities in [!DNL Target] let you personalize content to specific audiences and test page designs. [!DNL Recommendations] is one of the activity types available in [!DNL Target]. For more information, see [Target activity types](/help/main/c-activities/target-activities-guide.md).|
 |Entities|Entities refer to the items you want to recommend. Entities can be anything such as products, content (articles, slide shows, images, movies, and tv shows), job listings, restaurants, and so forth. For more information, see [Entities](/help/main/c-recommendations/c-products/products.md).|
 |Feeds|Feeds are used to get entities imported into [!DNL Recommendations]. Entities can be sent using CSV files, the Google Product Search feed format, and Adobe Analytics product classifications. For more information, see [Feeds](/help/main/c-recommendations/c-products/feeds.md).|
 |Catalog|Catalogs refer to your entire product set (entities). Your catalog can contain many collections--a way to organize your products in logical buckets. |
@@ -74,7 +78,7 @@ Before you get started using [!DNL Recommendations], it is helpful to become fam
 |Criteria|Criteria are rules that determine which products to recommend based on a predetermined set of visitor behaviors.<br>A few examples of criteria include: <ul><li>People Who Bought This, Bought That</li><li>People Who Viewed This, Viewed That</li><li>Items with similar attributes</li><li>Last Purchased Item</li><li>Favorite Category</li></ul>  For more information, see [Criteria](/help/main/c-recommendations/c-algorithms/algorithms.md).|
 |Designs|Designs define the appearance of the recommendations in a [!DNL Recommendations] activity, such as a row, column, table, or grid. The illustration at the top of this article shows a 4 x 1 design. For more information, see [Create a design](/help/main/c-recommendations/c-design-overview/create-design.md).|
 |Locations|Locations refer to a specific content area on a webpage, mobile app, or email where you run an activity for personalization and optimization purposes.|
-|Audiences|Audiences are groups of similar activity entrants who will see a targeted activity. An audience is group of people with the same characteristics, such as a new visitor, a returning visitor, or returning visitors from the Midwest. The Audience feature allows you to target different content and experiences to specific audiences to optimize your digital marketing by displaying the right messages to the right people at the right time. For more information, see [Audiences](/help/main/c-target/target.md).|
+|Audiences|Audiences are groups of similar activity entrants who see a targeted activity. An audience is a group of people with the same characteristics, such as a new visitor, a returning visitor, or returning visitors from the Midwest. The Audience feature lets you target different content and experiences to specific audiences to optimize your digital marketing by displaying the right messages to the right people at the right time. For more information, see [Audiences](/help/main/c-target/target.md).|
 |Recommendations as an offer|A feature that lets you include recommendations inside A/B Test (including Auto-Allocate and Auto-Target) and Experience Targeting (XT) activities. For more information, see [Recommendations as an offer](/help/main/c-recommendations/recommendations-as-an-offer.md).|
 
 ## Training video: Activity Types ![Overview badge](/help/main/assets/overview.png)

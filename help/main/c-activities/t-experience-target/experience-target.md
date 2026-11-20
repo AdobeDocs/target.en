@@ -38,7 +38,7 @@ topic_v2:
 
 When visitors view your site, [!UICONTROL Experience Targeting] evaluates those visitors to determine whether they meet the criteria that you set. If they meet the criteria, they enter the activity, and the experience designed for the qualifying audience displays.
 
-[!UICONTROL Experience Targeting] is a first step into the world of personalization and often begins with A/B testing. A marketer runs an A/B test and, by using reporting audiences, discovers that different experiences resonate with different audiences. [!UICONTROL Experience Targeting] lets the marketer easily use that discovery and switch to long-term targeting of content to those different audience segments.
+[!UICONTROL Experience Targeting] is a first step into the world of personalization and often begins with A/B testing. A marketer runs an A/B test and, by using reporting audiences, discovers that different experiences resonate with different audiences. [!UICONTROL Experience Targeting] lets the marketer use that discovery and switch to long-term targeting of content to those different audience segments.
 
 ## Scenario: from A/B testing to Experience Targeting {#xt-scenario}
 

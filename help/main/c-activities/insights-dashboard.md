@@ -116,5 +116,5 @@ Use these metrics to understand how frequently A/B testing is being used and to 
 
 ![](assets/insights-7.png){align="center"}
 
-The **[!UICONTROL Activities Over Time]** graph tracks the number of activities created, modified, and published across the selected time range, making it easy to spot trends, spikes, or quiet periods in your experimentation program.
+The **[!UICONTROL Activities Over Time]** graph tracks the number of activities created, modified, and published across the selected time range, so that you can identify trends, spikes, or quiet periods in your experimentation program.
 

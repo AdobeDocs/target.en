@@ -129,9 +129,9 @@ Check out the [Auto-Target](/help/main/c-activities/auto-target/auto-target-to-o
 **How can I know which type of activity best fits my needs?**
 
 +++See details
-Read the [Target Activities Guide](/help/main/c-activities/target-activities-guide.md#concept_D974B0918EB74B3B8CB07ACD32BF37A1) to understand the scenarios where each of the options provided by [!DNL Target] makes sense.
+Read the [Target Activities Guide](/help/main/c-activities/target-activities-guide.md) to understand the scenarios where each of the options provided by [!DNL Target] makes sense.
 
-Be sure to also consider [Recommendations activities](/help/main/c-recommendations/recommendations.md#concept_7556C8A4543942F2A77B13A29339C0C0).
+Be sure to also consider [Recommendations activities](/help/main/c-recommendations/recommendations.md).
 
 +++
 
@@ -170,7 +170,7 @@ So, in this case, you might choose "Increment Count, Release User & Bar from Ree
 **How can I be clear as to how to set up an activity to achieve my objectives?**
 
 +++See details
-This is where [goals](/help/main/c-activities/t-test-ab/t-test-create-ab/ab-goals-and-settings.md#reference_B25389FD6F3A4989801E740364B089CC) come in.
+This is where [goals](/help/main/c-activities/t-test-ab/t-test-create-ab/ab-goals-and-settings.md) come in.
 
 You should start by knowing what you want to optimize on. Is it [!UICONTROL Revenue], [!UICONTROL Conversion], or [!UICONTROL Engagement]? Each of these options is available in the goals section. And for each of these, you can further define which action a user would take on your site to qualify that the goal has been reached.
 
