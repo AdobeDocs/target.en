@@ -248,11 +248,9 @@ The source determines where [!DNL Recommendations] retrieves the entity data tha
 
 1. From within the [!DNL Target] interface, click **[!UICONTROL Recommendations]** > **[!UICONTROL Feeds]** > **[!UICONTROL Create Feed]**.   
 
-  ![Create Feed page](assets/feeds-1.png)
-
+    ![Create Feed page](../assets/feeds_1.png)
 
 1. Specify a descriptive name for your feed.
-
 
 1. Select a **[!UICONTROL Source Type]**.
 
@@ -261,6 +259,8 @@ The source determines where [!DNL Recommendations] retrieves the entity data tha
    * **[!UICONTROL Analytics Classifications]**
 
    For information about the **[!UICONTROL CSV]** and **[!UICONTROL Google Product Feed]** feed types, see [Source types](#source-types). You can also [download a model CSV guide](/help/main/c-recommendations/c-products/assets/EntityFileUploadTemplate.csv) to help you format the feed correctly.
+
+    ![Create Feed page](../assets/feeds_2.png)
 
 1. (Conditional) If you selected **[!UICONTROL CSV]** or **[!UICONTROL Google Product Feed]**, specify the location where the feed can be accessed.
 
@@ -293,36 +293,28 @@ The source determines where [!DNL Recommendations] retrieves the entity data tha
 
 1. (Conditional) If you selected **[!UICONTROL Analytics Classifications]**, choose the report suite from the drop-down list.
 
-### Schedule the feed
-
-The schedule determines how often the feed refreshes the entities in your catalog, which expire if they are not updated.
-
-1. Click the **[!UICONTROL Next]** arrow to display the **[!UICONTROL Schedule]** options.
-
-1. Select an update option:
+1. Click the **[!UICONTROL Next]** arrow to display the **[!UICONTROL Schedule]** options and select an update option:
 
    * **[!UICONTROL Daily]**
    * **[!UICONTROL Weekly]**
    * **[!UICONTROL Every 2 Weeks]**
    * **[!UICONTROL Never]**: Do not schedule an update. Choose this if you do not want this feed to run.
 
+    ![Create Feed page](../assets/feeds_3.png)
+
 1. Specify the time that you want your feed to run.
 
    This option is based on the time zone used in your browser. If you want to use a time in a different time zone, you must calculate that time according to your time zone.
 
-### Map the data and save
-
-The mapping and the host group determine how [!DNL Target] interprets the feed data and in which environments the items are available.
-
 1. Click the **[!UICONTROL Next]** arrow to display the **[!UICONTROL Mapping]** options, then specify how you want to map your data to [!DNL Target] definitions.
+
+    ![Create Feed page](../assets/feeds_4.png)
 
 1. (Optional) If you want the feed to belong to an environment (host group), select the host group.
 
    By default the feed belongs to all host groups. This ensures that items in this feed are available in any environment. For more information, see [Hosts](/help/main/administrating-target/hosts.md#concept_516BB01EBFBD4449AB03940D31AEB66E).
 
 1. Click **[!UICONTROL Save]**.
-
-### After you save
 
 After you create or edit a feed, it runs immediately, then updates according to your settings. The feed must sync, process, and index before its data is available. Processing continues even if you close [!DNL Target], and you can follow the progress in the **[!UICONTROL Feeds]** list with the [feed status](/help/main/c-recommendations/c-products/feeds.md#status).
 
