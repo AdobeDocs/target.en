@@ -131,7 +131,7 @@ Check out the [Auto-Target](/help/main/c-activities/auto-target/auto-target-to-o
 +++See details
 Read the [Target Activities Guide](/help/main/c-activities/target-activities-guide.md) to understand the scenarios where each of the options provided by [!DNL Target] makes sense.
 
-Be sure to also consider [Recommendations activities](/help/main/c-recommendations/recommendations.md#concept_7556C8A4543942F2A77B13A29339C0C0).
+Be sure to also consider [Recommendations activities](/help/main/c-recommendations/recommendations.md).
 
 +++
 

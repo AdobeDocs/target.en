@@ -133,7 +133,7 @@ AP is fully automated, continuously learning with minimal human analysis. It bui
 
 ### Recommendations 
 
-[Recommendations](/help/main/c-recommendations/recommendations.md#concept_7556C8A4543942F2A77B13A29339C0C0) activities automatically display products or content that might interest your customers based on previous user activity. [!UICONTROL Recommendations] help direct customers to relevant items they might otherwise not know about.
+[Recommendations](/help/main/c-recommendations/recommendations.md) activities automatically display products or content that might interest your customers based on previous user activity. [!UICONTROL Recommendations] help direct customers to relevant items they might otherwise not know about.
 
 A recommendation determines how a product is suggested to a customer, depending on that customer's activities on the site. For example:
 
