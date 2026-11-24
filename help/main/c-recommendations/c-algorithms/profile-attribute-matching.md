@@ -1,7 +1,7 @@
 ---
 keywords: inclusion rules;inclusion criteria;recommendations;promotion;promotions;dynamic filtering;dynamic;profile attribute matching
 description: Learn how to filter dynamically in [!DNL Target Recommendations] by comparing items (entities) against a value in the user's profile.
-title: How Do I Filter by Profile Attribute Matching In Recommendations Activities?
+title: Profile attribute matching
 badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="See what's included in Target Premium."
 feature: Recommendations
 exl-id: d4b837af-771b-41b4-982b-f9f08e4753f2
@@ -19,28 +19,28 @@ topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
     internal-label: Customer experience
 ---
-# Profile Attribute matching
+# Profile attribute matching {#profile-attribute-matching}
 
-Filter dynamically in [!DNL Adobe Target Recommendations] by comparing items (entities) against a value in the user's profile.
+>[!BEGINSHADEBOX]
 
-Use [!UICONTROL Profile Attribute Matching] when you want to show recommendations that match a value stored in the visitor's profile, such as size or favorite brand.
+**On this page:** Learn how to filter recommendations dynamically in [!DNL Adobe Target Recommendations] by comparing items (entities) against a value in the profile of the visitor.
 
->[!NOTE]
->
->The [process for creating and using inclusion rules](/help/main/c-recommendations/c-algorithms/use-dynamic-and-static-inclusion-rules.md) for criteria and promotions is similar, as are the use cases and examples.
+>[!ENDSHADEBOX]
 
-The following scenarios show how you can use [!UICONTROL Profile Attribute Matching]:
+Use **[!UICONTROL Profile Attribute Matching]** to show recommendations that match a value stored in the profile of the visitor, such as size or favorite brand. The process for creating and using inclusion rules for criteria and promotions is similar, as are the use cases and examples. For more information, see [Use dynamic and static inclusion rules](/help/main/c-recommendations/c-algorithms/use-dynamic-and-static-inclusion-rules.md).
 
-* A company that sells eyeglasses stores a visitor's favorite frame color as "walnut." For that specific visitor, recommendations are set up to return only eyeglass frames that match "walnut" in color.
-* A profile parameter can be defined for the clothing size (for example, Small, Medium, or Large) of a visitor as they navigate your company's web site. A recommendation can be set up to match that profile parameter and return products specific only to the user's preferred clothing size.
+The following scenarios show how **[!UICONTROL Profile Attribute Matching]** can be used:
 
-## Profile Attribute Matching examples {#section_9873E2F22E094E479569D05AD5BB1D40}
+* A company that sells eyeglasses stores the favorite frame color of a visitor as "walnut." For that visitor, recommendations are set up to return only eyeglass frames that match "walnut" in color.
+* A profile parameter can be defined for the clothing size (for example, Small, Medium, or Large) of a visitor as the visitor navigates the website of the company. A recommendation can be set up to match that profile parameter and return only the products in the preferred clothing size of the visitor.
 
-[!UICONTROL Profile Attribute Matching] lets you recommend only the items that match an attribute from the visitor's profile, as in the examples below.
+## Profile attribute matching examples
+
+**[!UICONTROL Profile Attribute Matching]** recommends only the items that match an attribute from the profile of the visitor, as in the following examples.
 
 ### Recommending items from the user's favorite brand
 
-For example, you can use the [!UICONTROL Profile Attribute Matching] option to create a rule that recommends items only where the brand equals the value or text stored in `profile.favoritebrand`. With such a rule, if a visitor is looking at running shorts from a particular brand, only recommendations display that match that user's favorite brand (the value stored in `profile.favoritebrand` in the visitor's profile).
+The **[!UICONTROL Profile Attribute Matching]** option can create a rule that recommends items only where the brand equals the value or text stored in `profile.favoritebrand`. With such a rule, if a visitor is looking at running shorts from a particular brand, only the recommendations that match the favorite brand of that visitor (the value stored in `profile.favoritebrand` in the profile of the visitor) are displayed.
 
 ![Favorite brand](/help/main/c-recommendations/c-algorithms/assets/favorite-brand-new.png)
 
@@ -51,9 +51,7 @@ brand - equals - the value/text stored in - profile.favoritebrand
 
 ### Matching jobs to job seekers
 
-Suppose that you are trying to match jobs to job seekers. You want to recommend only jobs that are in the same city as the job seeker.
-
-You can use inclusion rules to match a job seeker's location from the visitor's profile to a job listing, as in the following example:
+To match jobs to job seekers, only the jobs that are in the same city as the job seeker are recommended. Inclusion rules can match the location of a job seeker from the profile of the visitor to a job listing, as in the following example:
 
 ![User's city](/help/main/c-recommendations/c-algorithms/assets/city-new.png)
 
@@ -64,13 +62,11 @@ jobCity - equals - the value/text stored in - profile.usersCity
 
 ### Recommending items based on size
 
-For a visual example of how profile attribute matching affects recommendations, consider a website that sells electric fans.
+The following example shows how profile attribute matching affects recommendations on a website that sells electric fans.
 
-When a visitor clicks various images of fans on this website, each page sets the value of the `entity.size` parameter based on whether the size of the fan in the image is small or large.
+When a visitor clicks various images of fans on this website, each page sets the value of the `entity.size` parameter based on whether the size of the fan in the image is small or large. A profile script tracks and counts the number of times the value of `entity.size` is set to small versus large.
 
-Assume you created a profile script to track and count the number of times the value of `entity.size` is set to small versus large.
-
-If the visitor then returns to the Home Page, they see filtered recommendations based on whether more small fans or large fans were clicked.
+If the visitor then returns to the Home Page, filtered recommendations are displayed based on whether more small fans or large fans were clicked.
 
 Recommendations based on viewing more small fans on the website:
 

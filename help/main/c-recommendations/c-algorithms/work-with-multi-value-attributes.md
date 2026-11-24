@@ -1,7 +1,7 @@
 ---
 keywords: multi-value;attributes;recommendations;multi value;multivalue;multi-value
 description: Learn how to work with a multi-value field in [!DNL Target Recommendations] using special multi-value operators.
-title: Can I Use Multi-Value Attributes in Recommendations?
+title: Work with multi-value attributes
 feature: Recommendations
 exl-id: 82018a9a-0983-458c-9387-3602dab4409b
 TQID: 'https://experienceleague.adobe.com/FrjVxvYfGh2o-qomXRbVh6WS6f65Mja41gBMhejEPlE'
@@ -18,38 +18,31 @@ topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
     internal-label: Customer experience
 ---
-# Work with multi-value attributes
+# Work with multi-value attributes {#multi-value-attributes}
 
-Sometimes you might want to work with a multi-value field. Consider the following examples:
+>[!BEGINSHADEBOX]
 
-* You offer movies to users. A given movie has multiple actors.
-* You sell tickets to concerts. A given user has multiple favorite bands.
-* You sell clothing. A shirt is available in multiple sizes.
+**On this page:** Learn how to send multi-value data to [!DNL Adobe Target Recommendations] and how to use it in inclusion rules with the multi-value operators.
 
-To handle recommendations in these scenarios, you can pass multi-value data to [!DNL Target Recommendations] and use special multi-value operators.
+>[!ENDSHADEBOX]
 
-To allow [!DNL Recommendations] to identify multi-value data, it should be sent as a JSON array, as in the below code samples.
+A multi-value field holds several values for the same item or visitor. For example:
 
-## Pass a multi-value parameter in JavaScript
+* Movies offered to users: a given movie has multiple actors.
+* Tickets sold for concerts: a given user has multiple favorite bands.
+* Clothing sold: a shirt is available in multiple sizes.
 
-```
-function targetPageParams() { 
-  return { 
-    'entity.id':                   '123', 
-    'entity.categoryId':            '["A", "A:B", "A:B:C", "A:B:C:D"]',        
-    'entity.MultiValueAttribute':   '["X", "Y", "Z"]', 
-    'entity.event.detailsOnly':     'true', 
-    'excludedIds":                  '[123, 3232, 2323, 4344]', 
-    'orderId":                      '123456', 
-    'orderTotal":                   '195.32', 
-    'productPurchaseId":            '[001,002,003]' 
-  }; 
-}
-```
+To handle recommendations in these scenarios, multi-value data can be passed to [!DNL Target Recommendations] and used with special multi-value operators.
 
-For more information, see [Implementing multi-value attributes](/help/main/c-recommendations/c-products/custom-entity-attributes.md#section_80FEFE49E8AF415D99B739AA3CBA2A14) in *Custom entity attributes*.
+## Send multi-value data {#send}
 
-## Pass a multi-value entity attribute in a CSV file
+To allow [!DNL Recommendations] to identify multi-value data, it should be sent as a JSON array.
+
+For a multi-value parameter in JavaScript (`targetPageParams`), see [Implementing multi-value attributes](/help/main/c-recommendations/c-products/custom-entity-attributes.md#section_80FEFE49E8AF415D99B739AA3CBA2A14) in *Custom entity attributes*.
+
+In a CSV file, a multi-value entity attribute is sent as a JSON array in the cell of the attribute, as in the following sample.
+
++++ Sample CSV file with a multi-value attribute
 
 ```
 ## RECSRecommendations Upload File,,,,,,,,,,,,,,,,,,,
@@ -66,26 +59,28 @@ For more information, see [Implementing multi-value attributes](/help/main/c-rec
 5,Sample Product 5,category1,Save 10%,http://sample.store/products/images/product5_th.jpg,325,http://sample.store/products/product_detail.jsp?productId=5,1000,45,a,"[ ""v1"", ""v2"" ]",,,,,,,,, 
 ```
 
-When an entity attribute, profile attribute, or mbox parameter is provided as multi-value according to the above format, [!DNL Recommendations] automatically infers that the field is multi-value.
++++
+
+When an entity attribute, profile attribute, or mbox parameter is provided as multi-value in this format, [!DNL Recommendations] automatically infers that the field is multi-value.
+
+## Use multi-value attributes in inclusion rules {#multi-value-inclusion-rules}
 
 The following operators are available for use with multi-value entity, profile, and mbox attributes:
 
-* [!UICONTROL is contained in list]
-* [!UICONTROL is not contained in list]
-
-## Working with multi-value attributes in inclusion rules
+* **[!UICONTROL is contained in list]**
+* **[!UICONTROL is not contained in list]**
 
 >[!NOTE]
 >
->Support for dynamic matching to multi-value attributes is currently available only in criteria when using a profile attribute matching or parameter (mbox) attribute matching rule when comparing a single value left side to a multi-value right side. Multi-value attributes are not currently supported in promotions, entity attribute matching, or for lists on the left side of inclusion rules.
+>Support for dynamic matching to multi-value attributes is currently available only in criteria that use a profile attribute matching or parameter (mbox) attribute matching rule that compares a single value on the left side to a multi-value on the right side. Multi-value attributes are not currently supported in promotions, entity attribute matching, or for lists on the left side of inclusion rules.
 
 ### Example: Exclude recently watched items
 
-Suppose that you want to prevent any movies that are in the user's last ten watched movies from being recommended. First, write a profile script called `user.lastWatchedMovies` to track the last ten viewed movies as a JSON array. Then, you can exclude the items by using the following inclusion rule:
+To prevent any movies in the last ten watched movies of the user from being recommended, first write a profile script called `user.lastWatchedMovies` that tracks the last ten viewed movies as a JSON array. The items can then be excluded with the following inclusion rule:
 
 ```
-`Profile Attribute Matching`
-`id - is not contained in list - user.lastWatchedMovies`
+Profile Attribute Matching
+id - is not contained in list - user.lastWatchedMovies
 ```
 
 JSON API representation of the inclusion rule:
@@ -103,11 +98,11 @@ JSON API representation of the inclusion rule:
 
 ### Example: Recommend items from the user's favorites
 
-Suppose that you want to recommend tickets only to concerts if the band playing is one of the user's favorite bands. First, ensure that you have a profile variable called `profile.favoriteBands` that contains the user's favorite bands. Then, ensure that your catalog includes an attribute `entity.artistPerforming` that includes the artist performing in the concert. Then, you can use the following inclusion rule:
+To recommend concert tickets only when the band playing is one of the favorite bands of the user, two items are required: a profile variable called `profile.favoriteBands` that contains the favorite bands of the user, and an attribute `entity.artistPerforming` in the catalog that contains the artist performing in the concert. The following inclusion rule can then be used:
 
 ```
-`Profile Attribute Matching`
-`artistPerforming - is contained in list - profile.favoriteBands`
+Profile Attribute Matching
+artistPerforming - is contained in list - profile.favoriteBands
 ```
 
 JSON API representation of the inclusion rule:
@@ -125,7 +120,7 @@ JSON API representation of the inclusion rule:
 
 ### Example: API creation of criteria recommending items from a user's favorites
 
-Criteria using multi-value filtering rules, like all criteria, can be created via [!DNL Adobe Target] APIs. An example API call to create a criteria where the entity attribute `id` is contained in the mbox parameter list `favorites` is provided here:
+Criteria that use multi-value filtering rules can be created through the [!DNL Adobe Target] APIs, like all criteria. The following example API call creates a criteria where the entity attribute `id` is contained in the mbox parameter list `favorites`:
 
 ```
 curl -X POST \
@@ -162,7 +157,7 @@ curl -X POST \
 }'
 ```
 
-This would be paired with JavaScript on the page to pass in the favorites contents:
+This call is paired with JavaScript on the page that passes in the content of the favorites:
 
 ```
 <!-- pass in the value of mbox parameter "favorites" as JSON array -->

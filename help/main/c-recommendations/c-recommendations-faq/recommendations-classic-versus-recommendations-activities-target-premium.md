@@ -75,7 +75,7 @@ For more information about using and creating criteria, see [Criteria](/help/mai
 The [!DNL Recommendations] workflow has been simplified. Instead of filling out complicated forms, you follow a visual workflow to:
 
 1. Select the criteria. 
-1. Select a pre-configured [design](/help/main/c-recommendations/c-design-overview/create-design.md#task_CC5BD28C364742218C1ACAF0D45E0E14). 
+1. Select a pre-configured [design](/help/main/c-recommendations/c-design-overview/create-design.md#create-design). 
 1. Preview the resulting recommendations.
 
 ## Visual Preview {#section_639B9E38C9EC4093BF9023EE0F2A15AC}

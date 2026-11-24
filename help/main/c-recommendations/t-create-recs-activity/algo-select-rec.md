@@ -27,7 +27,7 @@ If you select multiple criteria, traffic is split evenly between the selected cr
 
   Some criteria are supplied with [!DNL Recommendations]. You and your team can also create your own custom criteria. 
 
-* To create a new criteria, click **[!UICONTROL Create Criteria]** > **[!UICONTROL Create Criteria]**, then fill in the information for the new criteria. For information about creating new criteria, see [Create a New Criteria](/help/main/c-recommendations/c-algorithms/create-new-algorithm.md#task_8A9CB465F28D44899F69F38AD27352FE).
+* To create a new criteria, click **[!UICONTROL Create Criteria]** > **[!UICONTROL Create Criteria]**, then fill in the information for the new criteria. For information about creating new criteria, see [Create a New Criteria](/help/main/c-recommendations/c-algorithms/create-new-algorithm.md#create-criteria).
 
 **To select criteria:**
 

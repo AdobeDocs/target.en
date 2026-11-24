@@ -104,7 +104,7 @@ Use the [!DNL Target] [!UICONTROL Visual Experience Composer] (VEC) to create a 
 1. Click **[!UICONTROL Next]**.
 1. Select a [design](/help/main/c-recommendations/c-design-overview/design-overview.md).
 
-   A design is a template that determines the look of the locations on your page. [!DNL Target] includes several pre-configured designs. You can also create your own custom designs. For more information, see [Create a Design](/help/main/c-recommendations/c-design-overview/create-design.md#task_CC5BD28C364742218C1ACAF0D45E0E14) and [Customizing a Design](/help/main/c-recommendations/c-design-overview/customizing-a-template.md#concept_94F1554C3F2E4CDB9A2C3D78F10EDA59).
+   A design is a template that determines the look of the locations on your page. [!DNL Target] includes several pre-configured designs. You can also create your own custom designs. For more information, see [Create a Design](/help/main/c-recommendations/c-design-overview/create-design.md#create-design) and [Customizing a Design](/help/main/c-recommendations/c-design-overview/customizing-a-template.md#customize-design).
 
    ![Select Design dialog box](/help/main/c-recommendations/t-create-recs-activity/assets/Card_SelectDesign.png)
 
@@ -114,7 +114,7 @@ Use the [!DNL Target] [!UICONTROL Visual Experience Composer] (VEC) to create a 
 
      If you selected multiple criteria, you can select only one design. 
 
-   * To create a custom design, click **[!UICONTROL Create Design]**, then fill in the name and code for the new design. Click **[!UICONTROL Next]**, then select or upload an image and click **[!UICONTROL Done]** > **[!UICONTROL Done]**. For information about creating a new design, see [Create a Design](/help/main/c-recommendations/c-design-overview/create-design.md#task_CC5BD28C364742218C1ACAF0D45E0E14).
+   * To create a custom design, click **[!UICONTROL Create Design]**, then fill in the name and code for the new design. Click **[!UICONTROL Next]**, then select or upload an image and click **[!UICONTROL Done]** > **[!UICONTROL Done]**. For information about creating a new design, see [Create a Design](/help/main/c-recommendations/c-design-overview/create-design.md#create-design).
 
 1. Click **[!UICONTROL Next]**.
 

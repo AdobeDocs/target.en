@@ -1,7 +1,7 @@
 ---
 keywords: behavioral data source;analytics;recommendations;criteria;product variables
 description: Learn how to use [!DNL Adobe Analytics] as the behavioral data source in [!DNL Target Recommendations].
-title: How Do I Use [!DNL Adobe Analytics] with [!DNL Target Recommendations]?
+title: Use Adobe Analytics with Recommendations
 badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="See what's included in Target Premium."
 feature: Recommendations
 exl-id: d2b7e840-9546-4a8e-bec4-1ebea5a79672
@@ -25,80 +25,74 @@ topic_v2:
   - id: c4147b6e-073b-4d3c-9ab1-d60f2f4434ef
     internal-label: Behavioral data
 ---
-# Use [!DNL Adobe Analytics] with [!DNL Recommendations]
+# Use [!DNL Adobe Analytics] with [!DNL Recommendations] {#use-analytics-with-recommendations}
 
-Using [!DNL Adobe Analytics] as the behavioral data source lets clients use the view-based and purchase-based behavioral data from [!DNL Analytics] in [!DNL Adobe Target Recommendations] activities. This feature is especially helpful in situations where the [!DNL Target Recommendations] setup is new and [!DNL Analytics] has a lot of historical data to use.
+>[!BEGINSHADEBOX]
 
-Using [!DNL Analytics] as the behavioral data source can act as a rich source of information about user behavior. This information might include data from a third-party source or feed that is shared only with [!DNL Analytics].
+**On this page:** Learn how to use [!DNL Adobe Analytics] as the behavioral data source in [!DNL Adobe Target Recommendations] activities.
 
-While [creating criteria](/help/main/c-recommendations/c-algorithms/create-new-algorithm.md) in [!DNL Recommendations], there are two radio buttons that let you choose which data source is to be used: [!UICONTROL mboxes] or [!UICONTROL Analytics]. To create a criteria, click [!UICONTROL Recommendations] > [!UICONTROL Criteria] > [!UICONTROL Create Criteria] > [!UICONTROL Create Criteria]. For more information, see [Create criteria](/help/main/c-recommendations/c-algorithms/create-new-algorithm.md).
+>[!ENDSHADEBOX]
+
+Using [!DNL Adobe Analytics] as the behavioral data source allows [!DNL Adobe Target Recommendations] activities to use the view-based and purchase-based behavioral data from [!DNL Analytics]. This is useful when the [!DNL Target Recommendations] setup is new and [!DNL Analytics] has a lot of historical data to use. The data might also include information from a third-party source or feed that is shared only with [!DNL Analytics].
+
+The data source is selected with the **[!UICONTROL Behavioral Data Source]** option while [creating criteria](/help/main/c-recommendations/c-algorithms/create-new-algorithm.md#data-source) in [!DNL Recommendations]: **[!UICONTROL Adobe Target]** or **[!UICONTROL Analytics]**.
 
 >[!NOTE]
 >
->If these two buttons do not display in your account, reach out to [Customer Care](/help/main/cmp-resources-and-contact-information.md#reference_ACA3391A00EF467B87930A450050077C).
+>If these two options do not display in the account, contact [Customer Care](/help/main/cmp-resources-and-contact-information.md#reference_ACA3391A00EF467B87930A450050077C).
 
-## Use Cases for [!DNL Analytics] data in [!DNL Target]
+## Use cases for [!DNL Analytics] data in [!DNL Target] {#use-cases}
 
-Using [!DNL Analytics] as the behavioral data source for recommendations also lets you deploy specific use cases without the requirement of tagging entity pages with all the [!DNL Target] entity parameters. Although that requires certain pre-requisites to be in place, availability of "Product Variables" is the most important thing for that functionality to work seamlessly. Regular eVars and Props are not sufficient for this handshake to happen automatically between [!DNL Analytics] and [!DNL Target].
+Using [!DNL Analytics] as the behavioral data source also allows specific use cases to be deployed without tagging entity pages with all the [!DNL Target] entity parameters. This requires certain prerequisites, and the availability of "Product Variables" is the most important one. Regular eVars and Props are not sufficient for [!DNL Analytics] and [!DNL Target] to exchange this data automatically.
 
-You can use [!DNL Analytics] as the behavioral data source to:
+[!DNL Analytics] can be used as the behavioral data source to:
 
 * Display recommendations on a retail site to users on a product detail page, based on what other users purchased from the same category in the last month, using [!DNL Analytics] data.
 * Display content on the home screen of a media site for the most popular content in a particular category that is currently trending, based on [!DNL Analytics] data.
 
 ## Implementation in [!DNL Analytics]
 
-The following sections help you implement this feature on the [!DNL Analytics] side.
+### Prerequisites: set up product variables in [!DNL Analytics] {#prerequisites}
 
-### Prerequisites: set up product variables in [!DNL Analytics]
-
-Implement product variables in [!DNL Analytics] with the necessary attributes that are required for [!DNL Target Recommendations]. 
-
-A [!DNL Target Recommendations] sample feed format acts as guide on which all attributes must be defined in the product variables. Later those values must be "mapped" within the [!DNL Target] UI for the respective [!DNL Target] entity values.
+Implement product variables in [!DNL Analytics] with the attributes that are required for [!DNL Target Recommendations]. A [!DNL Target Recommendations] sample feed format guides which attributes must be defined in the product variables. These values must later be "mapped" in the [!DNL Target] UI to the respective [!DNL Target] entity values.
 
 >[!NOTE]
 >
->If it is a content site, the respective content pieces must be treated as "products" and associated attributes about that content must be passed as attributes. Such attributes can include author name, publish date, content title, month of release, and so forth. Granularity of category level, or category types, should be decided by the business based on use-case requirements.
-  
-For more details on how to set up product variables, see [products](https://experienceleague.adobe.com/docs/analytics/implementation/vars/page-vars/products.html) in the *Implement Adobe Analytics* guide. Some of the notes in that documentation need discretion of the team who is deploying it (example : Category). It is always advised to consult with [!DNL Adobe] before doing this activity.
+>If it is a content site, the respective content pieces must be treated as "products", and the associated attributes of that content must be passed as attributes. Such attributes can include author name, publish date, content title, month of release, and so forth. The business should decide the granularity of the category level, or the category types, based on the requirements of the use case.
 
-### Considerations
+For more details on how to set up product variables, see [products](https://experienceleague.adobe.com/docs/analytics/implementation/vars/page-vars/products.html) in the *Implement Adobe Analytics* guide. Some of the notes in that documentation, for example about Category, require the judgment of the team that deploys it. Consulting [!DNL Adobe] before this activity is recommended.
 
-[!DNL Analytics] data is sent via a daily feed. Behavioral results can take up to 24 hours to be reflected within recommendations results on your site. As with all [!DNL Recommendations] criteria settings, this data source can and should be tested.
+### Considerations {#considerations}
 
-For quick decision making on which data source is to be used, if there is much organic data generated every day by users, and not much dependency required on historic data, then using a [!DNL Target] mbox as the behavioral data source can be a good fit. In cases of less availability of organic data generated recently, if you want to bank upon [!DNL Analytics] data, then the using [!DNL Analytics] as the behavioral data source is a good fit.
+[!DNL Analytics] data is sent through a daily feed. Behavioral results can take up to 24 hours to be reflected in the recommendations results on the site. As with all [!DNL Recommendations] criteria settings, this data source should be tested.
 
-Now it is time to map these variables on [!DNL Target] side for continuous supply of behavioral data.
+To choose a data source:
 
-## Implement in [!DNL Target]
+* A [!DNL Target] mbox is a good fit when a lot of organic data is generated every day by users and little dependency on historical data is required.
+* [!DNL Analytics] is a good fit when less organic data has been generated recently and the [!DNL Analytics] data is to be used.
+
+The `entity.id` and `entity.categoryId` values must still be passed in the [!DNL Target] mbox call. The other attributes can be passed through an [!DNL Analytics] feed, as described on this page.
+
+Dynamic inclusion rules, such as matching an entity parameter to a profile attribute, can be used with the [!DNL Analytics] feed approach. The method is similar to using [!DNL Target] stand-alone, but the timing must be considered: the entity variables that are supposed to match the profile variables depend on the data layer, which might appear much later on the page.
+
+## Implement in [!DNL Target] {#implement-target}
+
+The product variables are mapped in [!DNL Target] to provide a continuous supply of behavioral data.
 
 1. In [!DNL Target], click **[!UICONTROL Recommendations]**, then click the **[!UICONTROL Feeds]** tab.
 
 1. Click **[!UICONTROL Create Feed]**.
 
+   ![Feeds page with the Create feed button highlighted](../assets/feeds_1.png)
+
 1. Select **[!UICONTROL Analytics Classifications]**, then specify the report suite.
 
-1. Click **[!UICONTROL Next]** to advance to the **[!UICONTROL Schedule]** settings, the select a frequency period for the feed:
+1. Click **[!UICONTROL Next]** to advance to the **[!UICONTROL Schedule]** settings, then select a frequency for the feed: **[!UICONTROL Daily]**, **[!UICONTROL Weekly]**, **[!UICONTROL Every 2 weeks]**, or **[!UICONTROL Never]**. The time of day for the feed to process can also be selected.
 
-   * [!UICONTROL Daily]
-   * [!UICONTROL Weekly]
-   * [!UICONTROL Every 2 weeks]
-   * [!UICONTROL Never]
+   ![Schedule step of the Create feed dialog box with the Frequency options Daily, Weekly, Every 2 weeks, and Never, and the Time of day field](../assets/feeds_3.png)
 
-   You can also select the time of day for the feed to process.
-
-1. Click **[!UICONTROL Next]** to advance to the  **[!UICONTROL Mapping]** settings, then map the field column headers to the appropriate [!UICONTROL Recommendations] field names.
+1. Click **[!UICONTROL Next]** to advance to the **[!UICONTROL Mapping]** settings, then map the field column headers to the appropriate **[!UICONTROL Recommendations]** field names.
 
 1. Click **[!UICONTROL Save]**.
 
-## Frequently Asked Questions
-
-Consider the following FAQs as you use [!DNL Analytics] with [!DNL Target]:
-
-### Are the `entity.id` and `entity.categoryId` values required to be passed within the [!DNL Target] mbox call?
-
-Yes, those two values are still required. The rest of the attributes can be passed via an [!DNL Analytics] feed, as discussed in this document.
-
-### Can I use dynamic inclusion rules, such as entity parameter matches profile attributes using the [!DNL Analytics] feed approach?
-
-Yes, you can. The method is similar when using [!DNL Target] stand-alone. In this case, however, you must be mindful about the timing factor. The entity variables that are supposed to match with the profile variables depend on the data layer that might appear much later on the page.
+For more information about creating a feed, see [Create a feed](/help/main/c-recommendations/c-products/feeds.md#steps).

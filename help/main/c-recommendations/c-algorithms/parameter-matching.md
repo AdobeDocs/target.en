@@ -1,7 +1,7 @@
 ---
 keywords: inclusion rules;inclusion criteria;recommendations;promotion;promotions;dynamic filtering;dynamic;parameter matching
 description: Learn how to filter dynamically in Adobe [!DNL Target] Recommendations by comparing items (entities) against a value in the request (API or mbox).
-title: How Do I Filter by Parameter Matching In Recommendations Activities?
+title: Parameter matching
 badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="See what's included in Target Premium."
 feature: Recommendations
 exl-id: 9ec161b9-1b37-4475-b508-af676126c817
@@ -19,34 +19,30 @@ topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
     internal-label: Customer experience
 ---
-# [!UICONTROL Parameter Matching]
+# Parameter matching {#parameter-matching}
 
-Filter dynamically by comparing items (entities) against a value in the request (API or mbox).
+>[!BEGINSHADEBOX]
 
-For example, only recommend content that matches the "industry" page parameter or other parameters, such as device dimensions or geo-location, as in the following examples.
+**On this page:** Learn how to filter recommendations dynamically in [!DNL Adobe Target Recommendations] by comparing items (entities) against a value in the request (API or mbox).
+
+>[!ENDSHADEBOX]
+
+**[!UICONTROL Parameter Matching]** recommends only the content that matches the page parameters or the parameters of the visitor, such as device dimensions or geo-location. For example, only content that matches the "industry" page parameter can be recommended. The process for creating and using inclusion rules for criteria and promotions is similar, as are the use cases and examples. For more information, see [Use dynamic and static inclusion rules](/help/main/c-recommendations/c-algorithms/use-dynamic-and-static-inclusion-rules.md).
+
+Other examples include:
 
 * Mbox parameters for screen width and height can be used to target mobile visitors and recommend only mobile devices and accessories.
-* Create a recommendations rule that returns only the top-selling mobile phones that match or exceed the screen height of the mobile device the visitor is using the view the page.
-* Regional geo-location parameters can be used to return recommendations for tools during the winter. Snow blowers and other snow abatement tools can be recommended for visitors in areas where it snows but not recommended for visitors in areas where it does not snow.
+* A recommendations rule can return only the top-selling mobile phones that match or exceed the screen height of the mobile device that the visitor uses to view the page.
+* Regional geo-location parameters can be used to return recommendations for tools during the winter. Snow blowers and other snow abatement tools can be recommended for visitors in areas where it snows but not for visitors in areas where it does not snow.
 
->[!NOTE]
->
->If the activity was created before October 31, 2016, its delivery fails if it uses the "Parameter Matching" filter. To work around this problem:
->
->* Create a new activity and add your criteria in it.
->* Use a criteria that does not contain the "Parameter Matching" filter.
->* Remove the "Parameter Matching" filter from your criteria.
+## Parameter matching examples
 
-## Parameter Matching examples
+[!DNL Recommendations] can match parameter values sent in the [!DNL Target] call. In the following example, [!DNL Target] detects that a visitor is using a mobile device, based on the screen height and width parameters sent in the [!DNL Target] call, and recommends only items that are mobile devices.
 
-[!UICONTROL Parameter Matching] lets you recommend content that matches the page parameters or the visitor's parameters, such as device dimensions or geo-location, as in the the following example:
-
-[!DNL Recommendations] can match parameter values sent in the [!DNL Target] call. In this instance, [!DNL Target] detects that a visitor is using a mobile device, based on the screen height and width parameters sent in the [!DNL Target] call, and recommends only items that are mobile devices.
-
-Consider the following example Target call:
+Consider the following example [!DNL Target] call:
 
 ![Target call](/help/main/c-recommendations/c-algorithms/assets/example-target-call-2.png)
 
-On the page a visitor is viewing, he or she will see mobile device products.
+On the page that a visitor is viewing, mobile device products are displayed.
 
 ![Mobile device products](/help/main/c-recommendations/c-algorithms/assets/phones.png)
