@@ -28,12 +28,12 @@ topic_v2:
 
 >[!ENDSHADEBOX]
 
-An exclusion is a subset of products or content that should not be recommended to visitors. Exclusions are available across the entire account. Unlike collections, where a specific collection is selected for each experience as a [!DNL Recommendations] activity is created, exclusions apply to all activities across the account. There is no option to assign an exclusion group during activity creation.
+An exclusion is a subset of products or content that should not be recommended to visitors. Exclusions are available across the entire account. Unlike collections, which are selected for each experience when a [!DNL Recommendations] activity is created, exclusions apply to all activities across the account, and no exclusion group can be assigned during activity creation.
 
 Exclusions are typically used for:
 
 * Products that have been discontinued.
-* Items from a catalog that is no longer available. For example, when the Fall and Winter catalog is the only catalog that should be present online, any item from the Summer catalog is no longer available for purchase.
+* Items from a catalog that is no longer available. For example, when only the Fall and Winter catalog should be present online, any item from the Summer catalog cannot be purchased.
 * Items that might be inappropriate to recommend on most pages or screens (adult products, NC-17 movies, and so forth).
 * Products with incomplete metadata fields (missing thumbnail, price, or other important metadata).
 * Products that should never be recommended, such as a SKU that exists in the system but is not a purchasable item, or a fake SKU that the QA team uses to simulate a purchase without ordering anything.
@@ -42,7 +42,7 @@ Exclusions are typically used for:
 >
 >Exclusion rules are applied globally to all [environments](/help/main/administrating-target/environments.md).
 >
->For detailed information, examples, and use-case scenarios about static and dynamic exclusion rules, see [Use Dynamic and Static Inclusion Rules](/help/main/c-recommendations/c-algorithms/use-dynamic-and-static-inclusion-rules.md#concept_4CB5C0FA705D4E449BD0B37B3D987F9F).
+>For detailed information, examples, and use-case scenarios about static and dynamic exclusion rules, see [Use Dynamic and Static Inclusion Rules](/help/main/c-recommendations/c-algorithms/use-dynamic-and-static-inclusion-rules.md#inclusion-rules).
 
 ## Create an exclusion
 
@@ -57,11 +57,11 @@ Exclusion rules are defined once and then apply to every [!DNL Recommendations] 
 
 1. Click the **[!UICONTROL Show Filters]** icon ( ![Show Filters icon](/help/main/assets/icons/Filter.svg) ), then choose the desired [environment](/help/main/administrating-target/environments.md) from the **[!UICONTROL Environment]** drop-down list to preview the contents of the exclusion in that environment. By default, results from the default host group are displayed.
 
-    ![More Actions icon](../assets/exclusions_2.png)
+    ![Exclusions page with the filters panel open and the Environment list](../assets/exclusions_2.png)
 
 1. Click **[!UICONTROL Create Exclusion]**.
 
-    ![More Actions icon](../assets/exclusions_1.png)
+    ![Exclusions page with the Create exclusion button](../assets/exclusions_1.png)
 
 1. Type an exclusion **[!UICONTROL Name]**. An optional description can also be entered.
 
@@ -73,7 +73,7 @@ Exclusion rules are defined once and then apply to every [!DNL Recommendations] 
 
 1. Click the More Actions icon ( ![More Actions icon](/help/main/assets/icons/MoreSmallList.svg) ) next to the desired exclusion in the list, then click the appropriate option: **[!UICONTROL Edit]**, **[!UICONTROL Copy]**, or **[!UICONTROL Delete]**.
 
-    ![More Actions icon](../assets/exclusions_3.png)
+    ![Exclusions list with the More Actions menu open, showing Edit, Copy, and Delete](../assets/exclusions_3.png)
 
 <!--
 ## Create an exclusion using Advanced Search

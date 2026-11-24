@@ -33,12 +33,12 @@ Collections organize products into logical buckets. For example, if some items a
 
 The following points describe how collections interact with the rest of [!DNL Recommendations]:
 
-* [Backup recommendations](/help/main/c-recommendations/c-algorithms/backup-recs.md) generated for each criteria within the recommendation also use the collection, so only items in the collection are included in the backup recommendation. As a result, only products that make sense to show in a location are displayed.
+* [Backup recommendations](/help/main/c-recommendations/c-algorithms/backup-recs.md) generated for each criteria also use the collection, so only items in the collection are included in the backup recommendation. As a result, only products that make sense for a location are displayed.
 * Collections are rebuilt or updated every time each criteria runs.
 * Collection rules apply to recommendation items generated after the criteria run. They affect only Entity Recommendations (ERs) in the output, not the key.
 * Collections are not applied when using the **[!UICONTROL Recently Viewed Items]** recommendation key.
-* Inclusion criteria allow similar results, but they must be set up every time an activity is created. A collection is created one time, then used whenever it is appropriate without being set up again.
-* When you create or edit a [!DNL Recommendations] activity, the collection name appears next to the **[!UICONTROL Criteria]** label on the activity diagram.
+* Inclusion criteria can produce similar results, but they must be set up every time an activity is created. A collection is created once and can then be reused without being set up again.
+* When a [!DNL Recommendations] activity is created or edited, the collection name appears next to the **[!UICONTROL Criteria]** label on the activity diagram.
 
 ## Create a collection {#task_1256DFF6842141FCAADD9E1428EF7F08}
 
@@ -46,7 +46,7 @@ Collections are available across the entire account, so a collection that is cre
 
 1. Click **[!UICONTROL Recommendations]** > **[!UICONTROL Collections]** to display the list of existing collections.
 
-   The **[!UICONTROL Collections]** page displays a list of your existing collections. To create a collection, click **[!UICONTROL Create Collection]**. To edit, copy, or delete an existing collection, click the More Actions icon ( ![More Actions icon](/help/main/assets/icons/MoreSmallList.svg) ) next to the collection and then click the desired option.
+   To edit, copy, or delete an existing collection, click the More Actions icon ( ![More Actions icon](/help/main/assets/icons/MoreSmallList.svg) ) next to the collection, then click the desired option.
 
    >[!NOTE]
    >
@@ -54,7 +54,7 @@ Collections are available across the entire account, so a collection that is cre
 
 1. Click **[!UICONTROL Create Collection]**.
 
-    ![More Actions icon](../assets/collection_1.png)
+    ![Collections page with the Create collection button](../assets/collection_1.png)
 
 1. Type a **[!UICONTROL Name]** for the collection. An optional **[!UICONTROL Description]** can also be entered.
 
@@ -66,9 +66,9 @@ Collections are available across the entire account, so a collection that is cre
 
 1. Click **[!UICONTROL Create]**.
 
-1. After creating your collection, click the More Actions icon ( ![More Actions icon](/help/main/assets/icons/MoreSmallList.svg) ) and select the appropriate option: **[!UICONTROL Edit]**, **[!UICONTROL Copy]**, or **[!UICONTROL Delete]**.
+1. After the collection is created, click the More Actions icon ( ![More Actions icon](/help/main/assets/icons/MoreSmallList.svg) ) and select the appropriate option: **[!UICONTROL Edit]**, **[!UICONTROL Copy]**, or **[!UICONTROL Delete]**.
 
-    ![More Actions icon](../assets/collection_2.png)
+    ![Collections list with the More Actions menu open, showing Edit, Copy, and Delete](../assets/collection_2.png)
 
 <!--
 ## Create a collection using [!UICONTROL Advanced Search]
@@ -90,12 +90,12 @@ A collection is selected for each experience of a [!DNL Recommendations] activit
 
 1. [Create a collection](#task_1256DFF6842141FCAADD9E1428EF7F08).
 
-    ![More Actions icon](../assets/collection_3.png)
+    ![Create collection screen with the Collection details and Rules sections](../assets/collection_3.png)
 
 1. Click **[!UICONTROL Activities]** and [create a new Recommendations activity](/help/main/c-recommendations/t-create-recs-activity/create-recs-activity.md) or edit an existing activity.
 
-    ![More Actions icon](../assets/collection_4.png)
+    ![All Activities page with Recommendations selected in the Create Activity menu](../assets/collection_4.png)
 
-1. After you select a criteria and design, select the desired collection on the **[!UICONTROL Options]** page.
+1. After selecting a criteria and design, select the desired collection on the **[!UICONTROL Options]** page.
 
-1. (Conditional) To change the collection of an existing activity, click a location where you placed recommendations on the **[!UICONTROL Experiences]** pages, click **[!UICONTROL Change Collection]**, then select the desired collection.
+1. (Conditional) To change the collection of an existing activity, click a recommendations location on the **[!UICONTROL Experiences]** pages, click **[!UICONTROL Change Collection]**, then select the desired collection.

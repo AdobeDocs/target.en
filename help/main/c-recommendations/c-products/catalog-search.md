@@ -29,29 +29,29 @@ topic_v2:
 
 >[!ENDSHADEBOX]
 
-The [!UICONTROL Catalog Search] page in [!DNL Adobe Recommendations] helps you locate the products or content in your catalog. The most basic task you can perform on this page is to search for an item. In addition, you can change the environment, filter facets, modify columns in the table, add new search facets, and more.
+The **[!UICONTROL Catalog Search]** page in [!DNL Adobe Recommendations] is used to locate the products or content in the catalog. The most basic task on this page is to search for an item. The page also allows changing the environment, filtering facets, modifying the columns in the table, and more.
 
-Catalogs refer to your entire product set (entities). Your catalog can contain many collections, a way to organize your products in logical buckets.
+The catalog is the entire product set (entities). It can contain many collections, which organize the products in logical groups.
 
-The index of your catalog is automatically created when you upload your first feed, and refreshed according to the [specified schedule](/help/main/c-recommendations/c-products/feeds.md#steps).
+The index of the catalog is created automatically when the first feed is uploaded, and refreshed according to the [specified schedule](/help/main/c-recommendations/c-products/feeds.md#steps).
 
-The catalog is automatically refreshed when updates are received via feed files, API, or mbox updates. Updates are usually completed within an hour. If updates are in progress, the time that the most recent update started displays. If no updates are in progress, the time that the most recent update started and finished displays.
+The catalog is automatically refreshed when updates are received through feed files, the API, or mbox updates. Updates are usually completed within an hour. If updates are in progress, the time that the most recent update started displays. If no updates are in progress, the time that the most recent update started and finished displays.
 
 ## Search the catalog
 
-Use the search results to review the items in your catalog and, if needed, remove items from it.
+Use the search results to review the items in the catalog and, if needed, remove items from it.
 
 1. Click **[!UICONTROL Recommendations]** > **[!UICONTROL Catalog Search]**.
 
-1. (Optional) To filter the results, click the **[!UICONTROL Show Filters]** icon ( ![Show Filters icon](/help/main/assets/icons/Filter.svg) ), then select the filters that you want to apply. You can filter by **[!UICONTROL Environment]**, **[!UICONTROL Collections]**, **[!UICONTROL Category]**, **[!UICONTROL Brand]**, **[!UICONTROL Inventory]**, and **[!UICONTROL Value]**.
+1. (Optional) To filter the results, click the **[!UICONTROL Show Filters]** icon ( ![Show Filters icon](/help/main/assets/icons/Filter.svg) ), then select the filters to apply. The available filters are **[!UICONTROL Environment]**, **[!UICONTROL Collections]**, **[!UICONTROL Category]**, **[!UICONTROL Brand]**, **[!UICONTROL Inventory]**, and **[!UICONTROL Value]**.
 
-   [Environments](/help/main/administrating-target/environments.md) let you organize your sites and pre-production environments for management and separated reporting. To change the environment, select the desired environment from the **[!UICONTROL Environment]** drop-down list.
+   [Environments](/help/main/administrating-target/environments.md) organize sites and pre-production environments for management and separated reporting. To change the environment, select the desired environment from the **[!UICONTROL Environment]** drop-down list.
 
-   ![Filters menu](../assets/catalog_search.png)
+   ![Catalog Search page with the filters panel highlighted: Collections, Category, Brand, Inventory, Value, and Advanced Search](../assets/catalog_search.png)
 
 1. Type a search term in the **[!UICONTROL Search In]** field.
 
-1. (Optional) You can refine your search by selecting a search option from the options menu that displays when you click the down arrow in the **[!UICONTROL Search In]** field.
+1. (Optional) Refine the search by selecting a search option from the options menu, which opens from the down arrow in the **[!UICONTROL Search In]** field.
 
    Search options include the following:
 
@@ -59,27 +59,27 @@ Use the search results to review the items in your catalog and, if needed, remov
    * Name
    * Message
 
-1. Click the **[!UICONTROL Customize Table]** icon (  ![Customize Table icon](/help/main/assets/icons/ColumnSetting.svg) ) to modify the active columns on the [!UICONTROL Catalog Search] page.
+1. Click the **[!UICONTROL Customize Table]** icon ( ![Customize Table icon](/help/main/assets/icons/ColumnSetting.svg) ) to modify the active columns on the **[!UICONTROL Catalog Search]** page.
 
-   ![Details menu](../assets/catalog_search_4.png)
+   ![Catalog Search page with the Customize table icon highlighted](../assets/catalog_search_4.png)
 
 1. Scroll through the items in the search results to view thumbnails and other product information.
 
    >[!NOTE]
    >
-   > When you perform a catalog search on a custom attribute with a numeric value, the results treat the custom attribute to be a string type instead of a numeric value.
+   >In a catalog search on a custom attribute with a numeric value, the results treat the custom attribute as a string type instead of a numeric value.
    >
-   >There is no functionality currently available that lets you change the type of an attribute. To make a change, [open a customer issue](/help/main/cmp-resources-and-contact-information.md#reference_ACA3391A00EF467B87930A450050077C) referencing the attributes that need the type changed from string to numeric.
+   >The type of an attribute cannot currently be changed. To request a change, [open a customer issue](/help/main/cmp-resources-and-contact-information.md#reference_ACA3391A00EF467B87930A450050077C) referencing the attributes whose type must change from string to numeric.
 
 1. Click an item in the search results to view its details, including its ID, name, message, category, and more.
 
-   ![Details menu](../assets/catalog_search_2.png)
+   ![Details of a catalog item showing its ID, categories, margin, and other attributes](../assets/catalog_search_2.png)
 
 1. To remove the item from the catalog, click **[!UICONTROL Remove from Catalog]**.
 
-   All information about that item is then removed from the catalog index. The item will be included in your catalog only if it is added again in a data feed. A deleted item must be separately deleted from feeds.
+   All information about that item is then removed from the catalog index. The item is included in the catalog again only if it is added again in a data feed. A deleted item must also be deleted separately from the feeds.
 
-   ![Details menu](../assets/catalog_search_3.png)
+   ![Details of a catalog item with the Remove from catalog button highlighted](../assets/catalog_search_3.png)
 
 <!--
 ### Perform an advanced search {#advanced-search}
