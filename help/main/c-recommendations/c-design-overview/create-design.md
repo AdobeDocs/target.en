@@ -126,6 +126,8 @@ The following example shows how JSON responses can be returned when an activity 
     1. Complete the setup process.
     1. Click the right arrow next to **[!UICONTROL Inactive]**, then select **[!UICONTROL Activate]**.
 
+    +++
+
 1. After the activity is set up and activated, a sample request can be set up to get back the clean JSON response.
 
    From the time that the activity is saved, [!DNL Target] needs to build a model to support the selected criteria configuration. Depending on a number of factors, this process might take some time. Results appear once the model has been built.

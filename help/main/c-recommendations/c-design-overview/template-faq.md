@@ -27,54 +27,54 @@ topic_v2:
 
 >[!ENDSHADEBOX]
 
-* +++ How can the price of a recommended item display both digits to the right of the decimal point?
++++ How can the price of a recommended item display both digits to the right of the decimal point?
 
-  By default, numeric values (such as `entity.value`) returned in designs do not display any trailing zeroes after the decimal point. For example, if an item costs $35.00, `entity.value` is equal to 35 and only 35 is displayed on the page, not $35.00.
+By default, numeric values (such as `entity.value`) returned in designs do not display any trailing zeroes after the decimal point. For example, if an item costs $35.00, `entity.value` is equal to 35 and only 35 is displayed on the page, not $35.00.
 
-  Two options are available to address this issue:
+Two options are available to address this issue:
 
-  * Velocity scripting or JavaScript can apply formatting to the returned value.
+* Velocity scripting or JavaScript can apply formatting to the returned value.
 
-  * The price of the item can be passed into two separate entity attributes. The first, `entity.value`, can be used for numeric comparisons (such as price comparison rules). The second should be a custom attribute, such as `entity.displayValue`, that stores the value of the entity as a string to allow for proper rendering.
+* The price of the item can be passed into two separate entity attributes. The first, `entity.value`, can be used for numeric comparisons (such as price comparison rules). The second should be a custom attribute, such as `entity.displayValue`, that stores the value of the entity as a string to allow for proper rendering.
 
   For example,
 
   `"entity.value" : 35.00, "entity.displayValue" : "$35.00"`
 
-  +++
++++
 
-* +++ Why is the category not displayed in the design when $entity1.categoryId is used?
++++ Why is the category not displayed in the design when $entity1.categoryId is used?
 
-  The category ID cannot be displayed in a design. Multiple categories can be stored, so the system does not know which category to display.
+The category ID cannot be displayed in a design. Multiple categories can be stored, so the system does not know which category to display.
 
-  +++
++++
 
-* +++ How can a design be changed to get an instant update?
++++ How can a design be changed to get an instant update?
 
-  Altering the design that is currently in use takes a while to update. To change the design instantly, create a new design, select it in the activity, and save the recommendation.
+Altering the design that is currently in use takes a while to update. To change the design instantly, create a new design, select it in the activity, and save the recommendation.
 
-  +++
++++
 
-* +++ How can key information, such as the category of the key product, be displayed in a design?
++++ How can key information, such as the category of the key product, be displayed in a design?
 
-  The `$key` parameters capture most of the information of the key product for display within the design. For example, to display the thumbnail of the key product, use `$key.thumbnailURL`.
+The `$key` parameters capture most of the information of the key product for display within the design. For example, to display the thumbnail of the key product, use `$key.thumbnailURL`.
 
-  +++
++++
 
-* +++ Which version of Velocity is used?
++++ Which version of Velocity is used?
 
-  Version 1.7, with no additional tools or libraries added. Basic Velocity functionality is available.
+Version 1.7, with no additional tools or libraries added. Basic Velocity functionality is available.
 
-  +++
++++
 
-* +++ How can an existing entity value be replaced with a blank, for example when the entity.message of an item must be cleared at the end of a promotion?
++++ How can an existing entity value be replaced with a blank, for example when the entity.message of an item must be cleared at the end of a promotion?
 
-  Sending a JavaScript non-breaking space appears to do this. The developers send `\u00A0` as the value, for example `entity.message=\u00A0`. Using that value as the default when no value is present, instead of a null, can also be considered.
+Sending a JavaScript non-breaking space appears to do this. The developers send `\u00A0` as the value, for example `entity.message=\u00A0`. Using that value as the default when no value is present, instead of a null, can also be considered.
 
-  +++
++++
 
-* +++ Can a profile script be used in a [!DNL Recommendations] design?
++++ Can a profile script be used in a [!DNL Recommendations] design?
 
-  Yes. To use a profile script in a [!DNL Recommendations] design, wrap the name in `\${...}`. For example, if the profile script is named `user.basket`, refer to it as `\${user.basket}` in the design. The backslash implies that the profile script is not rendered by Velocity, so no operations can be performed on the profile script in a Velocity template. The value is printed directly on the page.
+Yes. To use a profile script in a [!DNL Recommendations] design, wrap the name in `\${...}`. For example, if the profile script is named `user.basket`, refer to it as `\${user.basket}` in the design. The backslash implies that the profile script is not rendered by Velocity, so no operations can be performed on the profile script in a Velocity template. The value is printed directly on the page.
 
-  +++
++++
