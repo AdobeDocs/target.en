@@ -32,7 +32,7 @@ The following sections contain more information:
 
 ### Add filtering rules to criteria
 
-1. While [creating criteria](/help/main/c-recommendations/c-algorithms/create-new-algorithm.md#task_8A9CB465F28D44899F69F38AD27352FE) (**[!UICONTROL Recommendations] > [!UICONTROL Criteria] > [!UICONTROL Create Criteria] > [!UICONTROL Create Criteria]**), click **[!UICONTROL Add Filtering Rule]** under **[!UICONTROL Inclusion Rules]**.
+1. While [creating criteria](/help/main/c-recommendations/c-algorithms/create-new-algorithm.md#create-criteria) (**[!UICONTROL Recommendations] > [!UICONTROL Criteria] > [!UICONTROL Create Criteria] > [!UICONTROL Create Criteria]**), click **[!UICONTROL Add Filtering Rule]** under **[!UICONTROL Inclusion Rules]**.
 
    ![Add Filtering Rule](/help/main/c-recommendations/c-algorithms/assets/add-fitering-rule.png)
 
