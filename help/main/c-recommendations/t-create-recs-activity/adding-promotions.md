@@ -25,7 +25,7 @@ Add promoted items and control their placement in your [!DNL Adobe Target Recomm
 
 >[!IMPORTANT]
 >
->Static and dynamic exclusion rules are powerful features that can help you with your marketing efforts. For detailed information, examples, and use-case scenarios, see [Use dynamic and static inclusion rules](/help/main/c-recommendations/c-algorithms/use-dynamic-and-static-inclusion-rules.md#concept_4CB5C0FA705D4E449BD0B37B3D987F9F).
+>Static and dynamic exclusion rules are powerful features that can help you with your marketing efforts. For detailed information, examples, and use-case scenarios, see [Use dynamic and static inclusion rules](/help/main/c-recommendations/c-algorithms/use-dynamic-and-static-inclusion-rules.md#inclusion-rules).
 
 When you create a [!DNL Recommendations] activity, you have the option to include promoted items in your [!DNL Recommendations] design. Promotions use available slots in a design and take precedence over criteria results and backup recommendations. For example, if your design has six slots and you use two of them for promotions, four slots are available for items recommended based on criteria.
 
@@ -61,7 +61,7 @@ You can promote specific items, dynamically promote items, promote items based o
 
    * Select **[!UICONTROL Promote by attribute]** and add rules to define the attributes of the items you want to promote.
 
-     If you select [!UICONTROL Promote by Attribute], you can create dynamic matches. For more information, see [Use dynamic and static inclusion rules](/help/main/c-recommendations/c-algorithms/use-dynamic-and-static-inclusion-rules.md#concept_4CB5C0FA705D4E449BD0B37B3D987F9F).
+     If you select [!UICONTROL Promote by Attribute], you can create dynamic matches. For more information, see [Use dynamic and static inclusion rules](/help/main/c-recommendations/c-algorithms/use-dynamic-and-static-inclusion-rules.md#inclusion-rules).
 
    * Select **[!UICONTROL Promote a collection]** and choose the collection of items you want to promote. 
 

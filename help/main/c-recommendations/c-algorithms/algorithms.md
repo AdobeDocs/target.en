@@ -56,10 +56,10 @@ The algorithm type that is selected determines the available algorithms. The fol
 |Algorithm type|When to use|Available algorithms|
 | --- | --- | --- |
 |**[!UICONTROL Cart-Based]**|Make recommendations based on the user's cart contents.|<ul><li>**[!UICONTROL People Who Viewed These, Also Viewed]**</li><li>**[!UICONTROL People Who Viewed These, Also Bought]**</li><li>**[!UICONTROL People Who Bought These, Also Bought]**</li></ul>For more information, see [Cart-Based](/help/main/c-recommendations/c-algorithms/base-the-recommendation-on-a-recommendation-key.md#cart-based) in *Base the recommendation on a recommendation key*.|
-|**[!UICONTROL Popularity-Based]**|Make recommendations based on the overall popularity of an item across your site or based on the popularity of items within a user's favorite or most-viewed category, brand, genre, and so forth.|<ul><li>**[!UICONTROL Most Viewed Across the Site]**</li><li>**[!UICONTROL Most Viewed by Category]**</li><li>**[!UICONTROL Most Viewed by Item Attribute]**</li><li>**[!UICONTROL Most Viewed by Profile Attribute]**</li><li>**[!UICONTROL Top Sellers Across the Site]**</li><li>**[!UICONTROL Top Sellers by Category]**</li><li>**[!UICONTROL Top Sellers by Item Attribute]**</li><li>**[!UICONTROL Top Sellers by Profile Attribute]**</li><li>**[!UICONTROL Top by Analytics Metric]**</li></ul>|
-|**[!UICONTROL Item-Based]**|Make recommendations based on finding similar items to an item that the user is currently viewing or has recently viewed.|<ul><li>**[!UICONTROL People Who Viewed This, Viewed That]**</li><li>**[!UICONTROL People Who Viewed This, Bought That]**</li><li>**[!UICONTROL People Who Bought This, Bought That]**</li><li>**[!UICONTROL Items with Similar Attributes]**</li></ul>|
+|**[!UICONTROL Popularity-Based]**|Make recommendations based on the overall popularity of an item across the site, or on the popularity of items within the favorite or most-viewed category, brand, genre, and so forth of the user.|<ul><li>**[!UICONTROL Most Viewed Across the Site]**</li><li>**[!UICONTROL Most Viewed by Category]**</li><li>**[!UICONTROL Most Viewed by Item Attribute]**</li><li>**[!UICONTROL Most Viewed by Profile Attribute]**</li><li>**[!UICONTROL Top Sellers Across the Site]**</li><li>**[!UICONTROL Top Sellers by Category]**</li><li>**[!UICONTROL Top Sellers by Item Attribute]**</li><li>**[!UICONTROL Top Sellers by Profile Attribute]**</li><li>**[!UICONTROL Top by Analytics Metric]**</li></ul>|
+|**[!UICONTROL Item-Based]**|Make recommendations based on items that are similar to an item that the user is currently viewing or has recently viewed.|<ul><li>**[!UICONTROL People Who Viewed This, Viewed That]**</li><li>**[!UICONTROL People Who Viewed This, Bought That]**</li><li>**[!UICONTROL People Who Bought This, Bought That]**</li><li>**[!UICONTROL Items with Similar Attributes]**</li></ul>|
 |**[!UICONTROL User-Based]**|Make recommendations based on the user's behavior.|<ul><li>**[!UICONTROL Recently Viewed Items]**</li><li>**[!UICONTROL Recommended for You]**</li></ul>|
-|**[!UICONTROL Custom Criteria]**|Make recommendations based on a custom file that you upload.|<ul><li>Custom Algorithm</li></ul>|
+|**[!UICONTROL Custom Criteria]**|Make recommendations based on an uploaded custom file.|<ul><li>Custom Algorithm</li></ul>|
 
 For more information about each algorithm, see [Base the recommendation on a recommendation key](/help/main/c-recommendations/c-algorithms/base-the-recommendation-on-a-recommendation-key.md).
 
@@ -71,7 +71,7 @@ Recommendations can also be based on the value of a custom profile attribute. Fo
 
 1. Click **[!UICONTROL Create Criteria]** > **[!UICONTROL Create Criteria]**.
 
-    ![More Actions icon](../assets/criteria_1.png)
+    ![Criteria page with the Create criteria menu open, showing Create Criteria and Create Criteria Sequence](../assets/criteria_1.png)
 
 1. Fill in the information in the [Basic Information section](/help/main/c-recommendations/c-algorithms/create-new-algorithm.md#info).
 
@@ -79,13 +79,13 @@ Recommendations can also be based on the value of a custom profile attribute. Fo
 
 1. Select **[!UICONTROL People Who Viewed This, Viewed That]** from the **[!UICONTROL Algorithm]** list.
 
-1. Select your custom profile attribute from the **[!UICONTROL Recommendation Key]** list (for example, **[!UICONTROL Last Show Added to Watchlist]**).
+1. Select the custom profile attribute from the **[!UICONTROL Recommendation Key]** list (for example, **[!UICONTROL Last Show Added to Watchlist]**).
 
    >[!NOTE]
    >
    >Custom profile parameters can be passed to [!DNL Target] through JavaScript, API, or integrations. For more information about custom profile attributes, see [Visitor profiles](/help/main/c-target/c-visitor-profile/visitor-profile.md).
 
-    ![More Actions icon](../assets/criteria_2.png)
+    ![Create Criteria dialog box showing the Recommendations Algorithm section with the Algorithm Type, Algorithm, and Recommendation Key lists](../assets/criteria_2.png)
 
 ## View criteria information {#section_7162DE58E4594FD688A4D7FDB829FD8B}
 
@@ -103,4 +103,4 @@ The criteria details show how a criteria is configured and which activities use 
    >
    >The **[!UICONTROL Algorithm Usage]** feature is currently supported for [!DNL Recommendations] activities only. This feature is not currently supported for **[!UICONTROL A/B Test]**, **[!UICONTROL Auto-Allocate]**, **[!UICONTROL Auto-Target]**, and **[!UICONTROL Experience Targeting]** (XT) activities that include [recommendations as an offer](/help/main/c-recommendations/recommendations-as-an-offer.md).
 
-    ![More Actions icon](../assets/criteria_3.png)
+    ![Criteria details with the Attributes and Details sections and the Usage section highlighted](../assets/criteria_3.png)

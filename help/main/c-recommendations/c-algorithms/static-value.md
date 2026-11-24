@@ -1,7 +1,7 @@
 ---
 keywords: inclusion rules;inclusion criteria;recommendations;promotion;promotions;dynamic filtering;static;static filter
 description: Learn how to manually enter one or more static values to filter using inclusion rules in Adobe [!DNL Target] Recommendations.
-title: How Do I Filter By Static Values In Recommendations Activities?
+title: Static filter
 badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="See what's included in Target Premium."
 feature: Recommendations
 exl-id: 217e19bf-521f-4913-9b41-099c9af8b393
@@ -19,18 +19,16 @@ topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
     internal-label: Customer experience
 ---
-# [!UICONTROL Static Filter]
+# Static filter {#static-filter}
 
-Manually enter one or more static values to filter using inclusion rules in [!DNL Adobe Target Recommendations].
+>[!BEGINSHADEBOX]
 
-For example, only recommend content with a Motion Picture Association (MPA) rating of "G" or "PG."
+**On this page:** Learn how to filter recommendations by manually entering one or more static values in inclusion rules in [!DNL Adobe Target Recommendations].
 
-You can create as many inclusion rules as necessary. The inclusion rules are joined with an AND operator. All rules must be met to include an item in a recommendation.
+>[!ENDSHADEBOX]
 
->[!NOTE]
->
->If you are familiar with how inclusion rules were configured prior to the Target 17.6.1 release (June 2017), you will notice that some of the options and operators have changed. Only those operators applicable to the selected option display and some operators were renamed ("matches" is now "equals") to be more consistent and intuitive. All existing exclusion rules created prior to this release were automatically migrated into the new structure. No restructuring is necessary on your part.
+**[!UICONTROL Static Filter]** limits the items in a recommendation to the items that match static values that are entered manually. Any number of inclusion rules can be created. The inclusion rules are joined with an AND operator, so all rules must be met for an item to be included in a recommendation. For general information about inclusion rules, see [Use dynamic and static inclusion rules](/help/main/c-recommendations/c-algorithms/use-dynamic-and-static-inclusion-rules.md).
 
 ## Recommend content rated G or PG
 
-To create an inclusion rule with static values to recommend content with an MPA rating of "G" or "PG" only (exclude "R" and "NC17" content), you could create the following filtering rules "movie-rating equals any of g-rated" and "movie-rating equals any of pg-rated".
+To recommend only content with a Motion Picture Association (MPA) rating of "G" or "PG" (exclude "R" and "NC17" content), create one filtering rule with the operator "movie-rating equals any of" and enter the values "g-rated" and "pg-rated".

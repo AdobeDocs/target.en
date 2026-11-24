@@ -1,7 +1,7 @@
 ---
 keywords: creating custom criteria;algorithms;criteria;recommendations criteria;csv;ftp;sftp;upload csv
-description: Learn how to upload a CSV file to customize your recommendations in Adobe [!DNL Target] Recommendations.
-title: How Do I Upload Custom Criteria in [!DNL Recommendations]?
+description: Learn how to upload a CSV file to customize recommendations in Adobe [!DNL Target] Recommendations.
+title: Upload custom criteria
 badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="See what's included in Target Premium."
 feature: Recommendations
 exl-id: 33434121-e0ae-4b82-b1dd-78b9738026cb
@@ -19,49 +19,47 @@ topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
     internal-label: Customer experience
 ---
-# Upload custom criteria
+# Upload custom criteria {#upload-custom-criteria}
 
-Upload a CSV file to customize your recommendations in [!DNL Adobe Target].
+>[!BEGINSHADEBOX]
 
-There are multiple ways to reach the [!UICONTROL Create New Criteria] screen. Some screen options vary depending on how you reach the screen.
+**On this page:** Learn how to upload a CSV file of recommendations to create custom criteria in [!DNL Adobe Target Recommendations].
 
-* On the **[!UICONTROL Recommendations]** > **[!UICONTROL Criteria]** library screen, click **[!UICONTROL Create Criteria]** > **[!UICONTROL Create Criteria]**. Criteria you create here are automatically made available for all [!DNL Recommendations] activities.
-* When you are creating a [!DNL Recommendations] activity using the [!UICONTROL Visual Experience Composer] (VEC), you are immediately taken to the [!UICONTROL Select Criteria] screen after you select an element on your page and click [!UICONTROL Replace w/ Recommendations], [!UICONTROL Insert Recommendations Before], or [!UICONTROL Insert Recommendations After]. You can then select an available criteria or you can click **[!UICONTROL Create Criteria]**. If you create a new criteria, you can save your criteria for use with other [!DNL Recommendations] activities. For more information, see [Create a Recommendations activity](/help/main/c-recommendations/t-create-recs-activity/create-recs-activity.md).
-* When you are editing a [!DNL Recommendations] activity, click in a [!UICONTROL Recommendations Location] box on your page, and select **[!UICONTROL Change Criteria]**. On the [!UICONTROL Select Criteria] screen, click **[!UICONTROL Create Criteria]**. You can save your new criteria for use with other [!DNL Recommendations] activities.
+>[!ENDSHADEBOX]
 
-The following steps assume you access the [!UICONTROL Create New Criteria] screen by using the first method: the **[!UICONTROL Recommendations]** > **[!UICONTROL Criteria]** library screen.
+Custom criteria use a CSV file of recommendations that is uploaded to [!DNL Target]. This allows recommendations that are computed outside [!DNL Target] to be delivered in [!DNL Recommendations] activities. For more information about how custom criteria work, see [The science behind Target's recommendations algorithms](/help/main/c-recommendations/c-algorithms/recommendations-algorithms.md).
+
+Custom criteria are created from the **[!UICONTROL Create New Criteria]** screen. For the ways to reach this screen, see [Access the Create New Criteria screen](/help/main/c-recommendations/c-algorithms/create-new-algorithm.md#access-create-criteria). The following steps start from the **[!UICONTROL Recommendations]** > **[!UICONTROL Criteria]** library screen.
 
 1. Click **[!UICONTROL Recommendations]** > **[!UICONTROL Criteria]**.
 
 1. Click **[!UICONTROL Create Criteria]** > **[!UICONTROL Create Criteria]**.
 
+    ![Criteria page with the Create criteria menu open, showing Create Criteria and Create Criteria Sequence](../assets/criteria_create_1.png)
+
 1. Fill in the information in the [Basic Information](/help/main/c-recommendations/c-algorithms/create-new-algorithm.md#info) section.
 
-1. From the **[!UICONTROL Select Algorithm Type]** drop-down list, select **[!UICONTROL Custom Criteria]**.
+1. From the **[!UICONTROL Select Algorithm Type]** drop-down list, select **[!UICONTROL Custom Criteria]**. From the **[!UICONTROL Algorithm]** drop-down list, select **[!UICONTROL Custom Algorithm]**.
 
-1. From the **[!UICONTROL Algorithm]** drop-down list, select **[!UICONTROL Custom Algorithm]**.
+    ![Recommendations Algorithm section with Custom Criteria as the Algorithm Type and Custom Algorithm as the Algorithm](../assets/criteria_create_9.png)
 
-   >[!NOTE]
-   >
-   >The preceding steps cause the [!UICONTROL Upload CSV] section to display at the bottom of the [!UICONTROL Create Criteria] dialog box.
+1. (Conditional) Fill in the information in the [Backup Content](/help/main/c-recommendations/c-algorithms/create-new-algorithm.md#content) and [Inclusion Rules](/help/main/c-recommendations/c-algorithms/create-new-algorithm.md#inclusion) sections.
 
-1. (Conditional) Fill in the information in the [Backup Content](/help/main/c-recommendations/c-algorithms/create-new-algorithm.md#content) section.
+1. In the **[!UICONTROL Upload CSV]** section, select the **[!UICONTROL Location]** of the CSV file.
 
-1. (Conditional) Fill in the information in the [Inclusion Rules](/help/main/c-recommendations/c-algorithms/create-new-algorithm.md#inclusion) section.
+   The CSV file must be formatted correctly to upload successfully. To get a correctly formatted CSV file, click **[!UICONTROL Download the CSV template]**.
 
-1. In the **[!UICONTROL Upload CSV]** section, select the **[!UICONTROL Location]** of your CSV file.
+   The following location options are available:
 
-   The CSV file must be formatted correctly to upload successfully. Click **[!UICONTROL Download the CSV template]** to get a correctly formatted CSV file.
+   * **FTP**: To upload the CSV file from an FTP server, select **[!UICONTROL FTP]**, then enter the required information. SSL can be used, which uses the FTPS protocol to transfer the CSV file securely.
 
-    You have three location options:
+   * **SFTP**: To upload the CSV file from an SFTP server, select **[!UICONTROL SFTP]**, then enter the host name or IP address, port (default 22), username, a password and/or SSH private key, directory, and filename. For details, see [Supported SFTP server settings](/help/main/c-recommendations/c-products/feeds.md#steps).
 
-    * **FTP:** To upload your CSV file from an FTP server, select **[!UICONTROL FTP]**, then enter the required information. You can use SSL, which uses the FTPS protocol to transfer your CSV file securely.
+     SFTP does not change the custom-criteria CSV format. Use the `# Key,Recommendation_1,...` format. A CSV file in the format of a different feed type causes the import to fail.
 
-    * **SFTP:** To upload your CSV file from an SFTP server, select **[!UICONTROL SFTP]**, then enter the host name or IP address, port (default 22), username, a password and/or SSH private key, directory, and filename. For details, see [Supported SFTP server settings](/help/main/c-recommendations/c-products/feeds.md#steps). 
-      
-      SFTP does not change the custom-criteria CSV format. Use the `# Key,Recommendation_1,...` format, using a different feed type's format causes the import to fail.
+   * **URL**: To upload the CSV file from a URL, select **[!UICONTROL URL]**, then enter a feed URL.
 
-    * **URL:** To upload your CSV file from a URL, select **[!UICONTROL URL]**, then enter a feed URL.
+      ![Upload CSV section with the Location options FTP, SFTP, and URL highlighted and SFTP selected](../assets/criteria_create_10.png)
 
 1. Click **[!UICONTROL Create]**.
 
@@ -69,23 +67,23 @@ The following steps assume you access the [!UICONTROL Create New Criteria] scree
 
 * Custom criteria entities (rows) can contain up to 1,000 recommended items (columns).
 
-* Custom criteria updates are by default "cumulative." New key-value pairs specified in the CSV upload file overwrite existing key-value pairs. Existing key-value pairs that do not have keys specified in the CSV upload are still available for delivery and expire in 31 days from the time they are last uploaded as part of the CSV file.
+* Custom criteria updates are "cumulative" by default. New key-value pairs in the CSV upload file overwrite existing key-value pairs. Existing key-value pairs whose keys are not in the CSV upload remain available for delivery and expire 31 days after they were last uploaded as part of the CSV file.
 
-  Contact Client Care to enable the setting to discard the existing results that are not included in the next CSV upload. If this setting is enabled, only the keys present in the custom CSV feed file are available for delivery. This setting applies to all custom criteria.
+  To discard the existing results that are not included in the next CSV upload, contact Client Care to enable the corresponding setting. When this setting is enabled, only the keys present in the custom CSV feed file are available for delivery. This setting applies to all custom criteria.
 
 * Custom criteria feeds update once every 24 hours.
 
-  You can see the upload and sync status of your custom criteria upload for each criteria on the [!UICONTROL Recommendations] > [!UICONTROL Criteria] page. You can also see the status in the [!UICONTROL Edit] dialog box when editing custom criteria.
+  The upload and sync status of each custom criteria upload is displayed on the **[!UICONTROL Recommendations]** > **[!UICONTROL Criteria]** page. The status is also displayed in the **[!UICONTROL Edit]** dialog box when custom criteria are edited.
 
-* The flow for an error-free upload should be [!UICONTROL Scheduled] > [!UICONTROL Downloading Feed File] > [!UICONTROL Importing] > [!UICONTROL Successful].
+* The flow for an error-free upload is **[!UICONTROL Scheduled]** > **[!UICONTROL Downloading Feed File]** > **[!UICONTROL Importing]** > **[!UICONTROL Successful]**.
 
-* The following are possible error messages you might receive if [!DNL Target] encounters a problem with the upload:
+* If [!DNL Target] encounters a problem with the upload, the following error messages are possible:
 
   | Error Message | Details |
   |--- |--- |
   |Unknown Error|Indicates an internal technical error.|
   |Parsing Error|There is likely an issue with the feed file format. Correct the file format and re-save the algorithm, which restarts the file download process.|
-  |Server Not Found|Provide an IP or Host Name that is visible on the internet.|
+  |Server Not Found|Provide an IP or host name that is visible on the internet.|
   |Credentials Error|Provide a valid user and password for an active account on the server.|
   |Directory Not Found|Provide a directory that exists on the server.|
-  |File Not Found|Provide the name of a file that exists on the server in the directory indicated.|
+  |File Not Found|Provide the name of a file that exists on the server in the specified directory.|

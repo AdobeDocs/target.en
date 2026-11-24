@@ -52,13 +52,13 @@ Criteria sequences are created from the **[!UICONTROL Create Criteria Sequence]*
 * When creating a **[!UICONTROL Recommendations]** activity, from the **[!UICONTROL Select Criteria]** screen, click **[!UICONTROL Create New]** > **[!UICONTROL Create Criteria Sequence]**. The new criteria sequence can be saved for use with other **[!UICONTROL Recommendations]** activities.
 * When editing a **[!UICONTROL Recommendations]** activity, click in a **[!UICONTROL Recommendations Location]** box on the page, then select **[!UICONTROL Change Criteria]**. On the **[!UICONTROL Select Criteria]** screen, click **[!UICONTROL Create New]** > **[!UICONTROL Create Criteria Sequence]**. The new criteria can be saved for use with other **[!UICONTROL Recommendations]** activities.
 
-The following steps assume that the **[!UICONTROL Create Criteria Sequence]** screen is accessed via the **[!UICONTROL Criteria]** menu.
+The following steps assume that the **[!UICONTROL Create Criteria Sequence]** screen is accessed from the **[!UICONTROL Criteria]** menu.
 
 1. Click **[!UICONTROL Recommendations]** > **[!UICONTROL Criteria]**.
 
 1. Click **[!UICONTROL Create Criteria]** > **[!UICONTROL Create Criteria Sequence]**.
 
-    ![Featured Products recommendations tray](../assets/criteria_create_6.png)
+    ![Criteria page with the Create Criteria Sequence option selected in the Create criteria menu](../assets/criteria_create_6.png)
 
 1. Fill in the information in the [Basic Information](/help/main/c-recommendations/c-algorithms/create-new-algorithm.md#info) section.
 
@@ -66,7 +66,7 @@ The following steps assume that the **[!UICONTROL Create Criteria Sequence]** sc
 
    The sequence order defines the order in which a design is filled. If Criteria 1 does not have enough recommendations to fill the design, the remaining slots are filled with Criteria 2, and so on.
   
-    ![Featured Products recommendations tray](../assets/criteria_create_7.png)
+    ![Criteria Sequence section of the Create Criteria Sequence dialog box with five criteria fields and the Plus sign of Criteria 1 selected](../assets/criteria_create_7.png)
 
 1. On the **[!UICONTROL Select Criteria]** screen, select a criteria, then click **[!UICONTROL Save]**.
 
@@ -74,23 +74,23 @@ The following steps assume that the **[!UICONTROL Create Criteria Sequence]** sc
 
 1. (Optional) Enable **[!UICONTROL Limit the number of items returned]**, then specify the number of items (between 1 and 50).
 
-    ![Featured Products recommendations tray](../assets/criteria_create_8.png)
+    ![Criteria Sequence section with Recommended For You as Criteria 1 and the Limit the number of items returned option turned on](../assets/criteria_create_8.png)
 
    The following use cases illustrate the value of the **[!UICONTROL Limit the number of items returned]** option (sometimes called "slot level control").
 
    +++ Use cases for limiting the number of items returned
 
-   * **Use Case 1**: You want to have a mix of different kinds of items in a single recommendations tray. For example, you want to show a mix of outerwear (jackets) and tops (shirts, T-shirts). To achieve this, use a Collection for the activity that includes all of the potential product types you want in any slots in your design. Then, set up your first criteria with a static filter limiting the criteria to include only outerwear, and set up your second criteria with a static filter limiting the criteria to include only tops. Finally, add both criteria to a criteria sequence and limit the first criteria to 2 slots.
+   * **Use Case 1**: A mix of different kinds of items in a single recommendations tray, for example, a mix of outerwear (jackets) and tops (shirts, T-shirts). To achieve this, use a collection for the activity that includes all the product types that can appear in any slot of the design. Then set up the first criteria with a static filter that includes only outerwear, and the second criteria with a static filter that includes only tops. Finally, add both criteria to a criteria sequence and limit the first criteria to 2 slots.
 
-     The recommendations tray might look like this on your site:
+     The recommendations tray might look like this on a site:
 
      ![Featured Products recommendations tray](assets/featured-products.png)
 
-   * **Use Case 2**: You want a mix of both alternative items and complementary items. Set up one criteria to use a viewed/viewed algorithm and use a dynamic filter that limits the recommended items to the current item's category. Set up the second criteria to use a viewed/bought algorithm and use a dynamic filter that includes only recommended items that do not match the current item's category. Finally, add both criteria to a sequence and limit the first criteria to 2 slots.
+   * **Use Case 2**: A mix of both alternative items and complementary items. Set up one criteria to use a viewed/viewed algorithm and a dynamic filter that limits the recommended items to the category of the current item. Set up the second criteria to use a viewed/bought algorithm and a dynamic filter that includes only recommended items that do not match the category of the current item. Finally, add both criteria to a sequence and limit the first criteria to 2 slots.
 
    +++
 
-1. Continue adding additional criteria to the sequence. Up to five criteria can be added to a sequence.
+1. Continue adding criteria to the sequence. Up to five criteria can be added to a sequence.
 
 1. Enable [Backup Content options](/help/main/c-recommendations/c-algorithms/create-new-algorithm.md#content).
 
