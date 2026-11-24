@@ -83,9 +83,13 @@ The product variables are mapped in [!DNL Target] to provide a continuous supply
 
 1. Click **[!UICONTROL Create Feed]**.
 
+   ![Feeds page with the Create feed button highlighted](../assets/feeds_1.png)
+
 1. Select **[!UICONTROL Analytics Classifications]**, then specify the report suite.
 
 1. Click **[!UICONTROL Next]** to advance to the **[!UICONTROL Schedule]** settings, then select a frequency for the feed: **[!UICONTROL Daily]**, **[!UICONTROL Weekly]**, **[!UICONTROL Every 2 weeks]**, or **[!UICONTROL Never]**. The time of day for the feed to process can also be selected.
+
+   ![Schedule step of the Create feed dialog box with the Frequency options Daily, Weekly, Every 2 weeks, and Never, and the Time of day field](../assets/feeds_3.png)
 
 1. Click **[!UICONTROL Next]** to advance to the **[!UICONTROL Mapping]** settings, then map the field column headers to the appropriate **[!UICONTROL Recommendations]** field names.
 
