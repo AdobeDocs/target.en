@@ -25,28 +25,23 @@ topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
     internal-label: Customer experience
 ---
-# Recommendations Activity settings
+# Recommendations activity settings {#recs-activity-settings}
 
-Information about the settings you can use to describe and control a [!UICONTROL Recommendations] activity in [!DNL Adobe Target].
+>[!BEGINSHADEBOX]
 
-The following sections describe the available settings for a [!UICONTROL Recommendations] activity.
+**On this page:** Learn about the settings that describe and control a [!DNL Recommendations] activity in [!DNL Adobe Target].
+
+>[!ENDSHADEBOX]
+
+Activity settings identify a [!DNL Recommendations] activity, control when and where it displays, and define how its results are reported.
 
 ## Name
 
-Click the More Actions icon ( ![More Actions icon](/help/main/assets/icons/MoreSmallListVert.svg) ), then click **[!UICONTROL Rename]** to provide a descriptive name that will help you and your team identify the activity.
+Click the More Actions icon ( ![More Actions icon](/help/main/assets/icons/MoreSmallListVert.svg) ), then click **[!UICONTROL Rename]** to give the activity a descriptive name that helps identify it.
 
-The following characters are not allowed in an activity name:
+The following characters are not allowed in an activity name: `/`, `?`, `#`, `:`, `=`, `+`, `-`, and `@`.
 
-`/`
-`?`
-`#`
-`:`
-`=`
-`+`
-`-`
-`@`
-
-If you specify a [!UICONTROL Recommendations] activity name that already exists for another activity in [!UICONTROL Recommendations Classic], the new activity is resynced with a new name. The new name is the original name appended with a timestamp to make it unique. This new name is displayed in both [!DNL Target Standard/Premium] and [!UICONTROL Recommendations Classic].
+If the name of a [!DNL Recommendations] activity already exists for another activity in [!UICONTROL Recommendations Classic], the new activity is resynced with a new name. The new name is the original name with a timestamp appended, to make it unique. It displays in both [!DNL Target Standard/Premium] and [!UICONTROL Recommendations Classic].
 
 ## Objective
 
@@ -54,52 +49,46 @@ If you specify a [!UICONTROL Recommendations] activity name that already exists 
 
 ## Priority
 
-Adjust the slider to determine the priority level.
+Adjust the slider to set the priority level.
 
-The priority is used if multiple activities are assigned to the same location with the same audience. If two or more activities are assigned to the location, the activity with the highest priority displays.
+The priority is used when multiple activities are assigned to the same location with the same audience. If two or more activities are assigned to the location, the activity with the highest priority displays.
 
 ## Duration
 
 Set the duration of the activity.
 
-The activity can start when activated, or you can set a specific date and time. Likewise, the activity can either end when it is deactivated or you can set a date and time. The time picker uses a 24-hour clock, with 00:00 being midnight. The time zone is set to the time zone configured in your browser. To use a different time zone, set your browser to another time zone and restart the browser.
+The activity can start when it is activated, or at a specific date and time. Likewise, it can end when it is deactivated, or at a specific date and time.
+
+The time picker uses a 24-hour clock, with 00:00 being midnight. The time zone is the one configured in the browser. To use a different time zone, set the browser to that time zone and restart the browser.
 
 ## Reporting Settings
 
-* **Reporting Source:** Specify which solution data is collected from:
+The following settings define how the results of the activity are reported.
 
-  * [!DNL Adobe Target]
-  * [!DNL Adobe Analytics]
-  * [!DNL Adobe Customer Journey Analytics]
+* **[!UICONTROL Reporting Source]:** Specifies the solution that the data is collected from: [!DNL Adobe Target], [!DNL Adobe Analytics], or [!DNL Adobe Customer Journey Analytics].
 
-  If a reporting solution is specified in your [account settings](/help/main/administrating-target/reporting.md), the specified solution is used and this setting is not visible.
+  If a reporting solution is specified in the [account settings](/help/main/administrating-target/reporting.md), that solution is used and this setting is not visible. The reporting source cannot be changed after the activity goes live, to keep reports consistent.
 
-  You cannot change your reporting source after the activity goes live to keep reports consistent.
-
-  **[!DNL Adobe Analytics]**: See [[!DNL Adobe Analytics] as the reporting source for [!DNL Target]](/help/main/c-integrating-target-with-mac/a4t/a4t.md) to learn about the differences between the reporting solutions and the advantages of each.
-
-  When selecting [!DNL Analytics] as the reporting source for [!DNL Target] (A4T), you select an [!DNL Analytics] report suite to receive [!DNL Target] activity data. To do this, first choose from any of the [!DNL Analytics] companies your account is tied to, and then select the appropriate report suite for the activity. Only report suites that are provisioned to connect to [!DNL Target] are available for selection. If you do not see the report suite that you expect, first try logging out and logging back in to the [!DNL Adobe Experience Cloud] to try again. If the report suite is still missing from the list, contact [Customer Care](/help/main/cmp-resources-and-contact-information.md#reference_ACA3391A00EF467B87930A450050077C).
-
-  [!DNL Analytics for Target] (A4T) requires a tracking server to report results correctly. A default tracking server displays in the [!UICONTROL Tracking Server] field. If you use more than one tracking server, ensure you include the correct tracking server in this field. See [Using an Analytics Tracking Server](/help/main/c-integrating-target-with-mac/a4t/analytics-tracking-server.md#task_72077BA7E93C4A65A715A18F32228823) for more information.
+  **[!DNL Adobe Analytics]**: See [[!DNL Adobe Analytics] as the reporting source for [!DNL Target]](/help/main/c-integrating-target-with-mac/a4t/a4t.md) for the differences between the reporting solutions and the advantages of each. For the selection of the [!DNL Analytics] report suite and the tracking server, see [Reporting Source](/help/main/c-activities/t-test-ab/t-test-create-ab/ab-goals-and-settings.md#reporting-source).
 
   **[!DNL Adobe Customer Journey Analytics]**: See [[!DNL Target] reporting in [!DNL Adobe Customer Journey Analytics]](/help/main/c-integrating-target-with-mac/cja/target-reporting-in-cja.md) for more information about the integration between [!DNL Adobe Customer Journey Analytics] and [!DNL Target].
-  
-* **Goal Metric:** Select the success metric that determines whether the activity is successful.
-* **Additional Metrics:** Configure additional success metrics to be used in your reports.
-* **Audiences for Reporting:** Define audiences that can be used when filtering your reports.
+
+* **[!UICONTROL Goal Metric]:** Selects the success metric that determines whether the activity is successful.
+* **[!UICONTROL Additional Metrics]:** Configures additional success metrics for the reports.
+* **[!UICONTROL Audiences for Reporting]:** Defines audiences that can be used to filter the reports.
 
 ## Other Metadata
 
-Enter notes about your activity.
+Enter notes about the activity.
 
 ## Training video: Activity Settings (3:02) ![Tutorial badge](/help/main/assets/tutorial.png)
 
-This video includes information about activity settings.
+This video covers the following activity settings:
 
-* Enter an objective for your activity 
-* Set the priority level of your activities 
-* Schedule activity start and end times 
-* Add audiences for reporting to create report filters 
-* Enter notes for your activities
+* Enter an objective for the activity.
+* Set the priority level of the activity.
+* Schedule the start and end times.
+* Add audiences for reporting to create report filters.
+* Enter notes for the activity.
 
 >[!VIDEO](https://video.tv.adobe.com/v/17381)
