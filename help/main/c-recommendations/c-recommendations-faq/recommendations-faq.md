@@ -21,75 +21,189 @@ topic_v2:
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
     internal-label: Troubleshooting
 ---
-# Recommendations FAQ
+# Recommendations FAQ {#recommendations-faq}
 
-List of frequently asked questions (FAQs) about [!DNL Adobe Target] [!DNL Recommendations] activities.
+>[!BEGINSHADEBOX]
 
-## Do [!DNL Recommendations] objects created via API display in the [!DNL Target] UI?
+**On this page:** Find answers to frequently asked questions about [!DNL Adobe Target] [!DNL Recommendations] activities.
 
-Yes, [!UICONTROL Recommendations] objects ([!UICONTROL Criteria], [!UICONTROL Designs], [!UICONTROL Collections], and [!UICONTROL Exclusions]) created over API are available in the UI and can be edited via API or [!DNL Target] UI.
+>[!ENDSHADEBOX]
 
-## Can I manage [!DNL Target] UI-created visual offers using the [!DNL Target] APIs?
+## Data and APIs {#data-and-apis}
 
-No. [!DNL Recommendations] activities with visual offers created in the [!DNL Target] UI are not manageable using the [!DNL Target] APIs. Although these activities display in the [!UICONTROL Activities] list, you cannot read or update them (using GET/PUT).
++++ Do [!DNL Recommendations] objects created through the API display in the [!DNL Target] UI?
 
-## Why does [!UICONTROL Catalog Search] not show the correct results when I search on a custom attribute with a numeric value?
+Yes. [!UICONTROL Recommendations] objects (**[!UICONTROL Criteria]**, **[!UICONTROL Designs]**, **[!UICONTROL Collections]**, and **[!UICONTROL Exclusions]**) created through the API are available in the UI, and can be edited through the API or the [!DNL Target] UI.
 
-When you perform a catalog search on a custom attribute with a numeric value, the results treat the custom attribute to be a string type instead of a numeric value.
++++
 
-Currently, there is no functionality available that allows customers to change the type of an attribute. To make a change, [open a customer issue](/help/main/cmp-resources-and-contact-information.md#reference_ACA3391A00EF467B87930A450050077C) referencing the attributes that need the type changed from string to numeric.
++++ Can visual offers created in the [!DNL Target] UI be managed with the [!DNL Target] APIs?
 
-## How long does it take for updates to items in my catalog to be reflected on my site?
+No. [!DNL Recommendations] activities with visual offers created in the [!DNL Target] UI cannot be managed with the [!DNL Target] APIs. These activities display in the **[!UICONTROL Activities]** list, but they cannot be read or updated (with GET or PUT).
+
++++
+
++++ What is the size limit of an API call to insert or update products? Can 50,000 products be updated in one call instead of a feed?
+
+[!DNL Target] imposes a 50-MB post limit at the application level, but only when the `application/x-www-form-urlencoded` content type header is passed.
+
+A single call with 50,000 products can be attempted. If the call fails, it can be split into batches. Adobe recommends batches of 5,000 or 10,000 products to decrease the likelihood of a timeout due to system load.
+
++++
+
++++ What is the maximum size of a CSV file for a feed upload?
+
+There is no hard limit on the number of rows or on the file size for a feed CSV file upload. As a best practice, Adobe recommends limiting the CSV file to 1 GB to avoid failures during the upload. A file that exceeds 1 GB can ideally be split into multiple feed files.
+
+The maximum number of custom attribute columns is 100, and custom attributes are limited to 4096 characters. Other limits on the length of required columns are available on the [[!DNL Target] Limitations page](/help/main/r-troubleshooting-target/target-limits.md).
+
++++
+
++++ Why does **[!UICONTROL Catalog Search]** not show the correct results when searching on a custom attribute with a numeric value?
+
+When a catalog search is performed on a custom attribute with a numeric value, the results treat the attribute as a string instead of a numeric value.
+
+No functionality is currently available that allows customers to change the type of an attribute. To make a change, [open a customer issue](/help/main/cmp-resources-and-contact-information.md#reference_ACA3391A00EF467B87930A450050077C) that references the attributes whose type must change from string to numeric.
+
++++
+
+## Update timing {#update-timing}
+
++++ How long does it take for updates to items in the catalog to be reflected on the site?
 
 The time frame and results vary, depending on how the items are updated.
 
-|Source|Details|
-| --- | --- |
-|Item attributes updated via mbox or API|<ul><li>Recommendations are updated within 15 minutes.</li><li>Existing recommendations and item attributes are shown until updates are available.</li><li>Catalog Search is updated after catalog index (3-8 hours).</li></ul>|
-|Item attributes updated via feed|<ul><li>Recommendations are updated after feed ingest (2-8 hours).</li><li>Existing recommendations and item attributes are shown until updates are available.</li><li>Catalog Search is updated after feed ingest (2-8 hours) and after subsequent catalog index (3-8 hours). Catalog Search is updated within 5-16 hours total.</li></ul>|
-|Item deleted from the catalog via [!DNL Target] UI or API|<ul><li>Recommendations are updated within 15 minutes.</li><li>Existing recommendations and item attributes are shown until updates are available.</li><li>Catalog Search is updated after catalog index (3-8 hours).</li></ul>|
-|Item added to the catalog via mbox or API|<ul><li>Recommendations are updated after algorithm run. Algorithm runs are scheduled every 12 hours for 1-2 day algorithms and every 24 hours for 7+ day algorithms.</li><li>Existing recommendations are shown until updates are available if the added item is not a requested key.</li><li>Backup recommendations are shown until updates are available if the added item is a requested key.</li><li>Catalog Search is updated after catalog index (3-8 hours).</li></ul>|
-|Item added to the catalog via feed|<ul><li>Recommendations are updated after the feed is ingested (2-8 hours). Subsequent algorithm runs are scheduled every 12 hours for 1-2 day algorithms and every 24 hours for 7+ day algorithms. Recommendations are updated within 2-32 hours total.</li><li>Existing recommendations are shown until updates are available if the added item is not a requested key.</li><li>Backup recommendations are shown until updates are available if the added item is a requested key.</li><li>Catalog Search is updated after feed ingest (2-8 hours) and after catalog index (3-8 hours). Catalog Search is updated within 5-16 hours total.</li></ul>|
+|Update|Recommendations|Catalog Search|
+| --- | --- | --- |
+|Item attributes updated through an mbox or the API|Within 15 minutes|After the catalog index (3-8 hours)|
+|Item attributes updated through a feed|After the feed ingest (2-8 hours)|After the feed ingest (2-8 hours) and the subsequent catalog index (3-8 hours), within 5-16 hours in total|
+|Item deleted from the catalog through the [!DNL Target] UI or API|Within 15 minutes|After the catalog index (3-8 hours)|
+|Item added to the catalog through an mbox or the API|After the next algorithm run. Algorithm runs are scheduled every 12 hours for 1-2 day algorithms and every 24 hours for 7+ day algorithms|After the catalog index (3-8 hours)|
+|Item added to the catalog through a feed|After the feed ingest (2-8 hours) and the subsequent algorithm runs, which are scheduled every 12 hours for 1-2 day algorithms and every 24 hours for 7+ day algorithms, within 2-32 hours in total|After the feed ingest (2-8 hours) and the catalog index (3-8 hours), within 5-16 hours in total|
 
-After importing a feed file, or after receiving entity updates via API or mbox, the following changes are reflected in under 60 minutes:
+Until the updates are available, the following content is shown:
 
-* If an item was previously excluded but should now be included, the item will be included on the next algorithm run (12-24 hours).
+* For updated or deleted items, the existing recommendations and item attributes are shown.
+* For an added item, the existing recommendations are shown if the added item is not a requested key. Backup recommendations are shown if the added item is a requested key.
 
-  This situation occurs because [!DNL Target] applies exclusions both online and offline. When an item is newly excluded, the online exclusion applies quickly. When an item is newly included, the online exclusion goes away quickly but the offline exclusion does not go away until the next algorithm run.
+After a feed file is imported, or after entity updates are received through the API or an mbox, the following changes are reflected in under 60 minutes:
 
-* If an item was previously included but should now be excluded, the item is excluded per the "Item attributes updated..." time line discussed above depending on feed source (15 minutes via mbox/API or 12-24 hours via feed).
+* If an item was previously excluded but should now be included, the item is included on the next algorithm run (12-24 hours).
 
-The following changes are not reflected until the next algorithm run occurs (within 12-24 hrs):
+  This situation occurs because [!DNL Target] applies exclusions both online and offline. When an item is newly excluded, the online exclusion applies quickly. When an item is newly included, the online exclusion goes away quickly, but the offline exclusion does not go away until the next algorithm run.
 
-* Item attributes used in the Collection rules used for the activity.
-* Item attributes used in a promotion based on an attribute or collection associated with the activity.
-* Item category that the item appears in for a "Current Category" or "Favorite Category" in the Top Sellers or Most Viewed algorithm.
-* Ranking of recommended items when the attribute changed is a custom attribute that is used as the custom key for an algorithm.
-* Ranking of recommended items based on one or more changed attributes when the recommendation logic is "Items with similar attributes," when "Content Similarity" weighting factors are used, or when "Attribute Weighting" factors are used.
+* If an item was previously included but should now be excluded, the item is excluded according to the time lines in the table, depending on the source: 15 minutes through an mbox or the API, or 12-24 hours through a feed.
+
+The following changes are not reflected until the next algorithm run occurs (within 12-24 hours):
+
+* Item attributes used in the collection rules of the activity.
+* Item attributes used in a promotion that is based on an attribute or on a collection associated with the activity.
+* The item category in which the item appears for a "Current Category" or "Favorite Category" in the **[!UICONTROL Top Sellers]** or **[!UICONTROL Most Viewed]** algorithm.
+* The ranking of recommended items, when the changed attribute is a custom attribute that is used as the custom key for an algorithm.
+* The ranking of recommended items based on one or more changed attributes, when the recommendation logic is "Items with similar attributes", or when "Content Similarity" or "Attribute Weighting" factors are used.
 
 >[!NOTE]
 >
->A feed file is considered imported when its status changes from "Importing Items" to "Preparing Search Index Updates". Updates can take more than 60 minutes to be reflected in the Catalog Search user interface; Catalog Search is up to date when the feed status changes to "Updates Completed". Even if Catalog Search is not yet up to date, your site reflects updates on the time frames listed above. The most recent Catalog Search index update time is displayed on the Catalog Search page.
+>A feed file is considered imported when its status changes from "Importing Items" to "Preparing Search Index Updates". Updates can take more than 60 minutes to be reflected in the **[!UICONTROL Catalog Search]** user interface. **[!UICONTROL Catalog Search]** is up to date when the feed status changes to "Updates Completed". Even if **[!UICONTROL Catalog Search]** is not yet up to date, the site reflects the updates within the time frames listed above. The most recent **[!UICONTROL Catalog Search]** index update time is displayed on the **[!UICONTROL Catalog Search]** page.
 
-## How long does it take for a change to the configuration of my [!UICONTROL Recommendations] activity, offer, promotions, or criteria settings to be reflected on my site?
++++
 
-* A change to the promotion settings can take up to five hours to be reflected onsite.
++++ How long does it take for a change to the configuration of a [!UICONTROL Recommendations] activity, offer, promotions, or criteria settings to be reflected on the site?
+
+* A change to the promotion settings can take up to five hours to be reflected on the site.
 * A change to other criteria settings might not be reflected until the next algorithm run:
 
-  * Some criteria settings (for example, "addition of a dynamic inclusion rule") are reflected instantly.
-  * Other criteria settings (for example "removal of a dynamic inclusion rule", change of lookback window, and so forth) cannot be incorporated until the next algorithm run.
-  * Algorithm runs are triggered by these changes but can take up to 24 hours to be completed. Algorithms also run on a scheduled basis every 12-24 hours.
+  * Some criteria settings, for example the addition of a dynamic inclusion rule, are reflected instantly.
+  * Other criteria settings, for example the removal of a dynamic inclusion rule or a change of the lookback window, cannot be incorporated until the next algorithm run.
+  * These changes trigger an algorithm run, which can take up to 24 hours to complete. Algorithms also run on a schedule, every 12-24 hours.
 
-## How long does it take for a user's behavior (for example, clicking product A and buying product B) to be reflected in the recommendations *that* user receives?
++++
 
-*  Currently viewed/purchased product/content influence the recommendations the user receives on the same pageview/[!DNL Target] content request.
-* Historical user behavior, such as "last viewed product," "most viewed product," and overall viewing/purchasing history is updated with that request and influence the recommendations that user receives on the next pageview/[!DNL Target] content request. For example, "Recently Viewed Items" and "Recommended For You" algorithms update with each product view/purchase and are reflected on the subsequent content request.
++++ How long does it take for the behavior of a user (for example, clicking product A and buying product B) to be reflected in the recommendations that same user receives?
 
-## How long does it take for a user's behavior (for example, clicking product A and buying product B) to be reflected in the recommendations *other* users receive?
+* The product or content currently viewed or purchased influences the recommendations that the user receives on the same page view or [!DNL Target] content request.
+* Historical user behavior, such as "last viewed product", "most viewed product", and the overall viewing and purchasing history, is updated with that request. It influences the recommendations that the user receives on the next page view or content request. For example, the **[!UICONTROL Recently Viewed Items]** and **[!UICONTROL Recommended For You]** algorithms update with each product view or purchase, and the update is reflected on the subsequent content request.
 
-The behavior of users in aggregate is incorporated into offline algorithm processing with every algorithm run occurring every 12-24 hours.
++++
 
-## What should I do if special characters are breaking my array? {#section_D27214116EE443638A60887C7D1C534E}
++++ How long does it take for the behavior of a user to be reflected in the recommendations that other users receive?
+
+The behavior of users in aggregate is incorporated into the offline algorithm processing. This processing occurs with every algorithm run, every 12-24 hours.
+
++++
+
++++ Do recommendations based on recently viewed items persist across multiple devices for a single visitor?
+
+When a visitor initiates a session, the session ID is tied to a single edge machine, and a temporary profile cache is stored on this machine. Subsequent requests from the same session read this profile cache, including the recently viewed items.
+
+When the session ends (generally when it expires after 30 minutes of no activity), the session state, including the recently viewed items, is persisted to a more permanent profile storage in the same geographic edge. Subsequent sessions from different devices can then access these recently viewed items, as long as the new session is linked to the customer profile through the same Marketing Cloud ID (MCID), Experience Cloud ID (ECID), or CustomerID or `mbox3rdPartyId`.
+
+If a visitor has two active sessions at the same time, the recently viewed items on one device do not update the recently viewed items on the other device, unless the devices are forced to share the session ID. A potential workaround exists, but [!DNL Target] does not directly support sharing a session ID across multiple devices. The customer must manage this ID sharing.
+
+This behavior also occurs when a visitor is active on one device and becomes active on the other device a few minutes later. The session of the first device does not expire for 30 minutes, and up to five minutes of delay can occur before the profile state is written to the permanent state and processed. When testing this behavior, allow 35 minutes for the session to expire and the profile to be stored.
+
+If the visitor does not have two active sessions at the same time, the recently viewed items on one device update the recently viewed items on the other device, as long as the session has ended. When testing this behavior, allow 35 minutes for the session to expire.
+
++++
+
+## Criteria, designs, and promotions {#criteria-designs-promotions}
+
++++ Why are not all criteria, including custom criteria, available for selection when creating a [!DNL Recommendations] activity?
+
+The available criteria depend on the current category. When recommendations offers are created, the algorithm picker displays criteria based on the category ID. If the location where the criteria is applied does not contain the category ID, certain criteria are not available in the algorithm picker. If a location where the category ID is present in the mbox is used, the criteria picker contains all applicable criteria.
+
+[!DNL Target] has a [Filter Incompatible Criteria](https://experienceleague.adobe.com/docs/target-dev/developer/recommendations.html){target=_blank} setting that controls the intelligent filtering of the algorithm picker. To access the **[!UICONTROL Filter Incompatible Criteria]** setting, click **[!UICONTROL Administration]** > **[!UICONTROL Recommendations]**.
+
+![Recommendations Settings page with the Filter Incompatible Criteria option highlighted](assets/recs_settings_filter.png)
+
+* If the **[!UICONTROL Filter Incompatible Criteria]** setting is not enabled, [!DNL Target] does not filter the algorithms in the algorithm picker, and all algorithms are displayed.
+* If the setting is enabled, in [!UICONTROL Visual Experience Composer] (VEC) activities, [!DNL Target] reads the entityId and the category ID from the selected location. It then displays algorithms based on `currentItem|currentCategory`, if the respective values are present on that location. As a result, only the algorithms that are compatible with the selected location are shown in the algorithm picker by default. The non-compatible algorithms can still be viewed by clearing the **[!UICONTROL Compatible]** check box while selecting criteria.
+
+  ![Select Criteria screen with the Compatible check box highlighted](assets/compatible_checkbox.png)
+
+[!DNL Target] does not display the **[!UICONTROL Compatible]** check box in the following special cases:
+
+* Both the entityId and the category ID are present on the location, so nothing is filtered.
+* [!DNL mbox.js] version 55 or earlier is used.
+* No mbox call is fired from the page (`!config.isAutoCreateGlobalMbox && !config.isRegionalMbox`).
+* [!DNL Target] parameters are not defined.
+
+>[!NOTE]
+>
+>The **[!UICONTROL Filter Incompatible Criteria]** setting applies to activities created in the [!UICONTROL Visual Experience Composer] (VEC) only. This setting does not apply to activities created in the **[!UICONTROL Form-Based Experience Composer]**, because [!DNL Target] does not have location context.
+
++++
+
++++ What is the difference between general attribute weighting and content similarity-specific attribute weighting?
+
+Attribute weighting exists in two forms: "standard attribute weighting" and "content similarity attribute weighting".
+
+* "Standard attribute weighting" applies to most criteria types, not only **[!UICONTROL Content Similarity]**. This type of weighting gives more weight to certain attribute values. In the following example, Nike products get a bump in the output recommendations.
+
+  ![Attribute Weighting section with the brand attribute set to start with Nike and the slider at 25%](assets/attribute_weighting_example.png)
+
+* "Content similarity attribute weighting" applies to **[!UICONTROL Content Similarity]** criteria only. This type of weighting is more dynamic, and is based on the current "recommendation key" (the currently viewed item). In the following example (brand x 16), a visitor who views Nike sneakers is more likely to be recommended other Nike products (not necessarily only sneakers) than competitors' sneakers. A visitor who views Adidas sneakers is more likely to be recommended Adidas products.
+
+  ![Content Similarity section with the brand attribute and the weighting slider at 16x](assets/content_similarity_example.png)
+
++++
+
++++ Must the mbox name be specified when creating [!DNL Recommendations] criteria, promotions, or template testing rules?
+
+When a [!DNL Recommendations] criteria, promotion, or template testing rule is created based on an mbox parameter, `mboxParameter` no longer prompts for `mboxName`. The mbox name is now optional. This change allows the use of parameters from multiple mboxes, or a reference to a parameter that has not yet been recorded on the edge.
+
+To select the desired parameter, use one of the following methods:
+
+* While creating a criteria, promotion, or template testing rule, select a parameter name from the list. Start typing the first characters of the parameter name, or type the full name.
+* If the mbox name is known but the parameter name is not, use the check box to filter on a known mbox that passes the desired parameter.
+
+With either method, there is no link between the mbox and the parameter. The criteria, promotion, or template testing rule works based on the parameter across all mboxes that pass that parameter.
+
+When an existing criteria, promotion, or template testing rule is edited, the filtering displays the mbox name that was supplied during creation.
+
++++
+
++++ What can be done when special characters break an array?
 
 Use escaped values in JavaScript. Quotation marks ( " ) can break the array. The following code snippet is an example of escaped values:
 
@@ -104,74 +218,73 @@ names.push("$escaper.escapeJavaScript($entity4.name)")
 </script>
 ```
 
-## Why are not all criteria, including custom criteria, available for selection when creating a Recommendations activity? {#section_B2265AC8B8A94E0298D495A05C5D817F}
++++
 
-The available criteria is based on the current category. When you are creating recommendations offers, the algorithm picker displays criteria based on category Id.
++++ Can an entity be dynamically excluded?
 
-If the location on which you are applying this criteria does not contain the category Id, certain criteria is not available in the algorithm picker.
+Yes. Entity IDs for the entities to exclude from the recommendations can be passed in the query string. For example, items that are already in the shopping cart can be excluded.
 
-If you use a location where category Id is present in the mbox, the criteria picker contains all applicable criteria.
+To enable the exclusion functionality, use the `excludedIds` mbox parameter. This parameter points to a list of comma-separated entity IDs, for example `mboxCreate(..., "excludedIds=1,2,3,4,5")`. The value is sent when the recommendations are requested.
 
-[!DNL Target] has a [Filter Incompatible Criteria](https://experienceleague.adobe.com/docs/target-dev/developer/recommendations.html){target=_blank} setting to control intelligent filtering of the algorithm picker.
+The exclusion is performed for the current [!DNL Target] call only. Items are not excluded on subsequent [!DNL Target] calls unless the `excludedIds` value is passed again. To exclude the items in the cart from the recommendations on every page, continue to pass the `excludedIds` value on every page.
+
+To exclude `entityIds`, append the `&excludes=${mbox.excludedIds}` token to the offer content URL. When the content URL is extracted, the required parameters are substituted with the current mbox request parameters.
+
+By default, this feature is enabled for newly created recommendations. Existing recommendations must be saved to support dynamically excluded entities.
 
 >[!NOTE]
 >
->This setting applies to activities created in the [!UICONTROL Visual Experience Composer] (VEC) only. This setting does not apply to activities created in the Form-Based Experience Composer ([!DNL Target] does not have location context).
+>If too many entities are excluded, recommendations behave as if there are not enough entities to fill the recommendation template.
 
-To access the [!UICONTROL Filter Incompatible Criteria] setting, click [!UICONTROL Recommendations] > [!UICONTROL Settings]:
++++
 
-![recs_settings_filter image](assets/recs_settings_filter.png)
++++ Why can a legacy [!DNL Recommendations] activity not be saved after a new audience is defined?
 
-If the [!UICONTROL Filter Incompatible Criteria] setting is NOT enabled, [!DNL Target] does not filter algorithms in the Algorithm Picker and all algorithms are displayed.
+Ensure that the audience has a unique name. If the audience has the same name as an existing audience, the legacy [!DNL Recommendations] activity (a [!DNL Recommendations] activity created before October 2016) cannot be saved.
 
-If the [!UICONTROL Filter Incompatible Criteria] setting is enabled, in VEC activities, [!DNL Target] reads entityId and category Id from the selected location and then displays algorithms based on `currentItem|currentCategory` (if respective values are present on that location). As a result, only compatible algorithms for the selected location are shown in the algorithm picker, by default.
++++
 
-If the [!UICONTROL Filter Incompatible Criteria] setting is enabled, you can still view non-compatible algorithms by deselecting the [!UICONTROL Compatible] checkbox while selecting criteria.
++++ Can an algorithm created in [!DNL Adobe Recommendations Classic] be used in [!DNL Recommendations Premium]?
 
-![compatible_checkbox image](assets/compatible_checkbox.png)
+An algorithm created in [!DNL Recommendations Classic] is not supported in [!DNL Recommendations Premium]. The legacy algorithm might be usable in [!DNL Target Premium], but it can create sync issues when the activity is deactivated or deleted in the [!DNL Target Premium] UI. For more information about the differences between the two solutions, see [[!DNL Recommendations Classic] versus [!DNL Recommendations] activities in [!DNL Target Premium]](/help/main/c-recommendations/c-recommendations-faq/recommendations-classic-versus-recommendations-activities-target-premium.md).
 
-The following list contains special cases in which [!DNL Target] does not display the [!UICONTROL Compatible] checkbox:
++++
 
-* Both entityId and category Id are present on the location, then nothing is being filtered. 
-* You are using [!DNL mbox.js] version 55 or earlier. 
-* No mbox call is being fired from the page (!config.isAutoCreateGlobalMbox && !config.isRegionalMbox) 
-* [!DNL Target] parameters are not defined.
++++ How can only new articles or videos be recommended?
 
-## What should I do if a collection in Recommendations goes to zero (0)? {#section_E2DB2FE67CF24EEC81412BFF3FA6385D}
+Customers in media and publishing often want the recommended items to include only the newest articles or videos. For example, a [!DNL Target] customer used the following approach to recommend articles that are fewer than 60 days old:
 
-Consider the following information if you see a collection go to zero that previously was not at zero:
+1. Pass the article publish date, in YYYYMMDD format, as a custom entity attribute. For example:
 
-* You can resave the collection and see if it updates the number. By resaving, the collection reruns all algorithms that are using that collection. 
-* Are you looking at the right environment? Go to [!DNL /target/products.html#recsSettings] to double check (as shown below).
+   |Entity attribute|Example|
+   | --- | --- |
+   |issueDate|2021218|
+   |lastViewDate|2021701|
+   |parentCategory|commentary|
+   |publishDate|20210113|
+   |publishDateDisplay|Jan 13, 2021|
 
-  ![product_catalog image](assets/product_catalog.png)
+1. Create a profile script that returns today's date minus 60 days, also in YYYYMMDD format.
 
-* Is your index up to date? Go t o [!DNL /target/products.html#productSearch] and check how many hours old the index is (for example, "Indexed 3 hours ago"). You can refresh the index as needed. 
-* Did you change something in the feed or the data layer that resulted in your entities no longer matching the collection rules? Make sure your CASE matches (case-sensitive). 
-* Did your feed run successfully? Did someone change the FTP directory, password, and so forth? 
-* [!DNL Target] does its best to make updates to the delivery (on the customer's page/app) happen as quickly as possible. Yet, [!DNL Target] also has to provide some representation in the UI for the marketer. [!DNL Target] does not delay delivery updates to wait for the UI updates to be in sync. You can use [mboxTrace](/help/main/c-activities/c-troubleshooting-activities/content-trouble.md) to see what is in the system at the time a request comes in.
+   ![Profile script named priorDate60, described as today's date minus 60 days in YYYYMMDD format, with the script that calculates the date](/help/main/c-recommendations/c-recommendations-faq/assets/sample-profile-script.png)
 
-## What's the difference between general Attribute Weighting and Content Similarity-specific attribute weighting? {#section_FCD96598CBB44B16A4C6C084649928FF}
+1. Use a dynamic inclusion rule in the criteria so that `publish date > today's date minus 60 days`.
 
-Attribute weighting exists in two forms: "standard attribute weighting" and "content similarity attribute weighting."
+   ![Inclusion Rules section with a Profile Attribute Matching rule that compares publishDate with the value stored in user.priorDate60](/help/main/c-recommendations/c-recommendations-faq/assets/sample-inclusion-rule.png)
 
-"Standard attribute weighting" applies to most, if not all, criteria types (not just Content Similarity). This type of weighting gives more weight to certain attribute values. In the following example, Nike products get a bump in the output recommendations.
+This example could also be accomplished with parameter matching, by passing the `priorDate60` value as an mbox parameter.
 
-![attribute_weighting_example image](assets/attribute_weighting_example.png)
++++
 
-"Content similarity attribute weighting" applies to Content Similarity criteria only.
+## Troubleshooting {#troubleshooting}
 
-This type of weighting is more dynamic, and is based on the current "recommendation key" (the currently viewed item). In the following example (brand x 16), if a visitor were viewing Nike sneakers, that visitor is more likely to be recommended other Nike products (not necessarily only sneakers) rather than competitors' sneakers. If a visitor is viewing Adidas sneakers, that visitor is more likely to be recommended Adidas products.
++++ Why is [!DNL Target] sometimes unable to show recommendations?
 
-![content_similarity_example image](assets/content_similarity_example.png)
+[!DNL Target] sometimes cannot show recommendations because of the low number of available recommendations.
 
-## Why is [!DNL Target] sometimes unable to show recommendations? {#section_DB3F40673AED42228E407C05437D99E9}
+The number of values generated for each criteria is three times the number of entities specified in the design. Runtime filtering (for example, inventory or mbox attribute matching) is applied after the 3x values are generated, so fewer than 3x values can remain at delivery time. To mitigate this situation, increase the number of entities in the design by hiding other entities.
 
-[!DNL Target] sometimes cannot show recommendations due to the low number of available recommendations.
-
-The number of values generated per criteria is three times the number of entities specified in the design. Runtime filtering (for example, inventory, mbox attribute matching) is applied after the 3x values are generated, so it is possible end up with fewer than 3x values at delivery time. To mitigate this situation, increase the number of entities in the design by hiding other entities.
-
-The following JavaScript can be used at the beginning of the design to increase the number of requested entities. In this example, the requested entity count would be 30 (3x10).
+The following JavaScript can be used at the beginning of the design to increase the number of requested entities. In this example, the requested entity count is 30 (3x10).
 
 ```
 #foreach($entity in $entities) 
@@ -182,128 +295,59 @@ The following JavaScript can be used at the beginning of the design to increase 
 #end 
 ```
 
-## What is the size limit of an API call for insert/update products? Can I update 50,000 products in one call using the API instead of a feed? {#section_434FE1F187B7436AA39B7C14C7895168}
++++
 
-[!DNL Target] imposes a 50-MB post limit at the application level; however, that is only when you pass the `application/x-www-form-urlencoded` content type header.
++++ What does the NO_CONTENT response that is sometimes returned in the [!DNL Recommendations] content trace mean?
 
-You could certainly try to send 50,000 products in a single call. If it fails, you can break it up into batches. Adobe recommends that customers break their calls into 5,000 or 10,000 product batches to decrease the likelihood of a timeout due to system load.
+NO_CONTENT is returned when recommendations are unavailable for the requested algorithm and key combination. This situation generally occurs when backups are disabled for the algorithm and one or more of the following conditions is also true:
 
-## Must I specify the mbox name when creating Recommendations criteria, promotions, or template testing rules? {#section_FFA42ABCC5954B48A46526E32A3A88A2}
+* Results are not yet ready.
 
-When creating a Recommendations criteria, promotions, or template testing rule based on an mbox parameter, `mboxParameter` no longer prompts you for `mboxName`. mbox name is now optional. This change lets you use parameters from multiple mboxes or reference a parameter that has not yet been recorded on the edge.
+  This situation typically occurs when a newly created activity is first saved, or after configuration changes are made to the collection, criteria, or promotions used in the activity.
 
-To select the desired parameter:
+* Results are ready, but not yet cached at the nearest edge server for the requested algorithm and key combination.
 
-* While creating a criteria, promotion, or template testing rule, select a parameter name from the list. Start typing the first characters of the desired parameter name, or type the full name of the desired parameter name. 
-* If you remember the mbox name, but not the parameter name, use the checkbox to filter on a known mbox passing the desired parameter.
+  The request initiates a caching operation, so this issue resolves after a few page reloads or after a few minutes.
 
-Using either method, there is no link between the mbox and the parameter. The criteria, promotion, or template testing rule works based on parameter across all mboxes that pass that parameter.
-
-If you edit an existing criteria, promotion, or template testing rule, the filtering criteria displays with the mbox name that was supplied during creation.
-
-## Why cannot I save my legacy Recommendations activity after defining a new audience? {#section_1E47C40B1FE7479BAC3EE0F50CE7C2C4}
-
-Ensure that the audience has a unique name. If you gave the audience the same name as an existing audience, you cannot save your legacy Recommendations activity (a Recommendations activity created before October 2016).
-
-## What is the maximum size of a CSV file for a feed upload? {#section_20F1AF4839A447B9889B246D6E873538}
-
-There is no hard limit on the number of rows or file size for a feed's CSV file upload. However, as a best practice, Adobe recommends limiting the CSV file size to 1 GB to avoid failures during the file upload process. If the size of the file exceeds 1 GB, it can ideally be split into multiple feed files. The maximum number of custom attribute columns is 100 and custom attributes are limited to 4096 characters. Other limits on the length of required columns are available on the [[!DNL Target] Limitations page](/help/main/r-troubleshooting-target/target-limits.md#reference_BEFE60C3AAA442FF94D4EBFB9D3CC9B1).
-
-## Why does my [!UICONTROL Download data] action fail in a [!DNL Recommendations] activity? {#download-data-error}
-
-When you click **[!UICONTROL Download data]** on the [!UICONTROL Activity Overview] page of a [!DNL Recommendations] activity, the [!DNL Target] user interface might display the error `Error while fetching recommendation data file.`
-
-This typically happens when the activity has a very large result set: the generated CSV exceeds the response size that can be returned through the user interface in a single download. The recommendation data itself is intact, only the in-browser download path is unable to deliver a file of that size.
-
-## Can I dynamically exclude an entity? {#exclude}
-
-In the query string, you can pass entity IDs for entities that you want to exclude from your recommendations. For example, you can exclude items that are already in the shopping cart.
-
-To enable the exclusion functionality, use the `excludedIds` mbox parameter. This parameter points to a list of comma-separated entity IDs. For example, `mboxCreate(..., "excludedIds=1,2,3,4,5")`. The value is sent when requesting recommendations.
-
-The exclusion is performed for the current [!DNL Target] call only; items are not excluded on subsequent [!DNL Target] calls unless the `excludedIds` value is passed again. To exclude items in the cart from recommendations on every page, continue to pass the `excludedIds` value on every page.
-
->[!NOTE]
->
->If too many entities are excluded, recommendations behave as if there are not enough entities to fill the recommendation template.
-
-To exclude `entityIds`, append the `&excludes=${mbox.excludedIds}` token to the offer content url. When the content url is extracted, the required parameters are substituted using current mbox request parameters.
-
-By default, this feature is enabled for newly created recommendations. Existing recommendations must be saved to support Dynamically Excluded entities.
-
-## What does the NO_CONTENT response sometimes returned in the Recommendations content trace mean?
-
-NO_CONTENT is returned when recommendations are unavailable for the requested algorithm and key combination. Generally speaking, this situation occurs when backups are disabled for the algorithm and one or more of the following is also true:
-
-* Results are not yet ready. 
-
-  This situation typically occurs when first saving a newly created activity or after configuration changes are made to the collection, criteria, or promotions used in the activity.
-  
-* Results are ready, but not yet cached at the nearest edge server, for the requested algorithm/key combination. 
-
-  The request initiates a caching operation, so this issue should resolve itself after a few page reloads and/or a few minutes pass.
-  
 * Results are ready, but not available for the provided key value.
 
-  This situation typically occurs when requesting recommendations for an item that was added to the catalog after the most recent algorithm run and will resolve itself after the next algorithm run.
-  
+  This situation typically occurs when recommendations are requested for an item that was added to the catalog after the most recent algorithm run. It resolves after the next algorithm run.
+
 * Partial template rendering is disabled and not enough results are available to fill the template.
 
-  This situation typically occurs when you have a dynamic inclusion rule, which aggressively filters many items from the possible results. To avoid situation, enable backups and do not apply the inclusion rule to backups, or use the criteria in sequence with a less-aggressively filtered criteria.
+  This situation typically occurs with a dynamic inclusion rule that aggressively filters many items from the possible results. To avoid this situation, enable backups and do not apply the inclusion rule to backups, or use the criteria in sequence with a less aggressively filtered criteria.
 
-## Do recommendations based on recently viewed items persist across multiple devices for a single visitor? {#persist-across-devices}
++++
 
-When a visitor initiates a session, the session ID is tied to a single edge machine and a temporary profile cache is stored on this edge machine. Subsequent requests from the same session read this profile cache, including recently viewed items.
++++ What should be done when a collection in [!DNL Recommendations] goes to zero (0)?
 
-When the session ends (generally, when it expires after 30 minutes of no activity), the session state, including recently viewed items, is then persisted to a more permanent profile storage in the same geographic edge.
+Consider the following when a collection that previously was not at zero goes to zero:
 
-Subsequent sessions from different devices are then able to access these recently viewed items as long as the new session is linked to the customer profile via the same Marketing Cloud ID (MCID), Experience Cloud ID (ECID), or CustomerID/mbox3rdPartyId.
+* Resave the collection and check whether the number updates. Resaving reruns all algorithms that use that collection.
+* Check that the right environment is displayed. Click **[!UICONTROL Administration]** > **[!UICONTROL Recommendations]**, then check the **[!UICONTROL Default Host Group]** setting in the **[!UICONTROL Product Catalog]** section.
 
-If a visitor has two active sessions at the same time, recently viewed items on one device do not update the recently viewed items on the other device, unless the devices are forced to share the session ID. There is a potential workaround for the issue, but [!DNL Target] does not directly support sharing a session ID across multiple devices. The customer must manage this ID sharing themselves.
+  ![Recommendations page of the Administration tab with the Default Host Group drop-down highlighted in the Product Catalog section](../assets/reco_faq_1.png)
 
-This behavior still occurs if a visitor is active on one device and then becomes active on the other device a few minutes later. The first device's session does not expire for 30 minutes and there can be up to five minutes of delay before the profile state is written to the permanent state and processed. Allow 35 minutes for the session to expire and the profile to be stored when testing this behavior.
+* Check that the index is up to date. Click **[!UICONTROL Recommendations]** > **[!UICONTROL Catalog Search]** and check how many hours old the index is (for example, "Indexed 3 hours ago"). The index can be refreshed as needed.
+* Check whether something changed in the feed or the data layer that resulted in the entities no longer matching the collection rules. Make sure the case matches (the rules are case-sensitive).
+* Check whether the feed ran successfully, or whether someone changed the FTP directory, the password, and so forth.
+* [!DNL Target] updates the delivery (on the customer page or app) as quickly as possible, and it also has to provide a representation in the UI for the marketer. [!DNL Target] does not delay delivery updates to wait for the UI updates to be in sync. Use [mboxTrace](/help/main/c-activities/c-troubleshooting-activities/content-trouble.md) to see what is in the system at the time a request comes in.
 
-If the visitor does not have two active sessions at the same time, recently viewed items on one device update the recently viewed items on the other device as long as the session has ended. Allow 35 minutes for the session to expire when testing this behavior.
++++
 
-## Can I use an algorithm created in [!DNL Adobe Recommendations Classic] in [!DNL Recommendations Premium]?
++++ Why does the **[!UICONTROL Download data]** action fail in a [!DNL Recommendations] activity?
 
-An algorithm created in [!DNL Recommendations Classic] is not supported in [!DNL Recommendations Premium]. You might be able to use the legacy algorithm in [!DNL Target Premium]; however, the algorithm can create sync issues when deactivating or deleting the activity in the [!DNL Target Premium] UI. For more information about the differences between the two solutions, see [[!DNL Recommendations Classic] versus [!DNL Recommendations] activities in [!DNL Target Premium]](/help/main/c-recommendations/c-recommendations-faq/recommendations-classic-versus-recommendations-activities-target-premium.md).
+When **[!UICONTROL Download data]** is clicked on the **[!UICONTROL Activity Overview]** page of a [!DNL Recommendations] activity, the [!DNL Target] user interface might display the error `Error while fetching recommendation data file.`
 
-## How can I recommend only new articles or videos? {#recommend-new-articles}
+This error typically occurs when the activity has a very large result set. The generated CSV exceeds the response size that can be returned through the user interface in a single download. The recommendation data itself is intact. Only the in-browser download path cannot deliver a file of that size.
 
-Some customers in media and publishing want to ensure that recommended items include only the newest articles or videos. As an example, a [!DNL Target] customer used the following approach to recommend articles fewer than 60 days old:
++++
 
-1. Pass the article publish date, in YYMMDDD format, as a custom entity attribute.
-1. Create a profile script that is today's date minus 60 days, also in YYYYMMDD format.
-1. Use a dynamic inclusion filter in the criteria so that `publish date > today's date minus 60 days`.
-
-### Pass the publish date as a custom entity attribute:
-
-|Entity attribute|Example|
-| --- | --- |
-|issueDate|2021218|
-|lastViewDate|2021701|
-|parentCategory|commentary|
-|publishDate|20210113|
-|publishDateDisplay|Jan 13, 2021|
-
-### Configure the profile script:
-
-![Sample profile script](/help/main/c-recommendations/c-recommendations-faq/assets/sample-profile-script.png)
-
-### Configure the inclusion rule:
-
-![Sample inclusion rule](/help/main/c-recommendations/c-recommendations-faq/assets/sample-inclusion-rule.png)
-
->[!NOTE]
->
->This example could also be accomplished using parameter matching and passing the `priorDate60` value as an mbox parameter.
-
-### What are some known issues when using [!DNL Recommendations] activities?
+## Known issues {#known-issues}
 
 The following are known issues with [!UICONTROL Recommendations] activities:
 
-* When [!DNL Target] returns a JSON offer with getOffer(), it returns with type of JSON. However, if you return a JSON Recommendations design it returns with a type of HTML.
-* Expired entities are correctly expired after 60 days of receiving no updates via feed or API; however, the expired entities are not removed from the Catalog Search index after expiration. Entities deleted via feed or API are also not currently removed from the Catalog Search index. (IRI-857)
-* Recommendations Offers in A/B and Experience Targeting activities do not show a visual preview of the Recommendations tray (TGT-33426)
-* The Custom Criteria feed status displayed in the Criteria list (card) view is refreshed every ten minutes and might be more than ten minutes out of date in rare circumstances. The status displayed in the Custom Criteria edit view is fetched in real time and is always up to date. (TGT-35896, TGT-36173)
+* When [!DNL Target] returns a JSON offer with `getOffer()`, it returns a type of JSON. A JSON [!DNL Recommendations] design, however, returns a type of HTML.
+* Expired entities are correctly expired after 60 days of receiving no updates through a feed or the API. However, the expired entities are not removed from the **[!UICONTROL Catalog Search]** index after expiration. Entities deleted through a feed or the API are also not currently removed from the **[!UICONTROL Catalog Search]** index. (IRI-857)
+* [!DNL Recommendations] offers in A/B and Experience Targeting activities do not show a visual preview of the [!DNL Recommendations] tray. (TGT-33426)
+* The Custom Criteria feed status displayed in the criteria list (card) view is refreshed every ten minutes, and might be more than ten minutes out of date in rare circumstances. The status displayed in the Custom Criteria edit view is fetched in real time and is always up to date. (TGT-35896, TGT-36173)

@@ -19,112 +19,82 @@ topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
     internal-label: Customer experience
 ---
-# Recommendations as an offer
+# Recommendations as an offer {#recommendations-as-an-offer}
 
-You can now include recommendations inside [!UICONTROL A/B Test] (including [!UICONTROL Auto-Allocate] and [!UICONTROL Auto-Target]) and [!UICONTROL Experience Targeting] (XT) activities. 
+>[!BEGINSHADEBOX]
 
-This functionality opens up entirely new capabilities, such as:
+**On this page:** Learn how to add, edit, and delete a recommendation as an offer in [!UICONTROL A/B Test] and [!UICONTROL Experience Targeting] (XT) activities.
+
+>[!ENDSHADEBOX]
+
+In addition to [!UICONTROL Recommendations] activities, recommendations can be included inside [!UICONTROL A/B Test] (including [!UICONTROL Auto-Allocate] and [!UICONTROL Auto-Target]) and [!UICONTROL Experience Targeting] (XT) activities. This allows the following:
 
 * Test and target recommendations and non-recommendations content within the same activity.
-* Easily experiment with placement of recommendations on the page, including the order of multiple recommendations.
-* Automatically push traffic to the best-performing recommendations experience using [!UICONTROL Auto-Allocate].
-* Dynamically assign visitors to tailored recommendations experiences based on their profile using [!UICONTROL Auto-Target].
+* Experiment with the placement of recommendations on the page, including the order of multiple recommendations.
+* Automatically push traffic to the best-performing recommendations experience with **[!UICONTROL Auto-Allocate]**.
+* Dynamically assign visitors to tailored recommendations experiences based on their profile with **[!UICONTROL Auto-Target]**.
 
-To get started, create an [!UICONTROL A/B Test] or [!UICONTROL Experience Targeting] activity using the [!UICONTROL Visual Experience Composer] and use the [!UICONTROL Insert Before], [!UICONTROL Insert After], or [!UICONTROL Replace With] action to add recommendations to an experience.
+## Add a recommendation as an offer {#add-recs-offer}
 
-## Add a recommendation as an offer in an A/B Test or XT activity
+A recommendation is added as an offer while an experience is created with the [!UICONTROL Visual Experience Composer] (VEC) in an [!UICONTROL A/B Test] or XT activity.
 
-1. Start the three-step guided workflow using the Visual Experience Composer (VEC) to create an [A/B Test](/help/main/c-activities/t-test-ab/t-test-create-ab/test-create-ab.md) or [Experience Targeting](/help/main/c-activities/t-experience-target/t-xt-create/xt-create.md) (XT) activity.
-  
+1. Start the three-step guided workflow of the VEC to create an [A/B Test](/help/main/c-activities/t-test-ab/t-test-create-ab/test-create-ab.md) or [Experience Targeting](/help/main/c-activities/t-experience-target/t-xt-create/xt-create.md) (XT) activity.
+
    >[!NOTE]
    >
-   >For A/B Tests, remember that you can choose the [Auto-Allocate](/help/main/c-activities/automated-traffic-allocation/automated-traffic-allocation.md) option to automatically push traffic to the best-performing recommendations or the [Auto-Target](/help/main/c-activities/auto-target/auto-target-to-optimize.md) option to assign visitors to tailored recommendations experiences based on their profile.
+   >For A/B Tests, the [Auto-Allocate](/help/main/c-activities/automated-traffic-allocation/automated-traffic-allocation.md) option automatically pushes traffic to the best-performing recommendations, and the [Auto-Target](/help/main/c-activities/auto-target/auto-target-to-optimize.md) option assigns visitors to tailored recommendations experiences based on their profile.
 
-1. While creating an [experience](/help/main/c-experiences/c-visual-experience-composer/viztarget-options.md), click the element you want to add a recommendation to as an offer, click **[!UICONTROL Replace Content]**, then select **[!UICONTROL Recommendation]**.
+1. While creating an [experience](/help/main/c-experiences/c-visual-experience-composer/viztarget-options.md), click the element to which the recommendation is added as an offer, click **[!UICONTROL Replace Content]**, then select **[!UICONTROL Recommendation]**.
 
-   ![Insert recommendation as an offer](/help/main/c-recommendations/t-create-recs-activity/assets/recs-as-offer.png)
+   ![Visual Experience Composer with a heading selected and the Recommendation option highlighted in the menu, next to the HTML Offer and Experience Fragment options](/help/main/c-recommendations/t-create-recs-activity/assets/recs-as-offer.png)
 
-1. Select from the following options to view popular recommendations criteria by page type:
+1. Access the **[!UICONTROL Show properties]** menu and click **[!UICONTROL Select a recommendation]**.
 
-   * Cart Page
-   * Category Page
-   * Home Page
-   * Landing Page
-   * Product Page
-   * Search Results Page
-   * Thank You Page
-   * Other
+1. Select the desired [criteria](/help/main/c-recommendations/c-algorithms/algorithms.md), then click **[!UICONTROL Next]**.
 
-1. Select the desired [criteria](/help/main/c-recommendations/c-algorithms/algorithms.md), then click [!UICONTROL Next].
-1. Select the desired [design](/help/main/c-recommendations/c-design-overview/design-overview.md), then click [!UICONTROL Next].
-1. In the [!UICONTROL Options] dialog box, specify the following:
+1. Select the desired [design](/help/main/c-recommendations/c-design-overview/design-overview.md), then click **[!UICONTROL Next]**.
+
+1. In the **[!UICONTROL Options]** dialog box, specify the following:
 
    * Choose a [collection](/help/main/c-recommendations/c-products/collections.md).
-   * Configure the [Front Promotion and Back Promotion](/help/main/c-recommendations/t-create-recs-activity/adding-promotions.md) options, as necessary. 
+   * If necessary, configure the [Front Promotion and Back Promotion](/help/main/c-recommendations/t-create-recs-activity/adding-promotions.md) options.
 
-1. Click [!UICONTROL Save].
-1. Finish configuring the A/B Test or XT activity using the three-part guided workflow.
+1. Click **[!UICONTROL Save]**.
 
-## Edit a recommendations offer's configuration
+1. Finish configuring the [!UICONTROL A/B Test] or XT activity with the three-step guided workflow.
 
-There are two ways you can edit an offer's configuration: 
+## Edit a recommendations offer {#edit-recs-offer}
 
-* Using the [!UICONTROL Edit] menu
-* Using the [!UICONTROL Modifications] panel 
+The criteria, design, collection, and promotions of a recommendations offer can be changed after the offer is added, from the **[!UICONTROL Recommendation]** pane.
 
-### Edit a recommendations offer using the Edit menu
+1. Click the offer to edit and browse through the options in the right-pane menu.
 
-1. Click the offer you want to edit, then click **[!UICONTROL Edit]**.
+   ![Recommendation pane with the criteria, design, and collection names and the Add promotion button of the selected offer](assets/create_reco_7.png)
 
-   ![Edit recommendations offer](/help/main/c-recommendations/assets/recs-offer-edit.png)
-
-1. Choose from the following options:
+1. Select one of the following options:
 
    * [Change Criteria](/help/main/c-recommendations/c-algorithms/algorithms.md)
    * [Change Design](/help/main/c-recommendations/c-design-overview/design-overview.md)
    * [Change Collection](/help/main/c-recommendations/c-products/collections.md)
    * [Change Promotion](/help/main/c-recommendations/t-create-recs-activity/adding-promotions.md)
 
-1. Make your edits.
+1. Make the edits.
 
-### Edit a recommendations offer using the Modifications panel
+## Delete a recommendations offer {#delete-recs-offer}
 
-1. Click the [!UICONTROL Modifications] icon  **( `</>` )** to display the [Modifications](/help/main/c-experiences/c-visual-experience-composer/c-vec-code-editor/vec-code-editor.md) pane.
-1. Hover over the desired action, then click the **[!UICONTROL Edit]** icon.
+A recommendations offer that is no longer needed can be deleted from the **[!UICONTROL Recommendation]** pane.
 
-   ![Modifications panel](/help/main/c-recommendations/assets/recs-offer-modifications.png)
+Click the offer to remove, then click the bin icon ( ![Bin icon](assets/Smock_Delete_18_N.svg) ) in the **[!UICONTROL Recommendation]** pane.
 
-1. Make your edits.
+![Recommendation pane with the bin icon highlighted](assets/create_reco_8.png)
 
-## Delete a recommendations offer
+## View the status of a recommendations offer {#status}
 
-There are two ways to delete a recommendations offer:
+The status of the recommendations offer (algorithm) displays at the bottom of the **[!UICONTROL Overview]** page for [!UICONTROL A/B Test] and XT activities that contain recommendations offers. The status is one of the following:
 
-* Using the [!UICONTROL Edit] menu
-* Using the [!UICONTROL Modifications] panel
-
-### Delete a recommendations offer using the Edit Menu
-
-1. Click the offer you want to remove, then click **[!UICONTROL Layout > Remove]**.
-
-   ![Remove](/help/main/c-recommendations/assets/recs-offer-remove.png)
-
-### Delete a recommendations offer using the Modifications panel
-
-1. Click the [!UICONTROL Modifications] icon **( </> )** to display the [Modifications](/help/main/c-experiences/c-visual-experience-composer/c-vec-code-editor/vec-code-editor.md) pane.
-1. Hover over the desired action, then click the [!UICONTROL Delete] icon.
-
-   ![Delete icon](/help/main/c-recommendations/assets/recs-offer-delete.png)
-
-### Viewing the recommendations offer's status {#status}
-
-The recommendations offer's (algorithm) status displays at the bottom of the [!UICONTROL Overview] page for A/B Test and XT activities that contain Recommendations offers: 
-
-* Results Ready
-* Results Not Ready
-* Feed Failure
-
-![Recommendations offer status](/help/main/c-recommendations/assets/recs-offer-status.png)
+* **[!UICONTROL Results Ready]**
+* **[!UICONTROL Results Not Ready]**
+* **[!UICONTROL Feed Failure]**
 
 ## Training video: Recommendations as an offer ![Overview badge](/help/main/assets/overview.png)
 

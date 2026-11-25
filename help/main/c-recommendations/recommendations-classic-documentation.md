@@ -20,16 +20,20 @@ topic_v2:
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
     internal-label: Troubleshooting
 ---
-# Recommendations Classic documentation
+# Recommendations Classic documentation {#recs-classic-documentation}
 
-[!DNL Recommendations Classic] automatically displays products or content that might interest your customers based on previous user activity on your website.
+>[!BEGINSHADEBOX]
+
+**On this page:** Find the documentation of [!DNL Recommendations Classic], the legacy [!DNL Recommendations] product.
+
+>[!ENDSHADEBOX]
+
+[!DNL Recommendations Classic] automatically displays products or content that might interest customers, based on previous user activity on the website. These recommendations help direct customers to items that they might otherwise not know about, which improves the sales generated on the website.
 
 >[!IMPORTANT]
 >
->[!DNL Recommendations Classic] is a legacy product and is no longer licensed to new customers. For the best [!DNL Recommendations] experience, upgrade to [!DNL Recommendations] activities available in [Adobe Target Premium](/help/main/c-intro/intro.md).
+>[!DNL Recommendations Classic] is a legacy product and is no longer licensed to new customers. For the best [!DNL Recommendations] experience, upgrade to [!DNL Recommendations] activities, which are available in [Adobe Target Premium](/help/main/c-intro/intro.md).
 
-Recommendations help direct customers to items they might otherwise not know about, improving sales generated on your website.
+To choose between [!DNL Recommendations Classic] and [!DNL Recommendations] activities in [!DNL Target Premium], see [Recommendations Classic versus Recommendations activities in Target Premium](/help/main/c-recommendations/c-recommendations-faq/recommendations-classic-versus-recommendations-activities-target-premium.md).
 
-For information to help you choose between [!DNL Recommendations Classic] and [!DNL Recommendations] activities in [!DNL Target Premium], see [Recommendations Classic versus Recommendations activities in Target Premium](/help/main/c-recommendations/c-recommendations-faq/recommendations-classic-versus-recommendations-activities-target-premium.md).
-
-Download the documentation for [Adobe Recommendations Classic](/help/main/assets/adobe-recommendations-classic.pdf) in PDF format.
+The documentation for [Adobe Recommendations Classic](/help/main/assets/adobe-recommendations-classic.pdf) can be downloaded in PDF format.

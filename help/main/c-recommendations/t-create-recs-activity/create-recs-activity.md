@@ -97,7 +97,7 @@ Criteria determine which items are recommended and how they are chosen for each 
 
    >[!NOTE]
    >
-   >Not every criteria runs correctly on every page. For current item or current category recommendations to be compatible, the page or mbox must pass in `entity.id` or `entity.categoryId`. It is best to show only compatible criteria. To make incompatible criteria available for the activity, clear the **[!UICONTROL Compatible]** check box. This check box might not display, depending on the **[!UICONTROL Recommendations]** > **[!UICONTROL Settings]** > **[!UICONTROL Filter Incompatible Criteria]** setting. For more information, see [Settings](https://experienceleague.adobe.com/docs/target-dev/developer/recommendations.html){target=_blank}.
+   >Not every criteria runs correctly on every page. For current item or current category recommendations to be compatible, the page or mbox must pass in `entity.id` or `entity.categoryId`. It is best to show only compatible criteria. To make incompatible criteria available for the activity, clear the **[!UICONTROL Compatible]** check box. This check box might not display, depending on the **[!UICONTROL Administration]** > **[!UICONTROL Recommendations]** > **[!UICONTROL Filter Incompatible Criteria]** setting. For more information, see [Settings](https://experienceleague.adobe.com/docs/target-dev/developer/recommendations.html){target=_blank}.
 
 1. Optionally, find or create criteria:
 
