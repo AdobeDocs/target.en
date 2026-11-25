@@ -22,9 +22,15 @@ topic_v2:
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
     internal-label: Troubleshooting
 ---
-# Include the same experience on similar pages
+# Include the same experience on similar pages {#similar-pages}
 
-Use a page template in [!DNL Adobe Target] to provide structure to your pages, or if your pages contain similar elements, to test variations in similarly structured page elements or across your entire domain.
+>[!BEGINSHADEBOX]
+
+**On this page:** Learn how to use page delivery rules in the [!UICONTROL Visual Experience Composer] (VEC) to include the same experience on pages that have a similar structure.
+
+>[!ENDSHADEBOX]
+
+A page template in [!DNL Adobe Target] provides structure to pages. When pages contain similar elements, variations in those similarly structured page elements can be tested across multiple pages or across an entire domain.
 
 To work correctly, this feature must be used on pages that have a similar structure or contain template elements that are structured the same on all pages.
 
@@ -32,66 +38,54 @@ To work correctly, this feature must be used on pages that have a similar struct
 >
 >Using this feature to change elements across dissimilar pages likely causes unexpected results.
 
-For example, you might use this feature to do one of the following:
+This feature can be used, for example, to do one of the following:
 
-* Test a global navigation bar by rearranging or removing elements 
-* Remove an item from all product pages that use a particular page template 
-* Add a banner to all product pages 
+* Test a global navigation bar by rearranging or removing elements
+* Remove an item from all product pages that use a particular page template
+* Add a banner to all product pages
 * Change the layout of the article template
 
-You can specify pages that include the change elements, or apply the change across your site or domain. 
+## Specify the pages for an experience {#specify-pages}
+
+The pages where an experience appears are specified with page delivery rules. The rules can include specific pages, or apply the change across the site or domain.
 
 1. Create or edit an activity as described in [Activities](/help/main/c-activities/activities.md).
 
-1. To specify the pages where the experience appears, in the [!UICONTROL Visual Experience Composer] (VEC) click the [!UICONTROL Configure] icon ( ![Configure icon](/help/main/assets/icons/Setting.svg) ), then select **[!UICONTROL Page Delivery]**.
+1. In the [!UICONTROL Visual Experience Composer] (VEC), click the **[!UICONTROL Configure]** icon ( ![Configure icon](/help/main/assets/icons/Setting.svg) ), then select **[!UICONTROL Page Delivery]**.
 
-1. Click **[!UICONTROL Add Rule]**, then specify the criteria for the pages you want to add the experience to.
+    ![Activities](assets/vec_edit_1.png)
 
-1. Specify the page range. The page range can be one of the following:
+1. Click **[!UICONTROL Add Rule]**, then specify the criteria for the pages to add the experience to.
 
-    * [!UICONTROL URL] (For more information about how [!DNL Target] evaluates URLs, see [Targets and audiences FAQ](/help/main/c-target/c-troubleshooting-targets-and-audiences/troubleshooting-targets-and-audiences.md).)
-    * [!UICONTROL Domain]
-    * [!UICONTROL Path]
-    * [!UICONTROL Hash (#) Fragment] (target the part of a URL that follows the # symbol.) 
-    * [!UICONTROL Query]
-    * [!UICONTROL Custom]
+1. Specify the page range: **[!UICONTROL URL]**, **[!UICONTROL Domain]**, **[!UICONTROL Path]**, **[!UICONTROL Hash (#) Fragment]** (the part of a URL that follows the # symbol), **[!UICONTROL Query]**, or **[!UICONTROL Custom]**.
 
-1. Choose an operator.
+   For more information about how [!DNL Target] evaluates URLs, see [Targets and audiences FAQ](/help/main/c-target/c-troubleshooting-targets-and-audiences/troubleshooting-targets-and-audiences.md).
 
-   The operator specifies how the items after the operator relate to the page range. Available operators include:
+    ![Activities](assets/vec_edit_2.png)
 
-    * [!UICONTROL Contains]
-    * [!UICONTROL Does not contain]
-    * [!UICONTROL Is (case sensitive)]
-    * [!UICONTROL Is not]
-    * [!UICONTROL Starts with]
-    * [!UICONTROL Ends with]
+1. Choose an operator. The operator specifies how the items after the operator relate to the page range.
 
 1. Type the strings that define where the experience is added, such as the domain or the strings contained in the page name.
 
-   For example, if you select **[!UICONTROL Domain]** and **[!UICONTROL Is (case sensitive)]**, type the domain where you want the experience added to all pages.
+   For example, if **[!UICONTROL Domain]** and **[!UICONTROL Is (case sensitive)]** are selected, type the domain where the experience is added to all pages.
 
-   You can include multiple items.
+   Multiple items can be included. Multiple items use OR logic, meaning that any single item in the list makes the condition true.
 
-   >[!IMPORTANT]
-   >
-   >Multiple items use OR logic, meaning that any single item in the list makes the condition true.
-
-1. If desired, enter additional criteria by clicking **[!UICONTROL Add Rule]** and repeating the procedure in the previous steps.
+1. (Optional) Click **[!UICONTROL Add Rule]** and repeat steps 3 to 6 to enter additional criteria.
 
    Multiple criteria are joined with AND logic. [!DNL Target] adds the experience to all pages that match the specified criteria.
 
 >[!IMPORTANT]
 >
-> [!DNL Target] cannot check the pages to make sure they appear as expected, so it is always an important practice when using this feature to test affected pages before making them public.
+>[!DNL Target] cannot check the pages to make sure they appear as expected, so it is always an important practice when using this feature to test the affected pages before making them public.
 
-## Use cases
+## Use cases {#use-cases}
 
-Review the following use cases for ways to use template rules on your site:
+Template rules can be used on a site in different ways, as the following use case shows.
 
-### Render the same activity across the entire domain
+### Render the same activity across the entire domain {#entire-domain}
 
-You might consider using template rules to render the same activity across your entire domain for the following use cases:
+Template rules can render the same activity across the entire domain, for example:
 
 * To include a global header or footer
 * To include a global banner (for example, COVID-19 announcements)
@@ -99,8 +93,10 @@ You might consider using template rules to render the same activity across your 
 
 1. Create or edit an activity as described in [Activities](/help/main/c-activities/activities.md).
 
-1. To specify the domain where the experience appears, in the [!UICONTROL Visual Experience Composer] click the [!UICONTROL Configure] icon ( ![Configure icon](/help/main/assets/icons/Setting.svg) ), then select **[!UICONTROL Page Delivery]**.
+1. To specify the domain where the experience appears, in the [!UICONTROL Visual Experience Composer] click the **[!UICONTROL Configure]** icon ( ![Configure icon](/help/main/assets/icons/Setting.svg) ), then select **[!UICONTROL Page Delivery]**.
 
 1. Click **[!UICONTROL Add Rule]** > **[!UICONTROL Domain]**.
 
 1. From the **[!UICONTROL Choose evaluator]** drop-down, select **[!UICONTROL Contains]**, then specify the domain.
+
+    ![Activities](assets/vec_edit_3.png)

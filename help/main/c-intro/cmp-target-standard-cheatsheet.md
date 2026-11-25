@@ -147,7 +147,7 @@ Note that the traffic requirement increases with MVT activities.
 **Can I run an activity spanning multiple pages where the page structure is different? Can I apply offers at different locations (for example, the checkout funnel)?**
 
 +++See details
-Try out the [Multi-page activity feature](/help/main/c-experiences/c-visual-experience-composer/multipage-activity.md#concept_277E096063E14813AC5D8EDFA1D2ED48) that lets you use multiple pages within experiences.
+Try out the [Multi-page activity feature](/help/main/c-experiences/c-visual-experience-composer/multipage-activity.md#multipage-activity) that lets you use multiple pages within experiences.
 
 +++
 
@@ -280,7 +280,7 @@ Check out following aspects of the product:
 **Can I run an activity on multiple pages where the page structure is common?**
 
 +++See details
-Check out [Template Rules](/help/main/c-experiences/c-visual-experience-composer/temtest.md#task_2539D51A18044F82B0D9895636546781) to include many similar structured pages to the activity while still creating the experience on the single URL provided.
+Check out [Template Rules](/help/main/c-experiences/c-visual-experience-composer/temtest.md#similar-pages) to include many similar structured pages to the activity while still creating the experience on the single URL provided.
 
 +++
 
@@ -296,7 +296,7 @@ Until this happens, follow the instructions in [Enabling Mixed Content in Your B
 **Can I try the [!UICONTROL Visual Experience Composer] (VEC) on my site even though the [!DNL Target] at.js library has yet not been deployed?**
 
 +++See details
-Try loading the page with the [Enhanced Experience Composer](/help/main/c-experiences/experiences.md#section_34265986611B4AB8A0E4D6ACC25EF91D).
+Try loading the page with the [Enhanced Experience Composer](/help/main/c-experiences/c-visual-experience-composer/experience-composer-best-practices.md#enable-eec).
 
 +++
 
@@ -307,7 +307,7 @@ Try out the [troubleshooting information](/help/main/c-experiences/c-visual-expe
 
 We also have [form-based approach](/help/main/c-experiences/form-experience-composer.md#task_FAC842A6535045B68B4C1AD3E657E56E) which can unblock you.
 
-Also read when and why the [Enhanced Experience Composer](/help/main/c-experiences/experiences.md#section_34265986611B4AB8A0E4D6ACC25EF91D) can be useful. You might have to reach out to your IT department to [allowlist Adobe's proxy servers](/help/main/c-experiences/c-visual-experience-composer/experience-composer-best-practices.md#concept_E284B3F704C04406B174D9050A2528A6) as well.
+Also read when and why the [Enhanced Experience Composer](/help/main/c-experiences/c-visual-experience-composer/experience-composer-best-practices.md#enable-eec) can be useful. You might have to reach out to your IT department to [allowlist Adobe's proxy servers](/help/main/c-experiences/c-visual-experience-composer/experience-composer-best-practices.md#vec-best-practices) as well.
 
 +++
 
@@ -321,7 +321,7 @@ Try out the [Mobile Viewports](/help/main/c-experiences/c-visual-experience-comp
 **I have multiple domains. One of the domains needs the [!UICONTROL Enhanced Experience Composer] enabled, while others need it to be disabled. How can I do this?**
 
 +++See details
-You can always use [Enhanced Experience Composer option at the activity level](/help/main/c-experiences/experiences.md#section_34265986611B4AB8A0E4D6ACC25EF91D) to override the default setting ([!UICONTROL Administration] > [!UICONTROL Visual Experience Composer]).
+You can always use [Enhanced Experience Composer option at the activity level](/help/main/c-experiences/c-visual-experience-composer/experience-composer-best-practices.md#enable-eec) to override the default setting ([!UICONTROL Administration] > [!UICONTROL Visual Experience Composer]).
 
 +++
 
@@ -342,7 +342,7 @@ You can easily achieve this with our [Multiple Experience Versions feature](/hel
 **How can I see what modifications I made in [!UICONTROL Visual Experience Composer] (VEC)?**
 
 +++See details
-We always show your changes in the [Code Editor](/help/main/c-experiences/c-visual-experience-composer/c-vec-code-editor/vec-code-editor.md#concept_B3A6E9EE3A60406DB640E205EA1745B5). The [!UICONTROL Modifications] tab shows the CSS Selector or mbox you applied to your offer.
+We always show your changes in the [Code Editor](/help/main/c-experiences/c-visual-experience-composer/c-vec-code-editor/vec-code-editor.md#vec-code-editor). The [!UICONTROL Modifications] tab shows the CSS Selector or mbox you applied to your offer.
 
 Note that the CSS Selector is a Sizzle Selector. You can use this section to make minor modifications or delete certain offers quickly.
 
@@ -351,7 +351,7 @@ Note that the CSS Selector is a Sizzle Selector. You can use this section to mak
 **I want to deliver JavaScript as part of the experiment/activity to either make modifications on the fly for some dynamic elements or simply to send a call to a 3rd-party solution. How can I do this?**
 
 +++See details
-One of the ways is to use the [Custom Code Editor](/help/main/c-experiences/c-visual-experience-composer/c-vec-code-editor/vec-code-editor.md#concept_B3A6E9EE3A60406DB640E205EA1745B5). Go ahead and put your JavaScript in the section and it will get delivered. You have the option to deliver it in the head or at the top of the body, depending on your needs.
+One of the ways is to use the [Custom Code Editor](/help/main/c-experiences/c-visual-experience-composer/c-vec-code-editor/vec-code-editor.md#vec-code-editor). Go ahead and put your JavaScript in the section and it will get delivered. You have the option to deliver it in the head or at the top of the body, depending on your needs.
 
 +++
 
@@ -374,7 +374,7 @@ Use [form-based approach](/help/main/c-experiences/form-experience-composer.md#t
 **Why am I not seeing the desired offer/experience and am instead seeing some other activity?**
 
 +++See details
-Use our [debugger](/help/main/c-activities/c-troubleshooting-activities/content-trouble.md#debugging-tools) and check for [activity collisions](/help/main/c-experiences/c-visual-experience-composer/activity-collisions.md#concept_0BC6B929592744DFA7DA01FF4F91052E).
+Use our [debugger](/help/main/c-activities/c-troubleshooting-activities/content-trouble.md#debugging-tools) and check for [activity collisions](/help/main/c-experiences/c-visual-experience-composer/activity-collisions.md#activity-collisions).
 
 +++
 
@@ -398,7 +398,7 @@ It is possible that your site might have dynamic IDs, duplicate IDs, or dynamic 
 **Why am I not seeing the desired offer/experience and am instead seeing some other activity?**
 
 +++See details
-Use our [debugger](/help/main/c-activities/c-troubleshooting-activities/content-trouble.md#debugging-tools) and check for [activity collisions](/help/main/c-experiences/c-visual-experience-composer/activity-collisions.md#concept_0BC6B929592744DFA7DA01FF4F91052E).
+Use our [debugger](/help/main/c-activities/c-troubleshooting-activities/content-trouble.md#debugging-tools) and check for [activity collisions](/help/main/c-experiences/c-visual-experience-composer/activity-collisions.md#activity-collisions).
 
 +++
 

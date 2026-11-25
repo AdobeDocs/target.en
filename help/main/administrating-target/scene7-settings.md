@@ -46,7 +46,7 @@ For how this tab fits with other administration tasks, see [How Do I Administer 
 
 ## What the integration enables {#what-it-enables}
 
-When **[!UICONTROL Scene7 Configuration]** is set up, authors can use images uploaded to the [!DNL Adobe Experience Cloud] assets folder in [!DNL Target] activities. The **[!UICONTROL Swap Image offer]** option appears in the activity workflow, including in the [Visual Experience Composer and Form-Based Experience Composer](/help/main/c-experiences/experiences.md#concept_A2E10F6AFB3D4AEAB6951EE14688848D). For swap behavior in the VEC, see [Visual Experience Composer options](/help/main/c-experiences/c-visual-experience-composer/viztarget-options.md).
+When **[!UICONTROL Scene7 Configuration]** is set up, authors can use images uploaded to the [!DNL Adobe Experience Cloud] assets folder in [!DNL Target] activities. The **[!UICONTROL Swap Image offer]** option appears in the activity workflow, including in the [Visual Experience Composer and Form-Based Experience Composer](/help/main/c-experiences/experiences.md#experiences-overview). For swap behavior in the VEC, see [Visual Experience Composer options](/help/main/c-experiences/c-visual-experience-composer/viztarget-options.md).
 
 If this setting is not configured, **[!UICONTROL Swap Image offer]** is not available during activity creation.
 

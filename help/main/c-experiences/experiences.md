@@ -24,18 +24,24 @@ topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
     internal-label: Personalization
 ---
-# Get started with experiences and offers
+# Get started with experiences and offers {#experiences-overview}
 
-An experience in [!DNL Adobe Target] determines which content displays when the visitor meets the audience criteria for an activity.
+>[!BEGINSHADEBOX]
 
-An experience can be an offer, image, text, button, video, combination of these various elements on a page, an entire web page, or a set of pages that perhaps form a purchase funnel or some other logical sequence of pages. It can also be the response of a voice assistant, a customer service script, or even a personalized flavor from a drink machine. You test or personalize experiences in [!DNL Target] activities.
+**On this page:** Learn what an experience is in [!DNL Adobe Target] and which experience composers are available to create experiences.
 
-An activity typically contains more than one experience. For example, visitors from the Salt Lake City area might see an offer for a $30 discount on ski boots, while visitors from San Diego see an offer for a discount on wet suits. Or, you might test a page with different special offers for returning visitors. Each of these offers is presented in a separate experience.
+>[!ENDSHADEBOX]
 
-Target provides the following experience composers:
+An experience in [!DNL Adobe Target] determines which content displays when a visitor meets the audience criteria of an activity.
+
+An experience can be an offer, image, text, button, video, a combination of these elements on a page, an entire web page, or a set of pages that perhaps form a purchase funnel or another logical sequence of pages. It can also be the response of a voice assistant, a customer service script, or even a personalized flavor from a drink machine. Experiences are tested or personalized in [!DNL Target] activities.
+
+An activity typically contains more than one experience. For example, visitors from the Salt Lake City area might see an offer for a $30 discount on ski boots, while visitors from San Diego see an offer for a discount on wet suits. A page with different special offers for returning visitors might also be tested. Each of these offers is presented in a separate experience.
+
+[!DNL Target] provides the following experience composers:
 
 |Type|Details|
 | --- | --- |
-|[Visual Experience Composer (VEC)](/help/main/c-experiences/c-visual-experience-composer/visual-experience-composer.md#concept_CF63320EB8924B2F9BDA3C72256DCE50)|The VEC is one of the main features of Adobe Target. The VEC is an editor that lets marketers and designers create and change content using a visual interface. Many design choices can be made without requiring direct editing of the code. Editing HTML and JavaScript is also possible using the editing options available in the composer.|
-|[Form-Based Experience Composer](/help/main/c-experiences/form-experience-composer.md#task_FAC842A6535045B68B4C1AD3E657E56E)|The Form-Based Experience Composer provides non-visual experience creation. This feature enables Target Standard A/B tests, Experience Targeting, Automated Personalization, and Recommendations activities to be delivered in emails, kiosks, and other places that do not work with a Visual Experience Composer.|
-|[Single Page Application (SPA) Visual Experience Composer (VEC)](/help/main/c-experiences/spa-visual-experience-composer.md)|The VEC for SPAs enables marketers to create tests and personalize content on SPAs in a do-it-yourself fashion without continuous development dependencies. The VEC can be used to create A/B Test and Experience Targeting (XT) activities on popular frameworks, such as React and Angular.|
+|[Visual Experience Composer (VEC)](/help/main/c-experiences/c-visual-experience-composer/visual-experience-composer.md)|The VEC is one of the main features of [!DNL Adobe Target]. It is an editor that allows marketers and designers to create and change content using a visual interface. Many design choices can be made without direct editing of the code. HTML and JavaScript can also be edited, using the editing options available in the composer.|
+|[Form-Based Experience Composer](/help/main/c-experiences/form-experience-composer.md)|The Form-Based Experience Composer provides non-visual experience creation. It enables [!DNL Target Standard] A/B tests, Experience Targeting, Automated Personalization, and [!DNL Recommendations] activities to be delivered in emails, kiosks, and other places that do not work with a Visual Experience Composer.|
+|[Single Page Application (SPA) Visual Experience Composer (VEC)](/help/main/c-experiences/spa-visual-experience-composer.md)|The VEC for SPAs enables marketers to create tests and personalize content on SPAs independently, without continuous development dependencies. It can be used to create A/B Test and Experience Targeting (XT) activities on popular frameworks, such as React and Angular.|

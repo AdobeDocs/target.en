@@ -28,7 +28,7 @@ topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
 ---
-# [!UICONTROL Visual Experience Composer] best practices and limitations
+# [!UICONTROL Visual Experience Composer] best practices and limitations {#vec-best-practices}
 
 To ensure your experiences function as intended, follow best practices when using the [!DNL Adobe Target] [!UICONTROL Visual Experience Composer] (VEC). Be aware of key tips and limitations to maximize performance and avoid common issues. 
 
@@ -43,7 +43,7 @@ If you also use the [!UICONTROL Visitor API Service], place the visitor API scri
 
 +++
 
-### You can enable the [!UICONTROL Enhanced Experience Composer] at the account level (enabled for all activities created in the account) or at the individual activity level.
+### You can enable the [!UICONTROL Enhanced Experience Composer] at the account level (enabled for all activities created in the account) or at the individual activity level. {#enable-eec}
 
 +++See details
 To enable the [!UICONTROL Enhanced Experience Composer] at the account level, click [!UICONTROL [!UICONTROL Administration] > [!UICONTROL Visual Experience Composer]], then toggle the [!UICONTROL Enable Enhanced Experience Composer] switch to the On position.
@@ -139,7 +139,7 @@ Each change creates a new element in the VEC. Because the second action modifies
 
 In other words, if you add an element with text, then in a separate action you edit that element with different text, the code editor shows both actions as separate elements. When you edited the element, you created a new element that modifies the original one you created, containing the edited text. If you then delete the original element, the edited text will not be able to find the element that was edited, and will not display. The second element remains in the list of elements, but it does not affect the page because the element it changes no longer exists.
 
-See [Element Selectors Used in the [!UICONTROL Visual Experience Composer]](/help/main/c-experiences/c-visual-experience-composer/vec-selectors.md#concept_4EB7663E255F439B8D24079D23479337).
+See [Element Selectors Used in the [!UICONTROL Visual Experience Composer]](/help/main/c-experiences/c-visual-experience-composer/vec-selectors.md#vec-selectors).
 
 +++
 

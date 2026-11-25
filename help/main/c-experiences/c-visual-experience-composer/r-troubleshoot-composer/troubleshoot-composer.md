@@ -29,7 +29,7 @@ The VEC is one of the main features of [!DNL Adobe Target]. The VEC is an editor
 
 The EEC is an extension of the VEC that helps you edit an experience for an iframe-busting site or pages that do not yet include the Target implementation. If you have trouble opening your page in the VEC, try the EEC.
 
-For information about the VEC and the EEC, see [Experiences](/help/main/c-experiences/experiences.md#concept_A2E10F6AFB3D4AEAB6951EE14688848D).
+For information about the VEC and the EEC, see [Experiences](/help/main/c-experiences/experiences.md#experiences-overview).
 
 Note that some issues affect both the VEC and the EEC, and some issues affect only one of the two composers. Please review the appropriate page to find more information.
 
