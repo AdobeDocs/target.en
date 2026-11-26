@@ -28,121 +28,108 @@ topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
 ---
-# Troubleshooting issues related to the [!UICONTROL Visual Experience Composer]
+# Troubleshooting issues related to the [!UICONTROL Visual Experience Composer] {#vec-issues}
 
-Display problems sometimes occur in the [!DNL Adobe Target] [!UICONTROL Visual Experience Composer] (VEC) under certain conditions.
+>[!BEGINSHADEBOX]
 
-## When I open my website in the [!UICONTROL Visual Experience Composer], the [!DNL Target] libraries do not load. (VEC only) {#section_8A7D3F4AD2CC4C3B823EE9432B97E06F}
+**On this page:** Learn how to resolve the issues that affect only the **[!UICONTROL Visual Experience Composer]** (VEC).
 
-+++Details
-[!DNL Target] adds two parameters (`mboxEdit=1` and `mboxDisable=1`) while opening the website in the [!UICONTROL Visual Experience Composer].
+>[!ENDSHADEBOX]
 
-If your website (specially Single Page Apps), trims parameters or actually removes them while navigating from one page to another (without a page reload) the [!DNL Target] functionality breaks and the [!DNL Target] libraries do not load.
+Display problems sometimes occur in the [!DNL Adobe Target] **[!UICONTROL Visual Experience Composer]** (VEC) under certain conditions. The following items describe the issues that affect only the VEC and how to resolve them.
 
-To avoid this problem, ensure that you do not trim or remove these two parameters.
++++ The [!DNL Target] libraries do not load when the website is opened in the VEC
+
+When a website is opened in the **[!UICONTROL Visual Experience Composer]**, [!DNL Target] adds the parameters `mboxEdit=1` and `mboxDisable=1` to the URL.
+
+A website that trims or removes these parameters while navigating from one page to another without a page reload, especially a Single Page Application, breaks the [!DNL Target] functionality, and the [!DNL Target] libraries do not load. To avoid this problem, keep both parameters in the URL.
 
 +++
 
-## My page will not open in the EEC, or loads slowly. Activities or experiences load slowly in the VEC. (VEC only) {#section_71E7601BE9894E3DA3A7FBBB72B6B0C1}
++++ A page does not open in the EEC or loads slowly, or activities and experiences load slowly in the VEC
 
-+++Details
-Several issues can affect page performance in the [!UICONTROL Target] experience composers. Some common issues include:
+Several issues can affect page performance in the [!DNL Target] experience composers. The most common are the following:
 
-* You do not have an mbox on the page. 
-* Your site uses proxy blocking, which does not allow the page to be opened in either experience composer. 
-* Your site does not allow itself to be opened in an iFrame.
+* The page has no mbox.
+* The site uses proxy blocking, which prevents the page from opening in either experience composer.
+* The site does not allow itself to be opened in an iFrame.
 
-If issues occur in the [!UICONTROL Enhanced Experience Composer], try turning off the [!UICONTROL Enhanced Experience Composer] and use the [!UICONTROL Visual Experience Composer] instead.
+When an issue occurs in the **[!UICONTROL Enhanced Experience Composer]**, turn it off and use the **[!UICONTROL Visual Experience Composer]** instead. To do so, go to **[!UICONTROL Administration]** > **[!UICONTROL Visual Experience Composer]** and turn off the **[!UICONTROL Enable Enhanced Experience Composer]** option.
 
-To disable the [!UICONTROL Enhanced Experience Composer], go to **[!UICONTROL Administration]** > **[!UICONTROL Visual Experience Composer]** and turn off the **[!UICONTROL Enable Enhanced Experience Composer]** option.
+The following error message can display in the console:
 
-Some users see the following error message in the console:
+![Browser console error message saying that the page was refused display in a frame because X-Frame-Options is set to SAMEORIGIN](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/assets/console_error_message.jpg)
 
-![Console error message](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/assets/console_error_message.jpg)
-
-If neither the [!UICONTROL Visual Experience Composer] nor the [!UICONTROL Enhanced Experience Composer] works, use a browser extension like [!DNL Requestly] ([!DNL Chrome] or [!DNL Firefox]) or Modify Response Headers (Firefox) that can overwrite the X-Frames header options for your site and allow them to be loaded in iFrames, enabling the VEC. If you are unable to use browser extensions, use the [Form-based Experience Composer](/help/main/c-experiences/form-experience-composer.md).
+When neither composer works, a browser extension that overwrites the X-Frame-Options header of the site, such as [!DNL Requestly] ([!DNL Chrome] or [!DNL Firefox]) or Modify Response Headers ([!DNL Firefox]), allows the site to load in iFrames and so enables the VEC. When browser extensions cannot be used, use the [Form-based Experience Composer](/help/main/c-experiences/form-experience-composer.md). The [[!DNL Adobe Target] **[!UICONTROL Visual Editing Helper]** extension](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/visual-editing-helper-extension.md) for [!DNL Google Chrome] can also be used, in addition to the procedures that follow.
 
 >[!NOTE]
 >
->In addition to the following information, you can use the [[!DNL Adobe Target] [!UICONTROL Visual Editing Helper] extension](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/visual-editing-helper-extension.md) for [!DNL Google Chrome].
-
->[!NOTE]
+>These extensions are intended only for VEC editing.
 >
->These plugins should be used only in the context of VEC editing.
+>With [!DNL Requestly], whenever headers need to be removed, do one of the following:
 >
->For the [!DNL Requestly] extension, whenever there is a need to remove headers, you should do either of following:
+>* Add URL rules for the URL to open in the VEC, so that headers are removed for those URLs only.
+>* Enable the rule while editing in the VEC and disable the rule when the VEC is not in use.
 >
->* Add URL rules for the URL that you want to open in the VEC so that headers are removed for those URLs only.
->
->* Enable the rule when you are editing in the VEC and disable the rule when you are not using the VEC.
->
->For the [!UICONTROL Modify Response Header] extension ([!DNL Firefox]), because you cannot add a URL rule, you must do the following:
->
->* Enable the rule when you are editing in the VEC and disable the rule when you are not using the VEC.
+>With **[!UICONTROL Modify Response Headers]** ([!DNL Firefox]), URL rules are not available, so the rule must be enabled while editing in the VEC and disabled when the VEC is not in use.
 
-**To use the [!DNL Requestly] extension on [!DNL Chrome] or [!DNL Firefox]:**
+Once an extension is set up, pages load in the **[!UICONTROL Visual Experience Composer]** even when the **[!UICONTROL Enhanced Experience Composer]** is disabled.
 
-1. Turn off the [!UICONTROL Enhanced Experienced Composer]. 
-1. Install the [!DNL Requestly] browser extension on [!DNL Chrome] or [!DNL Firefox]. 
-1. Open the extension and configure it using the following: 
-1. Select **[!UICONTROL Modify headers]**. 
-1. Enter the following:
++++
 
-    * Rule name 
-    * Modification rules
++++ Remove the X-Frame-Options header with Requestly (Chrome or Firefox)
 
-        * Toggle **[!UICONTROL Add]** to **[!UICONTROL Remove]**. 
-        * Toggle **[!UICONTROL Request]** to **[!UICONTROL Response]**. 
-        * Enter "X-Frame-Options" as the header name. 
-        * Repeat previous steps and enter "x-frame-options" as the header name.
+1. Turn off the **[!UICONTROL Enhanced Experience Composer]**.
+1. Install the [!DNL Requestly] browser extension on [!DNL Chrome] or [!DNL Firefox].
+1. Open the extension and select **[!UICONTROL Modify headers]**.
+1. Enter a rule name.
+1. In the modification rules, create a rule that removes the header:
 
-          >[!NOTE]
-          >
-          >Headers that are manipulated via [!DNL Requestly] are case sensitive.
+   * Toggle **[!UICONTROL Add]** to **[!UICONTROL Remove]**.
+   * Toggle **[!UICONTROL Request]** to **[!UICONTROL Response]**.
+   * Enter "X-Frame-Options" as the header name.
 
-        * Change **[!UICONTROL Equals]** to **[!UICONTROL Contains]** as the condition for the source URL and enter the URL of the activity that you are trying to load in the VEC.
+1. Repeat the previous step and enter "x-frame-options" as the header name.
 
-      ![chrome_extension image](assets/chrome_extension.png)
+   >[!NOTE]
+   >
+   >Headers that are manipulated with [!DNL Requestly] are case sensitive.
+
+1. Change **[!UICONTROL Equals]** to **[!UICONTROL Contains]** as the condition for the source URL and enter the URL of the activity to load in the VEC.
+
+   ![Requestly rule named Bypass iframe busting code that removes the X-Frame-Options response header for URLs that contain adobe.com](assets/chrome_extension.png)
 
 1. Click **[!UICONTROL Save]**.
 
-   ![requestly image](assets/requestly.png)
+   ![Requestly rule that removes the X-FRAME-OPTIONS and x-frame-options response headers for all URLs](assets/requestly.png)
 
-   You should now be able to load the page quickly with the [!UICONTROL Visual Experience Composer].
-
-**To use the [!DNL Modify Response Headers] extension on [!UICONTROL Firefox]:**
-
-1. Install the [!UICONTROL Modify Response Headers] on [!DNL Firefox] and restart the browser. 
-1. From your [!DNL Firefox] extensions, select the Modify Response Headers extension. 
-1. Click **[!UICONTROL Preferences]**. 
-1. Select **[!UICONTROL Filter]** from the [!UICONTROL Action] drop down. 
-1. In the [!UICONTROL Header Name] field, enter: **[!UICONTROL X-Frame-Options]**. 
-1. Repeat Steps 4 and 5 to add a filter with **[!UICONTROL x-frame-options]**. 
-1. Click **[!UICONTROL Add]**. 
-1. Click **[!UICONTROL Start]**.
-
-![Firefox extension](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/assets/firefox_extension.png)
-
-After setting up an extension, open [!DNL Target]. Your pages should now load in the [!UICONTROL Visual Experience Composer], even if the [!UICONTROL Enhanced Experience Composer] is disabled.
+The page should now load quickly in the **[!UICONTROL Visual Experience Composer]**.
 
 +++
 
-## My page does not display in the VEC (VEC only) {#does-not-load}
++++ Remove the X-Frame-Options header with Modify Response Headers (Firefox)
 
-+++Details
-* Best compatibility with VEC is ensured by the newest version of the extension: [[!DNL Adobe Experience Cloud] [!UICONTROL Visual Editing Helper extension]](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/visual-editing-helper-extension.md). 
+1. Install the [!DNL Modify Response Headers] extension on [!DNL Firefox] and restart the browser.
+1. From the [!DNL Firefox] extensions, select the [!DNL Modify Response Headers] extension.
+1. Click **[!UICONTROL Preferences]**.
+1. Select **[!UICONTROL Filter]** from the **[!UICONTROL Action]** drop-down list.
+1. In the **[!UICONTROL Header Name]** field, enter **[!UICONTROL X-Frame-Options]**.
+1. Repeat the previous two steps to add a filter with **[!UICONTROL x-frame-options]**.
+1. Click **[!UICONTROL Add]**.
+1. Click **[!UICONTROL Start]**.
 
-  To verify whether you are using the latest version, go to [!UICONTROL Extensions] > [!UICONTROL Manage Extensions] then click [!UICONTROL Details].
+![Modify Response Headers window in Firefox with a filter on the X-Frame-Options header shown as enabled](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/assets/firefox_extension.png)
 
-* The [!UICONTROL Visual Experience Composer] requires authoring libraries in order to perform modifications on the web page. These libraries are embedded in the at.js library and are downloaded by the extension from [!DNL Adobe] servers each time VEC is used. 
++++
 
-  The extension downloads the at.js library regardless of whether at.js or the [!DNL Adobe Experience Platform Web SDK] are already included in the page. 
-  
-  Ensure there are no invalid changes added to the at.js headers configured in the [!UICONTROL Administration] > [!UICONTROL Implementation] section.
++++ A page does not display in the VEC
 
-* Ensure that the web page is not blocking requests mandatory for loading when embedded within an iFrame. This includes the use of frame-ancestors CSP directives or custom JS code embedded in the customer website, meta HTML tags, or the x-frame-options header.
+Check the following causes:
 
-* Ensure that the web page's Javascript does not interfere with the authoring libraries. Do not use or include files using the following reserved names:
+* **Extension version:** the newest version of the [[!DNL Adobe Experience Cloud] **[!UICONTROL Visual Editing Helper]** extension](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/visual-editing-helper-extension.md) provides the best compatibility with the VEC. To verify the installed version, go to **[!UICONTROL Extensions]** > **[!UICONTROL Manage Extensions]**, then click **[!UICONTROL Details]**.
+* **Authoring libraries:** the VEC needs authoring libraries to modify the web page. They are embedded in the at.js library, which the extension downloads from [!DNL Adobe] servers each time the VEC is used, whether or not at.js or the [!DNL Adobe Experience Platform Web SDK] is already on the page. Check that the at.js headers configured in **[!UICONTROL Administration]** > **[!UICONTROL Implementation]** contain no invalid changes.
+* **Blocked requests:** the page must not block the requests that are mandatory for loading when it is embedded in an iFrame. Such blocking includes `frame-ancestors` CSP directives, custom JavaScript code in the website, meta HTML tags, and the `x-frame-options` header.
+* **Reserved file names:** the JavaScript of the page must not interfere with the authoring libraries. Do not use or include files with the following reserved names:
 
   * `target-vec-helper.js`
   * `target-vec.js`
@@ -151,31 +138,26 @@ After setting up an extension, open [!DNL Target]. Your pages should now load in
   * `sizzle.js`
   * `mixContentCheck.html`
 
-    Additionally, accidental overriding of variables or events defined within these files could lead to issues with VEC.
+  Accidentally overriding variables or events defined in these files can also cause issues with the VEC.
 
-* The browser is blocking a non-secure page on a secure site.
-
-  Click the icon to the left of the URL in the browser address bar and click **[!UICONTROL Disable protection on this page]** 
-
-* You entered an invalid URL. 
-* If your website fails to load in the VEC, or behaves unexpectedly, a potential fix is to accept cookies on your website in the browser before trying to load the website in [!DNL Target].
+* **Non-secure page on a secure site:** the browser blocks the page. Click the icon to the left of the URL in the address bar, then click **[!UICONTROL Disable protection on this page]**.
+* **Invalid URL:** the URL entered is invalid.
+* **Cookies:** if the website fails to load in the VEC or behaves unexpectedly, accepting its cookies in the browser before loading the website in [!DNL Target] can resolve the issue.
 
 +++
 
-## The VEC appears broken when I use [!UICONTROL Browse] mode. (VEC only) {#section_FA2A18E8FD6A4274B2E395DBAA2FB407}
++++ The VEC appears broken in Browse mode
 
-+++Details
-While using [!UICONTROL Browse] mode, if you access a URL that does not have [!DNL Target] libraries implemented ([at.js](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/overview.html){target=_blank} or [Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/aep-web-sdk.html){target=_blank}) or contains a frame-buster header, the VEC appears broken. Due to browser security concerns, [!DNL Target] cannot properly access the URL you navigated to or the VEC URL does not update consistently if the page loads.
+In **[!UICONTROL Browse]** mode, the VEC appears broken when a URL is opened that lacks the [!DNL Target] libraries ([at.js](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/overview.html){target=_blank} or [Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/aep-web-sdk.html){target=_blank}) or that contains a frame-buster header. For browser security reasons, [!DNL Target] cannot properly access the URL that was navigated to, or the VEC URL does not update consistently when the page loads.
 
-This issue occurs because VEC loads the web page in an `<iframe>`. The current security mechanisms of browsers prevent the [!DNL Target] UI from accessing the elements of the given frame because of the same-origin policy. Browsers block scripts trying to access a frame with a different origin and that includes information such as the `location.href`.
+The VEC loads the web page in an `<iframe>`, and the current security mechanisms of browsers prevent the [!DNL Target] UI from accessing the elements of the frame under the same-origin policy. Browsers block scripts that attempt to access a frame with a different origin, including information such as `location.href`.
 
-You must use the new [Visual Editing Helper extension](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/visual-editing-helper-extension.md) to inject the [!DNL Target] library into the pages in order to browse them optimally.
+Use the new [Visual Editing Helper extension](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/visual-editing-helper-extension.md) to inject the [!DNL Target] library into the pages, so that the pages can be browsed optimally.
 
 +++
 
-## Issues caused by CSS conflicts in the [!UICONTROL Visual Experience Composer]
++++ Issues are caused by CSS conflicts in the VEC
 
-+++Details
-Verify whether there are any CSS files that might impact the visibility while loading the web page in the editor. For example using the `overflow: hidden` property on the page body could lead to scrolling issues or trigger click events that could interfere with the menu for authoring.
+Check whether any CSS files affect visibility while the page loads in the editor. For example, the `overflow: hidden` property on the page body can cause scrolling issues or trigger click events that interfere with the authoring menu.
 
 +++

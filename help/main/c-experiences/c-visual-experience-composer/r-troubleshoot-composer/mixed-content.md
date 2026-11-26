@@ -19,77 +19,72 @@ topic_v2:
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
     internal-label: Security
 ---
-# Enabling mixed content in your browser
+# Enabling mixed content in the browser {#mixed-content}
 
-Mixed content occurs if the initial request is secure over HTTPS, but HTTPS *and* HTTP content is loaded to display the web page. HTTPS content is secure. HTTP content is insecure.
+>[!BEGINSHADEBOX]
 
-Modern browsers might block the display of a page or display warning messages if secure content is mixed with insecure content.
+**On this page:** Learn how to enable mixed content in [!DNL Google Chrome], [!DNL Mozilla Firefox], and [!DNL Microsoft Edge], so that the **[!UICONTROL Visual Experience Composer]** (VEC) can open HTTP sites and sites that contain mixed content.
 
-A warning message displays if the [!UICONTROL Visual Experience Composer] (VEC) in [!DNL Adobe Target] tries to open a page containing mixed content. This message informs you how to disable blocking in your browser. Disabling blocking lets you open an HTTP site or a site that has mixed content (HTTPS and HTTP).
+>[!ENDSHADEBOX]
 
-![Mixed content warning](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/assets/mixed_content_warning.png)
+A page contains mixed content when it is requested securely over HTTPS but loads both HTTPS and HTTP content. HTTPS content is secure, whereas HTTP content is not, so modern browsers might block such a page or display a warning message.
 
-Previously, when mixed content was not allowed, you could still perform some actions in Step 1 of the three-step guided workflow when creating activities. [!DNL Target] now blocks actions in Step 1. When this message displays, you must enable mixed content before continuing creating the activity.
+When the **[!UICONTROL Visual Experience Composer]** (VEC) in [!DNL Adobe Target] tries to open a page that contains mixed content, a warning message displays with instructions to disable the blocking in the browser. Disabling the blocking makes it possible to open an HTTP site or a site that has mixed content (HTTPS and HTTP).
 
-Your browser's security settings might block mixed content or insecure (HTTP) content being loaded into a secure (HTTPS) page or frame (such as the VEC). If you do not want to disable your browser's security settings, you must have an HTTPS website.
+![Activity creation page with the message that browser scripts must be allowed to load to create activities, next to an illustration of the browser reload prompt](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/assets/mixed_content_warning.png)
 
-If your website is running on an insecure (HTTP) domain, you are required to allow the VEC to load active mixed content.
+Previously, some actions in Step 1 of the three-step guided workflow remained available when mixed content was not allowed. [!DNL Target] now blocks all actions in Step 1, so mixed content must be enabled before the activity creation can continue.
+
+The security settings of the browser might block insecure (HTTP) content that is loaded into a secure (HTTPS) page or frame, such as the VEC. The alternative to changing these settings is an HTTPS website. If the website runs on an insecure (HTTP) domain, the VEC must be allowed to load active mixed content.
 
 >[!IMPORTANT]
 >
->Allowing mixed content affects the VEC only and not your live website.
+>Allowing mixed content affects the VEC only and not the live website.
 
 For more information, see [Mixed Content](https://developer.mozilla.org/en-US/docs/Web/Security/Mixed_content) on the *Mozilla Developer Network* (MDN) website.
 
-## Enabling mixed content in [!DNL Google Chrome] {#task_FF297A08F66E47A588C14FD67C037B3A}
+## Enable mixed content in [!DNL Google Chrome]
 
-If you are visiting a site via a secure connection, [!DNL Chrome] verifies that the content on the web page has been transmitted safely.
+[!DNL Chrome] checks that the content of a page requested through a secure connection has been transmitted safely. See "[Manage warnings about unsafe sites](https://support.google.com/chrome/answer/99020?hl=en)" in Google Chrome Help.
 
-See "[Manage warnings about unsafe sites](https://support.google.com/chrome/answer/99020?hl=en)" in Google Chrome Help.
+To use the VEC with the latest version of [!DNL Chrome] (version 79.0.3945.117 or later), update the site settings as follows. Visitors to the site do not need to complete these steps.
 
-If you are using the VEC with the latest version of [!DNL Chrome] (version 79.0.3945.117 or later), you must update your site settings. Visitors to your site do not need to complete these steps.
+1. Click the lock (caution) icon, then click **[!UICONTROL Site settings]**.
 
-1. Click the lock (caution) icon, then click **[!UICONTROL Site settings]**. 
+   ![Chrome address bar with the connection menu open and Site settings highlighted](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/assets/site-settings.png)
 
-   ![Site Settings](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/assets/site-settings.png)
+1. Under **[!UICONTROL Insecure content]**, change "Block (default)" to "Allow" in the drop-down list.
 
-1. Scroll to **[!UICONTROL Insecure content]**, then use the drop-down list to change "Block (default)" to "Allow."
-
-   ![Insecure content](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/assets/insecure-content.png)
+   ![Chrome site settings with the Insecure content drop-down open and Allow selected](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/assets/insecure-content.png)
 
 1. Reload the VEC page.
 
-## Enabling mixed content in [!DNL Mozilla Firefox] {#task_5448763B8DC941FD80F84041AEF0A14D}
+## Enable mixed content in [!DNL Mozilla Firefox]
 
-By default, [!DNL Firebox] blocks pages that mix secure and insecure content. You should permanently change this setting to use [!DNL Target]. Visitors to your site do not need to complete these steps.
+By default, [!DNL Firefox] blocks pages that mix secure and insecure content, so this setting must be changed permanently to use [!DNL Target]. Visitors to the site do not need to complete these steps.
 
-1. In Firefox, enter `about:config` in the address bar.
-1. Acknowledge the warning message displayed by [!DNL Firefox].
+1. In [!DNL Firefox], enter `about:config` in the address bar.
+1. Acknowledge the warning message that [!DNL Firefox] displays.
 
-   ![Firefox warning](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/assets/firefox.png)
+   ![Firefox Proceed with Caution warning page for about:config with the Accept the Risk and Continue button](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/assets/firefox.png)
 
-1. In the search bar, type `block_active`.
+1. In the search bar, enter `block_active`.
 
-   ![Firefox block_active setting](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/assets/firefox3.png)
+   ![Firefox about:config search for block_active showing security.mixed_content.block_active_content set to true](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/assets/firefox3.png)
 
-1. Double-click ` **[!UICONTROL security.mixed_content.block_active_content]**` .
+1. Double-click `security.mixed_content.block_active_content`.
 
-   The value changes from "True" to "False." When the value shows "False," you are finished. 
+   The value changes from "True" to "False". When the value shows "False", the change is complete.
 
-   ![Firefox security](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/assets/firefox2.png)
+   ![Firefox about:config showing security.mixed_content.block_active_content set to false](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/assets/firefox2.png)
 
-1. Restart your computer after changing this setting.
+1. Restart the computer after changing this setting.
 
-## Enabling mixed content in [!DNL Microsoft Edge]
+## Enable mixed content in [!DNL Microsoft Edge]
 
-If you are visiting a site via a secure connection, [!DNL Edge] verifies that the content on the web page has been transmitted safely.
+[!DNL Edge] checks that the content of a page requested through a secure connection has been transmitted safely. To use the VEC with the latest version of [!DNL Edge], update the site settings as follows. Visitors to the site do not need to complete these steps.
 
-If you are using the VEC with the latest version of [!DNL Edge], you must update your site settings. Visitors to your site do not need to complete these steps.
-
-1. In [!DNL Edge], click **[!DNL Microsoft Edge]** in the menu bar, **[!UICONTROL Settings]**, then click **Cookies and Site Permissions**. 
-
-1. Scroll to **[!UICONTROL Insecure content]**.
-
-1. Click **[!UICONTROL Insecure content]**, then click **[!UICONTROL Add]** next to **[!UICONTROL Allow]**, add the site on which to allow insecure content, then click **[!UICONTROL Add]**.
-
+1. In [!DNL Edge], click **[!DNL Microsoft Edge]** in the menu bar, click **[!UICONTROL Settings]**, then click **Cookies and Site Permissions**.
+1. Scroll to **[!UICONTROL Insecure content]** and click it.
+1. Next to **[!UICONTROL Allow]**, click **[!UICONTROL Add]**, enter the site on which to allow insecure content, then click **[!UICONTROL Add]**.
 1. Reload the VEC page.

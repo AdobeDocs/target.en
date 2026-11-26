@@ -289,7 +289,7 @@ Check out [Template Rules](/help/main/c-experiences/c-visual-experience-composer
 +++See details
 This is because your site has mixed content—it is a site that fetches both HTTP and HTTPS resources. Request that your IT team move to HTTPS completely.
 
-Until this happens, follow the instructions in [Enabling Mixed Content in Your Browser](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/mixed-content.md#concept_46D022D50280468C9EF6D5DF6EFC911C) to allow your browser to load mixed content. This is a security feature of most modern browsers.
+Until this happens, follow the instructions in [Enabling Mixed Content in Your Browser](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/mixed-content.md#mixed-content) to allow your browser to load mixed content. This is a security feature of most modern browsers.
 
 +++
 
@@ -303,7 +303,7 @@ Try loading the page with the [Enhanced Experience Composer](/help/main/c-experi
 **Why is my site not loading within the [!UICONTROL Visual Experience Composer] (VEC)?**
 
 +++See details
-Try out the [troubleshooting information](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/troubleshoot-composer.md#reference_77743144F10143A3A89D56E116D296E4) outlined in our help page. Reach out to [Adobe Support](/help/main/cmp-resources-and-contact-information.md#reference_ACA3391A00EF467B87930A450050077C) if none of these approaches work.
+Try out the [troubleshooting information](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/troubleshoot-composer.md#troubleshoot-composer) outlined in our help page. Reach out to [Adobe Support](/help/main/cmp-resources-and-contact-information.md#reference_ACA3391A00EF467B87930A450050077C) if none of these approaches work.
 
 We also have [form-based approach](/help/main/c-experiences/form-experience-composer.md#task_FAC842A6535045B68B4C1AD3E657E56E) which can unblock you.
 
@@ -314,7 +314,7 @@ Also read when and why the [Enhanced Experience Composer](/help/main/c-experienc
 **I have a responsive site. While creating an activity, how can I be sure that I am considering key devices?**
 
 +++See details
-Try out the [Mobile Viewports](/help/main/c-experiences/c-visual-experience-composer/mobile-viewports.md#concept_8E45527C4ABC41D59AA3553BEDC76FA5) feature. Note that it works only when the [!UICONTROL Enhanced Experience Composer] is enabled.
+Try out the [Mobile Viewports](/help/main/c-experiences/c-visual-experience-composer/mobile-viewports.md#mobile-viewports) feature. Note that it works only when the [!UICONTROL Enhanced Experience Composer] is enabled.
 
 +++
 

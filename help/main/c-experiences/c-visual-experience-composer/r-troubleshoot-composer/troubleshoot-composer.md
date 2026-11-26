@@ -21,18 +21,22 @@ topic_v2:
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
     internal-label: Troubleshooting
 ---
-# Get started with troubleshooting the [!UICONTROL Visual Experience Composer] and [!UICONTROL Enhanced Experience Composer]
+# Get started with troubleshooting the [!UICONTROL Visual Experience Composer] and [!UICONTROL Enhanced Experience Composer] {#troubleshoot-composer}
 
-Display problems sometimes occur in the [!DNL Adobe Target] [!UICONTROL Visual Experience Composer] (VEC) and the [!UICONTROL Enhanced Experience Composer] (EEC) under certain conditions.
+>[!BEGINSHADEBOX]
 
-The VEC is one of the main features of [!DNL Adobe Target]. The VEC is an editor that enables marketers and designers to create and change content using a visual interface. Many design choices can be made without requiring direct editing of the code. Editing HTML and JavaScript is also possible using the editing options available in the composer.
+**On this page:** Learn which page to use to troubleshoot problems in the **[!UICONTROL Visual Experience Composer]** (VEC) and the **[!UICONTROL Enhanced Experience Composer]** (EEC).
 
-The EEC is an extension of the VEC that helps you edit an experience for an iframe-busting site or pages that do not yet include the Target implementation. If you have trouble opening your page in the VEC, try the EEC.
+>[!ENDSHADEBOX]
 
-For information about the VEC and the EEC, see [Experiences](/help/main/c-experiences/experiences.md#experiences-overview).
+Display problems sometimes occur in the [!DNL Adobe Target] **[!UICONTROL Visual Experience Composer]** (VEC) and the **[!UICONTROL Enhanced Experience Composer]** (EEC) under certain conditions.
 
-Note that some issues affect both the VEC and the EEC, and some issues affect only one of the two composers. Please review the appropriate page to find more information.
+The VEC is one of the main features of [!DNL Adobe Target]. It is an editor that enables marketers and designers to create and change content with a visual interface, so that many design choices can be made without editing code. HTML and JavaScript can also be edited with the editing options available in the composer.
 
-* [Troubleshooting Issues Related to the Visual Experience Composer and Enhanced Experience Composer](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/issues-related-to-the-visual-experience-composer-vec-and-enhanced-experience-composer-eec.md)
-* [Troubleshooting Issues Related to the Visual Experience Composer](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/troubleshooting-issues-related-to-the-visual-experience-composer-vec.md)
-* [Troubleshooting Issues Related to the Enhanced Experience Composer](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/troubleshooting-issues-related-to-the-enhanced-experience-composer-eec.md)
+The EEC is an extension of the VEC for editing an experience on an iframe-busting site or on pages that do not yet include the [!DNL Target] implementation. When a page cannot be opened in the VEC, try the EEC. For information about the VEC and the EEC, see [Experiences](/help/main/c-experiences/experiences.md#experiences-overview).
+
+Some issues affect both composers, and some affect only one of them. Review the page that matches the problem:
+
+* [Troubleshooting issues related to the Visual Experience Composer and Enhanced Experience Composer](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/issues-related-to-the-visual-experience-composer-vec-and-enhanced-experience-composer-eec.md): issues that affect both composers.
+* [Troubleshooting issues related to the Visual Experience Composer](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/troubleshooting-issues-related-to-the-visual-experience-composer-vec.md): issues that affect only the VEC.
+* [Troubleshooting issues related to the Enhanced Experience Composer](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/troubleshooting-issues-related-to-the-enhanced-experience-composer-eec.md): issues that affect only the EEC.

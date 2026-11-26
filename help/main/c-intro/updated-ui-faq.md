@@ -238,7 +238,7 @@ For more information, see [Visual Editing Helper extension](/help/main/c-experie
 +++Details
 For more information about IP addresses that you can allowlist, see the following articles:
 
-* **Enhanced Experience Composer (EEC)**: See [The EEC will not load an internal QA URL that is not accessible on public IP](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/troubleshooting-issues-related-to-the-enhanced-experience-composer-eec.md#section_D29E96911D5C401889B5EACE267F13CF) in *Troubleshooting issues related to the Enhanced Experience Composer*
+* **Enhanced Experience Composer (EEC)**: See [The EEC will not load an internal QA URL that is not accessible on public IP](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/troubleshooting-issues-related-to-the-enhanced-experience-composer-eec.md#eec-ip-addresses) in *Troubleshooting issues related to the Enhanced Experience Composer*
 * **[!UICONTROL Recommendations]**: See [IP addresses used by Recommendations feed-processing servers](/help/main/c-recommendations/c-recommendations-faq/ip-addresses-marketing-cloud.md).
 
 +++
