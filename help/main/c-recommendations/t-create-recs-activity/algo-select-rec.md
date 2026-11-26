@@ -39,4 +39,4 @@ If you select multiple criteria, traffic is split evenly between the selected cr
    * **Page Type:** The page type helps you categorize your recommendations. There are also built-in criteria that can be chosen for each page type. 
    * **Compatible:** Show only those criteria where the selected page passes the required data. Not every criteria will run correctly on every page. The page or mbox needs to pass in `entity.id` or `entity.categoryId` for the current item/current category recommendations to be compatible. In general, it is best to show only compatible criteria. However, if you want incompatible criteria to be available for the activity, clear the **[!UICONTROL Compatible]** check box. This option can be disabled or enabled in your settings: **[!UICONTROL Recommendations]** > **[!UICONTROL Settings]**.
 
-1. Click **[!UICONTROL Next]** to display the [Select Design](/help/main/c-recommendations/c-design-overview/design-overview.md) dialog box.
+1. Click **[!UICONTROL Next]** to display the [Select Design](/help/main/c-recommendations/c-design-overview/design-overview.md) dialog box. 

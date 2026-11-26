@@ -135,4 +135,4 @@ The following illustration shows the high-level UI changes made to the updated V
 
 * [[!UICONTROL Visual Experience Composer] options](/help/main/c-experiences/c-visual-experience-composer/viztarget-options.md): Explains the updated VEC UI and its options.
 
-* [[!DNL Target] UI update FAQs](/help/main/c-intro/updated-ui-faq.md): Addresses common questions about the new [!DNL Target] UI and [!UICONTROL Visual Experience Composer] (VEC), including navigation changes, feature locations, and the deprecation of the temporary UI version toggle.
+* [[!DNL Target] UI update FAQs](/help/main/c-intro/updated-ui-faq.md): Addresses common questions about the new [!DNL Target] UI and [!UICONTROL Visual Experience Composer] (VEC), including navigation changes, feature locations, and the deprecation of the temporary UI version toggle. 

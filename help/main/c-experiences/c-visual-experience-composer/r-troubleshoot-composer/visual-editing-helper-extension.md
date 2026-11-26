@@ -100,6 +100,6 @@ The extension activates only when the website is loaded inside an iFrame in [!DN
 
 +++ What does the extension do when it is active in the [!DNL Adobe Target] VEC?
 
-When a website is loaded inside an iFrame in [!DNL Adobe] products ([!DNL Target], [!DNL AJO]), the extension injects code that is bundled with the extension into the website and downloads helper files from the [!DNL Adobe] CDN to enable visual authoring.
+When a website is loaded inside an iFrame in [!DNL Adobe] products ([!DNL Target], [!DNL AJO]), the extension injects code that is bundled with the extension into the website and downloads helper files from the [!DNL Adobe] CDN to enable visual authoring. 
 
 +++

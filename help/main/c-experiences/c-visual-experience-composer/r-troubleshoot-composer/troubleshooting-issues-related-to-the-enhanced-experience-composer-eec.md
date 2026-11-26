@@ -187,6 +187,6 @@ To check the TLS version of a website in Firefox (other browsers have similar st
 
 +++ Timeouts or "access denied" errors display when sites are loaded with the proxy enabled
 
-Make sure that the proxy IP addresses are not blocked in the environment. The addresses are listed in [Allowlist the IP addresses of the EEC proxy](#eec-ip-addresses).
+Make sure that the proxy IP addresses are not blocked in the environment. The addresses are listed in [Allowlist the IP addresses of the EEC proxy](#eec-ip-addresses). 
 
 +++

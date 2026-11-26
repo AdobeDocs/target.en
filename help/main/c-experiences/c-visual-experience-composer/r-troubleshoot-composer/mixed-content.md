@@ -87,4 +87,4 @@ By default, [!DNL Firefox] blocks pages that mix secure and insecure content, so
 1. In [!DNL Edge], click **[!DNL Microsoft Edge]** in the menu bar, click **[!UICONTROL Settings]**, then click **Cookies and Site Permissions**.
 1. Scroll to **[!UICONTROL Insecure content]** and click it.
 1. Next to **[!UICONTROL Allow]**, click **[!UICONTROL Add]**, enter the site on which to allow insecure content, then click **[!UICONTROL Add]**.
-1. Reload the VEC page.
+1. Reload the VEC page. 

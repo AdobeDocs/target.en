@@ -73,4 +73,4 @@ The [Lightbox experience template](https://github.com/Adobe-Marketing-Cloud/targ
 
 The [Ribbon experience template](https://github.com/Adobe-Marketing-Cloud/target-experience-templates/tree/master/ribbon) is a 100% width ribbon that is inserted at the very top of the web page. It is typically used to indicate a flash sale, free shipping, a safety or weather event, or another important announcement.
 
-![Ribbon template: a full-width ribbon at the top of the page with the text See the promotion we are running](assets/exp-template-ribbon.png)
+![Ribbon template: a full-width ribbon at the top of the page with the text See the promotion we are running](assets/exp-template-ribbon.png) 

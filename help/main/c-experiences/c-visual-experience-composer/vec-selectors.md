@@ -109,4 +109,4 @@ In this process:
 
 * Any CSS selector can be used, as long as it uniquely identifies an element in the DOM.
 * The approach above is the one used by [!DNL Target]. [!DNL Target] does not mandate this approach. Any selector can be added, as long as it uniquely identifies the element.
-* Any attribute can be used in the selector. This article uses only a class name as an example.
+* Any attribute can be used in the selector. This article uses only a class name as an example. 

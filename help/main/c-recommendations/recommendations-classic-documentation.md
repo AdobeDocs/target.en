@@ -36,4 +36,4 @@ topic_v2:
 
 To choose between [!DNL Recommendations Classic] and [!DNL Recommendations] activities in [!DNL Target Premium], see [Recommendations Classic versus Recommendations activities in Target Premium](/help/main/c-recommendations/c-recommendations-faq/recommendations-classic-versus-recommendations-activities-target-premium.md).
 
-The documentation for [Adobe Recommendations Classic](/help/main/assets/adobe-recommendations-classic.pdf) can be downloaded in PDF format.
+The documentation for [Adobe Recommendations Classic](/help/main/assets/adobe-recommendations-classic.pdf) can be downloaded in PDF format. 

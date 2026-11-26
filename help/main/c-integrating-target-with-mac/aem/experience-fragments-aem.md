@@ -188,4 +188,4 @@ The following video shows you how to set up and use [!UICONTROL Experience Fragm
 >
 >The [!DNL AEM] deeplink feature discussed at 4:54 has been removed.
 
-For more detailed information, see [Using [!UICONTROL Experience Fragments] with Adobe Target](https://experienceleague.adobe.com/docs/experience-manager-learn/sites/personalization/experience-fragment-target-offer-feature-video-use.html) on the *AEM Sites Videos and Tutorials* page.
+For more detailed information, see [Using [!UICONTROL Experience Fragments] with Adobe Target](https://experienceleague.adobe.com/docs/experience-manager-learn/sites/personalization/experience-fragment-target-offer-feature-video-use.html) on the *AEM Sites Videos and Tutorials* page. 

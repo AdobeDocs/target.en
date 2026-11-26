@@ -158,6 +158,6 @@ Use the new [Visual Editing Helper extension](/help/main/c-experiences/c-visual-
 
 +++ Issues are caused by CSS conflicts in the VEC
 
-Check whether any CSS files affect visibility while the page loads in the editor. For example, the `overflow: hidden` property on the page body can cause scrolling issues or trigger click events that interfere with the authoring menu.
+Check whether any CSS files affect visibility while the page loads in the editor. For example, the `overflow: hidden` property on the page body can cause scrolling issues or trigger click events that interfere with the authoring menu. 
 
 +++

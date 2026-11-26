@@ -152,4 +152,4 @@ When the historical reporting results must be retained in the same activity, an 
 1. Preview the modified activity (activity 2) and confirm that the results are as desired.
 1. Pause the modified activity (activity 2), and swap the settings and criteria to the original activity (activity 1).
 1. Preview the original activity (activity 1) and confirm that the results are as desired.
-1. Re-activate the original activity (activity 1).
+1. Re-activate the original activity (activity 1). 

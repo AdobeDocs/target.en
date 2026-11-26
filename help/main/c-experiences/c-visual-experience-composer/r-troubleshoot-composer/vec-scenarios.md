@@ -330,5 +330,5 @@ The class of the selected list item is changed.
         <li class="men-section">Men</li>
         <li class="women-shoes">Women</li>
     </ul>
-</div>
+</div> 
 ```

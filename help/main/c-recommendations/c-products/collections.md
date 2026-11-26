@@ -98,4 +98,4 @@ A collection is selected for each experience of a [!DNL Recommendations] activit
 
 1. After selecting a criteria and design, select the desired collection on the **[!UICONTROL Options]** page.
 
-1. (Conditional) To change the collection of an existing activity, click a recommendations location on the **[!UICONTROL Experiences]** pages, click **[!UICONTROL Change Collection]**, then select the desired collection.
+1. (Conditional) To change the collection of an existing activity, click a recommendations location on the **[!UICONTROL Experiences]** pages, click **[!UICONTROL Change Collection]**, then select the desired collection. 

@@ -38,7 +38,7 @@ An experience can be an offer, image, text, button, video, a combination of thes
 
 An activity typically contains more than one experience. For example, visitors from the Salt Lake City area might see an offer for a $30 discount on ski boots, while visitors from San Diego see an offer for a discount on wet suits. A page with different special offers for returning visitors might also be tested. Each of these offers is presented in a separate experience.
 
-[!DNL Target] provides the following experience composers:
+[!DNL Target] provides the following experience composers: 
 
 |Type|Details|
 | --- | --- |

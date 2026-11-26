@@ -53,4 +53,4 @@ Each page added to the activity can have its own design of the offer.
 
    Click **[!UICONTROL Add Page]** ( ![Add icon](/help/main/assets/icons/Add.svg) ) to add an additional page, specify the page name and URL, then click **[!UICONTROL Save]**.
 
-1. Use the [!UICONTROL Visual Experience Composer] to design the way the offer looks on each page.
+1. Use the [!UICONTROL Visual Experience Composer] to design the way the offer looks on each page. 
