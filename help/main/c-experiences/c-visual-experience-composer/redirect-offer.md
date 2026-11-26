@@ -1,5 +1,5 @@
 ---
-kewords: redirect;redirect url;send to different page
+keywords: redirect;redirect url;send to different page
 description: Learn how to use the Redirect to URL option in Adobe [!DNL Target] when you want to send the visitor to a different page rather than showing content on the same page.
 title: Can I Redirect a Page to a Different URL?
 feature: Visual Experience Composer (VEC)
@@ -22,46 +22,49 @@ topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
     internal-label: Customer experience
 ---
-# Redirect to a URL
+# Redirect to a URL {#redirect-to-url}
 
-Use the [!UICONTROL Redirect to URL] option in [!DNL Adobe Target] when you want to send the visitor to a different page rather than showing content on the same page.
+>[!BEGINSHADEBOX]
 
- You might have two completely different pages to test instead of just changing pieces of content within a page. In this case, your A/B test compares page A vs. page B. Set up an A/B test campaign with two experiences: one pointing to the default page A, and the other redirecting to page B. In the Experience Action menu, located by clicking the letter label for the experience, choose **[!UICONTROL Redirect to URL]** and specify the URL of page B. The offer is configured to redirect the visitor to a different page.
+**On this page:** Learn how to use the **[!UICONTROL Redirect to URL]** option to send visitors to a different page instead of showing content on the same page.
 
-The redirect offer executes JavaScript code to redirect the browser. It uses the `window.location.replace();`method, so the page the visitor is redirected from does not get stored in the browser history. This allows the visitor to still use the back button in their browser.
+>[!ENDSHADEBOX]
 
-Redirect offers have a few limitations:
+The **[!UICONTROL Redirect to URL]** option in [!DNL Adobe Target] sends a visitor to a different page instead of showing content on the same page. It suits the comparison of two completely different pages, as opposed to changes to pieces of content within one page. An A/B test then compares page A with page B: one experience points to the default page A, and the other redirects to page B.
 
-* For redirect offers in activities using A4T, your implementation must meet certain minimum requirements. In addition, there is important information that you need to know. For more information, see [Redirect Offers - A4T FAQ](/help/main/c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-redirect-offers.md#concept_21BF213F10E1414A9DCD4A98AF207905). 
-* When using the form-based Experience Composer, redirect offers should not be used in mboxes that are part of the page. A redirect offer should only be used from a script tag that is part of the HTML `<head>`. You should always use auto-create and set the redirect offer for the global mbox.
+A redirect offer runs JavaScript code that redirects the browser. The code uses the `window.location.replace();` method, so the page that the visitor is redirected from is not stored in the browser history. The visitor can therefore still use the back button of the browser.
+
+## Create a redirect offer {#create-redirect-offer}
+
+The experience that redirects defines the page to which visitors are sent and, optionally, the conditions of the redirect.
+
+1. Create an experience.
+
+1. From the **[!UICONTROL Experiences]** frame, click the **[!UICONTROL More Actions]** icon ( ![More Actions icon](/help/main/assets/icons/MoreSmallList.svg) ) for the experience that redirects.
+
+1. Click **[!UICONTROL Redirect to URL]**.
+
+    ![More Actions icon](assets/redirect_1.png)
+  
+1. In the **[!UICONTROL Redirect to URL]** dialog box, enter the URL of page B.
+
+    ![More Actions icon](assets/redirect_2.png)
+
+1. (Optional) Select the option to include the current query parameters.
+
+   When this option is selected, everything after the `?` in the URL of the visitor is appended to the redirect URL at the time of the redirect.
+
+## Limitations
+
+Redirect offers have the following limitations:
+
+* **A4T:** a redirect offer in an activity that uses A4T requires an implementation that meets certain minimum requirements, and other important information applies. See [Redirect offers - A4T FAQ](/help/main/c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-redirect-offers.md).
+* **Form-Based Experience Composer:** do not use a redirect offer in mboxes that are part of the page. Use a redirect offer only from a script tag that is part of the HTML `<head>`, and always use auto-create and set the redirect offer for the global mbox.
 
 >[!NOTE]
 >
->If you want to pass the referrer value of the landing page, it is recommended that you use an HTML offer rather than a redirect offer.
-
-To create a redirect offer: 
-
-1. Create an experience.
-1. From the [!UICONTROL Experiences] frame, click the **[!UICONTROL More Actions]** icon ( ![More Actions icon](/help/main/assets/icons/MoreSmallList.svg) ) for the desired experience.
-1. Click **[!UICONTROL Redirect to URL]**.
-1. In the Redirect to URL dialog box, type the URL.
-1. If desired, select the option to include current query parameters.
-
-   If this option is selected, anything after the ? in the visitor's URL is appended to the redirect URL at the time of redirect.
-   
-1. (Optional) Create additional rules.
-
-   Additional rules can be based on any of the following:
-
-   * URL 
-   * Domain 
-   * Path 
-   * Hash (#) Fragment 
-   * Query 
-   * mbox Parameter
-
-   Additional rules can be joined to the Activity URL with AND or OR. All rules you add are evaluated against each other with AND.
+>To pass the referrer value of the landing page, use an HTML offer instead of a redirect offer.
 
 ## Known issues
 
-* Redirect activities in at.js implementations might cause the preview URL to enter into a loop (the offer is delivered repeatedly). You can use [QA Mode](/help/main/c-activities/c-activity-qa/activity-qa.md) instead to perform Preview and QA. This issue does not impact the actual delivery of the offer. (TGT-23019)
+Redirect activities in at.js implementations might cause the preview URL to enter a loop, with the offer delivered repeatedly. Use [QA Mode](/help/main/c-activities/c-activity-qa/activity-qa.md) to preview and test the activity instead. This issue does not affect the actual delivery of the offer. (TGT-23019)
