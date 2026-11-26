@@ -15,23 +15,37 @@ topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
     internal-label: Customer experience
 ---
-# Page Modification Scenarios
+# Page modification scenarios {#vec-scenarios}
 
-The scenarios in this topic show how changes made to your page affect Adobe Target's ability to display an experience.
+>[!BEGINSHADEBOX]
 
-The Target selector determines where to display an experience. If a page is modified outside of Target, the changes might affect the ability of Target to display the experience.
+**On this page:** Learn how changes made to a page outside of [!DNL Target] affect the ability of [!DNL Target] to display an experience, through seven scenarios with examples.
 
-When using the selector, the unique class is not equivalent to the ID. The selector always works with a unique class. If no class is assigned to the element, the selector calculates the number of previous siblings which have the same tag name.
+>[!ENDSHADEBOX]
+
+The [!DNL Target] selector determines where an experience displays. When a page is modified outside of [!DNL Target], the changes might affect the ability of [!DNL Target] to find that location and display the experience.
+
+The selector always works with a unique class, which is not equivalent to an ID. When no class is assigned to the element, the selector counts the previous siblings that have the same tag name.
 
 >[!NOTE]
 >
->Although these scenarios use list items as examples, the concepts apply to any element.
+>The scenarios use list items as examples, but the concepts apply to any element.
 
-## Scenario: Insert an element with a different class name before the selected element {#section_298F661F72384F6AB957D5885A99D822}
+The following table summarizes the scenarios. In every scenario, the selector is `#wrap > ul.nav:eq(0) > li.women-section:eq(0)`.
 
-In this example, a new element is inserted as a sibling of the element in the Target selector.
+|Scenario|Action applied|Reason|
+|---|---|---|
+|Insert an element with a different class name before the selected element|Yes|`li.women-section:eq(0)` is not affected|
+|Insert an element with the same class name as the selected element|No|A new element takes the first position, which breaks the selector|
+|Insert an element after the selected element|Yes|The new element is added at the same position relative to the parent element|
+|Remove the element immediately preceding the selected element|Yes|The class of the selected item is not altered|
+|Remove the element immediately following the selected element|Yes|The class of the selected item is not altered|
+|Remove the selected element|Yes|The element is removed successfully|
+|Rename the class of the selected element|No|`class` is not found|
 
-There is a possibility that first class present on the element might be added by JavaScript. In that case, delivery fails and the action is not applied.
+## Insert an element with a different class name before the selected element
+
+A new element is inserted as a sibling of the element in the [!DNL Target] selector. If the first class on the element was added by JavaScript, delivery fails and the action is not applied.
 
 **Inserted element:**
 
@@ -39,71 +53,67 @@ There is a possibility that first class present on the element might be added by
 <li class="kids-section">Kids</li>
 ```
 
-**Selected:**
+**Selected element:**
 
 `<li class="women-section">Women</li>`
 
-Selector: `#wrap > ul.nav:eq(0) > li.women-section:eq(0)`
+**Selector:** `#wrap > ul.nav:eq(0) > li.women-section:eq(0)`
 
-**Result:**
+**Result:** The selector works as expected, because `li.women-section:eq(0)` is not affected.
 
-The selector works as expected because `li.women-section:eq(0)` is not affected.
-
-Before:
+**Before:**
 
 ```html
 <div id="wrap">
      <ul class="nav">
         <li class="men-section"> Men</li> <li class="women-section">Women</li>
-     </ul> 
+     </ul>
 </div>
 ```
 
-After:
+**After:**
 
 ```html
 <div id="wrap">
     <ul class="nav">
         <li class="kids-section">Kids</li>
         <li class="men-section"> Men</li>       <li class="women-section">Women</li>
-    </ul> 
+    </ul>
 </div>
 ```
 
-## Scenario: Insert an element with the same class name as the selected element {#section_0969B88C2F154E648D9969C8C85EF55A}
+## Insert an element with the same class name as the selected element
 
-In this scenario, an attempt is made to insert a list when an item in a list is selected.
+A list is inserted while an item of a list is selected.
 
 **Inserted element:**
 
 ```html
-<ul class="nav"> 
-   <li class="item"> Sale </li> 
-   <li> class="item"> Offers </li> 
+<ul class="nav">
+   <li class="item"> Sale </li>
+   <li class="item"> Offers </li>
 </ul>
 ```
 
-**Selected**
+**Selected element:**
 
 `<li class="women-section">Women</li>`
 
-Selector: `#wrap > ul.nav:eq(0) > li.women-section:eq(0)`
+**Selector:** `#wrap > ul.nav:eq(0) > li.women-section:eq(0)`
 
-**Result:**
+**Result:** The selector does not work. `ul.nav:eq(0)` now points to a dynamically added element, which is not available, so the action is not applied. Adding a similar list item with the same class, dynamically or manually, after the activity is created puts a new element in the first position, which breaks the selector.
 
-The selector does not work, because `ul.nav:eq(0)` provides a dynamically added element. The element will not be available and the action is not applied. When a similar list item with same class is added dynamically or manually after an activity has been created, a new element at the first position is created. This breaks the selector.
-
-Before:
+**Before:**
 
 ```html
 <div id="wrap">
     <ul class="nav">
         <li class="men-section"> Men</li>       <li class="women-section">Women</li>
-    </ul> 
+    </ul>
 </div>
 ```
 
-After (Attempted):
+**After (attempted):**
 
 ```html
 <div id="wrap">
@@ -118,46 +128,44 @@ After (Attempted):
 </div>
 ```
 
-## Scenario: Insert an element after the selected element {#section_15B07B84BEE94ED39D85BBBE0733E170}
+## Insert an element after the selected element
 
-In this scenario, a list item is inserted after the selected element.
+A list is inserted after the selected list item.
 
 **Inserted element:**
 
 ```html
-<ul class="nav"> 
-   <li class="men-section"> Men Clothes</li> 
-   <li class="women-section"> Women Clothes</li> 
+<ul class="nav">
+   <li class="men-section"> Men Clothes</li>
+   <li class="women-section"> Women Clothes</li>
 </ul>
 ```
 
-**Selected:**
+**Selected element:**
 
 `<li class="women-section">Women Shoes</li>`
 
-Selector: `#wrap > ul.nav:eq(0) > li.women-section:eq(0)`
+**Selector:** `#wrap > ul.nav:eq(0) > li.women-section:eq(0)`
 
-**Result:**
+**Result:** Inserting a list after the list that ends with the selected item works as expected. The new element is added at the same position as the selected element relative to the parent element.
 
-In this case, inserting a list after the list ending with the selected list item works as expected. The new element is added to the same position as the selected element relative to the parent element.
-
-Before:
+**Before:**
 
 ```html
 <div id="wrap">
     <ul class="nav">
-        <li class="men">Men Shoes </li>       <li class="women">Women Shoes</li>
+        <li class="men-section">Men Shoes </li>       <li class="women-section">Women Shoes</li>
     </ul>
 </div>
 ```
 
-After:
+**After:**
 
 ```html
 <div id="wrap">
     <ul class="nav">
-        <li class="men">Men Shoes </li>
-        <li class="women">Women Shoes</li>
+        <li class="men-section">Men Shoes </li>
+        <li class="women-section">Women Shoes</li>
     </ul>
       <ul class="nav">
         <li class="men-section">Men Clothes</li>
@@ -166,9 +174,9 @@ After:
 </div>
 ```
 
-## Scenario: Remove the element immediately preceding another element {#section_F193674F04F84AA593EAA1137C880EBA}
+## Remove the element immediately preceding the selected element
 
-In this scenario, the list item before the selected element is deleted.
+The list item before the selected element is deleted.
 
 **Removed element:**
 
@@ -176,17 +184,15 @@ In this scenario, the list item before the selected element is deleted.
 <li class="men-section"> Men </li>
 ```
 
-**Selected:**
+**Selected element:**
 
 `<li class="women-section">Women</li>`
 
-Selector: `#wrap > ul.nav:eq(0) > li.women-section:eq(0)`
+**Selector:** `#wrap > ul.nav:eq(0) > li.women-section:eq(0)`
 
-**Result:**
+**Result:** The element is removed successfully, because the class of the selected item is not altered.
 
-The element is successfully removed because the class of the selected item is not altered.
-
-Before:
+**Before:**
 
 ```html
 <div id="wrap">
@@ -197,7 +203,7 @@ Before:
 </div>
 ```
 
-After:
+**After:**
 
 ```html
 <div id="wrap">
@@ -207,9 +213,9 @@ After:
 </div>
 ```
 
-## Scenario: Remove the element immediately following another element {#section_F83B51BE54924FB58679D512DAF1EBB2}
+## Remove the element immediately following the selected element
 
-In this scenario, the list item after the selected element is deleted.
+The list item after the selected element is deleted.
 
 **Removed element:**
 
@@ -217,29 +223,27 @@ In this scenario, the list item after the selected element is deleted.
 <li class="kids-section">Kids</li>
 ```
 
-**Selected:**
+**Selected element:**
 
 `<li class="women-section">Women</li>`
 
-Selector: `#wrap > ul.nav:eq(0) > li.women-section:eq(0)`
+**Selector:** `#wrap > ul.nav:eq(0) > li.women-section:eq(0)`
 
-**Result:**
+**Result:** The element is removed successfully, because the class of the selected item is not altered and the removed element has a unique class within its parent subtree.
 
-The element is successfully removed because the class of the selected item is not altered. The removed element includes a unique class within its parent subtree.
-
-Before:
+**Before:**
 
 ```html
 <div id="wrap">
     <ul class="nav">
         <li class="men-section">Men</li>
         <li class="women-section">Women</li>
-        <li class="kids-section">Women</li>
+        <li class="kids-section">Kids</li>
     </ul>
 </div>
 ```
 
-After:
+**After:**
 
 ```html
 <div id="wrap">
@@ -250,38 +254,36 @@ After:
 </div>
 ```
 
-## Scenario: Remove the selected element {#section_1989CF1E2C344CC5963084ED83C18F9C}
+## Remove the selected element
 
-In this scenario, the selected list item is deleted.
+The selected list item is deleted.
 
 **Removed element:**
 
 ```html
-<li class="women-shoes">Women</li>
+<li class="women-section">Women</li>
 ```
 
-**Selected:**
+**Selected element:**
 
-`<li class="women-shoes">Women</li>`
+`<li class="women-section">Women</li>`
 
-Selector: `#wrap > ul.nav:eq(0) > li.women-section:eq(0)`
+**Selector:** `#wrap > ul.nav:eq(0) > li.women-section:eq(0)`
 
-**Result:**
+**Result:** The element is removed successfully.
 
-The element is successfully removed.
-
-Before:
+**Before:**
 
 ```html
 <div id="wrap">
     <ul class="nav">
         <li class="men-section">Men</li>
-        <li class="women-shoes">Women</li>
+        <li class="women-section">Women</li>
     </ul>
 </div>
 ```
 
-After
+**After:**
 
 ```html
 <div id="wrap">
@@ -291,9 +293,9 @@ After
 </div>
 ```
 
-## Scenario: Rename the class of the selected element {#section_79D244C588BA452DB8E433D82B7F63EA}
+## Rename the class of the selected element
 
-In this scenario, the class of the selected list item is changed.
+The class of the selected list item is changed.
 
 **Changed element:**
 
@@ -301,17 +303,15 @@ In this scenario, the class of the selected list item is changed.
 <li class="women-section">Women</li>
 ```
 
-**Selected:**
+**Selected element:**
 
 `<li class="women-section">Women</li>`
 
-Selector: `#wrap > ul.nav:eq(0) > li.women-section:eq(0)`
+**Selector:** `#wrap > ul.nav:eq(0) > li.women-section:eq(0)`
 
-**Result:**
+**Result:** The class cannot be renamed, because `class` is not found.
 
-The element class cannot be renamed because `class` is not found.
-
-Before:
+**Before:**
 
 ```html
 <div id="wrap">
@@ -322,7 +322,7 @@ Before:
 </div>
 ```
 
-After (Attempted):
+**After (attempted):**
 
 ```html
 <div id="wrap">

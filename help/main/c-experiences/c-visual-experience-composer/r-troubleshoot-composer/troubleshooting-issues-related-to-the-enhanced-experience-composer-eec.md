@@ -23,20 +23,23 @@ topic_v2:
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
     internal-label: Security
 ---
-# Troubleshooting issues related to the [!UICONTROL Enhanced Experience Composer] 
+# Troubleshooting issues related to the [!UICONTROL Enhanced Experience Composer] {#eec-issues}
 
-Display problems sometimes occur in the [!DNL Adobe Target] [!UICONTROL Enhanced Experience Composer] (EEC) under certain conditions.
+>[!BEGINSHADEBOX]
 
-## The EEC will not load an internal QA URL that is not accessible on public IP. {#section_D29E96911D5C401889B5EACE267F13CF}
+**On this page:** Learn how to resolve the issues that affect only the **[!UICONTROL Enhanced Experience Composer]** (EEC), such as pages that do not load because the IP addresses of the EEC proxy are blocked.
 
+>[!ENDSHADEBOX]
 
-+++Details
-This issue can be resolved by allowlisting the following IP addresses. These IP addresses are for the [!DNL Adobe] server used for the EEC proxy. These IP addresses are only required for activity editing. Visitors to your site do not need these IP addresses allowlisted.
+Display problems sometimes occur in the [!DNL Adobe Target] **[!UICONTROL Enhanced Experience Composer]** (EEC) under certain conditions. The following items describe the issues that affect only the EEC and how to resolve them.
 
-Ask your IT team to allowlist the following IP addresses:
+## Allowlist the IP addresses of the EEC proxy {#eec-ip-addresses}
+
+The EEC does not load an internal QA URL that is not accessible on a public IP address. Allowlisting the IP addresses of the [!DNL Adobe] server used for the EEC proxy resolves this issue. These IP addresses are required only for activity editing, and visitors to the site do not need them allowlisted. Ask the IT team to allowlist the following IP addresses.
 
 ### US (va7)
 
+```
 40.70.154.136/29
 52.254.106.240/28
 52.254.106.160/28
@@ -60,9 +63,11 @@ Ask your IT team to allowlist the following IP addresses:
 4.152.211.251
 52.254.107.144/28
 52.254.106.144/28
+```
 
 ### EMEA (nld2)
 
+```
 51.138.17.16/28
 51.138.17.48/28
 51.138.16.128/28
@@ -85,9 +90,11 @@ Ask your IT team to allowlist the following IP addresses:
 51.138.12.100
 51.138.17.64/28
 51.138.12.160/28
+```
 
 ### APAC (aus)
 
+```
 20.43.104.160/28
 20.227.35.177
 20.40.188.227
@@ -113,11 +120,13 @@ Ask your IT team to allowlist the following IP addresses:
 20.43.104.192/28
 20.43.105.0/28
 20.43.104.0/28
+```
 
 ### Legacy IP addresses
 
 The following legacy IP addresses should continue to be allowlisted until further notice.
 
+```
 34.254.77.200
 54.73.207.147
 54.229.152.123
@@ -136,52 +145,48 @@ The following legacy IP addresses should continue to be allowlisted until furthe
 35.75.212.45
 52.199.184.130
 18.180.161.176
+```
 
-You might see the following error message in [!DNL Target]:
++++ The EEC displays an error message that the website domain is blocking it
 
-`Error: Your website domain (ISP) is blocking the [!UICONTROL Enhanced Experience Composer]. You can allowlist the [!UICONTROL Enhanced Experience Composer]'s IP addresses or turn off [!UICONTROL Enhanced Experience Composer] in [!UICONTROL Configure] > [!UICONTROL Page Delivery] menu.`
+The following error message can display in [!DNL Target]:
 
-![EEC_error image](assets/EEC_error.png)
+`Error: Your website domain (ISP) is blocking the Enhanced Experience Composer. You can allowlist the Enhanced Experience Composer's IP addresses or turn off Enhanced Experience Composer in Configure > Page Delivery menu.`
 
-The following are reasons that you might see this error message and remedies to fix the situation:
+![Experience composer with the error message that the website domain (ISP) is blocking the Enhanced Experience Composer, with a suggestion to allowlist the IP addresses or turn off the composer in the Configure Page Delivery menu](assets/EEC_error.png)
 
-* **Issue:** Your website domain (ISP) is blocking the [!UICONTROL Enhanced Experience Composer].
+This error message has two possible causes:
 
-  **Remedy:** Allowlist the IP addresses listed above. 
-
-* **Issue:** The IP addresses are allowlisted but your website does not support TLS version 1.2. [!DNL Target] currently uses the default configuration of 1.2. Prior to the [!DNL Target] 18.4.1 (April 25, 2018), the default configuration supported TLS 1.0. For more information, see [TLS (Transport Layer Security) Encryption Changes](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/tls-transport-layer-security-encryption.html){target=_blank}.
-
-  **Solution:** See the following question (The [!UICONTROL Enhanced Visual Experience Composer] will not load on secure pages on my site that use TLS 1.2).
+* The website domain (ISP) blocks the EEC. To resolve the issue, allowlist the IP addresses listed in [Allowlist the IP addresses of the EEC proxy](#eec-ip-addresses).
+* The IP addresses are allowlisted, but the website does not support TLS 1.2. To resolve the issue, see the following item.
 
 +++
 
-## The EEC will not load on secure pages on my site that use TLS 1.0. (EEC only) {#section_C5B31E3D32A844F68E5A8153BD17551F}
++++ The EEC does not load on secure pages of a site that uses TLS 1.0
 
-+++Details
-You might see the error message described above in "The [!UICONTROL Enhanced Visual Experience Composer] will not load on secure pages on my site." if the above IP addresses are allowlisted but your website does not support TLS version 1.2. [!DNL Target] currently uses the default configuration of 1.2. Prior to the [!DNL Target] 18.4.1 (April 25, 2018), the default configuration supported TLS 1.0. For more information, see [TLS (Transport Layer Security) Encryption Changes](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/tls-transport-layer-security-encryption.html){target=_blank}.
+The error message described in the previous item can display when the IP addresses are allowlisted but the website does not support TLS 1.2. [!DNL Target] currently uses version 1.2 as the default configuration. Before [!DNL Target] 18.4.1 (April 25, 2018), the default configuration supported TLS 1.0. For more information, see [TLS (Transport Layer Security) Encryption Changes](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/tls-transport-layer-security-encryption.html){target=_blank}.
 
-To check the TLS version on your website using Firefox (other browsers have similar steps):
+To check the TLS version of a website in Firefox (other browsers have similar steps):
 
-1. Open the affected website in Firefox. 
-1. Click the **[!UICONTROL Show Site Information]** icon on the browser's address bar.
+1. Open the affected website in Firefox.
+1. Click the **[!UICONTROL Show Site Information]** icon on the address bar of the browser.
 
-   ![firefox_more_info image](assets/firefox_more_info.png)
+   ![Firefox address bar with the Show Site Information icon highlighted to the left of the URL](assets/firefox_more_info.png)
 
 1. Click **[!UICONTROL Show Connection Details]** > **[!UICONTROL More Information]**.
 
-   ![firefox_more_info_2 image](assets/firefox_more_info_2.png)
+   ![Firefox site information panel with the Show connection details arrow highlighted next to Secure Connection](assets/firefox_more_info_2.png)
 
-1. Examine the TLS version information under Technical Details:
+1. Examine the TLS version information under **[!UICONTROL Technical Details]**.
 
-   ![firefox_more_info_3 image](assets/firefox_more_info_3.png)
+   ![Firefox Page Info window, Security tab, with the TLS version highlighted under Technical Details](assets/firefox_more_info_3.png)
 
-1. If you find that your website is showing TLS 1.0, see [TLS (Transport Layer Security) Encryption Changes](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/tls-transport-layer-security-encryption.html){target=_blank} for information about Target's TLS support policy. To remedy the situation for now (valid until September 12, 2018){target=_blank}, reach out to [Customer Care](/help/main/cmp-resources-and-contact-information.md#reference_ACA3391A00EF467B87930A450050077C) for configuration with your TLS version and the domain.
+1. If the website shows TLS 1.0, see [TLS (Transport Layer Security) Encryption Changes](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/tls-transport-layer-security-encryption.html){target=_blank} for information about the TLS support policy of [!DNL Target]. To remedy the situation for now (valid until September 12, 2018), reach out to [Customer Care](/help/main/cmp-resources-and-contact-information.md#reference_ACA3391A00EF467B87930A450050077C) for configuration with the TLS version and the domain.
 
 +++
 
-## I'm seeing timeouts or "access denied" errors when loading sites with proxy enabled. (EEC only) {#section_60CBB9022DC449F593606C0E6252302D}
++++ Timeouts or "access denied" errors display when sites are loaded with the proxy enabled
 
-+++Details
-Make sure proxy IPs are not blocked in your environment.
+Make sure that the proxy IP addresses are not blocked in the environment. The addresses are listed in [Allowlist the IP addresses of the EEC proxy](#eec-ip-addresses).
 
 +++

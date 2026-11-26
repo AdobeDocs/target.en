@@ -1,7 +1,7 @@
 ---
 keywords: create recommendations;recommendations activity;new recommendations;recommendations overview
 description: Learn how to use the [!DNL Target] [!UICONTROL Visual Experience Composer] (VEC) to create a [!DNL Recommendations] activity.
-title: How Do I Create a [!DNL Recommendations] Activity?
+title: Create a [!DNL Recommendations] activity
 badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="See what's included in Target Premium."
 feature: Recommendations
 exl-id: c83073d5-f852-4f09-8343-e4658fbf6f43
@@ -23,170 +23,153 @@ topic_v2:
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
     internal-label: Troubleshooting
 ---
-# Create a [!DNL Recommendations] activity
+# Create a [!DNL Recommendations] activity {#create-recs-activity}
 
-Use the [!DNL Target] [!UICONTROL Visual Experience Composer] (VEC) to create a [!DNL Recommendations] activity directly on a [!DNL Target]-enabled page and to modify portions of the page within [!DNL Target].
+>[!BEGINSHADEBOX]
 
-1. Click **[!UICONTROL Activities]** > **[!UICONTROL Create Activity]** > **[!UICONTROL Recommendations]**.
+**On this page:** Learn how to create a [!DNL Recommendations] activity in the [!DNL Target] **[!UICONTROL Visual Experience Composer]** (VEC), from selecting the location to setting up the activity.
+
+>[!ENDSHADEBOX]
+
+A [!DNL Recommendations] activity displays recommended items on a page. Creating the activity in the [!DNL Target] **[!UICONTROL Visual Experience Composer]** (VEC) allows the recommendations to be placed directly on a [!DNL Target]-enabled page, in the exact location where visitors should see them.
+
+## Create the activity and select the location {#create-activity}
+
+The activity URL and the location define the page and the area of that page where the recommendations display.
+
+1. From the **[!UICONTROL Activities]** menu, click **[!UICONTROL Create Activity]** > **[!UICONTROL Recommendations]**.
+
+   ![All Activities page with the Create Activity menu open and the Recommendations option highlighted](../assets/create_reco_1.png)
 
 1. Select **[!UICONTROL Visual]**, if necessary.
 
-   If you prefer to use the [!UICONTROL Form-Based Experience Composer], select [!UICONTROL Form]. See [Form-Based Experience Composer](/help/main/c-experiences/form-experience-composer.md) for more information.
+   To use the **[!UICONTROL Form-Based Experience Composer]** instead, select **[!UICONTROL Form]**. See [Form-Based Experience Composer](/help/main/c-experiences/form-experience-composer.md). For a comparison of the composers, including the **[!UICONTROL Single Page Application]** VEC, see [Experiences and Offers](/help/main/c-experiences/experiences.md). For VEC issues, see [Troubleshooting the Visual Experience Composer](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/troubleshoot-composer.md).
 
-   >[!NOTE]
-   >
-   >In addition to the VEC and [!UICONTROL Form-Based Experience Composer], [!DNL Target] offers the [!UICONTROL Single Page Application] VEC. For more information about the various composers, see [Experiences and Offers](/help/main/c-experiences/experiences.md).
-   >
-   >For troubleshooting information about the VEC, should you have problems, see [Troubleshooting the Visual Experience Composer](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/troubleshoot-composer.md).
-   
 1. (Conditional) Choose a [workspace](/help/main/administrating-target/c-user-management/property-channel/property-channel.md).
 
-1. Specify an activity URL, and then click **[!UICONTROL Create]**.
+1. Specify the activity URL, then click **[!UICONTROL Create]**.
+
+   The activity URL is the page where the recommendations display. [!DNL Target] does not differentiate between URL protocols ([!DNL https] and [!DNL http]), so `http://www.adobe.com` and `https://www.adobe.com` both match.
+
+   The VEC opens and shows the page.
+
+1. Click the element where the recommendations should display and select **[!UICONTROL Replace content]** > **[!UICONTROL Recommendation]**. 
+
+   <!--
+   * **[!UICONTROL Replace w/ Recommendations]**: Deletes the current content of the element and replaces it with the recommendations.
+   * **[!UICONTROL Insert Recommendations Before]**: Places the recommendations before the element, above or to the left of it, depending on the page construction.
+   * **[!UICONTROL Insert Recommendations After]**: Places the recommendations after the element, below or to the right of it, depending on the page construction.
+
+   ![Visual Experience Composer with a selected container and the menu options Replace w/ Recommendations, Insert Recommendations Before, Insert Recommendations After, and Expand Selection](/help/main/c-recommendations/t-create-recs-activity/assets/Menu_Replace-Insert.png)
+
+   Use **[!UICONTROL Expand Selection]** to expand the selection to the parent container, so that it includes the desired page elements.
+   -->
+
+   Visitors who qualify for the recommendation see the recommended items in the specified area. Visitors who do not qualify see the default content.
 
    >[!NOTE]
    >
-   >[!DNL Target] does not differentiate between URL protocols ( [!DNL https] and [!DNL http]). As a result, [!DNL `http://www.adobe.com`] and [!DNL `https://wwww.adobe.com`] both match.
+   >**[!UICONTROL Recommendations]** activities support only one modification or recommendation at a time. To display multiple recommendations, create several [!DNL Recommendations] activities, or use A/B or XT testing.
 
-   The activity URL is the page where the recommendations display.
+   ![Visual Experience Composer with an image selected on the page and the Recommendation option displayed in the menu](../assets/create_reco_2.png)
 
-   When you click [!UICONTROL Create], the VEC opens and shows your page. You can replace a current element with recommendations, or insert recommendations.
+<!--
+1. Select a page type: Cart Page, Category Page, Home Page, Landing Page, Product Page, Search Results Page, Thank You Page, or Other.
 
-1. Click an element on your page, then if recommendations are available where that element is located, click **[!UICONTROL Replace w/ Recommendations]**, **[!UICONTROL Insert Recommendations Before]**, or **[!UICONTROL Insert Recommendations After]**.
+   ![Select Page Type dialog box with the list of page types open](/help/main/c-recommendations/t-create-recs-activity/assets/Menu_PageType.png)
 
-   >[!NOTE]
-   >
-   >[!UICONTROL Recommendations] activities support only one modification/recommendation at a time. For multiple recommendations, you can either create several [!DNL Recommendations] activities or use A/B or XT testing.
+   The page type determines which criteria are suggested in the next section.
+-->
 
-   Visitors to your site will see the recommended content only if they qualify for the recommendation. Visitors who do not qualify for the recommendation will see default content.
+1. Access the **[!UICONTROL Show properties]** menu and click **[!UICONTROL Select a recommendation]**.
 
-   ![Recommendations options](/help/main/c-recommendations/t-create-recs-activity/assets/Menu_Replace-Insert.png)
+   ![Recommendation panel of the Visual Experience Composer with the Select a recommendation button](../assets/create_reco_3.png)
 
-   * **[!UICONTROL Replace w/ Recommendations]**: Replacing an element with recommendations deletes the current content and replaces it with your recommendations. When visitors visit your site and qualify for the recommendation, they'll see the recommended items in the specified area instead of the existing content.
-   * **[!UICONTROL Insert Recommendations Before]**: Inserting recommendations before the selected element places the recommended content before that element. Depending on your page construction, the recommendation displays above or to the left of the selected element.
-   * **[!UICONTROL Insert Recommendations After]**: Inserting recommendations after the selected element places the recommended content after that element. Depending on your page construction, the recommendation displays below or to the right of the selected element.
+## Select the criteria {#select-criteria}
 
-   The **[!UICONTROL Expand Selection]** option lets you expand the selected location (parent container) to help you easily identify and include the desired page elements more easily.
+Criteria determine which items are recommended and how they are chosen for each visitor.
 
-1. Select a page type.
+1. Select the check box of one or more [criteria](/help/main/c-recommendations/c-algorithms/algorithms.md).
 
-   Page types can include:
+   ![Select Criteria dialog box with the search field, the filter icon, the Create criteria button, and the criteria list with one criteria selected](../assets/create_reco_4.png)
 
-   * Cart Page
-   * Category Page
-   * Home Page
-   * Landing Page
-   * Product Page
-   * Search Results Page
-   * Thank You Page
-   * Other
-
-   ![Select Page Type options](/help/main/c-recommendations/t-create-recs-activity/assets/Menu_PageType.png)
-
-1. Select one or more [criteria](/help/main/c-recommendations/c-algorithms/algorithms.md).
-
-   Criteria are displayed as cards that show information about each criteria. By default, the [!UICONTROL Select Criteria] screen displays criteria that are compatible with your industry vertical and the page type you selected in the previous step. You can change these options to display other criteria.
+   When multiple criteria are selected, the traffic is split evenly between them, and the percentages cannot be changed for each criteria. For example, if two criteria are selected and the activity displays default content to 20% of entrants, then 40% of entrants see the recommendations of each criteria.
 
    >[!NOTE]
    >
-   >Not every criteria will run correctly on every page. The page or mbox must pass in `entity.id` or `entity.categoryId` for current item/current category recommendations to be compatible. In general, it is best to show only compatible criteria. However, if you want incompatible criteria to be available for the activity, clear the **[!UICONTROL Compatible]** check box. The [!UICONTROL Compatible] option might not display, depending on your Recommendations settings ( **[!UICONTROL Recommendations]** > **[!UICONTROL Settings]** > **[!UICONTROL Filter Incompatible Criteria]**). For more information, see [Settings](https://experienceleague.adobe.com/docs/target-dev/developer/recommendations.html){target=_blank}.
+   >Not every criteria runs correctly on every page. For current item or current category recommendations to be compatible, the page or mbox must pass in `entity.id` or `entity.categoryId`. It is best to show only compatible criteria. To make incompatible criteria available for the activity, clear the **[!UICONTROL Compatible]** check box. This check box might not display, depending on the **[!UICONTROL Administration]** > **[!UICONTROL Recommendations]** > **[!UICONTROL Filter Incompatible Criteria]** setting. For more information, see [Settings](https://experienceleague.adobe.com/docs/target-dev/developer/recommendations.html){target=_blank}.
 
-   ![Select Criteria dialog box](/help/main/c-recommendations/t-create-recs-activity/assets/SCRN_SelectCriteria2.png)
+1. Optionally, find or create criteria:
 
-   If you select multiple criteria, traffic is split evenly between the selected criteria. For example, if you have selected two criteria and your activity is designed to display default content to 20% of activity entrants, then 40% of activity entrants will see the recommendations controlled by each criteria. There is no option to change the percentages for each criteria.
-
-   * To search for an existing criteria (for example, if a large number of criteria cards are displayed), type in the search field until the desired criteria appears, then select the criteria and click **[!UICONTROL Next]**.
-
-     Some criteria are supplied with [!DNL Recommendations]. You and your team can also create your own custom criteria. 
-
-   * To create a new criteria, click **[!UICONTROL Create Criteria]** > **[!UICONTROL Create Criteria]**, then fill in the information for the new criteria. For information about creating new criteria, see [Creating Criteria](/help/main/c-recommendations/c-algorithms/create-new-algorithm.md). 
-   * You can also group criteria into sequences. To create a new criteria sequence, click **[!UICONTROL Create Criteria]** > **[!UICONTROL Create Criteria Sequence]**. See [Create Criteria Sequence](/help/main/c-recommendations/c-algorithms/create-criteria-sequence.md) for more information.
+   * To search for an existing criteria when the list is long, type in the search field until the desired criteria appears. Some criteria are supplied with [!DNL Recommendations], and the team can also create custom criteria.
+   * To create a new criteria, click **[!UICONTROL Create criteria]**, then enter the information for the new criteria. See [Create criteria](/help/main/c-recommendations/c-algorithms/create-new-algorithm.md).
+   * To group criteria into a sequence, create a criteria sequence. See [Create criteria sequences](/help/main/c-recommendations/c-algorithms/create-criteria-sequence.md).
 
 1. Click **[!UICONTROL Next]**.
+
+## Select the design and promotions {#select-design}
+
+A design is a template that determines the look of the recommendations in the selected location, and a collection determines which items are eligible to appear. Promotions can optionally be added to the recommendations.
+
 1. Select a [design](/help/main/c-recommendations/c-design-overview/design-overview.md).
 
-   A design is a template that determines the look of the locations on your page. [!DNL Target] includes several pre-configured designs. You can also create your own custom designs. For more information, see [Create a Design](/help/main/c-recommendations/c-design-overview/create-design.md#create-design) and [Customizing a Design](/help/main/c-recommendations/c-design-overview/customizing-a-template.md#customize-design).
+   ![Select Design dialog box with the Create design button and the list of designs with the 2 x 4 Design selected](../assets/create_reco_5.png)
 
-   ![Select Design dialog box](/help/main/c-recommendations/t-create-recs-activity/assets/Card_SelectDesign.png)
+   * To use existing designs, select the check box of one or more designs, then click **[!UICONTROL Next]**. Only one design can be selected when multiple criteria were selected.
+   * To create a custom design, click **[!UICONTROL Create design]** and enter the name and code of the new design. Click **[!UICONTROL Next]**, select or upload an image, then click **[!UICONTROL Done]** > **[!UICONTROL Done]**.
 
-   Each design shows a graphical representation of how it will look, and icons that show how many of your live and inactive activities currently use that design.
-
-   * To select one or more existing designs, click the designs, then click **[!UICONTROL Next]**.
-
-     If you selected multiple criteria, you can select only one design. 
-
-   * To create a custom design, click **[!UICONTROL Create Design]**, then fill in the name and code for the new design. Click **[!UICONTROL Next]**, then select or upload an image and click **[!UICONTROL Done]** > **[!UICONTROL Done]**. For information about creating a new design, see [Create a Design](/help/main/c-recommendations/c-design-overview/create-design.md#create-design).
+   [!DNL Target] includes several preconfigured designs. For more information about custom designs, see [Create a design](/help/main/c-recommendations/c-design-overview/create-design.md#create-design) and [Customize a design using Velocity](/help/main/c-recommendations/c-design-overview/customizing-a-template.md#customize-design).
 
 1. Click **[!UICONTROL Next]**.
 
-   You have the option to add promotions to your recommendations. For more information about adding front and back promotions, see [Adding Promotions](/help/main/c-recommendations/t-create-recs-activity/adding-promotions.md#task_CC5BD28C364742218C1ACAF0D45E0E14).
+1. On the **[!UICONTROL Options]** page, select the collection.
+
+   The collection determines which items are eligible to appear in the recommendations. For more information, including how to create a collection, see [Use a collection in an activity](/help/main/c-recommendations/c-products/collections.md#use-collection).
+
+1. (Optional) Add front and back promotions to the recommendations. See [Add promotions](/help/main/c-recommendations/t-create-recs-activity/adding-promotions.md#add-promotions).
 
 1. Click **[!UICONTROL Save]**.
 
-   The VEC screen displays the recommendation design on your page.
+   The VEC screen displays the recommendation design on the page.
 
-1. (Optional) Click **[!UICONTROL Preview]** to see how the activity will appear to visitors.
+## Review and complete the activity {#complete-activity}
 
-   [!UICONTROL Preview] mode allows you to interact with your recommendations, much as a visitor would.
+Reviewing the recommendations and the activity flow before saving helps confirm that the right audience, criteria and design are in place.
 
-   When you are finished previewing your recommendations, click **[!UICONTROL Compose]**.
+1. (Optional) Click **[!UICONTROL Preview]** to see how the activity appears to visitors. This mode allows interaction with the recommendations, as a visitor would interact with them. Click **[!UICONTROL Compose]** to return to the VEC.
 
-1. Review your recommendation in the VEC, then click **[!UICONTROL Next]**.
+1. Review the recommendation in the VEC, then click **[!UICONTROL Next]**.
 
-1. Review your [!DNL Recommendations] activity in the flow diagram and make any necessary changes.
+1. Review the activity in the flow diagram, and make any necessary changes. Click **[!UICONTROL Next]** when finished.
 
-   ![Recommendations flow diagram](/help/main/c-recommendations/t-create-recs-activity/assets/SCRN_Workflow.png)
+   ![Recommendations flow diagram with All Visitors split into a 10% control group and a 90% group that leads to the All Collections collection, the selected criteria, and the 2 x 4 Design](../assets/create_reco_6.png)
 
-   The flow diagram leads you through the steps of choosing the audience for the activity, setting up experiences, and specifying success metrics. 
+   The flow diagram covers the audience for the activity, the experiences and the success metrics. From the diagram, the following changes can be made:
 
-   From the flow diagram, you can do the following:
+   * **Audience**: All visitors see the recommendations by default, but an existing audience can be selected instead. As an alternative to creating a new audience, an [activity-only audience](/help/main/c-target/creating-activity-only-audience.md#concept_A6BADCF530ED4AE1852E677FEBE68483) can be created, or [multiple audiences can be combined](/help/main/c-target/combining-multiple-audiences.md#section_2F1CE9434CC04174B4BA2BFC89B85D77), to build an ad hoc audience.
+   * **Criteria**: View the criteria, or change the collection (next to the **[!UICONTROL Criteria]** label).
+   * **Control group**: Change the percentage of entrants who see the control experience. In a [!DNL Recommendations] activity, the control group sees the page without any recommendations.
+   * **Design**: View the design code, or change or remove the design.
 
-   * Change the audience that will see the recommendations
+1. Specify the activity settings, for example a name (required) and an objective (optional). For the settings, including the rules for the activity name, see [Recommendations activity settings](/help/main/c-recommendations/t-create-recs-activity/recs-activity-settings.md#recs-activity-settings).
 
-     >[!NOTE]
-     >
-     >In addition to selecting an existing audience, you can [create an activity-only audience](/help/main/c-target/creating-activity-only-audience.md#concept_A6BADCF530ED4AE1852E677FEBE68483) or [combine multiple audiences](/help/main/c-target/combining-multiple-audiences.md#concept_A7386F1EA4394BD2AB72399C225981E5) to create ad hoc audiences rather than creating a new audience.
+1. Click **[!UICONTROL Save & Close]**.
 
-     By default, all users see the recommendations. However, you can target recommendation to a specific audience.
+## Manage the activity {#manage-activity}
 
-     For a [!DNL Recommendations] activity, the control group sees the page without any recommendations. 
+After the activity is saved, the **[!UICONTROL Overview]** page displays a summary of the activity. From this page, the following actions are available:
 
-   * View the criteria 
-   * Change the collection (next to the [!UICONTROL Criteria] label) 
-   * Change the percentage of entrants who see the control experience 
-   * View the design code 
-   * Change or remove a design
+* Activate, edit, or QA the activity.
+* Share the activity to the Experience Cloud feed.
+* View the experience URLs and download data.
+* Change the percentage of activity entrants who see the control experience.
+* Show or hide the criteria details, and view the code for the designs.
 
-1. Click **[!UICONTROL Next]** when finished.
-1. Specify your activity settings.
+Two additional pages are available from the activity:
 
-   For example, type a name (required) and objective (optional) for the activity. For information about the settings, see [Recommendations Activity Settings](/help/main/c-recommendations/t-create-recs-activity/recs-activity-settings.md#reference_3FDA8388CEEC4159949151C1829E2FBB).
+* **[!UICONTROL Reports]**: Shows the report on the performance of the [!DNL Recommendations] activity.
+* **[!UICONTROL Collisions]**: Shows any [activity collisions](/help/main/c-experiences/c-visual-experience-composer/activity-collisions.md) that might occur. Collisions occur when multiple activities deliver content to the same page, and can cause unexpected content to display.
 
-   >[!NOTE]
-   >
-   >If you specify a [!DNL Recommendation] activity name that already exists for another activity in [!DNL Recommendations Classic], the new activity is re-synced with a new name. The new name is the original name appended with a timestamp to make it unique. This new name is displayed in both [!DNL Target Standard/Premium] and [!DNL Recommendations Classic].
-
-1. When finished, click **[!UICONTROL Save & Close]**.
-
-   An overview of your activity is displayed. 
-
-   From the [!UICONTROL Overview] page, you can:
-
-   * Activate the activity 
-   * Edit the activity 
-   * Share the activity to your Experience Cloud feed
-   * QA the activity 
-   * View your experience URLs 
-   * Download data 
-   * Change the percentage of activity entrants who see the control experience 
-   * Show or hide criteria details 
-   * View the code for your designs
-
-1. (Optional) Open the [!UICONTROL Reports] page to view the report that shows the performance of your [!DNL Recommendations] activity.
-
-1. (Optional) Open the [!UICONTROL Collisions] page to view any [activity collisions](/help/main/c-experiences/c-visual-experience-composer/activity-collisions.md) that might occur.
-
-   Activity collisions occur when multiple activities are set to deliver content to the same page, and may cause unexpected content to be displayed.
-
-## Training Video: Create a Recommendations activity (7:15) ![Tutorial badge](/help/main/assets/tutorial.png)
+## Training video: Create a Recommendations activity (7:15) ![Tutorial badge](/help/main/assets/tutorial.png)
 
 >[!VIDEO](https://video.tv.adobe.com/v/27688)

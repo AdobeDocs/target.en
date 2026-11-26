@@ -31,7 +31,7 @@ If you select multiple criteria, traffic is split evenly between the selected cr
 
 **To select criteria:**
 
-1. While [creating a new recommendation](/help/main/c-recommendations/t-create-recs-activity/create-recs-activity.md#task_6874328773C64C44A73F0A130AD3F96F), in the **[!UICONTROL Select Criteria]** dialog box, locate and select one or more criteria.
+1. While [creating a new recommendation](/help/main/c-recommendations/t-create-recs-activity/create-recs-activity.md#create-recs-activity), in the **[!UICONTROL Select Criteria]** dialog box, locate and select one or more criteria.
 
    You can use the [!UICONTROL Industry Type] filter, [!UICONTROL Page Type] filter, and [!UICONTROL Compatible] checkbox to filter the list of criteria. These options help you locate the desired criteria.
 

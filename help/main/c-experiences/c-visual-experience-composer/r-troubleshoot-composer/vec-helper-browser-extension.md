@@ -30,81 +30,87 @@ topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
 ---
-# [!UICONTROL Visual Experience Composer] helper extension
+# [!UICONTROL Visual Experience Composer] helper extension {#vec-helper-extension}
 
-The [!DNL Adobe Target] [!UICONTROL Visual Experience Composer] (VEC) Helper browser extension for [!DNL Google Chrome] lets you load websites reliably within the VEC to rapidly author and QA web experiences.
+>[!BEGINSHADEBOX]
 
-The VEC Helper browser is a [!DNL Chrome] extension. This extension is not necessary when using [!DNL Mozilla Firefox].
+**On this page:** Learn how the legacy VEC Helper browser extension loads websites in the **[!UICONTROL Visual Experience Composer]** (VEC), and how to install and use it.
+
+>[!ENDSHADEBOX]
+
+The [!DNL Adobe Target] **[!UICONTROL Visual Experience Composer]** (VEC) Helper browser extension for [!DNL Google Chrome] loads websites reliably in the VEC, which makes it faster to author and check web experiences. The extension is not necessary in [!DNL Mozilla Firefox].
 
 >[!IMPORTANT]
 >
->* The legacy [!DNL Target] VEC Helper extension documented in this article was created using Manifest V2. [!DNL Google] announced that it will no longer allow extensions created using Manifest V2 starting in June 2024. For more information, see the [Manifest V2 support timeline announcement](https://developer.chrome.com/docs/extensions/develop/migrate/mv2-deprecation-timeline){target=_blank} from [!DNL Google] on the *Chrome for Developers* site.
+>* The legacy [!DNL Target] VEC Helper extension documented in this article was created with Manifest V2. [!DNL Google] announced that it would stop allowing extensions created with Manifest V2 starting in June 2024. For more information, see the [Manifest V2 support timeline announcement](https://developer.chrome.com/docs/extensions/develop/migrate/mv2-deprecation-timeline){target=_blank} from [!DNL Google] on the *Chrome for Developers* site.
 >
->* Starting in June 2024, [!DNL Google] will begin disabling extensions created using Manifest V2, including the extension documented in this topic. [!DNL Adobe] recommends that customers move to the newer [Visual Editing Helper extension](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/visual-editing-helper-extension.md) as soon as feasible.
+>* Starting in June 2024, [!DNL Google] disables extensions created with Manifest V2, including the extension documented in this article. [!DNL Adobe] recommends moving to the newer [Visual Editing Helper extension](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/visual-editing-helper-extension.md) as soon as feasible.
 
-## Reasons why some websites might not open reliably in the VEC
+## Why some websites do not open reliably in the VEC
+
+A website might not open reliably in the VEC for the following reasons:
 
 * The website has strict security policies.
 * The website is in an iframe.
 * The at.js library is not yet implemented on the website.
-* The customer's QA or stage site is not available to the outside world (the site is internal).
-* There are some current limitations when trying to use the VEC to open a website that is using [Service Workers](https://developer.mozilla.org/en-US/docs/Web/API/Service_Worker_API){target=_blank} (SW).
+* The QA or staging site of the customer is internal and not available outside the network.
+* The website uses [Service Workers](https://developer.mozilla.org/en-US/docs/Web/API/Service_Worker_API){target=_blank} (SW), which the VEC currently supports only with limitations. See the following section.
+* The website is opened in [!DNL Chrome] 80 or later, which enforces the SameSite cookie policies. For more information, see [Google Chrome SameSite cookie policies](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/issues-related-to-the-visual-experience-composer-vec-and-enhanced-experience-composer-eec.md#samesite).
 
-A SW is a web technology that can be used to intercept requests for the domain they are installed on by a web page. The SW survives the page visit and activates itself on subsequent visits. The SW decides which requests go through and which ones are intercepted and served from a cache instead.
+The VEC Helper browser extension for [!DNL Chrome] solves the site-loading issues for which customers otherwise rely on the [!DNL Target] [Enhanced Experience Composer](/help/main/administrating-target/visual-experience-composer-set-up.md#eec) or on third-party extensions such as Requestly.
 
-The SW can control the caching; can cache the web page itself, static resources like JS, CSS, IMG, AJAX requests, their contents, and their response headers, including the ones that our [Target VEC Helper extension](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/vec-helper-browser-extension.md) tries to remove, like X-Frame-Options: SAMEORIGIN, CSP (Content-Security-Policy), or Set-Cookie.
+### Service workers
 
-Unfortunately, the Chrome extension APIs that intercept web requests do not receive the requests that were intercepted and handled by a SW. Therefore, the extension cannot fix the headers and the cookies if the web page request was served from a cache by a SW because the web page will not load inside the VEC because of the X-Frame-Options or CSP headers that were also cached.
+A service worker (SW) is a web technology that a web page installs to intercept the requests for its domain. The SW survives the page visit and activates itself on subsequent visits. It decides which requests go through and which are intercepted and served from a cache.
 
-As a potential workaround, you can disable Service Workers from the Chrome Developer Tools > Application tab, then to enable the "Bypass for network" checkbox under the Service Workers section.
+A SW can cache the web page itself, static resources such as JS, CSS, IMG, and AJAX requests, their contents, and their response headers. These headers include the ones that the [Target VEC Helper extension](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/vec-helper-browser-extension.md) tries to remove, such as `X-Frame-Options: SAMEORIGIN`, CSP (`Content-Security-Policy`), and `Set-Cookie`.
 
-* You are using Google Chrome 80+ with enhanced SameSite cookie enforcement policies. For more information, see [How do the recently announced Google Chrome SameSite cookie enforcement policies impact the VEC and EEC](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/issues-related-to-the-visual-experience-composer-vec-and-enhanced-experience-composer-eec.md#samesite)?
+The [!DNL Chrome] extension APIs that intercept web requests do not receive the requests that a SW has intercepted and handled. When a SW serves the web page request from a cache, the extension therefore cannot fix the headers and the cookies, and the page does not load inside the VEC because of the cached `X-Frame-Options` or CSP headers.
 
-The VEC Helper browser extension for Chrome solves site-loading issues for which customers now rely on the [!DNL Target] [Enhanced Experience Composer](/help/main/administrating-target/visual-experience-composer-set-up.md#eec) or third-party extensions, such as Requestly.
+As a potential workaround, disable the Service Workers in the [!DNL Chrome] Developer Tools > **Application** tab, then enable the "Bypass for network" check box in the Service Workers section.
 
-## Benefits of using the VEC Helper extension
+## Benefits of the VEC Helper extension
 
-* All iframe busting headers, such as X-Frame-Options and Content-Security-Policy, are implicitly removed from the website. There is no more need to create complicated Requestly rules.
-* If a webpage does not yet contain the [!DNL Target] at.js JavaScript library, you can use the extension to inject the library so you can author experiences for the website. You can then create activities and QA them using preview links.
-
-  Note that using the Enhanced Experience Composer (EEC), the extension does not inject at.js, but the SameSite Cookie functionality is still present. To inject at.js on the webpage, turn off the EEC.
-
-* [Mobile viewports](/help/main/c-experiences/c-visual-experience-composer/mobile-viewports.md) are supported even without the [!UICONTROL Enhanced Experience Composer] (EEC).
-* Customers new to [!DNL Target] can use the extension to experiment with [!DNL Target] even if their IT developers have not yet implemented [!DNL Target] on their websites.
-* Partners servicing multiple customers' websites and [!DNL Target] accounts now have one simple mechanism to support VEC loading, instead of managing multiple rules in third-party tools.
+* **Iframe-busting headers removed:** the extension removes headers such as `X-Frame-Options` and `Content-Security-Policy` from the website implicitly, so no complicated Requestly rules are needed.
+* **at.js injection:** when a web page does not yet contain the [!DNL Target] at.js JavaScript library, the extension can inject it. Experiences can then be authored for the website, and the activities can be created and checked with preview links. With the Enhanced Experience Composer (EEC), the extension does not inject at.js, but the SameSite cookie functionality remains. To inject at.js on the web page, turn off the EEC.
+* **Mobile viewports:** [mobile viewports](/help/main/c-experiences/c-visual-experience-composer/mobile-viewports.md) are supported even without the **[!UICONTROL Enhanced Experience Composer]** (EEC).
+* **New [!DNL Target] customers:** the extension makes it possible to experiment with [!DNL Target] even when the IT developers have not yet implemented [!DNL Target] on the website.
+* **Partners:** partners who service the websites and [!DNL Target] accounts of multiple customers get one mechanism to support VEC loading, in place of multiple rules in third-party tools.
 
 ## Obtain and install the VEC Helper browser extension
 
-1. Navigate to the [Adobe Target VEC Helper browser extension in the Chrome Web Store](https://chromewebstore.google.com/detail/adobe-experience-cloud-vi/kgmjjkfjacffaebgpkpcllakjifppnca).
-1. Click **[!UICONTROL Add to Chrome > Add Extension]**.
+Installing the extension in [!DNL Chrome] makes it possible to load websites reliably in the VEC, including websites that block iframes or that do not yet have at.js implemented.
+
+1. Go to the [Adobe Target VEC Helper browser extension in the Chrome Web Store](https://chromewebstore.google.com/detail/adobe-experience-cloud-vi/kgmjjkfjacffaebgpkpcllakjifppnca).
+1. Click **[!UICONTROL Add to Chrome]** > **[!UICONTROL Add Extension]**.
 1. Open the VEC in [!DNL Target].
-1. To use the extension, click the VEC Helper browser extension icon ( ![VEC Helper icon](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/assets/vec-help-extension.png) ) in your Chrome browser's toolbar while in the VEC or [QA Mode](/help/main/c-activities/c-activity-qa/activity-qa.md).
-1. (Conditional) Slide the **[!UICONTROL Inject Target Libraries]** toggle to the "on" position if the webpage does not yet contain the [!DNL Target] at.js JavaScript library.
+1. While in the VEC or [QA Mode](/help/main/c-activities/c-activity-qa/activity-qa.md), click the VEC Helper browser extension icon ( ![VEC Helper icon](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/assets/vec-help-extension.png) ) in the toolbar of [!DNL Chrome].
+1. (Conditional) If the web page does not yet contain the [!DNL Target] at.js JavaScript library, switch the **[!UICONTROL Inject Target Libraries]** toggle on.
 
-   The following illustration shows the VEC Helper with the [!UICONTROL Inject Target Libraries] setting enabled:
+   The following illustration shows the VEC Helper with the **[!UICONTROL Inject Target Libraries]** setting enabled:
 
-   ![VEC helper 1](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/assets/vec-help-extension-1.png)
+   ![VEC Helper extension panel with the Inject Target Libraries toggle on and the Cookies toggle off, showing that the Cookies setting sets the SameSite=None and Secure flags on all cookies for requests inside the VEC](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/assets/vec-help-extension-1.png)
 
-   The following illustration shows the VEC Helper asking you whether you want it to inject [!DNL Target] libraries in the page to enable authoring: 
+   The VEC Helper then asks whether it should inject the [!DNL Target] libraries in the page to enable authoring:
 
-   ![VEC helper 2](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/assets/vec-helper.png)
+   ![Inject Target Libraries prompt saying that the Target VEC Helper extension wants to inject Target libraries in the page to enable authoring, with the Cancel and Allow buttons](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/assets/vec-helper.png)
 
-1. (Conditional) Slide the **[!UICONTROL Cookies]** toggle to the "on" position to automatically add the `SameSite=None` attribute browser fix.
+1. (Conditional) Switch the **[!UICONTROL Cookies]** toggle on to add the `SameSite=None` attribute browser fix automatically.
 
-   ![Cookies toggle in the VEC helper extension](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/assets/cookies-vec-helper.png)
+   ![VEC Helper extension panel with the Cookies toggle switched on and highlighted, over the Visual Experience Composer showing a sample page](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/assets/cookies-vec-helper.png)
 
-   For more information on the `SameSite=None` attribute browser fix, see "How do the recently announced Google Chrome SameSite cookie enforcement policies impact the VEC and EEC?" in [Troubleshooting Issues Related to the Visual Experience Composer and Enhanced Experience Composer](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/issues-related-to-the-visual-experience-composer-vec-and-enhanced-experience-composer-eec.md#samesite).
+   For more information on the `SameSite=None` attribute browser fix, see [Google Chrome SameSite cookie policies](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/issues-related-to-the-visual-experience-composer-vec-and-enhanced-experience-composer-eec.md#samesite).
 
-## Notes
+## Usage notes
 
-* The [!UICONTROL Inject Target libraries] flag in the extension is OFF by default. You can enable this flag if you want to use the VEC on a site that has not yet been implemented for [!DNL Target].
+* The **[!UICONTROL Inject Target Libraries]** flag in the extension is off by default. Turn it on to use the VEC on a site on which [!DNL Target] is not yet implemented.
 
-  This flag is a global setting. The flag is enabled or disabled for all websites opened in the VEC. So, for example, if you set this flag to "on" and open a website that is already implemented with at.js, you receive a message informing you that at.js is already loaded. Adobe anticipates that most customers already have at.js implemented on their pages and use the default setting of "off."
+  The flag is a global setting, so it is enabled or disabled for all websites opened in the VEC. For example, with the flag on, opening a website that already has at.js implemented displays a message that at.js is already loaded. [!DNL Adobe] expects that most customers already have at.js implemented on their pages and use the default setting of off.
 
-* The extension loads the latest version of at.js that is available from the [!DNL Target UI] in [!UICONTROL Administration > Implementation].
-* When using the extension to inject at.js while in [QA Mode](/help/main/c-activities/c-activity-qa/activity-qa.md), you must have another Chrome tab open. This Chrome tab must be authenticated to the same [!DNL Adobe Experience Cloud] Organization in which you created the activity.
-* The following messages help keep you informed:
+* The extension loads the latest version of at.js that is available in the [!DNL Target] UI under **[!UICONTROL Administration]** > **[!UICONTROL Implementation]**.
+* To use the extension to inject at.js in [QA Mode](/help/main/c-activities/c-activity-qa/activity-qa.md), another Chrome tab must be open. This tab must be authenticated to the same [!DNL Adobe Experience Cloud] organization in which the activity was created.
+* The VEC displays messages in the following cases:
 
-  * If you attempt to load a website using the VEC that fails to load, a message displays suggesting that you install the VEC Helper browser extension.
-  * If at.js is not yet implemented on the website, a message displays in the VEC suggesting that you install the extension.
-  * If the extension is enabled and is powering the loading, messages display when the extension injects the at.js library (if necessary) or helps open the website reliably within the VEC.
+  * A website fails to load in the VEC. The message suggests installing the VEC Helper browser extension.
+  * at.js is not yet implemented on the website. The message suggests installing the extension.
+  * The extension is enabled and powers the loading. The messages display when the extension injects the at.js library, if necessary, or helps open the website reliably in the VEC.

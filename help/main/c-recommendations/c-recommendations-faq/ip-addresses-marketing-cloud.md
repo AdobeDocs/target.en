@@ -19,15 +19,19 @@ topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
     internal-label: Customer experience
 ---
-# IP addresses used by [!DNL Recommendations] feed-processing servers
+# IP addresses used by [!DNL Recommendations] feed-processing servers {#recs-ip-addresses}
 
-List of IP addresses used in [!DNL Adobe Target] [!DNL Recommendations] feed-processing servers to help you configure your firewall to allow IP addresses originating from [!DNL Adobe] servers.
+>[!BEGINSHADEBOX]
+
+**On this page:** Find the IP addresses that the [!DNL Adobe Target] [!DNL Recommendations] feed-processing servers use, to configure a firewall that allows the IP addresses originating from [!DNL Adobe] servers.
+
+>[!ENDSHADEBOX]
 
 >[!IMPORTANT]
 >
->The [!DNL Target] team is currently updating the NAT gateway addresses for downloading [!DNL Recommendations] feeds. If you implement IP allowlisting, ensure that you allowlist the following new AWS hosts. The existing hosts are scheduled to be decommissioned on June 30, 2024. To ensure a smooth transition, allowlist all nine addresses. There is no urgency to remove the existing addresses.
+>The [!DNL Target] team is currently updating the NAT gateway addresses for downloading [!DNL Recommendations] feeds. When IP allowlisting is implemented, allowlist the following new AWS hosts. The existing hosts are scheduled to be decommissioned on June 30, 2024. To ensure a smooth transition, allowlist all nine addresses. There is no urgency to remove the existing addresses.
 
-[!DNL Target] [!UICONTROL Recommendations] activities use the following AWS hosts when accessing customers' FTP servers:
+[!DNL Target] [!UICONTROL Recommendations] activities use the following AWS hosts when accessing the FTP servers of customers.
 
 **New hosts**:
 
@@ -48,4 +52,4 @@ List of IP addresses used in [!DNL Adobe Target] [!DNL Recommendations] feed-pro
 | Oregon | `44.232.167.82` |
 | Oregon | `52.41.252.205` |
 
-[!DNL Target] [!UICONTROL Recommendations] APIs also use the same AWS hosts.
+The [!DNL Target] [!UICONTROL Recommendations] APIs also use the same AWS hosts.

@@ -19,31 +19,35 @@ topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
 ---
-# Element selectors used in the Visual Experience Composer
+# Element selectors used in the [!UICONTROL Visual Experience Composer] {#vec-selectors}
 
-An element selector is a CSS expression that can identify one or more elements.
+>[!BEGINSHADEBOX]
 
-You can find basic information about CSS selectors in the [Selectors](https://developer.mozilla.org/en-US/docs/Web/Guide/CSS/Getting_started/Selectors) document on the *[!DNL Mozilla Developer Network]* (MDN).
+**On this page:** Learn how element selectors work in the [!UICONTROL Visual Experience Composer] (VEC), how to choose which selectors are used, and how [!DNL Target] generates a selector for an element.
 
-You can set whether to use element classed or element IDs in your account preferences. Click **[!UICONTROL Administration > Visual Experience Composer]**, then choose your preferred CSS selectors.
+>[!ENDSHADEBOX]
 
-* **Use element IDs**: Disable if the same ID is used for multiple elements or element IDs might change on page load.
-* **Use element classes**: Disable if element classes on a page might change.
-* **Use preferred selectors**: Enable if you want to use unique selectors in the VEC to identify key areas of your website.
+An element selector is a CSS expression that can identify one or more elements. Basic information about CSS selectors is available in the [Selectors](https://developer.mozilla.org/en-US/docs/Web/Guide/CSS/Getting_started/Selectors) document on the *[!DNL Mozilla Developer Network]* (MDN).
+
+Whether to use element classes or element IDs is set in the account preferences. Click **[!UICONTROL Administration]** > **[!UICONTROL Visual Experience Composer]**, then choose the preferred CSS selectors:
+
+* **[!UICONTROL Use element IDs]**: Disable if the same ID is used for multiple elements, or if element IDs might change on page load.
+* **[!UICONTROL Use element classes]**: Disable if element classes on a page might change.
+* **[!UICONTROL Use preferred selectors]**: Enable to use unique selectors in the VEC to identify key areas of the website.
 
 >[!NOTE]
 >
->Element Classes are available as selectors in [!UICONTROL A/B Test], [!UICONTROL Automated Personalization], and[!UICONTROL  Multivariate Test] activities.
+>Element classes are available as selectors in **[!UICONTROL A/B Test]**, **[!UICONTROL Automated Personalization]**, and **[!UICONTROL Multivariate Test]** activities.
 
-For information about when to use CSS selectors and when to use unique IDs, see [Visual Experience Composer Best Practices and Limitations](/help/main/c-experiences/c-visual-experience-composer/experience-composer-best-practices.md#concept_E284B3F704C04406B174D9050A2528A6).
+For information about when to use CSS selectors and when to use unique IDs, see [Visual Experience Composer best practices and limitations](/help/main/c-experiences/c-visual-experience-composer/experience-composer-best-practices.md#vec-best-practices).
 
-## How [!DNL Target] generates a selector for an element {#section_D89D954BCBFB486CA081BE183776A475}
+## How [!DNL Target] generates a selector for an element {#generate-selector}
 
-[!DNL Target] uses a simple algorithm to create a selector. Here is a very brief explanation of the generation logic:
+[!DNL Target] uses a simple algorithm to create a selector. The generation logic is as follows:
 
-1. If an element has an ID, for example `id="container"`, then the selector for the element is `#container`.
+1. If an element has an ID, for example `id="container"`, the selector for the element is `#container`.
 
-   For Example:
+   For example:
 
    ```html
    <div class="wrapper">
@@ -59,9 +63,9 @@ For information about when to use CSS selectors and when to use unique IDs, see 
    
    ```
 
-1. If an element contains a class attribute, [!DNL Target] attempts to leverage the first class of any classes present on the element.
+1. If an element contains a class attribute, [!DNL Target] attempts to use the first class of any classes present on the element.
 
-   [!DNL Target] attempts to parse the parent element until it finds the `<HTML>` element or an element with an ID. Whenever an element contains an ID and the selector is computed on its descendant child, this element's ID contributes to the selector.
+   [!DNL Target] attempts to parse the parent element until it finds the `<HTML>` element or an element with an ID. Whenever an element contains an ID and the selector is computed on its descendant child, the ID of this element contributes to the selector.
 
    For example:
 
@@ -78,11 +82,9 @@ For information about when to use CSS selectors and when to use unique IDs, see 
    </div>
    ```
 
-   In this example:
+   In this example, the selector is `#container` > `ul.navigation:eq(0)` > `li.item:eq(0)` (" > " indicates the immediate child).
 
-   Selector: `#container` > `ul.navigation:eq(0)` > `li.item:eq(0)` (" > " indicates the immediate child.)
-
-   `eq` tells the index there is an element that has "tagName=UL" and the first class is `navigation`. Therefore, `index` is 0. See the [Selectors](https://developer.mozilla.org/en-US/docs/Web/Guide/CSS/Getting_started/Selectors) article in MDN for more information. 
+   `eq` gives the index of the element that has "tagName=UL" and the first class `navigation`. Therefore, `index` is 0. See the [Selectors](https://developer.mozilla.org/en-US/docs/Web/Guide/CSS/Getting_started/Selectors) article in MDN for more information.
 
 1. If an element does not contain a class, [!DNL Target] uses `tagName` for the element and traverses up the parent element until either the `<HTML>` element or an element with an ID is found.
 
@@ -101,10 +103,10 @@ For information about when to use CSS selectors and when to use unique IDs, see 
    </div>
    ```
 
-   Selector: `#container` > `ul.navigation(0)` > `li:nth-of-type(4)`
+   The selector is `#container` > `ul.navigation:eq(0)` > `li:nth-of-type(4)`.
 
-In the above process:
+In this process:
 
-* You can use any CSS selector as long as it uniquely identifies an element in the DOM. 
-* The approach above is the one used by [!DNL Target]. [!DNL Target] does not mandate that you use this approach. You can add any selector as long as point #1 is true. 
-* You can use any attribute in the selector. This document only uses a class name as an example.
+* Any CSS selector can be used, as long as it uniquely identifies an element in the DOM.
+* The approach above is the one used by [!DNL Target]. [!DNL Target] does not mandate this approach. Any selector can be added, as long as it uniquely identifies the element.
+* Any attribute can be used in the selector. This article uses only a class name as an example.
