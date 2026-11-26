@@ -44,9 +44,13 @@ A recommendation is added as an offer while an experience is created with the [!
    >
    >For A/B Tests, the [Auto-Allocate](/help/main/c-activities/automated-traffic-allocation/automated-traffic-allocation.md) option automatically pushes traffic to the best-performing recommendations, and the [Auto-Target](/help/main/c-activities/auto-target/auto-target-to-optimize.md) option assigns visitors to tailored recommendations experiences based on their profile.
 
-1. While creating an [experience](/help/main/c-experiences/c-visual-experience-composer/viztarget-options.md), click the element to which the recommendation is added as an offer, click **[!UICONTROL Replace Content]**, then select **[!UICONTROL Recommendation]**.
+1. While creating an [experience](/help/main/c-experiences/c-visual-experience-composer/viztarget-options.md), add the recommendation as an offer in one of the following ways:
 
-   ![Visual Experience Composer with a heading selected and the Recommendation option highlighted in the menu, next to the HTML Offer and Experience Fragment options](/help/main/c-recommendations/t-create-recs-activity/assets/recs-as-offer.png)
+   * Click the element to which the recommendation is added, click **[!UICONTROL Replace Content]**, then select **[!UICONTROL Recommendation]**.
+
+     ![Visual Experience Composer with a heading selected and the Recommendation option highlighted in the menu, next to the HTML Offer and Experience Fragment options](/help/main/c-recommendations/t-create-recs-activity/assets/recs-as-offer.png)
+
+   * In the **[!UICONTROL Components]** rail, select **[!UICONTROL Recommendation]** under **[!UICONTROL Dynamic]**, hover over an existing element on the page, then click **[!UICONTROL Insert before]** or **[!UICONTROL Insert after]** to place the recommendation before or after that element.
 
 1. Access the **[!UICONTROL Show properties]** menu and click **[!UICONTROL Select a recommendation]**.
 

@@ -17,91 +17,74 @@ topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
 ---
-# Mobile viewports for responsive experiences
+# Mobile viewports for responsive experiences {#mobile-viewports}
 
-Mobile viewports let you preview your [!DNL Adobe Target] activities on screens of various sizes.
+>[!BEGINSHADEBOX]
 
-The mobile viewport preview feature is designed for responsive sites that render well on various devices, windows, and screen sizes. Responsive sites automatically adjust and adapt to any screen size, including desktops, laptops, tablets, or mobile phones.
+**On this page:** Learn how to configure mobile viewports and use them to preview and build experiences for screens of various sizes.
+
+>[!ENDSHADEBOX]
+
+Mobile viewports display [!DNL Adobe Target] activities at the screen sizes of various devices. They are designed for responsive sites, which adapt automatically to desktops, laptops, tablets, and mobile phones, and they make it possible to check that an experience renders well on each of them.
 
 >[!NOTE]
 >
-> * Use mobile viewports if your site is responsive and the same elements in your desktop page are used on your mobile page in a different configuration. If you have a separate mobile site with a separate structure, such as `m.mysite.com`, use a [multipage activity](/help/main/c-experiences/c-visual-experience-composer/multipage-activity.md#multipage-activity) instead.
+> * Use mobile viewports when the site is responsive and the mobile page reuses the elements of the desktop page in a different layout. When the mobile site is separate and has its own structure, such as `m.mysite.com`, use a [multipage activity](/help/main/c-experiences/c-visual-experience-composer/multipage-activity.md#multipage-activity) instead.
 >
->* Mobile viewports are not available if overlapped by a redirect offer overlay.
+>* Mobile viewports are not available when a redirect offer overlay overlaps them.
 
-A viewport is defined by the size of the rectangle filled by a web page on your screen. The viewport is the size of the browser window, minus the scroll bars and toolbars. Browsers use "CSS pixels." For many devices, such as those with retina screens, the viewport is smaller than the advertised device resolution.
+## Viewports and CSS breakpoints
 
-Below are the viewports and resolutions for popular devices. Remember to use the viewport size in [!DNL Target]. 
+A viewport is the area of the screen that a web page fills: the size of the browser window, minus the scroll bars and toolbars. Browsers measure it in CSS pixels, so on many devices, such as those with retina screens, the viewport is smaller than the advertised device resolution. Always use the viewport size in [!DNL Target]. The following table lists both values for popular devices.
+
++++ Viewports and resolutions of popular devices
 
 >[!NOTE]
 >
 >Various websites list viewport sizes for popular devices. For example, see `https://viewportsizer.com/devices/`. Consult the device maker's website for the most accurate, up-to-date information.
+>
+>Viewport sizes marked "est." are estimates.
 
-|  Device  | Viewport Size (width x height)  | Device Resolution (width x height) |
+|Device|Viewport Size (width x height)|Device Resolution (width x height)|
 |---|---|---|
-|iPhone 12|390 x 844|1170 x 2532|
-|iPhone 12 Mini|360 x 780|1080 x 2340|
-|iPhone 12 Pro|390 x 844|1170 x 2532|
-|iPhone 12 Pro Max|428 x 926|1248 x 2778|
-|  iPhone SE | 214 x 379 | 640 x 1136 |
-|  iPhone 11 Pro Max | 414 x 896 | 1242 x 2688 |
-|  iPhone 11 Xs Max | 414 x 896 | 1242 x 2688 |
-|  iPhone 11 | 414 x 896 | 828 x 1792 |
-|  iPhone 11 Xr | 414 x 896 | 828 x 1792 |
-|  iPhone 11 Pro | 375 x 812 | 1125 x 2436 |
-|  iPhone 11 X | 375 x 812 | 1125 x 2436 |
-|  iPhone 11 Xs | 375 x 812 | 1125 x 2436 |
-|  iPhone X  | 375 x 812  | 1125 x 2436 |
-|  iPhone 8 Plus  | 414 x 736  | 1080 x 1920  |
-|  iPhone 8  | 375 x 667  | 750 x 1334  |
-|  iPhone 7 Plus  | 414 x 736  | 1080 x 1920  |
-|  iPhone 7  | 375 x 667  | 750 x 1334  |
-|  iPhone 6s Plus  | 414 x 736  | 1080 x 1920  |
-|  iPhone 6s  | 375 x 667  | 750 x 1334  |
-|  iPhone 6 Plus  | 414 x 736  | 1080 x 1920  |
-|  iPhone 6  | 375 x 667  | 750 x 1334  |
-|  iPad Pro  | 1024 x 1366  | 2048 x 2732  |
-|  iPad Third & Fourth Generation  | 768 x 1024  | 1536 x 2048  |
-|  iPad Air 1 & 2  | 768 x 1024  | 1536 x 2048  |
-|  iPad Mini  | 768 x 1024  | 768 x 1024  |
-|  iPad Mini 2 & 3  | 768 x 1024  | 1536 x 2048  |
-|  Nexus 6P  | 411 x 731  | 1440 x 2560  |
-|  Nexus 5X  | 411 x 731  | 1080 x 1920  |
-|  Google Pixel  | 411 x 731  | 1080 x 1920  |
-|  Google Pixel XL  | 411 x 731  | 1440 x 2560  |
-|  Google Pixel 2  | 411 x 731  | 1080 x 1920  |
-|  Google Pixel 2 XL  | 411 x 823  | 1440 x 2880  |
-|  Samsung Galaxy Note 5  | 480 x 853  | 1440 x 2560  |
-|  LG G5  | 360w x 640  | 1440 x 2560  |
-|  LG G4  | 360w x 640  | 1440 x 2560  |
-|  LG G3  | 360w x 640  | 1440 x 2560  |
-|  One Plus 3  | 480 x 853  | 1080 x 1920  |
-|  Samsung Galaxy S9  | 360 x 740  | 1440 x 2960  |
-|  Samsung Galaxy S9+  | 360 x 740  | 1440 x 2960  |
-|  Samsung Galaxy S8  | 360 x 740  | 1440 x 2960  |
-|  Samsung Galaxy S8+  | 360 x 740  | 1440 x 2960  |
-|  Samsung Galaxy S7  | 360 x 640  | 1440 x 2560  |
-|  Samsung Galaxy S7 Edge  | 360 x 640  | 1440 x 2560  |
-|  Nexus 7 (2013)  | 600 x 960  | 1200 x 1920  |
-|  Nexus 9  | 768 x 1024  | 1536 x 2048  |
-|  Samsung Galaxy Tab 10  | 800 x 1280  | 800 x 1280  |
-|  Chromebook Pixel  | 1280 x 850  | 2560 x 1700  |
+|iPhone 18 Pro Max|440 x 956|1320 x 2868|
+|iPhone 18 Pro|402 x 874|1206 x 2622|
+|iPhone 17 Pro Max|440 x 956|1320 x 2868|
+|iPhone 17 Pro|402 x 874|1206 x 2622|
+|iPhone Air|420 x 912|1260 x 2736|
+|iPhone 17|402 x 874|1206 x 2622|
+|iPhone 16e|390 x 844|1170 x 2532|
+|iPad (A16)|820 x 1180|1640 x 2360|
+|iPad mini (A17 Pro)|744 x 1133|1488 x 2266|
+|iPad Air 11″ (M3 / M4)|820 x 1180|1640 x 2360|
+|iPad Pro 11″ (M5)|834 x 1210|1668 x 2420|
+|Google Pixel 11|412 x 924 (est.)|1080 x 2424|
+|Google Pixel 11 Pro|410 x 914 (est.)|1280 x 2856|
+|Google Pixel 11 Pro XL|448 x 997 (est.)|1344 x 2992|
+|Google Pixel 10|412 x 924|1080 x 2424|
+|Google Pixel 10 Pro|410 x 914 (est.)|1280 x 2856|
+|Google Pixel 10 Pro XL|448 x 997 (est.)|1344 x 2992|
+|Samsung Galaxy S26|360 x 780|1080 x 2340|
+|Samsung Galaxy S26 Ultra|412 x 891|1440 x 3120|
+|iPhone Duo (unfolded)|890 x 626 (est.)|2670 x 1878|
+|iPhone Duo (folded)|466 x 678 (est.)|1398 x 2034|
+|Samsung Galaxy Z Fold 7 (folded)|412 x 960 (est.)|1080 x 2520|
+|Samsung Galaxy Z Flip 8|360 x 840 (est.)|1080 x 2520|
+|Google Pixel 11 Pro Fold (unfolded)|791 x 820 (est.)|2076 x 2152|
 
-To deliver an activity to visitors on a particular device, choose the appropriate audience for that device in the activity diagram. Use the Mobile Web Composer to edit the page in the activity for that device. To run an activity across your entire digital experience to ensure it looks good across all devices, do not apply targeting. Instead, use mobile viewports to preview the activity on each screen size.
++++
 
-For responsive sites, typically your site is designed to open in a different view when accessed by a device with a specific screen size. Those screen sizes that trigger the new views are known as CSS breakpoints. CSS breakpoints are points where website content responds depending on device width to display the optimal layout to visitors. CSS breakpoints are also called [media queries](https://developer.mozilla.org/en-US/docs/Web/CSS/Media_Queries/Using_media_queries). 
+A responsive site switches to a different layout at specific screen sizes. These sizes are called CSS breakpoints, or [media queries](https://developer.mozilla.org/en-US/docs/Web/CSS/Media_Queries/Using_media_queries). Saving the CSS breakpoints of the site in [!DNL Target] makes it possible to preview each view, and clicking a viewport along the top of the display opens the view for that screen size.
 
-Save your CSS breakpoints in [!DNL Target] so you can preview your experiences for each view you define. Each of these experiences displays in a mobile viewport in the [!DNL Target] interface. Open the view for each screen size by clicking that viewport along the top of the display.
-
-If your site is not responsive, use the Mobile Web Composer to view a site if your activity is targeted to a specific device.
+To deliver an activity to a particular device, select the audience for that device in the activity diagram, then edit the page for that device in the Mobile Web Composer. The same tool is used to view a site that is not responsive when the activity targets a specific device. To run an activity on all devices, apply no targeting and preview the activity at each screen size with mobile viewports.
 
 >[!IMPORTANT]
 >
->You can edit an experience from within mobile viewports. However, these changes apply to all viewports and devices, not just the viewport that you are working in. Similarly, editing an experience in the normal desktop view changes the page for all screen sizes, not just the desktop view. Currently, [!DNL Target] does not support viewport-specific page changes.
+>Experiences can be edited from within mobile viewports, but the changes apply to all viewports and devices, not only to the viewport in use. In the same way, editing an experience in the desktop view changes the page for all screen sizes. [!DNL Target] does not currently support viewport-specific page changes.
 
 ## Mobile viewport configuration {#task_B4B161499DC0470584ED922A4D20FCAB}
 
-Configure mobile viewports you want to make available while creating your experiences.
+Define the mobile viewports that are available when creating experiences.
 
 1. Click **[!UICONTROL Administration]** > **[!UICONTROL Visual Experience Composer]**.
 1. In the **[!UICONTROL Mobile viewports configuration]** section, click **[!UICONTROL Add]**.
@@ -110,40 +93,34 @@ Configure mobile viewports you want to make available while creating your experi
 
    Or
 
-   To change the configuration of an existing mobile viewport, select that viewport, then click the [!UICONTROL Edit] (pencil) icon.
+   To change the configuration of an existing mobile viewport, select that viewport, then click the **[!UICONTROL Edit]** (pencil) icon.
 
-1. Type a name for the mobile viewport.
-
-   Give your mobile viewport a descriptive name that is easy to recognize. The name can be up to 36 characters long.
-
-1. Specify the screen size of the mobile device, both width and height.
-
-   The width can be 150 to 968 pixels. The height can be 150 to 1280 pixels.
-   
+1. Type a descriptive name for the mobile viewport. The name can be up to 36 characters long.
+1. Enter the screen size of the mobile device. The width can be 150 to 968 pixels and the height can be 150 to 1280 pixels.
 1. (Optional) Select the operating system of the device.
 
    Options:
 
-   * Android 
-   * iOS 
-   * Windows 
-   * Symbian 
+   * Android
+   * iOS
+   * Windows
+   * Symbian
    * Blackberry
 
-   If you use the [Enhanced Experience Composer](/help/main/c-experiences/c-visual-experience-composer/experience-composer-best-practices.md#enable-eec) and choose an operating system, [!DNL Target] emulates that device when you view the page. For example, if there is a different look and feel for Android than for iOS on your responsive site, [!DNL Target] mimics that behavior.
+   If the [Enhanced Experience Composer](/help/main/c-experiences/c-visual-experience-composer/experience-composer-best-practices.md#enable-eec) is enabled and an operating system is selected, [!DNL Target] emulates that device when the page is viewed. For example, if the responsive site has a different look and feel for Android than for iOS, [!DNL Target] mimics that behavior.
 
 1. Click **[!UICONTROL Save]**.
 
 >[!NOTE]
 >
->If you attempt to delete a mobile viewport that is in use, the following message displays: "This viewport is currently associated to one or multiple activities. You need to remove the viewport from those activities before being able to delete it."
+>Attempting to delete a mobile viewport that is in use displays the following message: "This viewport is currently associated to one or multiple activities. You need to remove the viewport from those activities before being able to delete it."
 
 ## Create a responsive experience {#task_D6332438B5EE48CCA8AF199270F1CAEF}
 
-Add mobile viewports to your [!DNL Target] activities to create responsive experiences for mobile screens.
+Add mobile viewports to [!DNL Target] activities to create responsive experiences for mobile screens.
 
 1. Create the [desired activity](/help/main/c-activities/activities.md).
-1. In the [!UICONTROL Visual Experience Composer] (VEC), click the **[!UICONTROL Settings]** gear icon, then select **[!UICONTROL Add Mobile Viewports]**.
+1. In the **[!UICONTROL Visual Experience Composer]** (VEC), click the **[!UICONTROL Settings]** gear icon, then select **[!UICONTROL Add Mobile Viewports]**.
 
    ![Add Mobile Viewports option](/help/main/c-experiences/c-visual-experience-composer/assets/add-mobile-viewports.png)
 
@@ -153,25 +130,21 @@ Add mobile viewports to your [!DNL Target] activities to create responsive exper
 
    The mobile viewports are listed from smallest to largest according to width.
 
-1. Edit the mobile viewports as desired.
-
-   Any changes you make to the experience are applied to the experience on all devices. For example, you change the text in a heading.
-
-   Mouse over the name of a viewport to see the viewport's size.
+1. Edit the experience in the mobile viewports as needed. Any change applies to the experience on all devices, for example a change to the text of a heading. Hover over the name of a viewport to see the size of the viewport.
 
    ![iPhone 11 Pro Max responsive experience](/help/main/c-experiences/c-visual-experience-composer/assets/iphone11.png)
 
-1. If desired, toggle between portrait and landscape modes by clicking the desired orientation icon.
+1. (Optional) Toggle between portrait and landscape modes by clicking the orientation icon.
 
    ![Orientation options](/help/main/c-experiences/c-visual-experience-composer/assets/orientation.png)
 
-## Training videos 
+## Training videos
 
-The following videos contain more information about the concepts discussed in this article.
+The following videos contain more information about mobile viewports.
 
 ### Visual Experience Composer (2 of 2) (7:29) ![Overview badge](/help/main/assets/overview.png)
 
-The following demo video includes information about using the Visual Experience composer to work with mobile viewports:
+The following demo video includes information about using the Visual Experience Composer to work with mobile viewports:
 
 * Rename and duplicate an experience
 * Create a redirect experience
