@@ -52,4 +52,4 @@ topic_v2:
 | Oregon | `44.232.167.82` |
 | Oregon | `52.41.252.205` |
 
-The [!DNL Target] [!UICONTROL Recommendations] APIs also use the same AWS hosts.
+The [!DNL Target] [!UICONTROL Recommendations] APIs also use the same AWS hosts. 

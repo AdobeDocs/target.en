@@ -41,4 +41,4 @@ A carousel built with the following structure can be edited in the [!DNL Adobe T
    >
    >The **[!UICONTROL Render Using JavaScript]** option is currently not supported when it is used together with custom code in the **[!UICONTROL Visual Experience Composer]**.
 
-1. Show the next slide by updating only the class names: hide the other slides and show the next one with a timer or an animation. Never update the DOM structure with JavaScript.
+1. Show the next slide by updating only the class names: hide the other slides and show the next one with a timer or an animation. Never update the DOM structure with JavaScript. 

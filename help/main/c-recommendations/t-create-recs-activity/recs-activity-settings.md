@@ -91,4 +91,4 @@ This video covers the following activity settings:
 * Add audiences for reporting to create report filters.
 * Enter notes for the activity.
 
->[!VIDEO](https://video.tv.adobe.com/v/17381)
+>[!VIDEO](https://video.tv.adobe.com/v/17381) 

@@ -102,4 +102,4 @@ The status of the recommendations offer (algorithm) displays at the bottom of th
 
 ## Training video: Recommendations as an offer ![Overview badge](/help/main/assets/overview.png)
 
->[!VIDEO](https://video.tv.adobe.com/v/28878)
+>[!VIDEO](https://video.tv.adobe.com/v/28878) 

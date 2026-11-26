@@ -113,4 +113,4 @@ Installing the extension in [!DNL Chrome] makes it possible to load websites rel
 
   * A website fails to load in the VEC. The message suggests installing the VEC Helper browser extension.
   * at.js is not yet implemented on the website. The message suggests installing the extension.
-  * The extension is enabled and powers the loading. The messages display when the extension injects the at.js library, if necessary, or helps open the website reliably in the VEC.
+  * The extension is enabled and powers the loading. The messages display when the extension injects the at.js library, if necessary, or helps open the website reliably in the VEC. 

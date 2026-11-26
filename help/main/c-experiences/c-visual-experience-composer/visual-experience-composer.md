@@ -109,4 +109,4 @@ After page loading is canceled, it is possible to switch between experiences in 
 
 To stop page loading, click **[!UICONTROL Cancel Loading]** while the page is loading. The page remains unloaded for this activity during the current editing session, unless it is reloaded.
 
-Click **[!UICONTROL Reload]** to resume managing experiences in the current activity or add new modifications.
+Click **[!UICONTROL Reload]** to resume managing experiences in the current activity or add new modifications. 

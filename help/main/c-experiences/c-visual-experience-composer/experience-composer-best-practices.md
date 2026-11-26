@@ -440,6 +440,6 @@ Although **[!UICONTROL Browse]** mode is available for click tracking in the VEC
 
 +++ HTML elements with an external source cannot be edited.
 
-For example: video, audio tags, embed, iFrames, and frames.
+For example: video, audio tags, embed, iFrames, and frames. 
 
 +++

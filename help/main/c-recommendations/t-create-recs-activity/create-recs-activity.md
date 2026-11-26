@@ -172,4 +172,4 @@ Two additional pages are available from the activity:
 
 ## Training video: Create a Recommendations activity (7:15) ![Tutorial badge](/help/main/assets/tutorial.png)
 
->[!VIDEO](https://video.tv.adobe.com/v/27688)
+>[!VIDEO](https://video.tv.adobe.com/v/27688) 

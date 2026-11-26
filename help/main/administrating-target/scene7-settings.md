@@ -84,4 +84,4 @@ Use the following steps to connect [!DNL Dynamic Media Classic] ([!DNL Scene7]):
 
    ![Scene7 Configuration fields](/help/main/administrating-target/assets/scene7-1.png)
 
-1. Click **[!UICONTROL Submit]**.
+1. Click **[!UICONTROL Submit]**. 

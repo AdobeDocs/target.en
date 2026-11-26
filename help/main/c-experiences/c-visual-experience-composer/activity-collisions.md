@@ -48,4 +48,4 @@ The list also shows the status and priority of each potential collision, along w
 
 * If one activity is not currently active, a collision cannot occur. A collision is only possible if the inactive activity becomes active.
 * If the potential collision is between two live activities with the same priority and the same audience, a collision occurs. The priority or the status can be changed to prevent the collision.
-* If the audiences are different, there is still a potential collision, because a particular visitor could belong to multiple audiences.
+* If the audiences are different, there is still a potential collision, because a particular visitor could belong to multiple audiences. 

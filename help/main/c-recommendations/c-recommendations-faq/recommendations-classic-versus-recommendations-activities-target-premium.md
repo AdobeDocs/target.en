@@ -83,5 +83,5 @@ Recommendations can be previewed after they are set up, and any necessary change
 
 ## Reporting {#reporting-comparison}
 
-In [!DNL Target], [!DNL Recommendations] provides improved reporting that takes advantage of the capabilities of [!DNL Target] and the [!DNL Experience Cloud]. Instead of showing only the lift that [!DNL Recommendations] provides compared to the results without them, the reports show complete information about the [!DNL Recommendations] activity.
+In [!DNL Target], [!DNL Recommendations] provides improved reporting that takes advantage of the capabilities of [!DNL Target] and the [!DNL Experience Cloud]. Instead of showing only the lift that [!DNL Recommendations] provides compared to the results without them, the reports show complete information about the [!DNL Recommendations] activity. 
 

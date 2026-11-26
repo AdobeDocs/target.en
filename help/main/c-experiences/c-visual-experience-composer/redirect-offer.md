@@ -67,4 +67,4 @@ Redirect offers have the following limitations:
 
 ## Known issues
 
-Redirect activities in at.js implementations might cause the preview URL to enter a loop, with the offer delivered repeatedly. Use [QA Mode](/help/main/c-activities/c-activity-qa/activity-qa.md) to preview and test the activity instead. This issue does not affect the actual delivery of the offer. (TGT-23019)
+Redirect activities in at.js implementations might cause the preview URL to enter a loop, with the offer delivered repeatedly. Use [QA Mode](/help/main/c-activities/c-activity-qa/activity-qa.md) to preview and test the activity instead. This issue does not affect the actual delivery of the offer. (TGT-23019) 

@@ -288,6 +288,6 @@ Currently, undo is not supported for edit and delete actions from the **[!UICONT
 
 +++ Why does custom code not produce the expected results in Internet Explorer 8?
 
-[!DNL Target] no longer supports Internet Explorer 8.
+[!DNL Target] no longer supports Internet Explorer 8. 
 
 +++

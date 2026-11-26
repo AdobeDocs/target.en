@@ -261,6 +261,6 @@ Integrating [!DNL Adobe Analytics] (AA) or [!DNL Customer Journey Analytics] (CJ
 * Integrate [[!DNL Target] reporting in [!DNL Adobe Customer Journey Analytics]](/help/main/c-integrating-target-with-mac/cja/target-reporting-in-cja.md).
 * Map report suites and data views
 * Ensure consistent identity resolution (ECID)
-* Validate data collection and attribution settings
+* Validate data collection and attribution settings 
 
 +++

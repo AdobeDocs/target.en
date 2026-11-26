@@ -153,6 +153,6 @@ If this issue occurs:
 1. Find the styled text elements.
 
    * For bold text, change `<strong>` elements to `<b>`.
-   * For italic text, change `<em>` elements to `<i>`.
+   * For italic text, change `<em>` elements to `<i>`. 
 
 +++

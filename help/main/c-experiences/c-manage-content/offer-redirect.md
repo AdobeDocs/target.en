@@ -125,4 +125,4 @@ The [!DNL Adobe Target] [!UICONTROL Form-Based Experience Composer] is a non-vis
 
 1. Click the **[!UICONTROL Content]** drop-down list, click the **[!UICONTROL List]** icon ( ![List](/help/main/assets/icons/MoreSmallList.svg) ), then click **[!UICONTROL Change Redirect Offer]**.
 1. Select the desired redirect offer from the [!UICONTROL Select Redirect Offer] dialog box, then click **[!UICONTROL Add]**.
-1. Finish configuring the activity.
+1. Finish configuring the activity. 

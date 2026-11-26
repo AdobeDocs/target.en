@@ -99,4 +99,4 @@ Template rules can render the same activity across the entire domain, for exampl
 
 1. From the **[!UICONTROL Choose evaluator]** drop-down, select **[!UICONTROL Contains]**, then specify the domain.
 
-    ![Activities](assets/vec_edit_3.png)
+    ![Activities](assets/vec_edit_3.png) 

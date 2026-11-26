@@ -491,6 +491,6 @@ We are sorry to hear that you are having problems. Check out [Troubleshooting Ta
 **Where can I learn more about [!DNL Target] APIs?**
 
 +++See details
-We have exhaustive documentation around APIs. See [Delivery APIs, NodeJS SDK, and Recommendations APIs documentation](https://experienceleague.adobe.com/docs/target-dev/developer/server-side/server-side-overview.html){target=_blank}.
+We have exhaustive documentation around APIs. See [Delivery APIs, NodeJS SDK, and Recommendations APIs documentation](https://experienceleague.adobe.com/docs/target-dev/developer/server-side/server-side-overview.html){target=_blank}. 
 
 +++
